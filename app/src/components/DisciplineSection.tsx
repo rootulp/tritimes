@@ -8,12 +8,15 @@ const COLORS: Record<string, string> = {
   Total: "#ef4444",
 };
 
+const TRANSITION_COLOR = "#9ca3af";
+
 interface Props {
   discipline: string;
   time: string;
   overallData: HistogramData;
   ageGroupData: HistogramData;
   ageGroup: string;
+  compact?: boolean;
 }
 
 export default function DisciplineSection({
@@ -22,8 +25,24 @@ export default function DisciplineSection({
   overallData,
   ageGroupData,
   ageGroup,
+  compact,
 }: Props) {
-  const color = COLORS[discipline] || "#6b7280";
+  const color = COLORS[discipline] || TRANSITION_COLOR;
+
+  if (compact) {
+    return (
+      <section className="bg-gray-50 rounded-lg border border-gray-100 p-4">
+        <div className="flex items-center gap-2 mb-3">
+          <h3 className="text-sm font-semibold text-gray-700">{discipline}</h3>
+          <span className="text-sm text-gray-500">{time}</span>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Histogram data={overallData} color={color} label="Overall Field" compact />
+          <Histogram data={ageGroupData} color={color} label={`Age Group: ${ageGroup}`} compact />
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="bg-white rounded-xl border border-gray-200 p-6">

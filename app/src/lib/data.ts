@@ -127,13 +127,15 @@ export function computeHistogram(
   return { bins, athleteSeconds, athletePercentile };
 }
 
-export type Discipline = "swim" | "bike" | "run" | "finish";
+export type Discipline = "swim" | "bike" | "run" | "finish" | "t1" | "t2";
 
 const BIN_SIZES: Record<Discipline, number> = {
   swim: 300,    // 5-minute bins
   bike: 600,    // 10-minute bins
   run: 600,     // 10-minute bins
   finish: 600,  // 10-minute bins
+  t1: 60,       // 1-minute bins
+  t2: 60,       // 1-minute bins
 };
 
 function getSeconds(r: AthleteResult, discipline: Discipline): number {
@@ -142,6 +144,8 @@ function getSeconds(r: AthleteResult, discipline: Discipline): number {
     case "bike": return r.bikeSeconds;
     case "run": return r.runSeconds;
     case "finish": return r.finishSeconds;
+    case "t1": return r.t1Seconds;
+    case "t2": return r.t2Seconds;
   }
 }
 

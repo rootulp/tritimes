@@ -24,7 +24,18 @@ export default async function ResultPage({ params }: PageProps) {
     { key: "finish", label: "Total", time: athlete.finishTime },
   ];
 
+  const transitions: { key: Discipline; label: string; time: string }[] = [
+    { key: "t1", label: "T1 (Swim → Bike)", time: athlete.t1Time },
+    { key: "t2", label: "T2 (Bike → Run)", time: athlete.t2Time },
+  ];
+
   const histograms = disciplines.map((d) => ({
+    ...d,
+    overall: getDisciplineHistogram(athlete, d.key, "overall"),
+    ageGroup: getDisciplineHistogram(athlete, d.key, "ageGroup"),
+  }));
+
+  const transitionHistograms = transitions.map((d) => ({
     ...d,
     overall: getDisciplineHistogram(athlete, d.key, "overall"),
     ageGroup: getDisciplineHistogram(athlete, d.key, "ageGroup"),
@@ -85,6 +96,23 @@ export default async function ResultPage({ params }: PageProps) {
             ageGroup={athlete.ageGroup}
           />
         ))}
+      </div>
+
+      <div className="mt-8">
+        <h2 className="text-sm font-medium text-gray-400 uppercase tracking-wide mb-3">Transitions</h2>
+        <div className="space-y-4">
+          {transitionHistograms.map((h) => (
+            <DisciplineSection
+              key={h.key}
+              discipline={h.label}
+              time={h.time}
+              overallData={h.overall}
+              ageGroupData={h.ageGroup}
+              ageGroup={athlete.ageGroup}
+              compact
+            />
+          ))}
+        </div>
       </div>
     </main>
   );
