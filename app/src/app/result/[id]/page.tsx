@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllIds, getAthleteById, getDisciplineHistogram, type Discipline } from "@/lib/data";
+import { getAllIds, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, type Discipline } from "@/lib/data";
 import ResultCard from "@/components/ResultCard";
 import DisciplineSection from "@/components/DisciplineSection";
 
@@ -31,6 +31,12 @@ export default async function ResultPage({ params }: PageProps) {
   }));
 
   const totalFinishers = getAllIds().length;
+  const genderTotal = getGenderCount(athlete.gender);
+  const ageGroupTotal = getAgeGroupCount(athlete.ageGroup);
+
+  const overallPct = Math.round(((totalFinishers - athlete.overallRank) / totalFinishers) * 100);
+  const genderPct = Math.round(((genderTotal - athlete.genderRank) / genderTotal) * 100);
+  const ageGroupPct = Math.round(((ageGroupTotal - athlete.ageGroupRank) / ageGroupTotal) * 100);
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
@@ -53,17 +59,18 @@ export default async function ResultPage({ params }: PageProps) {
         />
         <ResultCard
           label="Overall"
-          value={`${athlete.overallRank}`}
-          subtext={`of ${totalFinishers}`}
+          value={`Top ${overallPct}%`}
+          subtext={`${athlete.overallRank} of ${totalFinishers}`}
         />
         <ResultCard
           label="Gender"
-          value={`${athlete.genderRank}`}
+          value={`Top ${genderPct}%`}
+          subtext={`${athlete.genderRank} of ${genderTotal}`}
         />
         <ResultCard
           label="Age Group"
-          value={`${athlete.ageGroupRank}`}
-          subtext={athlete.ageGroup}
+          value={`Top ${ageGroupPct}%`}
+          subtext={`${athlete.ageGroupRank} of ${ageGroupTotal} · ${athlete.ageGroup}`}
         />
       </div>
 

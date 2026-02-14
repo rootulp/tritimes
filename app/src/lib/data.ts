@@ -61,6 +61,14 @@ export function getAllResults(): AthleteResult[] {
   return parseCSV();
 }
 
+export function getGenderCount(gender: string): number {
+  return getAllResults().filter((r) => r.gender === gender).length;
+}
+
+export function getAgeGroupCount(ageGroup: string): number {
+  return getAllResults().filter((r) => r.ageGroup === ageGroup).length;
+}
+
 export function getAthleteById(id: number): AthleteResult | undefined {
   return getAllResults().find((r) => r.id === id);
 }
