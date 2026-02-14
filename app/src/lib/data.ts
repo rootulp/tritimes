@@ -1,13 +1,37 @@
 import fs from "fs";
 import path from "path";
-import { AthleteResult, HistogramBin, HistogramData, SearchEntry } from "./types";
+import { AthleteResult, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
 
-let cachedResults: AthleteResult[] | null = null;
+const RACES: RaceInfo[] = [
+  {
+    slug: "im703-new-york-2025",
+    name: "IRONMAN 70.3 New York 2025",
+    date: "2025-06-22",
+    location: "New York, USA",
+  },
+  {
+    slug: "im703-musselman-2025",
+    name: "IRONMAN 70.3 Musselman 2025",
+    date: "2025-07-13",
+    location: "Geneva, NY, USA",
+  },
+];
 
-function parseCSV(): AthleteResult[] {
-  if (cachedResults) return cachedResults;
+const RACE_CSV: Record<string, string> = {
+  "im703-new-york-2025": "im703-new-york-2025.csv",
+  "im703-musselman-2025": "im703-musselman-2025.csv",
+};
 
-  const csvPath = path.join(process.cwd(), "..", "data", "im703-new-york-2025.csv");
+const cache = new Map<string, AthleteResult[]>();
+
+function parseCSV(raceSlug: string): AthleteResult[] {
+  const cached = cache.get(raceSlug);
+  if (cached) return cached;
+
+  const csvFile = RACE_CSV[raceSlug];
+  if (!csvFile) return [];
+
+  const csvPath = path.join(process.cwd(), "..", "data", csvFile);
   const raw = fs.readFileSync(csvPath, "utf-8");
   const lines = raw.trim().split("\n");
   const headers = lines[0].split(",");
@@ -53,32 +77,40 @@ function parseCSV(): AthleteResult[] {
     });
   }
 
-  cachedResults = results;
+  cache.set(raceSlug, results);
   return results;
 }
 
-export function getAllResults(): AthleteResult[] {
-  return parseCSV();
+export function getRaces(): RaceInfo[] {
+  return RACES;
 }
 
-export function getGenderCount(gender: string): number {
-  return getAllResults().filter((r) => r.gender === gender).length;
+export function getRaceBySlug(slug: string): RaceInfo | undefined {
+  return RACES.find((r) => r.slug === slug);
 }
 
-export function getAgeGroupCount(ageGroup: string): number {
-  return getAllResults().filter((r) => r.ageGroup === ageGroup).length;
+export function getAllResults(raceSlug: string): AthleteResult[] {
+  return parseCSV(raceSlug);
 }
 
-export function getAthleteById(id: number): AthleteResult | undefined {
-  return getAllResults().find((r) => r.id === id);
+export function getGenderCount(raceSlug: string, gender: string): number {
+  return getAllResults(raceSlug).filter((r) => r.gender === gender).length;
 }
 
-export function getAllIds(): number[] {
-  return getAllResults().map((r) => r.id);
+export function getAgeGroupCount(raceSlug: string, ageGroup: string): number {
+  return getAllResults(raceSlug).filter((r) => r.ageGroup === ageGroup).length;
 }
 
-export function getSearchIndex(): SearchEntry[] {
-  return getAllResults().map((r) => ({
+export function getAthleteById(raceSlug: string, id: number): AthleteResult | undefined {
+  return getAllResults(raceSlug).find((r) => r.id === id);
+}
+
+export function getAllIds(raceSlug: string): number[] {
+  return getAllResults(raceSlug).map((r) => r.id);
+}
+
+export function getSearchIndex(raceSlug: string): SearchEntry[] {
+  return getAllResults(raceSlug).map((r) => ({
     id: r.id,
     fullName: r.fullName,
     ageGroup: r.ageGroup,
@@ -150,11 +182,12 @@ function getSeconds(r: AthleteResult, discipline: Discipline): number {
 }
 
 export function getDisciplineHistogram(
+  raceSlug: string,
   athlete: AthleteResult,
   discipline: Discipline,
   scope: "overall" | "ageGroup"
 ): HistogramData {
-  let pool = getAllResults();
+  let pool = getAllResults(raceSlug);
   if (scope === "ageGroup") {
     pool = pool.filter((r) => r.ageGroup === athlete.ageGroup);
   }

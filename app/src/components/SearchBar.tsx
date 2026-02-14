@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { SearchEntry } from "@/lib/types";
 
-export default function SearchBar({ entries }: { entries: SearchEntry[] }) {
+export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[]; raceSlug: string }) {
   const [query, setQuery] = useState("");
   const [matches, setMatches] = useState<SearchEntry[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ export default function SearchBar({ entries }: { entries: SearchEntry[] }) {
   function handleSelect(entry: SearchEntry) {
     setQuery(entry.fullName);
     setIsOpen(false);
-    router.push(`/result/${entry.id}`);
+    router.push(`/race/${raceSlug}/result/${entry.id}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent) {

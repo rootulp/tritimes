@@ -48,3 +48,10 @@ export interface SearchEntry {
   ageGroup: string;
   country: string;
 }
+
+export interface RaceInfo {
+  slug: string;
+  name: string;
+  date: string;
+  location: string;
+}

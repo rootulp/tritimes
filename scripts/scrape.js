@@ -1,21 +1,40 @@
 #!/usr/bin/env node
 
-// Scrapes IronMan 70.3 New York 2025 results from the Competitor.com API.
+// Scrapes IronMan race results from the Competitor.com API.
 // Zero dependencies — requires Node.js 18+.
+//
+// Usage: node scrape.js <slug> <event-id>
+// Example: node scrape.js im703-new-york-2025 d6d5f967-fe97-49ea-b497-c80584cce98c
 
 const fs = require("fs");
 const path = require("path");
 
+const RACES = {
+  "im703-new-york-2025": "d6d5f967-fe97-49ea-b497-c80584cce98c",
+  "im703-musselman-2025": "ca5c4954-e274-4358-b921-868097a625cb",
+};
+
+const slug = process.argv[2];
+const eventId = process.argv[3] || RACES[slug];
+
+if (!slug || !eventId) {
+  console.log("Usage: node scrape.js <slug> [event-id]");
+  console.log("\nKnown races:");
+  for (const [s, id] of Object.entries(RACES)) {
+    console.log(`  ${s}  ${id}`);
+  }
+  process.exit(1);
+}
+
 const BASE_URL = "https://labs-v2.competitor.com";
-const EVENT_ID = "d6d5f967-fe97-49ea-b497-c80584cce98c"; // 2025 IM 70.3 NY
 
 const RAW_DIR = path.join(__dirname, "..", "data", "raw");
 const DATA_DIR = path.join(__dirname, "..", "data");
-const RAW_PATH = path.join(RAW_DIR, "im703-new-york-2025.json");
-const CSV_PATH = path.join(DATA_DIR, "im703-new-york-2025.csv");
+const RAW_PATH = path.join(RAW_DIR, `${slug}.json`);
+const CSV_PATH = path.join(DATA_DIR, `${slug}.csv`);
 
 async function fetchResults() {
-  const url = `${BASE_URL}/api/results?wtc_eventid=${EVENT_ID}`;
+  const url = `${BASE_URL}/api/results?wtc_eventid=${eventId}`;
   console.log(`Fetching results from ${url}`);
   const res = await fetch(url);
   if (!res.ok) {
@@ -106,6 +125,8 @@ function toCSV(rows) {
 }
 
 async function main() {
+  console.log(`Scraping: ${slug} (${eventId})`);
+
   // Fetch
   const data = await fetchResults();
 
