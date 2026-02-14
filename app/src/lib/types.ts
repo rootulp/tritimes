@@ -1,0 +1,50 @@
+export interface AthleteResult {
+  id: number;
+  firstName: string;
+  lastName: string;
+  fullName: string;
+  bib: string;
+  ageGroup: string;
+  gender: string;
+  city: string;
+  state: string;
+  country: string;
+  countryISO: string;
+  swimTime: string;
+  bikeTime: string;
+  runTime: string;
+  t1Time: string;
+  t2Time: string;
+  finishTime: string;
+  swimSeconds: number;
+  bikeSeconds: number;
+  runSeconds: number;
+  t1Seconds: number;
+  t2Seconds: number;
+  finishSeconds: number;
+  overallRank: number;
+  genderRank: number;
+  ageGroupRank: number;
+  status: string;
+}
+
+export interface HistogramBin {
+  label: string;
+  rangeStart: number;
+  rangeEnd: number;
+  count: number;
+  isAthlete: boolean;
+}
+
+export interface HistogramData {
+  bins: HistogramBin[];
+  athleteSeconds: number;
+  athletePercentile: number;
+}
+
+export interface SearchEntry {
+  id: number;
+  fullName: string;
+  ageGroup: string;
+  country: string;
+}
