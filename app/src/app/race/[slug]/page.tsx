@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { getRaces, getRaceBySlug, getSearchIndex } from "@/lib/data";
 import SearchBar from "@/components/SearchBar";
 
@@ -21,14 +20,11 @@ export default async function RaceSearchPage({ params }: PageProps) {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
       <div className="text-center mb-8">
-        <Link href="/" className="text-blue-600 hover:underline text-sm mb-4 inline-block">
-          &larr; All races
-        </Link>
-        <h1 className="text-5xl font-bold text-gray-900 mb-2">TriTimes</h1>
-        <p className="text-lg text-gray-600">
+        <h1 className="text-5xl font-bold text-white mb-2">TriTimes</h1>
+        <p className="text-lg text-gray-400">
           {race.name} — {entries.length} finishers
         </p>
-        <p className="text-sm text-gray-400 mt-1">
+        <p className="text-sm text-gray-500 mt-1">
           See how you performed relative to the field
         </p>
       </div>

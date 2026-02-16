@@ -35,7 +35,7 @@ export default function Histogram({ data, color, label }: Props) {
   return (
     <div>
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-medium text-gray-600">{label}</span>
+        <span className="text-sm font-medium text-gray-400">{label}</span>
         <span className="text-sm font-semibold" style={{ color }}>
           Faster than {data.athletePercentile}%
         </span>
@@ -44,13 +44,14 @@ export default function Histogram({ data, color, label }: Props) {
         <BarChart data={data.bins} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
           <XAxis
             dataKey="label"
-            tick={{ fontSize: 11 }}
+            tick={{ fontSize: 11, fill: "#9ca3af" }}
             interval={step - 1}
           />
-          <YAxis tick={{ fontSize: 11 }} width={40} />
+          <YAxis tick={{ fontSize: 11, fill: "#9ca3af" }} width={40} />
           <Tooltip
             formatter={(value: number | undefined) => [value ?? 0, "Athletes"]}
             labelFormatter={(label) => `Time: ${label}`}
+            contentStyle={{ backgroundColor: "#1f2937", border: "1px solid #374151", color: "#ededed" }}
           />
           <ReferenceLine
             x={data.bins.find((b) => b.isAthlete)?.label}
@@ -62,7 +63,7 @@ export default function Histogram({ data, color, label }: Props) {
             {data.bins.map((bin, i) => (
               <Cell
                 key={i}
-                fill={bin.isAthlete ? color : "#d1d5db"}
+                fill={bin.isAthlete ? color : "#374151"}
               />
             ))}
           </Bar>

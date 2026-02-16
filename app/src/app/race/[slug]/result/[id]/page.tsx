@@ -56,13 +56,13 @@ export default async function ResultPage({ params }: PageProps) {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <Link href="/" className="text-blue-600 hover:underline text-sm mb-6 inline-block">
+      <Link href={`/race/${slug}`} className="text-blue-400 hover:underline text-sm mb-6 inline-block">
         &larr; Back to search
       </Link>
 
       <header className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">{athlete.fullName}</h1>
-        <p className="text-gray-600 mt-1">
+        <h1 className="text-3xl font-bold text-white">{athlete.fullName}</h1>
+        <p className="text-gray-400 mt-1">
           {race.name} &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot;{" "}
           {[athlete.city, athlete.state, athlete.country].filter(Boolean).join(", ")}
         </p>

@@ -28,10 +28,10 @@ export default function DisciplineSection({
   const color = COLORS[discipline] || "#6b7280";
 
   return (
-    <section className="bg-white rounded-xl border border-gray-200 p-6">
+    <section className="bg-gray-900 rounded-xl border border-gray-700 p-6">
       <div className="flex items-center gap-3 mb-4">
-        <h2 className="text-xl font-bold text-gray-900">{discipline}</h2>
-        <span className="text-lg text-gray-600">{time}</span>
+        <h2 className="text-xl font-bold text-white">{discipline}</h2>
+        <span className="text-lg text-gray-400">{time}</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Histogram data={overallData} color={color} label="Overall Field" />

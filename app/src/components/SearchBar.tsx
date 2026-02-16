@@ -69,20 +69,20 @@ export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[
         onKeyDown={handleKeyDown}
         onFocus={() => matches.length > 0 && setIsOpen(true)}
         placeholder="Search athlete name..."
-        className="w-full px-4 py-3 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="w-full px-4 py-3 text-lg border border-gray-700 rounded-lg bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
       {isOpen && (
-        <ul className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-80 overflow-y-auto">
+        <ul className="absolute z-10 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-lg max-h-80 overflow-y-auto">
           {matches.map((entry, i) => (
             <li
               key={entry.id}
               onClick={() => handleSelect(entry)}
-              className={`px-4 py-3 cursor-pointer border-b border-gray-100 last:border-b-0 ${
-                i === selectedIndex ? "bg-blue-50" : "hover:bg-gray-50"
+              className={`px-4 py-3 cursor-pointer border-b border-gray-800 last:border-b-0 ${
+                i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"
               }`}
             >
-              <div className="font-medium text-gray-900">{entry.fullName}</div>
-              <div className="text-sm text-gray-500">
+              <div className="font-medium text-white">{entry.fullName}</div>
+              <div className="text-sm text-gray-400">
                 {entry.ageGroup} &middot; {entry.country}
               </div>
             </li>
