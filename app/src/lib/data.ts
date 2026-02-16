@@ -20,6 +20,7 @@ function loadRaces(): RaceInfo[] {
     name: e.name,
     date: e.date,
     location: e.location,
+    finishers: e.finishers,
   }));
 }
 
