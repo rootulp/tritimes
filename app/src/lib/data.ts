@@ -176,9 +176,9 @@ export function computeHistogram(
     });
   }
 
-  // Percentile: what percentage of finishers the athlete beat
-  const fasterCount = valid.filter((s) => s > athleteSeconds).length;
-  const athletePercentile = Math.round((fasterCount / valid.length) * 100);
+  // Percentile: percentage of finishers the athlete beat (higher = better)
+  const slowerCount = valid.filter((s) => s > athleteSeconds).length;
+  const athletePercentile = Math.round((slowerCount / valid.length) * 100);
 
   return { bins, athleteSeconds, athletePercentile };
 }

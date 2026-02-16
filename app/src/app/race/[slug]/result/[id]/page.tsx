@@ -55,9 +55,9 @@ export default async function ResultPage({ params }: PageProps) {
   const genderTotal = getGenderCount(slug, athlete.gender);
   const ageGroupTotal = getAgeGroupCount(slug, athlete.ageGroup);
 
-  const overallPct = Math.round(((totalFinishers - athlete.overallRank) / totalFinishers) * 100);
-  const genderPct = Math.round(((genderTotal - athlete.genderRank) / genderTotal) * 100);
-  const ageGroupPct = Math.round(((ageGroupTotal - athlete.ageGroupRank) / ageGroupTotal) * 100);
+  const overallPct = Math.max(1, Math.round((athlete.overallRank / totalFinishers) * 100));
+  const genderPct = Math.max(1, Math.round((athlete.genderRank / genderTotal) * 100));
+  const ageGroupPct = Math.max(1, Math.round((athlete.ageGroupRank / ageGroupTotal) * 100));
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
