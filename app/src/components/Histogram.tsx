@@ -24,10 +24,9 @@ interface Props {
   data: HistogramData;
   color: string;
   label: string;
-  compact?: boolean;
 }
 
-export default function Histogram({ data, color, label, compact }: Props) {
+export default function Histogram({ data, color, label }: Props) {
   if (data.bins.length === 0) return null;
 
   // Show every Nth label to avoid crowding
@@ -36,12 +35,12 @@ export default function Histogram({ data, color, label, compact }: Props) {
   return (
     <div>
       <div className="flex items-center justify-between mb-2">
-        <span className={`${compact ? "text-xs" : "text-sm"} font-medium text-gray-600`}>{label}</span>
-        <span className={`${compact ? "text-xs" : "text-sm"} font-semibold`} style={{ color }}>
+        <span className="text-sm font-medium text-gray-600">{label}</span>
+        <span className="text-sm font-semibold" style={{ color }}>
           Faster than {data.athletePercentile}%
         </span>
       </div>
-      <ResponsiveContainer width="100%" height={compact ? 140 : 200}>
+      <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data.bins} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
           <XAxis
             dataKey="label"
