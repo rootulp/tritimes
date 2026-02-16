@@ -2,25 +2,32 @@ import fs from "fs";
 import path from "path";
 import { AthleteResult, GlobalSearchEntry, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
 
-const RACES: RaceInfo[] = [
-  {
-    slug: "im703-new-york-2025",
-    name: "IRONMAN 70.3 New York 2025",
-    date: "2025-06-22",
-    location: "New York, USA",
-  },
-  {
-    slug: "im703-musselman-2025",
-    name: "IRONMAN 70.3 Musselman 2025",
-    date: "2025-07-13",
-    location: "Geneva, NY, USA",
-  },
-];
+interface RaceManifestEntry {
+  slug: string;
+  name: string;
+  date: string;
+  location: string;
+  eventId: string;
+  finishers: number;
+}
 
-const RACE_CSV: Record<string, string> = {
-  "im703-new-york-2025": "im703-new-york-2025.csv",
-  "im703-musselman-2025": "im703-musselman-2025.csv",
-};
+function loadRaces(): RaceInfo[] {
+  const manifestPath = path.join(process.cwd(), "..", "data", "races.json");
+  const raw = fs.readFileSync(manifestPath, "utf-8");
+  const entries: RaceManifestEntry[] = JSON.parse(raw);
+  return entries.map((e) => ({
+    slug: e.slug,
+    name: e.name,
+    date: e.date,
+    location: e.location,
+  }));
+}
+
+let racesCache: RaceInfo[] | null = null;
+function getRacesInternal(): RaceInfo[] {
+  if (!racesCache) racesCache = loadRaces();
+  return racesCache;
+}
 
 const cache = new Map<string, AthleteResult[]>();
 
@@ -28,10 +35,10 @@ function parseCSV(raceSlug: string): AthleteResult[] {
   const cached = cache.get(raceSlug);
   if (cached) return cached;
 
-  const csvFile = RACE_CSV[raceSlug];
-  if (!csvFile) return [];
-
+  const csvFile = `${raceSlug}.csv`;
   const csvPath = path.join(process.cwd(), "..", "data", csvFile);
+  if (!fs.existsSync(csvPath)) return [];
+
   const raw = fs.readFileSync(csvPath, "utf-8");
   const lines = raw.trim().split("\n");
   const headers = lines[0].split(",");
@@ -82,11 +89,11 @@ function parseCSV(raceSlug: string): AthleteResult[] {
 }
 
 export function getRaces(): RaceInfo[] {
-  return RACES;
+  return getRacesInternal();
 }
 
 export function getRaceBySlug(slug: string): RaceInfo | undefined {
-  return RACES.find((r) => r.slug === slug);
+  return getRacesInternal().find((r) => r.slug === slug);
 }
 
 export function getAllResults(raceSlug: string): AthleteResult[] {
@@ -120,7 +127,7 @@ export function getSearchIndex(raceSlug: string): SearchEntry[] {
 
 export function getGlobalSearchIndex(): GlobalSearchEntry[] {
   const entries: GlobalSearchEntry[] = [];
-  for (const race of RACES) {
+  for (const race of getRacesInternal()) {
     for (const r of getAllResults(race.slug)) {
       entries.push({
         id: r.id,
