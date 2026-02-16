@@ -1,18 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getRaces, getRaceBySlug, getAllIds, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, type Discipline } from "@/lib/data";
+import { getRaceBySlug, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, getAllResults, type Discipline } from "@/lib/data";
 import ResultCard from "@/components/ResultCard";
 import DisciplineSection from "@/components/DisciplineSection";
 
+// Don't pre-render all 75K+ athlete pages at build time — generate on demand.
+// Next.js will render on first request and cache for subsequent visits.
 export async function generateStaticParams() {
-  const races = getRaces();
-  const params: { slug: string; id: string }[] = [];
-  for (const race of races) {
-    for (const id of getAllIds(race.slug)) {
-      params.push({ slug: race.slug, id: String(id) });
-    }
-  }
-  return params;
+  return [];
 }
 
 interface PageProps {
@@ -51,7 +46,7 @@ export default async function ResultPage({ params }: PageProps) {
     ageGroup: getDisciplineHistogram(slug, athlete, d.key, "ageGroup"),
   }));
 
-  const totalFinishers = getAllIds(slug).length;
+  const totalFinishers = getAllResults(slug).length;
   const genderTotal = getGenderCount(slug, athlete.gender);
   const ageGroupTotal = getAgeGroupCount(slug, athlete.ageGroup);
 
