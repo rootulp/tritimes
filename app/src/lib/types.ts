@@ -49,6 +49,15 @@ export interface SearchEntry {
   country: string;
 }
 
+export interface GlobalSearchEntry {
+  id: number;
+  fullName: string;
+  ageGroup: string;
+  country: string;
+  raceSlug: string;
+  raceName: string;
+}
+
 export interface RaceInfo {
   slug: string;
   name: string;

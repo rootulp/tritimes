@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { getRaces, getAllResults } from "@/lib/data";
+import { getGlobalSearchIndex } from "@/lib/data";
+import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export default function Home() {
-  const races = getRaces();
+  const entries = getGlobalSearchIndex();
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
@@ -12,24 +13,10 @@ export default function Home() {
           See how you performed relative to the field
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl">
-        {races.map((race) => {
-          const count = getAllResults(race.slug).length;
-          return (
-            <Link
-              key={race.slug}
-              href={`/race/${race.slug}`}
-              className="block p-6 border border-gray-200 rounded-lg hover:border-blue-400 hover:shadow-md transition-all"
-            >
-              <h2 className="text-xl font-semibold text-gray-900">{race.name}</h2>
-              <p className="text-sm text-gray-500 mt-1">{race.location}</p>
-              <p className="text-sm text-gray-400 mt-1">
-                {race.date} &middot; {count} finishers
-              </p>
-            </Link>
-          );
-        })}
-      </div>
+      <GlobalSearchBar entries={entries} />
+      <Link href="/races" className="text-sm text-gray-400 hover:text-gray-600 mt-6">
+        Browse all races
+      </Link>
     </main>
   );
 }

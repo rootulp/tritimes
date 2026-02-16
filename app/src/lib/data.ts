@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { AthleteResult, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
+import { AthleteResult, GlobalSearchEntry, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
 
 const RACES: RaceInfo[] = [
   {
@@ -116,6 +116,23 @@ export function getSearchIndex(raceSlug: string): SearchEntry[] {
     ageGroup: r.ageGroup,
     country: r.country,
   }));
+}
+
+export function getGlobalSearchIndex(): GlobalSearchEntry[] {
+  const entries: GlobalSearchEntry[] = [];
+  for (const race of RACES) {
+    for (const r of getAllResults(race.slug)) {
+      entries.push({
+        id: r.id,
+        fullName: r.fullName,
+        ageGroup: r.ageGroup,
+        country: r.country,
+        raceSlug: race.slug,
+        raceName: race.name,
+      });
+    }
+  }
+  return entries;
 }
 
 function formatSecondsShort(seconds: number): string {
