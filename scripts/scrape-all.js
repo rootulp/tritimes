@@ -55,10 +55,23 @@ function formatDate(dateStr) {
   }
 }
 
+function isMainEvent(event) {
+  const name = (event.name || "").toLowerCase();
+  // Skip Aquabike and other non-triathlon subevents
+  if (name.includes("aquabike")) return false;
+  if (name.includes("relay")) return false;
+  return true;
+}
+
 async function scrapeRace(entry, events, opts) {
   const results = [];
 
   for (const event of events) {
+    if (!isMainEvent(event)) {
+      console.log(`  Skipping non-triathlon event: ${event.name}`);
+      continue;
+    }
+
     const slug = generateSlug(entry.slug, event.name, event.date);
     const date = formatDate(event.date);
 
