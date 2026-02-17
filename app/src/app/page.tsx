@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero section */}
-      <section className="relative overflow-hidden">
+      <section className="relative">
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-[#0a0a0a] to-gray-900" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.15),transparent_60%)]" />
