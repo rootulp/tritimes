@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getRaceBySlug, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, getAllResults, type Discipline } from "@/lib/data";
 import ResultCard from "@/components/ResultCard";
-import DisciplineSection from "@/components/DisciplineSection";
+import DisciplineSections from "@/components/DisciplineSections";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
 // Next.js will render on first request and cache for subsequent visits.
@@ -90,28 +90,11 @@ export default async function ResultPage({ params }: PageProps) {
         />
       </div>
 
-      <div className="space-y-6">
-        {histograms.map((h) => (
-          <DisciplineSection
-            key={h.key}
-            discipline={h.label}
-            time={h.time}
-            overallData={h.overall}
-            ageGroupData={h.ageGroup}
-            ageGroup={athlete.ageGroup}
-          />
-        ))}
-        {transitionHistograms.map((h) => (
-          <DisciplineSection
-            key={h.key}
-            discipline={h.label}
-            time={h.time}
-            overallData={h.overall}
-            ageGroupData={h.ageGroup}
-            ageGroup={athlete.ageGroup}
-          />
-        ))}
-      </div>
+      <DisciplineSections
+        disciplines={histograms}
+        transitions={transitionHistograms}
+        ageGroup={athlete.ageGroup}
+      />
     </main>
   );
 }

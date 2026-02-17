@@ -16,6 +16,7 @@ interface Props {
   overallData: HistogramData;
   ageGroupData: HistogramData;
   ageGroup: string;
+  scope: "ageGroup" | "overall";
 }
 
 export default function DisciplineSection({
@@ -24,8 +25,11 @@ export default function DisciplineSection({
   overallData,
   ageGroupData,
   ageGroup,
+  scope,
 }: Props) {
   const color = COLORS[discipline] || "#6b7280";
+  const data = scope === "overall" ? overallData : ageGroupData;
+  const label = scope === "overall" ? "Overall Field" : `Age Group: ${ageGroup}`;
 
   return (
     <section className="bg-gray-900 rounded-xl border border-gray-700 p-6">
@@ -33,10 +37,7 @@ export default function DisciplineSection({
         <h2 className="text-xl font-bold text-white">{discipline}</h2>
         <span className="text-lg text-gray-400">{time}</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Histogram data={overallData} color={color} label="Overall Field" />
-        <Histogram data={ageGroupData} color={color} label={`Age Group: ${ageGroup}`} />
-      </div>
+      <Histogram data={data} color={color} label={label} />
     </section>
   );
 }
