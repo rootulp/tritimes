@@ -1,0 +1,935 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Simon,Lalonde,Simon Lalonde,1005,M18-24,Male,Rosemère,QC,Canada,CA,0:20:27,1:01:51,0:39:34,,,2:06:50,1227,3711,2374,197,101,7610,1,1,1,3,3,1,3,3,2,1,1,1,Finisher,1000
+Nick,Cosman,Nick Cosman,1201,M35-39,Male,Kingston,ON,Canada,CA,0:22:36,1:08:21,0:39:28,,,2:16:05,1356,4101,2368,225,115,8165,2,2,1,15,11,2,5,5,1,2,2,1,Finisher,1000
+Vadim,Suraev,Vadim Suraev,1390,M40-44,Male,Vancouver,BC,Canada,CA,0:22:45,1:07:15,0:43:14,,,2:19:11,1365,4035,2594,240,117,8351,3,3,1,19,14,4,4,4,2,3,3,1,Finisher,1000
+Sylvain,Nadeau,Sylvain Nadeau,1368,M40-44,Male,Quebec,QC,Canada,CA,0:24:25,1:06:16,0:42:43,,,2:19:18,1465,3976,2563,243,111,8358,4,4,2,36,25,6,6,6,3,4,4,2,Finisher,997
+Christian,Belair,Christian Belair,1283,M40-44,Male,Cornwall,ON,Canada,CA,0:24:42,1:09:00,0:41:05,,,2:20:46,1482,4140,2465,242,117,8446,5,5,3,48,34,8,10,10,4,5,5,3,Finisher,966
+Pierre-Philippe,Carle-Mossdorf,Pierre-Philippe Carle-Mossdorf,1119,M30-34,Male,Montreal,QC,Canada,CA,0:24:46,1:09:54,0:40:28,,,2:21:12,1486,4194,2428,250,114,8472,6,6,1,49,35,3,14,13,2,6,6,1,Finisher,1000
+Olivier,Duquette-Gervais,Olivier Duquette-Gervais,1026,M18-24,Male,Montréal,QC,Canada,CA,0:25:53,1:09:39,0:40:21,,,2:21:52,1553,4179,2421,239,120,8512,7,7,2,68,49,7,15,14,3,7,7,2,Finisher,684
+Adrian,Barber,Adrian Barber,1110,M30-34,Male,Ottawa,ON,Canada,CA,0:25:32,1:08:34,0:41:47,,,2:21:58,1532,4114,2507,254,111,8518,8,8,2,60,44,6,12,11,1,8,8,2,Finisher,983
+Luka,Mceniry,Luka Mceniry,1093,M25-29,Male,saint-lambert,QC,Canada,CA,0:20:02,1:11:14,0:45:44,,,2:23:09,1202,4274,2744,239,130,8589,9,9,1,1,1,1,7,7,1,9,9,1,Finisher,1000
+Valerie,Berlanger,Valerie Berlanger,2163,F25-29,Female,Quebec,QC,Canada,CA,0:26:23,1:08:12,0:43:06,,,2:23:42,1583,4092,2586,217,144,8622,10,1,1,86,24,6,11,1,1,10,1,1,Finisher,1000
+Louis-Philippe,Laurin,Louis-Philippe Laurin,1088,M25-29,Male,Montréal,QC,Canada,CA,0:24:34,1:09:41,0:42:34,,,2:24:04,1474,4181,2554,265,170,8644,11,10,2,44,30,3,13,12,2,11,10,2,Finisher,980
+Benoit,Gosselin,Benoit Gosselin,1333,M40-44,Male,Ile des Sœurs ,QC,Canada,CA,0:24:30,1:11:23,0:41:17,,,2:24:31,1470,4283,2477,310,131,8671,12,11,4,39,27,7,18,16,5,12,11,4,Finisher,888
+Serge,Laforge,Serge Laforge,1274,M40-44,Male,Varennes,QC,Canada,CA,0:27:20,1:11:07,0:40:50,,,2:24:55,1640,4267,2450,229,109,8695,13,12,5,136,101,21,21,19,6,13,12,5,Finisher,879
+David,Chaput,David Chaput,1066,M25-29,Male,Mont-tremblant,QC,Canada,CA,0:29:36,1:08:12,0:41:28,,,2:25:06,1776,4092,2488,240,110,8706,14,13,3,299,202,17,19,17,3,14,13,3,Finisher,959
+Anthony,Léveillé,Anthony Léveillé,1044,M18-24,Male,Lac-Delage,QC,Canada,CA,0:24:38,1:14:06,0:40:47,,,2:26:18,1478,4446,2447,257,150,8778,15,14,3,45,31,5,30,26,6,15,14,3,Finisher,591
+Nicolas,Simand,Nicolas Simand,1100,M25-29,Male,Montreal,Québec,France,FR,0:25:44,1:13:36,0:42:39,,,2:27:57,1544,4416,2559,238,120,8877,16,15,4,65,47,6,32,28,4,16,15,4,Finisher,899
+Marie-Claude,Boucher,Marie-Claude Boucher,1868,F35-39,Female,coteau-du-lac,QC,Canada,CA,0:24:49,1:15:00,0:42:45,,,2:28:28,1489,4500,2565,218,136,8908,17,2,1,50,15,1,35,5,1,17,2,1,Finisher,1000
+Genevieve,Croteau,Genevieve Croteau,1961,F40-44,Female,St-Jérôme,QC,Canada,CA,0:21:55,1:14:41,0:46:07,,,2:28:40,1315,4481,2767,231,126,8920,18,3,1,5,2,1,16,2,1,18,3,1,Finisher,1000
+Benoit-Félix,Aubert,Benoit-Félix Aubert,1183,M35-39,Male,Saint-Laurent,QC,Canada,CA,0:23:23,1:09:04,0:49:15,,,2:28:47,1403,4144,2955,286,139,8927,19,16,2,24,17,3,9,9,2,19,16,2,Finisher,733
+Charles-Olivier,Jacques,Charles-Olivier Jacques,1037,M18-24,Male,Sherbrooke,QC,Canada,CA,0:24:32,1:13:18,0:44:19,,,2:29:23,1472,4398,2659,302,132,8963,20,17,4,41,29,4,28,24,5,20,17,4,Finisher,526
+Laurence,Cote-Leduc,Laurence Cote-Leduc,1670,F18-24,Female,mtl,QC,Canada,CA,0:20:27,1:17:38,0:44:03,,,2:29:29,1227,4658,2643,265,176,8969,21,4,1,4,1,1,26,4,1,21,4,1,Finisher,1000
+Jason,Irven,Jason Irven,1177,M35-39,Male,Saint Faustin,QC,Canada,CA,0:27:06,1:13:10,0:44:01,,,2:29:37,1626,4390,2641,212,108,8977,22,18,3,119,85,11,38,33,5,22,18,3,Finisher,715
+Joey,Passarelli,Joey Passarelli,1050,M18-24,Male,laval,QC,Canada,CA,0:25:33,1:12:40,0:45:12,,,2:29:49,1533,4360,2712,257,127,8989,23,19,5,61,45,6,25,22,4,23,19,5,Finisher,517
+Alain,Delisle,Alain Delisle,1440,M45-49,Male,SHAWINIGAN-SUD,QC,Canada,CA,0:22:29,1:15:42,0:45:03,,,2:29:57,1349,4542,2703,247,156,8997,24,20,1,13,9,2,22,20,2,24,20,1,Finisher,1000
+Samuel,Neural,Samuel Neural,1480,M45-49,Male,Montreal,1,Canada,CA,0:27:27,1:11:36,0:43:51,,,2:30:08,1647,4296,2631,282,152,9008,25,21,2,143,106,13,37,32,5,25,21,2,Finisher,996
+Mathieu,Plante,Mathieu Plante,1158,M30-34,Male,Princeville,QC,Canada,CA,0:28:03,1:11:24,0:43:11,,,2:30:16,1683,4284,2591,275,183,9016,26,22,3,186,129,15,44,36,5,26,22,3,Finisher,809
+Michelle,Rosowsky,Michelle Rosowsky,2089,F45-49,Female,South Burlington,VT,United States,US,0:23:13,1:15:23,0:46:05,,,2:30:29,1393,4523,2765,225,123,9029,27,5,1,22,7,1,23,3,1,27,5,1,Finisher,1000
+Frederic,St-Jacques,Frederic St-Jacques,1167,M30-34,Male,Saint-Charles-Borromée,QC,Canada,CA,0:25:13,1:12:33,0:46:25,,,2:30:30,1513,4353,2785,265,114,9030,28,23,4,55,40,4,20,18,3,28,23,4,Finisher,804
+Ryan,Babcock,Ryan Babcock,1184,M35-39,Male,WHITBY,ON,Canada,CA,0:29:07,1:12:06,0:41:21,,,2:31:05,1747,4326,2481,314,197,9065,29,24,4,260,179,29,71,60,10,29,24,4,Finisher,685
+Rob,Allen,Rob Allen,1409,M45-49,Male,Cornwall,ON,Canada,CA,0:22:49,1:10:20,0:51:53,,,2:31:15,1369,4220,3113,231,142,9075,30,25,3,20,15,4,8,8,1,30,25,3,Finisher,972
+Marc,Boily,Marc Boily,1509,M50-54,Male,Sherbrooke,QC,Canada,CA,0:27:09,1:12:31,0:45:14,,,2:31:28,1629,4351,2714,257,137,9088,31,26,1,121,87,10,42,35,2,31,26,1,Finisher,1000
+Fabrice,Poirier,Fabrice Poirier,1053,M18-24,Male,Saint-lamebert,QC,Canada,CA,0:28:48,1:11:46,0:45:26,,,2:32:21,1728,4306,2726,264,117,9141,32,27,6,229,160,22,53,44,7,32,27,6,Finisher,464
+Marie-Elaine,Burke,Marie-Elaine Burke,1794,F30-34,Female,Québec,QC,Canada,CA,0:24:34,1:15:36,0:45:39,,,2:32:25,1474,4536,2739,231,165,9145,33,6,1,43,14,4,43,8,2,33,6,1,Finisher,1000
+Bernard,Nolet,Bernard Nolet,1371,M40-44,Male,Lévis,QC,Canada,CA,0:26:09,1:14:24,0:44:37,,,2:32:46,1569,4464,2677,300,156,9166,34,28,6,80,59,11,58,48,10,34,28,6,Finisher,714
+Nicolas,Beaudet,Nicolas Beaudet,1105,M30-34,Male,Montréal,QC,Canada,CA,0:26:17,1:13:31,0:46:31,,,2:32:47,1577,4411,2791,261,127,9167,35,29,5,81,60,8,47,39,6,35,29,5,Finisher,756
+Steve,Deroy,Steve Deroy,1442,M45-49,Male,Mont Tremblant,QC,Canada,CA,0:25:45,1:12:44,0:48:23,,,2:32:52,1545,4364,2903,237,123,9172,36,30,4,66,48,9,24,21,3,36,30,4,Finisher,938
+Jerome,Caron,Jerome Caron,1197,M35-39,Male,Longueuil,QC,Canada,CA,0:22:30,1:16:38,0:47:14,,,2:32:55,1350,4598,2834,267,126,9175,37,31,5,14,10,1,36,31,4,37,31,5,Finisher,646
+Minh-Anh,Pham,Minh-Anh Pham,1154,M30-34,Male,Vancouver,BC,Canada,CA,0:27:34,1:13:37,0:45:51,,,2:33:00,1654,4417,2751,224,134,9180,38,32,6,153,111,13,52,43,7,38,32,6,Finisher,752
+Daniel,Laurin,Daniel Laurin,1352,M40-44,Male,St-Joseph-Du-Lac,quebec,Canada,CA,0:27:53,1:10:50,0:47:55,,,2:33:38,1673,4250,2875,277,143,9218,39,33,7,176,126,25,33,29,7,39,33,7,Finisher,696
+Marc,Gauthier,Marc Gauthier,1447,M45-49,Male,Montreal,QC,Canada,CA,0:29:18,1:15:08,0:43:30,,,2:33:40,1758,4508,2610,234,110,9220,40,34,5,277,189,27,100,84,11,40,34,5,Finisher,921
+Sebastien,Corbeil,Sebastien Corbeil,1405,M45-49,Male,Terrebonne,QC,Canada,CA,0:24:16,1:15:40,0:47:05,,,2:33:41,1456,4540,2825,261,139,9221,41,35,6,32,23,6,48,40,6,41,35,6,Finisher,921
+Paul,Armstrong,Paul Armstrong,1410,M45-49,Male,Timmins,ON,Canada,CA,0:21:56,1:16:58,0:48:18,,,2:33:46,1316,4618,2898,257,137,9226,42,36,7,6,4,1,31,27,4,42,36,7,Finisher,919
+Louis,Brassard,Louis Brassard,1591,M55-59,Male,Sherbrooke,QC,Canada,CA,0:26:04,1:14:17,0:46:42,,,2:34:06,1564,4457,2802,310,113,9246,43,37,1,74,53,2,56,47,2,43,37,1,Finisher,1000
+Jennifer,Vaillancourt,Jennifer Vaillancourt,1853,F30-34,Female,Montreal,QC,United States,US,0:21:56,1:17:22,0:48:19,,,2:34:11,1316,4642,2899,271,123,9251,44,7,2,7,3,1,40,7,1,44,7,2,Finisher,962
+Bruno,Champoux,Bruno Champoux,1199,M35-39,Male,Quebec,QC,Canada,CA,0:28:49,1:13:29,0:45:27,,,2:34:12,1729,4409,2727,250,137,9252,45,38,6,233,162,25,72,61,11,45,38,6,Finisher,619
+Éric,Lachance-Tremblay,Éric Lachance-Tremblay,1082,M25-29,Male,Longueuil,QC,Canada,CA,0:28:22,1:13:34,0:45:29,,,2:34:21,1702,4414,2729,287,129,9261,46,39,5,198,138,13,75,63,7,46,39,5,Finisher,764
+Phong,Bui,Phong Bui,1427,M45-49,Male,Montmagny,QC,Canada,CA,0:28:22,1:13:39,0:44:27,,,2:34:29,1702,4419,2667,319,162,9269,47,40,8,197,137,18,82,69,8,47,40,8,Finisher,904
+Patrick,Cote,Patrick Cote,1432,M45-49,Male,Quebec,Quebec,Canada,CA,0:30:32,1:11:49,0:44:41,,,2:34:46,1832,4309,2681,298,166,9286,48,41,9,373,241,40,81,68,7,48,41,9,Finisher,898
+Martin,Therrien,Martin Therrien,1394,M40-44,Male,Stoneham-et-Tewkesbury,QC,Canada,CA,0:22:07,1:17:29,0:48:48,,,2:35:06,1327,4649,2928,273,129,9306,49,42,8,9,6,1,46,38,8,49,42,8,Finisher,665
+Donald,Roger,Donald Roger,1180,M35-39,Male,Lac-a-la-tortue,QC,Canada,CA,0:32:13,1:11:25,0:43:42,,,2:35:09,1933,4285,2622,336,133,9309,50,43,7,511,322,51,112,95,16,50,43,7,Finisher,599
+Martin,Francoeur,Martin Francoeur,1533,M50-54,Male,st-bruno,QC,Canada,CA,0:27:31,1:11:20,0:49:05,,,2:35:25,1651,4280,2945,304,145,9325,51,44,2,149,109,12,41,34,1,51,44,2,Finisher,917
+Mike,Johnston,Mike Johnston,1077,M25-29,Male,Waterloo,ON,Canada,CA,0:27:46,1:13:28,0:46:27,,,2:35:43,1666,4408,2787,311,171,9343,52,45,6,168,121,11,69,58,6,52,45,6,Finisher,736
+Jonathan,Talbot,Jonathan Talbot,1169,M30-34,Male,salaberry-de-valleyfield,QC,Canada,CA,0:29:38,1:12:06,0:46:51,,,2:36:07,1778,4326,2811,288,164,9367,53,46,7,302,204,27,73,62,8,53,46,7,Finisher,686
+Lucie,Turcotte,Lucie Turcotte,2097,F50-54,Female,Terrebonne,QC,Canada,CA,0:22:42,1:16:51,0:49:58,,,2:36:11,1362,4611,2998,255,145,9371,54,8,1,17,5,2,39,6,1,54,8,1,Finisher,1000
+Audrey-Ann,Richard-Tremblay,Audrey-Ann Richard-Tremblay,1759,F25-29,Female,Val-d'Or,QC,Canada,CA,0:23:53,1:16:40,0:49:03,,,2:36:14,1433,4600,2943,260,138,9374,55,9,2,25,8,1,51,9,2,55,9,2,Finisher,736
+Sean,Lajeunesse,Sean Lajeunesse,1230,M35-39,Male,st-jean-sur-richelieu,QC,Canada,CA,0:27:44,1:14:42,0:48:02,,,2:36:25,1664,4482,2882,239,118,9385,56,47,8,166,120,19,68,57,8,56,47,8,Finisher,573
+Christian,Martineau,Christian Martineau,1241,M35-39,Male,Cowansville,QC,Canada,CA,0:27:11,1:14:05,0:48:09,,,2:36:31,1631,4445,2889,268,158,9391,57,48,9,124,90,12,63,52,7,57,48,9,Finisher,570
+Kevin,Turgeon,Kevin Turgeon,1172,M30-34,Male,Lery,QC,Canada,CA,0:32:21,1:13:03,0:43:46,,,2:36:44,1941,4383,2626,309,145,9404,58,49,8,529,333,40,138,119,15,58,49,8,Finisher,673
+Sylvain,Nichols,Sylvain Nichols,1249,M35-39,Male,La Présentation,QC,Canada,CA,0:29:21,1:15:39,0:45:07,,,2:37:08,1761,4539,2707,281,140,9428,59,50,10,281,192,32,121,104,19,59,50,10,Finisher,557
+Melanie,Gouveia,Melanie Gouveia,1678,F18-24,Female,kirkland,QC,Canada,CA,0:26:22,1:16:48,0:46:48,,,2:37:09,1582,4608,2808,298,133,9429,60,10,2,85,23,3,91,15,2,60,10,2,Finisher,839
+Jean-Michel,Archambault-Cyr,Jean-Michel Archambault-Cyr,1182,M35-39,Male,St-Faustin-Lac-Carré,Québec,Canada,CA,0:26:53,1:17:40,0:45:26,,,2:37:16,1613,4660,2726,306,131,9436,61,51,11,107,76,10,119,102,17,61,51,11,Finisher,555
+Thibaud,Marechal,Thibaud Marechal,1045,M18-24,Male,MONTREAL,QC,France,FR,0:26:05,1:15:01,0:50:05,,,2:37:22,1565,4501,3005,259,112,9442,62,52,7,75,54,8,55,46,8,62,52,7,Finisher,358
+Mario,Lortie,Mario Lortie,1358,M40-44,Male,Repentigny,QC,Canada,CA,0:30:17,1:13:47,0:45:28,,,2:37:27,1817,4427,2728,307,168,9447,63,53,9,357,230,41,111,94,18,63,53,9,Finisher,616
+Michael,Berube-Daigneault,Michael Berube-Daigneault,1010,M18-24,Male,Lavaltrie,QC,Canada,CA,0:28:11,1:12:43,0:50:08,,,2:37:43,1691,4363,3008,280,121,9463,64,54,8,191,134,19,61,51,9,64,54,8,Finisher,351
+Raphaelle,Harvey,Raphaelle Harvey,1810,F30-34,Female,Boisbriand,QC,Canada,CA,0:28:00,1:16:05,0:47:58,,,2:37:47,1680,4565,2878,232,112,9467,65,11,3,184,56,11,87,14,5,65,11,3,Finisher,887
+Jeff,White,Jeff White,1403,M40-44,Male,Amaranth,ON,Canada,CA,0:26:02,1:15:07,0:49:35,,,2:37:59,1562,4507,2975,280,155,9479,66,55,10,72,52,9,64,53,12,66,55,10,Finisher,605
+Francis,Marois,Francis Marois,1362,M40-44,Male,Saint-Bruno,QC,Canada,CA,0:30:35,1:14:09,0:45:24,,,2:38:06,1835,4449,2724,310,168,9486,67,56,11,378,245,43,128,110,21,67,56,11,Finisher,602
+Julie,Page,Julie Page,1831,F30-34,Female,Malartic,Québec,Canada,CA,0:24:33,1:16:08,0:49:02,,,2:38:09,1473,4568,2942,290,216,9489,68,12,4,42,13,3,57,10,3,68,12,4,Finisher,879
+Pierre,Lamothe,Pierre Lamothe,1551,M50-54,Male,Notre-Dame-du-Mont-Carmel,QC,Canada,CA,0:29:40,1:12:15,0:48:46,,,2:38:33,1780,4335,2926,323,149,9513,69,57,3,303,205,21,80,67,7,69,57,3,Finisher,851
+Thomas,Lanier,Thomas Lanier,1086,M25-29,Male,Montreal,QC,Canada,CA,0:24:59,1:16:43,0:48:25,,,2:38:38,1499,4603,2905,336,175,9518,70,58,7,53,38,4,79,66,8,70,58,7,Finisher,674
+Pieter,Wijnhoven,Pieter Wijnhoven,1271,M35-39,Male,Boxtel,NOORD-BRABANT,Netherlands,NL,0:31:23,1:12:13,0:47:55,,,2:38:39,1883,4333,2875,280,148,9519,71,59,12,450,283,43,96,81,15,71,59,12,Finisher,526
+Félix,Duchesne,Félix Duchesne,1023,M18-24,Male,Saguenay,QC,Canada,CA,0:27:26,1:15:06,0:49:20,,,2:38:43,1646,4506,2960,273,138,9523,72,60,9,142,105,14,78,65,10,72,60,9,Finisher,350
+Frederic,Poisson,Frederic Poisson,1375,M40-44,Male,Terrebonne,QC,Canada,CA,0:27:18,1:15:23,0:46:55,,,2:38:59,1638,4523,2815,339,224,9539,73,61,12,131,96,20,101,85,15,73,61,12,Finisher,584
+Charles,Dupras,Charles Dupras,1529,M50-54,Male,Ste-Adele,QC,Canada,CA,0:30:11,1:12:38,0:48:48,,,2:39:08,1811,4358,2928,320,131,9548,74,62,4,345,225,26,92,77,9,74,62,4,Finisher,839
+Sandrine,Tirode,Sandrine Tirode,1851,F30-34,Female,,,Canada,CA,0:29:12,1:16:38,0:47:07,,,2:39:16,1752,4598,2827,260,119,9556,75,13,5,269,85,17,134,19,6,75,13,5,Finisher,856
+Jacquelyn,Macgregor,Jacquelyn Macgregor,1822,F30-34,Female,Beachburg,ON,Canada,CA,0:26:35,1:15:14,0:51:05,,,2:39:17,1595,4514,3065,235,148,9557,76,14,6,94,27,6,62,11,4,76,14,6,Finisher,855
+Ian,Godfrey,Ian Godfrey,1452,M45-49,Male,Baie D'Urfe,QC,Canada,CA,0:25:17,1:18:04,0:47:43,,,2:39:25,1517,4684,2863,333,168,9565,77,63,10,57,42,8,107,90,12,77,63,10,Finisher,801
+Stephane,Jean,Stephane Jean,1457,M45-49,Male,Montréal,Québec,Canada,CA,0:31:06,1:13:59,0:47:25,,,2:39:28,1866,4439,2845,298,120,9568,78,64,11,420,271,45,131,113,16,78,64,11,Finisher,800
+Philippe,Cousineau,Philippe Cousineau,1019,M18-24,Male,Mont-Tremblant,QC,Canada,CA,0:27:20,1:17:23,0:46:31,,,2:39:31,1640,4643,2791,334,163,9571,79,65,10,135,100,12,136,117,14,79,65,10,Finisher,350
+Benoit Hugo,Saint Pierre,Benoit Hugo Saint Pierre,2165,M35-39,Male,Trois-Rivieres,QC,Canada,CA,0:26:49,1:12:32,0:54:14,,,2:39:35,1609,4352,3254,240,120,9575,80,66,13,101,71,9,34,30,3,80,66,13,Finisher,506
+Sébastien,Labrecque,Sébastien Labrecque,1133,M30-34,Male,Sainte-Anne-Des-Lacs,QC,Canada,CA,0:31:01,1:13:28,0:45:26,,,2:39:35,1861,4408,2726,402,178,9575,81,67,9,415,270,32,147,126,17,81,67,9,Finisher,613
+Todd,Yourth,Todd Yourth,1636,M55-59,Male,deep river,ON,Canada,CA,0:24:39,1:12:51,0:54:38,,,2:39:37,1479,4371,3278,310,139,9577,82,68,2,46,32,1,27,23,1,82,68,2,Finisher,884
+Mathieu,Lachapelle Viens,Mathieu Lachapelle Viens,1134,M30-34,Male,Montreal,QC,Canada,CA,0:31:25,1:11:55,0:49:38,,,2:39:46,1885,4315,2978,279,129,9586,83,69,10,451,284,33,88,74,9,83,69,10,Finisher,610
+Daniel,Plourde,Daniel Plourde,1257,M35-39,Male,l'epiphanie,QC,Canada,CA,0:26:06,1:14:06,0:54:03,,,2:39:49,1566,4446,3243,232,102,9589,84,70,14,76,55,7,45,37,6,84,70,14,Finisher,501
+Hugues,Bruneau,Hugues Bruneau,1117,M30-34,Male,Terrebone,Qc,Canada,CA,0:26:02,1:21:15,0:46:11,,,2:39:55,1562,4875,2771,267,120,9595,85,71,11,71,51,7,161,139,19,85,71,11,Finisher,606
+Graeme,Martin,Graeme Martin,1240,M35-39,Male,Etobicoke,ON,Canada,CA,0:27:20,1:14:11,0:51:15,,,2:40:01,1640,4451,3075,296,139,9601,86,72,15,134,99,15,70,59,9,86,72,15,Finisher,497
+Jf,Thibault,Jf Thibault,1395,M40-44,Male,boisbriand,QC,Canada,CA,0:22:44,1:20:35,0:48:41,,,2:40:13,1364,4835,2921,306,187,9613,87,73,13,18,13,3,104,88,17,87,73,13,Finisher,558
+Eric,Gauthier,Eric Gauthier,1331,M40-44,Male,Blainville,QC,Canada,CA,0:28:26,1:13:08,0:51:12,,,2:40:16,1706,4388,3072,290,160,9616,88,74,14,202,141,26,66,55,13,88,74,14,Finisher,557
+Stéphane,Lamarre,Stéphane Lamarre,1550,M50-54,Male,montreal,QC,Canada,CA,0:24:27,1:16:51,0:51:42,,,2:40:22,1467,4611,3102,295,147,9622,89,75,5,37,26,2,65,54,5,89,75,5,Finisher,813
+Thomas,Gagné,Thomas Gagné,1213,M35-39,Male,Montréal,QC,Canada,CA,0:31:43,1:13:06,0:47:33,,,2:40:24,1903,4386,2853,336,146,9624,90,76,16,468,295,47,137,118,22,90,76,16,Finisher,489
+David,Guilbert,David Guilbert,1221,M35-39,Male,Ste-Thérèse,QC,Canada,CA,0:28:09,1:18:39,0:44:39,,,2:40:32,1689,4719,2679,356,189,9632,91,77,17,189,132,22,176,151,26,91,77,17,Finisher,486
+Nicolas,Fonti,Nicolas Fonti,1211,M35-39,Male,Montreal,QC,Canada,CA,0:31:37,1:15:57,0:44:07,,,2:40:38,1897,4557,2647,299,238,9638,92,78,18,459,290,45,172,148,25,92,78,18,Finisher,484
+Christopher,Eckett,Christopher Eckett,1324,M40-44,Male,Simsbury,CT,United States,US,0:26:22,1:13:34,0:54:04,,,2:40:51,1582,4414,3244,290,121,9651,93,79,15,83,61,12,50,42,9,93,79,15,Finisher,545
+Claude,Brazeau,Claude Brazeau,1592,M55-59,Male,beauharnois,QC,Canada,CA,0:28:49,1:14:49,0:49:39,,,2:41:08,1729,4489,2979,331,140,9668,94,80,3,232,161,11,110,93,5,94,80,3,Finisher,852
+Nicholas,Latreille,Nicholas Latreille,1141,M30-34,Male,mont-tremblant,QC,Canada,CA,0:32:20,1:13:06,0:48:34,,,2:41:26,1940,4386,2914,276,170,9686,95,81,12,525,330,39,130,112,13,95,81,12,Finisher,575
+Rémi,Tremblay,Rémi Tremblay,1170,M30-34,Male,Montréal,QC,Canada,CA,0:28:54,1:17:09,0:46:53,,,2:41:26,1734,4629,2813,368,142,9686,96,82,13,239,167,19,167,143,20,96,82,13,Finisher,575
+Gino,Bonneville,Gino Bonneville,1424,M45-49,Male,dalkeith,ON,Canada,CA,0:28:47,1:14:41,0:51:06,,,2:41:29,1727,4481,3066,285,130,9689,97,83,12,226,159,23,94,79,10,97,83,12,Finisher,757
+Gabriel,Dubuc Perras,Gabriel Dubuc Perras,1003,M18-24,Male,St-Louis-de-Gonzague,Quebec,Unknown,,0:26:09,1:23:11,0:45:59,,,2:41:33,1569,4991,2759,254,120,9693,98,84,11,79,58,9,198,171,17,98,84,11,Finisher,350
+Tom,Dumais,Tom Dumais,1208,M35-39,Male,La prairie ,QC,Canada,CA,0:27:37,1:16:34,0:48:59,,,2:41:41,1657,4594,2939,337,174,9701,99,85,19,157,115,18,125,107,20,99,85,19,Finisher,462
+Stephane,Arsenault,Stephane Arsenault,1412,M45-49,Male,Lévis,QC,Canada,CA,0:30:37,1:16:53,0:47:45,,,2:41:42,1837,4613,2865,235,152,9702,100,86,13,383,249,41,155,133,19,100,86,13,Finisher,753
+Mathieu,Murray,Mathieu Murray,1367,M40-44,Male,Blainville,,Canada,CA,0:29:13,1:15:51,0:48:17,,,2:41:47,1753,4551,2897,302,204,9707,101,87,16,270,185,32,133,115,23,101,87,16,Finisher,525
+Gaetan,Vachon,Gaetan Vachon,1496,M45-49,Male,Montreal,QC,Canada,CA,0:29:58,1:12:41,0:50:43,,,2:41:55,1798,4361,3043,292,221,9715,102,88,14,332,220,35,85,72,9,102,88,14,Finisher,748
+Rene,Gagne,Rene Gagne,1535,M50-54,Male,St- Bruno De Montarville,QC,Canada,CA,0:22:04,1:16:49,0:55:24,,,2:42:04,1324,4609,3324,336,131,9724,103,89,6,8,5,1,49,41,3,103,89,6,Finisher,777
+Simon,Provencher,Simon Provencher,1262,M35-39,Male,Saint-Faustin-Lac-Carré,QC,Canada,CA,0:27:19,1:14:58,0:51:42,,,2:42:07,1639,4498,3102,314,174,9727,104,90,20,132,97,14,84,71,13,104,90,20,Finisher,453
+Mylène,Tremblay,Mylène Tremblay,1857,F35-39,Female,Quebec,QC,Canada,CA,0:26:36,1:19:01,0:50:31,,,2:42:07,1596,4741,3031,248,111,9727,105,15,2,95,28,4,124,18,3,105,15,2,Finisher,713
+Jason,Porritt,Jason Porritt,1259,M35-39,Male,Timmins,ON,Canada,CA,0:29:06,1:16:01,0:50:19,,,2:42:11,1746,4561,3019,272,133,9731,106,91,21,258,177,28,120,103,18,106,91,21,Finisher,451
+Sylvain,Brossard,Sylvain Brossard,1593,M55-59,Male,candiac,QC,Canada,CA,0:29:11,1:16:13,0:48:24,,,2:42:14,1751,4573,2904,369,137,9734,107,92,4,266,184,13,159,137,9,107,92,4,Finisher,829
+Nick,Cicerchi,Nick Cicerchi,1200,M35-39,Male,DENVER,CO,United States,US,0:27:32,1:18:16,0:50:17,,,2:42:29,1652,4696,3017,253,131,9749,108,93,22,151,110,17,129,111,21,108,93,22,Finisher,445
+Sebastien,Carrier,Sebastien Carrier,1300,M40-44,Male,levis,QC,Canada,CA,0:27:49,1:15:40,0:51:17,,,2:42:31,1669,4540,3077,295,170,9751,109,94,17,171,123,22,103,87,16,109,94,17,Finisher,510
+Rick,Taylor,Rick Taylor,1493,M45-49,Male,ORMOND BEACH,FL,United States,US,0:24:58,1:20:17,0:50:55,,,2:42:41,1498,4817,3055,256,135,9761,110,95,15,52,37,7,117,100,14,110,95,15,Finisher,732
+Diane,Ste-Marie,Diane Ste-Marie,2137,F50-54,Female,Pemberton,BC,Canada,CA,0:27:31,1:19:52,0:48:30,,,2:42:46,1651,4792,2910,267,146,9766,111,16,2,150,41,5,163,23,3,111,16,2,Finisher,861
+Romain,Chagot,Romain Chagot,1120,M30-34,Male,Montréal,QC,Canada,CA,0:27:36,1:17:55,0:51:14,,,2:42:50,1656,4675,3074,231,134,9770,112,96,14,156,114,14,113,96,12,112,96,14,Finisher,545
+Nicholas,Bertrand,Nicholas Bertrand,1106,M30-34,Male,Lachine,QC,Canada,CA,0:27:11,1:16:26,0:51:57,,,2:42:53,1631,4586,3117,284,155,9773,113,97,15,125,91,11,102,86,10,113,97,15,Finisher,544
+Ruben,Hellebuyck,Ruben Hellebuyck,1130,M30-34,Male,Montreal,QC,Belgium,BE,0:23:56,1:13:37,0:55:43,,,2:42:55,1436,4417,3343,322,257,9775,114,98,16,26,18,2,29,25,4,114,98,16,Finisher,543
+Marco,Robitaille,Marco Robitaille,1384,M40-44,Male,Shawinigan,QC,Canada,CA,0:26:56,1:13:17,0:54:05,,,2:43:01,1616,4397,3245,321,202,9781,115,99,18,109,77,15,59,49,11,115,99,18,Finisher,499
+Jean-Sébastien,Rondeau,Jean-Sébastien Rondeau,1161,M30-34,Male,BROSSARD,QC,Canada,CA,0:30:32,1:18:35,0:44:04,,,2:43:08,1832,4715,2644,410,187,9788,116,100,17,374,242,29,240,205,25,116,100,17,Finisher,539
+Stephane,Nepton,Stephane Nepton,1369,M40-44,Male,jonquiere,QC,Canada,CA,0:30:58,1:13:01,0:50:08,,,2:43:08,1858,4381,3008,351,190,9788,117,101,19,410,267,50,127,109,20,117,101,19,Finisher,497
+Vincent,Corriveau,Vincent Corriveau,1304,M40-44,Male,Rimouski,QC,Canada,CA,0:27:02,1:20:32,0:48:50,,,2:43:08,1622,4832,2930,266,138,9788,118,102,20,116,82,16,164,141,26,118,102,20,Finisher,497
+Marco,Petruzzi,Marco Petruzzi,1485,M45-49,Male,Montreal,QC,Canada,CA,0:30:53,1:11:48,0:49:39,,,2:43:24,1853,4308,2979,500,164,9804,119,103,16,404,263,44,142,121,17,119,103,16,Finisher,717
+Stephane,Chabot,Stephane Chabot,1511,M50-54,Male,Longueuil,QC,Canada,CA,0:24:54,1:14:14,0:54:47,,,2:43:36,1494,4454,3287,356,225,9816,120,104,7,51,36,3,54,45,4,120,104,7,Finisher,745
+Ted,Hewitt,Ted Hewitt,1455,M45-49,Male,Burlington,ON,Canada,CA,0:28:30,1:19:37,0:46:53,,,2:43:36,1710,4777,2813,322,194,9816,121,105,17,211,147,21,197,170,26,121,105,17,Finisher,713
+Jean-Francois,Marcotte,Jean-Francois Marcotte,1239,M35-39,Male,Montréal,QC,Canada,CA,0:30:21,1:16:18,0:49:56,,,2:43:39,1821,4578,2996,271,153,9819,122,106,23,361,234,37,146,125,23,122,106,23,Finisher,421
+Michel,Pichette,Michel Pichette,1564,M50-54,Male,Otterburn Park,QC,Canada,CA,0:29:41,1:12:13,0:52:51,,,2:43:44,1781,4333,3171,346,193,9824,123,107,8,305,206,22,86,73,8,123,107,8,Finisher,742
+Mathieu,Savaria,Mathieu Savaria,1163,M30-34,Male,St-Jérôme,QC,Canada,CA,0:31:38,1:18:11,0:45:53,,,2:43:45,1898,4691,2753,309,174,9825,124,108,18,460,291,34,221,190,23,124,108,18,Finisher,526
+Richard,Swerhun,Richard Swerhun,1632,M55-59,Male,Mississauga,ON,Canada,CA,0:26:53,1:19:55,0:49:34,,,2:43:49,1613,4795,2974,281,166,9829,125,109,5,105,74,6,157,135,8,125,109,5,Finisher,795
+Christian,Lachaussee,Christian Lachaussee,1460,M45-49,Male,Montréal,QC,Canada,CA,0:28:33,1:16:31,0:51:41,,,2:43:50,1713,4591,3101,263,162,9830,126,110,18,213,149,22,116,99,13,126,110,18,Finisher,708
+Julien,Bertrand,Julien Bertrand,1113,M30-34,Male,Ontario,ON,Canada,CA,0:28:56,1:18:54,0:48:46,,,2:43:54,1736,4734,2926,274,164,9834,127,111,19,241,169,21,171,147,21,127,111,19,Finisher,523
+Marjorie,Dugas,Marjorie Dugas,1965,F40-44,Female,Ste-Adèle,QC,Canada,CA,0:27:45,1:19:07,0:48:14,,,2:43:58,1665,4747,2894,314,218,9838,128,17,2,167,47,5,166,24,3,128,17,2,Finisher,678
+Louis-Jerome,Doyon,Louis-Jerome Doyon,1321,M40-44,Male,Quebec,QC,Canada,CA,0:29:35,1:15:11,0:49:45,,,2:43:59,1775,4511,2985,392,176,9839,129,112,21,297,201,34,150,129,25,129,112,21,Finisher,479
+Kevin,Buckley,Kevin Buckley,1118,M30-34,Male,Brossard,QC,Canada,CA,0:22:27,1:21:53,0:53:03,,,2:44:01,1347,4913,3183,256,142,9841,130,113,20,12,8,1,106,89,11,130,113,20,Finisher,520
+manuel,fernandez,manuel fernandez,1325,M40-44,Male,Ottawa,ON,Mexico,MX,0:26:08,1:21:46,0:46:00,,,2:44:04,1568,4906,2760,370,240,9844,131,114,22,78,57,10,205,178,34,131,114,22,Finisher,477
+Marcel,Lavoie,Marcel Lavoie,1462,M45-49,Male,Gatineau,Quebec,Canada,CA,0:38:16,1:08:15,0:46:46,,,2:44:04,2296,4095,2806,498,149,9844,132,115,19,806,466,72,219,189,32,132,115,19,Finisher,703
+Mathieu,Laliberté,Mathieu Laliberté,1138,M30-34,Male,Montréal,QC,Canada,CA,0:28:53,1:23:21,0:45:06,,,2:44:08,1733,5001,2706,287,121,9848,133,116,21,238,166,18,258,215,27,133,116,21,Finisher,518
+Pierre,Dufour,Pierre Dufour,1609,M55-59,Male,montreal,QC,Canada,CA,0:29:53,1:17:13,0:50:15,,,2:44:22,1793,4633,3015,277,144,9862,134,117,6,324,216,16,160,138,10,134,117,6,Finisher,784
+Khanh Ngoc,Nguyen,Khanh Ngoc Nguyen,1095,M25-29,Male,montreal,QC,Canada,CA,0:27:09,1:21:13,0:49:11,,,2:44:25,1629,4873,2951,279,133,9865,135,118,8,123,89,9,186,160,12,135,118,8,Finisher,553
+David,Clas,David Clas,1602,M55-59,Male,Montreal,QC,Canada,CA,0:28:24,1:15:13,0:53:47,,,2:44:33,1704,4513,3227,279,150,9873,136,119,7,200,139,8,95,80,4,136,119,7,Finisher,780
+Olivier,Jolicoeur,Olivier Jolicoeur,1078,M25-29,Male,Montréal,QC,Canada,CA,0:27:02,1:15:25,0:52:11,,,2:44:39,1622,4525,3131,392,209,9879,137,120,9,114,80,8,108,91,9,137,120,9,Finisher,548
+Christian,Triqet,Christian Triqet,2166,M50-54,Male,Saint Sauveur,QC,Canada,CA,0:27:57,1:18:59,0:50:44,,,2:44:41,1677,4739,3044,291,130,9881,138,121,9,181,128,15,162,140,14,138,121,9,Finisher,722
+Richard,Lajoie,Richard Lajoie,1549,M50-54,Male,Saint-Jean-sur-Richelieu,QC,Canada,CA,0:27:19,1:21:31,0:47:51,,,2:44:44,1639,4891,2871,334,149,9884,139,122,10,133,98,11,211,184,21,139,122,10,Finisher,721
+Nathan,Carins,Nathan Carins,1196,M35-39,Male,North Lakes,QLD,Australia,AU,0:24:30,1:17:26,0:55:15,,,2:45:06,1470,4646,3315,325,150,9906,140,123,24,40,28,5,83,70,12,140,123,24,Finisher,390
+Caroline,Riopel,Caroline Riopel,2095,F50-54,Female,Blainville,QC,Canada,CA,0:22:27,1:18:39,0:55:56,,,2:45:10,1347,4719,3356,335,153,9910,141,18,3,11,4,1,74,12,2,141,18,3,Finisher,811
+Helene,Dore,Helene Dore,2055,F45-49,Female,Gatineau,QC,Canada,CA,0:29:02,1:15:30,0:51:11,,,2:45:12,1742,4530,3071,379,190,9912,142,19,2,252,77,8,140,21,3,142,19,2,Finisher,690
+Dominique,Guestier,Dominique Guestier,1453,M45-49,Male,Dorval,QC,Canada,CA,0:26:53,1:20:16,0:49:42,,,2:45:14,1613,4816,2982,354,149,9914,143,124,20,106,75,10,188,161,23,143,124,20,Finisher,679
+Denis,Normand,Denis Normand,1404,M45-49,Male,Coteau-du-Lac,QC,Canada,CA,0:27:38,1:22:48,0:47:22,,,2:45:30,1658,4968,2842,289,173,9930,144,125,21,158,116,15,226,193,33,144,125,21,Finisher,673
+Claude,Simard,Claude Simard,1500,M50-54,Male,Blainville,QC,Canada,CA,0:26:22,1:17:03,0:55:06,,,2:45:31,1582,4623,3306,294,126,9931,145,126,11,84,62,7,98,82,10,145,126,11,Finisher,704
+Jenne,Saunders,Jenne Saunders,2024,F40-44,Female,VERDUN,QC,Canada,CA,0:23:09,1:20:02,0:54:13,,,2:45:31,1389,4802,3253,307,180,9931,146,20,3,21,6,2,97,16,2,146,20,3,Finisher,646
+Francois,Michaud,Francois Michaud,1243,M35-39,Male,montreal,QC,Canada,CA,0:29:11,1:18:24,0:50:25,,,2:45:34,1751,4704,3025,317,137,9934,147,127,25,265,183,30,181,156,27,147,127,25,Finisher,380
+Philippe,April,Philippe April,1181,M35-39,Male,La Prairie,Québec,Canada,CA,0:33:03,1:14:25,0:46:10,,,2:45:39,1983,4465,2770,480,241,9939,148,128,26,591,365,57,229,196,32,148,128,26,Finisher,379
+Johnny,Darcy,Johnny Darcy,1437,M45-49,Male,candiac,QC,Canada,CA,0:32:09,1:15:48,0:48:52,,,2:45:47,1929,4548,2932,362,176,9947,149,129,22,504,318,54,203,176,28,149,129,22,Finisher,667
+Martin,Collette,Martin Collette,1068,M25-29,Male,Montréal,QC,Canada,CA,0:25:16,1:16:18,0:58:10,,,2:45:48,1516,4578,3490,240,124,9948,150,130,10,56,41,5,60,50,5,150,130,10,Finisher,524
+Marie-Claude,Ayotte,Marie-Claude Ayotte,1862,F35-39,Female,Shawinigan-sud,QC,Canada,CA,0:25:50,1:16:22,0:56:29,,,2:45:57,1550,4582,3389,274,162,9957,151,21,3,67,19,3,76,13,2,151,21,3,Finisher,632
+Philippe,Beauchamp,Philippe Beauchamp,1417,M45-49,Male,Montréal,QC,Canada,CA,0:27:30,1:15:45,0:53:11,,,2:45:58,1650,4545,3191,382,190,9958,152,131,23,148,108,14,118,101,15,152,131,23,Finisher,663
+Nicole,Viens,Nicole Viens,1703,F25-29,Female,Willagee,WA,Canada,CA,0:27:23,1:20:44,0:52:18,,,2:46:23,1643,4844,3138,268,90,9983,153,22,3,140,36,8,173,25,3,153,22,3,Finisher,523
+Pascal,Beauchemin,Pascal Beauchemin,1279,M40-44,Male,Montréal,QC,Canada,CA,0:28:30,1:19:08,0:51:16,,,2:46:28,1710,4748,3076,313,141,9988,154,132,23,210,146,28,180,155,31,154,132,23,Finisher,427
+Ovidiu,Schiopu,Ovidiu Schiopu,1628,M55-59,Male,Beaconsfield,QC,Canada,CA,0:26:34,1:16:42,0:53:20,,,2:46:29,1594,4602,3200,389,204,9989,155,133,8,93,67,5,123,106,6,155,133,8,Finisher,739
+francois,Barrette,francois Barrette,1111,M30-34,Male,Mascouche,QC,Canada,CA,0:32:54,1:18:32,0:48:38,,,2:46:29,1974,4712,2918,264,121,9989,156,134,22,580,358,42,236,201,24,156,134,22,Finisher,469
+Christian ,Hamel ,Christian Hamel,1335,M40-44,Male,st hubert,QC,Canada,CA,0:22:17,1:19:12,0:57:18,,,2:46:30,1337,4752,3438,323,140,9990,157,135,24,10,7,2,77,64,14,157,135,24,Finisher,426
+Alexandre,Duranceau,Alexandre Duranceau,1027,M18-24,Male,Mont Saint-Hilaire,QC,Canada,CA,0:30:34,1:14:52,0:54:08,,,2:46:34,1834,4492,3248,263,157,9994,158,136,12,377,244,25,126,108,13,158,136,12,Finisher,350
+Louis,Bernier,Louis Bernier,1188,M35-39,Male,beaconsfield,QC,Canada,CA,0:28:04,1:17:17,0:51:32,,,2:46:34,1684,4637,3092,364,217,9994,159,137,27,187,130,21,156,134,24,159,137,27,Finisher,359
+Francis,Del Duchetto,Francis Del Duchetto,1020,M18-24,Male,Terrebonne,QC,Canada,CA,0:24:20,1:20:23,0:54:37,,,2:46:37,1460,4823,3277,266,171,9997,160,138,13,34,24,3,109,92,12,160,138,13,Finisher,350
+Carl,Blanchet,Carl Blanchet,1508,M50-54,Male,Ste-Brigitte-de-Laval,QC,Canada,CA,0:28:27,1:14:42,0:54:28,,,2:46:49,1707,4482,3268,378,174,10009,161,139,12,205,142,17,115,98,11,161,139,12,Finisher,677
+Philippe,Cyrenne Blanchard,Philippe Cyrenne Blanchard,1069,M25-29,Male,drummondville,QC,Canada,CA,0:27:28,1:17:34,0:52:43,,,2:46:54,1648,4654,3163,387,162,10014,162,140,11,145,107,10,158,136,11,162,140,11,Finisher,501
+Guy,Cyr,Guy Cyr,1644,M60-64,Male,QuÃ©bec,QC,Canada,CA,0:29:26,1:14:24,0:56:15,,,2:47:00,1766,4464,3375,269,146,10020,163,141,1,286,194,3,99,83,1,163,141,1,Finisher,1000
+jj,rr,jj rr,1159,M30-34,Male,trois-rivieres,QC,Canada,CA,0:27:22,1:19:01,0:53:10,,,2:47:01,1642,4741,3190,279,169,10021,164,142,23,139,104,12,144,123,16,164,142,23,Finisher,457
+Pascal,Gingras,Pascal Gingras,1129,M30-34,Male,lévis,QC,Canada,CA,0:29:55,1:21:21,0:47:16,,,2:47:05,1795,4881,2836,355,158,10025,165,143,24,326,217,28,260,216,28,165,143,24,Finisher,456
+James,Huggins,James Huggins,1340,M40-44,Male,Stouffville ,ON,Canada,CA,0:27:49,1:17:55,0:50:42,,,2:47:06,1669,4675,3042,429,211,10026,166,144,25,173,124,23,182,157,32,166,144,25,Finisher,413
+Laurent,Malo,Laurent Malo,1146,M30-34,Male,Joliette,QC,Canada,CA,0:27:09,1:16:45,0:50:36,,,2:47:14,1629,4605,3036,444,320,10034,167,145,25,122,88,10,149,128,18,167,145,25,Finisher,453
+Francis,L'Abbé,Francis L'Abbé,1081,M25-29,Male,Blainville,QC,Canada,CA,0:26:57,1:20:49,0:50:00,,,2:47:21,1617,4849,3000,391,184,10041,168,146,12,112,79,7,209,182,14,168,146,12,Finisher,491
+Stephane,Lavigne,Stephane Lavigne,1407,M45-49,Male,Alexandria,ON,Canada,CA,0:27:56,1:18:30,0:53:25,,,2:47:22,1676,4710,3205,293,158,10042,169,147,24,178,127,17,151,130,18,169,147,24,Finisher,634
+Ronnie,Ross,Ronnie Ross,1626,M55-59,Male,Ottawa,ON,Canada,CA,0:30:13,1:11:58,0:56:43,,,2:47:26,1813,4318,3403,351,161,10046,170,148,9,350,226,18,89,75,3,170,148,9,Finisher,720
+Charles,Côté,Charles Côté,1517,M50-54,Male,"St-Lambert, Qc",QC,Canada,CA,0:30:43,1:18:35,0:50:19,,,2:47:35,1843,4715,3019,295,183,10055,171,149,13,393,257,32,208,181,20,171,149,13,Finisher,661
+Patrick,Collard,Patrick Collard,1303,M40-44,Male,Ottawa,ON,Canada,CA,0:29:26,1:17:20,0:53:00,,,2:47:49,1766,4640,3180,337,146,10069,172,150,26,288,196,33,170,146,29,172,150,26,Finisher,398
+Bertrand,Petermann,Bertrand Petermann,1484,M45-49,Male,MONTREAL,QC,Canada,CA,0:29:45,1:17:10,0:52:27,,,2:47:51,1785,4630,3147,351,158,10071,173,151,25,312,209,32,177,152,22,173,151,25,Finisher,624
+Marc-Andre,Goyette,Marc-Andre Goyette,1032,M18-24,Male,Blainville,QC,Canada,CA,0:31:22,1:17:17,0:51:38,,,2:47:51,1882,4637,3098,308,146,10071,174,152,14,447,282,28,200,173,19,174,152,14,Finisher,350
+Philippe,Gingras,Philippe Gingras,1449,M45-49,Male,Montreal,QC,Canada,CA,0:31:35,1:16:21,0:53:22,,,2:47:56,1895,4581,3202,280,118,10076,175,153,26,458,289,49,174,149,20,175,153,26,Finisher,622
+Jean-Francois,Lorange,Jean-Francois Lorange,1357,M40-44,Male,St-Hubert,QC,Canada,CA,0:31:53,1:13:29,0:52:45,,,2:47:59,1913,4409,3165,403,189,10079,176,154,27,484,305,60,165,142,27,176,154,27,Finisher,395
+Manon,Lannergan,Manon Lannergan,2164,F45-49,Female,Montreal,QC,Canada,CA,0:26:30,1:17:17,0:53:44,,,2:48:04,1590,4637,3224,418,215,10084,177,23,3,91,25,4,139,20,2,177,23,3,Finisher,630
+Paul,Miller,Paul Miller,1620,M55-59,Male,Orleans,ON,Canada,CA,0:27:06,1:18:09,0:53:56,,,2:48:07,1626,4689,3236,337,199,10087,178,155,10,118,84,7,141,120,7,178,155,10,Finisher,705
+Jocelyn,Ducharme,Jocelyn Ducharme,1322,M40-44,Male,Montreal,QC,Canada,CA,0:29:52,1:14:01,0:55:03,,,2:48:15,1792,4441,3303,373,186,10095,179,156,28,322,214,36,132,114,22,179,156,28,Finisher,389
+Eliane,Roy Richard,Eliane Roy Richard,1842,F30-34,Female,Montréal,QC,Canada,CA,0:27:41,1:22:09,0:50:30,,,2:48:20,1661,4929,3030,317,163,10100,180,24,7,162,44,9,222,32,7,180,24,7,Finisher,665
+Frédéric,Cros,Frédéric Cros,1434,M45-49,Male,Sainte-Maxime,,France,FR,0:32:08,1:16:29,0:52:06,,,2:48:21,1928,4589,3126,284,174,10101,181,157,27,502,317,53,194,167,25,181,157,27,Finisher,613
+Stephane,Calixte,Stephane Calixte,1296,M40-44,Male,Montreal,QC,Canada,CA,0:30:42,1:22:44,0:46:29,,,2:48:22,1842,4964,2789,312,195,10102,182,158,29,391,255,47,301,246,48,182,158,29,Finisher,387
+Stephane,Sarda,Stephane Sarda,1265,M35-39,Male,Laval,QC,Canada,CA,0:30:58,1:16:22,0:51:48,,,2:48:36,1858,4582,3108,391,177,10116,183,159,28,409,266,39,201,174,30,183,159,28,Finisher,350
+Pierre,Therrien,Pierre Therrien,1494,M45-49,Male,Sorel-Tracy,QC,Canada,CA,0:30:16,1:18:26,0:50:59,,,2:48:38,1816,4706,3059,356,181,10118,184,160,28,353,227,37,216,188,31,184,160,28,Finisher,607
+Alexandre,Moreau,Alexandre Moreau,1049,M18-24,Male,Boisbriand,QC,Canada,CA,0:28:37,1:16:39,0:54:43,,,2:48:49,1717,4599,3283,367,163,10129,185,161,15,218,154,20,153,131,15,185,161,15,Finisher,350
+François,Mccabe,François Mccabe,1365,M40-44,Male,Montréal ,QC,Canada,CA,0:31:47,1:15:35,0:53:40,,,2:48:56,1907,4535,3220,296,178,10136,186,162,30,476,299,56,169,145,28,186,162,30,Finisher,375
+Kevin,Millette,Kevin Millette,1245,M35-39,Male,Sainte-Adéle,QC,Canada,CA,0:31:20,1:21:55,0:47:24,,,2:48:58,1880,4915,2844,329,170,10138,187,163,29,441,279,42,306,249,43,187,163,29,Finisher,350
+Antoine,Isabelle,Antoine Isabelle,1341,M40-44,Male,Boucherville,Québec,Canada,CA,0:34:39,1:14:56,0:50:43,,,2:49:00,2079,4496,3043,377,145,10140,188,164,31,675,401,84,237,202,37,188,164,31,Finisher,373
+Marc,Provost,Marc Provost,1263,M35-39,Male,Boucherville,QC,Canada,CA,0:26:24,1:16:36,0:58:32,,,2:49:14,1584,4596,3512,303,159,10154,189,165,30,87,63,8,90,76,14,189,165,30,Finisher,350
+Pierre-Marie,Durand,Pierre-Marie Durand,1072,M25-29,Male,Verdun,QC,Canada,CA,0:30:46,1:13:44,0:56:24,,,2:49:17,1846,4424,3384,314,189,10157,190,166,13,398,261,19,122,105,10,190,166,13,Finisher,451
+Brandi,Venne,Brandi Venne,1942,F35-39,Female,Astorville,ON,Canada,CA,0:32:27,1:21:11,0:47:23,,,2:49:24,1947,4871,2843,339,164,10164,191,25,4,540,202,33,325,65,14,191,25,4,Finisher,560
+Robert,Chaudier,Robert Chaudier,1641,M60-64,Male,Joliette,QC,Canada,CA,0:26:44,1:18:22,0:55:05,,,2:49:28,1604,4702,3305,366,191,10168,192,167,2,99,69,1,148,127,2,192,167,2,Finisher,948
+Rejean,Hebert,Rejean Hebert,1543,M50-54,Male,Venise en Quebec,QC,Canada,CA,0:30:22,1:17:09,0:53:40,,,2:49:31,1822,4629,3220,333,167,10171,193,168,14,362,235,28,189,162,17,193,168,14,Finisher,620
+Robert,Torney,Robert Torney,1101,M25-29,Male,Burlington,VT,United States,US,0:28:59,1:18:29,0:53:33,,,2:49:41,1739,4709,3213,339,181,10181,194,169,14,246,172,15,190,163,13,194,169,14,Finisher,442
+Michael,Kreuzer,Michael Kreuzer,1346,M40-44,Male,Orchard Park,NY,United States,US,0:30:45,1:16:55,0:54:27,,,2:49:45,1845,4615,3267,309,149,10185,195,170,32,397,260,49,178,153,30,195,170,32,Finisher,358
+patrick,fortin,patrick fortin,1532,M50-54,Male,montreal,QC,Canada,CA,0:30:41,1:16:54,0:53:51,,,2:49:56,1841,4614,3231,342,168,10196,196,171,15,390,254,31,193,166,19,196,171,15,Finisher,612
+Linda,Blanchard,Linda Blanchard,2041,F45-49,Female,Montreal,Que,Canada,CA,0:31:11,1:20:25,0:51:28,,,2:50:05,1871,4825,3088,282,139,10205,197,26,4,427,155,18,247,38,8,197,26,4,Finisher,588
+Patrick,Nantel,Patrick Nantel,1248,M35-39,Male,Laval,QC,Canada,CA,0:30:16,1:21:13,0:49:43,,,2:50:10,1816,4873,2983,327,211,10210,198,172,31,356,229,36,256,213,36,198,172,31,Finisher,350
+Francis,Paquin,Francis Paquin,1252,M35-39,Male,Mirabel,QC,Canada,CA,0:33:01,1:16:43,0:51:48,,,2:50:11,1981,4603,3108,355,164,10211,199,173,32,589,363,56,235,200,33,199,173,32,Finisher,350
+Christine,Chenard-Guay,Christine Chenard-Guay,1876,F35-39,Female,Verdun,QC,Canada,CA,0:26:43,1:23:31,0:52:43,,,2:50:19,1603,5011,3163,284,158,10219,200,27,5,98,30,5,220,31,5,200,27,5,Finisher,541
+Samuel,Brazeau,Samuel Brazeau,1016,M18-24,Male,Gatineau,QC,Canada,CA,0:27:35,1:20:07,0:55:37,,,2:50:19,1655,4807,3337,269,151,10219,201,174,16,154,112,15,168,144,16,201,174,16,Finisher,350
+Eric,Norgren,Eric Norgren,1561,M50-54,Male,0ttawa,ON,Canada,CA,0:29:48,1:22:22,0:50:23,,,2:50:22,1788,4942,3023,313,156,10222,203,176,16,315,212,24,267,219,25,203,176,16,Finisher,603
+Sasha,Gervais,Sasha Gervais,1448,M45-49,Male,Montreal,QC,Canada,CA,0:29:08,1:23:32,0:49:30,,,2:50:31,1748,5012,2970,292,209,10231,204,177,29,261,180,25,269,221,37,204,177,29,Finisher,568
+Guylaine,Mailloux,Guylaine Mailloux,1998,F40-44,Female,LaSalle,QC,Canada,CA,0:34:42,1:15:14,0:52:11,,,2:50:39,2082,4514,3131,341,171,10239,205,28,4,678,276,51,233,34,4,205,28,4,Finisher,538
+Eric,Sauve,Eric Sauve,1386,M40-44,Male,Candiac,QC,Canada,CA,0:31:13,1:21:40,0:48:08,,,2:50:40,1873,4900,2888,333,246,10240,206,178,33,429,273,51,292,238,45,206,178,33,Finisher,350
+Olivier,Lalonde,Olivier Lalonde,1139,M30-34,Male,Rosemere,Quebec,Canada,CA,0:32:33,1:19:19,0:48:14,,,2:50:47,1953,4759,2894,422,219,10247,207,179,26,552,343,41,311,253,32,207,179,26,Finisher,378
+Julie,Mcgivery,Julie Mcgivery,1915,F35-39,Female,Moncton,NB,Canada,CA,0:31:54,1:20:06,0:50:56,,,2:50:47,1914,4806,3056,301,170,10247,208,29,6,485,180,28,259,44,8,208,29,6,Finisher,531
+Alain,Daigle,Alain Daigle,1519,M50-54,Male,Cowansville,QC,Canada,CA,0:25:39,1:19:34,0:57:02,,,2:50:49,1539,4774,3422,349,165,10249,209,180,17,64,46,5,143,122,12,209,180,17,Finisher,593
+Caroline,Leblanc,Caroline Leblanc,1906,F35-39,Female,Laval,QC,Canada,CA,0:31:44,1:21:21,0:49:12,,,2:50:55,1904,4881,2952,305,213,10255,210,30,7,472,174,26,283,53,10,210,30,7,Finisher,528
+Francis,Laforest,Francis Laforest,1083,M25-29,Male,MONTREAL,QC,Canada,CA,0:28:32,1:22:41,0:50:43,,,2:50:56,1712,4961,3043,345,195,10256,211,181,15,212,148,14,257,214,16,211,181,15,Finisher,416
+Brigitte,Thibault,Brigitte Thibault,2029,F40-44,Female,Varennes,QC,Canada,CA,0:26:51,1:23:45,0:53:00,,,2:51:10,1611,5025,3180,301,153,10270,212,31,5,103,31,3,234,35,5,212,31,5,Finisher,527
+Martin,Valiquette,Martin Valiquette,1497,M45-49,Male,Montréal,QC,Canada,CA,0:24:05,1:23:37,0:55:16,,,2:51:12,1445,5017,3316,334,160,10272,213,182,30,27,19,5,192,165,24,213,182,30,Finisher,553
+Mélanie,Mantha,Mélanie Mantha,1825,F30-34,Female,Terrebonne,QC,Canada,CA,0:31:23,1:20:59,0:50:33,,,2:51:16,1883,4859,3033,343,158,10276,214,32,8,449,167,39,280,51,12,214,32,8,Finisher,604
+Erik,Gobeil,Erik Gobeil,1451,M45-49,Male,Saint-bruno-de-montarville,QC,Canada,CA,0:33:24,1:15:34,0:52:49,,,2:51:22,2004,4534,3169,379,196,10282,215,183,31,617,379,62,227,194,34,215,183,31,Finisher,550
+Dave,Corcoran,Dave Corcoran,1516,M50-54,Male,Terrebonne,QC,Canada,CA,0:26:25,1:21:23,0:55:46,,,2:51:24,1585,4883,3346,320,150,10284,216,184,18,88,64,8,191,164,18,216,184,18,Finisher,581
+Mathieu,Morel-Bouchard,Mathieu Morel-Bouchard,1247,M35-39,Male,Terrebonne,QC,Canada,CA,0:29:17,1:20:20,0:54:21,,,2:51:29,1757,4820,3261,291,160,10289,217,185,33,274,187,31,212,185,31,217,185,33,Finisher,350
+Benoit,Morissette,Benoit Morissette,1479,M45-49,Male,Saint-Lazare,QC,Canada,CA,0:32:08,1:14:11,0:55:28,,,2:51:34,1928,4451,3328,384,203,10294,218,186,32,500,315,52,175,150,21,218,186,32,Finisher,546
+Jean-Rene,Courtemanche,Jean-Rene Courtemanche,1433,M45-49,Male,Saint-Eustache,QC,Canada,CA,0:27:02,1:21:09,0:54:13,,,2:51:41,1622,4869,3253,344,213,10301,219,187,33,115,81,11,202,175,27,219,187,33,Finisher,543
+Myriam,Boucher,Myriam Boucher,1948,F40-44,Female,Jonquière,QC,Canada,CA,0:31:42,1:20:21,0:50:38,,,2:51:53,1902,4821,3038,363,189,10313,220,33,6,466,172,27,281,52,8,220,33,6,Finisher,512
+Dominic,Lepine,Dominic Lepine,1237,M35-39,Male,Rosemère,QC,Canada,CA,0:28:33,1:19:11,0:55:18,,,2:51:57,1713,4751,3318,344,191,10317,221,188,34,214,150,23,196,169,29,221,188,34,Finisher,350
+Sandra,Drouin,Sandra Drouin,2057,F45-49,Female,La prairie,QC,Canada,CA,0:25:36,1:21:01,0:57:36,,,2:52:02,1536,4861,3456,283,186,10322,222,34,5,63,18,3,152,22,4,222,34,5,Finisher,547
+Denis,Doyon,Denis Doyon,1526,M50-54,Male,Repentigny,QC,Canada,CA,0:28:29,1:17:11,0:56:03,,,2:52:05,1709,4631,3363,440,182,10325,223,189,19,208,144,18,185,159,16,223,189,19,Finisher,567
+Stephanie,Lafortune,Stephanie Lafortune,1748,F25-29,Female,Longueuil,QC,Canada,CA,0:27:41,1:26:34,0:50:42,,,2:52:07,1661,5194,3042,291,139,10327,224,35,4,163,45,9,316,60,8,224,35,4,Finisher,403
+Claudia,Chevrefils,Claudia Chevrefils,2048,F45-49,Female,St-Laurent,QC,Canada,CA,0:30:05,1:21:35,0:50:41,,,2:52:09,1805,4895,3041,343,245,10329,225,36,6,338,116,12,266,48,9,225,36,6,Finisher,545
+Raymond,Thibault,Raymond Thibault,1575,M50-54,Male,Terrebonne,QC,Canada,CA,0:32:56,1:19:30,0:48:15,,,2:52:22,1976,4770,2895,506,195,10342,226,190,20,582,360,44,353,274,31,226,190,20,Finisher,561
+Paul,Boucher,Paul Boucher,1115,M30-34,Male,St-Jean-sur-Richelieu,QC,Canada,CA,0:27:05,1:21:23,0:53:29,,,2:52:36,1625,4883,3209,362,277,10356,227,191,27,117,83,9,213,186,22,227,191,27,Finisher,350
+Luc,Déry,Luc Déry,1310,M40-44,Male,trois-rivières,QC,Canada,CA,0:26:51,1:20:03,0:56:26,,,2:52:45,1611,4803,3386,360,205,10365,228,192,34,104,73,14,183,158,33,228,192,34,Finisher,350
+Marie-Philippe,Bernard,Marie-Philippe Bernard,1711,F25-29,Female,Montréal,QC,Canada,CA,0:26:18,1:25:02,0:52:32,,,2:52:47,1578,5102,3152,358,177,10367,229,37,5,82,22,5,263,46,5,229,37,5,Finisher,389
+Donald,Briere,Donald Briere,1510,M50-54,Male,st jerome,QC,Canada,CA,0:29:52,1:19:21,0:54:08,,,2:52:50,1792,4761,3248,359,210,10370,230,193,21,323,215,25,225,192,22,230,193,21,Finisher,551
+Alain,Carignan,Alain Carignan,1297,M40-44,Male,Drummondville,QC,Canada,CA,0:33:58,1:15:10,0:54:42,,,2:52:51,2038,4510,3282,329,212,10371,231,194,35,649,390,82,215,187,35,231,194,35,Finisher,350
+Michele,Gaudet,Michele Gaudet,2117,F50-54,Female,Drummondville,QC,Canada,CA,0:27:28,1:23:47,0:52:37,,,2:53:00,1648,5027,3157,360,188,10380,232,38,4,146,39,4,262,45,4,232,38,4,Finisher,646
+Jolyane,Rouillard,Jolyane Rouillard,1932,F35-39,Female,Montréal,QC,Canada,CA,0:27:58,1:22:25,0:55:57,,,2:53:10,1678,4945,3357,255,155,10390,233,39,8,182,54,8,217,29,4,233,39,8,Finisher,481
+Stephen,Veaudry,Stephen Veaudry,1103,M25-29,Male,Ottawa,ON,Canada,CA,0:30:36,1:19:14,0:54:04,,,2:53:12,1836,4754,3244,364,194,10392,234,195,16,381,247,18,239,204,15,234,195,16,Finisher,368
+David,Charron,David Charron,1121,M30-34,Male,Chambly,QC,Canada,CA,0:28:55,1:20:25,0:53:57,,,2:53:25,1735,4825,3237,408,200,10405,235,196,28,240,168,20,244,207,26,235,196,28,Finisher,350
+Gaetan Jr,Joyal,Gaetan Jr Joyal,1344,M40-44,Male,montreal,QC,Canada,CA,0:32:57,1:18:09,0:51:51,,,2:53:28,1977,4689,3111,423,208,10408,236,197,36,583,361,74,282,230,42,236,197,36,Finisher,350
+Benoit,Lussier,Benoit Lussier,1468,M45-49,Male,Laval,QC,Canada,CA,0:31:18,1:20:06,0:50:58,,,2:53:30,1878,4806,3058,445,223,10410,237,198,34,437,276,48,309,251,40,237,198,34,Finisher,505
+Richard,Leroux,Richard Leroux,1618,M55-59,Male,Mont-Tremblant,QC,Canada,CA,0:29:47,1:17:54,0:55:32,,,2:53:34,1787,4674,3332,400,221,10414,238,199,11,314,211,15,210,183,11,238,199,11,Finisher,591
+Philippe,Pumont,Philippe Pumont,1568,M50-54,Male,Vaudreuil-Dorion,QC,Canada,CA,0:32:07,1:23:41,0:49:16,,,2:53:42,1927,5021,2956,350,168,10422,239,200,22,499,314,37,373,287,33,239,200,22,Finisher,533
+Eric,Frechette,Eric Frechette,1212,M35-39,Male,Sorel-Tracy,QC,Canada,CA,0:32:22,1:17:39,0:55:09,,,2:53:42,1942,4659,3309,365,147,10422,240,201,35,532,335,54,243,206,34,240,201,35,Finisher,350
+Tom,Dessureault,Tom Dessureault,1204,M35-39,Male,Rosemere,QC,Canada,CA,0:36:06,1:15:51,0:52:12,,,2:53:45,2166,4551,3132,376,200,10425,241,202,36,735,430,67,287,234,39,241,202,36,Finisher,350
+Janie,Forest-Magnan,Janie Forest-Magnan,1803,F30-34,Female,Salaberry-de-valleyfield,QC,Canada,CA,0:25:23,1:25:34,0:54:51,,,2:53:45,1523,5134,3291,328,149,10425,242,40,9,58,16,5,252,42,9,242,40,9,Finisher,552
+Gale,Chevalier,Gale Chevalier,2106,F50-54,Female,Kingston,ON,Canada,CA,0:30:51,1:21:18,0:52:26,,,2:53:54,1851,4878,3146,379,180,10434,243,41,5,402,140,12,296,55,5,243,41,5,Finisher,627
+Stephane,Billette,Stephane Billette,1422,M45-49,Male,St-anicet,QC,Canada,CA,0:28:49,1:19:39,0:56:54,,,2:53:57,1729,4779,3414,333,182,10437,244,203,35,234,163,24,204,177,29,244,203,35,Finisher,496
+Martin,Vachon,Martin Vachon,1399,M40-44,Male,Laval,QC,Canada,CA,0:30:16,1:20:50,0:52:17,,,2:53:57,1816,4850,3137,381,253,10437,245,204,37,355,228,40,268,220,40,245,204,37,Finisher,350
+Ergio,Guitian,Ergio Guitian,1222,M35-39,Male,montreal,QC,Venezuela,VE,0:27:46,1:23:14,0:54:17,,,2:53:58,1666,4994,3257,350,171,10438,246,205,37,169,122,20,255,212,35,246,205,37,Finisher,350
+Patrick,Paré,Patrick Paré,1179,M35-39,Male,Carignan,QC,Canada,CA,0:36:55,1:17:32,0:51:28,,,2:54:01,2215,4652,3088,285,201,10441,247,206,38,771,449,71,322,260,47,247,206,38,Finisher,350
+Isabelle,Therrien,Isabelle Therrien,2028,F40-44,Female,boisbriand,QC,Canada,CA,0:28:48,1:22:24,0:54:18,,,2:54:12,1728,4944,3258,309,213,10452,248,42,7,228,69,9,248,39,6,248,42,7,Finisher,463
+Jonathan,Garneau,Jonathan Garneau,1216,M35-39,Male,Québec,Québec,Canada,CA,0:32:20,1:19:33,0:52:59,,,2:54:17,1940,4773,3179,378,187,10457,249,207,39,526,331,53,285,232,38,249,207,39,Finisher,350
+Andreanne,Murdaca,Andreanne Murdaca,1690,F18-24,Female,Montréal,QC,Canada,CA,0:27:56,1:17:54,0:58:05,,,2:54:19,1676,4674,3485,429,195,10459,250,43,3,179,52,6,184,26,4,250,43,3,Finisher,478
+Nigel,Nicholls,Nigel Nicholls,1482,M45-49,Male,Monk Fryston,West Yorkshire,United States,US,0:32:32,1:22:11,0:51:12,,,2:54:29,1952,4931,3072,329,185,10469,251,208,36,550,341,58,342,266,44,251,208,36,Finisher,484
+David,Lauziere,David Lauziere,1142,M30-34,Male,terrebonne,QC,Canada,CA,0:35:03,1:16:47,0:54:06,,,2:54:36,2103,4607,3246,361,159,10476,252,209,29,690,408,48,274,225,30,252,209,29,Finisher,350
+Sebastien,Dumont,Sebastien Dumont,1025,M18-24,Male,Saint-Lambert,QC,Canada,CA,0:28:05,1:13:57,1:03:14,,,2:54:36,1685,4437,3794,370,190,10476,253,210,17,188,131,17,93,78,11,253,210,17,Finisher,350
+Guy,Dessaulles,Guy Dessaulles,1524,M50-54,Male,rosemere,QC,Canada,CA,0:25:56,1:19:35,0:59:20,,,2:54:37,1556,4775,3560,354,232,10477,254,211,23,69,50,6,154,132,13,254,211,23,Finisher,513
+Stephane,Sylvain,Stephane Sylvain,1391,M40-44,Male,Quebec,QC,Canada,CA,0:24:05,1:21:41,1:01:02,,,2:54:40,1445,4901,3662,318,154,10480,255,212,38,28,20,5,145,124,24,255,212,38,Finisher,350
+Amelie,Nadon,Amelie Nadon,1806,F30-34,Female,Montreal,QC,Canada,CA,0:35:20,1:21:34,0:48:57,,,2:54:45,2120,4894,2937,365,169,10485,256,44,10,704,286,55,401,99,25,256,44,10,Finisher,531
+Martin,Lapointe,Martin Lapointe,1350,M40-44,Male,Brossard,QC,Canada,CA,0:28:28,1:20:32,0:55:23,,,2:54:46,1708,4832,3323,370,253,10486,257,213,39,206,143,27,223,191,36,257,213,39,Finisher,350
+Jessica,Brookes,Jessica Brookes,1714,F25-29,Female,Laval,QC,Canada,CA,0:33:30,1:21:25,0:51:33,,,2:54:48,2010,4885,3093,299,201,10488,258,45,6,624,243,39,334,71,10,258,45,6,Finisher,350
+Michael,Pinto,Michael Pinto,1052,M18-24,Male,Montreal,QC,Canada,CA,0:30:36,1:18:32,0:52:55,,,2:54:50,1836,4712,3175,524,243,10490,259,214,18,382,248,26,276,227,23,259,214,18,Finisher,350
+Kathy,Stajkowski,Kathy Stajkowski,2149,F55-59,Female,Cornwall,ON,Canada,CA,0:31:06,1:23:25,0:52:29,,,2:54:54,1866,5005,3149,299,175,10494,260,46,1,421,150,3,327,67,1,260,46,1,Finisher,1000
+Maxime,Roy,Maxime Roy,1489,M45-49,Male,Blainville ,QC,Canada,CA,0:30:25,1:17:57,0:57:41,,,2:55:06,1825,4677,3461,344,199,10506,261,215,37,364,236,38,207,180,30,261,215,37,Finisher,471
+Jean,Amiouny,Jean Amiouny,1062,M25-29,Male,Mount-Royal,QC,Lebanon,LB,0:28:15,1:24:28,0:55:24,,,2:55:16,1695,5068,3324,304,125,10516,262,216,17,192,135,12,272,223,17,262,216,17,Finisher,350
+Pierre,Cloutier,Pierre Cloutier,1431,M45-49,Male,Louiseville,QC,Canada,CA,0:34:48,1:18:57,0:49:34,,,2:55:29,2088,4737,2974,488,242,10529,263,217,38,682,404,65,381,293,50,263,217,38,Finisher,463
+Seamus,Mcdonough,Seamus Mcdonough,1092,M25-29,Male,Saint John,NB,Canada,CA,0:31:42,1:20:08,0:53:23,,,2:55:29,1902,4808,3203,397,219,10529,264,218,18,465,294,22,294,240,18,264,218,18,Finisher,350
+Paméla,Poirier Ouellet,Paméla Poirier Ouellet,1839,F30-34,Female,Saint-Colomban,QC,Canada,CA,0:32:09,1:18:56,0:55:42,,,2:55:29,1929,4736,3342,334,188,10529,265,47,11,503,186,42,253,43,10,265,47,11,Finisher,515
+Normand,Ethier,Normand Ethier,1530,M50-54,Male,Lavaltrie,QC,Canada,CA,0:25:03,1:21:16,0:59:27,,,2:55:30,1503,4876,3567,392,192,10530,266,219,24,54,39,4,179,154,15,266,219,24,Finisher,495
+Lisa,Sachsalber,Lisa Sachsalber,1763,F25-29,Female,Ottawa,ON,Canada,CA,0:26:03,1:24:01,0:58:27,,,2:55:38,1563,5041,3507,280,147,10538,267,48,7,73,21,4,218,30,4,267,48,7,Finisher,350
+Laurie,Pouliot,Laurie Pouliot,1697,F18-24,Female,Levis,QC,Canada,CA,0:30:48,1:22:44,0:53:53,,,2:55:44,1848,4964,3233,335,164,10544,268,49,4,400,138,12,318,61,6,268,49,4,Finisher,448
+Catherine,Dube,Catherine Dube,1731,F25-29,Female,Montréal,QC,Canada,CA,0:29:17,1:24:30,0:54:34,,,2:55:50,1757,5070,3274,292,157,10550,269,50,8,273,87,14,303,56,7,269,50,8,Finisher,350
+Judith,Leroux,Judith Leroux,1687,F18-24,Female,mont-tremblant,QC,Canada,CA,0:32:16,1:19:55,0:52:34,,,2:55:53,1936,4795,3154,441,227,10553,270,51,5,516,191,18,328,68,7,270,51,5,Finisher,445
+Julie,Dufresne,Julie Dufresne,1885,F35-39,Female,chicoutimi,QC,Canada,CA,0:29:42,1:21:09,0:56:45,,,2:55:56,1782,4869,3405,331,169,10556,271,52,9,308,102,13,249,40,7,271,52,9,Finisher,423
+Felix,Thibault,Felix Thibault,1057,M18-24,Male,boisbriand,QC,Canada,CA,0:28:10,1:24:26,0:54:47,,,2:55:57,1690,5066,3287,315,199,10557,272,220,19,190,133,18,275,226,22,272,220,19,Finisher,350
+Olivier,Forgues,Olivier Forgues,1028,M18-24,Male,St eustache,QC,Canada,CA,0:30:28,1:22:13,0:54:45,,,2:55:58,1828,4933,3285,375,137,10558,273,221,20,368,239,24,313,255,25,273,221,20,Finisher,350
+Val,Allen,Val Allen,2033,F45-49,Female,Cornwall,ON,Canada,CA,0:28:45,1:20:33,0:57:54,,,2:55:59,1725,4833,3474,317,210,10559,274,53,7,225,67,7,214,28,6,274,53,7,Finisher,464
+Vincent,Brouillette,Vincent Brouillette,1295,M40-44,Male,Montreal,QC,Canada,CA,0:31:20,1:18:22,0:56:34,,,2:56:11,1880,4702,3394,388,207,10571,275,222,40,440,278,53,245,208,38,275,222,40,Finisher,350
+Michel,Gauthier,Michel Gauthier,1217,M35-39,Male,Casselman,ON,Canada,CA,0:29:27,1:23:32,0:54:02,,,2:56:16,1767,5012,3242,354,201,10576,276,223,40,290,197,33,310,252,44,276,223,40,Finisher,350
+Jean,Bilodeau,Jean Bilodeau,1507,M50-54,Male,Delson,QC,Canada,CA,0:28:15,1:24:01,0:55:57,,,2:56:16,1695,5041,3357,321,162,10576,277,224,25,193,136,16,270,222,26,277,224,25,Finisher,479
+Yahia,Tarikt,Yahia Tarikt,1392,M40-44,Male,montreal,QC,Canada,CA,0:31:25,1:20:39,0:54:48,,,2:56:17,1885,4839,3288,366,199,10577,278,225,41,452,285,54,284,231,43,278,225,41,Finisher,350
+Jean-Pierre,Athot,Jean-Pierre Athot,1501,M50-54,Male,Montréal,QC,Canada,CA,0:28:50,1:25:35,0:51:26,,,2:56:17,1730,5135,3086,442,184,10577,279,226,26,236,164,19,378,290,34,279,226,26,Finisher,478
+Philippe,Durocher,Philippe Durocher,1209,M35-39,Male,Montréal,QC,Canada,CA,0:32:15,1:20:09,0:54:24,,,2:56:27,1935,4809,3264,375,204,10587,280,227,41,515,325,52,304,248,42,280,227,41,Finisher,350
+Patrick,Bezeau,Patrick Bezeau,1064,M25-29,Male,Montréal,Québec,Canada,CA,0:31:20,1:24:10,0:51:40,,,2:56:27,1880,5050,3100,382,175,10587,281,228,19,442,280,20,380,292,21,281,228,19,Finisher,350
+Josiane,Bérubé,Josiane Bérubé,1866,F35-39,Female,Cacouna,QC,Canada,CA,0:27:52,1:22:18,0:57:17,,,2:56:29,1672,4938,3437,347,195,10589,282,54,10,175,50,7,241,36,6,282,54,10,Finisher,411
+Robert,Guerriero,Robert Guerriero,1542,M50-54,Male,Blainville,QC,Canada,CA,0:30:39,1:23:58,0:53:16,,,2:56:40,1839,5038,3196,349,178,10600,283,229,27,385,250,30,349,271,30,283,229,27,Finisher,470
+Marc-Andre,Menard,Marc-Andre Menard,1149,M30-34,Male,St-Hubert,QC,Canada,CA,0:36:08,1:23:59,0:47:04,,,2:56:47,2168,5039,2824,373,203,10607,284,230,30,739,431,50,499,358,41,284,230,30,Finisher,350
+Baptiste,Benoist,Baptiste Benoist,1001,M30-34,Male,Montreal,QC,France,FR,0:32:16,1:25:20,0:49:19,,,2:56:50,1936,5120,2959,398,197,10610,285,231,31,517,326,37,432,318,37,285,231,31,Finisher,350
+Samuel,Ryc,Samuel Ryc,1056,M18-24,Male,Montreal,QC,Czech Republic,CZ,0:28:44,1:18:09,0:59:38,,,2:56:51,1724,4689,3578,408,212,10611,286,232,21,222,157,21,199,172,18,286,232,21,Finisher,350
+Antoine,Plouffe,Antoine Plouffe,1256,M35-39,Male,Coaticook,QC,Canada,CA,0:28:58,1:18:44,0:59:51,,,2:56:52,1738,4724,3591,340,219,10612,287,233,42,244,171,26,195,168,28,287,233,42,Finisher,350
+Paul,Buck,Paul Buck,1595,M55-59,Male,Ottawa,ON,Canada,CA,0:26:27,1:21:33,0:58:20,,,2:56:54,1587,4893,3500,452,182,10614,288,234,12,89,65,4,230,197,12,288,234,12,Finisher,521
+Ellen,Curtis,Ellen Curtis,1800,F30-34,Female,Ottawa,ON,Canada,CA,0:27:30,1:22:27,0:59:12,,,2:56:55,1650,4947,3552,314,152,10615,289,55,12,147,40,8,224,33,8,289,55,12,Finisher,485
+Sylvain,Beaudry,Sylvain Beaudry,1280,M40-44,Male,Montreal ,QC,Canada,CA,0:30:45,1:21:39,0:55:05,,,2:57:04,1845,4899,3305,372,203,10624,290,235,42,396,259,48,300,245,47,290,235,42,Finisher,350
+Corinne,Lalonde,Corinne Lalonde,1749,F25-29,Female,Montreal,QC,Canada,CA,0:30:08,1:29:25,0:49:00,,,2:57:12,1808,5365,2940,295,224,10632,291,56,9,341,118,21,435,116,14,291,56,9,Finisher,350
+Charline,Lapointe,Charline Lapointe,1814,F30-34,Female,Montréal,QC,Canada,CA,0:27:01,1:27:10,0:54:35,,,2:57:16,1621,5230,3275,323,187,10636,292,57,13,113,34,7,329,69,15,292,57,13,Finisher,478
+Benoit,Cardin,Benoit Cardin,1195,M35-39,Male,Terrebonne,QC,Canada,CA,0:29:00,1:24:38,0:54:41,,,2:57:32,1740,5078,3281,361,192,10652,293,236,43,249,174,27,330,261,48,293,236,43,Finisher,350
+Mathieu,Ouellet,Mathieu Ouellet,1250,M35-39,Male,Fossambault,QC,Canada,CA,0:32:06,1:20:59,0:55:16,,,2:57:39,1926,4859,3316,353,205,10659,294,237,44,496,311,49,314,256,45,294,237,44,Finisher,350
+Matthew,Becker,Matthew Becker,1112,M30-34,Male,montreal,QC,Canada,CA,0:34:22,1:10:30,1:04:57,,,2:57:55,2062,4230,3897,323,163,10675,295,238,32,665,397,47,135,116,14,295,238,32,Finisher,350
+Daniel,Jacques,Daniel Jacques,1545,M50-54,Male,Saint-Constant,QC,Canada,CA,0:31:41,1:19:55,0:56:08,,,2:57:55,1901,4795,3368,396,215,10675,296,239,28,463,293,35,286,233,28,296,239,28,Finisher,444
+Nadia,Gosselin,Nadia Gosselin,1894,F35-39,Female,Montréal,QC,Canada,CA,0:29:40,1:23:16,0:54:42,,,2:58:03,1780,4996,3282,378,247,10683,297,58,11,304,99,12,323,63,12,297,58,11,Finisher,378
+Jason,Bourgea,Jason Bourgea,1065,M25-29,Male,South Burlington,VT,United States,US,0:32:28,1:21:55,0:54:09,,,2:58:05,1948,4915,3249,353,220,10685,298,240,20,543,340,24,346,269,20,298,240,20,Finisher,350
+Malachy,Mcdonough,Malachy Mcdonough,1048,M18-24,Male,Saint John,NB,Canada,CA,0:26:45,1:23:53,0:56:19,,,2:58:17,1605,5033,3379,469,211,10697,299,241,22,100,70,11,295,241,24,299,241,22,Finisher,350
+Richard,Ferreira,Richard Ferreira,1326,M40-44,Male,Cantley,QC,Canada,CA,0:35:09,1:18:44,0:54:49,,,2:58:18,2109,4724,3289,373,203,10698,300,242,43,691,409,86,338,265,52,300,242,43,Finisher,350
+Ross Andrew,Newcombe,Ross Andrew Newcombe,1481,M45-49,Male,Lery,QC,Canada,CA,0:29:20,1:25:13,0:53:06,,,2:58:21,1760,5113,3186,408,234,10701,301,243,39,279,191,29,368,284,47,301,243,39,Finisher,403
+Pierre,Boivin,Pierre Boivin,1176,M35-39,Male,Longueuil,QC,Canada,CA,0:32:09,1:26:47,0:50:14,,,2:58:23,1929,5207,3014,379,174,10703,302,244,45,505,319,50,459,333,62,302,244,45,Finisher,350
+Chantal,Mainville,Chantal Mainville,1999,F40-44,Female,Terrebonne,QC,Canada,CA,0:30:29,1:26:55,0:53:38,,,2:58:25,1829,5215,3218,274,169,10705,303,59,8,371,131,19,385,91,10,303,59,8,Finisher,375
+Josee,Vinet,Josee Vinet,1856,F30-34,Female,Gatineau,QC,Canada,CA,0:33:09,1:19:57,0:56:30,,,2:58:29,1989,4797,3390,361,172,10709,304,60,14,599,228,48,319,62,14,304,60,14,Finisher,452
+Nicolas,Rancourt,Nicolas Rancourt,1380,M40-44,Male,Québec,QC,Canada,CA,0:33:16,1:21:23,0:54:08,,,2:58:30,1996,4883,3248,380,203,10710,305,245,44,607,375,79,358,276,55,305,245,44,Finisher,350
+Denis ,Marseille,Denis Marseille,1555,M50-54,Male,Mascouche,QC,Canada,CA,0:27:35,1:22:01,1:00:02,,,2:58:33,1655,4921,3602,359,176,10713,306,246,29,155,113,13,232,199,23,306,246,29,Finisher,431
+Pascal,Veilleux,Pascal Veilleux,1401,M40-44,Male,La Prairie,QC,Canada,CA,0:32:52,1:26:12,0:49:54,,,2:58:38,1972,5172,2994,382,198,10718,307,247,45,578,357,73,464,336,65,307,247,45,Finisher,350
+Eric,Grenier,Eric Grenier,1219,M35-39,Male,St-Jerome,QC,Canada,CA,0:37:01,1:16:02,0:57:16,,,2:58:39,2221,4562,3436,323,177,10719,308,248,46,778,452,72,293,239,40,308,248,46,Finisher,350
+Valentina,Gancia-Godoy,Valentina Gancia-Godoy,1737,F25-29,Female,lorraine,QC,Canada,CA,0:26:55,1:25:32,0:57:39,,,2:58:44,1615,5132,3459,318,200,10724,309,61,10,108,32,7,271,49,6,309,61,10,Finisher,350
+Amélie,Leclerc,Amélie Leclerc,1994,F40-44,Female,Lac St-Joseph,QC,Canada,CA,0:31:07,1:25:46,0:51:02,,,2:58:45,1867,5146,3062,388,262,10725,310,62,9,422,151,23,409,104,13,310,62,9,Finisher,368
+Emma,Miller,Emma Miller,1920,F35-39,Female,Ottawa,ON,Canada,CA,0:30:56,1:22:19,0:55:21,,,2:58:48,1856,4939,3321,398,214,10728,311,63,12,408,143,22,333,70,15,311,63,12,Finisher,363
+Laura,Olesky,Laura Olesky,1830,F30-34,Female,Ann Arbor,MI,United States,US,0:29:30,1:26:50,0:54:19,,,2:58:54,1770,5210,3259,323,172,10734,312,64,15,292,95,20,376,88,21,312,64,15,Finisher,443
+Josee,Brousseau,Josee Brousseau,1792,F30-34,Female,Mercier,QC,Canada,CA,0:28:21,1:23:43,0:58:26,,,2:58:55,1701,5023,3506,315,190,10735,313,65,16,196,60,12,264,47,11,313,65,16,Finisher,443
+Odile,Mongrain,Odile Mongrain,1923,F35-39,Female,Val-d'Or,QC,Canada,CA,0:32:16,1:23:25,0:54:40,,,2:58:55,1936,5005,3280,312,202,10735,314,66,13,518,192,30,354,80,17,314,66,13,Finisher,360
+Billy,Berthiaume,Billy Berthiaume,1009,M18-24,Male,Mont-Tremblant,QC,Canada,CA,0:26:37,1:22:06,1:02:19,,,2:58:58,1597,4926,3739,321,155,10738,315,249,23,96,68,10,206,179,20,315,249,23,Finisher,350
+Jean-Frédéric,Blackburn,Jean-Frédéric Blackburn,1289,M40-44,Male,Chicoutimi,QC,Canada,CA,0:30:41,1:22:35,0:56:31,,,2:59:08,1841,4955,3391,318,243,10748,316,250,46,389,253,46,298,243,46,316,250,46,Finisher,350
+Claude,Massicotte,Claude Massicotte,1557,M50-54,Male,Montréal,QC,Canada,CA,0:30:18,1:22:01,0:55:56,,,2:59:14,1818,4921,3356,440,219,10754,317,251,30,358,231,27,331,262,29,317,251,30,Finisher,416
+Francois,Drapeau,Francois Drapeau,1205,M35-39,Male,St-Jerome,QC,Canada,CA,0:31:17,1:20:02,0:58:15,,,2:59:15,1877,4802,3495,391,190,10755,318,252,47,434,274,41,273,224,37,318,252,47,Finisher,350
+Stéphanie,Perras,Stéphanie Perras,1836,F30-34,Female,Montréal ,QC,Canada,CA,0:28:27,1:25:17,0:57:36,,,2:59:17,1707,5117,3456,303,174,10757,319,67,17,204,63,14,307,58,13,319,67,17,Finisher,435
+Isabelle,Gosselin,Isabelle Gosselin,1980,F40-44,Female,Kanata,ON,Canada,CA,0:28:00,1:22:10,0:59:03,,,2:59:19,1680,4930,3543,375,231,10759,320,68,10,185,57,7,251,41,7,320,68,10,Finisher,356
+Alain,Bergeron,Alain Bergeron,1286,M40-44,Male,LAVALTRIE,QC,Canada,CA,0:26:51,1:24:31,1:00:10,,,2:59:26,1611,5071,3610,317,157,10766,321,253,47,102,72,13,254,211,39,321,253,47,Finisher,350
+Mervyn,Meharchand,Mervyn Meharchand,1558,M50-54,Male,Mississauga,ON,Canada,CA,0:31:52,1:28:01,0:51:25,,,2:59:42,1912,5281,3085,309,195,10782,322,254,31,479,302,36,452,330,35,322,254,31,Finisher,407
+Edouard,Lauzier,Edouard Lauzier,1353,M40-44,Male,Levis,QC,Canada,CA,0:30:19,1:21:55,0:57:58,,,2:59:42,1819,4915,3478,370,200,10782,323,255,48,359,232,42,291,237,44,323,255,48,Finisher,350
+Ariane,Lavigne,Ariane Lavigne,1816,F30-34,Female,mont-tremblant,QC,Canada,CA,0:29:11,1:25:31,0:56:09,,,2:59:48,1751,5131,3369,332,205,10788,324,69,18,267,83,16,344,77,18,324,69,18,Finisher,424
+Benoit,Millette,Benoit Millette,1244,M35-39,Male,Montreal,QC,Canada,CA,0:34:12,1:21:02,0:55:23,,,2:59:52,2052,4862,3323,366,189,10792,325,256,48,661,395,63,366,282,52,325,256,48,Finisher,350
+Felix,Masson,Felix Masson,1046,M18-24,Male,Montréal,Non US,Canada,CA,0:24:12,1:25:36,1:00:07,,,2:59:56,1452,5136,3607,339,262,10796,326,257,24,29,21,2,228,195,21,326,257,24,Finisher,350
+Catherine,Lassonde,Catherine Lassonde,1903,F35-39,Female,Drummondville,QC,Canada,CA,0:25:36,1:27:52,0:58:30,,,3:00:01,1536,5272,3510,315,168,10801,327,70,14,62,17,2,305,57,11,327,70,14,Finisher,350
+Peter,Reynolds,Peter Reynolds,2162,M30-34,Male,Montreal,QC,Canada,CA,0:34:01,1:25:17,0:50:30,,,3:00:03,2041,5117,3030,399,216,10803,328,258,33,650,391,46,481,348,39,328,258,33,Finisher,350
+Julie,Lepage,Julie Lepage,1819,F30-34,Female,Laval,QC,Canada,CA,0:28:58,1:26:02,0:55:28,,,3:00:07,1738,5162,3328,391,188,10807,329,71,19,245,74,15,370,86,19,329,71,19,Finisher,418
+Eric,Legare,Eric Legare,1355,M40-44,Male,Laval,QC,Canada,CA,0:32:52,1:25:12,0:54:19,,,3:00:12,1972,5112,3259,286,183,10812,330,259,49,577,356,72,400,302,59,330,259,49,Finisher,350
+Francis,Mayer,Francis Mayer,1364,M40-44,Male,Mascouche,QC,Canada,CA,0:32:26,1:20:07,0:58:05,,,3:00:37,1946,4807,3485,381,218,10837,331,260,50,539,338,66,312,254,50,331,260,50,Finisher,350
+Alain,Daignault,Alain Daignault,1520,M50-54,Male,Laval,QC,Canada,CA,0:38:24,1:23:50,0:49:53,,,3:00:38,2304,5030,2993,355,156,10838,332,261,32,812,471,58,541,378,44,332,261,32,Finisher,387
+Karine,Dumont,Karine Dumont,1967,F40-44,Female,Sainte-Julie,QC,Canada,CA,0:27:27,1:27:53,0:56:44,,,3:00:46,1647,5273,3404,332,190,10846,333,72,11,144,38,4,352,79,9,333,72,11,Finisher,350
+Sebastien,Houle,Sebastien Houle,1272,M40-44,Male,Mont Tremblant,QC,Canada,CA,0:28:40,1:13:02,1:07:41,,,3:00:48,1720,4382,4061,461,224,10848,334,262,51,219,155,29,114,97,19,334,262,51,Finisher,350
+François,Gélinas,François Gélinas,1175,M35-39,Male,Montréal,QC,Canada,CA,0:27:20,1:25:43,0:58:46,,,3:00:52,1640,5143,3526,325,218,10852,335,263,49,137,102,16,297,242,41,335,263,49,Finisher,350
+Normand,Savage,Normand Savage,1573,M50-54,Male,Blainville,QC,Canada,CA,0:29:43,1:22:55,1:00:28,,,3:00:52,1783,4975,3628,325,141,10852,336,264,33,311,208,23,279,229,27,336,264,33,Finisher,382
+Dan,Rice,Dan Rice,1383,M40-44,Male,Brooklyn,NY,United States,US,0:30:09,1:26:35,0:53:26,,,3:00:58,1809,5195,3206,436,212,10858,337,265,52,343,224,39,427,314,61,337,265,52,Finisher,350
+Mathieu,Desforges,Mathieu Desforges,1312,M40-44,Male,Montreal,QC,Canada,CA,0:31:48,1:24:15,0:56:41,,,3:00:58,1908,5055,3401,317,177,10858,338,266,53,477,300,57,367,283,57,338,266,53,Finisher,350
+Stephanie,Darveau,Stephanie Darveau,1726,F25-29,Female,Shawinigan-Sud,Québec,Canada,CA,0:29:22,1:26:07,0:56:52,,,3:01:06,1762,5167,3412,355,170,10866,339,73,11,282,90,17,369,85,12,339,73,11,Finisher,350
+Vincent,Spagnoli,Vincent Spagnoli,1166,M30-34,Male,Trois rivieres,QC,France,FR,0:31:00,1:25:22,0:52:48,,,3:01:07,1860,5122,3168,464,253,10867,340,267,34,413,268,31,429,315,36,340,267,34,Finisher,350
+Clara,Parent,Clara Parent,1693,F18-24,Female,Lévis,QC,Canada,CA,0:28:26,1:25:02,1:00:07,,,3:01:11,1706,5102,3607,291,165,10871,341,74,6,203,62,8,290,54,5,341,74,6,Finisher,350
+Karen,Armstrong,Karen Armstrong,2035,F45-49,Female,Timmins,ON,Canada,CA,0:29:32,1:27:29,0:55:14,,,3:01:14,1772,5249,3314,347,192,10874,342,75,8,296,96,10,399,98,12,342,75,8,Finisher,354
+Christiana,Bédard-Thom,Christiana Bédard-Thom,1708,F25-29,Female,Saint-Augustin,QC,Canada,CA,0:31:15,1:21:14,0:58:48,,,3:01:19,1875,4874,3528,410,192,10879,343,76,12,431,158,26,326,66,9,343,76,12,Finisher,350
+Ann-Sophie,Laflamme,Ann-Sophie Laflamme,1685,F18-24,Female,Roberval,Québec,Canada,CA,0:28:47,1:29:39,0:54:56,,,3:01:19,1727,5379,3296,324,153,10879,344,77,7,227,68,9,422,110,10,344,77,7,Finisher,350
+Marc,Choquette,Marc Choquette,1273,M40-44,Male,Verdun,QC,Canada,CA,0:31:28,1:21:29,1:00:10,,,3:01:23,1888,4889,3610,304,192,10883,345,268,54,453,286,55,277,228,41,345,268,54,Finisher,350
+christian,lafleur,christian lafleur,1615,M55-59,Male,Mont-Tremblant,QC,Canada,CA,0:29:30,1:22:42,0:59:04,,,3:01:41,1770,4962,3544,364,261,10901,346,269,13,293,198,14,289,236,14,346,269,13,Finisher,420
+France,Lapointe,France Lapointe,2068,F45-49,Female,Ste-Adèle,QC,Canada,CA,0:27:34,1:22:44,1:03:06,,,3:01:52,1654,4964,3786,347,161,10912,347,78,9,152,42,6,242,37,7,347,78,9,Finisher,350
+Nicolas,Bourret,Nicolas Bourret,1015,M18-24,Male,Drummondville,QC,Canada,CA,0:35:36,1:24:02,0:52:18,,,3:01:52,2136,5042,3138,383,213,10912,348,270,25,715,423,35,484,351,29,348,270,25,Finisher,350
+Olivier,Delisle,Olivier Delisle,1070,M25-29,Male,Montreal,QC,Canada,CA,0:31:34,1:24:02,0:56:01,,,3:01:56,1894,5042,3361,417,202,10916,349,271,21,457,288,21,396,301,22,349,271,21,Finisher,350
+Frédéric,Légaré,Frédéric Légaré,1235,M35-39,Male,St-marthe-sur-lac,QC,Canada,CA,0:30:46,1:21:39,0:57:32,,,3:01:57,1846,4899,3452,471,249,10917,350,272,50,399,262,38,345,268,49,350,272,50,Finisher,350
+Benoit,Lalande,Benoit Lalande,1231,M35-39,Male,St-Jean-sur-Richelieu,QC,Canada,CA,0:29:30,1:25:10,0:57:51,,,3:02:10,1770,5110,3471,394,185,10930,351,273,51,294,199,34,361,278,50,351,273,51,Finisher,350
+Michel,Fournier,Michel Fournier,1611,M55-59,Male,Mont-Tremblant,QC,Canada,CA,0:33:53,1:22:16,0:56:43,,,3:02:11,2033,4936,3403,360,199,10931,352,274,14,646,389,28,388,295,17,352,274,14,Finisher,410
+Marie-Claude,Harrisson,Marie-Claude Harrisson,1809,F30-34,Female,Rimouski,QC,Canada,CA,0:33:33,1:23:45,0:55:19,,,3:02:18,2013,5025,3319,363,218,10938,353,79,20,626,245,49,410,105,28,353,79,20,Finisher,372
+France,Carignan,France Carignan,2104,F50-54,Female,La Prairie,QC,Canada,CA,0:27:55,1:27:17,0:58:49,,,3:02:27,1675,5237,3529,307,199,10947,354,80,6,177,51,7,348,78,7,354,80,6,Finisher,448
+Francis,Fillion,Francis Fillion,1327,M40-44,Male,Laval,QC,Canada,CA,0:33:04,1:21:30,0:59:48,,,3:02:38,1984,4890,3588,358,138,10958,355,275,55,593,367,75,350,272,54,355,275,55,Finisher,350
+Pierre Philippe,Mathieu,Pierre Philippe Mathieu,1471,M45-49,Male,Montreal,QC,Canada,CA,0:28:25,1:26:12,0:55:50,,,3:02:41,1705,5172,3350,432,302,10961,356,276,40,201,140,19,379,291,49,356,276,40,Finisher,350
+Lise,Proulx,Lise Proulx,2146,F55-59,Female,TROIS-RIVIERES,QC,Canada,CA,0:33:22,1:26:39,0:51:36,,,3:02:43,2002,5199,3096,449,217,10963,357,81,2,614,237,7,526,157,4,357,81,2,Finisher,835
+Karin,Phillips,Karin Phillips,1928,F35-39,Female,Ottawa,Ontario,Canada,CA,0:30:16,1:28:39,0:54:27,,,3:02:49,1816,5319,3267,369,198,10969,358,82,15,354,127,20,454,124,23,358,82,15,Finisher,350
+Yves,Lefebvre,Yves Lefebvre,1464,M45-49,Male,Rockland,ON,Canada,CA,0:29:37,1:23:32,1:00:32,,,3:02:49,1777,5012,3632,359,189,10969,359,277,41,300,203,31,320,258,41,359,277,41,Finisher,350
+Karl,Brabant,Karl Brabant,1425,M45-49,Male,Saint-Hubert,QC,Canada,CA,0:30:45,1:20:29,1:01:04,,,3:02:50,1845,4829,3664,440,192,10970,360,278,42,395,258,43,299,244,39,360,278,42,Finisher,350
+Maryse,St-Georges,Maryse St-Georges,1943,F40-44,Female,Montréal,Quebec,Canada,CA,0:28:48,1:31:15,0:56:00,,,3:02:52,1728,5475,3360,271,138,10972,361,83,12,230,70,10,437,118,17,361,83,12,Finisher,350
+Dany,Ainsley,Dany Ainsley,1408,M45-49,Male,Carignan,QC,Canada,CA,0:35:18,1:19:18,0:59:46,,,3:02:53,2118,4758,3586,361,150,10973,362,279,43,701,418,69,351,273,45,362,279,43,Finisher,350
+Fabienne,Parente,Fabienne Parente,2014,F40-44,Female,Outremont,QC,Canada,CA,0:29:24,1:29:09,0:54:03,,,3:02:54,1764,5349,3243,389,229,10974,363,84,13,283,91,15,453,123,19,363,84,13,Finisher,350
+Natalie,Fitton,Natalie Fitton,1889,F35-39,Female,Ottawa,ON,Canada,CA,0:29:43,1:28:03,0:53:49,,,3:02:58,1783,5283,3229,458,225,10978,364,85,16,310,103,14,462,127,24,364,85,16,Finisher,350
+Marie-Claude,Dufresne,Marie-Claude Dufresne,2059,F45-49,Female,Drummondville,Québec,Canada,CA,0:32:41,1:28:23,0:52:42,,,3:03:00,1961,5303,3162,373,181,10980,365,86,10,563,217,23,524,155,16,365,86,10,Finisher,350
+Marie-Claude,Paquette,Marie-Claude Paquette,2083,F45-49,Female,Montréal,QC,Canada,CA,0:31:21,1:29:08,0:54:04,,,3:03:09,1881,5348,3244,376,140,10989,366,87,11,445,164,20,512,149,15,366,87,11,Finisher,350
+Marie-Andree,Pelletier,Marie-Andree Pelletier,1834,F30-34,Female,Montréal,QC,Canada,CA,0:30:59,1:23:40,0:59:58,,,3:03:10,1859,5020,3598,324,189,10990,367,88,21,411,144,33,337,73,17,367,88,21,Finisher,354
+Sophie,Bastien,Sophie Bastien,1946,F40-44,Female,Lévis,QC,Canada,CA,0:29:02,1:29:34,0:56:03,,,3:03:10,1742,5374,3363,327,184,10990,368,89,14,254,79,12,428,114,16,368,89,14,Finisher,350
+Cathy,Cimon,Cathy Cimon,1877,F35-39,Female,Gatineau,QC,Canada,CA,0:31:22,1:25:23,0:56:55,,,3:03:11,1882,5123,3415,385,186,10991,369,90,17,448,166,24,406,102,19,369,90,17,Finisher,350
+Isabelle,Ethier,Isabelle Ethier,2061,F45-49,Female,St-Jean,QC,Canada,CA,0:29:38,1:26:55,0:57:40,,,3:03:16,1778,5215,3460,352,191,10996,370,91,12,301,98,11,394,95,11,370,91,12,Finisher,350
+Christian,Gagner,Christian Gagner,1536,M50-54,Male,Blainville,QC,Canada,CA,0:32:12,1:26:33,0:54:23,,,3:03:20,1932,5193,3263,411,201,11000,371,280,34,509,320,38,470,340,37,371,280,34,Finisher,350
+Alexandra,Carrier-Hampton,Alexandra Carrier-Hampton,1872,F35-39,Female,Saint-Basile-Le-Grand,QC,Canada,CA,0:32:30,1:28:17,0:53:47,,,3:03:22,1950,5297,3227,344,184,11002,372,92,18,546,206,34,508,146,27,372,92,18,Finisher,350
+Marie-Christine,Grise,Marie-Christine Grise,1807,F30-34,Female,Carignan,QC,Canada,CA,0:31:13,1:23:32,1:00:43,,,3:03:26,1873,5012,3643,313,165,11006,373,93,22,430,157,35,335,72,16,373,93,22,Finisher,350
+Julie,Gagné,Julie Gagné,1972,F40-44,Female,L'Épiphanie,QC,Canada,CA,0:30:45,1:34:09,0:50:15,,,3:03:27,1845,5649,3015,322,176,11007,374,94,15,394,137,21,583,182,33,374,94,15,Finisher,350
+Stephane,Roy,Stephane Roy,1385,M40-44,Male,Norte-dame-de-l'ile-perrot,QC,Canada,CA,0:32:14,1:22:35,0:59:04,,,3:03:28,1934,4955,3544,412,163,11008,375,281,56,513,323,63,374,288,58,375,281,56,Finisher,350
+Annick,De Carufel,Annick De Carufel,2051,F45-49,Female,Ste-Julie,Québec,Canada,CA,0:26:57,1:32:22,0:55:35,,,3:03:33,1617,5542,3335,317,202,11013,376,95,13,110,33,5,438,119,14,376,95,13,Finisher,350
+Marie-Claude,Jourdain,Marie-Claude Jourdain,1986,F40-44,Female,Montreal,QC,Canada,CA,0:31:15,1:27:52,0:55:15,,,3:03:35,1875,5272,3315,365,188,11015,377,96,16,432,159,25,457,126,21,377,96,16,Finisher,350
+Kim,Chabot,Kim Chabot,1796,F30-34,Female,Blainville,QC,Canada,CA,0:30:04,1:26:20,0:58:20,,,3:03:42,1804,5180,3500,346,192,11022,378,97,23,336,114,26,390,94,24,378,97,23,Finisher,350
+Cédric,Lambert,Cédric Lambert,1232,M35-39,Male,Granby,QC,Canada,CA,0:35:17,1:24:16,0:56:06,,,3:03:43,2117,5056,3366,315,169,11023,379,282,52,698,415,65,446,325,61,379,282,52,Finisher,350
+Sylvie,Couture,Sylvie Couture,2107,F50-54,Female,Quebec,QC,Canada,CA,0:31:00,1:32:29,0:51:17,,,3:03:46,1860,5549,3077,344,196,11026,380,98,7,412,145,13,568,174,16,380,98,7,Finisher,420
+Jaime,Baena,Jaime Baena,1414,M45-49,Male,Cote Saint Luc,QC,Canada,CA,0:33:15,1:19:43,0:59:39,,,3:03:48,1995,4783,3579,420,251,11028,381,283,44,606,374,61,336,264,43,381,283,44,Finisher,350
+Gilles,Martel,Gilles Martel,1556,M50-54,Male,Saint-Antoine Abbe,QC,Canada,CA,0:35:32,1:19:29,1:00:05,,,3:03:51,2132,4769,3605,366,159,11031,382,284,35,714,422,50,359,277,32,382,284,35,Finisher,350
+Michel,Robert,Michel Robert,1571,M50-54,Male,Montréal,QC,Canada,CA,0:32:35,1:24:29,0:54:57,,,3:03:54,1955,5069,3297,509,204,11034,383,285,36,556,345,41,467,339,36,383,285,36,Finisher,350
+Cassandre,Ouellet,Cassandre Ouellet,1692,F18-24,Female,Sherbrooke,QC,Canada,CA,0:24:13,1:33:27,0:57:21,,,3:03:54,1453,5607,3441,308,225,11034,384,99,8,30,9,2,398,97,9,384,99,8,Finisher,350
+Daniel,Provost,Daniel Provost,1567,M50-54,Male,Amos,QC,Canada,CA,0:27:40,1:23:05,1:03:36,,,3:03:57,1660,4985,3816,339,237,11037,385,286,37,160,117,14,250,210,24,385,286,37,Finisher,350
+Nicolas,Pelland,Nicolas Pelland,1253,M35-39,Male,Montreal,QC,Canada,CA,0:29:43,1:22:39,1:01:40,,,3:04:02,1783,4959,3700,404,196,11042,386,287,53,309,207,35,317,257,46,386,287,53,Finisher,350
+Caroline,Vincent,Caroline Vincent,1855,F30-34,Female,Shawinigan,QC,Canada,CA,0:34:03,1:22:40,0:59:17,,,3:04:10,2043,4960,3557,298,192,11050,387,100,24,653,262,53,375,87,20,387,100,24,Finisher,350
+Isabelle,Bourassa,Isabelle Bourassa,2102,F50-54,Female,Montréal,QC,Canada,CA,0:31:39,1:24:58,0:56:45,,,3:04:25,1899,5098,3405,442,221,11065,388,101,8,461,170,14,426,113,10,388,101,8,Finisher,407
+Sylvie,Gosselin,Sylvie Gosselin,1979,F40-44,Female,Levis,QC,Canada,CA,0:30:28,1:26:10,0:59:23,,,3:04:36,1828,5170,3563,323,192,11076,389,102,17,369,130,18,387,93,11,389,102,17,Finisher,350
+Francois,Mathieu,Francois Mathieu,1470,M45-49,Male,Gatineau,QC,Canada,CA,0:27:11,1:23:34,1:00:27,,,3:04:40,1631,5014,3627,448,360,11080,390,288,45,126,92,12,288,235,38,390,288,45,Finisher,350
+Claudia,Hutchinson,Claudia Hutchinson,2143,F55-59,Female,Oakville,ON,Canada,CA,0:30:25,1:24:52,1:00:43,,,3:04:44,1825,5092,3643,360,164,11084,391,103,3,365,129,2,364,84,2,391,103,3,Finisher,793
+Marie-Claude,Diamant,Marie-Claude Diamant,2054,F45-49,Female,Blainville,Québec,Canada,CA,0:32:30,1:24:18,0:56:56,,,3:04:44,1950,5058,3416,458,202,11084,392,104,14,545,205,21,434,115,13,392,104,14,Finisher,350
+Margot,Sunter,Margot Sunter,2096,F50-54,Female,OTTAWA,ON,Canada,CA,0:26:31,1:28:05,1:00:55,,,3:04:45,1591,5285,3655,380,174,11085,393,105,9,92,26,3,356,81,8,393,105,9,Finisher,400
+Steves,Proulx,Steves Proulx,1377,M40-44,Male,Longueuil,QC,Canada,CA,0:29:46,1:24:03,1:01:21,,,3:04:54,1786,5043,3681,389,195,11094,394,289,57,313,210,35,347,270,53,394,289,57,Finisher,350
+Pierre,Chateauvert,Pierre Chateauvert,1600,M55-59,Male,Bois des filion,QC,Canada,CA,0:26:06,1:24:41,1:05:21,,,3:04:56,1566,5081,3921,306,222,11096,395,290,15,77,56,3,238,203,13,395,290,15,Finisher,352
+Paul,Hutchinson,Paul Hutchinson,1613,M55-59,Male,Oakville,ON,Canada,CA,0:33:23,1:24:17,0:56:12,,,3:04:56,2003,5057,3372,441,223,11096,396,291,16,616,378,27,451,329,22,396,291,16,Finisher,352
+Lori,Smith,Lori Smith,2025,F40-44,Female,Timmins,ON,Canada,CA,0:29:41,1:27:44,0:56:49,,,3:04:57,1781,5264,3409,385,258,11097,397,106,18,306,100,16,421,109,15,397,106,18,Finisher,350
+Mathieu,Bercier Paiement,Mathieu Bercier Paiement,1007,M18-24,Male,St-clet,QC,Canada,CA,0:30:26,1:23:52,0:59:30,,,3:05:06,1826,5032,3570,483,195,11106,398,292,26,366,237,23,392,298,26,398,292,26,Finisher,350
+Josiane,Villeneuve,Josiane Villeneuve,1771,F25-29,Female,Saint-Jérôme,QC,Canada,CA,0:30:14,1:27:03,0:59:34,,,3:05:08,1814,5223,3574,346,151,11108,399,107,13,351,125,23,402,100,13,399,107,13,Finisher,350
+Andreanne,Germain,Andreanne Germain,1892,F35-39,Female,quebec,QC,Canada,CA,0:32:21,1:21:31,1:01:54,,,3:05:14,1941,4891,3714,324,244,11114,400,108,19,527,196,31,324,64,13,400,108,19,Finisher,350
+Isabelle,Côté,Isabelle Côté,1959,F40-44,Female,Laval,QC,Canada,CA,0:34:55,1:27:03,0:55:41,,,3:05:21,2095,5223,3341,309,153,11121,401,109,19,686,281,53,520,154,27,401,109,19,Finisher,350
+Martin,Thiffault,Martin Thiffault,1396,M40-44,Male,Ste-Anne-des-Plaines,QC,Canada,CA,0:30:36,1:27:46,0:58:28,,,3:05:23,1836,5266,3508,348,165,11123,402,293,58,380,246,44,430,316,62,402,293,58,Finisher,350
+Geneviève,Thibodeau,Geneviève Thibodeau,1850,F30-34,Female,L'Orignal,ON,Canada,CA,0:30:12,1:25:11,1:00:06,,,3:05:31,1812,5111,3606,397,205,11131,403,110,25,349,124,30,386,92,23,403,110,25,Finisher,350
+Melanie,Gregory,Melanie Gregory,1982,F40-44,Female,Rockland,ON,Canada,CA,0:31:32,1:26:45,0:54:43,,,3:05:31,1892,5205,3283,478,273,11131,404,111,20,454,168,26,495,138,23,404,111,20,Finisher,350
+Carlos,Ruiz-Vargas,Carlos Ruiz-Vargas,1162,M30-34,Male,Ithaca,NY,Mexico,MX,0:25:25,1:30:27,1:00:30,,,3:05:33,1525,5427,3630,344,207,11133,405,294,35,59,43,5,372,286,33,405,294,35,Finisher,350
+Rachelle,Joly,Rachelle Joly,2126,F50-54,Female,Gatineau,QC,Canada,CA,0:28:21,1:25:35,0:59:56,,,3:05:36,1701,5135,3596,422,282,11136,406,112,10,195,59,8,357,82,9,406,112,10,Finisher,382
+Marina,Parent,Marina Parent,1694,F18-24,Female,Montreal,QC,Canada,CA,0:30:12,1:30:28,0:56:39,,,3:05:37,1812,5428,3399,325,173,11137,407,113,9,348,123,11,486,134,14,407,113,9,Finisher,350
+Laurie,Frechette,Laurie Frechette,1736,F25-29,Female,Montréal,Quebec,Canada,CA,0:35:54,1:20:08,0:58:16,,,3:05:45,2154,4808,3496,520,167,11145,408,114,14,728,301,46,444,120,15,408,114,14,Finisher,350
+Jerome,Caron,Jerome Caron,1298,M40-44,Male,Brossard,Québec,Canada,CA,0:32:22,1:23:53,0:58:27,,,3:05:45,1942,5033,3507,441,222,11145,409,295,59,533,336,65,412,306,60,409,295,59,Finisher,350
+Marie-Christine,Halle,Marie-Christine Halle,1897,F35-39,Female,Teddington,Middlesex,Canada,CA,0:30:08,1:21:24,1:04:27,,,3:05:47,1808,4884,3867,390,198,11147,410,115,20,342,119,18,278,50,9,410,115,20,Finisher,350
+Laetitia,Brosio,Laetitia Brosio,1791,F30-34,Female,La Conception,QC,Canada,CA,0:31:21,1:28:00,0:54:02,,,3:05:49,1881,5280,3242,409,337,11149,411,116,26,444,163,38,490,135,31,411,116,26,Finisher,350
+Isabelle,Langevin,Isabelle Langevin,1990,F40-44,Female,Montréal,QC,Canada,CA,0:30:35,1:32:22,0:53:27,,,3:05:51,1835,5542,3207,360,207,11151,412,117,21,379,134,20,559,171,32,412,117,21,Finisher,350
+Simon,Desjardins,Simon Desjardins,1314,M40-44,Male,Montreal,QC,Canada,CA,0:29:56,1:22:47,1:04:28,,,3:05:51,1796,4967,3868,356,164,11151,413,296,60,327,218,37,302,247,49,413,296,60,Finisher,350
+Doug,Cain,Doug Cain,1193,M35-39,Male,Kew,VIC,Canada,CA,0:27:17,1:28:49,1:00:52,,,3:05:53,1637,5329,3652,364,171,11153,414,297,54,129,94,13,389,296,54,414,297,54,Finisher,350
+Daniel,Dorais,Daniel Dorais,1443,M45-49,Male,Varennes,QC,Canada,CA,0:22:39,1:27:18,1:06:09,,,3:06:02,1359,5238,3969,335,261,11162,415,298,46,16,12,3,231,198,35,415,298,46,Finisher,350
+Stephen,Thompson,Stephen Thompson,1634,M55-59,Male,Montreal-Ouest,QC,Canada,CA,0:32:21,1:23:26,0:58:34,,,3:06:04,1941,5006,3514,445,258,11164,416,299,17,530,334,24,407,305,19,416,299,17,Finisher,350
+Kim,Gilbert,Kim Gilbert,1128,M30-34,Male,Brossard,QC,Canada,CA,0:29:25,1:28:37,0:57:45,,,3:06:04,1765,5317,3465,400,217,11164,417,300,36,285,193,25,443,324,38,417,300,36,Finisher,350
+Kim,Dery,Kim Dery,1728,F25-29,Female,Gatineau,QC,Canada,CA,0:30:12,1:28:26,0:58:04,,,3:06:07,1812,5306,3484,364,201,11167,418,118,15,347,122,22,445,121,16,418,118,15,Finisher,350
+Elizabeth,Martin,Elizabeth Martin,1827,F30-34,Female,Montreal,QC,Canada,CA,0:29:42,1:26:50,0:59:59,,,3:06:11,1782,5210,3599,393,187,11171,419,119,27,307,101,21,403,101,26,419,119,27,Finisher,350
+Etienne,Allonier,Etienne Allonier,1276,M40-44,Male,outremont,QC,France,FR,0:32:37,1:26:31,0:57:15,,,3:06:11,1957,5191,3435,408,180,11171,420,301,61,559,346,68,480,347,71,420,301,61,Finisher,350
+Viviane,Landry,Viviane Landry,1813,F30-34,Female,Montreal,Québec,Canada,CA,0:30:11,1:32:49,0:51:07,,,3:06:11,1811,5569,3067,444,280,11171,421,120,28,346,121,29,586,183,41,421,120,28,Finisher,350
+Shanie,Poliquin,Shanie Poliquin,1840,F30-34,Female,montreal,quebec,Canada,CA,0:29:24,1:28:02,0:58:56,,,3:06:12,1764,5282,3536,349,241,11172,422,121,29,284,92,18,408,103,27,422,121,29,Finisher,350
+Samuel,Olesky,Samuel Olesky,1151,M30-34,Male,Ann Arbor,MI,United States,US,0:36:29,1:23:53,0:56:45,,,3:06:15,2189,5033,3405,378,170,11175,423,302,37,756,440,52,509,363,43,423,302,37,Finisher,350
+Roger,Brunette,Roger Brunette,1594,M55-59,Male,Pierrefonds Pq.,Québec,Canada,CA,0:35:29,1:26:10,0:55:26,,,3:06:17,2129,5170,3326,365,187,11177,424,303,18,713,421,31,533,373,27,424,303,18,Finisher,350
+Patricia,Mckenzie,Patricia Mckenzie,2005,F40-44,Female,Léry,QC,Canada,CA,0:29:04,1:29:08,0:56:12,,,3:06:19,1744,5348,3372,419,296,11179,425,122,22,256,81,14,456,125,20,425,122,22,Finisher,350
+Alexandra,Gervais,Alexandra Gervais,1677,F18-24,Female,Sainte-Martine,QC,Canada,CA,0:31:08,1:28:42,0:57:40,,,3:06:27,1868,5322,3460,355,182,11187,426,123,10,424,153,15,474,132,13,426,123,10,Finisher,350
+Nicolas,Poussielgue,Nicolas Poussielgue,1260,M35-39,Male,Lisbon,Lisbon,France,FR,0:31:33,1:25:55,1:01:06,,,3:06:27,1893,5155,3666,296,177,11187,427,304,55,455,287,44,393,299,55,427,304,55,Finisher,350
+Luc,Bertin,Luc Bertin,1421,M45-49,Male,Trois-Rivières,QC,Canada,CA,0:32:28,1:28:10,0:54:17,,,3:06:32,1948,5290,3257,441,256,11192,428,305,47,541,339,57,538,376,61,428,305,47,Finisher,350
+Colin,Waterhouse,Colin Waterhouse,1104,M25-29,Male,Ottawa,ON,Canada,CA,0:32:26,1:24:38,0:59:33,,,3:06:39,1946,5078,3573,405,197,11199,429,306,22,538,337,23,420,312,23,429,306,22,Finisher,350
+Karine,Bazinet,Karine Bazinet,1863,F35-39,Female,Mirabel,QC,Canada,CA,0:34:09,1:26:33,0:57:02,,,3:06:43,2049,5193,3422,331,208,11203,430,124,21,658,266,44,494,137,25,430,124,21,Finisher,350
+Jonathan,Robichaud,Jonathan Robichaud,1160,M30-34,Male,mont-saint-hilaire,QC,Canada,CA,0:28:35,1:24:12,1:04:27,,,3:06:47,1715,5052,3867,361,212,11207,431,307,38,215,151,16,308,250,31,431,307,38,Finisher,350
+juan,gaviria,juan gaviria,1127,M30-34,Male,Montréal,QC,Colombia,CO,0:33:48,1:23:06,1:00:21,,,3:06:47,2028,4986,3621,335,237,11207,432,308,39,642,388,45,395,300,34,432,308,39,Finisher,350
+Germain,Harvey,Germain Harvey,1223,M35-39,Male,Mascouche,QC,Canada,CA,0:35:29,1:22:04,0:59:26,,,3:06:52,2129,4924,3566,425,168,11212,433,309,56,712,420,66,440,321,60,433,309,56,Finisher,350
+Philippe,Picard,Philippe Picard,1255,M35-39,Male,Lévis,QC,Canada,CA,0:34:13,1:23:17,1:00:02,,,3:06:53,2053,4997,3602,366,195,11213,434,310,57,662,396,64,414,308,56,434,310,57,Finisher,350
+Annick,Desrosiers,Annick Desrosiers,1881,F35-39,Female,ottawa,ON,Canada,CA,0:33:37,1:21:31,1:02:30,,,3:07:01,2017,4891,3750,365,198,11221,435,125,22,631,248,40,360,83,18,435,125,22,Finisher,350
+Rock,Degrace,Rock Degrace,1439,M45-49,Male,Varennes,,Canada,CA,0:30:43,1:20:19,1:05:28,,,3:07:03,1843,4819,3928,379,254,11223,436,311,48,392,256,42,265,218,36,436,311,48,Finisher,350
+Benjamin,Chretien,Benjamin Chretien,1067,M25-29,Male,Cantley,QC,Canada,CA,0:37:05,1:17:44,1:03:06,,,3:07:07,2225,4664,3786,323,229,11227,437,312,23,780,453,29,343,267,19,437,312,23,Finisher,350
+Mariève,Bélanger,Mariève Bélanger,1709,F25-29,Female,,,Canada,CA,0:31:03,1:28:14,0:58:11,,,3:07:18,1863,5294,3491,379,211,11238,438,126,16,418,148,25,469,130,18,438,126,16,Finisher,350
+Michael ,Davidson,Michael Davidson,1309,M40-44,Male,Inverary,ON,Canada,CA,0:33:34,1:25:49,0:57:51,,,3:07:22,2014,5149,3471,410,198,11242,439,313,62,628,382,81,493,357,73,439,313,62,Finisher,350
+Vilomar,Viloria,Vilomar Viloria,1270,M35-39,Male,Côte-Saint-Luc,QC,Canada,CA,0:24:14,1:31:34,1:03:10,,,3:07:32,1454,5494,3790,331,183,11252,440,314,58,31,22,4,365,281,51,440,314,58,Finisher,350
+Felix,Jodoin,Felix Jodoin,1227,M35-39,Male,,,Canada,CA,0:36:37,1:22:12,1:01:08,,,3:07:36,2197,4932,3668,309,150,11256,441,315,59,762,446,70,425,313,57,441,315,59,Finisher,350
+Raphael,Lajeunesse-Cyr,Raphael Lajeunesse-Cyr,1040,M18-24,Male,Mont-Tremblant,QC,Canada,CA,0:27:22,1:32:45,0:58:00,,,3:07:37,1642,5565,3480,374,196,11257,442,316,27,138,103,13,502,359,30,442,316,27,Finisher,350
+Janice,Huggins,Janice Huggins,1985,F40-44,Female,Stouffville,ON,Canada,CA,0:29:57,1:31:17,0:57:16,,,3:07:39,1797,5477,3436,336,213,11259,443,127,23,331,112,17,515,151,25,443,127,23,Finisher,350
+Catherine,Fortier,Catherine Fortier,1970,F40-44,Female,Verdun,QC,Canada,CA,0:36:41,1:24:44,0:57:20,,,3:07:41,2201,5084,3440,324,212,11261,444,128,24,764,318,58,514,150,24,444,128,24,Finisher,350
+Robert,Van Pelt,Robert Van Pelt,1269,M35-39,Male,Saint-Sauveur,QC,Netherlands,NL,0:38:13,1:16:13,1:00:07,,,3:07:50,2293,4573,3607,437,360,11270,445,317,60,804,465,76,377,289,53,445,317,60,Finisher,350
+Christian,Delisle,Christian Delisle,1606,M55-59,Male,Montréal,QC,Canada,CA,0:36:10,1:28:05,0:53:06,,,3:07:56,2170,5285,3186,432,203,11276,446,318,19,742,433,32,609,416,31,446,318,19,Finisher,350
+Benoit,Melancon,Benoit Melancon,1474,M45-49,Male,Laval,QC,Canada,CA,0:30:28,1:28:14,0:58:27,,,3:08:06,1828,5294,3507,427,230,11286,447,319,49,370,240,39,478,345,59,447,319,49,Finisher,350
+Simon,Primeau,Simon Primeau,1099,M25-29,Male,Montreal,QC,Canada,CA,0:32:45,1:27:44,0:58:09,,,3:08:10,1965,5264,3489,361,211,11290,448,320,24,569,350,25,507,362,24,448,320,24,Finisher,350
+Yves,Latour,Yves Latour,1351,M40-44,Male,Saint-Jean-sur-Richelieu,QC,Canada,CA,0:34:52,1:25:34,0:56:49,,,3:08:14,2092,5134,3409,404,255,11294,449,321,63,685,405,85,522,368,75,449,321,63,Finisher,350
+Natalie,Marleau,Natalie Marleau,2130,F50-54,Female,Ste-Sophie,QC,Canada,CA,0:34:03,1:29:05,0:55:53,,,3:08:17,2043,5345,3353,360,196,11297,450,129,11,652,261,23,563,172,15,450,129,11,Finisher,350
+Sarah,Bourque,Sarah Bourque,1870,F35-39,Female,Lévis,QC,Canada,CA,0:28:59,1:29:04,1:01:19,,,3:08:31,1739,5344,3679,386,163,11311,451,130,23,247,75,10,436,117,22,451,130,23,Finisher,350
+Serge,Cimon,Serge Cimon,1601,M55-59,Male,Val-d'Or,QC,Canada,CA,0:30:27,1:25:34,1:01:16,,,3:08:32,1827,5134,3676,455,220,11312,452,322,20,367,238,20,413,307,20,452,322,20,Finisher,350
+Frédéric,Simard,Frédéric Simard,1388,M40-44,Male,Montreal,QC,Canada,CA,0:33:07,1:26:16,0:59:23,,,3:08:35,1987,5176,3563,369,220,11315,453,323,64,596,370,77,466,338,67,453,323,64,Finisher,350
+Catherine,Guay,Catherine Guay,1896,F35-39,Female,Varennes,QC,Canada,CA,0:34:15,1:25:09,0:56:52,,,3:08:37,2055,5109,3412,509,232,11317,454,131,24,663,267,45,535,161,31,454,131,24,Finisher,350
+Francois,Dubuc,Francois Dubuc,1444,M45-49,Male,Terrebonne,QC,Canada,CA,0:32:02,1:24:22,1:04:13,,,3:08:54,1922,5062,3853,310,187,11334,455,324,50,492,308,51,371,285,48,455,324,50,Finisher,350
+Marie,Fiala,Marie Fiala,2112,F50-54,Female,Ottawa,ON,Canada,CA,0:32:05,1:29:33,0:57:16,,,3:08:57,1925,5373,3436,360,243,11337,456,132,12,495,185,17,530,159,13,456,132,12,Finisher,350
+Camille,Guilbault,Camille Guilbault,1740,F25-29,Female,Montréal,Québec,Canada,CA,0:24:23,1:30:03,1:06:08,,,3:09:10,1463,5403,3968,341,175,11350,457,133,17,35,11,2,340,75,11,457,133,17,Finisher,350
+Dominique,Paradis,Dominique Paradis,2131,F50-54,Female,Borssard,QC,Canada,CA,0:33:47,1:28:41,0:57:47,,,3:09:11,2027,5321,3467,355,181,11351,458,134,13,641,254,22,546,165,14,458,134,13,Finisher,350
+Jean-François,Marineau,Jean-François Marineau,1361,M40-44,Male,Saint-Eustache,QC,Canada,CA,0:32:44,1:27:27,1:00:56,,,3:09:17,1964,5247,3656,344,146,11357,459,325,65,567,349,69,479,346,70,459,325,65,Finisher,350
+Julie,Normand,Julie Normand,2082,F45-49,Female,Montreal,QC,Canada,CA,0:35:26,1:29:55,0:54:03,,,3:09:18,2126,5395,3243,360,234,11358,460,135,15,710,291,31,606,193,19,460,135,15,Finisher,350
+Michel,Cardinal,Michel Cardinal,1639,M60-64,Male,blainville,QC,Canada,CA,0:35:52,1:24:28,0:59:36,,,3:09:20,2152,5068,3576,348,216,11360,461,326,3,726,427,6,488,354,4,461,326,3,Finisher,531
+Zoé,Dupuis,Zoé Dupuis,1802,F30-34,Female,Trois-Rivières,QC,Canada,CA,0:28:23,1:29:44,1:03:09,,,3:09:22,1703,5384,3789,315,171,11362,462,136,30,199,61,13,411,106,29,462,136,30,Finisher,350
+Sandra,Lapointe,Sandra Lapointe,1902,F35-39,Female,St-Eustache,QC,Canada,CA,0:32:22,1:33:35,0:51:51,,,3:09:23,1942,5615,3111,394,301,11363,463,137,25,534,198,32,628,208,38,463,137,25,Finisher,350
+Chantal,Bouret,Chantal Bouret,1950,F40-44,Female,Longueuil,QC,Canada,CA,0:35:46,1:22:12,1:03:44,,,3:09:28,2146,4932,3824,287,179,11368,464,138,25,718,293,56,397,96,12,464,138,25,Finisher,350
+Martin,Desrosiers,Martin Desrosiers,1316,M40-44,Male,Lévis,QC,Canada,CA,0:38:47,1:26:04,0:51:54,,,3:09:30,2327,5164,3114,492,273,11370,465,327,66,820,474,97,638,423,86,465,327,66,Finisher,350
+Catherine,Mercier,Catherine Mercier,2007,F40-44,Female,Lévis,QC,Canada,CA,0:29:04,1:29:41,1:01:29,,,3:09:35,1744,5381,3689,369,192,11375,466,139,26,255,80,13,450,122,18,466,139,26,Finisher,350
+Sarah,Power-Smith,Sarah Power-Smith,2018,F40-44,Female,Toronto,ON,Canada,CA,0:35:20,1:30:50,0:52:01,,,3:09:41,2120,5450,3121,435,255,11381,467,140,27,705,287,54,645,220,43,467,140,27,Finisher,350
+Barry,Kahan,Barry Kahan,1646,M60-64,Male,Philadelphia,PA,United States,US,0:28:45,1:33:53,0:57:56,,,3:09:42,1725,5633,3476,393,155,11382,468,328,4,224,158,2,567,394,5,468,328,4,Finisher,523
+Maryse,Lemonnier,Maryse Lemonnier,1909,F35-39,Female,terrebonne,QC,Canada,CA,0:28:17,1:28:22,1:00:41,,,3:09:45,1697,5302,3641,435,310,11385,469,141,26,194,58,9,424,112,21,469,141,26,Finisher,350
+Alexandra,Lauzier,Alexandra Lauzier,2128,F50-54,Female,Lévis,QC,Canada,CA,0:27:49,1:24:54,1:06:46,,,3:09:45,1669,5094,4006,381,235,11385,470,142,14,172,49,6,315,59,6,470,142,14,Finisher,350
+Francois,Demers,Francois Demers,1441,M45-49,Male,St-Amable,QC,Canada,CA,0:27:44,1:26:33,1:07:41,,,3:09:46,1664,5193,4061,292,176,11386,471,329,51,165,119,16,321,259,42,471,329,51,Finisher,350
+Marie-Andrée,Castonguay,Marie-Andrée Castonguay,1873,F35-39,Female,Boucherville,QC,Canada,CA,0:27:25,1:26:48,1:06:29,,,3:09:51,1645,5208,3989,353,196,11391,472,143,27,141,37,6,339,74,16,472,143,27,Finisher,350
+Jean,Labelle,Jean Labelle,1614,M55-59,Male,Labelle,QC,Canada,CA,0:32:52,1:25:06,1:00:48,,,3:09:56,1972,5106,3648,411,259,11396,473,330,21,575,354,25,447,326,21,473,330,21,Finisher,350
+Frederique,Tardif,Frederique Tardif,1767,F25-29,Female,Shawinigan,Québec,Canada,CA,0:33:00,1:28:19,1:00:12,,,3:09:58,1980,5299,3612,322,185,11398,474,144,18,588,226,37,511,148,22,474,144,18,Finisher,350
+Jonathan,Vreugdenhil,Jonathan Vreugdenhil,1059,M18-24,Male,Montréal,QC,Canada,CA,0:31:59,1:26:14,1:01:08,,,3:09:59,1919,5174,3668,412,226,11399,475,331,28,489,306,29,455,331,27,475,331,28,Finisher,350
+Antoine,Mathys,Antoine Mathys,1472,M45-49,Male,Saint-Lambert,QC,Canada,CA,0:32:17,1:25:19,1:03:07,,,3:10:02,1937,5119,3787,373,186,11402,476,332,52,519,327,56,419,311,53,476,332,52,Finisher,350
+Jennifer,Mcleish,Jennifer Mcleish,1917,F35-39,Female,Brooklin,ON,Canada,CA,0:33:57,1:30:20,0:57:02,,,3:10:11,2037,5420,3422,353,179,11411,477,145,28,647,258,42,581,180,33,477,145,28,Finisher,350
+Sylvie,Arbour,Sylvie Arbour,2034,F45-49,Female,Pointe-Claire,QC,Canada,CA,0:29:02,1:27:06,1:04:36,,,3:10:14,1742,5226,3876,347,223,11414,478,146,16,253,78,9,383,90,10,478,146,16,Finisher,350
+Tamsin,Douglas,Tamsin Douglas,2110,F50-54,Female,Ottawa,ON,Canada,CA,0:29:10,1:29:28,1:00:16,,,3:10:14,1750,5368,3616,429,251,11414,479,147,15,263,82,9,476,133,11,479,147,15,Finisher,350
+Rémi,Nagant,Rémi Nagant,1107,M30-34,Male,Rosemère,QC,Canada,CA,0:28:56,1:22:53,1:10:21,,,3:10:26,1736,4973,4221,324,172,11426,480,333,40,242,170,22,261,217,29,480,333,40,Finisher,350
+Jacques,Blais,Jacques Blais,1589,M55-59,Male,laval,QC,Canada,CA,0:28:36,1:25:25,1:06:15,,,3:10:29,1716,5125,3975,412,201,11429,481,334,22,216,152,9,355,275,15,481,334,22,Finisher,350
+Denis,Roy,Denis Roy,1627,M55-59,Male,Mont-Tremblant,QC,Canada,CA,0:30:00,1:25:18,1:04:28,,,3:10:33,1800,5118,3868,397,250,11433,482,335,23,334,221,17,384,294,16,482,335,23,Finisher,350
+Patrick,Lacoste,Patrick Lacoste,1347,M40-44,Male,St-Eustache,QC,Canada,CA,0:35:13,1:24:09,1:01:07,,,3:10:38,2113,5049,3667,368,241,11438,483,336,67,696,413,87,465,337,66,483,336,67,Finisher,350
+Benoit,Beland,Benoit Beland,1419,M45-49,Male,Montréal,QC,Canada,CA,0:35:11,1:20:23,1:02:50,,,3:10:39,2111,4823,3770,484,251,11439,484,337,53,693,410,66,415,309,51,484,337,53,Finisher,350
+Steve Charles,Cowan,Steve Charles Cowan,1307,M40-44,Male,Brossard,QC,Canada,CA,0:32:21,1:28:10,1:01:22,,,3:10:39,1941,5290,3682,316,210,11439,485,338,68,528,332,64,477,344,69,485,338,68,Finisher,350
+Catherine,Tougas,Catherine Tougas,2030,F40-44,Female,Sherbrooke,QC,Canada,CA,0:36:03,1:32:25,0:53:43,,,3:10:45,2163,5545,3223,334,180,11445,486,148,28,733,304,57,653,225,45,486,148,28,Finisher,350
+Laurence,Beaulieu,Laurence Beaulieu,1663,F18-24,Female,La Prairie,QC,Canada,CA,0:27:13,1:32:22,1:02:19,,,3:10:53,1633,5542,3739,351,188,11453,487,149,11,127,35,4,463,128,12,487,149,11,Finisher,350
+Roxanne,Durocher,Roxanne Durocher,1732,F25-29,Female,Blainville ,QC,Canada,CA,0:32:30,1:28:10,0:59:54,,,3:10:54,1950,5290,3594,337,283,11454,488,150,19,547,207,32,496,139,19,488,150,19,Finisher,350
+Joel,Sergerie,Joel Sergerie,1165,M30-34,Male,Levis,QC,Canada,CA,0:28:52,1:33:12,0:58:17,,,3:10:57,1732,5592,3497,430,206,11457,489,339,41,237,165,17,569,395,45,489,339,41,Finisher,350
+Marie,Pier,Marie Pier,1776,F30-34,Female,,,Canada,CA,0:27:42,1:32:34,1:02:47,,,3:10:58,1662,5554,3767,321,154,11458,490,151,31,164,46,10,471,131,30,490,151,31,Finisher,350
+Amelie,Roy-Fleming,Amelie Roy-Fleming,1843,F30-34,Female,Montreal,QC,Canada,CA,0:29:57,1:32:01,0:59:22,,,3:10:59,1797,5521,3562,382,197,11459,491,152,32,330,111,25,545,164,36,491,152,32,Finisher,350
+Audrey,Clendenning,Audrey Clendenning,1797,F30-34,Female,Laval,Québec,Canada,CA,0:33:57,1:28:52,0:58:05,,,3:11:08,2037,5332,3485,397,217,11468,492,153,33,648,259,51,572,176,39,492,153,33,Finisher,350
+Marie-Eve,Amesse,Marie-Eve Amesse,1859,F35-39,Female,Laval,QC,Canada,CA,0:34:04,1:29:43,0:57:22,,,3:11:26,2044,5383,3442,418,199,11486,493,154,29,656,264,43,595,188,36,493,154,29,Finisher,350
+Elisa,Guimond,Elisa Guimond,1741,F25-29,Female,lévis,QC,Canada,CA,0:32:31,1:33:05,0:55:37,,,3:11:27,1951,5585,3337,407,207,11487,494,155,20,548,208,33,624,205,28,494,155,20,Finisher,350
+Valerie,Hamel,Valerie Hamel,1808,F30-34,Female,St-Gabriel-De-Brandon,QC,Canada,CA,0:31:46,1:31:00,1:00:11,,,3:11:28,1906,5460,3611,318,193,11488,495,156,34,475,177,40,540,163,35,495,156,34,Finisher,350
+Lindsay,Mckay,Lindsay Mckay,1916,F35-39,Female,Toronto,ON,Canada,CA,0:29:01,1:32:32,1:02:03,,,3:11:29,1741,5552,3723,307,166,11489,496,157,30,250,76,11,510,147,28,496,157,30,Finisher,350
+Nick,Dean,Nick Dean,1438,M45-49,Male,Gloucester,ON,Canada,CA,0:29:57,1:28:28,1:04:45,,,3:11:36,1797,5308,3885,314,192,11496,497,340,54,328,219,34,416,310,52,497,340,54,Finisher,350
+Dominic,Boisvert,Dominic Boisvert,1114,M30-34,Male,Mirabel,QC,Canada,CA,0:32:19,1:27:09,1:01:20,,,3:11:39,1939,5229,3680,419,232,11499,498,341,42,524,329,38,505,361,42,498,341,42,Finisher,350
+Antoine,Desjardins,Antoine Desjardins,1315,M40-44,Male,Saint-Laurent,QC,Canada,CA,0:32:01,1:26:31,1:03:53,,,3:11:43,1921,5191,3833,365,193,11503,499,342,69,491,307,61,439,320,63,499,342,69,Finisher,350
+Claude,Desroches,Claude Desroches,1523,M50-54,Male,Blainville,QC,Canada,CA,0:36:55,1:25:08,0:58:36,,,3:12:08,2215,5108,3516,459,230,11528,500,343,38,772,450,56,575,398,48,500,343,38,Finisher,350
+Serge,Rehel,Serge Rehel,1570,M50-54,Male,Val-D'Or,Québec,Canada,CA,0:40:20,1:26:39,0:52:19,,,3:12:14,2420,5199,3139,492,284,11534,501,344,39,846,486,61,665,435,56,501,344,39,Finisher,350
+Maude,Bonneville,Maude Bonneville,1786,F30-34,Female,Montréal,QC,Canada,CA,0:24:27,1:31:03,1:06:55,,,3:12:23,1467,5463,4015,385,213,11543,502,158,35,38,12,2,382,89,22,502,158,35,Finisher,350
+Ben,Gaffney,Ben Gaffney,1074,M25-29,Male,Millgrove,ON,Canada,CA,0:33:46,1:27:51,1:02:27,,,3:12:24,2026,5271,3747,308,192,11544,503,345,25,639,386,27,513,364,25,503,345,25,Finisher,350
+Marie-Josee,Menard,Marie-Josee Menard,2006,F40-44,Female,Senneterre,QC,Canada,CA,0:35:23,1:24:47,1:01:53,,,3:12:25,2123,5087,3713,360,262,11545,504,159,29,707,289,55,491,136,22,504,159,29,Finisher,350
+Annick,Gagne,Annick Gagne,2115,F50-54,Female,Ferland-et-Boilleau,QC,Canada,CA,0:33:08,1:25:29,1:02:32,,,3:12:28,1988,5129,3752,462,217,11548,505,160,16,597,227,19,498,141,12,505,160,16,Finisher,350
+Francois,Labelle,Francois Labelle,1546,M50-54,Male,La Macaza,QC,Canada,CA,0:26:27,1:34:57,1:01:53,,,3:12:30,1587,5697,3713,390,163,11550,506,346,40,90,66,9,536,375,42,506,346,40,Finisher,350
+Ryo,Sugitani,Ryo Sugitani,1267,M35-39,Male,Lachine,QC,Japan,JP,0:37:33,1:26:21,0:57:44,,,3:12:36,2253,5181,3464,426,232,11556,507,347,61,790,458,74,597,409,68,507,347,61,Finisher,350
+Alex,Ciappara,Alex Ciappara,1302,M40-44,Male,Toronto,ON,Canada,CA,0:35:44,1:28:40,0:57:27,,,3:12:44,2144,5320,3447,423,230,11564,508,348,70,717,425,88,608,415,84,508,348,70,Finisher,350
+Brianne,Charlebois,Brianne Charlebois,1875,F35-39,Female,Timmins,ON,Canada,CA,0:31:52,1:38:07,0:50:31,,,3:12:45,1912,5887,3031,425,310,11565,509,161,31,481,179,27,696,247,46,509,161,31,Finisher,350
+Serge,Lacroix,Serge Lacroix,1547,M50-54,Male,Montréal,QC,Canada,CA,0:38:38,1:26:27,0:57:08,,,3:12:47,2318,5187,3428,375,259,11567,510,349,41,817,472,59,604,413,53,510,349,41,Finisher,350
+Simon,Boily,Simon Boily,1012,M18-24,Male,LaSalle,QC,Canada,CA,0:30:53,1:33:22,0:57:44,,,3:12:48,1853,5602,3464,384,265,11568,511,350,29,405,264,27,593,407,35,511,350,29,Finisher,350
+Molywan,Vat,Molywan Vat,1102,M25-29,Male,Montreal,Quebec,Cambodia,KH,0:33:03,1:26:30,1:00:37,,,3:12:48,1983,5190,3637,519,239,11568,512,351,26,590,364,26,543,380,26,512,351,26,Finisher,350
+Tom,Hsu,Tom Hsu,1544,M50-54,Male,Oakville,ON,Canada,CA,0:37:34,1:24:12,0:58:50,,,3:12:49,2254,5052,3530,453,280,11569,513,352,42,791,459,57,571,396,46,513,352,42,Finisher,350
+Louisa,Marion,Louisa Marion,1912,F35-39,Female,Timmins,ON,Canada,CA,0:36:54,1:33:33,0:52:53,,,3:12:52,2214,5613,3173,373,199,11572,514,162,32,770,322,58,690,244,43,514,162,32,Finisher,350
+Caroline,Lavallée,Caroline Lavallée,2070,F45-49,Female,Candiac,QC,Canada,CA,0:33:11,1:33:05,0:58:02,,,3:12:55,1991,5585,3482,342,175,11575,515,163,17,604,232,24,618,201,21,515,163,17,Finisher,350
+Paul,Morel,Paul Morel,1622,M55-59,Male,dolbeau-mistassini,QC,Canada,CA,0:32:15,1:25:19,1:02:28,,,3:12:55,1935,5119,3748,533,240,11575,516,353,24,514,324,23,504,360,25,516,353,24,Finisher,350
+Cynthia,Fuller,Cynthia Fuller,1676,F18-24,Female,Sainte-Sophie,QC,Canada,CA,0:30:48,1:23:27,1:09:52,,,3:13:02,1848,5007,4192,356,179,11582,517,164,12,401,139,13,341,76,8,517,164,12,Finisher,350
+Mélanie,Dubois,Mélanie Dubois,1883,F35-39,Female,La prairie,QC,Canada,CA,0:29:51,1:34:58,0:58:45,,,3:13:08,1791,5698,3525,353,221,11588,518,165,33,319,106,16,594,187,35,518,165,33,Finisher,350
+Levon,Djevalikian,Levon Djevalikian,1319,M40-44,Male,Longueuil,QC,Canada,CA,0:35:47,1:30:33,0:56:34,,,3:13:09,2147,5433,3394,424,191,11589,519,354,71,720,426,89,644,425,87,519,354,71,Finisher,350
+Stephanie,Dussault,Stephanie Dussault,1886,F35-39,Female,Sherbrooke,QC,Canada,CA,0:35:59,1:29:52,0:58:57,,,3:13:16,2159,5392,3537,341,167,11596,520,166,34,730,302,52,610,194,37,520,166,34,Finisher,350
+Audrey,Perron,Audrey Perron,1695,F18-24,Female,Buchloe,,Canada,CA,0:27:40,1:29:42,1:06:54,,,3:13:18,1660,5382,4014,389,153,11598,521,167,13,159,43,5,423,111,11,521,167,13,Finisher,350
+Mario,Vachon,Mario Vachon,1653,M60-64,Male,Ste-Adele,QC,Canada,CA,0:31:44,1:26:01,1:06:56,,,3:13:19,1904,5161,4016,324,194,11599,522,355,5,470,297,4,405,304,3,522,355,5,Finisher,447
+Vicky,Falardeau,Vicky Falardeau,1887,F35-39,Female,Sorel-Tracy,QC,Canada,CA,0:37:14,1:28:43,0:56:26,,,3:13:20,2234,5323,3386,395,262,11600,523,168,35,784,330,60,629,209,39,523,168,35,Finisher,350
+Brigitte,Dagenais,Brigitte Dagenais,1962,F40-44,Female,Boucherville,QC,Canada,CA,0:27:47,1:36:46,0:59:45,,,3:13:24,1667,5806,3585,362,184,11604,524,169,30,170,48,6,590,185,34,524,169,30,Finisher,350
+Alain,Desharnais,Alain Desharnais,1522,M50-54,Male,BLAINVILLE,QC,Canada,CA,0:32:33,1:25:26,1:03:01,,,3:13:31,1953,5126,3781,489,262,11611,525,356,43,553,344,40,489,355,39,525,356,43,Finisher,350
+Patrick,Dorion,Patrick Dorion,1320,M40-44,Male,Mascouche,Québec,Canada,CA,0:43:21,1:27:52,0:52:50,,,3:13:32,2601,5272,3170,377,192,11612,526,357,72,878,503,105,704,452,96,526,357,72,Finisher,350
+André,Loranger,André Loranger,1553,M50-54,Male,Rosemère,QC,Canada,CA,0:30:34,1:31:54,1:00:01,,,3:13:37,1834,5514,3601,450,218,11617,527,358,44,376,243,29,577,399,49,527,358,44,Finisher,350
+Manon,Morrissette,Manon Morrissette,1829,F30-34,Female,Rimouski,QC,Canada,CA,0:29:55,1:32:48,1:01:49,,,3:13:41,1795,5568,3709,374,175,11621,528,170,36,325,109,24,558,170,37,528,170,36,Finisher,350
+Erik,Bissonnette,Erik Bissonnette,1423,M45-49,Male,St-Lazare,QC,Canada,CA,0:34:35,1:21:57,1:05:37,,,3:13:41,2075,4917,3937,498,194,11621,529,359,55,671,400,64,448,327,55,529,359,55,Finisher,350
+Lise-Marie,Caron,Lise-Marie Caron,1795,F30-34,Female,Mercier,QC,Canada,CA,0:31:12,1:33:29,1:00:50,,,3:13:53,1872,5609,3650,321,181,11633,530,171,37,428,156,34,578,179,40,530,171,37,Finisher,350
+Valerie,Cloutier,Valerie Cloutier,1958,F40-44,Female,Senneterre,QC,Canada,CA,0:33:51,1:32:18,0:58:10,,,3:13:56,2031,5538,3490,368,209,11636,531,172,31,645,257,47,622,203,38,531,172,31,Finisher,350
+Marie-Eve,Buist,Marie-Eve Buist,1793,F30-34,Female,quebec,QC,Canada,CA,0:31:19,1:28:15,1:03:23,,,3:14:01,1879,5295,3803,403,261,11641,532,173,38,439,162,37,497,140,32,532,173,38,Finisher,350
+Laurence,Cadieux,Laurence Cadieux,1667,F18-24,Male,Mirabel,Québec,Canada,CA,0:33:20,1:31:43,0:57:25,,,3:14:02,2000,5503,3445,481,213,11642,533,174,14,613,236,22,639,216,16,533,174,14,Finisher,350
+Camilo,Baratto,Camilo Baratto,1185,M35-39,Male,Laval,QC,Argentina,AR,0:32:42,1:29:34,1:02:32,,,3:14:13,1962,5374,3752,380,185,11653,534,360,62,565,348,55,554,386,67,534,360,62,Finisher,350
+Melanie,Allard,Melanie Allard,1944,F40-44,Female,Vaudreuil-sur-le-lac,QC,Canada,CA,0:32:23,1:33:17,0:59:28,,,3:14:17,1943,5597,3568,338,211,11657,535,175,32,536,200,31,602,190,35,535,175,32,Finisher,350
+Claude,Bouchard,Claude Bouchard,1590,M55-59,Male,Blainville,QC,Canada,CA,0:36:31,1:26:46,1:02:44,,,3:14:17,2191,5206,3764,316,180,11657,536,361,25,757,441,33,552,385,28,536,361,25,Finisher,350
+Miguel,Sousa,Miguel Sousa,1266,M35-39,Male,Stoneham,QC,Canada,CA,0:33:10,1:23:52,1:06:58,,,3:14:21,1990,5032,4018,428,193,11661,537,362,63,602,372,58,431,317,58,537,362,63,Finisher,350
+Benoit,Villeneuve,Benoit Villeneuve,1498,M45-49,Male,Mirabel,QC,Canada,CA,0:35:18,1:21:34,1:04:56,,,3:14:27,2118,4894,3896,470,289,11667,538,363,56,699,416,67,442,323,54,538,363,56,Finisher,350
+Emilie,Livernois-Desroches,Emilie Livernois-Desroches,1821,F30-34,Female,Montreal,QC,Canada,CA,0:32:18,1:27:52,1:03:59,,,3:14:30,1938,5272,3839,374,247,11670,539,176,39,521,194,44,503,144,33,539,176,39,Finisher,350
+Francis,Allard,Francis Allard,1108,M30-34,Male,Levis,QC,Canada,CA,0:30:41,1:30:45,1:02:33,,,3:14:44,1841,5445,3753,420,225,11684,540,364,43,388,252,30,548,382,44,540,364,43,Finisher,350
+Frederick,St-Martin,Frederick St-Martin,1389,M40-44,Male,Bois-des-Filion,QC,Canada,CA,0:31:19,1:28:09,1:02:50,,,3:14:45,1879,5289,3770,485,262,11685,541,365,73,438,277,52,529,371,77,541,365,73,Finisher,350
+Cathy,Faulkner,Cathy Faulkner,1969,F40-44,Female,Mirabel,QC,Canada,CA,0:34:29,1:29:46,0:59:17,,,3:14:46,2069,5386,3557,440,234,11686,542,177,33,668,271,49,612,195,37,542,177,33,Finisher,350
+Marc-Andre,Roy Croteau,Marc-Andre Roy Croteau,1055,M18-24,Male,Lorraine,QC,Canada,CA,0:35:23,1:25:41,1:01:11,,,3:14:48,2123,5141,3671,351,402,11688,543,366,30,708,419,34,517,365,31,543,366,30,Finisher,350
+Krista,Pym,Krista Pym,1707,F25-29,Female,Grimsby,ON,Canada,CA,0:28:49,1:36:50,1:00:32,,,3:14:50,1729,5810,3632,362,157,11690,544,178,21,231,71,12,614,197,26,544,178,21,Finisher,350
+Viviane,Marcotte-L'Heureux,Viviane Marcotte-L'Heureux,1688,F18-24,Female,Montreal,QC,Canada,CA,0:31:45,1:37:04,0:56:27,,,3:14:56,1905,5824,3387,383,197,11696,545,179,15,473,175,16,667,232,18,545,179,15,Finisher,350
+Alain,Paquette,Alain Paquette,1563,M50-54,Male,LaSalle,QC,Canada,CA,0:30:55,1:28:41,1:03:52,,,3:14:56,1855,5321,3832,475,213,11696,546,367,45,406,265,33,527,370,41,546,367,45,Finisher,350
+Annie,Cérat,Annie Cérat,1954,F40-44,Female,Blainville,QC,Canada,CA,0:33:10,1:28:10,1:02:50,,,3:15:01,1990,5290,3770,430,221,11701,547,180,34,601,230,39,550,167,29,547,180,34,Finisher,350
+Veronique,Michelin,Veronique Michelin,1919,F35-39,Female,Montreal,Qc,Canada,CA,0:30:38,1:28:35,1:05:15,,,3:15:06,1838,5315,3915,435,203,11706,548,181,36,384,135,21,506,145,26,548,181,36,Finisher,350
+Eric,Chamelot,Eric Chamelot,1428,M45-49,Male,St-bruno,QC,Canada,CA,0:31:10,1:25:51,1:06:44,,,3:15:11,1870,5151,4004,492,194,11711,549,368,57,426,272,46,458,332,57,549,368,57,Finisher,350
+Carl,Vaillancourt,Carl Vaillancourt,1579,M50-54,Male,Crysler,ON,Canada,CA,0:34:42,1:27:38,1:00:04,,,3:15:17,2082,5258,3604,434,339,11717,550,369,46,677,402,48,574,397,47,550,369,46,Finisher,350
+andre,audet,andre audet,1586,M55-59,Male,drummondville,QC,Canada,CA,0:31:53,1:28:14,1:06:23,,,3:15:19,1913,5294,3983,359,170,11719,551,370,26,483,304,22,487,353,24,551,370,26,Finisher,350
+Kathryn,Swerhun,Kathryn Swerhun,2150,F55-59,Female,Mississauga,ON,Canada,CA,0:26:42,1:34:21,1:05:07,,,3:15:23,1602,5661,3907,351,202,11723,552,182,4,97,29,1,516,152,3,552,182,4,Finisher,569
+Christophe,Deveaux,Christophe Deveaux,1317,M40-44,Male,St-Bruno-de-Montarville,QC,Canada,CA,0:33:05,1:28:27,1:02:02,,,3:15:26,1985,5307,3722,451,261,11726,553,371,74,595,369,76,560,389,79,553,371,74,Finisher,350
+Antoine,Mayrand,Antoine Mayrand,1047,M18-24,Male,Laval,QC,Canada,CA,0:32:08,1:27:38,1:06:38,,,3:15:26,1928,5258,3998,373,169,11726,554,372,31,501,316,30,483,350,28,554,372,31,Finisher,350
+Michael,Graaf,Michael Graaf,1218,M35-39,Male,Toronto,ON,Canada,CA,0:24:42,1:36:00,1:04:11,,,3:15:29,1482,5760,3851,377,259,11729,555,373,64,47,33,6,519,366,64,555,373,64,Finisher,350
+Laurence,Delisle,Laurence Delisle,1672,F18-24,Female,MONTRÉAL,QC,Canada,CA,0:32:12,1:32:01,1:00:25,,,3:15:40,1932,5521,3625,382,280,11740,556,183,16,507,188,17,591,186,15,556,183,16,Finisher,350
+Stephanie,Graddon,Stephanie Graddon,1981,F40-44,Female,Candiac,QC,Canada,CA,0:34:06,1:37:34,0:54:48,,,3:15:47,2046,5854,3288,373,186,11747,557,184,35,657,265,48,714,259,51,557,184,35,Finisher,350
+Isabelle,Chabot,Isabelle Chabot,1717,F25-29,Female,Saint-Jérôme,QC,Canada,CA,0:32:28,1:31:10,1:02:29,,,3:15:50,1948,5470,3749,408,175,11750,558,185,22,544,204,31,587,184,24,558,185,22,Finisher,350
+Patrick,Cote,Patrick Cote,1306,M40-44,Male,Brossard,Quebec,Canada,CA,0:27:17,1:27:31,1:11:12,,,3:15:51,1637,5251,4272,388,203,11751,559,374,75,130,95,19,363,280,56,559,374,75,Finisher,350
+Elisa,Piscollo,Elisa Piscollo,1930,F35-39,Female,Prévost,QC,Canada,CA,0:36:08,1:27:29,1:03:10,,,3:15:57,2168,5249,3790,355,195,11757,560,186,37,738,308,55,573,177,32,560,186,37,Finisher,350
+Fany,Obomsawin,Fany Obomsawin,2012,F40-44,Female,Bromont,QC,Canada,CA,0:31:56,1:31:47,1:00:03,,,3:16:09,1916,5507,3603,457,286,11769,561,187,36,486,181,29,605,192,36,561,187,36,Finisher,350
+Luc,Roussel,Luc Roussel,1488,M45-49,Male,Montreal,Quebec,Canada,CA,0:31:43,1:24:00,1:06:48,,,3:16:12,1903,5040,4008,549,272,11772,562,375,58,469,296,50,449,328,56,562,375,58,Finisher,350
+Emanuelle,Chevrier-Charron,Emanuelle Chevrier-Charron,1719,F25-29,Female,Gatineau,QC,Canada,CA,0:35:48,1:23:54,1:05:37,,,3:16:25,2148,5034,3937,398,268,11785,563,188,23,722,296,43,500,142,20,563,188,23,Finisher,350
+Jennifer,Bornand,Jennifer Bornand,1787,F30-34,Female,Mirabel,QC,Canada,CA,0:32:53,1:30:37,1:04:17,,,3:16:31,1973,5437,3857,341,183,11791,564,189,40,579,222,47,566,173,38,564,189,40,Finisher,350
+Myriam,Dumais-Legault,Myriam Dumais-Legault,1966,F40-44,Female,Ste-Thérèse,QC,Canada,CA,0:31:08,1:29:50,1:05:39,,,3:16:31,1868,5390,3939,359,235,11791,565,190,37,423,152,24,518,153,26,565,190,37,Finisher,350
+Matthew,Tedstone,Matthew Tedstone,1393,M40-44,Male,Otterburn Park,QC,Canada,CA,0:30:39,1:30:17,1:04:52,,,3:16:31,1839,5417,3892,381,262,11791,566,376,76,386,251,45,523,369,76,566,376,76,Finisher,350
+Lucie,Genereux,Lucie Genereux,2120,F50-54,Female,Mont Tremblant,QC,Canada,CA,0:35:19,1:29:52,1:00:04,,,3:16:35,2119,5392,3604,430,250,11795,567,191,17,702,284,25,623,204,18,567,191,17,Finisher,350
+Rachel,Fahlman,Rachel Fahlman,1734,F25-29,Female,Montreal,QC,Canada,CA,0:29:18,1:40:16,0:57:12,,,3:16:41,1758,6016,3432,416,179,11801,568,192,24,276,88,15,686,241,34,568,192,24,Finisher,350
+Sabrina,Blanchet,Sabrina Blanchet,1867,F35-39,Female,Mascouche,Québec,Canada,CA,0:30:10,1:27:29,1:09:36,,,3:16:42,1810,5249,4176,363,204,11802,569,193,38,344,120,19,417,107,20,569,193,38,Finisher,350
+Melissa,Rodrigue,Melissa Rodrigue,1761,F25-29,Female,Mont-Tremblant,Quebec,Canada,CA,0:28:50,1:31:27,1:02:42,,,3:16:43,1730,5487,3762,569,255,11803,570,194,25,235,72,13,576,178,23,570,194,25,Finisher,350
+Natacha,Dupuis,Natacha Dupuis,1968,F40-44,Female,Rosemère,QC,Canada,CA,0:33:28,1:33:06,0:58:54,,,3:16:49,2008,5586,3534,378,303,11809,571,195,38,622,241,43,634,212,41,571,195,38,Finisher,350
+Annis,Vaillancourt,Annis Vaillancourt,2032,F40-44,Female,Terrebonne,QC,Canada,CA,0:34:47,1:30:43,1:00:14,,,3:16:49,2087,5443,3614,413,252,11809,572,196,39,680,278,52,625,206,39,572,196,39,Finisher,350
+Christine,Piché,Christine Piché,2016,F40-44,Female,Lac Mégantic,QC,Canada,CA,0:33:38,1:33:33,0:59:39,,,3:16:52,2018,5613,3579,349,253,11812,573,197,40,632,249,44,636,214,42,573,197,40,Finisher,350
+Richard,Grenier,Richard Grenier,1541,M50-54,Male,Rimouski,QC,Canada,CA,0:32:47,1:28:32,1:05:06,,,3:17:10,1967,5312,3906,405,240,11830,574,377,47,571,351,42,539,377,43,574,377,47,Finisher,350
+Pascale,Langelier,Pascale Langelier,1750,F25-29,Female,MONTREAL,QUÉBEC,Canada,CA,0:29:21,1:35:04,1:02:10,,,3:17:15,1761,5704,3730,434,206,11835,575,198,26,280,89,16,613,196,25,575,198,26,Finisher,350
+Daniel,Bernier,Daniel Bernier,1588,M55-59,Male,Montréal,QC,Canada,CA,0:29:06,1:25:05,1:09:46,,,3:17:17,1746,5105,4186,484,316,11837,576,378,27,259,178,12,391,297,18,576,378,27,Finisher,350
+Audrey,Amzallag,Audrey Amzallag,1860,F35-39,Female,Montreal,QC,Canada,CA,0:39:38,1:31:15,0:54:23,,,3:17:23,2378,5475,3263,452,275,11843,577,199,39,838,355,66,719,264,50,577,199,39,Finisher,350
+Mathieu,Grenier,Mathieu Grenier,1220,M35-39,Male,Saint-Jerome,QC,Canada,CA,0:31:00,1:28:29,1:07:50,,,3:17:29,1860,5309,4070,355,255,11849,578,379,65,414,269,40,461,335,63,578,379,65,Finisher,350
+Mark,Bartholomew,Mark Bartholomew,1416,M45-49,Male,Kirkland,QC,Canada,CA,0:28:30,1:26:43,1:06:05,,,3:17:39,1710,5203,3965,603,378,11859,579,380,59,209,145,20,460,334,58,579,380,59,Finisher,350
+Carol-Ann,Creighton,Carol-Ann Creighton,1960,F40-44,Female,St-Colomban,QC,Canada,CA,0:28:57,1:33:39,1:05:54,,,3:17:42,1737,5619,3954,360,192,11862,580,200,41,243,73,11,553,168,30,580,200,41,Finisher,350
+Gaetan,Dolbec,Gaetan Dolbec,1608,M55-59,Male,Trois-Rivieres,QC,Canada,CA,0:38:24,1:20:21,1:08:37,,,3:17:45,2304,4821,4117,414,209,11865,581,381,28,811,470,36,472,341,23,581,381,28,Finisher,350
+Audree,Lemoine,Audree Lemoine,1818,F30-34,Female,sorel-tracy,QC,Canada,CA,0:33:39,1:32:32,1:01:07,,,3:17:52,2019,5552,3667,430,204,11872,582,201,41,633,250,50,643,219,46,582,201,41,Finisher,350
+Christine,Desrosiers,Christine Desrosiers,2142,F55-59,Female,Laval,QC,Canada,CA,0:36:12,1:33:42,0:55:31,,,3:17:55,2172,5622,3331,448,302,11875,583,202,5,743,310,8,702,252,6,583,202,5,Finisher,516
+Elizabeth,Seamans,Elizabeth Seamans,1935,F35-39,Female,Quispamsis,NB,Canada,CA,0:31:01,1:31:06,1:06:11,,,3:18:01,1861,5466,3971,326,257,11881,584,203,40,416,146,23,528,158,30,584,203,40,Finisher,350
+Haley,Adams,Haley Adams,1895,F35-39,Female,Quispamsis,NB,Canada,CA,0:29:59,1:31:07,1:06:11,,,3:18:01,1799,5467,3971,384,260,11881,585,204,41,333,113,17,525,156,29,585,204,41,Finisher,350
+Jean-Michel,Audet,Jean-Michel Audet,1278,M40-44,Male,Rosemère,QC,Canada,CA,0:34:34,1:29:27,1:04:15,,,3:18:11,2074,5367,3855,379,216,11891,586,382,77,670,399,83,584,402,81,586,382,77,Finisher,350
+Martin,Gauthier,Martin Gauthier,1538,M50-54,Male,Vaudreuil-Dorion,QC,Canada,CA,0:34:47,1:23:58,1:09:30,,,3:18:12,2087,5038,4170,417,180,11892,587,383,48,681,403,49,473,342,38,587,383,48,Finisher,350
+Rami,Bebawi,Rami Bebawi,1282,M40-44,Male,Montreal,Quebec,Canada,CA,0:32:06,1:27:37,1:03:28,,,3:18:14,1926,5257,3808,544,359,11894,588,384,78,497,312,62,556,388,78,588,384,78,Finisher,350
+Jonathan,Leblanc,Jonathan Leblanc,1178,M35-39,Male,SUDBURY,ON,Canada,CA,0:28:37,1:30:37,1:10:14,,,3:18:28,1717,5437,4214,312,228,11908,589,385,66,217,153,24,433,319,59,589,385,66,Finisher,350
+Jim,Armiento,Jim Armiento,1584,M55-59,Male,GATINEAU,QC,Canada,CA,0:32:55,1:26:54,1:06:19,,,3:18:36,1975,5214,3979,470,278,11916,590,386,29,581,359,26,531,372,26,590,386,29,Finisher,350
+Andrew,Kahan,Andrew Kahan,1132,M30-34,Male,Philadelphia,PA,United States,US,0:29:02,1:40:07,1:00:46,,,3:18:45,1742,6007,3646,366,164,11925,591,387,44,251,175,23,669,436,51,591,387,44,Finisher,350
+Audrey-Anne,Veillette,Audrey-Anne Veillette,1769,F25-29,Female,Lévis,QC,Canada,CA,0:32:14,1:28:04,1:08:06,,,3:18:46,1934,5284,4086,363,259,11926,592,205,27,512,190,29,501,143,21,592,205,27,Finisher,350
+Diana,Pappas,Diana Pappas,2013,F40-44,Female,Laval,QC,Canada,CA,0:32:25,1:39:30,0:55:57,,,3:18:48,1945,5970,3357,434,222,11928,593,206,42,537,201,32,729,270,53,593,206,42,Finisher,350
+Emilie,Gauthier-Messier,Emilie Gauthier-Messier,1738,F25-29,Female,Montréal,QC,Canada,CA,0:29:51,1:29:31,1:09:22,,,3:18:49,1791,5371,4162,373,232,11929,594,207,28,320,107,20,468,129,17,594,207,28,Finisher,350
+Christine,Doucet,Christine Doucet,2056,F45-49,Female,Shawinigan,QC,Canada,CA,0:31:17,1:30:08,1:05:33,,,3:18:49,1877,5408,3933,419,292,11929,595,208,18,435,161,19,547,166,17,595,208,18,Finisher,350
+Annie,Robitaille,Annie Robitaille,2023,F40-44,Female,St-Philippe,QC,Canada,CA,0:32:40,1:35:28,1:00:57,,,3:18:51,1960,5728,3657,362,224,11931,596,209,43,562,216,37,654,226,46,596,209,43,Finisher,350
+Toufic,Hinnawi,Toufic Hinnawi,1226,M35-39,Male,montreal,QC,Israel,IL,0:36:19,1:28:53,1:02:43,,,3:19:05,2179,5333,3763,448,222,11945,597,388,67,750,437,69,631,422,70,597,388,67,Finisher,350
+Ashley,Clark,Ashley Clark,1878,F35-39,Female,Saint Lambert,QC,Canada,CA,0:33:17,1:30:38,1:05:37,,,3:19:06,1997,5438,3937,378,196,11946,598,210,42,608,233,37,582,181,34,598,210,42,Finisher,350
+Marjorie,Bergeron,Marjorie Bergeron,1783,F30-34,Female,Longueuil,Québec,Canada,CA,0:29:27,1:35:53,1:04:13,,,3:19:08,1767,5753,3853,394,181,11948,599,211,42,289,93,19,616,199,44,599,211,42,Finisher,350
+Sylvain,Leduc,Sylvain Leduc,1463,M45-49,Male,Saint-Georges-de-Clarenceville,QC,Canada,CA,0:29:49,1:31:03,1:08:18,,,3:19:13,1789,5463,4098,415,188,11953,600,389,60,317,213,33,534,374,60,600,389,60,Finisher,350
+Mark,Bell,Mark Bell,1505,M50-54,Male,Toronto,ON,Canada,CA,0:32:18,1:25:01,1:07:53,,,3:19:18,1938,5101,4073,532,314,11958,601,390,49,522,328,39,492,356,40,601,390,49,Finisher,350
+Jean Sebastien,Poulin,Jean Sebastien Poulin,1376,M40-44,Male,Saint-Colomban,QC,Canada,CA,0:32:50,1:30:10,1:04:11,,,3:19:21,1970,5410,3851,491,239,11961,602,391,79,573,353,70,600,411,82,602,391,79,Finisher,350
+Fanny,Gingras,Fanny Gingras,1976,F40-44,Female,gatineau,QC,Canada,CA,0:31:46,1:31:18,1:07:25,,,3:19:23,1906,5478,4045,346,188,11963,603,212,44,474,176,28,557,169,31,603,212,44,Finisher,350
+Fatiha,Merah,Fatiha Merah,2080,F45-49,Female,Montreal,QC,France,FR,0:36:02,1:38:27,0:54:54,,,3:19:30,2162,5907,3294,416,191,11970,604,213,19,731,303,32,758,291,33,604,213,19,Finisher,350
+Laurence,Chartier-Lefrançois,Laurence Chartier-Lefrançois,1718,F25-29,Male,Montréal,QC,Canada,CA,0:36:28,1:32:33,0:59:27,,,3:19:30,2188,5553,3567,455,207,11970,605,214,29,755,316,48,689,243,35,605,214,29,Finisher,350
+Melanie,Parke,Melanie Parke,2015,F40-44,Female,trois-rivieres,QC,Canada,CA,0:42:22,1:27:10,1:01:28,,,3:19:35,2542,5230,3688,340,175,11975,606,215,45,868,369,69,666,231,48,606,215,45,Finisher,350
+Chantale,Lavoie,Chantale Lavoie,1993,F40-44,Female,Cap-St-Ignace,QC,Canada,CA,0:33:42,1:36:03,0:59:30,,,3:19:43,2022,5763,3570,375,253,11983,607,216,46,637,252,45,680,238,49,607,216,46,Finisher,350
+Matthieu,Boucher,Matthieu Boucher,1191,M35-39,Male,Saint-Sauveur,QC,Canada,CA,0:32:03,1:38:13,0:59:32,,,3:19:47,1923,5893,3572,402,197,11987,608,392,68,493,309,48,694,449,72,608,392,68,Finisher,350
+Shinichi,Uesaka,Shinichi Uesaka,1398,M40-44,Male,Westmount,Quebec,Japan,JP,0:38:00,1:30:58,1:01:45,,,3:19:55,2280,5458,3705,350,202,11995,609,393,80,800,464,95,660,432,89,609,393,80,Finisher,350
+Joanne,Bezzubetz,Joanne Bezzubetz,2141,F55-59,Female,Ottawa,ON,Canada,CA,0:31:59,1:38:35,0:58:07,,,3:20:03,1919,5915,3487,439,243,12003,610,217,6,490,184,4,715,260,7,610,217,6,Finisher,471
+Marilyn,Boulanger,Marilyn Boulanger,1869,F35-39,Female,Quebec,QC,Canada,CA,0:34:23,1:34:26,1:00:41,,,3:20:25,2063,5666,3641,424,231,12025,611,218,43,666,269,46,678,236,41,611,218,43,Finisher,350
+Tatiana,Allore,Tatiana Allore,1704,F25-29,Female,Rivière-Rouge,QC,Canada,CA,0:32:50,1:38:20,0:59:29,,,3:20:28,1970,5900,3569,371,218,12028,612,219,30,574,221,35,700,251,37,612,219,30,Finisher,350
+Antoine,Carpentier,Antoine Carpentier,1017,M18-24,Male,Montreal,QC,Canada,CA,0:33:40,1:31:14,1:06:21,,,3:20:47,2020,5474,3981,351,221,12047,613,394,32,636,385,31,596,408,36,613,394,32,Finisher,350
+Constance,Lavoie,Constance Lavoie,2152,F60-64,Female,Montreal,QC,Canada,CA,0:43:10,1:32:30,0:55:41,,,3:21:05,2590,5550,3341,401,183,12065,614,220,1,874,372,2,770,296,1,614,220,1,Finisher,1000
+Joyce,Lavoie,Joyce Lavoie,2071,F45-49,Female,Laterriere,QC,Canada,CA,0:24:19,1:23:30,1:24:43,,,3:21:11,1459,5010,5083,312,207,12071,615,221,20,33,10,2,187,27,5,615,221,20,Finisher,350
+Laurence,Pierre,Laurence Pierre,1757,F25-29,Female,St-Jean-sur-Richelieu,QC,Canada,CA,0:31:21,1:33:37,1:04:30,,,3:21:17,1881,5617,3870,476,233,12077,616,222,31,446,165,27,635,213,29,616,222,31,Finisher,350
+Stephane,Pepin,Stephane Pepin,1153,M30-34,Male,Gatineau,QC,Canada,CA,0:35:12,1:34:41,1:01:36,,,3:21:22,2112,5681,3696,374,219,12082,617,395,45,694,411,49,682,444,52,617,395,45,Finisher,350
+Valérie,Pigeon,Valérie Pigeon,1929,F35-39,Female,Blainville,QC,Canada,CA,0:34:35,1:32:43,0:59:34,,,3:21:24,2075,5563,3574,588,284,12084,618,223,44,672,272,47,698,249,47,618,223,44,Finisher,350
+Michelle,Barrett,Michelle Barrett,2099,F50-54,Female,Brooklin,ON,Canada,CA,0:36:22,1:36:47,0:57:11,,,3:21:25,2182,5807,3431,454,211,12085,619,224,18,752,314,29,750,284,24,619,224,18,Finisher,350
+Isabelle,Viger,Isabelle Viger,2094,F45-49,Female,Mont Tremblant,QC,Canada,CA,0:35:23,1:32:55,0:59:24,,,3:21:30,2123,5575,3564,576,252,12090,620,225,21,706,288,30,716,261,26,620,225,21,Finisher,350
+Louis-Philippe,Carrière,Louis-Philippe Carrière,1598,M55-59,Male,Mont Tremblant,QC,Canada,CA,0:42:22,1:25:19,1:01:21,,,3:21:30,2542,5119,3681,521,227,12090,621,396,30,867,499,39,685,445,36,621,396,30,Finisher,350
+Daniel,Cousineau,Daniel Cousineau,1518,M50-54,Male,mont-tremblant,QC,Canada,CA,0:33:47,1:28:15,1:05:17,,,3:21:34,2027,5295,3917,484,371,12094,622,397,50,640,387,47,580,401,50,622,397,50,Finisher,350
+Eric,Seguin,Eric Seguin,1387,M40-44,Male,Montréal,Québec,Canada,CA,0:33:09,1:34:10,1:00:43,,,3:21:34,1989,5650,3643,523,289,12094,623,398,81,598,371,78,681,443,92,623,398,81,Finisher,350
+Sylvain,Rivard,Sylvain Rivard,1625,M55-59,Male,Delson,Quebec,Canada,CA,0:36:59,1:25:48,1:07:27,,,3:21:41,2219,5148,4047,471,216,12101,624,399,31,775,451,34,592,406,30,624,399,31,Finisher,350
+Jean-Baptiste,Lacombe,Jean-Baptiste Lacombe,1135,M30-34,Male,Montréal,Québec,Canada,CA,0:40:23,1:23:53,1:06:40,,,3:21:56,2423,5033,4000,496,164,12116,625,400,46,847,487,56,630,421,47,625,400,46,Finisher,350
+Ross,Galbraith,Ross Galbraith,1215,M35-39,Male,Ottawa,ON,Canada,CA,0:37:43,1:34:56,1:01:48,,,3:21:57,2263,5696,3708,282,168,12117,626,401,69,794,461,75,701,450,73,626,401,69,Finisher,350
+Chris,Mckercher,Chris Mckercher,1242,M35-39,Male,inverary,ON,Canada,CA,0:34:11,1:27:31,1:10:14,,,3:21:58,2051,5251,4214,410,192,12118,627,402,70,659,393,61,551,384,66,627,402,70,Finisher,350
+Diane,Glavina,Diane Glavina,2122,F50-54,Female,Notre-Dame-de-l'Ile-Perrot,QC,Canada,CA,0:29:15,1:35:55,1:05:21,,,3:22:03,1755,5755,3921,455,237,12123,628,226,19,271,86,11,632,210,19,628,226,19,Finisher,350
+Brigitte,Simard,Brigitte Simard,2136,F50-54,Female,Lemoyne,QC,Canada,CA,0:34:41,1:33:33,1:04:36,,,3:22:15,2081,5613,3876,332,233,12135,629,227,20,676,275,24,648,223,21,629,227,20,Finisher,350
+Samantha,Smith,Samantha Smith,1847,F30-34,,Morrill,,United States,US,0:30:55,1:31:02,1:11:12,,,3:22:21,1855,5462,4272,359,193,12141,630,228,43,407,142,32,537,162,34,630,228,43,Finisher,350
+Julie,Johnson,Julie Johnson,1901,F35-39,Female,Terrebonne,QC,Canada,CA,0:33:42,1:33:39,1:04:58,,,3:22:24,2022,5619,3898,394,211,12144,631,229,45,638,253,41,650,224,40,631,229,45,Finisher,350
+Serge,Comtois,Serge Comtois,1603,M55-59,Male,st-joseph-du-lac,QC,Canada,CA,0:42:36,1:25:18,1:03:12,,,3:22:40,2556,5118,3792,468,226,12160,632,403,32,869,500,40,675,441,35,632,403,32,Finisher,350
+Audrey,Mills,Audrey Mills,1921,F35-39,Female,Sainte-Catherine,Québec,Canada,CA,0:36:48,1:42:50,0:50:42,,,3:22:41,2208,6170,3042,438,303,12161,633,230,46,767,320,56,809,322,61,633,230,46,Finisher,350
+Genevieve,Pare,Genevieve Pare,1755,F25-29,Female,Longueuil,QC,Canada,CA,0:33:40,1:31:23,1:07:40,,,3:22:50,2020,5483,4060,416,191,12170,634,231,32,635,251,40,619,202,27,634,231,32,Finisher,350
+Gaelle,Everard,Gaelle Everard,2062,F45-49,Female,Baie d'urfe,QC,Canada,CA,0:37:44,1:37:46,0:56:45,,,3:22:58,2264,5866,3405,413,230,12178,635,232,22,795,334,39,771,297,34,635,232,22,Finisher,350
+Yvon,Leblanc,Yvon Leblanc,1617,M55-59,Male,boisbriand,QC,Canada,CA,0:40:55,1:26:29,1:04:14,,,3:22:59,2455,5189,3854,459,222,12179,636,404,33,854,491,37,664,434,34,636,404,33,Finisher,350
+Marc,Cueto,Marc Cueto,1202,M35-39,Male,Brossard,QC,Canada,CA,0:33:18,1:32:35,1:06:42,,,3:23:22,1998,5555,4002,391,256,12202,637,405,71,610,376,59,626,420,69,637,405,71,Finisher,350
+Jeff,Martens,Jeff Martens,1275,M40-44,Male,Beaconsfield,QC,Canada,CA,0:27:51,1:29:28,1:11:52,,,3:23:28,1671,5368,4312,522,335,12208,638,406,82,174,125,24,485,352,72,638,406,82,Finisher,350
+Liam,Mcdonough,Liam Mcdonough,1148,M30-34,Male,Saint John,NB,Canada,CA,0:33:27,1:33:35,1:03:45,,,3:23:32,2007,5615,3825,454,311,12212,639,407,47,620,381,44,656,429,50,639,407,47,Finisher,350
+Athena,Quitevis,Athena Quitevis,2133,F50-54,Female,Ottawa,ON,Canada,CA,0:31:52,1:32:09,1:08:12,,,3:23:37,1912,5529,4092,438,246,12217,640,233,21,480,178,16,603,191,17,640,233,21,Finisher,350
+Joe,Horvat,Joe Horvat,1337,M40-44,Male,Chateauguay,Quebec,Canada,CA,0:27:16,1:28:21,1:14:01,,,3:23:47,1636,5301,4441,542,307,12227,641,408,83,128,93,18,441,322,64,641,408,83,Finisher,350
+Josée,Béland,Josée Béland,2039,F45-49,Female,Mont-Tremblant,QC,Canada,CA,0:30:30,1:35:22,1:08:47,,,3:23:51,1830,5722,4127,364,188,12231,642,234,23,372,132,14,617,200,20,642,234,23,Finisher,350
+Benjamin,Dumont,Benjamin Dumont,1323,M40-44,Male,Gatineau,QC,France,FR,0:37:13,1:25:41,1:08:02,,,3:23:52,2233,5141,4082,519,257,12232,643,409,84,783,454,91,611,417,85,643,409,84,Finisher,350
+Pierre,Duchesne,Pierre Duchesne,1445,M45-49,Male,chicoutimi,QC,Canada,CA,0:47:01,1:23:59,1:02:47,,,3:23:52,2821,5039,3767,402,203,12232,644,410,61,896,513,77,713,455,69,644,410,61,Finisher,350
+Thibault,Montel,Thibault Montel,1150,M30-34,Male,Saint-Bruno de Montarville,QC,France,FR,0:36:31,1:29:47,1:05:48,,,3:23:54,2191,5387,3948,455,253,12234,645,411,48,758,442,53,649,426,48,645,411,48,Finisher,350
+Marie-Pier,Jacques,Marie-Pier Jacques,1745,F25-29,Female,Ste-Thérèse,Québec,Canada,CA,0:36:17,1:33:50,1:04:14,,,3:23:54,2177,5630,3854,375,198,12234,646,235,33,748,313,47,684,240,33,646,235,33,Finisher,350
+Mélanie ,Levesque,Mélanie Levesque,1996,F40-44,Female,st-damase,QC,Canada,CA,0:33:22,1:34:51,1:05:15,,,3:24:04,2002,5691,3915,409,227,12244,647,236,47,615,238,41,663,230,47,647,236,47,Finisher,350
+Elaine  Py,Kung,Elaine  Py Kung,1987,F40-44,Female,ETOBICOKE,ON,Canada,CA,0:32:28,1:34:22,1:07:06,,,3:24:07,1948,5662,4026,340,271,12247,648,237,48,542,203,33,627,207,40,648,237,48,Finisher,350
+Marie-Christine,Cloutier,Marie-Christine Cloutier,1723,F25-29,Female,Saint-Anne-des-Plaines,QC,Canada,CA,0:31:34,1:33:41,1:05:23,,,3:24:11,1894,5621,3923,480,333,12251,649,238,34,456,169,28,642,218,30,649,238,34,Finisher,350
+Justyna,Mittelstaedt,Justyna Mittelstaedt,1922,F35-39,Female,Timmins ,ON,Poland,PL,0:36:05,1:34:23,1:02:54,,,3:24:17,2165,5663,3774,394,261,12257,650,239,47,734,305,53,695,246,45,650,239,47,Finisher,350
+Dominic,Jasmin,Dominic Jasmin,1343,M40-44,Male,Blainville,QC,Canada,CA,0:42:38,1:31:27,1:00:37,,,3:24:27,2558,5487,3637,395,190,12267,651,412,85,870,501,104,749,466,98,651,412,85,Finisher,350
+Genevieve,Beliveau,Genevieve Beliveau,1865,F35-39,Female,Chambly,QC,Canada,CA,0:34:51,1:37:06,0:58:50,,,3:24:29,2091,5826,3530,521,301,12269,652,240,48,684,280,48,748,283,54,652,240,48,Finisher,350
+Ariane,Desharnais,Ariane Desharnais,1673,F18-24,Female,Montréal,QC,Canada,CA,0:35:52,1:36:22,0:59:52,,,3:24:31,2152,5782,3592,414,331,12271,653,241,17,725,299,27,727,269,20,653,241,17,Finisher,350
+Helene,Comeau,Helene Comeau,2049,F45-49,Female,Blainville,QC,Canada,CA,0:34:04,1:40:29,0:59:55,,,3:24:32,2044,6029,3595,407,197,12272,654,242,24,655,263,27,757,290,32,654,242,24,Finisher,350
+Catherine,Martin,Catherine Martin,1826,F30-34,Female,laval,QC,Canada,CA,0:31:57,1:35:29,1:07:08,,,3:24:36,1917,5729,4028,347,255,12276,655,243,44,487,182,41,641,217,45,655,243,44,Finisher,350
+Isabelle,Gauthier,Isabelle Gauthier,2066,F45-49,Female,Mont-Tremblant,Québec,Canada,CA,0:31:02,1:38:03,1:04:22,,,3:24:56,1862,5883,3862,447,242,12296,656,244,25,417,147,16,687,242,24,656,244,25,Finisher,350
+Caroline,Godbout,Caroline Godbout,2067,F45-49,Female,Laval,QC,Canada,CA,0:35:10,1:33:57,1:01:37,,,3:24:59,2110,5637,3697,514,341,12299,657,245,26,692,283,28,711,257,25,657,245,26,Finisher,350
+Karine,Hamel,Karine Hamel,1898,F35-39,Female,laprairie,QC,Canada,CA,0:32:58,1:39:30,1:04:29,,,3:25:05,1978,5970,3869,314,174,12305,658,246,49,584,223,35,712,258,48,658,246,49,Finisher,350
+Marie-Josee,Sanschagrin,Marie-Josee Sanschagrin,2091,F45-49,Female,levis,QC,Canada,CA,0:30:23,1:36:55,1:08:30,,,3:25:09,1823,5815,4110,328,233,12309,659,247,27,363,128,13,633,211,22,659,247,27,Finisher,350
+Marie,Champoux,Marie Champoux,1955,F40-44,Female,St-Lazare,QC,Canada,CA,0:34:37,1:36:29,1:00:55,,,3:25:13,2077,5789,3655,509,283,12313,660,248,49,673,273,50,736,276,55,660,248,49,Finisher,350
+Marc,Thibault,Marc Thibault,1576,M50-54,Male,Québec,QC,Canada,CA,0:35:42,1:28:21,1:11:48,,,3:25:34,2142,5301,4308,388,195,12334,661,413,51,716,424,51,588,404,51,661,413,51,Finisher,350
+Sebastien,Ouellette,Sebastien Ouellette,1152,M30-34,Male,Cambridge Bay,NU,Canada,CA,0:40:29,1:25:47,1:08:01,,,3:25:38,2429,5147,4081,463,218,12338,662,414,49,850,490,57,651,427,49,662,414,49,Finisher,350
+Gwenaelle,Lauquet,Gwenaelle Lauquet,2069,F45-49,Female,montreal,QC,Canada,CA,0:38:42,1:34:46,1:00:12,,,3:25:39,2322,5686,3612,466,253,12339,663,249,28,818,346,40,754,288,31,663,249,28,Finisher,350
+Lisanne,Gadoury,Lisanne Gadoury,1971,F40-44,Female,Montreal,QC,Canada,CA,0:38:34,1:37:07,0:58:41,,,3:25:46,2314,5827,3521,446,238,12346,664,250,50,814,343,63,781,302,60,664,250,50,Finisher,350
+Stephanie,Aubuchon,Stephanie Aubuchon,1705,F25-29,Female,montreal,QC,Canada,CA,0:35:50,1:39:38,0:59:51,,,3:25:48,2150,5978,3591,395,234,12348,665,251,35,723,297,44,766,295,42,665,251,35,Finisher,350
+Magali,Trottier,Magali Trottier,1768,F25-29,Female,Granby,QC,Canada,CA,0:34:19,1:37:07,1:05:05,,,3:25:50,2059,5827,3905,349,210,12350,666,252,36,664,268,41,699,250,36,666,252,36,Finisher,350
+Catherine,Martin,Catherine Martin,2002,F40-44,Female,St-Jérôme,QC,Canada,CA,0:32:36,1:41:27,1:03:24,,,3:25:55,1956,6087,3804,322,186,12355,667,253,51,557,212,35,734,274,54,667,253,51,Finisher,350
+Ginette,Lahaie,Ginette Lahaie,2144,F55-59,Female,Trois-Rivières,QC,Canada,CA,0:38:49,1:30:44,1:06:07,,,3:26:04,2329,5444,3967,352,272,12364,668,254,7,821,347,9,673,234,5,668,254,7,Finisher,350
+Genevieve,Gauthier,Genevieve Gauthier,1891,F35-39,Female,Mascouche,QC,Canada,CA,0:37:49,1:34:07,1:04:52,,,3:26:05,2269,5647,3892,366,191,12365,669,255,50,797,335,61,717,262,49,669,255,50,Finisher,350
+Leif,Quraeshi,Leif Quraeshi,1569,M50-54,Male,Baie d'urfe,QC,Canada,CA,0:31:21,1:33:54,1:06:34,,,3:26:09,1881,5634,3994,569,291,12369,670,415,52,443,281,34,658,431,55,670,415,52,Finisher,350
+Olivier,Dufour,Olivier Dufour,1024,M18-24,Male,montreal,QC,Canada,CA,0:27:40,1:34:37,1:15:15,,,3:26:18,1660,5677,4515,353,173,12378,671,416,33,161,118,16,542,379,32,671,416,33,Finisher,350
+Patrick,Vinson,Patrick Vinson,1499,M45-49,Male,Verdun,QC,Canada,CA,0:29:26,1:33:07,1:11:28,,,3:26:30,1766,5587,4288,479,270,12390,672,417,62,287,195,30,589,405,63,672,417,62,Finisher,350
+Hugues,Magny,Hugues Magny,1554,M50-54,Male,Mirabel,quebec,Canada,CA,0:40:23,1:30:36,1:05:13,,,3:26:45,2423,5436,3913,467,166,12405,673,418,53,848,488,62,723,456,58,673,418,53,Finisher,350
+Vicky,Sauve,Vicky Sauve,1844,F30-34,Female,Rigaud,QC,Canada,CA,0:30:05,1:35:09,1:12:21,,,3:26:49,1805,5709,4341,351,203,12409,674,256,45,337,115,27,599,189,42,674,256,45,Finisher,350
+Samuel,Pintal,Samuel Pintal,1051,M18-24,Male,Mont-Royal,QC,Canada,CA,0:34:58,1:24:40,1:10:27,,,3:26:59,2098,5080,4227,570,444,12419,675,419,34,687,406,32,564,392,34,675,419,34,Finisher,350
+Lynn,Mccuaig,Lynn Mccuaig,2003,F40-44,Female,Lancaster,ON,Canada,CA,0:32:33,1:38:33,1:02:57,,,3:27:10,1953,5913,3777,457,330,12430,676,257,52,554,210,34,722,267,52,676,257,52,Finisher,350
+Silvia,Speck,Silvia Speck,2092,F45-49,Female,Moose Creek,ON,Canada,CA,0:30:40,1:31:50,1:14:16,,,3:27:11,1840,5510,4456,408,217,12431,677,258,29,387,136,15,570,175,18,677,258,29,Finisher,350
+Edith,Sauvageau-Grenier,Edith Sauvageau-Grenier,1765,F25-29,Female,Montreal,QC,Canada,CA,0:43:46,1:34:57,0:59:29,,,3:27:20,2626,5697,3569,369,179,12440,678,259,37,882,377,53,793,311,45,678,259,37,Finisher,350
+Geneviève,Guimont,Geneviève Guimont,1742,F25-29,Female,Ste-Julie,QC,Canada,CA,0:25:59,1:43:18,1:08:58,,,3:27:27,1559,6198,4138,390,162,12447,679,260,38,70,20,3,676,235,32,679,260,38,Finisher,350
+Marco,Corriveau,Marco Corriveau,1305,M40-44,Male,Val-d'Or,QC,Canada,CA,0:39:14,1:27:46,1:08:57,,,3:27:29,2354,5266,4137,461,231,12449,680,420,86,832,479,100,657,430,88,680,420,86,Finisher,350
+Claude,Courchesne,Claude Courchesne,1605,M55-59,,saint bruno,QC,Canada,CA,0:37:39,1:26:49,1:05:31,,,3:27:41,2259,5209,3931,630,432,12461,681,421,34,792,460,35,661,433,33,681,421,34,Finisher,350
+Alain,Babin,Alain Babin,1503,M50-54,Male,Terrebonne,Québec,Canada,CA,0:48:48,1:25:22,1:00:42,,,3:27:54,2928,5122,3642,491,291,12474,682,422,54,901,516,66,769,474,63,682,422,54,Finisher,350
+Kelli,Ireland,Kelli Ireland,1679,F18-24,Female,Kanata,ON,Canada,CA,0:32:38,1:41:31,1:05:11,,,3:28:05,1958,6091,3911,335,190,12485,683,261,18,560,214,20,742,279,21,683,261,18,Finisher,350
+Mike,Traversy,Mike Traversy,1268,M35-39,Male,St-Michel,QC,Canada,CA,0:51:34,1:24:55,1:01:26,,,3:28:23,3094,5095,3686,359,269,12503,684,423,72,906,519,80,773,475,75,684,423,72,Finisher,350
+Catherine,Turgy,Catherine Turgy,1852,F30-34,Female,Verdun,QC,Canada,CA,0:29:49,1:34:53,1:12:30,,,3:28:36,1789,5693,4350,432,252,12516,685,262,46,316,104,22,615,198,43,685,262,46,Finisher,350
+Caroline,Brie,Caroline Brie,1790,F30-34,Female,Montreal,QC,Canada,CA,0:32:43,1:38:26,1:05:18,,,3:28:41,1963,5906,3918,426,308,12521,686,263,47,566,218,46,718,263,50,686,263,47,Finisher,350
+Sandrine,Lessard,Sandrine Lessard,1910,F35-39,Female,Varennes,QC,Canada,CA,0:39:09,1:33:23,1:03:08,,,3:28:44,2349,5603,3788,496,288,12524,687,264,51,829,353,64,751,285,55,687,264,51,Finisher,350
+Patrick,Beaulieu,Patrick Beaulieu,1281,M40-44,Male,Terrebonne,QC,Canada,CA,0:38:21,1:34:19,1:03:15,,,3:28:45,2301,5659,3795,528,242,12525,688,424,87,810,469,96,760,469,100,688,424,87,Finisher,350
+Andrew,Haynes,Andrew Haynes,1224,M35-39,Male,ajax,ON,Canada,CA,0:36:10,1:39:28,0:57:48,,,3:28:49,2170,5968,3468,646,277,12529,689,425,73,741,432,68,805,486,76,689,425,73,Finisher,350
+Fannie,Girard,Fannie Girard,1977,F40-44,Female,Jonquière,QC,Canada,CA,0:33:10,1:36:39,1:09:21,,,3:28:52,1990,5799,4161,380,202,12532,690,265,53,600,229,38,683,239,50,690,265,53,Finisher,350
+Josee,Houle,Josee Houle,1899,F35-39,Female,TERREBONNE,QC,Canada,CA,0:43:19,1:29:22,1:03:23,,,3:28:52,2599,5362,3803,415,353,12532,691,266,52,876,374,69,738,277,52,691,266,52,Finisher,350
+Jean-Benoit,Crosnier,Jean-Benoit Crosnier,1308,M40-44,Male,Ste-Adèle,QC,Canada,CA,0:29:10,1:23:07,1:25:38,,,3:28:59,1750,4987,5138,451,213,12539,692,426,88,262,181,31,332,263,51,692,426,88,Finisher,350
+Marie-Helene,Boucher,Marie-Helene Boucher,1949,F40-44,Female,Longueuil,QC,Canada,CA,0:40:44,1:33:09,1:04:44,,,3:29:04,2444,5589,3884,401,226,12544,693,267,54,852,362,67,747,282,56,693,267,54,Finisher,350
+Paul,St-Louis,Paul St-Louis,1491,M45-49,Male,Shawinigan-Sud,QC,Canada,CA,0:32:13,1:21:35,1:23:43,,,3:29:05,1933,4895,5023,447,247,12545,694,427,63,510,321,55,362,279,46,694,427,63,Finisher,350
+Lisa,Brice-Leddy,Lisa Brice-Leddy,2044,F45-49,Female,,,Canada,CA,0:33:33,1:40:28,1:04:02,,,3:29:10,2013,6028,3842,385,282,12550,695,268,30,627,246,25,746,281,30,695,268,30,Finisher,350
+Regis,Guillaume,Regis Guillaume,1334,M40-44,Male,Verdun,QC,France,FR,0:32:32,1:29:44,1:15:42,,,3:29:22,1952,5384,4542,411,273,12562,696,428,89,551,342,67,562,391,80,696,428,89,Finisher,350
+Katy,Da Ponte,Katy Da Ponte,1879,F35-39,Female,Les Cèdres,QC,Canada,CA,0:35:53,1:33:06,1:09:15,,,3:29:24,2153,5586,4155,416,254,12564,697,269,53,727,300,51,679,237,42,697,269,53,Finisher,350
+Brigitte,Lauzon,Brigitte Lauzon,1991,F40-44,Female,St-Jerome,QC,Canada,CA,0:33:28,1:33:43,1:12:11,,,3:29:26,2008,5623,4331,382,222,12566,698,270,55,621,240,42,646,221,44,698,270,55,Finisher,350
+Louisette,Bolduc,Louisette Bolduc,2101,F50-54,Female,Boucherville,QC,Canada,CA,0:40:48,1:36:56,1:00:07,,,3:29:28,2448,5816,3607,441,256,12568,699,271,22,853,363,33,795,312,27,699,271,22,Finisher,350
+Shane,Ireland,Shane Ireland,2124,F50-54,Female,Kanata,ON,Canada,CA,0:31:43,1:35:13,1:12:55,,,3:29:29,1903,5713,4375,365,213,12569,700,272,23,467,173,15,637,215,20,700,272,23,Finisher,350
+Normand,D'Anjou,Normand D'Anjou,1521,M50-54,Male,Montreal,QC,Canada,CA,0:36:17,1:36:18,1:04:24,,,3:29:31,2177,5778,3864,457,295,12571,701,429,55,749,436,54,745,465,61,701,429,55,Finisher,350
+Rosalie,Meloche-Dumas,Rosalie Meloche-Dumas,1689,F18-24,Female,Deux-Montagnes,QC,Canada,CA,0:34:48,1:35:59,1:08:59,,,3:29:31,2088,5759,4139,378,207,12571,702,273,19,683,279,25,697,248,19,702,273,19,Finisher,350
+Gilles,Guay,Gilles Guay,1612,M55-59,Male,St-Hubert,QC,Canada,CA,0:28:40,1:33:31,1:12:47,,,3:29:34,1720,5611,4367,595,281,12574,703,430,35,220,156,10,620,418,32,703,430,35,Finisher,350
+Emilie,Bertrand,Emilie Bertrand,1784,F30-34,Female,Montréal,QC,Canada,CA,0:32:22,1:38:17,1:07:24,,,3:29:35,1942,5897,4044,413,279,12575,704,274,48,531,197,45,706,254,48,704,274,48,Finisher,350
+Henri,Trouillard,Henri Trouillard,1002,M30-34,Male,Montreal,QC,Canada,CA,0:32:03,1:26:27,1:20:25,,,3:29:42,1923,5187,4825,448,199,12582,705,431,50,494,310,35,482,349,40,705,431,50,Finisher,350
+Steve,Thompson,Steve Thompson,1495,M45-49,Male,Oxford Mills,ON,Canada,CA,0:37:51,1:39:55,1:01:48,,,3:29:48,2271,5995,3708,405,209,12588,706,432,64,798,463,71,789,482,73,706,432,64,Finisher,350
+Anne,Fortin,Anne Fortin,2064,F45-49,Female,Levis,QC,Canada,CA,0:35:20,1:36:33,1:07:56,,,3:29:54,2120,5793,4076,395,210,12594,707,275,31,703,285,29,721,266,27,707,275,31,Finisher,350
+Yan,Lacoursiere,Yan Lacoursiere,1136,M30-34,Male,,,Canada,CA,0:32:07,1:29:23,1:12:31,,,3:30:11,1927,5363,4351,533,437,12611,708,433,51,498,313,36,585,403,46,708,433,51,Finisher,350
+Alain,Boissé,Alain Boissé,1190,M35-39,Male,Chambly,QC,Canada,CA,0:41:54,1:24:47,1:10:35,,,3:30:17,2514,5087,4235,520,261,12617,709,434,74,865,498,78,670,437,71,709,434,74,Finisher,350
+Sylvain,Dagenais,Sylvain Dagenais,1435,M45-49,Male,Longueuil,Québec,Canada,CA,0:31:17,1:38:39,1:08:09,,,3:30:31,1877,5919,4089,460,286,12631,710,435,65,436,275,47,708,454,68,710,435,65,Finisher,350
+Annie,Lazure,Annie Lazure,1905,F35-39,Female,montreal,QC,Canada,CA,0:33:29,1:53:34,0:54:04,,,3:30:33,2009,6814,3244,417,149,12633,711,276,54,623,242,39,847,344,64,711,276,54,Finisher,350
+Andre,Allore,Andre Allore,1581,M55-59,Male,Rosemere,QC,Canada,CA,0:34:34,1:38:45,1:04:10,,,3:30:48,2074,5925,3850,520,279,12648,712,436,36,669,398,29,765,471,38,712,436,36,Finisher,350
+Francois,Turgeon,Francois Turgeon,1578,M50-54,Male,ST-MARC SUR RICHELIEU,QC,Canada,CA,0:32:48,1:31:14,1:14:28,,,3:30:48,1968,5474,4468,421,317,12648,713,437,56,572,352,43,598,410,52,713,437,56,Finisher,350
+Marc-André,Audet,Marc-André Audet,1277,M40-44,Male,Blainville,QC,Canada,CA,0:37:30,1:20:38,1:19:03,,,3:30:50,2250,4838,4743,539,280,12650,714,438,90,789,457,93,521,367,74,714,438,90,Finisher,350
+Marc,L' Heureux,Marc L' Heureux,1647,M60-64,Male,Brebeuf,QC,Canada,CA,0:38:43,1:31:16,1:04:58,,,3:30:55,2323,5476,3898,546,412,12655,715,439,6,819,473,10,726,458,7,715,439,6,Finisher,350
+Mario,Thibeault,Mario Thibeault,1633,M55-59,Male,Blainville,QC,Canada,CA,0:31:44,1:39:18,1:09:22,,,3:30:56,1904,5958,4162,392,240,12656,716,440,37,471,298,21,707,453,37,716,440,37,Finisher,350
+Catherine,Landry,Catherine Landry,1989,F40-44,Female,Terrebonne,QC,Canada,CA,0:38:35,1:35:03,1:05:41,,,3:30:56,2315,5703,3941,432,265,12656,717,277,56,816,345,64,752,286,57,717,277,56,Finisher,350
+Jean Pierre,Masse,Jean Pierre Masse,1469,M45-49,Male,L'Orignal,ON,Canada,CA,0:30:00,1:32:13,1:18:34,,,3:31:07,1800,5533,4714,387,233,12667,718,441,66,335,222,36,555,387,62,718,441,66,Finisher,350
+Laurence,Cote-Chartrand,Laurence Cote-Chartrand,1799,F30-34,Female,Prévost,QC,Canada,CA,0:36:56,1:34:06,1:09:43,,,3:31:09,2216,5646,4183,399,225,12669,719,278,49,773,323,57,710,256,49,719,278,49,Finisher,350
+Luc,Vagneux,Luc Vagneux,1400,M40-44,Male,Montreal,QC,Canada,CA,0:33:19,1:29:43,1:14:35,,,3:31:10,1999,5383,4475,492,321,12670,720,442,91,612,377,80,601,412,83,720,442,91,Finisher,350
+Sevag,Donabet,Sevag Donabet,1071,M25-29,Male,Montreal,QC,Canada,CA,0:35:13,1:28:40,1:17:56,,,3:31:17,2113,5320,4676,371,197,12677,721,443,27,695,412,28,579,400,27,721,443,27,Finisher,350
+Sandra,Dubois-Duplessis,Sandra Dubois-Duplessis,2058,F45-49,Female,Ste-Adele,QC,Canada,CA,0:39:44,1:32:46,1:07:45,,,3:31:19,2384,5566,4065,431,233,12679,722,279,32,841,357,42,740,278,29,722,279,32,Finisher,350
+Julien,Lefebvre,Julien Lefebvre,1354,M40-44,Male,Montréal,QC,Canada,CA,0:31:52,1:37:25,1:10:30,,,3:31:25,1912,5845,4230,459,239,12685,723,444,92,482,303,59,692,447,94,723,444,92,Finisher,350
+Nicola,Johnson,Nicola Johnson,2125,F50-54,Female,OTTAWA,ON,Canada,CA,0:37:19,1:35:11,1:05:14,,,3:31:43,2239,5711,3914,527,312,12703,724,280,24,785,331,31,756,289,25,724,280,24,Finisher,350
+Alain,Guitard,Alain Guitard,1454,M45-49,Male,Rimouski,QC,Canada,CA,0:35:18,1:32:57,1:07:55,,,3:31:44,2118,5577,4075,657,277,12704,725,445,67,700,417,68,731,460,70,725,445,67,Finisher,350
+Germain,Perron,Germain Perron,1374,M40-44,Male,La Baie,QC,Canada,CA,0:39:24,1:31:16,1:12:12,,,3:32:00,2364,5476,4332,353,195,12720,726,446,93,837,483,103,688,446,93,726,446,93,Finisher,350
+Patrick,Charbonneau,Patrick Charbonneau,1301,M40-44,Male,Mirabel,Quebec,Canada,CA,0:31:51,1:40:27,1:08:02,,,3:32:04,1911,6027,4082,437,267,12724,727,447,94,478,301,58,737,461,97,727,447,94,Finisher,350
+Gabriela,Jakubovits,Gabriela Jakubovits,1900,F35-39,Female,Montréal,Québec,Canada,CA,0:36:06,1:36:12,1:07:42,,,3:32:07,2166,5772,4062,457,270,12727,728,281,55,736,306,54,744,280,53,728,281,55,Finisher,350
+Vanessa,Rondeau,Vanessa Rondeau,1762,F25-29,Female,D.D.O,QC,Canada,CA,0:40:31,1:38:10,1:04:05,,,3:32:19,2431,5890,3845,353,220,12739,729,282,39,851,361,52,790,308,44,729,282,39,Finisher,350
+Laura,Caspin,Laura Caspin,1716,F25-29,Female,Montreal,QC,Canada,CA,0:32:59,1:45:25,1:00:54,,,3:32:19,1979,6325,3654,474,307,12739,730,283,40,586,224,36,804,319,46,730,283,40,Finisher,350
+Patrice,Lajeunesse,Patrice Lajeunesse,1348,M40-44,Male,St-Eustache,QC,Canada,CA,0:39:20,1:34:44,1:04:03,,,3:32:30,2360,5684,3843,543,320,12750,731,448,95,835,482,102,780,479,103,731,448,95,Finisher,350
+Marc,Billard,Marc Billard,1506,M50-54,Male,Ottawa,ON,Canada,CA,0:35:54,1:35:51,1:09:21,,,3:32:46,2154,5751,4161,489,211,12766,732,449,57,729,428,52,743,464,60,732,449,57,Finisher,350
+Julien,Legault,Julien Legault,1042,M18-24,Male,Montréal,QC,Canada,CA,0:34:58,1:23:07,1:16:53,,,3:33:26,2098,4987,4613,661,447,12806,733,450,35,688,407,33,561,390,33,733,450,35,Finisher,350
+Hugues,Labrie,Hugues Labrie,1459,M45-49,Male,Montreal,QC,Canada,CA,0:41:47,1:37:12,1:01:55,,,3:33:44,2507,5832,3715,510,260,12824,734,451,68,863,496,75,812,489,74,734,451,68,Finisher,350
+Nadine,Chénard,Nadine Chénard,2047,F45-49,Female,Québec,QC,Canada,CA,0:31:08,1:35:06,1:14:22,,,3:33:45,1868,5706,4462,500,289,12825,735,284,33,425,154,17,655,227,23,735,284,33,Finisher,350
+Isabelle,Hébert,Isabelle Hébert,1984,F40-44,Female,Val-d’Or,QC,Canada,CA,0:31:04,1:44:46,1:07:56,,,3:33:46,1864,6286,4076,395,205,12826,736,285,57,419,149,22,772,298,58,736,285,57,Finisher,350
+Karine,Devoyault,Karine Devoyault,1882,F35-39,Female,Montréal,QC,Canada,CA,0:35:00,1:42:45,1:05:27,,,3:33:53,2100,6165,3927,397,244,12833,737,286,56,689,282,49,788,307,58,737,286,56,Finisher,350
+Mauro,Campanelli,Mauro Campanelli,1597,M55-59,Male,Oakville,ON,Canada,CA,0:30:20,1:32:41,1:20:35,,,3:33:58,1820,5561,4835,368,254,12838,738,452,38,360,233,19,565,393,29,738,452,38,Finisher,350
+Eric,Benzacar,Eric Benzacar,1285,M40-44,Male,Montreal,QC,Canada,CA,0:32:52,1:31:10,1:07:58,,,3:33:58,1972,5470,4078,802,516,12838,739,453,96,576,355,71,703,451,95,739,453,96,Finisher,350
+Bernard,Potvin,Bernard Potvin,1566,M50-54,Male,Chambly,QC,Canada,CA,0:45:15,1:30:06,1:07:00,,,3:34:04,2715,5406,4020,437,266,12844,740,454,58,889,509,64,775,476,64,740,454,58,Finisher,350
+Michelle,Farragher,Michelle Farragher,1888,F35-39,Female,Ottawa,ON,Canada,CA,0:35:46,1:36:17,1:08:29,,,3:34:36,2146,5777,4109,538,306,12876,741,287,57,719,294,50,753,287,56,741,287,57,Finisher,350
+Fanny,Charbonneau,Fanny Charbonneau,1874,F35-39,Female,Candiac,QC,Canada,CA,0:39:00,1:39:07,1:04:36,,,3:34:37,2340,5947,3876,436,278,12877,742,288,58,826,351,62,796,313,59,742,288,58,Finisher,350
+Marie-Laurence,Roch-Matte,Marie-Laurence Roch-Matte,1760,F25-29,Female,Amos,QC,Canada,CA,0:32:19,1:37:33,1:12:49,,,3:34:57,1939,5853,4369,460,276,12897,743,289,41,523,195,30,705,253,38,743,289,41,Finisher,350
+Stephane,Soucy,Stephane Soucy,1490,M45-49,Male,L'Assomption,QC,Canada,CA,0:29:19,1:37:19,1:18:24,,,3:34:57,1759,5839,4704,389,206,12897,744,455,69,278,190,28,640,424,65,744,455,69,Finisher,350
+Christianne,Legare,Christianne Legare,1817,F30-34,Female,Montreal,QC,Canada,CA,0:36:58,1:36:12,1:07:18,,,3:35:03,2218,5772,4038,622,253,12903,745,290,50,774,324,58,783,303,53,745,290,50,Finisher,350
+Carolane,Couture,Carolane Couture,1671,F18-24,Female,Magog,QC,Canada,CA,0:30:51,1:44:33,1:08:48,,,3:35:17,1851,6273,4128,442,223,12917,746,291,20,403,141,14,778,301,22,746,291,20,Finisher,350
+Marie-Christine,Labelle,Marie-Christine Labelle,1747,F25-29,Female,Labelle,QC,Canada,CA,0:33:11,1:39:04,1:13:46,,,3:35:35,1991,5944,4426,405,169,12935,747,292,42,603,231,38,725,268,41,747,292,42,Finisher,350
+Lise,Gendron,Lise Gendron,2119,F50-54,Female,St-Lazare,QC,Canada,CA,0:36:14,1:36:40,1:12:27,,,3:35:39,2174,5800,4347,390,228,12939,748,293,25,745,311,28,733,273,23,748,293,25,Finisher,350
+Chantal,Gobeil,Chantal Gobeil,2123,F50-54,Female,Laval,QC,Canada,CA,0:35:28,1:46:04,1:00:06,,,3:35:42,2128,6364,3606,479,365,12942,749,294,26,711,292,26,822,330,31,749,294,26,Finisher,350
+Benoit,Dallaire,Benoit Dallaire,1436,M45-49,Male,fabreville,quebec,Canada,CA,0:32:41,1:32:03,1:19:10,,,3:35:44,1961,5523,4750,399,311,12944,750,456,70,564,347,59,607,414,64,750,456,70,Finisher,350
+Guillaume,Blais,Guillaume Blais,1011,M18-24,Male,St lin Laurentides,QC,Canada,CA,0:36:22,1:33:53,1:11:52,,,3:35:44,2182,5633,4312,516,301,12944,751,457,36,753,439,37,724,457,37,751,457,36,Finisher,350
+Mary,Babcock,Mary Babcock,1777,F30-34,Female,Bowmanville,ON,Canada,CA,0:31:16,1:41:14,1:11:09,,,3:35:50,1876,6074,4269,406,325,12950,752,295,51,433,160,36,732,272,51,752,295,51,Finisher,350
+Mario,Beauregard,Mario Beauregard,1418,M45-49,Male,Coteau du Lac,QC,Canada,CA,0:36:16,1:30:27,1:14:10,,,3:35:59,2176,5427,4450,536,370,12959,753,458,71,747,435,70,674,440,67,753,458,71,Finisher,350
+Nicholas,Trudeau,Nicholas Trudeau,1171,M30-34,Male,Montreal,QC,Canada,CA,0:29:15,1:59:09,1:00:47,,,3:36:02,1755,7149,3647,259,152,12962,754,459,52,272,186,24,841,502,55,754,459,52,Finisher,350
+Steve,Fuller,Steve Fuller,1534,M50-54,Male,Val-David,QC,Canada,CA,0:41:00,1:30:38,1:11:45,,,3:36:15,2460,5438,4305,450,322,12975,755,460,59,856,493,63,728,459,59,755,460,59,Finisher,350
+Pauline,Watson,Pauline Watson,2156,F60-64,Female,Oakville,ON,Canada,CA,0:28:43,1:44:33,1:06:00,,,3:36:21,1723,6273,3960,637,388,12981,756,296,2,221,65,1,784,304,2,756,296,2,Finisher,679
+Marc,Rodger,Marc Rodger,1572,M50-54,Male,Ottawa,ON,Canada,CA,0:33:05,1:40:15,1:10:33,,,3:36:30,1985,6015,4233,503,254,12990,757,461,60,594,368,45,762,470,62,757,461,60,Finisher,350
+Mélanie,Vallée,Mélanie Vallée,1854,F30-34,Female,L'Assomption,QC,Canada,CA,0:30:15,1:43:45,1:10:58,,,3:36:39,1815,6225,4258,466,235,12999,758,297,52,352,126,31,763,293,52,758,297,52,Finisher,350
+Kris,Jardon,Kris Jardon,1456,M45-49,Male,Outremont,QC,Canada,CA,0:29:11,1:43:43,1:13:33,,,3:36:51,1751,6223,4413,405,219,13011,759,462,72,264,182,26,739,462,71,759,462,72,Finisher,350
+Nagesh,Rao,Nagesh Rao,1381,M40-44,Male,Ajax,ON,Canada,CA,0:44:14,1:37:11,1:02:00,,,3:37:02,2654,5831,3720,551,266,13022,760,463,97,885,507,106,829,496,105,760,463,97,Finisher,350
+Isabelle,Bourque,Isabelle Bourque,1788,F30-34,Female,Bromont,QC,Canada,CA,0:29:51,1:37:55,1:17:31,,,3:37:05,1791,5875,4651,420,288,13025,761,298,53,321,108,23,659,228,47,761,298,53,Finisher,350
+Vincent,Morin,Vincent Morin,1478,M45-49,Male,Québec,QC,Canada,CA,0:33:03,1:33:42,1:19:33,,,3:37:12,1983,5622,4773,436,218,13032,762,464,73,592,366,60,652,428,66,762,464,73,Finisher,350
+Anne,Gingras,Anne Gingras,2121,F50-54,Female,Pierrefondss,QC,Canada,CA,0:32:44,1:42:04,1:09:16,,,3:37:31,1964,6124,4156,555,252,13051,763,299,27,568,219,18,786,306,26,763,299,27,Finisher,350
+Candace,Margetak,Candace Margetak,2000,F40-44,Female,Candiac,QC,Canada,CA,0:41:41,1:40:38,1:03:43,,,3:37:32,2501,6038,3823,407,283,13052,764,300,58,862,367,68,819,328,62,764,300,58,Finisher,350
+Jean,Deslauriers,Jean Deslauriers,1645,M60-64,Male,Repentigny,QC,Canada,CA,0:36:52,1:29:20,1:17:42,,,3:37:36,2212,5360,4662,550,272,13056,765,465,7,769,448,8,672,439,6,765,465,7,Finisher,350
+David,Thomas,David Thomas,1577,M50-54,Male,Toronto,ON,Canada,CA,0:29:05,1:33:51,1:20:11,,,3:37:58,1745,5631,4811,560,331,13078,766,466,61,257,176,20,621,419,54,766,466,61,Finisher,350
+Sylvie,Brooks,Sylvie Brooks,2103,F50-54,Female,St-hubert,QC,Canada,CA,0:29:12,1:38:26,1:18:33,,,3:38:12,1752,5906,4713,455,266,13092,767,301,28,268,84,10,668,233,22,767,301,28,Finisher,350
+Edith,Robidoux,Edith Robidoux,2022,F40-44,Female,La Conception,QC,Canada,CA,0:39:54,1:46:15,0:59:06,,,3:38:17,2394,6375,3546,512,270,13097,768,302,59,843,358,66,851,347,66,768,302,59,Finisher,350
+Céline,Beaubien,Céline Beaubien,2140,F55-59,Female,St-Georges de Champlain,QC,Canada,CA,0:32:39,1:44:34,1:09:30,,,3:38:28,1959,6274,4170,444,261,13108,769,303,8,561,215,6,791,309,9,769,303,8,Finisher,350
+Claudia,O'Connor Messier,Claudia O'Connor Messier,1754,F25-29,Female,Montréal,QC,Canada,CA,0:34:26,1:41:10,1:11:54,,,3:38:40,2066,6070,4314,428,242,13120,770,304,43,667,270,42,777,300,43,770,304,43,Finisher,350
+Vincent,Laberge,Vincent Laberge,1229,M35-39,Male,Sainte therese,QC,Canada,CA,0:37:22,1:43:46,1:02:10,,,3:38:48,2242,6226,3730,628,302,13128,771,467,75,787,455,73,837,500,79,771,467,75,Finisher,350
+Marie-Claude,Santerre,Marie-Claude Santerre,1934,F35-39,Female,Ste-Anne-des-Plaines,Québec,Canada,CA,0:33:18,1:46:22,1:08:18,,,3:39:16,1998,6382,4098,442,236,13156,772,305,59,609,234,38,810,323,62,772,305,59,Finisher,350
+Jacques,Rochon,Jacques Rochon,1650,M60-64,Male,Salaberry-de-Valleyfield,Québec,Canada,CA,0:36:42,1:43:49,1:04:55,,,3:39:23,2202,6229,3895,566,271,13163,773,468,8,765,447,7,825,493,11,773,468,8,Finisher,350
+Veronique,Capra,Veronique Capra,1715,F25-29,Female,Mont-Tremblant ,QC,Canada,CA,0:29:35,1:37:05,1:22:25,,,3:39:30,1775,5825,4945,416,209,13170,774,306,44,298,97,19,647,222,31,774,306,44,Finisher,350
+Suzanne,Filiatrault,Suzanne Filiatrault,2113,F50-54,Female,boisbriand,QC,Canada,CA,0:37:40,1:43:07,1:06:17,,,3:39:40,2260,6187,3977,454,302,13180,775,307,29,793,333,32,816,326,30,775,307,29,Finisher,350
+Martin,Racine,Martin Racine,1378,M40-44,Male,Gatineau,QC,Canada,CA,0:30:07,1:38:16,1:21:05,,,3:39:48,1807,5896,4865,418,202,13188,776,469,98,339,223,38,671,438,90,776,469,98,Finisher,350
+Nathalie,Millette,Nathalie Millette,2081,F45-49,Female,Boucherville,QC,Canada,CA,0:37:05,1:43:39,1:04:19,,,3:39:51,2225,6219,3859,571,317,13191,777,308,34,781,328,37,826,333,39,777,308,34,Finisher,350
+Ann,Everitt,Ann Everitt,1733,F25-29,Female,St-Colomban,QC,Canada,CA,0:32:34,1:47:10,1:08:28,,,3:40:03,1954,6430,4108,414,297,13203,778,309,45,555,211,34,806,320,47,778,309,45,Finisher,350
+Julie,Longpré,Julie Longpré,1911,F35-39,Female,Boucherville,QC,Canada,CA,0:31:41,1:39:03,1:16:30,,,3:40:12,1901,5943,4590,505,273,13212,779,310,60,464,171,25,730,271,51,779,310,60,Finisher,350
+Roberto,Campo,Roberto Campo,1194,M40-44,Male,Laval,QC,Canada,CA,0:39:14,1:33:09,1:12:08,,,3:40:16,2354,5589,4328,665,280,13216,780,470,99,831,478,99,782,480,104,780,470,99,Finisher,350
+Richard,Belair,Richard Belair,1656,M65-69,Male,Mt tremblant,QC,Canada,CA,0:48:00,1:26:49,1:13:12,,,3:40:24,2880,5209,4392,474,269,13224,781,471,1,900,515,2,776,477,1,781,471,1,Finisher,1000
+Patrick,Daignault,Patrick Daignault,1203,M35-39,Male,Montreal,QC,Canada,CA,0:34:03,1:26:49,1:25:33,,,3:40:25,2043,5209,5133,457,383,13225,782,472,76,654,392,60,549,383,65,782,472,76,Finisher,350
+Sylvain,Lamontagne,Sylvain Lamontagne,1349,M40-44,Male,Boisbriand,QC,Canada,CA,0:37:30,1:32:28,1:23:07,,,3:41:40,2250,5548,4987,354,161,13300,784,474,100,788,456,92,677,442,91,784,474,100,Finisher,350
+Marie-Michele,Vezina,Marie-Michele Vezina,1770,F25-29,Female,mtl,QC,Canada,CA,0:28:45,1:41:08,1:16:37,,,3:42:00,1725,6068,4597,514,416,13320,785,311,46,223,66,11,720,265,40,785,311,46,Finisher,350
+Katie,Morrison,Katie Morrison,1925,F35-39,Female,Ajax,ON,Canada,CA,0:29:50,1:38:18,1:19:04,,,3:42:02,1790,5898,4744,520,370,13322,786,312,61,318,105,15,691,245,44,786,312,61,Finisher,350
+Michael,Fillmore,Michael Fillmore,1531,M50-54,Male,Kanata,ON,Canada,CA,0:36:34,1:31:47,1:18:39,,,3:42:32,2194,5507,4719,516,416,13352,787,475,62,759,443,55,693,448,57,787,475,62,Finisher,350
+Pamela,Gagnon,Pamela Gagnon,1804,F30-34,Female,montréal,QC,Canada,CA,0:38:35,1:42:24,1:10:07,,,3:42:45,2315,6144,4207,449,250,13365,788,313,54,815,344,61,817,327,57,788,313,54,Finisher,350
+Sophie,Cloutier,Sophie Cloutier,1798,F30-34,Female,Québec,QC,Canada,CA,0:38:17,1:40:16,1:08:46,,,3:43:08,2297,6016,4126,485,464,13388,789,314,55,807,341,60,807,321,56,789,314,55,Finisher,350
+Candice,Aston,Candice Aston,1861,F35-39,Female,Timmins,ON,Canada,CA,0:36:49,1:36:51,1:17:23,,,3:43:14,2209,5811,4643,473,258,13394,790,315,62,768,321,57,761,292,57,790,315,62,Finisher,350
+Helene,Desrosiers,Helene Desrosiers,2108,F50-54,Female,Blainville,QC,Canada,CA,0:33:25,1:40:58,1:12:21,,,3:43:24,2005,6058,4341,667,333,13404,791,316,30,619,239,20,799,316,28,791,316,30,Finisher,350
+Jean,Pelletier,Jean Pelletier,1254,M35-39,Male,st Félix devalois,QC,Canada,CA,0:31:40,1:42:51,1:16:47,,,3:43:34,1900,6171,4607,404,332,13414,792,476,77,462,292,46,755,467,74,792,476,77,Finisher,350
+Kim,Major,Kim Major,2073,F45-49,Female,summerstown,ON,Canada,CA,0:36:06,1:49:49,1:03:36,,,3:43:47,2166,6589,3816,605,251,13427,793,317,35,737,307,33,859,353,41,793,317,35,Finisher,350
+R Michelle,Kertz,R Michelle Kertz,2021,F40-44,Female,La Crosse,WI,United States,US,0:33:51,1:25:49,1:31:10,,,3:43:51,2031,5149,5470,483,298,13431,794,318,60,644,256,46,532,160,28,794,318,60,Finisher,350
+Matthew,Aubin Lance,Matthew Aubin Lance,1063,M25-29,Male,iberville,QC,Canada,CA,0:41:27,1:39:09,1:12:26,,,3:43:55,2487,5949,4346,436,217,13435,795,477,28,860,494,30,814,490,29,795,477,28,Finisher,350
+Mathieu,Martineau,Mathieu Martineau,1091,M25-29,Male,Luskville,QC,Canada,CA,0:43:22,1:33:37,1:14:23,,,3:44:01,2602,5617,4463,474,285,13441,796,478,29,879,504,31,794,483,28,796,478,29,Finisher,350
+Lydia,Bussières,Lydia Bussières,1666,F18-24,Female,Trois-Rivières,QC,Canada,CA,0:33:32,1:34:05,1:23:01,,,3:44:23,2012,5645,4981,444,381,13463,797,319,21,625,244,23,662,229,17,797,319,21,Finisher,350
+Christine,Gagnerodger,Christine Gagnerodger,2065,F45-49,Female,Ottawa,ON,Canada,CA,0:36:16,1:41:10,1:13:56,,,3:44:53,2176,6070,4436,525,286,13493,798,320,36,746,312,34,802,318,36,798,320,36,Finisher,350
+Ariane,Couture,Ariane Couture,1724,F25-29,Female,Montréal,QC,Canada,CA,0:35:51,1:47:14,1:11:26,,,3:44:59,2151,6434,4286,385,243,13499,799,321,47,724,298,45,821,329,48,799,321,47,Finisher,350
+Emilie,Gaulin,Emilie Gaulin,1805,F30-34,Female,St-Hubert,QC,Canada,CA,0:30:07,1:47:24,1:15:08,,,3:45:08,1807,6444,4508,491,258,13508,800,322,56,340,117,28,800,317,55,800,322,56,Finisher,350
+Christine,Stubensey,Christine Stubensey,2027,F40-44,Female,Ajax,ON,Canada,CA,0:43:20,1:44:31,1:03:19,,,3:45:11,2600,6271,3799,525,316,13511,801,323,61,877,375,70,860,354,67,801,323,61,Finisher,350
+Guy,Beaudry,Guy Beaudry,1504,M50-54,Male,St-Eustache,QC,Canada,CA,0:54:16,1:28:05,1:10:38,,,3:45:24,3256,5285,4238,485,260,13524,802,479,63,910,522,68,827,494,66,802,479,63,Finisher,350
+Renée,Tremblay,Renée Tremblay,2157,F65-69,Female,Shawinigan,QC,Canada,CA,0:38:14,1:47:41,1:06:21,,,3:46:04,2294,6461,3981,504,324,13564,803,324,1,805,340,1,850,346,1,803,324,1,Finisher,1000
+Carrie,Stenstrom,Carrie Stenstrom,1936,F35-39,Female,Oxford,OH,Canada,CA,0:32:11,1:46:17,1:16:02,,,3:46:20,1931,6377,4562,418,292,13580,804,325,63,506,187,29,797,314,60,804,325,63,Finisher,350
+Louise,Bolduc,Louise Bolduc,2042,F45-49,Female,Mirabel,Quebec,Canada,CA,0:43:01,1:38:43,1:11:35,,,3:46:26,2581,5923,4295,481,306,13586,805,326,37,873,371,44,824,332,38,805,326,37,Finisher,350
+Chantal,Deniger,Chantal Deniger,2053,F45-49,Female,matagami,QC,Canada,CA,0:32:31,1:43:51,1:11:46,,,3:46:53,1951,6231,4306,707,418,13613,806,327,38,549,209,22,815,325,37,806,327,38,Finisher,350
+Francis,Philippe,Francis Philippe,1623,M55-59,Male,Richelieu,QC,Canada,CA,0:40:59,1:38:44,1:17:23,,,3:47:13,2459,5924,4643,392,215,13633,807,480,39,855,492,38,803,485,39,807,480,39,Finisher,350
+Lincoln,Hernandez,Lincoln Hernandez,1336,M40-44,Male,Bronx,NY,United States,US,0:39:16,1:34:20,1:22:03,,,3:47:46,2356,5660,4923,513,214,13666,808,481,101,833,480,101,768,473,101,808,481,101,Finisher,350
+Caroline,Descoteaux,Caroline Descoteaux,1801,F30-34,Female,Drummondville,QC,Canada,CA,0:34:02,1:47:35,1:12:47,,,3:47:47,2042,6455,4367,487,316,13667,809,328,57,651,260,52,823,331,58,809,328,57,Finisher,350
+Bill,Morency,Bill Morency,1560,M50-54,Male,Laval,QC,Canada,CA,0:36:02,1:39:36,1:19:20,,,3:47:54,2162,5976,4760,514,262,13674,810,482,64,732,429,53,787,481,65,810,482,64,Finisher,350
+Dominic,Dufour,Dominic Dufour,1206,M35-39,Male,boisbriand,QC,Canada,CA,0:44:00,1:37:27,1:10:35,,,3:47:59,2640,5847,4235,599,358,13679,811,483,78,883,506,79,835,499,78,811,483,78,Finisher,350
+Patrice,Matte,Patrice Matte,1473,M45-49,Male,ste-madeleine,QC,Canada,CA,0:33:35,1:38:18,1:23:30,,,3:48:16,2015,5898,5010,469,304,13696,812,484,74,630,383,63,741,463,72,812,484,74,Finisher,350
+Caroline,Pelletier,Caroline Pelletier,1927,F35-39,Female,Saint-Jérôme,Québec,Canada,CA,0:39:05,1:45:43,1:07:55,,,3:48:18,2345,6343,4075,504,431,13698,813,329,64,828,352,63,844,341,63,813,329,64,Finisher,350
+Ashleigh,Huza,Ashleigh Huza,1811,F30-34,Female,Montreal,QC,Canada,CA,0:35:26,1:48:47,1:11:52,,,3:48:21,2126,6527,4312,546,190,13701,814,330,58,709,290,56,845,342,60,814,330,58,Finisher,350
+Annie ,Gagnon,Annie Gagnon,1973,F40-44,Female,Mascouche,QC,Canada,CA,0:38:05,1:46:32,1:11:16,,,3:48:45,2285,6392,4276,482,290,13725,815,331,62,802,338,62,840,339,65,815,331,62,Finisher,350
+Dominic,Richer,Dominic Richer,2147,F55-59,Female,Gatineau,QC,Canada,CA,0:32:23,1:41:56,1:21:49,,,3:48:53,1943,6116,4909,458,307,13733,816,332,9,535,199,5,764,294,8,816,332,9,Finisher,350
+Amély,Labelle,Amély Labelle,1683,F18-24,Female,Varennes,QC,Canada,CA,0:35:48,1:53:56,1:07:25,,,3:49:01,2148,6836,4045,483,229,13741,817,333,22,721,295,26,863,357,25,817,333,22,Finisher,350
+Kim,Boyd,Kim Boyd,1789,F30-34,Female,Quebec,QC,Canada,CA,0:34:38,1:50:58,1:13:49,,,3:49:14,2078,6658,4429,386,203,13754,818,334,59,674,274,54,838,338,59,818,334,59,Finisher,350
+Isabel,Picard,Isabel Picard,2084,F45-49,Female,Fossambault-sur-le-lac,QC,Canada,CA,0:33:50,1:36:56,1:25:13,,,3:49:25,2030,5816,5113,528,278,13765,819,335,39,643,255,26,735,275,28,819,335,39,Finisher,350
+Ian-Vladi,Dordevic,Ian-Vladi Dordevic,1123,M30-34,Male,Saint-Lambert,QC,Canada,CA,0:39:45,1:41:56,1:14:28,,,3:49:26,2385,6116,4468,551,246,13766,820,485,53,842,485,55,831,497,54,820,485,53,Finisher,350
+Laura,Radey,Laura Radey,2134,F50-54,Female,Ottawa,ON,Canada,CA,0:36:09,1:47:18,1:12:58,,,3:49:27,2169,6438,4378,460,322,13767,821,336,31,740,309,27,832,335,32,821,336,31,Finisher,350
+Jean-Christophe,Gagnon,Jean-Christophe Gagnon,1031,M18-24,Male,Saint-Eustache,QC,Canada,CA,0:49:25,1:37:14,1:12:34,,,3:49:41,2965,5834,4354,381,247,13781,822,486,37,902,517,39,843,503,38,822,486,37,Finisher,350
+Dave,Desgagne,Dave Desgagne,1313,M40-44,Male,Carignan,Québec,Canada,CA,0:37:46,1:33:46,1:23:52,,,3:50:13,2266,5626,5032,594,295,13813,823,487,102,796,462,94,759,468,99,823,487,102,Finisher,350
+Emma,Steven,Emma Steven,1848,F30-34,Female,Dorval,QC,Canada,CA,0:32:12,1:46:24,1:21:05,,,3:51:01,1932,6384,4865,411,269,13861,824,337,60,508,189,43,798,315,54,824,337,60,Finisher,350
+Julie,Chevrier,Julie Chevrier,1957,F40-44,Female,Longueuil,QC,Canada,CA,0:31:57,1:41:12,1:22:39,,,3:51:03,1917,6072,4959,561,354,13863,825,338,63,488,183,30,774,299,59,825,338,63,Finisher,350
+Kathleen,Begin,Kathleen Begin,1864,F35-39,Female,Saint-Constant,QC,Canada,CA,0:39:22,1:48:59,1:11:04,,,3:51:13,2362,6539,4264,410,298,13873,826,339,65,836,354,65,852,348,65,826,339,65,Finisher,350
+Marie-Eve,Fiset-Tremblay,Marie-Eve Fiset-Tremblay,1735,F25-29,Female,Gatineau,QC,Canada,CA,0:29:30,1:41:31,1:31:36,,,3:53:07,1770,6091,5496,398,232,13987,827,340,48,291,94,18,709,255,39,827,340,48,Finisher,350
+Valerie,Gaudreault,Valerie Gaudreault,1890,F35-39,Female,Quebec,QC,Canada,CA,0:42:08,1:45:18,1:11:09,,,3:53:21,2528,6318,4269,618,268,14001,828,341,66,866,368,68,861,355,68,828,341,66,Finisher,350
+Nadine,St-Aubin,Nadine St-Aubin,2026,F40-44,Female,Laval,QC,Canada,CA,0:37:19,1:51:08,1:09:57,,,3:53:31,2239,6668,4197,558,349,14011,829,342,64,786,332,60,862,356,68,829,342,64,Finisher,350
+Josee,Durand,Josee Durand,2060,F45-49,Female,Shawinigan,QC,Canada,CA,0:45:30,1:48:15,1:08:34,,,3:53:59,2730,6495,4114,432,268,14039,830,343,40,890,381,45,876,363,44,830,343,40,Finisher,350
+Isabelle,Nadeau,Isabelle Nadeau,2009,F40-44,Female,Beloeil,QC,Canada,CA,0:33:19,1:44:07,1:25:37,,,3:54:24,1999,6247,5137,443,238,14064,831,344,65,611,235,40,792,310,61,831,344,65,Finisher,350
+Manon,Fleury,Manon Fleury,2114,F50-54,Female,Montréal,Québec,Canada,CA,0:36:38,1:42:09,1:20:34,,,3:54:29,2198,6129,4834,526,382,14069,832,345,32,763,317,30,813,324,29,832,345,32,Finisher,350
+Isabelle,Belair,Isabelle Belair,2038,F45-49,Female,St-Jérôme,QC,Canada,CA,0:41:18,1:42:49,1:18:55,,,3:54:35,2478,6169,4735,428,265,14075,833,346,41,857,364,43,834,336,40,833,346,41,Finisher,350
+Annabelle,Soumis,Annabelle Soumis,1698,F18-24,Female,Val-d'Or,QC,Canada,CA,0:38:30,1:47:44,1:14:53,,,3:54:47,2310,6464,4493,544,276,14087,834,347,23,813,342,29,853,349,24,834,347,23,Finisher,350
+Caroline,Marois,Caroline Marois,2001,F40-44,Female,Rosemère,QC,Canada,CA,0:37:02,1:46:36,1:20:14,,,3:55:25,2222,6396,4814,425,268,14125,835,348,66,779,327,59,830,334,63,835,348,66,Finisher,350
+Nancy,Demers,Nancy Demers,2052,F45-49,Female,Montréal,QC,Canada,CA,0:36:25,1:39:55,1:27:08,,,3:55:30,2185,5995,5228,458,264,14130,836,349,42,754,315,35,785,305,35,836,349,42,Finisher,350
+Cedric,Lafrance,Cedric Lafrance,1039,M18-24,Male,Boucherville,Québec,Canada,CA,0:47:14,1:45:27,1:12:45,,,3:56:36,2834,6327,4365,487,183,14196,837,488,38,898,514,38,875,513,39,837,488,38,Finisher,350
+Philippe,Vaillant,Philippe Vaillant,1173,M30-34,Male,Terrebonne,Québec,Canada,CA,0:32:58,1:48:01,1:24:57,,,3:56:39,1978,6481,5097,473,170,14199,838,489,54,585,362,43,818,491,53,838,489,54,Finisher,350
+Pierre,Rodrigue,Pierre Rodrigue,1658,M65-69,Male,Blainville,QC,Canada,CA,0:46:06,1:32:42,1:25:54,,,3:57:26,2766,5562,5154,514,250,14246,839,490,2,892,510,1,811,488,2,839,490,2,Finisher,642
+Marc-André,Prégent,Marc-André Prégent,1261,M35-39,Male,Ste-Catherine-de-la-Jacques-Cartier,QC,Canada,CA,0:39:20,1:43:19,1:22:50,,,3:57:33,2360,6199,4970,472,252,14253,840,491,79,834,481,77,828,495,77,840,491,79,Finisher,350
+Bernard,Turpin,Bernard Turpin,1652,M60-64,Male,Gatineau,QC,Canada,CA,0:38:21,1:38:47,1:26:38,,,3:57:42,2301,5927,5198,570,266,14262,841,492,9,809,468,9,808,487,9,841,492,9,Finisher,350
+Genevieve,Laroche,Genevieve Laroche,1752,F25-29,Female,Lévis,QC,Canada,CA,0:30:33,1:53:17,1:19:42,,,3:57:54,1833,6797,4782,577,285,14274,842,350,49,375,133,24,846,343,49,842,350,49,Finisher,350
+Anne-Sophie,Brunetta,Anne-Sophie Brunetta,1665,F18-24,Female,Boucherville,QC,Canada,CA,0:34:46,1:56:37,1:15:02,,,3:57:58,2086,6997,4502,459,234,14278,843,351,24,679,277,24,868,361,27,843,351,24,Finisher,350
+Nick,Blanchette,Nick Blanchette,1291,M40-44,Male,Mississauga,ON,Canada,CA,0:36:37,1:45:27,1:19:53,,,3:58:04,2197,6327,4793,609,358,14284,844,493,103,761,445,90,839,501,106,844,493,103,Finisher,350
+Annie,Delorme,Annie Delorme,1964,F40-44,Female,Saint-Hyacinthe,QC,Canada,CA,0:37:59,1:45:54,1:21:25,,,3:58:11,2279,6354,4885,460,313,14291,845,352,67,799,336,61,836,337,64,845,352,67,Finisher,350
+Sophia,Whittom,Sophia Whittom,2139,F50-54,Female,Verdun,QC,Canada,CA,0:42:48,1:50:54,1:11:08,,,3:58:26,2568,6654,4268,467,349,14306,846,353,33,871,370,35,879,366,35,846,353,33,Finisher,350
+Mathilde,Michaud,Mathilde Michaud,1918,F35-39,Female,La Pocatiere,QC,Canada,CA,0:37:00,1:51:08,1:18:41,,,3:58:55,2220,6668,4721,451,275,14335,847,354,67,776,325,59,856,351,66,847,354,67,Finisher,350
+Christine,Dufresne,Christine Dufresne,2111,F50-54,Female,La Tuque,QC,Canada,CA,0:41:24,1:45:51,1:18:30,,,3:58:59,2484,6351,4710,497,297,14339,848,355,34,859,366,34,855,350,34,848,355,34,Finisher,350
+Julie,Bonenfant,Julie Bonenfant,1785,F30-34,Female,Montreal,QC,Canada,CA,0:45:34,1:49:26,1:12:32,,,3:59:12,2734,6566,4352,424,276,14352,849,356,61,891,382,65,881,367,61,849,356,61,Finisher,350
+Gaetan,Courchesne,Gaetan Courchesne,1643,M60-64,Male,Nominingue,QC,Canada,CA,0:41:33,1:39:03,1:24:46,,,4:00:12,2493,5943,5086,520,370,14412,850,494,10,861,495,13,820,492,10,850,494,10,Finisher,350
+Melissa,Saindon,Melissa Saindon,1764,F25-29,Female,Laval,QC,Canada,CA,0:39:59,1:52:59,1:16:06,,,4:00:21,2399,6779,4566,498,179,14421,851,357,50,844,359,51,877,364,51,851,357,50,Finisher,350
+Frantz,Landry,Frantz Landry,1461,M45-49,Male,Boisbriand,QC,Canada,CA,0:54:55,1:45:52,1:09:16,,,4:00:59,3295,6352,4156,444,212,14459,852,495,75,911,523,78,894,519,78,852,495,75,Finisher,350
+Jean-Francois,Babin,Jean-Francois Babin,1413,M45-49,Male,Blainville,QC,Canada,CA,0:46:18,1:46:23,1:15:39,,,4:01:06,2778,6383,4539,484,282,14466,853,496,76,893,511,76,874,512,76,853,496,76,Finisher,350
+Patrick,Mcdonough,Patrick Mcdonough,1649,M60-64,Male,Saint John,NB,Canada,CA,0:41:50,1:46:02,1:17:00,,,4:01:33,2510,6362,4620,603,398,14493,854,497,11,864,497,14,864,507,13,854,497,11,Finisher,350
+Richard,Lemire,Richard Lemire,1638,M60-64,Male,Val David,QC,Canada,CA,0:43:35,1:44:46,1:19:14,,,4:02:06,2615,6286,4754,691,180,14526,855,498,12,880,505,15,870,509,14,855,498,12,Finisher,350
+Johanne,Levesque,Johanne Levesque,2129,F50-54,Female,Beloeil,QC,Canada,CA,0:44:11,1:50:48,1:10:52,,,4:02:17,2651,6648,4252,624,362,14537,856,358,35,884,378,36,888,373,37,856,358,35,Finisher,350
+Jean-Guy,Billard,Jean-Guy Billard,1288,M40-44,Male,Montreal,QC,Canada,CA,0:39:01,1:37:27,1:36:07,,,4:02:35,2341,5847,5767,395,205,14555,857,499,104,827,476,98,779,478,102,857,499,104,Finisher,350
+Julie,Mailhiot,Julie Mailhiot,2072,F45-49,Female,L'Ange-Gardien,QC,Canada,CA,0:37:12,1:49:31,1:18:44,,,4:03:07,2232,6571,4724,674,386,14587,858,359,43,782,329,38,865,358,42,858,359,43,Finisher,350
+Esther,Desrosiers,Esther Desrosiers,2151,F60-64,Female,St Bruno de Montarville,QC,Canada,CA,0:43:15,1:48:21,1:15:16,,,4:03:50,2595,6501,4516,659,359,14630,859,360,3,875,373,3,884,369,3,859,360,3,Finisher,350
+Yanick,Miron,Yanick Miron,1246,M35-39,Male,Repentigny,QC,Canada,CA,0:57:18,1:44:07,1:12:09,,,4:04:07,3438,6247,4329,399,234,14647,860,500,80,912,524,81,893,518,80,860,500,80,Finisher,350
+Fred,Clark,Fred Clark,1659,M70-74,Male,Mont-Tremblant,QC,Canada,CA,0:43:01,1:47:15,1:19:02,,,4:04:40,2581,6435,4742,557,365,14680,861,501,1,872,502,1,869,508,1,861,501,1,Finisher,1000
+Kim-Alexandra,Labelle,Kim-Alexandra Labelle,1746,F25-29,Female,Montréal,QC,Canada,CA,0:37:01,1:52:29,1:21:45,,,4:04:47,2221,6749,4905,526,286,14687,862,361,51,777,326,49,866,359,50,862,361,51,Finisher,350
+Shirley,Devenz,Shirley Devenz,2109,F50-54,Female,Ottawa,ON,Canada,CA,0:46:40,1:47:21,1:16:35,,,4:04:57,2800,6441,4595,486,375,14697,863,362,36,894,383,37,883,368,36,863,362,36,Finisher,350
+Michelle,Calvé,Michelle Calvé,2045,F45-49,Female,Montréal,QC,Canada,CA,0:36:46,1:54:27,1:19:23,,,4:06:20,2206,6867,4763,607,337,14780,864,363,44,766,319,36,878,365,45,864,363,44,Finisher,350
+Karine,Van Houtte,Karine Van Houtte,1940,F35-39,Female,Montreal,QC,Canada,CA,0:33:00,1:54:28,1:23:26,,,4:06:27,1980,6868,5006,501,432,14787,865,364,68,587,225,36,857,352,67,865,364,68,Finisher,350
+Benoit,Pinsonneault,Benoit Pinsonneault,1486,M45-49,Male,Repentigny ,QC,Canada,CA,0:38:19,1:56:01,1:19:30,,,4:06:28,2299,6961,4770,465,293,14788,866,502,77,808,467,73,882,515,77,866,502,77,Finisher,350
+Catherine,Delorme,Catherine Delorme,1727,F25-29,Female,Lasalle,QC,Canada,CA,0:45:07,1:50:18,1:17:58,,,4:06:28,2707,6618,4678,521,264,14788,867,365,52,888,380,55,885,370,52,867,365,52,Finisher,350
+Benoit,Giguere,Benoit Giguere,1539,M50-54,Male,St-Ferdinand,QC,Canada,CA,0:46:57,1:37:38,1:24:31,,,4:07:03,2817,5858,5071,576,501,14823,868,503,65,895,512,65,849,504,67,868,503,65,Finisher,350
+Marie-Eve,Béland,Marie-Eve Béland,1779,F30-34,Female,Saint-Faustin Lac-Carré,QC,Canada,CA,0:38:06,2:02:04,1:14:09,,,4:07:14,2286,7324,4449,463,312,14834,869,366,62,803,339,59,891,375,62,869,366,62,Finisher,350
+Noémie,Poliquin,Noémie Poliquin,1696,F18-24,Female,Mirabel,QC,Canada,CA,0:32:45,1:56:54,1:25:00,,,4:07:50,1965,7014,5100,563,228,14870,870,367,25,570,220,21,867,360,26,870,367,25,Finisher,350
+Katherine,Lavoie,Katherine Lavoie,1904,F35-39,Female,Montreal,QC,Canada,CA,0:40:19,2:15:13,0:57:02,,,4:09:05,2419,8113,3422,662,329,14945,871,368,69,845,360,67,906,384,69,871,368,69,Finisher,350
+Paul,Robidoux,Paul Robidoux,1487,M45-49,Male,Saint-Constant,QC,Canada,CA,0:40:24,1:48:58,1:20:22,,,4:09:42,2424,6538,4822,638,560,14982,872,504,78,849,489,74,871,510,75,872,504,78,Finisher,350
+Annie,Gauthier,Annie Gauthier,2118,F50-54,Female,Val-d'Or,QC,Canada,CA,0:33:35,1:51:39,1:31:12,,,4:10:03,2015,6699,5472,454,363,15003,873,369,37,629,247,21,842,340,33,873,369,37,Finisher,350
+Emie,Béland-Matte,Emie Béland-Matte,1664,F18-24,Female,Mont-Tremblant,QC,Canada,CA,0:38:03,1:49:00,1:32:23,,,4:11:04,2283,6540,5543,425,273,15064,874,370,26,801,337,28,848,345,23,874,370,26,Finisher,350
+Wilma,Babikian,Wilma Babikian,2037,F45-49,Female,Ottawa,ON,Canada,CA,0:51:02,1:42:29,1:26:59,,,4:12:26,3062,6149,5219,399,317,15146,875,371,45,904,387,46,872,362,43,875,371,45,Finisher,350
+Claude-Olivier,Taillefer,Claude-Olivier Taillefer,1168,M30-34,Male,Montréal,QC,Canada,CA,0:36:21,1:53:55,1:27:29,,,4:14:24,2181,6835,5249,619,380,15264,876,505,55,751,438,51,873,511,57,876,505,55,Finisher,350
+Kate,Johansen,Kate Johansen,1681,F18-24,Female,Ridgewood,NJ,United States,US,0:29:57,2:10:02,1:25:50,,,4:14:36,1797,7802,5150,349,178,15276,877,372,27,329,110,10,889,374,28,877,372,27,Finisher,350
+Frank,Paiement,Frank Paiement,1008,M18-24,Male,Saint-Clet,QC,Canada,CA,0:36:13,1:59:00,1:22:18,,,4:15:37,2173,7140,4938,762,324,15337,878,506,39,744,434,36,892,517,40,878,506,39,Finisher,350
+Guy,Lafortune,Guy Lafortune,1616,M55-59,Male,St-Bruno,QC,Canada,CA,0:44:48,1:51:18,1:23:14,,,4:16:50,2688,6678,4994,669,381,15410,879,507,40,887,508,41,890,516,41,879,507,40,Finisher,350
+Tom,Bellemare,Tom Bellemare,1284,M40-44,Male,yamachiche,QC,Canada,CA,0:51:43,1:39:59,1:30:17,,,4:18:30,3103,5999,5417,591,400,15510,880,508,105,907,520,107,880,514,107,880,508,105,Finisher,350
+Florence,Ouellet,Florence Ouellet,1691,F18-24,Female,Lachine,QC,Canada,CA,0:32:17,1:59:33,1:22:52,,,4:20:21,1937,7173,4972,1120,419,15621,881,373,28,520,193,19,896,377,29,881,373,28,Finisher,350
+Monika,Wittmer,Monika Wittmer,1772,F25-29,Female,Montreal,QC,Canada,CA,0:27:59,2:14:44,1:26:44,,,4:21:20,1679,8084,5204,427,286,15680,882,374,53,183,55,10,895,376,54,882,374,53,Finisher,350
+Andrea,Stier,Andrea Stier,2093,F45-49,Female,Ridgewood,NJ,United States,US,0:38:51,1:54:49,1:28:59,,,4:22:48,2331,6889,5339,685,524,15768,883,375,46,823,349,41,887,372,46,883,375,46,Finisher,350
+Isabelle,Lacombe,Isabelle Lacombe,1988,F40-44,Female,Terrebonne,QC,Canada,CA,0:47:04,1:54:35,1:27:00,,,4:24:52,2824,6875,5220,607,366,15892,884,376,68,897,384,71,898,378,69,884,376,68,Finisher,350
+Jennifer,Raman,Jennifer Raman,2019,F40-44,Female,Allendale,NJ,United States,US,0:47:25,2:03:21,1:24:17,,,4:26:48,2845,7401,5057,480,225,16008,885,377,69,899,385,72,899,379,70,885,377,69,Finisher,350
+Erich,Kohler,Erich Kohler,1079,M25-29,Male,Montreal,QC,Switzerland,CH,0:29:17,1:59:31,1:22:56,,,4:29:21,1757,7171,4976,1841,416,16161,886,509,30,275,188,16,900,521,30,886,509,30,Finisher,350
+Peter,Venezia,Peter Venezia,1654,M60-64,Male,Brebeuf,QC,Canada,CA,0:38:51,2:03:14,1:35:51,,,4:32:48,2331,7394,5751,527,365,16368,887,510,13,824,475,11,897,520,15,887,510,13,Finisher,350
+Véronique,Allaire,Véronique Allaire,1775,F30-34,Female,Gatineau,QC,Canada,CA,0:50:43,2:10:31,1:21:12,,,4:35:47,3043,7831,4872,511,290,16547,888,378,63,903,386,66,908,385,66,888,378,63,Finisher,350
+Melissa,Correia,Melissa Correia,1702,F25-29,Female,Laval,QC,Canada,CA,0:39:38,2:12:35,1:31:21,,,4:36:55,2378,7955,5481,478,323,16615,889,379,54,839,356,50,902,381,55,889,379,54,Finisher,350
+Marilyn,Perras,Marilyn Perras,1835,F30-34,Female,Montreal,QC,Canada,CA,0:43:42,2:09:12,1:31:28,,,4:36:55,2622,7752,5488,540,213,16615,890,380,64,881,376,64,904,383,65,890,380,64,Finisher,350
+Roger,Smith,Roger Smith,1660,M75-79,Male,Gatineau,QC,Canada,CA,0:53:59,1:57:11,1:28:18,,,4:38:26,3239,7031,5298,715,423,16706,891,511,1,909,521,1,905,522,1,891,511,1,Finisher,1000
+Frederike,Malo,Frederike Malo,1824,F30-34,Female,Sainte-Thérèse,QC,Canada,CA,0:38:58,2:13:25,1:32:12,,,4:38:36,2338,8005,5532,569,272,16716,892,381,65,825,350,62,903,382,64,892,381,65,Finisher,350
+Duke,Lam,Duke Lam,1084,M25-29,Male,Toronto,ON,Canada,CA,1:06:49,1:54:15,1:25:50,,,4:40:01,4009,6855,5150,439,348,16801,893,512,31,913,525,32,907,523,31,893,512,31,Finisher,350
+Josée,Mailhot,Josée Mailhot,1823,F30-34,Female,Saint-Jean-sur-Richelieu,QC,Canada,CA,0:41:21,2:10:24,1:36:37,,,4:40:26,2481,7824,5797,500,224,16826,894,382,66,858,365,63,901,380,63,894,382,66,Finisher,350
+Julie,Giroux,Julie Giroux,1978,F40-44,Female,Malartic,QC,Canada,CA,0:38:50,2:23:07,1:30:58,,,4:44:06,2330,8587,5458,487,184,17046,895,383,70,822,348,65,909,386,71,895,383,70,Finisher,350
+Jessica-Aimy,Lafleur,Jessica-Aimy Lafleur,1812,F30-34,Female,Otterburn Park,QC,Canada,CA,0:53:50,2:15:53,1:22:02,,,4:45:35,3230,8153,4922,587,243,17135,896,384,67,908,388,67,910,387,67,896,384,67,Finisher,350
+Andrea,Jacques,Andrea Jacques,1680,F18-24,Female,Lac-Mégantic,Québec,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joseph,Calabrese,Joseph Calabrese,1596,M55-59,Male,West Caldwell,NJ,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matthieu,Clas,Matthieu Clas,1018,M18-24,Male,Montreal,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sylvain,Wolfe,Sylvain Wolfe,1580,M50-54,Male,Terrebonne,quebec,Canada,CA,,,,,,,2354,3477,0,553,0,0,99999,99999,99999,830,477,60,67,56,6,99999,99999,99999,DNF,0
+Patrick,Levesque,Patrick Levesque,1467,M45-49,Male,Vaudreuil,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Andréanne,Poirier,Andréanne Poirier,1838,F30-34,Female,Terrebonne,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Julian,Chesnutt,Julian Chesnutt,1513,M50-54,Male,Gastonia,NC,United States,US,,,,,,,3077,8581,0,1052,0,0,99999,99999,99999,905,518,67,911,524,68,99999,99999,99999,DNF,0
+Amanda,Hui,Amanda Hui,1744,F25-29,Female,Brossard,Quebec,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jacynthe,Gagnon,Jacynthe Gagnon,1974,F40-44,Female,Québec,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Mathieu,Blais,Mathieu Blais,1290,M40-44,Male,Anjou,QC,Canada,CA,,,,,,,1627,5604,0,315,0,0,99999,99999,99999,120,86,17,475,343,68,99999,99999,99999,DNF,0
+Cindy,Gale,Cindy Gale,2116,F50-54,Female,Arnprior,ON,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Imane,Benhannachi,Imane Benhannachi,1710,F25-29,Female,Anjou,QC,Canada,CA,,,,,,,2660,6701,0,538,0,0,99999,99999,99999,886,379,54,886,371,53,99999,99999,99999,DNF,0
+Chantal,Mistry,Chantal Mistry,1828,F30-34,Female,Montreal,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jennifer,Seeney,Jennifer Seeney,1845,F30-34,Female,Bowmanville,ON,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Marc,Lemyre,Marc Lemyre,1552,M50-54,Male,Blainville,Québec,Canada,CA,,,,,,,2004,5273,0,418,320,0,99999,99999,99999,618,380,46,544,381,45,99999,99999,99999,DNF,0
+Jason,Judd,Jason Judd,1228,M35-39,Male,Carp,ON,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jennifer,Birkas,Jennifer Birkas,2040,F45-49,Female,Gananoque,,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tom,Rothfels,Tom Rothfels,1651,M60-64,Male,Toronto,ON,Canada,CA,,,,,,,2019,6022,0,483,0,0,99999,99999,99999,634,384,5,767,472,8,99999,99999,99999,DNF,0
+Scott,Rathbone,Scott Rathbone,1264,M35-39,Male,Toronto,ON,Canada,CA,,,,,,,2051,0,0,0,0,0,99999,99999,99999,660,394,62,99999,99999,99999,99999,99999,99999,DNF,0
+Alexandre,Landry,Alexandre Landry,1085,M25-29,Male,St-Bruno,QC,Canada,CA,,,,,,,1401,0,0,0,0,0,99999,99999,99999,23,16,2,99999,99999,99999,99999,99999,99999,DNF,0
+Kayla,Jones,Kayla Jones,1682,F18-24,Female,Ottawa,ON,Canada,CA,,,,,,,1676,4538,0,293,215,0,99999,99999,99999,180,53,7,105,17,3,99999,99999,99999,DNF,0
+Eduardo,Arnaez,Eduardo Arnaez,1411,M45-49,Male,San Juan,AR-J,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marie-Chloe,Tessier,Marie-Chloe Tessier,1701,F18-24,Female,St-Jean-des-Piles,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Magali,Piche,Magali Piche,2085,F45-49,Female,L'Ancienne-Lorette,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Patricia,Poirier,Patricia Poirier,1758,F25-29,Female,Montréal,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marc-André,Piché,Marc-André Piché,1156,M30-34,Male,Gatineau,,Canada,CA,,,,,,,2197,6567,0,565,0,0,99999,99999,99999,760,444,54,854,505,56,99999,99999,99999,DNF,0
+Clare,Mccurley,Clare Mccurley,2004,F40-44,Female,Toronto,ON,Canada,CA,,,,,,,1708,5317,0,402,0,0,99999,99999,99999,207,64,8,418,108,14,99999,99999,99999,DNF,0
+Vanneth,Ngan,Vanneth Ngan,1926,F35-39,Female,Longueuil,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michel,Charlebois,Michel Charlebois,1599,M55-59,Male,Rosemere,Quebec,Canada,CA,,,,,,,2114,6811,0,434,0,0,99999,99999,99999,697,414,30,858,506,40,99999,99999,99999,DNF,0
+François,Léonard,François Léonard,1356,M40-44,Male,Laval,QC,Canada,CA,,,,,,,1740,2387,0,461,0,0,99999,99999,99999,248,173,30,2,2,1,99999,99999,99999,DNF,0
+Sylvain,Gagnon,Sylvain Gagnon,1537,M50-54,Male,Chambly,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Patrick,Hubert,Patrick Hubert,1338,M40-44,Male,Quebec,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stuart,Carre,Stuart Carre,1640,M60-64,Male,Banff,AB,Canada,CA,,,,,,,2379,6091,0,601,370,0,99999,99999,99999,840,484,12,833,498,12,99999,99999,99999,DNF,0
+Daniel,Desroches,Daniel Desroches,1122,M30-34,Male,Laval,QC,Canada,CA,,,,,,,1770,5260,0,359,227,0,99999,99999,99999,295,200,26,404,303,35,99999,99999,99999,DNF,0
+Mark,Stier,Mark Stier,1631,M55-59,Male,Ridgewood,NJ,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicola,Monaco,Nicola Monaco,1477,M45-49,Male,Montreal,Quebec,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon Maxime ,Labelle,Simon Maxime Labelle,1038,M18-24,Male,Saint-Jérôme,QC,Canada,CA,,,,,,,0,2586,0,0,3171,0,99999,99999,99999,99999,99999,99999,1,1,1,99999,99999,99999,DNF,0
+Karina,Bruneau,Karina Bruneau,1952,F40-44,Female,St-Lazare,QC,Canada,CA,,,,,,,1957,0,0,0,0,0,99999,99999,99999,558,213,36,99999,99999,99999,99999,99999,99999,DNF,0
+Pierre-Yves,Gigoux,Pierre-Yves Gigoux,1061,M25-29,Male,QUÉBEC,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Isabelle,Ratelle,Isabelle Ratelle,2020,F40-44,Female,st-leonard,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0

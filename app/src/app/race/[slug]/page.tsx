@@ -2,8 +2,9 @@ import { notFound } from "next/navigation";
 import { getRaces, getRaceBySlug, getSearchIndex } from "@/lib/data";
 import SearchBar from "@/components/SearchBar";
 
+// Generate on demand — too many races to pre-render at build time.
 export async function generateStaticParams() {
-  return getRaces().map((race) => ({ slug: race.slug }));
+  return [];
 }
 
 interface PageProps {

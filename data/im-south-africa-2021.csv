@@ -1,0 +1,953 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Benjamin,Janse Van Rensburg,Benjamin Janse Van Rensburg,270,M35-39,Male,jhb,Gauteng,South Africa,ZA,0:13:27,4:37:54,3:11:04,,,8:10:17,807,16674,11464,283,189,29417,1,1,1,235,210,51,1,1,1,1,1,1,Finisher,5000
+Victor,Osokin,Victor Osokin,475,M40-44,Male,Seeheim-Jugenheim,HE,Russia,RU,0:11:40,4:44:18,3:09:41,,,8:13:43,700,17058,11381,284,200,29623,2,2,1,69,62,14,2,2,1,2,2,1,Finisher,5000
+Dmitry,Pichugin,Dmitry Pichugin,317,M35-39,Male,Moscow,,Russia,RU,0:09:45,4:50:24,3:08:41,,,8:15:59,585,17424,11321,257,172,29759,3,3,2,15,13,3,7,7,4,3,3,2,Finisher,4931
+Travis,Johnston,Travis Johnston,271,M35-39,Male,cape town,,South Africa,ZA,0:10:02,4:53:26,3:06:42,,,8:16:39,602,17606,11202,258,131,29799,4,4,3,17,15,4,12,12,6,4,4,3,Finisher,4923
+Ewert,Kleynhans,Ewert Kleynhans,277,M35-39,Male,"Pretoria, Magalieskruin",Gauteng,South Africa,ZA,0:12:41,4:48:48,3:11:02,,,8:17:26,761,17328,11462,162,133,29846,5,5,4,164,147,34,6,6,3,5,5,4,Finisher,4914
+Juan Pedro,Garcia Ochoa,Juan Pedro Garcia Ochoa,261,M35-39,Male,ELCHE,,Spain,ES,0:12:05,4:54:24,3:06:13,,,8:20:48,725,17664,11173,293,193,30048,6,6,5,100,90,17,19,19,10,6,6,5,Finisher,4873
+Jose,Arranz,Jose Arranz,222,M35-39,Male,Santa Cruz de Tenerife,,Spain,ES,0:12:14,4:53:08,3:09:02,,,8:20:51,734,17588,11342,213,173,30051,7,7,6,115,103,19,14,14,8,7,7,6,Finisher,4873
+Raynard,Tissink,Raynard Tissink,656,M45-49,Male,PORT ELIZABETH,,South Africa,ZA,0:09:35,4:51:52,3:12:44,,,8:21:21,575,17512,11564,269,161,30081,8,8,1,12,10,1,9,9,1,8,8,1,Finisher,5000
+Laurent,Marcilloux,Laurent Marcilloux,299,M35-39,Male,Trilport,,France,FR,0:13:20,4:52:35,3:10:58,,,8:23:39,800,17555,11458,250,155,30219,9,9,7,228,204,49,16,16,9,9,9,7,Finisher,4839
+Ulrik,Jespersen,Ulrik Jespersen,729,M50-54,Male,"
+Herning",,Denmark,DK,0:11:16,4:49:08,3:20:22,,,8:27:54,676,17348,12022,271,157,30474,10,10,1,48,43,3,8,8,1,10,10,1,Finisher,5000
+Bradley,Fleming,Bradley Fleming,259,M35-39,Male,Johannesburg,,South Africa,ZA,0:10:35,4:47:29,3:23:54,,,8:28:41,635,17249,12234,290,113,30521,11,11,8,31,29,9,5,5,2,11,11,8,Finisher,4779
+Gerard,Coaklin,Gerard Coaklin,493,M40-44,Male,Gauteng,,South Africa,ZA,0:11:43,5:02:12,3:10:41,,,8:31:22,703,18132,11441,268,138,30682,12,12,2,71,64,15,30,30,9,12,12,2,Finisher,4788
+Rudolf,Naude,Rudolf Naude,172,M30-34,Male,Vanderbijlpark,Gauteng,South Africa,ZA,0:09:33,4:54:44,3:20:49,,,8:32:14,573,17684,12049,280,148,30734,13,13,1,11,9,4,15,15,3,13,13,1,Finisher,5000
+Grant,Guerin,Grant Guerin,428,M40-44,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:12:29,4:56:05,3:16:51,,,8:32:24,749,17765,11811,262,157,30744,14,14,3,144,131,28,22,22,4,14,14,3,Finisher,4775
+Fabio Vaz,Fernandes Goncalves,Fabio Vaz Fernandes Goncalves,258,M35-39,Male,Funchal,foreigner,Portugal,PT,0:12:29,4:54:24,3:18:39,,,8:33:19,749,17664,11919,270,198,30799,15,15,9,142,129,28,20,20,11,15,15,9,Finisher,4723
+Ievgen,Smirnov,Ievgen Smirnov,496,M40-44,Male,Kiev,,Ukraine,UA,0:11:52,4:53:38,3:21:32,,,8:34:06,712,17618,12092,277,147,30846,16,16,4,84,74,18,17,17,3,16,16,4,Finisher,4755
+Nico,Sterk,Nico Sterk,191,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:11:10,4:52:12,3:23:04,,,8:34:34,670,17532,12184,251,238,30874,17,17,2,44,39,10,11,11,2,17,17,2,Finisher,4972
+Connor,Mercer,Connor Mercer,65,M18-24,Male,Johannesburg,Gauteng,South Africa,ZA,0:11:50,4:58:12,3:20:42,,,8:36:48,710,17892,12042,254,111,31008,18,18,1,80,71,1,24,24,1,18,18,1,Finisher,5000
+Jc,Heslinga,Jc Heslinga,720,M50-54,Male,Pretoria,Gauteng,South Africa,ZA,0:12:07,5:13:47,3:04:10,,,8:37:20,727,18827,11050,255,180,31040,19,19,2,104,94,8,61,60,4,19,19,2,Finisher,4886
+Antoine,Bezault,Antoine Bezault,74,M25-29,Male,Annemasse,,France,FR,0:11:39,5:09:52,3:10:30,,,8:38:28,699,18592,11430,239,149,31108,20,20,1,67,60,8,46,45,2,20,20,1,Finisher,5000
+Oleksandr,Kovalchuk,Oleksandr Kovalchuk,280,M35-39,Male,Kyiv,,Ukraine,UA,0:12:39,5:13:35,3:05:11,,,8:39:02,759,18815,11111,287,170,31142,21,21,10,162,145,32,63,62,19,21,21,10,Finisher,4655
+Dylan,Jennings,Dylan Jennings,437,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:09:44,5:02:16,3:19:51,,,8:39:46,584,18136,11991,276,198,31186,22,22,5,14,12,4,26,26,6,22,22,5,Finisher,4687
+Sanele Seluleko,Shange,Sanele Seluleko Shange,111,M25-29,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:12:01,5:11:03,3:11:24,,,8:41:12,721,18663,11484,283,121,31272,23,23,2,94,84,10,50,49,3,23,23,2,Finisher,4967
+Kirsten,Schut,Kirsten Schut,940,F30-34,Female,Johannesburg,Gauteng,South Africa,ZA,0:11:45,5:03:37,3:17:47,,,8:41:17,705,18217,11867,295,193,31277,24,1,1,72,8,2,32,1,1,24,1,1,Finisher,5000
+Marc,Wenzel,Marc Wenzel,368,M35-39,Male,Sebnitz,,Germany,DE,0:12:49,4:51:03,3:31:03,,,8:41:22,769,17463,12663,270,116,31282,25,24,11,177,157,38,13,13,7,25,24,11,Finisher,4627
+Fernando,Aiello Cañas,Fernando Aiello Cañas,529,M45-49,Male,Madrid,MADRID,Spain,ES,0:13:52,5:19:28,3:04:36,,,8:43:53,832,19168,11076,184,172,31433,26,25,2,273,244,29,75,73,9,26,25,2,Finisher,4729
+Peter,Jönsson,Peter Jönsson,730,M50-54,Male,Stockholm,Stockholm,Sweden,SE,0:12:24,5:00:10,3:24:24,,,8:44:48,744,18010,12264,247,223,31488,27,26,3,130,117,13,27,27,2,27,26,3,Finisher,4797
+Paul,Barth,Paul Barth,227,M35-39,Male,Colditz,AS,Germany,DE,0:12:28,5:01:41,3:25:29,,,8:46:37,748,18101,12329,287,132,31597,28,27,12,139,126,25,31,31,12,28,27,12,Finisher,4564
+Anthony,Philippe,Anthony Philippe,759,M50-54,Male,Auxelles-Haut,,France,FR,0:12:58,5:07:27,3:18:03,,,8:46:48,778,18447,11883,263,237,31608,29,28,4,187,165,16,44,43,3,29,28,4,Finisher,4773
+Dominik-Paul,Thiel,Dominik-Paul Thiel,506,M40-44,Male,Hünstetten,,Germany,DE,0:11:32,5:01:03,3:28:12,,,8:47:27,692,18063,12492,194,207,31647,30,29,6,60,55,13,25,25,5,30,29,6,Finisher,4595
+Fabien,Grego,Fabien Grego,585,M45-49,Male,Mandelieu,,France,FR,0:11:04,5:19:05,3:11:04,,,8:47:38,664,19145,11464,262,123,31658,31,30,3,40,35,3,69,68,8,31,30,3,Finisher,4684
+Gareth,Dias,Gareth Dias,140,M30-34,Male,ALPHARETTA,GA,South Africa,ZA,0:09:26,4:46:32,3:45:21,,,8:48:00,566,17192,13521,292,109,31680,32,31,3,8,6,2,3,3,1,32,31,3,Finisher,4810
+Miguel,Netto,Miguel Netto,310,M35-39,Male,Cape Town,,South Africa,ZA,0:12:48,5:11:27,3:18:07,,,8:48:24,768,18687,11887,219,143,31704,33,32,13,174,154,37,52,51,17,33,32,13,Finisher,4542
+Maxim,Bayanov,Maxim Bayanov,387,M40-44,Male,Moscow,Moscow,Russia,RU,0:10:44,4:47:04,3:43:50,,,8:48:55,644,17224,13430,239,198,31735,34,33,7,32,30,7,4,4,2,34,33,7,Finisher,4577
+Carl-Johan,Leinoff,Carl-Johan Leinoff,292,M35-39,Male,Kilchberg,,Sweden,SE,0:12:28,5:08:06,3:23:01,,,8:50:06,748,18486,12181,263,128,31806,35,34,14,141,128,27,45,44,14,35,34,14,Finisher,4522
+Nick,Tinkler,Nick Tinkler,116,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,0:09:37,5:23:46,3:08:51,,,8:50:26,577,19426,11331,256,236,31826,36,35,3,13,11,1,77,75,4,36,35,3,Finisher,4856
+Rowan,Vorster,Rowan Vorster,522,M40-44,Male,Luzern,,South Africa,ZA,0:11:16,5:04:42,3:28:18,,,8:51:16,676,18282,12498,280,141,31876,37,36,8,47,42,10,34,33,10,37,36,8,Finisher,4549
+John,Middlewick,John Middlewick,465,M40-44,Male,plettenberg bay,Western Cape,South Africa,ZA,0:10:34,4:59:00,3:31:23,,,8:52:40,634,17940,12683,495,208,31960,38,37,9,30,28,6,29,29,8,38,37,9,Finisher,4532
+Juan De Dios,Arias Suárez,Juan De Dios Arias Suárez,221,M35-39,Male,Madrid,,Spain,ES,0:13:01,5:11:03,3:22:05,,,8:52:41,781,18663,12125,249,143,31961,39,38,15,196,173,40,54,53,18,39,38,15,Finisher,4491
+Ivan,Buzanov,Ivan Buzanov,548,M45-49,Male,Moscow,"RUS
+Moscow",Russia,RU,0:10:33,5:07:32,3:30:04,,,8:54:58,633,18452,12604,257,152,32098,40,39,4,28,26,2,37,36,2,40,39,4,Finisher,4596
+Hermann,Simon,Hermann Simon,184,M30-34,Male,Milhaud,,France,FR,0:12:34,5:07:04,3:28:42,,,8:55:37,754,18424,12522,291,146,32137,41,40,4,153,138,23,41,40,8,41,40,4,Finisher,4719
+Dwayne,Kemp,Dwayne Kemp,598,M45-49,Male,Port Elizabeth,,South Africa,ZA,0:12:06,5:12:28,3:23:20,,,8:55:55,726,18748,12200,284,197,32155,42,41,5,102,92,12,57,56,4,42,41,5,Finisher,4585
+David,Almeida,David Almeida,218,M35-39,Male,São Paulo,SP,Brazil,BR,0:12:17,5:18:17,3:16:07,,,8:56:03,737,19097,11767,312,250,32163,43,42,16,122,110,20,73,71,21,43,42,16,Finisher,4450
+Rafal,Borowiak,Rafal Borowiak,231,M35-39,Male,Slubice,,Poland,PL,0:12:41,5:20:01,3:19:25,,,8:57:21,761,19201,11965,175,140,32241,44,43,17,165,148,35,72,70,20,44,43,17,Finisher,4435
+Manfred,Lambrechts,Manfred Lambrechts,96,M25-29,Male,De Aar,Northern Cape,South Africa,ZA,0:10:07,4:55:46,3:46:06,,,8:59:23,607,17746,13566,262,182,32363,45,44,4,19,17,2,18,18,1,45,44,4,Finisher,4749
+Guilherme,Goncalves,Guilherme Goncalves,150,M30-34,Male,Dubai,DXB,Portugal,PT,0:12:24,5:08:28,3:33:00,,,9:00:12,744,18508,12780,199,180,32412,46,45,5,131,118,20,40,39,7,46,45,5,Finisher,4664
+Kelvin,Steyn,Kelvin Steyn,193,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:10:17,5:07:32,3:36:51,,,9:02:03,617,18452,13011,258,184,32523,47,46,6,23,21,6,35,34,6,47,46,6,Finisher,4642
+Kevin,Kleine-Bley,Kevin Kleine-Bley,161,M30-34,Male,Münster,Other,Germany,DE,0:15:03,5:05:31,3:32:20,,,9:02:17,903,18331,12740,250,313,32537,48,47,7,391,343,50,43,42,10,48,47,7,Finisher,4639
+Daniel,Bartelle,Daniel Bartelle,538,M45-49,Male,Porto Alegre,Rio Grande do Sul,Brazil,BR,0:11:58,5:25:27,3:19:16,,,9:02:29,718,19527,11956,193,155,32549,49,48,6,91,81,11,85,83,11,49,48,6,Finisher,4506
+Andre,Booyens,Andre Booyens,390,M40-44,Male,Pietermaritzburg,Eastern Cape,South Africa,ZA,0:10:49,5:24:48,3:20:35,,,9:02:53,649,19488,12035,241,160,32573,50,49,10,35,32,8,82,80,19,50,49,10,Finisher,4410
+Stefan ,Kramer ,Stefan Kramer,441,M40-44,Male,Hamburg,,Germany,DE,0:12:15,5:20:05,3:24:37,,,9:03:26,735,19205,12277,228,161,32606,51,50,11,119,107,24,74,72,17,51,50,11,Finisher,4403
+Heinrich,Lategan,Heinrich Lategan,287,M35-39,Male,Kimberley,Northern Cape,South Africa,ZA,0:11:46,4:51:13,3:56:31,,,9:06:17,706,17473,14191,255,151,32777,52,51,18,75,67,13,10,10,5,52,51,18,Finisher,4328
+Greg,Laxton,Greg Laxton,97,M25-29,Male,Johannesburg,,South Africa,ZA,0:12:58,5:22:23,3:23:07,,,9:06:30,778,19343,12187,319,162,32790,53,52,5,189,166,19,86,84,5,53,52,5,Finisher,4663
+Nicholas,Porteous,Nicholas Porteous,481,M40-44,Male,Johannaesburg,Gauteng,South Africa,ZA,0:11:52,5:15:35,3:32:53,,,9:07:44,712,18935,12773,265,179,32864,54,53,12,86,76,19,64,63,14,54,53,12,Finisher,4351
+Marek,Zapalski,Marek Zapalski,374,M35-39,Male,Kepa Kielpinska,,Poland,PL,0:12:28,5:03:27,3:44:49,,,9:08:09,748,18207,13489,276,168,32889,55,54,19,140,127,26,33,32,13,55,54,19,Finisher,4305
+Yurii,Khrystianovych,Yurii Khrystianovych,275,M35-39,Male,Affoltern Am Albis ,ZURICH,Ukraine,UA,0:12:46,5:25:56,3:23:48,,,9:09:36,766,19556,12228,252,175,32976,56,55,20,173,153,36,91,89,24,56,55,20,Finisher,4288
+Daniel,Kruger,Daniel Kruger,445,M40-44,Male,London,GB-ENG,South Africa,ZA,0:12:51,5:06:46,3:43:46,,,9:10:24,771,18406,13426,244,177,33024,57,56,13,179,159,33,39,38,12,57,56,13,Finisher,4319
+Máté,Menyhárd,Máté Menyhárd,169,M30-34,Male,Dunaharaszti,,Hungary,HU,0:10:03,5:12:45,3:43:13,,,9:12:41,603,18765,13393,250,150,33161,58,57,8,18,16,5,48,47,11,58,57,8,Finisher,4514
+Anselm,Groda,Anselm Groda,814,M55-59,Male,Scharmassing,BY,Germany,DE,0:12:33,5:05:30,3:46:45,,,9:13:11,753,18330,13605,271,232,33191,59,58,1,150,136,5,38,37,1,59,58,1,Finisher,5000
+Matthieu,Vanpeteghem,Matthieu Vanpeteghem,363,M35-39,Male,Gent,Vlaams Gewest,Belgium,BE,0:12:19,5:24:53,3:29:19,,,9:13:42,739,19493,12559,258,172,33222,60,59,21,126,114,22,89,87,23,60,59,21,Finisher,4239
+Anton,Novitskiy,Anton Novitskiy,175,M30-34,Male,Moscow,,Russia,RU,0:11:47,5:25:11,3:30:44,,,9:14:18,707,19511,12644,293,103,33258,61,60,9,77,69,15,90,88,17,61,60,9,Finisher,4495
+Nicholas,Grobbelaar,Nicholas Grobbelaar,88,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,0:12:00,5:27:22,3:30:31,,,9:17:34,720,19642,12631,243,217,33454,62,61,6,92,82,9,94,92,6,62,61,6,Finisher,4530
+Matt,Franzsen,Matt Franzsen,146,M30-34,Male,Johannesburg,,South Africa,ZA,0:11:31,5:10:19,3:51:20,,,9:18:03,691,18619,13880,173,121,33483,63,62,10,59,54,13,42,41,9,63,62,10,Finisher,4450
+Roman,Koehler,Roman Koehler,439,M40-44,Male,Mauerbach,Other,Austria,AT,0:11:57,5:16:36,3:41:13,,,9:18:09,717,18996,13273,208,295,33489,64,63,14,90,80,20,65,64,15,64,63,14,Finisher,4226
+Alexey,Sidorenko,Alexey Sidorenko,494,M40-44,Male,Almaty,Almaty,Kazakhstan,KZ,0:13:13,5:22:21,3:36:36,,,9:18:43,793,19341,12996,213,181,33523,65,64,15,214,191,39,80,78,18,65,64,15,Finisher,4220
+Nico,Burden,Nico Burden,79,M25-29,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:11:09,5:37:57,3:25:22,,,9:20:07,669,20277,12322,216,123,33607,66,65,7,43,38,3,131,126,8,66,65,7,Finisher,4500
+Hendrik,Abeln,Hendrik Abeln,527,M45-49,Male,Damme,,Germany,DE,0:11:39,5:13:32,3:47:35,,,9:20:26,699,18812,13655,255,205,33626,67,66,7,68,61,7,58,57,5,67,66,7,Finisher,4291
+Daniyar,Zhanabekov,Daniyar Zhanabekov,216,M30-34,Male,Almaty,Almaty,Kazakhstan,KZ,0:11:04,5:12:10,3:49:28,,,9:21:13,664,18730,13768,295,216,33673,68,67,11,41,36,8,53,52,12,68,67,11,Finisher,4412
+Mark,Goosen,Mark Goosen,152,M30-34,Male,Johannesburg,,South Africa,ZA,0:12:56,5:26:48,3:37:12,,,9:23:44,776,19608,13032,226,182,33824,69,68,12,184,163,25,95,93,18,69,68,12,Finisher,4382
+Brian,Johnson,Brian Johnson,158,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:09:28,5:15:07,3:52:18,,,9:24:35,568,18907,13938,241,221,33875,70,69,13,9,7,3,55,54,13,70,69,13,Finisher,4371
+Matthew,Thomson,Matthew Thomson,197,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:10:31,5:21:00,3:45:28,,,9:24:40,631,19260,13528,240,222,33880,71,70,14,26,24,7,71,69,16,71,70,14,Finisher,4370
+Shaun,Attenborough,Shaun Attenborough,682,M50-54,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:11,5:36:15,3:27:47,,,9:24:43,791,20175,12467,252,197,33883,72,71,5,210,187,17,135,129,12,72,71,5,Finisher,4318
+Thomas P.,Tzschentke,Thomas P. Tzschentke,853,M55-59,Male,Frankfurt,HESSEN,Germany,DE,0:17:46,5:27:34,3:30:37,,,9:25:40,1066,19654,12637,327,256,33940,73,72,2,575,471,38,121,116,7,73,72,2,Finisher,4850
+Lance,Heroldt,Lance Heroldt,718,M50-54,Male,Johannesburg,,South Africa,ZA,0:14:29,5:29:48,3:34:28,,,9:26:00,869,19788,12868,239,196,33960,74,73,6,340,302,29,114,109,7,74,73,6,Finisher,4302
+Michael,Frantzeskou,Michael Frantzeskou,145,M30-34,Male,Johannesburg,,South Africa,ZA,0:13:19,5:30:28,3:34:36,,,9:26:31,799,19828,12876,293,194,33991,75,74,15,227,203,33,116,111,19,75,74,15,Finisher,4348
+Stephen,Anderson,Stephen Anderson,533,M45-49,Male,Kingswood,SRY,United Kingdom,GB,0:11:32,5:33:59,3:34:52,,,9:27:49,692,20039,12892,279,167,34069,76,75,8,61,56,5,119,114,19,76,75,8,Finisher,4202
+Renaud,Cormier,Renaud Cormier,554,M45-49,Male,Paris,PARIS,France,FR,0:11:34,5:11:05,3:57:53,,,9:28:04,694,18665,14273,266,185,34084,77,76,9,62,57,6,49,48,3,77,76,9,Finisher,4199
+Kurt,Heunis,Kurt Heunis,590,M45-49,Male,,Gauteng,South Africa,ZA,0:11:52,5:14:09,3:54:30,,,9:28:13,712,18849,14070,246,216,34093,78,77,10,85,75,9,60,59,6,78,77,10,Finisher,4197
+Bradley,Birkholtz,Bradley Birkholtz,389,M40-44,Male,East London,Eastern Cape,South Africa,ZA,0:11:16,5:00:36,4:08:08,,,9:28:23,676,18036,14888,291,211,34103,79,78,16,49,44,11,28,28,7,79,78,16,Finisher,4104
+Eulali,Gouws,Eulali Gouws,950,F35-39,Female,Johannesburg,,South Africa,ZA,0:14:22,5:40:28,3:28:03,,,9:29:35,862,20428,12483,256,146,34175,80,2,1,327,37,10,151,7,4,80,2,1,Finisher,5000
+Dominique,Michel,Dominique Michel,835,M55-59,Male,CHATOU,,France,FR,0:12:58,5:19:17,3:51:15,,,9:30:10,778,19157,13875,249,151,34210,81,79,3,190,167,8,76,74,3,81,79,3,Finisher,4796
+Evan,Strauss,Evan Strauss,114,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,0:12:20,5:35:04,3:35:42,,,9:31:09,740,20104,12942,244,240,34269,82,80,8,127,115,14,123,118,7,82,80,8,Finisher,4367
+Wesley,Gilchrist,Wesley Gilchrist,149,M30-34,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:09:24,4:58:53,4:16:02,,,9:31:39,564,17933,15362,290,151,34299,83,81,16,7,5,1,23,23,5,83,81,16,Finisher,4287
+Toinette,Del Castello,Toinette Del Castello,976,F35-39,Female,Rotterdam,South Holland,South Africa,ZA,0:12:22,5:27:11,3:45:33,,,9:32:26,742,19631,13533,293,148,34346,84,3,2,128,13,2,98,4,3,84,3,2,Finisher,4965
+Dean,Joffe,Dean Joffe,92,M25-29,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:15,5:42:49,3:31:08,,,9:32:59,735,20569,12668,217,190,34379,85,82,9,117,105,13,149,143,10,85,82,9,Finisher,4345
+Siyabulela,Mpengesi,Siyabulela Mpengesi,307,M35-39,Male,Port Elizabeth,,South Africa,ZA,0:11:55,5:23:56,3:50:28,,,9:33:19,715,19436,13828,270,150,34399,86,83,22,87,77,14,83,81,22,86,83,22,Finisher,4003
+Mikhail,Kovalchuk,Mikhail Kovalchuk,281,M35-39,Male,Saint Petersburg,,Russia,RU,0:12:41,5:11:19,4:02:32,,,9:33:42,761,18679,14552,232,198,34422,87,84,23,163,146,33,51,50,16,87,84,23,Finisher,3999
+Christopher,Vosloo,Christopher Vosloo,856,M55-59,Male,gauteng,foreigner,South Africa,ZA,0:11:23,5:22:59,3:51:11,,,9:34:22,683,19379,13871,275,253,34462,88,85,4,53,48,2,79,77,4,88,85,4,Finisher,4745
+Francois,Chavet,Francois Chavet,396,M40-44,Male,Colomiers,,France,FR,0:13:12,5:15:00,3:57:36,,,9:35:13,792,18900,14256,272,294,34513,89,86,17,212,189,38,66,65,16,89,86,17,Finisher,4022
+Peter,Šimún,Peter Šimún,453,M40-44,Male,Bratislava,,Slovakia,SK,0:14:54,5:35:20,3:37:53,,,9:35:36,894,20120,13073,295,155,34536,90,87,18,383,337,66,138,132,29,90,87,18,Finisher,4017
+Walter,Hayes,Walter Hayes,431,M40-44,Male,Durbanville,,South Africa,ZA,0:13:38,5:23:22,3:51:52,,,9:36:59,818,19402,13912,213,275,34619,91,88,19,251,226,45,84,82,20,91,88,19,Finisher,4000
+Shannon,Lourens,Shannon Lourens,959,F35-39,Female,Cape Town,,South Africa,ZA,0:12:44,5:26:52,3:51:18,,,9:37:44,764,19612,13878,252,158,34664,92,4,3,169,18,5,96,3,2,92,4,3,Finisher,4902
+Paul Cyrille,Gillingham,Paul Cyrille Gillingham,581,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:14:13,5:28:49,3:45:01,,,9:37:50,853,19729,13501,323,263,34670,93,89,11,312,280,38,115,110,18,93,89,11,Finisher,4082
+Vernon,Rembold,Vernon Rembold,642,M45-49,Male,,Gauteng,South Africa,ZA,0:12:26,5:43:31,3:33:28,,,9:38:49,746,20611,12808,276,289,34729,94,90,12,135,122,17,156,148,24,94,90,12,Finisher,4070
+Jenny,Close,Jenny Close,983,F40-44,Female,Wellington,,United Kingdom,GB,0:14:36,5:35:02,3:43:17,,,9:40:05,876,20102,13397,237,194,34805,95,5,1,350,40,5,133,6,1,95,5,1,Finisher,5000
+Kelly,Scates,Kelly Scates,972,F35-39,Female,Madrid,MD,South Africa,ZA,0:14:20,5:41:24,3:38:35,,,9:41:44,860,20484,13115,241,204,34904,96,6,4,322,35,9,152,8,5,96,6,4,Finisher,4854
+Özgür,Aksaman,Özgür Aksaman,376,M40-44,Male,Istanbul,TURKIYE,Turkey,TR,0:07:28,5:45:37,3:42:55,,,9:42:21,448,20737,13375,243,138,34941,97,91,20,1,1,1,145,139,32,97,91,20,Finisher,3936
+Jon,Elosegui,Jon Elosegui,704,M50-54,Male,San Sebastian,,Spain,ES,0:11:41,5:27:34,3:31:31,,,9:43:00,701,19654,12691,287,1647,34980,98,92,7,70,63,5,97,94,6,98,92,7,Finisher,4098
+Christine,Harding,Christine Harding,915,F25-29,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:11:38,5:31:49,3:52:04,,,9:43:33,698,19909,13924,240,241,35013,99,7,1,66,7,1,111,5,1,99,7,1,Finisher,5000
+Ulrich,Haupt,Ulrich Haupt,716,M50-54,Male,Hünibach,BERN,Germany,DE,0:12:26,5:37:24,3:46:46,,,9:43:39,746,20244,13606,224,199,35019,100,93,8,138,125,14,134,128,11,100,93,8,Finisher,4091
+Tom,Lange,Tom Lange,163,M30-34,Male,Tangstedt,,Germany,DE,0:12:14,5:14:35,4:10:56,,,9:44:07,734,18875,15056,221,161,35047,101,94,17,114,102,18,62,61,15,101,94,17,Finisher,4137
+Gareth,Taylor,Gareth Taylor,347,M35-39,Male,Somerset West,,South Africa,ZA,0:13:52,5:27:18,3:54:49,,,9:44:59,832,19638,14089,263,277,35099,102,95,24,272,243,57,104,100,27,102,95,24,Finisher,3863
+Steven,Phillips,Steven Phillips,633,M45-49,Male,St Albans,HRT,United Kingdom,GB,0:14:22,5:44:58,3:38:38,,,9:45:26,862,20698,13118,246,203,35126,103,96,13,326,290,39,166,158,25,103,96,13,Finisher,3991
+Pierre,Heynemand,Pierre Heynemand,819,M55-59,Male,Notre-Dame-des-Prairies,QC,Canada,CA,0:11:25,5:24:50,4:01:56,,,9:47:03,685,19490,14516,296,236,35223,104,97,5,55,50,3,88,86,5,104,97,5,Finisher,4593
+Jaap,Koetsier,Jaap Koetsier,162,M30-34,Male,Velp,,Netherlands,NL,0:15:11,5:10:40,4:15:17,,,9:47:35,911,18640,15317,239,148,35255,105,98,18,397,347,51,59,58,14,105,98,18,Finisher,4095
+Melissa Fay,Abbey,Melissa Fay Abbey,909,F25-29,Female,South Africa,,South Africa,ZA,0:16:43,5:53:08,3:30:05,,,9:47:40,1003,21188,12605,272,193,35260,106,8,2,510,83,11,196,13,2,106,8,2,Finisher,4950
+Erik,Randrianarisoa,Erik Randrianarisoa,484,M40-44,Male,Waldbröl,,Germany,DE,0:15:55,5:34:42,3:49:30,,,9:47:49,955,20082,13770,278,184,35269,107,99,21,447,381,73,140,134,30,107,99,21,Finisher,3870
+Ross,Barnard,Ross Barnard,126,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:11:17,4:56:48,4:33:15,,,9:47:51,677,17808,16395,245,146,35271,108,100,19,50,45,12,21,21,4,108,100,19,Finisher,4092
+Vladimir,Startchevsky,Vladimir Startchevsky,671,M45-49,Male,Kyev,,Ukraine,UA,0:14:24,5:27:20,3:59:00,,,9:49:27,864,19640,14340,244,280,35367,109,101,14,331,293,40,107,103,17,109,101,14,Finisher,3942
+Guy,Crichton,Guy Crichton,406,M40-44,Male,Centurion,Gauteng,South Africa,ZA,0:10:57,5:31:54,3:56:26,,,9:49:40,657,19914,14186,306,318,35380,110,102,22,38,34,9,113,108,23,110,102,22,Finisher,3848
+Marcos,Rosa,Marcos Rosa,489,M40-44,Male,Centurion,Gauteng,South Africa,ZA,0:14:15,5:10:17,4:19:25,,,9:51:51,855,18617,15565,270,203,35511,111,103,23,316,283,57,56,55,13,111,103,23,Finisher,3822
+James,Crawford,James Crawford,244,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:11:17,5:29:19,4:00:38,,,9:52:19,677,19759,14438,350,314,35539,112,104,25,51,46,11,108,104,28,112,104,25,Finisher,3775
+Emmanuel,Faliu,Emmanuel Faliu,257,M35-39,Male,Staefa,,France,FR,0:13:12,5:08:50,4:22:27,,,9:53:03,792,18530,15747,295,219,35583,113,105,26,213,190,43,47,46,15,113,105,26,Finisher,3766
+Frank,Wechsel,Frank Wechsel,674,M45-49,Male,Hamburg,HAMBURG,Germany,DE,0:12:15,5:28:15,4:06:23,,,9:53:59,735,19695,14783,261,165,35639,114,106,15,118,106,14,102,98,14,114,106,15,Finisher,3888
+A-J,Spieringshoek,A-J Spieringshoek,340,M35-39,Male,Bellville,Western Cape,South Africa,ZA,0:17:00,5:43:23,3:42:42,,,9:54:32,1020,20603,13362,375,312,35672,115,107,27,524,438,92,176,164,40,115,107,27,Finisher,3749
+Andre,Visser,Andre Visser,786,M50-54,Male,pretoria,Gauteng,South Africa,ZA,0:12:14,5:33:57,4:00:28,,,9:54:33,734,20037,14428,286,187,35673,116,108,9,116,104,11,122,117,9,116,108,9,Finisher,3960
+Bradley,Simpson,Bradley Simpson,646,M45-49,Male,,Gauteng,South Africa,ZA,0:12:26,5:43:47,3:48:48,,,9:54:39,746,20627,13728,254,325,35679,117,109,16,134,121,16,155,147,23,117,109,16,Finisher,3880
+Wynand,Baard,Wynand Baard,382,M40-44,Male,Wellington,Western Cape,South Africa,ZA,0:12:42,5:26:50,4:04:32,,,9:54:43,762,19610,14672,306,334,35683,118,110,24,166,149,30,101,97,21,118,110,24,Finisher,3788
+Genelle,Van Der Riet,Genelle Van Der Riet,1058,F50-54,Female,Johannesburg,Gauteng,South Africa,ZA,0:12:57,5:57:58,3:37:48,,,9:54:59,777,21478,13068,233,143,35699,119,9,1,186,22,2,200,14,1,119,9,1,Finisher,5000
+Alexander,Shakhray,Alexander Shakhray,183,M30-34,Male,ST. PETERSBURG,,Russia,RU,0:13:32,5:34:04,4:00:34,,,9:55:50,812,20044,14434,265,194,35750,120,111,20,240,215,34,126,121,20,120,111,20,Finisher,3996
+Nico,Pretorius,Nico Pretorius,320,M35-39,Male,Benoni,Gauteng,South Africa,ZA,0:17:51,5:59:46,3:29:05,,,9:56:33,1071,21586,12545,366,225,35793,121,112,28,580,475,98,240,221,52,121,112,28,Finisher,3724
+Zakhele,Mkhize,Zakhele Mkhize,466,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:10:10,5:51:00,3:47:39,,,9:57:45,610,21060,13659,255,282,35865,122,113,25,20,18,5,171,160,38,122,113,25,Finisher,3751
+Tomas,Fiala,Tomas Fiala,569,M45-49,Male,Kyiv,Other,Czech Republic,CZ,0:13:22,5:34:10,4:01:28,,,9:57:48,802,20050,14488,294,234,35868,123,114,17,230,206,26,129,124,20,123,114,17,Finisher,3842
+jerome ,prigent,jerome prigent,845,M55-59,Male,CHAMPS SUR MARNE,,France,FR,0:12:04,5:17:43,4:20:10,,,9:58:25,724,19063,15610,266,242,35905,124,115,6,98,88,4,68,67,2,124,115,6,Finisher,4457
+Manfred,Wiehahn,Manfred Wiehahn,677,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:14:08,5:15:06,4:20:39,,,9:59:08,848,18906,15639,257,298,35948,125,116,18,303,271,36,67,66,7,125,116,18,Finisher,3826
+Bruce,Gie,Bruce Gie,580,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:11:25,5:24:39,4:16:04,,,9:59:42,685,19479,15364,286,168,35982,126,117,19,54,49,4,87,85,12,126,117,19,Finisher,3819
+Berber,Kramer,Berber Kramer,955,F35-39,Female,It Heidenskip,FRYSLAN,Netherlands,NL,0:12:58,5:18:54,4:21:25,,,9:59:53,778,19134,15685,212,184,35993,127,10,5,188,23,7,70,2,1,127,10,5,Finisher,4636
+Josh,Kent,Josh Kent,274,M35-39,Male,Nahoon Valley,,South Africa,ZA,0:12:19,5:44:21,3:54:44,,,10:00:22,739,20661,14084,248,291,36022,128,118,29,125,113,21,157,149,36,128,118,29,Finisher,3679
+Scheffer,Matthias,Scheffer Matthias,767,M50-54,Male,Zug,,Switzerland,CH,0:14:45,5:30:58,4:06:57,,,10:01:14,885,19858,14817,255,259,36074,129,119,10,370,328,33,118,113,8,129,119,10,Finisher,3880
+Frank,De Busscher ,Frank De Busscher,558,M45-49,Male,Somerset West,Western Cape,Belgium,BE,0:13:07,5:24:38,4:14:41,,,10:01:16,787,19478,15281,339,191,36076,130,120,20,202,179,24,93,91,13,130,120,20,Finisher,3801
+Markus,Engler,Markus Engler,566,M45-49,Male,Duebendorf,ZH,Switzerland,CH,0:14:55,5:36:17,4:03:28,,,10:01:50,895,20177,14608,241,189,36110,131,121,21,384,338,47,139,133,21,131,121,21,Finisher,3794
+Sunee,Pretorius,Sunee Pretorius,996,F40-44,Female,Cape Town,Western Cape,South Africa,ZA,0:10:48,5:50:50,3:52:43,,,10:01:54,648,21050,13963,265,188,36114,132,11,2,34,3,1,173,12,3,132,11,2,Finisher,4738
+Salim,Mohamed,Salim Mohamed,744,M50-54,Male,Esher,,United Kingdom,GB,0:14:27,5:53:36,3:46:33,,,10:03:00,867,21216,13593,295,209,36180,133,122,11,337,299,27,192,180,18,133,122,11,Finisher,3858
+Jonty,Low,Jonty Low,293,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:10:14,5:30:42,4:15:37,,,10:03:15,614,19842,15337,217,185,36195,134,123,30,22,20,6,100,96,26,134,123,30,Finisher,3644
+Egor,Timokhin,Egor Timokhin,198,M30-34,Male,Moscow,Other,Russia,RU,0:15:29,6:05:09,3:35:38,,,10:04:07,929,21909,12938,274,196,36247,135,124,21,417,361,54,245,226,33,135,124,21,Finisher,3897
+Richardt,Benade,Richardt Benade,127,M30-34,Male,Craighall Park,,South Africa,ZA,0:13:10,5:49:03,3:55:00,,,10:04:08,790,20943,14100,245,171,36248,136,125,22,208,185,30,174,162,23,136,125,22,Finisher,3897
+Robin,Matthews,Robin Matthews,461,M40-44,Male,Bellville,Western Cape,South Africa,ZA,0:13:36,5:33:16,4:08:46,,,10:05:25,816,19996,14926,301,285,36325,137,126,26,246,221,44,125,120,26,137,126,26,Finisher,3659
+Jonty,Marks,Jonty Marks,102,M25-29,Male,Johannesburg,Gauteng,South Africa,ZA,0:13:34,5:51:27,3:49:04,,,10:06:13,814,21087,13744,316,411,36373,138,127,10,244,219,24,186,174,11,138,127,10,Finisher,3947
+Gerhard,Maritz,Gerhard Maritz,300,M35-39,Male,Newlands,Western Cape,South Africa,ZA,0:12:10,5:37:18,4:08:32,,,10:06:55,730,20238,14912,294,240,36415,139,128,31,107,96,18,136,130,33,139,128,31,Finisher,3600
+Leon,Roode,Leon Roode,324,M35-39,Male,Tzaneen,Limpopo,South Africa,ZA,0:10:47,5:58:01,3:48:30,,,10:07:15,647,21481,13710,273,324,36435,140,129,32,33,31,10,193,181,42,140,129,32,Finisher,3596
+Ophelie,Saussus,Ophelie Saussus,908,F18-24,Female,Villers-sur-Lesse,,Belgium,BE,0:12:45,5:47:25,4:01:43,,,10:07:35,765,20845,14503,208,133,36455,141,12,1,172,20,1,167,9,1,141,12,1,Finisher,5000
+Flip,Cloete,Flip Cloete,398,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:19:15,5:28:19,4:09:36,,,10:07:40,1155,19699,14976,275,356,36460,142,130,27,620,505,97,127,122,27,142,130,27,Finisher,3632
+Marc,Siejo,Marc Siejo,769,M50-54,Male,Montberon,,France,FR,0:13:48,5:18:52,4:25:47,,,10:07:56,828,19132,15947,338,230,36476,143,131,12,269,240,20,78,76,5,143,131,12,Finisher,3799
+Mark,Dingle,Mark Dingle,252,M35-39,Male,Springs,Gauteng,South Africa,ZA,0:10:12,5:44:30,4:07:39,,,10:09:30,612,20670,14859,209,220,36570,144,132,33,21,19,5,146,140,35,144,132,33,Finisher,3569
+Hryhorii,Novak,Hryhorii Novak,473,M40-44,Male,"02055, Kyiv. av. Grigorenko 22/20, AP 584",Other,Ukraine,UA,0:13:47,5:58:30,3:48:38,,,10:09:46,827,21510,13718,346,185,36586,145,133,28,266,238,51,212,196,46,145,133,28,Finisher,3607
+Alexis,Christie,Alexis Christie,237,M35-39,Male,Boksburg,Gauteng,South Africa,ZA,0:14:18,5:53:08,3:51:52,,,10:10:46,858,21188,13912,370,318,36646,146,134,34,319,285,68,194,182,43,146,134,34,Finisher,3554
+Emmanuel,Fafournoux,Emmanuel Fafournoux,418,M40-44,Male,Barcelona,Other,France,FR,0:14:12,5:42:58,4:05:29,,,10:10:55,852,20578,14729,362,134,36655,147,135,29,309,277,56,165,157,36,147,135,29,Finisher,3593
+Hakim,Faisal,Hakim Faisal,268,M35-39,Male,Istanbul,Istanbul,Turkey,TR,0:11:36,5:40:30,4:10:33,,,10:11:19,696,20430,15033,303,218,36679,148,136,35,64,58,12,144,138,34,148,136,35,Finisher,3547
+Danie,Mare,Danie Mare,612,M45-49,Male,Flinders,AU-NSW,South Africa,ZA,0:13:09,5:28:02,4:22:19,,,10:11:39,789,19682,15739,256,233,36699,149,137,22,205,182,25,103,99,15,149,137,22,Finisher,3676
+Darren,Herbert,Darren Herbert,90,M25-29,Male,Pretoria,Gauteng,South Africa,ZA,0:11:26,5:38:54,4:11:23,,,10:11:43,686,20334,15083,315,285,36703,150,138,11,56,51,5,141,135,9,150,138,11,Finisher,3881
+Leonie,Zumhasch,Leonie Zumhasch,923,F25-29,Female,Münster,Other,Germany,DE,0:15:09,6:12:06,3:35:05,,,10:13:06,909,22326,12905,314,332,36786,151,13,3,394,49,8,272,22,4,151,13,3,Finisher,4645
+Yusuf,Arendse,Yusuf Arendse,220,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:01,5:34:01,4:21:41,,,10:15:13,721,20041,15701,259,192,36913,152,139,36,93,83,15,120,115,31,152,139,36,Finisher,3500
+Leo,Tomaselli,Leo Tomaselli,778,M50-54,Male,Hergiswil,,Switzerland,CH,0:16:27,5:31:37,4:18:55,,,10:15:46,987,19897,15535,252,275,36946,153,140,13,484,407,44,128,123,10,153,140,13,Finisher,3705
+Ruslan,Saulko,Ruslan Saulko,330,M35-39,Male,Pereyaslav,foreigner,Ukraine,UA,0:14:05,5:33:36,4:19:19,,,10:16:02,845,20016,15559,292,250,36962,154,141,37,296,265,62,130,125,32,154,141,37,Finisher,3491
+Pernille Linnerup,Kristensen,Pernille Linnerup Kristensen,956,F35-39,Female,Risskov,Other,Denmark,DK,0:15:47,5:58:06,3:51:16,,,10:17:26,947,21486,13876,293,444,37046,155,14,6,438,64,14,218,18,6,155,14,6,Finisher,4425
+Eline,Delasorte,Eline Delasorte,984,F40-44,Female,Sint-Amangsberg,,Belgium,BE,0:14:21,6:00:25,3:56:34,,,10:17:27,861,21625,14194,210,157,37047,156,15,3,325,36,4,213,17,5,156,15,3,Finisher,4551
+Pieter,Hoogenhout,Pieter Hoogenhout,269,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:16:32,5:49:58,4:01:43,,,10:17:46,992,20998,14503,311,261,37066,157,142,38,490,412,88,190,178,41,157,142,38,Finisher,3470
+Sergé,Witkowsky,Sergé Witkowsky,373,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:14:11,5:43:49,4:09:02,,,10:18:04,851,20629,14942,295,368,37084,158,143,39,306,274,64,162,154,39,158,143,39,Finisher,3466
+Claus,Breinlinger,Claus Breinlinger,798,M55-59,Male,Tübingen,,Germany,DE,0:13:29,5:29:04,4:28:45,,,10:18:12,809,19744,16125,257,158,37092,159,144,7,238,213,10,110,106,6,159,144,7,Finisher,4219
+Greg,Saharin,Greg Saharin,181,M30-34,Male,,Western Cape,South Africa,ZA,0:12:31,6:01:14,3:55:39,,,10:18:17,751,21674,14139,282,250,37097,160,145,23,147,133,21,215,198,26,160,145,23,Finisher,3727
+Andries Ignatius,Gous,Andries Ignatius Gous,153,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:08,6:15:23,3:41:05,,,10:18:30,788,22523,13265,289,245,37110,161,146,24,204,181,29,278,255,35,161,146,24,Finisher,3724
+Cornel,Smuts,Cornel Smuts,186,M30-34,Male,Strand,Western Cape,South Africa,ZA,0:13:06,6:04:04,3:53:42,,,10:18:39,786,21844,14022,240,228,37119,162,147,25,200,177,27,228,210,29,162,147,25,Finisher,3723
+Cobus,Fourie,Cobus Fourie,571,M45-49,Male,Somerset West,Western Cape,South Africa,ZA,0:12:59,5:50:04,4:03:57,,,10:18:47,779,21004,14637,251,457,37127,163,148,23,191,168,23,180,168,27,163,148,23,Finisher,3590
+Christiaan,Nel,Christiaan Nel,468,M40-44,Male,Bellville,Western Cape,South Africa,ZA,0:13:07,5:33:27,4:24:15,,,10:19:54,787,20007,15855,315,230,37194,164,149,30,201,178,36,124,119,25,164,149,30,Finisher,3485
+Warwick,Van Breda,Warwick Van Breda,510,M40-44,Male,Johannesburg,,South Africa,ZA,0:12:12,5:36:52,4:21:59,,,10:20:42,732,20212,15719,224,355,37242,165,150,31,111,100,22,132,127,28,165,150,31,Finisher,3476
+Paulo,De Barros,Paulo De Barros,223,M35-39,Male,London,United Kingdom,South Africa,ZA,0:17:19,5:55:40,3:57:33,,,10:20:59,1039,21340,14253,330,297,37259,166,151,40,549,452,96,216,199,47,166,151,40,Finisher,3431
+Pierre,Guillaume,Pierre Guillaume,815,M55-59,Male,CAVEIRAC,,France,FR,0:13:31,5:36:14,4:22:59,,,10:21:11,811,20174,15779,281,227,37271,167,152,8,239,214,11,137,131,8,167,152,8,Finisher,4184
+Jaco,Venter,Jaco Venter,519,M40-44,Male,Centurion,Gauteng,South Africa,ZA,0:11:47,5:54:55,4:06:04,,,10:21:38,707,21295,14764,245,288,37298,168,153,32,76,68,16,188,176,43,168,153,32,Finisher,3465
+Franscois,Coetzee,Franscois Coetzee,400,M40-44,Male,Paarl,,South Africa,ZA,0:15:15,6:01:32,3:56:05,,,10:23:04,915,21692,14165,286,326,37384,169,154,33,402,352,69,230,212,51,169,154,33,Finisher,3447
+Anton,Reyneke,Anton Reyneke,486,M40-44,Male,Benoni,Gauteng,South Africa,ZA,0:11:48,5:39:21,4:23:05,,,10:23:06,708,20361,15785,313,220,37386,170,155,34,78,70,17,143,137,31,170,155,34,Finisher,3447
+Alain,Perroteau,Alain Perroteau,887,M60-64,Male,Beauvoisin,,France,FR,0:11:46,5:26:50,4:33:14,,,10:24:26,706,19610,16394,263,494,37466,171,156,1,74,66,1,92,90,1,171,156,1,Finisher,5000
+Andrew,Moss,Andrew Moss,746,M50-54,Male,East London,Eastern Cape,South Africa,ZA,0:14:53,6:12:06,3:49:54,,,10:24:31,893,22326,13794,288,170,37471,172,157,14,382,336,34,265,245,22,172,157,14,Finisher,3600
+Sylvia,Van Tromp,Sylvia Van Tromp,1003,F40-44,Female,Stellenbosch,WESTERN CAPE,South Africa,ZA,0:10:53,5:49:03,4:16:35,,,10:24:35,653,20943,15395,243,241,37475,173,16,4,37,4,2,168,10,2,173,16,4,Finisher,4466
+Damien,Legendre,Damien Legendre,449,M40-44,Male,Castanet Tolosan,,France,FR,0:16:11,5:23:30,4:35:00,,,10:24:35,971,19410,16500,353,241,37475,174,158,35,467,394,77,105,101,22,174,158,35,Finisher,3429
+Wayne,Simmons,Wayne Simmons,338,M35-39,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:10:34,5:46:30,4:20:25,,,10:24:52,634,20790,15625,257,186,37492,175,159,41,29,27,8,160,152,38,175,159,41,Finisher,3385
+Nico,Els,Nico Els,143,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:14:40,6:01:45,3:55:41,,,10:24:58,880,21705,14141,390,383,37498,176,160,26,359,318,48,233,215,32,176,160,26,Finisher,3647
+Michael,Grant,Michael Grant,266,M35-39,Male,De Waterkant,Western Cape,South Africa,ZA,0:12:31,6:05:53,3:59:41,,,10:26:14,751,21953,14381,261,228,37574,177,161,42,148,134,30,231,213,49,177,161,42,Finisher,3368
+Kelly,Van Der Toorn,Kelly Van Der Toorn,1037,F45-49,Female,Cape Town,Western Cape,United Kingdom,GB,0:11:51,5:49:12,4:14:26,,,10:26:55,711,20952,15266,252,433,37615,178,17,1,82,10,3,170,11,1,178,17,1,Finisher,5000
+Rico,Bloemhoff,Rico Bloemhoff,75,M25-29,Male,"Mossel Bay, South Africa",,South Africa,ZA,0:12:02,5:58:20,4:05:59,,,10:27:29,722,21500,14759,447,221,37649,179,162,12,96,86,11,211,195,15,179,162,12,Finisher,3691
+Jacobus,Kruger,Jacobus Kruger,604,M45-49,Male,Paarl,,South Africa,ZA,0:12:53,5:28:38,4:38:15,,,10:27:38,773,19718,16695,248,224,37658,180,163,24,181,161,21,106,102,16,180,163,24,Finisher,3484
+Johan,Visser,Johan Visser,121,M25-29,Male,Upington,Northern Cape,South Africa,ZA,0:13:58,6:04:57,3:59:20,,,10:27:39,838,21897,14360,267,297,37659,181,164,13,286,256,26,239,220,18,181,164,13,Finisher,3689
+Ori,Lev,Ori Lev,451,M40-44,Male,Kidron,HAMERKAZ,Israel,IL,0:17:04,6:19:14,3:45:04,,,10:29:20,1024,22754,13504,281,196,37760,182,165,36,529,440,81,307,274,61,182,165,36,Finisher,3372
+Ben,Nortier,Ben Nortier,471,M40-44,Male,Cape Town,,South Africa,ZA,0:14:43,5:04:06,5:03:10,,,10:29:24,883,18246,18190,211,232,37764,183,166,37,368,326,62,36,35,11,183,166,37,Finisher,3371
+Danie,Marais,Danie Marais,738,M50-54,Male,Paarl,Western Cape,South Africa,ZA,0:15:40,5:46:59,4:14:42,,,10:30:47,940,20819,15282,297,509,37847,184,167,15,429,370,41,181,169,17,184,167,15,Finisher,3525
+Sanet,Griesel,Sanet Griesel,1050,F50-54,Female,Middelburg,,South Africa,ZA,0:16:59,6:10:18,3:55:40,,,10:31:13,1019,22218,14140,275,220,37873,185,18,2,522,86,5,266,21,2,185,18,2,Finisher,4565
+Robert,Etzinger,Robert Etzinger,416,M40-44,Male,Johannesburg,,South Africa,ZA,0:13:16,5:30:41,4:38:37,,,10:31:40,796,19841,16717,341,205,37900,186,168,38,221,197,40,117,112,24,186,168,38,Finisher,3344
+Wilhelm,Du Plessis,Wilhelm Du Plessis,413,M40-44,Male,Hartbeespoort Dam,North West,South Africa,ZA,0:12:38,6:06:49,4:03:54,,,10:32:22,758,22009,14634,274,267,37942,187,169,39,159,143,29,242,223,52,187,169,39,Finisher,3336
+Matthew,Willis,Matthew Willis,371,M35-39,Male,Benoni,Gauteng,South Africa,ZA,0:13:54,6:03:34,4:04:37,,,10:32:35,834,21814,14677,342,287,37955,188,170,43,274,245,58,237,219,51,188,170,43,Finisher,3292
+Adam,Barnard,Adam Barnard,385,M40-44,Male,Vienna,Virginia,South Africa,ZA,0:14:23,5:55:22,4:15:08,,,10:32:37,863,21322,15308,250,213,37957,189,171,40,329,291,58,195,183,44,189,171,40,Finisher,3333
+Marco,Barbieri,Marco Barbieri,384,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:12:54,5:44:24,4:25:45,,,10:33:36,774,20664,15945,252,382,38016,190,172,41,183,162,34,161,153,35,190,172,41,Finisher,3321
+Theo,Otto,Theo Otto,655,M45-49,Male,HARTENBOS,Western Cape,South Africa,ZA,0:13:59,6:07:44,4:04:28,,,10:33:57,839,22064,14668,242,225,38037,191,173,25,289,259,34,247,228,33,191,173,25,Finisher,3408
+Jacques,Van Zyl,Jacques Van Zyl,668,M45-49,Male,CALEDON,Western Cape,South Africa,ZA,0:15:16,5:17:29,4:48:23,,,10:34:01,916,19049,17303,408,365,38041,192,174,26,404,354,49,81,79,10,192,174,26,Finisher,3408
+Callum,Boyd,Callum Boyd,77,M25-29,Male,Wargrave,Other,South Africa,ZA,0:12:39,6:11:26,3:56:00,,,10:34:22,759,22286,14160,385,471,38062,193,175,14,161,144,15,261,241,22,193,175,14,Finisher,3609
+Elzabe,Van Den Heever,Elzabe Van Den Heever,974,F35-39,Female,Pretoria,Gauteng,South Africa,ZA,0:12:45,6:06:19,4:06:33,,,10:35:05,765,21979,14793,249,320,38105,194,19,7,171,19,6,238,19,7,194,19,7,Finisher,4214
+Jono,Stephen,Jono Stephen,341,M35-39,Male,East London,Eastern Cape,South Africa,ZA,0:13:43,6:00:39,4:12:17,,,10:35:44,823,21639,15137,290,255,38144,195,176,44,258,232,54,220,202,48,195,176,44,Finisher,3254
+Bradley John,Semple,Bradley John Semple,336,M35-39,Male,Chester,United Kingdom,South Africa,ZA,0:13:13,6:16:32,3:57:04,,,10:36:03,793,22592,14224,279,274,38163,196,177,45,216,192,44,283,260,57,196,177,45,Finisher,3250
+Robert,Pringle,Robert Pringle,482,M40-44,Male,Johannesburg ,Gauteng,South Africa,ZA,0:13:10,5:40:35,4:27:16,,,10:36:42,790,20435,16036,430,511,38202,197,178,42,207,184,37,158,150,34,197,178,42,Finisher,3284
+Andrew,Crowe,Andrew Crowe,407,M40-44,Male,Edenvale,Gauteng,South Africa,ZA,0:13:55,6:16:27,3:54:39,,,10:36:57,835,22587,14079,278,438,38217,198,179,43,281,251,53,285,262,58,198,179,43,Finisher,3281
+André,Koornhof,André Koornhof,602,M45-49,Male,Polokwane,Limpopo,South Africa,ZA,0:16:21,5:47:54,4:22:16,,,10:37:18,981,20874,15736,365,282,38238,199,180,27,477,401,59,187,175,28,199,180,27,Finisher,3368
+Mark,Alderman,Mark Alderman,680,M50-54,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:34,6:11:02,4:02:32,,,10:37:29,754,22262,14552,258,423,38249,200,181,16,152,137,15,252,232,21,200,181,16,Finisher,3445
+James,Stefanie,James Stefanie,500,M40-44,Male,Emsworth,HAM,United Kingdom,GB,0:12:43,5:48:52,4:27:51,,,10:37:33,763,20932,16071,247,241,38253,201,182,44,168,151,31,172,161,39,201,182,44,Finisher,3274
+Nicola,Freitas,Nicola Freitas,914,F25-29,Female,Stellenbosch,,South Africa,ZA,0:13:47,6:08:40,4:05:33,,,10:37:51,827,22120,14733,299,293,38271,202,20,4,262,27,4,250,20,3,202,20,4,Finisher,4348
+Wicus,Pretorius,Wicus Pretorius,108,M25-29,Male,Pretoria,Gauteng,South Africa,ZA,0:14:28,6:08:56,4:01:55,,,10:38:27,868,22136,14515,372,416,38307,203,183,15,339,301,29,257,237,21,203,183,15,Finisher,3560
+Max,Schiller,Max Schiller,332,M35-39,Male,Dunswart,Gauteng,South Africa,ZA,0:12:26,5:58:16,4:16:13,,,10:38:45,746,21496,15373,293,416,38325,204,184,46,137,124,24,204,189,44,204,184,46,Finisher,3218
+Andreas,Schmidt,Andreas Schmidt,768,M50-54,Male,New York,NY,Germany,DE,0:12:11,5:51:49,4:30:48,,,10:40:33,731,21109,16248,191,155,38433,205,185,17,108,97,9,179,167,16,205,185,17,Finisher,3408
+Craig,Atkinson,Craig Atkinson,379,M40-44,Male,Honeydew,,South Africa,ZA,0:15:15,5:57:18,4:17:58,,,10:41:16,915,21438,15478,430,215,38476,206,186,45,403,353,70,224,206,49,206,186,45,Finisher,3229
+Terry,Harvey,Terry Harvey,818,M55-59,Male,Plymouth,DEVON,United Kingdom,GB,0:13:58,5:55:59,4:21:26,,,10:41:59,838,21359,15686,276,360,38519,207,187,9,287,257,14,197,184,10,207,187,9,Finisher,3934
+Gavin,Meistre,Gavin Meistre,620,M45-49,Male,East London,Eastern Cape,South Africa,ZA,0:12:57,5:59:23,4:22:07,,,10:42:27,777,21563,15727,265,215,38547,208,188,28,185,164,22,210,194,30,208,188,28,Finisher,3306
+Farai,Dalu,Farai Dalu,247,M35-39,Male,Centurion,,Zimbabwe,ZW,0:13:55,6:04:34,4:16:31,,,10:42:27,835,21874,15391,268,179,38547,209,189,47,280,250,61,234,216,50,209,189,47,Finisher,3174
+Steven,Williams,Steven Williams,369,M35-39,Male,sandton,Gauteng,South Africa,ZA,0:13:15,5:23:22,4:52:50,,,10:42:46,795,19402,17570,470,329,38566,210,190,48,217,193,45,99,95,25,210,190,48,Finisher,3170
+Christian,Meissner,Christian Meissner,105,M25-29,Male,Johannesburg,Gauteng,South Africa,ZA,0:13:18,5:53:18,4:25:13,,,10:42:47,798,21198,15913,318,340,38567,211,191,16,222,198,22,191,179,12,211,191,16,Finisher,3508
+Derek,Bouwer,Derek Bouwer,689,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,0:11:55,6:05:13,4:12:03,,,10:42:50,715,21913,15123,443,376,38570,212,192,18,88,78,7,244,225,20,212,192,18,Finisher,3380
+Bruce,Morris,Bruce Morris,304,M35-39,Male,,,South Africa,ZA,0:12:31,5:41:16,4:38:07,,,10:43:38,751,20476,16687,439,266,38618,213,193,49,146,132,29,159,151,37,213,193,49,Finisher,3159
+Roger,Hooke,Roger Hooke,879,M60-64,Male,port elizabeth,Eastern Cape,South Africa,ZA,0:12:25,5:49:54,4:32:54,,,10:44:01,745,20994,16374,242,285,38641,214,194,2,132,119,3,175,163,3,214,194,2,Finisher,4765
+Wayne,Mac Farlane,Wayne Mac Farlane,833,M55-59,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:52,6:06:55,4:16:21,,,10:44:06,772,22015,15381,246,233,38646,215,195,10,180,160,7,241,222,14,215,195,10,Finisher,3909
+Gerhard,Botha,Gerhard Botha,130,M30-34,Male,Stellenbosch,,South Africa,ZA,0:13:01,5:48:38,4:33:30,,,10:44:10,781,20918,16410,311,231,38650,216,196,27,195,172,26,177,165,24,216,196,27,Finisher,3416
+Shine,Bar,Shine Bar,1008,F45-49,Female,Raanana,Center,Israel,IL,0:08:59,6:28:19,3:52:50,,,10:45:05,539,23299,13970,550,347,38705,217,21,2,6,2,1,332,37,6,217,21,2,Finisher,4782
+Hylton,Hastie,Hylton Hastie,715,M50-54,Male,Pretoria,,South Africa,ZA,0:13:27,5:35:18,4:36:44,,,10:45:06,807,20118,16604,575,602,38706,218,197,19,236,211,18,147,141,13,218,197,19,Finisher,3353
+Riaan,Du Toit,Riaan Du Toit,141,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:13:36,5:58:55,4:19:43,,,10:45:23,816,21535,15583,428,362,38723,219,198,28,247,222,35,222,204,28,219,198,28,Finisher,3402
+Bruce,Le Grange,Bruce Le Grange,98,M25-29,Male,Uitenhage,Eastern Cape,South Africa,ZA,0:16:54,5:54:16,4:27:57,,,10:47:21,1014,21256,16077,288,206,38841,220,199,17,517,433,34,207,192,14,220,199,17,Finisher,3453
+Chris,Fisher,Chris Fisher,286,M35-39,Male,Cape Town,,South Africa,ZA,0:15:11,5:55:44,4:24:23,,,10:47:46,911,21344,15863,305,442,38866,221,200,50,398,348,79,208,193,45,221,200,50,Finisher,3110
+Machelle,Buchel,Machelle Buchel,981,F40-44,Female,Kempton Park,,South Africa,ZA,0:16:28,5:53:39,4:28:37,,,10:47:52,988,21219,16117,313,235,38872,222,22,5,485,78,11,203,15,4,222,22,5,Finisher,4186
+Adele,De La Rey,Adele De La Rey,1016,F45-49,Female,Windhoek,Khomas,Namibia,NA,0:14:57,6:17:14,4:07:09,,,10:47:56,897,22634,14829,298,218,38876,223,23,3,385,47,8,293,27,3,223,23,3,Finisher,4747
+Peter,Russell,Peter Russell,766,M50-54,Male,St Albans,HERTFORDSHIRE,United Kingdom,GB,0:14:07,6:26:32,3:54:51,,,10:47:59,847,23192,14091,367,383,38879,224,201,20,301,269,23,335,298,30,224,201,20,Finisher,3319
+Daniel,Stapelberg,Daniel Stapelberg,190,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:16,5:54:20,4:33:44,,,10:48:24,736,21260,16424,277,208,38904,225,202,29,120,108,19,189,177,25,225,202,29,Finisher,3366
+Arno,Stander,Arno Stander,189,M30-34,Male,Bloemfontein,Free State,South Africa,ZA,0:14:07,6:01:43,4:17:18,,,10:48:57,847,21703,15438,418,530,38937,226,203,30,300,268,41,232,214,31,226,203,30,Finisher,3359
+Reinard,Griesel,Reinard Griesel,86,M25-29,Male,Rustenburg,North West,South Africa,ZA,0:12:42,5:58:17,4:26:09,,,10:51:34,762,21497,15969,485,381,39094,227,204,18,167,150,16,219,201,16,227,204,18,Finisher,3402
+Izak ,Wessels,Izak Wessels,523,M40-44,Male,Roodepoort,Gauteng,South Africa,ZA,0:15:45,6:02:39,4:17:16,,,10:51:52,945,21759,15436,428,545,39112,228,205,46,435,373,72,246,227,53,228,205,46,Finisher,3102
+Richard,Payne,Richard Payne,838,M55-59,Male,Johannesburg,Gauteng,South Africa,ZA,0:20:04,5:41:34,4:38:10,,,10:53:12,1204,20494,16690,514,290,39192,229,206,11,631,512,43,185,173,9,229,206,11,Finisher,3799
+Alexandra,Vano,Alexandra Vano,942,F30-34,Female,trilport,,France,FR,0:12:39,6:32:40,4:01:00,,,10:53:49,759,23560,14460,269,181,39229,230,24,2,160,17,4,348,41,5,230,24,2,Finisher,3409
+Evangelos,Karnavos,Evangelos Karnavos,273,M35-39,Male,JOHANNESBURG,Gauteng,South Africa,ZA,0:17:19,6:42:22,3:39:29,,,10:54:58,1039,24142,13169,564,383,39298,231,207,51,548,451,95,447,389,75,231,207,51,Finisher,3023
+Phil,Saussus,Phil Saussus,889,M60-64,Male,villers sur lesse,,Belgium,BE,0:20:38,6:04:57,4:21:01,,,10:55:26,1238,21897,15661,269,261,39326,232,208,3,641,519,15,259,239,4,232,208,3,Finisher,4628
+Marek,Aasna,Marek Aasna,375,M40-44,Male,Harku vald,,Estonia,EE,0:14:37,5:45:19,4:44:07,,,10:55:36,877,20719,17047,268,426,39336,233,209,47,352,312,60,169,159,37,233,209,47,Finisher,3057
+Carika,Burton,Carika Burton,982,F40-44,Female,PORT ELIZABETH,Eastern Cape,South Africa,ZA,0:14:45,6:22:43,4:06:15,,,10:55:52,885,22963,14775,452,278,39352,234,25,6,371,43,6,323,36,7,234,25,6,Finisher,4090
+Zako,Kruger,Zako Kruger,284,M35-39,Male,Port Elizabeth,,South Africa,ZA,0:13:47,6:14:10,4:20:28,,,10:56:14,827,22450,15628,282,186,39374,235,210,52,265,237,55,274,251,56,235,210,52,Finisher,3008
+Ilze,Deysel,Ilze Deysel,975,F35-39,Female,Kimberley,Northern Cape,South Africa,ZA,0:16:00,6:30:31,3:56:14,,,10:56:25,960,23431,14174,250,571,39385,236,26,8,454,68,16,353,43,11,236,26,8,Finisher,3958
+Alan,Henry,Alan Henry,717,M50-54,Male,Umbogintwini ,KwaZulu-Natal,South Africa,ZA,0:11:38,5:58:28,4:37:04,,,10:58:05,698,21508,16624,296,359,39485,237,211,21,65,59,4,201,187,19,237,211,21,Finisher,3197
+Vicky Rene ,Yiangou,Vicky Rene Yiangou,978,F35-39,Female,POLOKWANE,Limpopo,South Africa,ZA,0:20:13,6:26:53,4:00:48,,,10:58:34,1213,23213,14448,358,283,39514,238,27,9,635,122,21,371,46,12,238,27,9,Finisher,3932
+Nicolle,Weir,Nicolle Weir,1042,F45-49,Female,Pretoria,,South Africa,ZA,0:14:50,6:20:37,4:16:12,,,10:59:31,890,22837,15372,253,219,39571,239,28,4,378,45,7,302,32,4,239,28,4,Finisher,4608
+Hendrik,Van Der Hoven,Hendrik Van Der Hoven,355,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:13:51,6:30:40,4:03:46,,,10:59:35,831,23440,14626,372,306,39575,240,212,53,271,242,56,354,311,65,240,212,53,Finisher,2968
+Willie,Swart,Willie Swart,504,M40-44,Male,Pretoria,Gauteng,South Africa,ZA,0:18:10,6:10:51,4:21:48,,,10:59:42,1090,22251,15708,308,224,39582,241,213,48,588,481,88,282,259,56,241,213,48,Finisher,3008
+Jaco,Schoeman,Jaco Schoeman,643,M45-49,Male,Lyttleton,Gauteng,South Africa,ZA,0:15:44,5:44:13,4:47:27,,,11:00:24,944,20653,17247,432,348,39624,242,214,29,434,372,54,178,166,26,242,214,29,Finisher,3091
+Kurt,Geneapril,Kurt Geneapril,579,M45-49,Male,,Gauteng,South Africa,ZA,0:14:24,5:53:14,4:38:31,,,11:00:30,864,21194,16711,425,436,39630,243,215,30,332,294,41,199,186,29,243,215,30,Finisher,3090
+Ruan,Terblanche,Ruan Terblanche,115,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,0:13:19,5:57:00,4:43:21,,,11:03:29,799,21420,17001,256,333,39809,244,216,19,226,202,23,198,185,13,244,216,19,Finisher,3259
+Imran,Abbas,Imran Abbas,525,M45-49,Male,Johannesburg,,South Africa,ZA,0:26:04,6:02:02,4:24:14,,,11:03:31,1564,21722,15854,359,313,39811,245,217,31,679,553,96,280,257,41,245,217,31,Finisher,3054
+Anton,Neethling,Anton Neethling,625,M45-49,Male,Durbanville,,South Africa,ZA,0:14:42,6:25:37,4:11:06,,,11:03:49,882,23137,15066,396,348,39829,246,218,32,365,323,45,336,299,48,246,218,32,Finisher,3050
+Albert,Verster,Albert Verster,670,M45-49,Male,Pretoria,Gauteng,South Africa,ZA,0:14:46,6:12:38,4:26:45,,,11:04:19,886,22358,16005,271,339,39859,247,219,33,373,330,46,267,246,37,247,219,33,Finisher,3044
+Mark,Coetzee,Mark Coetzee,401,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:13:46,6:01:33,4:37:36,,,11:04:29,826,21693,16656,264,430,39869,248,220,49,261,235,50,223,205,48,248,220,49,Finisher,2950
+Ahmed,Sali,Ahmed Sali,182,M30-34,Male,Germiston,Gauteng,South Africa,ZA,0:16:14,6:13:41,4:25:29,,,11:04:45,974,22421,15929,250,311,39885,249,221,31,470,396,60,281,258,36,249,221,31,Finisher,3169
+Chantal,Nosworthy,Chantal Nosworthy,1032,F45-49,Female,"George, Western Cape",,South Africa,ZA,0:15:30,6:28:34,4:11:37,,,11:05:22,930,23314,15097,291,291,39922,250,29,5,418,57,11,346,40,7,250,29,5,Finisher,4538
+Karel,Swanepoel,Karel Swanepoel,777,M50-54,Male,Pretoria,Gauteng,South Africa,ZA,0:16:33,6:28:19,4:05:59,,,11:05:41,993,23299,14759,475,415,39941,251,222,22,491,413,45,370,325,34,251,222,22,Finisher,3106
+Linda,Potts,Linda Potts,1066,F55-59,Female,3610,,South Africa,ZA,0:14:22,6:16:46,4:25:41,,,11:06:23,862,22606,15941,247,327,39983,252,30,1,328,38,2,287,24,1,252,30,1,Finisher,5000
+Relita,Maree,Relita Maree,961,F35-39,Female,,AUK,South Africa,ZA,0:15:59,6:15:47,4:24:14,,,11:06:40,959,22547,15854,361,280,40000,253,31,10,452,67,15,297,28,8,253,31,10,Finisher,3835
+Craig,Anders,Craig Anders,532,M45-49,Male,Cape Town,,South Africa,ZA,0:17:09,6:06:08,4:32:15,,,11:07:00,1029,21968,16335,338,349,40020,254,223,34,537,443,67,254,234,36,254,223,34,Finisher,3012
+Ekaterina,Malafeeva,Ekaterina Malafeeva,935,F30-34,Female,St Petersburg,,Russia,RU,0:12:53,6:34:01,4:08:14,,,11:07:51,773,23641,14894,297,465,40071,255,32,3,182,21,5,363,45,6,255,32,3,Finisher,3241
+Damien,Kuhn,Damien Kuhn,95,M25-29,Male,Nelspruit,Mpumalanga,South Africa,ZA,0:23:45,6:16:24,4:20:06,,,11:08:27,1425,22584,15606,292,201,40107,256,224,20,673,547,36,325,289,26,256,224,20,Finisher,3200
+Tanit,Kruger,Tanit Kruger,957,F35-39,Female,Johannesburg,Gauteng,South Africa,ZA,0:17:01,6:16:20,4:24:08,,,11:08:33,1021,22580,15848,365,299,40113,257,33,11,525,87,18,300,30,9,257,33,11,Finisher,3812
+John Gordon,Jansen Van Nieuwenhuizen,John Gordon Jansen Van Nieuwenhuizen,820,M55-59,Male,Vanderbijlpark,,South Africa,ZA,0:12:37,5:58:18,4:46:24,,,11:09:01,757,21498,17184,293,410,40141,258,225,12,157,141,6,206,191,12,258,225,12,Finisher,3610
+Broes,Gebruers,Broes Gebruers,262,M35-39,Male,Hove,,Belgium,BE,0:12:02,5:31:21,5:12:34,,,11:09:29,722,19881,18754,253,559,40169,259,226,54,95,85,16,112,107,30,259,226,54,Finisher,2849
+Gavin,Lewis-Walker,Gavin Lewis-Walker,452,M40-44,Male,Benoni,Gauteng,South Africa,ZA,0:15:57,5:46:36,4:55:28,,,11:09:36,957,20796,17728,420,274,40176,260,227,50,450,384,74,184,172,42,260,227,50,Finisher,2889
+Anton,Du Plessis,Anton Du Plessis,807,M55-59,Male,Hermanus,Western Cape,South Africa,ZA,0:13:54,5:57:06,4:48:42,,,11:11:15,834,21426,17322,287,406,40275,261,228,13,278,249,13,205,190,11,261,228,13,Finisher,3583
+Vusi,Ndwandwe,Vusi Ndwandwe,467,M40-44,Male,Sandton,GAUTENG,South Africa,ZA,0:19:16,6:35:27,4:05:12,,,11:11:29,1156,23727,14712,402,291,40289,262,229,51,621,506,98,413,361,75,262,229,51,Finisher,2866
+Reyners,Barnard,Reyners Barnard,125,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:11:45,5:39:42,5:12:46,,,11:11:42,705,20382,18766,273,176,40302,263,230,32,73,65,14,142,136,21,263,230,32,Finisher,3086
+Daniel,Stachurski,Daniel Stachurski,649,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:17:34,6:06:06,4:32:49,,,11:11:47,1054,21966,16369,511,407,40307,264,231,35,562,461,72,269,248,38,264,231,35,Finisher,2954
+Jaco,Mouton,Jaco Mouton,306,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:13:26,6:34:15,4:11:18,,,11:13:07,806,23655,15078,447,399,40387,265,232,55,234,209,50,379,332,67,265,232,55,Finisher,2806
+Herman,Mare,Herman Mare,460,M40-44,Male,Gauteng,ZA,South Africa,ZA,0:13:45,6:35:37,4:16:29,,,11:13:19,825,23737,15389,280,167,40399,266,233,52,260,234,49,374,327,67,266,233,52,Finisher,2844
+Jacques,Maritz,Jacques Maritz,101,M25-29,Male,Krugersdorp,Western Cape,South Africa,ZA,0:12:05,6:12:40,4:26:22,,,11:13:52,725,22360,15982,699,666,40432,267,234,21,101,91,12,289,265,23,267,234,21,Finisher,3135
+Tommy,Hanekom,Tommy Hanekom,874,M60-64,Male,Hartbeespoort,North West,South Africa,ZA,0:17:14,6:10:30,4:33:43,,,11:14:19,1034,22230,16423,270,502,40459,268,235,4,543,448,10,270,249,5,268,235,4,Finisher,4401
+John,Kudsee,John Kudsee,446,M40-44,Male,JHB,Gauteng,South Africa,ZA,0:13:40,6:03:18,4:48:17,,,11:15:06,820,21798,17297,239,351,40506,269,236,53,252,227,46,227,209,50,269,236,53,Finisher,2823
+Zuhdi,Petersen,Zuhdi Petersen,314,M35-39,Male,kariega,Eastern Cape,South Africa,ZA,0:15:37,6:08:54,4:41:18,,,11:15:14,937,22134,16878,327,238,40514,270,237,56,427,368,81,258,238,54,270,237,56,Finisher,2780
+Marchie,Malan,Marchie Malan,609,M45-49,Male,Durbanville,,South Africa,ZA,0:16:29,6:02:10,4:43:55,,,11:15:56,989,21730,17035,262,541,40556,271,238,36,486,408,61,235,217,31,271,238,36,Finisher,2905
+Andre Benjamin,Lombard,Andre Benjamin Lombard,831,M55-59,Male,Stellenbosch,Western Cape,South Africa,ZA,0:14:46,6:02:54,4:41:42,,,11:16:02,886,21774,16902,686,314,40562,272,239,14,372,329,24,255,235,16,272,239,14,Finisher,3525
+Theo,Lombard,Theo Lombard,100,M25-29,Male,Stellenbosch,Western Cape,South Africa,ZA,0:11:30,6:08:05,4:40:25,,,11:16:11,690,22085,16825,587,383,40571,273,240,22,58,53,7,256,236,20,273,240,22,Finisher,3107
+Marjolein,Meiring,Marjolein Meiring,916,F25-29,Female,Cape Town,,South Africa,ZA,0:12:13,6:22:28,4:31:09,,,11:17:29,733,22948,16269,289,409,40649,274,34,5,112,12,2,301,31,6,274,34,5,Finisher,3872
+Rhiannon,Farrell,Rhiannon Farrell,1018,F45-49,Female,Somerset East,Eastern Cape,South Africa,ZA,0:13:13,6:23:19,4:33:02,,,11:18:10,793,22999,16382,298,218,40690,275,35,6,215,24,5,308,34,5,275,35,6,Finisher,4385
+Riaan,Acker,Riaan Acker,528,M45-49,Male,87 piet joubert street,Gauteng,South Africa,ZA,0:16:20,6:15:34,4:30:27,,,11:18:45,980,22534,16227,532,453,40725,276,241,37,475,400,58,304,272,42,276,241,37,Finisher,2871
+Andrew,Smuts,Andrew Smuts,772,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:16:56,6:18:47,4:29:55,,,11:19:49,1016,22727,16195,557,294,40789,277,242,23,519,435,48,324,288,27,277,242,23,Finisher,2937
+Ruanne ,Schoeman,Ruanne Schoeman,334,M35-39,Male,Kempton Park,Gauteng,South Africa,ZA,0:14:41,6:21:11,4:22:10,,,11:19:52,881,22871,15730,713,597,40792,278,243,57,361,320,73,341,302,62,278,243,57,Finisher,2725
+Henk,Moen,Henk Moen,743,M50-54,Male,Pretoria,Gauteng,South Africa,ZA,0:18:17,6:36:56,4:11:30,,,11:20:07,1097,23816,15090,433,371,40807,279,244,24,592,484,54,417,365,39,279,244,24,Finisher,2933
+Gavin,Biggs,Gavin Biggs,687,M50-54,Male,,Eastern Cape,South Africa,ZA,0:12:12,6:15:45,4:43:37,,,11:20:32,732,22545,17017,248,290,40832,280,245,25,110,99,10,268,247,23,280,245,25,Finisher,2928
+Uta,Knape,Uta Knape,1025,F45-49,Female,Ludwigshafen,,Germany,DE,0:15:21,5:57:04,4:57:59,,,11:20:55,921,21424,17879,244,387,40855,281,36,7,409,52,9,209,16,2,281,36,7,Finisher,4352
+Zahir,Mayet,Zahir Mayet,104,M25-29,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:49,6:15:58,4:34:43,,,11:21:14,769,22558,16483,536,528,40874,282,246,23,176,156,17,296,269,24,282,246,23,Finisher,3046
+Andre,Pretorius,Andre Pretorius,68,M18-24,Male,Midrand,Gauteng,South Africa,ZA,0:14:41,6:14:14,4:45:27,,,11:22:00,881,22454,17127,294,164,40920,283,247,2,360,319,7,279,256,2,283,247,2,Finisher,3017
+Rudi,Craps,Rudi Craps,243,M35-39,Male,NAVAN,Meath,South Africa,ZA,0:14:49,6:24:36,4:34:25,,,11:22:32,889,23076,16465,244,279,40952,284,248,58,375,332,75,317,282,60,284,248,58,Finisher,2693
+Armin,Juppenlatz,Armin Juppenlatz,821,M55-59,Male,Markgroeningen,,Germany,DE,0:17:07,6:06:12,4:48:45,,,11:23:04,1027,21972,17325,294,366,40984,285,249,15,533,442,33,253,233,15,285,249,15,Finisher,3441
+Veronica,Warmington,Veronica Warmington,1062,F50-54,Female,Edenvale,Gauteng,South Africa,ZA,0:18:59,6:35:45,4:18:22,,,11:23:37,1139,23745,15502,276,355,41017,286,37,3,614,113,9,401,51,4,286,37,3,Finisher,3936
+Rudolf,Van Rensburg,Rudolf Van Rensburg,515,M40-44,Male,Alberton,,South Africa,ZA,0:18:42,6:19:40,4:34:42,,,11:23:49,1122,22780,16482,397,248,41029,287,250,54,604,496,94,322,287,64,287,250,54,Finisher,2718
+Phil,Ray,Phil Ray,180,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:15:01,6:29:16,4:26:19,,,11:24:23,901,23356,15979,418,408,41063,288,251,33,390,342,49,359,316,43,288,251,33,Finisher,2934
+Jaco,Botha,Jaco Botha,392,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:13:43,6:19:16,4:40:34,,,11:24:46,823,22756,16834,277,396,41086,289,252,55,259,233,48,295,268,60,289,252,55,Finisher,2707
+Jacobus Erich,Muller,Jacobus Erich Muller,623,M45-49,Male,Sumerset West,Western Cape,South Africa,ZA,0:18:25,6:22:40,4:36:01,,,11:25:36,1105,22960,16561,250,260,41136,290,253,38,598,490,76,326,290,45,290,253,38,Finisher,2789
+Sophie,Cookson,Sophie Cookson,930,F30-34,Female,London,,United Kingdom,GB,0:16:13,6:17:32,4:44:31,,,11:26:05,973,22652,17071,256,213,41165,291,38,4,469,74,14,298,29,3,291,38,4,Finisher,3022
+Cathy,Curtain,Cathy Curtain,1047,F50-54,Female,uitenhage,Eastern Cape,South Africa,ZA,0:13:24,6:24:55,4:40:52,,,11:26:08,804,23095,16852,246,171,41168,292,39,4,231,25,3,311,35,3,292,39,4,Finisher,3906
+Gerald,Van Blerk,Gerald Van Blerk,200,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:15:52,6:22:49,4:23:33,,,11:26:36,952,22969,15813,602,860,41196,293,254,34,441,377,55,344,305,42,293,254,34,Finisher,2907
+Christopher,Serjak,Christopher Serjak,644,M45-49,Male,Pretoria,Gauteng,United States,US,0:12:36,5:41:43,5:23:12,,,11:26:47,756,20503,19392,263,293,41207,294,255,39,155,139,19,150,144,22,294,255,39,Finisher,2774
+Robert,Timmis,Robert Timmis,265,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:14:43,6:29:07,4:31:15,,,11:26:49,883,23347,16275,300,406,41209,295,256,59,367,325,74,345,306,64,295,256,59,Finisher,2641
+Sophie	,Needham	,Sophie Needham,965,F35-39,Female,EMSWORTH,,United Kingdom,GB,0:17:59,6:27:55,4:30:43,,,11:27:06,1079,23275,16243,263,366,41226,296,40,12,583,107,20,350,42,10,296,40,12,Finisher,3589
+Shaun,Smee,Shaun Smee,495,M40-44,Male,Centurion,,South Africa,ZA,0:13:21,6:36:10,4:28:35,,,11:27:50,801,23770,16115,274,310,41270,297,257,56,229,205,42,375,328,68,297,257,56,Finisher,2670
+Steve,Attwell,Steve Attwell,380,M40-44,Male,Cape Town,,South Africa,ZA,0:12:16,5:50:17,5:11:01,,,11:28:17,736,21017,18661,341,543,41297,298,258,57,121,109,25,183,171,41,298,258,57,Finisher,2665
+Christo,Labuschagne,Christo Labuschagne,929,F30-34,Male,Brackenfell,,South Africa,ZA,0:15:45,6:27:40,4:33:57,,,11:28:50,945,23260,16437,240,447,41330,299,41,5,436,63,11,339,38,4,299,41,5,Finisher,2989
+Ian,Blignaut,Ian Blignaut,228,M35-39,Male,Pretoria,,South Africa,ZA,0:13:40,6:03:54,4:56:24,,,11:29:26,820,21834,17784,410,518,41366,300,259,60,253,228,53,243,224,53,300,259,60,Finisher,2610
+Jessica,Zeelie,Jessica Zeelie,911,F25-29,Female,Gqeberha,Eastern Cape,South Africa,ZA,0:15:16,6:50:14,4:15:25,,,11:29:42,916,24614,15325,336,191,41382,301,42,6,406,51,9,455,61,8,301,42,6,Finisher,3726
+Loftus,Neethling,Loftus Neethling,624,M45-49,Male,Wellington,Western Cape,South Africa,ZA,0:13:55,6:20:35,4:36:40,,,11:29:43,835,22835,16600,569,544,41383,302,260,40,283,253,32,318,283,44,302,260,40,Finisher,2739
+Kiryl,Pratapopau,Kiryl Pratapopau,179,M30-34,Male,COLTS NECK,NJ,Belarus,BY,0:12:03,6:24:46,4:43:28,,,11:30:16,723,23086,17008,240,360,41416,303,261,35,97,87,16,305,273,37,303,261,35,Finisher,2863
+Andries,Krause,Andries Krause,442,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:18:23,6:33:27,4:06:33,,,11:30:18,1103,23607,14793,952,962,41418,304,262,58,596,488,90,439,383,80,304,262,58,Finisher,2641
+Rodney,Westgate,Rodney Westgate,675,M45-49,Male,East London,Eastern Cape,South Africa,ZA,0:11:51,6:08:07,4:53:36,,,11:30:48,711,22087,17616,397,637,41448,305,263,41,81,72,8,249,230,35,305,263,41,Finisher,2726
+Brendan,Van Zyl,Brendan Van Zyl,212,M30-34,Male,Centurion,,South Africa,ZA,0:13:08,6:13:47,4:56:09,,,11:31:38,788,22427,17769,292,223,41498,306,264,36,203,180,28,264,244,34,306,264,36,Finisher,2847
+Elmi,Nieuwoudt,Elmi Nieuwoudt,938,F30-34,Female,Sydney,NSW,South Africa,ZA,0:17:09,6:30:20,4:29:33,,,11:32:53,1029,23420,16173,518,433,41573,307,43,6,536,94,15,382,48,7,307,43,6,Finisher,2940
+Gerrit,Van Dyk,Gerrit Van Dyk,119,M25-29,Male,Vermont,Western Cape,South Africa,ZA,0:13:10,6:35:20,4:32:57,,,11:33:15,790,23720,16377,401,307,41595,308,265,24,206,183,20,380,333,31,308,265,24,Finisher,2902
+Grant,Coley,Grant Coley,403,M40-44,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:14:07,6:24:09,4:44:02,,,11:33:18,847,23049,17042,246,414,41598,309,266,59,298,266,54,310,276,62,309,266,59,Finisher,2605
+Shaun,Bekker,Shaun Bekker,388,M40-44,Male,Middelburg,Mpumalanga,South Africa,ZA,0:18:02,6:33:15,4:25:57,,,11:34:18,1082,23595,15957,563,462,41658,310,267,60,586,479,87,407,356,74,310,267,60,Finisher,2593
+Kobie,Pruis,Kobie Pruis,762,M50-54,Male,Lydenburg,Mpumalanga,South Africa,ZA,0:13:33,5:45:11,5:27:53,,,11:34:39,813,20711,19673,261,220,41679,311,268,26,241,216,19,164,156,15,311,268,26,Finisher,2759
+Rowan,Marais,Rowan Marais,611,M45-49,Male,Somerset West,Western Cape,South Africa,ZA,0:13:55,6:13:42,4:55:58,,,11:34:47,835,22422,17758,322,350,41687,312,269,42,282,252,31,275,252,39,312,269,42,Finisher,2678
+Amy,Botha,Amy Botha,289,M35-39,Female,PE,Eastern Cape,South Africa,ZA,0:12:37,5:30:18,5:42:05,,,11:34:59,757,19818,20525,225,374,41699,313,270,61,158,142,31,109,105,29,313,270,61,Finisher,2543
+Rinaldi,Botes,Rinaldi Botes,1010,F45-49,Female,Centurion,Gauteng,South Africa,ZA,0:17:03,6:51:33,4:13:05,,,11:35:24,1023,24693,15185,468,356,41724,314,44,8,528,89,18,474,68,11,314,44,8,Finisher,4178
+Jan-Hendrik ,Van Der Wateren ,Jan-Hendrik Van Der Wateren,118,M25-29,Male,Wellington,Western Cape,South Africa,ZA,0:15:49,6:43:43,4:26:48,,,11:37:03,949,24223,16008,402,241,41823,315,271,25,439,375,33,432,376,33,315,271,25,Finisher,2857
+Buckley,Usher,Buckley Usher,657,M45-49,Male,Edenvale,Gauteng,South Africa,ZA,0:14:38,6:13:54,4:57:06,,,11:37:23,878,22434,17826,286,418,41843,316,272,43,354,314,44,277,254,40,316,272,43,Finisher,2647
+Gareth,Chapple,Gareth Chapple,236,M35-39,Male,Plettenberg Bay,Western Cape,South Africa,ZA,0:13:02,6:48:13,4:27:34,,,11:37:27,782,24493,16054,325,194,41847,317,273,62,197,174,41,433,377,74,317,273,62,Finisher,2514
+Johan,Erwee,Johan Erwee,810,M55-59,Male,Pretoria,Gauteng,South Africa,ZA,0:15:57,6:10:14,4:57:57,,,11:37:30,957,22214,17877,253,549,41850,318,274,16,449,383,27,260,240,17,318,274,16,Finisher,3268
+Kaylin ,Verreyne,Kaylin Verreyne,943,F30-34,Female,Benoni,Gauteng,South Africa,ZA,0:12:10,6:51:13,4:25:51,,,11:37:39,730,24673,15951,260,246,41859,319,45,7,105,11,3,440,57,9,319,45,7,Finisher,2883
+Carmen,Burger,Carmen Burger,1012,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:17:37,6:28:41,4:37:49,,,11:37:47,1057,23321,16669,445,376,41867,320,46,9,565,104,25,372,47,8,320,46,9,Finisher,4149
+Jürgen,Rademacher,Jürgen Rademacher,847,M55-59,Male,Kassel,HE,Germany,DE,0:14:27,6:14:48,4:56:41,,,11:38:22,867,22488,17801,395,351,41902,321,275,17,336,298,20,288,264,18,321,275,17,Finisher,3257
+Nelson,Paré,Nelson Paré,630,M45-49,Male,St jean sur richelieu,QC,Canada,CA,0:15:45,6:02:56,5:11:43,,,11:39:09,945,21776,18703,261,263,41949,322,276,44,437,374,55,236,218,32,322,276,44,Finisher,2626
+Cindy,Williamson,Cindy Williamson,1005,F40-44,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:16:04,6:44:09,4:29:46,,,11:39:14,964,24249,16186,304,251,41954,323,47,7,459,70,9,429,56,10,323,47,7,Finisher,3570
+Shane,Andrews,Shane Andrews,377,M40-44,Male,Sandton,Gauteng,South Africa,ZA,0:08:44,6:05:14,5:15:06,,,11:39:35,524,21914,18906,284,348,41975,324,277,61,3,2,2,217,200,47,324,277,61,Finisher,2529
+Vitor,Ferreira,Vitor Ferreira,144,M30-34,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:14:32,6:23:15,4:42:26,,,11:40:03,872,22995,16946,575,615,42003,325,278,37,347,308,45,338,301,40,325,278,37,Finisher,2746
+Stephanus,Craggs,Stephanus Craggs,242,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:12:25,6:38:46,4:36:27,,,11:40:29,745,23926,16587,373,397,42029,326,279,63,133,120,23,392,344,70,326,279,63,Finisher,2477
+Manri,Lourens,Manri Lourens,958,F35-39,Female,Marble Hall,Limpopo,South Africa,ZA,0:14:01,6:54:04,4:21:58,,,11:41:09,841,24844,15718,344,321,42069,327,48,13,293,31,8,464,63,14,327,48,13,Finisher,3421
+Grant,Kapp,Grant Kapp,160,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:14:33,6:45:56,4:28:26,,,11:41:22,873,24356,16106,492,255,42082,328,280,38,348,309,46,444,386,52,328,280,38,Finisher,2730
+Asa,Ntuku,Asa Ntuku,313,M35-39,Male,East London,Eastern Cape,South Africa,ZA,0:16:22,6:54:34,4:15:26,,,11:41:47,982,24874,15326,418,507,42107,329,281,64,478,402,85,480,412,81,329,281,64,Finisher,2462
+Stefan,Stadlberger,Stefan Stadlberger,498,M40-44,Male,Forstern,foreigner,Germany,DE,0:17:34,6:26:19,4:41:08,,,11:41:50,1054,23179,16868,596,414,42110,330,282,62,560,460,83,373,326,66,330,282,62,Finisher,2502
+Peter,Nasser,Peter Nasser,308,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,0:16:43,6:14:17,4:56:28,,,11:41:56,1003,22457,17788,482,386,42116,331,283,65,511,428,90,299,270,58,331,283,65,Finisher,2460
+Kyndal,White,Kyndal White,122,M25-29,Male,Germiston,Gauteng,South Africa,ZA,0:13:37,6:23:52,4:53:02,,,11:42:00,817,23032,17582,253,436,42120,332,284,26,250,225,25,309,275,25,332,284,26,Finisher,2797
+Jonathan,De Vrye,Jonathan De Vrye,139,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:11,6:48:57,4:16:57,,,11:42:18,791,24537,15417,613,779,42138,333,285,39,211,188,32,461,399,54,333,285,39,Finisher,2719
+Devon,Marsh,Devon Marsh,103,M25-29,Male,Pretoria,Gauteng,South Africa,ZA,0:14:42,6:31:03,4:43:35,,,11:42:22,882,23463,17015,279,505,42142,334,286,27,362,321,31,351,309,28,334,286,27,Finisher,2793
+Ewerd,Ras,Ewerd Ras,485,M40-44,Male,Centurion,GAUTENG,South Africa,ZA,0:12:29,5:58:23,5:23:36,,,11:42:25,749,21503,19416,251,225,42145,335,287,63,143,130,27,202,188,45,335,287,63,Finisher,2495
+Vanessa,De Souza,Vanessa De Souza,1017,F45-49,Female,Johannesburg,Gauteng,South Africa,ZA,0:17:07,6:39:41,4:36:10,,,11:43:13,1027,23981,16570,253,361,42193,336,49,10,532,91,20,411,52,9,336,49,10,Finisher,4084
+Matthias,Fortmann,Matthias Fortmann,260,M35-39,Male,Lohne,,Germany,DE,0:15:16,6:38:48,4:41:35,,,11:43:14,916,23928,16895,290,165,42194,337,288,66,405,355,80,398,349,71,337,288,66,Finisher,2444
+Ian,Patterson,Ian Patterson,837,M55-59,Male,Uitenhage,Eastern Cape,South Africa,ZA,0:14:18,6:24:29,4:49:27,,,11:43:17,858,23069,17367,470,433,42197,338,289,18,321,287,17,334,297,21,338,289,18,Finisher,3198
+Morne,Laurie,Morne Laurie,606,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:14:26,7:05:08,4:08:32,,,11:43:36,866,25508,14912,298,632,42216,339,290,45,335,297,42,510,435,74,339,290,45,Finisher,2573
+James,Cammell,James Cammell,800,M55-59,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:14:20,6:22:11,4:52:32,,,11:43:44,860,22931,17552,539,343,42224,340,291,19,323,288,18,329,293,20,340,291,19,Finisher,3193
+John,COX,John COX,698,M50-54,Male,Hammond,LA,United States,US,0:17:23,6:30:05,4:44:42,,,11:44:17,1043,23405,17082,264,463,42257,341,292,27,552,454,49,364,319,32,341,292,27,Finisher,2643
+Carla ,Herbst,Carla Herbst,988,F40-44,Female,Johannesburg,Gauteng,South Africa,ZA,0:17:29,6:11:52,5:03:59,,,11:44:48,1049,22312,18239,431,258,42288,342,50,8,554,99,15,290,25,6,342,50,8,Finisher,3503
+Peter ,Clark ,Peter Clark,397,M40-44,Male,Worcester,WORCESTERSHIRE,South Africa,ZA,0:12:14,5:51:38,5:31:44,,,11:45:29,734,21098,19904,256,337,42329,343,293,64,113,101,23,182,170,40,343,293,64,Finisher,2458
+Bradley,Beckerleg,Bradley Beckerleg,539,M45-49,Male,Centurion,Gauteng,South Africa,ZA,0:16:14,6:31:44,4:47:11,,,11:45:35,974,23504,17231,265,360,42335,344,294,46,471,397,57,366,321,55,344,294,46,Finisher,2549
+Christiaan,Pretorius,Christiaan Pretorius,319,M35-39,Male,wellington,Western Cape,South Africa,ZA,0:15:54,6:21:06,4:54:50,,,11:45:58,954,22866,17690,456,392,42358,345,295,67,446,380,82,320,285,61,345,295,67,Finisher,2411
+Roelof,Joubert,Roelof Joubert,596,M45-49,Male,Paarl,Western Cape,South Africa,ZA,0:13:56,6:30:00,4:49:31,,,11:46:26,836,23400,17371,530,249,42386,346,296,47,285,255,33,369,324,56,346,296,47,Finisher,2539
+Chanelle Nandi,Birch,Chanelle Nandi Birch,928,F30-34,Female,BENONI,Gauteng,South Africa,ZA,0:14:53,6:38:50,4:44:53,,,11:47:14,893,23930,17093,266,252,42434,347,51,8,380,46,7,397,49,8,347,51,8,Finisher,2768
+Billy,Mans,Billy Mans,457,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:17:49,6:30:12,4:42:20,,,11:47:47,1069,23412,16940,586,459,42467,348,297,65,579,474,86,394,346,71,348,297,65,Finisher,2431
+Willem Johannes,Van Den Berg,Willem Johannes Van Den Berg,353,M35-39,Male,Kimberley,Northern Cape,South Africa,ZA,0:18:22,6:05:46,5:08:26,,,11:49:04,1102,21946,18506,423,567,42544,349,298,68,593,485,100,262,242,55,349,298,68,Finisher,2374
+Charles,Naude,Charles Naude,884,M60-64,Male,Vanderbijlpark,Gauteng,South Africa,ZA,0:16:34,5:35:26,5:48:24,,,11:49:55,994,20126,20904,381,190,42595,350,299,5,496,418,7,148,142,2,350,299,5,Finisher,3974
+Brendan ,Daly,Brendan Daly,408,M40-44,Male,Fish Hoek,Western Cape,South Africa,ZA,0:15:14,6:44:14,4:34:02,,,11:50:13,914,24254,16442,632,370,42613,351,300,66,400,350,68,449,390,82,351,300,66,Finisher,2402
+Zunaid,Reciet,Zunaid Reciet,641,M45-49,Male,JOHANNESBURG,Gauteng,South Africa,ZA,0:21:14,6:00:36,5:20:28,,,11:50:23,1274,21636,19228,255,229,42623,352,301,48,648,525,88,248,229,34,352,301,48,Finisher,2491
+Sannelize,Janse Van Rensburg,Sannelize Janse Van Rensburg,954,F35-39,Female,Cape Town,Western Cape,South Africa,ZA,0:15:44,6:46:16,4:30:58,,,11:50:24,944,24376,16258,539,507,42624,353,52,14,433,62,13,454,60,13,353,52,14,Finisher,3310
+Carel,Fourie,Carel Fourie,420,M40-44,Male,WINDHOEK,Other,South Africa,ZA,0:14:38,6:48:17,4:31:37,,,11:50:28,878,24497,16297,556,399,42628,354,302,67,353,313,61,460,398,84,354,302,67,Finisher,2399
+Lara,Flood,Lara Flood,913,F25-29,Female,Sandton,Gauteng,South Africa,ZA,0:13:41,6:14:29,5:14:34,,,11:50:56,821,22469,18874,262,231,42656,355,53,7,255,26,3,273,23,5,355,53,7,Finisher,3471
+Theo,Stryp,Theo Stryp,503,M40-44,Male,Groblersdal,Limpopo,South Africa,ZA,0:20:57,6:04:50,5:04:55,,,11:51:20,1257,21890,18295,685,553,42680,356,303,68,645,523,100,294,267,59,356,303,68,Finisher,2388
+Katherine,Hardy,Katherine Hardy,951,F35-39,Female,Somerset West,Western Cape,South Africa,ZA,0:12:31,7:16:51,4:06:24,,,11:51:30,751,26211,14784,442,502,42690,357,54,15,145,14,3,541,83,17,357,54,15,Finisher,3297
+Coenraad,Steyn,Coenraad Steyn,113,M25-29,Male,Menlo Park,Gauteng,South Africa,ZA,0:14:12,6:41:05,4:39:34,,,11:51:31,852,24065,16774,449,551,42691,358,304,28,310,278,28,420,367,32,358,304,28,Finisher,2683
+Kyle,Piears,Kyle Piears,177,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:14:17,6:21:22,4:58:41,,,11:51:46,857,22882,17921,543,503,42706,359,305,40,318,284,43,321,286,39,359,305,40,Finisher,2605
+Christiaan,Kleinhans,Christiaan Kleinhans,93,M25-29,Male,East London,Eastern Cape,South Africa,ZA,0:11:12,6:11:52,5:18:39,,,11:52:00,672,22312,19119,274,342,42720,360,306,29,45,40,4,251,231,19,360,306,29,Finisher,2677
+Thomas,Barlow,Thomas Barlow,684,M50-54,Male,DURBANVILLE,Western Cape,South Africa,ZA,0:17:30,5:39:03,5:48:51,,,11:52:39,1050,20343,20931,229,205,42759,361,307,28,557,457,50,154,146,14,361,307,28,Finisher,2543
+Derick,Richards,Derick Richards,488,M40-44,Male,Thabazimbi,Limpopo,South Africa,ZA,0:18:57,6:07:36,5:12:13,,,11:52:54,1137,22056,18733,476,372,42774,362,308,69,613,501,95,284,261,57,362,308,69,Finisher,2369
+Ross,Campbell,Ross Campbell,133,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:11,6:42:08,4:46:07,,,11:53:30,731,24128,17167,461,323,42810,363,309,41,109,98,17,415,363,46,363,309,41,Finisher,2584
+Pavlo,Melnichenko,Pavlo Melnichenko,301,M35-39,Male,Kyiv,,Ukraine,UA,0:13:34,7:09:28,4:12:34,,,11:53:56,814,25768,15154,524,576,42836,364,310,69,243,218,52,527,448,88,364,310,69,Finisher,2316
+"Wayne ""curbie""",Venter,"Wayne ""curbie"" Venter",785,M50-54,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:15:03,6:21:20,5:05:12,,,11:54:01,903,22880,18312,382,364,42841,365,311,29,392,344,35,312,277,26,365,311,29,Finisher,2526
+Elizma,Geldenhuys,Elizma Geldenhuys,1064,F55-59,Female,GANSBAAI,Western Cape,South Africa,ZA,0:14:06,6:29:23,5:01:36,,,11:54:15,846,23363,18096,244,307,42855,366,55,2,297,32,1,340,39,2,366,55,2,Finisher,4425
+Lee,Cothill,Lee Cothill,136,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,0:11:06,6:27:14,5:06:15,,,11:54:19,666,23234,18375,293,292,42859,367,312,42,42,37,9,315,280,38,367,312,42,Finisher,2575
+Jarryd,Irvine,Jarryd Irvine,91,M25-29,Male,Muscat,Muscat Governate,South Africa,ZA,0:11:26,6:26:38,4:52:11,,,11:54:29,686,23198,17531,802,652,42869,368,313,30,57,52,6,360,317,30,368,313,30,Finisher,2647
+Ros,Netto,Ros Netto,936,F30-34,Female,,,South Africa,ZA,0:15:21,,,,,11:55:13,921,0,0,367,0,42913,369,56,9,411,53,9,99999,99999,99999,369,56,9,Finisher,2672
+Andre,Pepler,Andre Pepler,839,M55-59,Male,Durbanville,Western Cape,South Africa,ZA,0:15:51,6:50:32,4:35:19,,,11:55:26,951,24632,16519,273,552,42926,370,314,20,440,376,26,453,394,31,370,314,20,Finisher,3053
+Connor,Emeny,Connor Emeny,85,M25-29,Male,Toronto ,ON,Canada,CA,0:13:15,6:33:43,4:58:29,,,11:55:34,795,23623,17909,249,358,42934,371,315,31,219,195,21,357,314,29,371,315,31,Finisher,2634
+Russel,Smit,Russel Smit,771,M50-54,Male,Randburg,Gauteng,South Africa,ZA,0:14:15,6:30:23,5:00:20,,,11:57:07,855,23423,18020,467,262,43027,372,316,30,315,282,24,367,322,33,372,316,30,Finisher,2489
+Michael,Danckwerts,Michael Danckwerts,137,M30-34,Male,,Gauteng,South Africa,ZA,0:13:10,6:48:48,4:38:45,,,11:57:19,790,24528,16725,586,412,43039,373,317,43,209,186,31,459,397,53,373,317,43,Finisher,2539
+Coert,Vorster,Coert Vorster,366,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:13:54,6:21:08,5:08:18,,,11:57:39,834,22868,18498,313,547,43059,374,318,70,275,246,59,303,271,59,374,318,70,Finisher,2271
+A.J.,Lane,A.J. Lane,882,M60-64,Male,Andover,hampshire,United Kingdom,GB,0:17:33,6:16:05,5:06:00,,,11:57:56,1053,22565,18360,581,517,43076,375,319,6,559,459,11,316,281,6,375,319,6,Finisher,3878
+Douglas,MacTaggart,Douglas MacTaggart,736,M50-54,Male,Hassocks,WEST SUSSEX,United Kingdom,GB,0:20:58,6:05:13,5:21:48,,,11:58:28,1258,21913,19308,371,257,43108,376,320,31,646,524,56,271,250,24,376,320,31,Finisher,2473
+Gavin,Thorne,Gavin Thorne,508,M40-44,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:22,6:15:55,5:21:58,,,11:59:13,742,22555,19318,300,238,43153,377,321,70,129,116,26,276,253,55,377,321,70,Finisher,2294
+Thomas,Meincke,Thomas Meincke,619,M45-49,Male,Copenhagen,,Denmark,DK,0:23:04,6:15:06,5:08:51,,,11:59:18,1384,22506,18531,428,308,43158,378,322,49,667,541,93,327,291,46,378,322,49,Finisher,2384
+Pat,Thomson,Pat Thomson,1081,F60-64,Female,PORT ELIZABETH,Eastern Cape,South Africa,ZA,0:15:33,6:30:07,5:02:47,,,11:59:26,933,23407,18167,353,306,43166,379,57,1,421,58,2,361,44,1,379,57,1,Finisher,5000
+Steven,Cooper,Steven Cooper,405,M40-44,Male,Bloemfontein,Free State,South Africa,ZA,0:16:13,6:50:50,4:37:57,,,12:00:19,973,24650,16677,467,453,43219,380,323,71,468,395,78,469,403,86,380,323,71,Finisher,2280
+Dylan,Van Graan,Dylan Van Graan,205,M30-34,Male,Sandton,Gauteng,South Africa,ZA,0:13:36,5:44:55,5:53:29,,,12:00:32,816,20695,21209,273,238,43232,381,324,44,248,223,36,163,155,22,381,324,44,Finisher,2500
+Lucas,Herrick,Lucas Herrick,155,M30-34,Male,Randburg,Gauteng,South Africa,ZA,0:15:52,5:57:54,5:30:34,,,12:00:41,952,21474,19834,464,517,43241,382,325,45,442,378,56,229,211,30,382,325,45,Finisher,2498
+Ruan,Venter,Ruan Venter,214,M30-34,Male,Kempton Park,Gauteng,South Africa,ZA,0:19:03,6:36:20,4:48:58,,,12:00:57,1143,23780,17338,615,382,43257,383,326,46,616,502,71,431,375,50,383,326,46,Finisher,2495
+Christiaan,Strydom,Christiaan Strydom,651,M45-49,Male,,,South Africa,ZA,0:20:22,6:22:44,5:03:22,,,12:02:00,1222,22964,18202,410,522,43320,384,327,50,639,517,85,349,308,50,384,327,50,Finisher,2352
+Wayne,Galant,Wayne Galant,577,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:20:20,6:47:05,4:41:51,,,12:02:23,1220,24425,16911,542,245,43343,385,328,51,638,516,84,475,407,66,385,328,51,Finisher,2347
+adam,mahomed,adam mahomed,737,M50-54,Male,johannesburg,Gauteng,South Africa,ZA,0:22:15,6:32:20,4:43:20,,,12:02:59,1335,23540,17000,943,561,43379,386,329,32,662,536,59,451,392,43,386,329,32,Finisher,2419
+Polina,Gryaznova,Polina Gryaznova,932,F30-34,Female,Saint-Petersburg,,Russia,RU,0:16:09,6:46:43,4:49:52,,,12:03:34,969,24403,17392,292,359,43414,387,58,10,463,71,12,441,58,10,387,58,10,Finisher,2572
+Terence,Osborn,Terence Osborn,629,M45-49,Male,Kokkedal,,South Africa,ZA,0:13:43,6:31:56,4:58:24,,,12:03:40,823,23516,17904,624,553,43420,388,330,52,257,231,28,381,334,58,388,330,52,Finisher,2332
+Karin,Cilliers,Karin Cilliers,1013,F45-49,Female,Nelspruit,Mpumalanga,South Africa,ZA,0:15:41,6:57:19,4:37:10,,,12:03:42,941,25039,16630,419,393,43422,389,59,11,431,60,12,490,69,12,389,59,11,Finisher,3838
+Maxim,Petrakov,Maxim Petrakov,479,M40-44,Male,Saint-Petersburg,North West,Russia,RU,0:17:29,6:38:59,4:51:43,,,12:03:42,1049,23939,17503,348,583,43422,390,331,72,556,456,82,416,364,77,390,331,72,Finisher,2240
+Shaun,De Jager,Shaun De Jager,411,M40-44,Male,Langebaan,Western Cape,South Africa,ZA,0:24:34,6:33:01,4:53:06,,,12:04:30,1474,23581,17586,584,245,43470,391,332,73,675,549,106,437,381,79,391,332,73,Finisher,2230
+Lesley,Loock,Lesley Loock,1065,F55-59,Female,Kenton on sea,Eastern Cape,South Africa,ZA,0:14:39,6:42:56,4:57:20,,,12:05:15,879,24176,17840,338,282,43515,392,60,3,356,41,3,423,55,3,392,60,3,Finisher,4293
+Matt,Gibbs,Matt Gibbs,264,M35-39,Male,"JOHANNESBURG, GAUTENG",Gauteng,South Africa,ZA,0:13:19,6:00:03,5:41:42,,,12:06:01,799,21603,20502,301,357,43561,393,333,71,225,201,48,214,197,46,393,333,71,Finisher,2171
+Carlos,Asenjo Lobo,Carlos Asenjo Lobo,534,M45-49,Male,28055,Free State,Spain,ES,0:17:14,6:44:41,4:51:05,,,12:06:05,1034,24281,17465,324,461,43565,394,334,53,544,449,70,438,382,63,394,334,53,Finisher,2303
+Dorian,Treboux,Dorian Treboux,82,M25-29,Male,ALLINGES,,France,FR,0:12:49,6:01:51,5:38:03,,,12:06:09,769,21711,20283,369,437,43569,395,335,32,178,158,18,226,208,17,395,335,32,Finisher,2507
+Philip,Pla,Philip Pla,842,M55-59,Male,Cape Town,Western Cape,South Africa,ZA,0:14:09,6:39:00,4:59:58,,,12:06:27,849,23940,17998,446,354,43587,396,336,21,305,273,16,406,355,25,396,336,21,Finisher,2920
+Cor,Van Heyningen,Cor Van Heyningen,664,M45-49,Male,TZANEEN,Limpopo,South Africa,ZA,0:13:29,6:25:14,5:13:35,,,12:06:30,809,23114,18815,459,392,43590,397,337,54,237,212,27,331,295,47,397,337,54,Finisher,2298
+Jacquie,Grassie,Jacquie Grassie,1049,F50-54,Female,Pretoria,Gauteng,South Africa,ZA,0:17:14,7:17:50,4:23:05,,,12:07:21,1034,26270,15785,278,273,43641,398,61,5,545,96,7,553,86,7,398,61,5,Finisher,3411
+Travers Barry,Henrick,Travers Barry Henrick,154,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:48,6:01:02,5:40:23,,,12:07:26,768,21662,20423,345,448,43646,399,338,47,175,155,24,221,203,27,399,338,47,Finisher,2417
+Theresa,Loots,Theresa Loots,1028,F45-49,Female,Pretoria,Gauteng,South Africa,ZA,0:17:36,7:24:13,4:16:11,,,12:07:41,1056,26653,15371,247,336,43661,400,62,12,563,102,24,574,93,22,400,62,12,Finisher,3790
+Vincent,Kruger,Vincent Kruger,94,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,0:13:58,6:24:53,5:16:30,,,12:07:47,838,23093,18990,419,328,43667,401,339,33,288,258,27,330,294,27,401,339,33,Finisher,2488
+Jeanine,Kruger,Jeanine Kruger,991,F40-44,Female,Sandton,Gauteng,South Africa,ZA,0:17:08,6:39:29,4:58:28,,,12:08:28,1028,23969,17908,380,423,43708,402,63,9,534,92,14,422,54,9,402,63,9,Finisher,3219
+Jason,Townsend,Jason Townsend,509,M40-44,Male,Sandton,Gauteng,South Africa,ZA,0:14:47,6:39:28,5:03:53,,,12:09:17,887,23968,18233,368,301,43757,403,340,74,374,331,63,404,353,73,403,340,74,Finisher,2173
+Nathan ,Heggie,Nathan Heggie,64,M18-24,Male,6530,Western Cape,South Africa,ZA,0:15:10,7:09:44,4:28:53,,,12:09:37,910,25784,16133,537,413,43777,404,341,3,395,346,8,533,452,7,404,341,3,Finisher,2446
+Luis,Cristo,Luis Cristo,245,M35-39,Male,Minneapolis,MN,United States,US,0:17:11,6:55:22,4:43:57,,,12:09:48,1031,24922,17037,401,398,43788,405,342,72,540,446,94,485,417,82,405,342,72,Finisher,2125
+Michelle,Cremer,Michelle Cremer,931,F30-34,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:10:59,6:21:06,5:30:00,,,12:10:06,659,22866,19800,267,214,43806,406,64,11,39,5,1,291,26,2,406,64,11,Finisher,2494
+Allan,Van Den Berg,Allan Van Den Berg,201,M30-34,Male,Port Elizabeth,,South Africa,ZA,0:16:33,6:41:27,4:56:17,,,12:10:25,993,24087,17777,438,529,43825,407,343,48,495,417,63,430,374,49,407,343,48,Finisher,2381
+Stephan,Le Roux,Stephan Le Roux,165,M30-34,Male,Potchefstroom,North West,South Africa,ZA,0:15:23,6:39:44,5:00:28,,,12:11:05,923,23984,18028,463,467,43865,408,344,49,412,359,53,421,368,47,408,344,49,Finisher,2373
+Therese,Hansson,Therese Hansson,987,F40-44,Female,Knysna,Western Cape,Sweden,SE,0:13:48,6:46:43,4:53:27,,,12:11:28,828,24403,17607,538,511,43888,409,65,10,268,29,3,448,59,11,409,65,10,Finisher,3183
+Jens,Rauschenberger,Jens Rauschenberger,848,M55-59,Male,Wolfsburg,,Germany,DE,0:20:54,6:41:09,4:55:51,,,12:11:51,1254,24069,17751,512,326,43911,410,345,22,644,522,44,452,393,30,410,345,22,Finisher,2856
+Karla,Kik Gillingham,Karla Kik Gillingham,1024,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:14:14,6:59:59,4:39:12,,,12:12:22,854,25199,16752,522,615,43942,411,66,13,314,33,6,502,73,14,411,66,13,Finisher,3734
+Charl,Van Loggerenberg,Charl Van Loggerenberg,783,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,0:11:51,6:27:00,5:21:44,,,12:12:25,711,23220,19304,389,321,43945,412,346,33,83,73,6,328,292,28,412,346,33,Finisher,2305
+Henk,Du Plessis,Henk Du Plessis,701,M50-54,Male,Sasolburg,Free State,South Africa,ZA,0:14:44,6:31:15,5:16:13,,,12:12:29,884,23475,18973,334,282,43949,413,347,34,369,327,32,362,318,31,413,347,34,Finisher,2305
+Mike,Roscoe,Mike Roscoe,849,M55-59,Male,Sunninghill,Gauteng,South Africa,ZA,0:17:13,6:39:39,5:02:24,,,12:12:40,1033,23979,18144,440,364,43960,414,348,23,542,447,34,428,373,27,414,348,23,Finisher,2846
+Willem,Weideman,Willem Weideman,858,M55-59,Male,Kempton Park,Gauteng,South Africa,ZA,0:14:24,6:25:16,5:24:43,,,12:14:08,864,23116,19483,293,292,44048,415,349,24,333,295,19,319,284,19,415,349,24,Finisher,2828
+Alexander,Emeny,Alexander Emeny,83,M25-29,Male,Vancouver,BC,Canada,CA,0:14:31,6:58:21,4:49:25,,,12:14:34,871,25101,17365,312,425,44074,416,350,34,345,306,30,481,413,34,416,350,34,Finisher,2406
+Dawn,Goodwin,Dawn Goodwin,986,F40-44,Female,Sheffield,,United Kingdom,GB,0:19:36,6:32:10,5:04:26,,,12:15:12,1176,23530,18266,642,498,44112,417,67,11,627,118,20,418,53,8,417,67,11,Finisher,3138
+Mykhailo,Boiko,Mykhailo Boiko,229,M35-39,Male,Kiev,Other,Ukraine,UA,0:16:04,6:53:20,4:49:21,,,12:15:27,964,24800,17361,465,537,44127,418,351,73,461,391,84,476,408,80,418,351,73,Finisher,2058
+Igor,Noskov,Igor Noskov,472,M40-44,Male,Kiev,Other,Ukraine,UA,0:16:04,6:53:33,4:49:22,,,12:15:28,964,24813,17362,464,524,44128,419,352,75,460,390,75,477,409,87,419,352,75,Finisher,2099
+Oliver,Venter,Oliver Venter,365,M35-39,Male,Johannesburg,GAUTENG,South Africa,ZA,0:16:01,6:54:34,4:55:30,,,12:15:49,961,24874,17730,53,530,44149,420,353,74,455,387,83,457,395,76,420,353,74,Finisher,2053
+Victoria,Hardie,Victoria Hardie,912,F25-29,Female,"Dowerglen, Johannesburg",Gauteng,South Africa,ZA,0:13:54,6:20:32,5:29:14,,,12:16:10,834,22832,19754,393,357,44170,421,68,8,279,30,5,306,33,7,421,68,8,Finisher,3168
+Jevaune,Van Der Merwe,Jevaune Van Der Merwe,203,M30-34,Male,Bethlehem,Free State,South Africa,ZA,0:11:14,6:44:42,5:05:39,,,12:16:18,674,24282,18339,271,612,44178,422,354,50,46,41,11,405,354,44,422,354,50,Finisher,2311
+Herman,Van Der Werf,Herman Van Der Werf,662,M45-49,Male,Bellville,Western Cape,South Africa,ZA,0:13:54,6:29:22,5:18:01,,,12:16:28,834,23362,19081,429,482,44188,423,355,55,277,248,30,352,310,51,423,355,55,Finisher,2178
+Jared,Petzer,Jared Petzer,315,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:59,6:33:24,5:15:13,,,12:16:34,779,23604,18913,514,385,44194,424,356,75,192,169,39,377,330,66,424,356,75,Finisher,2044
+Dissica,Calderaro,Dissica Calderaro,394,M40-44,Male,Manaus,BR-AM,Brazil,BR,0:11:19,6:31:13,5:24:38,,,12:16:55,679,23473,19478,276,310,44215,425,357,76,52,47,12,337,300,65,425,357,76,Finisher,2081
+Leon,Van Heerden,Leon Van Heerden,663,M45-49,Male,Polokwane,Limpopo,South Africa,ZA,0:12:06,6:34:11,5:22:44,,,12:17:26,726,23651,19364,269,236,44246,426,358,56,103,93,13,355,312,52,426,358,56,Finisher,2167
+Frederick,Pilch,Frederick Pilch,634,M45-49,Male,Montpellier,34,South Africa,ZA,0:14:02,6:57:46,4:45:17,,,12:19:00,842,25066,17117,556,759,44340,427,359,57,294,263,35,495,425,70,427,359,57,Finisher,2148
+Riaan,Marais,Riaan Marais,610,M45-49,Male,Bellvile,,South Africa,ZA,0:19:11,7:20:13,4:18:45,,,12:19:00,1151,26413,15525,614,637,44340,428,360,58,619,504,79,584,489,81,428,360,58,Finisher,2148
+Lauren,Friedman,Lauren Friedman,1021,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:16:39,7:23:33,4:29:23,,,12:19:02,999,26613,16163,307,260,44342,429,69,14,503,79,16,573,92,21,429,69,14,Finisher,3654
+Albert,Williams,Albert Williams,370,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:16:30,6:56:42,4:53:16,,,12:19:05,990,25002,17596,408,349,44345,430,361,76,487,409,86,491,422,84,430,361,76,Finisher,2014
+Bruce,Cook,Bruce Cook,404,M40-44,Male,,,South Africa,ZA,0:13:48,6:23:30,5:26:31,,,12:19:12,828,23010,19591,337,586,44352,431,362,77,267,239,52,313,278,63,431,362,77,Finisher,2054
+Hayley,Pogir,Hayley Pogir,995,F40-44,Female,,Eastern Cape,South Africa,ZA,0:15:00,7:17:55,4:35:23,,,12:19:41,900,26275,16523,287,397,44381,432,70,12,389,48,7,547,85,14,432,70,12,Finisher,3084
+Ruaan,Kitshoff,Ruaan Kitshoff,276,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:16:46,6:25:32,5:24:10,,,12:20:33,1006,23132,19450,371,474,44433,433,363,77,513,429,91,343,304,63,433,363,77,Finisher,1996
+Lawrence,Herron,Lawrence Herron,877,M60-64,Male,,KwaZulu-Natal,South Africa,ZA,0:13:24,6:36:19,5:18:40,,,12:20:55,804,23779,19120,491,260,44455,434,364,7,232,207,4,395,347,8,434,364,7,Finisher,3602
+Niel,Du Toit,Niel Du Toit,142,M30-34,Male,Cape Town,,South Africa,ZA,0:14:20,6:41:46,5:09:55,,,12:21:11,860,24106,18595,428,482,44471,435,365,51,324,289,44,424,369,48,435,365,51,Finisher,2252
+Paul,Crook,Paul Crook,699,M50-54,Male,Cape Town,Western Cape,United Kingdom,GB,0:18:45,6:35:57,5:17:01,,,12:22:33,1125,23757,19021,331,318,44553,436,366,35,609,498,55,403,352,37,436,366,35,Finisher,2184
+Jacobus Adriaan,Myburgh,Jacobus Adriaan Myburgh,748,M50-54,Male,pretoria,Gauteng,South Africa,ZA,0:15:23,6:11:54,5:36:32,,,12:22:55,923,22314,20192,581,565,44575,437,367,36,413,360,38,292,266,25,437,367,36,Finisher,2179
+Nico,Rautenbach,Nico Rautenbach,321,M35-39,Male,Randburg,Gauteng,South Africa,ZA,0:14:31,6:35:45,5:16:29,,,12:23:02,871,23745,18989,541,437,44582,438,368,78,343,304,71,400,350,72,438,368,78,Finisher,1967
+Panda,Qamata,Panda Qamata,639,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:20:40,6:34:01,5:13:31,,,12:23:16,1240,23641,18811,566,337,44596,439,369,59,642,520,87,427,372,61,439,369,59,Finisher,2097
+Pat,Rich,Pat Rich,487,M40-44,Male,Cape Town,,United Kingdom,GB,0:18:35,6:38:22,5:17:03,,,12:23:51,1115,23902,19023,275,317,44631,440,370,78,603,495,93,414,362,76,440,370,78,Finisher,1998
+Amanda,Pieterse,Amanda Pieterse,994,F40-44,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:18:45,7:32:44,4:21:01,,,12:24:39,1125,27164,15661,429,300,44679,441,71,13,607,110,17,606,100,16,441,71,13,Finisher,3025
+Jeandre,De Greef,Jeandre De Greef,410,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:13:00,7:07:33,4:53:54,,,12:24:48,780,25653,17634,280,341,44688,442,371,79,193,170,35,513,438,91,442,371,79,Finisher,1987
+Frikkie,Visser,Frikkie Visser,521,M40-44,Male,Bellville,,South Africa,ZA,0:13:18,6:42:08,4:53:54,,,12:24:58,798,24128,17634,258,1880,44698,443,372,80,224,200,41,402,351,72,443,372,80,Finisher,1985
+Jason,Ensor,Jason Ensor,415,M40-44,Male,Gqeberha,Eastern Cape,South Africa,ZA,0:13:26,6:36:34,5:22:53,,,12:24:59,806,23794,19373,372,355,44699,444,373,81,233,208,43,383,335,69,444,373,81,Finisher,1984
+Tshepo,Mamorare,Tshepo Mamorare,455,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:08:54,7:44:23,4:20:42,,,12:25:56,534,27863,15642,290,426,44756,445,374,82,5,4,3,601,503,104,445,374,82,Finisher,1973
+Bradley,Ryder,Bradley Ryder,765,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,0:15:21,7:13:23,4:44:51,,,12:26:05,921,26003,17091,409,341,44765,446,375,37,410,358,37,537,455,49,446,375,37,Finisher,2141
+Francois,Burden,Francois Burden,61,M18-24,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:05,6:33:52,5:28:30,,,12:26:31,785,23632,19710,331,332,44791,447,376,4,199,176,3,368,323,4,447,376,4,Finisher,2243
+Dean,Coetzee,Dean Coetzee,241,M35-39,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:10:31,7:13:42,4:53:08,,,12:26:41,631,26022,17588,245,315,44801,448,377,79,25,23,7,519,443,87,448,377,79,Finisher,1923
+Candice,Martin,Candice Martin,962,F35-39,Female,Pretoria,Gauteng,South Africa,ZA,0:16:23,6:52:01,5:04:47,,,12:27:01,983,24721,18287,356,473,44821,449,72,16,479,77,17,466,65,15,449,72,16,Finisher,2870
+Clinton,Heimann,Clinton Heimann,588,M45-49,Male,Pretoria,Gauteng,South Africa,ZA,0:14:59,6:27:41,5:26:11,,,12:27:05,899,23261,19571,511,583,44825,450,378,60,388,341,48,358,315,53,450,378,60,Finisher,2051
+Johannes,Horn,Johannes Horn,722,M50-54,Male,Brackenfell,Western Cape,South Africa,ZA,0:16:01,6:49:53,5:12:03,,,12:27:25,961,24593,18723,257,311,44845,451,379,38,456,388,42,450,391,42,451,379,38,Finisher,2125
+Terry ,Gillespie,Terry Gillespie,424,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:12:05,5:43:48,6:23:22,,,12:27:26,725,20628,23002,253,238,44846,452,380,83,99,89,21,153,145,33,452,380,83,Finisher,1955
+Maxine,Luck,Maxine Luck,934,F30-34,Female,Middelburg,Mpumalanga,South Africa,ZA,0:13:47,6:50:38,5:09:26,,,12:27:47,827,24638,18566,414,422,44867,453,73,12,263,28,6,456,62,11,453,73,12,Finisher,2282
+Dienye,Hart,Dienye Hart,714,M50-54,Male,Fonthill,ON,Nigeria,NG,0:14:18,6:35:09,5:23:36,,,12:27:48,858,23709,19416,481,404,44868,454,381,39,320,286,25,393,345,35,454,381,39,Finisher,2121
+Sue,Peterkin,Sue Peterkin,1053,F50-54,Female,Pretoria,Gauteng,South Africa,ZA,0:17:12,7:08:03,4:51:33,,,12:27:49,1032,25683,17493,251,410,44869,455,74,6,541,95,6,523,77,5,455,74,6,Finisher,3166
+Mohammad-Bilaal,Alexander,Mohammad-Bilaal Alexander,124,M30-34,Male,cape town,Western Cape,South Africa,ZA,0:15:12,7:18:02,4:40:06,,,12:28:02,912,26282,16806,415,468,44882,456,382,52,399,349,52,555,469,60,456,382,52,Finisher,2170
+Johan,Greeff,Johan Greeff,426,M40-44,Male,Piet Retief,Mpumalanga,South Africa,ZA,0:14:51,7:12:19,4:48:33,,,12:28:18,891,25939,17313,282,473,44898,457,383,84,379,334,65,528,449,94,457,383,84,Finisher,1945
+Gerhard,Greeff,Gerhard Greeff,427,M40-44,Male,Pretoria,Gauteng,South Africa,ZA,0:18:30,7:04:27,4:48:34,,,12:28:35,1110,25467,17314,555,469,44915,458,384,85,601,493,91,529,450,95,458,384,85,Finisher,1941
+Michael,Webber Welgemoed,Michael Webber Welgemoed,71,M18-24,Male,Kempton Park,Gauteng,South Africa,ZA,0:15:59,6:39:25,5:19:10,,,12:28:39,959,23965,19150,332,512,44919,459,385,5,451,385,9,409,358,6,459,385,5,Finisher,2217
+Philipp,Sonntag,Philipp Sonntag,647,M45-49,Male,Windhoek,KH,Namibia,NA,0:12:26,6:36:50,5:24:29,,,12:30:39,746,23810,19469,437,578,45039,460,386,61,136,123,18,386,338,60,460,386,61,Finisher,2008
+Sj,Kruger,Sj Kruger,285,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:13:15,6:56:17,5:08:39,,,12:31:29,795,24977,18519,349,448,45089,461,387,80,218,194,46,470,404,78,461,387,80,Finisher,1865
+Judy,Vanderwagen,Judy Vanderwagen,1061,F50-54,Female,"Blairgowrie, Randburg",Gauteng,South Africa,ZA,0:16:43,7:11:51,4:51:35,,,12:32:03,1003,25911,17495,263,451,45123,462,75,7,509,82,4,531,81,6,462,75,7,Finisher,3115
+Jacques Dv,Fourie,Jacques Dv Fourie,421,M40-44,Male,,,South Africa,ZA,0:14:57,6:12:04,5:52:26,,,12:32:55,897,22324,21146,284,523,45175,463,388,86,386,339,67,263,243,54,463,388,86,Finisher,1889
+Gary,Gordon,Gary Gordon,583,M45-49,Male,Johannesburg,,South Africa,ZA,0:12:17,7:03:08,5:05:34,,,12:33:19,737,25388,18334,265,475,45199,464,389,62,123,111,15,488,420,69,464,389,62,Finisher,1976
+Hadyn,Pithey,Hadyn Pithey,760,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:17:48,7:30:43,4:30:28,,,12:34:22,1068,27043,16228,576,347,45262,465,390,40,576,472,52,600,502,55,465,390,40,Finisher,2042
+Annemarie,Kropman,Annemarie Kropman,1027,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:12:33,7:02:41,5:07:42,,,12:34:41,753,25361,18462,290,414,45281,466,76,15,151,15,4,492,70,13,466,76,15,Finisher,3466
+Peter,Neethling,Peter Neethling,751,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:15:14,6:54:18,5:10:23,,,12:35:07,914,24858,18623,519,392,45307,467,391,41,401,351,36,482,414,44,467,391,41,Finisher,2033
+Dean,Horton,Dean Horton,593,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:11:55,6:24:39,5:41:24,,,12:36:26,715,23079,20484,387,720,45386,468,392,63,89,79,10,314,279,43,468,392,63,Finisher,1939
+Kyle,Van Niekerk,Kyle Van Niekerk,208,M30-34,Male,Grahamstown,Eastern Cape,South Africa,ZA,0:14:36,7:35:50,4:30:56,,,12:36:28,876,27350,16256,275,631,45388,469,393,53,351,311,47,594,497,63,469,393,53,Finisher,2069
+Lauren,Bartle,Lauren Bartle,926,F30-34,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:15:25,7:20:07,4:53:31,,,12:37:18,925,26407,17611,294,200,45438,470,77,13,414,54,10,556,87,14,470,77,13,Finisher,2167
+Morne,Heystek,Morne Heystek,592,M45-49,Male,Edenvale,Gauteng,South Africa,ZA,0:19:57,6:18:29,5:41:26,,,12:37:56,1197,22709,20486,673,412,45476,471,394,64,630,511,82,347,307,49,471,394,64,Finisher,1921
+Beulah,Bekker,Beulah Bekker,927,F30-34,Female,Cape Town,Western Cape,South Africa,ZA,0:15:11,7:02:20,5:06:31,,,12:38:10,911,25340,18391,351,497,45490,472,78,14,396,50,8,504,75,13,472,78,14,Finisher,2157
+Nadirshah,Khan,Nadirshah Khan,824,M55-59,Male,johannesburg,Gauteng,South Africa,ZA,0:15:38,6:57:09,5:12:03,,,12:38:14,938,25029,18723,452,352,45494,473,395,25,428,369,25,493,423,33,473,395,25,Finisher,2539
+Hanna,Khrystianovych,Hanna Khrystianovych,990,F40-44,Female,Affoltern am Albis,ZH,Ukraine,UA,0:16:20,7:07:29,5:03:00,,,12:39:12,980,25649,18180,373,369,45552,474,79,14,476,76,10,525,78,13,474,79,14,Finisher,2850
+Josie,Cane,Josie Cane,906,F18-24,Female,ashton-under-lyne,,United Kingdom,GB,0:14:16,6:56:01,5:17:37,,,12:39:38,856,24961,19057,305,399,45578,475,80,2,317,34,2,471,67,2,475,80,2,Finisher,3175
+Hannelie,Maré,Hannelie Maré,993,F40-44,Female,Elardus Park,,South Africa,ZA,0:15:41,7:34:22,4:39:31,,,12:40:34,941,27262,16771,402,259,45634,476,81,15,432,61,8,598,98,15,476,81,15,Finisher,2834
+Devon,Lochhead,Devon Lochhead,166,M30-34,Male,,,South Africa,ZA,0:12:31,6:31:40,5:45:04,,,12:40:37,751,23500,20704,257,426,45637,477,396,54,149,135,22,342,303,41,477,396,54,Finisher,2019
+Andrew,Barends,Andrew Barends,793,M55-59,Male,Cape Town,Western Cape,South Africa,ZA,0:18:00,6:24:04,5:42:47,,,12:41:40,1080,23044,20567,532,477,45700,478,397,26,584,477,40,356,313,22,478,397,26,Finisher,2498
+Gavin,Cilliers,Gavin Cilliers,239,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:15:07,6:37:08,5:40:38,,,12:42:13,907,23828,20438,259,301,45733,479,398,81,393,345,78,387,339,68,479,398,81,Finisher,1736
+Elliott,Wood,Elliott Wood,679,M45-49,Male,Sandton,Eastern Cape,South Africa,ZA,0:18:44,6:29:21,5:40:18,,,12:43:06,1124,23361,20418,367,516,45786,480,399,65,605,497,77,376,329,57,480,399,65,Finisher,1859
+Fanie,Pretorius,Fanie Pretorius,637,M45-49,Male,Montagu,Western Cape,South Africa,ZA,0:14:31,6:37:26,5:40:42,,,12:43:11,871,23846,20442,264,368,45791,481,400,66,346,307,43,384,336,59,481,400,66,Finisher,1858
+Khotso,Makokotlela,Khotso Makokotlela,454,M40-44,Male,Pretoria,Gauteng,South Africa,ZA,0:13:40,7:09:09,5:06:18,,,12:43:24,820,25749,18378,390,467,45804,482,401,87,254,229,47,522,446,92,482,401,87,Finisher,1763
+Jaap,Kalkman,Jaap Kalkman,822,M55-59,Male,Abu Dhabi,,Netherlands,NL,0:18:30,6:52:09,5:15:40,,,12:44:02,1110,24729,18940,557,506,45842,483,402,27,600,492,42,489,421,32,483,402,27,Finisher,2469
+Martin,Goodwin,Martin Goodwin,151,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:16:47,6:58:16,5:18:51,,,12:44:18,1007,25096,19131,245,381,45858,484,403,55,514,430,65,484,416,57,484,403,55,Finisher,1975
+Pieter-Barend,Botha,Pieter-Barend Botha,129,M30-34,Male,Haarlem,NH,South Africa,ZA,0:15:55,6:38:18,5:36:36,,,12:44:29,955,23898,20196,403,416,45869,485,404,56,448,382,58,410,359,45,485,404,56,Finisher,1973
+Dirk,Kaiser,Dirk Kaiser,731,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:14:43,6:38:56,5:37:33,,,12:45:05,883,23936,20253,270,565,45905,486,405,42,366,324,31,396,348,36,486,405,42,Finisher,1913
+Corne,Lotz,Corne Lotz,998,F40-44,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:17:48,7:34:45,4:38:19,,,12:45:16,1068,27285,16699,448,415,45916,487,82,16,577,105,16,610,102,17,487,82,16,Finisher,2777
+Craig,Taylor,Craig Taylor,348,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,0:14:30,7:32:10,4:42:40,,,12:45:35,870,27130,16960,517,457,45935,488,406,82,342,303,70,596,499,99,488,406,82,Finisher,1696
+Marsha,Wessels,Marsha Wessels,1043,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:17:05,7:20:54,4:56:29,,,12:46:26,1025,26454,17789,415,303,45986,489,83,16,530,90,19,571,91,20,489,83,16,Finisher,3325
+Clive,Dawkins,Clive Dawkins,700,M50-54,Male,Edenvale,Gauteng,South Africa,ZA,0:16:14,7:11:45,5:00:43,,,12:46:59,974,25905,18043,538,558,46019,490,407,43,472,398,43,544,460,50,490,407,43,Finisher,1891
+Barbara,Kuster,Barbara Kuster,1076,F60-64,Female,Zürich,,Switzerland,CH,0:17:52,6:35:04,5:43:14,,,12:47:16,1072,23704,20594,358,308,46036,491,84,2,582,106,3,399,50,2,491,84,2,Finisher,4426
+Wajedie ,Salie ,Wajedie Salie,491,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:33:35,7:13:22,4:46:32,,,12:47:55,2015,26002,17192,460,406,46075,492,408,88,685,557,110,593,496,102,492,408,88,Finisher,1709
+Guillaume,Duboust,Guillaume Duboust,563,M45-49,Male,CLAMART,,France,FR,0:19:23,6:47:29,5:19:55,,,12:47:57,1163,24449,19195,654,617,46077,493,409,67,623,508,81,478,410,67,493,409,67,Finisher,1800
+Wayne,Leask,Wayne Leask,290,M35-39,Male,Heidelberg,Gauteng,South Africa,ZA,0:13:03,6:43:20,5:40:03,,,12:47:57,783,24200,20403,261,430,46077,494,410,83,198,175,42,408,357,73,494,410,83,Finisher,1668
+Heinrich,Muller,Heinrich Muller,747,M50-54,Male,George,Western Cape,South Africa,ZA,0:14:01,6:27:55,5:57:33,,,12:48:47,841,23275,21453,277,281,46127,495,411,44,292,262,21,333,296,29,495,411,44,Finisher,1869
+Gerhard,Van Der Merwe,Gerhard Van Der Merwe,356,M35-39,Male,secunda,Mpumalanga,South Africa,ZA,0:23:32,7:06:22,5:03:07,,,12:50:00,1412,25582,18187,479,540,46200,496,412,84,671,545,105,548,463,90,496,412,84,Finisher,1643
+George,Van Der Merwe,George Van Der Merwe,357,M35-39,Male,Secunda,Mpumalanga,South Africa,ZA,0:17:06,7:08:23,5:03:08,,,12:50:02,1026,25703,18188,749,536,46202,497,413,85,531,441,93,549,464,91,497,413,85,Finisher,1643
+Pieter,Strydom,Pieter Strydom,195,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:50,6:55:31,5:28:15,,,12:50:46,830,24931,19695,415,375,46246,498,414,57,270,241,38,473,406,55,498,414,57,Finisher,1897
+Johesta,Botha,Johesta Botha,946,F35-39,Female,,,South Africa,ZA,0:08:03,7:02:24,4:51:02,,,12:51:06,483,25344,17462,253,2723,46266,499,85,17,2,1,1,467,66,16,499,85,17,Finisher,2581
+Dewald,Van Tonder,Dewald Van Tonder,360,M35-39,Male,Roodepoort,Gauteng,South Africa,ZA,0:09:29,7:04:28,5:18:47,,,12:51:16,569,25468,19127,608,505,46276,500,415,86,10,8,2,507,432,85,500,415,86,Finisher,1628
+Eugene,Botha,Eugene Botha,544,M45-49,Male,Johannesburg,,South Africa,ZA,0:15:35,7:34:43,4:49:50,,,12:51:25,935,27283,17390,297,380,46285,501,416,68,423,365,51,595,498,84,501,416,68,Finisher,1759
+Daniel Charl Stephanus,Van Der Merwe,Daniel Charl Stephanus Van Der Merwe,511,M40-44,Male,Midstream,Gauteng,South Africa,ZA,0:24:36,7:15:47,4:55:22,,,12:51:27,1476,26147,17722,554,388,46287,502,417,89,676,550,107,583,488,100,502,417,89,Finisher,1667
+Stompie,Venter,Stompie Venter,669,M45-49,Male,Gordons Bay,Western Cape,South Africa,ZA,0:17:11,6:40:59,5:33:50,,,12:51:27,1031,24059,20030,524,643,46287,503,418,69,539,445,69,434,378,62,503,418,69,Finisher,1758
+Jaco,Steenkamp,Jaco Steenkamp,774,M50-54,Male,Pretoria,,South Africa,ZA,0:14:39,7:04:31,5:24:15,,,12:51:34,879,25471,19455,256,233,46294,504,419,45,355,315,30,506,431,46,504,419,45,Finisher,1836
+Andre,Botes,Andre Botes,232,M35-39,Male,Vanderbijlpark,Gauteng,South Africa,ZA,0:13:15,6:39:48,5:46:13,,,12:52:10,795,23988,20773,240,533,46330,505,420,87,220,196,47,388,340,69,505,420,87,Finisher,1617
+Pieter,Erasmus,Pieter Erasmus,809,M55-59,Male,Cato Ridge,KwaZulu-Natal,South Africa,ZA,0:16:06,7:03:07,5:16:21,,,12:52:12,966,25387,18981,568,430,46332,506,421,28,462,392,28,520,444,37,506,421,28,Finisher,2371
+Louw,Steyn,Louw Steyn,192,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:13:59,6:55:30,5:22:07,,,12:52:44,839,24930,19327,500,768,46364,507,422,58,290,260,40,479,411,56,507,422,58,Finisher,1874
+Stephan,Du Toit,Stephan Du Toit,414,M40-44,Male,Pretoria,Gauteng,South Africa,ZA,0:18:33,7:06:21,5:16:37,,,12:52:56,1113,25581,18997,293,392,46376,508,423,90,602,494,92,524,447,93,508,423,90,Finisher,1649
+Craig,West,Craig West,860,M55-59,Male,Pretoria,Gauteng,South Africa,ZA,0:16:25,6:31:19,5:53:16,,,12:52:56,985,23479,21196,445,271,46376,509,424,29,480,403,29,378,331,23,509,424,29,Finisher,2363
+Nicholas,Hafner,Nicholas Hafner,587,M45-49,Male,Cape Town,,South Africa,ZA,0:15:20,6:47:11,5:31:33,,,12:52:59,920,24431,19893,596,539,46379,510,425,70,408,357,50,462,400,65,510,425,70,Finisher,1740
+Gary,Goldschmidt,Gary Goldschmidt,425,M40-44,Male,Queenstown,Eastern Cape,South Africa,ZA,0:14:31,6:36:36,5:53:04,,,12:54:09,871,23796,21184,324,273,46449,511,426,91,344,305,59,385,337,70,511,426,91,Finisher,1634
+George ,October,George October,836,M55-59,Male,cape Town,Western Cape,South Africa,ZA,0:17:30,7:13:07,5:04:35,,,12:54:34,1050,25987,18275,685,478,46474,512,427,30,558,458,36,564,477,41,512,427,30,Finisher,2343
+Jacqui,Bunge,Jacqui Bunge,947,F35-39,Female,Edenvale,Gauteng,South Africa,ZA,0:12:35,7:45:42,4:39:41,,,12:54:56,755,27942,16781,648,371,46496,513,86,18,154,16,4,633,110,20,513,86,18,Finisher,2535
+Nicolas Ignacio,Cardenas,Nicolas Ignacio Cardenas,134,M30-34,Male,Cape Town,,South Africa,ZA,0:16:33,6:55:03,5:22:00,,,12:55:01,993,24903,19320,601,684,46501,514,428,59,492,414,61,498,427,58,514,428,59,Finisher,1846
+Thomas,Van Schalkwyk,Thomas Van Schalkwyk,211,M30-34,Male,Kempton Park,Gauteng,South Africa,ZA,0:18:05,6:44:24,5:38:18,,,12:55:12,1085,24264,20298,285,580,46512,515,429,60,587,480,69,436,380,51,515,429,60,Finisher,1844
+Robert,Deas,Robert Deas,560,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:17:26,7:03:16,5:22:16,,,12:56:26,1046,25396,19336,244,563,46586,516,430,71,553,455,71,511,436,75,516,430,71,Finisher,1699
+Fredo,Stroh,Fredo Stroh,344,M35-39,Male,Pretoria,Eastern Cape,South Africa,ZA,0:14:14,7:30:59,4:58:05,,,12:57:10,854,27059,17885,496,335,46630,517,431,88,313,281,67,589,493,98,517,431,88,Finisher,1557
+Sadiya,Valli,Sadiya Valli,1036,F45-49,Female,Johannesburg,Gauteng,South Africa,ZA,0:11:35,7:01:51,5:25:39,,,12:57:55,695,25311,19539,571,559,46675,518,87,17,63,6,2,503,74,15,518,87,17,Finisher,3188
+Lisle,Matthews,Lisle Matthews,1030,F45-49,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:20:08,7:08:25,5:19:32,,,12:58:30,1208,25705,19172,258,366,46710,519,88,18,632,120,28,530,80,17,519,88,18,Finisher,3181
+Johnny,Van Wyk,Johnny Van Wyk,120,M25-29,Male,Rustenburg,North West,South Africa,ZA,0:15:33,7:15:01,5:11:44,,,13:01:24,933,26101,18704,681,465,46884,520,432,35,422,364,32,563,476,35,520,432,35,Finisher,1844
+Oscar,O'Connell-Hussey,Oscar O'Connell-Hussey,67,M18-24,Male,Portloaise,Laois,Ireland,IE,0:13:42,7:30:45,5:07:02,,,13:01:46,822,27045,18422,242,374,46906,521,433,6,256,230,6,581,487,9,521,433,6,Finisher,1820
+Sebastian,Kleu,Sebastian Kleu,599,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:16:00,7:26:23,5:07:41,,,13:02:00,960,26783,18461,252,465,46920,522,434,72,453,386,56,575,482,80,522,434,72,Finisher,1632
+Jacobus,Boshoff,Jacobus Boshoff,688,M50-54,Male,George,Western Cape,South Africa,ZA,0:22:26,7:51:21,4:34:10,,,13:02:16,1346,28281,16450,280,580,46936,523,435,46,665,539,60,647,531,58,523,435,46,Finisher,1707
+Makkie,Serfontein,Makkie Serfontein,1034,F45-49,Female,Mossel Bay,Western Cape,South Africa,ZA,0:16:44,7:10:47,5:19:25,,,13:02:58,1004,25847,19165,474,488,46978,524,89,19,512,84,17,536,82,18,524,89,19,Finisher,3127
+Nantus,Grobler,Nantus Grobler,63,M18-24,Male,,Gauteng,South Africa,ZA,0:13:01,6:17:42,6:23:47,,,13:03:44,781,22662,23027,262,293,47024,525,436,7,194,171,2,286,263,3,525,436,7,Finisher,1796
+Stanislaw,Klek,Stanislaw Klek,605,M45-49,Male,Bolechowice,małopolskie,Poland,PL,0:16:26,6:51:06,5:36:21,,,13:04:04,986,24666,20181,732,479,47044,526,437,73,482,405,60,487,419,68,526,437,73,Finisher,1607
+Farouk,Molti,Farouk Molti,302,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:23:35,7:31:03,4:56:11,,,13:05:19,1415,27063,17771,498,372,47119,527,438,89,672,546,106,622,516,101,527,438,89,Finisher,1459
+Tursynbek,Taszhanov,Tursynbek Taszhanov,653,M45-49,Male,Астана,Казахстан,Kazakhstan,KZ,0:22:17,6:54:44,5:35:02,,,13:05:48,1337,24884,20102,331,494,47148,528,439,74,663,537,91,500,429,71,528,439,74,Finisher,1586
+William ,Cooper,William Cooper,803,M55-59,Male,Edenvale,Gauteng,South Africa,ZA,0:16:31,7:05:24,5:28:48,,,13:05:54,991,25524,19728,290,621,47154,529,440,31,489,411,31,517,441,36,529,440,31,Finisher,2207
+Celia,Pienaar,Celia Pienaar,1080,F60-64,Female,Somerset West,Western Cape,South Africa,ZA,0:15:27,7:22:41,5:16:38,,,13:06:00,927,26561,18998,364,311,47160,530,90,3,416,56,1,567,90,4,530,90,3,Finisher,4201
+Gráinne,Burrows,Gráinne Burrows,910,F25-29,Female,Zürich,Other,Ireland,IE,0:14:42,7:23:23,5:16:47,,,13:06:10,882,26603,19007,245,433,47170,531,91,9,364,42,6,566,89,9,531,91,9,Finisher,2568
+Gerda,Van Der Walt,Gerda Van Der Walt,1059,F50-54,Female,North Riding,Gauteng,South Africa,ZA,0:17:34,7:10:42,5:11:22,,,13:07:16,1054,25842,18682,833,825,47236,532,92,8,561,101,8,565,88,8,532,92,8,Finisher,2692
+Christiaan,Senekal,Christiaan Senekal,69,M18-24,Male,Somerset West,Western Cape,South Africa,ZA,0:13:34,6:39:11,6:05:03,,,13:07:43,814,23951,21903,277,319,47263,533,441,8,242,217,4,391,343,5,533,441,8,Finisher,1749
+Keith,Boyd,Keith Boyd,797,M55-59,Male,Monaco,Monaco,South Africa,ZA,0:16:33,7:15:59,5:19:19,,,13:07:44,993,26159,19159,498,455,47264,534,442,32,494,416,32,557,470,40,534,442,32,Finisher,2185
+Mario,Ruster,Mario Ruster,327,M35-39,Male,Durbanville,Western Cape,South Africa,ZA,0:14:59,6:49:09,5:43:48,,,13:08:50,899,24549,20628,578,678,47330,535,443,90,387,340,77,463,401,77,535,443,90,Finisher,1417
+Johannes,Van Der Walt,Johannes Van Der Walt,781,M50-54,Male,Nelspruit,,South Africa,ZA,0:15:30,7:07:36,5:30:28,,,13:09:17,930,25656,19828,297,644,47357,536,444,47,420,363,40,518,442,47,536,444,47,Finisher,1623
+Devon,Nordin,Devon Nordin,312,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,0:14:53,6:55:10,5:44:05,,,13:10:27,893,24910,20645,568,411,47427,537,445,91,381,335,76,486,418,83,537,445,91,Finisher,1398
+Marnus,Botha,Marnus Botha,131,M30-34,Male,Mount Waverley,AU-VIC,South Africa,ZA,0:15:53,7:32:40,5:11:14,,,13:11:14,953,27160,18674,287,400,47474,538,446,61,443,379,57,588,492,62,538,446,61,Finisher,1652
+Neil,Gardiner,Neil Gardiner,862,M55-59,Male,Hartbeespoort,North West,South Africa,ZA,0:14:42,6:35:19,6:05:50,,,13:11:44,882,23719,21950,424,529,47504,539,447,33,363,322,23,389,341,24,539,447,33,Finisher,2137
+Charmaine,Scott,Charmaine Scott,1054,F50-54,Female,Cape Town,Western Cape,South Africa,ZA,0:11:49,7:42:06,5:02:12,,,13:12:19,709,27726,18132,267,706,47539,540,93,9,79,9,1,604,99,9,540,93,9,Finisher,2632
+Ina,Van Rensburg,Ina Van Rensburg,1040,F45-49,Female,PE,Eastern Cape,South Africa,ZA,0:19:03,7:06:57,5:36:53,,,13:13:02,1143,25617,20213,305,304,47582,541,94,20,617,115,27,526,79,16,541,94,20,Finisher,3006
+Ashraf,Orrie,Ashraf Orrie,756,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:10:32,7:26:22,5:21:17,,,13:13:50,632,26782,19277,467,472,47630,542,448,48,27,25,2,569,479,53,542,448,48,Finisher,1568
+Diederik,Prinsen,Diederik Prinsen,761,M50-54,Male,Centurion,Gauteng,South Africa,ZA,0:10:30,6:45:22,6:03:20,,,13:14:12,630,24322,21800,444,457,47652,543,449,49,24,22,1,425,370,40,543,449,49,Finisher,1564
+Schalk,Van Zyl,Schalk Van Zyl,516,M40-44,Male,Centurion,Gauteng,South Africa,ZA,0:15:17,6:51:08,5:41:43,,,13:14:57,917,24668,20503,723,886,47697,544,450,92,407,356,71,483,415,88,544,450,92,Finisher,1385
+Joanie,Coetzee,Joanie Coetzee,1063,F55-59,Female,Bloemfontein,Free State,South Africa,ZA,0:15:54,7:22:20,5:20:10,,,13:15:02,954,26540,19210,532,467,47702,545,95,4,445,66,4,578,94,4,545,95,4,Finisher,3456
+Pierre,Greyling,Pierre Greyling,586,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:15:35,7:15:13,5:25:17,,,13:15:33,935,26113,19517,624,544,47733,546,451,75,424,366,52,559,472,77,546,451,75,Finisher,1469
+Sean,Davey,Sean Davey,409,M40-44,Male,Steyn city,Gauteng,South Africa,ZA,0:16:26,6:38:45,6:04:35,,,13:15:39,986,23925,21875,528,426,47739,547,452,93,481,404,79,426,371,78,547,452,93,Finisher,1376
+Lindsay,Jolly,Lindsay Jolly,933,F30-34,Female,Cape Town,Western Cape,South Africa,ZA,0:16:09,7:00:14,5:47:18,,,13:16:00,969,25214,20838,380,359,47760,548,96,15,464,72,13,501,72,12,548,96,15,Finisher,1703
+Tyron,Parent,Tyron Parent,478,M40-44,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:24:19,7:40:28,4:43:44,,,13:16:02,1459,27628,17024,815,837,47762,549,453,94,674,548,105,646,530,108,549,453,94,Finisher,1372
+Joe,Van Der Wateren,Joe Van Der Wateren,661,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:16:35,7:14:05,5:27:24,,,13:16:40,995,26045,19644,633,483,47800,550,454,76,499,421,62,560,473,78,550,454,76,Finisher,1456
+Jaco,Van Der Wateren,Jaco Van Der Wateren,782,M50-54,Male,mokopane,Limpopo,South Africa,ZA,0:16:35,7:10:26,5:28:56,,,13:16:51,995,25826,19736,640,614,47811,551,455,50,498,420,46,546,462,51,551,455,50,Finisher,1532
+Dawie,Senekal,Dawie Senekal,770,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:14:28,6:45:12,6:00:49,,,13:16:52,868,24312,21649,505,478,47812,552,456,51,338,300,28,442,384,41,552,456,51,Finisher,1532
+Cobus,Haasbroek,Cobus Haasbroek,712,M50-54,Male,Durbanville,Western Cape,South Africa,ZA,0:18:17,7:24:14,5:24:13,,,13:17:46,1097,26654,19453,269,393,47866,553,457,52,591,483,53,577,484,54,553,457,52,Finisher,1521
+Marius,Van Der Merwe,Marius Van Der Merwe,660,M45-49,Male,Centurion,Gauteng,South Africa,ZA,0:18:52,7:33:09,5:11:53,,,13:19:06,1132,27189,18713,533,380,47946,554,458,77,611,499,78,612,509,85,554,458,77,Finisher,1427
+Will,Heystek,Will Heystek,433,M40-44,Male,Boksburg,Gauteng,South Africa,ZA,0:21:34,6:45:52,6:03:14,,,13:21:12,1294,24352,21794,254,377,48072,555,459,95,654,529,101,458,396,83,555,459,95,Finisher,1310
+Christine,Botha,Christine Botha,1045,F50-54,Female,Pretoria,Gauteng,South Africa,ZA,0:21:31,7:38:49,5:01:21,,,13:21:35,1291,27529,18081,636,558,48095,556,97,10,652,125,12,636,112,10,556,97,10,Finisher,2520
+Andrew,Mckeaveney,Andrew Mckeaveney,463,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:17:41,7:55:08,4:53:50,,,13:21:56,1061,28508,17630,435,482,48116,557,460,96,567,463,85,650,533,109,557,460,96,Finisher,1301
+Stephen,Phillipson,Stephen Phillipson,841,M55-59,Male,Despatch,Eastern Cape,South Africa,ZA,0:09:55,7:07:30,5:48:43,,,13:22:14,595,25650,20923,447,518,48134,558,461,34,16,14,1,512,437,34,558,461,34,Finisher,2011
+Kristian,Fesel,Kristian Fesel,568,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,0:15:37,6:48:29,6:08:28,,,13:22:52,937,24509,22108,282,335,48172,559,462,78,426,367,53,445,387,64,559,462,78,Finisher,1381
+Herbert,Grobler,Herbert Grobler,267,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,0:17:42,7:28:08,5:17:46,,,13:23:07,1062,26888,19066,626,545,48187,560,463,92,571,467,97,597,500,100,560,463,92,Finisher,1246
+Imtiaz,Goondiwalla,Imtiaz Goondiwalla,582,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:16:59,6:56:06,5:47:17,,,13:23:12,1019,24966,20837,663,707,48192,561,464,79,520,436,66,508,433,73,561,464,79,Finisher,1377
+Gerhard,Gous,Gerhard Gous,873,M60-64,Male,Stellenbosch,Western Cape,South Africa,ZA,0:16:35,6:31:47,6:17:24,,,13:23:14,995,23507,22644,529,519,48194,562,465,8,497,419,8,390,342,7,562,465,8,Finisher,2854
+Johan,Swanepoel,Johan Swanepoel,652,M45-49,Male,Windhoek,Other,Namibia,NA,0:23:20,7:07:44,5:36:06,,,13:23:28,1400,25664,20166,525,454,48208,563,466,80,670,544,94,554,468,76,563,466,80,Finisher,1374
+Marc,Theron,Marc Theron,505,M40-44,Male,Bloemfontein,,South Africa,ZA,0:14:07,7:05:12,5:50:33,,,13:23:31,847,25512,21033,298,521,48211,564,467,97,299,267,55,509,434,90,564,467,97,Finisher,1282
+Paddy,Cloete,Paddy Cloete,1014,F45-49,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:17:18,7:27:15,5:29:14,,,13:23:41,1038,26835,19754,241,352,48221,565,98,21,547,97,22,582,95,23,565,98,21,Finisher,2878
+Sarel,Theron,Sarel Theron,349,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,0:14:11,7:26:09,5:25:31,,,13:23:58,851,26769,19531,564,522,48238,566,468,93,307,275,65,585,490,97,566,468,93,Finisher,1235
+Dmitrii,Demchuk,Dmitrii Demchuk,250,M35-39,Male,Moscow,,Russia,RU,0:16:38,7:47:54,5:04:21,,,13:26:02,998,28074,18261,276,753,48362,567,469,94,501,423,89,634,524,102,567,469,94,Finisher,1211
+Abrie,Coetzee,Abrie Coetzee,551,M45-49,Male,Roodepoort,Gauteng,South Africa,ZA,0:21:49,7:24:21,5:23:29,,,13:26:08,1309,26661,19409,455,534,48368,568,470,81,659,533,90,591,494,83,568,470,81,Finisher,1342
+Dale,Middleton,Dale Middleton,170,M30-34,Male,Somerset West,Western Cape,South Africa,ZA,0:13:55,7:25:04,5:31:19,,,13:26:21,835,26704,19879,466,496,48381,569,471,62,284,254,39,576,483,61,569,471,62,Finisher,1470
+Nazeer,Vania,Nazeer Vania,855,M55-59,Male,Durban,KwaZulu-Natal,South Africa,ZA,0:21:43,6:34:28,6:06:14,,,13:26:39,1303,23668,21974,768,686,48399,570,472,35,656,531,45,446,388,29,570,472,35,Finisher,1958
+Andries,Whiteman,Andries Whiteman,676,M45-49,Male,Brakpan,Gauteng,South Africa,ZA,0:19:22,6:51:02,5:56:02,,,13:27:25,1162,24662,21362,779,479,48445,571,473,82,622,507,80,505,430,72,571,473,82,Finisher,1327
+Travis,Leeuw,Travis Leeuw,291,M35-39,Male,Bloemfontein,Free State,South Africa,ZA,0:14:12,7:22:00,5:37:11,,,13:27:51,852,26520,20231,497,372,48471,572,474,95,308,276,66,568,478,94,572,474,95,Finisher,1189
+St John,Wallis,St John Wallis,367,M35-39,Male,Randburg,Gauteng,South Africa,ZA,0:14:39,7:11:05,5:42:01,,,13:28:03,879,25865,20521,666,551,48483,573,475,96,358,317,72,543,459,89,573,475,96,Finisher,1186
+Frans,Luck,Frans Luck,295,M35-39,Male,Middelburg,Mpumalanga,South Africa,ZA,0:08:46,7:34:38,5:32:31,,,13:29:00,526,27278,19951,285,499,48540,574,476,97,4,3,1,579,485,95,574,476,97,Finisher,1175
+Craig,Smit,Craig Smit,70,M18-24,Male,Cape Town,,South Africa,ZA,0:13:36,8:03:26,5:02:52,,,13:29:01,816,29006,18172,266,283,48541,575,477,9,245,220,5,654,537,10,575,477,9,Finisher,1493
+Colin,Hertzog,Colin Hertzog,719,M50-54,Male,,Mpumalanga,South Africa,ZA,0:15:30,7:17:00,5:39:50,,,13:29:41,930,26220,20390,549,492,48581,576,478,53,419,362,39,561,474,52,576,478,53,Finisher,1378
+Wane,Rossouw,Wane Rossouw,764,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:12:19,6:40:04,6:20:53,,,13:31:57,739,24004,22853,535,586,48717,577,479,54,124,112,12,412,360,38,577,479,54,Finisher,1351
+Adriaan,Venter,Adriaan Venter,520,M40-44,Male,Kimberley,Northern Cape,South Africa,ZA,0:19:09,6:54:27,6:04:43,,,13:32:05,1149,24867,21883,431,395,48725,578,480,98,618,503,96,494,424,89,578,480,98,Finisher,1179
+John,Cronje,John Cronje,867,M60-64,Male,North Riding,Gauteng,South Africa,ZA,0:20:16,7:08:53,5:44:04,,,13:32:15,1216,25733,20644,619,523,48735,579,481,9,636,514,14,552,467,10,579,481,9,Finisher,2746
+Carlie,Venter,Carlie Venter,1004,F40-44,Female,Kimberley,Northern Cape,South Africa,ZA,0:19:30,6:54:17,6:02:49,,,13:32:26,1170,24857,21769,437,513,48746,580,99,17,625,117,19,496,71,12,580,99,17,Finisher,2211
+Andrew,Van Den Honert,Andrew Van Den Honert,202,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:21:38,7:30:07,5:27:20,,,13:32:36,1298,27007,19640,417,394,48756,581,482,63,655,530,72,607,507,64,581,482,63,Finisher,1395
+Michaela,Van Den Honert,Michaela Van Den Honert,922,F25-29,Female,Cape Town,Western Cape,South Africa,ZA,0:21:46,7:32:40,5:27:29,,,13:32:44,1306,27160,19649,268,381,48764,582,100,10,658,126,12,608,101,10,582,100,10,Finisher,2249
+Alex,Clay,Alex Clay,695,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:14:05,7:03:00,6:00:17,,,13:32:52,845,25380,21617,265,665,48772,583,483,55,295,264,22,497,426,45,583,483,55,Finisher,1340
+Abhishek,Nanaware,Abhishek Nanaware,66,M18-24,Male,Baramati,MAHARASHTRA,India,IN,0:17:02,7:13:32,5:52:07,,,13:33:14,1022,26012,21127,357,276,48794,584,484,10,527,439,10,540,458,8,584,484,10,Finisher,1442
+Lloyd,Marlowe,Lloyd Marlowe,459,M40-44,Male,Sandton,Gauteng,South Africa,ZA,0:22:24,7:47:45,5:16:17,,,13:34:05,1344,28065,18977,245,214,48845,585,485,99,664,538,102,642,529,107,585,485,99,Finisher,1155
+Cobus,Coetsee,Cobus Coetsee,399,M40-44,Male,Strand,Western Cape,South Africa,ZA,0:14:50,6:45:39,6:18:27,,,13:34:19,890,24339,22707,461,463,48859,586,486,100,376,333,64,443,385,81,586,486,100,Finisher,1152
+Sean,Johnston,Sean Johnston,272,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,0:20:44,6:58:20,6:00:45,,,13:35:52,1244,25100,21645,432,531,48952,587,487,98,643,521,103,515,439,86,587,487,98,Finisher,1093
+Ashley,Cook,Ashley Cook,553,M45-49,Male,Benore,,South Africa,ZA,0:17:48,7:36:08,5:17:45,,,13:36:05,1068,27368,19065,662,801,48965,588,488,83,578,473,75,625,519,88,588,488,83,Finisher,1223
+Michael,Punnett,Michael Punnett,846,M55-59,Male,Edenvale,Gauteng,South Africa,ZA,0:17:42,7:30:48,5:30:07,,,13:36:26,1062,27048,19807,605,465,48986,589,489,36,572,468,37,605,506,42,589,489,36,Finisher,1841
+Morgan,Morrison,Morgan Morrison,1079,F60-64,Female,Bot River,Western Cape,South Africa,ZA,0:18:44,7:02:33,6:03:56,,,13:36:38,1124,25353,21836,269,415,48998,590,101,4,606,109,4,514,76,3,590,101,4,Finisher,3833
+Karen,Seals,Karen Seals,1068,F55-59,Female,Hillcrest,KwaZulu-Natal,South Africa,ZA,0:17:01,7:31:56,5:36:08,,,13:36:50,1021,27116,20168,285,420,49010,591,102,5,526,88,5,590,97,5,591,102,5,Finisher,3194
+Hennie,Van Eck,Hennie Van Eck,902,M65-69,Male,Gqeberha,Eastern Cape,South Africa,ZA,0:10:52,7:21:46,5:51:22,,,13:37:06,652,26506,21082,265,520,49026,592,490,1,36,33,1,545,461,1,592,490,1,Finisher,5000
+Cobus,Fourie,Cobus Fourie,871,M60-64,Male,Middelburg,Mpumalanga,South Africa,ZA,0:18:24,7:08:21,5:52:41,,,13:38:18,1104,25701,21161,531,601,49098,593,491,10,597,489,13,538,456,9,593,491,10,Finisher,2673
+Riaan,Fourie,Riaan Fourie,572,M45-49,Male,CENTURION,Gauteng,South Africa,ZA,0:16:41,7:12:48,5:41:03,,,13:38:36,1001,25968,20463,936,748,49116,594,492,84,506,426,63,572,481,79,594,492,84,Finisher,1193
+Nicholas,Newman,Nicholas Newman,470,M40-44,Male,Bloemfontein,Free State,South Africa,ZA,0:16:10,7:12:24,5:57:53,,,13:39:49,970,25944,21473,285,517,49189,595,493,101,465,393,76,532,451,96,595,493,101,Finisher,1086
+Jacobus Nicolas,Swart,Jacobus Nicolas Swart,346,M35-39,Male,,Limpopo,South Africa,ZA,0:16:31,7:47:57,5:22:18,,,13:41:47,991,28077,19338,534,367,49307,596,494,99,488,410,87,640,528,104,596,494,99,Finisher,1022
+Darryn,Jacobus,Darryn Jacobus,156,M30-34,Male,Roodepoort,Gauteng,South Africa,ZA,0:13:47,7:17:00,5:59:11,,,13:42:28,827,26220,21551,463,286,49348,597,495,64,264,236,37,550,465,59,597,495,64,Finisher,1277
+Nic,Jacobs,Nic Jacobs,594,M45-49,Male,Hartenbos,Western Cape,South Africa,ZA,0:17:45,6:23:08,6:41:42,,,13:43:16,1065,22988,24102,664,577,49396,598,496,85,574,470,74,365,320,54,598,496,85,Finisher,1137
+Karen,Trotman-Pitt,Karen Trotman-Pitt,1057,F50-54,Female,Cape Town,Western Cape,South Africa,ZA,0:19:40,7:47:24,5:15:59,,,13:43:48,1180,28044,18959,648,596,49428,599,103,11,628,119,11,645,116,11,599,103,11,Finisher,2254
+Johannes Christiaan,Krugell,Johannes Christiaan Krugell,283,M35-39,Male,Secunda,Mpumalanga,South Africa,ZA,0:14:08,7:26:54,5:48:07,,,13:43:54,848,26814,20887,445,439,49434,600,497,100,304,272,63,580,486,96,600,497,100,Finisher,1000
+David Ray,Zimmerman,David Ray Zimmerman,898,M60-64,Male,Eaton Rapids,MI,United States,US,0:18:23,7:27:18,5:33:11,,,13:44:14,1103,26838,19991,754,768,49454,601,498,11,594,486,12,603,505,11,601,498,11,Finisher,2602
+Mauritz,Lombaard,Mauritz Lombaard,830,M55-59,Male,Benoni,Gauteng,South Africa,ZA,0:14:35,6:48:10,6:29:13,,,13:44:18,875,24490,23353,252,487,49458,602,499,37,349,310,21,435,379,28,602,499,37,Finisher,1746
+Catherine,Sweetnam,Catherine Sweetnam,1035,F45-49,Female,Port Elizabeth,,South Africa,ZA,0:15:26,6:54:32,6:24:14,,,13:45:08,926,24872,23054,246,410,49508,603,104,22,415,55,10,465,64,10,603,104,22,Finisher,2621
+Martin ,Langley ,Martin Langley,447,M40-44,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:18:23,7:18:01,5:53:00,,,13:45:11,1103,26281,21180,507,441,49511,604,500,102,595,487,89,570,480,99,604,500,102,Finisher,1022
+Harald,Oswin,Harald Oswin,106,M25-29,Male,,Gauteng,South Africa,ZA,0:17:20,7:40:52,5:31:50,,,13:45:44,1040,27652,19910,474,466,49544,605,501,36,550,453,35,629,521,36,605,501,36,Finisher,1312
+Gellie,Bibis,Gellie Bibis,796,M55-59,Male,VEREENIGING,Gauteng,South Africa,ZA,0:14:00,7:08:10,6:09:32,,,13:46:00,840,25690,22172,402,456,49560,606,502,38,291,261,15,521,445,38,606,502,38,Finisher,1726
+Werner,Herholdt,Werner Herholdt,432,M40-44,Male,Boksburg,Gauteng,South Africa,ZA,0:23:05,7:42:55,5:17:29,,,13:47:36,1385,27775,19049,1063,384,49656,607,503,103,668,542,103,662,542,110,607,503,103,Finisher,1000
+Stephen,Du Preez,Stephen Du Preez,254,M35-39,Male,Port Elizabeth,,South Africa,ZA,0:14:25,6:52:18,6:19:43,,,13:47:55,865,24738,22783,542,746,49675,608,504,101,334,296,69,472,405,79,608,504,101,Finisher,1000
+Floricius,Beukes,Floricius Beukes,686,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,0:17:41,7:45:01,5:34:13,,,13:49:15,1061,27901,20053,250,489,49755,609,505,56,570,466,51,631,522,57,609,505,56,Finisher,1143
+Vian,Strydom,Vian Strydom,501,M40-44,Male,,,South Africa,ZA,0:12:44,6:57:46,6:23:18,,,13:50:19,764,25066,22998,256,735,49819,610,506,104,170,152,32,468,402,85,610,506,104,Finisher,1000
+Christopher,George,Christopher George,905,M75-79,Male,OX1 5HH,Other,United Kingdom,GB,0:19:34,7:35:00,5:38:15,,,13:50:25,1174,27300,20295,593,464,49825,611,507,1,626,509,1,624,518,1,611,507,1,Finisher,5000
+Nicola,Portela,Nicola Portela,969,F35-39,Female,South Africa,,South Africa,ZA,0:15:35,7:51:39,5:17:27,,,13:50:52,935,28299,19047,878,693,49852,612,105,19,425,59,12,655,118,21,612,105,19,Finisher,1864
+James,Popper,James Popper,844,M55-59,Male,Centurion,Gauteng,South Africa,ZA,0:14:39,5:58:28,7:25:28,,,13:51:10,879,21508,26728,401,354,49870,613,508,39,357,316,22,225,207,13,613,508,39,Finisher,1664
+Thuthuka,Songelwa,Thuthuka Songelwa,1000,F40-44,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:27:07,7:57:26,5:18:35,,,13:52:18,1627,28646,19115,270,280,49938,614,106,18,682,127,21,665,121,20,614,106,18,Finisher,1973
+Abdul,Rawoot,Abdul Rawoot,640,M45-49,Male,Cape Town,,South Africa,ZA,0:25:41,7:45:55,5:23:37,,,13:52:38,1541,27955,19417,536,510,49958,615,509,86,678,552,95,652,535,91,615,509,86,Finisher,1024
+Lucia Maria,Altini,Lucia Maria Altini,964,F35-39,Female,Johannesburg,Gauteng,South Africa,ZA,0:14:29,7:31:30,5:55:24,,,13:53:09,869,27090,21324,261,445,49989,616,107,20,341,39,11,586,96,18,616,107,20,Finisher,1837
+Tilly,Ferreira,Tilly Ferreira,1019,F45-49,Female,Bloemfontein,Free State,South Africa,ZA,0:17:08,7:40:24,5:40:13,,,13:54:23,1028,27624,20413,494,504,50063,617,108,23,535,93,21,628,108,26,617,108,23,Finisher,2510
+Meagan,Rioux,Meagan Rioux,920,F25-29,Female,Cape Town,Western Cape,South Africa,ZA,0:16:42,7:53:10,5:23:51,,,13:54:24,1002,28390,19431,594,647,50064,618,109,11,507,81,10,649,117,11,618,109,11,Finisher,1989
+Pieter Daniel,Koegelenberg,Pieter Daniel Koegelenberg,438,M40-44,Male,Wellington,Western Cape,South Africa,ZA,0:23:06,7:29:01,5:39:44,,,13:54:52,1386,26941,20384,615,766,50092,619,510,105,669,543,104,618,514,106,619,510,105,Finisher,1000
+Gertjie,De Beer,Gertjie De Beer,1015,F45-49,Female,Marble Hall,Limpopo,South Africa,ZA,0:18:14,7:43:27,5:44:11,,,13:56:06,1094,27807,20651,297,316,50166,620,110,24,589,108,26,630,109,27,620,110,24,Finisher,2489
+Altus,Neethling,Altus Neethling,174,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,0:16:03,7:44:33,5:43:24,,,13:56:23,963,27873,20604,275,468,50183,621,511,65,458,389,59,626,520,66,621,511,65,Finisher,1110
+Elnae,Neethling,Elnae Neethling,907,F18-24,Female,Plettenberg Bay,Western Cape,South Africa,ZA,0:16:19,7:40:24,5:43:23,,,13:56:38,979,27624,20603,524,468,50198,622,111,3,474,75,3,627,107,3,622,111,3,Finisher,2251
+Max,Ruppert,Max Ruppert,888,M60-64,Male,Somerset West,,South Africa,ZA,0:16:38,7:46:02,5:37:54,,,13:56:43,998,27962,20274,285,685,50203,623,512,12,502,424,9,632,523,14,623,512,12,Finisher,2452
+Megan,Newman,Megan Newman,937,F30-34,Female,,,South Africa,ZA,0:21:11,7:40:27,5:39:17,,,13:57:10,1271,27627,20357,522,453,50230,624,112,16,647,123,16,635,111,15,624,112,16,Finisher,1209
+Vrastil,Miroslav,Vrastil Miroslav,904,M70-74,Male,Olomouc,Intl State,Czech Republic,CZ,0:17:41,6:56:22,6:30:05,,,13:57:49,1061,24982,23405,490,332,50269,625,513,1,568,464,1,499,428,1,625,513,1,Finisher,5000
+Franzt,Struwig,Franzt Struwig,894,M60-64,Male,Gqeberha,Eastern Cape,South Africa,ZA,0:15:40,7:36:30,5:47:39,,,13:58:27,940,27390,20859,542,576,50307,626,514,13,430,371,5,614,511,13,626,514,13,Finisher,2431
+Keith,Vienings,Keith Vienings,857,M55-59,Male,Somerset West,,South Africa,ZA,0:13:18,7:08:01,6:23:11,,,13:59:08,798,25681,22991,298,580,50348,627,515,40,223,199,9,516,440,35,627,515,40,Finisher,1568
+Paul,Cane,Paul Cane,801,M55-59,Male,Ashton under Lyne,,United Kingdom,GB,0:17:52,7:13:56,6:13:39,,,13:59:52,1072,26036,22419,404,463,50392,628,516,41,581,476,39,551,466,39,628,516,41,Finisher,1559
+Kimm,Taljaard,Kimm Taljaard,921,F25-29,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:14:50,8:03:56,5:33:16,,,14:00:43,890,29036,19996,270,250,50443,629,113,12,377,44,7,660,120,12,629,113,12,Finisher,1914
+Kura,Mazongo,Kura Mazongo,617,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:22:32,8:30:52,4:50:02,,,14:01:44,1352,30652,17402,599,500,50504,630,517,87,666,540,92,683,556,97,630,517,87,Finisher,1000
+Marta,Jekot,Marta Jekot,1022,F45-49,Female,Kommetjie,Western Cape,South Africa,ZA,0:16:02,7:12:31,6:19:52,,,14:04:10,962,25951,22792,491,454,50650,631,114,25,457,69,14,542,84,19,631,114,25,Finisher,2393
+Johan,Van Niekerk,Johan Van Niekerk,514,M40-44,Male,Dubai,Dubai,South Africa,ZA,0:20:18,7:26:13,5:57:02,,,14:04:53,1218,26773,21422,672,607,50693,632,518,106,637,515,99,599,501,103,632,518,106,Finisher,1000
+Greg,Bortz,Greg Bortz,543,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:12:37,8:04:36,5:28:51,,,14:05:11,757,29076,19731,678,470,50711,633,519,88,156,140,20,664,544,93,633,519,88,Finisher,1000
+Arnold Hermanus,Olivier,Arnold Hermanus Olivier,885,M60-64,Male,Somerset west,Western Cape,South Africa,ZA,0:21:15,7:37:24,5:37:58,,,14:06:25,1275,27444,20278,821,967,50785,634,520,14,649,526,16,639,527,15,634,520,14,Finisher,2336
+Luigi,Marinus,Luigi Marinus,458,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,0:28:17,7:20:49,5:57:50,,,14:06:28,1697,26449,21470,547,624,50788,635,521,107,683,556,109,602,504,105,635,521,107,Finisher,1000
+Bryan,Cordes,Bryan Cordes,804,M55-59,Male,Pinetown,KwaZulu-Natal,South Africa,ZA,0:13:37,6:44:53,6:57:46,,,14:07:36,817,24293,25066,243,437,50856,636,522,42,249,224,12,419,366,26,636,522,42,Finisher,1467
+Sean,Van Kerckhoven,Sean Van Kerckhoven,206,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:16:40,7:53:11,5:37:52,,,14:08:24,1000,28391,20272,592,649,50904,637,523,66,504,425,64,648,532,67,637,523,66,Finisher,1000
+Yusuf,Suliman,Yusuf Suliman,776,M50-54,Male,Johannesburg,,South Africa,ZA,0:21:56,7:23:11,5:59:42,,,14:10:49,1316,26591,21582,958,602,51049,638,524,57,660,534,58,613,510,56,638,524,57,Finisher,1000
+Jacques,Fourie,Jacques Fourie,573,M45-49,Male,Stellenbosch,Western Cape,South Africa,ZA,0:21:21,7:34:09,5:59:36,,,14:11:09,1281,27249,21576,496,468,51069,639,525,89,650,527,89,623,517,87,639,525,89,Finisher,1000
+Kaleo,Fourie,Kaleo Fourie,948,F35-39,Female,Stellenbosch,Western Cape,South Africa,ZA,0:21:30,8:31:43,4:58:56,,,14:11:18,1290,30703,17936,597,552,51078,640,115,21,651,124,22,682,127,22,640,115,21,Finisher,1619
+Avian,Barnett,Avian Barnett,536,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:16:49,8:14:49,5:22:39,,,14:11:49,1009,29689,19359,500,553,51109,641,526,90,516,432,65,671,550,94,641,526,90,Finisher,1000
+Paul Daneel,Kruger,Paul Daneel Kruger,444,M40-44,Male,Sheidow Park,South Australia ,South Africa,ZA,0:17:40,7:11:41,6:27:41,,,14:12:31,1060,25901,23261,411,518,51151,642,527,108,566,462,84,539,457,98,642,527,108,Finisher,1000
+Clint,Barratt,Clint Barratt,537,M45-49,Male,East London,Eastern Cape,South Africa,ZA,0:14:12,7:28:58,6:04:45,,,14:13:07,852,26938,21885,488,1024,51187,643,528,91,311,279,37,587,491,82,643,528,91,Finisher,1000
+Mark,Hiep,Mark Hiep,721,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,0:24:50,7:57:33,5:30:15,,,14:13:46,1490,28653,19815,767,501,51226,644,529,58,677,551,61,668,547,60,644,529,58,Finisher,1000
+Celeste,Van Rensburg,Celeste Van Rensburg,1071,F55-59,Female,Fonthill,ON,Canada,CA,0:17:37,7:48:42,5:58:00,,,14:17:34,1057,28122,21480,430,365,51454,645,116,6,564,103,6,641,113,6,645,116,6,Finisher,2705
+Inke,Van Wyk,Inke Van Wyk,1060,F50-54,Female,Pretoria,Gauteng,South Africa,ZA,0:30:37,8:06:37,5:21:15,,,14:17:52,1837,29197,19275,674,489,51472,646,117,12,684,128,13,676,123,12,646,117,12,Finisher,1845
+Tracey,Housdon,Tracey Housdon,1051,F50-54,Female,CapeTown,Western Cape,South Africa,ZA,0:19:01,8:28:32,5:09:30,,,14:18:42,1141,30512,18570,656,643,51522,647,118,13,615,114,10,680,125,13,647,118,13,Finisher,1835
+Neil,Nortje,Neil Nortje,753,M50-54,Male,Centurion,Gauteng,South Africa,ZA,0:16:43,7:08:39,6:35:40,,,14:19:24,1003,25719,23740,518,584,51564,648,530,59,508,427,47,534,453,48,648,530,59,Finisher,1000
+Olof Abraham,Vorster,Olof Abraham Vorster,215,M30-34,Male,Midvaal,Gauteng,South Africa,ZA,0:18:54,7:38:49,6:06:31,,,14:19:46,1134,27529,21991,274,658,51586,649,531,67,612,500,70,617,513,65,649,531,67,Finisher,1000
+Kevin John,Mckinney,Kevin John Mckinney,703,M50-54,Male,Cape Town,,South Africa,ZA,0:21:31,7:50:58,5:43:29,,,14:20:00,1291,28258,20609,605,837,51600,650,532,60,653,528,57,658,539,59,650,532,60,Finisher,1000
+Jac,Cilliers,Jac Cilliers,238,M35-39,Male,Douglas,Northern Cape,South Africa,ZA,0:18:15,7:11:20,6:26:05,,,14:20:02,1095,25880,23165,728,734,51602,651,533,102,590,482,99,562,475,93,651,533,102,Finisher,1000
+Julia,Kearns,Julia Kearns,1023,F45-49,Female,Cape Town,Western Cape,South Africa,ZA,0:15:53,7:53:34,5:58:21,,,14:20:21,953,28414,21501,396,358,51621,652,119,26,444,65,13,643,114,28,652,119,26,Finisher,2198
+Herman,Van Niekerk,Herman Van Niekerk,358,M35-39,Male,Middelburg,Mpumalanga,South Africa,ZA,0:18:26,7:42:13,6:00:18,,,14:20:34,1106,27733,21618,646,531,51634,653,534,103,599,491,101,637,525,103,653,534,103,Finisher,1000
+Michael,Webb,Michael Webb,881,M60-64,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:12:10,7:35:45,6:10:48,,,14:20:42,730,27345,22248,660,661,51642,654,535,15,106,95,2,609,508,12,654,535,15,Finisher,2164
+Jc,Van Niekerk,Jc Van Niekerk,207,M30-34,Male,Henley Beach South,SA,South Africa,ZA,0:17:44,7:51:25,5:44:03,,,14:20:56,1064,28285,20643,775,889,51656,655,536,68,573,469,68,656,538,68,655,536,68,Finisher,1000
+Lara,Van Heerden,Lara Van Heerden,1038,F45-49,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:16:10,7:35:31,6:15:51,,,14:25:30,970,27331,22551,551,526,51930,656,120,27,466,73,15,611,103,24,656,120,27,Finisher,2137
+Reon,Van Rensburg,Reon Van Rensburg,666,M45-49,Male,Gqeberha,Eastern Cape,South Africa,ZA,0:20:11,7:37:30,6:11:15,,,14:27:51,1211,27450,22275,292,842,52071,657,537,92,633,513,83,619,515,86,657,537,92,Finisher,1000
+Samantha,Harper,Samantha Harper,952,F35-39,Female,Cape Town,Western Cape,South Africa,ZA,0:17:21,7:35:45,6:15:47,,,14:28:41,1041,27345,22547,580,607,52121,658,121,22,551,98,19,620,105,19,658,121,22,Finisher,1410
+Marta,Bianconi-Smith,Marta Bianconi-Smith,1009,F45-49,Female,Cape Town,Western Cape,Italy,IT,0:17:29,7:35:36,6:15:47,,,14:29:00,1049,27336,22547,587,621,52140,659,122,28,555,100,23,621,106,25,659,122,28,Finisher,2095
+Shawn,Ehlert,Shawn Ehlert,564,M45-49,Male,Centurion,Gauteng,South Africa,ZA,0:16:47,7:46:37,5:55:49,,,14:29:09,1007,27997,21349,1013,783,52149,660,538,93,515,431,64,651,534,90,660,538,93,Finisher,1000
+Barend,Preez,Barend Preez,253,M35-39,Male,Groblersdal,Limpopo,South Africa,ZA,0:19:46,7:57:17,6:03:58,,,14:30:04,1186,28637,21838,244,299,52204,661,539,104,629,510,102,653,536,105,661,539,104,Finisher,1000
+Russell,Harris,Russell Harris,817,M55-59,Male,Johannesburg,Gauteng,South Africa,ZA,0:17:16,8:12:36,5:43:25,,,14:31:15,1036,29556,20605,597,482,52275,662,540,43,546,450,35,670,549,45,662,540,43,Finisher,1183
+Justin,Butler,Justin Butler,132,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:16:55,8:18:08,5:41:37,,,14:33:00,1015,29888,20497,406,575,52380,663,541,69,518,434,66,673,552,71,663,541,69,Finisher,1000
+Mayur,Pharande,Mayur Pharande,316,M35-39,Male,Phaltan,Free State,India,IN,0:21:46,7:57:00,6:04:08,,,14:33:22,1306,28620,21848,288,340,52402,664,542,105,657,532,104,661,541,106,664,542,105,Finisher,1000
+Mahendra,Chhoriya,Mahendra Chhoriya,549,M45-49,Male,Nashik,Maharashta,India,IN,0:20:33,7:54:00,5:58:18,,,14:33:42,1233,28440,21498,607,644,52422,665,543,94,640,518,86,663,543,92,665,543,94,Finisher,1000
+Basil,Bibis,Basil Bibis,795,M55-59,Male,Edenvale,Gauteng,South Africa,ZA,0:16:26,7:41:39,6:27:45,,,14:35:27,986,27699,23265,222,355,52527,666,544,44,483,406,30,615,512,43,666,544,44,Finisher,1132
+Lee-Ann,Barnes,Lee-Ann Barnes,980,F40-44,Female,Cape Town,Western Cape,South Africa,ZA,0:16:59,8:01:21,6:04:46,,,14:37:20,1019,28881,21886,249,605,52640,667,123,19,521,85,13,657,119,19,667,123,19,Finisher,1433
+Bernard,Lodewyk,Bernard Lodewyk,734,M50-54,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:14:23,8:16:53,5:55:13,,,14:38:06,863,29813,21313,293,405,52686,668,545,61,330,292,26,669,548,61,668,545,61,Finisher,1000
+Anita,Kessels,Anita Kessels,989,F40-44,Female,Changchun ,,Netherlands,NL,0:16:40,7:39:04,6:28:41,,,14:38:40,1000,27544,23321,387,469,52720,669,124,20,505,80,12,616,104,18,669,124,20,Finisher,1417
+Petro,Labuschagne,Petro Labuschagne,992,F40-44,Female,Centurion,Gauteng,South Africa,ZA,0:18:45,8:20:17,5:46:58,,,14:39:10,1125,30017,20818,432,357,52750,670,125,21,608,111,18,675,122,21,670,125,21,Finisher,1411
+Jonathan, stevens,Jonathan stevens,342,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:13:54,7:21:16,6:54:18,,,14:40:09,834,26476,24858,361,281,52809,671,546,106,276,247,60,558,471,92,671,546,106,Finisher,1000
+Goolam,Mohammed Ebrahim,Goolam Mohammed Ebrahim,621,M45-49,Male,Lenasia,Gauteng,South Africa,ZA,0:26:52,8:21:39,5:41:55,,,14:40:40,1612,30099,20515,255,359,52840,672,547,95,680,554,97,678,555,96,672,547,95,Finisher,1000
+Cobus,De Villiers,Cobus De Villiers,559,M45-49,Male,Paarl,Western Cape,South Africa,ZA,0:17:10,8:22:01,5:44:24,,,14:42:24,1030,30121,20664,680,449,52944,673,548,96,538,444,68,677,554,95,673,548,96,Finisher,1000
+Willem,Odendaal,Willem Odendaal,176,M30-34,Male,Gauteng,Gauteng,South Africa,ZA,0:17:00,8:12:20,5:58:16,,,14:43:36,1020,29540,21496,267,693,53016,674,549,70,523,437,67,666,545,69,674,549,70,Finisher,1000
+Ruan,Spies,Ruan Spies,187,M30-34,Male,0081,Gauteng,South Africa,ZA,0:14:08,8:10:41,5:58:16,,,14:43:52,848,29441,21496,578,669,53032,675,550,71,302,270,42,667,546,70,675,550,71,Finisher,1000
+Cameron Edward,Clarke,Cameron Edward Clarke,135,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,0:16:33,8:16:59,5:55:24,,,14:44:56,993,29819,21324,629,331,53096,676,551,72,493,415,62,674,553,72,676,551,72,Finisher,1000
+Prashant,Dabri,Prashant Dabri,806,M55-59,Male,Nashik,Maharashtra,India,IN,0:22:04,8:31:19,5:37:40,,,14:50:07,1324,30679,20260,670,475,53407,677,552,45,661,535,46,684,557,46,677,552,45,Finisher,1000
+Lourens Dewald,Van Der Nest,Lourens Dewald Van Der Nest,512,M40-44,Male,Pretoria,Gauteng,South Africa,ZA,0:16:36,7:12:54,7:05:00,,,14:50:25,996,25974,25500,288,668,53425,678,553,109,500,422,80,535,454,97,678,553,109,Finisher,1000
+Steven,Shimmings,Steven Shimmings,891,M60-64,Male,Amanzimtoti,KwaZulu-Natal,South Africa,ZA,0:16:17,8:14:15,6:05:05,,,14:53:58,977,29655,21905,568,533,53638,679,554,16,473,399,6,672,551,16,679,554,16,Finisher,1765
+Roberto,Palomino Moya,Roberto Palomino Moya,476,M40-44,Male,Alberton,,Colombia,CO,0:27:01,7:19:02,6:52:21,,,14:54:19,1621,26342,24741,478,477,53659,680,555,110,681,555,108,592,495,101,680,555,110,Finisher,1000
+Ingrid,Arning,Ingrid Arning,1073,F60-64,Female,Puerto del Carmen,,Paraguay,PY,0:19:25,7:48:24,6:34:10,,,15:04:38,1165,28104,23650,591,768,54278,681,126,5,624,116,5,644,115,5,681,126,5,Finisher,2777
+Gert,Wilkins,Gert Wilkins,861,M55-59,Male,Cape Town,Western Cape,South Africa,ZA,0:18:01,7:54:04,6:32:36,,,15:05:05,1081,28444,23556,656,567,54305,682,556,46,585,478,41,659,540,44,682,556,46,Finisher,1000
+Erika,Van Der Vlies,Erika Van Der Vlies,1069,F55-59,Female,Pretoria,Gauteng,South Africa,ZA,0:18:48,8:29:51,6:11:56,,,15:14:21,1128,30591,22316,254,571,54861,683,127,7,610,112,7,679,124,7,683,127,7,Finisher,2024
+Loise,De Kock,Loise De Kock,1074,F60-64,Female,Johannesburg,Gauteng,South Africa,ZA,0:20:12,8:32:25,6:09:23,,,15:19:00,1212,30745,22163,583,437,55140,684,128,6,634,121,6,681,126,6,684,128,6,Finisher,2605
+Michael,Price,Michael Price,638,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:17:41,7:41:38,6:56:29,,,15:19:12,1061,27698,24989,744,661,55152,685,557,97,569,465,73,638,526,89,685,557,97,Finisher,1000
+Matthias,Heuwerth,Matthias Heuwerth,591,M45-49,Male,Köln,Eastern Cape,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yoshimitsu,Kanai,Yoshimitsu Kanai,732,M50-54,Male,TOKYO,Other,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gonzalo,Mantecon Perez,Gonzalo Mantecon Perez,298,M35-39,Male,Teror,,Spain,ES,0:12:46,5:27:20,,,,,766,19640,0,249,373,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Mark,Buchel,Mark Buchel,691,M50-54,Male,Witfontein Ext 41,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dewald ,Mostert,Dewald Mostert,305,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Orazio,Gisabella,Orazio Gisabella,812,M55-59,Male,Catania,AE,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michelle ,Van Jaarsveld,Michelle Van Jaarsveld,1039,F45-49,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dimmie,De Milander,Dimmie De Milander,868,M60-64,Male,Somerset West,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luca,Bellucci,Luca Bellucci,73,M25-29,Male,Barcelona,BARCELONA [BARCELONA],Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marc,D'Hooge,Marc D'Hooge,805,M55-59,Male,Luxembourg,Luxembourg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ulrich,Königs,Ulrich Königs,826,M55-59,Male,Köln,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carlo,Barnard,Carlo Barnard,224,M35-39,Male,Durbanville,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Ferguson,Mark Ferguson,707,M50-54,Male,Southbroom,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Southgate,Scott Southgate,648,M45-49,Male,Wonersh,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rene,Otto,Rene Otto,886,M60-64,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wayne,Lutge ,Wayne Lutge,296,M35-39,Male,Gauteng,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,O'Donovan,Mike O'Donovan,754,M50-54,Male,CAPE TOWN,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hannes,Botes,Hannes Botes,866,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Piotr,Gasiorowski,Piotr Gasiorowski,578,M45-49,Male,Warsaw,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Wright,Richard Wright,791,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hannes,Marlin,Hannes Marlin,741,M50-54,Male,Bloubergstrand,WESTERN CAPE,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Walker,Michael Walker,673,M45-49,Male,Bloemfontein,Free State,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Thomas,Gafner,Thomas Gafner,576,M45-49,Male,Wangen,ZH,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Filmar,Claasen,Filmar Claasen,240,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wouter,Pentz,Wouter Pentz,758,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gustav,Klingbiel,Gustav Klingbiel,600,M45-49,Male,Groblersdal,Limpopo,South Africa,ZA,0:15:16,8:22:39,,,,,916,30159,0,445,425,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Elzabe,Potgieter,Elzabe Potgieter,967,F35-39,Female,Despatch,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Romain,Thery,Romain Thery,350,M35-39,Male,Levallois,Other,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Owen,Coetzee,Owen Coetzee,552,M45-49,Male,Gauteng,GAUTENG,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roy,Heine,Roy Heine,900,M65-69,Male,Nelspruit,Mpumalanga,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Muhammed,Dalal,Muhammed Dalal,246,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Roberto,Vinagre,Roberto Vinagre,903,M65-69,Male,Cuiabá,Other,Brazil,BR,0:14:44,8:50:48,,,,,884,31848,0,598,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Matthew,Bez,Matthew Bez,542,M45-49,Male,Phuket,Phuket,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rudolf,Langsteiner,Rudolf Langsteiner,827,M55-59,Male,Dobersberg,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Patrick,Geyer,Patrick Geyer,263,M35-39,Male,Zürich,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Fairon,Michael Fairon,705,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregor,Wolter,Gregor Wolter,789,M50-54,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roaan,Vorster,Roaan Vorster,787,M50-54,Male,Centurion,Gauteng,South Africa,ZA,0:19:29,,,,,,1169,0,0,654,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Paula,Somerville,Paula Somerville,941,F30-34,Female,Sandton,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dion,Roos,Dion Roos,110,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Felipe,Mora,Felipe Mora,171,M30-34,Male,Medellin,ANT,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jacques ,Hoffman,Jacques Hoffman,435,M40-44,Male,Edenvale,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jonathan,Delany,Jonathan Delany,249,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Genevieve,Ferreira,Genevieve Ferreira,1020,F45-49,Female,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gary,Marescia,Gary Marescia,739,M50-54,Male,Abu Dhabi,AUH,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Konstantin,Bugreev,Konstantin Bugreev,547,M45-49,Male,Moscow,"APO
+Moscow",Russia,RU,0:19:14,5:45:38,,,,,1154,20738,0,255,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Morne,Vorster,Morne Vorster,672,M45-49,Male,"DURBANVILLE, Cape Town",Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toon,Veldeman,Toon Veldeman,364,M35-39,Male,Dendermonde,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregorios,Stergiou,Gregorios Stergiou,893,M60-64,Male,Megara,Other,Greece,GR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Botha,Andrew Botha,545,M45-49,Male,Johannesburg South Africa,,South Africa,ZA,0:11:26,4:49:16,,,,,686,17356,0,253,198,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Petri,Bester,Petri Bester,945,F35-39,Female,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adriaan,Lategan,Adriaan Lategan,164,M30-34,Male,Bloemfontein,Free State,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Eriksson,Daniel Eriksson,567,M45-49,Male,Sandared,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ammaar,Gangat,Ammaar Gangat,147,M30-34,Male,Johannesburg,,South Africa,ZA,0:21:11,7:55:28,,,,,1271,28528,0,939,848,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Charlene,Moss,Charlene Moss,1031,F45-49,Female,East London,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jakobus S,Toit,Jakobus S Toit,351,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ruan,Van Zyl,Ruan Van Zyl,361,M35-39,Male,ROODEPOORT,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grant ,Burrows ,Grant Burrows,693,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Winston,Smith,Winston Smith,497,M40-44,Male,Springs,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amir,Ilyas,Amir Ilyas,724,M50-54,Male,AYLESBURY,BKM,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Millard,Éric,Millard Éric,863,M55-59,Male,Santenay,Other,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Leon,Naude,Leon Naude,309,M35-39,Male,Edenvale,Gauteng,South Africa,ZA,0:12:31,4:57:28,,,,,751,17848,0,263,151,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ivan,Pretorius,Ivan Pretorius,636,M45-49,Male,Gauteng,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benjamin,Thireau,Benjamin Thireau,507,M40-44,Male,Johannesburg,Gauteng,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Graham,Sheppard,Graham Sheppard,337,M35-39,Male,Midlothian,VA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Craig,Lazarus,Craig Lazarus,607,M45-49,Male,Melrose,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christo,Coetzee,Christo Coetzee,402,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joseba,Iriondo,Joseba Iriondo,725,M50-54,Male,sopela,,Spain,ES,0:12:31,,,,,,751,0,0,185,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Riekert,Van Schalkwyk,Riekert Van Schalkwyk,210,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Deine,Lubbe,Deine Lubbe,294,M35-39,Male,Vaalwater,Limpopo,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Georg,Van Der Merwe,Georg Van Der Merwe,659,M45-49,Male,Paarl,Western Cape,South Africa,ZA,0:25:41,8:35:39,,,,,1541,30939,0,710,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sebastian,Pahl,Sebastian Pahl,107,M25-29,Male,Cape Town,,Namibia,NA,0:10:16,5:34:45,,,,,616,20085,0,273,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sean,De Villiers,Sean De Villiers,412,M40-44,Male,Randburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Greg,Tolan,Greg Tolan,352,M35-39,Male,Roswell,Other,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grant,Macnair,Grant Macnair,735,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rickus,Potgieter,Rickus Potgieter,178,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lukas,Riederer,Lukas Riederer,763,M50-54,Male,Adliswil,ZURICH,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexey,Dmitriev,Alexey Dmitriev,561,M45-49,Male,Saint-Petersburg,,Russia,RU,0:16:33,,,,,,993,0,0,269,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Donovan,Geldenhuys,Donovan Geldenhuys,423,M40-44,Male,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francois,Gertze,Francois Gertze,709,M50-54,Male,24 Riverside Rd,Western Cape,South Africa,ZA,0:16:26,,,,,,986,0,0,547,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Eric,Gourdoux,Eric Gourdoux,584,M45-49,Male,Balma,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Travis,Kriedemann,Travis Kriedemann,443,M40-44,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Emanuele,Tragni,Emanuele Tragni,779,M50-54,Male,Roccabianca,Parma,Italy,IT,0:11:34,5:16:04,,,,,694,18964,0,276,235,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Stephen,Meijers,Stephen Meijers,883,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,0:14:25,5:58:07,,,,,865,21487,0,314,305,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Paul,Henshaw,Paul Henshaw,589,M45-49,Male,Pulborough,Other,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Neil,Wilson,Neil Wilson,372,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benoit,Maneval,Benoit Maneval,456,M40-44,Male,Sandton,Gauteng,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shae,Turner,Shae Turner,117,M25-29,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gert,Van Zyl,Gert Van Zyl,362,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hylton,Belitzky ,Hylton Belitzky,540,M45-49,Male,Kloof,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ari Hermann,Oddsson,Ari Hermann Oddsson,627,M45-49,Male,Mosfellsbær,,Iceland,IS,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Therese,Mitchell,Therese Mitchell,963,F35-39,Female,Potchefstroom,North West,South Africa,ZA,0:23:37,,,,,,1417,0,0,919,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Denys,Derzimanov,Denys Derzimanov,251,M35-39,Male,Kyiv,Other,Ukraine,UA,0:15:16,5:40:17,,,,,916,20417,0,243,326,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Martin,Kotzee,Martin Kotzee,603,M45-49,Male,Despatch,Eastern Cape,South Africa,ZA,0:19:12,8:20:32,,,,,1152,30032,0,645,549,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jp,Schlebusch,Jp Schlebusch,333,M35-39,Male,Coligny,North West,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Van Eden,Chris Van Eden,204,M30-34,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anthony,Gouveia,Anthony Gouveia,711,M50-54,Male,Sandton,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jon,Ekerold,Jon Ekerold,565,M45-49,Male,Piertermaritzberg,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Mcleod,Michael Mcleod,618,M45-49,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Evan,Cory,Evan Cory,556,M45-49,Male,Cape town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Moi,Gonzalez Martinez,Moi Gonzalez Martinez,710,M50-54,Male,AVIA,BARCELONA [BARCELONA],Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jacobus I,Burger,Jacobus I Burger,692,M50-54,Male,,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Elizna,Bam,Elizna Bam,1006,F45-49,Female,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stijn,Veldeman,Stijn Veldeman,517,M40-44,Male,Dendermonde,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christiaan,Supra,Christiaan Supra,345,M35-39,Male,Pretoria West,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon,Hopf,Simon Hopf,436,M40-44,Male,Zürich,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gawie,Wolmarans,Gawie Wolmarans,524,M40-44,Male,Pretoria,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sarel,Klopper,Sarel Klopper,278,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Deon,Haak,Deon Haak,816,M55-59,Male,"Sharonlea, Randburg",,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcel,Nauer,Marcel Nauer,750,M50-54,Male,Zürich,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Igor,Kovtun,Igor Kovtun,282,M35-39,Male,Kyiv,Kyiv,Ukraine,UA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andries,Aucamp,Andries Aucamp,381,M40-44,Male,Wellington,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Cherisse,Van Den Berg,Cherisse Van Den Berg,973,F35-39,Female,Amstelveen,,South Africa,ZA,0:19:25,,,,,,1165,0,0,374,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ernes,Stander,Ernes Stander,188,M30-34,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Greg,Nell,Greg Nell,469,M40-44,Male,Krugersdorp,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Baron,Paul Baron,226,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abdulaziz,Alhazeem,Abdulaziz Alhazeem,217,M35-39,Male,Kuwait,,Kuwait,KW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Salvatore,Zarbo,Salvatore Zarbo,792,M50-54,Male,POMEZIA,Other,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rustam,Sadykov,Rustam Sadykov,490,M40-44,Male,Fort St John,BC,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Moodie,Richard Moodie,303,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Norbert,Weinreich,Norbert Weinreich,859,M55-59,Male,Berlin,BE,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sidney,Jansen Van Vuuren,Sidney Jansen Van Vuuren,727,M50-54,Male,Nelspruit,Mpumalanga,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Charles,Nel,Charles Nel,62,M18-24,Male,pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Brook,Stevens,Brook Stevens,343,M35-39,Male,PRETORIA,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rianna,Louw,Rianna Louw,960,F35-39,Female,Johannesburg,Gauteng,South Africa,ZA,0:18:06,8:51:46,,,,,1086,31906,0,246,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Aisha,Ameen,Aisha Ameen,925,F30-34,Female,bayan block 6 street 5 house 6 avenue 2,Other,Kuwait,KW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sean,Julyan,Sean Julyan,159,M30-34,Male,Sandton,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Warrick,Mac Nicol,Warrick Mac Nicol,168,M30-34,Male,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ilya,Bublik,Ilya Bublik,234,M35-39,Male,Ekaterinburg,Sverdlovskaya obl,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Riaan,Van Jaarsveld,Riaan Van Jaarsveld,665,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Roodt,Daniel Roodt,325,M35-39,Male,Roodepoort,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Thorsten Oliver,Knekties,Thorsten Oliver Knekties,601,M45-49,Male,Berlin,Other,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Barrow,Andrew Barrow,685,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jayd,Burgins,Jayd Burgins,235,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ian,Faller,Ian Faller,706,M50-54,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Volodymyr,Bondarenko,Volodymyr Bondarenko,865,M60-64,Male,Kyiv,,Ukraine,UA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andries,Fourie,Andries Fourie,575,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hugo,Lemmen,Hugo Lemmen,829,M55-59,Male,Gauteng,,South Africa,ZA,0:12:31,5:22:55,,,,,751,19375,0,299,259,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Pontaleon,Van Rooyen,Pontaleon Van Rooyen,209,M30-34,Male,Nelspruit,Mpumalanga,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ernst Jocobus,Bruwer,Ernst Jocobus Bruwer,233,M35-39,Male,Robertson,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jan,Pokorny,Jan Pokorny,843,M55-59,Male,Kladno,KLADNO,Czech Republic,CZ,0:15:36,6:51:21,,,,,936,24681,0,246,717,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Johan,Henn,Johan Henn,875,M60-64,Male,Paarl,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francesco,Alberti,Francesco Alberti,530,M45-49,Male,Catania,Other,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Björn,Steinmetz,Björn Steinmetz,650,M45-49,Male,Wiesbaden,Other,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Keith,Fairhurst,Keith Fairhurst,870,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,0:19:46,,,,,,1186,0,0,639,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Tyrone ,Kotze,Tyrone Kotze,279,M35-39,Male,Swakopmund,Other,Namibia,NA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael Anthony,Tucker,Michael Anthony Tucker,896,M60-64,Male,Neu Isenburg,,United States,US,0:15:29,6:04:22,,,,,929,21862,0,258,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+James,Welsh,James Welsh,897,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,0:14:17,5:44:15,,,,,857,20655,0,351,239,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Justin,Bothma,Justin Bothma,76,M25-29,Male,Bedfordview,Gauteng,South Africa,ZA,0:14:05,,,,,,845,0,0,314,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Julien,Cornut,Julien Cornut,555,M45-49,Male,Toussus Le Noble,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Herbst,Michael Herbst,876,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peter,Frandsen,Peter Frandsen,872,M60-64,Male,"
+Grenaa",,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregory,Hill,Gregory Hill,878,M60-64,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anton,Coetzee,Anton Coetzee,696,M50-54,Male,Johannesburg,Gauteng,South Africa,ZA,0:17:16,7:36:48,,,,,1036,27408,0,776,877,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Adrian,Buddingh,Adrian Buddingh,799,M55-59,Male,Edenvale,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Cavill,Cordes,Cavill Cordes,1046,F50-54,Female,Pinetown,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Schalk ,Pieterse,Schalk Pieterse,318,M35-39,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Elma,Van Noordwyk,Elma Van Noordwyk,1070,F55-59,Female,Bellville,Western Cape,South Africa,ZA,0:07:48,6:34:43,,,,,468,23683,0,378,267,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Brendon,Neumann,Brendon Neumann,626,M45-49,Male,Somerset West,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amir,Fernandes Borges,Amir Fernandes Borges,419,M40-44,Male,Brasilia,Other,Brazil,BR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Julian,Biefang,Julian Biefang,128,M30-34,Male,Andernach,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Roberts,Andrew Roberts,322,M35-39,Male,JOHANNESBURG,GAUTENG,South Africa,ZA,0:12:29,,,,,,749,0,0,261,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Endre,Sparkes,Endre Sparkes,892,M60-64,Male,Roodepoort,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomer,Shahar,Tomer Shahar,645,M45-49,Male,Espoo,espoo,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jason,Garde,Jason Garde,422,M40-44,Male,Centurion,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gill,Read,Gill Read,1067,F55-59,Female,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Helge,Harms,Helge Harms,429,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carlos Alberto,Rodriguez,Carlos Alberto Rodriguez,323,M35-39,Male,Marbella,Other,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pietra,Matthee,Pietra Matthee,1078,F60-64,Female,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andre,Van Den Berg,Andre Van Den Berg,354,M35-39,Male,Johannesburg,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Van Rooyen,Daniel Van Rooyen,667,M45-49,Male,Taunton ,Somerset ,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kyla,Purdon,Kyla Purdon,919,F25-29,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,0:14:18,,,,,,858,0,0,266,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Deon,Janse Van Noordwyk,Deon Janse Van Noordwyk,726,M50-54,Male,Somerset West,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tertius,Wessels,Tertius Wessels,788,M50-54,Male,Centurion,Gauteng,South Africa,ZA,0:21:57,8:02:18,,,,,1317,28938,0,705,665,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Stafford,Michael Stafford,499,M40-44,Male,Wexford,Wexford,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roman,Evgrafov,Roman Evgrafov,417,M40-44,Male,Kazan,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toby,Lambooy,Toby Lambooy,733,M50-54,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Minoru,Kato,Minoru Kato,823,M55-59,Male,Tokorozawa-city,Other,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+John-William,Cloete,John-William Cloete,80,M25-29,Male,Paarl,WESTERN CAPE,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Sandberg,David Sandberg,329,M35-39,Male,Stockholm,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tyron,Anderson,Tyron Anderson,219,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,De Swardt,Mark De Swardt,138,M30-34,Male,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gilbert,Richmond,Gilbert Richmond,109,M25-29,Male,Ladysmith,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Justin,Lynch,Justin Lynch,167,M30-34,Male,SCHUYLERVILLE,NY,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ryan,Mclaughlin,Ryan Mclaughlin,464,M40-44,Male,Scotland,Other,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rene,Beau,Rene Beau,794,M55-59,Male,Perleberg,Other,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lee,Den Hond,Lee Den Hond,1048,F50-54,Female,"Tamboerskloof, Cape Town, 8001",Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Geyer,Richard Geyer,148,M30-34,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ben,Emeny,Ben Emeny,84,M25-29,Male,toronto,ON,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paulo,Margarido,Paulo Margarido,740,M50-54,Male,FUNCHAL,Other,Portugal,PT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jacques,Tulleken,Jacques Tulleken,780,M50-54,Male,George,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carna,Kriel,Carna Kriel,1026,F45-49,Female,Pretoria,Gauteng,South Africa,ZA,0:19:24,8:18:36,,,,,1164,29916,0,459,465,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Abdurragiem,Van Der Schaff,Abdurragiem Van Der Schaff,854,M55-59,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:19:32,,,,,,1172,0,0,724,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Stefaan,Veldeman,Stefaan Veldeman,518,M40-44,Male,Dendermonde,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ralf,Paps,Ralf Paps,477,M40-44,Male,Sandton,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Brendon,Jones,Brendon Jones,595,M45-49,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mandy,Marlin,Mandy Marlin,1029,F45-49,Female,Bloubergstrand,WESTERN CAPE,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Durand,Patrice,Durand Patrice,631,M45-49,Male,33680 LE PORGE,Other,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Braam,Nieuwoudt,Braam Nieuwoudt,752,M50-54,Male,Nelspruit,Mpumalanga,South Africa,ZA,0:16:35,,,,,,995,0,0,289,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Charlotte,Raubenheimer,Charlotte Raubenheimer,999,F40-44,Female,PE,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lamboley,Christophe,Lamboley Christophe,550,M45-49,Male,MONTPELLIER,Free State,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Pellew,Mark Pellew,632,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,0:10:47,4:57:39,,,,,647,17859,0,268,252,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jake ,Adam,Jake Adam,123,M30-34,Male,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Brink,Michael Brink,78,M25-29,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Cilliers,Neethling,Cilliers Neethling,173,M30-34,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Byram,Chris Byram,694,M50-54,Male,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Swaroop,Puranik,Swaroop Puranik,483,M40-44,Male,NAVI MUMBAI,MAHARASHTRA,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dan,Trawicki,Dan Trawicki,895,M60-64,Male,waukesha,WI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rocco,Mariani,Rocco Mariani,613,M45-49,Male,Dielsdorf,,Switzerland,CH,0:13:14,5:57:46,,,,,794,21466,0,295,305,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Abdul Basit ,Chafekar,Abdul Basit Chafekar,395,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,0:23:34,8:06:59,,,,,1414,29219,0,1102,675,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Christopher,Baker,Christopher Baker,383,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alan,Klette,Alan Klette,825,M55-59,Male,Somerset West,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Fairhurst,Paul Fairhurst,869,M60-64,Male,Johannesburg,Other,South Africa,ZA,0:19:26,8:09:46,,,,,1166,29386,0,266,559,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Costin,Simion,Costin Simion,112,M25-29,Male,København Ø,Other,Romania,RO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nina,Ain El Fitre,Nina Ain El Fitre,924,F30-34,Female,Schwerzenbach,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fawzia,Suliman,Fawzia Suliman,1056,F50-54,Female,Johannesburg,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Hazel,Aggett,Hazel Aggett,1072,F60-64,Female,Johannesburg,Gauteng,South Africa,ZA,0:27:29,,,,,,1649,0,0,834,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jean-Pierre,Roux,Jean-Pierre Roux,326,M35-39,Male,Cape Town,Western Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gareth,Arnold,Gareth Arnold,378,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gert,Johannes,Gert Johannes,157,M30-34,Male,Senekal,Free State,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Xavier,Thilges,Xavier Thilges,196,M30-34,Male,Luxembourg,Luxembourg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Poul,Broch,Poul Broch,393,M40-44,Male,Brøndby,,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lizelle,Truter,Lizelle Truter,1001,F40-44,Female,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeff,Thornley,Jeff Thornley,654,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arthur,Ocheretny,Arthur Ocheretny,474,M40-44,Male,Moscow,MOSKVA,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Keng Hong,Wong,Keng Hong Wong,678,M45-49,Male,Singapore,Singapore,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Oliver,Stratford,Oliver Stratford,775,M50-54,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Conrad,Greer,Conrad Greer,813,M55-59,Male,Cape Town,Western Cape,South Africa,ZA,0:19:53,,,,,,1193,0,0,847,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Dean,Nolte,Dean Nolte,311,M35-39,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lynette,Fischer,Lynette Fischer,1075,F60-64,Female,Bloemfontein,,South Africa,ZA,0:15:07,,,,,,907,0,0,465,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jonatan,Schwamberg,Jonatan Schwamberg,335,M35-39,Male,Bromma,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Markus,Schlosser,Markus Schlosser,850,M55-59,Male,Bad Nauheim,Hesse,Germany,DE,0:16:08,6:11:48,,,,,968,22308,0,286,376,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Roy,Brennon,Roy Brennon,690,M50-54,Male,Rynfield Terrace Benoni,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ulrich,Seitler,Ulrich Seitler,890,M60-64,Male,Schwäbisch Gmünd,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Imad Aldin,Said Yousef,Imad Aldin Said Yousef,328,M35-39,Male,Dubai,DXB,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Donovan,Harvey,Donovan Harvey,430,M40-44,Male,"Bartlett, Boksburg",Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Herman,Matthews,Herman Matthews,615,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:27:07,,,,,,1627,0,0,442,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Nelius,Du Plooy,Nelius Du Plooy,808,M55-59,Male,BLOEMFONTEIN,Free State,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anant,Morar,Anant Morar,745,M50-54,Male,Lenasia,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gareth,Duke,Gareth Duke,255,M35-39,Male,Durban North,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maksim,Orlov,Maksim Orlov,628,M45-49,Male,St.Petersburg,St.Petersburg,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicolas,Del Prado,Nicolas Del Prado,248,M35-39,Male,Marbella,Other,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Owen Franck,Ehlers,Owen Franck Ehlers,256,M35-39,Male,Dubai,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Delphine,Voeltzel,Delphine Voeltzel,977,F35-39,Female,,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rebecca,Gatangi,Rebecca Gatangi,949,F35-39,Female,Port Elizabeth,Eastern Cape,Kenya,KE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Leon,Van Niekerk,Leon Van Niekerk,784,M50-54,Male,MILNERTON,Western Cape,South Africa,ZA,0:22:55,,,,,,1375,0,0,928,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Eric,Scherer,Eric Scherer,331,M35-39,Male,Marbella,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bryce ,Blum,Bryce Blum,864,M60-64,Male,Hermanus ,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marc ,Beyers ,Marc Beyers,541,M45-49,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Gronow,David Gronow,89,M25-29,Male,Nottingham,Other,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Maughan,Chris Maughan,616,M45-49,Male,Cape Town,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Theuns,Smit,Theuns Smit,339,M35-39,Male,Pretoria,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luke,Lanterme,Luke Lanterme,448,M40-44,Male,JOHANNESBURG,Gauteng,South Africa,ZA,0:10:24,5:19:07,,,,,624,19147,0,266,379,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Odd Ivar,Solvold,Odd Ivar Solvold,773,M50-54,Male,Sandefjord,,Norway,NO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jerome,Lesaulnier,Jerome Lesaulnier,450,M40-44,Male,Antibes,Other,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hennie,De Beer,Hennie De Beer,557,M45-49,Male,Marble Hall,Limpopo,South Africa,ZA,0:13:03,,,,,,783,0,0,386,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Wolfgang,Oey,Wolfgang Oey,755,M50-54,Male,Thalang,Phuket,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Guy,Shepstone,Guy Shepstone,851,M55-59,Male,Secunda,Mpumalanga,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Reno Maree,Van Rooyen,Reno Maree Van Rooyen,359,M35-39,Male,Kuruman,Northern Cape,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lyndon,Le Roux,Lyndon Le Roux,288,M35-39,Male,Edenvale,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fockedey,Colas,Fockedey Colas,81,M25-29,Male,Blicquy,Other,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ayesha Bibi,Osman,Ayesha Bibi Osman,939,F30-34,Female,Durban,KwaZulu-Natal,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Richard,Hill,Richard Hill,434,M40-44,Male,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
