@@ -2,11 +2,11 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { GlobalSearchEntry } from "@/lib/types";
+import { AthleteSearchEntry } from "@/lib/types";
 
 export default function GlobalSearchBar() {
   const [query, setQuery] = useState("");
-  const [matches, setMatches] = useState<GlobalSearchEntry[]>([]);
+  const [matches, setMatches] = useState<AthleteSearchEntry[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const router = useRouter();
@@ -45,7 +45,7 @@ export default function GlobalSearchBar() {
         const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
           signal: controller.signal,
         });
-        const data: GlobalSearchEntry[] = await res.json();
+        const data: AthleteSearchEntry[] = await res.json();
         setMatches(data);
         setIsOpen(data.length > 0);
       } catch {
@@ -54,10 +54,10 @@ export default function GlobalSearchBar() {
     }, 300);
   }
 
-  function handleSelect(entry: GlobalSearchEntry) {
+  function handleSelect(entry: AthleteSearchEntry) {
     setQuery(entry.fullName);
     setIsOpen(false);
-    router.push(`/race/${entry.raceSlug}/result/${entry.id}`);
+    router.push(`/athlete/${entry.slug}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent) {
@@ -91,7 +91,7 @@ export default function GlobalSearchBar() {
         <ul className="absolute z-50 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-lg max-h-80 overflow-y-auto">
           {matches.map((entry, i) => (
             <li
-              key={`${entry.raceSlug}-${entry.id}`}
+              key={entry.slug}
               onClick={() => handleSelect(entry)}
               className={`px-4 py-3 cursor-pointer border-b border-gray-800 last:border-b-0 ${
                 i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"
@@ -99,7 +99,7 @@ export default function GlobalSearchBar() {
             >
               <div className="font-medium text-white">{entry.fullName}</div>
               <div className="text-sm text-gray-400">
-                {entry.raceName} &middot; {entry.ageGroup} &middot; {entry.country}
+                {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
               </div>
             </li>
           ))}

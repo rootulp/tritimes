@@ -49,13 +49,29 @@ export interface SearchEntry {
   country: string;
 }
 
-export interface GlobalSearchEntry {
-  id: number;
-  fullName: string;
-  ageGroup: string;
-  country: string;
+export interface AthleteRaceEntry {
   raceSlug: string;
   raceName: string;
+  raceDate: string;
+  resultId: number;
+  finishTime: string;
+  ageGroup: string;
+}
+
+export interface AthleteSearchEntry {
+  slug: string;
+  fullName: string;
+  country: string;
+  countryISO: string;
+  raceCount: number;
+}
+
+export interface AthleteProfile {
+  slug: string;
+  fullName: string;
+  country: string;
+  countryISO: string;
+  races: AthleteRaceEntry[];
 }
 
 export interface RaceInfo {

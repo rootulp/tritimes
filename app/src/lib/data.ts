@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { AthleteResult, GlobalSearchEntry, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
+import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
 
 interface RaceManifestEntry {
   slug: string;
@@ -126,21 +126,87 @@ export function getSearchIndex(raceSlug: string): SearchEntry[] {
   }));
 }
 
-export function getGlobalSearchIndex(): GlobalSearchEntry[] {
-  const entries: GlobalSearchEntry[] = [];
+function slugifyAthlete(fullName: string, countryISO: string, gender: string): string {
+  const base = fullName
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  const country = countryISO.toLowerCase();
+  const g = gender.toLowerCase().charAt(0);
+  return `${base}--${country}-${g}`;
+}
+
+let athleteIndexCache: AthleteSearchEntry[] | null = null;
+
+interface AthleteAccumulator {
+  fullName: string;
+  country: string;
+  countryISO: string;
+  raceCount: number;
+}
+
+export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
+  if (athleteIndexCache) return athleteIndexCache;
+
+  const map = new Map<string, AthleteAccumulator>();
   for (const race of getRacesInternal()) {
     for (const r of getAllResults(race.slug)) {
-      entries.push({
-        id: r.id,
-        fullName: r.fullName,
-        ageGroup: r.ageGroup,
-        country: r.country,
-        raceSlug: race.slug,
-        raceName: race.name,
-      });
+      const slug = slugifyAthlete(r.fullName, r.countryISO, r.gender);
+      const existing = map.get(slug);
+      if (existing) {
+        existing.raceCount++;
+      } else {
+        map.set(slug, {
+          fullName: r.fullName,
+          country: r.country,
+          countryISO: r.countryISO,
+          raceCount: 1,
+        });
+      }
     }
   }
-  return entries;
+
+  athleteIndexCache = Array.from(map.entries()).map(([slug, a]) => ({
+    slug,
+    fullName: a.fullName,
+    country: a.country,
+    countryISO: a.countryISO,
+    raceCount: a.raceCount,
+  }));
+  return athleteIndexCache;
+}
+
+export function getAthleteProfile(slug: string): AthleteProfile | null {
+  const races: AthleteRaceEntry[] = [];
+  let fullName = "";
+  let country = "";
+  let countryISO = "";
+
+  for (const race of getRacesInternal()) {
+    for (const r of getAllResults(race.slug)) {
+      if (slugifyAthlete(r.fullName, r.countryISO, r.gender) === slug) {
+        fullName = r.fullName;
+        country = r.country;
+        countryISO = r.countryISO;
+        races.push({
+          raceSlug: race.slug,
+          raceName: race.name,
+          raceDate: race.date,
+          resultId: r.id,
+          finishTime: r.finishTime,
+          ageGroup: r.ageGroup,
+        });
+      }
+    }
+  }
+
+  if (races.length === 0) return null;
+
+  races.sort((a, b) => b.raceDate.localeCompare(a.raceDate));
+
+  return { slug, fullName, country, countryISO, races };
 }
 
 export function getGlobalStats(): { raceCount: number; totalResults: number } {
