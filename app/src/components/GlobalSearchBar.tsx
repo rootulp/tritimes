@@ -4,13 +4,14 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { GlobalSearchEntry } from "@/lib/types";
 
-export default function GlobalSearchBar({ entries }: { entries: GlobalSearchEntry[] }) {
+export default function GlobalSearchBar() {
   const [query, setQuery] = useState("");
   const [matches, setMatches] = useState<GlobalSearchEntry[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -22,7 +23,7 @@ export default function GlobalSearchBar({ entries }: { entries: GlobalSearchEntr
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  function handleChange(value: string) {
+  async function handleChange(value: string) {
     setQuery(value);
     setSelectedIndex(-1);
     if (value.length < 2) {
@@ -30,12 +31,21 @@ export default function GlobalSearchBar({ entries }: { entries: GlobalSearchEntr
       setIsOpen(false);
       return;
     }
-    const lower = value.toLowerCase();
-    const filtered = entries
-      .filter((e) => e.fullName.toLowerCase().includes(lower))
-      .slice(0, 10);
-    setMatches(filtered);
-    setIsOpen(filtered.length > 0);
+
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
+    try {
+      const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
+        signal: controller.signal,
+      });
+      const data: GlobalSearchEntry[] = await res.json();
+      setMatches(data);
+      setIsOpen(data.length > 0);
+    } catch {
+      // Aborted or network error — ignore
+    }
   }
 
   function handleSelect(entry: GlobalSearchEntry) {

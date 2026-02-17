@@ -63,4 +63,5 @@ export interface RaceInfo {
   name: string;
   date: string;
   location: string;
+  finishers: number;
 }

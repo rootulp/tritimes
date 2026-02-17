@@ -20,6 +20,7 @@ function loadRaces(): RaceInfo[] {
     name: e.name,
     date: e.date,
     location: e.location,
+    finishers: e.finishers || 0,
   }));
 }
 
@@ -140,6 +141,16 @@ export function getGlobalSearchIndex(): GlobalSearchEntry[] {
     }
   }
   return entries;
+}
+
+export function getGlobalStats(): { raceCount: number; totalResults: number } {
+  const manifestPath = path.join(process.cwd(), "..", "data", "races.json");
+  const raw = fs.readFileSync(manifestPath, "utf-8");
+  const entries: RaceManifestEntry[] = JSON.parse(raw);
+  return {
+    raceCount: entries.length,
+    totalResults: entries.reduce((sum, e) => sum + (e.finishers || 0), 0),
+  };
 }
 
 function formatSecondsShort(seconds: number): string {
