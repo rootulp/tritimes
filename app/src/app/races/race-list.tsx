@@ -65,14 +65,18 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
 
         <div className="flex items-center gap-2">
           <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">Year</span>
-          <button onClick={() => setYear("All")} className={btnClass(year === "All")}>
-            All
-          </button>
-          {years.map((y) => (
-            <button key={y} onClick={() => setYear(y)} className={btnClass(year === y)}>
-              {y}
-            </button>
-          ))}
+          <select
+            value={year}
+            onChange={(e) => setYear(e.target.value)}
+            className="px-3 py-1.5 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none appearance-none cursor-pointer pr-7 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M3%205l3%203%203-3%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_8px_center] bg-no-repeat"
+          >
+            <option value="All" className="bg-gray-900 text-white">All</option>
+            {years.map((y) => (
+              <option key={y} value={y} className="bg-gray-900 text-white">
+                {y}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
 

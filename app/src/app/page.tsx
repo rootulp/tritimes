@@ -1,11 +1,9 @@
 import Link from "next/link";
-import { getGlobalSearchIndex, getRaces } from "@/lib/data";
+import { getGlobalStats } from "@/lib/data";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export default function Home() {
-  const entries = getGlobalSearchIndex();
-  const races = getRaces();
-  const athleteCount = new Set(entries.map((e) => e.fullName)).size;
+  const stats = getGlobalStats();
 
   return (
     <main className="min-h-screen">
@@ -29,7 +27,7 @@ export default function Home() {
           </p>
 
           <div className="w-full max-w-lg mb-4">
-            <GlobalSearchBar entries={entries} />
+            <GlobalSearchBar />
           </div>
 
           <Link
@@ -43,20 +41,14 @@ export default function Home() {
 
       {/* Stats strip */}
       <section className="border-t border-gray-800 bg-gray-900/50">
-        <div className="max-w-4xl mx-auto px-4 py-10 grid grid-cols-3 gap-4 text-center">
+        <div className="max-w-4xl mx-auto px-4 py-10 grid grid-cols-2 gap-4 text-center">
           <div>
-            <div className="text-3xl font-bold text-white">{races.length}</div>
+            <div className="text-3xl font-bold text-white">{stats.raceCount}</div>
             <div className="text-sm text-gray-500 mt-1">Races</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-white">
-              {athleteCount.toLocaleString()}
-            </div>
-            <div className="text-sm text-gray-500 mt-1">Athletes</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-white">
-              {entries.length.toLocaleString()}
+              {stats.totalResults.toLocaleString()}
             </div>
             <div className="text-sm text-gray-500 mt-1">Results</div>
           </div>
