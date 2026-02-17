@@ -108,7 +108,7 @@ async function discoverFromGroupPage(groupUUID) {
 
   return subevents.map((se) => ({
     eventId: se.wtc_eventid || se.id,
-    name: se.wtc_name || se.label || se.wtc_eventname || se.name || "Unknown",
+    name: (se.wtc_name || se.label || se.wtc_eventname || se.name || "Unknown").replace(/: Triathlon$/, ""),
     date: se.wtc_eventdate || se.date || "",
     year: se.wtc_eventdate ? new Date(se.wtc_eventdate).getFullYear() : null,
   }));
