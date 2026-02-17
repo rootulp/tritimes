@@ -1,10 +1,7 @@
 import Link from "next/link";
-import { getGlobalStats } from "@/lib/data";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export default function Home() {
-  const stats = getGlobalStats();
-
   return (
     <main className="min-h-screen">
       {/* Hero section */}
@@ -36,22 +33,6 @@ export default function Home() {
           >
             or browse all races &rarr;
           </Link>
-        </div>
-      </section>
-
-      {/* Stats strip */}
-      <section className="border-t border-gray-800 bg-gray-900/50">
-        <div className="max-w-4xl mx-auto px-4 py-10 grid grid-cols-2 gap-4 text-center">
-          <div>
-            <div className="text-3xl font-bold text-white">{stats.raceCount}</div>
-            <div className="text-sm text-gray-500 mt-1">Races</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-white">
-              {stats.totalResults.toLocaleString()}
-            </div>
-            <div className="text-sm text-gray-500 mt-1">Results</div>
-          </div>
         </div>
       </section>
     </main>
