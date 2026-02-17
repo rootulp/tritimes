@@ -12,6 +12,7 @@ export default function GlobalSearchBar() {
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement>(null);
   const abortRef = useRef<AbortController | null>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -23,29 +24,34 @@ export default function GlobalSearchBar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  async function handleChange(value: string) {
+  function handleChange(value: string) {
     setQuery(value);
     setSelectedIndex(-1);
     if (value.length < 2) {
       setMatches([]);
       setIsOpen(false);
+      abortRef.current?.abort();
+      if (debounceRef.current) clearTimeout(debounceRef.current);
       return;
     }
 
-    abortRef.current?.abort();
-    const controller = new AbortController();
-    abortRef.current = controller;
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(async () => {
+      abortRef.current?.abort();
+      const controller = new AbortController();
+      abortRef.current = controller;
 
-    try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
-        signal: controller.signal,
-      });
-      const data: GlobalSearchEntry[] = await res.json();
-      setMatches(data);
-      setIsOpen(data.length > 0);
-    } catch {
-      // Aborted or network error — ignore
-    }
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
+          signal: controller.signal,
+        });
+        const data: GlobalSearchEntry[] = await res.json();
+        setMatches(data);
+        setIsOpen(data.length > 0);
+      } catch {
+        // Aborted or network error — ignore
+      }
+    }, 300);
   }
 
   function handleSelect(entry: GlobalSearchEntry) {

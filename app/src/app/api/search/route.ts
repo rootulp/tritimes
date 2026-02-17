@@ -1,5 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getRaces, getAllResults } from "@/lib/data";
+import { getGlobalSearchIndex } from "@/lib/data";
+import { GlobalSearchEntry } from "@/lib/types";
+
+let cachedIndex: (GlobalSearchEntry & { fullNameLower: string })[] | null = null;
+
+function getIndex() {
+  if (!cachedIndex) {
+    cachedIndex = getGlobalSearchIndex().map((entry) => ({
+      ...entry,
+      fullNameLower: entry.fullName.toLowerCase(),
+    }));
+  }
+  return cachedIndex;
+}
 
 export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get("q")?.toLowerCase();
@@ -7,23 +20,20 @@ export async function GET(request: NextRequest) {
     return NextResponse.json([]);
   }
 
-  const results: { id: number; fullName: string; ageGroup: string; country: string; raceSlug: string; raceName: string }[] = [];
-  const races = getRaces();
+  const index = getIndex();
+  const results: GlobalSearchEntry[] = [];
 
-  for (const race of races) {
-    if (results.length >= 10) break;
-    for (const r of getAllResults(race.slug)) {
-      if (r.fullName.toLowerCase().includes(q)) {
-        results.push({
-          id: r.id,
-          fullName: r.fullName,
-          ageGroup: r.ageGroup,
-          country: r.country,
-          raceSlug: race.slug,
-          raceName: race.name,
-        });
-        if (results.length >= 10) break;
-      }
+  for (const entry of index) {
+    if (entry.fullNameLower.includes(q)) {
+      results.push({
+        id: entry.id,
+        fullName: entry.fullName,
+        ageGroup: entry.ageGroup,
+        country: entry.country,
+        raceSlug: entry.raceSlug,
+        raceName: entry.raceName,
+      });
+      if (results.length >= 10) break;
     }
   }
 
