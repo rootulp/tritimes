@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getGlobalSearchIndex } from "@/lib/data";
-import { GlobalSearchEntry } from "@/lib/types";
+import { getDeduplicatedAthleteIndex } from "@/lib/data";
+import { AthleteSearchEntry } from "@/lib/types";
 
-let cachedIndex: (GlobalSearchEntry & { fullNameLower: string })[] | null = null;
+let cachedIndex: (AthleteSearchEntry & { fullNameLower: string })[] | null = null;
 
 function getIndex() {
   if (!cachedIndex) {
-    cachedIndex = getGlobalSearchIndex().map((entry) => ({
+    cachedIndex = getDeduplicatedAthleteIndex().map((entry) => ({
       ...entry,
       fullNameLower: entry.fullName.toLowerCase(),
     }));
@@ -21,17 +21,16 @@ export async function GET(request: NextRequest) {
   }
 
   const index = getIndex();
-  const results: GlobalSearchEntry[] = [];
+  const results: AthleteSearchEntry[] = [];
 
   for (const entry of index) {
     if (entry.fullNameLower.includes(q)) {
       results.push({
-        id: entry.id,
+        slug: entry.slug,
         fullName: entry.fullName,
-        ageGroup: entry.ageGroup,
         country: entry.country,
-        raceSlug: entry.raceSlug,
-        raceName: entry.raceName,
+        countryISO: entry.countryISO,
+        raceCount: entry.raceCount,
       });
       if (results.length >= 10) break;
     }
