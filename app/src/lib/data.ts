@@ -140,40 +140,22 @@ function slugifyAthlete(fullName: string, countryISO: string, gender: string): s
 
 let athleteIndexCache: AthleteSearchEntry[] | null = null;
 
-interface AthleteAccumulator {
-  fullName: string;
-  country: string;
-  countryISO: string;
-  raceCount: number;
-}
-
 export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
   if (athleteIndexCache) return athleteIndexCache;
 
-  const map = new Map<string, AthleteAccumulator>();
-  for (const race of getRacesInternal()) {
-    for (const r of getAllResults(race.slug)) {
-      const slug = slugifyAthlete(r.fullName, r.countryISO, r.gender);
-      const existing = map.get(slug);
-      if (existing) {
-        existing.raceCount++;
-      } else {
-        map.set(slug, {
-          fullName: r.fullName,
-          country: r.country,
-          countryISO: r.countryISO,
-          raceCount: 1,
-        });
-      }
-    }
-  }
+  const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.json");
+  const raw = fs.readFileSync(indexPath, "utf-8");
+  const data = JSON.parse(raw) as {
+    countries: Record<string, string>;
+    athletes: [string, string, string, number][]; // [fullName, countryISO, gender, raceCount]
+  };
 
-  athleteIndexCache = Array.from(map.entries()).map(([slug, a]) => ({
-    slug,
-    fullName: a.fullName,
-    country: a.country,
-    countryISO: a.countryISO,
-    raceCount: a.raceCount,
+  athleteIndexCache = data.athletes.map(([fullName, countryISO, gender, raceCount]) => ({
+    slug: slugifyAthlete(fullName, countryISO, gender),
+    fullName,
+    country: data.countries[countryISO] || countryISO,
+    countryISO,
+    raceCount,
   }));
   return athleteIndexCache;
 }

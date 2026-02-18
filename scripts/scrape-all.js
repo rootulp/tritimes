@@ -189,6 +189,11 @@ async function main() {
 
   if (opts.dryRun) {
     console.log("\n(Dry run — no results were fetched)");
+  } else {
+    // Rebuild the athlete search index
+    console.log("\nRebuilding athlete search index...");
+    const { execFileSync } = require("child_process");
+    execFileSync("node", [path.join(__dirname, "build-athlete-index.js")], { stdio: "inherit" });
   }
 }
 
