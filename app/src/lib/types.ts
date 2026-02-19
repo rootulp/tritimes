@@ -40,6 +40,7 @@ export interface HistogramData {
   bins: HistogramBin[];
   athleteSeconds: number;
   athletePercentile: number;
+  medianSeconds: number;
 }
 
 export interface SearchEntry {
@@ -56,6 +57,9 @@ export interface AthleteRaceEntry {
   resultId: number;
   finishTime: string;
   ageGroup: string;
+  swimTime: string;
+  bikeTime: string;
+  runTime: string;
 }
 
 export interface AthleteSearchEntry {
