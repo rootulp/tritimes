@@ -6,8 +6,8 @@ const COLORS: Record<string, string> = {
   Bike: "#ef4444",
   Run: "#f59e0b",
   Total: "#22c55e",
-  "T1 (Swim → Bike)": "#8b5cf6",
-  "T2 (Bike → Run)": "#ec4899",
+  T1: "#8b5cf6",
+  T2: "#ec4899",
 };
 
 interface Props {

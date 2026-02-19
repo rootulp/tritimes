@@ -31,8 +31,8 @@ export default async function ResultPage({ params }: PageProps) {
   ];
 
   const transitions: { key: Discipline; label: string; time: string }[] = [
-    { key: "t1", label: "T1 (Swim → Bike)", time: athlete.t1Time },
-    { key: "t2", label: "T2 (Bike → Run)", time: athlete.t2Time },
+    { key: "t1", label: "T1", time: athlete.t1Time },
+    { key: "t2", label: "T2", time: athlete.t2Time },
   ];
 
   const histograms = disciplines.map((d) => ({
