@@ -2,7 +2,7 @@ import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-[calc(100dvh-3.5rem)]">
       {/* Hero section */}
       <section className="relative">
         {/* Background gradient */}
