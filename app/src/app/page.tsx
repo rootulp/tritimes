@@ -1,4 +1,3 @@
-import Link from "next/link";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export default function Home() {
@@ -23,16 +22,9 @@ export default function Home() {
             See where you stand in swim, bike, run, and overall.
           </p>
 
-          <div className="w-full max-w-lg mb-4">
+          <div className="w-full max-w-lg">
             <GlobalSearchBar />
           </div>
-
-          <Link
-            href="/races"
-            className="text-sm text-gray-500 hover:text-gray-300 transition-colors"
-          >
-            or browse all races &rarr;
-          </Link>
         </div>
       </section>
     </main>
