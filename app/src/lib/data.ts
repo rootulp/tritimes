@@ -197,6 +197,9 @@ export function getAthleteProfile(slug: string): AthleteProfile | null {
           resultId: r.id,
           finishTime: r.finishTime,
           ageGroup: r.ageGroup,
+          swimTime: r.swimTime,
+          bikeTime: r.bikeTime,
+          runTime: r.runTime,
         });
       }
     }
@@ -226,6 +229,13 @@ function formatSecondsShort(seconds: number): string {
   return `${m}m`;
 }
 
+function computeMedian(values: number[]): number {
+  if (values.length === 0) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+}
+
 export function computeHistogram(
   allSeconds: number[],
   athleteSeconds: number,
@@ -233,7 +243,7 @@ export function computeHistogram(
 ): HistogramData {
   const valid = allSeconds.filter((s) => s > 0);
   if (valid.length === 0) {
-    return { bins: [], athleteSeconds, athletePercentile: 0 };
+    return { bins: [], athleteSeconds, athletePercentile: 0, medianSeconds: 0 };
   }
 
   const min = Math.floor(Math.min(...valid) / binSize) * binSize;
@@ -257,7 +267,9 @@ export function computeHistogram(
   const slowerCount = valid.filter((s) => s > athleteSeconds).length;
   const athletePercentile = Math.round((slowerCount / valid.length) * 100);
 
-  return { bins, athleteSeconds, athletePercentile };
+  const medianSeconds = computeMedian(valid);
+
+  return { bins, athleteSeconds, athletePercentile, medianSeconds };
 }
 
 export type Discipline = "swim" | "bike" | "run" | "finish" | "t1" | "t2";

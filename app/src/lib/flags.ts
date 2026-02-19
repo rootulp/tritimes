@@ -26,3 +26,12 @@ export function getCountryFlag(location: string): string {
   if (location.includes("Wales")) return COUNTRY_FLAGS.Wales;
   return "";
 }
+
+export function getCountryFlagISO(iso: string): string {
+  if (!iso || iso.length !== 2) return "";
+  const upper = iso.toUpperCase();
+  return String.fromCodePoint(
+    0x1f1e6 + upper.charCodeAt(0) - 65,
+    0x1f1e6 + upper.charCodeAt(1) - 65,
+  );
+}

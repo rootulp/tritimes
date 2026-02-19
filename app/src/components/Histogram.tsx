@@ -59,6 +59,15 @@ export default function Histogram({ data, color, label }: Props) {
             strokeWidth={2}
             strokeDasharray="4 4"
           />
+          {data.medianSeconds > 0 && (
+            <ReferenceLine
+              x={data.bins.find((b) => data.medianSeconds >= b.rangeStart && data.medianSeconds < b.rangeEnd)?.label}
+              stroke="#9ca3af"
+              strokeWidth={1.5}
+              strokeDasharray="6 3"
+              label={{ value: "Median", position: "top", fill: "#9ca3af", fontSize: 11 }}
+            />
+          )}
           <Bar dataKey="count" radius={[2, 2, 0, 0]}>
             {data.bins.map((bin, i) => (
               <Cell
