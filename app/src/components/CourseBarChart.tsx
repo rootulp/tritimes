@@ -23,6 +23,8 @@ type DisciplineKey =
   | "medianBikeSeconds"
   | "medianRunSeconds";
 
+const MAX_COURSES = 10;
+
 interface Props {
   courses: CourseStats[];
   disciplineKey: DisciplineKey;
@@ -38,7 +40,8 @@ export default function CourseBarChart({
 }: Props) {
   const sorted = [...courses]
     .filter((c) => c[disciplineKey] > 0)
-    .sort((a, b) => a[disciplineKey] - b[disciplineKey]);
+    .sort((a, b) => a[disciplineKey] - b[disciplineKey])
+    .slice(0, MAX_COURSES);
 
   if (sorted.length === 0) return null;
 
