@@ -10,9 +10,24 @@ Data is collected from https://www.ironman.com/races/im703-new-york/results. Ins
 
 ## Architecture
 
-- **`app/`** — Next.js 16 app with React 19, TypeScript, Tailwind CSS v4, Recharts
+- **`app/`** — Next.js 16 app with React 19, TypeScript, Tailwind CSS v4, Recharts, Vercel Analytics
 - **`scripts/`** — Node.js data pipeline scripts (zero dependencies, requires Node 18+)
 - **`data/`** — Race result CSVs and `races.json` manifest
+
+### Pages & Routes
+
+- `/` — Landing page with hero section and global athlete search
+- `/races` — Browse all races with distance (70.3/140.6) and year filters
+- `/race/[slug]` — Single race with in-page athlete search
+- `/race/[slug]/result/[id]` — Individual result with discipline histograms (age group & overall field toggle)
+- `/athlete/[slug]` — Athlete profile showing cross-race history
+- `/api/search` — API endpoint for global athlete search (used by `GlobalSearchBar`)
+
+### Performance
+
+- Result and race pages use on-demand generation (empty `generateStaticParams`) to avoid pre-rendering 75K+ pages at build time
+- Athlete search uses debounced input (300ms) with a cached deduplicated index
+- CSV parse results are cached in memory
 
 ## Data Strategy
 
@@ -23,10 +38,18 @@ Data is collected from https://www.ironman.com/races/im703-new-york/results. Ins
 
 ## Key File Paths
 
-- `app/src/lib/data.ts` — Server-side data access (reads CSVs, computes histograms)
-- `app/src/lib/types.ts` — TypeScript interfaces
-- `app/src/app/page.tsx` — Landing page with global search
+- `app/src/lib/data.ts` — Server-side data access (reads CSVs, computes histograms, athlete deduplication & profiles)
+- `app/src/lib/types.ts` — TypeScript interfaces (`AthleteSearchEntry`, `AthleteProfile`, `AthleteRaceEntry`, etc.)
+- `app/src/lib/flags.ts` — Country ISO to flag emoji mapping
+- `app/src/components/GlobalSearchBar.tsx` — Cross-race athlete search with debounce, caching, and keyboard nav
+- `app/src/components/SearchBar.tsx` — Single-race in-page athlete search
+- `app/src/components/DisciplineSections.tsx` — Discipline histograms with age group / overall field toggle
+- `app/src/components/Header.tsx` — Sticky header with navigation
+- `app/src/app/page.tsx` — Landing page with hero section and global search
+- `app/src/app/races/page.tsx` — Race listing with distance and year filters
+- `app/src/app/athlete/[slug]/page.tsx` — Athlete profile page
 - `app/src/app/race/[slug]/result/[id]/page.tsx` — Individual athlete result page
+- `app/src/app/api/search/route.ts` — Athlete search API endpoint
 - `scripts/scrape.js` — Single-race scraper (also exports reusable functions)
 - `scripts/discover.js` — Discovers event IDs from ironman.com or competitor.com URLs
 - `scripts/scrape-all.js` — Batch scraper using race-registry.json
