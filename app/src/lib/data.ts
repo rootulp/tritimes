@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, CourseStats, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
+import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
 
 interface RaceManifestEntry {
   slug: string;
@@ -116,15 +116,6 @@ export function getAthleteById(raceSlug: string, id: number): AthleteResult | un
 
 export function getAllIds(raceSlug: string): number[] {
   return getAllResults(raceSlug).map((r) => r.id);
-}
-
-export function getSearchIndex(raceSlug: string): SearchEntry[] {
-  return getAllResults(raceSlug).map((r) => ({
-    id: r.id,
-    fullName: r.fullName,
-    ageGroup: r.ageGroup,
-    country: r.country,
-  }));
 }
 
 function slugifyAthlete(fullName: string, countryISO: string, gender: string): string {
@@ -338,4 +329,136 @@ export function getDisciplineHistogram(
   const athleteSeconds = getSeconds(athlete, discipline);
 
   return computeHistogram(allSeconds, athleteSeconds, BIN_SIZES[discipline]);
+}
+
+export function computeRaceHistogram(
+  allSeconds: number[],
+  binSize: number
+): RaceHistogramData {
+  const valid = allSeconds.filter((s) => s > 0);
+  if (valid.length === 0) {
+    return { bins: [], medianSeconds: 0, totalAthletes: 0 };
+  }
+
+  const min = Math.floor(Math.min(...valid) / binSize) * binSize;
+  const max = Math.ceil(Math.max(...valid) / binSize) * binSize;
+
+  const bins: HistogramBin[] = [];
+  for (let start = min; start < max; start += binSize) {
+    const end = start + binSize;
+    const count = valid.filter((s) => s >= start && s < end).length;
+    bins.push({
+      label: formatSecondsShort(start),
+      rangeStart: start,
+      rangeEnd: end,
+      count,
+      isAthlete: false,
+    });
+  }
+
+  const medianSeconds = computeMedian(valid);
+  return { bins, medianSeconds, totalAthletes: valid.length };
+}
+
+export function getRaceStats(raceSlug: string): RaceStats {
+  const results = getAllResults(raceSlug);
+
+  const disciplineKeys: { key: Discipline; label: string }[] = [
+    { key: "swim", label: "Swim" },
+    { key: "bike", label: "Bike" },
+    { key: "run", label: "Run" },
+    { key: "finish", label: "Total" },
+  ];
+
+  const disciplines: DisciplineStats[] = disciplineKeys.map(({ key, label }) => {
+    const values = results.map((r) => getSeconds(r, key)).filter((s) => s > 0);
+    const sum = values.reduce((a, b) => a + b, 0);
+    const avg = values.length > 0 ? sum / values.length : 0;
+    const sorted = [...values].sort((a, b) => a - b);
+    const median = computeMedian(values);
+    return {
+      discipline: label,
+      fastest: sorted[0] || 0,
+      slowest: sorted[sorted.length - 1] || 0,
+      median,
+      average: Math.round(avg),
+    };
+  });
+
+  // Gender breakdown
+  const genderMap = new Map<string, AthleteResult[]>();
+  for (const r of results) {
+    const list = genderMap.get(r.gender) || [];
+    list.push(r);
+    genderMap.set(r.gender, list);
+  }
+  const genderBreakdown: GenderBreakdown[] = Array.from(genderMap.entries())
+    .map(([gender, group]) => {
+      const finishes = group.map((r) => r.finishSeconds).filter((s) => s > 0);
+      const sorted = [...finishes].sort((a, b) => a - b);
+      return {
+        gender,
+        count: group.length,
+        percentage: Math.round((group.length / results.length) * 100),
+        medianFinish: computeMedian(finishes),
+        fastestFinish: sorted[0] || 0,
+      };
+    })
+    .sort((a, b) => b.count - a.count);
+
+  // Age group breakdown
+  const ageGroupMap = new Map<string, AthleteResult[]>();
+  for (const r of results) {
+    const list = ageGroupMap.get(r.ageGroup) || [];
+    list.push(r);
+    ageGroupMap.set(r.ageGroup, list);
+  }
+  const ageGroupBreakdown: AgeGroupBreakdown[] = Array.from(ageGroupMap.entries())
+    .map(([ageGroup, group]) => {
+      const finishes = group.map((r) => r.finishSeconds).filter((s) => s > 0);
+      const sorted = [...finishes].sort((a, b) => a - b);
+      return {
+        ageGroup,
+        count: group.length,
+        percentage: Math.round((group.length / results.length) * 100),
+        medianFinish: computeMedian(finishes),
+        fastestFinish: sorted[0] || 0,
+      };
+    })
+    .sort((a, b) => b.count - a.count);
+
+  // Top 10 leaderboard
+  const leaderboard: LeaderboardEntry[] = [...results]
+    .sort((a, b) => a.overallRank - b.overallRank)
+    .slice(0, 10)
+    .map((r) => ({
+      id: r.id,
+      rank: r.overallRank,
+      fullName: r.fullName,
+      country: r.country,
+      countryISO: r.countryISO,
+      ageGroup: r.ageGroup,
+      gender: r.gender,
+      finishTime: r.finishTime,
+      swimTime: r.swimTime,
+      bikeTime: r.bikeTime,
+      runTime: r.runTime,
+    }));
+
+  // Histograms
+  const histograms = {
+    swim: computeRaceHistogram(results.map((r) => r.swimSeconds), BIN_SIZES.swim),
+    bike: computeRaceHistogram(results.map((r) => r.bikeSeconds), BIN_SIZES.bike),
+    run: computeRaceHistogram(results.map((r) => r.runSeconds), BIN_SIZES.run),
+    finish: computeRaceHistogram(results.map((r) => r.finishSeconds), BIN_SIZES.finish),
+  };
+
+  return {
+    totalFinishers: results.length,
+    disciplines,
+    genderBreakdown,
+    ageGroupBreakdown,
+    leaderboard,
+    histograms,
+  };
 }
