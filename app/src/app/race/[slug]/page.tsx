@@ -5,6 +5,7 @@ import { formatTime } from "@/lib/format";
 import { getCountryFlagISO } from "@/lib/flags";
 import ResultCard from "@/components/ResultCard";
 import RaceHistogram from "@/components/RaceHistogram";
+import { DISCIPLINE_COLORS } from "@/lib/colors";
 
 // Generate on demand — too many races to pre-render at build time.
 export async function generateStaticParams() {
@@ -14,13 +15,6 @@ export async function generateStaticParams() {
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
-
-const DISCIPLINE_COLORS: Record<string, string> = {
-  Swim: "#3b82f6",
-  Bike: "#ef4444",
-  Run: "#f59e0b",
-  Total: "#22c55e",
-};
 
 export default async function RacePage({ params }: PageProps) {
   const { slug } = await params;

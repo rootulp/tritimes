@@ -2,28 +2,29 @@
 
 import { useState } from "react";
 import type { CourseStats } from "@/lib/types";
+import { DISCIPLINE_COLORS } from "@/lib/colors";
 import CourseBarChart from "@/components/CourseBarChart";
 
 const DISCIPLINES = [
   {
     key: "medianFinishSeconds" as const,
     label: "Overall",
-    color: "#22c55e",
+    color: DISCIPLINE_COLORS.Total,
   },
   {
     key: "medianSwimSeconds" as const,
     label: "Swim",
-    color: "#3b82f6",
+    color: DISCIPLINE_COLORS.Swim,
   },
   {
     key: "medianBikeSeconds" as const,
     label: "Bike",
-    color: "#ef4444",
+    color: DISCIPLINE_COLORS.Bike,
   },
   {
     key: "medianRunSeconds" as const,
     label: "Run",
-    color: "#f59e0b",
+    color: DISCIPLINE_COLORS.Run,
   },
 ];
 
@@ -57,10 +58,6 @@ export default function CourseCharts({
           </button>
         ))}
       </div>
-
-      <p className="text-sm text-gray-500 mb-6">
-        {filtered.length} courses
-      </p>
 
       <div className="space-y-8">
         {DISCIPLINES.map((disc) => (
