@@ -21,10 +21,6 @@ export default async function AthletePage({ params }: PageProps) {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <Link href="/" className="text-blue-400 hover:underline text-sm mb-6 inline-block">
-        &larr; Back to search
-      </Link>
-
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">
           {flag && <span className="mr-2">{flag}</span>}
