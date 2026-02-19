@@ -4,6 +4,7 @@ import { getRaceBySlug, getAthleteById, getDisciplineHistogram, getGenderCount, 
 import ResultCard from "@/components/ResultCard";
 import DisciplineSections from "@/components/DisciplineSections";
 import { getCountryFlagISO } from "@/lib/flags";
+import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
 // Next.js will render on first request and cache for subsequent visits.
@@ -58,17 +59,11 @@ export default async function ResultPage({ params }: PageProps) {
   const flag = getCountryFlagISO(athlete.countryISO);
   const location = [athlete.city, athlete.state, athlete.country].filter(Boolean).join(", ");
 
-  const DISCIPLINE_COLORS: Record<string, string> = {
-    Swim: "#3b82f6",
-    Bike: "#ef4444",
-    Run: "#f59e0b",
-    Total: "#22c55e",
-  };
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
       <Link href={`/race/${slug}`} className="text-blue-400 hover:underline text-sm mb-6 inline-block">
-        &larr; Back to search
+        &larr; {race.name}
       </Link>
 
       <header className="mb-8">
@@ -106,7 +101,7 @@ export default async function ResultPage({ params }: PageProps) {
             key={d.key}
             className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
           >
-            <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || "#6b7280" }}>
+            <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || DEFAULT_DISCIPLINE_COLOR }}>
               {d.label}
             </div>
             <div className="text-lg font-mono font-bold text-white">{d.time}</div>
