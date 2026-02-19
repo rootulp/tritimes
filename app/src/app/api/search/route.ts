@@ -1,12 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDeduplicatedAthleteIndex } from "@/lib/data";
+import fs from "fs";
+import path from "path";
 import { AthleteSearchEntry } from "@/lib/types";
 
 let cachedIndex: (AthleteSearchEntry & { fullNameLower: string })[] | null = null;
 
 function getIndex() {
   if (!cachedIndex) {
-    cachedIndex = getDeduplicatedAthleteIndex().map((entry) => ({
+    const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.json");
+    const entries: AthleteSearchEntry[] = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    cachedIndex = entries.map((entry) => ({
       ...entry,
       fullNameLower: entry.fullName.toLowerCase(),
     }));
