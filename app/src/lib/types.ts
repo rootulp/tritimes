@@ -135,7 +135,8 @@ export interface RaceStats {
   disciplines: DisciplineStats[];
   genderBreakdown: GenderBreakdown[];
   ageGroupBreakdown: AgeGroupBreakdown[];
-  leaderboard: LeaderboardEntry[];
+  maleLeaderboard: LeaderboardEntry[];
+  femaleLeaderboard: LeaderboardEntry[];
   histograms: {
     swim: RaceHistogramData;
     bike: RaceHistogramData;
