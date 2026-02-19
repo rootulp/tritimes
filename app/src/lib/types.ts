@@ -85,3 +85,61 @@ export interface RaceInfo {
   location: string;
   finishers: number;
 }
+
+export interface DisciplineStats {
+  discipline: string;
+  fastest: number;
+  slowest: number;
+  median: number;
+  average: number;
+}
+
+export interface GenderBreakdown {
+  gender: string;
+  count: number;
+  percentage: number;
+  medianFinish: number;
+  fastestFinish: number;
+}
+
+export interface AgeGroupBreakdown {
+  ageGroup: string;
+  count: number;
+  percentage: number;
+  medianFinish: number;
+  fastestFinish: number;
+}
+
+export interface LeaderboardEntry {
+  id: number;
+  rank: number;
+  fullName: string;
+  country: string;
+  countryISO: string;
+  ageGroup: string;
+  gender: string;
+  finishTime: string;
+  swimTime: string;
+  bikeTime: string;
+  runTime: string;
+}
+
+export interface RaceHistogramData {
+  bins: HistogramBin[];
+  medianSeconds: number;
+  totalAthletes: number;
+}
+
+export interface RaceStats {
+  totalFinishers: number;
+  disciplines: DisciplineStats[];
+  genderBreakdown: GenderBreakdown[];
+  ageGroupBreakdown: AgeGroupBreakdown[];
+  leaderboard: LeaderboardEntry[];
+  histograms: {
+    swim: RaceHistogramData;
+    bike: RaceHistogramData;
+    run: RaceHistogramData;
+    finish: RaceHistogramData;
+  };
+}
