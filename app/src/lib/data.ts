@@ -251,6 +251,29 @@ export function getGlobalStats(): { raceCount: number; totalResults: number } {
   };
 }
 
+export interface StatsPageData {
+  raceCount: number;
+  totalResults: number;
+  uniqueAthletes: number;
+  earliestRace: { slug: string; name: string; date: string };
+  mostRecentRace: { slug: string; name: string; date: string };
+}
+
+export function getStatsPageData(): StatsPageData {
+  const races = getRacesInternal();
+  const sorted = [...races].sort((a, b) => a.date.localeCompare(b.date));
+  const earliest = sorted[0];
+  const mostRecent = sorted[sorted.length - 1];
+
+  return {
+    raceCount: races.length,
+    totalResults: races.reduce((sum, r) => sum + r.finishers, 0),
+    uniqueAthletes: getDeduplicatedAthleteIndex().length,
+    earliestRace: { slug: earliest.slug, name: earliest.name, date: earliest.date },
+    mostRecentRace: { slug: mostRecent.slug, name: mostRecent.name, date: mostRecent.date },
+  };
+}
+
 function formatSecondsShort(seconds: number): string {
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
