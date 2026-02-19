@@ -41,10 +41,19 @@ ironman.com results page
   → Next.js app reads races.json + CSVs at build time
 ```
 
-## Development
+## Local Development
+
+Prerequisites: [Node.js](https://nodejs.org/) 18+
 
 ```bash
 cd app
 npm install
 npm run dev
 ```
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start Next.js development server |
+| `npm run build` | Build for production (also generates search index) |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
