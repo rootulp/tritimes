@@ -16,6 +16,16 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+function genderColor(gender: string): string {
+  if (gender === "Male") return "#3b82f6";
+  if (gender === "Female") return "#ec4899";
+  return "#6b7280";
+}
+
+function genderLabel(gender: string): string {
+  return gender || "Unlisted";
+}
+
 export default async function RacePage({ params }: PageProps) {
   const { slug } = await params;
   const race = getRaceBySlug(slug);
@@ -107,24 +117,24 @@ export default async function RacePage({ params }: PageProps) {
             <div className="flex rounded-full overflow-hidden h-3 mb-4">
               {stats.genderBreakdown.map((g) => (
                 <div
-                  key={g.gender}
+                  key={g.gender || "_unlisted"}
                   className="h-full"
                   style={{
                     width: `${g.percentage}%`,
-                    backgroundColor: g.gender === "Male" ? "#3b82f6" : "#ec4899",
+                    backgroundColor: genderColor(g.gender),
                   }}
                 />
               ))}
             </div>
             <div className="space-y-3">
               {stats.genderBreakdown.map((g) => (
-                <div key={g.gender} className="flex items-center justify-between text-sm">
+                <div key={g.gender || "_unlisted"} className="flex items-center justify-between text-sm">
                   <div className="flex items-center gap-2">
                     <div
                       className="w-2.5 h-2.5 rounded-full"
-                      style={{ backgroundColor: g.gender === "Male" ? "#3b82f6" : "#ec4899" }}
+                      style={{ backgroundColor: genderColor(g.gender) }}
                     />
-                    <span className="text-white">{g.gender}</span>
+                    <span className="text-white">{genderLabel(g.gender)}</span>
                   </div>
                   <div className="flex items-center gap-4 text-gray-400">
                     <span>{g.count.toLocaleString()} ({g.percentage}%)</span>
