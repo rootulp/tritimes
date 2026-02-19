@@ -10,11 +10,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const { gzipSync } = require("zlib");
 
 const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
-const searchIndexPath = path.join(dataDir, "athlete-index.json");
-const profilesPath = path.join(dataDir, "athlete-profiles.json");
+const searchIndexPath = path.join(dataDir, "athlete-index.json.gz");
+const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
 
 function parseCSV(csvPath) {
   const raw = fs.readFileSync(csvPath, "utf-8");
@@ -87,13 +88,13 @@ for (const race of races) {
   }
 }
 
-// Write search index
+// Write search index (gzipped)
 const searchIndex = Array.from(searchMap.values());
-fs.writeFileSync(searchIndexPath, JSON.stringify(searchIndex));
+fs.writeFileSync(searchIndexPath, gzipSync(JSON.stringify(searchIndex)));
 
-// Write profiles index as { slug: [[raceSlug, resultId], ...] }
+// Write profiles index as { slug: [[raceSlug, resultId], ...] } (gzipped)
 const profiles = Object.fromEntries(profilesMap);
-fs.writeFileSync(profilesPath, JSON.stringify(profiles));
+fs.writeFileSync(profilesPath, gzipSync(JSON.stringify(profiles)));
 
 const elapsed = Date.now() - start;
 console.log(

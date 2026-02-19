@@ -1,14 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { gunzipSync } from "zlib";
 import { AthleteSearchEntry } from "@/lib/types";
 
 let cachedIndex: (AthleteSearchEntry & { fullNameLower: string })[] | null = null;
 
 function getIndex() {
   if (!cachedIndex) {
-    const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.json");
-    const entries: AthleteSearchEntry[] = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.json.gz");
+    const entries: AthleteSearchEntry[] = JSON.parse(gunzipSync(fs.readFileSync(indexPath)).toString());
     cachedIndex = entries.map((entry) => ({
       ...entry,
       fullNameLower: entry.fullName.toLowerCase(),

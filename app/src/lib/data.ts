@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { gunzipSync } from "zlib";
 import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, HistogramBin, HistogramData, RaceInfo, SearchEntry } from "./types";
 
 interface RaceManifestEntry {
@@ -185,8 +186,8 @@ let profilesMappingCache: ProfilesMapping | null = null;
 
 function getProfilesMapping(): ProfilesMapping {
   if (!profilesMappingCache) {
-    const profilesPath = path.join(process.cwd(), "..", "data", "athlete-profiles.json");
-    profilesMappingCache = JSON.parse(fs.readFileSync(profilesPath, "utf-8"));
+    const profilesPath = path.join(process.cwd(), "..", "data", "athlete-profiles.json.gz");
+    profilesMappingCache = JSON.parse(gunzipSync(fs.readFileSync(profilesPath)).toString());
   }
   return profilesMappingCache!;
 }
