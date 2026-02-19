@@ -43,6 +43,7 @@ Data is collected from https://www.ironman.com/races/im703-new-york/results. Ins
 
 - `app/src/lib/data.ts` — Server-side data access (reads CSVs, computes histograms, athlete deduplication & profiles)
 - `app/src/lib/types.ts` — TypeScript interfaces (`AthleteSearchEntry`, `AthleteProfile`, `AthleteRaceEntry`, etc.)
+- `app/src/lib/colors.ts` — Canonical discipline color constants (swim, bike, run, overall, T1, T2)
 - `app/src/lib/flags.ts` — Country ISO to flag emoji mapping
 - `app/src/components/GlobalSearchBar.tsx` — Cross-race athlete search with debounce, caching, and keyboard nav
 - `app/src/components/SearchBar.tsx` — Single-race in-page athlete search
@@ -81,6 +82,19 @@ node scripts/scrape-all.js [--slug=<slug>] [--year=2025] [--dry-run] [--save-raw
 # Build search index (runs automatically during npm run build)
 node scripts/build-search-index.js
 ```
+
+## Design: Discipline Colors
+
+Canonical colors for triathlon disciplines. Defined in `app/src/lib/colors.ts` — always import from there, never hardcode.
+
+| Discipline | Hex       | Tailwind    |
+|------------|-----------|-------------|
+| Swim       | `#3b82f6` | `blue-400`  |
+| Bike       | `#ef4444` | `red-400`   |
+| Run        | `#f59e0b` | `amber-400` |
+| Overall    | `#9ca3af` | `gray-400`  |
+| T1         | `#8b5cf6` | `purple-400`|
+| T2         | `#ec4899` | `pink-400`  |
 
 ## Conventions
 

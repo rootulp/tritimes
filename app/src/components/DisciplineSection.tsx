@@ -1,14 +1,6 @@
 import Histogram from "./Histogram";
 import { HistogramData } from "@/lib/types";
-
-const COLORS: Record<string, string> = {
-  Swim: "#3b82f6",
-  Bike: "#ef4444",
-  Run: "#f59e0b",
-  Total: "#22c55e",
-  "T1 (Swim → Bike)": "#8b5cf6",
-  "T2 (Bike → Run)": "#ec4899",
-};
+import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
 
 interface Props {
   discipline: string;
@@ -27,7 +19,7 @@ export default function DisciplineSection({
   ageGroup,
   scope,
 }: Props) {
-  const color = COLORS[discipline] || "#6b7280";
+  const color = DISCIPLINE_COLORS[discipline] || DEFAULT_DISCIPLINE_COLOR;
   const data = scope === "overall" ? overallData : ageGroupData;
   const label = scope === "overall" ? "Overall Field" : `Age Group: ${ageGroup}`;
 
