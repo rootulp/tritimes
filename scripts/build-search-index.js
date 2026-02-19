@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * Pre-builds the deduplicated athlete search index from CSV files.
- * Outputs data/athlete-index.json for use by the /api/search endpoint.
+ * Pre-builds athlete data indexes from CSV files:
+ * - data/athlete-index.json    — deduplicated search index for /api/search
+ * - data/athlete-profiles.json — slug-keyed profiles for /athlete/[slug]
  *
  * Run: node scripts/build-search-index.js
  */
@@ -12,7 +13,8 @@ const path = require("path");
 
 const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
-const outputPath = path.join(dataDir, "athlete-index.json");
+const searchIndexPath = path.join(dataDir, "athlete-index.json");
+const profilesPath = path.join(dataDir, "athlete-profiles.json");
 
 function parseCSV(csvPath) {
   const raw = fs.readFileSync(csvPath, "utf-8");
@@ -27,6 +29,7 @@ function parseCSV(csvPath) {
       row[h] = values[idx] || "";
     });
     if (row.Status !== "Finisher") continue;
+    row._id = i - 1; // 0-based row index, matches data.ts parseCSV
     results.push(row);
   }
   return results;
@@ -46,7 +49,11 @@ function slugifyAthlete(fullName, countryISO, gender) {
 
 const start = Date.now();
 const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
-const map = new Map();
+
+// searchMap: slug → { fullName, country, countryISO, raceCount }
+const searchMap = new Map();
+// profilesMap: slug → [[raceSlug, resultId], ...]
+const profilesMap = new Map();
 
 for (const race of races) {
   const csvPath = path.join(dataDir, `${race.slug}.csv`);
@@ -55,11 +62,13 @@ for (const race of races) {
   const results = parseCSV(csvPath);
   for (const r of results) {
     const slug = slugifyAthlete(r.FullName, r.CountryISO, r.Gender);
-    const existing = map.get(slug);
+
+    // Search index
+    const existing = searchMap.get(slug);
     if (existing) {
       existing.raceCount++;
     } else {
-      map.set(slug, {
+      searchMap.set(slug, {
         slug,
         fullName: r.FullName,
         country: r.Country,
@@ -67,13 +76,29 @@ for (const race of races) {
         raceCount: 1,
       });
     }
+
+    // Profiles index — compact [raceSlug, resultId] pairs
+    const refs = profilesMap.get(slug);
+    if (refs) {
+      refs.push([race.slug, r._id]);
+    } else {
+      profilesMap.set(slug, [[race.slug, r._id]]);
+    }
   }
 }
 
-const index = Array.from(map.values());
-fs.writeFileSync(outputPath, JSON.stringify(index));
+// Write search index
+const searchIndex = Array.from(searchMap.values());
+fs.writeFileSync(searchIndexPath, JSON.stringify(searchIndex));
+
+// Write profiles index as { slug: [[raceSlug, resultId], ...] }
+const profiles = Object.fromEntries(profilesMap);
+fs.writeFileSync(profilesPath, JSON.stringify(profiles));
 
 const elapsed = Date.now() - start;
 console.log(
-  `Built search index: ${index.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), outputPath)}`
+  `Built search index: ${searchIndex.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), searchIndexPath)}`
+);
+console.log(
+  `Built profiles index: ${profilesMap.size} athletes → ${path.relative(process.cwd(), profilesPath)}`
 );

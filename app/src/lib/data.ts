@@ -178,31 +178,49 @@ export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
   return athleteIndexCache;
 }
 
+// Compact mapping: slug → [[raceSlug, resultId], ...]
+type ProfilesMapping = Record<string, [string, number][]>;
+
+let profilesMappingCache: ProfilesMapping | null = null;
+
+function getProfilesMapping(): ProfilesMapping {
+  if (!profilesMappingCache) {
+    const profilesPath = path.join(process.cwd(), "..", "data", "athlete-profiles.json");
+    profilesMappingCache = JSON.parse(fs.readFileSync(profilesPath, "utf-8"));
+  }
+  return profilesMappingCache!;
+}
+
 export function getAthleteProfile(slug: string): AthleteProfile | null {
+  const mapping = getProfilesMapping();
+  const refs = mapping[slug];
+  if (!refs || refs.length === 0) return null;
+
+  const raceMap = new Map(getRacesInternal().map((r) => [r.slug, r]));
   const races: AthleteRaceEntry[] = [];
   let fullName = "";
   let country = "";
   let countryISO = "";
 
-  for (const race of getRacesInternal()) {
-    for (const r of getAllResults(race.slug)) {
-      if (slugifyAthlete(r.fullName, r.countryISO, r.gender) === slug) {
-        fullName = r.fullName;
-        country = r.country;
-        countryISO = r.countryISO;
-        races.push({
-          raceSlug: race.slug,
-          raceName: race.name,
-          raceDate: race.date,
-          resultId: r.id,
-          finishTime: r.finishTime,
-          ageGroup: r.ageGroup,
-          swimTime: r.swimTime,
-          bikeTime: r.bikeTime,
-          runTime: r.runTime,
-        });
-      }
-    }
+  for (const [raceSlug, resultId] of refs) {
+    const race = raceMap.get(raceSlug);
+    const result = getAthleteById(raceSlug, resultId);
+    if (!race || !result) continue;
+
+    fullName = result.fullName;
+    country = result.country;
+    countryISO = result.countryISO;
+    races.push({
+      raceSlug: race.slug,
+      raceName: race.name,
+      raceDate: race.date,
+      resultId: result.id,
+      finishTime: result.finishTime,
+      ageGroup: result.ageGroup,
+      swimTime: result.swimTime,
+      bikeTime: result.bikeTime,
+      runTime: result.runTime,
+    });
   }
 
   if (races.length === 0) return null;
