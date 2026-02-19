@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
+import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
 
 interface RaceManifestEntry {
   slug: string;
@@ -220,6 +220,16 @@ export function getAthleteProfile(slug: string): AthleteProfile | null {
   races.sort((a, b) => b.raceDate.localeCompare(a.raceDate));
 
   return { slug, fullName, country, countryISO, races };
+}
+
+let courseStatsCache: CourseStats[] | null = null;
+
+export function getCourseStats(): CourseStats[] {
+  if (!courseStatsCache) {
+    const statsPath = path.join(process.cwd(), "..", "data", "course-stats.json.gz");
+    courseStatsCache = JSON.parse(gunzipSync(fs.readFileSync(statsPath)).toString());
+  }
+  return courseStatsCache!;
 }
 
 export function getGlobalStats(): { raceCount: number; totalResults: number } {

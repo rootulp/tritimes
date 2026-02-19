@@ -143,3 +143,15 @@ export interface RaceStats {
     finish: RaceHistogramData;
   };
 }
+
+export interface CourseStats {
+  course: string;
+  displayName: string;
+  distance: "70.3" | "140.6";
+  editions: number;
+  totalFinishers: number;
+  medianSwimSeconds: number;
+  medianBikeSeconds: number;
+  medianRunSeconds: number;
+  medianFinishSeconds: number;
+}
