@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { SearchEntry } from "@/lib/types";
 
 export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[]; raceSlug: string }) {
@@ -41,7 +42,6 @@ export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[
   function handleSelect(entry: SearchEntry) {
     setQuery(entry.fullName);
     setIsOpen(false);
-    router.push(`/race/${raceSlug}/result/${entry.id}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent) {
@@ -55,6 +55,7 @@ export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
       handleSelect(matches[selectedIndex]);
+      router.push(`/race/${raceSlug}/result/${matches[selectedIndex].id}`);
     } else if (e.key === "Escape") {
       setIsOpen(false);
     }
@@ -76,15 +77,20 @@ export default function SearchBar({ entries, raceSlug }: { entries: SearchEntry[
           {matches.map((entry, i) => (
             <li
               key={entry.id}
-              onClick={() => handleSelect(entry)}
-              className={`px-4 py-3 cursor-pointer border-b border-gray-800 last:border-b-0 ${
+              className={`border-b border-gray-800 last:border-b-0 ${
                 i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"
               }`}
             >
-              <div className="font-medium text-white">{entry.fullName}</div>
-              <div className="text-sm text-gray-400">
-                {entry.ageGroup} &middot; {entry.country}
-              </div>
+              <Link
+                href={`/race/${raceSlug}/result/${entry.id}`}
+                onClick={() => handleSelect(entry)}
+                className="block px-4 py-3"
+              >
+                <div className="font-medium text-white">{entry.fullName}</div>
+                <div className="text-sm text-gray-400">
+                  {entry.ageGroup} &middot; {entry.country}
+                </div>
+              </Link>
             </li>
           ))}
         </ul>
