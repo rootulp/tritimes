@@ -81,3 +81,7 @@ node scripts/scrape-all.js [--slug=<slug>] [--year=2025] [--dry-run] [--save-raw
 # Build search index (runs automatically during npm run build)
 node scripts/build-search-index.js
 ```
+
+## Conventions
+
+- Use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages and PR titles (e.g. `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`)
