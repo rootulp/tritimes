@@ -3,9 +3,9 @@ import { HistogramData } from "@/lib/types";
 
 const COLORS: Record<string, string> = {
   Swim: "#3b82f6",
-  Bike: "#22c55e",
+  Bike: "#ef4444",
   Run: "#f59e0b",
-  Total: "#ef4444",
+  Total: "#22c55e",
   "T1 (Swim → Bike)": "#8b5cf6",
   "T2 (Bike → Run)": "#ec4899",
 };

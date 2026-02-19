@@ -60,25 +60,10 @@ export default async function ResultPage({ params }: PageProps) {
 
   const DISCIPLINE_COLORS: Record<string, string> = {
     Swim: "#3b82f6",
-    Bike: "#22c55e",
+    Bike: "#ef4444",
     Run: "#f59e0b",
-    Total: "#ef4444",
+    Total: "#22c55e",
   };
-
-  const medianComparisons = histograms.map((d) => {
-    const athleteSec = d.overall.athleteSeconds;
-    const medianSec = d.overall.medianSeconds;
-    const deltaSec = athleteSec - medianSec;
-    const faster = deltaSec < 0;
-    return {
-      label: d.label,
-      time: d.time,
-      medianSeconds: medianSec,
-      deltaSec,
-      faster,
-      color: DISCIPLINE_COLORS[d.label] || "#6b7280",
-    };
-  });
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
@@ -97,10 +82,7 @@ export default async function ResultPage({ params }: PageProps) {
       </header>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <ResultCard
-          label="Finish Time"
-          value={athlete.finishTime}
-        />
+        <div />
         <ResultCard
           label="Overall"
           value={`Top ${overallPct}%`}
@@ -119,30 +101,17 @@ export default async function ResultPage({ params }: PageProps) {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {medianComparisons.map((d) => {
-          const absDelta = Math.abs(d.deltaSec);
-          const h = Math.floor(absDelta / 3600);
-          const m = Math.floor((absDelta % 3600) / 60);
-          const s = Math.round(absDelta % 60);
-          const deltaStr = h > 0
-            ? `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`
-            : `${m}:${String(s).padStart(2, "0")}`;
-
-          return (
-            <div
-              key={d.label}
-              className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
-            >
-              <div className="text-sm font-medium mb-1" style={{ color: d.color }}>
-                {d.label}
-              </div>
-              <div className="text-lg font-mono font-bold text-white">{d.time}</div>
-              <div className={`text-sm font-mono mt-1 ${d.faster ? "text-green-400" : "text-red-400"}`}>
-                {d.faster ? "-" : "+"}{deltaStr} vs median
-              </div>
+        {disciplines.map((d) => (
+          <div
+            key={d.key}
+            className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
+          >
+            <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || "#6b7280" }}>
+              {d.label}
             </div>
-          );
-        })}
+            <div className="text-lg font-mono font-bold text-white">{d.time}</div>
+          </div>
+        ))}
       </div>
 
       <DisciplineSections
