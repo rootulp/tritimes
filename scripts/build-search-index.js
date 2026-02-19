@@ -18,14 +18,77 @@ const searchIndexPath = path.join(dataDir, "athlete-index.json.gz");
 const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
 const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
 
+/**
+ * Parse RFC 4180 CSV text into rows of string arrays.
+ * Handles quoted fields that contain newlines, commas, and escaped quotes.
+ */
+function parseCSVRows(raw) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  let i = 0;
+
+  while (i < raw.length) {
+    const ch = raw[i];
+
+    if (inQuotes) {
+      if (ch === '"') {
+        if (i + 1 < raw.length && raw[i + 1] === '"') {
+          field += '"';
+          i += 2;
+        } else {
+          inQuotes = false;
+          i++;
+        }
+      } else {
+        field += ch;
+        i++;
+      }
+    } else {
+      if (ch === '"') {
+        inQuotes = true;
+        i++;
+      } else if (ch === ",") {
+        row.push(field);
+        field = "";
+        i++;
+      } else if (ch === "\r" && i + 1 < raw.length && raw[i + 1] === "\n") {
+        row.push(field);
+        field = "";
+        rows.push(row);
+        row = [];
+        i += 2;
+      } else if (ch === "\n") {
+        row.push(field);
+        field = "";
+        rows.push(row);
+        row = [];
+        i++;
+      } else {
+        field += ch;
+        i++;
+      }
+    }
+  }
+
+  if (field || row.length > 0) {
+    row.push(field);
+    rows.push(row);
+  }
+
+  return rows;
+}
+
 function parseCSV(csvPath) {
   const raw = fs.readFileSync(csvPath, "utf-8");
-  const lines = raw.trim().split("\n");
-  const headers = lines[0].split(",");
+  const rows = parseCSVRows(raw);
+  if (rows.length === 0) return [];
 
+  const headers = rows[0];
   const results = [];
-  for (let i = 1; i < lines.length; i++) {
-    const values = lines[i].split(",");
+  for (let i = 1; i < rows.length; i++) {
+    const values = rows[i];
     const row = {};
     headers.forEach((h, idx) => {
       row[h] = values[idx] || "";
