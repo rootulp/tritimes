@@ -33,6 +33,18 @@ export default function StatsPage() {
           </p>
         </div>
         <div className="p-5 border border-gray-700/80 rounded-lg bg-gray-900">
+          <p className="text-sm text-gray-400">IRONMAN Courses</p>
+          <p className="text-3xl font-bold text-white mt-1">
+            {stats.ironmanCourseCount.toLocaleString()}
+          </p>
+        </div>
+        <div className="p-5 border border-gray-700/80 rounded-lg bg-gray-900">
+          <p className="text-sm text-gray-400">IRONMAN 70.3 Courses</p>
+          <p className="text-3xl font-bold text-white mt-1">
+            {stats.halfIronmanCourseCount.toLocaleString()}
+          </p>
+        </div>
+        <div className="p-5 border border-gray-700/80 rounded-lg bg-gray-900">
           <p className="text-sm text-gray-400">Earliest Race</p>
           <Link
             href={`/race/${stats.earliestRace.slug}`}

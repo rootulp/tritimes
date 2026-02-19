@@ -257,6 +257,8 @@ export interface StatsPageData {
   raceCount: number;
   totalResults: number;
   uniqueAthletes: number;
+  ironmanCourseCount: number;
+  halfIronmanCourseCount: number;
   earliestRace: { slug: string; name: string; date: string };
   mostRecentRace: { slug: string; name: string; date: string };
 }
@@ -267,10 +269,23 @@ export function getStatsPageData(): StatsPageData {
   const earliest = sorted[0];
   const mostRecent = sorted[sorted.length - 1];
 
+  const ironmanCourses = new Set<string>();
+  const halfIronmanCourses = new Set<string>();
+  for (const r of races) {
+    const base = r.slug.replace(/-\d{4}$/, "");
+    if (r.slug.startsWith("im703-")) {
+      halfIronmanCourses.add(base);
+    } else {
+      ironmanCourses.add(base);
+    }
+  }
+
   return {
     raceCount: races.length,
     totalResults: races.reduce((sum, r) => sum + r.finishers, 0),
     uniqueAthletes: getDeduplicatedAthleteIndex().length,
+    ironmanCourseCount: ironmanCourses.size,
+    halfIronmanCourseCount: halfIronmanCourses.size,
     earliestRace: { slug: earliest.slug, name: earliest.name, date: earliest.date },
     mostRecentRace: { slug: mostRecent.slug, name: mostRecent.name, date: mostRecent.date },
   };
