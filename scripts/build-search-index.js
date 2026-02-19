@@ -16,6 +16,7 @@ const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
 const searchIndexPath = path.join(dataDir, "athlete-index.json.gz");
 const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
+const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
 
 function parseCSV(csvPath) {
   const raw = fs.readFileSync(csvPath, "utf-8");
@@ -96,10 +97,80 @@ fs.writeFileSync(searchIndexPath, gzipSync(JSON.stringify(searchIndex)));
 const profiles = Object.fromEntries(profilesMap);
 fs.writeFileSync(profilesPath, gzipSync(JSON.stringify(profiles)));
 
+// ── Course stats ──────────────────────────────────────────────────
+
+function computeMedian(values) {
+  if (values.length === 0) return 0;
+  const sorted = values.slice().sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 !== 0
+    ? sorted[mid]
+    : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+}
+
+function stripPrefix(name) {
+  return name
+    .replace(/^\d{4}\s+/, "")
+    .replace(/^IRONMAN\s+70\.3\s+/i, "")
+    .replace(/^IRONMAN\s+/i, "");
+}
+
+// Group races by base course slug (strip trailing -YYYY)
+const courseMap = new Map();
+for (const race of races) {
+  const base = race.slug.replace(/-\d{4}$/, "");
+  if (!courseMap.has(base)) {
+    courseMap.set(base, {
+      course: base,
+      displayName: stripPrefix(race.name),
+      distance: base.startsWith("im703-") ? "70.3" : "140.6",
+      editions: 0,
+      swimSeconds: [],
+      bikeSeconds: [],
+      runSeconds: [],
+      finishSeconds: [],
+    });
+  }
+  const entry = courseMap.get(base);
+  entry.editions++;
+
+  const csvPath = path.join(dataDir, `${race.slug}.csv`);
+  if (!fs.existsSync(csvPath)) continue;
+
+  const results = parseCSV(csvPath);
+  for (const r of results) {
+    const swim = Number(r.SwimSeconds) || 0;
+    const bike = Number(r.BikeSeconds) || 0;
+    const run = Number(r.RunSeconds) || 0;
+    const finish = Number(r.FinishSeconds) || 0;
+    if (swim > 0) entry.swimSeconds.push(swim);
+    if (bike > 0) entry.bikeSeconds.push(bike);
+    if (run > 0) entry.runSeconds.push(run);
+    if (finish > 0) entry.finishSeconds.push(finish);
+  }
+}
+
+const courseStats = Array.from(courseMap.values()).map((c) => ({
+  course: c.course,
+  displayName: c.displayName,
+  distance: c.distance,
+  editions: c.editions,
+  totalFinishers: c.finishSeconds.length,
+  medianSwimSeconds: computeMedian(c.swimSeconds),
+  medianBikeSeconds: computeMedian(c.bikeSeconds),
+  medianRunSeconds: computeMedian(c.runSeconds),
+  medianFinishSeconds: computeMedian(c.finishSeconds),
+}));
+
+fs.writeFileSync(courseStatsPath, gzipSync(JSON.stringify(courseStats)));
+
 const elapsed = Date.now() - start;
 console.log(
   `Built search index: ${searchIndex.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), searchIndexPath)}`
 );
 console.log(
   `Built profiles index: ${profilesMap.size} athletes → ${path.relative(process.cwd(), profilesPath)}`
+);
+console.log(
+  `Built course stats: ${courseStats.length} courses → ${path.relative(process.cwd(), courseStatsPath)}`
 );
