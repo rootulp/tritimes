@@ -202,12 +202,23 @@ export function getAthleteProfile(slug: string): AthleteProfile | null {
     fullName = result.fullName;
     country = result.country;
     countryISO = result.countryISO;
+
+    const allFinishTimes = getAllResults(raceSlug).map((r) => r.finishSeconds).filter((s) => s > 0);
+    const slowerCount = allFinishTimes.filter((s) => s > result.finishSeconds).length;
+    const overallPercentile = allFinishTimes.length > 0
+      ? Math.round((slowerCount / allFinishTimes.length) * 100)
+      : 0;
+    const distance: "70.3" | "140.6" = raceSlug.startsWith("im703-") ? "70.3" : "140.6";
+
     races.push({
       raceSlug: race.slug,
       raceName: race.name,
       raceDate: race.date,
       resultId: result.id,
       finishTime: result.finishTime,
+      finishSeconds: result.finishSeconds,
+      overallPercentile,
+      distance,
       ageGroup: result.ageGroup,
       swimTime: result.swimTime,
       bikeTime: result.bikeTime,

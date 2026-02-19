@@ -56,6 +56,9 @@ export interface AthleteRaceEntry {
   raceDate: string;
   resultId: number;
   finishTime: string;
+  finishSeconds: number;
+  overallPercentile: number;
+  distance: "70.3" | "140.6";
   ageGroup: string;
   swimTime: string;
   bikeTime: string;

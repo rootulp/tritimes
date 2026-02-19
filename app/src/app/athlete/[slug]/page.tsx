@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAthleteProfile } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
+import AthletePerformanceCharts from "@/components/AthletePerformanceCharts";
 
 export async function generateStaticParams() {
   return [];
@@ -43,9 +44,18 @@ export default async function AthletePage({ params }: PageProps) {
           >
             <div className="flex items-center justify-between">
               <div>
-                <div className="font-medium text-white">{race.raceName}</div>
+                <div className="flex items-center gap-2">
+                  <span className="font-medium text-white">{race.raceName}</span>
+                  <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
+                    race.distance === "70.3"
+                      ? "bg-blue-500/20 text-blue-400 ring-1 ring-blue-500/30"
+                      : "bg-orange-500/20 text-orange-400 ring-1 ring-orange-500/30"
+                  }`}>
+                    {race.distance}
+                  </span>
+                </div>
                 <div className="text-sm text-gray-400 mt-1">
-                  {race.raceDate} &middot; {race.ageGroup}
+                  {race.raceDate} &middot; {race.ageGroup} &middot; Faster than {race.overallPercentile}%
                 </div>
               </div>
               <div className="text-right">
@@ -62,6 +72,8 @@ export default async function AthletePage({ params }: PageProps) {
           </Link>
         ))}
       </div>
+
+      <AthletePerformanceCharts races={[...profile.races].reverse()} />
     </main>
   );
 }
