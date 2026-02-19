@@ -53,7 +53,7 @@ export default async function AthletePage({ params }: PageProps) {
                 <div className="text-xs font-mono text-gray-500 mt-1">
                   <span className="text-blue-400">{race.swimTime}</span>
                   {" / "}
-                  <span className="text-green-400">{race.bikeTime}</span>
+                  <span className="text-red-400">{race.bikeTime}</span>
                   {" / "}
                   <span className="text-amber-400">{race.runTime}</span>
                 </div>
