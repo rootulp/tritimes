@@ -166,46 +166,48 @@ export default async function RacePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Leaderboard */}
+      {/* Leaderboards by gender */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Top Finishers</h2>
-        <div className="bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-gray-700 text-gray-400">
-                <th className="text-left px-4 py-3 font-medium w-10">#</th>
-                <th className="text-left px-4 py-3 font-medium">Name</th>
-                <th className="text-left px-4 py-3 font-medium hidden md:table-cell">AG</th>
-                <th className="text-right px-4 py-3 font-medium">Finish</th>
-                <th className="text-right px-4 py-3 font-medium hidden md:table-cell">Swim</th>
-                <th className="text-right px-4 py-3 font-medium hidden md:table-cell">Bike</th>
-                <th className="text-right px-4 py-3 font-medium hidden md:table-cell">Run</th>
-              </tr>
-            </thead>
-            <tbody>
-              {stats.leaderboard.map((entry) => {
-                const flag = getCountryFlagISO(entry.countryISO);
-                return (
-                  <tr key={entry.id} className="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
-                    <td className="px-4 py-3 text-gray-400">{entry.rank}</td>
-                    <td className="px-4 py-3">
-                      <Link
-                        href={`/race/${slug}/result/${entry.id}`}
-                        className="text-white hover:text-blue-400 transition-colors"
-                      >
-                        {flag} {entry.fullName}
-                      </Link>
-                    </td>
-                    <td className="px-4 py-3 text-gray-400 hidden md:table-cell">{entry.ageGroup}</td>
-                    <td className="px-4 py-3 text-right font-mono font-bold text-white">{entry.finishTime}</td>
-                    <td className="px-4 py-3 text-right font-mono hidden md:table-cell" style={{ color: "#3b82f6" }}>{entry.swimTime}</td>
-                    <td className="px-4 py-3 text-right font-mono hidden md:table-cell" style={{ color: "#ef4444" }}>{entry.bikeTime}</td>
-                    <td className="px-4 py-3 text-right font-mono hidden md:table-cell" style={{ color: "#f59e0b" }}>{entry.runTime}</td>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {[
+            { title: "Top 10 Males", entries: stats.maleLeaderboard },
+            { title: "Top 10 Females", entries: stats.femaleLeaderboard },
+          ].map(({ title, entries }) => (
+            <div key={title} className="bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
+              <h3 className="text-sm font-medium text-gray-400 px-4 pt-4 pb-2">{title}</h3>
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-700 text-gray-400">
+                    <th className="text-left px-4 py-2 font-medium w-8">#</th>
+                    <th className="text-left px-4 py-2 font-medium">Name</th>
+                    <th className="text-left px-4 py-2 font-medium hidden lg:table-cell">AG</th>
+                    <th className="text-right px-4 py-2 font-medium">Finish</th>
                   </tr>
-                );
-              })}
-            </tbody>
-          </table>
+                </thead>
+                <tbody>
+                  {entries.map((entry) => {
+                    const flag = getCountryFlagISO(entry.countryISO);
+                    return (
+                      <tr key={entry.id} className="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                        <td className="px-4 py-2 text-gray-400">{entry.rank}</td>
+                        <td className="px-4 py-2">
+                          <Link
+                            href={`/race/${slug}/result/${entry.id}`}
+                            className="text-white hover:text-blue-400 transition-colors"
+                          >
+                            {flag} {entry.fullName}
+                          </Link>
+                        </td>
+                        <td className="px-4 py-2 text-gray-400 hidden lg:table-cell">{entry.ageGroup}</td>
+                        <td className="px-4 py-2 text-right font-mono font-bold text-white">{entry.finishTime}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ))}
         </div>
       </section>
     </main>

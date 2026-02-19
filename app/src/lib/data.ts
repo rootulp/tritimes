@@ -427,23 +427,28 @@ export function getRaceStats(raceSlug: string): RaceStats {
     })
     .sort((a, b) => b.count - a.count);
 
-  // Top 10 leaderboard
-  const leaderboard: LeaderboardEntry[] = [...results]
-    .sort((a, b) => a.overallRank - b.overallRank)
-    .slice(0, 10)
-    .map((r) => ({
-      id: r.id,
-      rank: r.overallRank,
-      fullName: r.fullName,
-      country: r.country,
-      countryISO: r.countryISO,
-      ageGroup: r.ageGroup,
-      gender: r.gender,
-      finishTime: r.finishTime,
-      swimTime: r.swimTime,
-      bikeTime: r.bikeTime,
-      runTime: r.runTime,
-    }));
+  // Top 10 leaderboards by gender
+  function buildLeaderboard(gender: string): LeaderboardEntry[] {
+    return results
+      .filter((r) => r.gender === gender)
+      .sort((a, b) => a.genderRank - b.genderRank)
+      .slice(0, 10)
+      .map((r) => ({
+        id: r.id,
+        rank: r.genderRank,
+        fullName: r.fullName,
+        country: r.country,
+        countryISO: r.countryISO,
+        ageGroup: r.ageGroup,
+        gender: r.gender,
+        finishTime: r.finishTime,
+        swimTime: r.swimTime,
+        bikeTime: r.bikeTime,
+        runTime: r.runTime,
+      }));
+  }
+  const maleLeaderboard = buildLeaderboard("Male");
+  const femaleLeaderboard = buildLeaderboard("Female");
 
   // Histograms
   const histograms = {
@@ -458,7 +463,8 @@ export function getRaceStats(raceSlug: string): RaceStats {
     disciplines,
     genderBreakdown,
     ageGroupBreakdown,
-    leaderboard,
+    maleLeaderboard,
+    femaleLeaderboard,
     histograms,
   };
 }
