@@ -227,6 +227,17 @@ const courseStats = Array.from(courseMap.values()).map((c) => ({
 
 fs.writeFileSync(courseStatsPath, gzipSync(JSON.stringify(courseStats)));
 
+// ── Gzip CSV files for compact serverless deployment ─────────────
+
+let gzCount = 0;
+for (const race of races) {
+  const csvPath = path.join(dataDir, `${race.slug}.csv`);
+  if (!fs.existsSync(csvPath)) continue;
+  const raw = fs.readFileSync(csvPath);
+  fs.writeFileSync(`${csvPath}.gz`, gzipSync(raw));
+  gzCount++;
+}
+
 const elapsed = Date.now() - start;
 console.log(
   `Built search index: ${searchIndex.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), searchIndexPath)}`
@@ -236,4 +247,7 @@ console.log(
 );
 console.log(
   `Built course stats: ${courseStats.length} courses → ${path.relative(process.cwd(), courseStatsPath)}`
+);
+console.log(
+  `Gzipped ${gzCount} CSV files for deployment`
 );

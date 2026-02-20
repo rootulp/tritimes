@@ -100,11 +100,10 @@ function parseCSV(raceSlug: string): AthleteResult[] {
   const cached = cache.get(raceSlug);
   if (cached) return cached;
 
-  const csvFile = `${raceSlug}.csv`;
-  const csvPath = path.join(process.cwd(), "..", "data", csvFile);
-  if (!fs.existsSync(csvPath)) return [];
+  const gzPath = path.join(process.cwd(), "..", "data", `${raceSlug}.csv.gz`);
+  if (!fs.existsSync(gzPath)) return [];
 
-  const raw = fs.readFileSync(csvPath, "utf-8");
+  const raw = gunzipSync(fs.readFileSync(gzPath)).toString("utf-8");
   const rows = parseCSVRows(raw);
   if (rows.length === 0) return [];
 
