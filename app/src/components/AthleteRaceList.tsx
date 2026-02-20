@@ -109,7 +109,7 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
       <div className="flex justify-end mb-4">
         <button
           type="button"
-          onClick={() => downloadCsv(fullName, races)}
+          onClick={() => downloadCsv(fullName, visibleRaces)}
           className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors cursor-pointer"
         >
           <DownloadIcon />
