@@ -62,17 +62,13 @@ export default async function ResultPage({ params }: PageProps) {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
-      <Link href={`/race/${slug}`} className="text-blue-400 hover:underline text-sm mb-6 inline-block">
-        &larr; {race.name}
-      </Link>
-
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">
           {flag && <span className="mr-2">{flag}</span>}
           {athlete.fullName}
         </h1>
         <p className="text-gray-400 mt-1">
-          {race.name} &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
+          <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
         </p>
       </header>
 

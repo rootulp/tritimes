@@ -37,10 +37,6 @@ export default async function RacePage({ params }: PageProps) {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
-      <Link href="/races" className="text-blue-400 hover:underline text-sm mb-6 inline-block">
-        &larr; All races
-      </Link>
-
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">{race.name}</h1>
         <p className="text-gray-400 mt-1">
