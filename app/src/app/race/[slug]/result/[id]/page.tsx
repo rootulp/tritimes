@@ -61,7 +61,7 @@ export default async function ResultPage({ params }: PageProps) {
 
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-6xl mx-auto px-4 py-8">
       <Link href={`/race/${slug}`} className="text-blue-400 hover:underline text-sm mb-6 inline-block">
         &larr; {race.name}
       </Link>
@@ -76,8 +76,7 @@ export default async function ResultPage({ params }: PageProps) {
         </p>
       </header>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div />
+      <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8">
         <ResultCard
           label="Overall"
           value={`Top ${overallPct}%`}

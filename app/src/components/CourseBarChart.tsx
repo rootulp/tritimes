@@ -56,7 +56,7 @@ export default function CourseBarChart({
   const chartHeight = data.length * barHeight + 40;
 
   return (
-    <div className="bg-gray-900 rounded-xl border border-gray-700 p-6">
+    <div className="bg-gray-900 rounded-xl border border-gray-700 p-4 sm:p-6">
       <h3 className="text-lg font-semibold text-white mb-4" style={{ color }}>
         {label}
       </h3>
@@ -76,8 +76,8 @@ export default function CourseBarChart({
           <YAxis
             type="category"
             dataKey="name"
-            width={140}
-            tick={{ fontSize: 12, fill: "#d1d5db" }}
+            width={100}
+            tick={{ fontSize: 11, fill: "#d1d5db" }}
             axisLine={false}
             tickLine={false}
           />

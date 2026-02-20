@@ -41,8 +41,8 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
 
   const btnClass = (active: boolean) =>
     active
-      ? "px-3 py-1.5 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20"
-      : "px-3 py-1.5 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-colors";
+      ? "px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20"
+      : "px-4 py-2 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-colors";
 
   return (
     <>
@@ -61,7 +61,7 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
           <select
             value={year}
             onChange={(e) => setYear(e.target.value)}
-            className="px-3 py-1.5 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none appearance-none cursor-pointer pr-7 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M3%205l3%203%203-3%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_8px_center] bg-no-repeat"
+            className="px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none appearance-none cursor-pointer pr-7 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M3%205l3%203%203-3%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_8px_center] bg-no-repeat"
           >
             <option value="All" className="bg-gray-900 text-white">All</option>
             {years.map((y) => (

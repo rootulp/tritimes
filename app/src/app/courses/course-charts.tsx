@@ -39,8 +39,8 @@ export default function CourseCharts({
 
   const btnClass = (active: boolean) =>
     active
-      ? "px-3 py-1.5 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20"
-      : "px-3 py-1.5 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-colors";
+      ? "px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20"
+      : "px-4 py-2 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-colors";
 
   return (
     <>

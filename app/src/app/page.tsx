@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(168,85,247,0.08),transparent_50%)]" />
 
         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 pt-28 pb-20">
-          <h1 className="text-6xl sm:text-7xl font-bold text-white tracking-tight mb-4">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-4">
             Race. Analyze.{" "}
             <span className="bg-gradient-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent">
               Improve.
