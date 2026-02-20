@@ -34,7 +34,12 @@ function parseArgs() {
 function generateSlug(registrySlug, eventName, eventDate) {
   // Generate a slug like "im703-new-york-2025" from registry slug + event year
   const year = eventDate ? new Date(eventDate).getFullYear() : null;
-  if (year) return `${registrySlug}-${year}`;
+  // Detect gender-specific events (e.g., "World Championship - Women")
+  const name = (eventName || "").toLowerCase();
+  let genderSuffix = "";
+  if (name.includes("- women")) genderSuffix = "-women";
+  else if (name.includes("- men")) genderSuffix = "-men";
+  if (year) return `${registrySlug}${genderSuffix}-${year}`;
   // Fallback: derive from event name
   const base = eventName
     .toLowerCase()

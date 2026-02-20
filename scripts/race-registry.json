@@ -1,5 +1,11 @@
 [
   {
+    "slug": "im-arizona",
+    "name": "IRONMAN Arizona",
+    "location": "Tempe, AZ, USA",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9f98aa20-f278-e111-b16a-005056956277"
+  },
+  {
     "slug": "im-australia",
     "name": "IRONMAN Australia",
     "location": "Port Macquarie, Australia",
@@ -90,10 +96,22 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/d998aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im-western-australia",
+    "name": "IRONMAN Western Australia",
+    "location": "Busselton, Australia",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e198aa20-f278-e111-b16a-005056956277"
+  },
+  {
     "slug": "im-wisconsin",
     "name": "IRONMAN Wisconsin",
     "location": "Madison, WI, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/e598aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-world-championship",
+    "name": "IRONMAN World Championship",
+    "location": "Various",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e798aa20-f278-e111-b16a-005056956277"
   },
   {
     "slug": "im703-augusta",
@@ -148,6 +166,12 @@
     "name": "IRONMAN 70.3 Gdynia",
     "location": "Gdynia, Poland",
     "groupUrl": "https://labs-v2.competitor.com/results/event/e1339090-3e7a-e411-93fc-005056951bf1"
+  },
+  {
+    "slug": "im703-goa",
+    "name": "IRONMAN 70.3 Goa",
+    "location": "Goa, India",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a8a0c439-4cfd-e811-a968-000d3a3749bc"
   },
   {
     "slug": "im703-geelong",
@@ -270,9 +294,21 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/ed0ed7f4-3fca-e711-941b-005056951bf1"
   },
   {
+    "slug": "im703-western-australia",
+    "name": "IRONMAN 70.3 Western Australia",
+    "location": "Busselton, Australia",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/2c376cf3-2149-e611-940f-005056951bf1"
+  },
+  {
     "slug": "im703-weymouth",
     "name": "IRONMAN 70.3 Weymouth",
     "location": "Weymouth, UK",
     "groupUrl": "https://labs-v2.competitor.com/results/event/9da9ce3f-1c7f-e511-9409-005056951bf1"
+  },
+  {
+    "slug": "im703-world-championship",
+    "name": "IRONMAN 70.3 World Championship",
+    "location": "Various",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9798aa20-f278-e111-b16a-005056956277"
   }
 ]
