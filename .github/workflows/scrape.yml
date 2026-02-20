@@ -1,0 +1,72 @@
+name: Scrape New Races
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6 AM UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scrape new races
+        run: node scripts/scrape-all.js --skip-existing
+
+      - name: Check for changes
+        id: check
+        run: |
+          if [ -z "$(git status --porcelain data/)" ]; then
+            echo "No new races found"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "New races found:"
+            git status --short data/
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="auto/scrape-$(date +%Y-%m-%d)"
+
+          # Skip if a branch for today already exists (e.g. from an earlier run)
+          if git ls-remote --heads origin "$BRANCH" | grep -q .; then
+            echo "Branch $BRANCH already exists, skipping"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add data/
+          git commit -m "feat: add new race results"
+          git push -u origin "$BRANCH"
+
+          # Build PR body
+          {
+            echo "## Summary"
+            echo ""
+            echo "Automated daily scrape discovered new race results."
+            echo ""
+            echo "### New files"
+            git diff --name-only HEAD~1 -- 'data/*.csv' | while read -r f; do
+              echo "- \`$f\`"
+            done
+          } > /tmp/pr-body.md
+
+          gh pr create \
+            --title "feat: add new race results" \
+            --body-file /tmp/pr-body.md
