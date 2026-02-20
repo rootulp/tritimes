@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { AthleteSearchEntry } from "@/lib/types";
 import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 
 export default function GlobalSearchBar() {
@@ -28,7 +27,7 @@ export default function GlobalSearchBar() {
     setIsOpen(matches.length > 0);
   }, [matches]);
 
-  function handleSelect(entry: AthleteSearchEntry) {
+  function handleSelect() {
     setIsOpen(false);
   }
 
@@ -42,7 +41,7 @@ export default function GlobalSearchBar() {
       setSelectedIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
-      handleSelect(matches[selectedIndex]);
+      handleSelect();
       router.push(`/athlete/${matches[selectedIndex].slug}`);
     } else if (e.key === "Escape") {
       setIsOpen(false);
@@ -78,7 +77,7 @@ export default function GlobalSearchBar() {
             >
               <Link
                 href={`/athlete/${entry.slug}`}
-                onClick={() => handleSelect(entry)}
+                onClick={() => handleSelect()}
                 className="block px-4 py-3"
               >
                 <div className="font-medium text-white">{entry.fullName}</div>

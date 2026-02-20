@@ -1,8 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+function getIsMac() {
+  return navigator.platform.toUpperCase().includes("MAC");
+}
+
+function subscribe() {
+  return () => {};
+}
+
+function useIsMac() {
+  return useSyncExternalStore(subscribe, getIsMac, () => false);
+}
 
 function SearchIcon({ className }: { className?: string }) {
   return (
@@ -27,12 +39,8 @@ function openCommandPalette() {
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMac, setIsMac] = useState(false);
+  const isMac = useIsMac();
   const pathname = usePathname();
-
-  useEffect(() => {
-    setIsMac(navigator.platform.toUpperCase().includes("MAC"));
-  }, []);
 
   const links = [
     { href: "/races", label: "Races" },
