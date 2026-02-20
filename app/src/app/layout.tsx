@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TriTimes — Triathlon Result Distributions",
+  title: "TriTimes — Triathlon Times",
   description:
     "View your IronMan 70.3 triathlon results with statistical distributions for swim, bike, run, and total time.",
 };
