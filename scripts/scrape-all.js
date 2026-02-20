@@ -8,6 +8,7 @@
 //   node scrape-all.js --slug=im703-new-york  # Scrape a specific race from registry
 //   node scrape-all.js --save-raw         # Also save raw JSON (gitignored)
 //   node scrape-all.js --year=2025        # Only scrape races from a specific year
+//   node scrape-all.js --skip-existing     # Skip races that already have a CSV file
 //   node scrape-all.js --dry-run          # Show what would be scraped without fetching results
 
 const fs = require("fs");
@@ -21,10 +22,11 @@ const RACES_JSON = path.join(DATA_DIR, "races.json");
 const REGISTRY_PATH = path.join(__dirname, "race-registry.json");
 
 function parseArgs() {
-  const args = { saveRaw: false, dryRun: false, slug: null, year: null };
+  const args = { saveRaw: false, dryRun: false, skipExisting: false, slug: null, year: null };
   for (const arg of process.argv.slice(2)) {
     if (arg === "--save-raw") args.saveRaw = true;
     else if (arg === "--dry-run") args.dryRun = true;
+    else if (arg === "--skip-existing") args.skipExisting = true;
     else if (arg.startsWith("--slug=")) args.slug = arg.slice(7);
     else if (arg.startsWith("--year=")) args.year = parseInt(arg.slice(7));
   }
@@ -83,6 +85,11 @@ async function scrapeRace(entry, events, opts) {
     console.log(`  Event: ${event.name} (${slug})`);
     console.log(`    Event ID: ${event.eventId}`);
     console.log(`    Date: ${date}`);
+
+    if (opts.skipExisting && fs.existsSync(path.join(DATA_DIR, `${slug}.csv`))) {
+      console.log(`    Skipping (CSV already exists)`);
+      continue;
+    }
 
     if (opts.dryRun) {
       results.push({ slug, name: event.name, date, location: entry.location, eventId: event.eventId, finishers: 0 });
