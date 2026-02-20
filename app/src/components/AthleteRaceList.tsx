@@ -102,13 +102,7 @@ export default function AthleteRaceList({ slug, races }: Props) {
                       <span className="font-medium text-white truncate">
                         {race.raceName}
                       </span>
-                      <span
-                        className={`flex-shrink-0 text-xs font-bold px-2 py-0.5 rounded-full ${
-                          race.distance === "70.3"
-                            ? "bg-blue-500/20 text-blue-400 ring-1 ring-blue-500/30"
-                            : "bg-orange-500/20 text-orange-400 ring-1 ring-orange-500/30"
-                        }`}
-                      >
+                      <span className="flex-shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-white/5 text-gray-400">
                         {race.distance}
                       </span>
                     </div>
