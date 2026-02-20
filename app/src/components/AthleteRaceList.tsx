@@ -158,8 +158,7 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
                       </span>
                     </div>
                     <div className="text-sm text-gray-400 mt-1">
-                      {race.raceDate} &middot; {race.ageGroup} &middot; Faster
-                      than {race.overallPercentile}%
+                      {race.raceDate} &middot; {race.ageGroup}
                     </div>
                   </div>
                   <div className="sm:text-right flex items-center sm:block gap-3 flex-shrink-0">
