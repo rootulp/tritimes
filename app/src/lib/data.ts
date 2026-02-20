@@ -287,6 +287,9 @@ export function getAthleteProfile(slug: string): AthleteProfile | null {
       swimTime: result.swimTime,
       bikeTime: result.bikeTime,
       runTime: result.runTime,
+      swimSeconds: result.swimSeconds,
+      bikeSeconds: result.bikeSeconds,
+      runSeconds: result.runSeconds,
     });
   }
 
