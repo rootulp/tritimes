@@ -63,6 +63,9 @@ export interface AthleteRaceEntry {
   swimTime: string;
   bikeTime: string;
   runTime: string;
+  swimSeconds: number;
+  bikeSeconds: number;
+  runSeconds: number;
 }
 
 export interface AthleteSearchEntry {
