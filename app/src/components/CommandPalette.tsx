@@ -8,7 +8,7 @@ import { getCountryFlagISO } from "@/lib/flags";
 
 export default function CommandPalette() {
   const [isOpen, setIsOpen] = useState(false);
-  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, reset } =
+  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, trackSelect, reset } =
     useAthleteSearch();
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
@@ -90,6 +90,7 @@ export default function CommandPalette() {
       setSelectedIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
+      trackSelect(matches[selectedIndex]);
       router.push(`/athlete/${matches[selectedIndex].slug}`);
       close();
     }
@@ -170,7 +171,10 @@ export default function CommandPalette() {
               >
                 <Link
                   href={`/athlete/${entry.slug}`}
-                  onClick={close}
+                  onClick={() => {
+                    trackSelect(entry);
+                    close();
+                  }}
                   className="flex items-center gap-3 px-4 py-3"
                   tabIndex={-1}
                 >
