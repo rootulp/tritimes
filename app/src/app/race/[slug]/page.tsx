@@ -36,7 +36,7 @@ export default async function RacePage({ params }: PageProps) {
   const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8">
+    <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">{race.name}</h1>
         <p className="text-gray-400 mt-1">

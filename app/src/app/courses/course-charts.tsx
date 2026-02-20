@@ -59,7 +59,7 @@ export default function CourseCharts({
         ))}
       </div>
 
-      <div className="space-y-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {DISCIPLINES.map((disc) => (
           <CourseBarChart
             key={disc.key}

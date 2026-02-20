@@ -20,7 +20,7 @@ export default async function AthletePage({ params }: PageProps) {
   const flag = getCountryFlagISO(profile.countryISO);
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8">
+    <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">
           {flag && <span className="mr-2">{flag}</span>}
