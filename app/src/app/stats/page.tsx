@@ -11,7 +11,7 @@ export default function StatsPage() {
   const stats = getStatsPageData();
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
+    <main className="max-w-6xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-white mb-8">Stats</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="p-5 border border-gray-700/80 rounded-lg bg-gray-900">

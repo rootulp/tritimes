@@ -61,7 +61,7 @@ export default async function ResultPage({ params }: PageProps) {
 
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
+    <main className="max-w-6xl mx-auto px-4 py-8">
       <Link href={`/race/${slug}`} className="text-blue-400 hover:underline text-sm mb-6 inline-block">
         &larr; {race.name}
       </Link>
