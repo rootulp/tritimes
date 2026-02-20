@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useCallback } from "react";
+import { track } from "@vercel/analytics";
 import { AthleteSearchEntry } from "@/lib/types";
 
 export function useAthleteSearch() {
@@ -53,6 +54,13 @@ export function useAthleteSearch() {
     }, 150);
   }, []);
 
+  const trackSelect = useCallback(
+    (athlete: AthleteSearchEntry) => {
+      track("search_select", { query, athlete: athlete.fullName });
+    },
+    [query],
+  );
+
   const reset = useCallback(() => {
     setQuery("");
     setMatches([]);
@@ -69,6 +77,7 @@ export function useAthleteSearch() {
     selectedIndex,
     setSelectedIndex,
     handleChange,
+    trackSelect,
     reset,
   };
 }

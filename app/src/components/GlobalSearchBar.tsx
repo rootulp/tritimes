@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 
 export default function GlobalSearchBar() {
-  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange } =
+  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, trackSelect } =
     useAthleteSearch();
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
@@ -41,6 +41,7 @@ export default function GlobalSearchBar() {
       setSelectedIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
+      trackSelect(matches[selectedIndex]);
       handleSelect();
       router.push(`/athlete/${matches[selectedIndex].slug}`);
     } else if (e.key === "Escape") {
@@ -77,7 +78,10 @@ export default function GlobalSearchBar() {
             >
               <Link
                 href={`/athlete/${entry.slug}`}
-                onClick={() => handleSelect()}
+                onClick={() => {
+                  trackSelect(entry);
+                  handleSelect();
+                }}
                 className="block px-4 py-3"
               >
                 <div className="font-medium text-white">{entry.fullName}</div>
