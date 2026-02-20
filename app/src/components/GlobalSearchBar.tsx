@@ -3,19 +3,14 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { AthleteSearchEntry } from "@/lib/types";
+import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 
 export default function GlobalSearchBar() {
-  const [query, setQuery] = useState("");
-  const [matches, setMatches] = useState<AthleteSearchEntry[]>([]);
+  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange } =
+    useAthleteSearch();
   const [isOpen, setIsOpen] = useState(false);
-  const [isSearching, setIsSearching] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(-1);
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const abortRef = useRef<AbortController | null>(null);
-  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const cacheRef = useRef(new Map<string, AthleteSearchEntry[]>());
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -27,52 +22,12 @@ export default function GlobalSearchBar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  function handleChange(value: string) {
-    setQuery(value);
-    setSelectedIndex(-1);
-    if (value.length < 2) {
-      setMatches([]);
-      setIsOpen(false);
-      setIsSearching(false);
-      abortRef.current?.abort();
-      if (debounceRef.current) clearTimeout(debounceRef.current);
-      return;
-    }
+  // Sync isOpen with matches
+  useEffect(() => {
+    setIsOpen(matches.length > 0);
+  }, [matches]);
 
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(async () => {
-      const key = value.toLowerCase();
-      const cached = cacheRef.current.get(key);
-      if (cached) {
-        setMatches(cached);
-        setIsOpen(cached.length > 0);
-        setIsSearching(false);
-        return;
-      }
-
-      abortRef.current?.abort();
-      const controller = new AbortController();
-      abortRef.current = controller;
-      setIsSearching(true);
-
-      try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
-          signal: controller.signal,
-        });
-        const data: AthleteSearchEntry[] = await res.json();
-        cacheRef.current.set(key, data);
-        setMatches(data);
-        setIsOpen(data.length > 0);
-      } catch {
-        // Aborted or network error — ignore
-      } finally {
-        setIsSearching(false);
-      }
-    }, 150);
-  }
-
-  function handleSelect(entry: AthleteSearchEntry) {
-    setQuery(entry.fullName);
+  function handleSelect() {
     setIsOpen(false);
   }
 
@@ -86,7 +41,7 @@ export default function GlobalSearchBar() {
       setSelectedIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
-      handleSelect(matches[selectedIndex]);
+      handleSelect();
       router.push(`/athlete/${matches[selectedIndex].slug}`);
     } else if (e.key === "Escape") {
       setIsOpen(false);
@@ -122,7 +77,7 @@ export default function GlobalSearchBar() {
             >
               <Link
                 href={`/athlete/${entry.slug}`}
-                onClick={() => handleSelect(entry)}
+                onClick={() => handleSelect()}
                 className="block px-4 py-3"
               >
                 <div className="font-medium text-white">{entry.fullName}</div>

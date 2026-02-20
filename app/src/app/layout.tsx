@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import Header from "@/components/Header";
+import CommandPalette from "@/components/CommandPalette";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[var(--background)] min-h-dvh flex flex-col`}
       >
         <Header />
+        <CommandPalette />
         {children}
         <Footer />
         <Analytics />
