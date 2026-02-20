@@ -133,7 +133,7 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
               <button
                 type="button"
                 onClick={() => toggle(key)}
-                className="flex-shrink-0 p-3 pl-4 pt-4 text-gray-500 hover:text-gray-300 transition-colors"
+                className="flex-shrink-0 p-3 pl-4 self-center text-gray-500 hover:text-gray-300 transition-colors"
                 title={isHidden ? "Show in charts" : "Hide from charts"}
                 aria-label={
                   isHidden
