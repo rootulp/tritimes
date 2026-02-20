@@ -13,6 +13,7 @@ export default function CommandPalette() {
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
 
   const close = useCallback(() => {
     setIsOpen(false);
@@ -101,8 +102,8 @@ export default function CommandPalette() {
   return (
     <div
       className="fixed inset-0 z-[60] flex items-start justify-center pt-[15vh]"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) close();
+      onMouseDown={(e) => {
+        if (dialogRef.current && !dialogRef.current.contains(e.target as Node)) close();
       }}
       role="dialog"
       aria-modal="true"
@@ -112,7 +113,7 @@ export default function CommandPalette() {
       <div className="fixed inset-0 bg-black/60 backdrop-blur-sm -z-10" />
 
       {/* Dialog */}
-      <div className="w-full max-w-lg mx-4 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden animate-in">
+      <div ref={dialogRef} className="w-full max-w-lg mx-4 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden animate-in">
         {/* Search input */}
         <div className="flex items-center gap-3 px-4 py-3">
           <svg
