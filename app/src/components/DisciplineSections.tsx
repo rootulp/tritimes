@@ -27,7 +27,7 @@ export default function DisciplineSections({ disciplines, transitions, ageGroup 
         <div className="inline-flex rounded-lg bg-gray-800 p-1">
           <button
             onClick={() => setShowOverall(false)}
-            className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+            className={`px-4 py-2.5 text-sm font-medium rounded-md transition-colors ${
               !showOverall
                 ? "bg-gray-600 text-white"
                 : "text-gray-400 hover:text-white"
@@ -37,7 +37,7 @@ export default function DisciplineSections({ disciplines, transitions, ageGroup 
           </button>
           <button
             onClick={() => setShowOverall(true)}
-            className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+            className={`px-4 py-2.5 text-sm font-medium rounded-md transition-colors ${
               showOverall
                 ? "bg-gray-600 text-white"
                 : "text-gray-400 hover:text-white"

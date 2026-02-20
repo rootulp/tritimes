@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8 animate-pulse">
+    <main className="max-w-7xl mx-auto px-4 py-8 animate-pulse">
       {/* Back link */}
       <div className="h-4 w-28 bg-gray-800 rounded mb-6" />
 

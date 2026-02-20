@@ -36,7 +36,7 @@ export default async function RacePage({ params }: PageProps) {
   const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-7xl mx-auto px-4 py-8">
       <Link href="/races" className="text-blue-400 hover:underline text-sm mb-6 inline-block">
         &larr; All races
       </Link>
@@ -59,8 +59,8 @@ export default async function RacePage({ params }: PageProps) {
       {/* Discipline breakdown table */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Discipline Breakdown</h2>
-        <div className="bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
-          <table className="w-full text-sm">
+        <div className="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+          <table className="w-full text-sm min-w-[420px]">
             <thead>
               <tr className="border-b border-gray-700 text-gray-400">
                 <th className="text-left px-4 py-3 font-medium">Discipline</th>

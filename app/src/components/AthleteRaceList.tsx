@@ -65,7 +65,7 @@ export default function AthleteRaceList({ slug, races }: Props) {
 
   return (
     <>
-      <div className="space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {races.map((race) => {
           const key = raceKey(race);
           const isHidden = hidden.has(key);
@@ -73,7 +73,7 @@ export default function AthleteRaceList({ slug, races }: Props) {
           return (
             <div
               key={key}
-              className={`flex items-center bg-gray-900 border rounded-lg transition-colors ${
+              className={`flex items-start bg-gray-900 border rounded-lg transition-colors ${
                 isHidden
                   ? "border-gray-800/50 opacity-50"
                   : "border-gray-800 hover:border-gray-600"
@@ -82,7 +82,7 @@ export default function AthleteRaceList({ slug, races }: Props) {
               <button
                 type="button"
                 onClick={() => toggle(key)}
-                className="flex-shrink-0 p-3 pl-4 text-gray-500 hover:text-gray-300 transition-colors"
+                className="flex-shrink-0 p-3 pl-4 pt-4 text-gray-500 hover:text-gray-300 transition-colors"
                 title={isHidden ? "Show in charts" : "Hide from charts"}
                 aria-label={
                   isHidden
@@ -94,12 +94,12 @@ export default function AthleteRaceList({ slug, races }: Props) {
               </button>
               <Link
                 href={`/race/${race.raceSlug}/result/${race.resultId}`}
-                className="block flex-1 min-w-0 px-3 py-4 pr-5"
+                className="block flex-1 min-w-0 px-3 py-4 pr-4"
               >
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-2">
                   <div className="min-w-0">
-                    <div className="flex items-center gap-2">
-                      <span className="font-medium text-white truncate">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-medium text-white">
                         {race.raceName}
                       </span>
                       <span className="flex-shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-white/5 text-gray-400">
@@ -111,11 +111,11 @@ export default function AthleteRaceList({ slug, races }: Props) {
                       than {race.overallPercentile}%
                     </div>
                   </div>
-                  <div className="text-right flex-shrink-0 ml-4">
+                  <div className="sm:text-right flex items-center sm:block gap-3 flex-shrink-0">
                     <div className="text-lg font-mono text-white">
                       {race.finishTime}
                     </div>
-                    <div className="text-xs font-mono text-gray-500 mt-1">
+                    <div className="text-xs font-mono text-gray-500 sm:mt-1">
                       <span className="text-blue-400">{race.swimTime}</span>
                       {" / "}
                       <span className="text-red-400">{race.bikeTime}</span>

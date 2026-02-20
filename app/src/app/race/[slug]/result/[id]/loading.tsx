@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8 animate-pulse">
+    <main className="max-w-7xl mx-auto px-4 py-8 animate-pulse">
       {/* Back link */}
       <div className="h-4 w-28 bg-gray-800 rounded mb-6" />
 
@@ -11,8 +11,7 @@ export default function Loading() {
       </header>
 
       {/* Stat cards row */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div />
+      <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8">
         {[1, 2, 3].map((i) => (
           <div key={i} className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center">
             <div className="h-3 w-16 bg-gray-800 rounded mx-auto mb-2" />
