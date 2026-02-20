@@ -31,7 +31,7 @@ export default async function AthletePage({ params }: PageProps) {
         </p>
       </header>
 
-      <AthleteRaceList slug={slug} races={profile.races} />
+      <AthleteRaceList slug={slug} fullName={profile.fullName} races={profile.races} />
     </main>
   );
 }

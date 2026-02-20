@@ -7,6 +7,7 @@ import AthletePerformanceCharts from "./AthletePerformanceCharts";
 
 interface Props {
   slug: string;
+  fullName: string;
   races: AthleteRaceEntry[];
 }
 
@@ -37,7 +38,47 @@ function saveHidden(slug: string, hidden: Set<string>) {
   } catch {}
 }
 
-export default function AthleteRaceList({ slug, races }: Props) {
+function escapeCsvField(value: string): string {
+  if (value.includes(",") || value.includes('"') || value.includes("\n")) {
+    return `"${value.replace(/"/g, '""')}"`;
+  }
+  return value;
+}
+
+function downloadCsv(fullName: string, races: AthleteRaceEntry[]) {
+  const headers = [
+    "Race",
+    "Date",
+    "Distance",
+    "Age Group",
+    "Swim",
+    "Bike",
+    "Run",
+    "Finish",
+    "Percentile",
+  ];
+  const rows = races.map((r) => [
+    escapeCsvField(r.raceName),
+    r.raceDate,
+    r.distance,
+    r.ageGroup,
+    r.swimTime,
+    r.bikeTime,
+    r.runTime,
+    r.finishTime,
+    `${r.overallPercentile}%`,
+  ]);
+  const csv = [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${fullName.replace(/\s+/g, "-").toLowerCase()}-results.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+export default function AthleteRaceList({ slug, fullName, races }: Props) {
   const [hidden, setHidden] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -65,6 +106,16 @@ export default function AthleteRaceList({ slug, races }: Props) {
 
   return (
     <>
+      <div className="flex justify-end mb-4">
+        <button
+          type="button"
+          onClick={() => downloadCsv(fullName, races)}
+          className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors cursor-pointer"
+        >
+          <DownloadIcon />
+          Export CSV
+        </button>
+      </div>
       <div className="space-y-4">
         {races.map((race) => {
           const key = raceKey(race);
@@ -157,6 +208,26 @@ function EyeIcon() {
     >
       <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
       <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
+
+function DownloadIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <polyline points="7 10 12 15 17 10" />
+      <line x1="12" y1="15" x2="12" y2="3" />
     </svg>
   );
 }
