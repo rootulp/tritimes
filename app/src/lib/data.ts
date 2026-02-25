@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats, RecordEntry, RaceReference } from "./types";
 
 interface RaceManifestEntry {
   slug: string;
@@ -277,6 +277,16 @@ export function getGlobalStats(): { raceCount: number; totalResults: number } {
   };
 }
 
+let aggregateStatsCache: AggregateStats | null = null;
+
+function loadAggregateStats(): AggregateStats {
+  if (!aggregateStatsCache) {
+    const statsPath = path.join(process.cwd(), "..", "data", "aggregate-stats.json.gz");
+    aggregateStatsCache = JSON.parse(gunzipSync(fs.readFileSync(statsPath)).toString());
+  }
+  return aggregateStatsCache!;
+}
+
 export interface StatsPageData {
   raceCount: number;
   totalResults: number;
@@ -285,6 +295,20 @@ export interface StatsPageData {
   halfIronmanCourseCount: number;
   earliestRace: { slug: string; name: string; date: string };
   mostRecentRace: { slug: string; name: string; date: string };
+  // Group A: from races.json
+  largestRace: { slug: string; name: string; finishers: number };
+  smallestRace: { slug: string; name: string; finishers: number };
+  avgParticipants: number;
+  locationMost703: { location: string; count: number };
+  locationMostIM: { location: string; count: number };
+  yearWithMostRaces: { year: string; count: number };
+  ironmanRaceCount: number;
+  halfIronmanRaceCount: number;
+  // Group B: from athlete index
+  repeatAthletes: number;
+  athleteWithMostRaces: { slug: string; fullName: string; raceCount: number };
+  // Group C: from aggregate-stats.json.gz
+  aggregate: AggregateStats;
 }
 
 export function getStatsPageData(): StatsPageData {
@@ -295,23 +319,75 @@ export function getStatsPageData(): StatsPageData {
 
   const ironmanCourses = new Set<string>();
   const halfIronmanCourses = new Set<string>();
+  let ironmanRaceCount = 0;
+  let halfIronmanRaceCount = 0;
   for (const r of races) {
     const base = r.slug.replace(/-\d{4}$/, "");
     if (r.slug.startsWith("im703-")) {
       halfIronmanCourses.add(base);
+      halfIronmanRaceCount++;
     } else {
       ironmanCourses.add(base);
+      ironmanRaceCount++;
     }
+  }
+
+  // Group A: largest/smallest race
+  const sortedByFinishers = [...races].sort((a, b) => b.finishers - a.finishers);
+  const largest = sortedByFinishers[0];
+  const smallest = sortedByFinishers[sortedByFinishers.length - 1];
+
+  const avgParticipants = races.length > 0
+    ? Math.round(races.reduce((sum, r) => sum + r.finishers, 0) / races.length)
+    : 0;
+
+  // Location counts
+  const im703LocationCounts = new Map<string, number>();
+  const imLocationCounts = new Map<string, number>();
+  const yearCounts = new Map<string, number>();
+  for (const r of races) {
+    const loc = r.location;
+    if (r.slug.startsWith("im703-")) {
+      im703LocationCounts.set(loc, (im703LocationCounts.get(loc) || 0) + 1);
+    } else {
+      imLocationCounts.set(loc, (imLocationCounts.get(loc) || 0) + 1);
+    }
+    const year = r.date.substring(0, 4);
+    yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
+  }
+
+  const topIM703Location = Array.from(im703LocationCounts.entries()).sort((a, b) => b[1] - a[1])[0] || ["N/A", 0];
+  const topIMLocation = Array.from(imLocationCounts.entries()).sort((a, b) => b[1] - a[1])[0] || ["N/A", 0];
+  const topYear = Array.from(yearCounts.entries()).sort((a, b) => b[1] - a[1])[0] || ["N/A", 0];
+
+  // Group B: repeat athletes and most-raced athlete
+  const athleteIndex = getDeduplicatedAthleteIndex();
+  let repeatAthletes = 0;
+  let topAthlete: AthleteSearchEntry = { slug: "", fullName: "N/A", country: "", countryISO: "", raceCount: 0 };
+  for (const a of athleteIndex) {
+    if (a.raceCount > 1) repeatAthletes++;
+    if (a.raceCount > topAthlete.raceCount) topAthlete = a;
   }
 
   return {
     raceCount: races.length,
     totalResults: races.reduce((sum, r) => sum + r.finishers, 0),
-    uniqueAthletes: getDeduplicatedAthleteIndex().length,
+    uniqueAthletes: athleteIndex.length,
     ironmanCourseCount: ironmanCourses.size,
     halfIronmanCourseCount: halfIronmanCourses.size,
     earliestRace: { slug: earliest.slug, name: earliest.name, date: earliest.date },
     mostRecentRace: { slug: mostRecent.slug, name: mostRecent.name, date: mostRecent.date },
+    largestRace: { slug: largest.slug, name: largest.name, finishers: largest.finishers },
+    smallestRace: { slug: smallest.slug, name: smallest.name, finishers: smallest.finishers },
+    avgParticipants,
+    locationMost703: { location: topIM703Location[0] as string, count: topIM703Location[1] as number },
+    locationMostIM: { location: topIMLocation[0] as string, count: topIMLocation[1] as number },
+    yearWithMostRaces: { year: topYear[0] as string, count: topYear[1] as number },
+    ironmanRaceCount,
+    halfIronmanRaceCount,
+    repeatAthletes,
+    athleteWithMostRaces: { slug: topAthlete.slug, fullName: topAthlete.fullName, raceCount: topAthlete.raceCount },
+    aggregate: loadAggregateStats(),
   };
 }
 

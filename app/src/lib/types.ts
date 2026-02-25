@@ -151,6 +151,38 @@ export interface RaceStats {
   };
 }
 
+export interface RecordEntry {
+  seconds: number;
+  fullName: string;
+  raceSlug: string;
+  resultId: number;
+  time: string;
+}
+
+export interface RaceReference {
+  slug: string;
+  name: string;
+  seconds: number;
+}
+
+export interface AggregateStats {
+  uniqueCountries: number;
+  mostCommonCountry: { countryISO: string; count: number } | null;
+  fastestFinish: RecordEntry;
+  slowestFinish: RecordEntry;
+  fastestSwim: RecordEntry;
+  fastestBike: RecordEntry;
+  fastestRun: RecordEntry;
+  averageFinishSeconds: number;
+  mostCommonAgeGroup: { ageGroup: string; count: number } | null;
+  maleCount: number;
+  femaleCount: number;
+  longestAvgTransition: RaceReference | null;
+  tightestFinishSpread: RaceReference | null;
+  widestFinishSpread: RaceReference | null;
+  mostCompetitiveRace: RaceReference | null;
+}
+
 export interface CourseStats {
   course: string;
   displayName: string;
