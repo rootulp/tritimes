@@ -141,7 +141,7 @@ async function discover(url) {
 }
 
 // Export for use as a module
-module.exports = { discover, discoverFromGroupPage, discoverFromIronmanPage, extractGroupUUID };
+module.exports = { discover, discoverFromGroupPage, discoverFromIronmanPage, extractGroupUUID, fetchHTML };
 
 if (require.main === module) {
   const url = process.argv[2];
