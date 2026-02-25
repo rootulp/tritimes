@@ -151,6 +151,16 @@ export interface RaceStats {
   };
 }
 
+export interface AggregateStats {
+  uniqueCountries: number;
+  mostCommonCountry: { countryISO: string; count: number } | null;
+  averageHalfFinishSeconds: number;
+  averageFullFinishSeconds: number;
+  mostCommonAgeGroup: { ageGroup: string; count: number } | null;
+  maleCount: number;
+  femaleCount: number;
+}
+
 export interface CourseStats {
   course: string;
   displayName: string;

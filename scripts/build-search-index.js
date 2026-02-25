@@ -5,6 +5,7 @@
  * - data/athlete-index.json.gz    — deduplicated search index for /api/search
  * - data/athlete-profiles.json.gz — slug-keyed profiles for /athlete/[slug]
  * - data/course-stats.json.gz     — per-course median stats for /races
+ * - data/aggregate-stats.json.gz  — global aggregate stats for /stats
  *
  * Run: node scripts/build-search-index.js
  *
@@ -21,6 +22,7 @@ const manifestPath = path.join(dataDir, "races.json");
 const searchIndexPath = path.join(dataDir, "athlete-index.json.gz");
 const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
 const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
+const aggregateStatsPath = path.join(dataDir, "aggregate-stats.json.gz");
 
 /**
  * Parse RFC 4180 CSV text into rows of string arrays.
@@ -142,7 +144,17 @@ const profilesMap = new Map();
 // courseMap: base slug → { course, displayName, distance, editions, *Seconds[] }
 const courseMap = new Map();
 
-// Single pass: build all three indexes from one CSV read per race
+// Aggregate stats collectors
+const countryCounts = new Map(); // countryISO → count
+const ageGroupCounts = new Map(); // ageGroup → count
+let maleCount = 0;
+let femaleCount = 0;
+let halfFinishSeconds = 0;
+let halfFinishCount = 0;
+let fullFinishSeconds = 0;
+let fullFinishCount = 0;
+
+// Single pass: build all indexes from one CSV read per race
 for (const race of races) {
   const csvPath = path.join(dataDir, `${race.slug}.csv`);
   if (!fs.existsSync(csvPath)) continue;
@@ -164,7 +176,9 @@ for (const race of races) {
   const courseEntry = courseMap.get(base);
   courseEntry.editions++;
 
+  const isHalf = race.slug.startsWith("im703-");
   const results = parseCSV(csvPath);
+
   for (const r of results) {
     // Search index
     const slug = slugifyAthlete(r.FullName, r.CountryISO, r.Gender);
@@ -198,6 +212,29 @@ for (const race of races) {
     if (bike > 0) courseEntry.bikeSeconds.push(bike);
     if (run > 0) courseEntry.runSeconds.push(run);
     if (finish > 0) courseEntry.finishSeconds.push(finish);
+
+    // Aggregate stats: country
+    const iso = r.CountryISO;
+    if (iso) countryCounts.set(iso, (countryCounts.get(iso) || 0) + 1);
+
+    // Aggregate stats: age group
+    const ag = r.AgeGroup;
+    if (ag) ageGroupCounts.set(ag, (ageGroupCounts.get(ag) || 0) + 1);
+
+    // Aggregate stats: gender
+    if (r.Gender === "Male") maleCount++;
+    else if (r.Gender === "Female") femaleCount++;
+
+    // Aggregate stats: finish time sum by distance
+    if (finish > 0) {
+      if (isHalf) {
+        halfFinishSeconds += finish;
+        halfFinishCount++;
+      } else {
+        fullFinishSeconds += finish;
+        fullFinishCount++;
+      }
+    }
   }
 }
 
@@ -223,6 +260,21 @@ const courseStats = Array.from(courseMap.values()).map((c) => ({
 }));
 fs.writeFileSync(courseStatsPath, gzipSync(JSON.stringify(courseStats)));
 
+// Build aggregate stats
+const sortedCountries = Array.from(countryCounts.entries()).sort((a, b) => b[1] - a[1]);
+const sortedAgeGroups = Array.from(ageGroupCounts.entries()).sort((a, b) => b[1] - a[1]);
+
+const aggregateStats = {
+  uniqueCountries: countryCounts.size,
+  mostCommonCountry: sortedCountries.length > 0 ? { countryISO: sortedCountries[0][0], count: sortedCountries[0][1] } : null,
+  averageHalfFinishSeconds: halfFinishCount > 0 ? Math.round(halfFinishSeconds / halfFinishCount) : 0,
+  averageFullFinishSeconds: fullFinishCount > 0 ? Math.round(fullFinishSeconds / fullFinishCount) : 0,
+  mostCommonAgeGroup: sortedAgeGroups.length > 0 ? { ageGroup: sortedAgeGroups[0][0], count: sortedAgeGroups[0][1] } : null,
+  maleCount,
+  femaleCount,
+};
+fs.writeFileSync(aggregateStatsPath, gzipSync(JSON.stringify(aggregateStats)));
+
 const elapsed = Date.now() - start;
 console.log(
   `Built search index: ${searchIndex.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), searchIndexPath)}`
@@ -232,4 +284,7 @@ console.log(
 );
 console.log(
   `Built course stats: ${courseStats.length} courses → ${path.relative(process.cwd(), courseStatsPath)}`
+);
+console.log(
+  `Built aggregate stats: ${aggregateStats.uniqueCountries} countries → ${path.relative(process.cwd(), aggregateStatsPath)}`
 );
