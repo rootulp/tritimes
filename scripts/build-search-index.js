@@ -2,10 +2,14 @@
 
 /**
  * Pre-builds athlete data indexes from CSV files:
- * - data/athlete-index.json    — deduplicated search index for /api/search
- * - data/athlete-profiles.json — slug-keyed profiles for /athlete/[slug]
+ * - data/athlete-index.json.gz    — deduplicated search index for /api/search
+ * - data/athlete-profiles.json.gz — slug-keyed profiles for /athlete/[slug]
+ * - data/course-stats.json.gz     — per-course median stats for /races
  *
  * Run: node scripts/build-search-index.js
+ *
+ * These indexes are committed to git so Vercel builds skip CSV parsing.
+ * This script is run automatically after scraping (scrape-all.js).
  */
 
 const fs = require("fs");
@@ -112,56 +116,6 @@ function slugifyAthlete(fullName, countryISO, gender) {
   return `${base}--${country}-${g}`;
 }
 
-const start = Date.now();
-const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
-
-// searchMap: slug → { fullName, country, countryISO, raceCount }
-const searchMap = new Map();
-// profilesMap: slug → [[raceSlug, resultId], ...]
-const profilesMap = new Map();
-
-for (const race of races) {
-  const csvPath = path.join(dataDir, `${race.slug}.csv`);
-  if (!fs.existsSync(csvPath)) continue;
-
-  const results = parseCSV(csvPath);
-  for (const r of results) {
-    const slug = slugifyAthlete(r.FullName, r.CountryISO, r.Gender);
-
-    // Search index
-    const existing = searchMap.get(slug);
-    if (existing) {
-      existing.raceCount++;
-    } else {
-      searchMap.set(slug, {
-        slug,
-        fullName: r.FullName,
-        country: r.Country,
-        countryISO: r.CountryISO,
-        raceCount: 1,
-      });
-    }
-
-    // Profiles index — compact [raceSlug, resultId] pairs
-    const refs = profilesMap.get(slug);
-    if (refs) {
-      refs.push([race.slug, r._id]);
-    } else {
-      profilesMap.set(slug, [[race.slug, r._id]]);
-    }
-  }
-}
-
-// Write search index (gzipped)
-const searchIndex = Array.from(searchMap.values());
-fs.writeFileSync(searchIndexPath, gzipSync(JSON.stringify(searchIndex)));
-
-// Write profiles index as { slug: [[raceSlug, resultId], ...] } (gzipped)
-const profiles = Object.fromEntries(profilesMap);
-fs.writeFileSync(profilesPath, gzipSync(JSON.stringify(profiles)));
-
-// ── Course stats ──────────────────────────────────────────────────
-
 function computeMedian(values) {
   if (values.length === 0) return 0;
   const sorted = values.slice().sort((a, b) => a - b);
@@ -178,9 +132,22 @@ function stripPrefix(name) {
     .replace(/^IRONMAN\s+/i, "");
 }
 
-// Group races by base course slug (strip trailing -YYYY)
+const start = Date.now();
+const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
+
+// searchMap: slug → { fullName, country, countryISO, raceCount }
+const searchMap = new Map();
+// profilesMap: slug → [[raceSlug, resultId], ...]
+const profilesMap = new Map();
+// courseMap: base slug → { course, displayName, distance, editions, *Seconds[] }
 const courseMap = new Map();
+
+// Single pass: build all three indexes from one CSV read per race
 for (const race of races) {
+  const csvPath = path.join(dataDir, `${race.slug}.csv`);
+  if (!fs.existsSync(csvPath)) continue;
+
+  // Initialize course stats entry
   const base = race.slug.replace(/-\d{4}$/, "");
   if (!courseMap.has(base)) {
     courseMap.set(base, {
@@ -194,25 +161,55 @@ for (const race of races) {
       finishSeconds: [],
     });
   }
-  const entry = courseMap.get(base);
-  entry.editions++;
-
-  const csvPath = path.join(dataDir, `${race.slug}.csv`);
-  if (!fs.existsSync(csvPath)) continue;
+  const courseEntry = courseMap.get(base);
+  courseEntry.editions++;
 
   const results = parseCSV(csvPath);
   for (const r of results) {
+    // Search index
+    const slug = slugifyAthlete(r.FullName, r.CountryISO, r.Gender);
+    const existing = searchMap.get(slug);
+    if (existing) {
+      existing.raceCount++;
+    } else {
+      searchMap.set(slug, {
+        slug,
+        fullName: r.FullName,
+        country: r.Country,
+        countryISO: r.CountryISO,
+        raceCount: 1,
+      });
+    }
+
+    // Profiles index
+    const refs = profilesMap.get(slug);
+    if (refs) {
+      refs.push([race.slug, r._id]);
+    } else {
+      profilesMap.set(slug, [[race.slug, r._id]]);
+    }
+
+    // Course stats
     const swim = Number(r.SwimSeconds) || 0;
     const bike = Number(r.BikeSeconds) || 0;
     const run = Number(r.RunSeconds) || 0;
     const finish = Number(r.FinishSeconds) || 0;
-    if (swim > 0) entry.swimSeconds.push(swim);
-    if (bike > 0) entry.bikeSeconds.push(bike);
-    if (run > 0) entry.runSeconds.push(run);
-    if (finish > 0) entry.finishSeconds.push(finish);
+    if (swim > 0) courseEntry.swimSeconds.push(swim);
+    if (bike > 0) courseEntry.bikeSeconds.push(bike);
+    if (run > 0) courseEntry.runSeconds.push(run);
+    if (finish > 0) courseEntry.finishSeconds.push(finish);
   }
 }
 
+// Write search index (gzipped)
+const searchIndex = Array.from(searchMap.values());
+fs.writeFileSync(searchIndexPath, gzipSync(JSON.stringify(searchIndex)));
+
+// Write profiles index as { slug: [[raceSlug, resultId], ...] } (gzipped)
+const profiles = Object.fromEntries(profilesMap);
+fs.writeFileSync(profilesPath, gzipSync(JSON.stringify(profiles)));
+
+// Write course stats (gzipped)
 const courseStats = Array.from(courseMap.values()).map((c) => ({
   course: c.course,
   displayName: c.displayName,
@@ -224,19 +221,7 @@ const courseStats = Array.from(courseMap.values()).map((c) => ({
   medianRunSeconds: computeMedian(c.runSeconds),
   medianFinishSeconds: computeMedian(c.finishSeconds),
 }));
-
 fs.writeFileSync(courseStatsPath, gzipSync(JSON.stringify(courseStats)));
-
-// ── Gzip CSV files for compact serverless deployment ─────────────
-
-let gzCount = 0;
-for (const race of races) {
-  const csvPath = path.join(dataDir, `${race.slug}.csv`);
-  if (!fs.existsSync(csvPath)) continue;
-  const raw = fs.readFileSync(csvPath);
-  fs.writeFileSync(`${csvPath}.gz`, gzipSync(raw));
-  gzCount++;
-}
 
 const elapsed = Date.now() - start;
 console.log(
@@ -247,7 +232,4 @@ console.log(
 );
 console.log(
   `Built course stats: ${courseStats.length} courses → ${path.relative(process.cwd(), courseStatsPath)}`
-);
-console.log(
-  `Gzipped ${gzCount} CSV files for deployment`
 );
