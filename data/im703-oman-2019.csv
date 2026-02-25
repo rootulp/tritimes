@@ -1,0 +1,852 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Antoine,Mechin,Antoine Mechin,68,M30-34,Male,LES MATHES,,France,FR,0:27:06,2:12:09,1:13:36,,,3:56:55,1626,7929,4416,119,125,14215,1,1,1,2,2,1,1,1,1,1,1,1,Finisher,3500
+Pavel,Gorik,Pavel Gorik,404,M30-34,Male,Tuapse,,Russia,RU,0:31:14,2:18:03,1:21:28,,,4:14:59,1874,8283,4888,128,126,15299,2,2,2,52,49,13,11,11,3,2,2,2,Finisher,3174
+Rafael,Wyss,Rafael Wyss,84,M35-39,Male,,,Switzerland,CH,0:29:48,2:14:27,1:27:27,,,4:16:52,1788,8067,5247,170,140,15412,3,3,1,21,20,6,4,4,1,3,3,1,Finisher,3500
+Daniel,König,Daniel König,332,M18-24,Male,Abenberg,,Germany,DE,0:28:10,2:16:18,1:31:47,,,4:21:36,1690,8178,5507,123,198,15696,4,4,1,5,5,1,2,2,1,4,4,1,Finisher,3500
+Volker,Voit,Volker Voit,82,M35-39,Male,Dubai,DXB,Germany,DE,0:34:02,2:13:46,1:29:33,,,4:22:17,2042,8026,5373,141,155,15737,5,5,2,124,107,20,9,9,2,5,5,2,Finisher,3402
+Joseph,Maynard,Joseph Maynard,422,M30-34,Male,,DXB,United Kingdom,GB,0:28:34,2:22:43,1:27:14,,,4:23:53,1714,8563,5234,193,129,15833,6,6,3,9,9,3,19,19,4,6,6,3,Finisher,3014
+Joao,Arteche,Joao Arteche,71,M35-39,Male,Dubai,Dubai,Brazil,BR,0:27:03,2:24:24,1:28:20,,,4:24:16,1623,8664,5300,142,127,15856,7,7,3,1,1,1,15,15,3,7,7,3,Finisher,3366
+Bruno,Affonso,Bruno Affonso,12,M35-39,Male,SAO PAULO,,Brazil,BR,0:29:35,2:21:35,1:26:57,,,4:24:54,1775,8495,5217,224,183,15894,8,8,4,18,17,5,24,23,5,8,8,4,Finisher,3355
+Andy,Edwards,Andy Edwards,18,M40-44,Male,Dubai,DXB,United Kingdom,GB,0:28:05,2:16:36,1:36:23,,,4:25:29,1685,8196,5783,120,145,15929,9,9,1,4,4,1,3,3,1,9,9,1,Finisher,3500
+Benjamin,Weigel,Benjamin Weigel,11,M30-34,Male,Fürth,,Germany,DE,0:29:07,2:16:13,1:36:25,,,4:26:13,1747,8173,5785,107,161,15973,10,10,4,12,11,4,5,5,2,10,10,4,Finisher,2972
+Micha,Menzi,Micha Menzi,92,M40-44,Male,Rüti,,Switzerland,CH,0:33:31,2:18:47,1:28:37,,,4:27:01,2011,8327,5317,152,214,16021,11,11,2,111,96,22,23,22,5,11,11,2,Finisher,3472
+Declan,Doyle,Declan Doyle,26,M45-49,Male,Surrey,,Ireland,IE,0:32:09,2:17:31,1:30:57,,,4:27:19,1929,8251,5457,210,192,16039,12,12,1,72,66,10,12,12,1,12,12,1,Finisher,3500
+Nicola,Duchi,Nicola Duchi,330,M18-24,Male,riva del garda,,Italy,IT,0:33:10,2:17:37,1:31:11,,,4:27:25,1990,8257,5471,205,122,16045,13,13,2,102,89,4,17,17,2,13,13,2,Finisher,3395
+Rudolph,Agius,Rudolph Agius,85,M40-44,Male,Mosta,Illinois,Malta,MT,0:30:08,2:27:46,1:25:37,,,4:28:23,1808,8866,5137,172,120,16103,14,14,3,27,25,3,47,45,7,14,14,3,Finisher,3447
+Michela,Santini,Michela Santini,262,F35-39,Female,Camaiore,Lucca,Italy,IT,0:32:11,2:20:08,1:31:34,,,4:28:33,1931,8408,5494,143,137,16113,15,1,1,74,7,4,21,1,1,15,1,1,Finisher,3500
+Andrew,Jackman,Andrew Jackman,494,M35-39,Male,Newcastle,,United Kingdom,GB,0:30:05,2:21:12,1:32:14,,,4:29:01,1805,8472,5534,178,152,16141,16,15,5,25,23,7,18,18,4,16,15,5,Finisher,3281
+Arnaud,Selukov,Arnaud Selukov,206,M50-54,Male,etival,,France,FR,0:30:08,2:21:22,1:34:15,,,4:30:01,1808,8482,5655,115,141,16201,17,16,1,27,25,1,13,13,2,17,16,1,Finisher,3500
+Gherardo,Marcolin,Gherardo Marcolin,780,M50-54,Male,champery,,Italy,IT,0:33:43,2:18:30,1:30:50,,,4:30:09,2023,8310,5450,238,188,16209,18,17,2,116,100,11,33,31,4,18,17,2,Finisher,3497
+Luke,Mathews,Luke Mathews,421,M30-34,Male,Dubai,Dubai,United Kingdom,GB,0:29:07,2:24:36,1:32:57,,,4:30:41,1747,8676,5577,118,123,16241,19,18,5,12,11,4,31,29,6,19,18,5,Finisher,2892
+Samuel,Michel,Samuel Michel,333,M18-24,Male,Wünnewil,,Switzerland,CH,0:30:14,2:21:18,1:33:40,,,4:31:39,1814,8478,5620,213,174,16299,20,19,3,33,31,3,25,24,3,20,19,3,Finisher,3319
+Jurgen,Vercarre,Jurgen Vercarre,439,M30-34,Male,Middelkerke,,Belgium,BE,0:28:29,2:28:09,1:31:07,,,4:32:07,1709,8889,5467,145,117,16327,21,20,6,8,8,2,41,39,9,21,20,6,Finisher,2866
+Jozef,Vrábel,Jozef Vrábel,842,M45-49,Male,Nova Dubnica,Intl State,Slovakia,SK,0:27:39,2:24:48,1:36:09,,,4:32:59,1659,8688,5769,132,131,16379,22,21,2,3,3,1,20,20,2,22,21,2,Finisher,3398
+Hermann,Schöberl,Hermann Schöberl,284,M40-44,Male,Regensburg,,Germany,DE,0:34:19,2:24:08,1:29:30,,,4:33:37,2059,8648,5370,175,165,16417,23,22,4,129,111,25,51,49,10,23,22,4,Finisher,3353
+Walter,Lehmann,Walter Lehmann,182,M45-49,Male,Uster,,Switzerland,CH,0:35:13,2:18:03,1:34:33,,,4:34:34,2113,8283,5673,221,184,16474,24,23,3,160,139,29,35,33,3,24,23,3,Finisher,3369
+Marcel,Kamm,Marcel Kamm,112,M50-54,Male,Dübendorf,,Switzerland,CH,0:30:13,2:16:41,1:41:43,,,4:34:50,1813,8201,6103,195,178,16490,25,24,3,32,30,2,9,9,1,25,24,3,Finisher,3413
+Tobias,Braun,Tobias Braun,60,M25-29,Male,Fürth,,Germany,DE,0:33:53,2:26:23,1:30:39,,,4:35:41,2033,8783,5439,159,127,16541,26,25,1,120,104,5,59,57,5,26,25,1,Finisher,3500
+Pascal,Bosshard,Pascal Bosshard,17,M40-44,Male,Zürich,,Switzerland,CH,0:30:59,2:15:30,1:43:18,,,4:36:06,1859,8130,6198,178,201,16566,27,26,5,47,44,9,7,7,3,27,26,5,Finisher,3308
+Dean,Siebert,Dean Siebert,23,M40-44,Male,,,South Africa,ZA,0:31:06,2:19:29,1:39:33,,,4:36:11,1866,8369,5973,184,179,16571,28,27,6,49,46,10,14,14,4,28,27,6,Finisher,3307
+Anthony,English,Anthony English,400,M30-34,Male,Nottingham,Nottinghamshire,Ireland,IE,0:30:37,2:24:32,1:36:21,,,4:36:49,1837,8672,5781,183,136,16609,29,28,7,40,38,12,38,36,8,29,28,7,Finisher,2781
+Tom,Nuttall,Tom Nuttall,78,M35-39,Male,Rowville,VIC,United Kingdom,GB,0:33:41,2:22:49,1:35:40,,,4:36:58,2021,8569,5740,145,143,16618,30,29,6,113,98,18,40,38,10,30,29,6,Finisher,3138
+Wojciech,Odzimek,Wojciech Odzimek,22,M40-44,Male,Almaty,Almaty,Poland,PL,0:31:43,2:15:08,1:45:58,,,4:37:27,1903,8108,6358,136,142,16647,31,30,7,60,55,12,6,6,2,31,30,7,Finisher,3284
+Matthew,Dewhurst,Matthew Dewhurst,61,M25-29,Male,Leigh,LANCASHIRE,United Kingdom,GB,0:30:04,2:20:59,1:40:56,,,4:37:31,1804,8459,6056,174,158,16651,32,31,2,24,22,3,16,16,2,32,31,2,Finisher,3467
+Federico,Procopio,Federico Procopio,103,M45-49,Male,Viareggio,Lucca,Italy,IT,0:30:58,2:26:00,1:35:07,,,4:37:38,1858,8760,5707,192,141,16658,33,32,4,46,43,4,46,44,6,33,32,4,Finisher,3314
+Andreas,Bund,Andreas Bund,32,M50-54,Male,Trier,Rheinland-Pfalz,Germany,DE,0:36:40,2:26:37,1:28:42,,,4:37:46,2200,8797,5322,186,161,16666,34,33,4,219,185,18,83,80,9,34,33,4,Finisher,3360
+Michel,Vernet,Michel Vernet,796,M50-54,Male,monnières,,France,FR,0:31:42,2:25:09,1:36:12,,,4:37:47,1902,8709,5772,159,125,16667,35,34,5,59,54,5,44,42,5,35,34,5,Finisher,3360
+Kurt,Hessler,Kurt Hessler,20,M40-44,Male,ABU DHABI,AUH,France,FR,0:34:21,2:23:48,1:34:37,,,4:38:44,2061,8628,5677,159,199,16724,36,35,8,131,113,26,48,46,8,36,35,8,Finisher,3261
+Sebastian,Herzig,Sebastian Herzig,75,M35-39,Male,Dubai,DXB,Germany,DE,0:32:00,2:20:31,1:39:57,,,4:38:52,1920,8431,5997,188,196,16732,37,36,7,67,61,10,30,28,7,37,36,7,Finisher,3104
+Nicolas,Philippe,Nicolas Philippe,630,M40-44,Male,,,France,FR,0:31:09,2:28:40,1:34:33,,,4:39:08,1869,8920,5673,132,154,16748,38,37,9,50,47,11,52,50,11,38,37,9,Finisher,3254
+Natascha,Badmann,Natascha Badmann,317,F50-54,Female,Oftringen,,Switzerland,CH,0:32:26,2:20:15,1:41:29,,,4:39:24,1946,8415,6089,155,159,16764,39,2,1,78,9,1,27,2,1,39,2,1,Finisher,3500
+Luca,Ronchi,Luca Ronchi,10,M25-29,Male,Capo di Ponte,Brescia,Italy,IT,0:29:46,2:17:43,1:48:15,,,4:40:12,1786,8263,6495,126,142,16812,40,38,3,20,19,2,8,8,1,40,38,3,Finisher,3418
+Jamie,Edmunds,Jamie Edmunds,473,M35-39,Male,Dubai,Dubai,United Kingdom,GB,0:30:14,2:28:17,1:36:42,,,4:40:37,1814,8897,5802,148,176,16837,41,39,8,33,31,9,49,47,11,41,39,8,Finisher,3072
+Irek,Dautov,Irek Dautov,14,M35-39,Male,Sant Cugat del Valles,,Russia,RU,0:33:48,2:26:04,1:34:55,,,4:41:02,2028,8764,5695,165,210,16862,42,40,9,118,102,19,57,55,13,42,40,9,Finisher,3065
+Bruno,Larcher,Bruno Larcher,156,M35-39,Male,Wien,,Austria,AT,0:30:12,2:22:33,1:43:47,,,4:41:19,1812,8553,6227,154,133,16879,43,41,10,31,29,8,28,26,6,43,41,10,Finisher,3059
+Rômulo,Neves,Rômulo Neves,626,M40-44,Male,Islamabad,ICT,Brazil,BR,0:33:06,2:24:51,1:38:07,,,4:41:35,1986,8691,5887,182,149,16895,44,42,10,96,83,21,49,47,9,44,42,10,Finisher,3210
+Giulia,Bedorin,Giulia Bedorin,38,F30-34,Female,PADOVA,DUE CARRARE (pd),Italy,IT,0:28:56,2:31:55,1:36:47,,,4:41:54,1736,9115,5807,132,124,16914,45,3,1,10,1,1,61,3,1,45,3,1,Finisher,3500
+Innes,Wright,Innes Wright,799,M50-54,Male,Shaftesbury,DOR,United Kingdom,GB,0:32:08,2:30:51,1:33:14,,,4:42:20,1928,9051,5594,216,151,16940,46,43,6,71,65,6,86,83,10,46,43,6,Finisher,3278
+Christoph,Sudfeld,Christoph Sudfeld,204,M55-59,Male,Dipperz,,Germany,DE,0:33:08,2:26:24,1:37:29,,,4:43:19,1988,8784,5849,213,165,16999,47,44,1,99,86,4,63,60,2,47,44,1,Finisher,3500
+Ash,Chambers,Ash Chambers,343,M25-29,Male,Doha,Middle East,United Kingdom,GB,0:37:05,2:31:46,1:29:59,,,4:43:47,2225,9106,5399,155,142,17027,48,45,4,232,195,13,122,118,7,48,45,4,Finisher,3354
+Filippo,Sensoli,Filippo Sensoli,31,M45-49,Male,livigno,,Italy,IT,0:33:46,2:27:35,1:37:00,,,4:44:06,2026,8855,5820,134,211,17046,49,46,5,117,101,20,67,64,8,49,46,5,Finisher,3197
+Joan Marc,Gruart Bigas,Joan Marc Gruart Bigas,405,M30-34,Male,Santa Cristina d'Aro,,Spain,ES,0:29:16,2:28:31,1:37:49,,,4:44:09,1756,8911,5869,284,229,17049,50,47,8,14,13,6,56,54,11,50,47,8,Finisher,2649
+Jamie,Platts,Jamie Platts,427,M30-34,Male,Hythe,Kent,United Kingdom,GB,0:30:30,2:22:51,1:45:28,,,4:44:47,1830,8571,6328,166,192,17087,51,48,9,39,37,11,32,30,7,51,48,9,Finisher,2638
+Luiz Mauro,Grohs,Luiz Mauro Grohs,66,M30-34,Male,Curitiba,Paraná,Brazil,BR,0:34:20,2:29:36,1:35:13,,,4:45:31,2060,8976,5713,234,148,17131,52,49,10,130,112,18,95,91,15,52,49,10,Finisher,2625
+Tobias,König,Tobias König,498,M35-39,Male,Eichstätt,BY,Germany,DE,0:29:21,2:25:30,1:45:25,,,4:45:38,1761,8730,6325,159,163,17138,53,50,11,15,14,4,37,35,8,53,50,11,Finisher,2982
+Mattia,Boschetti,Mattia Boschetti,389,M30-34,Male,Perugia,foreigner,Italy,IT,0:29:21,2:26:06,1:43:41,,,4:46:06,1761,8766,6221,224,194,17166,54,51,11,15,14,7,42,40,10,54,51,11,Finisher,2614
+Sam,Westhead,Sam Westhead,116,M50-54,Male,Dubai,DXB,United Kingdom,GB,0:35:18,2:25:10,1:40:15,,,4:46:07,2118,8710,6015,156,168,17167,55,52,7,165,143,14,62,59,6,55,52,7,Finisher,3210
+Morten,Sommer Sahlholdt,Morten Sommer Sahlholdt,539,M35-39,Male,,DXB,Denmark,DK,0:34:50,2:24:47,1:40:54,,,4:46:13,2090,8687,6054,156,186,17173,56,53,12,146,127,24,53,51,12,56,53,12,Finisher,2971
+Franck,Escomel,Franck Escomel,764,M50-54,Male,BOISSISE LE ROI,AB,France,FR,0:30:41,2:20:13,1:49:25,,,4:47:25,1841,8413,6565,254,172,17245,57,54,8,42,39,3,26,25,3,57,54,8,Finisher,3186
+Eduard,Sadurni De La Torre,Eduard Sadurni De La Torre,95,M40-44,Male,Badalona,,Spain,ES,0:35:49,2:26:22,1:38:18,,,4:47:41,2149,8782,5898,226,206,17261,58,55,11,182,158,33,81,78,16,58,55,11,Finisher,3100
+Dmitriy,Firsov,Dmitriy Firsov,9,M25-29,Male,Dubai,foreigner,Ukraine,UA,0:28:12,2:24:43,1:50:03,,,4:47:41,1692,8683,6603,153,130,17261,58,55,5,6,6,1,29,27,3,58,55,5,Finisher,3284
+Abdulla,Allqeti,Abdulla Allqeti,450,M35-39,Male,Abu Dhabi,Abu Dhabi,United Arab Emirates,AE,0:33:10,2:32:08,1:36:45,,,4:48:24,1990,9128,5805,243,138,17304,60,57,13,102,89,17,104,100,20,60,57,13,Finisher,2932
+Pelayo,Orts Fiestas,Pelayo Orts Fiestas,352,M25-29,Male,Villajoyosa,,Spain,ES,0:32:09,2:20:35,1:49:13,,,4:48:24,1929,8435,6553,207,180,17304,60,57,6,72,66,4,33,31,4,60,57,6,Finisher,3271
+Juergen,Braehler,Juergen Braehler,753,M50-54,Male,Eichenzell,,Germany,DE,0:41:07,2:27:35,1:33:56,,,4:49:00,2467,8855,5636,240,142,17340,62,59,9,378,312,33,135,130,14,62,59,9,Finisher,3158
+Alexey,Oreshin,Alexey Oreshin,518,M35-39,Male,singapore,Singapore,Russia,RU,0:35:00,2:20:46,1:48:33,,,4:49:02,2100,8446,6513,162,121,17342,63,60,14,151,131,25,39,37,9,63,60,14,Finisher,2921
+Vicente Luis,Catalan Bernia,Vicente Luis Catalan Bernia,25,M45-49,Male,Valencia,,Spain,ES,0:35:26,2:31:29,1:36:43,,,4:49:11,2126,9089,5803,174,159,17351,64,61,6,170,147,33,108,104,19,64,61,6,Finisher,3106
+Mark,Fourie,Mark Fourie,28,M45-49,Male,Dubai,DXB,South Africa,ZA,0:31:37,2:25:32,1:46:08,,,4:49:19,1897,8732,6368,166,196,17359,65,62,7,58,53,8,45,43,5,65,62,7,Finisher,3104
+Marek,Goczol,Marek Goczol,65,M30-34,Male,Dubai,DXB,Poland,PL,0:30:16,2:29:55,1:43:07,,,4:49:53,1816,8995,6187,203,192,17393,66,63,12,35,33,9,66,63,13,66,63,12,Finisher,2546
+Marco,Perrella,Marco Perrella,102,M45-49,Male,Milano,Milano ,Italy,IT,0:32:48,2:29:24,1:41:28,,,4:50:10,1968,8964,6088,212,178,17410,67,64,8,85,76,12,78,75,12,67,64,8,Finisher,3088
+Ricardo,Cabral,Ricardo Cabral,149,M35-39,Male,Évora,,Portugal,PT,0:32:26,2:30:14,1:41:46,,,4:50:20,1946,9014,6106,196,158,17420,68,65,15,78,70,12,80,77,16,68,65,15,Finisher,2897
+Billy,Harkin,Billy Harkin,694,M45-49,Male,Dubai,DXB,Ireland,IE,0:36:47,2:27:09,1:41:20,,,4:50:24,2207,8829,6080,145,163,17424,69,66,9,223,187,39,82,79,13,69,66,9,Finisher,3084
+Christophe,Hobeika,Christophe Hobeika,67,M30-34,Male,Dubai,DXB,France,FR,0:33:18,2:27:59,1:42:46,,,4:50:24,1998,8879,6166,247,134,17424,69,66,13,107,93,16,75,72,14,69,66,13,Finisher,2537
+Mikael,Amura,Mikael Amura,16,M40-44,Male,roma,roma,Italy,IT,0:30:43,2:32:51,1:41:39,,,4:50:32,1843,9171,6099,188,131,17432,71,68,12,43,40,6,87,84,19,71,68,12,Finisher,3049
+Robin,Zwiers,Robin Zwiers,69,M30-34,Male,Dubai,DUBAYY,Netherlands,NL,0:36:38,2:23:56,1:46:14,,,4:51:23,2198,8636,6374,141,134,17483,72,69,14,217,183,23,59,57,12,72,69,14,Finisher,2519
+Ryan,Sherlock,Ryan Sherlock,161,M35-39,Male,Muscat,Muscat,United Kingdom,GB,0:32:27,2:31:02,1:43:11,,,4:51:52,1947,9062,6191,138,174,17512,73,70,16,81,72,14,79,76,15,73,70,16,Finisher,2870
+Thierry,Leroy,Thierry Leroy,776,M50-54,Male,Meysse,,France,FR,0:33:02,2:26:51,1:45:44,,,4:51:53,1982,8811,6344,195,181,17513,74,71,10,94,82,8,64,61,7,74,71,10,Finisher,3106
+Tobias,Ammon,Tobias Ammon,560,M40-44,Male,Dammam,Makkah Al Mukarramah Province,Germany,DE,0:35:39,2:25:38,1:42:27,,,4:52:03,2139,8738,6147,265,234,17523,75,72,13,175,152,32,77,74,15,75,72,13,Finisher,3021
+Vaclav,Petrasek,Vaclav Petrasek,172,M40-44,Male,Zlin,Prague,Czech Republic,CZ,0:30:56,2:29:35,1:45:12,,,4:52:19,1856,8975,6312,182,214,17539,76,73,14,45,42,8,65,62,12,76,73,14,Finisher,3017
+Matt,Brown,Matt Brown,463,M35-39,Male,Dubai,DXB,United States,US,0:32:26,2:32:58,1:41:28,,,4:52:27,1946,9178,6088,183,152,17547,77,74,17,78,70,12,98,94,18,77,74,17,Finisher,2859
+Christopher,Seeley,Christopher Seeley,96,M40-44,Male,Dubai,DXB,United Kingdom,GB,0:30:09,2:34:00,1:42:11,,,4:52:27,1809,9240,6131,203,164,17547,77,74,15,30,28,4,91,88,21,77,74,15,Finisher,3014
+Daniel,Power,Daniel Power,428,M30-34,Male,Downpatrick,,Ireland,IE,0:35:13,2:30:50,1:39:49,,,4:53:02,2113,9050,5989,267,163,17582,79,76,15,160,139,20,112,108,17,79,76,15,Finisher,2489
+Glen,Osmond,Glen Osmond,722,M45-49,Male,Warszawa,Małopolskie,United States,US,0:33:09,2:29:39,1:45:26,,,4:53:29,1989,8979,6326,163,152,17609,80,77,10,101,88,16,76,73,11,80,77,10,Finisher,3029
+Slawomir,Ledwon,Slawomir Ledwon,168,M40-44,Male,Nowe Czaple,pomorskie,Poland,PL,0:35:50,2:26:01,1:45:49,,,4:53:58,2150,8761,6349,211,167,17638,81,78,16,183,159,34,74,71,14,81,78,16,Finisher,2987
+Graziano,Gnocchi,Graziano Gnocchi,603,M40-44,Male,Milano,Milano,Italy,IT,0:35:53,2:27:18,1:45:17,,,4:54:21,2153,8838,6317,199,154,17661,82,79,17,186,162,35,85,82,18,82,79,17,Finisher,2980
+Nazario,Battista,Nazario Battista,568,M40-44,Male,gaeta,,Italy,IT,0:31:54,2:22:57,1:52:27,,,4:54:40,1914,8577,6747,277,165,17680,83,80,18,66,60,15,43,41,6,83,80,18,Finisher,2974
+Rodolphe,Von Berg,Rodolphe Von Berg,122,M60-64,Male,grasse,,Belgium,BE,0:31:09,2:28:33,1:49:33,,,4:55:11,1869,8913,6573,155,201,17711,84,81,1,50,47,1,54,52,1,84,81,1,Finisher,3500
+Pascal,Schwarze,Pascal Schwarze,533,M35-39,Male,Isny,,Germany,DE,0:36:13,2:36:26,1:35:19,,,4:55:35,2173,9386,5719,255,202,17735,85,82,18,197,168,35,173,162,30,85,82,18,Finisher,2803
+Dale,Crossley,Dale Crossley,467,M35-39,Male,ALDERSHOT,Hampshire,United Kingdom,GB,0:35:42,2:33:28,1:41:48,,,4:56:30,2142,9208,6108,149,183,17790,86,83,19,177,154,29,124,120,23,86,83,19,Finisher,2786
+Bram,Philips,Bram Philips,160,M35-39,Male,Oost Vlaanderen,,Belgium,BE,0:35:59,2:28:58,1:44:42,,,4:56:37,2159,8938,6282,228,190,17797,87,84,20,189,164,34,99,95,19,87,84,20,Finisher,2784
+Jacques,Funel,Jacques Funel,90,M40-44,Male,Kembs,,France,FR,0:36:33,2:29:37,1:43:30,,,4:56:39,2193,8977,6210,239,180,17799,88,85,19,211,177,40,111,107,26,88,85,19,Finisher,2939
+Ahmed,Iraky,Ahmed Iraky,21,M40-44,Male,Giza,foreigner,Egypt,EG,0:34:08,2:29:19,1:47:29,,,4:56:54,2048,8959,6449,219,139,17814,89,86,20,125,108,24,88,85,20,89,86,20,Finisher,2934
+71794007,Gordon,71794007 Gordon,604,M40-44,Male,Muscat,Seeb,United Kingdom,GB,0:30:49,2:31:56,1:48:34,,,4:57:27,1849,9116,6514,219,149,17847,90,87,21,44,41,7,84,81,17,90,87,21,Finisher,2924
+Kenneth,Heney,Kenneth Heney,19,M40-44,Male,Dubai,Maryland,United Kingdom,GB,0:32:54,2:33:00,1:46:28,,,4:57:28,1974,9180,6388,189,117,17848,91,88,22,88,78,18,101,97,23,91,88,22,Finisher,2924
+Sara,Bund,Sara Bund,2,F35-39,Female,Trier,Rheinland-Pfalz,Germany,DE,0:31:34,2:47:23,1:33:44,,,4:57:41,1894,10043,5624,145,155,17861,92,4,2,56,5,3,199,14,6,92,4,2,Finisher,2975
+Patrick,Bombardelli,Patrick Bombardelli,72,M35-39,Male,Riva del Garda,TRENTO,Italy,IT,0:29:06,2:32:41,1:50:56,,,4:57:45,1746,9161,6656,143,159,17865,93,89,21,11,10,3,70,67,14,93,89,21,Finisher,2764
+Osama,Al-Adhamy,Osama Al-Adhamy,86,M40-44,Male,Dubai,DXB,Iraq,IQ,0:32:30,2:34:08,1:44:43,,,4:58:19,1950,9248,6283,179,239,17899,94,90,23,83,74,17,107,103,25,94,90,23,Finisher,2909
+Luis,Bustamante Carrillo,Luis Bustamante Carrillo,87,M40-44,Male,Fulshear,TX,Venezuela,VE,0:43:25,2:25:37,1:43:10,,,4:58:29,2605,8737,6190,204,173,17909,95,91,24,452,371,76,132,127,29,95,91,24,Finisher,2906
+Mark,Hamilton,Mark Hamilton,408,M30-34,Male,Dubai,DXB,United States,US,0:32:06,2:20:01,2:01:08,,,4:58:47,1926,8401,7268,161,171,17927,96,92,16,70,64,14,22,21,5,96,92,16,Finisher,2386
+Glyn,Painter,Glyn Painter,723,M45-49,Male,Melksham,,United Kingdom,GB,0:30:06,2:25:10,1:59:15,,,4:59:04,1806,8710,7155,122,151,17944,97,93,11,26,24,2,36,34,4,97,93,11,Finisher,2928
+Scott,Cocking,Scott Cocking,344,M25-29,Male,Doha,Aspire Zone,United Kingdom,GB,0:38:46,2:31:47,1:41:19,,,4:59:07,2326,9107,6079,217,218,17947,98,94,7,291,244,18,147,140,12,98,94,7,Finisher,3078
+Izabela,Sobanska,Izabela Sobanska,1,F18-24,Female,Drużbice,,Poland,PL,0:33:18,2:32:11,1:49:05,,,4:59:14,1998,9131,6545,139,141,17954,99,5,1,107,15,2,94,4,1,99,5,1,Finisher,3500
+Yasmin,Halawa,Yasmin Halawa,40,F30-34,Female,England,foreigner,Egypt,EG,0:36:01,2:33:22,1:43:47,,,4:59:26,2161,9202,6227,215,161,17966,100,6,2,190,26,3,138,6,2,100,6,2,Finisher,3184
+Michael,Myler,Michael Myler,351,M25-29,Male,Orem,UT,United States,US,0:35:03,2:34:24,1:44:31,,,4:59:28,2103,9264,6271,151,179,17968,101,95,8,153,133,8,128,124,8,101,95,8,Finisher,3071
+Emilio,Lomi,Emilio Lomi,35,M55-59,Male,italy,foreigner,Italy,IT,0:37:16,2:35:57,1:41:03,,,4:59:37,2236,9357,6063,148,173,17977,102,96,2,239,201,10,159,151,6,102,96,2,Finisher,3206
+Gary,Cummings,Gary Cummings,586,M40-44,Male,Muscat,Muscat Governorate,United Kingdom,GB,0:33:52,2:34:24,1:45:59,,,4:59:41,2032,9264,6359,176,150,17981,103,97,25,119,103,23,120,116,28,103,97,25,Finisher,2884
+Bond,Martin,Bond Martin,24,M45-49,Male,Dubai,Dubai,United Kingdom,GB,0:30:16,2:29:09,1:54:50,,,5:00:01,1816,8949,6890,174,172,18001,104,98,12,35,33,3,55,53,7,104,98,12,Finisher,2911
+Peter ,Havas,Peter Havas,29,M45-49,Male,budapest,,Hungary,HU,0:37:49,2:26:32,1:46:55,,,5:00:35,2269,8792,6415,303,256,18035,105,99,13,261,217,47,105,101,18,105,99,13,Finisher,2901
+Jean-Sebastien,Berland,Jean-Sebastien Berland,668,M45-49,Male,Dubai,Dubai,France,FR,0:36:30,2:27:13,1:51:29,,,5:01:19,2190,8833,6689,227,140,18079,106,100,14,209,176,36,90,87,14,106,100,14,Finisher,2888
+Niklas,Halen,Niklas Halen,484,M35-39,Male,Al Yufrah 1,Dubai,Sweden,SE,0:41:02,2:31:37,1:42:17,,,5:01:21,2462,9097,6137,238,147,18081,107,101,22,375,309,56,169,159,29,107,101,22,Finisher,2699
+Darren,Wood,Darren Wood,358,M25-29,Male,SAN JUAN,PR,Singapore,SG,0:35:03,2:32:31,1:45:46,,,5:01:26,2103,9151,6346,294,192,18086,108,102,9,153,133,8,133,128,9,108,102,9,Finisher,3036
+Sebastian,Conkright,Sebastian Conkright,394,M30-34,Male,Bad Abbach,,Germany,DE,0:39:29,2:27:17,1:45:18,,,5:01:31,2369,8837,6318,255,312,18091,109,103,17,317,264,36,119,115,18,109,103,17,Finisher,2337
+Derek,O Reilly,Derek O Reilly,184,M45-49,Male,Solihull ,England,Ireland,IE,0:34:37,2:27:08,1:54:27,,,5:02:10,2077,8828,6867,166,192,18130,110,104,15,138,120,23,71,68,10,110,104,15,Finisher,2872
+Joe,Augustine,Joe Augustine,563,M40-44,Male,Portland,Oregon,United States,US,0:31:44,2:33:04,1:49:04,,,5:02:11,1904,9184,6544,286,213,18131,111,105,26,61,56,13,106,102,24,111,105,26,Finisher,2839
+Jamie,Anderson,Jamie Anderson,457,M35-39,Male,Falkirk,,United Kingdom,GB,0:35:43,2:38:38,1:40:53,,,5:02:26,2143,9518,6053,259,173,18146,112,106,23,178,155,30,181,169,32,112,106,23,Finisher,2679
+Suzanne,Matonti,Suzanne Matonti,42,F35-39,Female,Livingston,,United Kingdom,GB,0:36:41,2:35:34,1:43:44,,,5:02:27,2201,9334,6224,220,168,18147,113,7,3,221,36,11,162,9,4,113,7,3,Finisher,2889
+Jordi,Extrem,Jordi Extrem,598,M40-44,Male,Platja de Aro,,Spain,ES,0:29:58,2:31:47,1:55:12,,,5:02:58,1798,9107,6912,171,190,18178,114,107,27,22,21,2,72,69,13,114,107,27,Finisher,2825
+John,Taylor,John Taylor,356,M25-29,Male,Preston,Uk,United Kingdom,GB,0:33:53,2:35:48,1:46:34,,,5:03:14,2033,9348,6394,167,252,18194,115,108,10,120,104,5,133,128,9,115,108,10,Finisher,3004
+Andrew,Winter,Andrew Winter,744,M45-49,Male,Dubai,DXB,United Kingdom,GB,0:31:26,2:33:09,1:52:09,,,5:03:32,1886,9189,6729,199,209,18212,116,109,16,53,50,5,96,92,16,116,109,16,Finisher,2848
+Chris,Salvenmoser,Chris Salvenmoser,187,M45-49,Male,Amsterdam,,Austria,AT,0:35:18,2:32:28,1:47:48,,,5:03:39,2118,9148,6468,241,244,18219,117,110,17,165,143,31,125,121,25,117,110,17,Finisher,2846
+Charlotte,Mensaert,Charlotte Mensaert,125,F25-29,Female,Middelkerke,,Belgium,BE,0:32:58,2:39:50,1:44:37,,,5:03:53,1978,9590,6277,196,192,18233,118,8,1,91,12,2,163,10,1,118,8,1,Finisher,3500
+Hervé,Leimer,Hervé Leimer,119,M55-59,Male,CHAMBLON,,Switzerland,CH,0:31:45,2:32:55,1:53:16,,,5:04:08,1905,9175,6796,183,189,18248,119,111,3,62,57,2,92,89,4,119,111,3,Finisher,3125
+Ryan,Lindsay,Ryan Lindsay,502,M35-39,Male,,DXB,United Kingdom,GB,0:41:04,2:28:17,1:48:55,,,5:04:43,2464,8897,6535,226,161,18283,120,112,24,377,311,57,139,133,25,120,112,24,Finisher,2638
+Dick,Keefe,Dick Keefe,143,M25-29,Male,"Jakarta
+Jakarta","DKI Jakarta
+DKI Jakarta",Indonesia,ID,0:38:11,2:35:00,1:45:32,,,5:04:45,2291,9300,6332,194,168,18285,121,113,11,272,227,15,167,157,14,121,113,11,Finisher,2976
+Johan,Mensaert,Johan Mensaert,816,M55-59,Male,Oostende,,Belgium,BE,0:32:23,2:25:51,1:58:37,,,5:04:50,1943,8751,7117,273,206,18290,122,114,4,77,69,3,58,56,1,122,114,4,Finisher,3112
+Matthew,Tourville,Matthew Tourville,738,M45-49,Male,Abu Dhabi,Abu Dhabi,United States,US,0:37:50,2:33:07,1:48:49,,,5:04:52,2270,9187,6529,145,161,18292,123,115,18,263,219,48,141,135,26,123,115,18,Finisher,2824
+Mark,Wharton,Mark Wharton,33,M50-54,Male,Cheltenham,,United Kingdom,GB,0:33:16,2:35:02,1:50:07,,,5:04:52,1996,9302,6607,186,201,18292,123,115,11,104,91,9,121,117,11,123,115,11,Finisher,2872
+Salah,Rabah,Salah Rabah,524,M35-39,Male,Neitut,2,Lebanon,LB,0:42:41,2:27:11,1:48:14,,,5:04:53,2561,8831,6494,204,203,18293,125,117,25,429,353,67,140,134,26,125,117,25,Finisher,2635
+karl,street,karl street,827,M55-59,Male,Abu Dhabi,AUH,United Kingdom,GB,0:39:36,2:39:59,1:39:20,,,5:05:20,2376,9599,5960,200,185,18320,126,118,5,323,269,12,213,198,8,126,118,5,Finisher,3103
+David,Gibbs,David Gibbs,480,M35-39,Male,Gloucester,GB,United Kingdom,GB,0:32:05,2:32:29,1:56:21,,,5:05:58,1925,9149,6981,161,142,18358,127,119,26,69,63,11,89,86,17,127,119,26,Finisher,2616
+Kevin,Griffiths,Kevin Griffiths,91,M40-44,Male,Dubai,Dubai,United Kingdom,GB,0:34:23,2:37:00,1:48:28,,,5:06:01,2063,9420,6508,187,183,18361,128,120,28,132,114,27,149,142,32,128,120,28,Finisher,2770
+Elliot,Lewis,Elliot Lewis,709,M45-49,Male,Dubai,DXB,United Kingdom,GB,0:33:08,2:34:14,1:52:44,,,5:06:07,1988,9254,6764,209,152,18367,129,121,19,99,86,15,117,113,24,129,121,19,Finisher,2801
+Bertrand,MARTIN,Bertrand MARTIN,505,M35-39,Male,,,France,FR,0:45:38,2:31:45,1:43:09,,,5:06:13,2738,9105,6189,183,158,18373,130,122,27,504,411,86,194,181,35,130,122,27,Finisher,2611
+Melanie,Benson,Melanie Benson,315,F35-39,Female,St. John's,NL,Canada,CA,0:31:33,2:37:05,1:51:06,,,5:06:18,1893,9425,6666,218,176,18378,131,9,4,55,4,2,131,5,2,131,9,4,Finisher,2820
+Mihir,Deo,Mihir Deo,326,M18-24,Male,Pune,Maharashtra,India,IN,0:38:37,2:33:47,1:48:24,,,5:06:20,2317,9227,6504,164,168,18380,132,123,4,283,236,8,155,148,5,132,123,4,Finisher,2694
+Raphael,Formarier,Raphael Formarier,346,M25-29,Male,Muscat,Muscat,France,FR,0:38:43,2:30:55,1:51:01,,,5:06:38,2323,9055,6661,184,175,18398,133,124,12,287,240,17,135,130,11,133,124,12,Finisher,2942
+Philip,Emslie,Philip Emslie,477,M35-39,Male,Dubai,DXB,South Africa,ZA,0:28:15,2:39:57,1:53:06,,,5:06:42,1695,9597,6786,160,164,18402,134,125,28,7,7,2,118,114,21,134,125,28,Finisher,2603
+Glen,Te Wharau,Glen Te Wharau,646,M40-44,Male,Dubai Silicon Oasis,DXB,New Zealand,NZ,0:35:04,2:30:13,1:56:42,,,5:06:50,2104,9013,7002,162,129,18410,135,126,29,156,135,29,97,93,22,135,126,29,Finisher,2755
+Ronnie,De Pryck,Ronnie De Pryck,680,M45-49,Male,Dubai,Dubai,Luxembourg,LU,0:33:40,2:30:15,1:55:21,,,5:06:55,2020,9015,6921,231,228,18415,136,127,20,112,97,18,93,90,15,136,127,20,Finisher,2787
+Daniel,Hughes,Daniel Hughes,76,M35-39,Male,Sheridan,WY,United States,US,0:37:15,2:30:44,1:52:24,,,5:06:56,2235,9044,6744,229,164,18416,137,128,29,237,199,38,126,122,24,137,128,29,Finisher,2598
+Issam,Albusaidi,Issam Albusaidi,336,M25-29,Male,Muscat,Muscat,Oman,OM,0:40:45,2:33:48,1:47:53,,,5:07:07,2445,9228,6473,135,146,18427,138,129,13,368,303,22,171,161,15,138,129,13,Finisher,2934
+Kieran,Duggan,Kieran Duggan,177,M45-49,Male,Dubai,DXB,Ireland,IE,0:39:55,2:40:07,1:41:29,,,5:08:02,2395,9607,6089,215,176,18482,139,130,21,338,283,60,222,205,41,139,130,21,Finisher,2767
+Anton,Novoselov,Anton Novoselov,513,M35-39,Male,Moscow,Russia,Russia,RU,0:38:49,2:28:36,1:53:37,,,5:08:11,2329,8916,6817,247,182,18491,140,131,30,293,246,44,123,119,22,140,131,30,Finisher,2576
+Stuart,Gordon,Stuart Gordon,348,M25-29,Male,Bath,,United Kingdom,GB,0:34:44,2:30:57,1:56:40,,,5:08:12,2084,9057,7000,189,162,18492,141,132,14,144,125,7,100,96,6,141,132,14,Finisher,2914
+Urs,Picco,Urs Picco,820,M55-59,Male,Camorino,,Switzerland,CH,0:35:11,2:29:33,1:54:05,,,5:08:21,2111,8973,6845,306,266,18501,142,133,6,157,136,7,109,105,5,142,133,6,Finisher,3049
+Richard,Fergus,Richard Fergus,402,M30-34,Male,Glasgow,,United Kingdom,GB,0:39:55,2:40:34,1:40:27,,,5:08:31,2395,9634,6027,270,185,18511,143,134,18,338,283,40,237,218,30,143,134,18,Finisher,2211
+Arnaud,Bouf,Arnaud Bouf,97,M45-49,Male,Dubai,DUBAYY,France,FR,0:38:45,2:34:54,1:48:40,,,5:08:31,2325,9294,6520,187,185,18511,143,134,22,290,243,53,170,160,31,143,134,22,Finisher,2758
+Jurgen,Dorr,Jurgen Dorr,763,M50-54,Male,,,Germany,DE,0:32:33,2:28:03,2:01:24,,,5:08:33,1953,8883,7284,184,209,18513,145,136,12,84,75,7,68,65,8,145,136,12,Finisher,2806
+Inalize,Oosthuizen,Inalize Oosthuizen,44,F35-39,Female,Dubai,DUBAYY,South Africa,ZA,0:32:55,2:43:30,1:47:40,,,5:08:44,1975,9810,6460,148,131,18524,146,10,5,89,11,5,184,13,5,146,10,5,Finisher,2776
+Lisa Ann,Hancox,Lisa Ann Hancox,5,F40-44,Female,Dubai,DXB,United Kingdom,GB,0:30:39,2:42:52,1:50:43,,,5:08:47,1839,9772,6643,125,148,18527,147,11,1,41,3,1,158,8,1,147,11,1,Finisher,3500
+Conrad,Mulhearn,Conrad Mulhearn,719,M45-49,Male,Ripley,,United Kingdom,GB,0:32:18,2:33:40,1:55:55,,,5:09:09,1938,9220,6955,198,238,18549,148,137,23,75,68,11,103,99,17,148,137,23,Finisher,2747
+Rocco,Mariani,Rocco Mariani,712,M45-49,Male,Dielsdorf,,Switzerland,CH,0:33:57,2:32:40,1:55:25,,,5:09:45,2037,9160,6925,241,222,18585,149,138,24,123,106,21,115,111,22,149,138,24,Finisher,2736
+Tyler,Manchester,Tyler Manchester,419,M30-34,Male,Dubai,DXB,Netherlands,NL,0:34:36,2:41:44,1:47:07,,,5:09:46,2076,9704,6427,173,206,18586,150,139,19,137,119,19,187,174,23,150,139,19,Finisher,2188
+Sascha,Triemer,Sascha Triemer,741,M45-49,Male,Dubai,DXB,Germany,DE,0:38:14,2:33:14,1:51:22,,,5:09:53,2294,9194,6682,262,161,18593,151,140,25,274,229,52,160,152,28,151,140,25,Finisher,2733
+Marek,Palysa,Marek Palysa,185,M45-49,Male,Dawidy Bankowe,mazowieckie,Poland,PL,0:31:49,2:29:20,2:02:56,,,5:10:01,1909,8960,7376,172,184,18601,152,141,26,64,59,9,69,66,9,152,141,26,Finisher,2731
+Stephen,Griffiths,Stephen Griffiths,693,M45-49,Male,Mark,Somerset,United Kingdom,GB,0:35:14,2:39:29,1:49:40,,,5:10:02,2114,9569,6580,191,148,18602,153,142,27,163,142,30,177,166,33,153,142,27,Finisher,2731
+Abdulrahman,Al Hosani,Abdulrahman Al Hosani,70,M35-39,Male,Abu Dhabi,AUH,United Arab Emirates,AE,0:36:36,2:45:16,1:42:30,,,5:10:27,2196,9916,6150,214,151,18627,154,143,31,216,182,37,242,223,43,154,143,31,Finisher,2535
+Clare,Mcculloch,Clare Mcculloch,279,F40-44,Female,Farnham,Surrey,United Kingdom,GB,0:35:55,2:46:01,1:42:05,,,5:10:33,2155,9961,6125,231,161,18633,155,12,2,187,25,6,247,20,4,155,12,2,Finisher,3468
+Frank,Hackenbruch,Frank Hackenbruch,830,M60-64,Male,Stolberg,,Germany,DE,0:35:25,2:37:02,1:50:47,,,5:10:43,2125,9422,6647,226,223,18643,156,144,2,169,146,3,165,155,3,156,144,2,Finisher,3220
+Barrak,Aldakhail,Barrak Aldakhail,334,M40-44,Male,Kuwait city,Kuwait City,Kuwait,KW,0:38:48,2:41:42,1:43:53,,,5:10:46,2328,9702,6233,226,157,18646,157,145,30,292,245,53,231,212,40,157,145,30,Finisher,2684
+Alec,Shakeshaft,Alec Shakeshaft,188,M45-49,Male,Neuhausen,,Switzerland,CH,0:34:10,2:36:22,1:53:01,,,5:10:50,2050,9382,6781,194,243,18650,158,146,28,127,110,22,143,137,27,158,146,28,Finisher,2716
+Aziz,Alkhamis,Aziz Alkhamis,374,M30-34,Male,Yarmouk,Kuwait,Kuwait,KW,0:30:22,2:39:14,1:54:49,,,5:11:10,1822,9554,6889,241,164,18670,159,147,20,38,36,10,142,136,20,159,147,20,Finisher,2163
+Jean-Daniel,Roch,Jean-Daniel Roch,113,M50-54,Male,Blaschette,,Luxembourg,LU,0:36:29,2:33:05,1:52:56,,,5:11:33,2189,9185,6776,308,235,18693,160,148,13,208,175,17,151,144,16,160,148,13,Finisher,2752
+Marcus,Jores,Marcus Jores,34,M55-59,Male,Mainz,RP,Germany,DE,0:36:05,2:25:50,2:04:12,,,5:12:07,2165,8750,7452,163,197,18727,161,149,7,193,166,8,73,70,3,161,149,7,Finisher,2981
+Bader,Albastaki,Bader Albastaki,140,M25-29,Male,Hamala,ASH SHAMALIYAH,Bahrain,BH,0:37:08,2:34:45,1:53:03,,,5:12:17,2228,9285,6783,267,174,18737,162,150,15,234,197,14,166,156,13,162,150,15,Finisher,2841
+Varjavand,Contractor,Varjavand Contractor,325,M18-24,Male,Sharjah,Sharjah,India,IN,0:35:00,2:35:25,1:56:16,,,5:12:21,2100,9325,6976,141,199,18741,163,151,5,151,131,5,137,132,4,163,151,5,Finisher,2586
+SANDRINE,HAGENBACH,SANDRINE HAGENBACH,135,F45-49,Female,GOUVIEUX,,France,FR,0:40:10,2:41:22,1:44:55,,,5:12:24,2410,9682,6295,163,194,18744,164,13,1,348,59,9,230,19,1,164,13,1,Finisher,3500
+Mohammed,Alharbi,Mohammed Alharbi,62,M30-34,Male,Riyadh,Riyadh,Saudi Arabia,SA,0:40:46,2:31:59,1:54:14,,,5:12:25,2446,9119,6854,144,182,18745,165,152,21,369,304,45,156,149,22,165,152,21,Finisher,2141
+Thomas,Anderegg,Thomas Anderegg,176,M45-49,Male,,,Switzerland,CH,0:34:43,2:33:04,1:58:33,,,5:12:57,2083,9184,7113,183,214,18777,166,153,29,143,124,24,116,112,23,166,153,29,Finisher,2678
+Kirsten,Cameron,Kirsten Cameron,3,F35-39,Female,EDINBURGH,,United Kingdom,GB,0:33:42,2:36:42,1:56:48,,,5:13:03,2022,9402,7008,208,143,18783,167,14,6,114,16,6,144,7,3,167,14,6,Finisher,2699
+Jenny,Melik,Jenny Melik,132,F40-44,Female,London,GB-ENG,New Zealand,NZ,0:33:17,2:41:11,1:52:20,,,5:13:11,1997,9671,6740,214,169,18791,168,15,3,106,14,3,178,12,2,168,15,3,Finisher,3420
+Stefano,Camisasca,Stefano Camisasca,167,M40-44,Male,seveso,italia,Italy,IT,0:38:26,2:30:54,1:56:52,,,5:14:12,2306,9054,7012,300,180,18852,169,154,31,280,233,52,148,141,31,169,154,31,Finisher,2623
+Rustam,Sadykov,Rustam Sadykov,528,M35-39,Male,Fort St John,BC,Russia,RU,0:34:31,2:36:42,1:56:12,,,5:14:20,2071,9402,6972,214,201,18860,170,155,32,133,115,21,153,146,27,170,155,32,Finisher,2465
+Ewan,Cameron,Ewan Cameron,674,M45-49,Male,Doha,,United Kingdom,GB,0:35:19,2:42:17,1:50:59,,,5:14:29,2119,9737,6659,217,137,18869,171,156,30,167,145,32,198,185,37,171,156,30,Finisher,2651
+Dan,Munro,Dan Munro,512,M35-39,Male,Golden,BC,Canada,CA,0:38:04,2:43:29,1:44:49,,,5:14:51,2284,9809,6289,274,235,18891,172,157,33,269,224,41,249,229,45,172,157,33,Finisher,2456
+Yusuf,Alireza,Yusuf Alireza,659,M45-49,Male,Palm Jumeirah,DXB,Bahrain,BH,0:37:57,2:33:10,1:53:53,,,5:14:51,2277,9190,6833,322,269,18891,172,157,31,266,221,49,168,158,30,172,157,31,Finisher,2644
+Tony,Kriening,Tony Kriening,205,M60-64,Male,FLOREAT,WA,Australia,AU,0:34:35,2:36:59,1:56:02,,,5:15:09,2075,9419,6962,225,228,18909,174,159,3,135,117,2,157,150,2,174,159,3,Finisher,3140
+Andrea,Manetti,Andrea Manetti,779,M50-54,Male,Dubai,DXB,Italy,IT,0:38:08,2:37:09,1:53:19,,,5:15:17,2288,9429,6799,244,157,18917,175,160,14,271,226,23,189,176,19,175,160,14,Finisher,2685
+Mark,Taylor,Mark Taylor,737,M45-49,Male,East Moseley,Surrey,United Kingdom,GB,0:37:16,2:28:56,2:01:28,,,5:15:20,2236,8936,7288,265,195,18920,176,161,32,239,201,42,114,110,21,176,161,32,Finisher,2635
+Nikolay,Sapunov,Nikolay Sapunov,532,M35-39,Male,St.Petersburg,,Russia,RU,0:42:12,2:37:24,1:46:43,,,5:15:41,2532,9444,6403,268,294,18941,177,162,34,414,342,65,229,211,39,177,162,34,Finisher,2441
+Ahmad,Hammoud,Ahmad Hammoud,409,M30-34,Male,,DXB,Lebanon,LB,0:38:03,2:38:35,1:53:19,,,5:15:46,2283,9515,6799,167,182,18946,178,163,22,268,223,28,190,177,24,178,163,22,Finisher,2080
+Dan,Kings,Dan Kings,703,M45-49,Male,Swansea,,United Kingdom,GB,0:34:44,2:37:49,1:56:12,,,5:15:50,2084,9469,6972,200,225,18950,179,164,33,144,125,25,161,153,29,179,164,33,Finisher,2626
+Barry,Woods,Barry Woods,173,M40-44,Male,Bury St Edmunds,Suffolk,United Kingdom,GB,0:43:41,2:43:43,1:42:13,,,5:15:52,2621,9823,6133,190,185,18952,180,165,32,461,378,80,278,255,52,180,165,32,Finisher,2593
+Rachel,Farrell,Rachel Farrell,216,F25-29,Female,Claregalway,Galway,Ireland,IE,0:32:50,2:47:04,1:50:59,,,5:16:06,1970,10024,6659,171,142,18966,181,16,2,86,10,1,210,15,2,181,16,2,Finisher,3280
+Andreas,Zimmerschied,Andreas Zimmerschied,655,M40-44,Male,Friedewald,,Germany,DE,0:44:36,2:37:57,1:46:13,,,5:16:26,2676,9477,6373,189,271,18986,182,166,33,483,395,84,246,227,44,182,166,33,Finisher,2582
+Andreas,Goldau,Andreas Goldau,767,M50-54,Male,Doha,Doha,Germany,DE,0:37:15,2:39:19,1:50:53,,,5:16:30,2235,9559,6653,362,181,18990,183,167,15,237,199,20,208,194,22,183,167,15,Finisher,2663
+Birgit,Schulz,Birgit Schulz,308,F50-54,Female,Neumarkt,,Oman,OM,0:39:56,2:51:23,1:38:11,,,5:16:47,2396,10283,5891,262,175,19007,184,17,2,341,57,4,328,37,3,184,17,2,Finisher,2827
+Mohamed,Elansary,Mohamed Elansary,64,M30-34,Male,Cairo,Maadi,Egypt,EG,0:33:22,2:36:11,2:00:24,,,5:17:39,2002,9371,7224,159,303,19059,185,168,23,109,94,17,130,126,19,185,168,23,Finisher,2046
+Gabriella,Picco,Gabriella Picco,7,F55-59,Female,Camorino,,Switzerland,CH,0:36:04,2:43:39,1:51:11,,,5:17:56,2164,9819,6671,202,220,19076,186,18,1,192,27,2,215,16,1,186,18,1,Finisher,3500
+Jac,Downham,Jac Downham,329,M18-24,Male,dubai,DXB,United Kingdom,GB,0:36:35,2:37:20,1:57:54,,,5:17:57,2195,9440,7074,192,176,19077,187,169,6,214,180,6,174,163,6,187,169,6,Finisher,2485
+Jean,Van Zyl,Jean Van Zyl,438,M30-34,Male,,DXB,South Africa,ZA,0:36:24,2:28:31,2:05:41,,,5:18:02,2184,8911,7541,259,187,19082,188,170,24,206,173,21,102,98,16,188,170,24,Finisher,2039
+Daniel,Horan,Daniel Horan,696,M45-49,Male,MAKATi,Metro Manila,Australia,AU,0:34:53,2:42:33,1:54:48,,,5:18:29,2093,9753,6888,201,174,19109,189,171,34,148,129,27,196,183,36,189,171,34,Finisher,2579
+Asta,Reynisdottir Parker,Asta Reynisdottir Parker,299,F45-49,Female,North Kessock,,Iceland,IS,0:38:58,2:48:35,1:44:22,,,5:18:56,2338,10115,6262,254,167,19136,190,19,2,296,49,4,289,24,2,190,19,2,Finisher,3382
+Andrea,Stadler,Andrea Stadler,48,F40-44,Female,Doha,foreigner,Ecuador,EC,0:37:13,2:48:55,1:45:24,,,5:19:20,2233,10135,6324,219,249,19160,191,20,4,236,38,9,272,23,6,191,20,4,Finisher,3310
+Aaron,Sykes,Aaron Sykes,162,M35-39,Male,Dubai,Dubai,United Kingdom,GB,0:43:06,2:40:56,1:49:17,,,5:19:31,2586,9656,6557,224,148,19171,192,172,35,440,362,70,259,239,50,192,172,35,Finisher,2372
+Majid,Alsharji,Majid Alsharji,453,M35-39,Male,muscat,alghoubrah,Oman,OM,0:48:18,2:32:22,1:52:03,,,5:19:39,2898,9142,6723,229,187,19179,193,173,36,554,449,96,233,214,41,193,173,36,Finisher,2369
+Pankkaj,Dhiman,Pankkaj Dhiman,150,M35-39,Male,Delhi,,India,IN,0:43:32,2:45:55,1:41:58,,,5:19:50,2612,9955,6118,297,208,19190,194,174,37,454,372,73,320,285,58,194,174,37,Finisher,2366
+Thomas,Demann,Thomas Demann,805,M55-59,Male,Bad Windsheim,,Germany,DE,0:41:20,2:39:33,1:52:45,,,5:20:15,2480,9573,6765,185,212,19215,195,175,8,384,318,14,226,208,11,195,175,8,Finisher,2835
+Franscois,Coetzee,Franscois Coetzee,579,M40-44,Male,Paarl,Western Cape,South Africa,ZA,0:39:30,2:45:15,1:47:45,,,5:20:34,2370,9915,6465,262,222,19234,196,176,34,319,266,56,270,248,48,196,176,34,Finisher,2508
+Meredith,Byrne,Meredith Byrne,214,F25-29,Female,Amman,Jabal Amman,United States,US,0:40:33,2:51:17,1:39:03,,,5:20:38,2433,10277,5943,252,333,19238,197,21,3,359,63,9,329,38,4,197,21,3,Finisher,3198
+Nathaniel,Hartwig,Nathaniel Hartwig,98,M45-49,Male,Houston,TX,United States,US,0:37:37,2:42:09,1:55:02,,,5:21:05,2257,9729,6902,183,194,19265,198,177,35,256,212,45,212,197,40,198,177,35,Finisher,2532
+Tomas,Ibanez,Tomas Ibanez,30,M45-49,Male,Munich,,Spain,ES,0:39:28,2:50:08,1:43:59,,,5:21:53,2368,10208,6239,275,223,19313,199,178,36,315,263,55,318,283,53,199,178,36,Finisher,2517
+Hasan,Itani,Hasan Itani,99,M45-49,Male,Porirua,WGN,Lebanon,LB,0:33:42,2:32:57,2:08:48,,,5:21:59,2022,9177,7728,208,184,19319,200,179,37,114,99,19,110,106,20,200,179,37,Finisher,2516
+Filippo,Richeri,Filippo Richeri,526,M35-39,Male,Milano,,Italy,IT,0:37:16,2:35:57,2:00:07,,,5:22:01,2236,9357,7207,340,181,19321,201,180,38,239,201,39,184,172,34,201,180,38,Finisher,2327
+Matthew,Mcewan,Matthew Mcewan,618,M40-44,Male,Aberdeen,Aberdeenshire,United Kingdom,GB,0:39:37,2:36:23,1:56:54,,,5:22:10,2377,9383,7014,326,230,19330,202,181,35,324,270,57,200,186,36,202,181,35,Finisher,2479
+Roger,Fleming,Roger Fleming,89,M40-44,Male,Dubai,DXB,United Kingdom,GB,0:42:56,2:47:12,1:45:35,,,5:22:31,2576,10032,6335,208,200,19351,203,182,36,435,358,72,310,278,56,203,182,36,Finisher,2473
+Trent,Harding,Trent Harding,411,M30-34,Male,Gold coast,QLD,Australia,AU,0:29:45,2:51:54,1:52:54,,,5:22:38,1785,10314,6774,207,278,19358,204,183,25,19,18,8,239,220,31,204,183,25,Finisher,1957
+Luis,De La Maza,Luis De La Maza,590,M40-44,Male,Málaga,Andalucía,Spain,ES,0:32:59,2:44:29,1:57:41,,,5:22:46,1979,9869,7061,238,219,19366,205,184,37,92,80,20,200,186,36,205,184,37,Finisher,2468
+Alan,Rose,Alan Rose,200,M50-54,Male,Weymouth,Dorset,United Kingdom,GB,0:31:03,2:38:32,2:04:14,,,5:23:03,1863,9512,7454,265,289,19383,206,185,16,48,45,4,146,139,15,206,185,16,Finisher,2545
+John,Molloy,John Molloy,782,M50-54,Male,folkestone,kent,United Kingdom,GB,0:39:11,2:49:03,1:45:31,,,5:23:04,2351,10143,6331,291,268,19384,207,186,17,306,256,29,301,271,31,207,186,17,Finisher,2545
+Peter,Laing,Peter Laing,501,M35-39,Male,Muscat,Muscat,South Africa,ZA,0:35:39,2:48:29,1:52:37,,,5:23:19,2139,10109,6757,217,177,19399,208,187,39,175,152,28,258,238,49,208,187,39,Finisher,2303
+Mishal,Said,Mishal Said,636,M40-44,Male,Muscat,Muscat,Oman,OM,0:37:36,2:38:33,2:00:34,,,5:23:33,2256,9513,7234,205,205,19413,209,188,38,255,211,48,191,178,34,209,188,38,Finisher,2454
+Sioned,Taylor,Sioned Taylor,303,F45-49,Female,Dubai,DXB,United Kingdom,GB,0:39:46,2:49:05,1:47:17,,,5:23:34,2386,10145,6437,209,237,19414,210,22,3,331,55,7,295,28,3,210,22,3,Finisher,3299
+Francesco,Capalbo,Francesco Capalbo,342,M25-29,Male,Magione,,Italy,IT,0:42:03,2:38:44,1:57:10,,,5:23:45,2523,9524,7030,195,153,19425,211,189,16,409,338,23,227,209,16,211,189,16,Finisher,2634
+Alex,Luraschi,Alex Luraschi,158,M35-39,Male,Locarno,TICINO,Switzerland,CH,0:35:37,2:43:06,1:57:03,,,5:23:46,2137,9786,7023,262,218,19426,212,190,40,174,151,27,215,200,37,212,190,40,Finisher,2295
+Maksim,Troilov,Maksim Troilov,357,M25-29,Male,Tyumen,"
+Tyumenskaya oblast'",Russia,RU,0:39:09,2:43:48,1:47:23,,,5:24:20,2349,9828,6443,618,222,19460,213,191,17,304,255,19,304,273,19,213,191,17,Finisher,2624
+Haitham,Al Farai,Haitham Al Farai,553,M40-44,Male,Muscat,Seeb Al khoud,Oman,OM,0:43:12,2:23:37,2:10:40,,,5:25:13,2592,8617,7840,222,242,19513,214,192,39,446,366,74,113,109,27,214,192,39,Finisher,2424
+Maan,Almarghalani,Maan Almarghalani,144,M30-34,Male,Riyadh,AR RIYA?,Saudi Arabia,SA,0:37:03,2:43:52,1:58:59,,,5:25:21,2223,9832,7139,166,161,19521,215,193,26,231,194,25,223,206,28,215,193,26,Finisher,1908
+Dmitry,Zakomyrdin,Dmitry Zakomyrdin,174,M40-44,Male,MOSCOW,Central Federal District,Russia,RU,0:36:22,2:46:45,1:56:24,,,5:25:23,2182,10005,6984,171,181,19523,216,194,40,203,172,39,248,228,45,216,194,40,Finisher,2421
+Luigi,Badolato,Luigi Badolato,666,M45-49,Male,Abu Dhabi,AUH,United Arab Emirates,AE,0:39:50,2:38:16,1:54:22,,,5:25:31,2390,9496,6862,356,427,19531,217,195,38,334,279,59,227,209,42,217,195,38,Finisher,2452
+Lauren,Kilian,Lauren Kilian,231,F30-34,Female,Muscat,Qurum,United Kingdom,GB,0:32:22,2:52:47,1:54:34,,,5:25:32,1942,10367,6874,205,144,19532,218,23,3,76,8,2,265,22,3,218,23,3,Finisher,2714
+Scott,Melgaard,Scott Melgaard,840,M40-44,Male,Sharjah,SHJ,Australia,AU,0:30:19,2:39:18,2:07:39,,,5:25:35,1819,9558,7659,262,237,19535,219,196,41,37,35,5,145,138,30,219,196,41,Finisher,2418
+Margaret,Wang,Margaret Wang,223,F25-29,Female,Brighton,MA,Canada,CA,0:39:13,2:49:32,1:49:30,,,5:25:40,2353,10172,6570,265,180,19540,220,24,4,307,51,7,302,31,3,220,24,4,Finisher,3107
+James,Hindle,James Hindle,811,M55-59,Male,Padiham,,United Kingdom,GB,0:41:54,2:35:15,1:56:53,,,5:25:46,2514,9315,7013,355,349,19546,221,197,9,400,330,17,214,199,9,221,197,9,Finisher,2735
+Andrea,Rubio,Andrea Rubio,94,M40-44,Male,Erlenbach,,Italy,IT,0:39:05,2:42:10,1:57:21,,,5:25:51,2345,9730,7041,247,188,19551,222,198,42,300,251,54,241,222,43,222,198,42,Finisher,2413
+Denis,Ostroukhov,Denis Ostroukhov,519,M35-39,Male,Moscow,,Russia,RU,0:37:42,2:33:57,2:05:32,,,5:25:54,2262,9237,7532,272,251,19554,223,199,41,259,215,40,164,154,28,223,199,41,Finisher,2257
+Rob,Putter,Rob Putter,186,M45-49,Male,Mission Viejo,CALIFORNIA,Australia,AU,0:33:00,2:42:44,2:01:58,,,5:25:57,1980,9764,7318,205,290,19557,224,200,39,93,81,14,186,173,35,224,200,39,Finisher,2444
+Timothy,Hawes,Timothy Hawes,155,M35-39,Male,,DXB,United Kingdom,GB,0:35:46,2:39:52,2:05:29,,,5:26:41,2146,9592,7529,190,144,19601,225,201,42,180,157,32,183,171,33,225,201,42,Finisher,2243
+Simon,Halford,Simon Halford,197,M50-54,Male,Doha,Qatar,United Kingdom,GB,0:37:23,2:33:10,2:09:09,,,5:26:45,2243,9190,7749,251,172,19605,226,202,18,246,205,21,152,145,17,226,202,18,Finisher,2478
+Grant,Bradley,Grant Bradley,671,M45-49,Male,Doha,Doha,New Zealand,NZ,0:36:34,2:41:57,1:59:08,,,5:26:46,2194,9717,7148,226,321,19606,227,203,40,213,179,37,205,191,39,227,203,40,Finisher,2429
+Adam,Millward,Adam Millward,424,M30-34,Male,Dubai,Erbil,United Kingdom,GB,0:39:59,2:43:36,1:56:41,,,5:26:47,2399,9816,7001,189,202,19607,228,204,27,344,287,41,252,232,33,228,204,27,Finisher,1882
+Ross,Nutter,Ross Nutter,514,M35-39,Male,Clifton hampden,Oxfordshire,United Kingdom,GB,0:43:39,2:40:23,1:56:23,,,5:27:11,2619,9623,6983,220,186,19631,229,205,43,458,375,74,257,237,48,229,205,43,Finisher,2234
+Alexander,Pach,Alexander Pach,171,M40-44,Male,Köln,,Germany,DE,0:31:48,2:40:15,2:09:24,,,5:27:35,1908,9615,7764,171,197,19655,230,206,43,63,58,14,154,147,33,230,206,43,Finisher,2382
+Jerry,Kenbeek,Jerry Kenbeek,180,M45-49,Male,Voorburg,,Netherlands,NL,0:42:02,2:37:25,1:55:51,,,5:27:51,2522,9445,6951,506,247,19671,231,207,41,407,336,70,261,241,46,231,207,41,Finisher,2410
+Uros,Mazej,Uros Mazej,100,M45-49,Male,Dubai,DXB,Slovenia,SI,0:32:52,2:40:56,2:07:00,,,5:28:21,1972,9656,7620,272,181,19701,232,208,42,87,77,13,179,167,34,232,208,42,Finisher,2401
+Clare,Mccabe,Clare Mccabe,297,F45-49,Female,Abu Dhabi,AUH,United Kingdom,GB,0:37:34,2:52:34,1:50:27,,,5:28:23,2254,10354,6627,226,242,19703,233,25,4,252,44,3,315,34,5,233,25,4,Finisher,3212
+Lynette,Itani,Lynette Itani,8,F55-59,Female,Taupo,WKO,New Zealand,NZ,0:34:58,2:45:25,2:01:48,,,5:28:26,2098,9925,7308,190,185,19706,234,26,2,149,20,1,220,17,2,234,26,2,Finisher,3311
+Omar,Chahine,Omar Chahine,141,M25-29,Male,Cairo,New Cairo,Egypt,EG,0:35:32,2:53:35,1:51:24,,,5:28:29,2132,10415,6684,262,216,19709,235,209,18,173,150,10,307,275,20,235,209,18,Finisher,2549
+Adham,Eiraky,Adham Eiraky,839,M40-44,Male,Cairo,Egypt,Egypt,EG,0:37:25,2:48:27,1:55:23,,,5:28:31,2245,10107,6923,219,217,19711,236,210,44,248,206,45,271,249,49,236,210,44,Finisher,2365
+Arun,Malik,Arun Malik,183,M45-49,Male,New Delhi,Delhi,India,IN,0:37:35,2:47:03,1:54:44,,,5:28:32,2255,10023,6884,357,193,19712,237,211,43,253,209,43,279,256,48,237,211,43,Finisher,2398
+Alastair,Stuart,Alastair Stuart,735,M45-49,Male,Aberdeenshire,Scotland,United Kingdom,GB,0:40:25,2:34:16,2:08:21,,,5:28:48,2425,9256,7701,166,180,19728,238,212,44,354,294,62,175,164,32,238,212,44,Finisher,2393
+Neel,Deshmukh,Neel Deshmukh,328,M18-24,Male,Syracuse,NY,India,IN,0:30:08,2:44:19,2:06:29,,,5:28:50,1808,9859,7589,253,221,19730,239,213,7,27,25,2,181,169,7,239,213,7,Finisher,2289
+Barbara,Larcher,Barbara Larcher,133,F40-44,Female,wien,,Austria,AT,0:40:28,2:47:46,1:54:35,,,5:28:53,2428,10066,6875,217,147,19733,240,27,5,357,62,15,290,25,7,240,27,5,Finisher,3138
+Ali,Janahi,Ali Janahi,413,M30-34,Male,Riffa,Riffa,Bahrain,BH,0:38:56,2:40:25,2:02:42,,,5:29:20,2336,9625,7362,232,205,19760,241,214,28,295,247,31,217,201,27,241,214,28,Finisher,1836
+Hilda Karoodaisy,Allin,Hilda Karoodaisy Allin,267,F40-44,Female,,,South Africa,ZA,0:37:27,2:43:03,2:02:13,,,5:29:22,2247,9783,7333,200,199,19762,242,28,6,250,43,12,225,18,3,242,28,6,Finisher,3129
+Michel,Benkovics,Michel Benkovics,749,M50-54,Male,Tenero Contra,,Switzerland,CH,0:41:24,2:36:22,2:02:09,,,5:29:23,2484,9382,7329,296,272,19763,243,215,19,386,320,36,209,195,23,243,215,19,Finisher,2431
+Scott,Brown,Scott Brown,391,M30-34,Male,Remraam,DXB,United Kingdom,GB,0:38:44,2:50:44,1:52:08,,,5:29:52,2324,10244,6728,258,238,19792,244,216,29,288,241,30,312,280,41,244,216,29,Finisher,1826
+Stuart,Pyne,Stuart Pyne,429,M30-34,Male,Sharjah,SHJ,United Kingdom,GB,0:39:02,2:47:00,1:56:18,,,5:30:15,2342,10020,6978,267,208,19815,245,217,30,298,249,32,276,253,35,245,217,30,Finisher,1820
+Catherine,Roch,Catherine Roch,6,F50-54,Female,Blaschette,,Luxembourg,LU,0:36:23,2:37:15,2:09:58,,,5:30:22,2183,9435,7798,194,212,19822,246,29,3,204,32,3,172,11,2,246,29,3,Finisher,2582
+Christophe,Leuranguer,Christophe Leuranguer,777,M50-54,Male,Plerin,,France,FR,0:33:16,2:34:41,2:14:03,,,5:30:29,1996,9281,8043,244,265,19829,247,218,20,104,91,9,129,125,13,247,218,20,Finisher,2411
+Simon,Roue,Simon Roue,93,M40-44,Male,Stafford,Staffordshire,United Kingdom,GB,0:39:57,2:35:16,2:02:42,,,5:30:55,2397,9316,7362,442,338,19855,248,219,45,343,286,61,207,193,38,248,219,45,Finisher,2322
+Jessica,Pigott,Jessica Pigott,260,F35-39,Female,DPO,AE,United States,US,0:40:59,2:55:19,1:48:40,,,5:30:57,2459,10519,6520,170,189,19857,249,30,7,374,66,16,363,48,11,249,30,7,Finisher,2376
+Mohammad,Alfailakawi,Mohammad Alfailakawi,369,M30-34,Male,Kuwait,,Kuwait,KW,0:40:30,2:46:49,1:57:37,,,5:31:22,2430,10009,7057,212,174,19882,250,220,31,358,296,43,282,259,36,250,220,31,Finisher,1799
+Joeniel,Astillero,Joeniel Astillero,458,M35-39,Male,Al ain,DXB,Philippines,PH,0:39:05,2:44:14,1:59:08,,,5:31:31,2345,9854,7148,308,236,19891,251,221,44,300,251,46,263,242,51,251,221,44,Finisher,2156
+Jaap,De Groot,Jaap De Groot,194,M50-54,Male,Rotterdam,,Netherlands,NL,0:38:58,2:42:56,1:59:41,,,5:31:50,2338,9776,7181,298,317,19910,252,222,21,296,248,28,253,233,27,252,222,21,Finisher,2387
+Walter,Caputo,Walter Caputo,192,M50-54,Male,Olgiate Comasco,,Italy,IT,0:38:38,2:45:17,1:57:35,,,5:31:50,2318,9917,7055,378,242,19910,252,222,21,286,239,27,274,251,28,252,222,21,Finisher,2387
+Rabay,Aladawi,Rabay Aladawi,841,M35-39,Male,Doha,,Qatar,QA,0:44:32,2:44:50,1:56:54,,,5:32:00,2672,9890,7014,175,169,19920,254,224,45,482,394,82,294,267,55,254,224,45,Finisher,2147
+Craig,Lamshed,Craig Lamshed,707,M45-49,Male,Sports City,DXB,Australia,AU,0:39:31,2:42:33,2:00:47,,,5:32:11,2371,9753,7247,302,258,19931,255,225,45,321,267,56,254,234,44,255,225,45,Finisher,2332
+Sophie,Cookson,Sophie Cookson,228,F30-34,Female,London,,United Kingdom,GB,0:41:44,2:53:57,1:50:47,,,5:32:34,2504,10437,6647,216,150,19954,256,31,4,398,70,7,364,49,6,256,31,4,Finisher,2588
+Joseph,Broughton,Joseph Broughton,390,M30-34,Male,DohaQatar,Doha,Qatar,QA,0:45:50,2:42:03,1:57:41,,,5:32:49,2750,9723,7061,217,218,19969,257,226,32,511,418,59,288,265,38,257,226,32,Finisher,1773
+Sven,Voelcker,Sven Voelcker,115,M50-54,Male,Brüssel,,Germany,DE,0:43:11,2:33:34,2:07:38,,,5:33:03,2591,9214,7658,265,255,19983,258,227,23,444,365,42,197,184,20,258,227,23,Finisher,2365
+Christophe,Kieffer,Christophe Kieffer,814,M55-59,Male,Neuilly sur seine,,France,FR,0:42:23,2:36:40,2:04:05,,,5:33:05,2543,9400,7445,271,326,19985,259,228,10,423,350,19,221,204,10,259,228,10,Finisher,2604
+Tim,Dean,Tim Dean,759,M50-54,Male,Dubai,DXB,Australia,AU,0:37:49,2:40:50,2:05:51,,,5:33:06,2269,9650,7551,306,210,19986,260,229,24,261,217,22,224,207,25,260,229,24,Finisher,2364
+Darwin,Bonagua,Darwin Bonagua,462,M35-39,Male,Doha,Qatar,Philippines,PH,0:39:47,2:49:01,1:56:28,,,5:33:12,2387,10141,6988,320,156,19992,261,230,46,332,277,50,316,282,56,261,230,46,Finisher,2126
+Mike,Bermingham,Mike Bermingham,117,M55-59,Male,Mont-Tremblant,QC,Canada,CA,0:39:22,2:47:05,1:59:23,,,5:33:16,2362,10025,7163,228,218,19996,262,231,11,313,261,11,275,252,12,262,231,11,Finisher,2600
+James,Mccubbin,James Mccubbin,349,M25-29,Male,Devizes,,United Kingdom,GB,0:39:29,2:41:48,2:04:05,,,5:33:18,2369,9708,7445,213,263,19998,263,232,19,317,264,20,234,215,17,263,232,19,Finisher,2462
+Robert,Ball,Robert Ball,106,M50-54,Male,Abu Dhabi,ABU Z¸ABY,Australia,AU,0:34:39,2:40:45,2:09:13,,,5:33:34,2079,9645,7753,232,305,20014,264,233,25,141,122,12,188,175,18,264,233,25,Finisher,2356
+Mikhail,Nenyukov,Mikhail Nenyukov,625,M40-44,Male,Moscow,,Russia,RU,0:43:32,2:42:35,2:00:00,,,5:34:16,2612,9755,7200,262,227,20056,265,234,46,454,372,77,276,253,51,265,234,46,Finisher,2261
+Tom,Crampin,Tom Crampin,584,M40-44,Male,Muscat,PO Box 81,United Kingdom,GB,0:43:13,2:51:26,1:52:46,,,5:35:05,2593,10286,6766,214,246,20105,266,235,47,447,367,75,353,308,60,266,235,47,Finisher,2247
+Wisam,Alouch,Wisam Alouch,559,M40-44,Male,Damascus,,Syria,SY,0:35:27,2:44:24,2:05:30,,,5:35:07,2127,9864,7530,305,281,20107,267,236,48,171,148,31,236,217,41,267,236,48,Finisher,2246
+Alexander,Snell,Alexander Snell,435,M30-34,Male,Minley,Surrey,United Kingdom,GB,0:36:35,2:44:31,2:06:57,,,5:35:15,2195,9871,7617,224,208,20115,268,237,33,214,180,22,234,215,29,268,237,33,Finisher,1730
+Corin,Margetson,Corin Margetson,199,M50-54,Male,Stroud,Gloucestershire,United Kingdom,GB,0:35:30,2:33:24,2:13:13,,,5:35:24,2130,9204,7993,179,618,20124,269,238,26,172,149,15,127,123,12,269,238,26,Finisher,2323
+Gareth,Bridge,Gareth Bridge,573,M40-44,Male,Teddington,,New Zealand,NZ,0:37:07,2:48:31,2:02:36,,,5:35:25,2227,10111,7356,261,170,20125,270,239,49,233,196,43,273,250,50,270,239,49,Finisher,2241
+Rod,Bartlett,Rod Bartlett,107,M50-54,Male,EPPING,ESSEX,United Kingdom,GB,0:35:51,2:41:50,2:11:26,,,5:36:05,2151,9710,7886,236,182,20165,271,240,27,185,161,16,202,188,21,271,240,27,Finisher,2310
+Martin,Kaswurm,Martin Kaswurm,414,M30-34,Male,Sankt Johann im Pongau,,Austria,AT,0:40:19,2:30:18,2:19:33,,,5:37:11,2419,9018,8373,240,181,20231,272,241,34,353,293,42,150,143,21,272,241,34,Finisher,1695
+Nezar,Al-Tuwaijri,Nezar Al-Tuwaijri,341,M25-29,Male,,,Saudi Arabia,SA,0:36:58,3:00:56,1:51:41,,,5:37:16,2218,10856,6701,206,255,20236,273,242,20,227,191,12,387,335,23,273,242,20,Finisher,2391
+Mia (Anna),Andersson,Mia (Anna) Andersson,4,F40-44,Female,Dubai,DXB,Sweden,SE,0:41:40,2:56:18,1:50:42,,,5:37:34,2500,10578,6642,271,263,20254,274,32,7,397,69,16,396,54,13,274,32,7,Finisher,2981
+Shchepachkov,Aleksandr,Shchepachkov Aleksandr,535,M35-39,Male,Krasnogorsk Moscow region,,Russia,RU,0:39:15,2:41:20,2:09:19,,,5:37:35,2355,9680,7759,268,193,20255,275,243,47,308,257,47,238,219,42,275,243,47,Finisher,2047
+Lauren,Symmonds,Lauren Symmonds,222,F25-29,Female,Durban,,South Africa,ZA,0:35:47,2:57:07,1:58:05,,,5:37:40,2147,10627,7085,201,200,20260,276,33,5,181,24,3,331,39,5,276,33,5,Finisher,2891
+Ferro,Schat,Ferro Schat,791,M50-54,Male,Voorschoten,Zuid-Holland,Netherlands,NL,0:38:32,2:50:05,1:59:53,,,5:37:41,2312,10205,7193,296,255,20261,277,244,28,282,235,25,308,276,32,277,244,28,Finisher,2282
+Rashed,Alnaber,Rashed Alnaber,379,M30-34,Male,Amman,Amman,Jordan,JO,0:45:48,2:38:58,2:05:16,,,5:37:46,2748,9538,7516,260,204,20266,278,245,35,509,416,57,269,247,34,278,245,35,Finisher,1684
+Mark,Todman,Mark Todman,647,M40-44,Male,Oakenshaw,County Durham,United Kingdom,GB,0:37:08,2:43:12,2:09:01,,,5:37:58,2228,9792,7741,296,221,20278,279,246,50,234,197,44,240,221,42,279,246,50,Finisher,2195
+EDUARDO,GUERRERO-STRACHAN,EDUARDO GUERRERO-STRACHAN,837,M30-34,Male,Malaga,Andalusia,Spain,ES,0:44:44,2:45:46,2:01:28,,,5:38:02,2684,9946,7288,188,176,20282,280,247,36,486,398,53,311,279,40,280,247,36,Finisher,1679
+May,Alhaji,May Alhaji,245,F35-39,Female,Jeblat Hibshi,Saint George,Bahrain,BH,0:40:39,2:47:15,2:00:19,,,5:38:03,2439,10035,7219,374,216,20283,281,34,8,363,64,15,316,35,8,281,34,8,Finisher,2249
+Mostafa Hamed,Badr,Mostafa Hamed Badr,459,M35-39,Male,Cairo,Giza,Egypt,EG,0:36:18,2:43:17,2:11:46,,,5:38:32,2178,9797,7906,233,198,20312,282,248,48,200,170,36,219,203,38,282,248,48,Finisher,2030
+Abdulrahman,Almarri,Abdulrahman Almarri,377,M30-34,Male,dubai,DXB,United Arab Emirates,AE,0:42:14,2:44:23,2:05:13,,,5:38:40,2534,9863,7513,266,144,20320,283,249,37,416,344,49,285,262,37,283,249,37,Finisher,1668
+Vlad,Metaxa,Vlad Metaxa,509,M35-39,Male,Brasov,Romania,Romania,RO,0:39:41,2:34:52,2:15:20,,,5:38:40,2381,9292,8120,236,291,20320,283,249,49,328,274,49,180,168,31,283,249,49,Finisher,2027
+Hamad,Al Omran,Hamad Al Omran,364,M30-34,Male,Dubai,DXB,United Arab Emirates,AE,0:43:20,2:53:33,1:54:54,,,5:38:40,2600,10413,6894,205,208,20320,283,249,37,451,370,51,372,323,46,283,249,37,Finisher,1668
+Adrian,Jumbo Cuenca,Adrian Jumbo Cuenca,142,M25-29,Male,CALAHORRA,,Spain,ES,0:44:48,3:01:57,1:40:58,,,5:39:09,2688,10917,6058,321,365,20349,286,252,21,491,403,25,459,394,26,286,252,21,Finisher,2357
+Nicholas,Sumner,Nicholas Sumner,540,M35-39,Male,Farnborough,Hampshire ,United Kingdom,GB,0:50:36,2:47:01,1:49:35,,,5:39:15,3036,10021,6575,302,421,20355,287,253,50,584,473,104,398,344,70,287,253,50,Finisher,2017
+Alyx,Ulbrich,Alyx Ulbrich,239,F30-34,Female,FPO,AP,United States,US,0:42:39,2:44:54,2:01:26,,,5:39:17,2559,9894,7286,261,357,20357,288,35,5,427,75,9,292,26,4,288,35,5,Finisher,2467
+Annie,Parker,Annie Parker,51,F45-49,Female,Towcester,Northants,United Kingdom,GB,0:35:15,2:54:15,2:03:42,,,5:39:38,2115,10455,7422,207,179,20378,289,36,5,164,22,2,299,29,4,289,36,5,Finisher,3009
+Jacques,Lombard,Jacques Lombard,157,M35-39,Male,Worcester,Western Cape,South Africa,ZA,0:41:32,2:40:07,2:09:35,,,5:40:02,2492,9607,7775,295,233,20402,290,254,51,395,327,59,250,230,46,290,254,51,Finisher,2003
+Franco,Bosoni,Franco Bosoni,844,M35-39,Male,Dubai,DXB,United Arab Emirates,AE,0:33:06,2:47:23,2:12:01,,,5:40:04,1986,10043,7921,230,224,20404,291,255,52,96,83,16,232,213,40,291,255,52,Finisher,2002
+Stefanie,Trombetta,Stefanie Trombetta,45,F35-39,Female,Dubai,Dubai,Germany,DE,0:29:59,2:57:12,1:52:18,,,5:40:46,1799,10632,6738,1044,233,20446,292,37,9,23,2,1,410,56,14,292,37,9,Finisher,2200
+Roscoe,Friend,Roscoe Friend,479,M35-39,Male,Dubai,DXB,South Africa,ZA,0:34:42,2:48:07,2:09:22,,,5:40:52,2082,10087,7762,286,235,20452,293,256,53,142,123,23,256,236,47,293,256,53,Finisher,1988
+Mohamed,Alrowaili,Mohamed Alrowaili,451,M35-39,Male,Bahrain,Northern,Bahrain,BH,0:41:54,2:50:03,2:01:07,,,5:40:57,2514,10203,7267,289,184,20457,294,257,54,400,330,60,336,295,62,294,257,54,Finisher,1986
+Chris ,Denil,Chris Denil,681,M45-49,Male,Dubai,DXB,Belgium,BE,0:31:28,3:05:32,1:58:18,,,5:41:09,1888,11132,7098,205,146,20469,295,258,46,54,51,6,375,325,62,295,258,46,Finisher,2171
+Sebastien,Ferreira,Sebastien Ferreira,178,M45-49,Male,Abu Dhabi,ABU Z¸ABY,France,FR,0:37:35,2:50:59,2:04:49,,,5:41:16,2255,10259,7489,252,221,20476,296,259,47,253,209,43,298,270,51,296,259,47,Finisher,2168
+Collin,Allin,Collin Allin,557,M40-44,Male,Doha,Doha,South Africa,ZA,0:35:13,2:44:05,2:14:45,,,5:41:16,2113,9845,8085,209,224,20476,296,259,51,160,139,30,211,196,39,296,259,51,Finisher,2135
+Antonio,Restaneo,Antonio Restaneo,202,M55-59,Male,Castelfidardo,Marche,Italy,IT,0:29:30,2:44:05,2:20:23,,,5:41:19,1770,9845,8423,239,202,20479,298,261,12,17,16,1,176,165,7,298,261,12,Finisher,2456
+Jonathan,Blackburn,Jonathan Blackburn,460,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:38:15,2:47:08,2:08:25,,,5:41:23,2295,10028,7705,199,256,20483,299,262,55,275,230,42,266,244,52,299,262,55,Finisher,1978
+Andrew,Chapell,Andrew Chapell,756,M50-54,Male,Diptford,,United Kingdom,GB,0:40:08,2:42:04,2:11:13,,,5:41:34,2408,9724,7873,271,218,20494,300,263,29,347,289,30,251,231,26,300,263,29,Finisher,2212
+Tom,Devera,Tom Devera,470,M35-39,Male,London,,United Kingdom,GB,0:49:09,2:48:06,1:53:38,,,5:41:37,2949,10086,6818,366,278,20497,301,264,56,565,457,97,404,350,73,301,264,56,Finisher,1974
+Peter,Watson,Peter Watson,652,M40-44,Male,Muscat,Muscat,United Kingdom,GB,0:50:23,2:45:34,1:56:16,,,5:41:51,3023,9934,6976,184,394,20511,302,265,52,582,472,99,362,315,63,302,265,52,Finisher,2125
+Craig,Mcpheator,Craig Mcpheator,159,M35-39,Male,ABU DHABI,AUH,United Arab Emirates,AE,0:34:35,2:45:44,2:14:11,,,5:42:21,2075,9944,8051,318,153,20541,303,266,57,135,117,22,243,224,44,303,266,57,Finisher,1961
+Maha,Yacout,Maha Yacout,37,F25-29,Female,Cairo,foreigner,Egypt,EG,0:36:05,2:56:14,2:03:07,,,5:42:39,2165,10574,7387,308,125,20559,304,38,6,193,28,4,344,44,6,304,38,6,Finisher,2802
+Zeid,Massad,Zeid Massad,506,M35-39,Male,Dubai,DXB,Jordan,JO,0:41:15,2:53:13,1:59:55,,,5:42:46,2475,10393,7195,251,252,20566,305,267,58,382,316,58,359,312,64,305,267,58,Finisher,1953
+Korbinian,Kunz,Korbinian Kunz,705,M45-49,Male,München,,Germany,DE,0:49:30,2:47:03,1:54:01,,,5:43:00,2970,10023,6841,337,409,20580,306,268,48,570,461,86,395,342,66,306,268,48,Finisher,2137
+Peter,SPAANS,Peter SPAANS,792,M50-54,Male,UITGEEST,,Netherlands,NL,0:42:16,2:48:14,1:57:21,,,5:43:02,2536,10094,7041,532,379,20582,307,269,30,418,346,41,366,317,36,307,269,30,Finisher,2185
+Fiona,Ord,Fiona Ord,282,F40-44,Female,Amersham,BUCKINGHAMSHIRE,United Kingdom,GB,0:37:50,2:46:39,2:11:32,,,5:43:27,2270,9999,7892,230,216,20607,308,39,8,263,45,13,262,21,5,308,39,8,Finisher,2876
+Jesper,Windeloev,Jesper Windeloev,654,M40-44,Male,Shatti Al Qurm,Muscat,Denmark,DK,0:43:40,2:49:50,2:02:17,,,5:43:50,2620,10190,7337,294,189,20630,309,270,53,459,376,79,356,310,62,309,270,53,Finisher,2089
+Khaled,Yousef,Khaled Yousef,440,M30-34,Male,MADRID,,Egypt,EG,0:43:03,2:53:57,1:58:57,,,5:43:56,2583,10437,7137,246,233,20636,310,271,39,439,361,50,386,334,48,310,271,39,Finisher,1573
+Gil,Olaer,Gil Olaer,516,M35-39,Male,Pagatpat,Misamis oriental,Philippines,PH,0:42:08,2:55:17,1:58:16,,,5:44:29,2528,10517,7096,272,256,20669,311,272,59,413,341,64,394,341,68,311,272,59,Finisher,1922
+Antonio,Failla,Antonio Failla,88,M40-44,Male,Dubai,DXB,Italy,IT,0:38:13,2:56:51,2:03:13,,,5:44:38,2293,10611,7393,198,183,20678,312,273,54,273,228,51,355,309,61,312,273,54,Finisher,2075
+Jappie,George,Jappie George,691,M45-49,Male,Port Elizabeth,Eastern Cape,South Africa,ZA,0:40:48,3:07:13,1:48:02,,,5:44:51,2448,11233,6482,214,314,20691,313,274,49,371,306,64,456,391,73,313,274,49,Finisher,2104
+Mark,Edwards,Mark Edwards,345,M25-29,Male,Ilchester,Somerset,United Kingdom,GB,0:39:50,3:02:39,1:54:38,,,5:44:52,2390,10959,6878,226,239,20692,314,275,22,334,279,21,425,365,24,314,275,22,Finisher,2254
+Marianne,Gates,Marianne Gates,130,F40-44,Female,Beijing,Beijing,South Africa,ZA,0:33:04,2:55:48,2:08:04,,,5:45:03,1984,10548,7684,247,240,20703,315,40,9,95,13,2,300,30,8,315,40,9,Finisher,2847
+Rachel,Shaw,Rachel Shaw,47,F40-44,Female,Abu Dhabi,AUH,United Kingdom,GB,0:37:23,2:57:43,2:04:21,,,5:45:16,2243,10663,7461,206,143,20716,316,41,10,246,42,11,357,47,12,316,41,10,Finisher,2843
+Jason,Twigg,Jason Twigg,742,M45-49,Male,Fleet,,United Kingdom,GB,0:36:07,2:48:27,2:12:44,,,5:45:17,2167,10107,7964,238,241,20717,317,276,50,195,167,35,264,243,47,317,276,50,Finisher,2096
+Nicolas,Majeau,Nicolas Majeau,616,M40-44,Male,,DXB,Canada,CA,0:39:38,2:43:40,2:14:30,,,5:45:19,2378,9820,8070,270,181,20719,318,277,55,325,271,58,260,240,46,318,277,55,Finisher,2063
+Nada,Prouty,Nada Prouty,52,F45-49,Female,Ann Arbor,MI,United States,US,0:46:06,2:53:49,1:57:33,,,5:45:38,2766,10429,7053,295,195,20738,319,42,6,518,95,17,414,57,9,319,42,6,Finisher,2901
+Walter,Bessis,Walter Bessis,669,M45-49,Male,Manama,,France,FR,0:46:06,2:58:27,1:52:39,,,5:45:45,2766,10707,6759,289,224,20745,320,278,51,518,424,78,440,377,70,320,278,51,Finisher,2088
+Krzysztof Kropeczka,Nigot,Krzysztof Kropeczka Nigot,720,M45-49,Male,Warsaw,,Poland,PL,0:41:02,2:55:09,2:03:30,,,5:45:50,2462,10509,7410,187,182,20750,321,279,52,375,309,65,365,316,61,321,279,52,Finisher,2086
+Gavin,Tait,Gavin Tait,544,M35-39,Male,Al Khobar,Eastern,South Africa,ZA,0:40:11,2:44:26,2:13:29,,,5:45:51,2411,9866,8009,253,212,20751,322,280,60,349,290,52,268,246,53,322,280,60,Finisher,1898
+Ron,Gatenby,Ron Gatenby,601,M40-44,Male,New Plymouth,TKI,New Zealand,NZ,0:46:21,2:46:03,2:05:09,,,5:45:53,2781,9963,7509,305,195,20753,323,281,56,525,429,91,345,301,58,323,281,56,Finisher,2052
+Luis,Flores Barillas,Luis Flores Barillas,599,M40-44,Male,Dutton Park,QLD,Australia,AU,0:36:59,2:46:51,2:13:12,,,5:46:02,2219,10011,7992,299,241,20762,324,282,57,228,192,42,267,245,47,324,282,57,Finisher,2050
+Yousif,Mubarak,Yousif Mubarak,718,M45-49,Male,Manama,Bu Quwah,Bahrain,BH,0:42:47,2:47:12,2:10:20,,,5:46:26,2567,10032,7820,195,172,20786,325,283,53,432,356,72,303,272,52,325,283,53,Finisher,2075
+Ahmed,Habib,Ahmed Habib,407,M30-34,Male,Muqaba,Northern,Bahrain,BH,0:42:06,2:53:38,2:02:02,,,5:46:28,2526,10418,7322,289,233,20788,326,284,40,411,339,48,377,327,47,326,284,40,Finisher,1528
+Marie-Claude,Moura,Marie-Claude Moura,257,F35-39,Female,LA MURE,,France,FR,0:36:31,2:55:00,2:07:06,,,5:47:03,2191,10500,7626,287,219,20823,327,43,10,210,34,10,332,40,9,327,43,10,Finisher,2087
+Edward,Macklin,Edward Macklin,614,M40-44,Male,Hughes,ACT,Australia,AU,0:36:21,2:56:48,2:03:38,,,5:47:08,2181,10608,7418,389,232,20828,328,285,58,202,171,38,368,319,64,328,285,58,Finisher,2030
+Mike,Hart,Mike Hart,810,M55-59,Male,Muscat,Muscat,United Kingdom,GB,0:45:06,2:47:35,2:05:46,,,5:47:13,2706,10055,7546,302,224,20833,329,286,13,494,405,24,348,304,14,329,286,13,Finisher,2349
+Borys,Darmas,Borys Darmas,679,M45-49,Male,Kielce,świętokrzyskie,Poland,PL,0:38:05,3:04:26,1:58:04,,,5:48:21,2285,11066,7084,249,217,20901,330,287,54,270,225,51,428,368,69,330,287,54,Finisher,2041
+Sean,Perry,Sean Perry,522,M35-39,Male,st.helens,,United Kingdom,GB,0:41:54,3:13:29,1:45:49,,,5:48:22,2514,11609,6349,222,208,20902,331,288,61,400,330,60,494,420,91,331,288,61,Finisher,1853
+Richard,Holmes,Richard Holmes,412,M30-34,Male,Brentwood,Essex,United Kingdom,GB,0:39:52,2:49:30,2:10:54,,,5:48:23,2392,10170,7854,266,221,20903,332,289,41,336,281,39,313,281,42,332,289,41,Finisher,1493
+Eissa,Alnashmi,Eissa Alnashmi,148,M35-39,Male,Kuwait City ,foreigner,Kuwait,KW,0:38:44,2:55:38,2:07:47,,,5:48:49,2324,10538,7667,180,220,20929,333,290,62,288,241,43,342,299,63,333,290,62,Finisher,1844
+Razvan,Radulescu,Razvan Radulescu,632,M40-44,Male,Brașov,Romania,Romania,RO,0:39:53,3:00:17,2:01:07,,,5:49:19,2393,10817,7267,218,264,20959,334,291,59,337,282,60,408,354,72,334,291,59,Finisher,1991
+Raffaella,Dotti,Raffaella Dotti,273,F40-44,Female,roma,rm,Italy,IT,0:37:22,2:55:45,2:08:55,,,5:50:00,2242,10545,7735,240,238,21000,335,44,11,245,41,10,341,43,11,335,44,11,Finisher,2758
+Melina,Timson-Katchis,Melina Timson-Katchis,286,F40-44,Female,Dubai,Dubai,Cyprus,CY,0:33:54,2:57:03,2:11:42,,,5:50:03,2034,10623,7902,242,202,21003,336,45,12,122,17,4,323,36,10,336,45,12,Finisher,2757
+Fritz Joel,Dela Cruz,Fritz Joel Dela Cruz,468,M35-39,Male,Hawally,Kuwait,Philippines,PH,0:47:33,2:49:41,2:03:09,,,5:50:11,2853,10181,7389,326,262,21011,337,292,63,544,444,93,399,345,71,337,292,63,Finisher,1820
+Alex,Shedden,Alex Shedden,355,M25-29,Male,Duabi,Abu Dhabi,United Kingdom,GB,0:38:37,2:48:17,2:16:07,,,5:50:13,2317,10097,8167,237,195,21013,338,293,23,283,236,16,282,259,18,338,293,23,Finisher,2158
+Wolfgang,Beez,Wolfgang Beez,109,M50-54,Male,San Diego,CA,United States,US,0:41:31,2:49:53,2:08:45,,,5:50:15,2491,10193,7725,301,305,21015,339,294,31,393,325,38,333,293,34,339,294,31,Finisher,2055
+Atharva,Ambarkar,Atharva Ambarkar,323,M18-24,Male,Pune,Maharashtra,India,IN,0:38:29,2:40:21,2:23:42,,,5:50:42,2309,9621,8622,217,273,21042,340,295,8,281,234,7,206,192,8,340,295,8,Finisher,1896
+Martin,Vosahlik,Martin Vosahlik,83,M35-39,Male,Vestec,Vestec,Czech Republic,CZ,0:43:16,2:55:02,2:01:34,,,5:50:43,2596,10502,7294,313,338,21043,341,296,64,449,369,72,406,352,74,341,296,64,Finisher,1810
+Michael,Nugent,Michael Nugent,818,M55-59,Male,Amman,amman,Ireland,IE,0:44:12,2:52:45,2:06:22,,,5:51:22,2652,10365,7582,298,185,21082,342,297,14,469,383,22,393,340,17,342,297,14,Finisher,2275
+Abdulrahman,ALJaber ,Abdulrahman ALJaber,373,M30-34,Male,Doha,UMM SALAL,Qatar,QA,0:39:39,2:36:13,2:27:54,,,5:51:28,2379,9373,8874,278,184,21088,343,298,42,326,272,38,195,182,26,343,298,42,Finisher,1438
+Hesham,Sherif,Hesham Sherif,434,M30-34,Male,Doha,Qatar,Egypt,EG,0:45:49,2:54:24,2:03:25,,,5:51:36,2749,10464,7405,264,214,21096,344,299,43,510,417,58,412,356,51,344,299,43,Finisher,1435
+Melanie,Wilkinson,Melanie Wilkinson,240,F30-34,Female,DUBAI,DXB,United Kingdom,GB,0:42:39,3:09:37,1:52:57,,,5:51:49,2559,11377,6777,222,174,21109,345,46,6,427,75,9,479,72,9,345,46,6,Finisher,2241
+Trent,Ainsworth,Trent Ainsworth,361,M30-34,Male,Jamestown,RI,United States,US,0:39:25,2:53:02,2:11:14,,,5:52:04,2365,10382,7874,270,233,21124,346,300,44,314,262,35,339,297,44,346,300,44,Finisher,1427
+Kevin,van Gisbergen,Kevin van Gisbergen,650,M40-44,Male,Doha,Doha,Canada,CA,0:34:37,2:53:43,2:16:54,,,5:52:30,2077,10423,8214,241,195,21150,347,301,60,138,120,28,296,268,54,347,301,60,Finisher,1933
+Josh,Waudby,Josh Waudby,548,M35-39,Male,Dhahran,Eastern Province,Australia,AU,0:44:47,2:49:41,2:08:44,,,5:52:35,2687,10181,7724,267,296,21155,348,302,65,489,401,83,360,313,65,348,302,65,Finisher,1777
+Jason,Pronyk,Jason Pronyk,727,M45-49,Male,NEW YORK,NY,Canada,CA,0:44:21,2:47:40,2:09:24,,,5:52:35,2661,10060,7764,346,324,21155,348,302,55,475,388,74,350,306,59,348,302,55,Finisher,1965
+Andrea,Talmacsi,Andrea Talmacsi,237,F30-34,Female,Dubai,DXB,Hungary,HU,0:39:28,2:50:43,2:12:45,,,5:52:36,2368,10243,7965,388,192,21156,350,47,7,315,53,6,335,41,5,350,47,7,Finisher,2227
+Gerard Paul,Magampon,Gerard Paul Magampon,504,M35-39,Male,Alaminos,Laguna,Philippines,PH,0:49:39,2:49:00,2:06:14,,,5:52:41,2979,10140,7574,266,202,21161,351,304,66,572,463,98,402,348,72,351,304,66,Finisher,1775
+Sally,Hart,Sally Hart,275,F40-44,Female,Muscat,Muscat,United Kingdom,GB,0:36:23,3:15:10,1:53:14,,,5:52:50,2183,11710,6794,255,228,21170,352,48,13,204,32,7,478,71,15,352,48,13,Finisher,2707
+Marten,Adolfson,Marten Adolfson,657,M45-49,Male,Stockholm,,Sweden,SE,0:37:40,2:39:58,2:27:58,,,5:52:53,2260,9598,8878,243,194,21173,353,305,56,258,214,46,203,189,38,353,305,56,Finisher,1959
+Ivan,Koncharov,Ivan Koncharov,611,M40-44,Male,Dubai,DXB,Russia,RU,0:37:30,2:57:06,2:07:36,,,5:53:07,2250,10626,7656,355,300,21187,354,306,61,251,208,47,376,326,66,354,306,61,Finisher,1922
+Jason,Shilliday,Jason Shilliday,536,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:39:03,2:49:51,2:13:20,,,5:53:12,2343,10191,8000,389,269,21192,355,307,67,299,250,45,325,289,59,355,307,67,Finisher,1766
+Yuri,Scarpellini,Yuri Scarpellini,120,M55-59,Male,Rimini,Italia,Italy,IT,0:39:49,2:50:07,2:16:06,,,5:53:33,2389,10207,8166,273,178,21213,356,308,15,333,278,13,322,287,13,356,308,15,Finisher,2235
+Milos,Bartosek,Milos Bartosek,387,M30-34,Male,Nesøya,,Czech Republic,CZ,0:48:23,2:47:03,2:04:22,,,5:53:38,2903,10023,7462,499,331,21218,357,309,45,555,450,63,407,353,49,357,309,45,Finisher,1399
+Ahmad,Diab,Ahmad Diab,151,M35-39,Male,Bur Dubai,DXB,Jordan,JO,0:40:47,2:52:45,2:14:10,,,5:54:02,2447,10365,8050,174,206,21242,358,310,68,370,305,55,334,294,61,358,310,68,Finisher,1751
+Pia Houg,Lund,Pia Houg Lund,253,F35-39,Female,"Slagelse
+Slagelse",,Denmark,DK,0:45:54,3:02:02,1:56:35,,,5:54:07,2754,10922,6995,294,282,21247,359,49,11,512,94,21,463,67,17,359,49,11,Finisher,1959
+Raj,Dagstani,Raj Dagstani,758,M50-54,Male,HOUSTON,TX,United Kingdom,GB,0:38:21,2:40:28,2:25:01,,,5:54:27,2301,9628,8701,268,369,21267,360,311,32,279,232,24,218,202,24,360,311,32,Finisher,1980
+Emerson,Molina,Emerson Molina,621,M40-44,Male,Doha,AD DAW?AH,Philippines,PH,0:41:55,2:53:15,2:12:23,,,5:54:32,2515,10395,7943,179,240,21272,361,312,62,403,333,69,352,307,59,361,312,62,Finisher,1897
+Daniela,Sposi,Daniela Sposi,263,F35-39,Female,Doha,Qatar,United Kingdom,GB,0:36:19,2:56:23,2:12:24,,,5:54:37,2179,10583,7944,335,236,21277,362,50,12,201,31,9,354,46,10,362,50,12,Finisher,1950
+Reda,Alkhattabi,Reda Alkhattabi,375,M30-34,Male,Yanbu,Almadenah,Saudi Arabia,SA,0:39:06,2:50:25,2:13:38,,,5:55:05,2346,10225,8018,361,355,21305,363,313,46,302,253,33,327,291,43,363,313,46,Finisher,1373
+Santiago,Penabella Alaez,Santiago Penabella Alaez,726,M45-49,Male,Riyadh,Riyadh Province,Spain,ES,0:33:23,2:48:12,2:25:19,,,5:55:08,2003,10092,8719,242,252,21308,364,314,57,110,95,17,243,224,43,364,314,57,Finisher,1919
+Franck,Besseat,Franck Besseat,750,M50-54,Male,Dhahran,Biobío,Canada,CA,0:59:25,2:55:37,1:50:34,,,5:55:13,3565,10537,6634,249,328,21313,365,315,33,657,531,54,495,421,47,365,315,33,Finisher,1966
+Nina,Buxton,Nina Buxton,289,F45-49,Female,Bywong,NSW,Australia,AU,0:39:30,2:52:24,2:13:35,,,5:55:32,2370,10344,8015,302,301,21332,366,51,7,319,54,6,338,42,6,366,51,7,Finisher,2723
+Mark,Taylor,Mark Taylor,547,M35-39,Male,DAFZA,DXB,United Kingdom,GB,0:35:56,2:55:30,2:16:52,,,5:55:34,2156,10530,8212,244,192,21334,367,316,69,188,163,33,326,290,60,367,316,69,Finisher,1723
+Abdulwahab,Al Halabi,Abdulwahab Al Halabi,175,M45-49,Male,Dubai,Dubai,United Arab Emirates,AE,0:41:27,2:48:25,2:17:56,,,5:55:41,2487,10105,8276,274,199,21341,368,317,58,388,322,66,321,286,54,368,317,58,Finisher,1909
+Mohamed,Elguindy,Mohamed Elguindy,596,M40-44,Male,CAiro,CAI,Egypt,EG,0:36:17,2:50:57,2:20:37,,,5:55:53,2177,10257,8437,234,248,21353,369,318,63,199,169,37,287,264,53,369,318,63,Finisher,1872
+Larissa,Zanovello,Larissa Zanovello,56,F50-54,Female,Lugano,,Switzerland,CH,0:36:07,3:01:18,2:13:01,,,5:55:57,2167,10878,7981,198,133,21357,370,52,4,195,29,2,380,51,4,370,52,4,Finisher,2122
+Steven,Ophof,Steven Ophof,517,M35-39,Male,Dubai,Dubai,Netherlands,NL,0:42:54,2:53:30,2:08:23,,,5:56:33,2574,10410,7703,371,335,21393,371,319,70,433,357,69,397,343,69,371,319,70,Finisher,1705
+Willum,Van Den Hoogen,Willum Van Den Hoogen,437,M30-34,Male,DUBAI,DXB,Netherlands,NL,0:36:50,2:59:11,2:12:55,,,5:56:34,2210,10751,7975,227,231,21394,372,320,47,225,189,24,370,321,45,372,320,47,Finisher,1346
+Mohamed,Al Masroori,Mohamed Al Masroori,335,M25-29,Male,Muscat,Muscat,Oman,OM,0:49:04,2:43:30,2:15:08,,,5:56:38,2944,9810,8108,271,265,21398,373,321,24,564,456,27,340,298,22,373,321,24,Finisher,2042
+Mclean,Panter,Mclean Panter,353,M25-29,Male,CORDOVA,TN,United States,US,0:36:33,2:52:43,2:18:31,,,5:56:43,2193,10363,8311,257,279,21403,374,322,25,211,177,11,308,276,21,374,322,25,Finisher,2041
+Rudy,Bier,Rudy Bier,571,M40-44,Male,Dubai,Dubai,Belgium,BE,0:36:03,3:01:57,2:11:04,,,5:56:47,2163,10917,7864,234,229,21407,375,323,64,191,165,36,392,339,70,375,323,64,Finisher,1856
+Pong,Sung,Pong Sung,736,M45-49,Male,Ruwi,Muscat,Singapore,SG,0:37:58,2:49:01,2:20:49,,,5:57:02,2278,10141,8449,292,262,21422,376,324,59,267,222,50,290,266,50,376,324,59,Finisher,1885
+Christopher,Grainger,Christopher Grainger,482,M35-39,Male,Doha,Doha,United Kingdom,GB,0:32:29,2:44:36,2:32:37,,,5:57:58,1949,9876,9157,283,213,21478,377,325,71,82,73,15,204,190,36,377,325,71,Finisher,1680
+Krzysztof,Baczynski,Krzysztof Baczynski,565,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:46:11,2:55:32,2:04:28,,,5:58:13,2771,10532,7468,261,461,21493,378,326,65,521,426,89,423,363,73,378,326,65,Finisher,1830
+Mohammed,Almuftah,Mohammed Almuftah,378,M30-34,Male,Doha,Qatar,Qatar,QA,0:39:15,2:42:21,2:28:21,,,5:58:16,2355,9741,8901,243,256,21496,379,327,48,308,257,34,245,226,32,379,327,48,Finisher,1315
+Keith,Irvine,Keith Irvine,111,M50-54,Male,Eastleigh,HAM,United Kingdom,GB,0:40:15,3:01:30,2:09:00,,,5:58:32,2415,10890,7740,248,219,21512,380,328,34,350,291,31,422,362,41,380,328,34,Finisher,1906
+Rana,Al Alawi,Rana Al Alawi,316,F25-29,Female,Aali,Riffa,Bahrain,BH,0:43:26,3:05:03,2:02:24,,,5:58:43,2606,11103,7344,278,192,21523,381,53,7,453,82,11,465,69,8,381,53,7,Finisher,2513
+Nataniel,Benares,Nataniel Benares,570,M40-44,Male,Sampaloc,Manila,Philippines,PH,0:37:39,2:52:47,2:19:25,,,5:59:00,2259,10367,8365,175,374,21540,382,329,66,257,213,49,305,274,55,382,329,66,Finisher,1816
+Leonardo,Cardi,Leonardo Cardi,675,M45-49,Male,selvazzano dentro,foreigner,Italy,IT,0:42:21,2:50:03,2:18:18,,,5:59:02,2541,10203,8298,221,279,21542,383,330,60,421,348,71,330,292,55,383,330,60,Finisher,1849
+Richard,Parkinson,Richard Parkinson,520,M35-39,Male,Lytham,Lancashire,United Kingdom,GB,0:42:46,2:52:38,2:14:31,,,5:59:05,2566,10358,8071,259,291,21545,384,331,72,431,355,68,369,320,66,384,331,72,Finisher,1660
+Tim,Keating,Tim Keating,701,M45-49,Male,Muscat,Muscat,South Africa,ZA,0:36:47,2:59:18,2:13:18,,,5:59:08,2207,10758,7998,341,244,21548,385,332,61,223,187,39,390,338,65,385,332,61,Finisher,1847
+Mohammed,Hafiz,Mohammed Hafiz,835,M40-44,Male,Jeddah,Makkah Al Mukarramah Province,United Arab Emirates,AE,0:43:09,2:53:22,2:15:13,,,5:59:16,2589,10402,8113,266,186,21556,386,333,67,442,363,73,384,332,69,386,333,67,Finisher,1811
+Pauline,Emaure,Pauline Emaure,127,F35-39,Female,dubai,DXB,France,FR,0:43:01,2:46:16,2:21:15,,,5:59:24,2581,9976,8475,272,260,21564,387,54,13,437,78,17,314,33,7,387,54,13,Finisher,1864
+Khaled,Al Khalifa,Khaled Al Khalifa,165,M40-44,Male,Awali,Southern Governorate,Bahrain,BH,0:45:27,3:01:27,2:06:04,,,5:59:32,2727,10887,7564,192,202,21572,388,334,68,502,409,87,446,383,75,388,334,68,Finisher,1807
+Gerda Maria,Dumitru,Gerda Maria Dumitru,41,F35-39,Female,Bucharest,București,Romania,RO,0:34:18,3:15:01,2:03:31,,,5:59:35,2058,11701,7411,219,186,21575,389,55,14,128,18,7,464,68,18,389,55,14,Finisher,1861
+Karl,Egleton,Karl Egleton,593,M40-44,Male,Muscat,Muscat,United Kingdom,GB,0:42:16,2:50:18,2:17:09,,,5:59:59,2536,10218,8229,289,327,21599,390,335,69,418,346,70,343,300,57,390,335,69,Finisher,1799
+Elena,Novoselova,Elena Novoselova,258,F35-39,Female,Moscow,Moscow,Russia,RU,0:45:09,2:54:42,2:12:27,,,6:00:30,2709,10482,7947,275,217,21630,391,56,15,495,90,19,409,55,13,391,56,15,Finisher,1844
+Reymond Kelvin,Dula,Reymond Kelvin Dula,152,M35-39,Male,Dubai,DXB,Philippines,PH,0:35:11,2:51:31,2:24:22,,,6:01:03,2111,10291,8662,234,365,21663,392,336,73,157,136,26,280,257,54,392,336,73,Finisher,1624
+Fiona,Howarth,Fiona Howarth,250,F35-39,Female,,,United Kingdom,GB,0:37:20,2:58:55,2:18:20,,,6:01:31,2240,10735,8300,245,171,21691,393,57,16,244,40,13,374,50,12,393,57,16,Finisher,1826
+Anna,Brockman,Anna Brockman,288,F45-49,Female,,,United Kingdom,GB,0:40:00,3:01:13,2:12:20,,,6:01:32,2400,10873,7940,267,212,21692,394,58,8,345,58,8,421,60,11,394,58,8,Finisher,2615
+Kumail,Alnoaimi,Kumail Alnoaimi,441,M35-39,Male,Hamad town,Northern,Bahrain,BH,0:49:48,2:52:56,2:08:04,,,6:01:33,2988,10376,7684,350,295,21693,395,337,74,574,465,100,436,373,79,395,337,74,Finisher,1615
+Henrique,Gusso Netzka,Henrique Gusso Netzka,406,M30-34,Male,São Paulo,SP,Brazil,BR,0:47:17,3:03:10,1:58:11,,,6:01:47,2837,10990,7091,366,423,21707,396,338,49,541,442,61,482,409,58,396,338,49,Finisher,1252
+Trevor,Robinson,Trevor Robinson,823,M55-59,Male,Muscat ,Muscat Governorate,United Kingdom,GB,0:41:20,2:57:37,2:10:39,,,6:01:53,2480,10657,7839,369,368,21713,397,339,16,384,318,14,418,360,19,397,339,16,Finisher,2085
+Shane,Scanlon,Shane Scanlon,104,M45-49,Male,Brighton East,AU-VIC,Australia,AU,0:39:40,2:40:50,2:30:58,,,6:02:39,2380,9650,9058,413,258,21759,398,340,62,327,273,57,255,235,45,398,340,62,Finisher,1784
+Regardt,Peyper,Regardt Peyper,523,M35-39,Male,,Gauteng,South Africa,ZA,0:47:57,2:54:52,2:11:04,,,6:02:42,2877,10492,7864,271,258,21762,399,341,75,548,446,95,434,372,78,399,341,75,Finisher,1595
+Ayman,El Haddad,Ayman El Haddad,145,M30-34,Male,Giza,Giza,Egypt,EG,0:33:06,2:44:25,2:34:45,,,6:02:44,1986,9865,9285,161,467,21764,400,342,50,96,83,15,193,180,25,400,342,50,Finisher,1235
+Sam,Knight,Sam Knight,704,M45-49,Male,Grimsby,,United Kingdom,GB,0:44:45,2:48:37,2:20:32,,,6:02:51,2685,10117,8432,248,289,21771,401,343,63,487,399,75,346,302,56,401,343,63,Finisher,1780
+Simon,Kohler,Simon Kohler,846,M40-44,Male,Neuss,,Germany,DE,0:42:38,3:07:17,1:58:44,,,6:03:07,2558,11237,7124,446,422,21787,402,344,70,426,352,71,485,412,84,402,344,70,Finisher,1742
+Kosta,Snajderov,Kosta Snajderov,538,M35-39,Male,Dubai,إمارة دبيّ,Serbia,RS,0:42:02,2:50:29,2:14:58,,,6:03:23,2522,10229,8098,511,443,21803,403,345,76,407,336,62,385,333,67,403,345,76,Finisher,1582
+Camille,Contant,Camille Contant,466,M35-39,Male,Abu Dhabi ,AUH,France,FR,0:50:05,3:00:39,2:04:47,,,6:03:34,3005,10839,7487,234,249,21814,404,346,77,579,469,102,474,404,88,404,346,77,Finisher,1579
+Naseema,Roue,Naseema Roue,53,F45-49,Female,STAFFORD ,STAFFORDSHIRE,United Kingdom,GB,0:42:20,2:53:59,2:17:07,,,6:03:36,2540,10439,8227,330,280,21816,405,59,9,420,73,10,391,53,8,405,59,9,Finisher,2578
+Brian,Lang,Brian Lang,708,M45-49,Male,HOBOKEN,NJ,United States,US,0:39:06,2:59:23,2:13:21,,,6:03:39,2346,10763,8001,388,321,21819,406,347,64,302,253,54,416,358,68,406,347,64,Finisher,1766
+John,Anthony,John Anthony,121,M60-64,Male,Erlenbach,,Switzerland,CH,0:42:41,2:58:53,2:14:08,,,6:03:39,2561,10733,8048,228,249,21819,406,347,4,429,353,4,420,361,4,406,347,4,Finisher,2267
+Martina,Jezdikova,Martina Jezdikova,251,F35-39,Female,Kuala Lumpur ,Kuala Lumpur ,Czech Republic,CZ,0:51:14,2:56:46,2:01:18,,,6:04:06,3074,10606,7278,481,407,21846,408,60,17,590,113,26,481,73,19,408,60,17,Finisher,1780
+Gareth,Gallagher,Gareth Gallagher,74,M35-39,Male,enniskillen,fermanagh,Ireland,IE,0:46:04,2:54:04,2:13:00,,,6:04:11,2764,10444,7980,408,255,21851,409,349,78,515,421,88,431,370,77,409,349,78,Finisher,1568
+Krystian,Ruminski,Krystian Ruminski,147,M30-34,Male,Łaziska Górne,śląskie,Poland,PL,0:45:43,2:56:25,2:11:06,,,6:04:25,2743,10585,7866,395,276,21865,410,350,51,505,412,55,437,374,53,410,350,51,Finisher,1205
+Joseph,Khater,Joseph Khater,416,M30-34,Male,Dubai,DXB,Canada,CA,0:41:34,3:07:02,2:06:14,,,6:04:58,2494,11222,7574,304,304,21898,411,351,52,396,328,47,467,398,56,411,351,52,Finisher,1195
+Kenneth,Argueta,Kenneth Argueta,562,M40-44,Male,Tullow,Co Carlow,Ireland,IE,0:39:45,2:35:38,2:40:52,,,6:05:12,2385,9338,9652,259,278,21912,412,352,71,330,276,59,192,179,35,412,352,71,Finisher,1705
+David,Dessartine,David Dessartine,761,M50-54,Male,Muscat,.,France,FR,0:46:24,3:00:34,2:09:46,,,6:06:07,2784,10834,7786,273,290,21967,413,353,35,526,430,47,455,390,43,413,353,35,Finisher,1770
+Matthew,Yaquinto,Matthew Yaquinto,800,M50-54,Male,HOUSTON,TX,United States,US,0:44:22,2:54:12,2:19:08,,,6:06:18,2662,10452,8348,285,231,21978,414,354,36,476,389,44,403,349,40,414,354,36,Finisher,1766
+Rimando,Jonathan,Rimando Jonathan,633,M40-44,Male,Better Living Subdivision,Paranaque City,Philippines,PH,0:56:02,3:00:00,2:02:31,,,6:08:39,3362,10800,7351,336,270,22119,415,355,72,635,513,112,512,431,89,415,355,72,Finisher,1643
+Sebastian,Bock,Sebastian Bock,461,M35-39,Male,Dubai,Monastir,Germany,DE,0:43:15,2:46:52,2:31:23,,,6:08:57,2595,10012,9083,249,198,22137,416,356,79,448,368,71,319,284,57,416,356,79,Finisher,1482
+Mark,Mccarthy,Mark Mccarthy,423,M30-34,Male,Abu Dhabi,AUH,Ireland,IE,0:40:53,3:02:06,2:20:00,,,6:09:56,2453,10926,8400,197,220,22196,417,357,53,372,307,46,426,366,52,417,357,53,Finisher,1105
+Waleed,Alkuwaiz,Waleed Alkuwaiz,660,M45-49,Male,"dammam
+",eastran,Saudi Arabia,SA,0:39:42,2:44:23,2:33:08,,,6:10:00,2382,9863,9188,418,349,22200,418,358,65,329,275,58,285,262,49,418,358,65,Finisher,1651
+Peter,Wonacott,Peter Wonacott,798,M50-54,Male,Bethesda,MD,United States,US,0:36:44,2:50:08,2:35:27,,,6:10:03,2204,10208,9327,235,229,22203,419,359,37,222,186,19,281,258,29,419,359,37,Finisher,1699
+Stéphane,Pautard,Stéphane Pautard,786,M50-54,Male,Doha,AR RAYYAN,France,FR,0:41:24,2:55:44,2:26:08,,,6:10:29,2484,10544,8768,222,211,22229,420,360,38,386,320,36,381,330,39,420,360,38,Finisher,1691
+Marion,James,Marion James,276,F40-44,Female,Saltash,GB,United Kingdom,GB,0:40:17,3:17:48,2:01:10,,,6:10:36,2417,11868,7270,343,338,22236,421,61,14,351,60,14,525,85,17,421,61,14,Finisher,2387
+Wox,Sampelo,Wox Sampelo,637,M40-44,Male,,,Philippines,PH,0:43:37,2:56:27,2:23:47,,,6:10:58,2617,10587,8627,160,267,22258,422,361,73,456,374,78,401,347,71,422,361,73,Finisher,1601
+Abdulmajeed,Alshehab,Abdulmajeed Alshehab,340,M25-29,Male,Dhahran,Eastern,Saudi Arabia,SA,0:54:38,2:51:07,2:18:31,,,6:11:09,3278,10267,8311,249,164,22269,423,362,26,624,503,30,444,381,25,423,362,26,Finisher,1781
+Andrea,Karpati,Andrea Karpati,50,F45-49,Female,Budapest,,Hungary,HU,0:43:17,2:49:38,2:29:43,,,6:11:11,2597,10178,8983,293,220,22271,424,62,10,450,81,12,351,45,7,424,62,10,Finisher,2441
+Patricia,Adeltoft,Patricia Adeltoft,287,F45-49,Female,Qurum Hights,Muscat,Denmark,DK,0:42:55,2:57:24,2:21:20,,,6:11:21,2575,10644,8480,298,284,22281,425,63,11,434,77,11,419,59,10,425,63,11,Finisher,2438
+Azzurra,Ministrini,Azzurra Ministrini,43,F35-39,Female,Spoleto,PERUGIA,Italy,IT,0:34:37,3:09:58,2:19:32,,,6:11:34,2077,11398,8372,225,222,22294,426,64,18,138,19,8,435,63,15,426,64,18,Finisher,1645
+Ian,Baker,Ian Baker,190,M50-54,Male,Leicester,,United Kingdom,GB,0:42:14,2:49:28,2:27:49,,,6:12:05,2534,10168,8869,463,291,22325,427,363,39,416,344,40,367,318,37,427,363,39,Finisher,1662
+Isobel,Bushell,Isobel Bushell,213,F25-29,Female,Tunbridge Wells,Kent,United Kingdom,GB,0:39:55,3:15:23,2:07:55,,,6:12:46,2395,11723,7675,326,247,22366,428,65,8,338,56,8,507,79,10,428,65,8,Finisher,2260
+Duncan,Cooper,Duncan Cooper,803,M55-59,Male,Fowey,,United Kingdom,GB,0:49:25,3:01:09,2:11:31,,,6:13:10,2965,10869,7891,416,249,22390,429,364,17,569,460,27,487,414,22,429,364,17,Finisher,1882
+Elena,Gualini,Elena Gualini,54,F50-54,Female,milano,,Italy,IT,0:44:16,3:13:02,2:05:20,,,6:13:13,2656,11582,7520,292,343,22393,430,66,5,471,87,6,518,83,6,430,66,5,Finisher,1811
+Mokhtar,El-Sarky,Mokhtar El-Sarky,684,M45-49,Male,Cairo,Cairo,Egypt,EG,0:34:51,3:02:59,2:28:07,,,6:13:17,2091,10979,8887,217,223,22397,431,365,66,147,128,26,389,337,64,431,365,66,Finisher,1592
+Mohammed,Mahlab,Mohammed Mahlab,169,M40-44,Male,cairo,maadi,Egypt,EG,0:37:26,2:58:35,2:28:13,,,6:13:23,2246,10715,8893,234,315,22403,432,366,74,249,207,46,371,322,65,432,366,74,Finisher,1557
+Amanda,Borlotti,Amanda Borlotti,129,F40-44,Female,Abu Dhabi,AUH,United Kingdom,GB,0:43:07,3:09:09,2:11:59,,,6:13:24,2587,11349,7919,338,211,22404,433,67,15,441,79,19,488,74,16,433,67,15,Finisher,2336
+Anastasia,Ageeva,Anastasia Ageeva,243,F35-39,Female,Amwaj,Muharraq Governorate,Russia,RU,0:44:56,3:10:55,2:08:29,,,6:13:47,2696,11455,7709,269,298,22427,434,68,19,493,89,18,503,77,21,434,68,19,Finisher,1605
+Bernadette,Carton,Bernadette Carton,39,F30-34,Female,Ferns,County Wexford,Ireland,IE,0:46:33,3:17:44,2:03:43,,,6:14:07,2793,11864,7423,180,187,22447,435,69,8,533,98,11,546,94,11,435,69,8,Finisher,1840
+Graeme,Sheard,Graeme Sheard,832,M60-64,Male,South Perth,AU-WA,Australia,AU,0:50:40,2:58:53,2:10:14,,,6:14:18,3040,10733,7814,470,401,22458,436,367,5,585,474,5,486,413,5,436,367,5,Finisher,2075
+Kahn,Luthiger,Kahn Luthiger,843,M35-39,Male,Abu Dhabi,Abu Dhabi,Australia,AU,0:44:47,3:01:36,2:18:19,,,6:14:23,2687,10896,8299,250,331,22463,437,368,80,489,401,83,451,387,83,437,368,80,Finisher,1384
+Dina,Altayeb,Dina Altayeb,49,F45-49,Female,Jeddah,MAKKAH AL MUKARRAMAH,Saudi Arabia,SA,0:51:34,3:09:17,2:01:55,,,6:14:51,3094,11357,7315,395,330,22491,438,70,12,593,115,19,549,97,15,438,70,12,Finisher,2375
+Judit,Spiegl,Judit Spiegl,285,F40-44,Female,Dubai,DXB,Hungary,HU,0:35:23,2:54:50,2:37:31,,,6:14:52,2123,10490,9451,194,234,22492,439,71,16,168,23,5,306,32,9,439,71,16,Finisher,2310
+Paul,Mckiernan,Paul Mckiernan,781,M50-54,Male,Accrington,,United Kingdom,GB,0:53:17,2:52:11,2:15:52,,,6:15:13,3197,10331,8152,501,332,22513,440,369,40,610,492,51,468,399,45,440,369,40,Finisher,1606
+Martin,Medved,Martin Medved,619,M40-44,Male,Salmiya,Kuwait,Slovakia,SK,0:32:57,3:36:55,1:56:55,,,6:15:19,1977,13015,7015,223,289,22519,441,370,75,90,79,19,581,475,101,441,370,75,Finisher,1523
+Massimo,Marchiotto,Massimo Marchiotto,711,M45-49,Male,malcesine,verona,Italy,IT,0:43:02,2:50:00,2:33:29,,,6:15:27,2582,10200,9209,283,253,22527,442,371,67,438,360,73,349,305,58,442,371,67,Finisher,1553
+Ali,Al-Khater,Ali Al-Khater,448,M35-39,Male,doha,doha,Qatar,QA,0:44:31,3:07:23,2:07:35,,,6:15:38,2671,11243,7655,591,378,22538,443,372,81,481,393,81,514,433,94,443,372,81,Finisher,1362
+Manish,Sethi,Manish Sethi,534,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:42:06,3:07:11,2:16:35,,,6:16:40,2526,11231,8195,290,358,22600,444,373,82,411,339,63,470,400,87,444,373,82,Finisher,1343
+Simone,Zoppellari,Simone Zoppellari,746,M45-49,Male,Qurum,Muscat,Italy,IT,0:34:58,2:59:28,2:33:44,,,6:16:49,2098,10768,9224,252,267,22609,445,374,68,149,130,28,358,311,60,445,374,68,Finisher,1529
+Abdullah,Al Hasani,Abdullah Al Hasani,322,M18-24,Male,Muscat,São Paulo,Oman,OM,0:55:22,3:05:45,2:07:18,,,6:16:54,3322,11145,7638,282,227,22614,446,375,9,630,509,12,540,448,11,446,375,9,Finisher,1424
+Andrea,Pedroli,Andrea Pedroli,819,M55-59,Male,abu dhabi,AUH,Italy,IT,0:43:09,3:10:25,2:12:46,,,6:17:19,2589,11425,7966,301,358,22639,447,376,18,442,363,21,493,419,23,447,376,18,Finisher,1808
+Duncan,Richards,Duncan Richards,731,M45-49,Male,Abu Dhabi,Abu Dhabi,United Kingdom,GB,0:49:16,2:55:04,2:23:13,,,6:17:30,2956,10504,8593,320,277,22650,448,377,69,567,459,85,443,380,71,448,377,69,Finisher,1516
+Cassandra,Roch,Cassandra Roch,211,F18-24,Female,Lorentzweiler,Mersch,Luxembourg,LU,0:31:53,2:55:10,2:41:08,,,6:17:49,1913,10510,9668,293,285,22669,449,72,2,65,6,1,293,27,2,449,72,2,Finisher,2085
+Stephen,Tucker,Stephen Tucker,649,M40-44,Male,Dereham,,United Kingdom,GB,0:41:29,2:57:16,2:31:12,,,6:17:54,2489,10636,9072,131,346,22674,450,378,76,391,323,68,383,331,68,450,378,76,Finisher,1476
+Nikolay,Surikov,Nikolay Surikov,541,M35-39,Male,Moscow,"APO
+",Russia,RU,0:44:12,3:07:36,2:16:29,,,6:18:02,2652,11256,8189,366,219,22682,451,379,83,469,383,77,488,415,89,451,379,83,Finisher,1319
+Casie,Pittman,Casie Pittman,233,F30-34,Female,Milan,TN,United States,US,0:49:17,3:13:43,2:07:06,,,6:18:11,2957,11623,7626,299,186,22691,452,73,9,568,109,13,554,100,13,452,73,9,Finisher,1766
+Brendan,Germishuys,Brendan Germishuys,602,M40-44,Male,Doha,Doha,South Africa,ZA,0:46:05,2:58:39,2:25:15,,,6:18:40,2765,10719,8715,255,266,22720,453,380,77,517,423,88,439,376,74,453,380,77,Finisher,1462
+Franzel,Cilliers,Franzel Cilliers,215,F25-29,Female,Swindon,,South Africa,ZA,0:38:50,3:17:52,2:14:55,,,6:18:54,2330,11872,8095,250,187,22734,454,74,9,294,48,6,508,80,11,454,74,9,Finisher,2149
+Yury,Maksimov,Yury Maksimov,617,M40-44,Male,KOROLEV,Central Federal District,Russia,RU,0:48:42,3:12:03,2:11:41,,,6:19:00,2922,11523,7901,187,207,22740,455,381,78,561,454,97,527,441,92,455,381,78,Finisher,1456
+Frederic,Rousseau,Frederic Rousseau,732,M45-49,Male,DOHA,west bay city center,France,FR,0:36:38,3:02:29,2:31:56,,,6:19:38,2198,10949,9116,260,255,22778,456,382,70,217,183,38,405,351,67,456,382,70,Finisher,1478
+Fathi,Al-Zakwani,Fathi Al-Zakwani,456,M35-39,Male,Muscat,Seeb,Oman,OM,0:40:18,2:59:53,2:29:50,,,6:19:45,2418,10793,8990,288,296,22785,457,383,84,352,292,53,417,359,75,457,383,84,Finisher,1288
+Andrew,Bailey,Andrew Bailey,189,M50-54,Male,Sandton,,South Africa,ZA,0:40:41,2:45:45,2:43:17,,,6:19:50,2441,9945,9797,274,333,22790,458,384,41,366,302,32,284,261,30,458,384,41,Finisher,1523
+Peter,Van Heerden,Peter Van Heerden,743,M45-49,Male,Dubai,DXB,South Africa,ZA,0:31:35,3:00:14,2:37:18,,,6:20:27,1895,10814,9438,347,333,22827,459,385,71,57,52,7,347,303,57,459,385,71,Finisher,1463
+Sundip,Chahal,Sundip Chahal,578,M40-44,Male,DUBAI,DXB,United Kingdom,GB,0:55:06,2:56:58,2:19:02,,,6:20:27,3306,10618,8342,302,259,22827,459,385,79,629,508,109,484,411,83,459,385,79,Finisher,1430
+Mark,Trier,Mark Trier,201,M50-54,Male,Tannay,,United Kingdom,GB,0:42:12,3:00:37,2:30:40,,,6:20:58,2532,10837,9040,199,250,22858,461,387,42,414,342,39,424,364,42,461,387,42,Finisher,1502
+Trevor,Elwood,Trevor Elwood,399,M30-34,Male,ALEXANDRIA,VA,United States,US,0:38:19,3:01:38,2:32:07,,,6:21:09,2299,10898,9127,278,267,22869,462,388,54,278,231,29,410,355,50,462,388,54,Finisher,903
+Cesar,Gongora,Cesar Gongora,768,M50-54,Male,Katy,TX,Colombia,CO,0:51:11,2:54:06,2:26:17,,,6:21:34,3071,10446,8777,396,204,22894,463,389,43,589,477,50,458,393,44,463,389,43,Finisher,1492
+Deogracias,Sandoval,Deogracias Sandoval,638,M40-44,Male,Doha,Qatar,Philippines,PH,0:57:02,3:10:16,2:05:36,,,6:21:56,3422,11416,7536,323,219,22916,464,390,80,645,521,115,578,474,100,464,390,80,Finisher,1403
+Chirayu,Desai,Chirayu Desai,327,M18-24,Male,Pune,Maharashtra,India,IN,0:46:36,2:52:22,2:34:28,,,6:22:09,2796,10342,9268,222,301,22929,465,391,10,535,437,10,399,345,9,465,391,10,Finisher,1330
+Stéphanie,Dessartine,Stéphanie Dessartine,290,F45-49,Female,BEDOIN,.,France,FR,0:43:37,3:23:59,2:03:28,,,6:22:18,2617,12239,7408,370,304,22938,466,75,13,456,83,13,583,107,18,466,75,13,Finisher,2241
+Lama,Arjeh,Lama Arjeh,268,F40-44,Female,"Oakville, Ontario",ON,Syria,SY,0:48:56,3:17:23,2:05:14,,,6:22:46,2936,11843,7514,422,251,22966,467,76,17,562,108,21,580,106,23,467,76,17,Finisher,2168
+Elena,Kulikova,Elena Kulikova,232,F30-34,Female,Tyumen,"
+Tyumenskaya oblast",Russia,RU,0:52:04,3:17:57,2:02:58,,,6:22:51,3124,11877,7378,333,259,22971,468,77,10,600,117,14,590,110,15,468,77,10,Finisher,1682
+Peter,Alexander,Peter Alexander,445,M35-39,Male,Rugby,Warwickshire,United Kingdom,GB,0:44:17,3:02:31,2:24:59,,,6:22:56,2657,10951,8699,280,389,22976,469,392,85,472,385,78,454,389,85,469,392,85,Finisher,1230
+Ali,Jalal,Ali Jalal,608,M40-44,Male,Amman,Amman,Jordan,JO,0:51:35,3:00:41,2:18:49,,,6:22:56,3095,10841,8329,438,273,22976,469,392,81,594,479,100,500,424,85,469,392,81,Finisher,1385
+Jocelyn,Roberts,Jocelyn Roberts,300,F45-49,Female,Aberdeen,,United Kingdom,GB,0:44:10,3:15:24,2:13:32,,,6:23:17,2650,11724,8012,287,324,22997,471,78,14,468,86,14,528,87,14,471,78,14,Finisher,2224
+Jalna,Mackintosh,Jalna Mackintosh,254,F35-39,Female,Cairo,Cairo,Egypt,EG,0:48:29,3:19:12,2:00:00,,,6:23:27,2909,11952,7200,491,455,23007,472,79,20,558,107,25,592,111,25,472,79,20,Finisher,1431
+Ahmed,Bashkarwi,Ahmed Bashkarwi,388,M30-34,Male,Manama,Mamana,Bahrain,BH,0:57:00,3:05:03,2:13:47,,,6:23:42,3420,11103,8027,188,284,23022,473,394,55,644,520,72,535,445,60,473,394,55,Finisher,857
+Gabrielle,Robinson,Gabrielle Robinson,302,F45-49,Female,Dubai,foreigner,United Kingdom,GB,0:44:28,3:21:21,2:08:42,,,6:23:44,2668,12081,7722,268,285,23024,474,80,15,478,88,15,565,102,17,474,80,15,Finisher,2216
+Peter,Iskander,Peter Iskander,493,M35-39,Male,Cairo,El Gharbia,Egypt,EG,0:44:30,3:24:07,1:59:45,,,6:24:32,2670,12247,7185,471,499,23072,475,395,86,479,391,80,595,484,102,475,395,86,Finisher,1202
+Olga,Garland,Olga Garland,291,F45-49,Female,Barbar,Bahrain,Bahrain,BH,0:54:10,3:02:49,2:18:45,,,6:24:32,3250,10969,8325,295,233,23072,475,81,16,621,121,22,516,82,13,475,81,16,Finisher,2201
+Rovinal,Hipolito,Rovinal Hipolito,490,M35-39,Male,Apalit,Pampanga,Philippines,PH,0:43:53,3:02:01,2:29:40,,,6:24:47,2633,10921,8980,278,275,23087,477,396,87,464,381,75,450,386,82,477,396,87,Finisher,1197
+Chris,Knight,Chris Knight,295,F45-49,Male,Cape Town,,Austria,AT,0:39:09,3:04:46,2:30:35,,,6:24:52,2349,11086,9035,386,236,23092,478,82,17,304,50,5,447,64,12,478,82,17,Finisher,2195
+Michelle,Lindqvist,Michelle Lindqvist,124,F25-29,Female,دبي,DUBAYY,Sweden,SE,0:40:42,3:09:16,2:28:31,,,6:24:53,2442,11356,8911,233,151,23093,479,83,10,367,65,10,469,70,9,479,83,10,Finisher,2042
+Hashim,Al Farsi,Hashim Al Farsi,363,M30-34,Male,Muscat,Muscat,Oman,OM,0:52:00,2:56:42,2:23:38,,,6:25:17,3120,10602,8618,354,423,23117,480,397,56,598,482,66,473,403,57,480,397,56,Finisher,829
+Miles,Entwistle,Miles Entwistle,401,M30-34,Male,Dubai,DXB,United Kingdom,GB,0:45:44,2:58:26,2:31:59,,,6:25:54,2744,10706,9119,315,270,23154,481,398,57,506,413,56,441,378,54,481,398,57,Finisher,818
+Adham,El Gazzar,Adham El Gazzar,195,M50-54,Male,Cairo,Cairo,Egypt,EG,0:35:11,3:00:01,2:39:58,,,6:26:04,2111,10801,9598,307,347,23164,482,399,44,157,136,13,373,324,38,482,399,44,Finisher,1411
+Megan,Johnson,Megan Johnson,277,F40-44,Female,WASHINGTON,DC,United States,US,0:42:26,2:59:29,2:32:28,,,6:26:06,2546,10769,9148,315,388,23166,483,84,18,424,74,18,433,62,14,483,84,18,Finisher,2108
+Juan,Patino,Juan Patino,101,M45-49,Male,Cypress,TX,United States,US,0:40:02,2:57:45,2:41:13,,,6:26:39,2402,10665,9673,218,241,23199,484,400,72,346,288,61,388,336,63,484,400,72,Finisher,1352
+Simone,Weichenrieder,Simone Weichenrieder,212,F18-24,Female,Ingolstadt,,Germany,DE,0:41:28,3:16:18,2:20:22,,,6:26:46,2488,11778,8422,211,307,23206,485,85,3,389,67,3,509,81,3,485,85,3,Finisher,1924
+Asahi,Ota,Asahi Ota,146,M30-34,Male,"Saito-Buncho, Kanagawa-ku, Yokohama",Kanagawa,Japan,JP,0:39:32,2:48:35,2:48:59,,,6:26:46,2372,10115,10139,277,303,23206,485,401,58,322,268,37,297,269,39,485,401,58,Finisher,802
+Simon,Asquith,Simon Asquith,664,M45-49,Male,west Yorkshire,West Yorkshire,United Kingdom,GB,0:48:59,3:02:35,2:20:50,,,6:27:16,2939,10955,8450,391,501,23236,487,402,73,563,455,83,491,417,75,487,402,73,Finisher,1340
+Caroline,Van Aartrijk,Caroline Van Aartrijk,57,F55-59,Female,Doha,n/a,Qatar,QA,0:36:40,3:00:15,2:42:52,,,6:27:29,2200,10815,9772,236,226,23249,488,86,3,219,35,3,382,52,3,488,86,3,Finisher,2248
+Luigi,Pascale,Luigi Pascale,628,M40-44,Male,Casorate primo,Pavia,Italy,IT,0:56:09,3:07:49,2:08:32,,,6:27:33,3369,11269,7712,472,431,23253,489,403,82,638,515,113,574,471,98,489,403,82,Finisher,1302
+Erika,Kuratli,Erika Kuratli,46,F40-44,Female,Bülach,,Switzerland,CH,0:50:52,3:06:59,2:20:34,,,6:27:37,3052,11219,8434,358,194,23257,490,87,19,586,112,23,526,86,18,490,87,19,Finisher,2081
+Ajayrajsinh,Jhala,Ajayrajsinh Jhala,331,M18-24,Male,Vadodara,Gujarat,India,IN,0:44:50,3:00:25,2:33:29,,,6:27:38,2690,10825,9209,311,223,23258,491,404,11,492,404,9,449,385,10,491,404,11,Finisher,1231
+Amjid,Ali,Amjid Ali,556,M40-44,Male,Ruwi,Muscat,Pakistan,PK,0:46:32,3:20:25,2:10:41,,,6:27:44,2792,12025,7841,315,291,23264,492,405,83,532,435,93,576,473,99,492,405,83,Finisher,1299
+Emma,Holt,Emma Holt,249,F35-39,Female,Hook,HAM,South Africa,ZA,0:40:25,3:16:11,2:20:36,,,6:27:44,2425,11771,8436,365,267,23264,492,88,21,354,61,14,520,84,22,492,88,21,Finisher,1354
+Karim,Hwaidak,Karim Hwaidak,492,M35-39,Male,Cairo,Greater Cairo,Egypt,EG,0:39:20,3:06:17,2:34:55,,,6:27:44,2360,11177,9295,233,199,23264,492,405,88,312,260,48,442,379,80,492,405,88,Finisher,1144
+Orla,White,Orla White,266,F35-39,Female,Dubai,DXB,Ireland,IE,0:53:50,3:06:54,2:18:04,,,6:27:48,3230,11214,8284,300,240,23268,495,89,22,618,120,27,539,92,23,495,89,22,Finisher,1353
+Joanna,Palysa,Joanna Palysa,134,F40-44,Female,Dawidy Bankowe,mazowieckie,Poland,PL,0:48:24,3:12:38,2:16:20,,,6:28:07,2904,11558,8180,408,237,23287,496,90,20,556,106,20,552,99,21,496,90,20,Finisher,2072
+Patrick,De Jongh,Patrick De Jongh,838,M30-34,Male,Dubai,DXB,Netherlands,NL,0:37:42,3:08:28,2:30:46,,,6:28:10,2262,11308,9046,339,335,23290,497,407,59,259,215,27,457,392,55,497,407,59,Finisher,777
+Mary,Cox,Mary Cox,271,F40-44,Female,Besiktas / Istanbul,,United States,US,0:50:23,3:17:03,2:11:39,,,6:28:15,3023,11823,7899,343,207,23295,498,91,21,582,111,22,579,105,22,498,91,21,Finisher,2069
+Mohammed,Salitni,Mohammed Salitni,365,M30-34,Male,Shinas,Shinas,Oman,OM,0:58:12,3:20:51,1:57:22,,,6:29:08,3492,12051,7042,394,369,23348,499,408,60,652,527,74,626,510,70,499,408,60,Finisher,760
+Tomasz,Skarupa,Tomasz Skarupa,642,M40-44,Male,Zagarolo (RM),Rome,Italy,IT,0:52:17,3:08:48,2:19:28,,,6:29:28,3137,11328,8368,260,275,23368,500,409,84,601,484,102,536,446,93,500,409,84,Finisher,1268
+Cassandra,De Pecol,Cassandra De Pecol,229,F30-34,Female,Malibu,CA,United States,US,0:36:16,3:04:32,2:40:16,,,6:30:06,2176,11072,9616,243,299,23406,501,92,11,198,30,4,415,58,7,501,92,11,Finisher,1552
+Wayne Mark,Elep,Wayne Mark Elep,595,M40-44,Male,Abu dhabi city,PH-BTN,Philippines,PH,0:40:54,3:05:49,2:28:48,,,6:30:14,2454,11149,8928,454,429,23414,502,410,85,373,308,65,471,401,78,502,410,85,Finisher,1254
+Fuat,Koseoglu,Fuat Koseoglu,499,M35-39,Male,Dubai,Dubai,Turkey,TR,0:46:04,2:57:32,2:35:27,,,6:30:17,2764,10652,9327,409,265,23417,503,411,89,515,421,88,448,384,81,503,411,89,Finisher,1098
+Arjan,Gier,Arjan Gier,766,M50-54,Male,Canterbury,Kent,Netherlands,NL,0:46:03,2:46:41,2:48:43,,,6:30:38,2763,10001,10123,249,302,23438,504,412,45,514,420,46,337,296,35,504,412,45,Finisher,1328
+Alex,Simpson,Alex Simpson,537,M35-39,Male,Sur,Sur,United Kingdom,GB,0:35:44,3:07:00,2:36:57,,,6:30:45,2144,11220,9417,248,416,23445,505,413,90,179,156,31,429,369,76,505,413,90,Finisher,1090
+Daniel,Keller,Daniel Keller,813,M55-59,Male,Zürich,,Switzerland,CH,0:42:22,2:58:48,2:37:29,,,6:31:35,2542,10728,9449,358,418,23495,506,414,19,422,349,18,432,371,20,506,414,19,Finisher,1551
+Raid,Gamal-Eldin,Raid Gamal-Eldin,688,M45-49,Male,CAIRO,CAIRO,Egypt,EG,0:51:35,3:19:33,2:10:14,,,6:32:06,3095,11973,7814,415,229,23526,507,415,74,594,479,88,600,489,91,507,415,74,Finisher,1253
+David,Salt,David Salt,790,M50-54,Male,Muscat,Muscat,United Kingdom,GB,0:38:37,3:24:26,2:17:56,,,6:32:21,2317,12266,8276,411,271,23541,508,416,46,283,236,26,562,461,51,508,416,46,Finisher,1298
+Adam,Knapper,Adam Knapper,497,M35-39,Male,Al Hail South,Muscat,United Kingdom,GB,0:55:54,3:24:25,2:01:50,,,6:33:18,3354,12265,7310,363,306,23598,509,417,91,634,512,109,630,514,108,509,417,91,Finisher,1044
+Francesco,Gasparini,Francesco Gasparini,196,M50-54,Male,Roma,Lazio,Italy,IT,0:41:11,2:50:18,2:53:36,,,6:34:01,2471,10218,10416,233,303,23641,510,418,47,380,314,35,324,288,33,510,418,47,Finisher,1268
+Jlyne,Eugenio,Jlyne Eugenio,248,F35-39,Female,,DXB,Philippines,PH,0:45:12,3:02:47,2:36:41,,,6:34:10,2712,10967,9401,274,296,23650,511,93,23,496,91,20,461,66,16,511,93,23,Finisher,1238
+Matthew,Benson,Matthew Benson,667,M45-49,Male,Dubai,Dubai,United Kingdom,GB,0:35:50,3:20:58,2:24:45,,,6:34:13,2150,12058,8685,313,447,23653,512,419,75,183,159,34,517,435,79,512,419,75,Finisher,1215
+Spencer,Edwards,Spencer Edwards,592,M40-44,Male,Seattle,WA,United States,US,0:39:17,3:10:41,2:26:02,,,6:34:14,2357,11441,8762,640,454,23654,513,420,86,311,259,55,505,427,87,513,420,86,Finisher,1182
+Petra,Sieber Brinkschulte,Petra Sieber Brinkschulte,312,F55-59,Female,Horw,,Switzerland,CH,0:44:01,3:10:39,2:31:29,,,6:34:14,2641,11439,9089,277,208,23654,513,94,4,466,85,6,497,75,4,513,94,4,Finisher,2126
+Magued,Sherif,Magued Sherif,203,M55-59,Male,Orlando,foreigner,Egypt,EG,0:44:30,2:58:28,2:38:01,,,6:34:26,2670,10708,9481,349,458,23666,515,421,20,479,391,23,438,375,21,515,421,20,Finisher,1499
+Helen,Chapell,Helen Chapell,306,F50-54,Female,Totnes,Devon,United Kingdom,GB,0:46:30,3:22:34,2:14:38,,,6:34:27,2790,12154,8078,287,358,23667,516,95,6,530,97,7,584,108,8,516,95,6,Finisher,1429
+Farid,Lubina,Farid Lubina,710,M45-49,Male,Croissy sur Seine,,France,FR,0:52:47,2:59:03,2:33:13,,,6:34:31,3167,10743,9193,297,271,23671,517,422,76,605,487,90,483,410,74,517,422,76,Finisher,1210
+Elisabeth,Jackstadt,Elisabeth Jackstadt,230,F30-34,Female,Cairo,Cairo,Egypt,EG,0:53:25,3:08:35,2:24:00,,,6:35:20,3205,11315,8640,331,229,23720,518,96,12,611,119,15,551,98,12,518,96,12,Finisher,1458
+Lesley,Jones,Lesley Jones,55,F50-54,Female,Dubai    UAE,DXB,United Kingdom,GB,0:49:54,3:19:36,2:17:14,,,6:35:59,2994,11976,8234,324,231,23759,519,97,7,576,110,10,589,109,9,519,97,7,Finisher,1401
+Matthew,Callan,Matthew Callan,464,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:44:26,3:01:11,2:39:43,,,6:36:33,2666,10871,9583,325,348,23793,520,423,92,477,390,79,452,388,84,520,423,92,Finisher,985
+Qasim,Alashiyyani,Qasim Alashiyyani,848,M45-49,Male,Suwaiq,Albatinah,Oman,OM,0:54:35,3:00:38,2:28:17,,,6:36:48,3275,10838,8897,392,406,23808,521,424,77,623,502,91,514,433,78,521,424,77,Finisher,1169
+Hamed,Al Amri,Hamed Al Amri,362,M30-34,Male,Muscat,Muscat,Oman,OM,0:54:38,3:15:03,2:15:18,,,6:37:13,3278,11703,8118,405,329,23833,522,425,61,624,503,69,594,483,65,522,425,61,Finisher,700
+Aurelie,Colas,Aurelie Colas,227,F30-34,Female,Newmachar,,France,FR,0:38:17,3:04:49,2:44:28,,,6:37:14,2297,11089,9868,226,354,23834,523,98,13,277,47,5,429,61,8,523,98,13,Finisher,1424
+Jonathan,Mercer,Jonathan Mercer,715,M45-49,Male,Doha,Al Waab,United Kingdom,GB,0:46:18,3:04:39,2:32:25,,,6:37:27,2778,11079,9145,503,342,23847,524,426,78,522,427,80,498,423,77,524,426,78,Finisher,1157
+Raghvendrasinh,Jhala,Raghvendrasinh Jhala,700,M45-49,Male,Vadodara,Gujarat,India,IN,0:42:01,3:01:22,2:45:01,,,6:38:58,2521,10882,9901,393,241,23938,525,427,79,406,335,69,445,382,72,525,427,79,Finisher,1130
+Hassan,Khalifa,Hassan Khalifa,610,M40-44,Male,CAIRO,AL QAHIRAH,Egypt,EG,0:44:18,3:18:34,2:24:16,,,6:39:00,2658,11914,8656,377,335,23940,526,428,87,473,386,82,559,459,96,526,428,87,Finisher,1096
+Otakar,Krafka,Otakar Krafka,118,M55-59,Male,Znojmo,Czech Republic,Czech Republic,CZ,0:36:28,3:38:47,2:12:06,,,6:39:34,2188,13127,7926,264,469,23974,527,429,21,207,174,9,604,493,29,527,429,21,Finisher,1407
+Mariam,Gawdat,Mariam Gawdat,217,F25-29,Female,Cairo,dolnośląskie,Egypt,EG,0:45:17,3:13:24,2:24:42,,,6:39:42,2717,11604,8682,519,460,23982,528,99,11,497,92,12,547,95,12,528,99,11,Finisher,1775
+Jill,Calvert,Jill Calvert,225,F30-34,Female,Jugback Lane,Swords,United Kingdom,GB,0:41:58,3:17:12,2:28:26,,,6:39:44,2518,11832,8906,331,397,23984,529,100,14,404,71,8,530,88,10,529,100,14,Finisher,1379
+Ismail,Kurek,Ismail Kurek,417,M30-34,Male,london,England,Saudi Arabia,SA,1:01:09,3:03:57,2:20:02,,,6:39:48,3669,11037,8402,374,506,23988,530,430,62,664,537,75,570,467,64,530,430,62,Finisher,700
+SCOTTY,RYAN,SCOTTY RYAN,635,M40-44,Male,Edinburgh,GB-SCT,United Kingdom,GB,0:44:38,3:12:39,2:30:45,,,6:39:57,2678,11559,9045,370,345,23997,531,431,88,484,396,85,523,439,91,531,431,88,Finisher,1079
+Jed,Sundwall,Jed Sundwall,645,M40-44,Male,Munich,,United States,US,0:36:54,3:19:12,2:25:10,,,6:40:11,2214,11952,8710,664,471,24011,532,432,89,226,190,41,545,452,94,532,432,89,Finisher,1075
+Mohammed,Ghuloom,Mohammed Ghuloom,692,M45-49,Male,Hamad Town,Hamad Town,Bahrain,BH,0:45:45,3:30:48,2:12:02,,,6:40:20,2745,12648,7922,236,469,24020,533,433,80,508,415,77,608,497,92,533,433,80,Finisher,1105
+Randy,Catacutan,Randy Catacutan,577,M40-44,Male,Muscat,Muscat,Philippines,PH,1:00:12,2:55:22,2:35:50,,,6:40:38,3612,10522,9350,272,282,24038,534,434,90,660,533,116,502,426,86,534,434,90,Finisher,1067
+Paul,Kenna,Paul Kenna,774,M50-54,Male,Liverpool,,United Kingdom,GB,0:43:42,3:15:56,2:28:22,,,6:40:39,2622,11756,8902,437,322,24039,535,435,48,463,380,43,544,451,49,535,435,48,Finisher,1148
+Abdelmonem,Amin,Abdelmonem Amin,385,M30-34,Male,MANAMA,MANAMA,Egypt,EG,0:45:34,3:10:34,2:27:24,,,6:41:09,2734,11434,8844,588,469,24069,536,436,63,503,410,54,541,449,62,536,436,63,Finisher,700
+Ingrid,Arning,Ingrid Arning,58,F60-64,Female,Puerto del Carmen,,Paraguay,PY,0:43:11,3:16:03,2:29:00,,,6:41:13,2591,11763,8940,340,439,24073,537,101,1,444,80,1,534,90,1,537,101,1,Finisher,3500
+Eneas,Nova,Eneas Nova,721,M45-49,Male,Swansea,Swansea,United Kingdom,GB,0:57:15,3:27:28,2:07:12,,,6:41:32,3435,12448,7632,321,256,24092,538,437,81,646,522,94,637,520,94,538,437,81,Finisher,1084
+Abdulla,Salmeen,Abdulla Salmeen,433,M30-34,Male,Isa town,Southern,Bahrain,BH,0:51:37,3:13:44,2:28:27,,,6:41:47,3097,11624,8907,305,174,24107,539,438,64,596,481,65,566,464,63,539,438,64,Finisher,700
+Michael,Sanders,Michael Sanders,825,M55-59,Male,Zhongshan District,TW-TPE,United States,US,0:48:36,2:52:09,2:52:52,,,6:42:12,2916,10329,10372,236,279,24132,540,439,22,560,453,26,413,357,18,540,439,22,Finisher,1360
+Andrew,Neill,Andrew Neill,624,M40-44,Male,Dubai,DXB,South Africa,ZA,0:46:20,3:03:18,2:41:44,,,6:42:36,2780,10998,9704,360,314,24156,541,440,91,524,428,90,477,407,82,541,440,91,Finisher,1031
+Mustapha,El Lemdani,Mustapha El Lemdani,397,M30-34,Male,Manama,Capital,Algeria,DZ,0:37:18,3:37:00,2:14:05,,,6:43:00,2238,13020,8045,446,431,24180,542,441,65,242,204,26,613,501,69,542,441,65,Finisher,700
+Alanna,Turpin,Alanna Turpin,264,F35-39,Female,,DXB,United Kingdom,GB,0:47:42,3:20:15,2:24:31,,,6:43:02,2862,12015,8671,273,361,24182,543,102,24,546,101,23,577,104,24,543,102,24,Finisher,1079
+Mostafa,Danash,Mostafa Danash,395,M30-34,Male,Utrecht,UTRECHT,Egypt,EG,0:58:07,3:25:24,2:00:03,,,6:43:53,3487,12324,7203,682,537,24233,544,442,66,651,526,73,641,524,73,544,442,66,Finisher,700
+John,Tomes,John Tomes,648,M40-44,Male,Okehampton,Devon,United Kingdom,GB,0:48:07,3:20:24,2:22:14,,,6:43:56,2887,12024,8534,353,438,24236,545,443,92,551,448,96,586,478,103,545,443,92,Finisher,1007
+Damen,Parker,Damen Parker,725,M45-49,Male,Towcester,,United Kingdom,GB,0:54:48,3:07:45,2:30:51,,,6:44:22,3288,11265,9051,387,271,24262,546,444,82,626,505,92,557,457,82,546,444,82,Finisher,1033
+Giovanni,Pastorelli,Giovanni Pastorelli,123,M70-74,Male,MODENA,,Italy,IT,0:41:31,2:59:22,2:52:58,,,6:44:42,2491,10762,10378,335,316,24282,547,445,1,393,325,1,427,367,1,547,445,1,Finisher,3500
+Asa,Backlund,Asa Backlund,305,F50-54,Female,MCMINNVILLE,OR,Sweden,SE,0:48:08,3:04:44,2:39:03,,,6:45:20,2888,11084,9543,460,345,24320,548,103,8,552,104,9,504,78,5,548,103,8,Finisher,1233
+Vladica,Popovic,Vladica Popovic,234,F30-34,Female,Dubai,UAE,Serbia,RS,0:56:05,3:22:38,2:12:06,,,6:45:23,3365,12158,7926,401,473,24323,549,104,15,637,123,16,625,116,17,549,104,15,Finisher,1277
+Aaron,Bruce,Aaron Bruce,673,M45-49,Male,Al khor,Doha,United Kingdom,GB,0:52:46,3:12:53,2:33:13,,,6:45:35,3166,11573,9193,206,197,24335,550,446,83,604,486,89,558,458,83,550,446,83,Finisher,1011
+Frank,Nieuwenhuysen,Frank Nieuwenhuysen,425,M30-34,Male,Erftstadt,NORDRHEIN-WESTFALEN,Germany,DE,0:40:40,3:32:22,2:23:14,,,6:45:37,2440,12742,8594,290,271,24337,551,447,67,365,301,44,599,488,66,551,447,67,Finisher,700
+Oren,Forward,Oren Forward,847,M35-39,Male,scullin,ACT,Pakistan,PK,0:46:30,3:01:01,2:46:33,,,6:45:54,2790,10861,9993,344,366,24354,552,448,93,530,434,91,466,397,86,552,448,93,Finisher,817
+Katherine Michelle,Gomez Aya,Katherine Michelle Gomez Aya,218,F25-29,Female,neiva,Huila,Colombia,CO,0:38:15,3:09:59,2:52:20,,,6:46:02,2295,11399,10340,191,137,24362,553,105,12,275,46,5,453,65,7,553,105,12,Finisher,1661
+Jon,Keen,Jon Keen,773,M50-54,Male,Bognor regis,,United Kingdom,GB,0:45:44,3:01:50,2:42:28,,,6:46:11,2744,10910,9748,504,465,24371,554,449,49,506,413,45,479,408,46,554,449,49,Finisher,1049
+Neil,Hayward,Neil Hayward,605,M40-44,Male,,NSW,United Kingdom,GB,0:40:25,3:16:19,2:40:27,,,6:46:28,2425,11779,9627,277,280,24388,555,450,93,354,294,62,510,429,88,555,450,93,Finisher,962
+Salim,Alwardi,Salim Alwardi,454,M35-39,Male,Muscat,Masqaţ,Oman,OM,0:50:12,3:07:51,2:35:13,,,6:46:30,3012,11271,9313,341,453,24390,556,451,94,580,470,103,524,440,95,556,451,94,Finisher,806
+Corneliu,Popescu,Corneliu Popescu,821,M55-59,Male,Bucuresti,Sector 2,Romania,RO,0:49:55,3:12:46,2:30:23,,,6:46:51,2995,11566,9023,446,381,24411,557,452,23,577,467,28,564,463,28,557,452,23,Finisher,1276
+Mohamed,Abdel Moneim,Mohamed Abdel Moneim,164,M40-44,Male,Giza,Giza,Egypt,EG,0:37:54,3:09:05,2:48:10,,,6:47:04,2274,11345,10090,346,369,24424,558,453,94,265,220,50,462,396,77,558,453,94,Finisher,951
+Branko,Mlinar,Branko Mlinar,833,M70-74,Male,Ljubljana,Slovenia,Slovenia,SI,0:45:26,3:18:12,2:30:35,,,6:47:08,2726,11892,9035,382,393,24428,559,454,2,501,408,2,563,462,2,559,454,2,Finisher,3456
+Thilo,Mayer,Thilo Mayer,815,M55-59,Male,Mannheim,,Germany,DE,0:42:56,3:12:33,2:38:55,,,6:47:27,2576,11553,9535,373,410,24447,560,455,24,435,358,20,513,432,25,560,455,24,Finisher,1265
+Shiela Marie,Ruiz,Shiela Marie Ruiz,221,M25-29,Male,Doha,Qatar,Philippines,PH,0:43:40,3:18:03,2:34:00,,,6:48:35,2620,11883,9240,379,393,24515,561,456,27,459,376,24,555,455,27,561,456,27,Finisher,1107
+Lee Nikko,Oamelda,Lee Nikko Oamelda,515,M35-39,Male,Doha,Qatar,Philippines,PH,0:55:04,2:58:44,2:46:09,,,6:48:43,3304,10724,9969,256,270,24523,562,457,95,628,507,108,490,416,90,562,457,95,Finisher,766
+Ahmad,Alsandi,Ahmad Alsandi,452,M35-39,Male,Kuwait city,Kuwait city,Kuwait,KW,0:39:56,3:16:13,2:42:14,,,6:49:01,2396,11773,9734,315,323,24541,563,458,96,341,285,51,511,430,93,563,458,96,Finisher,761
+Abdoulazez,Ghani,Abdoulazez Ghani,347,M25-29,Male,Doha,Qatar,Qatar,QA,0:54:04,3:24:06,2:19:40,,,6:50:13,3244,12246,8380,419,324,24613,564,459,28,620,500,29,623,509,28,564,459,28,Finisher,1078
+Michael,Baaclo,Michael Baaclo,665,M45-49,Male,Doha,Qatar,Philippines,PH,0:56:53,3:04:42,2:38:07,,,6:50:16,3413,11082,9487,355,279,24616,565,460,84,643,519,93,550,453,81,565,460,84,Finisher,926
+Jon,Barber,Jon Barber,567,M40-44,Male,Al furjan,Ras Al Khaimah,United Kingdom,GB,0:52:52,3:26:33,2:21:00,,,6:50:48,3172,12393,8460,308,315,24648,566,461,95,606,488,103,620,506,110,566,461,95,Finisher,884
+Kathrin,Liebmann,Kathrin Liebmann,139,F55-59,Female,Potsdam,,Germany,DE,0:41:28,3:20:33,2:39:13,,,6:51:19,2488,12033,9553,264,341,24679,567,106,5,389,67,5,542,93,5,567,106,5,Finisher,1819
+Wolfgang,Amann,Wolfgang Amann,662,M45-49,Male,Doha,Doha,Germany,DE,0:41:50,3:20:30,2:36:09,,,6:51:32,2510,12030,9369,498,285,24692,568,462,85,399,329,67,568,466,85,568,462,85,Finisher,904
+Yuriy,Novikov,Yuriy Novikov,170,M40-44,Male,Tver,,Russia,RU,0:53:01,3:19:04,2:28:50,,,6:51:38,3181,11944,8930,298,345,24698,569,463,96,608,490,105,597,486,104,569,463,96,Finisher,869
+Cristian,Palmiere,Cristian Palmiere,724,M45-49,Male,Tartegnin,,Italy,IT,0:45:23,3:24:42,2:33:45,,,6:51:56,2723,12282,9225,269,217,24716,570,464,86,498,406,76,588,480,88,570,464,86,Finisher,896
+Jon,Post,Jon Post,822,M55-59,Male,Haymarket,VA,United States,US,0:41:29,3:11:34,2:44:57,,,6:52:41,2489,11494,9897,419,462,24761,571,465,25,391,323,16,501,425,24,571,465,25,Finisher,1171
+Francesco,Garofanini,Francesco Garofanini,600,M40-44,Male,Colombella,PERUGIA,Italy,IT,0:56:25,3:21:14,2:20:29,,,6:52:47,3385,12074,8429,502,377,24767,572,466,97,642,518,114,628,512,112,572,466,97,Finisher,848
+Riccardo,Carlesso,Riccardo Carlesso,576,M40-44,Male,Zurich,,Italy,IT,0:32:01,3:16:03,2:52:29,,,6:54:11,1921,11763,10349,379,439,24851,573,467,98,68,62,16,472,402,79,573,467,98,Finisher,823
+Bronwen,Williams,Bronwen Williams,224,F25-29,Female,South Africa,,South Africa,ZA,0:48:06,3:27:45,2:28:25,,,6:54:18,2886,12465,8905,323,279,24858,574,107,13,550,103,13,612,112,13,574,107,13,Finisher,1512
+Amy,Baky,Amy Baky,247,F35-39,Female,New Cairo ,Cairo,Egypt,EG,0:37:19,3:16:00,2:48:48,,,6:54:20,2239,11760,10128,363,370,24860,575,108,25,243,39,12,499,76,20,575,108,25,Finisher,875
+John,Conlon,John Conlon,581,M40-44,Male,"Dubai, 22550",DXB,Ireland,IE,0:55:48,3:05:00,2:40:23,,,6:54:48,3348,11100,9623,449,368,24888,576,468,99,633,511,111,556,456,95,576,468,99,Finisher,812
+Dave,de Jong,Dave de Jong,589,M40-44,Male,Netherlands,South Holland,Netherlands,NL,0:41:14,3:24:51,2:37:13,,,6:55:01,2474,12291,9433,321,382,24901,577,469,100,381,315,66,572,469,97,577,469,100,Finisher,808
+Geoffrey,Michael Stecyk,Geoffrey Michael Stecyk,734,M45-49,Male,Dubai,DXB,Canada,CA,0:46:09,3:17:33,2:40:44,,,6:55:49,2769,11853,9644,408,275,24949,578,470,87,520,425,79,567,465,84,578,470,87,Finisher,827
+Sophie,Sewailem,Sophie Sewailem,309,F50-54,Female,Cairo,Cairo,Egypt,EG,0:47:45,3:30:22,2:20:44,,,6:55:52,2865,12622,8444,516,505,24952,579,109,9,547,102,8,631,117,10,579,109,9,Finisher,1043
+Sylvia,George,Sylvia George,292,F45-49,Female,Al Ain,AUH,South Africa,ZA,0:51:57,3:24:52,2:28:50,,,6:55:57,3117,12292,8930,336,282,24957,580,110,18,597,116,20,615,113,19,580,110,18,Finisher,1636
+Omar,Alhajri,Omar Alhajri,372,M30-34,Male,Doha,Doha,Qatar,QA,0:44:38,3:15:29,2:45:37,,,6:56:10,2678,11729,9937,328,298,24970,581,471,68,484,396,52,537,447,61,581,471,68,Finisher,700
+Amir,Ilyas,Amir Ilyas,699,M45-49,Male,AYLESBURY,BKM,United Kingdom,GB,1:01:06,3:07:13,2:19:54,,,6:56:24,3666,11233,8394,1008,683,24984,582,472,88,663,536,96,622,508,93,582,472,88,Finisher,816
+Ahmed,Khater,Ahmed Khater,496,M35-39,Male,Giza,Giza,Egypt,EG,0:44:02,3:10:45,2:47:05,,,6:57:01,2642,11445,10025,592,317,25021,583,473,97,467,382,76,529,442,96,583,473,97,Finisher,700
+Joseph Felix,Fermo,Joseph Felix Fermo,809,M55-59,Male,Singapore,01,Philippines,PH,0:50:54,3:06:43,2:46:37,,,6:57:07,3054,11203,9997,309,464,25027,584,474,26,588,476,29,521,437,26,584,474,26,Finisher,1091
+Tarek,El-Gammal,Tarek El-Gammal,683,M45-49,Male,Cairo,Cairo,Egypt,EG,0:47:12,3:05:12,2:53:07,,,6:57:27,2832,11112,10387,348,368,25047,585,475,89,537,439,81,492,418,76,585,475,89,Finisher,797
+Ahmed,Hamidalddin,Ahmed Hamidalddin,486,M35-39,Male,Riyadh,Central Region,Saudi Arabia,SA,1:09:47,3:16:56,2:11:01,,,6:57:32,4187,11816,7861,661,527,25052,586,476,98,675,547,117,643,526,113,586,476,98,Finisher,700
+Aiman,Elsayed,Aiman Elsayed,476,M35-39,Male,Doha,Doha,Egypt,EG,1:01:01,3:08:52,2:37:19,,,6:58:16,3661,11332,9439,380,284,25096,587,477,99,662,535,115,593,482,101,587,477,99,Finisher,700
+Renier,Crouse,Renier Crouse,585,M40-44,Male,Cape Town,Western Cape,Netherlands,NL,0:40:39,3:07:29,2:56:17,,,6:58:20,2439,11249,10577,390,445,25100,588,478,101,363,300,64,474,404,80,588,478,101,Finisher,748
+Andrew,Santos,Andrew Santos,531,M35-39,Male,Doha,Doha,Philippines,PH,1:00:18,3:15:05,2:32:51,,,6:59:13,3618,11705,9171,289,370,25153,589,479,100,661,534,114,607,496,104,589,479,100,Finisher,700
+Angelica,Soriano,Angelica Soriano,236,F30-34,Female,dasmarinas,cavite,Philippines,PH,0:56:14,3:07:26,2:40:03,,,6:59:16,3374,11246,9603,455,478,25156,590,111,16,640,124,17,569,103,14,590,111,16,Finisher,1027
+Monika,Wolter,Monika Wolter,241,F30-34,Female,Richterswil,warmińsko-mazurskie,Switzerland,CH,0:47:23,3:33:30,2:29:35,,,6:59:28,2843,12810,8975,263,277,25168,591,112,17,542,100,12,624,115,16,591,112,17,Finisher,1023
+Ahmad,Samra,Ahmad Samra,530,M35-39,Male,Espoo,Uusimaa,Syria,SY,0:53:34,3:59:32,1:56:52,,,7:00:22,3214,14372,7012,343,281,25222,592,480,101,612,493,105,670,543,116,592,480,101,Finisher,700
+Kirsty,Mckay,Kirsty Mckay,307,F50-54,Female,Isa Town,Isa Town,United Kingdom,GB,0:43:58,3:15:18,2:49:56,,,7:00:25,2638,11718,10196,329,344,25225,593,113,10,465,84,5,531,89,7,593,113,10,Finisher,961
+Ziggy,Sigler,Ziggy Sigler,641,M40-44,Male,APO,AE,United States,US,0:53:49,3:25:54,2:27:40,,,7:01:00,3229,12354,8860,318,499,25260,594,481,102,617,498,107,621,507,111,594,481,102,Finisher,700
+Kate,Finbow,Kate Finbow,274,F40-44,Female,manama,457,Bahrain,BH,0:42:04,3:17:14,2:50:26,,,7:01:04,2524,11834,10226,377,303,25264,595,114,22,410,72,17,537,91,19,595,114,22,Finisher,1478
+Marlon,Morais,Marlon Morais,511,M35-39,Male,ROCHDALE,Lancashire,Jamaica,JM,0:54:50,3:34:08,2:16:55,,,7:01:07,3290,12848,8215,529,385,25267,596,482,102,627,506,107,644,527,114,596,482,102,Finisher,700
+Katie,Kurz,Katie Kurz,131,F40-44,Female,Dübendorf,,United States,US,0:36:59,3:23:52,2:50:06,,,7:01:43,2219,12232,10206,390,256,25303,597,115,23,228,37,8,548,96,20,597,115,23,Finisher,1467
+Nick,Patmore,Nick Patmore,629,M40-44,Male,Dubai,DXB,South Africa,ZA,0:43:41,3:03:09,3:04:59,,,7:03:14,2621,10989,11099,334,351,25394,598,483,103,461,378,80,460,395,76,598,483,103,Finisher,700
+Keiko Kaitlin,Kikuchi,Keiko Kaitlin Kikuchi,136,F45-49,Female,futakokawasaki,kanagawa,Japan,JP,0:35:03,3:58:16,2:11:45,,,7:03:47,2103,14296,7905,557,566,25427,599,116,19,153,21,1,651,120,21,599,116,19,Finisher,1495
+Sunil,Deshpande,Sunil Deshpande,760,M50-54,Male,RUWI,Muscat,Oman,OM,0:50:52,3:18:29,2:40:37,,,7:04:12,3052,11909,9637,528,326,25452,600,484,50,586,475,49,601,490,52,600,484,50,Finisher,724
+Ahmed,Elsheikh,Ahmed Elsheikh,398,M30-34,Male,Dubai,DXB,Egypt,EG,0:48:34,3:10:41,2:50:54,,,7:04:27,2914,11441,10254,332,526,25467,601,485,69,559,452,64,532,443,59,601,485,69,Finisher,700
+Rakan,Nazer,Rakan Nazer,623,M40-44,Male,Riyadh,Central,Saudi Arabia,SA,0:47:57,3:22:51,2:39:05,,,7:04:35,2877,12171,9545,415,467,25475,602,486,104,548,446,95,598,487,105,602,486,104,Finisher,700
+Naoufel,Elouariti,Naoufel Elouariti,594,M40-44,Male,EL JADIDA,19/12/1975,Morocco,MA,0:49:36,3:33:02,2:29:14,,,7:04:51,2976,12782,8954,344,435,25491,603,487,105,571,462,98,634,517,114,603,487,105,Finisher,700
+Douglas,Pickles,Douglas Pickles,631,M40-44,Male,Dubai,DXB,United Kingdom,GB,0:44:18,3:14:41,2:58:11,,,7:04:55,2658,11681,10691,251,214,25495,604,488,106,473,386,82,522,438,90,604,488,106,Finisher,700
+Ali,Hasan,Ali Hasan,488,M35-39,Male,Jerdab,Capital,Bahrain,BH,0:42:34,3:20:03,2:48:33,,,7:05:44,2554,12003,10113,427,447,25544,605,489,103,425,351,66,561,460,98,605,489,103,Finisher,700
+Ian,Maclure,Ian Maclure,615,M40-44,Male,Wigan,,United Kingdom,GB,0:52:00,3:15:22,2:48:13,,,7:06:10,3120,11722,10093,393,242,25570,606,490,107,598,482,101,585,477,102,606,490,107,Finisher,700
+Betulla,Khan,Betulla Khan,670,M45-49,Male,Vadodara,Gujrat,India,IN,0:49:13,3:18:58,2:46:08,,,7:06:20,2953,11938,9968,457,264,25580,607,491,90,566,458,84,591,481,89,607,491,90,Finisher,700
+Abdulaziz,Alyahya,Abdulaziz Alyahya,455,M35-39,Male,Dammam,Eastern Region,Saudi Arabia,SA,0:54:34,3:12:01,2:49:58,,,7:06:32,3274,11521,10198,325,274,25592,608,492,104,622,501,106,575,472,99,608,492,104,Finisher,700
+Paul,Beaurain,Paul Beaurain,569,M40-44,Male,Wormhout,,France,FR,0:44:45,3:27:03,2:42:13,,,7:06:38,2685,12423,9733,395,362,25598,609,493,108,487,399,86,602,491,106,609,493,108,Finisher,700
+Fabrice,Petit,Fabrice Petit,787,M50-54,Male,Janabiyah,Janabiyah,France,FR,0:53:48,3:23:16,2:40:03,,,7:07:08,3228,12196,9603,294,307,25628,610,494,51,616,497,52,614,502,53,610,494,51,Finisher,700
+Cledion,Taporco,Cledion Taporco,545,M35-39,Male,MUSCAT,MUSCAT,Philippines,PH,0:45:23,3:10:21,3:01:02,,,7:07:50,2723,11421,10862,294,370,25670,611,495,105,498,406,85,505,427,92,611,495,105,Finisher,700
+Faisal,Almuhanna,Faisal Almuhanna,558,M40-44,Male,Kuwait,Kuwait,Kuwait,KW,0:41:17,3:07:35,3:04:26,,,7:08:32,2477,11255,11066,392,522,25712,612,496,109,383,317,67,476,406,81,612,496,109,Finisher,700
+Richard,Crook,Richard Crook,804,M55-59,Male,Sleaford,Lincolnshire,United Kingdom,GB,0:34:08,3:01:19,3:23:09,,,7:08:32,2048,10879,12189,313,283,25712,612,496,27,125,108,5,379,329,16,612,496,27,Finisher,886
+Badih,Moukarzel,Badih Moukarzel,817,M55-59,Male,dubai,Dubai,France,FR,0:46:29,3:13:25,2:54:06,,,7:08:37,2789,11605,10446,395,482,25717,614,498,28,529,433,25,543,450,27,614,498,28,Finisher,884
+Harith,Al Durrah,Harith Al Durrah,551,M40-44,Male,Khobar,Eastern Province,Iraq,IQ,0:55:27,3:19:41,2:43:26,,,7:09:41,3327,11981,9806,341,326,25781,615,499,110,631,510,110,611,500,108,615,499,110,Finisher,700
+Parth,Apte,Parth Apte,324,M18-24,Male,Pune,Maharashtra,India,IN,0:53:42,3:15:26,2:47:38,,,7:09:57,3222,11726,10058,317,474,25797,616,500,12,614,495,11,587,479,12,616,500,12,Finisher,700
+Julien,Romanet,Julien Romanet,527,M35-39,Male,Seeb,Muscat,France,FR,0:57:59,3:24:11,2:36:25,,,7:10:13,3479,12251,9385,335,363,25813,617,501,106,649,525,110,633,516,110,617,501,106,Finisher,700
+Kirsty,Lovell,Kirsty Lovell,296,F45-49,Female,Marlow,Buckinghamshire,United Kingdom,GB,0:45:25,3:18:06,2:56:02,,,7:10:13,2725,11886,10562,338,302,25813,617,117,20,500,93,16,559,101,16,617,117,20,Finisher,1379
+George,Redman Iii,George Redman Iii,729,M45-49,Male,Surfside Beach,SC,United States,US,0:47:12,3:31:10,2:18:21,,,7:11:44,2832,12670,8301,1300,801,25904,619,502,91,537,439,81,648,530,96,619,502,91,Finisher,700
+Angela,Robinette,Angela Robinette,301,F45-49,Female,Riffa,Kingdom of Bahrain,United States,US,0:52:30,3:31:11,2:22:25,,,7:11:47,3150,12671,8545,984,557,25907,620,118,21,602,118,21,649,119,20,620,118,21,Finisher,1351
+Willem,Erasmus,Willem Erasmus,478,M35-39,Male,dubai,DXB,South Africa,ZA,0:45:55,3:19:51,2:51:24,,,7:13:06,2755,11991,10284,475,481,25986,621,503,107,513,419,87,582,476,100,621,503,107,Finisher,700
+Ahmed,Sousa,Ahmed Sousa,644,M40-44,Male,,DXB,Egypt,EG,0:46:25,3:30:15,2:41:56,,,7:13:14,2785,12615,9716,352,526,25994,622,504,111,527,431,92,616,503,109,622,504,111,Finisher,700
+David,Barker,David Barker,802,M55-59,Male,Richmond,,United Kingdom,GB,0:34:31,3:00:44,3:23:33,,,7:13:43,2071,10844,12213,223,672,26023,623,505,29,133,115,6,361,314,15,623,505,29,Finisher,792
+Gary,Dockerty,Gary Dockerty,807,M55-59,Male,Dubai,DXB,United Kingdom,GB,0:57:21,3:21:42,2:37:23,,,7:13:58,3441,12102,9443,562,490,26038,624,506,30,647,523,31,635,518,30,624,506,30,Finisher,788
+Zaahir,Howell,Zaahir Howell,697,M45-49,Male,,Western Cape,South Africa,ZA,0:41:58,3:28:23,2:51:45,,,7:14:28,2518,12503,10305,397,345,26068,625,507,92,404,334,68,596,485,90,625,507,92,Finisher,700
+Shivaji,Kate,Shivaji Kate,415,M30-34,Male,Mumbai,Maharashtra,India,IN,0:53:37,3:35:10,2:39:17,,,7:16:54,3217,12910,9557,289,241,26214,626,508,70,613,494,68,640,523,72,626,508,70,Finisher,700
+Ashraf,Abdel Moneim,Ashraf Abdel Moneim,656,M45-49,Male,giza,Mohandessin,Egypt,EG,0:40:37,3:23:32,2:59:35,,,7:17:31,2437,12212,10775,456,371,26251,627,509,93,361,298,63,573,470,87,627,509,93,Finisher,700
+Uwe,Prein,Uwe Prein,831,M60-64,Male,Lünen,,Germany,DE,0:51:27,3:21:44,2:46:45,,,7:19:01,3087,12104,10005,666,479,26341,628,510,6,592,478,6,618,504,6,628,510,6,Finisher,911
+Hamza Ali,Salloum,Hamza Ali Salloum,432,M30-34,Male,Muscat,Bawshar,Lebanon,LB,0:52:40,3:21:23,2:53:00,,,7:19:06,3160,12083,10380,354,369,26346,629,511,71,603,485,67,605,494,67,629,511,71,Finisher,700
+Simon,Tait,Simon Tait,543,M35-39,Male,Salisbury,,United Kingdom,GB,0:47:15,3:26:56,2:54:04,,,7:19:44,2835,12416,10444,387,302,26384,630,512,108,539,441,92,609,498,105,630,512,108,Finisher,700
+Adrian,Bethell,Adrian Bethell,751,M50-54,Male,dubai,DXB,United Kingdom,GB,0:50:17,3:09:07,3:04:01,,,7:20:04,3017,11347,11041,509,490,26404,631,513,52,581,471,48,553,454,50,631,513,52,Finisher,700
+Mark,Dawson,Mark Dawson,587,M40-44,Male,Dubai,DXB,United Kingdom,GB,0:52:54,3:26:33,2:44:09,,,7:20:09,3174,12393,9849,405,588,26409,632,514,112,607,489,104,629,513,113,632,514,112,Finisher,700
+Alexander,Geiss,Alexander Geiss,765,M50-54,Male,Groß- Zimmern,AK,Germany,DE,0:41:09,3:12:17,3:17:19,,,7:21:44,2469,11537,11839,349,310,26504,633,515,53,379,313,34,496,422,48,633,515,53,Finisher,700
+Meriel,Williams,Meriel Williams,313,F55-59,Female,Malvern,Worcestershire,United Kingdom,GB,0:39:15,3:38:33,2:53:08,,,7:21:45,2355,13113,10388,327,322,26505,634,119,6,308,52,4,617,114,6,634,119,6,Finisher,1271
+Vishwachaitanya,Yeruru,Vishwachaitanya Yeruru,359,M25-29,Male,Pune,Maharashtra,India,IN,0:53:46,3:38:47,2:38:59,,,7:22:35,3226,13127,9539,325,338,26555,635,516,29,615,496,28,645,528,29,635,516,29,Finisher,700
+Mohammad,Taher,Mohammad Taher,542,M35-39,Male,,,Kuwait,KW,0:58:54,3:22:27,2:50:37,,,7:22:36,3534,12147,10237,363,275,26556,636,517,109,655,529,112,632,515,109,636,517,109,Finisher,700
+Nicola,Ancarani,Nicola Ancarani,663,M45-49,Male,Bologna,Italy,Italy,IT,0:37:02,3:29:23,3:05:53,,,7:22:58,2222,12563,11153,299,341,26578,637,518,94,230,193,41,571,468,86,637,518,94,Finisher,700
+Nic,Jacobs,Nic Jacobs,607,M40-44,Male,Hartenbos,Western Cape,South Africa,ZA,0:40:37,2:52:21,3:34:25,,,7:23:12,2437,10341,12865,456,493,26592,638,519,113,361,298,63,378,328,67,638,519,113,Finisher,700
+Iurii,Kavetskii,Iurii Kavetskii,495,M35-39,Male,Москва,"
+Москва",Russia,RU,0:46:28,3:29:11,2:49:25,,,7:24:48,2788,12551,10165,533,651,26688,639,520,110,528,432,90,619,505,106,639,520,110,Finisher,700
+Kedar,Vartak,Kedar Vartak,795,M50-54,Male,SHARJAH,Sharjah,India,IN,1:02:22,3:28:11,2:31:59,,,7:24:53,3742,12491,9119,823,518,26693,640,521,54,666,539,56,653,532,54,640,521,54,Finisher,700
+Marko,Ristic,Marko Ristic,634,M40-44,Male,Doha,Qatar,Serbia,RS,0:46:52,3:22:19,2:55:03,,,7:26:37,2812,12139,10503,693,650,26797,641,522,114,536,438,94,610,499,107,641,522,114,Finisher,700
+Abdulrahman Soliman,Aladawi,Abdulrahman Soliman Aladawi,321,M18-24,Male,doha,muslim,Qatar,QA,1:07:33,3:35:23,2:32:28,,,7:28:19,4053,12923,9148,292,483,26899,642,523,13,672,544,13,656,533,13,642,523,13,Finisher,700
+Abeer,Hamed,Abeer Hamed,293,F45-49,Female,Cairo,Cairo,Egypt,EG,0:51:21,3:47:02,2:40:32,,,7:29:59,3081,13622,9632,372,292,26999,643,120,22,591,114,18,654,122,22,643,120,22,Finisher,1023
+Sulaiman,Al-Abduljader,Sulaiman Al-Abduljader,442,M35-39,Male,Kuwait City,Kuwait,Kuwait,KW,0:49:59,3:31:34,2:57:45,,,7:32:20,2999,12694,10665,261,521,27140,644,524,111,578,468,101,627,511,107,644,524,111,Finisher,700
+Devang,Sampat,Devang Sampat,529,M35-39,Male,Muscat,Muscat,Oman,OM,0:47:33,3:35:36,2:58:06,,,7:35:12,2853,12936,10686,407,430,27312,645,525,112,544,444,93,636,519,111,645,525,112,Finisher,700
+Mohammed,Almalki,Mohammed Almalki,376,M30-34,Male,Doha,AD DAW?AH,Qatar,QA,0:46:35,3:41:32,2:58:25,,,7:35:29,2795,13292,10705,219,318,27329,646,526,72,534,436,60,638,521,71,646,526,72,Finisher,700
+John,Johnstone,John Johnstone,812,M55-59,Male,Dubai,DXB,United Kingdom,GB,0:56:11,3:27:31,2:52:38,,,7:35:35,3371,12451,10358,570,585,27335,647,527,31,639,516,30,639,522,31,647,527,31,Finisher,700
+Salman,Alhajri,Salman Alhajri,371,M30-34,Male,Rayyan,Muather,Qatar,QA,0:47:23,3:26:50,3:13:47,,,7:39:34,2843,12410,11627,344,350,27574,648,528,73,542,443,62,605,494,67,648,528,73,Finisher,700
+abdulaziz,albusaidy,abdulaziz albusaidy,443,M35-39,Male,Seeb,Muscat/Seeb /alhail,Oman,OM,0:40:36,3:19:07,3:30:54,,,7:40:45,2436,11947,12654,306,302,27645,649,529,113,360,297,54,533,444,97,649,529,113,Finisher,700
+Jerri,Taylor,Jerri Taylor,304,F45-49,Female,Manama,Bahrain,Bahrain,BH,1:06:53,3:33:10,2:48:08,,,7:43:26,4013,12790,10088,344,571,27806,650,121,23,671,128,25,655,123,23,650,121,23,Finisher,781
+Richard,Resurreccion,Richard Resurreccion,730,M45-49,Male,Molino IV / Bacoor,Cavite,Philippines,PH,1:08:12,3:25:43,2:59:13,,,7:44:06,4092,12343,10753,282,376,27846,651,530,95,674,546,98,646,529,95,651,530,95,Finisher,700
+Yevhenii,Selitrar,Yevhenii Selitrar,354,M25-29,Male,Kyiv,Kyiv,Ukraine,UA,0:48:28,3:53:33,2:49:21,,,7:44:36,2908,14013,10161,370,424,27876,652,531,30,557,451,26,657,534,30,652,531,30,Finisher,700
+Joe,Carver,Joe Carver,676,M45-49,Male,CHICAGO,IL,United States,US,0:49:50,3:04:15,3:31:18,,,7:44:42,2990,11055,12678,512,647,27882,653,532,96,575,466,87,519,436,80,653,532,96,Finisher,700
+Sarah,Abdou,Sarah Abdou,242,F35-39,Female,London,foreigner,Egypt,EG,0:46:19,4:02:46,2:38:48,,,7:46:04,2779,14566,9528,512,579,27964,654,122,26,523,96,22,668,127,28,654,122,26,Finisher,700
+Adrian,Woodcock,Adrian Woodcock,745,M45-49,Male,Muscat,Oman,United Kingdom,GB,1:07:48,3:39:41,2:50:28,,,7:48:35,4068,13181,10228,262,376,28115,655,533,97,673,545,97,660,537,98,655,533,97,Finisher,700
+Charles,Fernandez,Charles Fernandez,686,M45-49,Male,Vienna,VA,United States,US,0:59:49,3:42:14,2:56:06,,,7:49:30,3589,13334,10566,370,311,28170,656,534,98,659,532,95,658,535,97,656,534,98,Finisher,700
+Fatma,Alghanim,Fatma Alghanim,244,F35-39,Female,Doha,Unlisted (UL),Qatar,QA,0:58:04,3:48:37,2:46:08,,,7:50:54,3484,13717,9968,454,631,28254,657,123,27,650,125,28,664,125,27,657,123,27,Finisher,700
+Mohamed,Khalifa,Mohamed Khalifa,775,M50-54,Male,cairo,Cairo,Egypt,EG,1:01:16,3:42:27,2:46:10,,,7:51:50,3676,13347,9970,551,766,28310,658,535,55,665,538,55,661,538,56,658,535,55,Finisher,700
+Hemant,Budhivant,Hemant Budhivant,574,M40-44,Male,Darwin,NT,India,IN,1:06:41,3:48:38,2:38:36,,,7:55:39,4001,13718,9516,581,723,28539,659,536,115,670,543,117,672,544,117,659,536,115,Finisher,700
+Ahmed,Effat,Ahmed Effat,474,M35-39,Male,Cairo,Cairo,Egypt,EG,0:49:47,3:22:33,3:24:23,,,7:56:08,2987,12153,12263,395,770,28568,660,537,114,573,464,99,603,492,103,660,537,114,Finisher,700
+Pamela,Vargas,Pamela Vargas,265,F35-39,Female,Dubai,DXB,Chile,CL,0:48:14,3:45:16,3:11:23,,,7:57:37,2894,13516,11483,388,376,28657,661,124,28,553,105,24,647,118,26,661,124,28,Finisher,700
+Dr Venkatesh,Annigeri,Dr Venkatesh Annigeri,561,M40-44,Male,Dharwad,Karnataka,India,IN,0:53:05,3:54:20,2:52:21,,,7:58:47,3185,14060,10341,638,503,28727,662,538,116,609,491,106,669,542,116,662,538,116,Finisher,700
+Vandana,Rajesh,Vandana Rajesh,298,F45-49,Female,Mumbai,Maharashtra,India,IN,0:58:43,3:50:47,2:59:55,,,8:02:06,3523,13847,10795,269,492,28926,663,125,24,654,126,23,663,124,24,663,125,24,Finisher,700
+Lorfel Ian,Dela Peña,Lorfel Ian Dela Peña,469,M35-39,Male,Bilwang,"Isabel, Leyte",Philippines,PH,1:06:27,3:26:06,3:22:17,,,8:04:47,3987,12366,12137,302,295,29087,664,539,115,669,542,116,642,525,112,664,539,115,Finisher,700
+Yahya,Alhashimi,Yahya Alhashimi,447,M35-39,Male,Muscat,Muscat,Oman,OM,0:58:13,3:52:53,3:01:49,,,8:05:29,3493,13973,10909,365,389,29129,665,540,116,653,528,111,667,541,115,665,540,116,Finisher,700
+Lesley,Jones,Lesley Jones,311,F55-59,Female,Dartford,kent,United Kingdom,GB,0:47:16,3:48:01,3:13:26,,,8:05:57,2836,13681,11606,519,515,29157,666,126,7,540,99,7,652,121,7,666,126,7,Finisher,700
+Noreen,Hussaini,Noreen Hussaini,294,F45-49,Female,,,Malaysia,MY,0:59:29,3:51:22,3:04:50,,,8:10:52,3569,13882,11090,559,352,29452,667,127,25,658,127,24,671,128,25,667,127,25,Finisher,700
+Joel,Parajas,Joel Parajas,785,M50-54,Male,"Del Remedio, San Pablo City",Laguna,Philippines,PH,0:57:55,3:45:31,3:18:03,,,8:12:40,3475,13531,11883,332,339,29560,668,541,56,648,524,53,659,536,55,668,541,56,Finisher,700
+Hamed,Moosa,Hamed Moosa,350,M25-29,Male,Muscat,Muscat,Oman,OM,1:04:57,3:58:24,3:00:03,,,8:14:05,3897,14304,10803,299,342,29645,669,542,31,667,540,31,675,547,31,669,542,31,Finisher,700
+Khalifa,Al Falasi,Khalifa Al Falasi,552,M40-44,Male,Abu Dhabi,AUH,United Arab Emirates,AE,0:54:00,3:36:29,3:21:58,,,8:14:20,3240,12989,12118,704,609,29660,670,543,117,619,499,108,650,531,115,670,543,117,Finisher,700
+Mohamad,El Khalil,Mohamad El Khalil,475,M35-39,Male,Dubai,DXB,Lebanon,LB,0:58:55,4:00:56,3:03:50,,,8:15:54,3535,14456,11030,368,365,29754,671,544,117,656,530,113,673,545,117,671,544,117,Finisher,700
+Mohamed,Hamza,Mohamed Hamza,410,M30-34,Male,"Hamad town
+",bahrain,Bahrain,BH,0:56:02,3:48:16,3:17:20,,,8:17:11,3362,13696,11840,575,358,29831,672,545,74,635,513,70,662,539,74,672,545,74,Finisher,700
+Rhonda,Kotb,Rhonda Kotb,278,F40-44,Female,Dubai,DXB,United States,US,0:55:34,3:50:04,3:13:42,,,8:17:17,3334,13804,11622,558,519,29837,673,128,24,632,122,24,665,126,24,673,128,24,Finisher,700
+Mohammed,Alqahtani,Mohammed Alqahtani,380,M30-34,Male,Doha,Doha,Qatar,QA,0:56:21,3:54:18,3:21:19,,,8:24:09,3381,14058,12079,322,409,30249,674,546,75,641,517,71,666,540,75,674,546,75,Finisher,700
+zaid,Altaweel,zaid Altaweel,383,M30-34,Male,Riyadh,Riyadh,Saudi Arabia,SA,1:05:09,3:57:40,3:16:28,,,8:29:48,3909,14260,11788,276,355,30588,675,547,76,668,541,76,674,546,76,675,547,76,Finisher,700
+Francesco,Cenerini,Francesco Cenerini,677,M45-49,Male,Bologna,Bologna,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeffrey,Hare,Jeffrey Hare,772,M50-54,Male,Greeley,CO,United States,US,0:49:25,,,,,,2965,0,0,526,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Bas,Vloet,Bas Vloet,828,M55-59,Male,Cuijk,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Caroline,Bolle,Caroline Bolle,270,F40-44,Female,Al Khuwair,Muscat,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Clint,Magg,Clint Magg,77,M35-39,Male,Appenzell,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amani,Mansour,Amani Mansour,256,F35-39,Female,Dubai,DU,Jordan,JO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Hynan,David Hynan,110,M50-54,Male,SOLANA BEACH,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Lavender,Mark Lavender,181,M45-49,Male,,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Saoud,Almarri,Saoud Almarri,748,M50-54,Male,Doha,Qatar,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alan,Bayliss,Alan Bayliss,108,M50-54,Male,Salisbury,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amin,Soltani,Amin Soltani,643,M40-44,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peter,Dobbie,Peter Dobbie,806,M55-59,Male,Slough,N/A,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mathew,Boice,Mathew Boice,752,M50-54,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohammed,Alqais,Mohammed Alqais,845,M30-34,Male,riffa,Southern,Bahrain,BH,0:35:38,2:28:26,,,,,2138,8906,0,189,126,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ibrahim,Alrekhais,Ibrahim Alrekhais,381,M30-34,Male,Kuwait City,Kuwait,Kuwait,KW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ferdinand,De Guzman,Ferdinand De Guzman,588,M40-44,Male,Abu Dhabi,AUH,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicholas,Tassell,Nicholas Tassell,546,M35-39,Male,Dubai,DXB,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Walid,Shihabi,Walid Shihabi,640,M40-44,Male,Dubai,Dubai,Lebanon,LB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jens,Traunsberger,Jens Traunsberger,793,M50-54,Male,Quedlinburg,,Oman,OM,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ian,Farrell,Ian Farrell,73,M35-39,Male,Dubai,,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Julien,Bletterie,Julien Bletterie,59,M25-29,Male,DUBAI,Provence-Alpes-Côte D'Azur,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Johan,Nilerud,Johan Nilerud,627,M40-44,Male,St. Albans,Hertfordshire,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nabil,Khadiri Yazami,Nabil Khadiri Yazami,609,M40-44,Male,Dhahran,Eastern,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Malcolm,Marsden,Malcolm Marsden,713,M45-49,Male,Portsmouth,Hampshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicholas,Tipper,Nicholas Tipper,81,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:30:02,2:32:58,,,,,1802,9178,0,159,225,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Raman,Marans,Raman Marans,420,M30-34,Male,Moscow,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francois,Gouws,Francois Gouws,769,M50-54,Male,Riyadh,Riyadh,Saudi Arabia,SA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tugce,Arac,Tugce Arac,126,F35-39,Female,Istanbul,Besiktas,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Haas,Malik,Haas Malik,550,M40-44,Male,HOUSTON,TX,Pakistan,PK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,O'Brien,Mike O'Brien,783,M50-54,Male,Dubai,DXB,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ebrahim,Alromaihi,Ebrahim Alromaihi,339,M25-29,Male,Doha,Doha,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dina,Kamal,Dina Kamal,252,F35-39,Female,Dubai,DXB,Canada,CA,,,,,,,0,0,0,0,123,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+George,Perkins,George Perkins,521,M35-39,Male,,DXB,South Africa,ZA,0:50:35,4:22:59,,,,,3035,15779,0,469,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sherif,Ebied,Sherif Ebied,471,M35-39,Male,,DXB,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andre,Viljoen,Andre Viljoen,114,M50-54,Male,,DXB,South Africa,ZA,0:35:26,2:23:47,,,,,2126,8627,0,251,217,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Talal,Al-Afghani,Talal Al-Afghani,366,M30-34,Male,Dubai,DXB,Jordan,JO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Clement,Deydier,Clement Deydier,396,M30-34,Male,London,Greater London,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dale,Goldie,Dale Goldie,403,M30-34,Male,KILMARNOCK,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bachir,Ayache,Bachir Ayache,564,M40-44,Male,Khobar,Eastern Province,Algeria,DZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ben,Cranwell,Ben Cranwell,63,M30-34,Male,,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Riitta,Knodt,Riitta Knodt,314,F60-64,Female,Frankfurt,HE,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Bernd,Schneider,Bernd Schneider,733,M45-49,Male,Köln,NW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jerome,Lagarde,Jerome Lagarde,706,M45-49,Male,Dubai,DXB,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregory,Hughes,Gregory Hughes,606,M40-44,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gutierrez,Francisco,Gutierrez Francisco,687,M45-49,Male,Vina del Mar,Valparaíso,Chile,CL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grant,Nash,Grant Nash,622,M40-44,Male,Abu Dhabi,AUH,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Russell,Boyd,Russell Boyd,572,M40-44,Male,Dubai,DXB,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hasan Cagri,Terzioglu,Hasan Cagri Terzioglu,436,M30-34,Male,,DXB,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eduard,Moix,Eduard Moix,510,M35-39,Male,Singapore,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amr,Moneeb,Amr Moneeb,154,M35-39,Male,Dubai,DXB,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ben,Walton,Ben Walton,15,M35-39,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Elie,Haikal,Elie Haikal,483,M35-39,Male,,,Lebanon,LB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dr Hussain,Haleem,Dr Hussain Haleem,771,M50-54,Male,Male',Maldives,Maldives,MV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arno,Dietrich,Arno Dietrich,762,M50-54,Male,Cascais,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aljuhn,Davantes,Aljuhn Davantes,193,M50-54,Male,manila,manila,Philippines,PH,1:12:57,3:00:07,2:31:32,,,6:56:34,4377,10807,9092,272,446,24994,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rob,Weston,Rob Weston,653,M40-44,Male,london,London,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hashem,Alharbi,Hashem Alharbi,658,M45-49,Male,Abu Dhabi ,AUH,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Erik,Boekel,Erik Boekel,191,M50-54,Male,Dubai,DUBAYY,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hamad,Alghanem,Hamad Alghanem,370,M30-34,Male,Dmamm,Eastern province,Saudi Arabia,SA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lorenzo Jay-Son,Manansala,Lorenzo Jay-Son Manansala,418,M30-34,Male,Caloocan,Caloocan,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Gratzer,Michael Gratzer,770,M50-54,Male,Keutschach,KARNTEN,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eshagh,Balouchi,Eshagh Balouchi,386,M30-34,Male,doha,qatar,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohammed,Alqassar,Mohammed Alqassar,166,M40-44,Male,Kuwait,Kuwait,Kuwait,KW,0:59:53,,,,,,3593,0,0,796,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Abelardo,Ralph,Abelardo Ralph,549,M40-44,Male,Quezon City,Manila,Philippines,PH,1:18:19,,,,,,4699,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Justin,Martin,Justin Martin,714,M45-49,Male,Dhahran,Saudi Arabia,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Heba,Osman,Heba Osman,283,F40-44,Female,Dubai,DXB,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anna,Crampin,Anna Crampin,272,F40-44,Female,Stamford,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Mostafa,Hesham,Mostafa Hesham,489,M35-39,Male,doha,qatar,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tim,Young,Tim Young,360,M25-29,Male,Brisbane,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hanny,Elmessiry,Hanny Elmessiry,808,M55-59,Male,Maadi - Cairo,Egypt,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christine,Pagen,Christine Pagen,137,F45-49,Female,Upper Marlboro,MD,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fatma,Alsalem,Fatma Alsalem,246,F35-39,Female,kuwait,,Kuwait,KW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hassan,Alsayed,Hassan Alsayed,382,M30-34,Male,Doha,Qatar,Qatar,QA,1:14:18,3:59:59,,,,,4458,14399,0,490,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Peter,Weiss,Peter Weiss,105,M45-49,Male,Dubai,Dubai,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bradley,Holliday,Bradley Holliday,491,M35-39,Male,Doha,Doha,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mahmoud,Qutub,Mahmoud Qutub,728,M45-49,Male,Doha,NA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hazem,Zayed,Hazem Zayed,829,M55-59,Male,6th of October,Giza,Egypt,EG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abdul Fatah,Al Saadi,Abdul Fatah Al Saadi,554,M40-44,Male,DOHA,GCC,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sean,Mc Fadden,Sean Mc Fadden,836,M40-44,Male,Letterkenny ,Donegal ,Ireland,IE,0:32:51,,,,,,1971,0,0,1818,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Malcolm,Geluk,Malcolm Geluk,690,M45-49,Male,Palmerston North,MWT,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aldo,Spagnoli,Aldo Spagnoli,826,M55-59,Male,Milano,MILANO,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bettina,Herzog,Bettina Herzog,128,F35-39,Female,Maria Taferl,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Massimiliano,Rovatti,Massimiliano Rovatti,789,M50-54,Male,Lonato,Brescia,Italy,IT,0:35:13,3:25:09,,,,,2113,12309,0,332,407,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Andy,Veall,Andy Veall,651,M40-44,Male,Sharjah,SHJ,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+salmeen,alhilabi,salmeen alhilabi,747,M50-54,Male,doha,doha,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Romeo,Tribunalo,Romeo Tribunalo,740,M45-49,Male,Balamban,Cebu,Philippines,PH,1:11:08,3:42:28,2:59:10,,,8:03:29,4268,13348,10750,270,373,29009,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Pablo,Maceiras,Pablo Maceiras,503,M35-39,Male,North Vancouver,BC,Uruguay,UY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Orlandi,Kevin Orlandi,79,M35-39,Male,Biscarrosse,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bill,Weymouth,Bill Weymouth,163,M35-39,Male,Clonmel ,TIPPERARY,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pawel,Cordier,Pawel Cordier,583,M40-44,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marc,Llovera Subirats,Marc Llovera Subirats,613,M40-44,Male,sant cugat del valles,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Mcutchen,Chris Mcutchen,508,M35-39,Male,Mount Martha,VIC,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Harper,Scott Harper,179,M45-49,Male,dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joe,Harney,Joe Harney,153,M35-39,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohammed,Althani,Mohammed Althani,384,M30-34,Male,doha,qatar,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abdelkarim,Aldabdob,Abdelkarim Aldabdob,368,M30-34,Male,lusail,doha,Jordan,JO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Can,Haliloglu,Can Haliloglu,485,M35-39,Male,Dubai,DXB,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Meshary,Al-Ayed,Meshary Al-Ayed,555,M40-44,Male,Dammam,Eastern Province,Saudi Arabia,SA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paolo,Delicata,Paolo Delicata,591,M40-44,Male,Chislehurst,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Libardo,Bru,Libardo Bru,755,M50-54,Male,Dubai,DXB,Panama,PA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Robert,Clarke,Robert Clarke,757,M50-54,Male,Bath,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ryan,Alborough,Ryan Alborough,367,M30-34,Male,Dubai Tecom,DXB,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andres,Torres,Andres Torres,36,M55-59,Male,Miami,FL,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abdulrhman,Alkuwari,Abdulrhman Alkuwari,338,M25-29,Male,Doha,Izghawa,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alex,Mccrea,Alex Mccrea,507,M35-39,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ayham,Al-Nahhas,Ayham Al-Nahhas,661,M45-49,Male,Doha,Doha,Canada,CA,0:55:14,3:52:35,3:32:04,,,8:35:15,3314,13955,12724,377,545,30915,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ian,Rogers,Ian Rogers,824,M55-59,Male,Manila,PH-QUE,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hugh,Ragg,Hugh Ragg,430,M30-34,Male,,DXB,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+James,Casey,James Casey,465,M35-39,Male,,DXB,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andre,Kuehne,Andre Kuehne,500,M35-39,Male,Dubai,DXB,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefan,Hanekom,Stefan Hanekom,487,M35-39,Male,,DXB,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jefferson,Calinao,Jefferson Calinao,575,M40-44,Male,Pasig City,Metro Manila,Philippines,PH,1:01:16,3:47:11,3:28:01,,,8:30:49,3676,13631,12481,356,505,30649,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Nayef,Almarooq,Nayef Almarooq,834,M35-39,Male,Abudhabi,AUH,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Diane,Gordon,Diane Gordon,138,F55-59,Female,Dubai,DXB,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hardik,Patil,Hardik Patil,426,M30-34,Male,Virar,Maharashtra,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Kops,Eric Kops,198,M50-54,Male,3224CW,Other,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitry,Govorov,Dmitry Govorov,481,M35-39,Male,Manama,Capital,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Brett,Hart,Brett Hart,695,M45-49,Male,Wurtulla,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francisco,Baez Morant,Francisco Baez Morant,566,M40-44,Male,Abu Dhabi,ABU Z¸ABY,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hatem,Elsafty,Hatem Elsafty,597,M40-44,Male,Doha,NA,Egypt,EG,0:38:56,4:07:59,,,,,2336,14879,0,177,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Benedetta,Pastore,Benedetta Pastore,259,F35-39,Female,Milano,It,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ann,Tayou,Ann Tayou,238,F30-34,Female,Dubai,DXB,France,FR,1:17:24,,,,,,4644,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Antonio Miguel,Ribeiro,Antonio Miguel Ribeiro,525,M35-39,Male,Abu Dhabi,AUH,Portugal,PT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Leighton,Paul Leighton,612,M40-44,Male,Doha,Qatar,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Danielle,Malone,Danielle Malone,255,F35-39,Female,Dubai,DXB,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christopher,Sellar,Christopher Sellar,639,M40-44,Male,Abu Dhabi,AUH,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luke,Remington,Luke Remington,80,M35-39,Male,Arabian Ranches,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abdulrahman,Aldakhail,Abdulrahman Aldakhail,444,M35-39,Male,Qurtoba,Kuwait city,Kuwait,KW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Robert,Khoury,Robert Khoury,702,M45-49,Male,Doha,Doha,Lebanon,LB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Allan,Roenn,Allan Roenn,788,M50-54,Male,Dubai,DXB,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+James,Tracey,James Tracey,739,M45-49,Male,Dubai,DXB,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peter,Lindqvist,Peter Lindqvist,778,M50-54,Male,Hamburg,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paula,Mckinley,Paula Mckinley,280,F40-44,Female,Durrat,Southern,Bahrain,BH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Bull,Richard Bull,392,M30-34,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ali,Alkhuraim,Ali Alkhuraim,449,M35-39,Male,Dhahran,eastern province,Saudi Arabia,SA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Burcu,Aslanagi,Burcu Aslanagi,281,F40-44,Female,Istanbul,,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gulcin,Haliloglu,Gulcin Haliloglu,219,F25-29,Female,Dubai,South Holland,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sari,Alhammadi,Sari Alhammadi,446,M35-39,Male,Abudhabi,AUH,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Giulio,Contaldi,Giulio Contaldi,582,M40-44,Male,Segrate,Milano,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ralf,Eberhardt,Ralf Eberhardt,27,M45-49,Male,,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Philip,Brady,Philip Brady,672,M45-49,Male,Pangbourne,WEST BERKSHIRE,United Kingdom,GB,0:53:11,4:19:40,,,,,3191,15580,0,428,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sarah,Rahimaldeen,Sarah Rahimaldeen,261,F35-39,Female,Riyadh,Central,Saudi Arabia,SA,1:05:02,4:07:01,,,,,3902,14821,0,584,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Nilesh,Gavankar,Nilesh Gavankar,689,M45-49,Male,,,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rajesh,Brahmbhatt,Rajesh Brahmbhatt,754,M50-54,Male,,,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fabien,Escomel,Fabien Escomel,685,M45-49,Male,Doha,Qatar,France,FR,0:32:22,2:20:46,,,,,1942,8446,0,266,293,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Daniel,Ramsay-Smith,Daniel Ramsay-Smith,431,M30-34,Male,Doha,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Frank,Clymans,Frank Clymans,393,M30-34,Male,London,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alberto,Valentini,Alberto Valentini,794,M50-54,Male,Dubai,DXB,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kieran,Ballard,Kieran Ballard,269,F40-44,Female,Sports,DXB,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Edgar,Echevarria,Edgar Echevarria,472,M35-39,Male,Delg. Tlalpan,Mexico City,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pierric,Duthoit,Pierric Duthoit,682,M45-49,Male,Paris,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hayden,Ashfield,Hayden Ashfield,13,M35-39,Male,DIP,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Haitao,Zhu,Haitao Zhu,801,M50-54,Male,Muscat,Muscat,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sinan,Colak,Sinan Colak,580,M40-44,Male,LONDON,,Turkey,TR,,,,,,,0,0,0,0,122,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Bryna,Chrismas,Bryna Chrismas,226,F30-34,Female,Hull,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ahmad,Okasha,Ahmad Okasha,784,M50-54,Male,Dubai,DXB,Jordan,JO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eneko,Elosegui Armendariz,Eneko Elosegui Armendariz,850,MPRO,Male,Beasain,,Oman,OM,0:28:59,2:15:48,,,,,1739,8148,0,119,166,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Abdulla,Alkaabi,Abdulla Alkaabi,337,M25-29,Male,Doha,Doha,Qatar,QA,1:15:11,3:44:41,2:53:21,,,8:07:17,4511,13481,10401,433,411,29237,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+David,White,David White,797,M50-54,Male,Auckland,AUK,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shihong,Huang,Shihong Huang,698,M45-49,Male,广州,广东省,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rahil,Rahil,Rahil Rahil,220,F25-29,Female,Mucsat,M8,Oman,OM,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Miles,Paul Miles,716,M45-49,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aroop,Misra,Aroop Misra,620,M40-44,Male,Dubai,DXB,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toni-Jane,Snoxell,Toni-Jane Snoxell,235,F30-34,Female,Herston,QLD,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Frances,Buckley,Frances Buckley,310,F55-59,Female,Douglas/Cork,Cork,Ireland,IE,0:40:46,3:12:27,,,,,2446,11547,0,282,289,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Gianluca,Moroni,Gianluca Moroni,717,M45-49,Male,milano,Milano,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Charlier,David Charlier,678,M45-49,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0

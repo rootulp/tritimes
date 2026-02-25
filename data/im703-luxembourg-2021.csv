@@ -1,0 +1,772 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Tobias,Gärttner,Tobias Gärttner,88,M30-34,Male,Oedheim,,Germany,DE,,2:16:04,1:18:39,,,3:35:39,0,8164,4719,0,55,12939,1,1,1,99999,99999,99999,2,2,1,1,1,1,Finisher,3500
+Jerome,Ewen,Jerome Ewen,161,M35-39,Male,Wahlhausen,,Luxembourg,LU,,2:15:25,1:23:15,,,3:39:59,0,8125,4995,0,78,13199,2,2,1,99999,99999,99999,1,1,1,2,2,1,Finisher,3500
+Marc,Fernandes,Marc Fernandes,154,M25-29,Male,Lille,,France,FR,,2:24:31,1:14:59,,,3:40:29,0,8671,4499,0,59,13229,3,3,1,99999,99999,99999,24,24,6,3,3,1,Finisher,3500
+Dany,Papi,Dany Papi,83,M40-44,Male,Steinsel,Luxemburg,Luxembourg,LU,,2:19:06,1:25:08,,,3:45:24,0,8346,5108,0,71,13524,4,4,1,99999,99999,99999,5,5,3,4,4,1,Finisher,3500
+Janek,Fischer,Janek Fischer,157,M25-29,Male,Gelnhausen,,Germany,DE,,2:22:29,1:22:41,,,3:46:06,0,8549,4961,0,56,13566,5,5,2,99999,99999,99999,14,14,3,5,5,2,Finisher,3398
+Jérôme,Marechal,Jérôme Marechal,41,M35-39,Male,Stavelot,,Belgium,BE,,2:21:47,1:22:55,,,3:46:12,0,8507,4975,0,90,13572,6,6,2,99999,99999,99999,11,11,4,6,6,2,Finisher,3388
+Sylvain ,Georis,Sylvain Georis,273,M30-34,Male,Vichten,,Belgium,BE,,2:23:23,1:21:52,,,3:46:16,0,8603,4912,0,61,13576,7,7,2,99999,99999,99999,17,17,3,7,7,2,Finisher,3308
+Theo,Moreau,Theo Moreau,147,M25-29,Male,Saint Augustin Des Bois,Pays de la Loire,France,FR,,2:25:37,1:19:55,,,3:46:48,0,8737,4795,0,76,13608,8,8,3,99999,99999,99999,30,30,9,8,8,3,Finisher,3386
+Patrick,Roos,Patrick Roos,48,M40-44,Male,Bingen,RP,Germany,DE,,2:26:22,1:20:33,,,3:47:53,0,8782,4833,0,58,13673,9,9,2,99999,99999,99999,35,35,7,9,9,2,Finisher,3455
+Manuel,Reuter,Manuel Reuter,151,M35-39,Male,Bonn,,Germany,DE,,2:20:16,1:26:37,,,3:48:12,0,8416,5197,0,78,13692,10,10,3,99999,99999,99999,8,8,3,10,10,3,Finisher,3352
+Peter,Lang,Peter Lang,89,M25-29,Male,Stein-Bockenheim,,Germany,DE,,2:25:56,1:21:33,,,3:48:58,0,8756,4893,0,88,13738,11,11,4,99999,99999,99999,33,33,11,11,11,4,Finisher,3347
+Adrien,Rossignon,Adrien Rossignon,18,M25-29,Male,Lorentzweiler,,Luxembourg,LU,,2:22:19,1:25:56,,,3:49:14,0,8539,5156,0,59,13754,12,12,5,99999,99999,99999,13,13,2,12,12,5,Finisher,3342
+Thomas,Guilmin,Thomas Guilmin,165,M35-39,Male,Beersel,,Belgium,BE,,2:24:31,1:23:55,,,3:49:29,0,8671,5035,0,63,13769,13,13,4,99999,99999,99999,23,23,6,13,13,4,Finisher,3329
+Niels,Martinsen,Niels Martinsen,166,M25-29,Male,Bredene,,Belgium,BE,,2:24:51,1:24:06,,,3:49:48,0,8691,5046,0,51,13788,14,14,6,99999,99999,99999,26,26,7,14,14,6,Finisher,3332
+Eric,Gonderinger,Eric Gonderinger,267,M30-34,Male,Frisange,,Luxembourg,LU,,2:23:49,1:24:44,,,3:50:08,0,8629,5084,0,95,13808,15,15,3,99999,99999,99999,19,19,4,15,15,3,Finisher,3239
+Michael,Goentgens,Michael Goentgens,176,M40-44,Male,Mainz,,Germany,DE,,2:24:55,1:24:51,,,3:50:42,0,8695,5091,0,56,13842,16,16,3,99999,99999,99999,27,27,5,16,16,3,Finisher,3404
+Filip Gudy H,Van Craenenbroeck,Filip Gudy H Van Craenenbroeck,169,M30-34,Male,Deurne,,Belgium,BE,,2:24:18,1:25:30,,,3:50:43,0,8658,5130,0,54,13843,17,17,4,99999,99999,99999,20,20,5,17,17,4,Finisher,3228
+Lucas,Mathieu,Lucas Mathieu,62,M25-29,Male,Epinal,,France,FR,,2:25:41,1:25:01,,,3:51:39,0,8741,5101,0,57,13899,18,18,7,99999,99999,99999,31,31,10,18,18,7,Finisher,3299
+Florent,Pierrat,Florent Pierrat,297,M30-34,Male,Le Ban Saint Martin,,France,FR,,2:26:47,1:23:31,,,3:51:41,0,8807,5011,0,83,13901,19,19,5,99999,99999,99999,37,37,9,19,19,5,Finisher,3211
+Mark,Hummel,Mark Hummel,47,M50-54,Male,Ubstadt-Weiher,foreigner,Germany,DE,,2:21:24,1:30:30,,,3:53:31,0,8484,5430,0,97,14011,20,20,1,99999,99999,99999,10,10,1,20,20,1,Finisher,3500
+Christian,Weyland,Christian Weyland,141,M40-44,Male,Ermsdorf,,Luxembourg,LU,,2:17:44,1:35:04,,,3:53:57,0,8264,5704,0,69,14037,21,21,4,99999,99999,99999,3,3,1,21,21,4,Finisher,3346
+Bastien,Jornod,Bastien Jornod,344,M25-29,Male,Fleurier,,Switzerland,CH,,2:19:52,1:32:46,,,3:54:09,0,8392,5566,0,91,14049,22,22,8,99999,99999,99999,7,7,1,22,22,8,Finisher,3254
+Darren,Alcock,Darren Alcock,149,M35-39,Male,Holzgünz,,United Kingdom,GB,,2:19:22,1:33:39,,,3:55:11,0,8362,5619,0,129,14111,23,23,5,99999,99999,99999,6,6,2,23,23,5,Finisher,3226
+Rainer,Augustin,Rainer Augustin,85,M40-44,Male,Schwarzenholz,,Germany,DE,,2:26:19,1:27:25,,,3:55:17,0,8779,5245,0,93,14117,24,24,5,99999,99999,99999,34,34,6,24,24,5,Finisher,3322
+Vincent,darcq,Vincent darcq,173,M35-39,Male,la bouilladisse,,France,FR,,2:30:54,1:23:34,,,3:55:28,0,9054,5014,0,60,14128,25,25,6,99999,99999,99999,71,71,14,25,25,6,Finisher,3221
+Franck ,Lopico ,Franck Lopico,330,M45-49,Male,Nilvange,,France,FR,,2:24:48,1:29:25,,,3:55:44,0,8688,5365,0,91,14144,26,26,1,99999,99999,99999,25,25,1,26,26,1,Finisher,3500
+Daniel,Ruet,Daniel Ruet,13,M25-29,Male,Alfortville,,France,FR,,2:23:25,1:31:19,,,3:56:13,0,8605,5479,0,89,14173,27,27,9,99999,99999,99999,18,18,5,27,27,9,Finisher,3216
+Bjorn,Deburghgraeve,Bjorn Deburghgraeve,56,M45-49,Male,HOoglede,,Belgium,BE,,2:28:02,1:27:40,,,3:56:56,0,8882,5260,0,74,14216,28,28,2,99999,99999,99999,43,43,3,28,28,2,Finisher,3478
+Joris,Guillard,Joris Guillard,150,M25-29,Male,Entrelacs,,France,FR,,2:27:21,1:28:09,,,3:56:59,0,8841,5289,0,90,14219,29,29,10,99999,99999,99999,39,39,12,29,29,10,Finisher,3203
+Stéphane,Bernard,Stéphane Bernard,44,M45-49,Male,Champagnier,,France,FR,,2:28:29,1:27:36,,,3:57:12,0,8909,5256,0,67,14232,30,30,3,99999,99999,99999,47,47,4,30,30,3,Finisher,3473
+Thomas,Mares,Thomas Mares,282,M25-29,Male,Oostende,,Belgium,BE,,2:29:33,1:26:50,,,3:57:24,0,8973,5210,0,61,14244,31,31,11,99999,99999,99999,57,57,15,31,31,11,Finisher,3195
+Dominic,Laaf,Dominic Laaf,79,M30-34,Male,Langerwehe,,Germany,DE,,2:26:37,1:30:28,,,3:58:07,0,8797,5428,0,62,14287,32,32,6,99999,99999,99999,36,36,8,32,32,6,Finisher,3095
+Klaus-Peter,Sünnen,Klaus-Peter Sünnen,152,M35-39,Male,Rehlingen-Siersburg,,Germany,DE,,2:25:45,1:31:29,,,3:58:21,0,8745,5489,0,67,14301,33,33,7,99999,99999,99999,32,32,8,33,33,7,Finisher,3169
+Benjamin,Minot,Benjamin Minot,394,M30-34,Male,Arc sur Tille,,France,FR,,2:24:28,1:32:48,,,3:58:27,0,8668,5568,0,71,14307,34,34,7,99999,99999,99999,22,22,7,34,34,7,Finisher,3089
+Cédric,Hautrive,Cédric Hautrive,341,M30-34,Male,Tervuren,,Belgium,BE,,2:29:50,1:27:43,,,3:58:49,0,8990,5263,0,76,14329,35,35,8,99999,99999,99999,60,60,14,35,35,8,Finisher,3083
+Ciaran,Doheny,Ciaran Doheny,70,M40-44,Male,Alkmaar ,NOORD-HOLLAND,Ireland,IE,,2:29:56,1:27:59,,,3:58:54,0,8996,5279,0,59,14334,36,36,6,99999,99999,99999,63,63,10,36,36,6,Finisher,3257
+Valentin,Ramez,Valentin Ramez,87,M25-29,Male,Grenoble,,France,FR,,2:31:02,1:26:20,,,3:59:05,0,9062,5180,0,103,14345,37,37,12,99999,99999,99999,74,74,18,37,37,12,Finisher,3165
+Lars,Grünkorn,Lars Grünkorn,284,M30-34,Male,Kornwestheim,,Germany,DE,,2:30:00,1:28:43,,,3:59:40,0,9000,5323,0,57,14380,38,38,9,99999,99999,99999,65,65,16,38,38,9,Finisher,3067
+Frank,Ruettenauer,Frank Ruettenauer,289,M40-44,Male,Mosbach,,Germany,DE,,2:31:03,1:26:29,,,3:59:57,0,9063,5189,0,145,14397,39,39,7,99999,99999,99999,75,75,12,39,39,7,Finisher,3238
+Emmerson,Gruyaert,Emmerson Gruyaert,398,M25-29,Male,Gent,,Belgium,BE,,2:29:22,1:29:00,,,3:59:58,0,8962,5340,0,95,14398,40,40,13,99999,99999,99999,56,56,14,40,40,13,Finisher,3149
+Stijn,Veldeman,Stijn Veldeman,119,M40-44,Male,Dendermonde,,Belgium,BE,,2:29:06,1:29:27,,,4:00:00,0,8946,5367,0,86,14400,41,41,8,99999,99999,99999,51,51,9,41,41,8,Finisher,3237
+Dylan,Mathay,Dylan Mathay,253,M18-24,Male,Remich,Luxembourg,Luxembourg,LU,,2:28:05,1:29:22,,,4:00:04,0,8885,5362,0,157,14404,42,42,1,99999,99999,99999,44,44,1,42,42,1,Finisher,3500
+Jef,Swinnen,Jef Swinnen,177,M30-34,Male,Vosselaar,,Belgium,BE,,2:34:26,1:24:46,,,4:00:51,0,9266,5086,0,99,14451,43,43,10,99999,99999,99999,114,114,24,43,43,10,Finisher,3046
+Goewaart,Oplinus,Goewaart Oplinus,848,M35-39,Male,Roeselare,,Belgium,BE,,2:33:16,1:26:18,,,4:01:03,0,9196,5178,0,89,14463,44,44,8,99999,99999,99999,101,101,23,44,44,8,Finisher,3120
+Benjamin,Moeyaert,Benjamin Moeyaert,307,M40-44,Male,Flawinne,,Belgium,BE,,2:22:11,1:36:32,,,4:01:18,0,8531,5792,0,155,14478,45,45,9,99999,99999,99999,12,12,4,45,45,9,Finisher,3213
+Laura,Chacon Biebach,Laura Chacon Biebach,312,F30-34,Female,Langen,,Germany,DE,,2:36:31,1:23:56,,,4:01:48,0,9391,5036,0,81,14508,46,1,1,99999,99999,99999,148,2,1,46,1,1,Finisher,3500
+Rüdiger,Birk,Rüdiger Birk,295,M50-54,Male,Konz,,Germany,DE,,2:27:55,1:32:26,,,4:01:52,0,8875,5546,0,91,14512,47,46,2,99999,99999,99999,42,42,2,47,46,2,Finisher,3349
+Romain,Mahieu,Romain Mahieu,38,M40-44,Male,NOGENT SUR MARNE,,France,FR,,2:38:47,1:22:09,,,4:01:54,0,9527,4929,0,58,14514,48,47,10,99999,99999,99999,187,183,34,48,47,10,Finisher,3203
+Philipp,Just,Philipp Just,33,M25-29,Male,Gründau,,Germany,DE,,2:23:22,1:37:24,,,4:02:21,0,8602,5844,0,95,14541,49,48,14,99999,99999,99999,16,16,4,49,48,14,Finisher,3106
+Sören,Schaerlaeken,Sören Schaerlaeken,554,M35-39,Male,Kapelle-op-den-Bos,VLAAMS-BRABANT,Belgium,BE,,2:31:17,1:28:40,,,4:02:21,0,9077,5320,0,145,14541,50,49,9,99999,99999,99999,79,79,18,50,49,9,Finisher,3097
+Thomas,Descamps,Thomas Descamps,30,M25-29,Male,Goteborg,,France,FR,,2:37:32,1:22:38,,,4:02:32,0,9452,4958,0,142,14552,51,50,15,99999,99999,99999,169,165,31,51,50,15,Finisher,3103
+Nicolas,Ullens De Schooten,Nicolas Ullens De Schooten,49,M30-34,Male,Woluwe-Saint-Pierre,,Belgium,BE,,2:21:18,1:39:57,,,4:03:16,0,8478,5997,0,120,14596,52,51,11,99999,99999,99999,9,9,2,52,51,11,Finisher,3002
+Florian,Moritz,Florian Moritz,356,M25-29,Male,Koblenz,,Germany,DE,,2:31:44,1:30:38,,,4:03:53,0,9104,5438,0,91,14633,53,52,16,99999,99999,99999,84,84,21,53,52,16,Finisher,3078
+Nigel,Melker,Nigel Melker,264,M30-34,Male,Zuidland,,Netherlands,NL,,2:30:19,1:32:03,,,4:03:54,0,9019,5523,0,92,14634,54,53,12,99999,99999,99999,67,67,17,54,53,12,Finisher,2991
+Damien,Suray,Damien Suray,101,M35-39,Male,Grez-doiceau,,Belgium,BE,,2:25:28,1:36:08,,,4:03:55,0,8728,5768,0,138,14635,55,54,10,99999,99999,99999,28,28,7,55,54,10,Finisher,3069
+Lukas,Rheinheimer,Lukas Rheinheimer,813,M30-34,Male,Mehlbach,,Germany,DE,,2:34:20,1:28:58,,,4:04:47,0,9260,5338,0,89,14687,56,55,13,99999,99999,99999,113,113,23,56,55,13,Finisher,2975
+Eoin,O' Neill,Eoin O' Neill,338,M18-24,Male,Clare,Munster,Ireland,IE,,2:51:14,1:09:13,,,4:05:02,0,10274,4153,0,275,14702,57,56,2,99999,99999,99999,387,369,6,57,56,2,Finisher,3410
+Alexander,Aerts,Alexander Aerts,380,M25-29,Male,Leuven,,Belgium,BE,,2:25:30,1:38:37,,,4:05:25,0,8730,5917,0,78,14725,58,57,17,99999,99999,99999,29,29,8,58,57,17,Finisher,3051
+Antonio,Jimenez Sanchez,Antonio Jimenez Sanchez,308,M30-34,Male,Luxembourg,,Spain,ES,,2:38:30,1:25:51,,,4:06:06,0,9510,5151,0,106,14766,59,58,14,99999,99999,99999,179,175,36,59,58,14,Finisher,2951
+Isabelle,Klein,Isabelle Klein,145,F35-39,Female,Limerlé,WLX,Luxembourg,LU,,2:34:33,1:30:10,,,4:06:07,0,9273,5410,0,84,14767,60,2,1,99999,99999,99999,116,1,1,60,2,1,Finisher,3500
+Herve,Willette,Herve Willette,258,M45-49,Male,HETTANGE GRANDE,,France,FR,,2:27:41,1:37:14,,,4:06:19,0,8861,5834,0,84,14779,61,59,4,99999,99999,99999,41,41,2,61,59,4,Finisher,3309
+Marc,Forton,Marc Forton,626,M30-34,Male,bomal,,Belgium,BE,,2:28:18,1:36:34,,,4:06:40,0,8898,5794,0,108,14800,62,60,15,99999,99999,99999,46,46,11,62,60,15,Finisher,2941
+Yann,Chalencon,Yann Chalencon,281,M35-39,Male,Kembs,,France,FR,,2:30:57,1:35:03,,,4:08:06,0,9057,5703,0,126,14886,63,61,11,99999,99999,99999,73,73,16,63,61,11,Finisher,2993
+Mark,Millar,Mark Millar,5,M40-44,Male,Ballygowan,Down,Ireland,IE,,3:07:59,0:58:20,,,4:08:19,0,11279,3500,0,119,14899,64,62,11,99999,99999,99999,608,547,104,64,62,11,Finisher,3087
+Witold,Fudali,Witold Fudali,260,M35-39,Male,Zürich,,Poland,PL,,2:29:17,1:37:32,,,4:08:21,0,8957,5852,0,92,14901,65,63,12,99999,99999,99999,55,55,12,65,63,12,Finisher,2989
+Philip,Mathys,Philip Mathys,283,M25-29,Male,ARVADA,CO,United States,US,,2:34:09,1:33:17,,,4:08:29,0,9249,5597,0,63,14909,66,64,18,99999,99999,99999,110,110,25,66,64,18,Finisher,2996
+Rafal,Medak,Rafal Medak,250,M50-54,Male,Wasserbillig,GREIVEMAACHER,Poland,PL,,2:30:46,1:36:08,,,4:08:36,0,9046,5768,0,102,14916,67,65,3,99999,99999,99999,70,70,5,67,65,3,Finisher,3228
+Mike,Kane-Smith,Mike Kane-Smith,255,M45-49,Male,Gauteng,,South Africa,ZA,,2:33:00,1:34:28,,,4:08:49,0,9180,5668,0,81,14929,68,66,5,99999,99999,99999,98,98,9,68,66,5,Finisher,3264
+Pierre,Heraly,Pierre Heraly,760,M40-44,Male,Hannut,,Belgium,BE,,2:27:26,1:39:23,,,4:08:55,0,8846,5963,0,127,14935,69,67,12,99999,99999,99999,40,40,8,69,67,12,Finisher,3076
+Antar,Sampiemon,Antar Sampiemon,168,M35-39,Male,Almere,Flevoland,Netherlands,NL,,2:32:35,1:35:03,,,4:08:58,0,9155,5703,0,80,14938,70,68,13,99999,99999,99999,94,94,22,70,68,13,Finisher,2978
+Maarten,Claes,Maarten Claes,61,M40-44,Male,Duffel,ANTWERPEN,Belgium,BE,,2:33:29,1:33:33,,,4:09:00,0,9209,5613,0,118,14940,71,69,13,99999,99999,99999,104,104,16,71,69,13,Finisher,3075
+Luis,Munoz,Luis Munoz,298,M35-39,Male,Itzig,Itzig,Spain,ES,,2:36:11,1:30:55,,,4:09:05,0,9371,5455,0,119,14945,72,70,14,99999,99999,99999,143,142,29,72,70,14,Finisher,2976
+Martin,Schulte-Hötte,Martin Schulte-Hötte,309,M30-34,Male,Düsseldorf,,Germany,DE,,2:34:15,1:32:30,,,4:09:09,0,9255,5550,0,143,14949,73,71,16,99999,99999,99999,111,111,22,73,71,16,Finisher,2897
+Benjamin,Erb,Benjamin Erb,357,M30-34,Male,Düsseldorf,,Germany,DE,,2:36:21,1:31:43,,,4:09:12,0,9381,5503,0,68,14952,74,72,17,99999,99999,99999,146,145,30,74,72,17,Finisher,2896
+David,Bauwens,David Bauwens,313,M25-29,Male,Antwerpen,,Belgium,BE,,2:37:38,1:30:04,,,4:09:21,0,9458,5404,0,98,14961,75,73,19,99999,99999,99999,171,167,32,75,73,19,Finisher,2980
+Christian,Mayer,Christian Mayer,299,M30-34,Male,Zweibrücken,,Germany,DE,,2:29:36,1:38:30,,,4:09:41,0,8976,5910,0,94,14981,76,74,18,99999,99999,99999,58,58,13,76,74,18,Finisher,2887
+Yves,Koch,Yves Koch,140,M35-39,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:31:59,1:36:00,,,4:09:46,0,9119,5760,0,107,14986,77,75,15,99999,99999,99999,87,87,20,77,75,15,Finisher,2963
+Bernd,Matheis,Bernd Matheis,40,M50-54,Male,Ludwigshafen,RP,Germany,DE,,2:30:27,1:37:02,,,4:09:51,0,9027,5822,0,142,14991,78,76,4,99999,99999,99999,68,68,4,78,76,4,Finisher,3206
+Tim,De Cremer,Tim De Cremer,91,M40-44,Male,Overboelare (Geraardsbergen),,Belgium,BE,,2:37:04,1:31:43,,,4:10:04,0,9424,5503,0,77,15004,79,77,14,99999,99999,99999,159,156,29,79,77,14,Finisher,3056
+Andreas,Collienne,Andreas Collienne,365,M40-44,Male,Burg Reuland,,Belgium,BE,,2:38:00,1:31:20,,,4:10:31,0,9480,5480,0,70,15031,80,78,15,99999,99999,99999,174,170,31,80,78,15,Finisher,3047
+Xavier,Phillipe,Xavier Phillipe,153,M40-44,Male,Grenoble,,France,FR,,2:18:40,1:50:42,,,4:10:57,0,8320,6642,0,95,15057,81,79,16,99999,99999,99999,4,4,2,81,79,16,Finisher,3040
+Andreas,Schmidtke,Andreas Schmidtke,310,M30-34,Male,Dormagen,,Germany,DE,,2:29:57,1:38:51,,,4:10:57,0,8997,5931,0,130,15057,82,80,19,99999,99999,99999,64,64,15,82,80,19,Finisher,2864
+Yves-Antoine,Guigou,Yves-Antoine Guigou,158,M25-29,Male,Gaillac,,France,FR,,2:30:06,1:39:32,,,4:10:58,0,9006,5972,0,80,15058,83,81,20,99999,99999,99999,66,66,17,83,81,20,Finisher,2951
+Jan,Oeyen,Jan Oeyen,715,M45-49,Male,Genk,,Belgium,BE,,2:40:36,1:27:27,,,4:11:03,0,9636,5247,0,180,15063,84,82,6,99999,99999,99999,215,210,22,84,82,6,Finisher,3224
+Raf,Houben,Raf Houben,345,M35-39,Male,Schaffen,,Belgium,BE,,2:40:05,1:29:06,,,4:11:23,0,9605,5346,0,132,15083,85,83,16,99999,99999,99999,207,203,37,85,83,16,Finisher,2934
+Martin,Heinel,Martin Heinel,278,M30-34,Male,Canach,Grevenmacher,Luxembourg,LU,,2:28:15,1:41:55,,,4:11:38,0,8895,6115,0,88,15098,86,84,20,99999,99999,99999,45,45,10,86,84,20,Finisher,2852
+Vincent,Goletti,Vincent Goletti,73,M30-34,Male,Kraainem,,Belgium,BE,,2:40:06,1:30:27,,,4:11:51,0,9606,5427,0,78,15111,87,85,21,99999,99999,99999,208,204,42,87,85,21,Finisher,2848
+Roger,Stalder,Roger Stalder,17,M40-44,Male,Gamprin-Bendern,,Liechtenstein,LI,,2:34:20,1:36:01,,,4:11:58,0,9260,5761,0,98,15118,88,86,17,99999,99999,99999,112,112,17,88,86,17,Finisher,3021
+Virginie,Vandroogenbroeck,Virginie Vandroogenbroeck,647,F50-54,Female,Braine-l’Alleud,,Belgium,BE,,2:41:49,1:27:11,,,4:12:05,0,9709,5231,0,185,15125,89,3,1,99999,99999,99999,239,8,2,89,3,1,Finisher,3500
+Kim,Rohmann,Kim Rohmann,248,M35-39,Male,Mondorf les bains,-- Sélectionner votre état --,Luxembourg,LU,,2:29:53,1:40:04,,,4:12:08,0,8993,6004,0,131,15128,90,87,17,99999,99999,99999,62,62,13,90,87,17,Finisher,2921
+Michael,Monsieur,Michael Monsieur,301,M40-44,Male,Nivelles,,Belgium,BE,,2:41:57,1:28:14,,,4:12:08,0,9717,5294,0,117,15128,91,88,18,99999,99999,99999,242,234,44,91,88,18,Finisher,3018
+Sam,Peters,Sam Peters,76,M35-39,Male,Lintgen,MERSCH,Luxembourg,LU,,2:33:36,1:37:12,,,4:12:12,0,9216,5832,0,84,15132,92,89,18,99999,99999,99999,105,105,25,92,89,18,Finisher,2920
+Dieter,Mallmann,Dieter Mallmann,65,M60-64,Male,Pfalzfeld,,Germany,DE,,2:36:14,1:32:46,,,4:12:15,0,9374,5566,0,194,15135,93,90,1,99999,99999,99999,144,143,1,93,90,1,Finisher,3500
+Benoit,Grandjean,Benoit Grandjean,395,M50-54,Male,PROFONDEVILLE,,Belgium,BE,,2:36:41,1:33:58,,,4:12:22,0,9401,5638,0,103,15142,94,91,5,99999,99999,99999,150,148,11,94,91,5,Finisher,3160
+Henning,Von Poser,Henning Von Poser,270,M55-59,Male,Düsseldorf,NORDRHEIN-WESTFALEN,Germany,DE,,2:32:02,1:38:16,,,4:12:51,0,9122,5896,0,154,15171,95,92,1,99999,99999,99999,88,88,2,95,92,1,Finisher,3500
+Justin,Wendling,Justin Wendling,746,M30-34,Male,KILSTETT,,France,FR,,2:34:30,1:36:39,,,4:13:04,0,9270,5799,0,115,15184,96,93,22,99999,99999,99999,115,115,25,96,93,22,Finisher,2826
+Theo,Kraaijenbrink,Theo Kraaijenbrink,265,M55-59,Male,ZUIDLAND,,Netherlands,NL,,2:32:28,1:39:25,,,4:13:14,0,9148,5965,0,81,15194,97,94,2,99999,99999,99999,92,92,4,97,94,2,Finisher,3493
+Jens,Ellermann,Jens Ellermann,92,M45-49,Male,Luedenscheid,,Germany,DE,,2:32:30,1:39:34,,,4:13:24,0,9150,5974,0,80,15204,98,95,7,99999,99999,99999,93,93,7,98,95,7,Finisher,3182
+Daniel,Patricio,Daniel Patricio,103,M30-34,Male,Esch-sur-Alzette,Luxemburg,Luxembourg,LU,,2:35:35,1:37:04,,,4:13:36,0,9335,5824,0,57,15216,99,96,23,99999,99999,99999,129,128,26,99,96,23,Finisher,2816
+Jules,Villemagne,Jules Villemagne,274,M18-24,Male,villefontaine,,France,FR,,2:35:31,1:36:56,,,4:13:41,0,9331,5816,0,75,15221,100,97,3,99999,99999,99999,126,125,2,100,97,3,Finisher,3254
+Merijn,Moreel,Merijn Moreel,156,M45-49,Male,Sint-Andries,,Belgium,BE,,2:34:47,1:37:03,,,4:13:45,0,9287,5823,0,114,15225,101,98,8,99999,99999,99999,118,117,11,101,98,8,Finisher,3175
+Alberto,Facchinato,Alberto Facchinato,171,M35-39,Male,Luxembourg,Luxembourg,Italy,IT,,2:32:24,1:38:24,,,4:13:56,0,9144,5904,0,189,15236,102,99,19,99999,99999,99999,91,91,21,102,99,19,Finisher,2888
+Thorsten,Jakobs,Thorsten Jakobs,172,M45-49,Male,Hennef,,Germany,DE,,2:31:14,1:41:12,,,4:14:00,0,9074,6072,0,95,15240,103,100,9,99999,99999,99999,78,78,6,103,100,9,Finisher,3171
+Rebecca,Sack,Rebecca Sack,74,F35-39,Female,Bad Vilbel,,Germany,DE,,2:40:15,1:32:23,,,4:14:05,0,9615,5543,0,87,15245,104,4,2,99999,99999,99999,211,5,2,104,4,2,Finisher,3356
+John,Colling,John Colling,386,M35-39,Male,Nonnweiler,,Germany,DE,,2:33:28,1:39:17,,,4:14:11,0,9208,5957,0,86,15251,105,101,20,99999,99999,99999,103,103,24,105,101,20,Finisher,2884
+Vincent,De Cleer,Vincent De Cleer,100,M55-59,Male,Varsenare,WEST-VLAANDEREN,Belgium,BE,,2:35:57,1:36:47,,,4:14:13,0,9357,5807,0,89,15253,106,102,3,99999,99999,99999,140,139,6,106,102,3,Finisher,3475
+Thierry,Majerus,Thierry Majerus,320,M50-54,Male,Leudelange,,Luxembourg,LU,,2:37:02,1:35:20,,,4:14:14,0,9422,5720,0,112,15254,107,103,6,99999,99999,99999,158,155,12,107,103,6,Finisher,3127
+Mark,Chalençon,Mark Chalençon,280,M30-34,Male,Saint-Louis,,France,FR,,2:31:04,1:41:24,,,4:14:20,0,9064,6084,0,112,15260,108,104,24,99999,99999,99999,76,76,18,108,104,24,Finisher,2803
+André,Bockholts,André Bockholts,388,M40-44,Male,Veldhoven,,Netherlands,NL,,2:35:33,1:36:47,,,4:14:41,0,9333,5807,0,140,15281,109,105,19,99999,99999,99999,127,126,21,109,105,19,Finisher,2972
+Louis,Lux,Louis Lux,286,M25-29,Male,Neu-Ulm,,Germany,DE,,2:31:20,1:41:25,,,4:15:00,0,9080,6085,0,136,15300,110,106,21,99999,99999,99999,80,80,19,110,106,21,Finisher,2878
+Sophie,Schmitz,Sophie Schmitz,355,F18-24,Female,Niederwerth,,Germany,DE,,2:41:41,1:32:01,,,4:15:14,0,9701,5521,0,92,15314,111,5,1,99999,99999,99999,237,7,1,111,5,1,Finisher,3500
+Rüdiger,Kranz,Rüdiger Kranz,25,M55-59,Male,Bennhausen,RP,Germany,DE,,2:32:18,1:41:38,,,4:15:16,0,9138,6098,0,80,15316,112,107,4,99999,99999,99999,90,90,3,112,107,4,Finisher,3456
+Daniel,Schulz,Daniel Schulz,371,M40-44,Male,Schwalbach/Elm,,Germany,DE,,2:37:19,1:36:55,,,4:15:47,0,9439,5815,0,93,15347,113,108,20,99999,99999,99999,165,161,30,113,108,20,Finisher,2953
+Tom,Verhulst,Tom Verhulst,118,M30-34,Male,Beveren-Waas,,Belgium,BE,,2:32:56,1:40:55,,,4:15:50,0,9176,6055,0,120,15350,114,109,25,99999,99999,99999,97,97,19,114,109,25,Finisher,2776
+Paulo,Santos,Paulo Santos,521,M30-34,Male,Grosbous,,Luxembourg,LU,,2:35:53,1:38:39,,,4:15:51,0,9353,5919,0,79,15351,115,110,26,99999,99999,99999,137,136,28,115,110,26,Finisher,2776
+Carla,Van Rooijen,Carla Van Rooijen,98,M50-54,Male,Uithoorn,,Netherlands,NL,,2:33:21,1:40:50,,,4:16:10,0,9201,6050,0,119,15370,116,111,7,99999,99999,99999,102,102,8,116,111,7,Finisher,3092
+Wes,Bouwens,Wes Bouwens,277,M35-39,Male,Limbricht,,Netherlands,NL,,2:35:29,1:38:36,,,4:16:35,0,9329,5916,0,149,15395,117,112,21,99999,99999,99999,125,124,26,117,112,21,Finisher,2841
+Marcel,Scheid,Marcel Scheid,335,M40-44,Male,Saarbrücken,,Germany,DE,,2:38:48,1:35:51,,,4:16:37,0,9528,5751,0,117,15397,118,113,21,99999,99999,99999,189,185,35,118,113,21,Finisher,2938
+Pascal,Würtz,Pascal Würtz,580,M30-34,Male,Würzburg,,Germany,DE,,2:39:32,1:34:13,,,4:16:40,0,9572,5653,0,176,15400,119,114,27,99999,99999,99999,198,194,39,119,114,27,Finisher,2761
+Jonathan,Callebaut,Jonathan Callebaut,117,M40-44,Male,Merelbeke,,Belgium,BE,,2:35:01,1:40:27,,,4:16:54,0,9301,6027,0,86,15414,120,115,22,99999,99999,99999,122,121,19,120,115,22,Finisher,2933
+Alexander,Leibinger,Alexander Leibinger,167,M50-54,Male,Munich,,Germany,DE,,2:35:12,1:40:03,,,4:16:56,0,9312,6003,0,101,15416,121,116,8,99999,99999,99999,124,123,9,121,116,8,Finisher,3078
+Sébastien,Marlier,Sébastien Marlier,104,M40-44,Male,Boignée,,Belgium,BE,,2:31:26,1:40:30,,,4:16:57,0,9086,6030,0,301,15417,122,117,23,99999,99999,99999,82,82,13,122,117,23,Finisher,2932
+Arjen,Van Der Meulen,Arjen Van Der Meulen,391,M30-34,Male,Culemborg,,Netherlands,NL,,2:24:23,1:51:37,,,4:16:58,0,8663,6697,0,58,15418,123,118,28,99999,99999,99999,21,21,6,123,118,28,Finisher,2756
+Etienne,Wirz,Etienne Wirz,340,M35-39,Male,Attalens,,Switzerland,CH,,2:22:59,1:52:44,,,4:17:09,0,8579,6764,0,86,15429,124,119,22,99999,99999,99999,15,15,5,124,119,22,Finisher,2831
+Stijn,De Backer,Stijn De Backer,300,M35-39,Male,Erembodegem,,Belgium,BE,,2:38:48,1:36:50,,,4:17:16,0,9528,5810,0,97,15436,125,120,23,99999,99999,99999,188,184,33,125,120,23,Finisher,2828
+Pierre-Antoine,Vitu,Pierre-Antoine Vitu,676,M25-29,Male,ACHICOURT,,France,FR,,2:38:32,1:37:05,,,4:17:16,0,9512,5825,0,98,15436,126,121,22,99999,99999,99999,181,177,34,126,121,22,Finisher,2837
+Emanuele,Criscione,Emanuele Criscione,692,M30-34,Male,Peppange,,Italy,IT,,2:38:20,1:37:16,,,4:17:47,0,9500,5836,0,131,15467,127,122,29,99999,99999,99999,177,173,35,127,122,29,Finisher,2741
+Nurzhan,Nurmaganov,Nurzhan Nurmaganov,55,M45-49,Male,Astana,Astana,Kazakhstan,KZ,,2:36:19,1:38:39,,,4:17:56,0,9379,5919,0,178,15476,128,123,10,99999,99999,99999,145,144,14,128,123,10,Finisher,3100
+Joep,Christiaanse,Joep Christiaanse,601,M25-29,Male,,,Netherlands,NL,,2:43:06,1:33:25,,,4:18:03,0,9786,5605,0,92,15483,129,124,23,99999,99999,99999,263,253,41,129,124,23,Finisher,2823
+luc,mauchant,luc mauchant,779,M35-39,Male,THIONVILLE,,France,FR,,2:28:33,1:47:34,,,4:18:06,0,8913,6454,0,120,15486,130,125,24,99999,99999,99999,48,48,10,130,125,24,Finisher,2813
+Christian,Anhaus,Christian Anhaus,372,M30-34,Male,Andernach,,Germany,DE,,2:38:49,1:37:07,,,4:18:32,0,9529,5827,0,157,15512,131,126,30,99999,99999,99999,190,186,37,131,126,30,Finisher,2728
+Falko,Scheller,Falko Scheller,383,M40-44,Male,Vossenack,,Germany,DE,,2:39:48,1:37:21,,,4:18:33,0,9588,5841,0,84,15513,132,127,24,99999,99999,99999,203,199,38,132,127,24,Finisher,2903
+Pauline,Selleslagh,Pauline Selleslagh,81,F30-34,Female,Jachtveld,,Belgium,BE,,2:48:05,1:29:00,,,4:18:33,0,10085,5340,0,87,15513,133,6,2,99999,99999,99999,341,14,4,133,6,2,Finisher,3198
+Olivier,Scholsen,Olivier Scholsen,513,M25-29,Male,Halanzy,,Belgium,BE,,2:37:00,1:39:30,,,4:18:51,0,9420,5970,0,141,15531,134,128,24,99999,99999,99999,157,154,30,134,128,24,Finisher,2809
+Gerrit,VAN DER PERREN,Gerrit VAN DER PERREN,655,M50-54,Male,Vossem,,Belgium,BE,,2:36:33,1:40:07,,,4:19:02,0,9393,6007,0,143,15542,135,129,9,99999,99999,99999,149,147,10,135,129,9,Finisher,3040
+Dennis,De Vries,Dennis De Vries,693,M25-29,Male,Raalte,,Netherlands,NL,,2:31:21,1:46:25,,,4:19:21,0,9081,6385,0,96,15561,136,130,25,99999,99999,99999,81,81,20,136,130,25,Finisher,2800
+Michiel,Somers,Michiel Somers,634,M30-34,Male,Roermond,,Netherlands,NL,,2:44:53,1:32:29,,,4:19:24,0,9893,5549,0,122,15564,137,131,31,99999,99999,99999,289,278,52,137,131,31,Finisher,2712
+Rick,Theis,Rick Theis,257,M25-29,Male,Schieren,Luxembourg,Luxembourg,LU,,2:28:41,1:48:59,,,4:19:35,0,8921,6539,0,114,15575,138,132,26,99999,99999,99999,49,49,13,138,132,26,Finisher,2796
+Francois,Dirren,Francois Dirren,32,M40-44,Male,Vex,,Switzerland,CH,,2:41:15,1:37:17,,,4:19:41,0,9675,5837,0,70,15581,139,133,25,99999,99999,99999,227,222,41,139,133,25,Finisher,2882
+Billy,Galle,Billy Galle,713,M40-44,Male,Dentergem,,Belgium,BE,,2:34:51,1:42:11,,,4:19:42,0,9291,6131,0,160,15582,140,134,26,99999,99999,99999,119,118,18,140,134,26,Finisher,2882
+Hendrik,Heymel,Hendrik Heymel,266,M35-39,Male,Brotterode–Trusetal,,Germany,DE,,2:42:07,1:35:28,,,4:19:42,0,9727,5728,0,126,15582,141,135,25,99999,99999,99999,245,237,45,141,135,25,Finisher,2785
+Steven,Cools,Steven Cools,360,M40-44,Male,Mol,,Belgium,BE,,2:39:28,1:38:57,,,4:19:56,0,9568,5937,0,91,15596,142,136,27,99999,99999,99999,197,193,36,142,136,27,Finisher,2878
+Matthias,Cuvelie,Matthias Cuvelie,285,M25-29,Male,Zoersel,,Belgium,BE,,2:33:00,1:44:08,,,4:19:57,0,9180,6248,0,169,15597,143,137,27,99999,99999,99999,99,99,23,143,137,27,Finisher,2789
+Raphael,Noel,Raphael Noel,369,M25-29,Male,Reims,,France,FR,,2:39:47,1:37:59,,,4:19:59,0,9587,5879,0,132,15599,144,138,28,99999,99999,99999,202,198,36,144,138,28,Finisher,2789
+Matthias,Radke,Matthias Radke,347,M50-54,Male,Borken,,Germany,DE,,2:29:05,1:47:57,,,4:20:04,0,8945,6477,0,181,15604,145,139,10,99999,99999,99999,50,50,3,145,139,10,Finisher,3022
+Valerie,Dirren,Valerie Dirren,31,F30-34,Female,Vex,,Switzerland,CH,,2:41:16,1:37:54,,,4:20:20,0,9676,5874,0,71,15620,146,7,3,99999,99999,99999,228,6,3,146,7,3,Finisher,3166
+Wout,Moreel,Wout Moreel,304,M40-44,Male,Tienen,,Belgium,BE,,2:35:46,1:43:41,,,4:20:23,0,9346,6221,0,56,15623,147,140,28,99999,99999,99999,132,131,24,147,140,28,Finisher,2870
+Roland,De Haan,Roland De Haan,246,M40-44,Male,Eersel,,Netherlands,NL,,2:39:36,1:38:33,,,4:20:30,0,9576,5913,0,141,15630,148,141,29,99999,99999,99999,200,196,37,148,141,29,Finisher,2868
+Pedro,Costa,Pedro Costa,66,M45-49,Male,Frankfurt,,Portugal,PT,,2:40:33,1:37:02,,,4:20:42,0,9633,5822,0,187,15642,149,142,11,99999,99999,99999,214,209,21,149,142,11,Finisher,3050
+Steve,Marx,Steve Marx,52,M40-44,Male,Noertzange,,Luxembourg,LU,,2:35:02,1:45:07,,,4:21:38,0,9302,6307,0,90,15698,150,143,30,99999,99999,99999,123,122,20,150,143,30,Finisher,2847
+Sabine,Schneider,Sabine Schneider,621,F30-34,Female,Düsseldorf,,Germany,DE,,2:37:00,1:43:22,,,4:21:41,0,9420,6202,0,79,15701,151,8,4,99999,99999,99999,156,3,2,151,8,4,Finisher,3142
+Claude,Berg,Claude Berg,343,M40-44,Male,Differdange,,Luxembourg,LU,,2:35:52,1:44:36,,,4:21:44,0,9352,6276,0,76,15704,152,144,31,99999,99999,99999,136,135,26,152,144,31,Finisher,2846
+Florian,Merk,Florian Merk,547,M35-39,Male,Ulm,BADEN-WURTTEMBERG,Germany,DE,,2:40:10,1:39:35,,,4:21:54,0,9610,5975,0,129,15714,153,145,26,99999,99999,99999,209,205,38,153,145,26,Finisher,2745
+Jonathan,Rigo,Jonathan Rigo,251,M30-34,Male,STUCKANGE,,France,FR,,2:40:40,1:39:12,,,4:22:10,0,9640,5952,0,138,15730,154,146,32,99999,99999,99999,217,212,44,154,146,32,Finisher,2662
+Marcus,Jores,Marcus Jores,72,M55-59,Male,Mainz,RP,Germany,DE,,2:29:37,1:50:27,,,4:22:13,0,8977,6627,0,129,15733,155,147,5,99999,99999,99999,59,59,1,155,147,5,Finisher,3331
+Julie,Navez,Julie Navez,829,F35-39,Female,Brussels,,Belgium,BE,,2:45:26,1:35:28,,,4:22:17,0,9926,5728,0,83,15737,156,9,3,99999,99999,99999,297,12,4,156,9,3,Finisher,3209
+Lars,Riedel,Lars Riedel,579,M40-44,Male,Fürth,,Germany,DE,,2:36:50,1:43:46,,,4:22:21,0,9410,6226,0,105,15741,157,148,32,99999,99999,99999,152,150,27,157,148,32,Finisher,2834
+Geert,Lantink,Geert Lantink,385,M35-39,Male,Wageningen,,Netherlands,NL,,2:27:08,1:53:12,,,4:22:22,0,8828,6792,0,122,15742,158,149,27,99999,99999,99999,38,38,9,158,149,27,Finisher,2737
+Kevin,D'Haese,Kevin D'Haese,112,M35-39,Male,Denderbelle,,Belgium,BE,,2:31:12,1:48:50,,,4:22:23,0,9072,6530,0,141,15743,159,150,28,99999,99999,99999,77,77,17,159,150,28,Finisher,2736
+Joerg,Schuetz,Joerg Schuetz,90,M55-59,Male,Malberg,RP,Germany,DE,,2:35:34,1:45:20,,,4:22:26,0,9334,6320,0,91,15746,160,151,6,99999,99999,99999,128,127,5,160,151,6,Finisher,3327
+Thomas,Röck,Thomas Röck,39,M50-54,Male,Möriken AG,,Switzerland,CH,,2:37:15,1:43:22,,,4:22:31,0,9435,6202,0,114,15751,161,152,11,99999,99999,99999,164,160,13,161,152,11,Finisher,2978
+Mathieu,Ullens De Schooten,Mathieu Ullens De Schooten,51,M30-34,Male,Overijse,,Belgium,BE,,2:34:02,1:47:20,,,4:22:55,0,9242,6440,0,93,15775,162,153,33,99999,99999,99999,108,108,21,162,153,33,Finisher,2649
+Stefan,Vogel,Stefan Vogel,46,M50-54,Male,Zoetermeer,,Netherlands,NL,,2:38:11,1:42:50,,,4:22:55,0,9491,6170,0,114,15775,163,154,12,99999,99999,99999,176,172,14,163,154,12,Finisher,2970
+Jeroen,De Rond,Jeroen De Rond,350,M40-44,Male,'s-Hertogenbosch,,Netherlands,NL,,2:30:36,1:49:35,,,4:22:56,0,9036,6575,0,166,15776,164,155,33,99999,99999,99999,69,69,11,164,155,33,Finisher,2824
+Dagmar,Kagie,Dagmar Kagie,84,M40-44,Male,Den Bosch,,Netherlands,NL,,2:35:44,1:45:42,,,4:23:05,0,9344,6342,0,100,15785,165,156,34,99999,99999,99999,131,130,23,165,156,34,Finisher,2821
+Manon,Peters,Manon Peters,23,F35-39,Female,Mannheim,foreigner,Netherlands,NL,,2:42:08,1:40:07,,,4:23:43,0,9728,6007,0,89,15823,166,10,4,99999,99999,99999,246,9,3,166,10,4,Finisher,3183
+Marco,Lopez,Marco Lopez,27,M45-49,Male,Wildberg,,Italy,IT,,2:37:12,1:44:36,,,4:23:54,0,9432,6276,0,126,15834,167,157,12,99999,99999,99999,163,159,15,167,157,12,Finisher,2993
+Alain,Biren,Alain Biren,539,M50-54,Male,Luxembourg,,Luxembourg,LU,,2:31:56,1:48:39,,,4:23:58,0,9116,6519,0,204,15838,168,158,13,99999,99999,99999,86,86,6,168,158,13,Finisher,2951
+Sebastien,Vermast,Sebastien Vermast,291,M35-39,Male,Kuala Lumpur,,Malaysia,MY,,2:35:55,1:44:56,,,4:24:04,0,9355,6296,0,192,15844,169,159,29,99999,99999,99999,139,138,28,169,159,29,Finisher,2706
+Thomas,Clicque,Thomas Clicque,705,M30-34,Male,Lausanne,,France,FR,,2:40:50,1:40:57,,,4:24:09,0,9650,6057,0,142,15849,170,160,34,99999,99999,99999,218,213,45,170,160,34,Finisher,2627
+Christophe,Leymarie,Christophe Leymarie,82,M55-59,Male,Sèvres,,France,FR,,2:37:50,1:44:46,,,4:24:14,0,9470,6286,0,98,15854,171,161,7,99999,99999,99999,173,169,7,171,161,7,Finisher,3295
+Dennis,Urbschat,Dennis Urbschat,375,M35-39,Male,Much,NW,Germany,DE,,2:37:22,1:44:28,,,4:24:16,0,9442,6268,0,146,15856,172,162,30,99999,99999,99999,166,162,31,172,162,30,Finisher,2702
+Michaël,Zeyer,Michaël Zeyer,764,M35-39,Male,Noertzange,,Luxembourg,LU,,2:46:46,1:34:13,,,4:24:30,0,10006,5653,0,210,15870,173,163,31,99999,99999,99999,322,309,53,173,163,31,Finisher,2698
+Jérôme,Dierickx,Jérôme Dierickx,561,M45-49,Male,Hesperange,,Luxembourg,LU,,2:41:57,1:39:14,,,4:24:31,0,9717,5954,0,201,15871,174,164,13,99999,99999,99999,241,233,25,174,164,13,Finisher,2981
+Alexandre,Buckhurst,Alexandre Buckhurst,644,M18-24,Male,bereldange,luxembourg,Luxembourg,LU,,2:37:32,1:45:43,,,4:24:36,0,9452,6343,0,82,15876,175,165,4,99999,99999,99999,168,164,3,175,165,4,Finisher,3058
+Gert-Jan,Stroetinga,Gert-Jan Stroetinga,37,M45-49,Male,Norg,,Netherlands,NL,,2:40:36,1:42:17,,,4:24:51,0,9636,6137,0,118,15891,176,166,14,99999,99999,99999,216,211,23,176,166,14,Finisher,2975
+Clement,Delepouve,Clement Delepouve,679,M25-29,Male,ZEGERSCAPPEL,,France,FR,,2:49:39,1:32:48,,,4:24:55,0,10179,5568,0,147,15895,177,167,29,99999,99999,99999,361,346,52,177,167,29,Finisher,2700
+Olivier,Klemmer,Olivier Klemmer,563,M40-44,Male,Mensdorf,,Luxembourg,LU,,2:32:02,1:50:06,,,4:25:09,0,9122,6606,0,181,15909,178,168,35,99999,99999,99999,89,89,15,178,168,35,Finisher,2784
+Valentin,Durand,Valentin Durand,742,M25-29,Male,Reims,,France,FR,,2:47:28,1:35:09,,,4:25:11,0,10048,5709,0,155,15911,179,169,30,99999,99999,99999,333,320,47,179,169,30,Finisher,2695
+Georgs,Him,Georgs Him,261,M50-54,Male,Dudelange,Luxemburg,Luxembourg,LU,,2:33:01,1:50:29,,,4:25:22,0,9181,6629,0,112,15922,180,170,14,99999,99999,99999,100,100,7,180,170,14,Finisher,2926
+Sebastien,Collin,Sebastien Collin,42,M45-49,Male,La gaude,,France,FR,,2:33:45,1:49:18,,,4:25:40,0,9225,6558,0,156,15940,181,171,15,99999,99999,99999,106,106,10,181,171,15,Finisher,2961
+Markus,Quirin,Markus Quirin,377,M50-54,Male,Trier,,Germany,DE,,2:42:55,1:40:41,,,4:25:41,0,9775,6041,0,125,15941,182,172,15,99999,99999,99999,260,251,25,182,172,15,Finisher,2921
+Maarten,Vanbergen,Maarten Vanbergen,314,M25-29,Male,Zoutleeuw,Vlaams Brabant,Belgium,BE,,2:41:07,1:42:53,,,4:25:42,0,9667,6173,0,103,15942,183,173,31,99999,99999,99999,224,219,38,183,173,31,Finisher,2686
+Kevin,Wijnants,Kevin Wijnants,524,M30-34,Male,Zoutleeuw,,Belgium,BE,,2:46:14,1:37:08,,,4:25:44,0,9974,5828,0,141,15944,184,174,35,99999,99999,99999,309,297,54,184,174,35,Finisher,2598
+Sebastian,Persuric,Sebastian Persuric,139,M25-29,Male,Hesperange,Luxembourg,Luxembourg,LU,,2:32:35,1:50:24,,,4:25:53,0,9155,6624,0,174,15953,185,175,32,99999,99999,99999,95,95,22,185,175,32,Finisher,2682
+Markus,Backes,Markus Backes,262,M45-49,Male,Nonnweiler,,Germany,DE,,2:32:45,1:49:48,,,4:26:00,0,9165,6588,0,207,15960,186,176,16,99999,99999,99999,96,96,8,186,176,16,Finisher,2955
+Alexandre,Lecestre,Alexandre Lecestre,354,M25-29,Male,Saint Saturnin,,France,FR,,2:43:25,1:41:07,,,4:26:02,0,9805,6067,0,90,15962,187,177,33,99999,99999,99999,267,257,42,187,177,33,Finisher,2680
+Maximilian,Riss,Maximilian Riss,630,M30-34,Male,Serrig,,Germany,DE,,2:39:46,1:44:24,,,4:26:06,0,9586,6264,0,116,15966,188,178,36,99999,99999,99999,201,197,41,188,178,36,Finisher,2591
+Jordy,Vanderbruggen,Jordy Vanderbruggen,329,M25-29,Male,Middelkerke,,Belgium,BE,,2:34:59,1:48:27,,,4:26:11,0,9299,6507,0,164,15971,189,179,34,99999,99999,99999,121,120,27,189,179,34,Finisher,2677
+Tom,Vannoote,Tom Vannoote,673,M40-44,Male,Drongen,,Belgium,BE,,2:41:06,1:40:53,,,4:26:11,0,9666,6053,0,253,15971,190,180,36,99999,99999,99999,223,218,40,190,180,36,Finisher,2765
+Stefan,Hoess,Stefan Hoess,566,M35-39,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:43:55,1:40:43,,,4:26:19,0,9835,6043,0,100,15979,191,181,32,99999,99999,99999,274,264,48,191,181,32,Finisher,2666
+Marc,Clausing,Marc Clausing,327,M35-39,Male,Nieder-Olm,,Germany,DE,,2:29:10,1:55:02,,,4:26:29,0,8950,6902,0,137,15989,192,182,33,99999,99999,99999,54,54,11,192,182,33,Finisher,2663
+Thierry,Raguet,Thierry Raguet,525,M35-39,Male,Livange,Luxemburg,Luxembourg,LU,,2:40:28,1:42:11,,,4:26:37,0,9628,6131,0,238,15997,193,183,34,99999,99999,99999,213,208,39,193,183,34,Finisher,2660
+Tom,Scharfe,Tom Scharfe,259,M40-44,Male,Elvange,ON,Luxembourg,LU,,2:31:34,1:52:00,,,4:26:50,0,9094,6720,0,196,16010,194,184,37,99999,99999,99999,83,83,14,194,184,37,Finisher,2754
+Chris,Korver,Chris Korver,588,M45-49,Male,Limmen,,Netherlands,NL,,2:42:29,1:41:29,,,4:27:00,0,9749,6089,0,182,16020,195,185,17,99999,99999,99999,252,243,28,195,185,17,Finisher,2937
+Philippe,Eliard,Philippe Eliard,608,M50-54,Male,BOUSVAL,,Belgium,BE,,2:42:25,1:40:52,,,4:27:02,0,9745,6052,0,225,16022,196,186,16,99999,99999,99999,250,241,22,196,186,16,Finisher,2896
+Tobias,Banka,Tobias Banka,94,M45-49,Male,Hilzingen,BADEN-WURTTEMBERG,Germany,DE,,2:46:56,1:38:32,,,4:27:18,0,10016,5912,0,110,16038,197,187,18,99999,99999,99999,327,314,39,197,187,18,Finisher,2931
+Gerd,Herfurtner,Gerd Herfurtner,750,M45-49,Male,Höchstadt,,Germany,DE,,2:42:10,1:42:24,,,4:27:32,0,9730,6144,0,177,16052,198,188,19,99999,99999,99999,247,238,27,198,188,19,Finisher,2927
+Rafael,Schneider,Rafael Schneider,639,M25-29,Male,75007 - PARIS 07,,Luxembourg,LU,,2:53:08,1:33:07,,,4:27:36,0,10388,5587,0,80,16056,199,189,35,99999,99999,99999,416,396,58,199,189,35,Finisher,2651
+Mark,Lobbezoo,Mark Lobbezoo,318,M30-34,Male,Arnhem,,Netherlands,NL,,2:39:33,1:45:41,,,4:27:39,0,9573,6341,0,144,16059,200,190,37,99999,99999,99999,199,195,40,200,190,37,Finisher,2564
+Loic,Chavee,Loic Chavee,64,M30-34,Male,HAGONDANGE,,France,FR,,2:39:02,1:46:39,,,4:27:40,0,9542,6399,0,118,16060,201,191,38,99999,99999,99999,192,188,38,201,191,38,Finisher,2563
+Karl,Kleinschmidt,Karl Kleinschmidt,844,M18-24,Male,Möhnesee,NORDRHEIN-WESTFALEN,Germany,DE,,2:47:26,1:38:11,,,4:27:49,0,10046,5891,0,133,16069,202,192,5,99999,99999,99999,332,319,5,202,192,5,Finisher,3000
+Lex,Martens,Lex Martens,276,M40-44,Male,Maastricht,,Netherlands,NL,,2:43:50,1:42:20,,,4:27:50,0,9830,6140,0,101,16070,203,193,38,99999,99999,99999,273,263,47,203,193,38,Finisher,2736
+Christian,Biegner,Christian Biegner,387,M30-34,Male,Nonnweiler,,Germany,DE,,2:35:46,1:50:59,,,4:27:58,0,9346,6659,0,73,16078,204,194,39,99999,99999,99999,134,133,27,204,194,39,Finisher,2558
+Jason,Lord,Jason Lord,306,M35-39,Male,Berlin,,Australia,AU,,2:39:53,1:46:51,,,4:28:17,0,9593,6411,0,93,16097,205,195,35,99999,99999,99999,205,201,36,205,195,35,Finisher,2630
+Kris,Van Laarhoven,Kris Van Laarhoven,155,M45-49,Male,olen,,Belgium,BE,,2:38:53,1:47:26,,,4:28:17,0,9533,6446,0,118,16097,206,196,20,99999,99999,99999,191,187,18,206,196,20,Finisher,2914
+Maxime,Arnould,Maxime Arnould,782,M30-34,Male,Wolkrange,LUXEMBOURG,Belgium,BE,,2:37:06,1:49:42,,,4:28:36,0,9426,6582,0,107,16116,207,197,40,99999,99999,99999,160,157,32,207,197,40,Finisher,2546
+Rudy,Haex,Rudy Haex,352,M45-49,Male,Peer,,Belgium,BE,,2:35:58,1:50:22,,,4:28:48,0,9358,6622,0,148,16128,208,198,21,99999,99999,99999,141,140,13,208,198,21,Finisher,2904
+Pierpaolo,Colucci,Pierpaolo Colucci,53,M35-39,Male,LA VARENNE SAINT HILAIRE,VAL-DE-MARNE,Italy,IT,,2:50:31,1:36:34,,,4:28:54,0,10231,5794,0,109,16134,209,199,36,99999,99999,99999,377,360,63,209,199,36,Finisher,2619
+Ken,Uyttebroeck,Ken Uyttebroeck,653,M40-44,Male,Tienen,,Belgium,BE,,2:40:54,1:45:12,,,4:29:22,0,9654,6312,0,196,16162,210,200,39,99999,99999,99999,219,214,39,210,200,39,Finisher,2708
+Adrien,Beck,Adrien Beck,665,M40-44,Male,Ranguevaux,,France,FR,,2:45:50,1:41:41,,,4:29:29,0,9950,6101,0,118,16169,211,201,40,99999,99999,99999,301,289,56,211,201,40,Finisher,2706
+Fabian,Trösch,Fabian Trösch,570,M25-29,Male,Dautphetal,,Germany,DE,,2:36:44,1:50:15,,,4:29:36,0,9404,6615,0,156,16176,212,202,36,99999,99999,99999,151,149,29,212,202,36,Finisher,2615
+Rombout,Senepart,Rombout Senepart,114,M35-39,Male,Dendermonde,OOST-VLAANDEREN,Belgium,BE,,2:38:40,1:49:05,,,4:29:46,0,9520,6545,0,121,16186,213,203,37,99999,99999,99999,182,178,32,213,203,37,Finisher,2603
+Alexandro,Canto,Alexandro Canto,58,M45-49,Male,Sandweiler,Luxembourg,France,FR,,2:44:05,1:44:19,,,4:29:48,0,9845,6259,0,84,16188,214,204,22,99999,99999,99999,276,266,33,214,204,22,Finisher,2886
+Paul,Ducom,Paul Ducom,503,M30-34,Male,BONS-EN-CHABLAIS,,France,FR,,2:43:29,1:44:11,,,4:29:56,0,9809,6251,0,136,16196,215,205,41,99999,99999,99999,268,258,49,215,205,41,Finisher,2522
+Serge,Kiffer,Serge Kiffer,641,M45-49,Male,marseille,,France,FR,,2:47:43,1:39:59,,,4:29:57,0,10063,5999,0,135,16197,216,206,23,99999,99999,99999,335,322,41,216,206,23,Finisher,2884
+Geoffrey,Legroux,Geoffrey Legroux,662,M30-34,Male,Bétheny,,France,FR,,2:46:25,1:41:24,,,4:29:59,0,9985,6084,0,129,16199,217,207,42,99999,99999,99999,314,302,55,217,207,42,Finisher,2522
+Pieter,Wijgers,Pieter Wijgers,164,M25-29,Male,Wortel,,Belgium,BE,,2:44:55,1:42:55,,,4:30:08,0,9895,6175,0,138,16208,218,208,37,99999,99999,99999,291,280,43,218,208,37,Finisher,2606
+Aljoscha,Busenius,Aljoscha Busenius,363,M25-29,Male,Lüdenscheid,,Germany,DE,,2:53:50,1:34:42,,,4:30:10,0,10430,5682,0,98,16210,219,209,38,99999,99999,99999,426,405,60,219,209,38,Finisher,2605
+Sascha,Pioch,Sascha Pioch,279,M40-44,Male,korschenbroich,NW,Germany,DE,,2:38:45,1:50:19,,,4:30:23,0,9525,6619,0,80,16223,220,210,41,99999,99999,99999,185,181,33,220,210,41,Finisher,2690
+Lieven,Serrien,Lieven Serrien,814,M40-44,Male,Genk,,Belgium,BE,,2:44:59,1:42:44,,,4:30:30,0,9899,6164,0,166,16230,221,211,42,99999,99999,99999,292,281,54,221,211,42,Finisher,2688
+Cauwelier,Pascal,Cauwelier Pascal,63,M45-49,Male,Asper,,Belgium,BE,,2:41:37,1:46:35,,,4:30:31,0,9697,6395,0,140,16231,222,212,24,99999,99999,99999,235,229,24,222,212,24,Finisher,2873
+Yannick,Wachter,Yannick Wachter,384,M35-39,Male,Mainz,,Germany,DE,,2:35:48,1:53:17,,,4:30:32,0,9348,6797,0,87,16232,223,213,38,99999,99999,99999,135,134,27,223,213,38,Finisher,2590
+Morten,Demant,Morten Demant,263,M45-49,Male,Odense,,Denmark,DK,,2:29:06,1:57:48,,,4:30:43,0,8946,7068,0,229,16243,224,214,25,99999,99999,99999,52,52,5,224,214,25,Finisher,2870
+Steven,Pranger,Steven Pranger,718,M40-44,Male,Heerhugowaard,,Netherlands,NL,,2:35:39,1:52:16,,,4:30:50,0,9339,6736,0,175,16250,225,215,43,99999,99999,99999,130,129,22,225,215,43,Finisher,2682
+Samuel,Maingard,Samuel Maingard,880,M45-49,Male,ESCHAU,,France,FR,,2:34:57,1:53:52,,,4:30:54,0,9297,6832,0,126,16254,226,216,26,99999,99999,99999,120,119,12,226,216,26,Finisher,2867
+Jacques,Geijsen,Jacques Geijsen,806,M50-54,Male,gent,,Netherlands,NL,,2:39:14,1:50:11,,,4:31:15,0,9554,6611,0,110,16275,227,217,17,99999,99999,99999,196,192,16,227,217,17,Finisher,2820
+Cederique,Schellis,Cederique Schellis,850,M30-34,Male,Zonhoven,,Belgium,BE,,2:42:47,1:44:14,,,4:31:28,0,9767,6254,0,267,16288,228,218,43,99999,99999,99999,257,248,48,228,218,43,Finisher,2495
+Marc,Goergen,Marc Goergen,527,M40-44,Male,Erpeldange,REIMECH,Luxembourg,LU,,2:48:51,1:40:24,,,4:31:30,0,10131,6024,0,134,16290,229,219,44,99999,99999,99999,349,335,69,229,219,44,Finisher,2670
+Manuel,Altenburger,Manuel Altenburger,404,M35-39,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:30:55,1:58:15,,,4:31:35,0,9055,7095,0,145,16295,230,220,39,99999,99999,99999,72,72,15,230,220,39,Finisher,2571
+Holger,Wagenaar,Holger Wagenaar,962,M50-54,Male,Soest,,Netherlands,NL,,2:43:46,1:46:23,,,4:31:56,0,9826,6383,0,107,16316,231,221,18,99999,99999,99999,270,260,26,231,221,18,Finisher,2808
+Alicja,Medak,Alicja Medak,249,F45-49,Female,Wasserbillig,GREIVEMAACHER,Poland,PL,,2:53:33,1:36:47,,,4:32:04,0,10413,5807,0,103,16324,232,11,1,99999,99999,99999,424,21,1,232,11,1,Finisher,3500
+Daniel,Unger,Daniel Unger,396,M35-39,Male,Gerolzhofen,,Germany,DE,,2:31:46,1:57:38,,,4:32:14,0,9106,7058,0,170,16334,233,222,40,99999,99999,99999,85,85,19,233,222,40,Finisher,2559
+Mark,Hupfeld,Mark Hupfeld,509,M45-49,Male,drochtersen,,Germany,DE,,2:42:49,1:47:18,,,4:32:37,0,9769,6438,0,149,16357,234,223,27,99999,99999,99999,258,249,29,234,223,27,Finisher,2836
+Davy,Geerinck,Davy Geerinck,120,M30-34,Male,Dendermonde,,Belgium,BE,,2:35:55,1:55:52,,,4:32:46,0,9355,6952,0,60,16366,235,224,44,99999,99999,99999,138,137,29,235,224,44,Finisher,2471
+Arie,Franke,Arie Franke,403,M35-39,Male,ZH,,Netherlands,NL,,2:52:17,1:36:59,,,4:32:56,0,10337,5819,0,219,16376,236,225,41,99999,99999,99999,403,385,68,236,225,41,Finisher,2546
+Patrick,Ulfig,Patrick Ulfig,293,M35-39,Male,Brüggen,NW,Germany,DE,,2:41:12,1:49:02,,,4:32:58,0,9672,6542,0,164,16378,237,226,42,99999,99999,99999,225,220,40,237,226,42,Finisher,2546
+Maxime,Vougnon,Maxime Vougnon,674,M30-34,Male,CHAMPAGNOLE,,France,FR,,2:41:16,1:47:34,,,4:33:07,0,9676,6454,0,256,16387,238,227,45,99999,99999,99999,229,223,46,238,227,45,Finisher,2465
+Kerstin,Bannwolf,Kerstin Bannwolf,28,F35-39,Female,Malsch,BW,Germany,DE,,2:46:32,1:45:40,,,4:33:19,0,9992,6340,0,67,16399,239,12,5,99999,99999,99999,320,13,5,239,12,5,Finisher,3010
+Pavel,Grigorenko,Pavel Grigorenko,288,M35-39,Male,Tallinn,Harju,Estonia,EE,,2:36:52,1:54:52,,,4:33:26,0,9412,6892,0,102,16406,240,228,43,99999,99999,99999,153,151,30,240,228,43,Finisher,2537
+Markus,Dambach,Markus Dambach,290,M40-44,Male,Aglasterhausen,,Germany,DE,,2:53:22,1:37:24,,,4:33:33,0,10402,5844,0,167,16413,241,229,45,99999,99999,99999,420,400,79,241,229,45,Finisher,2633
+Luuk,Brakel,Luuk Brakel,846,M25-29,Male,Amsterdam,,Netherlands,NL,,2:41:01,1:50:17,,,4:33:41,0,9661,6617,0,142,16421,242,230,39,99999,99999,99999,221,216,37,242,230,39,Finisher,2542
+Sandra,Herbst,Sandra Herbst,14,F50-54,Female,Neunkirchen-Seelscheid,,Germany,DE,,2:52:29,1:38:51,,,4:33:42,0,10349,5931,0,141,16422,243,13,2,99999,99999,99999,405,19,4,243,13,2,Finisher,3110
+Benoît,Krier,Benoît Krier,323,M35-39,Male,Beringen,L,Luxembourg,LU,,2:50:40,1:39:41,,,4:33:56,0,10240,5981,0,215,16436,244,231,44,99999,99999,99999,380,363,64,244,231,44,Finisher,2528
+Katharina,Binzenhoefer,Katharina Binzenhoefer,567,F18-24,Female,Bayreuth,,Germany,DE,,2:49:54,1:42:04,,,4:34:03,0,10194,6124,0,126,16443,245,14,2,99999,99999,99999,366,17,2,245,14,2,Finisher,3161
+Stephan,Lengfelder,Stephan Lengfelder,732,M35-39,Male,Luxembourg,,Germany,DE,,2:49:29,1:39:29,,,4:34:04,0,10169,5969,0,306,16444,246,232,45,99999,99999,99999,358,343,58,246,232,45,Finisher,2526
+Laurent,Dammé,Laurent Dammé,50,M25-29,Male,Bascharage,Luxembourg,Luxembourg,LU,,2:46:55,1:45:24,,,4:34:05,0,10015,6324,0,106,16445,247,233,40,99999,99999,99999,326,313,46,247,233,40,Finisher,2535
+David,Siebenaler,David Siebenaler,755,M50-54,Male,Mersch,,Luxembourg,LU,,2:42:07,1:49:46,,,4:34:12,0,9727,6586,0,139,16452,248,234,19,99999,99999,99999,243,235,20,248,234,19,Finisher,2767
+Stephan,De Stoop,Stephan De Stoop,671,M35-39,Male,Melle,,Belgium,BE,,2:43:33,1:46:50,,,4:34:14,0,9813,6410,0,231,16454,249,235,46,99999,99999,99999,269,259,47,249,235,46,Finisher,2523
+Guillaume,Mackowiak,Guillaume Mackowiak,652,M35-39,Male,HOUCHIN ,,France,FR,,2:39:13,1:53:12,,,4:34:26,0,9553,6792,0,120,16466,250,236,47,99999,99999,99999,195,191,35,250,236,47,Finisher,2519
+Christophe,Pirenne,Christophe Pirenne,272,M45-49,Male,Bous,Luxembourg,Luxembourg,LU,,2:38:44,1:54:51,,,4:34:38,0,9524,6891,0,63,16478,251,237,28,99999,99999,99999,183,179,17,251,237,28,Finisher,2799
+Bruno,Brüggemann,Bruno Brüggemann,530,M35-39,Male,Strassen,Luxemburgo,Luxembourg,LU,,2:48:24,1:44:37,,,4:34:39,0,10104,6277,0,99,16479,252,238,48,99999,99999,99999,345,331,55,252,238,48,Finisher,2516
+Irmi,Maier,Irmi Maier,12,F50-54,Female,Immenstadt,,Germany,DE,,2:37:09,1:55:54,,,4:34:39,0,9429,6954,0,96,16479,253,15,3,99999,99999,99999,162,4,1,253,15,3,Finisher,3093
+Philippe,Goffard,Philippe Goffard,170,M50-54,Male,Lasne,,Belgium,BE,,2:39:04,1:53:10,,,4:34:45,0,9544,6790,0,152,16485,254,239,20,99999,99999,99999,193,189,15,254,239,20,Finisher,2757
+Timo,Heck,Timo Heck,569,M40-44,Male,Dautphetal,,Germany,DE,,2:44:11,1:49:12,,,4:34:58,0,9851,6552,0,94,16498,255,240,46,99999,99999,99999,278,268,48,255,240,46,Finisher,2607
+Nicolas,Dugauquier,Nicolas Dugauquier,770,M40-44,Male,Lasne,,Belgium,BE,,2:44:37,1:47:45,,,4:34:58,0,9877,6465,0,156,16498,256,241,47,99999,99999,99999,284,273,51,256,241,47,Finisher,2607
+Berry,Van Holland,Berry Van Holland,664,M40-44,Male,Eelde,,Netherlands,NL,,2:36:59,1:55:55,,,4:35:07,0,9419,6955,0,133,16507,257,242,48,99999,99999,99999,155,153,28,257,242,48,Finisher,2605
+Samantha,Ecker,Samantha Ecker,128,F25-29,Female,Vichten,,Luxembourg,LU,,2:43:02,1:50:47,,,4:35:15,0,9782,6647,0,86,16515,258,16,1,99999,99999,99999,262,10,1,258,16,1,Finisher,3500
+Rowald,Groenendaal,Rowald Groenendaal,585,M30-34,Male,Hellevoetsluis,,Netherlands,NL,,2:29:10,2:02:10,,,4:35:17,0,8950,7330,0,237,16517,259,243,46,99999,99999,99999,53,53,12,259,243,46,Finisher,2426
+Thomas,Schneider,Thomas Schneider,575,M50-54,Male,altenkirchen,Rhineland-Palatinate,Germany,DE,,2:44:42,1:48:54,,,4:35:31,0,9882,6534,0,116,16531,260,244,21,99999,99999,99999,285,274,28,260,244,21,Finisher,2744
+Geoffrey,Koekelberg,Geoffrey Koekelberg,370,M40-44,Male,Sombreffe,,Belgium,BE,,2:38:44,1:55:51,,,4:35:54,0,9524,6951,0,79,16554,261,245,49,99999,99999,99999,184,180,32,261,245,49,Finisher,2591
+Daniele,Flammang,Daniele Flammang,75,F50-54,Female,Lintgen,,Luxembourg,LU,,2:54:29,1:39:59,,,4:36:07,0,10469,5999,0,98,16567,262,17,4,99999,99999,99999,432,22,5,262,17,4,Finisher,3067
+Guy,Mertens,Guy Mertens,95,M40-44,Male,Wilrijk,,Belgium,BE,,2:46:05,1:46:21,,,4:36:08,0,9965,6381,0,222,16568,263,246,50,99999,99999,99999,306,294,57,263,246,50,Finisher,2586
+Ben,Kandel,Ben Kandel,685,M35-39,Male,NIederkorn,Niederkorn,Luxembourg,LU,,2:50:43,1:42:13,,,4:36:21,0,10243,6133,0,205,16581,264,247,49,99999,99999,99999,381,364,65,264,247,49,Finisher,2485
+Serge,Raach,Serge Raach,376,M35-39,Male,Hosingen,Ösling,Luxembourg,LU,,2:42:56,1:51:04,,,4:36:44,0,9776,6664,0,164,16604,265,248,50,99999,99999,99999,261,252,46,265,248,50,Finisher,2478
+Arthur,Ehlinger,Arthur Ehlinger,349,M25-29,Male,Bertrange,Luxembourg,Luxembourg,LU,,2:46:28,1:46:36,,,4:36:49,0,9988,6396,0,225,16609,266,249,41,99999,99999,99999,316,304,45,266,249,41,Finisher,2486
+Andrey,Volodin,Andrey Volodin,591,M40-44,Male,Moscow,Moscow,Russia,RU,,2:45:31,1:49:25,,,4:36:50,0,9931,6565,0,114,16610,267,250,51,99999,99999,99999,298,286,55,267,250,51,Finisher,2574
+Ronny,Purschwitz,Ronny Purschwitz,642,M45-49,Male,Hoppegarten,,Germany,DE,,2:40:19,1:53:54,,,4:36:51,0,9619,6834,0,158,16611,268,251,29,99999,99999,99999,212,207,20,268,251,29,Finisher,2759
+Boris,Treptow,Boris Treptow,275,M45-49,Male,Wiesbaden,,Germany,DE,,2:38:26,1:56:45,,,4:36:54,0,9506,7005,0,103,16614,269,252,30,99999,99999,99999,178,174,16,269,252,30,Finisher,2759
+Niels,Brans,Niels Brans,333,M25-29,Male,Sint-Truiden,,Belgium,BE,,2:41:13,1:54:30,,,4:36:59,0,9673,6870,0,76,16619,270,253,42,99999,99999,99999,226,221,39,270,253,42,Finisher,2483
+Lorenzo,Mahieu,Lorenzo Mahieu,649,M45-49,Male,Harelbeke,,Belgium,BE,,2:46:50,1:46:42,,,4:37:18,0,10010,6402,0,226,16638,271,254,31,99999,99999,99999,323,310,38,271,254,31,Finisher,2751
+Pierre,Cowez,Pierre Cowez,366,M40-44,Male,Uccle,,Belgium,BE,,2:44:52,1:50:01,,,4:37:22,0,9892,6601,0,148,16642,272,255,52,99999,99999,99999,288,277,52,272,255,52,Finisher,2564
+Raoul,Grün,Raoul Grün,680,M30-34,Male,Differdange,ESCH AN DER ALZETTE,Luxembourg,LU,,3:01:48,1:33:18,,,4:37:27,0,10908,5598,0,142,16647,273,256,47,99999,99999,99999,554,503,78,273,256,47,Finisher,2387
+Yannick,Van Heers,Yannick Van Heers,710,M30-34,Male,Luxembourg,Luxembourg,Belgium,BE,,2:47:59,1:47:18,,,4:37:38,0,10079,6438,0,141,16658,274,257,48,99999,99999,99999,339,326,59,274,257,48,Finisher,2384
+Eelco,Van Diesen,Eelco Van Diesen,557,M40-44,Male,Vlaardingen,,Netherlands,NL,,2:49:22,1:45:19,,,4:37:39,0,10162,6319,0,178,16659,275,258,53,99999,99999,99999,356,341,71,275,258,53,Finisher,2559
+Rolf,Regener,Rolf Regener,769,M55-59,Male,Bollendorf,,Germany,DE,,2:38:09,1:57:18,,,4:37:44,0,9489,7038,0,137,16664,276,259,8,99999,99999,99999,175,171,8,276,259,8,Finisher,3052
+Richard,Laporte,Richard Laporte,77,M25-29,Male,TAVERNY,,France,FR,,2:34:47,2:00:17,,,4:37:59,0,9287,7217,0,175,16679,277,260,43,99999,99999,99999,117,116,26,277,260,43,Finisher,2465
+Benjamin,Colinet,Benjamin Colinet,804,M40-44,Male,Wépion,,Belgium,BE,,2:49:58,1:45:22,,,4:38:02,0,10198,6322,0,162,16682,278,261,54,99999,99999,99999,370,353,76,278,261,54,Finisher,2552
+Alexandre,Bickelmann,Alexandre Bickelmann,328,M30-34,Male,Plesnois,,France,FR,,2:42:14,1:53:36,,,4:38:12,0,9734,6816,0,142,16692,279,262,49,99999,99999,99999,248,239,47,279,262,49,Finisher,2374
+Matthias,Krolla,Matthias Krolla,607,M50-54,Male,Bingen am Rhein,,Germany,DE,,2:50:09,1:44:46,,,4:38:12,0,10209,6286,0,197,16692,280,263,22,99999,99999,99999,373,356,35,280,263,22,Finisher,2695
+Jurgen,Vansteenkiste,Jurgen Vansteenkiste,716,M40-44,Male,Dentergem,WEST-VLAANDEREN,Belgium,BE,,2:49:40,1:46:44,,,4:38:13,0,10180,6404,0,110,16693,281,264,55,99999,99999,99999,362,347,74,281,264,55,Finisher,2549
+Totte,Kreutzer,Totte Kreutzer,402,M40-44,Male,Kelmis,,Germany,DE,,2:44:55,1:51:49,,,4:38:14,0,9895,6709,0,91,16694,282,265,56,99999,99999,99999,290,279,53,282,265,56,Finisher,2549
+Benjamin,Meskens,Benjamin Meskens,115,M30-34,Male,Dendermonde,,Belgium,BE,,2:37:30,1:57:52,,,4:38:31,0,9450,7072,0,190,16711,283,266,50,99999,99999,99999,167,163,34,283,266,50,Finisher,2368
+Gilles,Bonert,Gilles Bonert,129,M25-29,Male,Reuland,Heffingen,Luxembourg,LU,,2:51:49,1:44:58,,,4:38:32,0,10309,6298,0,105,16712,284,267,44,99999,99999,99999,398,380,55,284,267,44,Finisher,2455
+Jiri,Guttek,Jiri Guttek,175,M45-49,Male,Ohain,,Czech Republic,CZ,,2:45:58,1:50:40,,,4:38:41,0,9958,6640,0,123,16721,285,268,32,99999,99999,99999,304,292,37,285,268,32,Finisher,2726
+Friedrich,Greiveldinger,Friedrich Greiveldinger,535,M40-44,Male,Perl,,Germany,DE,,2:43:24,1:53:03,,,4:38:43,0,9804,6783,0,137,16723,286,269,57,99999,99999,99999,266,256,46,286,269,57,Finisher,2540
+Simone,Scheuermann,Simone Scheuermann,336,F40-44,Female,Illingen,,Germany,DE,,2:44:28,1:52:12,,,4:38:44,0,9868,6732,0,124,16724,287,18,1,99999,99999,99999,282,11,1,287,18,1,Finisher,3500
+Tomasz,Balawajder,Tomasz Balawajder,393,M35-39,Male,Warszawa,mazowieckie,Poland,PL,,2:48:39,1:48:16,,,4:38:50,0,10119,6496,0,115,16730,288,270,51,99999,99999,99999,347,333,57,288,270,51,Finisher,2440
+Mike,Moersch,Mike Moersch,319,M35-39,Male,Warken,Ettelbruck,Luxembourg,LU,,2:39:10,1:58:02,,,4:39:01,0,9550,7082,0,109,16741,289,271,52,99999,99999,99999,194,190,34,289,271,52,Finisher,2437
+Aloyse,Schartz,Aloyse Schartz,564,M55-59,Male,Mersch,,Luxembourg,LU,,2:43:48,1:52:11,,,4:39:28,0,9828,6731,0,209,16768,290,272,9,99999,99999,99999,271,261,12,290,272,9,Finisher,3020
+Björn,Keller,Björn Keller,737,M40-44,Male,St. Ingbert,,Germany,DE,,2:44:29,1:52:32,,,4:39:33,0,9869,6752,0,151,16773,291,273,58,99999,99999,99999,283,272,50,291,273,58,Finisher,2525
+Thomas,Fayer,Thomas Fayer,761,M25-29,Male,Grenoble,,France,FR,,2:38:45,1:57:57,,,4:39:37,0,9525,7077,0,175,16777,292,274,45,99999,99999,99999,186,182,35,292,274,45,Finisher,2435
+Lars,Boden,Lars Boden,624,M45-49,Male,Newel,,Germany,DE,,2:40:02,1:57:18,,,4:39:40,0,9602,7038,0,140,16780,293,275,33,99999,99999,99999,206,202,19,293,275,33,Finisher,2709
+Herve,Joye,Herve Joye,669,M55-59,Male,Blonay,,Switzerland,CH,,2:38:30,1:58:37,,,4:39:44,0,9510,7117,0,157,16784,294,276,10,99999,99999,99999,180,176,9,294,276,10,Finisher,3016
+Fabian,Rupp,Fabian Rupp,731,M35-39,Male,Frankfurt,,Germany,DE,,2:49:35,1:46:32,,,4:39:47,0,10175,6392,0,220,16787,295,277,53,99999,99999,99999,359,344,59,295,277,53,Finisher,2423
+Tim,Püttner,Tim Püttner,631,M25-29,Male,Köln,,Germany,DE,,2:48:03,1:47:54,,,4:39:50,0,10083,6474,0,233,16790,296,278,46,99999,99999,99999,340,327,48,296,278,46,Finisher,2431
+Stephan,Latz,Stephan Latz,508,M45-49,Male,Trier,,Germany,DE,,2:45:11,1:53:14,,,4:40:01,0,9911,6794,0,96,16801,297,279,34,99999,99999,99999,293,282,34,297,279,34,Finisher,2702
+Thijs,Roovers,Thijs Roovers,351,M40-44,Male,Den Dungen,,Netherlands,NL,,2:35:46,2:02:46,,,4:40:09,0,9346,7366,0,97,16809,298,280,59,99999,99999,99999,133,132,25,298,280,59,Finisher,2514
+Herbert,Weilguni,Herbert Weilguni,86,M60-64,Male,Troisdorf,,Germany,DE,,2:36:29,2:01:21,,,4:40:14,0,9389,7281,0,144,16814,299,281,2,99999,99999,99999,147,146,2,299,281,2,Finisher,2996
+Tom,Verhulsdonk,Tom Verhulsdonk,918,M18-24,Male,Eindhoven,,Netherlands,NL,,2:52:56,1:39:53,,,4:40:26,0,10376,5993,0,457,16826,300,282,6,99999,99999,99999,411,391,8,300,282,6,Finisher,2773
+Agustin,Garcia,Agustin Garcia,35,M55-59,Male,Haastrecht,,Spain,ES,,2:44:23,1:53:36,,,4:40:35,0,9863,6816,0,156,16835,301,283,11,99999,99999,99999,281,271,14,301,283,11,Finisher,3000
+Joost,Levie,Joost Levie,635,M35-39,Male,Roermond,,Netherlands,NL,,2:45:16,1:52:36,,,4:40:43,0,9916,6756,0,171,16843,302,284,54,99999,99999,99999,294,283,50,302,284,54,Finisher,2406
+André,Feller,André Feller,687,M30-34,Male,Brachtenbach,,Luxembourg,LU,,2:36:56,2:02:10,,,4:40:47,0,9416,7330,0,100,16847,303,285,51,99999,99999,99999,154,152,31,303,285,51,Finisher,2327
+Karsten,Kuss,Karsten Kuss,550,M40-44,Male,Hamburg,,Germany,DE,,2:42:43,1:55:55,,,4:40:50,0,9763,6955,0,132,16850,304,286,60,99999,99999,99999,256,247,45,304,286,60,Finisher,2502
+Henk,Kaes,Henk Kaes,843,M55-59,Male,As,,Belgium,BE,,2:41:19,1:56:45,,,4:40:55,0,9679,7005,0,171,16855,305,287,12,99999,99999,99999,230,224,11,305,287,12,Finisher,2994
+Justine,Hubert,Justine Hubert,833,F30-34,Female,Zurich,,Belgium,BE,,2:50:52,1:47:47,,,4:40:56,0,10252,6467,0,137,16856,306,19,5,99999,99999,99999,385,18,6,306,19,5,Finisher,2795
+Laurent,Dion,Laurent Dion,604,M50-54,Male,Chalon sur saone,,France,FR,,2:41:02,1:57:49,,,4:41:13,0,9662,7069,0,142,16873,307,288,23,99999,99999,99999,222,217,18,307,288,23,Finisher,2641
+Tina,Lutz,Tina Lutz,648,F50-54,Female,Weinheim (Bergstraße),,Germany,DE,,2:49:46,1:46:41,,,4:41:14,0,10186,6401,0,287,16874,308,20,5,99999,99999,99999,365,16,3,308,20,5,Finisher,2975
+wim,van hecke,wim van hecke,116,M30-34,Male,zele,,Belgium,BE,,2:51:27,1:47:10,,,4:41:26,0,10287,6430,0,168,16886,309,289,52,99999,99999,99999,391,373,62,309,289,52,Finisher,2315
+Stefan,Böhm,Stefan Böhm,322,M45-49,Male,Mainz,,Germany,DE,,2:43:06,1:56:07,,,4:41:30,0,9786,6967,0,138,16890,310,290,35,99999,99999,99999,264,254,31,310,290,35,Finisher,2676
+Thierry,Legagnoux,Thierry Legagnoux,834,M50-54,Male,PARIS,,France,FR,,2:51:22,1:46:51,,,4:41:39,0,10282,6411,0,205,16899,311,291,24,99999,99999,99999,389,371,40,311,291,24,Finisher,2633
+Stephan,Ehl,Stephan Ehl,302,M50-54,Male,Saarwellingen,SL,Germany,DE,,2:39:49,1:58:56,,,4:41:43,0,9589,7136,0,178,16903,312,292,25,99999,99999,99999,204,200,17,312,292,25,Finisher,2632
+Patrick,Delhaye,Patrick Delhaye,399,M50-54,Male,FONTAINE VALMONT,,Belgium,BE,,2:47:18,1:51:38,,,4:41:54,0,10038,6698,0,179,16914,313,293,26,99999,99999,99999,330,317,32,313,293,26,Finisher,2629
+Antonio,Caracciolo,Antonio Caracciolo,80,M50-54,Male,Bottenwil,AARGAU,Switzerland,CH,,2:41:23,1:57:51,,,4:42:06,0,9683,7071,0,172,16926,314,294,27,99999,99999,99999,233,227,19,314,294,27,Finisher,2625
+Joris,De Coninck,Joris De Coninck,651,M40-44,Male,Mechelen,,Belgium,BE,,2:46:28,1:51:25,,,4:42:16,0,9988,6685,0,263,16936,315,295,61,99999,99999,99999,317,305,61,315,295,61,Finisher,2476
+Tim,Kok,Tim Kok,603,M35-39,Male,Zuidlaren,,Netherlands,NL,,2:44:07,1:55:09,,,4:42:19,0,9847,6909,0,183,16939,316,296,55,99999,99999,99999,277,267,49,316,296,55,Finisher,2378
+Michael,Oostrom,Michael Oostrom,555,M35-39,Male,Vlaardingen,,Netherlands,NL,,2:48:38,1:50:46,,,4:42:19,0,10118,6646,0,175,16939,317,297,56,99999,99999,99999,346,332,56,317,297,56,Finisher,2378
+Christophe,Lecoq,Christophe Lecoq,877,M40-44,Male,manom,,France,FR,,2:47:14,1:53:39,,,4:42:41,0,10034,6819,0,107,16961,318,298,62,99999,99999,99999,329,316,65,318,298,62,Finisher,2468
+Roxanne,Simon,Roxanne Simon,733,F30-34,Female,Oberursel (Taunus),,United Kingdom,GB,,2:55:08,1:46:17,,,4:42:48,0,10508,6377,0,83,16968,319,21,6,99999,99999,99999,445,25,8,319,21,6,Finisher,2762
+Diederik,Lebbink,Diederik Lebbink,771,M35-39,Male,Brussel,,Belgium,BE,,2:47:54,1:51:06,,,4:42:57,0,10074,6666,0,236,16977,320,299,57,99999,99999,99999,337,324,54,320,299,57,Finisher,2366
+Andreas,Diehl,Andreas Diehl,545,M30-34,Male,Waldrach,,Germany,DE,,2:49:56,1:50:02,,,4:43:00,0,10196,6602,0,182,16980,321,300,53,99999,99999,99999,369,352,60,321,300,53,Finisher,2287
+Christian,Frühling,Christian Frühling,586,M35-39,Male,Heikendorf,,Germany,DE,,2:46:17,1:54:54,,,4:43:18,0,9977,6894,0,127,16998,322,301,58,99999,99999,99999,311,299,52,322,301,58,Finisher,2360
+Claude,Sertznig,Claude Sertznig,99,M40-44,Male,Godbrange,,Luxembourg,LU,,2:54:40,1:45:43,,,4:43:24,0,10480,6343,0,181,17004,323,302,63,99999,99999,99999,435,413,82,323,302,63,Finisher,2456
+Dennis,Eggert,Dennis Eggert,578,M40-44,Male,Bonn,,Germany,DE,,2:41:21,1:59:59,,,4:43:37,0,9681,7199,0,137,17017,324,303,64,99999,99999,99999,232,226,42,324,303,64,Finisher,2452
+Alexis,Wagner,Alexis Wagner,675,M25-29,Male,Ham sous varsberg,,France,FR,,2:42:26,1:58:29,,,4:43:49,0,9746,7109,0,174,17029,325,304,47,99999,99999,99999,251,242,40,325,304,47,Finisher,2360
+Marc,Griffioen,Marc Griffioen,895,M50-54,Male,Tiel,,Netherlands,NL,,2:54:03,1:46:38,,,4:43:54,0,10443,6398,0,193,17034,326,305,28,99999,99999,99999,430,409,45,326,305,28,Finisher,2593
+Pablo Matias,Lucero,Pablo Matias Lucero,704,M40-44,Male,Edegem,ANTWERPEN,Argentina,AR,,2:47:42,1:51:23,,,4:43:56,0,10062,6683,0,292,17036,327,306,65,99999,99999,99999,334,321,66,327,306,65,Finisher,2446
+Aurélien,Lauwers,Aurélien Lauwers,54,M35-39,Male,Pont-à-Celles,,Belgium,BE,,3:06:54,1:34:26,,,4:43:59,0,11214,5666,0,159,17039,328,307,59,99999,99999,99999,604,545,88,328,307,59,Finisher,2348
+Ina,Jaspers,Ina Jaspers,815,F45-49,Female,Genk,,Belgium,BE,,2:56:04,1:44:00,,,4:44:03,0,10564,6240,0,239,17043,329,22,2,99999,99999,99999,459,27,2,329,22,2,Finisher,3284
+Pierre,Feller,Pierre Feller,684,M35-39,Male,Alscheid,Luxemburg,Luxembourg,LU,,2:41:21,2:00:19,,,4:44:09,0,9681,7219,0,150,17049,330,308,60,99999,99999,99999,231,225,41,330,308,60,Finisher,2345
+Andreas,Schmidt,Andreas Schmidt,529,M50-54,Male,Weiskirchen,,Germany,DE,,2:42:37,1:57:52,,,4:44:11,0,9757,7072,0,223,17051,331,309,29,99999,99999,99999,254,245,24,331,309,29,Finisher,2588
+Philippe,Jacoby,Philippe Jacoby,526,M35-39,Male,Weiler-la-Tour,LETZEBUERG,Luxembourg,LU,,2:41:29,1:59:27,,,4:44:15,0,9689,7167,0,199,17055,332,310,61,99999,99999,99999,234,228,42,332,310,61,Finisher,2343
+Achim,Kempf,Achim Kempf,96,M50-54,Male,Köln,,Germany,DE,,2:42:33,2:00:06,,,4:44:20,0,9753,7206,0,102,17060,333,311,30,99999,99999,99999,253,244,23,333,311,30,Finisher,2585
+Samy,Laribi,Samy Laribi,315,M35-39,Male,RODANGE,luxemburg,Luxembourg,LU,,2:45:18,1:55:24,,,4:44:22,0,9918,6924,0,219,17062,334,312,62,99999,99999,99999,295,284,51,334,312,62,Finisher,2341
+Danny,Van Peij,Danny Van Peij,691,M45-49,Male,Tegelen,,Netherlands,NL,,2:49:43,1:48:53,,,4:44:22,0,10183,6533,0,346,17062,335,313,36,99999,99999,99999,363,348,44,335,313,36,Finisher,2624
+Franck,Vieren,Franck Vieren,799,M45-49,Male,Quesnoy sur deule,,France,FR,,2:49:54,1:50:25,,,4:44:32,0,10194,6625,0,252,17072,336,314,37,99999,99999,99999,367,350,45,336,314,37,Finisher,2621
+Thierry,Kohn,Thierry Kohn,677,M40-44,Male,Crauthem,Esch-sur-Alzette,Luxembourg,LU,,2:46:18,1:56:52,,,4:44:33,0,9978,7012,0,83,17073,337,315,66,99999,99999,99999,312,300,59,337,315,66,Finisher,2435
+Matthias,Keller,Matthias Keller,514,M60-64,Male,Konz,,Germany,DE,,2:42:40,1:59:17,,,4:44:35,0,9760,7157,0,158,17075,338,316,3,99999,99999,99999,255,246,3,338,316,3,Finisher,2918
+Kevin,Moens,Kevin Moens,788,M30-34,Male,Bruxelles,,Belgium,BE,,2:47:57,1:54:22,,,4:44:35,0,10077,6862,0,136,17075,339,317,54,99999,99999,99999,338,325,58,339,317,54,Finisher,2259
+Jeremy,Marion,Jeremy Marion,292,M30-34,Male,Melsbroek,,Belgium,BE,,2:44:42,1:57:51,,,4:44:36,0,9882,7071,0,123,17076,340,318,55,99999,99999,99999,286,275,51,340,318,55,Finisher,2258
+Jan,Pokorny,Jan Pokorny,24,M55-59,Male,Kladno,KLADNO,Czech Republic,CZ,,2:44:46,1:57:55,,,4:44:38,0,9886,7075,0,118,17078,341,319,13,99999,99999,99999,287,276,15,341,319,13,Finisher,2927
+Aimé,Klenne,Aimé Klenne,381,M50-54,Male,Dudelange,G D Luxembourg,Luxembourg,LU,,2:45:58,1:54:23,,,4:44:39,0,9958,6863,0,257,17079,342,320,31,99999,99999,99999,305,293,30,342,320,31,Finisher,2579
+Bart,Spaepen,Bart Spaepen,783,M40-44,Male,Boutersem,,Belgium,BE,,2:44:17,1:58:04,,,4:44:42,0,9857,7084,0,141,17082,343,321,67,99999,99999,99999,280,270,49,343,321,67,Finisher,2432
+Johann,Karner,Johann Karner,744,M60-64,Male,Triesen,State,Austria,AT,,2:51:34,1:49:26,,,4:44:42,0,10294,6566,0,223,17082,344,322,4,99999,99999,99999,395,377,7,344,322,4,Finisher,2915
+Hakim,Bekkouche,Hakim Bekkouche,159,M40-44,Male,mulhouse,,Algeria,DZ,,2:48:48,1:53:54,,,4:45:07,0,10128,6834,0,145,17107,345,323,68,99999,99999,99999,348,334,68,345,323,68,Finisher,2425
+Conny,Sander,Conny Sander,392,F35-39,Female,Warendorf,,Germany,DE,,2:57:13,1:47:00,,,4:45:21,0,10633,6420,0,68,17121,346,23,6,99999,99999,99999,477,34,7,346,23,6,Finisher,2793
+Yves,Fisch,Yves Fisch,542,M40-44,Male,Greiveldange,Grevenmacher,Luxembourg,LU,,2:50:50,1:52:43,,,4:45:54,0,10250,6763,0,141,17154,347,324,69,99999,99999,99999,384,367,77,347,324,69,Finisher,2411
+Thomas,Beiersdoerfer,Thomas Beiersdoerfer,502,M55-59,Male,Hochstadt/Pfalz,,Germany,DE,,2:51:28,1:51:52,,,4:45:59,0,10288,6712,0,159,17159,348,325,14,99999,99999,99999,392,374,18,348,325,14,Finisher,2903
+David,Louis,David Louis,618,M25-29,Male,MEILLONNAS,,France,FR,,2:51:45,1:51:45,,,4:45:59,0,10305,6705,0,149,17159,349,326,48,99999,99999,99999,396,378,54,349,326,48,Finisher,2321
+Karen,Van De Vel,Karen Van De Vel,777,F40-44,Female,Geel,,Belgium,BE,,2:54:48,1:48:37,,,4:46:00,0,10488,6517,0,155,17160,350,24,2,99999,99999,99999,441,23,2,350,24,2,Finisher,3369
+Guillaume,Danloy,Guillaume Danloy,636,M18-24,Male,Luxembourg,,Belgium,BE,,2:53:54,1:47:45,,,4:46:00,0,10434,6465,0,262,17160,351,327,7,99999,99999,99999,427,406,9,351,327,7,Finisher,2673
+Coen,Spierings,Coen Spierings,339,M30-34,Male,Rosmalen,NOORD-BRABANT,Netherlands,NL,,2:45:51,1:54:43,,,4:46:11,0,9951,6883,0,337,17171,352,328,56,99999,99999,99999,302,290,53,352,328,56,Finisher,2230
+Mathieu,Zizek,Mathieu Zizek,358,M30-34,Male,Estree Cauchy,,France,FR,,2:46:51,1:57:30,,,4:46:12,0,10011,7050,0,111,17172,353,329,57,99999,99999,99999,324,311,57,353,329,57,Finisher,2230
+David,Verhofstadt,David Verhofstadt,130,M50-54,Male,Howald,Luxembourg,Belgium,BE,,2:53:08,1:51:49,,,4:46:18,0,10388,6709,0,81,17178,354,330,32,99999,99999,99999,414,394,43,354,330,32,Finisher,2549
+Charline,Bouyne,Charline Bouyne,753,F30-34,Female,Saint-Pierre-du-Perray,,France,FR,,2:57:25,1:47:07,,,4:46:23,0,10645,6427,0,110,17183,355,25,7,99999,99999,99999,481,35,9,355,25,7,Finisher,2697
+Sebastian,Schmitz,Sebastian Schmitz,852,M25-29,Male,Trier,,Germany,DE,,3:00:26,1:43:11,,,4:46:24,0,10826,6191,0,166,17184,356,331,49,99999,99999,99999,527,482,69,356,331,49,Finisher,2313
+Philippe,Nicol,Philippe Nicol,707,M50-54,Male,BESSANCOURT,,France,FR,,2:49:03,1:54:08,,,4:46:31,0,10143,6848,0,200,17191,357,332,33,99999,99999,99999,352,338,34,357,332,33,Finisher,2546
+Manou,Flammang,Manou Flammang,348,M25-29,Male,Helmsange,,Luxembourg,LU,,2:34:09,2:08:58,,,4:46:34,0,9249,7738,0,207,17194,358,333,50,99999,99999,99999,109,109,24,358,333,50,Finisher,2310
+Rob,Van Veen,Rob Van Veen,670,M45-49,Male,Brussels,,Netherlands,NL,,2:43:07,1:59:33,,,4:46:37,0,9787,7173,0,237,17197,359,334,38,99999,99999,99999,265,255,32,359,334,38,Finisher,2584
+Antoine,Lienard,Antoine Lienard,694,M40-44,Male,Plappeville,,France,FR,,2:49:38,1:54:33,,,4:46:53,0,10178,6873,0,161,17213,360,335,70,99999,99999,99999,360,345,73,360,335,70,Finisher,2393
+Jozef,Pinxten,Jozef Pinxten,562,M35-39,Male,Brussel,,Belgium,BE,,2:53:16,1:50:03,,,4:46:54,0,10396,6603,0,214,17214,361,336,63,99999,99999,99999,419,399,70,361,336,63,Finisher,2295
+Norbert,Hauth,Norbert Hauth,353,M40-44,Male,Bernkastel-Kues,RP,Germany,DE,,2:46:31,1:56:36,,,4:47:00,0,9991,6996,0,233,17220,362,337,71,99999,99999,99999,318,306,62,362,337,71,Finisher,2391
+Fabrizio,Sitzia,Fabrizio Sitzia,645,M50-54,Male,Sanem,Sanem,Luxembourg,LU,,2:42:18,2:02:14,,,4:47:03,0,9738,7334,0,151,17223,363,338,34,99999,99999,99999,249,240,21,363,338,34,Finisher,2536
+Eric,Rodrigues,Eric Rodrigues,544,M25-29,Male,Remich,Luxemburg (LUX),Luxembourg,LU,,2:49:11,1:55:46,,,4:47:05,0,10151,6946,0,127,17225,364,339,51,99999,99999,99999,354,339,50,364,339,51,Finisher,2301
+Sébastien,Culot,Sébastien Culot,93,M40-44,Male,Aywaille,,Belgium,BE,,2:53:11,1:51:18,,,4:47:18,0,10391,6678,0,170,17238,365,340,72,99999,99999,99999,417,397,78,365,340,72,Finisher,2385
+Fabrice,De Gregorio,Fabrice De Gregorio,711,M45-49,Male,Louveigné,,Belgium,BE,,2:51:47,1:52:39,,,4:47:24,0,10307,6759,0,178,17244,366,341,39,99999,99999,99999,397,379,48,366,341,39,Finisher,2570
+Thomas,Does,Thomas Does,625,M18-24,Male,Dutch,,Netherlands,NL,,2:52:20,1:51:38,,,4:47:36,0,10340,6698,0,219,17256,367,342,8,99999,99999,99999,404,386,7,367,342,8,Finisher,2644
+Alexander,Lakemeyer,Alexander Lakemeyer,622,M35-39,Male,Düsseldorf,,Germany,DE,,3:01:33,1:44:31,,,4:47:57,0,10893,6271,0,113,17277,368,343,64,99999,99999,99999,547,498,86,368,343,64,Finisher,2276
+Piet,Craenen,Piet Craenen,541,M45-49,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:48:17,1:57:40,,,4:48:11,0,10097,7060,0,134,17291,369,344,40,99999,99999,99999,344,330,42,369,344,40,Finisher,2555
+Eric,De Waele,Eric De Waele,841,M55-59,Male,Gent,,Belgium,BE,,2:43:49,2:02:07,,,4:48:41,0,9829,7327,0,164,17321,370,345,15,99999,99999,99999,272,262,13,370,345,15,Finisher,2855
+Jennifer,Linke,Jennifer Linke,667,F30-34,Female,Zwingenberg,,Germany,DE,,2:49:06,1:57:59,,,4:49:03,0,10146,7079,0,118,17343,371,26,8,99999,99999,99999,353,15,5,371,26,8,Finisher,2649
+Jelle,Oosterhof,Jelle Oosterhof,599,M25-29,Male,Gouda,,Netherlands,NL,,2:56:03,1:51:14,,,4:49:14,0,10563,6674,0,116,17354,372,346,52,99999,99999,99999,458,432,62,372,346,52,Finisher,2262
+Bart,Berkvens,Bart Berkvens,767,M35-39,Male,Asten,,Netherlands,NL,,2:57:17,1:50:00,,,4:49:18,0,10637,6600,0,121,17358,373,347,65,99999,99999,99999,478,444,77,373,347,65,Finisher,2252
+Loris,Sainlez,Loris Sainlez,847,M25-29,Male,Wolkrange,,Belgium,BE,,2:51:31,1:56:31,,,4:49:19,0,10291,6991,0,76,17359,374,348,53,99999,99999,99999,393,375,53,374,348,53,Finisher,2261
+Stephan,Urnau,Stephan Urnau,389,M30-34,Male,Saarbrücken,,Germany,DE,,2:57:51,1:48:49,,,4:49:20,0,10671,6529,0,160,17360,375,349,58,99999,99999,99999,487,452,69,375,349,58,Finisher,2173
+Steffen,Rosahl,Steffen Rosahl,871,M55-59,Male,Erfurt,THURINGEN,Germany,DE,,2:56:08,1:50:01,,,4:49:27,0,10568,6601,0,198,17367,376,350,16,99999,99999,99999,461,434,23,376,350,16,Finisher,2841
+Andrew,Hayes,Andrew Hayes,835,M50-54,Male,Amsterdam,,South Africa,ZA,,3:02:22,1:45:15,,,4:49:27,0,10942,6315,0,110,17367,377,351,35,99999,99999,99999,562,509,56,377,351,35,Finisher,2493
+Victoria,Hayes,Victoria Hayes,822,F40-44,Female,Amsterdam,,United Kingdom,GB,,2:58:52,1:48:03,,,4:49:48,0,10732,6483,0,172,17388,378,27,3,99999,99999,99999,506,38,7,378,27,3,Finisher,3300
+Laurent,Monassier,Laurent Monassier,78,M55-59,Male,Scherwiller,,France,FR,,2:46:35,2:00:26,,,4:49:58,0,9995,7226,0,176,17398,379,352,17,99999,99999,99999,321,308,17,379,352,17,Finisher,2831
+Frank Willem,De Wit,Frank Willem De Wit,568,M50-54,Male,Trintange,,Netherlands,NL,,2:51:17,1:55:17,,,4:49:59,0,10277,6917,0,204,17399,380,353,36,99999,99999,99999,388,370,39,380,353,36,Finisher,2483
+Nicolas,Slegers,Nicolas Slegers,838,M35-39,Male,Bruxelles,,Belgium,BE,,2:55:33,1:50:39,,,4:50:02,0,10533,6639,0,229,17402,381,354,66,99999,99999,99999,451,426,73,381,354,66,Finisher,2239
+Melanie,Ahlers,Melanie Ahlers,590,F35-39,Female,Ilten/Sehnde,,Germany,DE,,2:56:09,1:49:16,,,4:50:26,0,10569,6556,0,301,17426,382,28,7,99999,99999,99999,462,28,6,382,28,7,Finisher,2702
+Fabio,Bayerl,Fabio Bayerl,735,M40-44,Male,Wiesbaden,,Brazil,BR,,2:54:18,1:50:31,,,4:50:30,0,10458,6631,0,340,17430,383,355,73,99999,99999,99999,431,410,81,383,355,73,Finisher,2328
+Boris,Castro,Boris Castro,305,M40-44,Male,HOUSTON,TX,United States,US,,2:47:13,2:01:00,,,4:50:35,0,10033,7260,0,142,17435,384,356,74,99999,99999,99999,328,315,64,384,356,74,Finisher,2326
+Martijn,Roelofs,Martijn Roelofs,828,M40-44,Male,Amersfoort,,Netherlands,NL,,2:46:53,2:02:23,,,4:51:06,0,10013,7343,0,110,17466,385,357,75,99999,99999,99999,325,312,63,385,357,75,Finisher,2317
+Klaus,Röttger,Klaus Röttger,71,M50-54,Male,Essen,,Germany,DE,,2:46:06,2:02:31,,,4:51:16,0,9966,7351,0,159,17476,386,358,37,99999,99999,99999,307,295,31,386,358,37,Finisher,2460
+Florent,Goniva,Florent Goniva,505,M40-44,Male,Dudelange,Luxembourg,Luxembourg,LU,,2:55:56,1:51:53,,,4:51:20,0,10556,6713,0,212,17480,387,359,76,99999,99999,99999,456,430,88,387,359,76,Finisher,2313
+Joe,Schwartz,Joe Schwartz,749,M30-34,Male,Lintgen,Luxemburg,Luxembourg,LU,,2:46:31,2:01:26,,,4:51:20,0,9991,7286,0,204,17480,388,360,59,99999,99999,99999,319,307,56,388,360,59,Finisher,2137
+Roger,Hammond,Roger Hammond,577,M50-54,Male,Vijfhuizen,,United Kingdom,GB,,2:50:48,1:57:28,,,4:51:20,0,10248,7048,0,185,17480,389,361,38,99999,99999,99999,383,366,38,389,361,38,Finisher,2459
+Mark,Pluim,Mark Pluim,594,M40-44,Male,Harderwijk,,Netherlands,NL,,2:54:41,1:51:29,,,4:51:32,0,10481,6689,0,322,17492,390,362,77,99999,99999,99999,436,414,83,390,362,77,Finisher,2309
+Marcel,Poelstra,Marcel Poelstra,593,M35-39,Male,AMSTERDAM,,Netherlands,NL,,2:54:44,1:51:30,,,4:51:38,0,10484,6690,0,324,17498,391,363,67,99999,99999,99999,438,416,72,391,363,67,Finisher,2210
+Paul,Nijveldt,Paul Nijveldt,362,M60-64,Male,Almere,,Netherlands,NL,,2:50:35,1:57:54,,,4:51:55,0,10235,7074,0,206,17515,392,364,5,99999,99999,99999,379,362,6,392,364,5,Finisher,2786
+Marco,Masseti,Marco Masseti,824,M30-34,Male,Luxembourg,,Italy,IT,,2:51:58,1:57:47,,,4:51:56,0,10318,7067,0,130,17516,393,365,60,99999,99999,99999,400,382,63,393,365,60,Finisher,2126
+Ralf,Loskill,Ralf Loskill,776,M50-54,Male,Bitburg,RP,Germany,DE,,2:54:45,1:54:00,,,4:51:57,0,10485,6840,0,192,17517,394,366,39,99999,99999,99999,439,417,46,394,366,39,Finisher,2448
+Pieter,De Vos,Pieter De Vos,523,M25-29,Male,Ninove,,Belgium,BE,,2:48:13,2:00:53,,,4:52:11,0,10093,7253,0,185,17531,395,367,54,99999,99999,99999,343,329,49,395,367,54,Finisher,2209
+Michèle,Schmit,Michèle Schmit,775,F30-34,Female,Bereldange,Luxembourg,Luxembourg,LU,,2:55:02,1:55:08,,,4:52:19,0,10502,6908,0,129,17539,396,29,9,99999,99999,99999,443,24,7,396,29,9,Finisher,2590
+Mareike,Kessler,Mareike Kessler,766,F40-44,Female,Darmstadt,,Germany,DE,,2:56:44,1:53:27,,,4:52:22,0,10604,6807,0,131,17542,397,30,4,99999,99999,99999,470,32,4,397,30,4,Finisher,3254
+Tom,Hessels,Tom Hessels,660,M30-34,Male,Vught,,Netherlands,NL,,2:55:33,1:54:31,,,4:52:24,0,10533,6871,0,140,17544,398,368,61,99999,99999,99999,450,425,68,398,368,61,Finisher,2118
+Leonie,Baginski,Leonie Baginski,379,F25-29,Female,Engelskirchen,,Germany,DE,,2:59:07,1:51:31,,,4:52:24,0,10747,6691,0,106,17544,399,31,2,99999,99999,99999,510,39,5,399,31,2,Finisher,3191
+Thomas,Garrard,Thomas Garrard,22,M40-44,Male,Contern,Contern,Luxembourg,LU,,2:48:56,2:00:15,,,4:52:26,0,10136,7215,0,195,17546,400,369,78,99999,99999,99999,351,337,70,400,369,78,Finisher,2293
+Andreas,Görres,Andreas Görres,252,M55-59,Male,Trier,,Germany,DE,,2:46:17,2:04:46,,,4:52:28,0,9977,7486,0,85,17548,401,370,18,99999,99999,99999,310,298,16,401,370,18,Finisher,2786
+Carine,Muyldermans,Carine Muyldermans,678,F40-44,Female,Geel,,Belgium,BE,,2:58:07,1:52:01,,,4:52:29,0,10687,6721,0,140,17549,402,32,5,99999,99999,99999,492,36,6,402,32,5,Finisher,3252
+Eron,De Muer,Eron De Muer,839,M25-29,Male,Maldegem,,Belgium,BE,,2:45:18,2:01:37,,,4:52:34,0,9918,7297,0,339,17554,403,371,55,99999,99999,99999,296,285,44,403,371,55,Finisher,2202
+Emanuele,Mazzoni,Emanuele Mazzoni,825,M50-54,Male,Luxembourg,Luxembourg,Italy,IT,,2:51:33,1:58:36,,,4:52:48,0,10293,7116,0,158,17568,404,372,40,99999,99999,99999,394,376,41,404,372,40,Finisher,2432
+David,Coast,David Coast,938,M55-59,Male,Wellenstein,,Luxembourg,LU,,2:52:35,1:58:26,,,4:53:06,0,10355,7106,0,124,17586,405,373,19,99999,99999,99999,407,387,19,405,373,19,Finisher,2775
+Guillaume,Marchal,Guillaume Marchal,726,M55-59,Male,SUCY EN BRIE,,France,FR,,2:55:01,1:55:43,,,4:53:15,0,10501,6943,0,150,17595,406,374,20,99999,99999,99999,442,419,20,406,374,20,Finisher,2772
+Bas,Besamusca,Bas Besamusca,606,M40-44,Male,Soesterberg,,Netherlands,NL,,2:48:12,2:00:24,,,4:53:17,0,10092,7224,0,281,17597,407,375,79,99999,99999,99999,342,328,67,407,375,79,Finisher,2278
+Jaroslaw,Czaja,Jaroslaw Czaja,803,M40-44,Male,Bytom,śląskie,Poland,PL,,2:55:49,1:54:20,,,4:53:25,0,10549,6860,0,196,17605,408,376,80,99999,99999,99999,455,429,87,408,376,80,Finisher,2275
+Ben,Flies,Ben Flies,793,M30-34,Male,Fischbach,,Luxembourg,LU,,2:37:09,2:13:18,,,4:53:26,0,9429,7998,0,179,17606,409,377,62,99999,99999,99999,161,158,33,409,377,62,Finisher,2099
+Marcela,Carli Will,Marcela Carli Will,751,F40-44,Female,Unterföhring,,Brazil,BR,,3:01:28,1:49:53,,,4:53:30,0,10888,6593,0,129,17610,410,33,6,99999,99999,99999,544,49,10,410,33,6,Finisher,3234
+Koen,De Ridder,Koen De Ridder,928,M50-54,Male,Mechelen,,Belgium,BE,,2:47:45,1:59:56,,,4:53:34,0,10065,7196,0,353,17614,411,378,41,99999,99999,99999,336,323,33,411,378,41,Finisher,2419
+Janos,De Baets,Janos De Baets,405,M30-34,Male,Gent,,Belgium,BE,,3:03:24,1:46:17,,,4:53:42,0,11004,6377,0,240,17622,412,379,63,99999,99999,99999,573,519,79,412,379,63,Finisher,2095
+Luc,Weis,Luc Weis,137,M18-24,Male,Frisange,ESCH AN DER ALZETTE,Luxembourg,LU,,2:37:35,2:14:47,,,4:53:57,0,9455,8087,0,95,17637,413,380,9,99999,99999,99999,170,166,4,413,380,9,Finisher,2530
+Etienne,Schauer,Etienne Schauer,551,M40-44,Male,WELSDORF,Luxembourg,France,FR,,2:53:35,1:57:45,,,4:54:06,0,10415,7065,0,165,17646,414,381,81,99999,99999,99999,425,404,80,414,381,81,Finisher,2263
+Nicolas,Saunier,Nicolas Saunier,778,M40-44,Male,TERVILLE,,France,FR,,2:41:38,2:10:05,,,4:54:06,0,9698,7805,0,144,17646,415,382,82,99999,99999,99999,236,230,43,415,382,82,Finisher,2263
+Holger,Fritzen,Holger Fritzen,629,M35-39,Male,Frankfurt,,Germany,DE,,2:52:39,1:59:26,,,4:54:27,0,10359,7166,0,141,17667,416,383,68,99999,99999,99999,409,389,69,416,383,68,Finisher,2159
+Gilles,Baeyens,Gilles Baeyens,944,M30-34,Male,Huy,,Belgium,BE,,2:53:54,1:57:17,,,4:54:27,0,10434,7037,0,197,17667,417,384,64,99999,99999,99999,428,407,64,417,384,64,Finisher,2081
+Alexei,Rubinstein,Alexei Rubinstein,681,M45-49,Male,Garching,,United States,US,,2:47:24,2:04:44,,,4:54:32,0,10044,7484,0,144,17672,418,385,41,99999,99999,99999,331,318,40,418,385,41,Finisher,2441
+Dagmar,Gard,Dagmar Gard,501,F40-44,Female,Wangen,,Germany,DE,,2:56:45,1:56:19,,,4:55:04,0,10605,6979,0,119,17704,419,34,7,99999,99999,99999,471,33,5,419,34,7,Finisher,3206
+Anatolij,Schulan,Anatolij Schulan,20,M40-44,Male,Ermke,,Germany,DE,,2:46:21,2:07:27,,,4:55:09,0,9981,7647,0,82,17709,420,386,83,99999,99999,99999,313,301,60,420,386,83,Finisher,2244
+Matthias,Robert,Matthias Robert,519,M35-39,Male,Trier,,Germany,DE,,2:41:51,2:10:06,,,4:55:22,0,9711,7806,0,204,17722,421,387,69,99999,99999,99999,240,232,44,421,387,69,Finisher,2143
+Peter,Spanier,Peter Spanier,885,M30-34,Male,Könnern,,Germany,DE,,2:50:46,2:02:25,,,4:55:23,0,10246,7345,0,132,17723,422,388,65,99999,99999,99999,382,365,61,422,388,65,Finisher,2064
+Adrian,Vodislav,Adrian Vodislav,831,M30-34,Male,Luxembourg,Luxembourg,Romania,RO,,2:58:34,1:53:54,,,4:55:27,0,10714,6834,0,179,17727,423,389,66,99999,99999,99999,503,466,72,423,389,66,Finisher,2063
+Misja,Van Herp,Misja Van Herp,884,M35-39,Male,Zuid holland,South Holland,Netherlands,NL,,2:57:02,1:53:14,,,4:55:33,0,10622,6794,0,316,17733,424,390,70,99999,99999,99999,476,443,76,424,390,70,Finisher,2139
+Josué Ramón,Hernández López,Josué Ramón Hernández López,163,M25-29,Male,Chavannes-près-Renens,,Mexico,MX,,2:59:15,1:54:02,,,4:55:35,0,10755,6842,0,138,17735,425,391,56,99999,99999,99999,512,473,67,425,391,56,Finisher,2148
+Joost,Blom,Joost Blom,595,M30-34,Male,Haarlem,,Netherlands,NL,,2:55:14,1:55:48,,,4:55:43,0,10514,6948,0,281,17743,426,392,67,99999,99999,99999,449,424,67,426,392,67,Finisher,2058
+Harm,Cop,Harm Cop,819,M45-49,Male,noord brabant,North Brabant,Netherlands,NL,,2:42:50,2:08:25,,,4:55:48,0,9770,7705,0,273,17748,427,393,42,99999,99999,99999,259,250,30,427,393,42,Finisher,2418
+Meike,Farber,Meike Farber,953,F25-29,Female,St. Gallen,,Germany,DE,,3:01:36,1:51:59,,,4:55:51,0,10896,6719,0,135,17751,428,35,3,99999,99999,99999,548,50,8,428,35,3,Finisher,3129
+Vladimir,Kravchenko,Vladimir Kravchenko,696,M25-29,Male,Luxembourg,Luxembourg,Russia,RU,,2:58:22,1:55:19,,,4:55:57,0,10702,6919,0,136,17757,429,394,57,99999,99999,99999,499,462,65,429,394,57,Finisher,2141
+Claudio,Ciceri,Claudio Ciceri,668,M50-54,Male,SILVAPLANA,,Switzerland,CH,,2:52:16,2:00:20,,,4:55:58,0,10336,7220,0,203,17758,430,395,42,99999,99999,99999,402,384,42,430,395,42,Finisher,2375
+Bruno,Barboni,Bruno Barboni,528,M35-39,Male,Remich,Remich,Luxembourg,LU,,2:53:33,1:59:48,,,4:56:03,0,10413,7188,0,163,17763,431,396,71,99999,99999,99999,423,403,71,431,396,71,Finisher,2130
+Alexis,Albouze,Alexis Albouze,254,M30-34,Male,Niederanven,Niederanven,Luxembourg,LU,,2:58:10,1:55:52,,,4:56:30,0,10690,6952,0,147,17790,432,397,68,99999,99999,99999,493,457,70,432,397,68,Finisher,2044
+Mike,Martins,Mike Martins,510,M25-29,Male,Wormeldange,GREIVEMAACHER,Luxembourg,LU,,2:49:13,2:04:07,,,4:56:36,0,10153,7447,0,196,17796,433,398,58,99999,99999,99999,355,340,51,433,398,58,Finisher,2129
+Luc,Thiry,Luc Thiry,952,M50-54,Male,Arlon,Walloon Region,Belgium,BE,,2:45:45,2:06:43,,,4:56:38,0,9945,7603,0,249,17798,434,399,43,99999,99999,99999,300,288,29,434,399,43,Finisher,2363
+Bart,Roels,Bart Roels,757,M35-39,Male,Lebbeke,,Belgium,BE,,2:50:06,2:03:10,,,4:56:54,0,10206,7390,0,218,17814,435,400,72,99999,99999,99999,372,355,62,435,400,72,Finisher,2115
+Bartosz,Blaicke,Bartosz Blaicke,842,M35-39,Male,Cambridge,MA,Poland,PL,,3:01:24,1:52:03,,,4:56:54,0,10884,6723,0,208,17814,436,401,73,99999,99999,99999,541,493,85,436,401,73,Finisher,2115
+Jean-Reynald,Millot,Jean-Reynald Millot,45,M50-54,Male,champagnac,CANTAL,France,FR,,2:58:07,1:55:19,,,4:56:55,0,10687,6919,0,209,17815,437,402,44,99999,99999,99999,491,456,51,437,402,44,Finisher,2358
+Anne Sophie,Leterrier,Anne Sophie Leterrier,758,F35-39,Female,Athis,,France,FR,,3:01:40,1:50:42,,,4:56:59,0,10900,6642,0,276,17819,438,36,8,99999,99999,99999,550,51,9,438,36,8,Finisher,2584
+Lea,Langlet,Lea Langlet,682,F25-29,Female,LEDRINGHEM,,France,FR,,2:56:28,1:58:23,,,4:57:22,0,10588,7103,0,152,17842,439,37,4,99999,99999,99999,465,29,3,439,37,4,Finisher,3101
+Sebastien,Cherrier,Sebastien Cherrier,801,M50-54,Male,Langres,,France,FR,,2:50:14,2:04:31,,,4:57:30,0,10214,7471,0,165,17850,440,403,45,99999,99999,99999,374,357,36,440,403,45,Finisher,2348
+Marijn,Marchand,Marijn Marchand,572,M40-44,Male,Tiel,,Netherlands,NL,,3:01:12,1:53:34,,,4:57:44,0,10872,6814,0,177,17864,441,404,84,99999,99999,99999,537,489,97,441,404,84,Finisher,2198
+Thierry,Moyen,Thierry Moyen,955,M50-54,Male,SEREMANGE ERZANGE,,France,FR,,3:01:09,1:53:59,,,4:57:53,0,10869,6839,0,165,17873,442,405,46,99999,99999,99999,535,487,53,442,405,46,Finisher,2341
+Cyril,Zastawnik,Cyril Zastawnik,126,M45-49,Male,Luxembourg Beggen,Luxembourg,Luxembourg,LU,,2:53:07,2:03:16,,,4:57:59,0,10387,7396,0,96,17879,443,406,43,99999,99999,99999,413,393,50,443,406,43,Finisher,2379
+Andras,Sellyei,Andras Sellyei,638,M45-49,Male,Budapest,,Hungary,HU,,3:04:01,1:51:11,,,4:58:10,0,11041,6671,0,178,17890,444,407,44,99999,99999,99999,578,523,70,444,407,44,Finisher,2376
+Harmen,Van De Kamp,Harmen Van De Kamp,663,M30-34,Male,Ede,,Netherlands,NL,,2:40:14,2:15:12,,,4:58:13,0,9614,8112,0,168,17893,445,408,69,99999,99999,99999,210,206,43,445,408,69,Finisher,2013
+Mathieu,Poletto,Mathieu Poletto,382,M25-29,Male,Paris,,Luxembourg,LU,,2:53:28,2:02:47,,,4:58:21,0,10408,7367,0,126,17901,446,409,59,99999,99999,99999,422,402,59,446,409,59,Finisher,2098
+Mats,Gloden,Mats Gloden,633,M40-44,Male,Perl,SL,Ireland,IE,,2:55:08,2:01:06,,,4:58:23,0,10508,7266,0,129,17903,447,410,85,99999,99999,99999,446,421,85,447,410,85,Finisher,2186
+Margot,Pletinckx,Margot Pletinckx,111,F25-29,Female,Aalst,,Belgium,BE,,2:59:25,1:54:43,,,4:58:42,0,10765,6883,0,274,17922,448,38,5,99999,99999,99999,513,40,6,448,38,5,Finisher,3077
+Jan,Holtmannspötter,Jan Holtmannspötter,334,M35-39,Male,Ochtrup,,Germany,DE,,2:59:50,1:56:44,,,4:58:46,0,10790,7004,0,131,17926,449,411,74,99999,99999,99999,516,476,81,449,411,74,Finisher,2081
+Anthony,Valet,Anthony Valet,517,M40-44,Male,Manom,,France,FR,,2:49:24,2:06:55,,,4:59:10,0,10164,7615,0,171,17950,450,412,86,99999,99999,99999,357,342,72,450,412,86,Finisher,2172
+Jens,De Landsheer,Jens De Landsheer,657,M25-29,Male,Berlare,,Belgium,BE,,2:36:10,2:18:29,,,4:59:18,0,9370,8309,0,278,17958,451,413,60,99999,99999,99999,142,141,28,451,413,60,Finisher,2081
+David,Symanzig,David Symanzig,796,M30-34,Male,Houten,,Netherlands,NL,,2:59:01,1:55:58,,,4:59:32,0,10741,6958,0,272,17972,452,414,70,99999,99999,99999,508,470,74,452,414,70,Finisher,1990
+Ivo,Versteeg,Ivo Versteeg,598,M35-39,Male,haastrecht,,Netherlands,NL,,2:56:34,1:58:29,,,4:59:34,0,10594,7109,0,270,17974,453,415,75,99999,99999,99999,467,438,75,453,415,75,Finisher,2067
+Manon,Rocher,Manon Rocher,587,F25-29,Female,champagnac,,France,FR,,2:52:35,2:05:03,,,4:59:37,0,10355,7503,0,120,17977,454,39,6,99999,99999,99999,406,20,2,454,39,6,Finisher,3061
+Alexandre,Vigouroux,Alexandre Vigouroux,722,M45-49,Male,Malakoff,,France,FR,,2:58:27,1:56:30,,,4:59:42,0,10707,6990,0,284,17982,455,416,45,99999,99999,99999,500,463,61,455,416,45,Finisher,2348
+Didier,Loomans,Didier Loomans,619,M50-54,Male,Itterbeek,,Belgium,BE,,2:56:54,1:59:05,,,4:59:43,0,10614,7145,0,225,17983,456,417,47,99999,99999,99999,473,440,49,456,417,47,Finisher,2308
+Kamil,Kiljanski,Kamil Kiljanski,337,M45-49,Male,Brussels,,Antarctica,AQ,,2:58:10,1:57:50,,,4:59:47,0,10690,7070,0,227,17987,457,418,46,99999,99999,99999,494,458,59,457,418,46,Finisher,2347
+Rafal,Dajczer,Rafal Dajczer,774,M40-44,Male,Warszawa,,Poland,PL,,3:13:46,1:44:04,,,4:59:54,0,11626,6244,0,123,17994,458,419,87,99999,99999,99999,636,568,109,458,419,87,Finisher,2159
+Festus,Geraldo,Festus Geraldo,613,M30-34,Male,Bridel,Luxembourg,Luxembourg,LU,,3:03:34,1:53:50,,,5:00:27,0,11014,6830,0,183,18027,459,420,71,99999,99999,99999,577,522,80,459,420,71,Finisher,1973
+Eric,Lagrange,Eric Lagrange,565,M45-49,Male,NOGENT SUR MARNE,,France,FR,,2:58:11,1:59:40,,,5:00:45,0,10691,7180,0,175,18045,460,421,47,99999,99999,99999,495,459,60,460,421,47,Finisher,2329
+Alin,Baciu,Alin Baciu,891,M30-34,Male,Luxembourg,Luxembourg,Romania,RO,,2:55:04,2:01:33,,,5:00:47,0,10504,7293,0,250,18047,461,422,72,99999,99999,99999,444,420,66,461,422,72,Finisher,1967
+Mirna,Marovic,Mirna Marovic,36,F45-49,Female,Zagreb,,Croatia,HR,,2:56:40,2:01:31,,,5:00:56,0,10600,7291,0,165,18056,462,40,3,99999,99999,99999,468,30,3,462,40,3,Finisher,2980
+filip,van de walle,filip van de walle,628,M45-49,Male,Antwerpen,,Belgium,BE,,2:53:23,2:04:10,,,5:01:03,0,10403,7450,0,211,18063,463,423,48,99999,99999,99999,421,401,52,463,423,48,Finisher,2324
+Gesa,Gleue,Gesa Gleue,709,F35-39,Female,Frankfurt,,Germany,DE,,3:00:55,1:58:39,,,5:01:17,0,10855,7119,0,103,18077,464,41,9,99999,99999,99999,532,47,8,464,41,9,Finisher,2507
+Umit,Misirli,Umit Misirli,361,M35-39,Male,Sandweiler,Luxembourg,Luxembourg,LU,,2:58:05,2:00:34,,,5:01:38,0,10685,7234,0,178,18098,465,424,76,99999,99999,99999,490,455,78,465,424,76,Finisher,2030
+Kim,Jeucken,Kim Jeucken,596,F30-34,Female,Amsterdam,,Netherlands,NL,,3:00:50,1:57:01,,,5:01:38,0,10850,7021,0,227,18098,466,42,10,99999,99999,99999,531,46,10,466,42,10,Finisher,2423
+Robert,Foley,Robert Foley,531,M55-59,Male,Canach,Lenningen,Ireland,IE,,2:55:10,2:02:19,,,5:01:39,0,10510,7339,0,250,18099,467,425,21,99999,99999,99999,447,422,21,467,425,21,Finisher,2621
+Seph,Rademakers,Seph Rademakers,712,M30-34,Male,Vlaardingen,,Netherlands,NL,,2:43:57,2:14:50,,,5:02:00,0,9837,8090,0,193,18120,468,426,73,99999,99999,99999,275,265,50,468,426,73,Finisher,1945
+Wouter,Verton,Wouter Verton,913,M30-34,Male,Venray,,Netherlands,NL,,2:58:12,1:59:09,,,5:02:01,0,10692,7149,0,279,18121,469,427,74,99999,99999,99999,496,460,71,469,427,74,Finisher,1945
+Nicoll,Waltenberger,Nicoll Waltenberger,958,F50-54,Female,Rhens,,Germany,DE,,3:00:25,1:58:25,,,5:02:11,0,10825,7105,0,201,18131,470,43,6,99999,99999,99999,526,45,7,470,43,6,Finisher,2598
+Jose,Crespo,Jose Crespo,864,M45-49,Male,Begnins,,Switzerland,CH,,3:01:29,1:59:00,,,5:02:11,0,10889,7140,0,102,18131,471,428,49,99999,99999,99999,546,497,65,471,428,49,Finisher,2303
+Alexander,Volkov,Alexander Volkov,743,M45-49,Male,Mönchengladbach,NORDRHEIN-WESTFALEN,Germany,DE,,3:05:07,1:52:49,,,5:02:14,0,11107,6769,0,258,18134,472,429,50,99999,99999,99999,588,531,74,472,429,50,Finisher,2303
+Marten,Van Kammen,Marten Van Kammen,919,M25-29,Male,Groningen,,Netherlands,NL,,2:57:24,1:59:55,,,5:02:27,0,10644,7195,0,308,18147,473,430,61,99999,99999,99999,480,446,64,473,430,61,Finisher,2024
+Claudia,Lengfelder,Claudia Lengfelder,734,F35-39,Female,Frankfurt,,Germany,DE,,3:06:10,1:51:04,,,5:02:34,0,11170,6664,0,321,18154,474,44,10,99999,99999,99999,597,59,12,474,44,10,Finisher,2483
+Julian,Schepp,Julian Schepp,69,M30-34,Male,Wetzlar,HE,Germany,DE,,2:33:56,2:25:43,,,5:02:36,0,9236,8743,0,176,18156,475,431,75,99999,99999,99999,107,107,20,475,431,75,Finisher,1934
+Thorsten,Rink,Thorsten Rink,701,M40-44,Male,Neuwied,,Germany,DE,,2:46:07,2:13:01,,,5:02:41,0,9967,7981,0,213,18161,476,432,88,99999,99999,99999,308,296,58,476,432,88,Finisher,2108
+Slawek,Bernaciak,Slawek Bernaciak,16,M50-54,Male,Warszawa,mazowieckie,Poland,PL,,2:44:14,2:14:44,,,5:02:52,0,9854,8084,0,234,18172,477,433,48,99999,99999,99999,279,269,27,477,433,48,Finisher,2251
+Rolf,Berglund,Rolf Berglund,324,M60-64,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:52:37,2:08:02,,,5:03:05,0,10357,7682,0,145,18185,478,434,6,99999,99999,99999,408,388,8,478,434,6,Finisher,2585
+Nicolas,Maloyer,Nicolas Maloyer,849,M40-44,Male,COURTRY,,France,FR,,3:09:19,1:49:19,,,5:03:16,0,11359,6559,0,277,18196,479,435,89,99999,99999,99999,613,551,105,479,435,89,Finisher,2098
+Sandra,Ferrer,Sandra Ferrer,942,F45-49,Female,Genval,,France,FR,,3:04:36,1:55:55,,,5:03:23,0,11076,6955,0,171,18203,480,45,4,99999,99999,99999,583,56,6,480,45,4,Finisher,2936
+Martin,Freiberger,Martin Freiberger,611,M25-29,,Schriesheim,Baden-Württemberg,Germany,DE,,2:53:57,2:06:11,,,5:03:26,0,10437,7571,0,198,18206,481,436,62,99999,99999,99999,429,408,61,481,436,62,Finisher,2006
+Geert,Gysels,Geert Gysels,576,M45-49,Male,Hondelange,,Belgium,BE,,2:45:52,2:13:45,,,5:03:29,0,9952,8025,0,232,18209,482,437,51,99999,99999,99999,303,291,36,482,437,51,Finisher,2280
+fabien,craps,fabien craps,725,M45-49,Male,BELGRADE,,Belgium,BE,,3:01:27,1:58:43,,,5:03:29,0,10887,7123,0,200,18209,483,438,52,99999,99999,99999,542,494,64,483,438,52,Finisher,2280
+Pavel,Švarc,Pavel Švarc,876,M30-34,Male,Semice,Central Bohemia,Czech Republic,CZ,,3:11:23,1:49:15,,,5:03:33,0,11483,6555,0,175,18213,484,439,76,99999,99999,99999,624,560,87,484,439,76,Finisher,1917
+Wouter,Braeckman,Wouter Braeckman,672,M35-39,Male,De Pinte,,Belgium,BE,,2:50:05,2:08:13,,,5:03:36,0,10205,7693,0,318,18216,485,440,77,99999,99999,99999,371,354,61,485,440,77,Finisher,1994
+Kévin,Logerot,Kévin Logerot,623,M30-34,Male,DIJON,,France,FR,,3:01:15,1:59:30,,,5:03:51,0,10875,7170,0,186,18231,486,441,77,99999,99999,99999,538,490,75,486,441,77,Finisher,1912
+Franck,Gourdain,Franck Gourdain,800,M45-49,Male,DEULEMONT,,France,FR,,2:50:22,2:11:28,,,5:03:52,0,10222,7888,0,121,18232,487,442,53,99999,99999,99999,376,359,46,487,442,53,Finisher,2273
+Kerstin,Costa,Kerstin Costa,67,F45-49,Female,Frankfurt,,Germany,DE,,3:00:01,2:00:34,,,5:04:39,0,10801,7234,0,244,18279,488,46,5,99999,99999,99999,520,42,5,488,46,5,Finisher,2913
+Roland,Reding,Roland Reding,125,M60-64,Male,CANACH,Luxemburg,Luxembourg,LU,,2:46:28,2:15:12,,,5:05:34,0,9988,8112,0,235,18334,489,443,7,99999,99999,99999,315,303,4,489,443,7,Finisher,2540
+Bastien,Triolet,Bastien Triolet,605,M35-39,Male,Koenigsmacker,,France,FR,,2:41:46,2:21:42,,,5:05:36,0,9706,8502,0,128,18336,490,444,78,99999,99999,99999,238,231,43,490,444,78,Finisher,1958
+Marco,Berger,Marco Berger,574,M45-49,Male,Mücke / Merlau,,Germany,DE,,2:45:35,2:16:49,,,5:05:52,0,9935,8209,0,208,18352,491,445,54,99999,99999,99999,299,287,35,491,445,54,Finisher,2237
+Christian,Mersch,Christian Mersch,872,M45-49,Male,Luxembourg,Luxembourg,Luxembourg,LU,,2:53:08,2:07:20,,,5:06:01,0,10388,7640,0,333,18361,492,446,55,99999,99999,99999,415,395,51,492,446,55,Finisher,2234
+Sandrine,Martinot,Sandrine Martinot,927,F45-49,Female,Nivelles,,Belgium,BE,,3:12:24,1:50:49,,,5:06:12,0,11544,6649,0,178,18372,493,47,6,99999,99999,99999,628,65,9,493,47,6,Finisher,2885
+Diego,Decalf,Diego Decalf,888,M18-24,Male,Bereldange,Luxembourg,Luxembourg,LU,,2:57:34,2:05:11,,,5:06:23,0,10654,7511,0,219,18383,494,447,10,99999,99999,99999,483,448,10,494,447,10,Finisher,2306
+Max,Middelman,Max Middelman,597,M25-29,Male,Nijmegen,,Netherlands,NL,,3:06:17,1:56:01,,,5:06:33,0,11177,6961,0,255,18393,495,448,63,99999,99999,99999,599,540,76,495,448,63,Finisher,1950
+Andre,Hilker,Andre Hilker,559,M55-59,Male,Trier,,Germany,DE,,2:58:32,2:04:25,,,5:06:43,0,10712,7465,0,226,18403,496,449,22,99999,99999,99999,502,465,25,496,449,22,Finisher,2530
+Delphine,Walter,Delphine Walter,256,F45-49,Female,Hettange Grande,,France,FR,,2:58:20,2:06:45,,,5:06:45,0,10700,7605,0,101,18405,497,48,7,99999,99999,99999,498,37,4,497,48,7,Finisher,2875
+Ralph,Goyens,Ralph Goyens,717,M45-49,Male,Genk,,Belgium,BE,,2:51:26,2:12:38,,,5:06:50,0,10286,7958,0,167,18410,498,450,56,99999,99999,99999,390,372,47,498,450,56,Finisher,2220
+Rüdiger,Scholz,Rüdiger Scholz,592,M50-54,Male,Oftersheim,,Germany,DE,,3:01:59,2:01:35,,,5:06:58,0,10919,7295,0,204,18418,499,451,49,99999,99999,99999,558,506,55,499,451,49,Finisher,2177
+Baptiste,Rüegg,Baptiste Rüegg,311,M35-39,Male,Vicques,,Switzerland,CH,,3:19:14,1:45:46,,,5:07:13,0,11954,6346,0,133,18433,500,452,79,99999,99999,99999,660,583,91,500,452,79,Finisher,1929
+Lieven,Coppejans,Lieven Coppejans,97,M50-54,Male,Edegem,AS,Belgium,BE,,3:01:50,2:02:22,,,5:07:19,0,10910,7342,0,187,18439,501,453,50,99999,99999,99999,555,504,54,501,453,50,Finisher,2171
+David,Lefranc,David Lefranc,896,M45-49,Male,soisy sur seine,,France,FR,,2:57:46,2:07:07,,,5:07:49,0,10666,7627,0,175,18469,502,454,57,99999,99999,99999,486,451,57,502,454,57,Finisher,2202
+Jeroen,Keizer,Jeroen Keizer,602,M25-29,Male,Veendam,,Netherlands,NL,,2:37:40,2:27:18,,,5:07:52,0,9460,8838,0,174,18472,503,455,64,99999,99999,99999,172,168,33,503,455,64,Finisher,1927
+Jamina,Krasemann,Jamina Krasemann,571,F30-34,Female,Reken,NW,Germany,DE,,3:01:58,2:01:25,,,5:07:56,0,10918,7285,0,273,18476,504,49,11,99999,99999,99999,557,52,11,504,49,11,Finisher,2309
+Minke,Van Weerdhuizen,Minke Van Weerdhuizen,656,F40-44,Female,Eijsden,,Netherlands,NL,,2:55:38,2:10:07,,,5:07:56,0,10538,7807,0,130,18476,505,50,8,99999,99999,99999,452,26,3,505,50,8,Finisher,2974
+Fabrice,Gason,Fabrice Gason,583,M50-54,Male,Kraainem,,Belgium,BE,,2:53:16,2:11:00,,,5:08:01,0,10396,7860,0,225,18481,506,456,51,99999,99999,99999,418,398,44,506,456,51,Finisher,2159
+Carlo,Grasges,Carlo Grasges,616,M60-64,Male,Burden,LUXEMBOURG,Luxembourg,LU,,3:01:56,2:03:42,,,5:08:14,0,10916,7422,0,155,18494,507,457,8,99999,99999,99999,556,505,13,507,457,8,Finisher,2492
+Annelien,Hanssens,Annelien Hanssens,728,F40-44,Female,Zwevegem,,Belgium,BE,,3:17:11,1:49:27,,,5:08:47,0,11831,6567,0,129,18527,508,51,9,99999,99999,99999,650,73,13,508,51,9,Finisher,2959
+Frederik,Link,Frederik Link,632,M35-39,Male,Perl,SL,Luxembourg,LU,,3:08:31,1:57:49,,,5:08:48,0,11311,7069,0,148,18528,509,458,80,99999,99999,99999,610,548,89,509,458,80,Finisher,1901
+Céline,Simon,Céline Simon,723,F35-39,Female,Jambes,,Belgium,BE,,3:03:16,2:02:18,,,5:09:08,0,10996,7338,0,213,18548,510,52,11,99999,99999,99999,572,54,10,510,52,11,Finisher,2365
+Michael,Ruppel,Michael Ruppel,573,M40-44,Male,Grünberg-Lardenbach,,Germany,DE,,2:54:42,2:11:52,,,5:09:11,0,10482,7912,0,156,18551,511,459,90,99999,99999,99999,437,415,84,511,459,90,Finisher,1991
+James,Westgarth,James Westgarth,650,M45-49,Male,Frankfurt,,United Kingdom,GB,,2:57:57,2:07:13,,,5:09:18,0,10677,7633,0,248,18558,512,460,58,99999,99999,99999,488,453,58,512,460,58,Finisher,2175
+Henk-Jan,Vogelaar,Henk-Jan Vogelaar,702,M50-54,Male,Dordrecht,,Netherlands,NL,,2:56:55,2:10:11,,,5:09:25,0,10615,7811,0,140,18565,513,461,52,99999,99999,99999,474,441,50,513,461,52,Finisher,2133
+Magdalena,Burgstaller,Magdalena Burgstaller,820,F30-34,Female,Amsterdam,,Austria,AT,,3:13:39,1:53:51,,,5:09:29,0,11619,6831,0,118,18569,514,53,12,99999,99999,99999,633,68,15,514,53,12,Finisher,2281
+Cayne,Krapf,Cayne Krapf,68,M35-39,Male,Volkach,BY,Germany,DE,,3:02:51,2:04:20,,,5:09:30,0,10971,7460,0,139,18570,515,462,81,99999,99999,99999,566,513,87,515,462,81,Finisher,1888
+Aron,Schreibers,Aron Schreibers,917,M25-29,Male,Heerlen,,Netherlands,NL,,2:58:30,2:04:36,,,5:09:38,0,10710,7476,0,393,18578,516,463,65,99999,99999,99999,501,464,66,516,463,65,Finisher,1895
+François,Clauss,François Clauss,739,M40-44,Male,Lingolsheim,,France,FR,,3:19:27,1:46:17,,,5:09:54,0,11967,6377,0,251,18594,517,464,91,99999,99999,99999,661,584,111,517,464,91,Finisher,1979
+Sebastien,Fuki,Sebastien Fuki,397,M45-49,Male,Waterloo,,Belgium,BE,,2:56:46,2:09:16,,,5:09:59,0,10606,7756,0,237,18599,518,465,59,99999,99999,99999,472,439,55,518,465,59,Finisher,2163
+Phillip,Naujoks,Phillip Naujoks,546,M35-39,Male,Krempdorf,,Germany,DE,,2:49:46,2:17:15,,,5:10:27,0,10186,8235,0,205,18627,519,466,82,99999,99999,99999,364,349,60,519,466,82,Finisher,1871
+Daniel,Moeller,Daniel Moeller,736,M40-44,Male,Erdmannhausen,BW,Germany,DE,,3:00:03,2:06:24,,,5:10:28,0,10803,7584,0,240,18628,520,467,92,99999,99999,99999,521,479,95,520,467,92,Finisher,1968
+Henry,Keller,Henry Keller,925,M25-29,Male,Erlangen,,Germany,DE,,2:57:20,2:06:39,,,5:10:31,0,10640,7599,0,391,18631,521,468,66,99999,99999,99999,479,445,63,521,468,66,Finisher,1879
+Nico,Federici,Nico Federici,867,M35-39,Male,Pétange,Luxembourg,Italy,IT,,2:59:55,2:06:51,,,5:10:33,0,10795,7611,0,227,18633,522,469,83,99999,99999,99999,519,478,82,522,469,83,Finisher,1869
+Denis,Coppieters,Denis Coppieters,837,M40-44,Male,Waterloo,,Belgium,BE,,3:00:41,2:06:13,,,5:10:44,0,10841,7573,0,230,18644,523,470,93,99999,99999,99999,530,485,96,523,470,93,Finisher,1964
+Michael,Costa,Michael Costa,812,M25-29,Male,Fentange,Luxembourg,Luxembourg,LU,,2:52:56,2:13:24,,,5:10:44,0,10376,8004,0,265,18644,524,471,67,99999,99999,99999,410,390,57,524,471,67,Finisher,1875
+Michele,Philippi,Michele Philippi,540,F40-44,Female,Weiler la Tour,luxembourg,Luxembourg,LU,,3:00:06,2:07:47,,,5:10:51,0,10806,7667,0,178,18651,525,54,10,99999,99999,99999,522,43,8,525,54,10,Finisher,2921
+Pieter,Warnars,Pieter Warnars,780,M35-39,Male,Noordwijk,,Netherlands,NL,,3:09:29,1:59:49,,,5:11:18,0,11369,7189,0,120,18678,526,472,84,99999,99999,99999,614,552,90,526,472,84,Finisher,1856
+Camilla,West,Camilla West,947,F30-34,Female,Mainz,,United Kingdom,GB,,3:18:44,1:48:52,,,5:11:27,0,11924,6532,0,231,18687,527,55,13,99999,99999,99999,657,76,17,527,55,13,Finisher,2246
+Frederic,Langen,Frederic Langen,926,M40-44,Male,Post,,Belgium,BE,,2:57:26,2:11:50,,,5:11:28,0,10646,7910,0,133,18688,528,473,94,99999,99999,99999,482,447,92,528,473,94,Finisher,1950
+Kyra,Wijnen,Kyra Wijnen,658,F25-29,Female,Stevensweert,,Netherlands,NL,,3:00:14,2:08:56,,,5:11:29,0,10814,7736,0,138,18689,529,56,7,99999,99999,99999,524,44,7,529,56,7,Finisher,2847
+Tanja,Maring,Tanja Maring,802,F45-49,Female,Weiskirchen,,Germany,DE,,3:08:12,2:01:03,,,5:11:45,0,11292,7263,0,150,18705,530,57,8,99999,99999,99999,609,62,8,530,57,8,Finisher,2785
+Eric,Duforest,Eric Duforest,269,M50-54,Male,Prix-lès-Mézières,,France,FR,,3:13:49,1:54:12,,,5:11:46,0,11629,6852,0,224,18706,531,474,53,99999,99999,99999,637,569,66,531,474,53,Finisher,2091
+Dimitri,Van Hoewijk,Dimitri Van Hoewijk,532,M45-49,Male,Amsterdam,,Netherlands,NL,,2:42:07,2:25:09,,,5:12:01,0,9727,8709,0,285,18721,532,475,60,99999,99999,99999,244,236,26,532,475,60,Finisher,2126
+Debora,Dubbel,Debora Dubbel,637,F40-44,Female,Frankfurt,,Germany,DE,,3:01:00,2:08:31,,,5:12:02,0,10860,7711,0,151,18722,533,58,11,99999,99999,99999,533,48,9,533,58,11,Finisher,2900
+Wessel,Vis,Wessel Vis,910,M25-29,Male,Maarssen,,Netherlands,NL,,3:04:52,2:03:51,,,5:12:18,0,11092,7431,0,215,18738,534,476,68,99999,99999,99999,586,529,75,534,476,68,Finisher,1847
+Norbert,Schiewe,Norbert Schiewe,959,M60-64,Male,Düren,NORDRHEIN-WESTFALEN,Germany,DE,,3:01:10,2:09:30,,,5:12:45,0,10870,7770,0,125,18765,535,477,9,99999,99999,99999,536,488,12,535,477,9,Finisher,2411
+Roderik,Lamberts,Roderik Lamberts,688,M50-54,Male,Maasbree,,Netherlands,NL,,2:58:57,2:12:10,,,5:13:54,0,10737,7930,0,166,18834,536,478,54,99999,99999,99999,507,469,52,536,478,54,Finisher,2053
+Ignas,Stanislovaitis,Ignas Stanislovaitis,966,M30-34,Male,Vilnius,Lithuania,Lithuania,LT,,3:04:09,2:07:14,,,5:14:00,0,11049,7634,0,157,18840,537,479,78,99999,99999,99999,580,525,81,537,479,78,Finisher,1729
+Christoph,Schuh,Christoph Schuh,703,M40-44,Male,Neuwied,,Germany,DE,,2:58:00,2:12:53,,,5:14:05,0,10680,7973,0,192,18845,538,480,95,99999,99999,99999,489,454,93,538,480,95,Finisher,1903
+Bastien,Jallat,Bastien Jallat,721,M25-29,Male,Bonneville,,France,FR,,3:01:43,2:09:50,,,5:14:07,0,10903,7790,0,154,18847,539,481,69,99999,99999,99999,551,500,72,539,481,69,Finisher,1814
+Ingo,Karpen,Ingo Karpen,683,M40-44,Male,Tusmore,SA,Australia,AU,,3:01:45,2:08:56,,,5:14:20,0,10905,7736,0,219,18860,540,482,96,99999,99999,99999,552,501,98,540,482,96,Finisher,1899
+Joost,Lismont,Joost Lismont,719,M45-49,Male,Genk,,Belgium,BE,,3:04:51,2:06:58,,,5:14:25,0,11091,7618,0,157,18865,541,483,61,99999,99999,99999,585,528,72,541,483,61,Finisher,2083
+Jan,Morawiec,Jan Morawiec,826,M35-39,Male,Luxembourg,Luxembourg,Czech Republic,CZ,,3:01:17,2:10:08,,,5:14:41,0,10877,7808,0,196,18881,542,484,85,99999,99999,99999,539,491,84,542,484,85,Finisher,1795
+Alexander,Zwetkow,Alexander Zwetkow,699,M35-39,Male,Frankfurt,,Germany,DE,,2:51:52,2:19:53,,,5:15:10,0,10312,8393,0,204,18910,543,485,86,99999,99999,99999,399,381,67,543,485,86,Finisher,1786
+Lauri,Plutus,Lauri Plutus,518,M40-44,Male,Tallinn,Harju,Estonia,EE,,3:02:38,2:09:22,,,5:15:12,0,10958,7762,0,192,18912,544,486,97,99999,99999,99999,564,511,99,544,486,97,Finisher,1883
+Stephane,Simon,Stephane Simon,889,M50-54,Male,Niederanven,LUXEMBOURG,France,FR,,3:11:17,1:58:34,,,5:15:26,0,11477,7114,0,335,18926,545,487,55,99999,99999,99999,623,559,63,545,487,55,Finisher,2025
+Marcel,Schwabe,Marcel Schwabe,367,M40-44,Male,Hofheim,HE,Germany,DE,,3:02:56,2:09:44,,,5:15:39,0,10976,7784,0,179,18939,546,488,98,99999,99999,99999,567,514,100,546,488,98,Finisher,1875
+Anil,Laurent,Anil Laurent,756,M45-49,Male,Machelen,VLAAMS-BRABANT,Belgium,BE,,3:11:57,1:57:09,,,5:15:41,0,11517,7029,0,395,18941,547,489,62,99999,99999,99999,626,562,78,547,489,62,Finisher,2060
+Philippe,Bezaud,Philippe Bezaud,762,M25-29,Male,Grenoble,ISERE,France,FR,,3:01:23,2:11:03,,,5:15:51,0,10883,7863,0,205,18951,548,490,70,99999,99999,99999,540,492,70,548,490,70,Finisher,1783
+Andrea,Volongo,Andrea Volongo,957,M40-44,Male,Luxembourg,Luxembourg,Luxembourg,LU,,3:05:18,2:07:59,,,5:15:56,0,11118,7679,0,159,18956,549,491,99,99999,99999,99999,591,533,101,549,491,99,Finisher,1870
+Kerstin,Heinen,Kerstin Heinen,378,F25-29,Female,St. Vith,,Belgium,BE,,3:43:14,1:31:14,,,5:16:17,0,13394,5474,0,109,18977,550,59,8,99999,99999,99999,721,103,13,550,59,8,Finisher,2761
+Lina Mellem,Enoksen,Lina Mellem Enoksen,520,F35-39,Female,Oslo,,Norway,NO,,3:21:10,1:52:29,,,5:16:19,0,12070,6749,0,159,18979,551,60,12,99999,99999,99999,669,81,16,551,60,12,Finisher,2236
+Maxime,Castermans,Maxime Castermans,949,M30-34,Male,Luxembourg,,Luxembourg,LU,,3:01:27,2:10:15,,,5:16:22,0,10887,7815,0,279,18982,552,492,79,99999,99999,99999,543,495,76,552,492,79,Finisher,1687
+Berna,Ekmekci,Berna Ekmekci,646,F30-34,Female,Wegberg,,Turkey,TR,,3:16:00,1:58:50,,,5:16:46,0,11760,7130,0,115,19006,553,61,14,99999,99999,99999,645,72,16,553,61,14,Finisher,2150
+Gilis,Eugénie,Gilis Eugénie,617,F35-39,Female,Autre -Eglise,,Belgium,BE,,3:15:16,1:59:41,,,5:16:53,0,11716,7181,0,116,19013,554,62,13,99999,99999,99999,642,71,14,554,62,13,Finisher,2226
+Luc,Schaeffer,Luc Schaeffer,745,M45-49,Male,Nocher-Route,LU,Luxembourg,LU,,2:48:52,2:24:56,,,5:17:04,0,10132,8696,0,196,19024,555,493,63,99999,99999,99999,350,336,43,555,493,63,Finisher,2036
+Elisabeth,Dubois,Elisabeth Dubois,768,F30-34,Female,Libin,,Belgium,BE,,3:03:29,2:09:56,,,5:17:08,0,11009,7796,0,224,19028,556,63,15,99999,99999,99999,575,55,12,556,63,15,Finisher,2144
+Sven,Beeckman,Sven Beeckman,113,M35-39,Male,Lebbeke,,Belgium,BE,,3:00:08,2:14:58,,,5:17:17,0,10808,8098,0,130,19037,557,494,87,99999,99999,99999,523,480,83,557,494,87,Finisher,1748
+Michal,Wasik,Michal Wasik,374,M30-34,Male,Warszawa,,Poland,PL,,3:07:43,2:03:09,,,5:17:21,0,11263,7389,0,389,19041,558,495,80,99999,99999,99999,607,546,86,558,495,80,Finisher,1669
+Jean-Charles,Tonnelle,Jean-Charles Tonnelle,836,M45-49,Male,Waterloo,,Belgium,BE,,2:59:14,2:13:35,,,5:17:32,0,10754,8015,0,283,19052,559,496,64,99999,99999,99999,511,472,62,559,496,64,Finisher,2027
+Eva Maria,Elvira Arias,Eva Maria Elvira Arias,615,F35-39,Female,Barcelona,,Spain,ES,,3:12:36,2:02:05,,,5:17:57,0,11556,7325,0,195,19077,560,64,14,99999,99999,99999,629,66,13,560,64,14,Finisher,2207
+Henri,Kox,Henri Kox,2021,M60-64,Male,Remich,,Luxembourg,LU,,2:54:46,2:21:49,,,5:18:14,0,10486,8509,0,98,19094,561,497,10,99999,99999,99999,440,418,9,561,497,10,Finisher,2312
+Alexandra,Schmidt,Alexandra Schmidt,809,F40-44,Female,Erftstadt ,,Germany,DE,,3:10:10,2:03:38,,,5:18:21,0,11410,7418,0,273,19101,562,65,12,99999,99999,99999,619,63,11,562,65,12,Finisher,2786
+Pauline,Bense,Pauline Bense,931,F25-29,Female,SAINT LEONARD,,France,FR,,2:56:44,2:19:02,,,5:18:44,0,10604,8342,0,178,19124,563,66,9,99999,99999,99999,469,31,4,563,66,9,Finisher,2717
+Jeff,Barbelen,Jeff Barbelen,865,M40-44,Male,Saarburg,,Germany,DE,,2:56:28,2:19:17,,,5:18:45,0,10588,8357,0,179,19125,564,498,100,99999,99999,99999,466,437,90,564,498,100,Finisher,1819
+Markus,Stücker,Markus Stücker,714,M35-39,Male,Münster,,Germany,DE,,2:51:08,2:25:10,,,5:19:00,0,10268,8710,0,162,19140,565,499,88,99999,99999,99999,386,368,66,565,499,88,Finisher,1717
+Birger,Schubert,Birger Schubert,754,M55-59,Male,Koblenz,,Germany,DE,,2:56:07,2:20:06,,,5:19:16,0,10567,8406,0,183,19156,566,500,23,99999,99999,99999,460,433,22,566,500,23,Finisher,2304
+Udo,Raumann,Udo Raumann,960,M50-54,Male,Balve,NORDRHEIN-WESTFALEN,Germany,DE,,3:06:05,2:11:11,,,5:19:37,0,11165,7871,0,141,19177,567,501,56,99999,99999,99999,596,538,61,567,501,56,Finisher,1950
+Marcin,Skowron,Marcin Skowron,805,M40-44,Male,Bytom,,Poland,PL,,2:55:40,2:20:53,,,5:19:37,0,10540,8453,0,184,19177,568,502,101,99999,99999,99999,453,427,86,568,502,101,Finisher,1804
+Claudia,Schiewe,Claudia Schiewe,661,F55-59,Female,Düren,,Germany,DE,,3:02:18,2:15:09,,,5:20:08,0,10938,8109,0,161,19208,569,67,1,99999,99999,99999,560,53,1,569,67,1,Finisher,3500
+Denis,Weiland,Denis Weiland,929,M50-54,Male,Noord Brabant,North Brabant,Netherlands,NL,,3:04:27,2:12:46,,,5:20:20,0,11067,7966,0,187,19220,570,503,57,99999,99999,99999,582,527,59,570,503,57,Finisher,1937
+Frank,Wenzl,Frank Wenzl,854,M55-59,Male,Wormeldange,Lux,Luxembourg,LU,,2:59:36,2:17:28,,,5:20:38,0,10776,8248,0,214,19238,571,504,24,99999,99999,99999,515,475,28,571,504,24,Finisher,2279
+GILMER,Nathan,GILMER Nathan,706,M30-34,Male,Cosnes et romain,,France,FR,,2:54:39,2:22:19,,,5:20:43,0,10479,8539,0,225,19243,572,505,81,99999,99999,99999,433,411,65,572,505,81,Finisher,1608
+Antoine,De Groote,Antoine De Groote,138,M40-44,Male,Meispelt,Luxemburg,Luxembourg,LU,,2:49:56,2:23:18,,,5:21:10,0,10196,8598,0,477,19270,573,506,102,99999,99999,99999,368,351,75,573,506,102,Finisher,1776
+Carlo,Feltes,Carlo Feltes,136,M55-59,Male,Mondorff,GRAND-EST,Luxembourg,LU,,2:58:41,2:20:23,,,5:21:17,0,10721,8423,0,133,19277,574,507,25,99999,99999,99999,504,467,26,574,507,25,Finisher,2268
+Ben,Zeimetz,Ben Zeimetz,892,M35-39,Male,Dudelange,Luxembourg,Luxembourg,LU,,2:55:45,2:20:30,,,5:21:29,0,10545,8430,0,315,19289,575,508,89,99999,99999,99999,454,428,74,575,508,89,Finisher,1673
+Jonathan,Joniaux,Jonathan Joniaux,934,M45-49,Male,Arlon,,Belgium,BE,,3:03:09,2:15:58,,,5:21:32,0,10989,8158,0,146,19292,576,509,65,99999,99999,99999,570,517,68,576,509,65,Finisher,1955
+Fraser,Carson,Fraser Carson,581,M40-44,Male,Arlon,,Ireland,IE,,3:11:03,2:07:19,,,5:21:36,0,11463,7639,0,195,19296,577,510,103,99999,99999,99999,622,558,107,577,510,103,Finisher,1768
+Eric,Klein,Eric Klein,512,M45-49,Male,Maastricht,LIMBURG,Netherlands,NL,,2:54:40,2:22:38,,,5:21:51,0,10480,8558,0,273,19311,578,511,66,99999,99999,99999,434,412,53,578,511,66,Finisher,1949
+André,Bättig,André Bättig,589,M60-64,Male,Gurmels,,Switzerland,CH,,3:05:42,2:14:28,,,5:21:55,0,11142,8068,0,105,19315,579,512,11,99999,99999,99999,594,536,14,579,512,11,Finisher,2246
+Quentin,Delberghe,Quentin Delberghe,790,M30-34,Male,Sambreville,,Belgium,BE,,2:58:51,2:20:22,,,5:22:31,0,10731,8422,0,198,19351,580,513,82,99999,99999,99999,505,468,73,580,513,82,Finisher,1576
+Jonathan,Metzeler,Jonathan Metzeler,827,M30-34,Male,wintzenheim kochesberg,,France,FR,,3:01:46,2:17:50,,,5:22:32,0,10906,8270,0,176,19352,581,514,83,99999,99999,99999,553,502,77,581,514,83,Finisher,1576
+Philippe,Bellion,Philippe Bellion,549,M25-29,Male,Reisdorf,Diekirch,Luxembourg,LU,,3:00:25,2:18:00,,,5:22:43,0,10825,8280,0,258,19363,582,515,71,99999,99999,99999,525,481,68,582,515,71,Finisher,1659
+Claus,Von Hermann,Claus Von Hermann,810,M45-49,Male,Frankfurt am Main,,Germany,DE,,2:56:00,2:24:00,,,5:22:49,0,10560,8640,0,169,19369,583,516,67,99999,99999,99999,457,431,54,583,516,67,Finisher,1932
+Jeremy,Jolivet,Jeremy Jolivet,582,M35-39,Male,Mommenheim,,France,FR,,3:21:08,1:59:06,,,5:22:49,0,12068,7146,0,156,19369,584,517,90,99999,99999,99999,668,588,93,584,517,90,Finisher,1649
+Lilian,Leclerc,Lilian Leclerc,905,M45-49,Male,Auvernier,,France,FR,,3:04:03,2:13:11,,,5:23:01,0,11043,7991,0,347,19381,585,518,68,99999,99999,99999,579,524,71,585,518,68,Finisher,1928
+Shizhao,Li,Shizhao Li,904,M25-29,Male,Dublin,Ireland,China,CN,,3:18:39,1:59:51,,,5:23:12,0,11919,7191,0,282,19392,586,519,72,99999,99999,99999,656,581,77,586,519,72,Finisher,1651
+Romin,Lankamp,Romin Lankamp,695,M45-49,Male,Hengelo,OVERIJSSEL,Netherlands,NL,,2:52:59,2:26:48,,,5:23:17,0,10379,8808,0,210,19397,587,520,69,99999,99999,99999,412,392,49,587,520,69,Finisher,1924
+Marc,Behets-Wydemans,Marc Behets-Wydemans,863,M65-69,Male,Luxembourg,Luxembourh,Luxembourg,LU,,3:15:29,2:04:04,,,5:23:28,0,11729,7444,0,235,19408,588,521,1,99999,99999,99999,643,572,2,588,521,1,Finisher,3500
+Philippe,Tontoni,Philippe Tontoni,507,M35-39,Male,Itzig,Luxembourg,France,FR,,2:59:01,2:16:55,,,5:23:34,0,10741,8215,0,457,19414,589,522,91,99999,99999,99999,509,471,80,589,522,91,Finisher,1635
+Guillaume,Falk,Guillaume Falk,883,M40-44,Male,Luxembourg,Luxembourg,France,FR,,2:56:58,2:23:08,,,5:23:34,0,10618,8588,0,208,19414,590,523,104,99999,99999,99999,475,442,91,590,523,104,Finisher,1733
+Xavier,Warnier,Xavier Warnier,504,M40-44,Male,Radelange,,Belgium,BE,,2:59:52,2:19:15,,,5:24:02,0,10792,8355,0,295,19442,591,524,105,99999,99999,99999,518,477,94,591,524,105,Finisher,1724
+René,Maier,René Maier,7,M55-59,Male,Immenstadt,,Germany,DE,,2:59:32,2:20:11,,,5:24:23,0,10772,8411,0,281,19463,592,525,26,99999,99999,99999,514,474,27,592,525,26,Finisher,2212
+Jeroen,Oude Nijhuis,Jeroen Oude Nijhuis,537,M50-54,Male,Almelo,,Netherlands,NL,,3:03:30,2:16:52,,,5:24:39,0,11010,8212,0,257,19479,593,526,58,99999,99999,99999,576,521,57,593,526,58,Finisher,1859
+Christian,Reiter,Christian Reiter,858,M45-49,Male,Eppstein,,Germany,DE,,3:01:39,2:18:41,,,5:24:48,0,10899,8321,0,269,19488,594,527,70,99999,99999,99999,549,499,66,594,527,70,Finisher,1896
+Thomas,Emmes,Thomas Emmes,956,M55-59,Male,Rhens,,Germany,DE,,3:14:42,2:06:55,,,5:24:49,0,11682,7615,0,193,19489,595,528,27,99999,99999,99999,641,571,32,595,528,27,Finisher,2204
+Ton,van Empel,Ton van Empel,690,M50-54,Male,Asten,,Netherlands,NL,,2:56:14,2:26:02,,,5:25:35,0,10574,8762,0,199,19535,596,529,59,99999,99999,99999,463,435,48,596,529,59,Finisher,1842
+Willemijn,Huizenga Heijnen,Willemijn Huizenga Heijnen,954,F35-39,Female,Almere,Flevoland,Netherlands,NL,,3:05:12,2:17:17,,,5:25:45,0,11112,8237,0,195,19545,597,68,15,99999,99999,99999,590,58,11,597,68,15,Finisher,2066
+Christina,Detzen,Christina Detzen,797,F40-44,Female,Lebach,,Germany,DE,,3:13:24,2:10:09,,,5:25:59,0,11604,7809,0,146,19559,598,69,13,99999,99999,99999,631,67,12,598,69,13,Finisher,2649
+Pierre-Lucas,Guigou,Pierre-Lucas Guigou,640,M18-24,Male,Valenton,,France,FR,,3:09:30,2:11:52,,,5:26:01,0,11370,7912,0,278,19561,599,530,11,99999,99999,99999,615,553,13,599,530,11,Finisher,1952
+Kévin,Mack,Kévin Mack,627,M30-34,Male,Hoegaarden,,Belgium,BE,,3:05:12,2:18:43,,,5:27:26,0,11112,8323,0,211,19646,600,531,84,99999,99999,99999,589,532,82,600,531,84,Finisher,1487
+Paul,Bernhardt,Paul Bernhardt,792,M18-24,Male,Bad Soden am Taunus,,Germany,DE,,3:16:20,2:07:52,,,5:27:31,0,11780,7672,0,199,19651,601,532,12,99999,99999,99999,647,575,14,601,532,12,Finisher,1925
+Michal,Hermansky,Michal Hermansky,763,M25-29,Male,Caslav,Stredocesky kraj,Czech Republic,CZ,,3:03:03,2:21:50,,,5:28:20,0,10983,8510,0,207,19700,602,533,73,99999,99999,99999,568,515,74,602,533,73,Finisher,1558
+Olivier,Lentchat,Olivier Lentchat,879,M50-54,Male,OTTANGE,,France,FR,,3:13:40,2:09:18,,,5:29:44,0,11620,7758,0,406,19784,603,534,60,99999,99999,99999,634,566,65,603,534,60,Finisher,1768
+Jean-Marc,Bouche,Jean-Marc Bouche,967,M50-54,Male,HEMILLY,,France,FR,,3:12:23,2:13:31,,,5:30:08,0,11543,8011,0,254,19808,604,535,61,99999,99999,99999,627,563,64,604,535,61,Finisher,1760
+Thorsten,Beinke,Thorsten Beinke,785,M50-54,Male,Bettendorf,Diekirch,Germany,DE,,2:50:15,2:36:59,,,5:30:26,0,10215,9419,0,192,19826,605,536,62,99999,99999,99999,375,358,37,605,536,62,Finisher,1755
+Dylan,Bricout,Dylan Bricout,584,M25-29,Male,SAINT PIERRE LES ELBEUF,,France,FR,,2:52:14,2:34:22,,,5:30:52,0,10334,9262,0,256,19852,606,537,74,99999,99999,99999,401,383,56,606,537,74,Finisher,1513
+Robert,Szura,Robert Szura,654,M30-34,Male,Luxembourg,małopolskie,Poland,PL,,3:26:38,1:59:58,,,5:31:20,0,12398,7198,0,284,19880,607,538,85,99999,99999,99999,682,596,93,607,538,85,Finisher,1417
+Martin,Hajdin,Martin Hajdin,969,M45-49,Male,Oberhofen am Thunersee,,Switzerland,CH,,2:57:43,2:28:40,,,5:31:30,0,10663,8920,0,307,19890,608,539,71,99999,99999,99999,485,450,56,608,539,71,Finisher,1776
+Ursula,Kranz,Ursula Kranz,548,F55-59,Female,Bennhausen,,Germany,DE,,3:21:53,2:07:18,,,5:31:33,0,12113,7638,0,142,19893,609,70,2,99999,99999,99999,672,83,3,609,70,2,Finisher,3294
+Matej,Pokorny,Matej Pokorny,875,M30-34,Male,Kladno,Kladno,Czech Republic,CZ,,3:13:25,2:14:17,,,5:31:59,0,11605,8057,0,257,19919,610,540,86,99999,99999,99999,632,565,88,610,540,86,Finisher,1406
+Kamila,Slupek,Kamila Slupek,840,F40-44,Female,Gdynia,pomorskie,Poland,PL,,3:26:36,2:01:15,,,5:32:20,0,12396,7275,0,269,19940,611,71,14,99999,99999,99999,681,86,14,611,71,14,Finisher,2535
+Christoph,Hülskamp,Christoph Hülskamp,747,M45-49,Male,Molbergen,,Germany,DE,,3:02:37,2:26:41,,,5:32:24,0,10957,8801,0,185,19944,612,541,72,99999,99999,99999,563,510,67,612,541,72,Finisher,1760
+Mandy,Jung-Kämmler,Mandy Jung-Kämmler,748,F50-54,Female,Altenkirchen,,Germany,DE,,3:10:34,2:19:01,,,5:32:32,0,11434,8341,0,177,19952,613,72,7,99999,99999,99999,621,64,8,613,72,7,Finisher,2051
+Michelle,Gerlach,Michelle Gerlach,920,F25-29,Female,Trechtingshausen,,Germany,DE,,3:14:28,2:14:45,,,5:33:51,0,11668,8085,0,277,20031,614,73,10,99999,99999,99999,640,70,10,614,73,10,Finisher,2445
+Johan,Slot,Johan Slot,886,M55-59,Male,Best,NOORD-BRABANT,Netherlands,NL,,3:16:06,2:13:48,,,5:33:54,0,11766,8028,0,240,20034,615,542,28,99999,99999,99999,646,574,33,615,542,28,Finisher,2041
+Anja,Sierck,Anja Sierck,855,F45-49,Female,Drochtersen,,Germany,DE,,3:04:50,2:25:01,,,5:34:04,0,11090,8701,0,254,20044,616,74,9,99999,99999,99999,584,57,7,616,74,9,Finisher,2384
+Gert-Jan,Schotanus,Gert-Jan Schotanus,911,M50-54,Male,Boskoop,,Netherlands,NL,,3:18:46,2:06:33,,,5:34:08,0,11926,7593,0,528,20048,617,543,63,99999,99999,99999,658,582,69,617,543,63,Finisher,1688
+Patrick,Schoene,Patrick Schoene,909,M70-74,Male,Berlin,,Germany,DE,,3:02:16,2:27:36,,,5:34:40,0,10936,8856,0,288,20080,618,544,1,99999,99999,99999,559,507,1,618,544,1,Finisher,3500
+Nils,Holtmannspötter,Nils Holtmannspötter,708,M35-39,Male,Ochtrup,,Germany,DE,,2:58:15,2:32:50,,,5:34:51,0,10695,9170,0,226,20091,619,545,92,99999,99999,99999,497,461,79,619,545,92,Finisher,1432
+Erik,Coppens,Erik Coppens,57,M55-59,Male,Aalst - Erembodegem,,Belgium,BE,,2:57:39,2:33:28,,,5:35:08,0,10659,9208,0,241,20108,620,546,29,99999,99999,99999,484,449,24,620,546,29,Finisher,2018
+Yves,Knel,Yves Knel,940,M40-44,Male,luxembourg,luxembourg,Belgium,BE,,3:27:48,2:02:29,,,5:35:40,0,12468,7349,0,323,20140,621,547,106,99999,99999,99999,684,598,116,621,547,106,Finisher,1515
+Cecile,Du Toit,Cecile Du Toit,268,F25-29,Female,Luxembourg,Luxembourg,South Africa,ZA,,3:13:51,2:18:40,,,5:35:45,0,11631,8320,0,194,20145,622,75,11,99999,99999,99999,638,69,9,622,75,11,Finisher,2411
+Matthijs,Van Oers,Matthijs Van Oers,303,M45-49,Male,Amsterdam,,Netherlands,NL,,3:08:51,2:24:59,,,5:36:15,0,11331,8699,0,145,20175,623,548,73,99999,99999,99999,611,549,75,623,548,73,Finisher,1690
+Richard,Maclear,Richard Maclear,786,M45-49,Male,Strassen,Luxembourg,Belgium,BE,,3:13:43,2:18:20,,,5:36:35,0,11623,8300,0,272,20195,624,549,74,99999,99999,99999,635,567,79,624,549,74,Finisher,1684
+Alinda,Kokkinou,Alinda Kokkinou,102,F40-44,Female,Breda,,Netherlands,NL,,3:32:34,2:03:03,,,5:36:57,0,12754,7383,0,80,20217,625,76,15,99999,99999,99999,703,97,17,625,76,15,Finisher,2452
+Christoph,Schlott,Christoph Schlott,534,M50-54,Male,Dortmund,,Germany,DE,,2:55:11,2:39:27,,,5:37:00,0,10511,9567,0,142,20220,626,550,64,99999,99999,99999,448,423,47,626,550,64,Finisher,1637
+Agata,Worobiec,Agata Worobiec,698,F30-34,Female,Frankfurt,,Germany,DE,,3:06:57,2:27:28,,,5:37:10,0,11217,8848,0,165,20230,627,77,16,99999,99999,99999,605,60,13,627,77,16,Finisher,1783
+Noah,Ragan,Noah Ragan,331,M18-24,Male,Orono,MN,United States,US,,3:05:44,2:28:23,,,5:37:24,0,11144,8903,0,196,20244,628,551,13,99999,99999,99999,595,537,12,628,551,13,Finisher,1748
+James,Kearney,James Kearney,856,M35-39,Male,Luxembourg/Clausen,Luxembourg,United States,US,,3:35:32,1:59:12,,,5:37:37,0,12932,7152,0,174,20257,629,552,93,99999,99999,99999,709,610,94,629,552,93,Finisher,1382
+Ulrike,Samsel,Ulrike Samsel,818,F50-54,Female,Saarbrücken,,Germany,DE,,3:21:28,2:12:22,,,5:37:56,0,12088,7942,0,245,20276,630,78,8,99999,99999,99999,670,82,10,630,78,8,Finisher,1954
+Steffen,Dischinger,Steffen Dischinger,936,M45-49,Male,Waldbronn,,Luxembourg,LU,,3:03:12,2:30:57,,,5:39:07,0,10992,9057,0,298,20347,631,553,75,99999,99999,99999,571,518,69,631,553,75,Finisher,1639
+Thibault,Mainand,Thibault Mainand,752,M25-29,Male,La Garenne Colombes,,France,FR,,3:34:19,2:00:09,,,5:39:08,0,12859,7209,0,280,20348,632,554,75,99999,99999,99999,706,607,80,632,554,75,Finisher,1364
+Frederic,Le Breton,Frederic Le Breton,724,M45-49,Male,Walferdange,,France,FR,,3:04:58,2:31:19,,,5:39:37,0,11098,9079,0,199,20377,633,555,76,99999,99999,99999,587,530,73,633,555,76,Finisher,1630
+Amine,Attou,Amine Attou,943,M25-29,Male,Luxembourg,Luxembourg,Belgium,BE,,3:01:29,2:35:10,,,5:39:54,0,10889,9310,0,196,20394,634,556,76,99999,99999,99999,545,496,71,634,556,76,Finisher,1350
+Allard,Wieringa,Allard Wieringa,914,M45-49,Male,Groningen,,Netherlands,NL,,3:16:54,2:18:10,,,5:40:39,0,11814,8290,0,335,20439,635,557,77,99999,99999,99999,649,577,81,635,557,77,Finisher,1611
+Hette Anne,Bakker,Hette Anne Bakker,916,M30-34,Male,eenrum,,Netherlands,NL,,3:20:25,2:09:39,,,5:40:44,0,12025,7779,0,640,20444,636,558,87,99999,99999,99999,665,586,91,636,558,87,Finisher,1248
+Bertrand,D'Argoeuves,Bertrand D'Argoeuves,765,M40-44,Male,Poigny La Forêt,,France,FR,,3:32:02,2:06:28,,,5:40:54,0,12722,7588,0,144,20454,637,559,107,99999,99999,99999,700,605,118,637,559,107,Finisher,1421
+Mark,Uilhoorn,Mark Uilhoorn,700,M55-59,Male,Dordrecht,,Netherlands,NL,,3:09:35,2:25:49,,,5:40:55,0,11375,8749,0,331,20455,638,560,30,99999,99999,99999,616,554,31,638,560,30,Finisher,1914
+Jana,Fischer,Jana Fischer,901,F30-34,Female,Budenheim ,RHEINLAND-PFALZ,Germany,DE,,3:24:19,2:13:06,,,5:41:42,0,12259,7986,0,257,20502,639,79,17,99999,99999,99999,679,84,18,639,79,17,Finisher,1701
+Elizabeth,Mcternan,Elizabeth Mcternan,1,F55-59,Female,Louth,Lincs,United Kingdom,GB,,4:17:40,1:21:15,,,5:42:49,0,15460,4875,0,234,20569,640,80,3,99999,99999,99999,731,112,6,640,80,3,Finisher,3091
+Jean-Michel,Cloos,Jean-Michel Cloos,830,M40-44,Male,Brussels,,Belgium,BE,,3:27:57,2:09:52,,,5:43:10,0,12477,7792,0,321,20590,641,561,108,99999,99999,99999,686,600,117,641,561,108,Finisher,1380
+Laure,Langlacé,Laure Langlacé,34,F35-39,Female,Conthey,,France,FR,,3:19:47,2:21:34,,,5:44:07,0,11987,8494,0,165,20647,642,81,16,99999,99999,99999,663,78,15,642,81,16,Finisher,1736
+Pierre,Philippe,Pierre Philippe,965,M50-54,Male,folschviller,,France,FR,,3:17:31,2:23:13,,,5:44:12,0,11851,8593,0,207,20652,643,562,65,99999,99999,99999,653,579,68,643,562,65,Finisher,1507
+Jerome,Rauber,Jerome Rauber,946,M40-44,Male,haut soultzbach mortzwiller,,France,FR,,3:13:10,2:24:20,,,5:44:30,0,11590,8660,0,420,20670,644,563,109,99999,99999,99999,630,564,108,644,563,109,Finisher,1356
+Julie,Lété,Julie Lété,948,F40-44,Female,Saint-Ghislain,,Belgium,BE,,3:29:17,2:11:54,,,5:44:47,0,12557,7914,0,216,20687,645,82,16,99999,99999,99999,691,89,16,645,82,16,Finisher,2311
+Milena,Rosenthal,Milena Rosenthal,930,F25-29,Female,Hannover,,Germany,DE,,3:17:15,2:24:26,,,5:45:00,0,11835,8666,0,198,20700,646,83,12,99999,99999,99999,651,74,11,646,83,12,Finisher,2244
+Martin Lars,Müller,Martin Lars Müller,294,M45-49,Male,Saarbrücken,,Germany,DE,,3:01:02,2:40:34,,,5:45:07,0,10862,9634,0,212,20707,647,564,78,99999,99999,99999,534,486,63,647,564,78,Finisher,1531
+Tino,Götting-Pfeiffer,Tino Götting-Pfeiffer,773,M40-44,Male,Leverkusen,NW,Germany,DE,,3:06:51,2:34:15,,,5:45:10,0,11211,9255,0,244,20710,648,565,110,99999,99999,99999,603,544,103,648,565,110,Finisher,1344
+Freddy,Janssens,Freddy Janssens,686,M50-54,Male,courcelles,,Belgium,BE,,3:04:19,2:33:24,,,5:45:25,0,11059,9204,0,462,20725,649,566,66,99999,99999,99999,581,526,58,649,566,66,Finisher,1485
+Mike,Enders,Mike Enders,160,M55-59,Male,Idstein,,Germany,DE,,3:06:18,2:36:31,,,5:46:10,0,11178,9391,0,201,20770,650,567,31,99999,99999,99999,601,542,30,650,567,31,Finisher,1820
+Alex,Kies,Alex Kies,861,M40-44,Male,Erpeldange,Wolz,Luxembourg,LU,,3:06:13,2:37:34,,,5:47:01,0,11173,9454,0,194,20821,651,568,111,99999,99999,99999,598,539,102,651,568,111,Finisher,1310
+Alessandra,Lops,Alessandra Lops,795,F30-34,Female,Schifflange,Schifflange,Luxembourg,LU,,3:07:35,2:37:47,,,5:47:13,0,11255,9467,0,111,20833,652,84,18,99999,99999,99999,606,61,14,652,84,18,Finisher,1602
+Adel,Aminian,Adel Aminian,401,M45-49,Male,Waterloo,,Belgium,BE,,3:09:59,2:32:49,,,5:47:15,0,11399,9169,0,267,20835,653,569,79,99999,99999,99999,617,555,76,653,569,79,Finisher,1492
+Salvatore,Cupelli,Salvatore Cupelli,897,M65-69,Male,warsage,,Belgium,BE,,3:08:58,2:35:26,,,5:47:37,0,11338,9326,0,193,20857,654,570,2,99999,99999,99999,612,550,1,654,570,2,Finisher,3065
+Marco,Marell,Marco Marell,406,M50-54,Male,Nuth,,Netherlands,NL,,3:14:19,2:29:50,,,5:48:28,0,11659,8990,0,259,20908,655,571,67,99999,99999,99999,639,570,67,655,571,67,Finisher,1430
+Samia,Suys,Samia Suys,899,F30-34,Female,Gent,,Belgium,BE,,3:31:38,2:11:03,,,5:48:48,0,12698,7863,0,368,20928,656,85,19,99999,99999,99999,698,94,21,656,85,19,Finisher,1574
+Sylvia,Bedner,Sylvia Bedner,874,F60-64,Female,Iserlohn,,Germany,DE,,3:31:33,2:13:16,,,5:49:22,0,12693,7996,0,273,20962,657,86,1,99999,99999,99999,697,93,2,657,86,1,Finisher,3500
+Andrea,Gerrits,Andrea Gerrits,893,F50-54,Female,Bergheim,,Germany,DE,,3:20:03,2:23:44,,,5:49:32,0,12003,8624,0,345,20972,658,87,9,99999,99999,99999,664,79,9,658,87,9,Finisher,1745
+Rasmus,Guldager,Rasmus Guldager,853,M30-34,Male,"
+Kolding",,Denmark,DK,,3:06:18,2:38:21,,,5:49:42,0,11178,9501,0,303,20982,659,572,88,99999,99999,99999,600,541,84,659,572,88,Finisher,1087
+Johan,Van De Kamp,Johan Van De Kamp,963,M30-34,Male,Ede Gld,,Netherlands,NL,,3:06:40,2:39:11,,,5:50:00,0,11200,9551,0,249,21000,660,573,89,99999,99999,99999,602,543,85,660,573,89,Finisher,1081
+Christophe,Petesch,Christophe Petesch,866,M40-44,Male,Weiler-la-Tour,Luxembourg,Luxembourg,LU,,3:18:05,2:27:43,,,5:50:35,0,11885,8863,0,287,21035,661,574,112,99999,99999,99999,655,580,110,661,574,112,Finisher,1246
+Michel,Moeliker,Michel Moeliker,720,M40-44,Male,Rotterdam,,Netherlands,NL,,3:38:30,2:07:15,,,5:50:58,0,13110,7635,0,313,21058,662,575,113,99999,99999,99999,713,613,119,662,575,113,Finisher,1239
+Frédéric,Manguin,Frédéric Manguin,961,M40-44,Male,Montmorency,,France,FR,,3:10:03,2:36:23,,,5:51:22,0,11403,9383,0,296,21082,663,576,114,99999,99999,99999,618,556,106,663,576,114,Finisher,1232
+Jurgen,Dendooven,Jurgen Dendooven,902,M45-49,Male,Merelbeke Belgium,,Belgium,BE,,3:28:02,2:14:46,,,5:51:31,0,12482,8086,0,523,21091,664,577,80,99999,99999,99999,687,601,82,664,577,80,Finisher,1415
+Sandra,Jenniskens,Sandra Jenniskens,821,F30-34,Female,Utrecht,Utrecht,Netherlands,NL,,3:28:28,2:20:24,,,5:52:09,0,12508,8424,0,196,21129,665,88,20,99999,99999,99999,689,87,19,665,88,20,Finisher,1513
+Albert,Koppelman,Albert Koppelman,915,M40-44,Male,IJsselmuiden,,Netherlands,NL,,3:23:46,2:22:01,,,5:53:08,0,12226,8521,0,441,21188,666,578,115,99999,99999,99999,677,594,115,666,578,115,Finisher,1200
+Ludo,Marotte,Ludo Marotte,932,M30-34,Male,Sint-Niklaas,VOV,United States,US,,3:15:57,2:34:56,,,5:54:51,0,11757,9296,0,237,21291,667,579,90,99999,99999,99999,644,573,89,667,579,90,Finisher,994
+Charlotte,Hager,Charlotte Hager,907,F60-64,Female,Lausanne,,Switzerland,CH,,3:26:22,2:24:18,,,5:55:14,0,12382,8658,0,274,21314,668,89,2,99999,99999,99999,680,85,1,668,89,2,Finisher,3394
+Uli,Kozalla,Uli Kozalla,781,F45-49,Female,Frankfurt,,Germany,DE,,3:18:58,2:33:01,,,5:55:34,0,11938,9181,0,216,21334,669,90,10,99999,99999,99999,659,77,10,669,90,10,Finisher,1997
+Luc,Latoir,Luc Latoir,873,M60-64,Male,Nieuwerkerken,Flemish Region,Belgium,BE,,3:27:48,2:24:08,,,5:56:10,0,12468,8648,0,254,21370,670,580,12,99999,99999,99999,685,599,17,670,580,12,Finisher,1629
+Tom,Warken,Tom Warken,882,M45-49,Male,Muenschecker,Luxembourg,Luxembourg,LU,,3:11:52,2:39:35,,,5:56:22,0,11512,9575,0,296,21382,671,581,81,99999,99999,99999,625,561,77,671,581,81,Finisher,1328
+Keenan,Bellisari,Keenan Bellisari,332,M18-24,Male,POWELL,OH,United States,US,,3:03:06,2:50:00,,,5:56:34,0,10986,10200,0,208,21394,672,582,14,99999,99999,99999,569,516,11,672,582,14,Finisher,1403
+Jaap,Rip,Jaap Rip,533,M50-54,Male,Amsterdam,,Netherlands,NL,,3:05:26,2:47:02,,,5:58:13,0,11126,10022,0,344,21493,673,583,68,99999,99999,99999,593,535,60,673,583,68,Finisher,1255
+Eva,Swietlik,Eva Swietlik,951,F45-49,Female,Trier,,Germany,DE,,3:31:42,2:23:42,,,5:59:11,0,12702,8622,0,227,21551,674,91,11,99999,99999,99999,699,95,13,674,91,11,Finisher,1931
+Thomas,Le Tallec,Thomas Le Tallec,515,M25-29,Male,Cosnes et Romain,,France,FR,,3:32:25,2:22:16,,,5:59:21,0,12745,8536,0,279,21561,675,584,77,99999,99999,99999,701,606,79,675,584,77,Finisher,1000
+Amély,Mondy,Amély Mondy,900,F35-39,Female,Gent,,Belgium,BE,,3:30:24,2:22:33,,,5:59:40,0,12624,8553,0,403,21580,676,92,17,99999,99999,99999,694,90,17,676,92,17,Finisher,1456
+Jasper,Heikens,Jasper Heikens,870,M50-54,Male,Amstelveen,North Holland,Netherlands,NL,,3:28:23,2:24:40,,,6:00:34,0,12503,8680,0,451,21634,677,585,69,99999,99999,99999,688,602,70,677,585,69,Finisher,1213
+Jean-Philippe,Milard,Jean-Philippe Milard,894,M40-44,Male,Libramont,,Belgium,BE,,3:19:43,2:38:23,,,6:00:49,0,11983,9503,0,163,21649,678,586,116,99999,99999,99999,662,585,112,678,586,116,Finisher,1062
+Ilse,Van Asperdt,Ilse Van Asperdt,738,F35-39,Female,Amersfoort,,Netherlands,NL,,3:32:28,2:21:43,,,6:00:52,0,12748,8503,0,402,21652,679,93,18,99999,99999,99999,702,96,18,679,93,18,Finisher,1434
+Dan,Fitzpatrick,Dan Fitzpatrick,609,M50-54,Male,Frankfurt,,United States,US,,3:10:18,2:47:11,,,6:00:58,0,11418,10031,0,209,21658,680,587,70,99999,99999,99999,620,557,62,680,587,70,Finisher,1205
+Raoul,Beenkens,Raoul Beenkens,368,M30-34,Male,Meerssen,,Netherlands,NL,,3:22:10,2:37:43,,,6:02:54,0,12130,9463,0,181,21774,681,588,91,99999,99999,99999,673,590,92,681,588,91,Finisher,849
+Roland,Molter,Roland Molter,903,M50-54,Male,Aubange,,Luxembourg,LU,,3:36:50,2:23:50,,,6:04:19,0,13010,8630,0,219,21859,682,589,71,99999,99999,99999,712,612,72,682,589,71,Finisher,1145
+Vincent,Paliczka,Vincent Paliczka,924,M60-64,Male,Crowthorne,,United Kingdom,GB,,3:29:53,2:27:44,,,6:05:18,0,12593,8864,0,461,21918,683,590,13,99999,99999,99999,693,604,18,683,590,13,Finisher,1465
+Jonathan,Dorey,Jonathan Dorey,887,M60-64,Male,ST PETERS,England,Guernsey,GG,,3:22:46,2:39:45,,,6:05:22,0,12166,9585,0,171,21922,684,591,14,99999,99999,99999,675,592,16,684,591,14,Finisher,1463
+Sylvain,Bertrand,Sylvain Bertrand,798,M65-69,Male,REIMS,,France,FR,,3:24:18,2:38:44,,,6:06:00,0,12258,9524,0,179,21960,685,592,3,99999,99999,99999,678,595,3,685,592,3,Finisher,2734
+Granath,Musson,Granath Musson,817,M25-29,Male,APO,AE,United States,US,,3:02:22,3:00:37,,,6:06:50,0,10942,10837,0,231,22010,686,593,78,99999,99999,99999,561,508,73,686,593,78,Finisher,865
+Alexandra,Musson,Alexandra Musson,816,F25-29,Female,APO,AE,United States,US,,3:42:27,2:19:01,,,6:06:53,0,13347,8341,0,326,22013,687,94,13,99999,99999,99999,719,102,12,687,94,13,Finisher,1850
+Juliette,Leusink,Juliette Leusink,342,F40-44,Female,Luxembourg,Luxembourg,Netherlands,NL,,3:29:06,2:34:51,,,6:07:12,0,12546,9291,0,194,22032,688,95,17,99999,99999,99999,690,88,15,688,95,17,Finisher,1907
+Jaqueline,Amann,Jaqueline Amann,808,F30-34,Female,Saarlouis,,Germany,DE,,3:40:06,2:22:30,,,6:07:58,0,13206,8550,0,322,22078,689,96,21,99999,99999,99999,714,101,22,689,96,21,Finisher,1229
+Markus,Koch,Markus Koch,807,M55-59,Male,Nalbach,,Germany,DE,,3:40:11,2:22:37,,,6:08:07,0,13211,8557,0,319,22087,690,594,32,99999,99999,99999,716,615,35,690,594,32,Finisher,1425
+Ivan,Lebedev,Ivan Lebedev,787,M30-34,Male,Sulzbach,,Germany,DE,,3:05:20,2:59:41,,,6:09:40,0,11120,10781,0,279,22180,691,595,92,99999,99999,99999,592,534,83,691,595,92,Finisher,727
+Joël,Demarets,Joël Demarets,772,M70-74,Male,LILLOIS (Belgique),,Belgium,BE,,3:02:44,3:03:19,,,6:10:48,0,10964,10999,0,285,22248,692,596,2,99999,99999,99999,565,512,2,692,596,2,Finisher,2849
+Tom,Kleinluchtenbeld,Tom Kleinluchtenbeld,600,M25-29,Male,Eibergen,,Netherlands,NL,,3:26:59,2:40:36,,,6:10:53,0,12419,9636,0,199,22253,693,597,79,99999,99999,99999,683,597,78,693,597,79,Finisher,792
+Harmony,Lesoil,Harmony Lesoil,862,F30-34,Female,Ath,,Belgium,BE,,3:31:32,2:35:28,,,6:11:21,0,12692,9328,0,261,22281,694,97,22,99999,99999,99999,696,92,20,694,97,22,Finisher,1168
+Csilla,Toth,Csilla Toth,346,F45-49,Female,Szeged,,Hungary,HU,,3:44:49,2:21:57,,,6:11:34,0,13489,8517,0,288,22294,695,98,12,99999,99999,99999,724,106,17,695,98,12,Finisher,1709
+Dominik,Chmiel,Dominik Chmiel,791,M30-34,Male,Gdynia,pomorskie,Poland,PL,,3:17:22,2:49:44,,,6:11:34,0,11842,10184,0,268,22294,696,598,93,99999,99999,99999,652,578,90,696,598,93,Finisher,700
+Sylvia Andrea,Kummer,Sylvia Andrea Kummer,923,F55-59,Female,Büttelborn,,Germany,DE,,3:33:14,2:33:30,,,6:11:49,0,12794,9210,0,305,22309,697,99,4,99999,99999,99999,704,98,4,697,99,4,Finisher,2569
+Claudio,Dudek Hernández,Claudio Dudek Hernández,868,M30-34,Male,Bielefeld,,Germany,DE,,3:36:13,2:33:50,,,6:13:12,0,12973,9230,0,188,22392,698,599,94,99999,99999,99999,711,611,94,698,599,94,Finisher,700
+Sonja,Eicher,Sonja Eicher,697,F45-49,Female,Burden,Luxemburg,Luxembourg,LU,,3:36:08,2:34:37,,,6:13:29,0,12968,9277,0,164,22409,699,100,13,99999,99999,99999,710,100,15,699,100,13,Finisher,1674
+Sven,Diehl,Sven Diehl,937,M40-44,Male,Stennweiler,,Germany,DE,,3:22:53,2:49:14,,,6:14:27,0,12173,10154,0,139,22467,700,600,117,99999,99999,99999,676,593,114,700,600,117,Finisher,817
+Stephane,Perron,Stephane Perron,506,M55-59,Male,PLOEMEUR,,France,FR,,3:34:45,2:37:40,,,6:15:47,0,12885,9460,0,202,22547,701,601,33,99999,99999,99999,707,608,34,701,601,33,Finisher,1287
+Mehdi,Abouelfath,Mehdi Abouelfath,784,M40-44,Male,UCCLE,,Belgium,BE,,3:22:12,2:50:13,,,6:15:54,0,12132,10213,0,210,22554,702,602,118,99999,99999,99999,674,591,113,702,602,118,Finisher,791
+Norbert,Waldbüßer,Norbert Waldbüßer,845,M45-49,Male,Stuttgart,,Germany,DE,,3:16:48,2:56:03,,,6:17:09,0,11808,10563,0,258,22629,703,603,82,99999,99999,99999,648,576,80,703,603,82,Finisher,954
+Murat,Candeger,Murat Candeger,162,M55-59,Male,WezembeekOppem,VLAAMS-BRABANT,Turkey,TR,,3:42:28,2:31:37,,,6:19:04,0,13348,9097,0,298,22744,704,604,34,99999,99999,99999,720,618,36,704,604,34,Finisher,1228
+Daniel,Schroeder,Daniel Schroeder,859,M50-54,Male,Luxembourg,Luxembourg,Luxembourg,LU,,3:29:37,2:35:54,,,6:19:16,0,12577,9354,0,825,22756,705,605,72,99999,99999,99999,692,603,71,705,605,72,Finisher,876
+Martine,Van Randeraat,Martine Van Randeraat,968,F45-49,Female,Berneau,,Netherlands,NL,,3:43:17,2:33:36,,,6:19:57,0,13397,9216,0,185,22797,706,101,14,99999,99999,99999,722,104,16,706,101,14,Finisher,1558
+Bao An,Nguyen Phuoc,Bao An Nguyen Phuoc,740,M40-44,Male,Boulogne,,France,FR,,3:40:11,2:37:18,,,6:20:02,0,13211,9438,0,153,22802,707,606,119,99999,99999,99999,717,616,120,707,606,119,Finisher,716
+Vicky,Carpenter,Vicky Carpenter,860,F70-74,Female,Kingsbridge,DEV,United Kingdom,GB,,3:45:55,2:29:31,,,6:21:40,0,13555,8971,0,373,22900,708,102,1,99999,99999,99999,725,107,1,708,102,1,Finisher,3500
+Erika Katalin,Molnar,Erika Katalin Molnar,741,F45-49,Female,"
+Hellerup",,Denmark,DK,,3:52:01,2:24:48,,,6:22:58,0,13921,8688,0,369,22978,709,103,15,99999,99999,99999,727,109,18,709,103,15,Finisher,1503
+Bernard,Lauwers,Bernard Lauwers,935,M60-64,Male,Nivelles,,Belgium,BE,,3:40:09,2:38:51,,,6:25:23,0,13209,9531,0,383,23123,710,607,15,99999,99999,99999,715,614,19,710,607,15,Finisher,1103
+Cosimo,Palma,Cosimo Palma,789,M25-29,Male,Trier,,Germany,DE,,3:40:37,2:40:43,,,6:27:02,0,13237,9643,0,343,23222,711,608,80,99999,99999,99999,718,617,81,711,608,80,Finisher,700
+Agnes,Rush,Agnes Rush,898,F45-49,Female,Wiesbaden,,Germany,DE,,3:31:13,2:50:41,,,6:28:00,0,12673,10241,0,367,23280,712,104,16,99999,99999,99999,695,91,12,712,104,16,Finisher,1413
+Kerryn,Ramm,Kerryn Ramm,881,F25-29,Female,Frisange,Esch-Sur-Alzette,United Kingdom,GB,,3:44:19,2:42:03,,,6:29:18,0,13459,9723,0,175,23358,713,105,14,99999,99999,99999,723,105,14,713,105,14,Finisher,1447
+Marta,Wasik,Marta Wasik,373,F35-39,Female,warszawa,,Poland,PL,,3:58:37,2:26:43,,,6:32:17,0,14317,8803,0,417,23537,714,106,19,99999,99999,99999,729,110,20,714,106,19,Finisher,869
+Casey,Hicks,Casey Hicks,759,F35-39,Female,Krickenbach,,United States,US,,3:46:53,2:44:01,,,6:34:26,0,13613,9841,0,213,23666,715,107,20,99999,99999,99999,726,108,19,715,107,20,Finisher,830
+Anke,Mayer,Anke Mayer,922,F45-49,Female,Rothenburg,,Germany,DE,,3:33:25,2:58:30,,,6:35:09,0,12805,10710,0,194,23709,716,108,17,99999,99999,99999,705,99,14,716,108,17,Finisher,1284
+Reinhard,Schröder,Reinhard Schröder,857,M60-64,Male,Drochtersen,,Germany,DE,,3:21:46,3:35:19,,,7:04:50,0,12106,12919,0,464,25490,717,609,16,99999,99999,99999,671,589,15,717,609,16,Finisher,700
+Typhanie,Morand,Typhanie Morand,247,F40-44,Female,57100 - THIONVILLE,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Natalia,Zijlstra,Natalia Zijlstra,912,F40-44,Female,Groningen,,Netherlands,NL,,3:51:34,,,,,0,13894,0,0,344,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Stephane,Gerard,Stephane Gerard,941,M65-69,Male,Aalst,,Belgium,BE,,3:35:00,,,,,0,12900,0,0,0,0,99999,99999,99999,99999,99999,99999,708,609,4,99999,99999,99999,DNF,0
+Karoly,Spy,Karoly Spy,287,M40-44,Male,Rasteau,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Philippe,Lamberty,Philippe Lamberty,9,M30-34,Male,Grosbous,Luxemburg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dawid,Peczek,Dawid Peczek,950,M30-34,Male,Las,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeremy,Cliche,Jeremy Cliche,643,M40-44,Male,string:LE CATEAU CAMBRESIS,,Jamaica,JM,,4:19:44,,,,,0,15584,0,0,1535,0,99999,99999,99999,99999,99999,99999,732,620,122,99999,99999,99999,DNF,0
+David,Buttgereit,David Buttgereit,325,M45-49,Male,Herzogenrath,NW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lien,Peeters,Lien Peeters,794,F30-34,Female,Bree,,Belgium,BE,,2:45:14,,,,,0,9914,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Heide,Hofmann,Heide Hofmann,908,F55-59,Female,Alsbach-Hähnlein,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Viktor,Kovács,Viktor Kovács,516,M30-34,Male,Luxembourg,Luxembourg,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joaquin,Balladares,Joaquin Balladares,964,M40-44,Male,Würzburg,,Ecuador,EC,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Volker,Schnabel,Volker Schnabel,558,M50-54,Male,Mönchengladbach,,Germany,DE,,2:53:29,,,,,0,10409,0,0,175,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Joeri,Vinkx,Joeri Vinkx,689,M45-49,Male,Molenschot,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Robert,Engel,Robert Engel,131,M65-69,Male,Bergem,Luxemburg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christophe,Beaud,Christophe Beaud,296,M50-54,Male,LE BAN SAINT MARTIN,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paolo,Mussotto,Paolo Mussotto,11,M55-59,Male,torino,,Italy,IT,,,0:38:39,,,4:10:58,0,0,2319,0,0,15058,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Lya,Den Haan,Lya Den Haan,538,F55-59,Female,Almelo,,Netherlands,NL,,3:18:02,,,,,0,11882,0,0,346,0,99999,99999,99999,99999,99999,99999,654,75,2,99999,99999,99999,DNF,0
+Petr,Rodionov,Petr Rodionov,612,M35-39,Male,Trier,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Bedner,Michael Bedner,543,M60-64,Male,Iserlohn,,Germany,DE,,3:00:35,,,,,0,10835,0,0,231,0,99999,99999,99999,99999,99999,99999,528,483,10,99999,99999,99999,DNF,0
+Christiane,Bauer,Christiane Bauer,945,F55-59,Female,Vettelschoß,,Germany,DE,,3:59:51,,,,,0,14391,0,0,1535,0,99999,99999,99999,99999,99999,99999,730,111,5,99999,99999,99999,DNF,0
+Ricardo,Van Wijngaarden,Ricardo Van Wijngaarden,522,M40-44,Male,Oberbillig,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rachel,Holmes,Rachel Holmes,730,F50-54,Female,Luxembourg,Luxembourg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Derick,Sieg,Derick Sieg,939,M30-34,Male,Luxembourg,Luxembourg,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Viola,Nicodemus,Viola Nicodemus,321,F50-54,Female,Boppard,,Germany,DE,,2:59:51,,,,,0,10791,0,0,196,0,99999,99999,99999,99999,99999,99999,517,41,6,99999,99999,99999,DNF,0
+Talal,Algahtani,Talal Algahtani,610,M40-44,Male,saudi arabia,foreigner,Saudi Arabia,SA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Florian,Andrien,Florian Andrien,400,M25-29,Male,Enghien,,Belgium,BE,,2:29:51,,,,,0,8991,0,0,115,0,99999,99999,99999,99999,99999,99999,61,61,16,99999,99999,99999,DNF,0
+Richard,Brach,Richard Brach,364,M25-29,Male,Thionville,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zbynek,Švehla,Zbynek Švehla,4,M45-49,Male,Praha 9  Horní Počernice,Prague,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Delphine,Bense,Delphine Bense,43,F45-49,Female,Grenoble,,United States,US,,3:21:07,,,,,0,12067,0,0,231,0,99999,99999,99999,99999,99999,99999,667,80,11,99999,99999,99999,DNF,0
+Daniel,Enning,Daniel Enning,620,M30-34,Male,Düsseldorf,NW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jian,Zhang,Jian Zhang,906,M40-44,Male,Saggart,Co.Dublin,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Didier,Demange,Didier Demange,933,M40-44,Male,Luxembourg,Luxembourg,United States,US,,3:57:09,,,,,0,14229,0,0,1735,0,99999,99999,99999,99999,99999,99999,728,619,121,99999,99999,99999,DNF,0
+Albert ,Klein,Albert Klein,614,M55-59,Male,Ürzig,RP,Germany,DE,,3:03:26,,,,,0,11006,0,0,0,0,99999,99999,99999,99999,99999,99999,574,520,29,99999,99999,99999,DNF,0
+Claude,Lucas,Claude Lucas,10,M30-34,Male,Burden,Luxembourg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arthur,Mlaskot,Arthur Mlaskot,823,M18-24,Male,Fresnois-la-Montagne,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michal,Siska,Michal Siska,2,M40-44,Male,Kamen,CZECH REPUBLIC,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sascha,Alda,Sascha Alda,729,M45-49,Male,Bonn,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Peer,Gschwandtner,Peer Gschwandtner,15,M60-64,Male,Daisendorf,,Germany,DE,,3:00:39,,,,,0,10839,0,0,280,0,99999,99999,99999,99999,99999,99999,529,484,11,99999,99999,99999,DNF,0
+Ludovic,Ropars,Ludovic Ropars,727,M35-39,Male,Luxembourg,Luxembourg,France,FR,,3:20:43,,,,,0,12043,0,0,308,0,99999,99999,99999,99999,99999,99999,666,587,92,99999,99999,99999,DNF,0
+Torsten,Salm,Torsten Salm,316,M25-29,Male,Tholey,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Gérard,Wagner,Gérard Wagner,511,M35-39,Male,Rollingen,Mersch,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kristin,Müller,Kristin Müller,536,F45-49,Female,Eschborn,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michiels,Robby,Michiels Robby,553,M40-44,Male,nieuwenrode,,Belgium,BE,,2:26:44,,,,,0,8804,0,0,894,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Raphael,Michaux,Raphael Michaux,832,M40-44,Male,GOSSELIES,,Belgium,BE,,2:54:37,,,,,0,10477,0,0,1496,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Kersten,Michael Kersten,26,M55-59,Male,FILDERSTADT,BW,Germany,DE,,2:40:58,,,,,0,9658,0,0,99,0,99999,99999,99999,99999,99999,99999,220,215,10,99999,99999,99999,DNF,0
+Frank,Hackenbruch,Frank Hackenbruch,19,M60-64,Male,Stolberg,,Germany,DE,,2:50:33,,,,,0,10233,0,0,115,0,99999,99999,99999,99999,99999,99999,378,361,5,99999,99999,99999,DNF,0
+Jan,Tománek,Jan Tománek,3,M30-34,Male,Suchodol,Central Bohemian Region,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joao Paulo,Andrino Goncalves,Joao Paulo Andrino Goncalves,890,M40-44,Male,Bereldange,Luxembourg,Luxembourg,LU,,2:56:26,,,,,0,10586,0,0,282,0,99999,99999,99999,99999,99999,99999,464,436,89,99999,99999,99999,DNF,0
+Henriette,Soetewey,Henriette Soetewey,811,F30-34,Female,Uccle,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jana,Bajzova,Jana Bajzova,127,F50-54,Female,Luxembourg,Luxembourg,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephane,Rit,Stephane Rit,174,M45-49,Male,RETTEL,,Luxembourg,LU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0

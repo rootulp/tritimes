@@ -1,0 +1,962 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Tim,Gošnjak,Tim Gošnjak,47,M25-29,Male,Zreče,foreigner,Slovenia,SI,0:28:13,2:08:00,1:19:16,,,4:01:06,1693,7680,4756,196,141,14466,1,1,1,26,23,7,2,2,1,1,1,1,Finisher,3500
+Paul,Loiseaux,Paul Loiseaux,267,M25-29,Male,poitiers,,France,FR,0:26:06,2:12:41,1:19:12,,,4:03:05,1566,7961,4752,170,136,14585,2,2,2,7,6,2,4,4,2,2,2,2,Finisher,3464
+Niklas,Ludwig,Niklas Ludwig,23,M18-24,Male,München,TX,Germany,DE,0:25:33,2:08:13,1:29:32,,,4:07:13,1533,7693,5372,148,85,14833,3,3,1,4,4,3,1,1,1,3,3,1,Finisher,3500
+Thomas,Messner,Thomas Messner,228,M18-24,Male,Zeltweg,,Austria,AT,0:29:17,2:20:47,1:11:56,,,4:07:17,1757,8447,4316,182,136,14837,4,4,2,34,30,9,9,9,3,4,4,2,Finisher,3498
+Tom,Vaelen,Tom Vaelen,234,M18-24,Male,Chaudfontaine,,Belgium,BE,0:24:43,2:12:33,1:27:15,,,4:09:27,1483,7953,5235,167,128,14967,5,5,3,1,1,1,3,3,2,5,5,3,Finisher,3459
+Omar,Bertazzo,Omar Bertazzo,42,M30-34,Male,tribano,,Italy,IT,0:27:05,2:14:19,1:23:25,,,4:09:33,1625,8059,5005,187,98,14973,6,6,1,13,11,2,5,5,1,6,6,1,Finisher,3500
+Joachim,Philipps,Joachim Philipps,58,M25-29,Male,Stundwiller,,France,FR,0:28:14,2:21:33,1:17:48,,,4:12:46,1694,8493,4668,213,97,15166,7,7,3,27,24,8,11,11,4,7,7,3,Finisher,3290
+Bruno,Škrinjaric,Bruno Škrinjaric,500,M35-39,Male,Velika Gorica,Croatia,Croatia,HR,0:30:34,2:23:07,1:17:25,,,4:17:00,1834,8587,4645,208,145,15420,8,8,1,63,57,6,27,27,4,8,8,1,Finisher,3500
+Zsolt,Szollár,Zsolt Szollár,292,M25-29,Male,Nagykanizsa,foreigner,Hungary,HU,0:28:53,2:18:24,1:24:15,,,4:17:33,1733,8304,5055,222,138,15453,9,9,4,31,27,9,8,8,3,9,9,4,Finisher,3203
+David,Stalder,David Stalder,496,M35-39,Male,Zürich,,Switzerland,CH,0:27:35,2:26:20,1:19:25,,,4:19:07,1655,8780,4765,189,157,15547,10,10,2,19,16,1,25,25,3,10,10,2,Finisher,3461
+Jack,Rees,Jack Rees,63,M30-34,Male,Stockton-on-Tees,,United Kingdom,GB,0:31:22,2:13:06,1:29:33,,,4:19:10,1882,7986,5373,182,126,15550,11,11,2,87,79,13,6,6,2,11,11,2,Finisher,3326
+Oliver,Wykman,Oliver Wykman,68,M25-29,Male,KALMAR,,Sweden,SE,0:32:25,2:21:55,1:20:24,,,4:21:23,1945,8515,4824,229,168,15683,12,12,5,130,119,19,40,40,7,12,12,5,Finisher,3134
+Lorenzo,Caspani,Lorenzo Caspani,12,M25-29,Male,Montano Lucino,Como,Italy,IT,0:31:22,2:20:45,1:24:39,,,4:21:39,1882,8445,5079,191,101,15699,13,13,6,88,80,14,19,19,5,13,13,6,Finisher,3130
+Rob,Kwaaitaal,Rob Kwaaitaal,821,M50-54,Male,Lent - Nijmegen,,Netherlands,NL,0:26:33,2:20:04,1:30:29,,,4:22:05,1593,8404,5429,177,122,15725,14,14,1,8,7,1,7,7,1,14,14,1,Finisher,3500
+Maksymilian,Glapinski,Maksymilian Glapinski,225,M18-24,Male,Warszawa,,Poland,PL,0:27:18,2:27:48,1:22:01,,,4:22:31,1638,8868,4921,196,127,15751,15,15,4,16,13,6,42,42,6,15,15,4,Finisher,3224
+Marko,Horvat,Marko Horvat,331,M30-34,Male,Porec,,Croatia,HR,0:35:36,2:16:18,1:26:48,,,4:23:54,2136,8178,5208,192,120,15834,16,16,3,283,260,36,18,18,6,16,16,3,Finisher,3241
+Michael,Pozdenkov,Michael Pozdenkov,279,M25-29,Male,Brno,foreigner,Czech Republic,CZ,0:30:17,2:24:14,1:24:57,,,4:25:18,1817,8654,5097,208,142,15918,17,17,7,54,50,11,38,38,6,17,17,7,Finisher,3064
+Edoardo,Lombardi,Edoardo Lombardi,268,M25-29,Male,FORLì,FC,Italy,IT,0:33:49,2:21:04,1:24:42,,,4:25:43,2029,8464,5082,219,150,15943,18,18,8,184,169,22,43,43,8,18,18,8,Finisher,3056
+Michele,Aglio,Michele Aglio,516,M40-44,Male,Rovigo,italia,Italy,IT,0:30:06,2:23:31,1:26:13,,,4:27:00,1806,8611,5173,274,155,16020,19,19,1,48,44,6,41,41,10,19,19,1,Finisher,3500
+Luca,Zanet,Luca Zanet,299,M25-29,Male,SAN POLO DI PIAVE,TREVISO,Italy,IT,0:27:26,2:28:33,1:26:19,,,4:27:38,1646,8913,5179,184,136,16058,20,20,9,17,14,4,49,49,10,20,20,9,Finisher,3022
+Markus,Lukacs,Markus Lukacs,55,M35-39,Male,Breitensee,,Austria,AT,0:29:20,2:22:09,1:31:44,,,4:28:44,1760,8529,5504,186,145,16124,21,21,3,35,31,3,15,15,1,21,21,3,Finisher,3288
+Fabio,Richlan,Fabio Richlan,486,M35-39,Male,Obertrum am See,AU-ACT,Austria,AT,0:34:05,2:19:42,1:29:11,,,4:28:56,2045,8382,5351,219,139,16136,22,22,4,195,179,27,30,30,6,22,22,4,Finisher,3285
+Luca,Borgianni,Luca Borgianni,216,M18-24,Male,Uzzano,Pistoia,Italy,IT,0:25:43,2:30:04,1:27:05,,,4:29:10,1543,9004,5225,237,140,16150,23,23,5,5,5,4,56,56,7,23,23,5,Finisher,3104
+Filippo,Guastella,Filippo Guastella,445,M35-39,Male,corciano,perugia,Italy,IT,0:32:11,2:23:36,1:26:48,,,4:29:25,1931,8616,5208,219,192,16165,24,24,5,121,111,20,54,54,10,24,24,5,Finisher,3276
+Thomas,Canori,Thomas Canori,419,M35-39,Male,Althofen,,Austria,AT,0:32:50,2:21:19,1:29:17,,,4:29:40,1970,8479,5357,224,150,16180,25,25,6,144,132,23,36,36,7,25,25,6,Finisher,3272
+Steffen,Willms,Steffen Willms,406,M30-34,Male,Eschweiler,,Germany,DE,0:27:51,2:27:58,1:27:45,,,4:29:41,1671,8878,5265,195,172,16181,26,26,4,22,19,3,50,50,10,26,26,4,Finisher,3137
+Oliver,Zsebe,Oliver Zsebe,237,M18-24,Male,Veszprém,,Hungary,HU,0:28:58,2:20:37,1:33:21,,,4:30:06,1738,8437,5601,241,189,16206,27,27,6,32,28,8,12,12,4,27,27,6,Finisher,3088
+Michele,Salmoiraghi,Michele Salmoiraghi,614,M40-44,Male,Vimercate,,Italy,IT,0:31:07,2:24:25,1:28:22,,,4:30:06,1867,8665,5302,217,155,16206,28,28,2,81,74,12,52,52,12,28,28,2,Finisher,3444
+Michal,Vceliš,Michal Vceliš,506,M35-39,Male,Praha - Benice ,Prague,Czech Republic,CZ,0:32:02,2:25:25,1:24:16,,,4:30:49,1922,8725,5056,359,187,16249,29,29,7,111,101,16,78,78,15,29,29,7,Finisher,3251
+Armand,Coustarot,Armand Coustarot,539,M40-44,Male,Coarraze,PYRENEES-ATLANTIQUES,France,FR,0:33:14,2:20:41,1:31:13,,,4:31:21,1994,8441,5473,191,182,16281,30,30,3,163,149,28,26,26,4,30,30,3,Finisher,3421
+Diego,Zannoni,Diego Zannoni,647,M40-44,Male,santorso,vicenza,Italy,IT,0:31:05,2:23:13,1:31:26,,,4:31:38,1865,8593,5486,205,149,16298,31,31,4,80,73,11,34,34,7,31,31,4,Finisher,3416
+Tim,Garber,Tim Garber,325,M30-34,Male,Wien,,Germany,DE,0:29:42,2:20:49,1:35:26,,,4:31:43,1782,8449,5726,200,146,16303,32,32,5,42,38,4,13,13,4,32,32,5,Finisher,3101
+Christoph,Schlagbauer,Christoph Schlagbauer,976,M30-34,Male,Weiz,,Austria,AT,0:31:22,2:21:30,1:32:11,,,4:31:55,1882,8490,5531,168,245,16315,33,33,6,86,78,12,21,21,7,33,33,6,Finisher,3097
+Nicola,Bortoluzzi,Nicola Bortoluzzi,663,M45-49,Male,Carbonera,Treviso,Italy,IT,0:29:22,2:25:12,1:29:29,,,4:31:59,1762,8712,5369,243,233,16319,34,34,1,36,32,2,45,45,2,34,34,1,Finisher,3500
+Baptiste,Grigy,Baptiste Grigy,694,M45-49,Male,Antony,,France,FR,0:30:49,2:26:06,1:28:47,,,4:32:46,1849,8766,5327,250,173,16366,35,35,2,73,66,6,64,64,5,35,35,2,Finisher,3485
+Igor,Licen,Igor Licen,824,M50-54,Male,Izola,Slovenija,Slovenia,SI,0:31:42,2:19:12,1:34:32,,,4:32:54,1902,8352,5672,273,176,16374,36,36,2,100,91,11,20,20,2,36,36,2,Finisher,3305
+Paolo,Virgilio,Paolo Virgilio,34,M45-49,Male,Duino (Trieste),,Italy,IT,0:29:56,2:25:10,1:32:00,,,4:33:09,1796,8710,5520,243,120,16389,37,37,3,46,42,4,53,53,3,37,37,3,Finisher,3479
+Manuel,Andriolo,Manuel Andriolo,412,M35-39,Male,Urbana,Padova,Italy,IT,0:35:27,2:17:40,1:32:45,,,4:33:38,2127,8260,5565,302,164,16418,38,38,8,272,250,39,39,39,8,38,38,8,Finisher,3200
+Vladimir,Gnip,Vladimir Gnip,549,M40-44,Male,Pula,,Croatia,HR,0:30:48,2:29:32,1:27:13,,,4:33:39,1848,8972,5233,192,173,16419,39,39,5,72,65,9,81,81,14,39,39,5,Finisher,3380
+Vinko,Vrebac,Vinko Vrebac,509,M35-39,Male,Zagreb,Zagreb,Croatia,HR,0:30:45,2:23:29,1:33:12,,,4:33:41,1845,8609,5592,193,182,16421,40,40,9,71,64,9,29,29,5,40,40,9,Finisher,3199
+Bernd,Gschwandtner,Bernd Gschwandtner,552,M40-44,Male,Oberösterreich,foreigner,Austria,AT,0:32:17,2:20:22,1:34:13,,,4:33:49,1937,8422,5653,287,130,16429,41,41,6,126,116,23,28,28,5,41,41,6,Finisher,3377
+Erik,Martin,Erik Martin,358,M30-34,Male,Eindhoven,,Netherlands,NL,0:35:54,2:17:57,1:31:50,,,4:33:58,2154,8277,5510,337,160,16438,42,42,7,296,272,39,55,55,11,42,42,7,Finisher,3060
+Thomas,Gammelvind,Thomas Gammelvind,46,M40-44,Male,Frederiksberg,,Denmark,DK,0:34:09,2:15:56,1:37:30,,,4:34:32,2049,8156,5850,253,163,16472,43,43,7,197,181,38,14,14,1,43,43,7,Finisher,3364
+Kresimir,Ivkovic,Kresimir Ivkovic,21,M35-39,Male,Hamburg,,Croatia,HR,0:36:00,2:18:45,1:33:36,,,4:34:32,2160,8325,5616,228,143,16472,44,44,10,303,279,42,44,44,9,44,44,10,Finisher,3184
+Luka,Novak,Luka Novak,57,M35-39,Male,ljubljana,foreigner,Slovenia,SI,0:36:21,2:21:48,1:29:59,,,4:34:44,2181,8508,5399,224,172,16484,45,45,11,323,298,46,67,67,13,45,45,11,Finisher,3180
+Rafel,Alcayde,Rafel Alcayde,517,M40-44,Male,Vienna,,Spain,ES,0:30:44,2:23:17,1:32:47,,,4:34:53,1844,8597,5567,293,191,16493,46,46,8,70,63,8,47,47,11,46,46,8,Finisher,3358
+Alberto,Garavello,Alberto Garavello,324,M30-34,Male,Monselice,Padova,Italy,IT,0:31:02,2:19:50,1:38:06,,,4:34:56,1862,8390,5886,237,120,16496,47,47,8,78,71,9,17,17,5,47,47,8,Finisher,3043
+Matjaž,Bizjak,Matjaž Bizjak,661,M45-49,Male,Maribor,MARIBOR,Slovenia,SI,0:31:37,2:26:21,1:30:23,,,4:35:17,1897,8781,5423,257,158,16517,48,48,4,97,88,8,69,69,7,48,48,4,Finisher,3440
+Dominik,Walter,Dominik Walter,404,M30-34,Male,Grettstadt,,Germany,DE,0:36:55,2:19:17,1:32:05,,,4:35:29,2215,8357,5525,218,213,16529,49,49,9,354,323,46,57,57,12,49,49,9,Finisher,3033
+Jani,Puhakka,Jani Puhakka,606,M40-44,Male,Espoo,Espoo,Finland,FI,0:27:15,2:23:02,1:36:37,,,4:35:33,1635,8582,5797,342,177,16533,50,50,9,14,12,1,23,23,3,50,50,9,Finisher,3346
+Romain,Almirall-Torrel,Romain Almirall-Torrel,411,M35-39,Male,BASTELICACCIA,,France,FR,0:33:42,2:17:43,1:36:44,,,4:35:49,2022,8263,5804,281,180,16549,51,51,12,177,163,25,24,24,2,51,51,12,Finisher,3161
+Daniele,Di Rocco,Daniele Di Rocco,542,M40-44,Male,LAZIO,ROMA,Italy,IT,0:27:36,2:30:43,1:31:32,,,4:36:18,1656,9043,5492,262,126,16578,52,52,10,20,17,3,73,73,13,52,52,10,Finisher,3332
+Hannes,Hermann,Hannes Hermann,697,M45-49,Male,Mödling,,Austria,AT,0:36:27,2:23:08,1:30:12,,,4:36:24,2187,8588,5412,281,116,16584,53,53,5,329,304,46,96,94,12,53,53,5,Finisher,3420
+Martin,Chalupa,Martin Chalupa,537,M40-44,Male,Zlín,Moravian-Silesian Region,Czech Republic,CZ,0:35:47,2:15:29,1:38:03,,,4:36:37,2147,8129,5883,273,165,16597,54,54,11,290,267,47,22,22,2,54,54,11,Finisher,3326
+Nicola,Savaglia,Nicola Savaglia,379,M30-34,Male,Torino,Torino,Italy,IT,0:26:33,2:35:55,1:27:58,,,4:37:38,1593,9355,5278,246,185,16658,55,55,10,9,8,1,130,127,24,55,55,10,Finisher,2994
+Robert,Kolar,Robert Kolar,710,M45-49,Male,Rorschacherberg,,Switzerland,CH,0:35:04,2:20:56,1:32:40,,,4:37:46,2104,8456,5560,290,255,16666,56,56,6,249,229,33,61,61,4,56,56,6,Finisher,3395
+Kristijan,Landeka,Kristijan Landeka,266,M25-29,Male,Osijek,Osjecko-baranjska,Croatia,HR,0:35:21,2:26:40,1:28:16,,,4:38:03,2121,8800,5296,252,214,16683,57,57,10,265,244,28,125,122,17,57,57,10,Finisher,2834
+Felix,Schwarzmeier,Felix Schwarzmeier,383,M30-34,Male,Würzburg,,Germany,DE,0:36:17,2:17:34,1:36:28,,,4:38:17,2177,8254,5788,229,248,16697,58,58,11,320,295,43,33,33,8,58,58,11,Finisher,2982
+Alan,Vratonja,Alan Vratonja,643,M40-44,Male,bovolone,,Italy,IT,0:34:12,2:20:08,1:37:26,,,4:38:44,2052,8408,5846,217,202,16724,59,59,12,199,183,39,37,37,9,59,59,12,Finisher,3288
+Demir,Homovic,Demir Homovic,50,M25-29,Male,St. Georgen am Steinfeld,,Austria,AT,0:32:06,2:23:07,1:38:02,,,4:38:46,1926,8587,5882,204,126,16726,60,60,11,115,105,17,46,46,9,60,60,11,Finisher,2822
+Sebastian,Krause,Sebastian Krause,347,M30-34,Male,Mietenkam,,Germany,DE,0:36:03,2:27:17,1:27:39,,,4:38:59,2163,8837,5259,330,150,16739,61,61,12,306,281,41,158,152,28,61,61,12,Finisher,2970
+Evaldas,Pavalkis,Evaldas Pavalkis,276,M25-29,Male,København,,Lithuania,LT,0:35:39,2:20:32,1:35:51,,,4:39:10,2139,8432,5751,269,159,16750,62,62,12,286,263,32,59,59,11,62,62,12,Finisher,2814
+Davide,Ragazzi,Davide Ragazzi,607,M40-44,Male,Sommacampagna,Verona,Italy,IT,0:31:59,2:25:00,1:32:53,,,4:39:12,1919,8700,5573,408,152,16752,63,63,13,108,99,18,88,87,15,63,63,13,Finisher,3280
+Mardeen,Benjamin,Mardeen Benjamin,10,M30-34,Male,UCCLE,,United States,US,0:34:39,2:24:48,1:33:45,,,4:39:16,2079,8688,5625,249,115,16756,64,64,13,224,207,27,85,85,19,64,64,13,Finisher,2965
+Mauro,Gava,Mauro Gava,547,M40-44,Male,cordignano,treviso,Italy,IT,0:31:54,2:21:57,1:38:40,,,4:39:41,1914,8517,5920,242,189,16781,65,65,14,104,95,16,35,35,8,65,65,14,Finisher,3271
+Andreas,Haberl,Andreas Haberl,446,M35-39,Male,Graz,,Austria,AT,0:30:42,2:28:25,1:33:50,,,4:39:57,1842,8905,5630,239,180,16797,66,66,13,69,62,8,74,74,14,66,66,13,Finisher,3086
+Ben,Duggan,Ben Duggan,434,M35-39,Male,Wokingham,Berkshire,United Kingdom,GB,0:37:23,2:21:16,1:33:58,,,4:39:57,2243,8476,5638,289,150,16797,67,67,14,379,343,56,79,79,16,67,67,14,Finisher,3086
+Klemen,Šuligoj,Klemen Šuligoj,293,M25-29,Male,Ljubljana,LJUBLJANA,Slovenia,SI,0:35:35,2:31:29,1:21:54,,,4:40:02,2135,9089,4914,430,233,16802,68,68,13,282,259,31,215,206,25,68,68,13,Finisher,2799
+Simone,Sanvido,Simone Sanvido,29,M45-49,Male,Romano d&#39;Ezzelino,Vicenza,Italy,IT,0:36:13,2:23:59,1:33:19,,,4:40:31,2173,8639,5599,264,155,16831,69,69,7,316,291,43,100,98,14,69,69,7,Finisher,3346
+Enrico,Scimone,Enrico Scimone,490,M35-39,Male,Messina,,Italy,IT,0:29:16,2:33:07,1:32:24,,,4:40:32,1756,9187,5544,219,126,16832,70,70,15,33,29,2,121,119,25,70,70,15,Finisher,3076
+Thomas,Basel,Thomas Basel,304,M30-34,Male,Seeham,SALZBURG,Germany,DE,0:34:40,2:27:07,1:32:14,,,4:40:45,2080,8827,5534,270,134,16845,71,71,14,225,208,28,127,124,22,71,71,14,Finisher,2938
+Albin,Cör,Albin Cör,669,M45-49,Male,Beltinci,,Slovenia,SI,0:34:25,2:23:26,1:34:33,,,4:40:53,2065,8606,5673,270,239,16853,72,72,8,209,193,26,71,71,8,72,72,8,Finisher,3339
+Olivier,Hebding,Olivier Hebding,328,M30-34,Male,munchhouse,,France,FR,0:32:11,2:23:45,1:37:23,,,4:41:03,1931,8625,5843,303,162,16863,73,73,15,120,110,15,62,62,13,73,73,15,Finisher,2933
+Lars,Riedel,Lars Riedel,740,M45-49,Male,Fürth,,Germany,DE,0:32:55,2:20:03,1:41:54,,,4:41:12,1975,8403,6114,273,107,16872,74,74,9,148,136,13,31,31,1,74,74,9,Finisher,3334
+Cedric,Schramm,Cedric Schramm,746,M45-49,Male,Sarreguemines,,France,FR,0:34:53,2:28:30,1:28:31,,,4:41:17,2093,8910,5311,302,261,16877,75,75,10,237,218,29,155,149,23,75,75,10,Finisher,3332
+Luka,Finžgar,Luka Finžgar,256,M25-29,Male,Slovenska Bistrica,,Slovenia,SI,0:30:23,2:26:00,1:37:44,,,4:41:50,1823,8760,5864,281,183,16910,76,76,14,57,53,12,63,63,12,76,76,14,Finisher,2766
+Andrea,Zamboni,Andrea Zamboni,512,M35-39,Male,Castel Guelfo di Bologna,,Italy,IT,0:34:11,2:24:18,1:34:59,,,4:41:54,2051,8658,5699,324,182,16914,77,77,16,198,182,28,90,89,20,77,77,16,Finisher,3051
+Niklas,Quetri,Niklas Quetri,482,M35-39,Male,Rosà,,Italy,IT,0:31:43,2:24:13,1:39:00,,,4:42:10,1903,8653,5940,272,162,16930,78,78,17,101,92,12,58,58,11,78,78,17,Finisher,3047
+Matthias,Luppi,Matthias Luppi,460,M35-39,Male,carbonara di po,mantova,Italy,IT,0:30:02,2:29:43,1:34:57,,,4:42:10,1802,8983,5697,283,166,16930,79,79,18,47,43,4,99,97,21,79,79,18,Finisher,3047
+Marius,Cimpean,Marius Cimpean,1,M40-44,Male,Cluj Napoca,Cluj,Romania,RO,0:29:53,2:24:09,1:41:51,,,4:42:14,1793,8649,6111,210,171,16934,80,80,15,44,40,5,32,32,6,80,80,15,Finisher,3225
+David,Prieth,David Prieth,374,M30-34,Male,Nauders,,Austria,AT,0:39:32,2:23:34,1:31:38,,,4:42:21,2372,8614,5498,316,141,16941,81,81,16,490,433,62,154,148,27,81,81,16,Finisher,2909
+Dario,Dolenc,Dario Dolenc,429,M35-39,Male,Kozina,,Slovenia,SI,0:35:40,2:27:01,1:32:54,,,4:42:37,2140,8821,5574,243,178,16957,82,82,19,289,266,41,136,132,26,82,82,19,Finisher,3038
+Michael,Tuschek,Michael Tuschek,503,M35-39,Male,Eberstalzell,South Bohemian Region,Austria,AT,0:32:07,2:25:21,1:39:33,,,4:42:38,1927,8721,5973,201,137,16958,83,83,20,117,107,18,60,60,12,83,83,20,Finisher,3038
+Radek,Sušír,Radek Sušír,632,M40-44,Male,Milovice,foreigner,Czech Republic,CZ,0:35:21,2:25:54,1:34:03,,,4:42:39,2121,8754,5643,280,162,16959,84,84,16,264,243,45,117,115,20,84,84,16,Finisher,3218
+Sándor,Karancsi,Sándor Karancsi,453,M35-39,Male,Miskolc,,Hungary,HU,0:34:50,2:26:38,1:34:22,,,4:42:49,2090,8798,5662,245,174,16969,85,85,21,231,214,33,112,110,24,85,85,21,Finisher,3035
+Adam,Kowalski,Adam Kowalski,711,M45-49,Male,St-Prex,,Poland,PL,0:39:39,2:27:49,1:29:29,,,4:43:06,2379,8869,5369,219,150,16986,86,86,11,498,437,72,179,171,29,86,86,11,Finisher,3299
+Valentino,Modrusan,Valentino Modrusan,24,M30-34,Male,Sveti Petar u Šumi,Istra,Croatia,HR,0:33:28,2:27:27,1:36:35,,,4:43:11,2008,8847,5795,197,144,16991,87,87,17,167,153,21,94,92,21,87,87,17,Finisher,2894
+Stefano,Veroni,Stefano Veroni,860,M50-54,Male,BAGNOLO IN PIANO,RE,Italy,IT,0:29:34,2:29:59,1:38:04,,,4:43:26,1774,8999,5884,225,124,17006,88,88,3,39,35,4,75,75,4,88,88,3,Finisher,3115
+Rudolf,Wiltschi,Rudolf Wiltschi,35,M40-44,Male,Proleb,,Austria,AT,0:33:42,2:25:28,1:36:11,,,4:43:31,2022,8728,5771,340,149,17011,89,89,17,180,166,35,103,101,17,89,89,17,Finisher,3202
+Robert,Krajnc,Robert Krajnc,820,M50-54,Male,SECOVLJE,PIRAN,Slovenia,SI,0:38:34,2:24:14,1:34:35,,,4:43:31,2314,8654,5675,212,156,17011,90,90,4,435,391,51,128,125,7,90,90,4,Finisher,3114
+William,Belloni,William Belloni,242,M25-29,Male,Treviglio,Bergamo,Italy,IT,0:31:29,2:29:23,1:36:46,,,4:43:35,1889,8963,5806,246,112,17015,91,91,15,92,84,16,106,104,14,91,91,15,Finisher,2735
+Fabio,Dante,Fabio Dante,426,M35-39,Male,Conselve,,Italy,IT,0:31:55,2:27:40,1:37:25,,,4:43:40,1915,8860,5845,256,145,17020,92,92,22,106,97,15,89,88,19,92,92,22,Finisher,3020
+Klaus,Rohracker,Klaus Rohracker,28,M60-64,Male,Burgkirchen,,Germany,DE,0:34:39,2:32:26,1:30:16,,,4:43:44,2079,9146,5416,212,171,17024,93,93,1,223,206,4,172,164,1,93,93,1,Finisher,3500
+Anze,Bahc,Anze Bahc,302,M30-34,Male,Ravne na Koroskem,Slovenia,Slovenia,SI,0:31:04,2:25:58,1:38:58,,,4:44:00,1864,8758,5938,299,182,17040,94,94,18,79,72,10,68,68,15,94,94,18,Finisher,2879
+Leonardo,Favretti,Leonardo Favretti,221,M18-24,Male,Oderzo,,Italy,IT,0:25:25,2:26:14,1:47:02,,,4:44:05,1525,8774,6422,190,134,17045,95,95,7,2,2,2,16,16,5,95,95,7,Finisher,2836
+Veronika,Hrubá,Veronika Hrubá,93,F30-34,Female,Praha,Prague,Czech Republic,CZ,0:30:30,2:32:13,1:35:43,,,4:44:10,1830,9133,5743,210,135,17050,96,1,1,61,6,3,124,3,1,96,1,1,Finisher,3500
+Alberto,Calvi,Alberto Calvi,418,M35-39,Male,Casirate d'Adda,Bergamo,Italy,IT,0:30:36,2:29:25,1:38:15,,,4:44:21,1836,8965,5895,209,156,17061,97,96,23,65,58,7,80,80,17,97,96,23,Finisher,3007
+Maks,Cosic,Maks Cosic,218,M18-24,Male,Zagreb,Grad Zagreb,Croatia,HR,0:27:47,2:32:43,1:36:52,,,4:44:28,1667,9163,5812,288,138,17068,98,97,8,21,18,7,108,106,8,98,97,8,Finisher,2829
+fabrizio,novel,fabrizio novel,837,M50-54,Male,Muggia,Trieste,Italy,IT,0:38:07,2:28:04,1:30:45,,,4:44:33,2287,8884,5445,281,177,17073,99,98,5,410,368,47,176,168,14,99,98,5,Finisher,3095
+Gabriel,Monks,Gabriel Monks,272,M25-29,Male,Liphook,Hampshire,United Kingdom,GB,0:33:53,2:29:50,1:33:55,,,4:44:36,2033,8990,5635,250,169,17076,100,99,16,187,172,23,147,141,19,100,99,16,Finisher,2717
+Reinhard,Lengauer,Reinhard Lengauer,717,M45-49,Male,Salzburg,,Austria,AT,0:33:41,2:28:22,1:36:30,,,4:44:59,2021,8902,5790,217,169,17099,101,100,12,176,162,20,113,111,16,101,100,12,Finisher,3266
+Garcia,Vincent ,Garcia Vincent,797,M50-54,Male,grans,,France,FR,0:30:41,2:31:42,1:35:08,,,4:45:43,1841,9102,5708,311,181,17143,102,101,6,68,61,8,144,138,8,102,101,6,Finisher,3074
+Tomasz,Tarski,Tomasz Tarski,635,M40-44,Male,Katowice ,SLASKIE,Poland,PL,0:38:28,2:26:07,1:35:19,,,4:45:45,2308,8767,5719,219,134,17145,103,102,18,428,384,68,153,147,27,103,102,18,Finisher,3162
+Glenn,Mcaleavey,Glenn Mcaleavey,464,M35-39,Male,North Plympton,AU-SA,United Kingdom,GB,0:31:10,2:29:45,1:37:36,,,4:45:46,1870,8985,5856,265,170,17146,104,103,24,82,75,10,109,107,23,104,103,24,Finisher,2982
+Davor,Varga,Davor Varga,978,M25-29,Male,Rijeka,PGŽ,Croatia,HR,0:34:16,2:31:24,1:32:23,,,4:46:09,2056,9084,5543,280,205,17169,105,104,17,203,187,24,166,158,22,105,104,17,Finisher,2689
+Filip,Urban,Filip Urban,233,M18-24,Male,Žatec,North Bohemia,Czech Republic,CZ,0:26:56,2:36:56,1:37:04,,,4:46:12,1616,9416,5824,202,113,17172,106,105,9,12,10,5,139,134,9,106,105,9,Finisher,2798
+Borut,Vehar,Borut Vehar,639,M40-44,Male,Novo mesto,Slovenia,Slovenia,SI,0:39:56,2:23:59,1:34:08,,,4:46:13,2396,8639,5648,293,195,17173,107,106,19,509,446,79,157,151,29,107,106,19,Finisher,3154
+Andrea,Jurek,Andrea Jurek,7,F35-39,Female,Graz,,Austria,AT,0:34:04,2:28:21,1:37:08,,,4:46:17,2044,8901,5828,254,150,17177,108,2,1,194,16,1,134,4,1,108,2,1,Finisher,3500
+Philipp,Engelhardt,Philipp Engelhardt,251,M25-29,Female,Markt Berolzheim,,Germany,DE,0:36:10,2:27:41,1:35:47,,,4:46:32,2170,8861,5747,238,177,17192,109,107,18,313,288,33,146,140,18,109,107,18,Finisher,2682
+Miroslav,Maric,Miroslav Maric,576,M40-44,Male,RIJEKA,PGŽ,Croatia,HR,0:40:36,2:23:58,1:31:32,,,4:46:51,2436,8638,5492,310,335,17211,110,108,20,539,472,83,163,155,30,110,108,20,Finisher,3142
+Marco,Spinelli,Marco Spinelli,495,M35-39,Male,Orzinuovi,,Italy,IT,0:31:46,2:35:05,1:32:44,,,4:46:54,1906,9305,5564,308,131,17214,111,109,25,102,93,13,188,180,31,111,109,25,Finisher,2961
+Ralf,Bick,Ralf Bick,524,M40-44,Male,Rühn,,Germany,DE,0:38:11,2:22:15,1:38:34,,,4:47:05,2291,8535,5914,268,217,17225,112,110,21,413,370,64,104,102,18,112,110,21,Finisher,3138
+Claudio,Corsini,Claudio Corsini,670,M45-49,Male,Mirandola,,Italy,IT,0:35:22,2:29:54,1:31:47,,,4:47:06,2122,8994,5507,363,239,17226,113,111,13,266,245,35,182,174,31,113,111,13,Finisher,3227
+Markus,Zöchbauer,Markus Zöchbauer,36,M40-44,Male,Altenfelden,OBEROSTERREICH,Austria,AT,0:39:27,2:25:16,1:35:10,,,4:47:10,2367,8716,5710,234,202,17230,114,112,22,483,426,77,156,150,28,114,112,22,Finisher,3137
+Davide,Ciulla,Davide Ciulla,421,M35-39,Male,Podenzano,Emilia Romagna,Italy,IT,0:31:53,2:28:15,1:40:26,,,4:47:49,1913,8895,6026,274,162,17269,115,113,26,103,94,14,102,100,22,115,113,26,Finisher,2945
+Sarah,Knight,Sarah Knight,45,M50-54,Female,Cape Town,,Austria,AT,0:32:54,2:27:05,1:40:51,,,4:47:54,1974,8825,6051,255,169,17274,116,114,7,147,135,16,95,93,5,116,114,7,Finisher,3035
+Lara,Rajteric,Lara Rajteric,76,F18-24,Female,Ljubljana,foreigner,Slovenia,SI,0:31:35,2:27:27,1:40:25,,,4:48:08,1895,8847,6025,309,211,17288,117,3,1,96,9,3,93,2,1,117,3,1,Finisher,3500
+Paolo,Giardini,Paolo Giardini,690,M45-49,Male,Padova,Padova,Italy,IT,0:32:57,2:25:18,1:44:05,,,4:48:46,1977,8718,6245,207,179,17326,118,115,14,150,138,15,66,66,6,118,115,14,Finisher,3197
+Henning,Von Poser,Henning Von Poser,911,M55-59,Male,Düsseldorf,NORDRHEIN-WESTFALEN,Germany,DE,0:32:51,2:26:43,1:40:59,,,4:48:47,1971,8803,6059,267,226,17327,119,116,1,145,133,6,92,91,2,119,116,1,Finisher,3500
+Marco,Cicoria,Marco Cicoria,781,M50-54,Male,bareggio,milano,Italy,IT,0:28:04,2:24:41,1:45:32,,,4:49:02,1684,8681,6332,379,265,17342,120,117,8,24,21,2,51,51,3,120,117,8,Finisher,3014
+Charlie,Anderson,Charlie Anderson,239,M25-29,Male,Alresford,Hampshire,United Kingdom,GB,0:38:53,2:27:40,1:35:15,,,4:49:03,2333,8860,5715,291,144,17343,121,118,19,453,407,43,184,176,23,121,118,19,Finisher,2636
+Thomas,Schönauer,Thomas Schönauer,745,M45-49,Male,Wien,,Austria,AT,0:36:54,2:25:52,1:39:13,,,4:49:06,2214,8752,5953,276,151,17346,122,119,15,351,320,51,140,135,21,122,119,15,Finisher,3191
+Alexander,Gloel,Alexander Gloel,440,M35-39,Male,München,BY,Germany,DE,0:34:36,2:23:51,1:42:43,,,4:49:09,2076,8631,6163,307,172,17349,123,120,27,221,204,31,83,83,18,123,120,27,Finisher,2921
+Tomislav,Ðuricin,Tomislav Ðuricin,679,M45-49,Male,Varaždin,Varaždinska,Croatia,HR,0:35:56,2:29:42,1:37:21,,,4:49:17,2156,8982,5841,249,130,17357,124,121,16,298,274,40,164,156,25,124,121,16,Finisher,3188
+Dzintars,Kalnins,Dzintars Kalnins,706,M45-49,Male,Pinki,foreigner,Latvia,LV,0:32:57,2:25:53,1:39:51,,,4:49:21,1977,8753,5991,309,330,17361,125,122,17,151,139,16,91,90,11,125,122,17,Finisher,3187
+Rafal,Ogrodowczyk,Rafal Ogrodowczyk,593,M40-44,Male,Chełm,lubelskie,Poland,PL,0:35:32,2:32:06,1:34:12,,,4:50:10,2132,9126,5652,305,195,17410,126,123,23,279,256,46,200,192,36,126,123,23,Finisher,3083
+Bernhard,Hradecky,Bernhard Hradecky,558,M40-44,Male,Rinn,,Austria,AT,0:33:39,2:25:58,1:42:21,,,4:50:22,2019,8758,6141,303,202,17422,127,124,24,173,159,33,101,99,16,127,124,24,Finisher,3079
+Jernej,Sirk,Jernej Sirk,386,M30-34,Male,Trbovlje,Slovenia,Slovenia,SI,0:29:56,2:29:52,1:43:15,,,4:50:25,1796,8992,6195,236,206,17425,128,125,19,45,41,5,87,86,20,128,125,19,Finisher,2764
+Nicky,Feraud Thalabart,Nicky Feraud Thalabart,143,F40-44,Female,Coarraze,,France,FR,0:34:30,2:30:48,1:39:15,,,4:50:46,2070,9048,5955,247,126,17446,129,4,1,216,17,1,162,8,1,129,4,1,Finisher,3500
+Martin,Pešta,Martin Pešta,26,M45-49,Male,Prague,Prague,Czech Republic,CZ,0:34:14,2:30:24,1:38:11,,,4:51:19,2054,9024,5891,258,251,17479,130,126,18,201,185,24,159,153,24,130,126,18,Finisher,3152
+Liam,Neill,Liam Neill,275,M25-29,Male,London,United kingdom,South Africa,ZA,0:25:26,2:36:10,1:42:52,,,4:51:29,1526,9370,6172,262,160,17489,131,127,20,3,3,1,119,117,15,131,127,20,Finisher,2593
+Simone,Iori,Simone Iori,262,M25-29,Male,Pescia,Pistoia,Italy,IT,0:27:57,2:35:13,1:40:28,,,4:51:29,1677,9313,6028,284,187,17489,132,128,21,23,20,5,149,143,21,132,128,21,Finisher,2593
+Lorenzo,Iori,Lorenzo Iori,263,M25-29,Male,pescia,Pistoia,Italy,IT,0:26:48,2:36:12,1:40:27,,,4:51:32,1608,9372,6027,293,192,17492,133,129,22,11,9,3,148,142,20,133,129,22,Finisher,2592
+Gregor,Mišmaš,Gregor Mišmaš,271,M25-29,Male,Logatec,Logatec,Slovenia,SI,0:32:21,2:28:56,1:42:10,,,4:51:36,1941,8936,6130,218,270,17496,134,130,23,128,117,18,105,103,13,134,130,23,Finisher,2591
+Mattia,Nicodano,Mattia Nicodano,590,M40-44,Male,Vedano al Lambro,LOMBARDIA,Italy,IT,0:33:30,2:29:41,1:41:52,,,4:51:37,2010,8981,6112,251,143,17497,135,131,25,169,155,32,141,136,26,135,131,25,Finisher,3056
+Christian,Schussmann,Christian Schussmann,30,M40-44,Male,Klagenfurt,,Austria,AT,0:32:07,2:33:21,1:36:24,,,4:51:38,1927,9201,5784,302,284,17498,136,132,26,116,106,20,169,161,31,136,132,26,Finisher,3056
+Jan-Torben,Michler,Jan-Torben Michler,362,M30-34,Male,Garbsen,,Germany,DE,0:32:39,2:16:50,1:55:40,,,4:51:47,1959,8210,6940,217,180,17507,137,133,20,136,125,18,10,10,3,137,133,20,Finisher,2739
+Gareth,Fullerton,Gareth Fullerton,223,M18-24,Male,London,England,South Africa,ZA,0:30:09,2:38:29,1:34:56,,,4:51:55,1809,9509,5696,312,189,17515,138,134,10,50,46,11,212,203,12,138,134,10,Finisher,2695
+Daniel,Young,Daniel Young,646,M40-44,Male,Bath,,United Kingdom,GB,0:33:28,2:36:40,1:34:08,,,4:51:55,2008,9400,5648,302,158,17515,139,135,27,168,154,31,230,221,41,139,135,27,Finisher,3051
+Tim,Van Der Avoird,Tim Van Der Avoird,401,M30-34,Male,Linne,Limburg,Netherlands,NL,0:30:56,2:25:03,1:47:40,,,4:51:59,1856,8703,6460,336,165,17519,140,136,21,76,69,8,65,65,14,140,136,21,Finisher,2736
+Silvio,Schreymayer,Silvio Schreymayer,617,M40-44,Male,Weisskirchen,,Austria,AT,0:33:41,2:27:35,1:42:27,,,4:52:00,2021,8855,6147,297,199,17520,141,137,28,175,161,34,126,123,23,141,137,28,Finisher,3050
+Fabian,Kompatscher,Fabian Kompatscher,342,M30-34,Male,Lienz,,Italy,IT,0:44:36,2:27:05,1:31:44,,,4:52:19,2676,8825,5504,335,200,17539,142,138,22,668,577,83,249,237,41,142,138,22,Finisher,2730
+Dejan,Ivankovic,Dejan Ivankovic,560,M40-44,Male,Belgrade,Serbia,Serbia,RS,0:30:20,2:30:40,1:42:55,,,4:52:29,1820,9040,6175,296,218,17549,143,139,29,55,51,7,118,116,21,143,139,29,Finisher,3041
+Hannes,Persoglia,Hannes Persoglia,369,M30-34,Male,Graz,,Austria,AT,0:34:43,2:20:09,1:49:14,,,4:52:29,2083,8409,6554,250,254,17549,144,140,23,228,211,30,48,48,9,144,140,23,Finisher,2727
+Jehan,Dossin,Jehan Dossin,431,M35-39,Male,Luxembourg,,Belgium,BE,0:34:44,2:30:52,1:38:12,,,4:52:38,2084,9052,5892,297,233,17558,145,141,28,229,212,32,170,162,29,145,141,28,Finisher,2858
+Daniel,Wasniewski,Daniel Wasniewski,4,M35-39,Male,Antoniow,Lower Silesia,Poland,PL,0:39:19,2:25:00,1:42:23,,,4:52:55,2359,8700,6143,229,144,17575,146,142,29,472,422,64,152,146,28,146,142,29,Finisher,2853
+Jan,Polívka,Jan Polívka,734,M45-49,Male,Praha,,Czech Republic,CZ,0:29:27,2:30:55,1:44:15,,,4:53:05,1767,9055,6255,305,203,17585,147,143,19,37,33,3,110,108,15,147,143,19,Finisher,3120
+Beniamino,Beltrame,Beniamino Beltrame,414,M35-39,Male,Legnago,Verona,Italy,IT,0:36:13,2:30:55,1:37:10,,,4:53:17,2173,9055,5830,358,181,17597,148,144,30,315,290,45,205,197,33,148,144,30,Finisher,2846
+Mike,Preuss,Mike Preuss,902,M55-59,Male,Stuttgart,BW,United States,US,0:31:32,2:29:44,1:45:44,,,4:53:44,1892,8984,6344,224,180,17624,149,145,2,94,86,3,107,105,3,149,145,2,Finisher,3410
+Letterio Luca,Piraino,Letterio Luca Piraino,844,M50-54,Male,Milano,Milano,Italy,IT,0:33:04,2:37:01,1:35:11,,,4:53:45,1984,9421,5711,299,209,17625,150,146,9,156,143,18,228,219,21,150,146,9,Finisher,2930
+Eiko,Wijnstra,Eiko Wijnstra,405,M30-34,Male,Krieglach,,Austria,AT,0:32:52,2:25:01,1:47:49,,,4:54:08,1972,8701,6469,339,166,17648,151,147,24,146,134,19,82,82,17,151,147,24,Finisher,2697
+Paul,Modart,Paul Modart,469,M35-39,Male,Berg TG,THURGAU,Belgium,BE,0:30:10,2:40:27,1:36:24,,,4:54:10,1810,9627,5784,250,178,17650,152,148,31,51,47,5,225,216,35,152,148,31,Finisher,2831
+Dušan,Gleich,Dušan Gleich,691,M45-49,Male,Maribor,,Slovenia,SI,0:35:57,2:30:02,1:39:59,,,4:54:10,2157,9002,5999,285,207,17650,153,149,20,299,275,41,175,167,28,153,149,20,Finisher,3100
+Christoph,Trully,Christoph Trully,502,M35-39,Male,Neufeld an der Leitha,,Austria,AT,0:34:28,2:32:38,1:39:04,,,4:54:32,2068,9158,5944,269,232,17672,154,150,32,213,197,30,185,177,30,154,150,32,Finisher,2824
+Dajana,Pechtl,Dajana Pechtl,87,F25-29,Female,Unterhaching ,BY,Croatia,HR,0:25:58,2:34:52,1:49:12,,,4:54:47,1558,9292,6552,168,116,17687,155,5,1,6,1,1,86,1,1,155,5,1,Finisher,3500
+James,Macgregor,James Macgregor,227,M18-24,Male,London,,South Africa,ZA,0:30:34,2:37:43,1:38:27,,,4:54:57,1834,9463,5907,322,172,17697,156,151,11,62,56,12,210,201,11,156,151,11,Finisher,2640
+Luca,Agosti,Luca Agosti,648,M45-49,Male,Piacenza,PIACENZA,Italy,IT,0:34:31,2:31:41,1:40:07,,,4:55:02,2071,9101,6007,334,189,17702,157,152,21,218,201,28,186,178,32,157,152,21,Finisher,3085
+Michael,Heinisch,Michael Heinisch,49,M45-49,Male,Wien,,Austria,AT,0:33:42,2:28:33,1:44:39,,,4:55:08,2022,8913,6279,311,183,17708,158,153,22,179,165,22,142,137,22,158,153,22,Finisher,3083
+Giovanni,De Santis,Giovanni De Santis,789,M50-54,Male,Torri di Quartesolo ,Veneto,Italy,IT,0:34:32,2:35:35,1:36:58,,,4:55:46,2072,9335,5818,300,222,17746,159,154,10,219,202,28,229,220,22,159,154,10,Finisher,2893
+Jürgen,Balg,Jürgen Balg,939,M65-69,Male,Bielefeld,,Germany,DE,0:31:37,2:36:13,1:41:18,,,4:55:55,1897,9373,6078,258,149,17755,160,155,1,98,89,1,192,184,1,160,155,1,Finisher,3500
+Rustem,Galimov,Rustem Galimov,18,M40-44,Male,Limassol,Limassol,Unknown,,0:38:41,2:28:39,1:40:17,,,4:55:58,2321,8919,6017,240,262,17758,161,156,30,442,397,73,183,175,33,161,156,30,Finisher,2978
+Boris,Partalo,Boris Partalo,729,M45-49,Male,Banja Luka,Republica Srpska,Bosnia and Herzegovina,BA,0:35:17,2:34:27,1:39:11,,,4:56:06,2117,9267,5951,294,139,17766,162,157,23,261,240,34,223,214,35,162,157,23,Finisher,3065
+Marek,Adam,Marek Adam,300,M30-34,Male,Vochov,South Bohemian Region,Czech Republic,CZ,0:34:27,2:32:34,1:38:30,,,4:56:23,2067,9154,5910,427,225,17783,163,158,25,211,195,26,214,205,38,163,158,25,Finisher,2657
+Josef,Rausch,Josef Rausch,903,M55-59,Male,Eisenstadt,foreigner,Austria,AT,0:37:21,2:34:08,1:37:34,,,4:56:23,2241,9248,5854,312,129,17783,164,159,3,375,339,21,246,234,9,164,159,3,Finisher,3363
+Peterka,Marek,Peterka Marek,980,M50-54,Male,,,Czech Republic,CZ,0:39:30,2:23:10,1:45:44,,,4:56:40,2370,8590,6344,315,181,17800,165,160,11,486,429,56,150,144,9,165,160,11,Finisher,2877
+Ondrej,Zmeskal,Ondrej Zmeskal,865,M50-54,Male,Decin,Czech,Czech Republic,CZ,0:39:30,2:23:11,1:45:44,,,4:56:41,2370,8591,6344,315,180,17801,166,161,12,487,430,57,151,145,10,166,161,12,Finisher,2877
+Aleksandar,Beljan,Aleksandar Beljan,522,M40-44,Male,Nis,NISAVSKI OKRUG,Serbia,RS,0:38:43,2:31:28,1:37:19,,,4:56:45,2323,9088,5839,364,192,17805,167,162,31,444,399,74,238,228,44,167,162,31,Finisher,2964
+Anna,Pfoser,Anna Pfoser,136,F35-39,Female,Niederösterreich,foreigner,Austria,AT,0:36:41,2:25:54,1:47:34,,,4:56:48,2201,8754,6454,279,120,17808,168,6,2,338,30,2,138,5,2,168,6,2,Finisher,3310
+Honza,Tomanek,Honza Tomanek,501,M35-39,Male,Suchodol,CZE,Czech Republic,CZ,0:35:26,2:57:20,1:10:29,,,4:57:00,2126,10640,4229,533,292,17820,169,163,33,270,248,37,536,485,67,169,163,33,Finisher,2780
+Laurence,Bolton,Laurence Bolton,308,M30-34,Male,Croydon,,United Kingdom,GB,0:32:58,2:33:02,1:43:01,,,4:57:02,1978,9182,6181,303,177,17822,170,164,26,152,140,20,178,170,32,170,164,26,Finisher,2645
+Andrea,Spagnuolo,Andrea Spagnuolo,392,M30-34,Male,Como,Como,Italy,IT,0:40:32,2:23:53,1:44:54,,,4:57:33,2432,8633,6294,297,197,17853,171,165,27,538,471,68,161,154,29,171,165,27,Finisher,2636
+Johannes,Kreibohm,Johannes Kreibohm,457,M35-39,Male,Berlin,,Germany,DE,0:40:17,2:33:29,1:36:23,,,4:57:39,2417,9209,5783,254,195,17859,172,166,34,523,456,70,259,247,37,172,166,34,Finisher,2768
+Matyas,Dr Gabriel,Matyas Dr Gabriel,432,M35-39,Male,Szombathely,,Hungary,HU,0:35:09,2:33:32,1:38:49,,,4:57:51,2109,9212,5929,376,245,17871,173,167,35,253,233,36,226,217,36,173,167,35,Finisher,2764
+Eimantas,Gadrus,Eimantas Gadrus,323,M30-34,Male,Kaunas,Kaunas,Lithuania,LT,0:36:03,2:30:16,1:44:28,,,4:57:57,2163,9016,6268,275,155,17877,174,168,28,305,280,40,177,169,31,174,168,28,Finisher,2628
+Robert,Gashi,Robert Gashi,798,M50-54,Male,WILLIAMSTOWN,VIC,Australia,AU,0:28:50,2:32:07,1:51:08,,,4:58:14,1730,9127,6668,209,161,17894,175,169,13,29,25,3,97,95,6,175,169,13,Finisher,2849
+Marco,Zonzin,Marco Zonzin,767,M45-49,Male,Bonavigo,,Italy,IT,0:32:11,2:32:56,1:44:28,,,4:58:27,1931,9176,6268,319,213,17907,176,170,24,122,112,9,167,159,26,176,170,24,Finisher,3023
+Thomas,Röck,Thomas Röck,848,M50-54,Male,Möriken AG,,Switzerland,CH,0:34:53,2:29:52,1:45:18,,,4:58:33,2093,8992,6318,336,174,17913,177,171,14,236,217,32,165,157,11,177,171,14,Finisher,2843
+Marco,Potenza,Marco Potenza,735,M45-49,Male,trieste,,Italy,IT,0:34:54,2:30:37,1:44:03,,,4:58:34,2094,9037,6243,313,226,17914,178,172,25,239,220,31,174,166,27,178,172,25,Finisher,3021
+Paolo,Zgrablic,Paolo Zgrablic,409,M30-34,Male,Pazin,Istra,Croatia,HR,0:35:53,2:23:12,1:53:00,,,4:59:15,2153,8592,6780,269,160,17955,179,173,29,294,270,37,84,84,18,179,173,29,Finisher,2605
+Stefano,Parodi,Stefano Parodi,368,M30-34,Male,Ceranesi,GENOVA,Italy,IT,0:36:55,2:28:04,1:46:21,,,4:59:33,2215,8884,6381,330,162,17973,180,174,30,355,324,47,168,160,30,180,174,30,Finisher,2600
+Domen,Blenkuš,Domen Blenkuš,307,M30-34,Male,Ljubljana,Ljubljana,Slovenia,SI,0:38:47,2:22:46,1:50:13,,,4:59:54,2327,8566,6613,292,195,17994,181,175,31,448,403,57,129,126,23,181,175,31,Finisher,2593
+Frank,Schubert,Frank Schubert,932,M60-64,Male,Seelze,Niedersachsen,Germany,DE,0:35:59,2:36:11,1:40:40,,,5:00:04,2159,9371,6040,248,186,18004,182,176,2,300,276,7,239,229,3,182,176,2,Finisher,3206
+Jozef,Šablatúra,Jozef Šablatúra,752,M45-49,Male,Košice,Košický kraj,Slovakia,SK,0:34:21,2:33:32,1:44:07,,,5:00:04,2061,9212,6247,265,219,18004,183,177,26,205,189,25,194,186,34,183,177,26,Finisher,2994
+Mike,Jaeschke,Mike Jaeschke,22,M45-49,Male,Leonding ,,Austria,AT,0:43:09,2:30:28,1:39:19,,,5:00:07,2589,9028,5959,237,193,18007,184,178,27,623,539,92,255,243,38,184,178,27,Finisher,2993
+Jurica,Škevin,Jurica Škevin,753,M45-49,Male,Zagreb,,Croatia,HR,0:28:51,2:28:32,1:51:32,,,5:00:10,1731,8912,6692,361,314,18010,185,179,28,30,26,1,77,77,10,185,179,28,Finisher,2992
+Jochen,Mueller,Jochen Mueller,893,M55-59,Male,Fuerth,,Germany,DE,0:36:41,2:31:07,1:44:02,,,5:00:13,2201,9067,6242,324,180,18013,186,180,4,337,308,20,206,198,6,186,180,4,Finisher,3294
+Neira,Odobasic,Neira Odobasic,38,F30-34,Female,Sarajevo,No state,Bosnia and Herzegovina,BA,0:37:15,2:31:39,1:42:57,,,5:00:13,2235,9099,6177,268,234,18013,187,7,2,369,34,9,207,9,3,187,7,2,Finisher,3211
+Silvio,Bonfiglio,Silvio Bonfiglio,870,M55-59,Male,Treviso,,Italy,IT,0:40:24,2:33:05,1:38:44,,,5:00:16,2424,9185,5924,320,163,18016,188,181,5,529,462,29,268,255,10,188,181,5,Finisher,3293
+Christoph,Doppelmeier,Christoph Doppelmeier,675,M45-49,Male,Elsbethen,SALZBURG,Austria,AT,0:35:29,2:26:24,1:50:59,,,5:00:26,2129,8784,6659,234,221,18026,189,182,29,275,252,37,115,113,18,189,182,29,Finisher,2987
+Loris,Damian,Loris Damian,788,M50-54,Male,Colle Umberto,Treviso,Italy,IT,0:31:32,2:33:45,1:46:31,,,5:00:28,1892,9225,6391,316,204,18028,190,183,15,93,85,10,171,163,12,190,183,15,Finisher,2809
+Julien,Leroux,Julien Leroux,353,M30-34,Male,Vence,,France,FR,0:36:08,2:33:01,1:44:55,,,5:00:32,2168,9181,6295,272,116,18032,191,184,32,311,286,42,211,202,36,191,184,32,Finisher,2582
+Igor,Isanovic,Igor Isanovic,449,M35-39,Male,Sarajevo,Federacija Bosne i Hercegovine,Bosnia and Herzegovina,BA,0:32:09,2:30:29,1:49:59,,,5:00:39,1929,9029,6599,298,184,18039,192,185,36,119,109,19,145,139,27,192,185,36,Finisher,2714
+Ingrid,Lanthaler,Ingrid Lanthaler,132,F35-39,Female,Bolzano,ITA,Italy,IT,0:41:04,2:38:01,1:34:21,,,5:01:02,2464,9481,5661,297,159,18062,193,8,3,557,71,5,353,21,3,193,8,3,Finisher,3234
+Jure,Meh,Jure Meh,580,M40-44,Male,Straža,Slovenija,Slovenia,SI,0:36:15,2:33:48,1:44:15,,,5:01:08,2175,9228,6255,265,145,18068,194,186,32,318,293,52,219,210,39,194,186,32,Finisher,2885
+Christoph,Seifert,Christoph Seifert,384,M30-34,Male,Stuttgart,,Austria,AT,0:33:57,2:28:40,1:51:15,,,5:01:12,2037,8920,6675,240,200,18072,195,187,33,189,174,24,132,129,25,195,187,33,Finisher,2570
+Andrea,Qualli,Andrea Qualli,62,M45-49,Male,Ronchi dei Legionari,,Italy,IT,0:37:55,2:36:37,1:36:54,,,5:01:12,2275,9397,5814,386,200,18072,196,188,30,399,357,61,295,281,41,196,188,30,Finisher,2974
+Blaž,Mujdrica,Blaž Mujdrica,229,M18-24,Male,Lipovci,,Slovenia,SI,0:41:39,2:30:07,1:40:21,,,5:01:16,2499,9007,6021,346,204,18076,197,189,12,578,502,16,254,242,13,197,189,12,Finisher,2527
+Albert,Hainzl,Albert Hainzl,807,M50-54,Male,Leonding,,Austria,AT,0:34:22,2:34:28,1:45:22,,,5:01:20,2062,9268,6322,241,187,18080,198,190,16,207,191,26,202,194,19,198,190,16,Finisher,2793
+Papadavid,Dimokritos,Papadavid Dimokritos,543,M40-44,Male,Pafos,Pafos,Cyprus,CY,0:32:03,2:28:50,1:52:39,,,5:01:31,1923,8930,6759,275,205,18091,199,191,33,113,103,19,111,109,19,199,191,33,Finisher,2878
+Doug,Morris,Doug Morris,3,M60-64,Male,GENEVA,IL,United States,US,0:30:12,2:40:08,1:40:15,,,5:01:45,1812,9608,6015,370,299,18105,200,192,3,52,48,1,242,231,4,200,192,3,Finisher,3175
+Jaka,Križanič,Jaka Križanič,572,M40-44,Male,ljubljana,,Slovenia,SI,0:30:51,2:38:19,1:44:33,,,5:01:49,1851,9499,6273,307,179,18109,201,193,34,75,68,10,217,208,38,201,193,34,Finisher,2873
+Michael,Auer,Michael Auer,655,M45-49,Male,Eichgraben,NIEDEROSTERREICH,Austria,AT,0:35:39,2:24:58,1:51:49,,,5:02:01,2139,8698,6709,308,266,18121,202,194,31,287,264,39,114,112,17,202,194,31,Finisher,2959
+Elvira,Flurschutz,Elvira Flurschutz,101,F30-34,Female,Bindlach,,Germany,DE,0:39:23,2:39:05,1:36:08,,,5:02:03,2363,9545,5768,259,188,18123,203,9,3,477,52,16,331,18,6,203,9,3,Finisher,3178
+Antonio,Serreli,Antonio Serreli,622,M40-44,Male,sinnai,cagliari,Italy,IT,0:39:19,2:27:30,1:45:46,,,5:02:04,2359,8850,6346,347,223,18124,204,195,35,473,423,76,198,190,35,204,195,35,Finisher,2868
+Luca,Sferch,Luca Sferch,65,M40-44,Male,Trieste,Trieste,Italy,IT,0:33:08,2:38:28,1:43:23,,,5:02:06,1988,9508,6203,267,160,18126,205,196,36,158,145,27,237,227,43,205,196,36,Finisher,2868
+Christian,Hübner,Christian Hübner,559,M40-44,Male,Könnern,,Germany,DE,0:44:25,2:34:32,1:35:26,,,5:02:17,2665,9272,5726,289,184,18137,206,197,37,660,569,107,348,329,66,206,197,37,Finisher,2864
+Tamara,Seipelt,Tamara Seipelt,185,F45-49,Female,Nalles,Bolzano,Italy,IT,0:34:51,2:35:30,1:43:28,,,5:02:26,2091,9330,6208,311,205,18146,207,10,1,233,19,2,234,10,1,207,10,1,Finisher,3500
+Thomas,Schirnhofer,Thomas Schirnhofer,381,M30-34,Male,Krieglach,,Austria,AT,0:34:42,2:34:26,1:47:03,,,5:02:49,2082,9266,6423,265,133,18169,208,198,34,227,210,29,209,200,35,208,198,34,Finisher,2541
+Roger,Küffer,Roger Küffer,713,M45-49,Male,Riggisberg,,Switzerland,CH,0:32:29,2:28:04,1:53:19,,,5:02:49,1949,8884,6799,331,207,18169,209,199,32,131,120,11,122,120,19,209,199,32,Finisher,2945
+Domagoj,Mohl,Domagoj Mohl,835,M50-54,Male,Lindgraben,,Austria,AT,0:40:37,2:32:55,1:37:39,,,5:03:09,2437,9175,5859,514,203,18189,210,200,17,540,473,62,313,297,36,210,200,17,Finisher,2760
+Carole,Schulte,Carole Schulte,91,F25-29,Female,Visp,,Switzerland,CH,0:32:18,2:32:01,1:50:42,,,5:03:10,1938,9121,6642,289,200,18190,211,11,2,127,11,2,160,7,2,211,11,2,Finisher,3349
+Kari,Nieminen,Kari Nieminen,895,M55-59,Male,KUOPIO,,Finland,FI,0:36:28,2:25:12,1:53:00,,,5:03:11,2188,8712,6780,255,256,18191,212,201,6,330,305,19,116,114,4,212,201,6,Finisher,3240
+Alexey,Yakushenko,Alexey Yakushenko,511,M35-39,Male,Munich,BY,Unknown,,0:37:39,2:41:07,1:37:19,,,5:03:21,2259,9667,5839,262,174,18201,213,202,37,388,349,57,339,321,46,213,202,37,Finisher,2665
+Grégory,Cerezuela,Grégory Cerezuela,248,M25-29,Male,Paris,IDF,France,FR,0:30:40,2:36:37,1:46:10,,,5:03:24,1840,9397,6370,333,265,18204,214,203,24,67,60,13,201,193,24,214,203,24,Finisher,2378
+Jurij,Drobnic,Jurij Drobnic,315,M30-34,Male,Ljubljana,,Slovenia,SI,0:33:36,2:28:38,1:53:49,,,5:03:27,2016,8918,6829,268,176,18207,215,204,35,172,158,22,135,131,26,215,204,35,Finisher,2529
+Francesco,Senni,Francesco Senni,492,M35-39,Male,Pisa,,Italy,IT,0:36:53,2:32:46,1:45:47,,,5:03:30,2213,9166,6347,278,205,18210,216,205,38,349,318,49,218,209,34,216,205,38,Finisher,2663
+Ivan,Kernjus,Ivan Kernjus,563,M40-44,Male,Poreč,,Croatia,HR,0:38:26,2:40:06,1:35:20,,,5:04:04,2306,9606,5720,329,283,18244,217,206,38,426,382,67,352,332,67,217,206,38,Finisher,2832
+Sebastian,Seiffarth,Sebastian Seiffarth,620,M40-44,Male,Neuenhagen bei Berlin,BB,Germany,DE,0:37:06,2:29:12,1:50:21,,,5:04:15,2226,8952,6621,289,167,18255,218,207,39,363,331,58,180,172,32,218,207,39,Finisher,2829
+Piotr,Lachowicz,Piotr Lachowicz,574,M40-44,Male,Warsaw,MAZOWIECKIE,Poland,PL,0:38:17,2:36:24,1:41:11,,,5:04:26,2297,9384,6071,336,178,18266,219,208,40,419,375,66,286,272,52,219,208,40,Finisher,2826
+Thierry,Guiotto,Thierry Guiotto,881,M55-59,Male,VICENZA,VICENZA,Italy,IT,0:31:54,2:37:50,1:44:26,,,5:04:34,1914,9470,6266,394,229,18274,220,209,7,105,96,4,240,230,8,220,209,7,Finisher,3215
+Davide,Tesini,Davide Tesini,31,M50-54,Male,CEREA,VERONA,Italy,IT,0:41:17,2:36:46,1:39:27,,,5:04:47,2477,9406,5967,299,139,18287,221,210,18,560,489,66,337,319,41,221,210,18,Finisher,2731
+Dominik,Schirnhofer,Dominik Schirnhofer,382,M30-34,Male,St. Barbara,,Austria,AT,0:38:05,2:29:38,1:48:17,,,5:04:48,2285,8978,6497,345,183,18288,222,211,36,407,365,52,208,199,34,222,211,36,Finisher,2505
+Emanuele,Battistella,Emanuele Battistella,520,M40-44,Male,Prata di Pordenone,Pordenone,Italy,IT,0:42:16,2:35:05,1:37:17,,,5:05:09,2536,9305,5837,381,249,18309,223,212,41,603,523,94,345,326,65,223,212,41,Finisher,2813
+Matej,Polegek,Matej Polegek,601,M40-44,Male,Slovenske Konjice,Savinjska,Slovenia,SI,0:37:03,2:23:34,1:55:17,,,5:05:18,2223,8614,6917,375,188,18318,224,213,42,360,328,57,137,133,25,224,213,42,Finisher,2810
+Vanni,Chinazzi,Vanni Chinazzi,420,M35-39,Male,mareno di piave,treviso,Italy,IT,0:35:36,2:32:42,1:49:17,,,5:05:30,2136,9162,6557,286,188,18330,225,214,39,284,261,40,204,196,32,225,214,39,Finisher,2627
+Kurt,Barth,Kurt Barth,772,M50-54,Male,Leonding,,Austria,AT,0:30:56,2:35:30,1:51:34,,,5:05:34,1856,9330,6694,252,201,18334,226,215,19,77,70,9,173,165,13,226,215,19,Finisher,2717
+Massimo,Zaccaria,Massimo Zaccaria,863,M50-54,Male,vicenza,vi,Italy,IT,0:40:37,2:38:41,1:35:37,,,5:05:36,2437,9521,5737,365,276,18336,227,216,20,542,475,63,369,346,44,227,216,20,Finisher,2716
+Miroslav,Urban,Miroslav Urban,859,M50-54,Male,Žatec,North Bohemia,Czech Republic,CZ,0:33:15,2:40:10,1:43:36,,,5:05:54,1995,9610,6216,342,191,18354,228,217,21,164,150,19,272,259,30,228,217,21,Finisher,2711
+Tomas,Dvorak,Tomas Dvorak,677,M45-49,Male,Neratovice,foreigner,Czech Republic,CZ,0:32:36,2:34:38,1:51:29,,,5:06:02,1956,9278,6689,242,197,18362,229,218,33,134,123,12,181,173,30,229,218,33,Finisher,2887
+Bostjan,Jaklic,Bostjan Jaklic,51,M55-59,Male,Ljubljana,LJUBLJANA,Slovenia,SI,0:35:04,2:23:20,1:58:32,,,5:06:06,2104,8600,7112,296,253,18366,230,219,8,248,228,10,76,76,1,230,219,8,Finisher,3188
+Francesco,Mileti Nardo,Francesco Mileti Nardo,583,M40-44,Male,UZZANO,,Italy,IT,0:29:28,2:32:17,1:57:12,,,5:06:08,1768,9137,7032,266,165,18368,231,220,43,38,34,4,123,121,22,231,220,43,Finisher,2795
+Laura,Laermann,Laura Laermann,86,F25-29,Female,Aachen,,Germany,DE,0:39:34,2:43:09,1:37:20,,,5:06:09,2374,9789,5840,243,124,18369,232,12,3,491,58,7,389,27,3,232,12,3,Finisher,3295
+Zlatko,Šantic,Zlatko Šantic,634,M40-44,Male,Mikleuš,Croatia,Croatia,HR,0:40:22,2:34:15,1:40:39,,,5:06:18,2422,9255,6039,401,261,18378,233,221,44,526,459,81,301,286,56,233,221,44,Finisher,2792
+Matthias,Trenn,Matthias Trenn,399,M30-34,Male,Aachen,,Germany,DE,0:30:09,2:27:20,2:01:26,,,5:06:18,1809,8840,7286,291,152,18378,234,222,37,49,45,6,70,70,16,234,222,37,Finisher,2478
+Andrea,Benedetti,Andrea Benedetti,776,M50-54,Male,vicenza,italia,Italy,IT,0:34:46,2:35:06,1:47:39,,,5:06:22,2086,9306,6459,325,206,18382,235,223,22,230,213,30,232,223,23,235,223,22,Finisher,2702
+Aleksandra,Kuhelj,Aleksandra Kuhelj,155,F40-44,Female,Bilzen,,Slovenia,SI,0:39:03,2:35:02,1:43:47,,,5:06:29,2343,9302,6227,325,192,18389,236,13,2,462,48,3,275,14,3,236,13,2,Finisher,3217
+Jure,Pograjc,Jure Pograjc,733,M45-49,Male,Izola,,Slovenia,SI,0:36:09,2:34:03,1:49:08,,,5:06:52,2169,9243,6548,300,153,18412,237,224,34,312,287,42,231,222,36,237,224,34,Finisher,2872
+Igor,Ogrizek,Igor Ogrizek,366,M30-34,Male,Wien,,Croatia,HR,0:43:45,2:39:30,1:31:19,,,5:07:00,2625,9570,5479,400,347,18420,238,225,38,639,551,79,424,391,62,238,225,38,Finisher,2465
+Tomaž,Mohar,Tomaž Mohar,724,M45-49,Male,Murska Sobota,Slovenia,Slovenia,SI,0:33:02,2:33:17,1:51:05,,,5:07:02,1982,9197,6665,350,228,18422,239,226,35,153,141,17,193,185,33,239,226,35,Finisher,2869
+Christian,Assing,Christian Assing,519,M40-44,Male,Klagenfurt,,Germany,DE,0:38:38,2:35:00,1:44:52,,,5:07:06,2318,9300,6292,267,250,18426,240,227,45,440,395,72,261,248,48,240,227,45,Finisher,2778
+Giulio,Mantovani,Giulio Mantovani,269,M25-29,Male,Este,Padova,Italy,IT,0:28:12,2:33:30,1:57:45,,,5:07:07,1692,9210,7065,260,201,18427,241,228,25,25,22,6,120,118,16,241,228,25,Finisher,2311
+Alex,Smethurst,Alex Smethurst,121,F30-34,Female,Kista,,United Kingdom,GB,0:28:34,2:34:07,1:56:18,,,5:07:07,1714,9247,6978,286,201,18427,242,14,4,28,4,2,143,6,2,242,14,4,Finisher,3086
+Marco,Guerri,Marco Guerri,805,M50-54,Male,Bologna ,italia,Italy,IT,0:30:38,2:47:57,1:41:29,,,5:07:17,1838,10077,6089,259,175,18437,243,229,23,66,59,7,335,317,40,243,229,23,Finisher,2686
+Damiano,Lanza,Damiano Lanza,575,M40-44,Male,SANGUINETTO,Sanguinetto VERONA,Italy,IT,0:34:29,2:34:39,1:48:30,,,5:07:21,2069,9279,6510,383,199,18441,244,230,46,214,198,41,233,224,42,244,230,46,Finisher,2773
+Renata,Szczepanik,Renata Szczepanik,161,F40-44,Female,Kraków,małopolskie,Poland,PL,0:35:28,2:37:20,1:48:41,,,5:07:38,2128,9440,6521,215,154,18458,245,15,3,274,23,2,241,11,2,245,15,3,Finisher,3196
+Paolo,Mori,Paolo Mori,725,M45-49,Male,Roma,Roma,Italy,IT,0:33:10,2:42:14,1:43:50,,,5:07:57,1990,9734,6230,323,200,18477,246,231,36,159,146,18,290,276,40,246,231,36,Finisher,2852
+Thomas,Holzmann,Thomas Holzmann,330,M30-34,Male,Klagenfurt,,Austria,AT,0:35:53,2:32:50,1:49:38,,,5:07:59,2153,9170,6578,316,263,18479,247,232,39,295,271,38,213,204,37,247,232,39,Finisher,2448
+Andreas,Rücker,Andreas Rücker,612,M40-44,Male,Adliswil,ZH,Germany,DE,0:38:00,2:33:28,1:47:51,,,5:08:07,2280,9208,6471,306,221,18487,248,233,47,403,361,62,244,233,46,248,233,47,Finisher,2759
+Roman,Gawronski,Roman Gawronski,548,M40-44,Male,Września,wielkopolskie,Poland,PL,0:34:25,2:34:48,1:50:59,,,5:08:09,2065,9288,6659,231,245,18489,249,234,48,208,192,40,203,195,37,249,234,48,Finisher,2759
+Andrea,Stefanini,Andrea Stefanini,750,M45-49,Male,magione,,Italy,IT,0:33:42,2:27:17,1:58:21,,,5:08:22,2022,8837,7101,336,206,18502,250,235,37,178,164,21,131,128,20,250,235,37,Finisher,2845
+Rogerio,Goncalves,Rogerio Goncalves,803,M50-54,Male,Berlin,,Brazil,BR,0:33:43,2:34:26,1:51:11,,,5:08:23,2023,9266,6671,273,270,18503,251,236,24,181,167,21,199,191,18,251,236,24,Finisher,2666
+Aldo,Moauro,Aldo Moauro,56,M50-54,Male,Padova,VENETO,Italy,IT,0:35:14,2:45:32,1:38:57,,,5:08:35,2114,9932,5937,337,195,18515,252,237,25,258,238,34,382,357,46,252,237,25,Finisher,2663
+Pascal,Pycke,Pascal Pycke,737,M45-49,Male,Sint-Niklaas,,Belgium,BE,0:37:18,2:33:19,1:45:08,,,5:08:36,2238,9199,6308,411,360,18516,253,238,38,373,338,54,253,241,37,253,238,38,Finisher,2840
+Peter,Rommer,Peter Rommer,849,M50-54,Male,Großengersdorf,NIEDEROSTERREICH,Austria,AT,0:34:52,2:32:09,1:52:53,,,5:08:56,2092,9129,6773,302,240,18536,254,239,26,234,215,31,190,182,16,254,239,26,Finisher,2656
+Filippo,Baldini,Filippo Baldini,303,M30-34,Male,Modena,Modena,Italy,IT,0:37:48,2:42:20,1:40:19,,,5:09:02,2268,9740,6019,377,138,18542,255,240,40,395,354,50,383,358,57,255,240,40,Finisher,2429
+Renee,Vanderheyden,Renee Vanderheyden,79,F18-24,Female,Brugge,,Belgium,BE,0:26:47,2:45:32,1:49:46,,,5:09:09,1607,9932,6586,257,167,18549,256,16,2,10,2,1,245,12,2,256,16,2,Finisher,3121
+Karin,Van Leersum,Karin Van Leersum,126,F30-34,Female,Eindhoven,,Netherlands,NL,0:30:35,2:48:41,1:44:40,,,5:09:20,1835,10121,6280,210,114,18560,257,17,5,64,7,4,330,17,5,257,17,5,Finisher,3047
+Ettore Maria ,De Nardis,Ettore Maria De Nardis,428,M35-39,Male,italy,foreigner,Italy,IT,0:43:59,2:28:44,1:46:01,,,5:09:20,2639,8924,6361,400,236,18560,258,241,40,646,558,83,274,261,38,258,241,40,Finisher,2558
+Jan,Dvorak,Jan Dvorak,678,M45-49,Male,Praha,Prague,Czech Republic,CZ,0:41:47,2:38:29,1:39:32,,,5:09:23,2507,9509,5972,333,243,18563,259,242,39,582,505,87,373,350,51,259,242,39,Finisher,2826
+Boris,Jurca,Boris Jurca,52,M45-49,Male,Ljubljana,,Slovenia,SI,0:41:38,2:33:58,1:41:30,,,5:09:25,2498,9238,6090,418,321,18565,260,243,40,576,500,86,323,307,46,260,243,40,Finisher,2826
+Yannig,Bourgeois,Yannig Bourgeois,246,M25-29,Male,Antwerpen,Flemish Region,Belgium,BE,0:34:56,2:37:08,1:49:21,,,5:09:28,2096,9428,6561,304,179,18568,261,244,26,241,222,26,248,236,27,261,244,26,Finisher,2269
+Rok,Filipancic,Rok Filipancic,321,M30-34,Male,Ljubljana,LJUBLJANA,Slovenia,SI,0:32:31,2:40:41,1:45:42,,,5:09:31,1951,9641,6342,339,298,18571,262,245,41,132,121,17,270,257,44,262,245,41,Finisher,2420
+Giovanni,Bertugli,Giovanni Bertugli,777,M50-54,Male,Modena,Modena,Italy,IT,0:35:40,2:39:49,1:44:27,,,5:09:33,2140,9589,6267,384,193,18573,263,246,27,288,265,37,309,293,35,263,246,27,Finisher,2645
+Jacopo,Chiti,Jacopo Chiti,538,M40-44,Male,Firenze,,Italy,IT,0:32:44,2:41:32,1:41:32,,,5:09:35,1964,9692,6092,332,495,18575,264,247,49,141,129,26,277,263,50,264,247,49,Finisher,2733
+Tryfonas,Attipas,Tryfonas Attipas,770,M50-54,Male,Paphos,Paphos,Cyprus,CY,0:36:21,2:39:34,1:42:39,,,5:09:40,2181,9574,6159,376,289,18580,265,248,28,322,297,41,315,299,37,265,248,28,Finisher,2643
+Pavel,David,Pavel David,15,M50-54,Male,Nymburk,Středočeský,Czech Republic,CZ,0:39:50,2:35:12,1:41:19,,,5:09:57,2390,9312,6079,252,564,18597,266,249,29,505,443,58,273,260,31,266,249,29,Finisher,2638
+Mauritz,Markus,Mauritz Markus,721,M45-49,Male,Leobendorf,,Austria,AT,0:34:03,2:24:27,2:03:29,,,5:10:05,2043,8667,7409,237,248,18605,267,250,41,193,178,23,72,72,9,267,250,41,Finisher,2814
+Alberto,Bresciani,Alberto Bresciani,666,M45-49,Male,Casina,EMILIA-ROMAGNA,Italy,IT,0:38:04,2:37:33,1:42:57,,,5:10:15,2284,9453,6177,419,282,18615,268,251,42,406,364,63,324,308,47,268,251,42,Finisher,2811
+Alessio,Latini,Alessio Latini,53,M50-54,Male,Cittá della Pieve,Perugia,Italy,IT,0:43:42,2:31:26,1:48:29,,,5:10:30,2622,9086,6509,281,131,18630,269,252,30,638,550,72,278,264,32,269,252,30,Finisher,2628
+Nicole,Ducheylard,Nicole Ducheylard,99,F30-34,Female,LONDON,,Chile,CL,0:34:50,2:49:00,1:39:52,,,5:10:35,2090,10140,5992,274,138,18635,270,18,6,232,18,6,408,31,8,270,18,6,Finisher,3024
+Matej,Podlesnik,Matej Podlesnik,370,M30-34,Male,Radovljica,Gorenjska,Slovenia,SI,0:37:44,2:41:35,1:42:24,,,5:10:36,2264,9695,6144,325,208,18636,271,253,42,393,353,49,358,336,53,271,253,42,Finisher,2401
+Jürgen,Murg,Jürgen Murg,364,M30-34,Male,Steinerkirchen an der Traun,,Austria,AT,0:38:58,2:38:42,1:44:17,,,5:10:38,2338,9522,6257,292,228,18638,272,254,43,460,413,59,322,306,47,272,254,43,Finisher,2400
+Peter,Solar,Peter Solar,391,M30-34,Male,ljubljana,,Slovenia,SI,0:38:43,2:36:48,1:43:24,,,5:10:40,2323,9408,6204,430,275,18640,273,255,44,445,400,56,327,311,48,273,255,44,Finisher,2399
+Giovanni,Peditto,Giovanni Peditto,841,M50-54,Male,TRIESTE,ITALIA,Italy,IT,0:29:41,2:48:06,1:43:09,,,5:10:43,1781,10086,6189,358,229,18643,274,256,31,41,37,5,347,328,42,274,256,31,Finisher,2624
+Didier,Mahot,Didier Mahot,826,M50-54,Male,REMIRE,Guyane Francaise,French Guiana,GF,0:36:45,2:37:43,1:49:44,,,5:10:52,2205,9463,6584,256,144,18652,275,257,32,341,311,43,267,254,29,275,257,32,Finisher,2621
+Daniele,Pinelli,Daniele Pinelli,843,M50-54,Male,Treviglio,BG,Italy,IT,0:35:51,2:37:38,1:44:08,,,5:10:52,2151,9458,6248,249,546,18652,276,258,33,291,268,38,257,245,27,276,258,33,Finisher,2621
+Franco,Petronio,Franco Petronio,929,M60-64,Male,Sečovlje,PIran,Slovenia,SI,0:40:04,2:31:32,1:50:57,,,5:10:54,2404,9092,6657,347,154,18654,277,259,4,517,452,15,252,240,5,277,259,4,Finisher,3011
+Massimiliano,Braida,Massimiliano Braida,871,M55-59,Male,Udine,,Italy,IT,0:36:22,2:38:12,1:47:24,,,5:10:55,2182,9492,6444,333,204,18655,278,260,9,324,299,17,284,270,13,278,260,9,Finisher,3101
+Jan,Ginovsky,Jan Ginovsky,224,M18-24,Male,Dulova Ves,,Slovakia,SK,0:29:50,2:37:18,1:56:30,,,5:11:02,1790,9438,6990,296,148,18662,279,261,13,43,39,10,191,183,10,279,261,13,Finisher,2351
+Lars,Hansen,Lars Hansen,555,M40-44,Male,Neuberend,,Germany,DE,0:38:15,2:40:45,1:42:19,,,5:11:04,2295,9645,6139,345,241,18664,280,262,50,416,372,65,359,337,69,280,262,50,Finisher,2706
+Werner,Aschauer,Werner Aschauer,40,M45-49,Male,Allhartsberg,,Austria,AT,0:35:25,2:24:10,2:03:00,,,5:11:05,2125,8650,7380,291,219,18665,281,263,43,269,247,36,98,96,13,281,263,43,Finisher,2796
+Anes,Solakovic,Anes Solakovic,288,M25-29,Male,Göteborg,,Sweden,SE,0:38:29,2:35:29,1:49:55,,,5:11:05,2309,9329,6595,258,173,18665,282,264,27,429,385,41,264,251,29,282,264,27,Finisher,2240
+Michal,Kiecon,Michal Kiecon,226,M30-34,Male,Ustron,,Poland,PL,0:41:58,2:41:41,1:39:37,,,5:11:06,2518,9701,5977,295,176,18666,283,265,45,595,516,75,410,379,61,283,265,45,Finisher,2392
+janez,sekoranja,janez sekoranja,621,M40-44,Male,Smlednik,,Slovenia,SI,0:32:41,2:29:52,2:02:07,,,5:11:10,1961,8992,7327,246,145,18670,284,266,51,139,128,25,133,130,24,284,266,51,Finisher,2705
+Stefano,Gugole,Stefano Gugole,880,M55-59,Male,TORRI DI QUARTESOLO,VICENZA,Italy,IT,0:32:09,2:34:42,1:55:36,,,5:11:20,1929,9282,6936,329,203,18680,285,267,10,118,108,5,195,187,5,285,267,10,Finisher,3094
+Rene,Meitz,Rene Meitz,581,M40-44,Male,Voitsberg,,Austria,AT,0:36:43,2:33:49,1:53:42,,,5:11:23,2203,9229,6822,240,189,18683,286,268,52,340,310,55,222,213,40,286,268,52,Finisher,2701
+Slawek,Pradzynski,Slawek Pradzynski,604,M40-44,Male,Kedzierzyn Kozle,opolskie,Poland,PL,0:40:29,2:32:32,1:49:33,,,5:11:37,2429,9152,6573,317,226,18697,287,269,53,535,468,82,265,252,49,287,269,53,Finisher,2696
+Tino,Birkenmaier,Tino Birkenmaier,660,M45-49,Male,Nürnberg ,,Germany,DE,0:40:40,2:33:23,1:49:26,,,5:11:43,2440,9203,6566,243,251,18703,288,270,44,546,479,79,263,250,39,288,270,44,Finisher,2784
+Roman,Heiz,Roman Heiz,809,M50-54,Male,Zurich,,Switzerland,CH,0:34:55,2:36:31,1:51:16,,,5:11:48,2095,9391,6676,254,292,18708,289,271,34,240,221,33,235,225,24,289,271,34,Finisher,2605
+Filian,Fabris,Filian Fabris,680,M45-49,Male,Pula,Istarska županija,Croatia,HR,0:39:15,2:47:32,1:37:54,,,5:11:53,2355,10052,5874,222,210,18713,290,272,45,468,419,71,433,399,59,290,272,45,Finisher,2781
+Borut,Telic,Borut Telic,755,M45-49,Male,Borovnica,Slovenia,Slovenia,SI,0:52:32,2:27:46,1:42:00,,,5:12:06,3152,8866,6120,376,211,18726,291,273,46,766,647,110,387,361,54,291,273,46,Finisher,2777
+Giuseppe,Roberti,Giuseppe Roberti,847,M50-54,Male,padova,pd,Italy,IT,0:38:45,2:38:08,1:48:19,,,5:12:25,2325,9488,6499,275,158,18745,292,274,35,446,401,53,304,288,34,292,274,35,Finisher,2594
+Callisto,Zanellato,Callisto Zanellato,764,M45-49,Male,biella,BI,Italy,IT,0:40:51,2:37:21,1:46:50,,,5:12:28,2451,9441,6410,274,171,18748,293,275,47,552,483,82,332,314,48,293,275,47,Finisher,2771
+ENZO,GAMBINO,ENZO GAMBINO,257,M25-29,Male,Blagnac,,France,FR,0:33:06,2:45:05,1:45:51,,,5:12:40,1986,9905,6351,348,169,18760,294,276,28,157,144,20,350,330,35,294,276,28,Finisher,2211
+Ian,Milne,Ian Milne,584,M40-44,Male,Munich,,United Kingdom,GB,0:32:40,2:47:37,1:43:33,,,5:12:47,1960,10057,6213,303,234,18767,295,277,54,137,126,24,366,343,70,295,277,54,Finisher,2675
+Nikola,Galant,Nikola Galant,439,M35-39,Male,Žminj,Istra,Croatia,HR,0:40:22,2:39:21,1:41:53,,,5:12:49,2422,9561,6113,444,229,18769,296,278,41,527,460,71,395,368,54,296,278,41,Finisher,2495
+Luca,Fidanza,Luca Fidanza,255,M25-29,Male,pianella,Abruzzo,Italy,IT,0:41:45,2:30:34,1:52:01,,,5:12:57,2505,9034,6721,316,202,18777,297,279,29,581,504,49,256,244,28,297,279,29,Finisher,2206
+Franz-Josef,Lürken,Franz-Josef Lürken,888,M55-59,Male,Eschweiler,,Germany,DE,0:33:58,2:44:11,1:47:02,,,5:13:10,2038,9851,6422,308,171,18790,298,280,11,190,175,7,342,324,19,298,280,11,Finisher,3061
+Federico,De Lucia,Federico De Lucia,427,M35-39,Male,Pescara,Pescara,Italy,IT,0:43:26,2:34:52,1:42:50,,,5:13:11,2606,9292,6170,464,259,18791,299,281,42,632,546,81,377,353,53,299,281,42,Finisher,2488
+Klaudiusz,Fojcik,Klaudiusz Fojcik,686,M45-49,Male,Cieszyn,śląskie,Poland,PL,0:36:47,2:39:50,1:47:11,,,5:13:29,2207,9590,6431,326,255,18809,300,282,48,343,313,47,312,296,43,300,282,48,Finisher,2753
+Andrea,Zanco,Andrea Zanco,69,M55-59,Male,Vicenza,Vicenza,Italy,IT,0:38:49,2:34:48,1:47:11,,,5:13:37,2329,9288,6431,440,329,18817,301,283,12,449,404,24,294,280,14,301,283,12,Finisher,3053
+Stefano,Rosa Uliana,Stefano Rosa Uliana,904,M55-59,Male,Maniago,PN,Italy,IT,0:42:44,2:33:00,1:48:45,,,5:13:43,2564,9180,6525,397,157,18823,302,284,13,615,533,33,319,303,18,302,284,13,Finisher,3051
+Michael,Zielinski,Michael Zielinski,410,M30-34,Male,London,,United Kingdom,GB,0:35:08,2:33:41,1:56:07,,,5:13:48,2108,9221,6967,355,177,18828,303,285,46,252,232,32,224,215,40,303,285,46,Finisher,2343
+Niko,Vegt,Niko Vegt,507,M35-39,Male,Eindhoven,,Netherlands,NL,0:36:06,2:38:35,1:51:08,,,5:14:05,2166,9515,6668,314,182,18845,304,286,43,309,284,43,279,265,39,304,286,43,Finisher,2472
+Draško,Stankovic,Draško Stankovic,290,M25-29,Male,Belgrade,Serbia,Serbia,RS,0:37:17,2:39:35,1:49:58,,,5:14:06,2237,9575,6598,299,137,18846,305,287,30,371,337,37,308,292,33,305,287,30,Finisher,2186
+Camilla,Kempe,Camilla Kempe,131,F35-39,Female,Jönköping,JONKOPINGS LAN [SE-06],Sweden,SE,0:39:34,2:40:37,1:45:56,,,5:14:18,2374,9637,6356,298,193,18858,306,19,4,493,59,4,364,23,4,306,19,4,Finisher,2995
+Stefano,Buosi,Stefano Buosi,872,M55-59,Male,Vittorio Veneto,Tv,Italy,IT,0:38:12,2:39:17,1:49:27,,,5:14:28,2292,9557,6567,284,169,18868,307,288,14,414,371,22,316,300,17,307,288,14,Finisher,3037
+Amanda,Mcaleavey,Amanda Mcaleavey,111,F30-34,Female,Holmrook,Cumbria,United Kingdom,GB,0:39:35,2:40:04,1:48:25,,,5:14:33,2375,9604,6505,252,138,18873,308,20,7,495,60,17,349,20,7,308,20,7,Finisher,2953
+William,Joss,William Joss,337,M30-34,Male,Epsom,Surrey,United Kingdom,GB,0:32:01,2:49:38,1:41:44,,,5:14:58,1921,10178,6104,391,304,18898,309,289,47,110,100,14,406,376,60,309,289,47,Finisher,2322
+Alina,Blaskova,Alina Blaskova,95,F30-34,Female,Prague,Czech Republic,Slovakia,SK,0:27:17,3:00:36,1:39:30,,,5:14:59,1637,10836,5970,300,155,18899,310,21,8,15,3,1,452,38,11,310,21,8,Finisher,2945
+William,Stripparo,William Stripparo,854,M50-54,Male,Milano,,Italy,IT,0:32:49,2:34:34,1:59:06,,,5:15:01,1969,9274,7146,312,200,18901,311,290,36,143,131,15,197,189,17,311,290,36,Finisher,2547
+Dejan,Mizdrak,Dejan Mizdrak,585,M40-44,Male,Valjevo,Serbia/Valjevo,Serbia,RS,0:45:33,2:34:01,1:44:55,,,5:15:04,2733,9241,6295,386,249,18904,312,291,55,691,596,109,376,352,71,312,291,55,Finisher,2634
+Spike,Smigelski,Spike Smigelski,389,M30-34,Male,"salzburg, salzburg",,United States,US,0:32:24,2:39:48,1:51:27,,,5:15:05,1944,9588,6687,378,307,18905,313,292,48,129,118,16,266,253,43,313,292,48,Finisher,2320
+Manfred,Eberwein,Manfred Eberwein,16,M50-54,Male,Regenstauf,BAYERN,Germany,DE,0:38:25,2:32:46,1:54:21,,,5:15:07,2305,9166,6861,367,209,18907,314,293,37,425,381,50,250,238,26,314,293,37,Finisher,2545
+Marko,Tomic,Marko Tomic,757,M45-49,Male,Koper,KOPER,Slovenia,SI,0:40:51,2:35:28,1:49:05,,,5:15:33,2451,9328,6545,371,238,18933,315,294,49,551,482,81,321,305,45,315,294,49,Finisher,2715
+Joachim,Doeding,Joachim Doeding,2,M65-69,Male,"St. Gallen, Switzerland",,Brazil,BR,0:35:11,2:52:07,1:40:26,,,5:15:39,2111,10327,6026,281,195,18939,316,295,2,255,235,2,449,412,2,316,295,2,Finisher,3144
+Franjo,Jovic,Franjo Jovic,704,M45-49,Male,Zagreb,Hrvatska,Croatia,HR,0:32:57,2:43:32,1:50:43,,,5:15:39,1977,9812,6643,346,161,18939,317,296,50,149,137,14,317,301,44,317,296,50,Finisher,2714
+Damjan,Krajnc,Damjan Krajnc,819,M50-54,Male,Celje,Celje,Slovenia,SI,0:33:56,2:43:56,1:49:21,,,5:16:10,2036,9836,6561,288,248,18970,318,297,38,188,173,23,326,310,38,318,297,38,Finisher,2526
+Andrea,Marano,Andrea Marano,357,M30-34,Male,Udine,FRIULI-VENEZIA GIULIA,Italy,IT,0:39:35,2:37:15,1:51:07,,,5:16:45,2375,9435,6667,360,168,19005,319,298,49,496,436,63,333,315,49,319,298,49,Finisher,2290
+Marco,Scheffmann,Marco Scheffmann,380,M30-34,Male,Oslo,,Germany,DE,0:41:27,2:37:19,1:47:39,,,5:16:57,2487,9439,6459,409,225,19017,320,299,50,568,494,72,370,347,55,320,299,50,Finisher,2286
+Radka,Falge,Radka Falge,170,F45-49,Female,Praha 6,Vokovice,Czech Republic,CZ,0:39:22,2:40:35,1:48:46,,,5:16:58,2362,9635,6526,263,231,19018,321,22,2,476,51,13,356,22,3,321,22,2,Finisher,3238
+Andrej Martin,Vujkovac,Andrej Martin Vujkovac,403,M30-34,Male,Slovenj Gradec,SLOVENJ GRADEC,Slovenia,SI,0:38:21,2:37:19,1:53:11,,,5:16:58,2301,9439,6791,298,190,19018,322,300,51,421,377,54,289,275,45,322,300,51,Finisher,2286
+Matej,Premzl,Matej Premzl,373,M30-34,Male,Cirkovce,Slovenia,Slovenia,SI,0:40:11,2:31:09,1:55:15,,,5:17:01,2411,9069,6915,405,222,19021,323,301,52,519,453,67,262,249,42,323,301,52,Finisher,2285
+Birgit,Labmayer,Birgit Labmayer,176,F45-49,Female,Leonding,,Austria,AT,0:33:14,2:44:07,1:52:35,,,5:17:14,1994,9847,6755,232,206,19034,324,23,3,161,14,1,299,15,2,324,23,3,Finisher,3233
+Claudia,Lorenzetto,Claudia Lorenzetto,110,F30-34,Female,Mestrino,Padova,Italy,IT,0:33:48,2:43:33,1:52:37,,,5:17:16,2028,9813,6757,244,193,19036,325,24,9,183,15,5,303,16,4,325,24,9,Finisher,2904
+Marco,Kraigher,Marco Kraigher,346,M30-34,Male,Villach,,Austria,AT,0:34:22,2:33:52,1:59:07,,,5:17:27,2062,9232,7147,376,230,19047,326,302,53,206,190,25,220,211,39,326,302,53,Finisher,2277
+Alessio,Campagner,Alessio Campagner,532,M40-44,Male,Caorle,Venezia,Italy,IT,0:36:50,2:40:31,1:51:13,,,5:17:35,2210,9631,6673,353,188,19055,327,303,56,347,316,56,340,322,63,327,303,56,Finisher,2589
+Ivan,Kraljic,Ivan Kraljic,455,M35-39,Male,Zadar,Zadarska,Croatia,HR,0:33:32,2:41:17,1:53:36,,,5:17:52,2012,9677,6816,368,200,19072,328,304,44,171,157,24,293,279,42,328,304,44,Finisher,2404
+Goran,Peic,Goran Peic,478,M35-39,Male,Poreč,Poreč,Croatia,HR,0:32:49,2:42:45,1:51:31,,,5:17:58,1969,9765,6691,321,333,19078,329,305,45,142,130,22,292,278,41,329,305,45,Finisher,2402
+Orhan,Gündüz,Orhan Gündüz,806,M50-54,Male,Berlin,BE,Germany,DE,0:41:59,2:30:14,1:52:57,,,5:18:03,2519,9014,6777,498,275,19083,330,306,39,596,517,68,287,273,33,330,306,39,Finisher,2492
+Thomas Marco,Marchiori,Thomas Marco Marchiori,924,M60-64,Male,Villafranca di Verona,Veneto,Italy,IT,0:39:09,2:42:56,1:47:58,,,5:18:15,2349,9776,6478,264,228,19095,331,307,5,464,416,11,385,359,7,331,307,5,Finisher,2878
+Dr. Szécsi,Tamás,Dr. Szécsi Tamás,397,M30-34,Male,Budapest,,Hungary,HU,0:30:28,2:51:31,1:49:07,,,5:18:16,1828,10291,6547,261,169,19096,332,308,54,60,55,7,381,356,56,332,308,54,Finisher,2263
+Daniel,Didov,Daniel Didov,790,M50-54,Male,Praha 9,Prague,Czech Republic,CZ,0:38:40,2:43:34,1:42:48,,,5:18:29,2320,9814,6168,481,326,19109,333,309,40,441,396,52,429,396,54,333,309,40,Finisher,2484
+Marco,Fenili,Marco Fenili,254,M25-29,Male,San Gillio,Torino,Italy,IT,0:31:27,2:38:31,1:59:55,,,5:18:42,1887,9511,7195,360,169,19122,334,310,31,91,83,15,236,226,26,334,310,31,Finisher,2103
+Jakub,Gregurek,Jakub Gregurek,442,M35-39,Male,Zlín,CZ,Czech Republic,CZ,0:33:59,2:44:59,1:52:10,,,5:18:52,2039,9899,6730,320,145,19132,335,311,46,191,176,26,355,334,48,335,311,46,Finisher,2386
+Günther,Stachl,Günther Stachl,66,M50-54,Male,Aigen im Ennstal,,Austria,AT,0:43:45,2:40:40,1:46:32,,,5:18:53,2625,9640,6392,245,231,19133,336,312,41,640,552,73,409,378,50,336,312,41,Finisher,2477
+Rudolf,Bayer,Rudolf Bayer,41,M50-54,Male,Gnas,STEIERMARK,Austria,AT,0:41:38,2:40:46,1:49:02,,,5:19:13,2498,9646,6542,260,206,19153,337,313,42,577,501,67,388,362,48,337,313,42,Finisher,2471
+Christian,Lehner,Christian Lehner,352,M30-34,Male,Graz,,Austria,AT,0:35:12,2:31:56,2:04:49,,,5:19:19,2112,9116,7489,293,148,19159,338,314,55,256,236,34,189,181,33,338,314,55,Finisher,2244
+Andre,Sano,Andre Sano,850,M50-54,Male,messina,,Italy,IT,0:32:38,2:39:07,1:59:25,,,5:20:14,1958,9547,7165,362,181,19214,339,315,43,135,124,14,258,246,28,339,315,43,Finisher,2453
+Gorazd,Repše,Gorazd Repše,609,M40-44,Male,NOVO MESTO,NOVO MESTO,Slovenia,SI,0:35:13,2:40:02,1:55:26,,,5:20:17,2113,9602,6926,320,256,19217,340,316,57,257,237,44,288,274,53,340,316,57,Finisher,2540
+Istvan,Gal,Istvan Gal,688,M45-49,Male,Budapest,BUDAPEST,Hungary,HU,0:36:50,2:46:12,1:45:02,,,5:20:38,2210,9972,6302,435,320,19238,341,317,51,345,314,48,430,397,58,341,317,51,Finisher,2624
+Valerii,Herasymenko,Valerii Herasymenko,329,M30-34,Male,Lubotyn,foreigner,Ukraine,UA,0:43:16,2:36:35,1:50:45,,,5:20:41,2596,9395,6645,330,275,19241,342,318,56,628,543,77,367,344,54,342,318,56,Finisher,2219
+Lanfranco,Bosco,Lanfranco Bosco,779,M50-54,Male,TREVIGLIO,BG,Italy,IT,0:33:48,2:48:28,1:48:35,,,5:20:41,2028,10108,6515,386,206,19241,343,319,44,182,168,22,411,380,51,343,319,44,Finisher,2445
+Blaž,Kmetec,Blaž Kmetec,709,M45-49,Male,Ljubljana,LJUBLJANA,Slovenia,SI,0:37:41,2:44:07,1:44:54,,,5:21:02,2261,9847,6294,589,272,19262,344,320,52,390,351,59,445,409,60,344,320,52,Finisher,2617
+Maximilian,Gloel,Maximilian Gloel,326,M30-34,Male,MÜNCHEN,,Germany,DE,0:38:19,2:37:38,1:56:29,,,5:21:25,2299,9458,6989,292,247,19285,345,321,57,420,376,53,291,277,46,345,321,57,Finisher,2206
+Yorben,Beerlandt,Yorben Beerlandt,240,M25-29,Male,Antwerp,Wilrijk,Belgium,BE,0:38:22,2:39:05,1:56:54,,,5:21:25,2302,9545,7014,268,157,19285,346,322,32,422,378,39,310,294,34,346,322,32,Finisher,2054
+Robert,Tkalec,Robert Tkalec,67,M45-49,Male,Slovenj Gradec,Koroška,Slovenia,SI,0:44:46,2:43:43,1:39:48,,,5:21:37,2686,9823,5988,517,282,19297,347,323,53,671,580,96,482,439,66,347,323,53,Finisher,2606
+Viktoria,Peterbauer,Viktoria Peterbauer,88,F25-29,Female,Münzkirchen,,Austria,AT,0:37:17,2:49:02,1:48:39,,,5:21:43,2237,10142,6519,267,139,19303,348,25,4,372,35,4,437,35,5,348,25,4,Finisher,3015
+Luka,Kostic,Luka Kostic,344,M30-34,Male,Podgorica,Montenegro,Montenegro,ME,0:33:52,2:43:01,1:55:19,,,5:21:47,2032,9781,6919,359,216,19307,349,324,58,186,171,23,334,316,50,349,324,58,Finisher,2199
+Andrea,Spadafora,Andrea Spadafora,289,M25-29,Male,Pandino,Cremona,Italy,IT,0:35:28,2:51:29,1:46:10,,,5:21:57,2128,10289,6370,268,263,19317,350,325,33,273,251,29,442,407,39,350,325,33,Finisher,2044
+Massimiliano,Bellunato,Massimiliano Bellunato,775,M50-54,Male,vicenza,vicenza,Italy,IT,0:34:13,2:47:13,1:46:47,,,5:22:05,2053,10033,6407,557,275,19325,351,326,45,200,184,24,436,402,56,351,326,45,Finisher,2420
+Laila,Gammelvind,Laila Gammelvind,147,F40-44,Female,Frederiksberg,,Denmark,DK,0:39:26,2:41:46,1:52:14,,,5:22:07,2366,9706,6734,314,206,19327,352,26,4,482,57,6,384,26,4,352,26,4,Finisher,2935
+Manuel,Marangon,Manuel Marangon,828,M50-54,Male,Vicenza,,Italy,IT,0:40:03,2:40:26,1:51:32,,,5:22:08,2403,9626,6692,362,245,19328,353,327,46,516,451,60,386,360,47,353,327,46,Finisher,2419
+Katja,Gliebe,Katja Gliebe,70,F18-24,Female,Slovenj Gradec,,Slovenia,SI,0:36:28,2:47:05,1:51:41,,,5:22:12,2188,10025,6701,266,152,19332,354,27,3,331,26,6,402,30,4,354,27,3,Finisher,2886
+Radoica,Todorovic,Radoica Todorovic,32,M60-64,Male,Kragujevac,"Serbia,Sumadijski okrug",Serbia,RS,0:44:56,2:47:59,1:39:38,,,5:22:15,2696,10079,5978,352,230,19335,355,328,6,676,584,19,503,456,14,355,328,6,Finisher,2806
+Manuel,Roccetti,Manuel Roccetti,378,M30-34,Male,San Severino Marche,MC,Italy,IT,0:39:54,2:37:03,1:54:42,,,5:22:21,2394,9423,6882,406,237,19341,356,329,59,508,445,65,346,327,52,356,329,59,Finisher,2189
+Riccardo,Rossano,Riccardo Rossano,741,M45-49,Male,genova,,Italy,IT,0:36:16,2:38:47,1:55:43,,,5:22:25,2176,9527,6943,479,220,19345,357,330,54,319,294,45,338,320,49,357,330,54,Finisher,2592
+Valerio,Ottaviani,Valerio Ottaviani,726,M45-49,Male,Roma,LAZIO,Italy,IT,0:39:14,2:40:39,1:53:13,,,5:22:52,2354,9639,6793,387,200,19372,358,331,55,467,418,70,380,355,53,358,331,55,Finisher,2584
+Matej,Buksar,Matej Buksar,417,M35-39,Male,Košice,Kosice Region,Slovakia,SK,0:31:39,2:47:22,1:53:57,,,5:22:56,1899,10042,6837,298,299,19376,359,332,47,99,90,11,351,331,47,359,332,47,Finisher,2313
+Martin,Kreil,Martin Kreil,570,M40-44,Male,Stockerau,,Austria,AT,0:41:53,2:48:59,1:41:30,,,5:23:02,2513,10139,6090,420,221,19382,360,333,58,589,512,91,492,448,87,360,333,58,Finisher,2491
+Ady,Tester,Ady Tester,909,M55-59,Male,Blantyre,foreigner,United Kingdom,GB,0:30:51,2:37:40,2:03:54,,,5:23:12,1851,9460,7434,359,287,19392,361,334,15,74,67,2,221,212,7,361,334,15,Finisher,2880
+Walter,Stifter,Walter Stifter,934,M60-64,Male,Steinberg-Dörfl,,Austria,AT,0:37:39,2:30:35,2:05:46,,,5:23:18,2259,9035,7546,360,198,19398,362,335,7,389,350,9,216,207,2,362,335,7,Finisher,2787
+Gerald,Horak,Gerald Horak,885,M55-59,Male,Grein,,Austria,AT,0:35:32,2:37:44,1:59:41,,,5:23:20,2132,9464,7181,400,222,19400,363,336,16,280,257,13,280,266,12,363,336,16,Finisher,2878
+Michael,Pitzner,Michael Pitzner,60,M40-44,Male,Zollikon,,Denmark,DK,0:41:35,2:44:29,1:47:24,,,5:23:24,2495,9869,6444,414,181,19404,364,337,59,574,498,88,453,415,80,364,337,59,Finisher,2484
+Franco,Dolfini,Franco Dolfini,430,M35-39,Male,Offanengo (CR),Other,Italy,IT,0:35:05,2:44:23,1:55:37,,,5:23:26,2105,9863,6937,355,147,19406,365,338,48,250,230,35,368,345,51,365,338,48,Finisher,2304
+Špela,Jerkic,Špela Jerkic,105,F30-34,Female,Most na Soči,Slovenia,Slovenia,SI,0:37:44,2:54:26,1:45:09,,,5:24:06,2264,10466,6309,280,127,19446,366,28,10,392,40,11,480,43,14,366,28,10,Finisher,2781
+Barbara,Briziarelli,Barbara Briziarelli,5,F45-49,Female,Perugia,,Italy,IT,0:35:16,2:45:43,1:55:43,,,5:24:10,2116,9943,6943,299,150,19450,367,29,4,260,21,3,375,24,4,367,29,4,Finisher,3108
+Florian,Gusinde,Florian Gusinde,554,M40-44,Male,Dußlingen,,Germany,DE,0:34:01,2:32:59,2:08:28,,,5:24:19,2041,9179,7708,328,203,19459,368,339,60,192,177,37,196,188,34,368,339,60,Finisher,2468
+Tomislav,Kralj,Tomislav Kralj,264,M25-29,Male,Karlovac,Karlovac,Croatia,HR,0:34:32,2:38:46,2:00:26,,,5:24:20,2072,9526,7226,340,296,19460,369,340,34,220,203,25,271,258,30,369,340,34,Finisher,2001
+Tamara,Eipl,Tamara Eipl,100,F30-34,Female,Tatabanya,,Hungary,HU,0:41:35,2:51:10,1:44:20,,,5:24:24,2495,10270,6260,269,170,19464,370,30,11,572,76,22,484,44,15,370,30,11,Finisher,2775
+Danilo,Vejnovic,Danilo Vejnovic,640,M40-44,Male,Doricici,Kostrena,Croatia,HR,0:31:33,2:57:03,1:47:44,,,5:24:26,1893,10623,6464,323,163,19466,371,341,61,95,87,15,457,419,82,371,341,61,Finisher,2466
+Razvan,Negrila,Razvan Negrila,274,M25-29,Male,London,foreigner,Romania,RO,0:40:20,2:45:21,1:48:23,,,5:24:30,2420,9921,6503,373,253,19470,372,342,35,525,458,47,448,411,41,372,342,35,Finisher,1998
+Salvatore,Alioto,Salvatore Alioto,9,M50-54,Male,Milan,Italy,Italy,IT,0:34:38,2:44:46,1:53:38,,,5:24:32,2078,9886,6818,398,292,19472,373,343,47,222,205,29,378,354,45,373,343,47,Finisher,2375
+Felix,Häfner,Felix Häfner,260,M25-29,Male,Bayreuth,,Germany,DE,0:35:02,2:40:25,2:00:08,,,5:24:44,2102,9625,7208,364,184,19484,374,344,36,245,225,27,305,289,32,374,344,36,Finisher,1994
+Louis,Borne,Louis Borne,217,M18-24,Male,Collonges-sous-Salève,,France,FR,0:41:43,2:46:54,1:44:03,,,5:24:46,2503,10014,6243,395,331,19486,375,345,14,580,503,17,464,425,15,375,345,14,Finisher,2104
+Bartosz,Stanczak,Bartosz Stanczak,627,M40-44,Male,Strzegowo,mazowieckie,Poland,PL,0:42:31,2:29:23,2:03:48,,,5:24:47,2551,8963,7428,277,269,19487,376,346,62,612,530,97,243,232,45,376,346,62,Finisher,2459
+Saša,Moslavac,Saša Moslavac,836,M50-54,Male,Varaždin,Croatia,Croatia,HR,0:35:20,2:56:58,1:42:49,,,5:25:00,2120,10618,6169,321,273,19500,377,347,48,263,242,35,490,446,62,377,347,48,Finisher,2367
+Dalla Vigna,Giovanni,Dalla Vigna Giovanni,425,M35-39,Male,Padova,Padova,Italy,IT,0:41:51,2:33:37,2:00:41,,,5:25:01,2511,9217,7241,350,183,19501,378,348,49,587,510,76,300,285,43,378,348,49,Finisher,2275
+Nicola,Panfili,Nicola Panfili,839,M50-54,Male,Lignano sabbiadoro,Udine,Italy,IT,0:38:23,2:45:01,1:52:43,,,5:25:23,2303,9901,6763,317,238,19523,379,349,49,424,380,49,412,381,52,379,349,49,Finisher,2360
+Andrea,Masetti,Andrea Masetti,360,M30-34,Male,Bologna,BOLOGNA,Italy,IT,0:35:10,2:45:40,1:53:35,,,5:25:26,2110,9940,6815,356,306,19526,380,350,60,254,234,33,390,363,58,380,350,60,Finisher,2134
+Mario,Töfferl,Mario Töfferl,636,M40-44,Male,Wien,,Austria,AT,0:41:15,2:44:59,1:49:58,,,5:25:33,2475,9899,6598,335,226,19533,381,351,63,559,488,85,446,410,79,381,351,63,Finisher,2446
+Moldoveanu,Catalin,Moldoveanu Catalin,534,M40-44,Male,FIRENZE,FIRENZE,Romania,RO,0:35:07,2:44:08,1:58:26,,,5:25:39,2107,9848,7106,306,172,19539,382,352,64,251,231,43,357,335,68,382,352,64,Finisher,2444
+Matej,Hrešcak,Matej Hrešcak,333,M30-34,Male,Ljubljana,Ljubljana,Slovenia,SI,0:39:11,2:49:56,1:47:53,,,5:25:40,2351,10196,6473,261,259,19540,383,353,61,465,417,60,456,418,64,383,353,61,Finisher,2129
+Stefano,Tassan,Stefano Tassan,908,M55-59,Male,Vermezzo,Milano,Italy,IT,0:34:18,2:41:32,1:59:35,,,5:25:48,2058,9692,7175,381,242,19548,384,354,17,204,188,8,314,298,16,384,354,17,Finisher,2833
+Istvan,Ferencz,Istvan Ferencz,683,M45-49,Male,Budapest,Budapest,Hungary,HU,0:34:54,2:46:20,1:55:14,,,5:25:54,2094,9980,6914,279,287,19554,385,355,56,238,219,30,374,351,52,385,355,56,Finisher,2529
+Wouter,Schulz,Wouter Schulz,283,M25-29,Male,Utrecht,Utrecht,Netherlands,NL,0:38:30,2:43:20,1:53:50,,,5:25:58,2310,9800,6830,323,296,19558,386,356,37,431,387,42,396,369,36,386,356,37,Finisher,1972
+Nicky,Heine,Nicky Heine,556,M40-44,Male,München,,Germany,DE,0:38:37,2:35:19,2:00:59,,,5:26:03,2317,9319,7259,436,230,19563,387,357,65,438,394,71,298,284,55,387,357,65,Finisher,2437
+Giovanni,Camon,Giovanni Camon,310,M30-34,Male,Montagnana,VENETO,Italy,IT,0:52:07,2:39:06,1:46:54,,,5:26:09,3127,9546,6414,347,135,19569,388,358,62,762,644,89,481,438,68,388,358,62,Finisher,2121
+Tommaso,Bonatelli,Tommaso Bonatelli,527,M40-44,Male,arese,milano,Italy,IT,0:34:57,2:49:08,1:54:01,,,5:26:13,2097,10148,6841,336,151,19573,389,359,66,242,223,42,421,388,75,389,359,66,Finisher,2434
+Jana,Jerábková,Jana Jerábková,71,F18-24,Female,Velká Bíteš,Česká republika,Czech Republic,CZ,0:35:23,2:47:05,1:53:50,,,5:26:15,2123,10025,6830,289,308,19575,390,31,4,267,22,5,397,28,3,390,31,4,Finisher,2813
+Tilen,Korošec,Tilen Korošec,568,M40-44,Male,ZREČE,Slovenia,Slovenia,SI,0:36:24,2:37:03,2:01:52,,,5:26:21,2184,9423,7312,458,203,19581,391,360,67,326,301,53,297,283,54,391,360,67,Finisher,2431
+Nikola  ,Kosanovic  ,Nikola Kosanovic,569,M40-44,Male,Belgrade,Central Serbia,Serbia,RS,0:43:05,2:45:08,1:48:48,,,5:26:26,2585,9908,6528,386,178,19586,392,361,68,622,538,101,462,423,84,392,361,68,Finisher,2430
+Philip,Wagner,Philip Wagner,644,M40-44,Male,Stadtbergen,,Germany,DE,0:42:24,2:42:08,1:51:24,,,5:26:35,2544,9728,6684,366,272,19595,393,362,69,606,525,96,434,400,76,393,362,69,Finisher,2427
+Dörte,Michels,Dörte Michels,213,F55-59,Female,Steinfurt,NW,Germany,DE,0:33:04,2:45:19,2:00:19,,,5:26:45,1984,9919,7219,313,171,19605,394,32,1,155,13,2,343,19,1,394,32,1,Finisher,3500
+Florian,Putz,Florian Putz,61,M35-39,Male,Oberwang,,Austria,AT,0:41:49,2:41:35,1:55:05,,,5:26:46,2509,9695,6905,276,220,19606,395,363,50,586,509,75,403,373,56,395,363,50,Finisher,2244
+Vladimir,Vuckovic,Vladimir Vuckovic,510,M35-39,Male,Zagreb,,Croatia,HR,0:42:00,2:54:33,1:39:54,,,5:27:02,2520,10473,5994,396,239,19622,396,364,51,597,518,79,554,500,68,396,364,51,Finisher,2239
+Alberto,Silvestroni,Alberto Silvestroni,493,M35-39,Male,Bologna,EMILIA-ROMAGNA,Italy,IT,0:35:26,2:41:08,1:57:49,,,5:27:13,2126,9668,7069,494,276,19633,397,365,52,271,249,38,360,338,49,397,365,52,Finisher,2236
+Marko,Jelic,Marko Jelic,561,M40-44,Male,Pula,,Croatia,HR,0:36:00,2:56:23,1:40:28,,,5:27:17,2160,10583,6028,394,472,19637,398,366,70,301,277,49,507,460,91,398,366,70,Finisher,2414
+Marc,Weber,Marc Weber,760,M45-49,Male,Bubenheim,RHEINLAND-PFALZ,Germany,DE,0:40:25,2:38:25,1:56:41,,,5:27:19,2425,9505,7001,371,336,19639,399,367,57,531,464,75,361,339,50,399,367,57,Finisher,2504
+Rebecca,Joslin,Rebecca Joslin,200,F50-54,Female,Sunshine Beach,QLD,Australia,AU,0:31:20,2:42:01,2:05:54,,,5:27:26,1880,9721,7554,284,208,19646,400,33,1,85,8,1,260,13,1,400,33,1,Finisher,3500
+Robert,Hoffmann,Robert Hoffmann,812,M50-54,Male,Oberwaltersdorf,NIEDEROSTERREICH,Austria,AT,0:34:30,2:34:58,2:09:57,,,5:27:38,2070,9298,7797,329,163,19658,401,368,50,217,200,27,227,218,20,401,368,50,Finisher,2320
+Mastrovic,Marko,Mastrovic Marko,891,M55-59,Male,Opatija,Primorsko - Goranska,Croatia,HR,0:35:02,2:44:10,1:55:50,,,5:27:47,2102,9850,6950,293,473,19667,402,369,18,246,226,9,354,333,20,402,369,18,Finisher,2798
+Simon,Christin,Simon Christin,43,M40-44,Male,PUYCORNET,,France,FR,0:36:03,2:48:09,1:55:11,,,5:27:51,2163,10089,6911,302,204,19671,403,370,71,307,282,50,417,384,74,403,370,71,Finisher,2404
+Jerzy,Lopag,Jerzy Lopag,719,M45-49,Male,Chełm,,Poland,PL,0:46:01,2:35:00,1:57:37,,,5:28:03,2761,9300,7057,365,200,19683,404,371,58,704,606,101,394,367,55,404,371,58,Finisher,2490
+Vito,Stomilovic,Vito Stomilovic,232,M18-24,Male,Ljubljana,Slovenia,Slovenia,SI,0:41:03,2:29:26,2:03:53,,,5:28:08,2463,8966,7433,502,324,19688,405,372,15,556,486,15,269,256,14,405,372,15,Finisher,2043
+Matko,Reder,Matko Reder,739,M45-49,Male,Zagreb,,Croatia,HR,0:37:29,2:45:22,1:55:28,,,5:28:14,2249,9922,6928,314,280,19694,406,373,59,381,345,57,404,374,56,406,373,59,Finisher,2487
+Flavio,Cracco,Flavio Cracco,786,M50-54,Male,Vicenza,,Italy,IT,0:45:24,2:35:15,1:56:37,,,5:28:15,2724,9315,6997,374,286,19695,407,374,51,685,591,79,392,365,49,407,374,51,Finisher,2309
+Monica Alessandra,Riccardi,Monica Alessandra Riccardi,181,F45-49,Female,buscate,milano,Italy,IT,0:36:30,2:53:00,1:47:49,,,5:28:41,2190,10380,6469,368,315,19721,408,34,5,332,27,5,467,40,8,408,34,5,Finisher,3027
+Zvone,Simoncic,Zvone Simoncic,748,M45-49,Male,Sentjernej,Slovenia,Slovenia,SI,0:42:39,2:49:01,1:45:34,,,5:28:45,2559,10141,6334,429,262,19725,409,375,60,614,532,91,504,457,68,409,375,60,Finisher,2478
+Simone,Negrelli,Simone Negrelli,589,M40-44,Male,Castelfranco Emilia,,Italy,IT,0:33:23,2:41:32,2:01:17,,,5:28:47,2003,9692,7277,416,338,19727,410,376,72,166,152,30,307,291,58,410,376,72,Finisher,2387
+Dejan,Stevic,Dejan Stevic,629,M40-44,Male,Novi Sad,Vojvodina,Serbia,RS,0:33:22,2:39:00,2:02:05,,,5:28:57,2002,9540,7325,297,573,19737,411,377,73,165,151,29,251,239,47,411,377,73,Finisher,2384
+Maksims,Lescinskis,Maksims Lescinskis,718,M45-49,Male,Riga,LV,Latvia,LV,0:45:50,2:53:33,1:39:38,,,5:29:02,2750,10413,5978,408,192,19742,412,378,61,698,601,100,577,518,89,412,378,61,Finisher,2473
+Daniela,Iervolino,Daniela Iervolino,172,F45-49,,Ronchi dei Legionari,Ronchi dei legionari,Italy,IT,0:41:43,2:51:23,1:46:13,,,5:29:22,2503,10283,6373,402,201,19762,413,35,6,579,77,16,517,49,9,413,35,6,Finisher,3015
+Alastair,Giles,Alastair Giles,799,M50-54,Male,Kloof,,South Africa,ZA,0:33:40,2:51:29,1:53:29,,,5:29:26,2020,10289,6809,410,238,19766,414,379,52,174,160,20,450,413,57,414,379,52,Finisher,2287
+Igor,Smrke,Igor Smrke,494,M35-39,Male,Ljubljana,Črnuče,Slovenia,SI,0:39:34,2:53:57,1:46:24,,,5:29:49,2374,10437,6384,380,213,19789,415,380,53,494,435,65,520,470,65,415,380,53,Finisher,2189
+Aleksandar,Samardzija,Aleksandar Samardzija,487,M35-39,Male,Belgrade,Central Serbia,Serbia,RS,0:37:04,2:54:23,1:47:25,,,5:29:52,2224,10463,6445,359,301,19792,416,381,54,362,330,52,486,442,62,416,381,54,Finisher,2188
+Patrick,Michl,Patrick Michl,361,M30-34,Male,Muenzkirchen,OBEROSTERREICH,Austria,AT,0:39:18,2:46:11,1:57:01,,,5:30:08,2358,9971,7021,267,192,19808,417,382,63,471,421,61,425,392,63,417,382,63,Finisher,2049
+Christian,Wenzel,Christian Wenzel,862,M50-54,Male,Nottwil,,Switzerland,CH,0:33:04,2:46:49,1:59:42,,,5:30:10,1984,10009,7182,323,313,19810,418,383,53,154,142,17,365,342,43,418,383,53,Finisher,2274
+Pietro,Ciliberti,Pietro Ciliberti,250,M25-29,Male,Pandino,Cremona,Italy,IT,0:36:55,2:49:46,1:55:10,,,5:30:12,2215,10186,6910,284,217,19812,419,384,38,352,321,35,443,408,40,419,384,38,Finisher,1896
+Vivienne,Sparks,Vivienne Sparks,187,F45-49,Female,Rous Lench,GB,United Kingdom,GB,0:37:01,2:49:56,1:54:15,,,5:30:13,2221,10196,6855,295,245,19813,420,36,7,358,32,7,447,37,7,420,36,7,Finisher,2999
+Mario,Collimedaglia,Mario Collimedaglia,784,M50-54,Male,Gropello Cairoli,,Italy,IT,0:37:42,2:30:25,2:08:52,,,5:30:20,2262,9025,7732,523,279,19820,421,385,54,391,352,45,247,235,25,421,385,54,Finisher,2271
+Johanna,Lintl,Johanna Lintl,133,F35-39,Female,Planegg,,Germany,DE,0:39:25,2:47:19,1:54:08,,,5:30:22,2365,10039,6848,284,285,19822,422,37,5,481,56,3,444,36,5,422,37,5,Finisher,2706
+Patrick,Strauss,Patrick Strauss,498,M35-39,Male,Hamburg,foreigner,Germany,DE,0:39:46,2:35:51,2:05:41,,,5:30:45,2386,9351,7541,381,186,19845,423,386,55,501,440,66,311,295,44,423,386,55,Finisher,2172
+Matej,Gradicek,Matej Gradicek,259,M25-29,Male,Sesvete,Zagreb,Croatia,HR,0:45:57,2:52:41,1:37:25,,,5:30:48,2757,10361,5845,493,391,19848,424,387,39,700,603,57,581,521,45,424,387,39,Finisher,1885
+Gerben,Tolkamp,Gerben Tolkamp,398,M30-34,Male,Olst,,Netherlands,NL,0:40:39,2:54:45,1:44:45,,,5:30:54,2439,10485,6285,401,244,19854,425,388,64,545,478,70,541,490,76,425,388,64,Finisher,2035
+Mattia,Berni,Mattia Berni,415,M35-39,Male,Concordia sulla Secchia,MODENA,Italy,IT,0:45:26,2:29:20,1:59:45,,,5:31:20,2726,8960,7185,461,548,19880,426,389,56,688,593,88,320,304,45,426,389,56,Finisher,2162
+Ken,Vercauteren,Ken Vercauteren,508,M35-39,Male,"Hoboken ,Antwerpen",,Belgium,BE,0:38:02,2:35:35,2:07:21,,,5:31:22,2282,9335,7641,387,238,19882,427,390,57,405,363,59,283,269,40,427,390,57,Finisher,2161
+Radic,Nikola,Radic Nikola,979,M35-39,Male,,,Croatia,HR,0:36:25,2:50:01,1:58:20,,,5:31:29,2185,10201,7100,279,125,19889,428,391,58,327,302,48,440,405,58,428,391,58,Finisher,2159
+Francesco,Guglielmi,Francesco Guglielmi,879,M55-59,Male,Vicenza Vi,Vicenza,Italy,IT,0:44:05,2:39:38,1:57:31,,,5:31:36,2645,9578,7051,389,234,19896,429,392,19,649,560,36,428,395,26,429,392,19,Finisher,2729
+Ornello,Formenti,Ornello Formenti,687,M45-49,Male,Ronco Briantino,Monza e Brianza,Italy,IT,0:40:52,2:49:22,1:51:41,,,5:31:38,2452,10162,6701,322,262,19898,430,393,62,553,484,83,466,427,63,430,393,62,Finisher,2426
+Loredano,Boscolo Contadin,Loredano Boscolo Contadin,664,M45-49,Male,Chioggia,VENETO,Italy,IT,0:38:33,2:36:42,2:07:01,,,5:31:41,2313,9402,7621,368,197,19901,431,394,63,433,389,66,302,287,42,431,394,63,Finisher,2425
+Mario,Mutak,Mario Mutak,588,M40-44,Male,Zagreb,APO,Croatia,HR,0:36:42,2:38:41,2:05:20,,,5:31:50,2202,9521,7520,384,282,19910,432,395,74,339,309,54,306,290,57,432,395,74,Finisher,2333
+Pietro,Doretto,Pietro Doretto,676,M45-49,Male,Eraclea,Caorle,Italy,IT,0:36:50,2:44:29,1:55:38,,,5:32:04,2210,9869,6938,686,220,19924,433,396,64,346,315,49,451,414,61,433,396,64,Finisher,2418
+Christian,Klement,Christian Klement,818,M50-54,Male,Wien,,Austria,AT,0:36:21,2:30:50,2:17:00,,,5:32:23,2181,9050,8220,278,214,19943,434,397,55,321,296,40,187,179,15,434,397,55,Finisher,2234
+Bodrogi,Ádám,Bodrogi Ádám,526,M40-44,Male,Biatorbágy,PEST,Hungary,HU,0:31:26,2:54:46,1:57:09,,,5:32:28,1886,10486,7029,309,238,19948,435,398,75,90,82,14,441,406,78,435,398,75,Finisher,2321
+Katerina,Zimova,Katerina Zimova,127,F30-34,Female,Prague 8,Prague,Czech Republic,CZ,0:39:15,2:50:42,1:54:14,,,5:32:34,2355,10242,6854,274,228,19954,436,38,12,469,50,15,459,39,12,436,38,12,Finisher,2628
+Evgeni,Vasilev,Evgeni Vasilev,505,M35-39,Male,Sofia,Sofia-Grad,Bulgaria,BG,0:32:40,2:44:13,1:58:45,,,5:32:42,1960,9853,7125,532,492,19962,437,399,59,138,127,21,372,349,52,437,399,59,Finisher,2137
+Alessandro,Princiotta,Alessandro Princiotta,930,M60-64,Male,Messina,,Italy,IT,0:35:29,2:45:09,1:58:34,,,5:33:02,2129,9909,7114,567,263,19982,438,400,8,276,253,6,427,394,11,438,400,8,Finisher,2612
+Faris,Catic,Faris Catic,219,M18-24,Male,Sarajevo,Federation of Bosnia & Herzegovina,Bosnia and Herzegovina,BA,0:34:08,2:56:38,1:54:03,,,5:33:03,2048,10598,6843,307,187,19983,439,401,16,196,180,13,472,432,16,439,401,16,Finisher,1955
+Filip,Slabotinský,Filip Slabotinský,387,M30-34,Male,Křenovice,South Moravian Region,Czech Republic,CZ,0:45:27,2:46:59,1:50:51,,,5:33:10,2727,10019,6651,400,194,19990,440,402,65,689,594,86,510,463,72,440,402,65,Finisher,1994
+Jurij,Marušic,Jurij Marušic,462,M35-39,Male,Ljubljana,Ljubljana,Slovenia,SI,0:46:06,2:50:52,1:38:13,,,5:33:19,2766,10252,5893,636,452,19999,441,403,60,705,607,90,586,526,72,441,403,60,Finisher,2126
+Aleš,Obretan,Aleš Obretan,475,M35-39,Male,Ljubljana,Ljubljana,Slovenia,SI,0:36:12,2:42:29,2:04:55,,,5:33:28,2172,9749,7495,383,210,20008,442,404,61,314,289,44,362,340,50,442,404,61,Finisher,2123
+Clara,Balandreaud,Clara Balandreaud,80,F25-29,Female,Rueil-Malmaison,,France,FR,0:36:01,3:05:01,1:41:03,,,5:33:56,2161,11101,6063,427,284,20036,443,39,5,304,25,3,593,62,8,443,39,5,Finisher,2795
+Emanuele,Filippi,Emanuele Filippi,435,M35-39,Male,Casina,EMILIA-ROMAGNA,Italy,IT,0:37:22,2:52:30,1:55:23,,,5:33:57,2242,10350,6923,362,159,20037,444,405,62,378,342,55,473,433,60,444,405,62,Finisher,2114
+Alen,Madrusa,Alen Madrusa,355,M30-34,Male,Eindhoven,,Croatia,HR,0:45:21,2:44:51,1:46:44,,,5:34:07,2721,9891,6404,543,487,20047,445,406,66,684,590,84,513,465,73,445,406,66,Finisher,1977
+Matjaž,Recelj,Matjaž Recelj,738,M45-49,Male,Novo Mesto,,Slovenia,SI,0:37:22,2:56:55,1:49:44,,,5:34:07,2242,10615,6584,413,194,20047,446,407,65,377,341,55,530,479,79,446,407,65,Finisher,2381
+Hubert,Becker,Hubert Becker,869,M55-59,Male,Bindlach,,Germany,DE,0:38:35,2:48:46,1:54:47,,,5:34:18,2315,10126,6887,433,298,20058,447,408,20,436,392,23,460,421,27,447,408,20,Finisher,2680
+Heinrichrudolf,Sieger,Heinrichrudolf Sieger,284,M25-29,Male,Brezovica,Ljubljana,Slovenia,SI,0:35:29,2:44:05,2:01:50,,,5:34:18,2129,9845,7310,485,288,20058,448,409,40,277,254,30,398,370,37,448,409,40,Finisher,1822
+Thomas,Pichler,Thomas Pichler,900,M55-59,Male,Weiz,,Austria,AT,0:39:34,2:43:05,2:02:22,,,5:34:19,2374,9785,7342,327,231,20059,449,410,21,492,434,28,405,375,23,449,410,21,Finisher,2680
+Donald,Albrecht,Donald Albrecht,867,M55-59,Male,Visp,,Switzerland,CH,0:40:28,2:33:45,2:10:58,,,5:34:29,2428,9225,7858,326,231,20069,450,411,22,534,467,31,276,262,11,450,411,22,Finisher,2677
+Barbara,Konrad,Barbara Konrad,37,F40-44,Female,Feldbach,,Austria,AT,0:40:00,2:52:44,1:52:39,,,5:34:38,2400,10364,6759,336,218,20078,451,40,5,512,64,7,497,45,5,451,40,5,Finisher,2710
+Tomaž,Penko,Tomaž Penko,599,M40-44,Male,Ljubljana,Ljubljana,Slovenia,SI,0:42:16,2:33:20,2:03:09,,,5:34:52,2536,9200,7389,423,543,20092,452,412,76,604,524,95,325,309,60,452,412,76,Finisher,2278
+Adrienn,Dr. Fentos,Adrienn Dr. Fentos,168,F45-49,Female,Kaposvár,,Hungary,HU,0:37:34,2:45:30,2:03:47,,,5:34:52,2254,9930,7427,285,196,20092,453,41,8,384,38,9,401,29,6,453,41,8,Finisher,2916
+Gregor,Gomboši,Gregor Gomboši,550,M40-44,Male,Gornja Radgona,,Slovenia,SI,0:43:52,2:48:13,1:53:52,,,5:35:05,2632,10093,6832,354,194,20105,454,413,77,642,554,104,493,449,88,454,413,77,Finisher,2274
+Bartek,Jaczun,Bartek Jaczun,703,M45-49,Male,Komorniki,,Poland,PL,0:34:58,2:48:32,2:00:39,,,5:35:10,2098,10112,7239,284,377,20110,455,414,66,243,224,32,407,377,57,455,414,66,Finisher,2362
+Stefano,Porobic,Stefano Porobic,371,M30-34,Male,London,,Croatia,HR,0:38:29,2:32:15,2:04:49,,,5:35:20,2309,9135,7489,775,412,20120,456,415,67,430,386,55,344,325,51,456,415,67,Finisher,1955
+Daniel,Frechen,Daniel Frechen,437,M35-39,Male,Starnberg,,Germany,DE,0:38:46,2:41:55,2:03:25,,,5:35:57,2326,9715,7405,427,284,20157,457,416,63,447,402,62,400,372,55,457,416,63,Finisher,2078
+Diego,Prodoni,Diego Prodoni,605,M40-44,Male,Collegno,Torino,Italy,IT,0:42:07,2:52:09,1:52:22,,,5:36:23,2527,10329,6742,374,211,20183,458,417,78,600,521,93,523,472,92,458,417,78,Finisher,2251
+Martin,Brabenec,Martin Brabenec,530,M40-44,Male,Mnisek pod Brdy,Central Bohemian Region,Czech Republic,CZ,0:37:12,2:40:09,2:10:37,,,5:36:32,2232,9609,7837,299,216,20192,459,418,79,368,335,59,318,302,59,459,418,79,Finisher,2248
+Roberto,Sassetti,Roberto Sassetti,615,M40-44,Male,Campi Bisenzio,Firenze,Italy,IT,0:41:26,3:02:59,1:42:00,,,5:36:41,2486,10979,6120,397,219,20201,460,419,80,567,493,87,614,548,103,460,419,80,Finisher,2245
+Giampaolo,Formica,Giampaolo Formica,545,M40-44,Male,Barbarano romano,Viterbo,Italy,IT,0:32:12,2:50:25,2:06:53,,,5:36:48,1932,10225,7613,258,179,20208,461,420,81,125,115,22,393,366,72,461,420,81,Finisher,2243
+Gilles,Fontaine,Gilles Fontaine,920,M60-64,Male,pelleautier,HAUTES-ALPES,France,FR,0:33:14,2:48:32,2:02:29,,,5:37:01,1994,10112,7349,435,330,20221,462,421,9,162,148,2,413,382,8,462,421,9,Finisher,2540
+Jean-Louis,Martin,Jean-Louis Martin,925,M60-64,Male,LORRAINE,,France,FR,0:39:28,2:34:49,2:12:59,,,5:37:15,2368,9289,7979,340,258,20235,463,422,10,485,428,13,281,267,6,463,422,10,Finisher,2536
+Dana,Hricisin,Dana Hricisin,148,F40-44,Female,Prague,foreigner,Czech Republic,CZ,0:45:14,2:58:42,1:45:44,,,5:37:33,2714,10722,6344,313,161,20253,464,42,6,681,94,12,599,65,8,464,42,6,Finisher,2657
+Tjaša,Kmet,Tjaša Kmet,85,F25-29,Female,Trbovlje,Zasavje,Slovenia,SI,0:37:18,2:47:11,2:05:23,,,5:37:47,2238,10031,7523,280,195,20267,465,43,6,374,36,5,415,32,4,465,43,6,Finisher,2726
+Stefano,Ciarleglio,Stefano Ciarleglio,44,M55-59,Male,trento,trento,Italy,IT,0:35:53,2:56:46,1:54:32,,,5:37:50,2153,10606,6872,432,208,20270,466,423,23,293,269,15,518,469,30,466,423,23,Finisher,2617
+Primož,Lisjak,Primož Lisjak,459,M35-39,Male,Šmarje,Šmarje,Slovenia,SI,0:43:47,2:50:48,1:53:11,,,5:38:08,2627,10248,6791,405,216,20288,467,424,64,641,553,82,533,482,66,467,424,64,Finisher,2039
+Jimmy,Allott,Jimmy Allott,238,M25-29,Male,Leeds,West Yorkshire,United Kingdom,GB,0:49:20,2:47:58,1:52:11,,,5:38:11,2960,10078,6731,334,189,20291,468,425,41,743,631,58,551,498,44,468,425,41,Finisher,1752
+Boris,Zmazek,Boris Zmazek,938,M60-64,Male,Kidričevo,,Slovenia,SI,0:44:29,2:38:26,2:03:17,,,5:38:17,2669,9506,7397,445,280,20297,469,426,11,662,571,18,432,398,12,469,426,11,Finisher,2518
+Rigó,Zsolt,Rigó Zsolt,768,M45-49,Male,Budapest,,Hungary,HU,0:38:37,2:53:55,1:48:59,,,5:38:19,2317,10435,6539,640,368,20299,470,427,67,437,393,67,555,501,85,470,427,67,Finisher,2306
+Ludek,Borkovec,Ludek Borkovec,416,M35-39,Male,Dolní Loučky,,Czech Republic,CZ,0:41:49,2:49:18,1:55:57,,,5:38:35,2509,10158,6957,414,276,20315,471,428,65,585,508,74,494,450,63,471,428,65,Finisher,2031
+Ilze,Lescinska,Ilze Lescinska,156,F40-44,Female,Riga,Latvia,Latvia,LV,0:47:51,2:57:43,1:43:04,,,5:38:53,2871,10663,6184,428,186,20333,472,44,7,729,105,16,627,71,9,472,44,7,Finisher,2633
+Weronika,Tylak,Weronika Tylak,125,F30-34,Female,Łódź,łódzkie,Poland,PL,0:41:28,2:52:22,1:54:33,,,5:38:55,2488,10342,6873,315,317,20335,473,45,13,569,75,21,511,48,16,473,45,13,Finisher,2514
+Michaela,Wurm,Michaela Wurm,190,F45-49,Female,Baden,NIEDEROSTERREICH,Austria,AT,0:38:12,2:42:41,2:07:30,,,5:38:56,2292,9761,7650,325,308,20336,474,46,9,415,44,11,379,25,5,474,46,9,Finisher,2843
+Juergen,Haussecker,Juergen Haussecker,883,M55-59,Male,Pottendorf,,Germany,DE,0:29:35,2:50:31,2:08:40,,,5:39:12,1775,10231,7720,336,290,20352,475,429,24,40,36,1,371,348,22,475,429,24,Finisher,2592
+Arno,Vrancken,Arno Vrancken,296,M25-29,Male,Bredene,,Belgium,BE,0:38:54,2:51:00,1:57:32,,,5:39:25,2334,10260,7052,501,218,20365,476,430,42,456,410,44,495,451,42,476,430,42,Finisher,1730
+Diego,Longhin,Diego Longhin,54,M55-59,Male,SOVIZZO,VICENZA,Italy,IT,0:35:33,2:38:09,2:12:31,,,5:39:33,2133,9489,7951,442,358,20373,477,431,25,281,258,14,296,282,15,477,431,25,Finisher,2586
+Fabio,Caputo,Fabio Caputo,667,M45-49,Male,Lainate,Milano,Italy,IT,0:36:54,2:56:26,1:55:41,,,5:39:35,2214,10586,6941,412,222,20375,478,432,68,350,319,50,522,471,74,478,432,68,Finisher,2283
+Elena,Nocerino,Elena Nocerino,116,F30-34,Female,Trieste,Trieste,Italy,IT,0:38:08,3:04:16,1:49:09,,,5:39:40,2288,11056,6549,261,225,20380,479,47,14,412,43,13,580,60,19,479,47,14,Finisher,2501
+Reiko,Seefeldt,Reiko Seefeldt,619,M40-44,Male,Ulm,,Germany,DE,0:42:38,2:34:14,2:12:16,,,5:39:50,2558,9254,7936,367,276,20390,480,433,82,613,531,98,336,318,62,480,433,82,Finisher,2189
+Andics,Roland,Andics Roland,518,M40-44,Male,Budapest,Budapest,Hungary,HU,0:44:02,2:46:17,1:55:26,,,5:39:50,2642,9977,6926,516,329,20390,481,434,83,648,559,105,506,459,90,481,434,83,Finisher,2189
+Ben,Kettleborough,Ben Kettleborough,564,M40-44,Male,NEWARK,,United Kingdom,GB,0:33:50,2:41:24,2:16:31,,,5:40:20,2030,9684,8191,298,217,20420,482,435,84,185,170,36,285,271,51,482,435,84,Finisher,2180
+Stefania,Filippi,Stefania Filippi,6,F55-59,Female,Cortina d ampezzo,,Italy,IT,0:43:10,2:53:24,1:53:29,,,5:40:34,2590,10404,6809,403,228,20434,483,48,2,626,85,4,556,55,2,483,48,2,Finisher,3251
+Andrew,Matthews,Andrew Matthews,270,M25-29,Male,Epsom,Surrey,United Kingdom,GB,0:44:29,2:54:05,1:46:47,,,5:40:36,2669,10445,6407,551,364,20436,484,436,43,663,572,55,588,528,48,484,436,43,Finisher,1709
+Pavel,Šafár,Pavel Šafár,499,M35-39,Male,Praha 10,Czech Republic,Czech Republic,CZ,0:34:52,3:12:10,1:42:31,,,5:40:43,2092,11530,6151,510,161,20443,485,437,66,235,216,34,644,568,83,485,437,66,Finisher,1993
+Natan,Pospiech,Natan Pospiech,372,M30-34,Male,Krakow,,Poland,PL,0:43:36,2:48:12,1:59:59,,,5:40:44,2616,10092,7199,346,190,20444,486,438,68,635,548,78,489,445,69,486,438,68,Finisher,1858
+Gábor,Dr. Haraszti,Gábor Dr. Haraszti,327,M30-34,Male,Biatorbágy,,Hungary,HU,0:40:38,2:54:55,1:56:05,,,5:40:51,2438,10495,6965,346,207,20451,487,439,69,543,476,69,532,481,75,487,439,69,Finisher,1856
+Matteo,Penzo,Matteo Penzo,842,M50-54,Male,valdagno,VICENZA,Italy,IT,0:37:10,2:51:34,1:59:52,,,5:40:51,2230,10294,7192,414,321,20451,488,440,56,366,333,44,468,428,59,488,440,56,Finisher,2082
+Jochen,Stocker,Jochen Stocker,630,M40-44,Male,Graz,,Austria,AT,0:35:55,2:39:57,2:15:23,,,5:40:56,2155,9597,8123,409,171,20456,489,441,85,297,273,48,328,312,61,489,441,85,Finisher,2169
+Tomislav,Cvitanusic,Tomislav Cvitanusic,787,M50-54,Male,Sarajevo,FEDERACIJA BOSNE I HERCEGOVINE,Bosnia and Herzegovina,BA,0:40:38,2:45:05,2:03:51,,,5:41:09,2438,9905,7431,295,399,20469,490,442,57,544,477,64,435,401,55,490,442,57,Finisher,2076
+Grzegorz,Pucek,Grzegorz Pucek,845,M50-54,Male,BIELANY WROCLAWSKIE,,Poland,PL,0:43:56,2:53:30,1:53:42,,,5:41:30,2636,10410,6822,365,257,20490,491,443,58,643,555,74,559,503,68,491,443,58,Finisher,2070
+Gerhard,Hobek,Gerhard Hobek,884,M55-59,Male,Wien,,Austria,AT,0:39:32,2:43:46,2:08:18,,,5:41:32,2372,9826,7698,359,238,20492,492,444,26,488,431,27,418,385,24,492,444,26,Finisher,2550
+Vladimir,Pecho,Vladimir Pecho,840,M50-54,Male,Trnava,Slovakia,Slovakia,SK,0:36:06,2:39:50,2:14:54,,,5:41:39,2166,9590,8094,409,241,20499,493,445,59,310,285,39,329,313,39,493,445,59,Finisher,2067
+Jaromír,Hejl,Jaromír Hejl,557,M40-44,Male,Tišnov,CZE,Czech Republic,CZ,0:47:23,2:48:33,1:55:43,,,5:42:05,2843,10113,6943,385,241,20525,494,446,86,723,619,114,542,491,94,494,446,86,Finisher,2148
+Krisztian,Farkas,Krisztian Farkas,682,M45-49,Male,Budapest,,Hungary,HU,0:44:17,3:00:04,1:43:52,,,5:42:23,2657,10804,6232,437,413,20543,495,447,69,657,566,95,618,551,93,495,447,69,Finisher,2232
+Andrea,De Marco,Andrea De Marco,674,M45-49,Male,Caorle,Ve,Italy,IT,0:39:52,2:51:46,1:59:45,,,5:42:30,2392,10306,7185,443,225,20550,496,448,70,507,444,73,509,462,70,496,448,70,Finisher,2230
+Domenico,Giuliani,Domenico Giuliani,801,M50-54,Male,TREVIGLIO,BERGAMO,Italy,IT,0:39:20,2:50:00,2:05:07,,,5:42:56,2360,10200,7507,374,134,20576,497,449,60,474,424,54,465,426,58,497,449,60,Finisher,2044
+Christoph,Mittlinger,Christoph Mittlinger,723,M45-49,Male,Eggersdorf bei Graz,,Austria,AT,0:40:49,2:52:55,1:57:57,,,5:43:04,2449,10375,7077,352,331,20584,498,450,71,549,480,80,515,467,72,498,450,71,Finisher,2220
+Gerald,Gaston,Gerald Gaston,19,M35-39,Male,Realville,,France,FR,0:39:47,2:48:40,2:04:36,,,5:43:07,2387,10120,7476,366,238,20587,499,451,67,503,441,67,461,422,59,499,451,67,Finisher,1949
+Stefano,Cisco,Stefano Cisco,782,M50-54,Male,Montecchio Maggiore,Vicenza,Italy,IT,0:35:37,2:53:14,2:03:25,,,5:43:17,2137,10394,7405,407,254,20597,500,452,61,285,262,36,469,429,60,500,452,61,Finisher,2038
+Julie,Monot,Julie Monot,115,F30-34,Female,Sevres,,France,FR,0:36:39,3:01:16,1:58:26,,,5:43:50,2199,10876,7106,276,174,20630,501,49,15,336,29,8,548,53,17,501,49,15,Finisher,2426
+DAVIDE,BOFFA,DAVIDE BOFFA,662,M45-49,Male,ALBA,,Italy,IT,0:40:30,3:03:03,1:42:44,,,5:44:12,2430,10983,6164,794,281,20652,502,453,72,536,469,77,654,576,98,502,453,72,Finisher,2200
+Andy,Owens,Andy Owens,897,M55-59,Male,St Ives,HAMPSHIRE,United Kingdom,GB,0:40:24,2:36:05,2:13:04,,,5:44:16,2424,9365,7984,517,366,20656,503,454,27,530,463,30,363,341,21,503,454,27,Finisher,2501
+Veronika,Schmidt,Veronika Schmidt,184,F45-49,Female,Purbach,,Austria,AT,0:38:38,3:08:58,1:46:31,,,5:44:30,2318,11338,6391,373,250,20670,504,50,10,439,45,12,637,75,15,504,50,10,Finisher,2742
+Slavko,Pilipovic,Slavko Pilipovic,278,M25-29,Male,München,,Serbia,RS,0:42:26,2:56:34,1:51:14,,,5:44:41,2546,10594,6674,496,371,20681,505,455,44,608,527,50,583,523,46,505,455,44,Finisher,1635
+Tone,Pekolj,Tone Pekolj,597,M40-44,Male,Kranj,Kranj,Slovenia,SI,0:42:49,2:46:54,2:05:52,,,5:44:46,2569,10014,7552,382,169,20686,506,456,87,617,534,99,474,434,85,506,456,87,Finisher,2100
+Tomas,Drinka,Tomas Drinka,433,M35-39,Male,Lednicke Rovne,foreigner,Slovakia,SK,0:44:51,2:58:40,1:53:29,,,5:44:49,2691,10720,6809,409,60,20689,507,457,68,673,581,85,609,543,79,507,457,68,Finisher,1919
+Ben,Wilkinson,Ben Wilkinson,762,M45-49,Male,Caterham,,United Kingdom,GB,0:37:35,2:58:05,1:58:41,,,5:44:58,2255,10685,7121,379,257,20698,508,458,73,385,347,58,539,488,82,508,458,73,Finisher,2186
+Ana,Miocic,Ana Miocic,178,F45-49,Female,zadar,croatia,Croatia,HR,0:39:23,3:00:32,1:57:51,,,5:45:14,2363,10832,7071,267,180,20714,509,51,11,479,54,14,562,58,10,509,51,11,Finisher,2729
+Silke,Schachenmeier,Silke Schachenmeier,137,F35-39,Female,Miesbach,,Germany,DE,0:43:23,2:59:32,1:53:19,,,5:45:15,2603,10772,6799,360,181,20715,510,52,6,630,86,7,598,64,6,510,52,6,Finisher,2438
+Robert,Sparks,Robert Sparks,852,M50-54,Male,Long Clawson,Leicestershire,United Kingdom,GB,0:45:58,2:45:33,1:58:43,,,5:45:18,2758,9933,7123,599,304,20718,511,459,62,702,604,81,535,484,66,511,459,62,Finisher,2002
+Igor,Podravac,Igor Podravac,600,M40-44,Male,Zagreb,,Croatia,HR,0:38:33,2:47:11,2:05:42,,,5:45:20,2313,10031,7542,441,393,20720,512,460,88,434,390,70,454,416,81,512,460,88,Finisher,2090
+Michele,Zanet,Michele Zanet,765,M45-49,Male,Portogruaro,foreigner,Italy,IT,0:44:58,2:39:19,2:07:51,,,5:45:31,2698,9559,7671,539,263,20731,513,461,74,677,585,98,455,417,62,513,461,74,Finisher,2176
+Vladimir,Bencic,Vladimir Bencic,305,M30-34,Male,Novi Sad,Serbia,Serbia,RS,0:45:48,2:57:39,1:49:31,,,5:45:41,2748,10659,6571,357,407,20741,514,462,70,697,600,87,602,537,79,514,462,70,Finisher,1769
+Harald,Wagner,Harald Wagner,912,M55-59,Male,Lisberg,BY,Germany,DE,0:35:15,2:46:53,2:09:02,,,5:45:46,2115,10013,7742,439,437,20746,515,463,28,259,239,11,419,386,25,515,463,28,Finisher,2474
+Cecilia,Castagnone,Cecilia Castagnone,82,F25-29,Female,Torino,Torino,Italy,IT,0:38:51,2:54:13,1:59:35,,,5:45:46,2331,10453,7175,410,376,20746,516,53,7,451,46,6,521,51,7,516,53,7,Finisher,2582
+Tamás,Farkas,Tamás Farkas,791,M50-54,Male,Telki,,Hungary,HU,0:36:36,2:52:44,1:58:59,,,5:46:14,2196,10364,7139,550,526,20774,517,464,63,334,306,42,498,453,63,517,464,63,Finisher,1985
+Juraj,Pis,Juraj Pis,59,M35-39,Male,Rudná,Prague - West,Czech Republic,CZ,0:32:05,2:52:39,2:13:30,,,5:46:27,1925,10359,8010,312,181,20787,518,465,69,114,104,17,426,393,57,518,465,69,Finisher,1889
+Jeremy,Gebers,Jeremy Gebers,258,M25-29,Male,London,United Kingdom,South Africa,ZA,0:30:15,3:04:36,2:01:21,,,5:46:50,1815,11076,7281,386,253,20810,519,466,45,53,49,10,531,480,43,519,466,45,Finisher,1596
+Bernard,Stejskal,Bernard Stejskal,933,M60-64,Male,wien,,Austria,AT,0:34:29,2:50:28,2:14:31,,,5:47:21,2069,10228,8071,275,198,20841,520,467,12,215,199,3,420,387,10,520,467,12,Finisher,2354
+Maxime,Scarcez,Maxime Scarcez,282,M25-29,Male,Laeken,,Belgium,BE,0:38:27,2:35:54,2:20:22,,,5:47:33,2307,9354,8422,341,429,20853,521,468,46,427,383,40,282,268,31,521,468,46,Finisher,1583
+Caterina,Fuin,Caterina Fuin,145,F40-44,Female,Caorle,Ve,Italy,IT,0:40:08,2:53:20,2:00:49,,,5:47:41,2408,10400,7249,533,270,20861,522,54,8,518,66,9,543,52,6,522,54,8,Finisher,2475
+Andrea,Vico,Andrea Vico,33,M50-54,Male,matelica,foreigner,Italy,IT,0:49:11,2:45:54,2:02:50,,,5:47:44,2951,9954,7370,347,242,20864,523,469,64,742,630,86,526,475,65,523,469,64,Finisher,1958
+Jasper,Eikelboom,Jasper Eikelboom,316,M30-34,Male,Gendt,Gelderland,Netherlands,NL,0:37:16,2:43:19,2:16:52,,,5:47:44,2236,9799,8212,375,241,20864,524,470,71,370,336,48,391,364,59,524,470,71,Finisher,1732
+Massimo,Bergo,Massimo Bergo,915,M60-64,Male,Caorle,Caorle,Italy,IT,0:39:15,3:00:06,1:55:28,,,5:48:06,2355,10806,6928,507,291,20886,525,471,13,470,420,12,590,530,20,525,471,13,Finisher,2341
+Robert,Pikl,Robert Pikl,480,M35-39,Male,Trbovlje,Trbovlje,Slovenia,SI,0:36:59,2:59:24,1:59:09,,,5:48:13,2219,10764,7149,477,284,20893,526,472,70,356,325,50,561,504,70,526,472,70,Finisher,1858
+Corrado,Pesce,Corrado Pesce,898,M55-59,Male,Verona,VENETO,Italy,IT,0:38:56,2:51:01,2:08:05,,,5:48:28,2336,10261,7685,355,271,20908,527,473,29,459,412,26,471,431,28,527,473,29,Finisher,2425
+Darko,Alihodžic,Darko Alihodžic,651,M45-49,Male,Poreč,Croatia,Croatia,HR,0:36:14,2:59:28,2:03:46,,,5:48:35,2174,10768,7426,309,238,20915,528,474,75,317,292,44,525,474,76,528,474,75,Finisher,2121
+Alessio,Pennati,Alessio Pennati,730,M45-49,Male,Volterra,Pisa,Italy,IT,0:37:57,2:56:08,1:59:26,,,5:48:44,2277,10568,7166,631,281,20924,529,475,76,402,360,62,566,508,87,529,475,76,Finisher,2118
+Ivan,Dakic,Ivan Dakic,540,M40-44,Male,Zagreb,,Croatia,HR,0:40:14,2:53:27,2:04:10,,,5:48:58,2414,10407,7450,305,361,20938,530,476,89,521,454,80,502,455,89,530,476,89,Finisher,2024
+Roland,Herberg,Roland Herberg,696,M45-49,Male,Messina,,Italy,IT,0:32:11,2:58:06,2:01:50,,,5:48:59,1931,10686,7310,614,397,20939,531,477,77,124,114,10,524,473,75,531,477,77,Finisher,2114
+Mirna,Marovic,Mirna Marovic,8,F50-54,Female,Zagreb,,Croatia,HR,0:37:37,2:54:12,2:05:31,,,5:49:17,2257,10452,7531,414,304,20957,532,55,2,386,39,3,500,47,3,532,55,2,Finisher,3106
+Tim,Harris,Tim Harris,20,M60-64,Male,New Mexico,foreigner,United States,US,0:40:25,2:56:46,1:57:40,,,5:49:19,2425,10606,7060,448,419,20959,533,478,14,532,465,16,567,509,17,533,478,14,Finisher,2319
+Philipp,Klauser,Philipp Klauser,708,M45-49,Male,Zumikon,,Switzerland,CH,0:30:21,3:08:22,2:03:18,,,5:49:25,1821,11302,7398,257,186,20965,534,479,78,56,52,5,552,499,84,534,479,78,Finisher,2106
+Leanne,Klauser,Leanne Klauser,73,F18-24,Female,Zumikon,,Switzerland,CH,0:30:25,3:07:52,2:03:17,,,5:49:26,1825,11272,7397,288,184,20966,535,56,5,58,5,2,553,54,5,535,56,5,Finisher,2396
+Miroslava,Valasikova,Miroslava Valasikova,164,F40-44,Female,Levice,Nitriansky,Slovakia,SK,0:39:23,2:59:52,1:55:05,,,5:49:28,2363,10792,6905,524,383,20968,536,57,9,478,53,4,591,61,7,536,57,9,Finisher,2443
+Tadej,Povhe,Tadej Povhe,603,M40-44,Male,Ljubljana,Slovenia,Slovenia,SI,0:39:32,2:49:03,2:11:22,,,5:49:33,2372,10143,7882,355,221,20973,537,480,90,489,432,78,458,420,83,537,480,90,Finisher,2014
+Mario,Di Re,Mario Di Re,541,M40-44,Male,Torino,To,Italy,IT,0:36:06,3:12:59,1:50:29,,,5:50:08,2166,11579,6629,408,226,21008,538,481,91,308,283,51,650,574,108,538,481,91,Finisher,2003
+Ivan,Bekavac,Ivan Bekavac,241,M25-29,Male,Zagreb,Grad Zagreb,Croatia,HR,0:43:09,2:58:49,1:55:19,,,5:50:10,2589,10729,6919,496,277,21010,539,482,47,624,540,51,607,541,50,539,482,47,Finisher,1536
+Tina,Petric,Tina Petric,118,F30-34,Female,Trbovlje,Slovenia,Slovenia,SI,0:34:59,2:49:07,2:17:41,,,5:50:12,2099,10147,8261,306,199,21012,540,58,16,244,20,7,416,33,9,540,58,16,Finisher,2311
+Lada,Tedeschi Fiorio,Lada Tedeschi Fiorio,188,F45-49,Female,Zagreb,Zagreb,Croatia,HR,0:44:01,3:04:31,1:50:48,,,5:50:38,2641,11071,6648,453,226,21038,541,59,12,647,89,20,651,77,16,541,59,12,Finisher,2632
+Sara,Stoehr,Sara Stoehr,122,F30-34,Female,Stuttgart,foreigner,Germany,DE,0:39:52,2:48:33,2:10:18,,,5:50:53,2392,10113,7818,478,252,21053,542,60,17,506,63,18,478,42,13,542,60,17,Finisher,2299
+Laura,Michelucci,Laura Michelucci,177,F45-49,Female,Brugherio,Brugherio,Italy,IT,0:37:07,3:02:52,2:00:42,,,5:51:07,2227,10972,7242,369,258,21067,543,61,13,364,33,8,575,59,11,543,61,13,Finisher,2623
+Jan,Foraus,Jan Foraus,436,M35-39,Male,Kranj,Ljubljana,Slovenia,SI,0:38:01,2:54:25,2:07:49,,,5:51:14,2281,10465,7669,401,258,21074,544,483,71,404,362,58,512,464,64,544,483,71,Finisher,1803
+Hrvoje,Baranovic,Hrvoje Baranovic,657,M45-49,Male,Zadar,Zadarska županija,Croatia,HR,0:38:52,3:00:09,2:00:58,,,5:51:31,2332,10809,7258,396,296,21091,545,484,79,452,406,69,571,513,88,545,484,79,Finisher,2068
+Matteo,Battiston,Matteo Battiston,773,M50-54,Male,Rho,Milano,Italy,IT,0:42:26,2:57:05,2:02:06,,,5:51:36,2546,10625,7326,391,208,21096,546,485,65,607,526,69,574,516,69,546,485,65,Finisher,1888
+Stipe,Staglicic,Stipe Staglicic,393,M30-34,Male,Zadar,Zadarska,Croatia,HR,0:38:55,2:58:44,2:02:45,,,5:51:47,2335,10724,7365,469,215,21107,547,486,72,457,411,58,569,511,77,547,486,72,Finisher,1659
+Andries,Coenen,Andries Coenen,422,M35-39,Male,Genk,,Belgium,BE,0:37:08,3:05:02,1:55:51,,,5:52:16,2228,11102,6951,478,377,21136,548,487,72,365,332,53,606,540,78,548,487,72,Finisher,1785
+Filip,Fajdetic,Filip Fajdetic,252,M25-29,Male,Zagreb,Grad Zagreb,Croatia,HR,0:39:05,3:03:53,1:59:54,,,5:52:22,2345,11033,7194,374,195,21142,549,488,48,463,415,45,600,535,49,549,488,48,Finisher,1497
+Nina,Pokorny,Nina Pokorny,179,F45-49,Female,Klagenfurt,,Austria,AT,0:36:35,3:03:43,1:59:33,,,5:52:35,2195,11023,7173,479,284,21155,550,62,14,333,28,6,595,63,12,550,62,14,Finisher,2597
+Stefan,Woronka,Stefan Woronka,763,M45-49,Male,Baddeckenstedt,NIEDERSACHSEN,Germany,DE,0:38:07,2:53:19,2:12:32,,,5:52:40,2287,10399,7952,346,176,21160,551,489,80,411,369,64,483,440,67,551,489,80,Finisher,2047
+Ivan,Klaric,Ivan Klaric,565,M40-44,Male,Gornji Laduc,Zapresic,Croatia,HR,0:38:31,2:38:35,2:26:26,,,5:52:56,2311,9515,8786,370,194,21176,552,490,92,432,388,69,341,323,64,552,490,92,Finisher,1953
+Lars,Schönfeld,Lars Schönfeld,488,M35-39,Male,Hannover,,Germany,DE,0:40:15,3:04:40,1:56:43,,,5:53:04,2415,11080,7003,304,381,21184,553,491,73,522,455,69,605,539,77,553,491,73,Finisher,1770
+Michele,Bottega,Michele Bottega,529,M40-44,Male,Miane,Treviso,Italy,IT,0:42:54,2:50:25,2:07:20,,,5:53:10,2574,10225,7640,503,248,21190,554,492,93,618,535,100,537,486,93,554,492,93,Finisher,1949
+Jelena,Jankovic-Laskovic,Jelena Jankovic-Laskovic,199,F50-54,Female,Belgrade,BEOGRAD,Serbia,RS,0:39:12,2:53:40,2:10:12,,,5:53:38,2352,10420,7812,418,216,21218,555,63,3,466,49,4,519,50,4,555,63,3,Finisher,3028
+Bara,Hancikova,Bara Hancikova,102,F30-34,Female,Praha,Czech Republic,Czech Republic,CZ,0:40:43,2:57:46,2:07:21,,,5:53:42,2443,10666,7641,293,180,21222,556,64,18,548,69,19,558,56,18,556,64,18,Finisher,2248
+Renata,Anic,Renata Anic,94,F30-34,Female,Rijeka,Hrvatska,Croatia,HR,0:40:59,3:12:05,1:50:38,,,5:53:48,2459,11525,6638,390,215,21228,557,65,19,555,70,20,665,81,23,557,65,19,Finisher,2246
+Emperatriz Susana,Huezo Orellana,Emperatriz Susana Huezo Orellana,104,F30-34,Female,Trieste,TS,Italy,IT,0:45:35,3:07:21,1:52:48,,,5:53:52,2735,11241,6768,239,249,21232,558,66,20,692,96,25,655,79,22,558,66,20,Finisher,2245
+Andrey,Korolev,Andrey Korolev,343,M30-34,Male,Wien,,Austria,AT,0:31:11,3:03:40,2:08:08,,,5:54:06,1871,11020,7688,372,295,21246,559,493,73,83,76,11,529,478,74,559,493,73,Finisher,1618
+Roberto,Scolaro,Roberto Scolaro,618,M40-44,Male,Mortara,,Italy,IT,0:31:23,2:49:20,2:21:53,,,5:54:31,1883,10160,8513,419,297,21271,560,494,94,89,81,13,399,371,73,560,494,94,Finisher,1924
+Ognjen,Golubic,Ognjen Golubic,692,M45-49,Male,Zagreb,GRAD ZAGREB,Croatia,HR,0:37:26,2:52:47,2:11:08,,,5:54:37,2246,10367,7868,516,279,21277,561,495,81,380,344,56,505,458,69,561,495,81,Finisher,2012
+Dejan,Pantovic,Dejan Pantovic,594,M40-44,Male,Poreč,Istria,Croatia,HR,0:42:05,3:07:36,1:55:00,,,5:54:38,2525,11256,6900,369,228,21278,562,496,95,599,520,92,649,573,107,562,496,95,Finisher,1922
+Rene,Vanek,Rene Vanek,504,M35-39,Male,Wien,,Austria,AT,0:41:31,2:48:33,2:11:59,,,5:55:20,2491,10113,7919,439,357,21320,563,497,74,570,495,72,485,441,61,563,497,74,Finisher,1730
+Mike,Ernst,Mike Ernst,318,M30-34,Male,Croydon,,United Kingdom,GB,0:35:03,2:54:31,2:15:05,,,5:55:50,2103,10471,8105,420,251,21350,564,498,74,247,227,31,479,437,67,564,498,74,Finisher,1586
+Mirjam,Kastelec,Mirjam Kastelec,72,F18-24,Female,Medvode,Ljubljana,Slovenia,SI,0:44:15,2:53:09,2:06:10,,,5:55:57,2655,10389,7570,371,371,21357,565,67,6,655,91,7,560,57,6,565,67,6,Finisher,2279
+René,Theisen,René Theisen,756,M45-49,Male,Nauders,,Austria,AT,0:39:57,2:50:30,2:16:41,,,5:55:59,2397,10230,8201,346,185,21359,566,499,82,510,447,74,475,435,64,566,499,82,Finisher,1988
+Matteo,Montersino,Matteo Montersino,586,M40-44,Male,piemonte,torino,Italy,IT,0:41:36,2:49:16,2:13:07,,,5:56:09,2496,10156,7987,401,328,21369,567,500,96,575,499,89,488,444,86,567,500,96,Finisher,1895
+Slobodan,Laskovic,Slobodan Laskovic,716,M45-49,Male,Belgrade,Central Serbia,Serbia,RS,0:33:31,3:00:30,2:10:39,,,5:56:21,2011,10830,7839,419,282,21381,568,501,83,170,156,19,528,477,78,568,501,83,Finisher,1981
+Florentina-Lara,Zwarnig,Florentina-Lara Zwarnig,128,F30-34,Female,Maria Saal,,Austria,AT,0:44:12,3:03:21,1:59:27,,,5:56:28,2652,11001,7167,323,245,21388,569,68,21,653,90,24,629,72,21,569,68,21,Finisher,2198
+Paolo,Bartolini,Paolo Bartolini,868,M55-59,Male,Buttrio,Udine,Italy,IT,0:47:52,3:01:57,1:54:13,,,5:56:37,2872,10917,6853,488,267,21397,570,502,30,731,625,40,658,579,38,570,502,30,Finisher,2279
+Zeljko,Marjanovic,Zeljko Marjanovic,830,M50-54,Male,Wels,,Austria,AT,0:40:01,2:50:09,2:13:50,,,5:56:48,2401,10209,8030,438,330,21408,571,503,66,515,450,59,487,443,61,571,503,66,Finisher,1795
+Michi,Rebernig,Michi Rebernig,484,M35-39,Male,Feldkirchen,,Austria,AT,0:40:00,2:57:33,2:10:08,,,5:57:00,2400,10653,7808,343,215,21420,572,504,75,514,449,68,557,502,69,572,504,75,Finisher,1700
+Letterio,Gatto,Letterio Gatto,877,M55-59,Male,Messina,,Italy,IT,0:41:57,2:49:48,2:10:14,,,5:57:13,2517,10188,7814,620,294,21433,573,505,31,594,515,32,540,489,31,573,505,31,Finisher,2268
+Luka,Zelko Fornazaric,Luka Zelko Fornazaric,408,M30-34,Male,Hermagor,,Slovenia,SI,0:40:00,3:00:41,2:04:14,,,5:57:23,2400,10841,7454,448,300,21443,574,506,75,511,448,66,592,531,78,574,506,75,Finisher,1559
+Fabio,Simonetti,Fabio Simonetti,624,M40-44,Male,Garlasco,PV,Italy,IT,0:38:53,2:59:50,2:06:07,,,5:57:27,2333,10790,7567,478,278,21447,575,507,97,454,408,75,579,520,99,575,507,97,Finisher,1871
+Adnan,Fejzic,Adnan Fejzic,253,M25-29,Male,Sarajevo,Bosnia and Herzegovina,Bosnia and Herzegovina,BA,0:44:10,3:02:15,1:57:12,,,5:57:43,2650,10935,7032,510,336,21463,576,508,49,652,563,53,642,567,53,576,508,49,Finisher,1400
+Ivana,Dusper,Ivana Dusper,142,F40-44,Female,Zagreb,Grad Zagreb,Croatia,HR,0:40:14,3:09:20,1:57:51,,,5:57:54,2414,11360,7071,331,298,21474,577,69,10,520,67,10,643,76,10,577,69,10,Finisher,2291
+Miroslav,Hrivík,Miroslav Hrivík,334,M30-34,Male,Žilina,Zilina Region,Slovakia,SK,0:35:24,3:08:08,2:00:39,,,5:58:02,2124,11288,7239,440,391,21482,578,509,76,268,246,35,611,545,80,578,509,76,Finisher,1547
+Katja,Schmitz,Katja Schmitz,119,F30-34,Female,Köln,,Germany,DE,0:37:46,2:47:33,2:25:10,,,5:58:14,2266,10053,8710,302,164,21494,579,70,22,394,41,12,431,34,10,579,70,22,Finisher,2166
+Balazs,Hunyadfalvi Dr.,Balazs Hunyadfalvi Dr.,702,M45-49,Male,Veszprém,foreigner,Hungary,HU,0:38:49,2:54:00,2:15:16,,,5:58:27,2329,10440,8116,402,219,21507,580,510,84,450,405,68,514,466,71,580,510,84,Finisher,1943
+Lukasz,Partyka,Lukasz Partyka,595,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:44:17,2:53:10,2:10:16,,,5:58:48,2657,10390,7816,301,364,21528,581,511,98,656,565,106,545,493,96,581,511,98,Finisher,1847
+Martin,Schittegg,Martin Schittegg,744,M45-49,Male,Dobl-Zwaring,,Austria,AT,0:42:10,2:51:25,2:14:50,,,5:58:51,2530,10285,8090,367,259,21531,582,512,85,602,522,90,516,468,73,582,512,85,Finisher,1936
+Eduard,Gyorog,Eduard Gyorog,921,M60-64,Male,Purbach am See,,Austria,AT,0:45:21,2:53:01,2:10:23,,,5:59:09,2721,10381,7823,372,252,21549,583,513,15,683,589,20,565,507,16,583,513,15,Finisher,2142
+Illés,Krisztián,Illés Krisztián,571,M40-44,Male,Segesd,,Hungary,HU,0:46:21,2:56:14,2:02:46,,,5:59:12,2781,10574,7366,573,259,21552,584,514,99,708,610,111,621,554,104,584,514,99,Finisher,1840
+Ivan,Miljkovic,Ivan Miljkovic,467,M35-39,Male,Zaton,Zadar,Croatia,HR,0:38:41,3:05:20,2:03:58,,,5:59:40,2321,11120,7438,488,213,21580,585,515,76,443,398,61,622,555,80,585,515,76,Finisher,1652
+Jan,Merkinger,Jan Merkinger,465,M35-39,Male,Scharten,,Austria,AT,0:38:59,3:07:06,2:00:18,,,5:59:42,2339,11226,7218,432,367,21582,586,516,77,461,414,63,634,561,82,586,516,77,Finisher,1651
+Iva,Zemánková,Iva Zemánková,191,F45-49,Female,Brno,Czech republic/Moravia,Czech Republic,CZ,0:41:57,3:03:39,2:03:03,,,5:59:44,2517,11019,7383,458,206,21584,587,71,15,593,79,18,633,73,14,587,71,15,Finisher,2468
+Anze,Vrabec,Anze Vrabec,235,M18-24,Male,ljubljana,,Slovenia,SI,0:39:40,3:00:43,2:03:48,,,5:59:45,2380,10843,7428,629,304,21585,588,517,17,499,438,14,612,546,17,588,517,17,Finisher,1474
+Marko,Gajic,Marko Gajic,438,M35-39,Male,Jagodina,Srbija,Serbia,RS,0:41:34,3:09:31,1:57:36,,,6:00:22,2494,11371,7056,512,189,21622,589,518,78,571,496,73,666,585,86,589,518,78,Finisher,1639
+Tin,Deljanin,Tin Deljanin,313,M30-34,Male,Budva,Montenegro,Montenegro,ME,0:36:37,2:56:01,2:18:15,,,6:00:23,2197,10561,8295,379,191,21623,590,519,77,335,307,44,508,461,71,590,519,77,Finisher,1505
+Torsten,Weismann,Torsten Weismann,761,M45-49,Male,Breisach,,Germany,DE,0:36:55,3:01:22,2:12:14,,,6:00:26,2215,10882,7934,376,219,21626,591,520,86,353,322,52,564,506,86,591,520,86,Finisher,1907
+Andrea,Kladiva,Andrea Kladiva,153,F40-44,Female,Budapest,,Hungary,HU,0:41:20,3:12:57,1:54:48,,,6:00:33,2480,11577,6888,345,343,21633,592,72,11,563,73,11,669,83,12,592,72,11,Finisher,2243
+Thomas,Hödl,Thomas Hödl,698,M45-49,Male,Fernitz,,Austria,AT,0:38:22,2:49:46,2:18:29,,,6:00:34,2302,10186,8309,495,342,21634,593,521,87,423,379,65,477,436,65,593,521,87,Finisher,1905
+Benjamin,Öttl,Benjamin Öttl,367,M30-34,Male,Sandl,,Austria,AT,0:41:23,3:10:37,1:58:13,,,6:00:37,2483,11437,7093,389,235,21637,594,522,78,564,491,71,661,582,84,594,522,78,Finisher,1500
+Dieter,Pucker,Dieter Pucker,736,M45-49,Male,Klagenfurt,,Austria,AT,0:40:30,2:54:46,2:16:49,,,6:00:59,2430,10486,8209,343,191,21659,595,523,88,537,470,78,527,476,77,595,523,88,Finisher,1898
+Enzo,De Castro,Enzo De Castro,918,M60-64,Male,Bolzano,Bolzano,Italy,IT,0:39:48,2:56:51,2:09:28,,,6:01:00,2388,10611,7768,556,337,21660,596,524,16,504,442,14,572,514,19,596,524,16,Finisher,2109
+Milán,Dr. Jancsikin,Milán Dr. Jancsikin,314,M30-34,Male,Deszk,,Hungary,HU,0:41:47,2:46:43,2:19:40,,,6:01:16,2507,10003,8380,397,390,21676,597,525,79,583,506,74,463,424,65,597,525,79,Finisher,1489
+Schadow,Laura,Schadow Laura,138,F35-39,Female,Straubing,Bavaria,Germany,DE,0:47:52,3:05:49,1:56:37,,,6:01:30,2872,11149,6997,398,275,21690,598,73,7,730,106,10,671,84,8,598,73,7,Finisher,2146
+Camilla Sophie,Prandini,Camilla Sophie Prandini,89,F25-29,Female,Arese,,Italy,IT,0:43:02,3:02:08,2:04:31,,,6:01:40,2582,10928,7471,372,347,21700,599,74,8,620,84,10,617,67,9,599,74,8,Finisher,2296
+Aleš,Koren,Aleš Koren,567,M40-44,Male,Prevalje,,Slovenia,SI,0:31:57,2:50:55,2:28:04,,,6:02:05,1917,10255,8884,487,182,21725,600,526,100,107,98,17,438,403,77,600,526,100,Finisher,1788
+Tamas,Ader,Tamas Ader,515,M40-44,Male,Sopron,,Hungary,HU,0:38:07,3:15:50,1:54:36,,,6:02:36,2287,11750,6876,430,412,21756,601,527,101,409,367,63,676,590,110,601,527,101,Finisher,1779
+Maris,Punculis,Maris Punculis,375,M30-34,Male,Ludza,foreigner,Latvia,LV,0:46:41,3:01:20,2:06:08,,,6:02:46,2801,10880,7568,326,192,21766,602,528,80,711,612,88,635,562,81,602,528,80,Finisher,1462
+Udovicic,Dean,Udovicic Dean,758,M45-49,Male,Pula,Istra,Croatia,HR,0:34:28,3:04:32,2:10:45,,,6:02:54,2068,11072,7845,456,334,21774,603,529,89,212,196,27,578,519,90,603,529,89,Finisher,1863
+Višnja,Ivanovic-Opacic,Višnja Ivanovic-Opacic,211,F55-59,Female,Samobor,Zagrebačka županija,Croatia,HR,0:45:02,3:00:38,2:04:04,,,6:02:56,2702,10838,7444,398,394,21776,604,75,3,679,93,6,623,68,3,604,75,3,Finisher,2848
+Anna,Merluzzi,Anna Merluzzi,112,F30-34,Female,Monfalcone,Gorizia,Italy,IT,0:37:30,3:09:38,2:04:11,,,6:03:01,2250,11378,7451,320,382,21781,605,76,23,382,37,10,624,69,20,605,76,23,Finisher,2080
+Herbert,Halvax,Herbert Halvax,882,M55-59,Male,Maria Saal,,Austria,AT,0:36:25,2:55:48,2:20:00,,,6:03:04,2185,10548,8400,366,285,21784,606,530,32,328,303,18,496,452,29,606,530,32,Finisher,2162
+Borna,Skukan,Borna Skukan,286,M25-29,Male,Zagreb,Zagreb,Croatia,HR,0:44:23,2:57:58,2:06:58,,,6:03:17,2663,10678,7618,527,312,21797,607,531,50,659,568,54,616,550,51,607,531,50,Finisher,1300
+Peter,Wahl,Peter Wahl,936,M60-64,Male,Neuhofen an der Krems,,Austria,AT,0:34:42,2:49:40,2:27:06,,,6:03:19,2082,10180,8826,400,313,21799,608,532,17,226,209,5,439,404,13,608,532,17,Finisher,2067
+Goran,Selanec,Goran Selanec,747,M45-49,Male,Zagreb,,Croatia,HR,0:45:15,3:13:46,1:50:57,,,6:03:20,2715,11626,6657,505,297,21800,609,533,90,682,588,99,701,606,104,609,533,90,Finisher,1855
+Fabio Carlo,Mainini,Fabio Carlo Mainini,720,M45-49,Male,buscate,milano,Italy,IT,0:35:30,3:00:33,2:16:24,,,6:03:28,2130,10833,8184,350,311,21808,610,534,91,278,255,38,538,487,81,610,534,91,Finisher,1853
+Levente,Vigh,Levente Vigh,641,M40-44,Male,Budapest,,Hungary,HU,0:47:07,2:54:56,2:10:05,,,6:03:31,2827,10496,7805,456,227,21811,611,535,102,719,617,112,604,538,101,611,535,102,Finisher,1762
+Pascal ,Rouyer ,Pascal Rouyer,931,M60-64,Male,Montigny les Metz,,France,FR,0:40:37,2:42:21,2:30:26,,,6:03:37,2437,9741,9026,367,246,21817,612,536,18,541,474,17,414,383,9,612,536,18,Finisher,2062
+Amina,Šabic,Amina Šabic,139,F35-39,Female,SARAJEVO,Bosnia,Bosnia and Herzegovina,BA,0:41:19,3:05:13,2:05:39,,,6:03:39,2479,11113,7539,423,265,21819,613,77,8,562,72,6,636,74,7,613,77,8,Finisher,2107
+Mykola,Sukhan,Mykola Sukhan,291,M25-29,Male,Rovno,Rivne Oblast,Ukraine,UA,0:36:52,3:05:49,2:12:30,,,6:03:57,2212,11149,7950,285,241,21837,614,537,51,348,317,34,585,525,47,614,537,51,Finisher,1288
+Torsten,Koal,Torsten Koal,566,M40-44,Male,Leipzig,SACHSEN,Germany,DE,0:45:42,2:54:42,2:10:17,,,6:04:07,2742,10482,7817,486,319,21847,615,538,103,694,597,110,596,533,100,615,538,103,Finisher,1751
+Primoz,Plantaric,Primoz Plantaric,732,M45-49,Male,Komenda,KAMNIK,Slovenia,SI,0:47:27,2:50:41,2:10:38,,,6:04:33,2847,10241,7838,568,379,21873,616,539,92,724,620,104,587,527,92,616,539,92,Finisher,1833
+Sebastian,Starck,Sebastian Starck,497,M35-39,Male,Bruchköbel,HE,Germany,DE,0:44:58,3:08:09,2:01:17,,,6:05:01,2698,11289,7277,411,226,21901,617,540,79,678,586,86,668,586,87,617,540,79,Finisher,1555
+Enrico,Mazzocco,Enrico Mazzocco,832,M50-54,Male,Legnago,,Italy,IT,0:32:02,2:50:10,2:31:26,,,6:05:11,1922,10210,9086,458,235,21911,618,541,67,112,102,12,422,389,53,618,541,67,Finisher,1644
+Nikola,Buljevic,Nikola Buljevic,531,M40-44,Male,omis,dalmatia,Croatia,HR,0:32:11,2:58:19,2:18:15,,,6:05:22,1931,10699,8295,719,278,21922,619,542,104,123,113,21,546,494,97,619,542,104,Finisher,1729
+Šuajb,Solakovic,Šuajb Solakovic,749,M45-49,Male,Sarajevo,Kanton Sarajevo,Bosnia and Herzegovina,BA,0:40:27,3:10:16,1:51:10,,,6:05:46,2427,11416,6670,869,565,21946,620,543,93,533,466,76,695,601,103,620,543,93,Finisher,1811
+Casey,Toth,Casey Toth,294,M25-29,Male,GREENWICH,CT,United States,US,0:40:22,3:20:59,1:54:23,,,6:06:34,2422,12059,6863,389,262,21994,621,544,52,528,461,48,703,608,56,621,544,52,Finisher,1241
+Joao,Bacellar,Joao Bacellar,413,M35-39,Male,Rio de Janeiro,RJ,Brazil,BR,0:34:26,3:02:13,2:12:49,,,6:06:39,2066,10933,7969,561,470,21999,622,545,80,210,194,29,573,515,71,622,545,80,Finisher,1526
+Robert,Juffer,Robert Juffer,338,M30-34,Male,Tarnowskie Gory,,Netherlands,NL,0:43:11,2:47:12,2:27:49,,,6:06:40,2591,10032,8869,321,188,22000,623,546,81,627,542,76,470,430,66,623,546,81,Finisher,1391
+Bruno,Superina,Bruno Superina,395,M30-34,Male,Dublin,Dublin,Croatia,HR,0:41:35,2:50:01,2:25:11,,,6:06:51,2495,10201,8711,366,238,22011,624,547,82,573,497,73,491,447,70,624,547,82,Finisher,1388
+Mario,Kramesberger,Mario Kramesberger,265,M25-29,Male,Bad Wimsbach,OBEROSTERREICH,Austria,AT,0:37:22,2:48:04,2:33:38,,,6:06:54,2242,10084,9218,265,205,22014,625,548,53,376,340,38,423,390,38,625,548,53,Finisher,1235
+Florian,Zenker,Florian Zenker,513,M35-39,Male,Germering,BAYERN,Germany,DE,0:47:07,3:08:33,2:01:04,,,6:07:12,2827,11313,7264,368,260,22032,626,549,81,718,616,91,680,593,89,626,549,81,Finisher,1516
+Soren,Uhre,Soren Uhre,759,M45-49,Male,"
+Vonge",,Denmark,DK,0:44:55,2:50:31,2:19:57,,,6:07:12,2695,10231,8397,430,279,22032,627,550,94,675,583,97,549,496,83,627,550,94,Finisher,1786
+Veronica,Zarri,Veronica Zarri,140,F35-39,Female,Medicina,,Italy,IT,0:45:58,3:19:41,1:52:00,,,6:07:47,2758,11981,6720,396,211,22067,628,78,9,701,98,9,721,101,10,628,78,9,Finisher,2033
+Tal,Yacoby,Tal Yacoby,937,M60-64,Male,Ramat Gan,Tel Aviv District,Israel,IL,0:38:15,3:03:32,2:11:39,,,6:07:58,2295,11012,7899,508,364,22078,629,551,19,417,373,10,608,542,21,629,551,19,Finisher,1983
+Urška,Godec,Urška Godec,171,F45-49,Female,ŠKOFJA LOKA,SLOVENIJA,Slovenia,SI,0:48:29,3:04:00,1:58:50,,,6:08:07,2909,11040,7130,705,303,22087,630,79,16,736,111,22,690,92,19,630,79,16,Finisher,2317
+Chris,Knight,Chris Knight,174,F45-49,Male,Cape Town,,Austria,AT,0:35:51,3:07:33,2:16:00,,,6:09:00,2151,11253,8160,372,203,22140,631,80,17,292,24,4,603,66,13,631,80,17,Finisher,2301
+Milen,Kalchev,Milen Kalchev,816,M50-54,Male,Burgas,,Bulgaria,BG,0:49:50,3:07:41,1:59:15,,,6:09:24,2990,11261,7155,582,175,22164,632,552,68,750,637,87,699,604,79,632,552,68,Finisher,1568
+Corrado,Fonseca,Corrado Fonseca,794,M50-54,Male,Messina,,Italy,IT,0:47:49,3:05:19,2:01:58,,,6:09:32,2869,11119,7318,496,370,22172,633,553,69,728,624,85,678,592,75,633,553,69,Finisher,1565
+Klaus,Scharpf,Klaus Scharpf,905,M55-59,Male,Graz,,Austria,AT,0:43:30,3:00:34,2:13:19,,,6:09:49,2610,10834,7999,483,264,22189,634,554,33,634,547,35,620,553,36,634,554,33,Finisher,2041
+Wim,Regoudt,Wim Regoudt,485,M35-39,Male,Genk,,Belgium,BE,0:38:05,3:11:11,2:04:39,,,6:09:50,2285,11471,7479,507,448,22190,635,555,82,408,366,60,657,578,84,635,555,82,Finisher,1469
+Antoine,Navarro,Antoine Navarro,471,M35-39,Male,Champniers,CHARENTE,France,FR,0:45:32,3:06:19,2:08:31,,,6:09:51,2732,11179,7711,370,200,22191,636,556,83,690,595,89,659,580,85,636,556,83,Finisher,1468
+Raffaele,Bratina,Raffaele Bratina,665,M45-49,Male,SGONICO (TS),Trieste,Italy,IT,0:41:54,3:09:50,2:07:39,,,6:10:03,2514,11390,7659,410,231,22203,637,557,95,591,514,88,662,583,99,637,557,95,Finisher,1734
+Chris,Punter,Chris Punter,27,M50-54,Male,Klagenfurt,,Netherlands,NL,0:39:20,2:52:03,2:28:13,,,6:10:20,2360,10323,8893,442,201,22220,638,558,70,475,425,55,501,454,64,638,558,70,Finisher,1551
+Vjekoslav,Hrabar,Vjekoslav Hrabar,814,M50-54,Male,Zagreb,,Croatia,HR,0:40:51,3:06:51,2:11:44,,,6:10:39,2451,11211,7904,384,289,22239,639,559,71,550,481,65,639,564,72,639,559,71,Finisher,1545
+Sanjin,Smajovic,Sanjin Smajovic,287,M25-29,Male,Sarajevo,Federation of BiH,Bosnia and Herzegovina,BA,0:45:42,3:05:06,2:10:14,,,6:10:45,2742,11106,7814,298,285,22245,640,560,54,695,598,56,648,572,54,640,560,54,Finisher,1166
+Birgit,Kreil,Birgit Kreil,154,F40-44,Female,Stockerau,,Austria,AT,0:39:23,3:13:15,2:07:01,,,6:11:17,2363,11595,7621,424,273,22277,641,81,12,480,55,5,667,82,11,641,81,12,Finisher,2050
+Chris,Beckett,Chris Beckett,659,M45-49,Male,Land O' Lakes,FL,United States,US,0:42:04,2:58:31,2:20:21,,,6:12:36,2524,10711,8421,402,299,22356,642,561,96,598,519,89,584,524,91,642,561,96,Finisher,1688
+Stanislav,Kermelj,Stanislav Kermelj,950,M70-74,Male,Skofja Loka,APO,Slovenia,SI,0:44:45,3:07:39,2:07:37,,,6:12:51,2685,11259,7657,479,290,22371,643,562,1,670,579,1,672,588,1,643,562,1,Finisher,3500
+Ludovit,Sykora,Ludovit Sykora,633,M40-44,Male,Marianka,,Slovakia,SK,0:49:35,3:03:13,2:11:03,,,6:13:05,2975,10993,7863,353,201,22385,644,563,105,745,633,117,663,584,109,644,563,105,Finisher,1590
+Stefan,Hodurek,Stefan Hodurek,699,M45-49,Male,St. Pölten,,Austria,AT,0:37:04,2:59:37,2:28:05,,,6:13:05,2224,10777,8885,282,218,22385,645,564,97,361,329,53,534,483,80,645,564,97,Finisher,1680
+Peter,Zechner,Peter Zechner,913,M55-59,Male,Weisskirchen,,Austria,AT,0:47:35,2:59:55,2:10:55,,,6:13:27,2855,10795,7855,608,294,22407,646,565,34,726,622,39,656,577,37,646,565,34,Finisher,1976
+Margot,Jacobs,Margot Jacobs,212,F55-59,Female,Saltsjö-boo,,Sweden,SE,0:32:41,3:16:36,2:11:49,,,6:13:48,1961,11796,7909,421,341,22428,647,82,4,140,12,1,652,78,4,647,82,4,Finisher,2653
+Zoran,Zulijani,Zoran Zulijani,866,M50-54,Male,Poreč,Hrvatska/Istra,Croatia,HR,0:38:17,3:01:52,2:20:23,,,6:14:11,2297,10912,8423,417,402,22451,648,566,72,418,374,48,582,522,70,648,566,72,Finisher,1482
+Timur,Cerkez,Timur Cerkez,249,M25-29,Male,Sarajevo,Federation,Bosnia and Herzegovina,BA,0:33:12,3:47:31,1:47:10,,,6:14:31,1992,13651,6430,240,157,22471,649,567,55,160,147,21,753,640,59,649,567,55,Finisher,1098
+Kristian,Pataki,Kristian Pataki,596,M40-44,Male,Bečej,Vojvodina,Serbia,RS,0:40:53,2:52:48,2:26:05,,,6:14:36,2453,10368,8765,523,367,22476,650,568,106,554,485,84,544,492,95,650,568,106,Finisher,1563
+Federico,Mascella,Federico Mascella,890,M55-59,Male,Vicenza,vi,Italy,IT,0:38:54,3:05:09,2:19:15,,,6:15:30,2334,11109,8355,418,315,22530,651,569,35,455,409,25,613,547,33,651,569,35,Finisher,1939
+Johannes,Mitgutsch,Johannes Mitgutsch,468,M35-39,Male,Hagenberg im Mühlkreis,,Austria,AT,0:36:23,3:05:22,2:23:56,,,6:15:37,2183,11122,8636,361,235,22537,652,570,84,325,300,47,589,529,73,652,570,84,Finisher,1364
+Lea,Chessex Djukic,Lea Chessex Djukic,83,F25-29,Female,Aarau,,Switzerland,CH,0:48:00,3:14:05,1:59:38,,,6:15:49,2880,11645,7178,522,324,22549,653,83,9,732,107,12,713,98,11,653,83,9,Finisher,2041
+Alessandra,Moressa,Alessandra Moressa,214,F55-59,Female,FORLI',Intl State,Italy,IT,0:47:06,3:06:17,2:11:29,,,6:16:10,2826,11177,7889,452,225,22570,654,84,5,717,102,7,674,85,5,654,84,5,Finisher,2610
+Andrej,Strukelj,Andrej Strukelj,935,M60-64,Male,Kamnica,Slovenia,Slovenia,SI,0:37:38,2:56:18,2:29:01,,,6:16:19,2258,10578,8941,514,288,22579,655,571,20,387,348,8,547,495,15,655,571,20,Finisher,1833
+Riccardo,Conti,Riccardo Conti,668,M40-44,Male,genzano di roma,,Italy,IT,0:43:25,2:56:04,2:27:40,,,6:16:30,2605,10564,8860,298,264,22590,656,572,107,631,545,102,563,505,98,656,572,107,Finisher,1529
+Erika,Hrovatin,Erika Hrovatin,198,F50-54,Female,Trieste,,Italy,IT,0:42:47,3:03:41,2:20:29,,,6:16:34,2567,11021,8429,369,208,22594,657,85,4,616,83,6,626,70,5,657,85,4,Finisher,2615
+Roberto,Pilar,Roberto Pilar,731,M45-49,Male,Poreč,,Croatia,HR,0:44:14,3:00:27,2:18:34,,,6:17:36,2654,10827,8314,510,351,22656,658,573,98,654,564,94,632,560,95,658,573,98,Finisher,1598
+Santiago Manuel,Lopez,Santiago Manuel Lopez,354,M30-34,Male,Arco,Trento,Italy,IT,0:39:45,3:09:01,2:18:06,,,6:17:39,2385,11341,8286,416,231,22659,659,574,83,500,439,64,647,571,83,659,574,83,Finisher,1194
+Ana,Jagar,Ana Jagar,149,F40-44,Female,Zagreb,,Croatia,HR,0:46:43,3:14:49,2:01:01,,,6:18:06,2803,11689,7261,601,331,22686,660,86,13,712,100,15,717,99,15,660,86,13,Finisher,1928
+Rok,Završnik,Rok Završnik,864,M50-54,Male,Ljubljana,Slovenia,Slovenia,SI,0:30:25,3:04:07,2:30:52,,,6:18:11,1825,11047,9052,494,273,22691,661,575,73,59,54,6,550,497,67,661,575,73,Finisher,1410
+Alexandre,Correia,Alexandre Correia,423,M35-39,Male,São Paulo,Sao Paulo,Brazil,BR,0:37:10,3:06:11,2:25:10,,,6:18:21,2230,11171,8710,290,301,22701,662,576,85,367,334,54,594,532,74,662,576,85,Finisher,1315
+Mario,Fiket,Mario Fiket,684,M45-49,Male,Zabok,KRAPINSKO-ZAGORSKA ZUPANIJA,Croatia,HR,0:46:50,3:07:34,2:08:33,,,6:19:23,2810,11254,7713,581,406,22763,663,577,99,713,613,103,687,597,102,663,577,99,Finisher,1566
+Vedran,Banovac,Vedran Banovac,656,M45-49,Male,Poreč,Istra,Croatia,HR,0:41:13,3:15:02,2:10:00,,,6:19:24,2473,11702,7800,453,336,22764,664,578,100,558,487,84,686,596,101,664,578,100,Finisher,1566
+Rainer,Url,Rainer Url,637,M40-44,Male,Obervogau,,Austria,AT,0:47:45,2:55:52,2:25:14,,,6:19:31,2865,10552,8714,421,219,22771,665,579,108,727,623,115,610,544,102,665,579,108,Finisher,1474
+Mauro,Michelis,Mauro Michelis,945,M65-69,Male,trieste,TRIESTE,Italy,IT,0:48:50,2:50:30,2:29:49,,,6:19:39,2930,10230,8989,410,220,22779,666,580,3,738,627,3,576,517,3,666,580,3,Finisher,1992
+Jozef,Szabó,Jozef Szabó,751,M45-49,Male,Bratislava,Bratislava,Slovakia,SK,0:37:54,3:06:33,2:20:21,,,6:19:55,2274,11193,8421,584,324,22795,667,581,101,397,355,60,640,565,96,667,581,101,Finisher,1557
+Archie,Sale,Archie Sale,281,M25-29,Male,Hereford,,United Kingdom,GB,0:49:39,3:15:17,2:03:03,,,6:20:22,2979,11717,7383,441,302,22822,668,582,56,747,635,59,723,622,58,668,582,56,Finisher,993
+Buster,Woolfenden,Buster Woolfenden,298,M25-29,Male,Basingstoke,,United Kingdom,GB,0:36:59,3:15:17,2:03:04,,,6:20:22,2219,11717,7384,1199,302,22822,669,583,57,357,326,36,722,621,57,669,583,57,Finisher,993
+Colin,Quitta,Colin Quitta,280,M25-29,Male,Smithville,TEXAS,United States,US,0:43:16,3:11:22,2:17:01,,,6:20:51,2596,11482,8221,372,180,22851,670,584,58,629,544,52,673,589,55,670,584,58,Finisher,984
+Giacomo,Biviano,Giacomo Biviano,916,M60-64,Male,trieste,,Italy,IT,0:46:40,3:12:04,2:12:14,,,6:21:01,2800,11524,7934,373,230,22861,671,585,21,710,611,23,693,599,23,671,585,21,Finisher,1748
+Leon,Mazic,Leon Mazic,463,M35-39,Male,Preko,,Croatia,HR,0:37:01,3:07:01,2:27:50,,,6:21:07,2221,11221,8870,314,241,22867,672,586,86,359,327,51,601,536,76,672,586,86,Finisher,1265
+Silvia,Salvador,Silvia Salvador,207,F50-54,Female,Zurich,,Switzerland,CH,0:39:46,2:54:12,2:40:17,,,6:22:15,2386,10452,9617,272,207,22935,673,87,5,502,62,5,499,46,2,673,87,5,Finisher,2513
+Michael,Pachler,Michael Pachler,135,F35-39,Male,STEYR,CA,Kenya,KE,0:44:47,3:09:00,2:17:58,,,6:22:21,2687,11340,8278,430,206,22941,674,88,10,672,92,8,675,86,9,674,88,10,Finisher,1770
+Martin,Pfeiffer,Martin Pfeiffer,899,M55-59,Male,Königstein im Taunus,,Germany,DE,0:44:26,2:56:32,2:25:59,,,6:22:40,2666,10592,8759,647,296,22960,675,587,36,661,570,38,619,552,35,675,587,36,Finisher,1810
+Oliver,Schmich,Oliver Schmich,616,M40-44,Male,Sollenau,,Austria,AT,0:27:27,4:05:01,1:39:34,,,6:22:41,1647,14701,5974,280,359,22961,676,588,109,18,15,2,766,649,117,676,588,109,Finisher,1417
+Gianni,Anselmi,Gianni Anselmi,653,M45-49,Male,Firenze,TOSCANA,Italy,IT,0:52:25,3:10:35,2:06:46,,,6:22:42,3145,11435,7606,487,290,22962,677,589,102,765,646,109,715,617,106,677,589,102,Finisher,1507
+Dmitrii,Nikolaev,Dmitrii Nikolaev,365,M30-34,Male,Munich,,Unknown,,0:44:09,3:18:11,2:11:07,,,6:23:46,2649,11891,7867,365,254,23026,678,590,84,651,562,81,705,610,85,678,590,84,Finisher,1084
+Nenad,Bulić,Nenad Bulić,780,M50-54,Male,Ljubljana,LJUBLJANA,Croatia,HR,0:43:57,3:00:32,2:20:02,,,6:24:08,2637,10832,8402,614,564,23048,679,591,74,644,556,75,641,566,73,679,591,74,Finisher,1303
+Helena,Šuligoj,Helena Šuligoj,208,F50-54,Female,Ljubljana,,Slovenia,SI,0:49:04,3:16:25,2:07:34,,,6:24:15,2944,11785,7654,453,219,23055,680,89,6,740,112,10,727,103,9,680,89,6,Finisher,2477
+Amalie,Weizel,Amalie Weizel,189,F45-49,Female,Stuttgart,BW,Germany,DE,0:51:05,3:00:14,2:15:11,,,6:24:42,3065,10814,8111,682,411,23082,681,90,18,759,118,23,683,89,17,681,90,18,Finisher,2019
+Beno,Dalkó,Beno Dalkó,672,M45-49,Male,Sopron,,Hungary,HU,0:52:22,3:13:23,2:07:03,,,6:25:13,3142,11603,7623,452,293,23113,682,592,103,764,645,108,728,625,108,682,592,103,Finisher,1461
+Philip,Giles,Philip Giles,800,M50-54,Male,Torquay,Devon,United Kingdom,GB,0:32:34,3:21:56,2:19:09,,,6:25:34,1954,12116,8349,465,250,23134,683,593,75,133,122,13,682,594,76,683,593,75,Finisher,1277
+Valerio,Opacic,Valerio Opacic,896,M55-59,Male,Samobor,Zagrebacka zupanija,Croatia,HR,0:36:00,3:03:15,2:26:21,,,6:25:52,2160,10995,8781,710,507,23152,684,594,37,302,278,16,615,549,34,684,594,37,Finisher,1752
+Denny,Traas,Denny Traas,857,M50-54,Male,Vigarano Mainarda,Ferrara,Netherlands,NL,0:44:42,3:13:49,2:12:59,,,6:25:55,2682,11629,7979,512,353,23155,685,595,76,669,578,77,697,603,78,685,595,76,Finisher,1271
+Nives,Šimic,Nives Šimic,124,F30-34,Female,Velika Gorica,,Croatia,HR,0:38:55,3:29:43,2:02:45,,,6:27:32,2335,12583,7365,368,600,23252,686,91,24,458,47,14,731,104,25,686,91,24,Finisher,1639
+Nikolina,Kuvacic,Nikolina Kuvacic,175,F45-49,Female,Pula,Croatia,Croatia,HR,0:37:50,3:18:16,2:19:25,,,6:27:46,2270,11896,8365,479,257,23266,687,92,19,396,42,10,688,91,18,687,92,19,Finisher,1964
+Vladan,Gora,Vladan Gora,693,M45-49,Male,Vukovar,Croatia,Croatia,HR,0:43:09,3:06:16,2:26:51,,,6:28:25,2589,11176,8811,425,303,23305,688,596,104,625,541,93,653,575,97,688,596,104,Finisher,1404
+Sonja,Kapetanovic,Sonja Kapetanovic,152,F40-44,Female,Beograd,Serbia,Serbia,RS,0:46:28,3:13:07,2:14:03,,,6:28:38,2788,11587,8043,459,442,23318,689,93,14,709,99,14,698,95,13,689,93,14,Finisher,1738
+Maila,Ozbic,Maila Ozbic,204,F50-54,Female,Trieste,Trieste,Italy,IT,0:51:00,3:09:28,2:11:23,,,6:29:11,3060,11368,7883,598,442,23351,690,94,7,758,117,11,709,96,8,690,94,7,Finisher,2388
+Vesela,Mackic,Vesela Mackic,157,F40-44,Female,Sremska Kamenica,Vojvodina,Serbia,RS,0:48:08,3:17:47,2:12:26,,,6:29:14,2888,11867,7946,348,304,23354,691,95,15,734,109,17,719,100,16,691,95,15,Finisher,1727
+Damjan,Sodnik,Damjan Sodnik,390,M30-34,Male,Ljubljana,Ljubljana,Slovenia,SI,0:57:12,3:07:11,2:14:00,,,6:29:29,3432,11231,8040,375,291,23369,692,597,85,775,654,90,711,614,86,692,597,85,Finisher,981
+Jaroslav,Urban,Jaroslav Urban,858,M50-54,Male,Žatec,North Bohemia,Czech Republic,CZ,0:43:57,2:59:52,2:28:03,,,6:29:31,2637,10792,8883,551,507,23371,693,598,77,645,557,76,631,559,71,693,598,77,Finisher,1206
+Valter,Franz,Valter Franz,795,M50-54,Male,gemona del friuli,,Italy,IT,0:47:34,3:02:41,2:27:09,,,6:29:38,2854,10961,8829,481,255,23378,694,599,78,725,621,84,660,581,74,694,599,78,Finisher,1204
+Fawzi,Omari,Fawzi Omari,476,M35-39,Male,dubai,DXB,United Kingdom,GB,0:44:32,2:58:38,2:37:41,,,6:29:45,2672,10718,9461,325,209,23385,695,600,87,666,575,84,597,534,75,695,600,87,Finisher,1110
+Daniëlle,Eikelboom,Daniëlle Eikelboom,84,F25-29,Female,Gendt,,Netherlands,NL,0:39:36,2:50:53,2:48:43,,,6:30:07,2376,10253,10123,352,303,23407,696,96,10,497,61,8,476,41,6,696,96,10,Finisher,1784
+Francesco,Zavattoni,Francesco Zavattoni,766,M45-49,Male,Piacenza,,Italy,IT,0:48:59,3:11:15,2:10:09,,,6:30:14,2939,11475,7809,687,506,23414,697,601,105,739,628,105,718,619,107,697,601,105,Finisher,1371
+Olivier,Barbeau,Olivier Barbeau,658,M45-49,Male,Les sables d olonne,,France,FR,0:46:12,3:08:34,2:22:43,,,6:31:24,2772,11314,8563,481,353,23484,698,602,106,706,608,102,684,595,100,698,602,106,Finisher,1350
+Eduardo Sergio,Girolami,Eduardo Sergio Girolami,878,M55-59,Male,san nicolas,AR-B,Argentina,AR,0:48:48,3:29:26,1:58:34,,,6:31:48,2928,12566,7114,605,295,23508,699,603,38,737,626,41,757,643,42,699,603,38,Finisher,1645
+Andrea,D’ostuni,Andrea D’ostuni,671,M45-49,Male,Trieste,,Italy,IT,0:31:16,3:14:55,2:33:25,,,6:31:59,1876,11695,9205,382,362,23519,700,604,107,84,77,7,625,556,94,700,604,107,Finisher,1340
+Mickov,Nebojsa,Mickov Nebojsa,466,M35-39,Male,Pula,Istria,Croatia,HR,0:41:53,3:11:58,2:28:22,,,6:32:21,2513,11518,8902,384,223,23541,701,605,88,590,513,78,670,587,88,701,605,88,Finisher,1063
+Alen,Biluskovic,Alen Biluskovic,306,M30-34,Male,ZAGREB,ZAGREB,Croatia,HR,0:36:46,3:09:12,2:30:47,,,6:32:40,2206,11352,9047,477,477,23560,702,606,86,342,312,45,638,563,82,702,606,86,Finisher,923
+Maxime,Van Der Weehe,Maxime Van Der Weehe,92,F25-29,Female,Antwerp,Flemish Region,Belgium,BE,0:42:30,3:15:24,2:22:37,,,6:32:56,2550,11724,8557,396,348,23576,703,97,11,611,82,9,692,94,10,703,97,11,Finisher,1733
+Gwendolyn,Langer,Gwendolyn Langer,109,F30-34,Female,Straubing,,Germany,DE,0:42:08,3:12:22,2:27:55,,,6:33:26,2528,11542,8875,439,222,23606,704,98,25,601,80,23,681,88,24,704,98,25,Finisher,1533
+Janez,Požar,Janez Požar,951,M70-74,Male,Ljubljana,Ljubljana,Slovenia,SI,0:51:33,3:13:03,2:18:48,,,6:35:14,3093,11583,8328,477,233,23714,705,607,2,761,643,3,726,624,3,705,607,2,Finisher,3097
+Carmine,Mandola,Carmine Mandola,827,M50-54,Male,albairate,foreigner,Italy,IT,0:47:05,3:22:11,2:06:15,,,6:35:56,2825,12131,7575,771,454,23756,706,608,79,715,614,82,746,635,86,706,608,79,Finisher,1090
+Iva,Matic,Iva Matic,158,F40-44,Female,Strmec Samoborski,Hrvatska,Croatia,HR,0:45:37,3:22:41,2:16:49,,,6:36:52,2737,12161,8209,465,241,23812,707,99,16,693,97,13,737,107,18,707,99,16,Finisher,1590
+Christian,Sokop,Christian Sokop,625,M40-44,Male,Wien,,Austria,AT,0:43:42,3:16:28,2:25:27,,,6:37:25,2622,11788,8727,456,252,23845,708,609,110,637,549,103,702,607,112,708,609,110,Finisher,1152
+Duygu,Yilmaz,Duygu Yilmaz,166,F40-44,Female,Istanbul,Kadikoy,Turkey,TR,0:48:12,3:19:13,2:17:26,,,6:37:37,2892,11953,8246,488,278,23857,709,100,17,735,110,18,734,106,17,709,100,17,Finisher,1576
+Franco,Gallo,Franco Gallo,796,M50-54,Male,San Giacomo di Laives,Bolzano,Italy,IT,0:42:30,3:21:25,2:21:41,,,6:37:38,2550,12085,8501,503,221,23858,710,610,80,610,529,70,724,623,83,710,610,80,Finisher,1060
+Igor,Bracic,Igor Bracic,247,M25-29,Male,Ljubljana,Osrednjeslovenska,Slovenia,SI,0:39:27,3:05:45,2:37:29,,,6:37:44,2367,11145,9449,456,447,23864,711,611,59,484,427,46,628,557,52,711,611,59,Finisher,700
+Tvrtko,Janjic,Tvrtko Janjic,451,M35-39,Male,Zagreb,,Croatia,HR,0:49:08,3:21:23,2:06:21,,,6:37:54,2948,12083,7581,710,551,23874,712,612,89,741,629,92,747,636,90,712,612,89,Finisher,963
+Marija,Smoljanic,Marija Smoljanic,160,F40-44,Female,Beograd,BEOGRAD,Serbia,RS,0:40:00,3:29:31,2:15:04,,,6:38:54,2400,12571,8104,508,351,23934,713,101,18,513,65,8,741,109,19,713,101,18,Finisher,1553
+Sergio,Decisi,Sergio Decisi,919,M60-64,Male,arese,milano,Italy,IT,0:45:57,3:08:56,2:30:37,,,6:39:53,2757,11336,9037,561,302,23993,714,613,22,699,602,21,689,598,22,714,613,22,Finisher,1409
+Vasyl,Husak,Vasyl Husak,335,M30-34,Male,Brescia,Brescia,Ukraine,UA,0:58:33,3:15:56,2:13:56,,,6:40:07,3513,11756,8036,423,279,24007,715,614,87,777,656,91,745,634,89,715,614,87,Finisher,789
+GIULIA,PELOSI,GIULIA PELOSI,205,F50-54,Female,SAN VITO AL TAGLIAMENTO,PORDENONE,Italy,IT,0:47:15,3:07:13,2:31:11,,,6:41:02,2835,11233,9071,423,501,24062,716,102,8,720,103,9,679,87,6,716,102,8,Finisher,2175
+Antonino,Irrera,Antonino Irrera,923,M60-64,Male,Messina,Messina,Italy,IT,0:49:52,3:23:56,2:08:42,,,6:42:29,2992,12236,7722,720,479,24149,717,615,23,751,638,24,755,641,25,717,615,23,Finisher,1362
+Ginty,O'sullivan,Ginty O'sullivan,117,F30-34,Female,Llancayo,Monmouthshire,United Kingdom,GB,0:48:02,3:27:21,2:11:25,,,6:42:34,2882,12441,7885,436,510,24154,718,103,26,733,108,26,748,112,27,718,103,26,Finisher,1368
+Hans,Omann,Hans Omann,928,M60-64,Male,Klagenfurt,,Austria,AT,0:46:01,3:17:35,2:26:16,,,6:42:37,2761,11855,8776,463,302,24157,719,616,24,703,605,22,716,618,24,719,616,24,Finisher,1360
+Stefania,Ponzini,Stefania Ponzini,206,F50-54,Female,Piacenza,,Italy,IT,0:36:50,3:17:28,2:35:41,,,6:42:50,2210,11848,9341,518,254,24170,720,104,9,344,31,2,685,90,7,720,104,9,Finisher,2142
+Heiko,Mazur,Heiko Mazur,579,M40-44,Male,Vendersheim,,Germany,DE,0:49:27,3:07:27,2:32:00,,,6:43:00,2967,11247,9120,495,352,24180,721,617,111,744,632,116,694,600,111,721,617,111,Finisher,1052
+Franz,Troger,Franz Troger,947,M65-69,Male,Leoben,,Austria,AT,0:49:47,3:13:13,2:27:42,,,6:43:03,2987,11593,8862,458,283,24183,722,618,4,749,636,4,712,615,4,722,618,4,Finisher,1571
+Mario,Štrus,Mario Štrus,855,M50-54,Male,vukovar,vukovarsko srijemska županija,Croatia,HR,0:37:56,3:21:15,2:32:06,,,6:43:57,2276,12075,9126,433,328,24237,723,619,81,401,359,46,696,602,77,723,619,81,Finisher,946
+Bane,Klancar,Bane Klancar,886,M55-59,Male,Cerknica,APO,Slovenia,SI,0:42:55,3:09:27,2:39:24,,,6:45:42,2575,11367,9564,534,301,24342,724,620,39,619,536,34,677,591,39,724,620,39,Finisher,1395
+Valérie,Thomas,Valérie Thomas,162,F40-44,Female,Aische-En-Refail,,Belgium,BE,0:52:20,3:32:43,2:07:34,,,6:46:18,3140,12763,7654,456,366,24378,725,105,19,763,119,21,761,116,21,725,105,19,Finisher,1420
+Kristina,Puniš,Kristina Puniš,180,F45-49,Female,Poreč,,Croatia,HR,0:40:41,3:25:52,2:25:58,,,6:47:12,2441,12352,8758,508,374,24432,726,106,20,547,68,15,732,105,20,726,106,20,Finisher,1614
+Tomislav,Starcevic,Tomislav Starcevic,628,M40-44,Male,Zagreb,Zagreb,Croatia,HR,0:41:48,3:18:30,2:33:49,,,6:47:52,2508,11910,9229,483,341,24472,727,621,112,584,507,90,704,609,113,727,621,112,Finisher,964
+Katharina,Eberli-Lischer,Katharina Eberli-Lischer,209,F55-59,Female,Buttisholz,,Switzerland,CH,0:41:25,3:14:05,2:38:51,,,6:48:13,2485,11645,9531,525,308,24493,728,107,6,566,74,3,691,93,6,728,107,6,Finisher,2033
+Dagmar,Janíková,Dagmar Janíková,173,F45-49,Female,Brno,Česká republika,Czech Republic,CZ,0:47:22,3:22:30,2:27:15,,,6:48:50,2842,12150,8835,450,253,24530,729,108,21,722,104,21,739,108,21,729,108,21,Finisher,1584
+Andrija,Ivkovic,Andrija Ivkovic,450,M35-39,Male,Pula,Istra,Croatia,HR,0:41:52,3:00:55,2:48:42,,,6:48:55,2512,10855,10122,610,436,24535,730,622,90,588,511,77,630,558,81,730,622,90,Finisher,765
+Pascal,DEFAUX,Pascal DEFAUX,874,M55-59,Male,ST MANDRIER SUR MER,VAR,France,FR,0:53:06,3:26:47,2:13:06,,,6:49:11,3186,12407,7986,534,440,24551,731,623,40,770,651,43,758,644,43,731,623,40,Finisher,1332
+Stefano,Peluso,Stefano Peluso,598,M40-44,Male,Gorizia,,Italy,IT,0:41:24,3:05:51,2:49:35,,,6:49:56,2484,11151,10175,506,280,24596,732,624,113,565,492,86,646,570,106,732,624,113,Finisher,927
+Anastazija,Radic,Anastazija Radic,75,F18-24,Female,Ljubljana,Osrednjeslovenska,Slovenia,SI,0:32:01,3:21:10,2:46:12,,,6:50:29,1921,12070,9972,348,319,24629,733,109,7,109,10,4,664,80,7,733,109,7,Finisher,1297
+Lukas,Belovsky,Lukas Belovsky,523,M40-44,Male,Jilove u Prahy,Central Bohemian Region,Czech Republic,CZ,0:37:30,3:12:00,2:48:23,,,6:50:59,2250,11520,10103,368,418,24659,734,625,114,383,346,60,645,569,105,734,625,114,Finisher,908
+Massimiliano,Micali,Massimiliano Micali,833,M50-54,Male,Messina,Sicily,Italy,IT,0:34:15,3:24:59,2:32:15,,,6:51:00,2055,12299,9135,763,407,24660,735,626,82,202,186,25,720,620,82,735,626,82,Finisher,819
+Matthew,Lambert,Matthew Lambert,822,M50-54,Male,Milton Keynes,ENG,United Kingdom,GB,0:43:05,3:23:02,2:26:10,,,6:51:30,2585,12182,8770,654,498,24690,736,627,83,621,537,71,738,631,85,736,627,83,Finisher,810
+Tomas,Hovorka,Tomas Hovorka,701,M45-49,Male,Pardubice,Pardubicky,Czech Republic,CZ,0:52:34,3:08:33,2:39:06,,,6:51:50,3154,11313,9546,476,220,24710,737,628,108,767,648,111,706,611,105,737,628,108,Finisher,982
+Žan,Ribnikar,Žan Ribnikar,231,M18-24,Male,Kranj,Gorenjska,Slovenia,SI,0:44:35,3:23:17,2:28:33,,,6:52:58,2675,12197,8913,584,409,24778,738,629,18,667,576,18,740,632,18,738,629,18,Finisher,700
+Gene,Albert,Gene Albert,769,M50-54,Male,DALLAS,TX,United States,US,0:47:06,3:20:48,2:32:08,,,6:53:17,2826,12048,9128,468,327,24797,739,630,84,716,615,83,736,630,84,739,630,84,Finisher,778
+Günter,Haunzwickl,Günter Haunzwickl,922,M60-64,Male,Wien,,Austria,AT,1:01:26,2:36:36,3:04:11,,,6:53:56,3686,9396,11051,403,300,24836,740,631,25,781,659,25,568,510,18,740,631,25,Finisher,1156
+Janko,Brlecic,Janko Brlecic,309,M30-34,Male,Zagreb,Grad Zagreb,Croatia,HR,0:37:56,3:31:27,2:28:13,,,6:54:46,2276,12687,8893,626,405,24886,741,632,88,400,358,51,744,633,88,741,632,88,Finisher,700
+Manuela,Baumann,Manuela Baumann,141,F40-44,Female,Wolfsberg,,Austria,AT,0:50:29,3:26:59,2:25:50,,,6:55:54,3029,12419,8750,458,297,24954,742,110,20,755,115,19,754,114,20,742,110,20,Finisher,1247
+Fabrice,Houle,Fabrice Houle,813,M50-54,Male,LES SABLES D'OLONNE,,France,FR,0:45:46,3:15:21,2:41:20,,,6:56:03,2746,11721,9680,531,286,24963,743,633,85,696,599,80,708,613,81,743,633,85,Finisher,728
+boris,igrec,boris igrec,977,M40-44,,Zagreb,Croatia,Croatia,HR,0:37:55,3:36:44,2:22:55,,,6:57:17,2275,13004,8575,506,677,25037,744,634,115,398,356,61,750,637,114,744,634,115,Finisher,794
+Pawel,Krawczyk,Pawel Krawczyk,456,M35-39,Male,Sosnowiec,,Poland,PL,0:49:35,3:28:52,2:23:54,,,6:57:47,2975,12532,8634,575,351,25067,745,635,91,746,634,93,756,642,91,745,635,91,Finisher,700
+Franci,Macerol,Franci Macerol,889,M55-59,Male,ŠKOFLJICA,Slovenija,Slovenia,SI,0:51:26,3:14:48,2:36:48,,,6:57:54,3086,11688,9408,537,356,25074,746,636,41,760,642,42,733,628,41,746,636,41,Finisher,1175
+Amanda,Quitta,Amanda Quitta,90,F25-29,Female,FRIENDSWOOD,TX,United States,US,0:45:26,3:27:08,2:37:25,,,6:57:58,2726,12428,9445,325,153,25078,747,111,12,686,95,11,742,110,12,747,111,12,Finisher,1282
+Daniela,Dimitrova,Daniela Dimitrova,192,F45-49,Female,Sofia,Sofia-Grad,Bulgaria,BG,0:54:31,3:30:39,2:16:59,,,6:58:19,3271,12639,8219,678,292,25099,748,112,22,772,120,24,765,117,24,748,112,22,Finisher,1414
+Elisabetta,Gonzato,Elisabetta Gonzato,210,F55-59,Female,Trieste,Italy,Italy,IT,0:43:27,3:22:47,2:44:00,,,7:02:06,2607,12167,9840,363,349,25326,749,113,7,633,87,5,725,102,7,749,113,7,Finisher,1783
+Lisa,Starck,Lisa Starck,108,F30-34,Female,Bruchköbel,HE,Germany,DE,0:49:55,3:24:27,2:41:54,,,7:04:37,2995,12267,9714,320,180,25477,750,114,27,752,114,28,743,111,26,750,114,27,Finisher,971
+Gabriele,Kiramarios,Gabriele Kiramarios,707,M45-49,Female,TRIESTE,TRIESTE,Italy,IT,0:41:19,3:21:00,2:42:46,,,7:04:43,2479,12060,9766,681,497,25483,751,637,109,561,490,85,729,626,109,751,637,109,Finisher,750
+Lucio,Da Rodda,Lucio Da Rodda,873,M55-59,Male,FOLLINA,,Italy,IT,0:35:19,3:02:59,3:15:20,,,7:05:32,2119,10979,11720,437,278,25532,752,638,42,262,241,12,570,512,32,752,638,42,Finisher,1038
+Ivan,Mateljan,Ivan Mateljan,722,M45-49,Male,Zagreb,Grad Zagreb,Croatia,HR,0:50:06,3:30:10,2:26:37,,,7:06:13,3006,12610,8797,713,447,25573,753,639,110,753,639,106,759,645,110,753,639,110,Finisher,723
+Zoe,Elliott,Zoe Elliott,169,F45-49,Female,Pewsey,,United Kingdom,GB,0:41:56,3:42:19,2:30:24,,,7:07:03,2516,13339,9024,487,257,25623,754,115,23,592,78,17,760,115,23,754,115,23,Finisher,1256
+Pierre,Houdyer,Pierre Houdyer,332,M30-34,Male,ile saint denis,,France,FR,0:44:06,3:48:17,2:19:51,,,7:07:04,2646,13697,8391,511,379,25624,755,640,89,650,561,80,769,651,91,755,640,89,Finisher,700
+Quentin,Lacointa,Quentin Lacointa,458,M35-39,Male,Amsterdam,,France,FR,0:45:04,3:46:40,2:19:51,,,7:07:17,2704,13600,8391,564,379,25637,756,641,92,680,587,87,770,652,92,756,641,92,Finisher,700
+Marek,Kania,Marek Kania,817,M50-54,Male,Sosnowiec,śląskie,Poland,PL,0:40:19,3:20:47,2:53:06,,,7:07:50,2419,12047,10386,492,325,25670,757,642,86,524,457,61,707,612,80,757,642,86,Finisher,700
+Evgenii,Kuznetcov,Evgenii Kuznetcov,573,M40-44,Male,Praha,Praha,Unknown,,0:44:30,3:40:08,2:21:15,,,7:09:10,2670,13208,8475,672,725,25750,758,643,116,664,573,108,764,648,116,758,643,116,Finisher,700
+Matthew,Garza,Matthew Garza,546,M40-44,Male,spring,TX,United States,US,0:47:19,3:30:20,2:38:32,,,7:09:43,2839,12620,9512,405,406,25783,759,644,117,721,618,113,752,639,115,759,644,117,Finisher,700
+Vincent,Minot,Vincent Minot,892,M55-59,Male,Farciennes,,Belgium,BE,0:44:18,3:20:06,2:53:13,,,7:10:19,2658,12006,10393,400,362,25819,760,645,43,658,567,37,714,616,40,760,645,43,Finisher,952
+Philippe,Greffier,Philippe Greffier,804,M50-54,Male,Castelnaudary,,France,FR,0:44:51,3:43:07,2:27:52,,,7:10:40,2691,13387,8872,589,301,25840,761,646,87,674,582,78,767,650,87,761,646,87,Finisher,700
+Tatjana,Glumpak Ðurdevic,Tatjana Glumpak Ðurdevic,196,F50-54,Female,Zagreb,Grad Zagreb,Croatia,HR,0:43:37,3:51:27,2:23:24,,,7:12:05,2617,13887,8604,538,278,25925,762,116,10,636,88,7,771,119,11,762,116,10,Finisher,1616
+Denijal,Fišic,Denijal Fišic,322,M30-34,Male,Split,Dalmacija,Croatia,HR,0:44:32,3:30:37,2:44:07,,,7:12:34,2672,12637,9847,500,298,25954,763,647,90,665,574,82,751,638,90,763,647,90,Finisher,700
+Eva,Rupena,Eva Rupena,183,F45-49,Female,Trieste,FRIULI-VENEZIA GIULIA,Italy,IT,0:42:24,3:31:15,2:46:44,,,7:14:27,2544,12675,10004,545,300,26067,764,117,24,605,81,19,749,113,22,764,117,24,Finisher,1123
+Jan,Fajt,Jan Fajt,949,M70-74,Male,Rokytnice v Orlických horách,,Czech Republic,CZ,0:52:44,3:13:05,2:54:21,,,7:15:04,3164,11585,10461,590,304,26104,765,648,3,769,650,5,735,629,4,765,648,3,Finisher,2380
+Marianne Kirk,Jensen,Marianne Kirk Jensen,150,F40-44,Female,"
+Arden",,Denmark,DK,0:50:30,3:12:52,3:00:19,,,7:15:56,3030,11572,10819,428,306,26156,766,118,21,756,116,20,710,97,14,766,118,21,Finisher,887
+Katarina,Belicová,Katarina Belicová,194,F50-54,Female,Banska Bystrica,Slovakia,Slovakia,SK,1:01:10,3:43:40,2:19:23,,,7:16:41,3670,13420,8363,479,268,26201,767,119,11,780,122,12,776,121,12,767,119,11,Finisher,1533
+Andrej,Bucar,Andrej Bucar,948,M70-74,Male,Frankfurt,,Slovenia,SI,0:46:14,3:07:14,3:06:14,,,7:22:12,2774,11234,11174,833,517,26532,768,649,4,707,609,2,700,605,2,768,649,4,Finisher,2251
+Angélique,Magnier,Angélique Magnier,202,F50-54,Female,Pont-à-Celles,,Belgium,BE,1:04:39,3:48:51,2:16:30,,,7:22:56,3879,13731,8190,432,344,26576,769,120,12,782,123,13,780,123,13,769,120,12,Finisher,1421
+Sebastian,Wolfsteiner,Sebastian Wolfsteiner,407,M30-34,Male,Berlin,,Germany,DE,0:45:26,3:16:52,3:01:30,,,7:24:13,2726,11812,10890,729,496,26653,770,650,91,687,592,85,730,627,87,770,650,91,Finisher,700
+Kristian,Tanacek,Kristian Tanacek,754,M45-49,Male,Bad Tölz,,Slovenia,SI,0:54:23,3:30:45,2:42:56,,,7:25:46,3263,12645,9776,583,479,26746,771,651,111,771,652,112,762,646,111,771,651,111,Finisher,700
+Jani,Deželak,Jani Deželak,941,M65-69,Male,Trbovlje,Slovenija,Slovenia,SI,0:57:25,3:36:52,2:35:05,,,7:30:39,3445,13012,9305,714,563,27039,772,652,5,776,655,6,772,653,5,772,652,5,Finisher,714
+Regina,Brenner,Regina Brenner,195,F50-54,Female,Stuttgart,,Germany,DE,0:46:55,3:42:45,2:46:05,,,7:32:50,2815,13365,9965,613,413,27170,773,121,13,714,101,8,768,118,10,773,121,13,Finisher,1242
+Biljana,Nedeljkov,Biljana Nedeljkov,159,F40-44,Female,Novi Sad,Serbia,Serbia,RS,0:55:10,3:53:54,2:27:38,,,7:32:57,3310,14034,8858,525,449,27177,774,122,22,774,121,22,779,122,22,774,122,22,Finisher,700
+Milevcic,Zvonimira,Milevcic Zvonimira,113,F30-34,Female,Zagreb,Zagreb,Croatia,HR,0:49:42,3:51:59,2:39:24,,,7:40:41,2982,13919,9564,656,520,27641,775,123,28,748,113,27,775,120,28,775,123,28,Finisher,700
+Jakob,Sintschnig,Jakob Sintschnig,952,M70-74,Male,Graz,,Austria,AT,0:52:36,3:28:56,3:03:20,,,7:46:48,3156,12536,11000,811,505,28008,776,653,5,768,649,4,763,647,5,776,653,5,Finisher,1808
+Christian,Schweinberger,Christian Schweinberger,906,M55-59,Male,Burghausen,,Germany,DE,0:59:30,3:44:40,2:52:13,,,7:51:58,3570,13480,10333,585,350,28318,777,654,44,779,658,44,777,656,44,777,654,44,Finisher,700
+Gabi,Csiba,Gabi Csiba,424,M35-39,Male,Hviezdoslavov,,Slovakia,SK,0:58:43,3:44:02,2:53:28,,,7:52:34,3523,13442,10408,544,438,28354,778,655,93,778,657,94,774,655,94,778,655,93,Finisher,700
+Davor,Peic,Davor Peic,479,M35-39,Male,Porec,Istria,Croatia,HR,0:42:27,3:53:52,2:59:07,,,7:53:42,2547,14032,10747,710,385,28422,779,656,94,609,528,80,773,654,93,779,656,94,Finisher,700
+Wade,Allard,Wade Allard,652,M45-49,Male,Covington,GA,Trinidad and Tobago,TT,0:50:46,3:56:17,3:08:14,,,8:10:36,3046,14177,11294,526,393,29436,780,657,112,757,641,107,778,657,112,780,657,112,Finisher,700
+Norman,Joss,Norman Joss,944,M65-69,Male,Epsom,,United Kingdom,GB,1:05:06,4:01:31,2:56:39,,,8:18:07,3906,14491,10599,478,413,29887,781,658,6,783,660,7,782,659,6,781,658,6,Finisher,700
+Roberto,Feuring,Roberto Feuring,793,M50-54,Male,Caorle,Venezia,Italy,IT,0:54:46,4:02:32,3:02:07,,,8:24:38,3286,14552,10927,887,626,30278,782,659,88,773,653,88,781,658,88,782,659,88,Finisher,700
+Zlatko,Hamzic,Zlatko Hamzic,942,M65-69,Male,Labin,Istra,Croatia,HR,0:50:11,4:14:42,3:04:44,,,8:29:19,3011,15282,11084,701,481,30559,783,660,7,754,640,5,783,660,7,783,660,7,Finisher,700
+Thomas,Gugler,Thomas Gugler,48,M45-49,Male,Möllersdorf,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mathieu,Danel,Mathieu Danel,673,M45-49,Male,pringy,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Trier,Mark Trier,910,M55-59,Male,Tannay,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amir,Susic,Amir Susic,396,M30-34,Male,Graz,,Bosnia and Herzegovina,BA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paolo,Perkovic,Paolo Perkovic,277,M25-29,Male,Rovinj,Istria,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mikael,Juricic,Mikael Juricic,452,M35-39,Male,NEUILLY SUR SEINE,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roman,Feyersinger,Roman Feyersinger,17,M30-34,Male,Ellmau,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Davide,Pinotti,Davide Pinotti,481,M35-39,Male,Modena,Italia,Italy,IT,0:40:01,3:13:59,,,,,2401,11639,0,363,243,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Tomi,Cesek,Tomi Cesek,536,M40-44,Male,Ljubljana,Ljubljana,Slovenia,SI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Reiner,Pikal,Reiner Pikal,901,M55-59,Male,Kirchentellinsfurt,BW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Eccleston,Mark Eccleston,544,M40-44,Male,West lancs,England,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adrian,Bothe,Adrian Bothe,245,M25-29,Male,Zurich,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Samantha,Summerscales,Samantha Summerscales,123,F30-34,Female,Johannesburg,Gauteng,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michal,Palecek,Michal Palecek,477,M35-39,Male,Lhota,Kladno,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luca,Millevoi,Luca Millevoi,834,M50-54,Male,Trieste,Italia,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mario Ignazio,Palici Di Suni,Mario Ignazio Palici Di Suni,838,M50-54,Male,Milano,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lukáš,Grézl,Lukáš Grézl,443,M35-39,Male,Vyškov,Czech,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Kissling,David Kissling,341,M30-34,Male,goldiwil,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matthias,Albrech,Matthias Albrech,914,M60-64,Male,Blieskastel,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Cristian,Jurchescu,Cristian Jurchescu,815,M50-54,Male,Timisoara,Timis,Romania,RO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefanie,Murero,Stefanie Murero,203,F50-54,Female,Klagenfurt,foreigner,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rob,Mills,Rob Mills,363,M30-34,Male,Princes Risbororugh,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefan,Ofner,Stefan Ofner,592,M40-44,Male,Fernitz-Mellach,Steiermark,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephan,Müller,Stephan Müller,926,M60-64,Male,Untrreichenbach,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mario,Sattler,Mario Sattler,743,M45-49,Male,Seiersberg,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grzegorz,Popczyk,Grzegorz Popczyk,602,M40-44,Male,Kraków,małopolskie,Poland,PL,0:34:14,,,,,,2054,0,0,250,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+India,Bulgin,India Bulgin,96,F30-34,Female,Salzburg,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michele,Chiaramida,Michele Chiaramida,13,M40-44,Male,MONTEGROTTO TERME,PADOVA,Italy,IT,0:29:03,,,,,,1743,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Karin,Karner,Karin Karner,197,F50-54,Female,Wien,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Giacomo,Panizzolo,Giacomo Panizzolo,728,M45-49,Male,stra,stra,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Kunz,Daniel Kunz,350,M30-34,Male,Heidelberg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gabrielle Laurie,Haustenne,Gabrielle Laurie Haustenne,103,F30-34,Female,Court-saint-Etienne,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Florian,Winkler,Florian Winkler,645,M40-44,Male,Baldwinsville,NY,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Federico,Clerici,Federico Clerici,311,M30-34,Male,Arese,Italia / Milano / Lombardia,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dino  ALBONA EXTREME,Vodopija,Dino  ALBONA EXTREME Vodopija,402,M30-34,Male,Sv. Petar u Šumi,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Branko,Gugleta,Branko Gugleta,553,M40-44,Male,Prague,"PRAHA, HLAVNI MESTO",Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Úna,Sinnott,Úna Sinnott,78,F18-24,Female,Gorey,ireland,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nora,Lukss,Nora Lukss,201,F50-54,Female,Lupoglav,Istria,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+René,Arnošt,René Arnošt,654,M45-49,Male,Plzeň,South Bohemian Region,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jennifer,Barbour,Jennifer Barbour,130,F35-39,Female,,,United Kingdom,GB,0:30:05,3:18:00,,,,,1805,11880,0,293,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Stefan,Marignoni,Stefan Marignoni,577,M40-44,Male,Linz,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Georg,Grünthaler,Georg Grünthaler,444,M35-39,Male,Vilshofen,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Gospodinov,Daniel Gospodinov,441,M35-39,Male,Praha 4 - Braník,Prague,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Booth,Scott Booth,528,M40-44,Male,sheffield,south yorkshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roberto,Cappelletti,Roberto Cappelletti,533,M40-44,Male,Roma,Rm,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergio,Coletti,Sergio Coletti,783,M50-54,Male,Perugia,,Italy,IT,0:31:39,2:57:57,,,,,1899,10677,0,325,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jan,Jukl,Jan Jukl,562,M40-44,Male,Prague,Modřany,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrea,Appe,Andrea Appe,129,F35-39,Female,Viktring,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alberic,Droz,Alberic Droz,312,M30-34,Male,Luzern,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adrien,Rama,Adrien Rama,376,M30-34,Male,Lausanne,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marie,Douay,Marie Douay,98,F30-34,Female,,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ellie,Chapman,Ellie Chapman,97,F30-34,Female,Essex,England,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Susanne,Treiblmaier,Susanne Treiblmaier,163,F40-44,Female,Hinterbrühl,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Božidar,Mihic,Božidar Mihic,582,M40-44,Male,Poreč,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fedor,Bobkov,Fedor Bobkov,778,M50-54,Male,Moscow,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Herrick,Scott Herrick,810,M50-54,Male,Zurich,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Achim,Hermann,Achim Hermann,447,M35-39,Male,Zöbing,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jérémie,Flament,Jérémie Flament,685,M45-49,Male,Wépion,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fabian,Ipsa,Fabian Ipsa,336,M30-34,Male,Langwiesen,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paolo,Stucchi,Paolo Stucchi,394,M30-34,Male,Concorezzo,MB,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grégoire,Debray,Grégoire Debray,220,M18-24,Male,Saint-Denis,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lorenz,Lang,Lorenz Lang,823,M50-54,Male,Wien,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicolas,Bernard,Nicolas Bernard,244,M25-29,Male,Saint Maur des Fossés,,France,FR,0:34:11,2:28:09,,,,,2051,8889,0,306,126,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Nadja ,Buschhaus,Nadja Buschhaus,167,F45-49,Female,Büttenhardt,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Collin,Franklin,Collin Franklin,876,M55-59,Male,Derby,Derbyshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Kretz,David Kretz,712,M45-49,Male,Villach,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mario,Malenica,Mario Malenica,356,M30-34,Male,Knin,Sibenik-Knin County,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Frederic,Faraus,Frederic Faraus,681,M45-49,Male,VILLERS LES NANCY,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ivan,Kvesic,Ivan Kvesic,715,M45-49,Male,Zagreb,Zagreb,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marko,Radoš,Marko Radoš,483,M35-39,Male,Zagreb,Hrvatska,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michaela,Wieser,Michaela Wieser,165,F40-44,Female,Ebenthal,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicolò,Alessandrini,Nicolò Alessandrini,215,M18-24,Male,Frascati,Roma,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joost,Rueck,Joost Rueck,742,M45-49,Male,Bloemendaal,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Enrico,Bardini,Enrico Bardini,771,M50-54,Male,Curtatone,Mantova,Italy,IT,0:32:32,3:12:04,,,,,1952,11524,0,314,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Guillaume,Nicot,Guillaume Nicot,473,M35-39,Male,Zürich,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefan,Kaehny,Stefan Kaehny,339,M30-34,Male,Karlsbad,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christiaan,Walker,Christiaan Walker,861,M50-54,Male,Dubai,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Antonia,Koch,Antonia Koch,74,F18-24,Female,Hamburg,,Germany,DE,0:30:01,2:47:30,,,,,1801,10050,0,213,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Pachler,Michael Pachler,727,M45-49,Male,STEYR,CA,Austria,AT,0:53:31,,,,,,3211,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Emanuel,Falk,Emanuel Falk,319,M30-34,Male,München,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Ragner,Kevin Ragner,608,M40-44,Male,Landshut,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dennis,Weiss,Dennis Weiss,236,M18-24,Male,Berlin,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Lawrie,Richard Lawrie,351,M30-34,Male,Port Elilzabeth,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sabine,Schneider,Sabine Schneider,120,F30-34,Female,Düsseldorf,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Ruppert,Michael Ruppert,613,M40-44,Male,Leoben,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Martin,Vajda,Martin Vajda,638,M40-44,Male,Bratislava,BA 4,Slovakia,SK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mate,Boban,Mate Boban,525,M40-44,Male,Split,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon,Krueger,Simon Krueger,349,M30-34,Male,München,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Günter,Schneeweiß,Günter Schneeweiß,851,M50-54,Male,Klagenfurt am Wörthersee,KARNTEN,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dirk,Demtroeder,Dirk Demtroeder,940,M65-69,Male,Herdecke,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Melissa,Albert,Melissa Albert,193,F50-54,Female,DALLAS,TX,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Christoph,Neuwirth,Christoph Neuwirth,472,M35-39,Male,Eggersdorf,STEIERMARK,Austria,AT,0:34:04,,,,,,2044,0,0,304,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Giorgio,Galimberti,Giorgio Galimberti,689,M45-49,Male,riccione,rimini,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bernhard,Niessl,Bernhard Niessl,591,M40-44,Male,Hochegg,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gatis,Kazakevics,Gatis Kazakevics,340,M30-34,Male,Upeslejas,Stopinu novads,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lucie,Fialová,Lucie Fialová,144,F40-44,Female,Slavkov u Bna,South Moravian Region,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wolfgang,Rzepka,Wolfgang Rzepka,946,M65-69,Male,Vöhrenbach,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Letty,Keys,Letty Keys,106,F30-34,Female,LONDON,"Please select a region, state or province.",United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergey,Matveev,Sergey Matveev,831,M50-54,Male,Brumovice,644,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joerg,Erlebach,Joerg Erlebach,875,M55-59,Male,Berlin,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Shepelsky,Alexander Shepelsky,385,M30-34,Male,Москва,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Georg,Hanselmayer,Georg Hanselmayer,808,M50-54,Male,Graz,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Momcilo,Risovic,Momcilo Risovic,611,M40-44,Male,Banja Luka,Bosnia,Bosnia and Herzegovina,BA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christian,Spitzer,Christian Spitzer,626,M40-44,Male,Feldkirchen,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bence Tamás,Varga,Bence Tamás Varga,295,M25-29,Male,Gödöllő,,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Petros,Stylianou,Petros Stylianou,631,M40-44,Male,Paphos,Paphos,Cyprus,CY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michel,Columberg,Michel Columberg,785,M50-54,Male,Ruemlang,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Florian,Von Transehe-Roseneck,Florian Von Transehe-Roseneck,642,M40-44,Male,Würzburg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ciro,Ferriero,Ciro Ferriero,792,M50-54,Male,Cisliano,MI,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Siegfried,Hoelzer,Siegfried Hoelzer,811,M50-54,Male,Koenigsbach-Stein,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anita,Riegler,Anita Riegler,182,F45-49,Female,Willendorf,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ivaylo,Kunev,Ivaylo Kunev,714,M45-49,Male,Sofia,Sofia-Grad,Bulgaria,BG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Simon,Mark Simon,907,M55-59,Male,DPO,AE,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jon,Morris,Jon Morris,587,M40-44,Male,Uplands,Swansea,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hashem,Alharbi,Hashem Alharbi,650,M45-49,Male,Abu Dhabi ,AUH,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Viktoria,Nemes,Viktoria Nemes,134,F35-39,Female,Isaszeg,,Hungary,HU,1:04:22,1:22:00,,,,,3862,4920,0,484,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Lee,Holdaway,Lee Holdaway,943,M65-69,Male,Bexhill on Sea,Easy sussex,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeroen,Engeler,Jeroen Engeler,317,M30-34,Male,Antwerpen,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luka,Martinovic,Luka Martinovic,359,M30-34,Male,Beograd,Central Serbia,Serbia,RS,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yasmin,Rieger,Yasmin Rieger,77,F18-24,Female,Kufstein,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Josh,Allen,Josh Allen,301,M30-34,Male,Sutton,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stanislav,Martin,Stanislav Martin,578,M40-44,Male,Zagreb,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alberto,Moretto,Alberto Moretto,470,M35-39,Male,Bizzarone,Como,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Giorgio,Marchesan,Giorgio Marchesan,829,M50-54,Male,vicenza,vicenza,Italy,IT,0:41:09,3:01:04,,,,,2469,10864,0,305,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Cristian,Palmiere,Cristian Palmiere,25,M50-54,Male,Tartegnin,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steve,Murphy,Steve Murphy,894,M55-59,Male,Aberdeen,GB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alessandro,Mosca,Alessandro Mosca,273,M25-29,Male,Jesi,Ancona (AN),Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Georg,Schöpf,Georg Schöpf,489,M35-39,Male,St. Pölten,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Justin,Foguenne,Justin Foguenne,222,M18-24,Male,Ixelles,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ludek,Kotyl,Ludek Kotyl,454,M35-39,Male,Ejpovice,,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksei,Shomov,Aleksei Shomov,623,M40-44,Male,Cesate,MILANO,Unknown,,1:14:12,,,,,,4452,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Tamás,Markót,Tamás Markót,461,M35-39,Male,Budapest,,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Henry,Seibold,Henry Seibold,64,M55-59,Male,Landsberg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Igor,Rados,Igor Rados,846,M50-54,Male,Novi Sad,Serbia,Serbia,RS,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benjamin,Seibel,Benjamin Seibel,491,M35-39,Male,Klagenfurt am Wörthersee,foreigner,Germany,DE,0:57:38,,,,,,3458,0,0,520,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Joske,Millecam,Joske Millecam,114,F30-34,Female,Brugge,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jaka,Košak,Jaka Košak,345,M30-34,Male,DOMŽALE,SLOVENIA,Slovenia,SI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Georg,Findenig,Georg Findenig,975,M40-44,Male,Maria Saal,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Artem,Sikorskii,Artem Sikorskii,285,M25-29,Male,Irkutsk,"Irkutsk
+",Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Micah,Risher,Micah Risher,610,M40-44,Male,SANTA FE,NM,United States,US,1:15:28,,,,,,4528,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jonathan,Murray,Jonathan Murray,230,M18-24,Male,London,,South Africa,ZA,0:35:15,4:00:13,,,,,2115,14413,0,314,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Britta,Wenske,Britta Wenske,39,F40-44,Female,Haldenwang,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alessandra,Gambin,Alessandra Gambin,146,F40-44,Female,Malgrate,Lecco,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Goran,Valjak,Goran Valjak,400,M30-34,Male,Zagreb,Croatia,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pierre,Faulat,Pierre Faulat,320,M30-34,Male,Paris,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Duncan,Beardsmore,Duncan Beardsmore,774,M50-54,Male,Stone,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephan,Kröller,Stephan Kröller,348,M30-34,Male,-,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marko,Juranic,Marko Juranic,705,M45-49,Male,Zagreb,Zagreb,Croatia,HR,0:35:09,2:42:19,,,,,2109,9739,0,248,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Martin,Obradovic,Martin Obradovic,474,M35-39,Male,Strmec,ZAGREBACKA ZUPANIJA,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomas,Smicko,Tomas Smicko,388,M30-34,Male,Bratislava,Bratislava,Slovakia,SK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pier Antonio,Cornaglia,Pier Antonio Cornaglia,14,M40-44,Male,Moncalieri,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ana,Jurcan,Ana Jurcan,151,F40-44,Female,Poreč,,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zvonimir,Zetovic,Zvonimir Zetovic,514,M35-39,Male,Osijek,Osječko-baranjska,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toniolo,Simone,Toniolo Simone,856,M50-54,Male,Velo d'Astico,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefaan,Gouhie,Stefaan Gouhie,551,M40-44,Male,Auriol,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pierpaolo,Alagna,Pierpaolo Alagna,649,M45-49,Male,Spilimbergo,Pordenone,Italy,IT,0:45:34,2:41:18,,,,,2734,9678,0,607,327,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rouven,Haban,Rouven Haban,695,M45-49,Male,Offenberg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Boris,Gliebe,Boris Gliebe,802,M50-54,Male,DRAVOGRAD,DRAVOGRAD,Slovenia,SI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Markus,Bauer,Markus Bauer,521,M40-44,Male,Haimburg,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Guido,Cosulich De Pecine,Guido Cosulich De Pecine,917,M60-64,Male,TRIESTE,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sven,Horlbeck,Sven Horlbeck,700,M45-49,Male,Freising,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Nash,Paul Nash,927,M60-64,Male,Birdingbury,Warks,United Kingdom,GB,0:38:45,2:58:40,,,,,2325,10720,0,478,293,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Giacomo,Lovati,Giacomo Lovati,825,M50-54,Male,Castel Maggiore,Bologna,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Miodrag,Stojkovic,Miodrag Stojkovic,853,M50-54,Male,Belgrade ,Central Serbia,Serbia,RS,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aiste,Balciunaite,Aiste Balciunaite,81,F25-29,Female,Zürich,,Lithuania,LT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luciano,Cappello,Luciano Cappello,11,M30-34,Male,Århus,Midtjylland,Spain,ES,0:35:11,2:35:29,,,,,2111,9329,0,294,161,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ulrich,Koch,Ulrich Koch,887,M55-59,Male,Hamburg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Philip,Rawcliffe,Philip Rawcliffe,377,M30-34,Male,Reading,Berkshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sascha,Weckler,Sascha Weckler,297,M25-29,Male,Lontzen,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kristina,Skevin,Kristina Skevin,186,F45-49,Female,Zagreb (10000),-Zagreb,Croatia,HR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lorenzo,Cavallari,Lorenzo Cavallari,535,M40-44,Male,Bologna,BO,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lorenzo,Bergamo Andreis,Lorenzo Bergamo Andreis,243,M25-29,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anna-Maria,Kipphardt,Anna-Maria Kipphardt,107,F30-34,Female,Essen,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pavel,Hrabe,Pavel Hrabe,448,M35-39,Male,Plzeň,CZ,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Sebastian-Bernhard,Hannes,Sebastian-Bernhard Hannes,261,M25-29,Male,Wien,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
