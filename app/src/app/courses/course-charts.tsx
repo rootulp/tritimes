@@ -35,7 +35,11 @@ export default function CourseCharts({
 }) {
   const [distance, setDistance] = useState<"70.3" | "140.6">("70.3");
 
-  const filtered = courses.filter((c) => c.distance === distance);
+  const filtered = courses.filter(
+    (c) =>
+      c.distance === distance &&
+      !c.course.includes("world-championship")
+  );
 
   const btnClass = (active: boolean) =>
     active
