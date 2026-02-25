@@ -1,0 +1,667 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Robert,Wilkowiecki,Robert Wilkowiecki,2,MPRO,Male,Twardogóra,,Poland,PL,0:23:26,2:04:16,1:12:18,,,3:43:27,1406,7456,4338,144,63,13407,1,1,1,4,4,3,1,1,1,1,1,1,Finisher,3500
+Kacper,Stepniak,Kacper Stepniak,6,MPRO,Male,Niemcz,kujawsko-pomorskie,Poland,PL,0:23:25,2:04:14,1:13:39,,,3:44:39,1405,7454,4419,148,53,13479,2,2,2,2,2,1,2,2,2,2,2,2,Finisher,3478
+Henrik,Goesch,Henrik Goesch,13,MPRO,Male,turku,,Finland,FI,0:23:48,2:07:19,1:12:04,,,3:47:01,1428,7639,4324,152,78,13621,3,3,3,7,7,6,6,6,6,3,3,3,Finisher,3435
+Menno,Koolhaas,Menno Koolhaas,10,MPRO,Male,Sittard,,Netherlands,NL,0:23:25,2:07:43,1:12:57,,,3:47:25,1405,7663,4377,146,54,13645,4,4,4,2,2,1,4,4,4,4,4,4,Finisher,3428
+Christoph,Matner,Christoph Matner,5,MPRO,Male,Pinnow,MV,Germany,DE,0:26:51,2:05:44,1:12:20,,,3:48:46,1611,7544,4340,167,64,13726,5,5,5,28,27,16,8,8,8,5,5,5,Finisher,3404
+Nicola,Duchi,Nicola Duchi,15,MPRO,Male,riva del garda,,Italy,IT,0:25:49,2:06:48,1:12:24,,,3:49:18,1549,7608,4344,171,86,13758,6,6,6,22,21,15,11,11,10,6,6,6,Finisher,3394
+Leonard,Arnold,Leonard Arnold,22,MPRO,Male,Potsdam,BW,Germany,DE,0:25:15,2:04:20,1:16:05,,,3:49:54,1515,7460,4565,167,87,13794,7,7,7,13,12,11,3,3,3,7,7,7,Finisher,3383
+Andrea,Pizzeghella,Andrea Pizzeghella,14,MPRO,Male,Verona,Vr,Italy,IT,0:25:10,2:06:47,1:14:24,,,3:50:06,1510,7607,4464,163,62,13806,8,8,8,11,10,9,7,7,7,8,8,8,Finisher,3380
+Oliver,Martinussen,Oliver Martinussen,34,MPRO,Male,"
+Odense",,Denmark,DK,0:25:45,2:05:06,1:15:12,,,3:50:07,1545,7506,4512,165,79,13807,9,9,9,19,18,13,5,5,5,9,9,9,Finisher,3380
+Bastian,Peitersen,Bastian Peitersen,20,MPRO,Male,Søborg,foreigner,Denmark,DK,0:27:18,2:06:01,1:14:29,,,3:52:07,1638,7561,4469,170,89,13927,10,10,10,34,30,17,12,12,11,10,10,10,Finisher,3344
+Tomasz,Szala,Tomasz Szala,16,MPRO,Male,Nowa Iwiczna,mazowieckie,Poland,PL,0:25:47,2:05:03,1:17:05,,,3:53:30,1547,7503,4625,276,59,14010,11,11,11,20,19,14,9,9,9,11,11,11,Finisher,3319
+Sergiusz,Sobczyk,Sergiusz Sobczyk,526,M30-34,Male,Warszawa,mazowieckie,Poland,PL,0:20:39,2:12:01,1:16:48,,,3:53:39,1239,7921,4608,166,85,14019,12,12,1,1,1,1,9,9,1,12,12,1,Finisher,3500
+Jacek,Krawczyk,Jacek Krawczyk,26,MPRO,Male,Poznań,wielkopolskie,Poland,PL,0:25:38,2:07:54,1:21:55,,,3:59:32,1538,7674,4915,171,74,14372,13,13,12,17,16,12,13,13,12,13,13,12,Finisher,3210
+Emanuele,Faraco,Emanuele Faraco,23,MPRO,Male,Napoli,,Italy,IT,0:25:11,2:15:49,1:16:58,,,4:02:20,1511,8149,4618,172,90,14540,14,14,13,12,11,10,22,22,15,14,14,13,Finisher,3160
+Alexander,Schilling,Alexander Schilling,678,M30-34,Male,Leipzig,Saxony,Germany,DE,0:25:43,2:10:52,1:21:25,,,4:02:21,1543,7852,4885,177,84,14541,15,15,2,18,17,2,15,15,2,15,15,2,Finisher,3343
+Tomasz,Spaleniak,Tomasz Spaleniak,643,M30-34,Male,Gdynia,pomorskie,Poland,PL,0:31:14,2:11:23,1:15:35,,,4:02:47,1874,7883,4535,200,75,14567,16,16,3,92,75,7,28,28,3,16,16,3,Finisher,3335
+Mateusz,Gajewski,Mateusz Gajewski,695,M18-24,Male,Poznań,,Poland,PL,0:25:47,2:13:24,1:20:12,,,4:03:45,1547,8004,4812,182,80,14625,17,17,1,20,19,1,17,17,1,17,17,1,Finisher,3500
+Maciej,Wisniewski,Maciej Wisniewski,289,M18-24,Male,Ostróda,,Poland,PL,0:29:21,2:11:19,1:20:32,,,4:04:36,1761,7879,4832,171,33,14676,18,18,2,50,40,3,19,19,2,18,18,2,Finisher,3484
+Lukasz,Lis,Lukasz Lis,71,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:25:28,2:12:51,1:22:15,,,4:04:57,1528,7971,4935,183,80,14697,19,19,1,15,14,2,16,16,1,19,19,1,Finisher,3500
+Kamil,Duplicki,Kamil Duplicki,580,M40-44,Male,Warszawa,mazowieckie,Poland,PL,,,1:19:44,,,4:09:36,0,0,4784,0,0,14976,20,20,1,99999,99999,99999,99999,99999,99999,20,20,1,Finisher,3500
+Dominik,Bogdanowicz,Dominik Bogdanowicz,493,M25-29,Male,Warszawa,,Poland,PL,0:28:05,2:12:56,1:24:29,,,4:09:50,1685,7976,5069,177,83,14990,21,21,1,40,35,2,24,24,2,21,21,1,Finisher,3500
+Filip,Szymonik,Filip Szymonik,405,M25-29,Male,Stalowa Wola,podkarpackie,Poland,PL,0:27:00,2:13:25,1:25:18,,,4:09:57,1620,8005,5118,175,79,14997,22,22,2,30,29,1,18,18,1,22,22,2,Finisher,3497
+Diede,Diederiks,Diede Diederiks,47,FPRO,Female,Maastricht,foreigner,Netherlands,NL,0:29:23,2:14:46,1:21:48,,,4:10:07,1763,8086,4908,184,66,15007,23,1,1,51,11,8,31,2,2,23,1,1,Finisher,3500
+Anne,Reischmann,Anne Reischmann,49,FPRO,Female,Winterthur,,Germany,DE,0:29:30,2:14:29,1:23:41,,,4:11:33,1770,8069,5021,161,72,15093,24,2,2,56,14,11,29,1,1,24,2,2,Finisher,3474
+Guillaume,Doree,Guillaume Doree,11,MPRO,Male,Rouen,foreigner,France,FR,0:25:07,2:15:53,1:26:13,,,4:11:45,1507,8153,5173,171,101,15105,25,23,14,10,9,8,21,21,14,25,23,14,Finisher,2990
+Mariusz,Pirek,Mariusz Pirek,70,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:29:53,2:10:57,1:27:04,,,4:12:14,1793,7857,5224,186,74,15134,26,24,2,61,47,5,23,23,2,26,24,2,Finisher,3368
+Otto,Loukkalahti,Otto Loukkalahti,561,M25-29,Male,Turku,Varsinais-Suomi,Finland,FI,0:30:16,2:16:27,1:21:17,,,4:12:48,1816,8187,4877,191,97,15168,27,25,3,71,56,5,36,34,5,27,25,3,Finisher,3446
+Marek,Biega?a,Marek Biega?a,115,M35-39,Male,Gdańsk,,Poland,PL,0:32:52,2:12:52,1:24:11,,,4:14:44,1972,7972,5051,217,72,15284,28,26,3,129,107,19,33,31,6,28,26,3,Finisher,3323
+Maciej,Skórnicki,Maciej Skórnicki,81,M25-29,Male,Szamotuły,wielkopolskie,Poland,PL,0:29:57,2:12:56,1:29:06,,,4:16:35,1797,7976,5346,173,103,15395,29,27,4,64,50,4,27,27,3,29,27,4,Finisher,3378
+Przemyslaw,Gaj,Przemyslaw Gaj,681,M18-24,Male,Konin,wielkopolskie,Poland,PL,0:30:41,2:21:17,1:20:23,,,4:17:03,1841,8477,4823,186,96,15423,30,28,3,82,66,6,59,53,5,30,28,3,Finisher,3260
+Marcin,Tomczak,Marcin Tomczak,120,M35-39,Male,Poznań,,Poland,PL,0:30:06,2:10:46,1:31:12,,,4:17:09,1806,7846,5472,200,105,15429,31,29,4,68,54,8,26,26,4,31,29,4,Finisher,3280
+Marcin,Turek,Marcin Turek,113,M25-29,Male,Kraków,małopolskie,Poland,PL,0:29:27,2:15:59,1:27:36,,,4:18:25,1767,8159,5256,242,81,15505,32,30,5,54,42,3,34,32,4,32,30,5,Finisher,3345
+Michal,Kurach,Michal Kurach,124,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:33:01,2:12:22,1:27:42,,,4:18:27,1981,7942,5262,223,99,15507,33,31,5,138,116,21,32,30,5,33,31,5,Finisher,3257
+Paul,Newsome,Paul Newsome,462,M35-39,Male,Haywards Heath,SXW,United Kingdom,GB,0:30:03,2:15:28,1:27:35,,,4:18:54,1803,8128,5255,243,105,15534,34,32,6,66,52,7,35,33,7,34,32,6,Finisher,3248
+Lottie,Lucas,Lottie Lucas,50,FPRO,Female,Dubai,foreigner,United Arab Emirates,AE,0:27:09,2:20:26,1:27:12,,,4:19:08,1629,8426,5232,179,82,15548,35,3,3,31,2,1,38,3,3,35,3,3,Finisher,3337
+Markku,Okka,Markku Okka,513,M18-24,Male,Nokia,,Finland,FI,0:29:49,2:19:40,1:19:52,,,4:19:50,1789,8380,4792,254,375,15590,36,33,4,57,43,4,50,45,4,36,33,4,Finisher,3210
+Susie,Cheetham,Susie Cheetham,38,FPRO,Female,Turleigh,England,United Kingdom,GB,0:29:25,2:20:04,1:25:54,,,4:20:13,1765,8404,5154,181,109,15613,37,4,4,52,12,9,43,4,4,37,4,4,Finisher,3318
+Neal,Bailey,Neal Bailey,72,M40-44,Male,Poznan,wielkopolskie,Poland,PL,0:35:54,2:15:16,1:24:25,,,4:21:05,2154,8116,5065,224,106,15665,38,34,2,211,180,39,57,51,7,38,34,2,Finisher,3293
+Piotr,Szczesniak,Piotr Szczesniak,605,M40-44,Male,Tyniec nad Sleza,dolnośląskie,Poland,PL,0:33:44,2:18:42,1:24:23,,,4:21:23,2024,8322,5063,196,78,15683,39,35,3,147,124,25,62,55,9,39,35,3,Finisher,3287
+Jana,Uderstadt,Jana Uderstadt,37,FPRO,Female,Darmstadt,dolnośląskie,Germany,DE,0:28:39,2:22:24,1:26:26,,,4:21:32,1719,8544,5186,163,80,15692,40,5,5,46,8,5,51,6,5,40,5,5,Finisher,3294
+Dennis,Weiss,Dennis Weiss,475,M18-24,Male,Berlin,,Germany,DE,0:28:04,2:20:04,1:27:31,,,4:21:33,1684,8404,5251,229,125,15693,41,36,5,39,34,2,41,38,3,41,36,5,Finisher,3179
+Patryk,Bielik,Patryk Bielik,63,M30-34,Male,Dubai,Dubai,Poland,PL,0:32:19,2:20:00,1:25:15,,,4:21:52,1939,8400,5115,225,33,15712,42,37,4,114,95,11,64,57,7,42,37,4,Finisher,2992
+Mateusz,Hering,Mateusz Hering,623,M30-34,Male,Mądrzechowo,pomorskie,Poland,PL,0:32:47,2:17:33,1:27:10,,,4:21:56,1967,8253,5230,183,83,15716,43,38,5,128,106,14,48,43,4,43,38,5,Finisher,2990
+Wojciech,Biolik,Wojciech Biolik,107,M30-34,Male,Tychy,śląskie,Poland,PL,0:34:28,2:15:30,1:27:12,,,4:22:14,2068,8130,5232,235,69,15734,44,39,6,163,138,17,52,46,5,44,39,6,Finisher,2985
+Lukasz,Walkowiak,Lukasz Walkowiak,365,M25-29,Male,Czerwonak,WIELKOPOLSKIE,Poland,PL,0:30:33,2:17:38,1:28:07,,,4:22:26,1833,8258,5287,288,80,15746,45,40,6,79,63,6,46,42,6,45,40,6,Finisher,3273
+Piotr,Kulbicki,Piotr Kulbicki,95,M40-44,Male,Wrocław,Dolnośląskie,Poland,PL,0:32:54,2:21:20,1:23:39,,,4:22:43,1974,8480,5019,214,76,15763,46,41,4,134,112,18,76,65,11,46,41,4,Finisher,3263
+Marcin,Kowalczyk,Marcin Kowalczyk,408,M40-44,Male,Łódź,,Poland,PL,0:36:20,2:12:50,1:29:13,,,4:23:14,2180,7970,5353,209,82,15794,47,42,5,229,196,43,45,41,5,47,42,5,Finisher,3254
+Pawel,Targoni,Pawel Targoni,116,M45-49,Male,Frydek,,Poland,PL,0:30:15,2:26:13,1:21:18,,,4:23:21,1815,8773,4878,213,122,15801,48,43,1,70,55,6,87,75,11,48,43,1,Finisher,3500
+Robert,Wojnar,Robert Wojnar,520,M45-49,Male,Torun,,Poland,PL,0:37:53,2:16:14,1:24:32,,,4:23:36,2273,8174,5072,186,111,15816,49,44,2,298,255,44,71,61,5,49,44,2,Finisher,3495
+Alexander,Saul,Alexander Saul,142,M30-34,Male,Ingolstadt,,Germany,DE,0:28:28,2:22:53,1:27:44,,,4:23:40,1708,8573,5264,174,101,15820,50,45,7,45,38,5,55,49,6,50,45,7,Finisher,2959
+Joao Felipe,De Campos Costa,Joao Felipe De Campos Costa,364,M35-39,Male,Curitiba,Paraná,Brazil,BR,0:37:16,2:15:08,1:27:22,,,4:24:26,2236,8108,5242,239,41,15866,51,46,7,280,239,41,66,58,11,51,46,7,Finisher,3149
+Mikolaj,Tomaszewski,Mikolaj Tomaszewski,487,M35-39,Male,Kościan,wielkopolskie,Poland,PL,0:28:06,2:25:34,1:25:19,,,4:24:38,1686,8734,5119,252,87,15878,52,47,8,41,36,3,77,66,13,52,47,8,Finisher,3145
+Maciej,Rycyk,Maciej Rycyk,597,M40-44,Male,Katowice,,Poland,PL,0:25:31,2:18:24,1:36:08,,,4:24:45,1531,8304,5768,188,94,15885,53,48,6,16,15,1,30,29,2,53,48,6,Finisher,3227
+Lisa,Gerß,Lisa Gerß,40,FPRO,Female,HANNOVER,NI,Germany,DE,0:28:41,2:24:42,1:27:17,,,4:24:57,1721,8682,5237,171,86,15897,54,6,6,47,9,6,65,8,6,54,6,6,Finisher,3233
+Arek,Podziewski,Arek Podziewski,119,M50-54,Male,Elk,,Poland,PL,0:33:08,2:13:58,1:34:32,,,4:25:35,1988,8038,5672,194,43,15935,55,49,1,139,117,6,37,35,1,55,49,1,Finisher,3500
+Georg,Abel,Georg Abel,594,M40-44,Male,Hannover,,Germany,DE,0:27:18,2:12:58,1:40:19,,,4:25:39,1638,7978,6019,198,106,15939,56,50,7,34,30,3,20,20,1,56,50,7,Finisher,3211
+Przemyslaw,Olkowski,Przemyslaw Olkowski,672,M40-44,Male,Oleśnica,dolnośląskie,Poland,PL,0:33:00,2:21:02,1:26:39,,,4:25:42,1980,8462,5199,195,106,15942,57,51,8,136,114,19,73,63,10,57,51,8,Finisher,3210
+Michal,Marciniak,Michal Marciniak,207,M35-39,Male,Skórzewo,,Poland,PL,0:31:16,2:19:26,1:29:45,,,4:25:50,1876,8366,5385,226,97,15950,58,52,9,93,76,13,56,50,9,58,52,9,Finisher,3124
+Stefan,Tudose,Stefan Tudose,429,M45-49,Male,Timisoara,Timiș,Romania,RO,0:26:55,2:22:51,1:28:30,,,4:26:00,1615,8571,5310,268,196,15960,59,53,3,29,28,3,54,48,3,59,53,3,Finisher,3452
+Rafal,Borowiak,Rafal Borowiak,86,M35-39,Male,Slubice,,Poland,PL,0:31:09,2:26:30,1:24:19,,,4:26:24,1869,8790,5059,222,44,15984,60,54,10,89,72,12,96,84,17,60,54,10,Finisher,3113
+Krzysztof,Piernicki,Krzysztof Piernicki,67,M40-44,Male,KARCZEMKI,Pomerania,Poland,PL,0:29:26,2:19:32,1:32:32,,,4:26:30,1766,8372,5552,200,100,15990,61,55,9,53,41,4,42,39,4,61,55,9,Finisher,3195
+Dariusz,Walkowiak,Dariusz Walkowiak,598,M40-44,Male,Wrocław,dolnośląskie,Poland,PL,0:30:36,2:18:51,1:30:36,,,4:26:32,1836,8331,5436,285,104,15992,62,56,10,80,64,7,53,47,6,62,56,10,Finisher,3195
+German,Garrote Borrull,German Garrote Borrull,596,M45-49,Male,BARCELONA,Catalonia,Spain,ES,0:30:30,2:24:25,1:26:19,,,4:26:47,1830,8665,5179,232,101,16007,63,57,4,77,62,8,80,69,7,63,57,4,Finisher,3438
+Magdalena,Lenz,Magdalena Lenz,519,F30-34,Female,Starogard Gdański,,Poland,PL,0:32:23,2:22:10,1:27:54,,,4:27:04,1943,8530,5274,186,91,16024,64,7,1,116,20,3,74,11,2,64,7,1,Finisher,3500
+Ewelina,Wolos,Ewelina Wolos,533,F35-39,Female,Warszawa,mazowieckie,Poland,PL,0:34:40,2:21:24,1:27:38,,,4:28:18,2080,8484,5258,186,90,16098,65,8,1,170,27,2,81,12,1,65,8,1,Finisher,3500
+Przemyslaw,Szuder,Przemyslaw Szuder,543,M40-44,Male,Hornówek,mazowieckie,Poland,PL,0:31:20,2:25:55,1:26:23,,,4:28:52,1880,8755,5183,199,115,16132,66,58,11,94,77,10,91,79,13,66,58,11,Finisher,3153
+Jan,Jaron,Jan Jaron,576,M35-39,Male,brzezinka,,Poland,PL,0:33:12,2:22:29,1:22:41,,,4:29:00,1992,8549,4961,218,420,16140,67,59,11,141,119,22,83,71,14,67,59,11,Finisher,3067
+Megan,Mcdonald,Megan Mcdonald,414,F25-29,Female,Leamington Spa,foreigner,United Kingdom,GB,0:27:23,2:24:52,1:27:15,,,4:29:03,1643,8692,5235,189,384,16143,68,9,1,36,5,1,60,7,1,68,9,1,Finisher,3500
+Vadim,Popov,Vadim Popov,111,M45-49,Male,Ventspils,Ventspils,Latvia,LV,0:30:55,2:24:01,1:22:45,,,4:29:05,1855,8641,4965,255,429,16145,69,60,5,87,70,10,82,70,8,69,60,5,Finisher,3396
+Jerzy,Kuczma,Jerzy Kuczma,80,M25-29,Male,Dzierżoniów,dolnośląskie,Poland,PL,0:32:52,2:20:36,1:30:13,,,4:29:19,1972,8436,5413,200,138,16159,70,61,7,129,107,11,70,60,7,70,61,7,Finisher,3149
+Hannah,Munday,Hannah Munday,657,F30-34,Female,Swansea,GB-WLS,United Kingdom,GB,0:25:04,2:25:06,1:29:06,,,4:29:26,1504,8706,5346,191,419,16166,71,10,2,9,1,1,47,5,1,71,10,2,Finisher,3457
+Vaggelis,Euaggelou,Vaggelis Euaggelou,360,M35-39,Male,Limassol,foreigner,Cyprus,CY,0:32:15,2:16:10,1:35:21,,,4:29:57,1935,8170,5721,249,122,16197,72,62,12,110,91,16,44,40,8,72,62,12,Finisher,3050
+Paulina,Kotfica,Paulina Kotfica,1,FPRO,Female,Police,zachodniopomorskie,Poland,PL,0:28:43,2:24:53,1:32:24,,,4:30:08,1723,8693,5544,167,81,16208,73,11,7,48,10,7,66,9,7,73,11,7,Finisher,3139
+Rafal,Fabiszewski,Rafal Fabiszewski,154,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:33:55,2:21:58,1:28:15,,,4:30:12,2035,8518,5295,263,101,16212,74,63,13,151,128,23,88,76,15,74,63,13,Finisher,3045
+Jakub,Kulesza,Jakub Kulesza,491,M40-44,Male,Jelenia Góra,dolnośląskie,Poland,PL,0:30:20,2:19:45,1:32:39,,,4:30:49,1820,8385,5559,329,156,16249,75,64,12,73,58,6,61,54,8,75,64,12,Finisher,3118
+Tomasz,Broda,Tomasz Broda,244,M35-39,Male,Nowe Chechło,śląskie,Poland,PL,0:34:12,2:23:28,1:28:47,,,4:31:14,2052,8608,5327,251,36,16274,76,65,14,156,132,24,98,85,18,76,65,14,Finisher,3026
+Joni,Sinko,Joni Sinko,356,M40-44,Male,Raisio,Länsi-Suomi,Finland,FI,0:31:43,2:15:41,1:38:22,,,4:31:18,1903,8141,5902,215,117,16278,77,66,13,101,83,12,39,36,3,77,66,13,Finisher,3109
+Adam,Lewinski,Adam Lewinski,94,M40-44,Male,Katowice,śląskie,Poland,PL,0:35:36,2:24:07,1:26:15,,,4:32:18,2136,8647,5175,222,158,16338,78,67,14,200,171,37,107,92,16,78,67,14,Finisher,3091
+Dariusz,Epelbaum,Dariusz Epelbaum,76,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:35:03,2:19:04,1:32:44,,,4:32:34,2103,8344,5564,219,124,16354,79,68,6,183,155,26,75,64,6,79,68,6,Finisher,3334
+Michal,Liberadzki,Michal Liberadzki,264,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:27:38,2:29:29,1:30:22,,,4:32:44,1658,8969,5422,230,85,16364,80,69,8,38,33,4,94,82,11,80,69,8,Finisher,2796
+Pawel,Lis,Pawel Lis,676,M45-49,Male,Gdańsk,,Poland,PL,0:30:24,2:19:56,1:37:37,,,4:32:48,1824,8396,5857,189,102,16368,81,70,7,74,59,7,49,44,2,81,70,7,Finisher,3329
+Maxime,Vroland,Maxime Vroland,410,M30-34,Male,Coudekerque branche,,France,FR,0:31:34,2:30:44,1:24:46,,,4:33:03,1894,9044,5086,251,108,16383,82,71,9,96,79,9,136,118,13,82,71,9,Finisher,2790
+Michal,Borkowy,Michal Borkowy,465,M45-49,Male,Bojszowy,śląskie,Poland,PL,0:37:00,2:19:58,1:31:00,,,4:33:14,2220,8398,5460,220,96,16394,83,72,8,263,222,34,92,80,12,83,72,8,Finisher,3322
+Jacek,Kluzniak,Jacek Kluzniak,502,M45-49,Male,Kielce,świętokrzyskie,Poland,PL,0:29:52,2:17:56,1:34:58,,,4:33:22,1792,8276,5698,213,423,16402,84,73,9,60,46,4,40,37,1,84,73,9,Finisher,3319
+Valentina,D'Angeli,Valentina D'Angeli,51,FPRO,Female,Predazzo,foreigner,Italy,IT,0:32:32,2:26:31,1:29:23,,,4:33:37,1952,8791,5363,221,90,16417,85,12,8,123,22,14,104,14,10,85,12,8,Finisher,3077
+Marcin,Fabiszewski,Marcin Fabiszewski,91,M35-39,Male,Warszawa,MAZOWIECKIE,Poland,PL,0:30:24,2:21:04,1:31:25,,,4:33:38,1824,8464,5485,207,438,16418,86,74,15,74,59,10,58,52,10,86,74,15,Finisher,2983
+Bartek,Danek,Bartek Danek,636,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:31:44,2:27:47,1:28:25,,,4:34:06,1904,8867,5305,264,106,16446,87,75,10,102,84,13,115,99,15,87,75,10,Finisher,3306
+Lukasz,Walczyk,Lukasz Walczyk,79,M40-44,Male,Wroclaw,dolnośląskie,Poland,PL,0:36:41,2:18:45,1:34:15,,,4:34:23,2201,8325,5655,240,42,16463,88,76,15,245,208,47,85,73,12,88,76,15,Finisher,3053
+Salim,Hammad,Salim Hammad,401,M30-34,Male,Goring,foreigner,United Kingdom,GB,0:34:21,2:27:32,1:26:54,,,4:34:32,2061,8852,5214,268,77,16472,89,77,10,160,135,16,133,115,12,89,77,10,Finisher,2764
+Jordy,Paenen,Jordy Paenen,392,M25-29,Male,Antwerpen,,Belgium,BE,0:35:53,2:25:29,1:26:52,,,4:34:35,2153,8729,5212,234,147,16475,90,78,8,210,179,14,120,104,10,90,78,8,Finisher,3054
+René,Poppe,René Poppe,602,M55-59,Male,ZWOLLE,,Netherlands,NL,0:30:03,2:26:30,1:32:23,,,4:34:48,1803,8790,5543,234,118,16488,91,79,1,66,52,2,89,77,1,91,79,1,Finisher,3500
+Piotr,Kalinowski,Piotr Kalinowski,256,M45-49,Male,włocławek,kujawsko-pomorskie,Poland,PL,0:26:44,2:29:35,1:34:36,,,4:35:46,1604,8975,5676,213,78,16546,92,80,11,27,26,2,86,74,10,92,80,11,Finisher,3276
+Rafal,Kaminski,Rafal Kaminski,84,M35-39,Male,Warszawa,,Poland,PL,0:25:26,2:33:24,1:32:48,,,4:36:13,1526,9204,5568,189,86,16573,93,81,16,14,13,1,99,86,19,93,81,16,Finisher,2937
+Artur,Kielak,Artur Kielak,531,M25-29,Male,Warszawa,mazowieckie,Poland,PL,0:36:59,2:24:53,1:29:06,,,4:36:30,2219,8693,5346,206,126,16590,94,82,9,260,219,20,122,106,11,94,82,9,Finisher,3020
+Maciej,Pilch,Maciej Pilch,128,M30-34,Male,Warszawa,mazowieckie,Poland,PL,0:32:28,2:22:44,1:36:09,,,4:37:09,1948,8564,5769,210,138,16629,95,83,11,121,101,13,79,68,10,95,83,11,Finisher,2717
+Brian,Meier,Brian Meier,331,M25-29,Male,Cambrils,foreigner,Spain,ES,0:30:39,2:25:14,1:35:59,,,4:37:39,1839,8714,5759,294,53,16659,96,84,10,81,65,7,93,81,8,96,84,10,Finisher,2999
+Bartosz,Piasecki,Bartosz Piasecki,106,M25-29,Male,Puławy,lubelskie,Poland,PL,0:36:09,2:27:59,1:27:30,,,4:37:41,2169,8879,5250,255,108,16661,97,85,11,221,189,15,150,132,14,97,85,11,Finisher,2998
+Joshua,Hough,Joshua Hough,415,M25-29,Male,Leamington Spa,,United Kingdom,GB,0:32:26,2:27:23,1:32:53,,,4:37:49,1946,8843,5573,228,79,16669,98,86,12,117,97,10,110,94,9,98,86,12,Finisher,2996
+Hana,Kolarova,Hana Kolarova,42,FPRO,Female,East Grinstead,,Czech Republic,CZ,0:27:09,2:26:12,1:40:59,,,4:38:46,1629,8772,6059,185,81,16726,99,13,9,31,2,1,68,10,8,99,13,9,Finisher,2984
+Patryk,Bieniek,Patryk Bieniek,203,M40-44,Male,Poznań,,Poland,PL,0:35:38,2:27:18,1:30:58,,,4:39:05,2138,8838,5458,224,87,16745,100,87,16,201,172,38,139,121,25,100,87,16,Finisher,2969
+Kyra,Meulenberg,Kyra Meulenberg,77,F25-29,Female,Utrecht,,Netherlands,NL,0:34:18,2:27:59,1:26:16,,,4:39:14,2058,8879,5176,211,430,16754,101,14,2,159,25,4,128,18,3,101,14,2,Finisher,3316
+Marc,Gispert Segura,Marc Gispert Segura,595,M35-39,Male,Premia de dalt,,Spain,ES,0:34:29,2:30:05,1:27:03,,,4:39:19,2069,9005,5223,279,183,16759,102,88,17,165,140,25,155,137,28,102,88,17,Finisher,2881
+Ilya,Ramantsevich,Ilya Ramantsevich,112,M30-34,Male,Legionowo,mazowieckie,Unknown,,0:26:41,2:26:54,1:35:19,,,4:39:40,1601,8814,5719,218,428,16780,103,89,12,26,25,3,71,61,8,103,89,12,Finisher,2671
+Bartlomiej,Trzebinski,Bartlomiej Trzebinski,123,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:32:56,2:23:04,1:33:59,,,4:40:01,1976,8584,5639,202,400,16801,104,90,12,135,113,17,84,72,9,104,90,12,Finisher,3200
+Pierre-Antoine,Julien,Pierre-Antoine Julien,514,M18-24,Male,Tours,,France,FR,0:29:49,2:31:22,1:32:09,,,4:40:23,1789,9082,5529,301,122,16823,105,91,6,57,43,4,132,114,6,105,91,6,Finisher,2840
+Lionel,Wille,Lionel Wille,78,M40-44,Male,Asch,,Netherlands,NL,0:37:39,2:22:40,1:33:25,,,4:40:42,2259,8560,5605,263,155,16842,106,92,17,291,249,61,117,101,18,106,92,17,Finisher,2940
+Brittany,Higgins,Brittany Higgins,41,FPRO,Female,CLEARWATER,FL,United States,US,0:29:29,2:28:56,1:37:59,,,4:41:16,1769,8936,5879,184,108,16876,107,15,10,55,13,10,97,13,9,107,15,10,Finisher,2939
+Bartek,Zych,Bartek Zych,125,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:35:51,2:15:16,1:43:31,,,4:41:23,2151,8116,6211,293,112,16883,108,93,13,207,176,29,63,56,4,108,93,13,Finisher,3175
+Lukasz,Niedbal,Lukasz Niedbal,65,M40-44,Male,Gliwice,śląskie,Poland,PL,0:33:14,2:26:08,1:34:32,,,4:41:55,1994,8768,5672,219,262,16915,109,94,18,142,120,22,105,91,15,109,94,18,Finisher,2918
+Igor,Szlaski,Igor Szlaski,122,M30-34,Male,łódź,łódzkie,Poland,PL,0:34:50,2:26:53,1:34:08,,,4:42:30,2090,8813,5648,308,91,16950,110,95,13,176,149,20,144,126,14,110,95,13,Finisher,2620
+Stepan,Cherednikov,Stepan Cherednikov,172,M30-34,Male,Poznan,wielkopolskie,Ukraine,UA,0:34:42,2:19:35,1:42:28,,,4:42:31,2082,8375,6148,253,93,16951,111,96,14,172,145,19,78,67,9,111,96,14,Finisher,2620
+Grzegorz,Sudol,Grzegorz Sudol,574,M40-44,Male,Kraków,małopolskie,Poland,PL,0:39:26,2:30:15,1:25:48,,,4:42:48,2366,9015,5148,246,193,16968,112,97,19,350,304,75,188,164,33,112,97,19,Finisher,2902
+Marcin,Celmer,Marcin Celmer,366,M40-44,Male,Płock,mazowieckie,Poland,PL,0:35:15,2:27:28,1:34:37,,,4:42:50,2115,8848,5677,233,97,16970,113,98,20,187,159,32,137,119,24,113,98,20,Finisher,2901
+Krzysztof,Kubasiak,Krzysztof Kubasiak,282,M45-49,Male,Zielonki,małopolskie,Poland,PL,0:39:04,2:26:08,1:29:06,,,4:42:59,2344,8768,5346,288,233,16979,114,99,14,332,288,54,160,142,22,114,99,14,Finisher,3146
+Rafal,Kwiatkowski,Rafal Kwiatkowski,552,M40-44,Male,Warszawa,mazowieckie,Poland,PL,0:33:08,2:30:08,1:34:36,,,4:42:59,1988,9008,5676,211,96,16979,114,99,21,139,117,21,143,125,27,114,99,21,Finisher,2899
+Martyna,Mlynarczyk,Martyna Mlynarczyk,542,F30-34,Female,Kraków,,Poland,PL,0:39:06,2:33:19,1:24:34,,,4:43:06,2346,9199,5074,192,175,16986,116,16,3,333,45,7,208,25,3,116,16,3,Finisher,3211
+Grzegorz,Jarzabek,Grzegorz Jarzabek,553,M50-54,Male,Polkowice,,Poland,PL,0:32:42,2:29:02,1:34:29,,,4:43:20,1962,8942,5669,296,131,17000,117,101,2,126,104,5,139,121,4,117,101,2,Finisher,3180
+Tomasz,Kowalczyk,Tomasz Kowalczyk,130,M50-54,Male,Warsaw,MAZOWIECKIE,Poland,PL,0:34:41,2:25:50,1:38:29,,,4:43:40,2081,8750,5909,195,85,17020,118,102,3,171,144,11,112,96,3,118,102,3,Finisher,3174
+Wojciech,Jamróz,Wojciech Jamróz,687,F25-29,Male,Wrocław,dolnośląskie,Poland,PL,0:32:29,2:27:26,1:38:24,,,4:43:50,1949,8846,5904,220,111,17030,119,17,3,122,21,3,109,16,2,119,17,3,Finisher,3233
+Bartosz,Nowicki,Bartosz Nowicki,93,M35-39,Male,Piastów,mazowieckie,Poland,PL,0:36:25,2:22:13,1:40:03,,,4:43:54,2185,8533,6003,203,110,17034,120,103,18,234,201,34,100,87,20,120,103,18,Finisher,2798
+Maciej,Radecki,Maciej Radecki,590,M40-44,Male,Wroclaw,,Poland,PL,0:35:16,2:23:25,1:39:41,,,4:44:17,2116,8605,5981,228,127,17057,121,104,22,188,160,33,102,89,14,121,104,22,Finisher,2875
+Przemyslaw,Marciniak,Przemyslaw Marciniak,312,M35-39,Male,Skórzewo,,Poland,PL,0:36:27,2:20:23,1:42:03,,,4:44:23,2187,8423,6123,222,108,17063,122,105,19,235,202,35,90,78,16,122,105,19,Finisher,2790
+Patryk,Sienkiewicz,Patryk Sienkiewicz,468,M50-54,Male,Gdynia,pomorskie,Poland,PL,0:44:11,2:21:06,1:34:23,,,4:44:23,2651,8466,5663,212,71,17063,122,105,4,482,410,39,151,133,6,122,105,4,Finisher,3161
+Lukasz,Sliwinski,Lukasz Sliwinski,481,M35-39,Male,Ostromecko,kujawsko-pomorskie,Poland,PL,0:36:52,2:24:35,1:37:18,,,4:44:29,2212,8675,5838,237,107,17069,124,107,20,254,215,37,124,108,24,124,107,20,Finisher,2788
+Jacek,Kulik,Jacek Kulik,555,M45-49,Male,Gdynia,pomorskie,Poland,PL,0:33:45,2:28:11,1:37:38,,,4:45:01,2025,8891,5858,215,112,17101,125,108,15,148,125,18,127,110,18,125,108,15,Finisher,3110
+Sebastian,Miedziak,Sebastian Miedziak,249,M35-39,Male,Rogalinek,wielkopolskie,Poland,PL,0:34:29,2:27:08,1:39:28,,,4:46:10,2069,8828,5968,227,78,17170,126,109,21,165,140,25,124,108,24,126,109,21,Finisher,2758
+Saskia,Käs,Saskia Käs,43,FPRO,Female,Solingen,foreigner,Germany,DE,0:28:07,2:33:55,1:39:17,,,4:46:26,1687,9235,5957,202,105,17186,127,18,11,42,6,4,124,17,12,127,18,11,Finisher,2846
+Rafal,Naporowski,Rafal Naporowski,400,M45-49,Male,Szewce,świętokrzyskie,Poland,PL,0:34:21,2:27:43,1:38:11,,,4:46:31,2061,8863,5891,257,119,17191,128,110,16,160,135,21,133,115,19,128,110,16,Finisher,3083
+Tomas,Nahorniak,Tomas Nahorniak,386,M45-49,Male,Novy Jicin,foreigner,Czech Republic,CZ,0:26:03,2:33:30,1:41:56,,,4:46:38,1563,9210,6116,253,56,17198,129,111,17,23,22,1,112,96,14,129,111,17,Finisher,3080
+Karolina,Jedrocha,Karolina Jedrocha,568,F18-24,Female,Klucze,,Poland,PL,0:33:55,2:34:21,1:32:38,,,4:46:52,2035,9261,5558,216,142,17212,130,19,1,151,24,1,172,21,1,130,19,1,Finisher,3500
+Jan,Krakowski,Jan Krakowski,291,M25-29,Male,Gdynia,pomorskie,Poland,PL,0:35:07,2:34:37,1:32:16,,,4:47:01,2107,9277,5536,209,92,17221,131,112,13,184,156,13,184,161,16,131,112,13,Finisher,2830
+Marek,Dembinski,Marek Dembinski,418,M45-49,Male,Rokietnica,wielkopolskie,Poland,PL,0:30:44,2:34:56,1:34:23,,,4:47:16,1844,9296,5663,274,159,17236,132,113,18,83,67,9,162,144,23,132,113,18,Finisher,3069
+Mateusz,Ciura,Mateusz Ciura,535,M40-44,Male,Podłęże,małopolskie,Poland,PL,0:32:52,2:28:04,1:38:26,,,4:47:31,1972,8884,5906,292,197,17251,133,114,23,129,107,17,128,111,21,133,114,23,Finisher,2817
+Rafal,Fazan,Rafal Fazan,126,M50-54,Male,Jozefoslaw,,Poland,PL,0:34:05,2:23:01,1:38:03,,,4:47:41,2045,8581,5883,324,428,17261,134,115,5,155,131,8,103,90,2,134,115,5,Finisher,3102
+Thomas,Geiger,Thomas Geiger,101,M60-64,Male,Pressig,BY,Germany,DE,0:32:18,2:24:12,1:45:06,,,4:47:50,1938,8652,6306,279,95,17270,135,116,1,112,93,1,95,83,1,135,116,1,Finisher,3500
+Karol,Glowacki,Karol Glowacki,620,M35-39,Male,Kraków,małopolskie,Poland,PL,0:37:59,2:27:36,1:31:00,,,4:48:22,2279,8856,5460,369,338,17302,136,117,22,301,258,43,171,151,31,136,117,22,Finisher,2718
+Yan,Karcheuski ,Yan Karcheuski,209,M30-34,Male,Gomel,zachodniopomorskie,Unknown,,0:32:13,2:32:43,1:39:07,,,4:48:37,1933,9163,5947,238,36,17317,137,118,15,108,89,10,153,135,16,137,118,15,Finisher,2510
+Hubert,Król,Hubert Król,333,M35-39,Male,Koło,wielkopolskie,Poland,PL,0:29:58,2:29:54,1:43:25,,,4:48:43,1798,8994,6205,228,98,17323,138,119,23,65,51,6,111,95,21,138,119,23,Finisher,2712
+Kamil Aleksander,Styla,Kamil Aleksander Styla,83,M35-39,Male,KRAKOW,,Poland,PL,0:39:00,2:24:17,1:39:10,,,4:48:52,2340,8657,5950,241,144,17332,139,120,24,328,284,46,146,128,27,139,120,24,Finisher,2709
+Mario,Ruta,Mario Ruta,457,M40-44,Male,Trieste,,Italy,IT,0:32:35,2:28:47,1:39:30,,,4:49:03,1955,8927,5970,321,170,17343,140,121,24,124,102,16,142,124,26,140,121,24,Finisher,2789
+Janusz,Szmidt,Janusz Szmidt,692,M50-54,Male,katowice,śląskie,Poland,PL,0:35:08,2:29:11,1:37:47,,,4:49:26,2108,8951,5867,300,140,17366,141,122,6,186,158,12,156,138,8,141,122,6,Finisher,3070
+Lukasz,Mayer,Lukasz Mayer,190,M40-44,Male,Gostyń,wielkopolskie,Poland,PL,0:36:24,2:25:00,1:41:32,,,4:49:59,2184,8700,6092,267,156,17399,142,123,25,231,198,45,130,112,22,142,123,25,Finisher,2773
+Tomasz,Kmuk,Tomasz Kmuk,504,M35-39,Male,Padew Narodowa,podkarpackie,Poland,PL,0:43:50,2:28:41,1:31:45,,,4:50:19,2630,8921,5505,257,106,17419,143,124,25,476,405,66,219,193,38,143,124,25,Finisher,2683
+Rafal,Tamborski,Rafal Tamborski,659,M40-44,Male,Leszno,wielkopolskie,Poland,PL,0:37:33,2:31:33,1:36:04,,,4:50:46,2253,9093,5764,239,97,17446,144,125,26,288,246,59,183,160,32,144,125,26,Finisher,2759
+Pawel,Blazowski,Pawel Blazowski,73,M45-49,Male,JASLO,,Poland,PL,0:37:19,2:29:06,1:38:02,,,4:50:53,2239,8946,5882,259,127,17453,145,126,19,283,242,41,167,148,24,145,126,19,Finisher,3004
+Rafal,Gierasimczyk,Rafal Gierasimczyk,546,M25-29,Male,Kwidzyn,,Poland,PL,0:30:54,2:33:01,1:41:27,,,4:51:06,1854,9181,6087,218,126,17466,146,127,14,86,69,8,148,130,13,146,127,14,Finisher,2757
+Sebastian,Podziewski,Sebastian Podziewski,680,M40-44,Male,biała podlaska,lubelskie,Poland,PL,0:31:57,2:29:13,1:44:35,,,4:51:30,1917,8953,6275,247,98,17490,147,128,27,104,86,13,121,105,20,147,128,27,Finisher,2745
+Christian,Plesca,Christian Plesca,270,M25-29,Male,Goldau,,Romania,RO,0:37:39,2:23:11,1:42:27,,,4:51:44,2259,8591,6147,347,160,17504,148,129,15,291,249,22,138,120,12,148,129,15,Finisher,2745
+Grzegorz,Pindur,Grzegorz Pindur,238,M45-49,Male,Poznań,,Poland,PL,0:32:53,2:30:21,1:42:14,,,4:51:45,1973,9021,6134,262,115,17505,149,130,20,133,111,16,149,131,20,149,130,20,Finisher,2988
+Krzysztof,Machnicki,Krzysztof Machnicki,635,M40-44,Male,Warsaw,mazowieckie,Poland,PL,0:38:09,2:33:58,1:31:49,,,4:51:50,2289,9238,5509,369,105,17510,150,131,28,307,263,65,237,208,45,150,131,28,Finisher,2739
+Rafal,Urbanski,Rafal Urbanski,557,M40-44,Male,Czestochowa,,Poland,PL,0:34:28,2:28:39,1:43:17,,,4:52:07,2068,8919,6197,199,144,17527,151,132,29,163,138,27,135,117,23,151,132,29,Finisher,2734
+Dorian,Lomza,Dorian Lomza,547,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:34:53,2:34:53,1:36:08,,,4:52:16,2093,9293,5768,264,118,17536,152,133,26,177,150,27,193,169,34,152,133,26,Finisher,2648
+Henrik,Franklin,Henrik Franklin,554,M45-49,Male,Mbabane,Hhohho,Sweden,SE,0:38:03,2:33:04,1:34:29,,,4:52:16,2283,9184,5669,247,153,17536,152,133,21,304,260,45,204,180,32,152,133,21,Finisher,2979
+Adam,Hojan,Adam Hojan,446,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:28:24,2:30:35,1:46:06,,,4:52:47,1704,9035,6366,290,172,17567,154,135,27,44,37,4,114,98,22,154,135,27,Finisher,2639
+Aleksandra,Grochowska,Aleksandra Grochowska,662,F25-29,Female,Jawor,,Poland,PL,0:31:35,2:36:01,1:39:52,,,4:52:50,1895,9361,5992,220,102,17570,155,20,4,97,18,2,169,20,4,155,20,4,Finisher,3071
+Ruud,Hadders,Ruud Hadders,359,M35-39,Male,Amsterdam,,Netherlands,NL,0:39:50,2:31:05,1:34:18,,,4:52:56,2390,9065,5658,322,141,17576,156,136,28,365,318,53,216,190,37,156,136,28,Finisher,2636
+Robert,Krzak,Robert Krzak,162,M55-59,Male,Gliwice,śląskie,Poland,PL,0:44:20,2:34:57,1:26:51,,,4:52:57,2660,9297,5211,249,160,17577,157,137,2,486,413,11,298,258,4,157,137,2,Finisher,3173
+Slawomir,Nowak,Slawomir Nowak,127,M50-54,Male,Warszawa,mazowieckie,Poland,PL,0:32:13,2:32:26,1:43:32,,,4:53:03,1933,9146,6212,252,40,17583,158,138,7,108,89,3,152,134,7,158,138,7,Finisher,3005
+Radoslaw,Duchnowski,Radoslaw Duchnowski,240,M45-49,Male,Gorzów Wielkopolski,,Poland,PL,0:35:25,,1:46:14,,,4:53:32,2125,0,6374,249,0,17612,159,139,22,191,163,27,99999,99999,99999,159,139,22,Finisher,2956
+Tomasz,Przybylski,Tomasz Przybylski,233,M45-49,Male,Borówiec,wielkopolskie,Poland,PL,0:37:07,2:23:33,1:48:30,,,4:53:46,2227,8613,6510,264,12,17626,160,140,23,272,231,36,118,102,17,160,140,23,Finisher,2952
+Krzysztof,Rajtar,Krzysztof Rajtar,541,M45-49,Male,Liszki,dolnośląskie,Poland,PL,0:37:04,2:32:08,1:36:40,,,4:53:46,2224,9128,5800,278,196,17626,160,140,23,268,227,35,189,165,29,160,140,23,Finisher,2952
+Jacek,Zielonka,Jacek Zielonka,536,M40-44,Male,Wieliczka,małopolskie,Poland,PL,0:30:49,2:30:18,1:46:41,,,4:53:47,1849,9018,6401,239,120,17627,162,142,30,84,68,8,119,103,19,162,142,30,Finisher,2704
+Mateusz,Nettmann,Mateusz Nettmann,193,M40-44,Male,Sierosław,wielkopolskie,Poland,PL,0:34:00,2:25:47,1:49:45,,,4:53:56,2040,8747,6585,220,44,17636,163,143,31,153,129,26,108,93,17,163,143,31,Finisher,2702
+Robert,Osinski,Robert Osinski,140,M40-44,Male,Zabrze,śląskie,Poland,PL,0:39:24,2:31:08,1:36:48,,,4:54:07,2364,9068,5808,296,111,17647,164,144,32,348,302,74,207,183,37,164,144,32,Finisher,2698
+Damian,Wierzynski,Damian Wierzynski,237,M30-34,Male,Bydgoszcz,kujawsko-pomorskie,Poland,PL,0:37:01,2:34:38,1:37:18,,,4:54:08,2221,9278,5838,213,98,17648,165,145,16,265,224,26,203,179,20,165,145,16,Finisher,2411
+Lukasz,Lukiewicz,Lukasz Lukiewicz,185,M40-44,Male,Elblag,warmińsko-mazurskie,Poland,PL,0:35:07,2:30:23,1:42:50,,,4:54:08,2107,9023,6170,236,112,17648,165,145,33,184,156,31,157,139,29,165,145,33,Finisher,2698
+Adam,Nolbert,Adam Nolbert,593,M50-54,Male,Wroclaw,dolnośląskie,Poland,PL,0:39:07,2:34:36,1:33:52,,,4:54:14,2347,9276,5632,266,133,17654,167,147,8,335,290,28,236,207,18,167,147,8,Finisher,2984
+Rafal,Osciak,Rafal Osciak,97,M45-49,Male,Krakow,,Poland,PL,0:32:07,2:40:49,1:35:02,,,4:55:09,1927,9649,5702,286,145,17709,168,148,25,105,87,14,229,202,38,168,148,25,Finisher,2927
+Paulina,Prugar-Fukowska,Paulina Prugar-Fukowska,75,F35-39,Female,Warszawa,mazowieckie,Poland,PL,0:35:43,2:42:03,1:31:28,,,4:55:27,2143,9723,5488,259,114,17727,169,21,2,203,30,4,288,38,5,169,21,2,Finisher,3011
+Marcin,Michalewicz,Marcin Michalewicz,646,M35-39,Male,Myslowice,,Poland,PL,0:32:18,2:29:56,1:48:29,,,4:55:39,1938,8996,6509,234,62,17739,170,149,29,112,93,17,131,113,26,170,149,29,Finisher,2587
+Robert,Bartczak,Robert Bartczak,262,M35-39,Male,Żerniki Wrocławskie,dolnośląskie,Poland,PL,0:30:26,2:30:52,1:48:14,,,4:55:39,1826,9052,6494,245,122,17739,170,149,29,76,61,11,123,107,23,170,149,29,Finisher,2587
+Tomasz,Maj,Tomasz Maj,447,M35-39,Male,Warszawa,mazowieckie,Poland,PL,0:30:17,2:39:46,1:36:44,,,4:55:43,1817,9586,5804,319,217,17743,172,151,31,72,57,9,206,182,36,172,151,31,Finisher,2586
+EWA,DĘBIEC,EWA DĘBIEC,675,F40-44,Female,Gdańsk,,Poland,PL,0:41:13,2:33:00,1:35:43,,,4:56:16,2473,9180,5743,222,158,17776,173,22,1,405,56,7,233,29,4,173,22,1,Finisher,3500
+Marek,Jakubow,Marek Jakubow,599,M30-34,Male,Warszawa,mazowieckie,Poland,PL,0:42:39,2:30:00,1:37:11,,,4:56:50,2559,9000,5831,267,153,17810,174,152,17,443,378,42,224,197,22,174,152,17,Finisher,2362
+James,Long,James Long,422,M25-29,Male,Camborne,foreigner,United Kingdom,GB,0:39:21,2:34:12,1:36:49,,,4:56:58,2361,9252,5809,274,122,17818,175,153,16,345,299,27,235,206,18,175,153,16,Finisher,2651
+Mariusz,Wira,Mariusz Wira,153,M45-49,Male,Borek Wielkopolski,wielkopolskie,Poland,PL,0:38:40,2:36:47,1:33:46,,,4:57:02,2320,9407,5626,329,140,17822,176,154,26,317,273,51,273,239,46,176,154,26,Finisher,2893
+Claire,Fudge,Claire Fudge,461,F40-44,Female,west midlands,Other,United Kingdom,GB,0:28:08,2:37:15,1:43:24,,,4:57:05,1688,9435,6204,311,187,17825,177,23,2,43,7,1,165,19,1,177,23,2,Finisher,3485
+Bartosz,Dmowski,Bartosz Dmowski,92,M50-54,Male,Warszawa,mazowieckie,Poland,PL,0:37:04,2:29:20,1:44:25,,,4:57:11,2224,8960,6265,230,152,17831,178,155,9,268,227,22,162,144,10,178,155,9,Finisher,2931
+Yaniv,Shechter,Yaniv Shechter,407,M30-34,Male,Rishon LeTsiyon,Israel,Israel,IL,0:35:33,2:33:00,1:39:16,,,4:57:50,2133,9180,5956,403,198,17870,179,156,18,198,170,23,205,181,21,179,156,18,Finisher,2344
+Tomasz,Socha,Tomasz Socha,661,M50-54,Male,Warszawa,,Poland,PL,0:35:58,2:29:51,1:44:43,,,4:57:50,2158,8991,6283,255,183,17870,179,156,10,213,182,17,161,143,9,179,156,10,Finisher,2919
+Marcin,Wielgosz,Marcin Wielgosz,577,M40-44,Male,Warszawa,mazowieckie,Poland,PL,0:26:08,2:37:55,1:44:26,,,4:57:56,1568,9475,6266,346,221,17876,181,158,34,24,23,2,158,140,30,181,158,34,Finisher,2630
+Tomek,Slaby,Tomek Slaby,674,M50-54,Male,Gorzów Wlkp.,lubuskie,Poland,PL,0:34:33,2:27:35,1:49:12,,,4:57:57,2073,8855,6552,288,109,17877,182,159,11,168,143,10,145,127,5,182,159,11,Finisher,2917
+Flaviu,Cioara,Flaviu Cioara,308,M45-49,Male,Alba-Iulia,Alba,Romania,RO,0:47:10,2:31:44,1:30:00,,,4:57:59,2830,9104,5400,450,95,17879,183,160,27,536,451,91,334,291,56,183,160,27,Finisher,2876
+Maciej,Malenda,Maciej Malenda,108,M35-39,Male,Bieniewice,mazowieckie,Poland,PL,0:37:02,2:28:21,1:44:48,,,4:58:01,2222,8901,6288,311,159,17881,184,161,32,266,225,38,165,147,29,184,161,32,Finisher,2544
+Maija,Hovila,Maija Hovila,626,F40-44,Female,Espoo,Uusimaa,Finland,FI,0:36:40,2:32:27,1:42:36,,,4:58:04,2200,9147,6156,254,127,17884,185,24,3,243,37,4,186,24,2,185,24,3,Finisher,3467
+Adam,Pron,Adam Pron,117,M45-49,Male,Katowice,Silesia,Poland,PL,0:38:13,2:35:21,1:39:14,,,4:58:06,2293,9321,5954,216,102,17886,186,162,28,309,265,47,225,198,36,186,162,28,Finisher,2874
+Wojciech,Kieczur,Wojciech Kieczur,342,M35-39,Male,Borówiec,wielkopolskie,Poland,PL,,,1:40:58,,,4:58:09,0,0,6058,0,0,17889,187,163,33,99999,99999,99999,99999,99999,99999,187,163,33,Finisher,2542
+Michał,Małyska,Michał Małyska,651,M25-29,Male,Lublin,lubelskie,Poland,PL,0:39:20,2:38:43,1:33:56,,,4:58:15,2360,9523,5636,283,93,17895,188,164,17,344,298,26,295,256,22,188,164,17,Finisher,2628
+Mateusz,Grzelak,Mateusz Grzelak,518,M30-34,Male,Poznan,,Poland,PL,0:34:56,2:33:27,1:43:44,,,4:58:24,2096,9207,6224,244,133,17904,189,165,19,178,151,21,176,155,18,189,165,19,Finisher,2334
+Pawel,Stapf,Pawel Stapf,159,M45-49,Male,Dopiewiec,wielkopolskie,Poland,PL,0:42:27,2:32:00,1:35:11,,,4:58:53,2547,9120,5711,346,209,17933,190,166,29,437,373,73,261,231,44,190,166,29,Finisher,2860
+Slawomir,Nowak,Slawomir Nowak,551,M50-54,Male,Wolica,wielkopolskie,Poland,PL,0:38:00,2:38:53,1:35:46,,,4:58:54,2280,9533,5746,260,115,17934,191,167,12,302,259,24,277,242,24,191,167,12,Finisher,2900
+Szczepan,Chmura,Szczepan Chmura,110,M50-54,Male,Tarnowiec,małopolskie,Poland,PL,0:36:39,2:39:11,1:36:02,,,4:59:07,2199,9551,5762,258,177,17947,192,168,13,240,206,19,259,229,21,192,168,13,Finisher,2896
+Piotr,Starzynski,Piotr Starzynski,152,M40-44,Male,Olsztyn,warmińsko-mazurskie,Poland,PL,0:48:04,2:32:54,1:31:36,,,4:59:11,2884,9174,5496,267,130,17951,193,169,35,544,457,114,325,282,67,193,169,35,Finisher,2607
+Jaroslaw,Swiatek,Jaroslaw Swiatek,581,M50-54,Male,Katowice,,Poland,PL,0:32:19,2:36:08,1:43:25,,,4:59:25,1939,9368,6205,234,219,17965,194,170,14,114,95,4,175,154,11,194,170,14,Finisher,2891
+Marcin,Rabicki,Marcin Rabicki,589,M40-44,Male,Zabierzow,małopolskie,Poland,PL,0:34:58,2:36:24,1:39:56,,,4:59:30,2098,9384,5996,318,174,17970,195,171,36,180,153,30,218,192,42,195,171,36,Finisher,2601
+Marika,Nox,Marika Nox,149,F25-29,Female,Euthal,,Poland,PL,0:35:33,2:32:55,1:45:11,,,4:59:33,2133,9175,6311,269,85,17973,196,25,5,198,29,5,181,23,5,196,25,5,Finisher,2951
+Robert,Rutkowski,Robert Rutkowski,403,M50-54,Male,Myślibórz,zachodniopomorskie,Poland,PL,0:38:50,2:33:55,1:40:08,,,4:59:56,2330,9235,6008,306,117,17996,197,172,15,323,279,25,232,204,17,197,172,15,Finisher,2881
+Piotr,Lachowicz,Piotr Lachowicz,603,M40-44,Male,Warsaw,MAZOWIECKIE,Poland,PL,0:39:01,2:34:37,1:39:41,,,5:00:19,2341,9277,5981,295,125,18019,198,173,37,329,285,70,241,212,48,198,173,37,Finisher,2587
+Jacek,Podoba,Jacek Podoba,121,M50-54,Male,Warsaw,,Poland,PL,0:31:35,2:38:45,1:42:54,,,5:00:22,1895,9525,6174,261,167,18022,199,174,16,97,80,2,199,175,14,199,174,16,Finisher,2873
+Lukasz,Tchórz,Lukasz Tchórz,367,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:36:05,2:29:09,1:47:09,,,5:00:24,2165,8949,6429,330,151,18024,200,175,34,218,187,30,167,148,30,200,175,34,Finisher,2501
+Aneta,Kirilenko,Aneta Kirilenko,82,F45-49,Female,Marki,mazowieckie,Poland,PL,0:39:52,2:40:42,1:34:10,,,5:00:30,2392,9642,5650,204,142,18030,201,26,1,367,48,4,301,41,3,201,26,1,Finisher,3500
+Mateusz ,Blaszyk,Mateusz Blaszyk,396,M35-39,Male,Poznań ,wielkopolskie,Poland,PL,0:36:41,2:33:29,1:44:53,,,5:00:31,2201,9209,6293,229,99,18031,202,176,35,245,208,36,191,167,33,202,176,35,Finisher,2499
+Sergey,Bogdanov,Sergey Bogdanov,100,M45-49,Male,Limassol,CY,Cyprus,CY,0:40:47,2:30:15,1:45:24,,,5:00:37,2447,9015,6324,208,43,18037,203,177,30,393,340,64,198,174,31,203,177,30,Finisher,2829
+Filip,Walotka,Filip Walotka,114,M40-44,Male,Łódź,łódzkie,Poland,PL,0:29:55,2:39:37,1:43:56,,,5:00:44,1795,9577,6236,316,120,18044,204,178,38,62,48,5,201,177,36,204,178,38,Finisher,2579
+Daniel,Dyck,Daniel Dyck,556,M45-49,Male,Marienwerder,BB,Germany,DE,0:42:11,2:27:12,1:43:12,,,5:01:00,2531,8832,6192,261,244,18060,205,179,31,428,365,70,187,163,28,205,179,31,Finisher,2822
+Miloš,Mital,Miloš Mital,601,M25-29,Male,Giraltovce,foreigner,Slovakia,SK,0:36:33,2:38:33,1:39:11,,,5:01:07,2193,9513,5951,260,150,18067,206,180,18,238,205,17,253,224,20,206,180,18,Finisher,2576
+Julita,Sikora,Julita Sikora,61,F45-49,Female,Ligota Piękna,dolnośląskie,Poland,PL,0:36:49,2:41:36,1:37:04,,,5:01:07,2209,9696,5824,252,86,18067,206,27,2,250,39,2,293,39,2,206,27,2,Finisher,3488
+Jean,Franchi,Jean Franchi,618,M60-64,Male,LENS,,France,FR,0:36:17,2:30:05,1:46:46,,,5:01:12,2177,9005,6406,317,167,18072,208,181,2,225,193,3,170,150,2,208,181,2,Finisher,3259
+Adrian,Lazowski,Adrian Lazowski,432,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:31:33,2:32:16,1:51:16,,,5:01:13,1893,9136,6676,209,159,18073,209,182,20,95,78,8,146,128,15,209,182,20,Finisher,2283
+Braňo,Jesný,Braňo Jesný,476,M40-44,Male,komárno,Slowakia,Slovakia,SK,0:41:49,2:32:07,1:38:16,,,5:01:32,2509,9127,5896,343,217,18092,210,183,39,424,362,92,255,226,52,210,183,39,Finisher,2565
+Rafal,Wysmolinski,Rafal Wysmolinski,559,M45-49,Male,Biernatki,wielkopolskie,Poland,PL,0:37:07,2:34:46,1:42:38,,,5:01:51,2227,9286,6158,262,178,18111,211,184,32,272,231,36,215,189,35,211,184,32,Finisher,2807
+Markus ,Lerf,Markus Lerf,438,M45-49,Male,Ottobeuren,,Germany,DE,0:44:30,2:21:36,1:47:20,,,5:01:55,2670,8496,6440,385,124,18115,212,185,33,489,416,84,178,156,25,212,185,33,Finisher,2805
+Marta,Rayss,Marta Rayss,150,F40-44,Female,Warszawa,mazowieckie,Poland,PL,0:32:09,2:53:27,1:30:29,,,5:02:14,1929,10407,5429,310,59,18134,213,28,4,107,19,2,361,47,7,213,28,4,Finisher,3392
+Christophe,Treuil,Christophe Treuil,325,M50-54,Male,Plougonvelin,,France,FR,0:42:59,2:31:58,1:39:13,,,5:02:34,2579,9118,5953,401,103,18154,214,186,17,454,387,36,284,247,26,214,186,17,Finisher,2834
+Maurycy,Jasielski,Maurycy Jasielski,323,M45-49,Male,Poznań,wielkopolskie,Poland,PL,0:38:32,2:34:49,1:42:10,,,5:02:38,2312,9289,6130,308,119,18158,215,187,34,315,271,50,240,211,40,215,187,34,Finisher,2792
+Damian,Kula,Damian Kula,613,M45-49,Male,Kraków,małopolskie,Poland,PL,0:33:53,2:34:50,1:47:52,,,5:02:56,2033,9290,6472,251,130,18176,216,188,35,149,126,19,180,158,26,216,188,35,Finisher,2787
+Adrian,Karczewski,Adrian Karczewski,471,M35-39,Male,Kleszczele,podlaskie,Poland,PL,0:37:06,2:33:09,1:45:10,,,5:02:59,2226,9189,6310,285,169,18179,217,189,36,271,230,40,202,178,35,217,189,36,Finisher,2455
+Marek,Dubas,Marek Dubas,330,M35-39,Male,Komorniki,wielkopolskie,Poland,PL,0:38:49,2:37:17,1:41:13,,,5:03:03,2329,9437,6073,257,87,18183,218,190,37,322,278,44,264,234,42,218,190,37,Finisher,2454
+Emilio,Lomi,Emilio Lomi,510,M55-59,Male,italy,foreigner,Italy,IT,0:42:56,2:35:24,1:38:50,,,5:03:04,2576,9324,5930,239,115,18184,219,191,3,450,384,9,289,251,2,219,191,3,Finisher,2991
+Märt,Lääts,Märt Lääts,532,M60-64,Male,Tammiste küla,Pärnu maakond,Estonia,EE,0:35:29,2:32:22,1:46:58,,,5:03:27,2129,9142,6418,309,209,18207,220,192,3,195,167,2,182,159,3,220,192,3,Finisher,3218
+Marcin,Pradzynski,Marcin Pradzynski,198,M45-49,Male,Bydgoszcz,,Poland,PL,0:32:42,2:41:56,1:42:20,,,5:03:33,1962,9716,6140,246,149,18213,221,193,36,126,104,15,244,215,42,221,193,36,Finisher,2776
+Wojciech,Szymanski,Wojciech Szymanski,310,M40-44,Male,Klodawa,lubuskie,Poland,PL,0:36:53,2:31:05,1:49:50,,,5:03:59,2213,9065,6590,255,116,18239,222,194,40,256,217,51,174,153,31,222,194,40,Finisher,2521
+Tomek,Kwiatkowski,Tomek Kwiatkowski,266,M40-44,Male,Gdynia,pomorskie,Poland,PL,0:37:36,2:43:13,1:36:06,,,5:04:01,2256,9793,5766,266,160,18241,223,195,41,290,248,60,317,276,64,223,195,41,Finisher,2520
+Luiz Guilherme Moreira,Porto,Luiz Guilherme Moreira Porto,296,M45-49,Male,São Paulo,BR-SP,Brazil,BR,0:37:28,2:42:23,1:36:08,,,5:04:15,2248,9743,5768,281,215,18255,224,196,37,287,245,43,308,267,51,224,196,37,Finisher,2763
+Piotr,Wasilewski,Piotr Wasilewski,87,M40-44,Male,Głosków,mazowieckie,Poland,PL,0:32:26,2:39:39,1:44:23,,,5:04:16,1946,9579,6263,256,212,18256,225,197,42,117,97,14,217,191,41,225,197,42,Finisher,2516
+Jedrzej,Jerzmanowski,Jedrzej Jerzmanowski,648,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:38:13,2:33:14,1:46:26,,,5:04:51,2293,9194,6386,280,138,18291,226,198,43,309,265,66,213,188,40,226,198,43,Finisher,2505
+Edwin,Osiecki,Edwin Osiecki,85,M50-54,Male,Konstancin,,Poland,PL,0:35:43,2:32:16,1:43:25,,,5:04:59,2143,9136,6205,279,536,18299,227,199,18,203,174,15,179,157,12,227,199,18,Finisher,2790
+Béla,Kakuk,Béla Kakuk,138,M40-44,Male,Zasów,podkarpackie,Hungary,HU,,,1:45:02,,,5:05:07,0,0,6302,0,0,18307,228,200,44,99999,99999,99999,99999,99999,99999,228,200,44,Finisher,2500
+Maciej,Popielarz,Maciej Popielarz,161,M40-44,Male,Skórzewo,wielkopolskie,Poland,PL,0:40:58,2:39:19,1:37:40,,,5:05:26,2458,9559,5860,301,148,18326,229,201,45,396,342,84,319,278,65,229,201,45,Finisher,2495
+Agnieszka,Fijolek-Warszewska,Agnieszka Fijolek-Warszewska,68,F50-54,Female,Warszawa,mazowieckie,Poland,PL,0:39:27,2:32:45,1:47:00,,,5:05:46,2367,9165,6420,281,113,18346,230,29,1,353,47,2,221,27,1,230,29,1,Finisher,3500
+Tomasz,Wojciechowski,Tomasz Wojciechowski,670,M50-54,Male,Janowice,wielkopolskie,Poland,PL,0:35:59,2:34:43,1:48:42,,,5:05:47,2159,9283,6522,242,141,18347,231,202,19,215,184,18,200,176,15,231,202,19,Finisher,2776
+Vladimír,Podkamenský,Vladimír Podkamenský,227,M25-29,Male,Bratislava,foreigner,Slovakia,SK,0:39:16,2:32:20,1:46:28,,,5:05:48,2356,9140,6388,317,147,18348,232,203,19,342,297,25,221,195,17,232,203,19,Finisher,2492
+Marcin,Holobut,Marcin Holobut,645,M35-39,Male,Kraków,podkarpackie,Poland,PL,0:39:10,2:40:29,1:39:25,,,5:06:02,2350,9629,5965,297,121,18362,233,204,38,338,293,47,310,269,47,233,204,38,Finisher,2400
+Wojciech,Sobanski,Wojciech Sobanski,182,M40-44,Male,Marcinowice,dolnośląskie,Poland,PL,0:36:01,2:28:05,1:56:04,,,5:06:09,2161,8885,6964,306,53,18369,234,205,46,216,185,40,154,136,28,234,205,46,Finisher,2482
+Aleksander,Wasilewski,Aleksander Wasilewski,637,M50-54,Male,Torun,kujawsko-pomorskie,Poland,PL,0:40:09,2:34:42,1:43:06,,,5:06:18,2409,9282,6186,332,169,18378,235,206,20,375,325,30,264,234,22,235,206,20,Finisher,2767
+Kris,Govers,Kris Govers,524,M60-64,Male,Merksplas,ANTWERPEN,Belgium,BE,0:38:16,2:33:37,1:47:01,,,5:06:21,2296,9217,6421,304,143,18381,236,207,4,312,268,4,223,196,4,236,207,4,Finisher,3166
+Jake,Stevens,Jake Stevens,348,M30-34,Male,London,Greater London,United Kingdom,GB,0:36:24,2:44:55,1:38:39,,,5:06:37,2184,9895,5919,307,92,18397,237,208,21,231,198,24,335,292,28,237,208,21,Finisher,2186
+Przemyslaw,Wanski,Przemyslaw Wanski,388,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:40:42,2:34:05,1:43:12,,,5:06:47,2442,9245,6192,355,173,18407,238,209,39,392,339,56,272,238,43,238,209,39,Finisher,2387
+Artur,Kostrzewski,Artur Kostrzewski,398,M45-49,Male,Dobron,,Poland,PL,0:37:23,2:20:00,2:01:48,,,5:06:50,2243,8400,7308,285,174,18410,239,210,38,285,244,42,101,88,13,239,210,38,Finisher,2717
+Mateusz,Mozdzierz,Mateusz Mozdzierz,361,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:36:19,2:36:51,1:46:00,,,5:07:15,2179,9411,6360,344,141,18435,240,211,40,228,195,33,246,217,39,240,211,40,Finisher,2378
+Maciej,Krzeminski,Maciej Krzeminski,624,M40-44,Male,Suchy Las,,Poland,PL,0:40:21,2:29:48,1:49:52,,,5:07:17,2421,8988,6592,341,95,18437,241,212,47,380,330,80,212,187,39,241,212,47,Finisher,2461
+Thomas,Lippiett,Thomas Lippiett,96,M40-44,Male,Ocean Village,Gibraltar,United Kingdom,GB,0:39:40,2:37:07,1:40:54,,,5:07:30,2380,9427,6054,354,235,18450,242,213,48,359,312,78,294,255,57,242,213,48,Finisher,2457
+Raine,Pulkkinen,Raine Pulkkinen,132,M45-49,Male,Lahti,PAIJANNE-TAVASTLAND,Finland,FI,0:42:14,2:40:45,1:37:56,,,5:07:32,2534,9645,5876,267,130,18452,243,214,39,433,370,72,343,299,58,243,214,39,Finisher,2704
+Nicholas,Welch,Nicholas Welch,133,M55-59,Male,Brereton Green,CHESHIRE EAST,United Kingdom,GB,0:40:37,,1:52:07,,,5:07:32,2437,0,6727,295,0,18452,243,214,4,388,336,6,99999,99999,99999,243,214,4,Finisher,2910
+Pawel,Ryniewicz,Pawel Ryniewicz,634,M45-49,Male,Stanisławów Pierwszy,mazowieckie,Poland,PL,0:38:57,2:31:25,1:50:22,,,5:07:34,2337,9085,6622,245,165,18454,245,216,40,327,283,53,196,172,30,245,216,40,Finisher,2704
+Krzysztof,Ozdoba,Krzysztof Ozdoba,284,M45-49,Male,Siechnice,dolnośląskie,Poland,PL,0:35:54,2:41:57,1:40:40,,,5:07:35,2154,9717,6040,375,169,18455,246,217,41,211,180,31,303,262,49,246,217,41,Finisher,2703
+Piotr,Partyka,Piotr Partyka,223,M50-54,Male,Promienko,wielkopolskie,Poland,PL,0:43:26,2:30:36,1:45:36,,,5:07:49,2606,9036,6336,320,171,18469,247,218,21,468,398,37,251,222,19,247,218,21,Finisher,2739
+Slawomir,Zielinski,Slawomir Zielinski,655,M40-44,Male,Nowogard,ZACHODNIOPOMORSKIE,Poland,PL,0:44:20,2:34:13,1:42:34,,,5:07:53,2660,9253,6154,276,130,18473,248,219,49,486,413,104,297,257,58,248,219,49,Finisher,2450
+Anna,Galazka,Anna Galazka,629,F18-24,Female,Złoty Potok,,Poland,PL,0:37:23,2:44:08,1:41:09,,,5:07:56,2243,9848,6069,229,87,18476,249,30,2,285,42,2,321,42,2,249,30,2,Finisher,3120
+Jacek,Nogaj,Jacek Nogaj,151,M50-54,Male,Lusowo,wielkopolskie,Poland,PL,0:34:16,2:41:03,1:44:26,,,5:08:05,2056,9663,6266,305,195,18485,250,220,22,158,134,9,266,236,23,250,220,22,Finisher,2735
+Przemyslaw,Tokarski,Przemyslaw Tokarski,621,M40-44,Male,Piotrków Trybunalski,łódzkie,Poland,PL,0:36:21,2:32:56,1:51:48,,,5:08:05,2181,9176,6708,284,136,18485,250,220,50,230,197,44,192,168,34,250,220,50,Finisher,2447
+Bartosz,Walkowiak,Bartosz Walkowiak,181,M40-44,Male,Plewiska,wielkopolskie,Poland,PL,0:36:59,2:36:59,1:47:44,,,5:08:28,2219,9419,6464,268,138,18508,252,222,51,260,219,53,239,210,47,252,222,51,Finisher,2440
+Sebastian,Zaremba,Sebastian Zaremba,570,M45-49,Male,Oborniki Śląskie,dolnośląskie,Poland,PL,0:46:04,2:31:00,1:43:58,,,5:08:33,2764,9060,6238,254,197,18513,253,223,42,516,436,88,280,245,47,253,223,42,Finisher,2686
+Wojciech,Kubas,Wojciech Kubas,450,M18-24,Male,Bochnia,małopolskie,Poland,PL,0:32:15,2:29:23,2:00:05,,,5:08:36,1935,8963,7205,304,109,18516,254,224,7,110,91,7,141,123,7,254,224,7,Finisher,2332
+Nadine,Schymski,Nadine Schymski,496,F40-44,Female,Dresden,,Germany,DE,0:33:39,2:38:51,1:50:23,,,5:08:43,2019,9531,6623,218,132,18523,255,31,5,145,23,3,214,26,3,255,31,5,Finisher,3275
+Lukasz,Taraska,Lukasz Taraska,664,M45-49,Male,Stargard,zachodniopomorskie,Poland,PL,0:29:55,2:35:19,1:56:37,,,5:08:50,1795,9319,6997,283,136,18530,256,225,43,62,48,5,159,141,21,256,225,43,Finisher,2681
+Damian,Wójtowicz,Damian Wójtowicz,391,M25-29,Male,Gorlice,małopolskie,Poland,PL,0:36:32,2:38:07,1:48:52,,,5:09:10,2192,9487,6532,272,67,18550,257,226,20,237,204,16,249,220,19,257,226,20,Finisher,2432
+Tomasz,Krajewski,Tomasz Krajewski,311,M40-44,Male,Lusowo,wielkopolskie,Poland,PL,0:33:43,2:39:42,1:49:27,,,5:09:26,2023,9582,6567,259,135,18566,258,227,52,146,123,24,230,203,44,258,227,52,Finisher,2423
+Krzysztof,Jagielka,Krzysztof Jagielka,638,M50-54,Male,Leszno,,Poland,PL,0:39:02,2:36:20,1:47:39,,,5:09:27,2342,9380,6459,260,126,18567,259,228,23,330,286,27,256,227,20,259,228,23,Finisher,2710
+Stefanie,Nowak,Stefanie Nowak,74,F55-59,Female,Eggersdorf,,Germany,DE,0:39:17,2:40:48,,,,5:09:27,2357,9648,0,318,0,18567,259,32,1,343,46,3,322,43,3,259,32,1,Finisher,3500
+Jacek,Holubowicz,Jacek Holubowicz,157,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:38:47,2:36:46,1:48:51,,,5:09:41,2327,9406,6531,226,91,18581,261,229,22,321,277,30,250,221,25,261,229,22,Finisher,2131
+Maryna,Straltsova,Maryna Straltsova,507,F30-34,Female,WARSZAWA,mazowieckie,Poland,PL,0:30:10,2:43:35,1:50:31,,,5:10:07,1810,9815,6631,241,110,18607,262,33,4,69,15,2,231,28,4,262,33,4,Finisher,2725
+Michal,Purczynski,Michal Purczynski,252,M40-44,Male,Siekierki Wielkie,wielkopolskie,Poland,PL,0:38:26,2:40:57,1:43:04,,,5:10:08,2306,9657,6184,309,152,18608,263,230,53,313,269,67,308,267,62,263,230,53,Finisher,2410
+Karsten,Von Der Waydbrink,Karsten Von Der Waydbrink,538,M40-44,Male,Potsdam,foreigner,Germany,DE,0:36:12,2:37:24,1:48:51,,,5:10:18,2172,9444,6531,349,122,18618,264,231,54,223,191,41,252,223,51,264,231,54,Finisher,2407
+Kateryna,Fedorova,Kateryna Fedorova,669,F35-39,Female,Poltava,Poltava Oblast,Ukraine,UA,0:36:43,2:40:25,1:47:28,,,5:10:19,2203,9625,6448,209,134,18619,265,34,3,247,38,5,271,34,3,265,34,3,Finisher,2743
+Dawid,Sworek,Dawid Sworek,490,M30-34,Male,Poznań,,Poland,PL,0:34:30,2:35:50,1:54:30,,,5:10:40,2070,9350,6870,236,114,18640,266,232,23,167,142,18,195,171,19,266,232,23,Finisher,2113
+Slawek,Pradzynski,Slawek Pradzynski,292,M40-44,Male,Kedzierzyn Kozle,opolskie,Poland,PL,0:42:45,2:30:44,1:49:30,,,5:10:49,2565,9044,6570,321,149,18649,267,233,55,447,381,94,245,216,50,267,233,55,Finisher,2398
+Martin,Rudolph,Martin Rudolph,549,M30-34,Male,Kleinmachnow,foreigner,Germany,DE,0:29:49,2:37:02,1:56:51,,,5:10:54,1789,9422,7011,303,129,18654,268,234,24,57,43,6,173,152,17,268,234,24,Finisher,2109
+Andreas,Koderisch,Andreas Koderisch,375,M45-49,Male,Berlin,foreigner,Germany,DE,0:34:44,2:35:49,1:54:01,,,5:11:38,2084,9349,6841,305,119,18698,269,235,44,173,146,23,209,184,33,269,235,44,Finisher,2630
+Lukasz,Andrzejewski,Lukasz Andrzejewski,208,M45-49,Male,Poznan,wielkopolskie,Poland,PL,0:35:31,2:36:39,1:51:32,,,5:11:45,2131,9399,6692,352,131,18705,270,236,45,197,169,28,234,205,39,270,236,45,Finisher,2628
+Philip,Laureys,Philip Laureys,501,M30-34,Male,Merksplas,,Benin,BJ,0:38:50,2:31:28,1:49:35,,,5:11:50,2330,9088,6575,423,294,18710,271,237,25,323,279,31,227,200,23,271,237,25,Finisher,2092
+Dariusz,Stanaszek,Dariusz Stanaszek,412,M50-54,Male,świnna poręba,małopolskie,Poland,PL,0:33:54,2:34:44,1:46:45,,,5:11:52,2034,9284,6405,333,656,18712,272,238,24,150,127,7,194,170,13,272,238,24,Finisher,2666
+Andrzej ,Szczepanski ,Andrzej Szczepanski,567,M45-49,Male,Zielona Gora ,,Poland,PL,0:35:51,2:35:42,1:53:50,,,5:12:05,2151,9342,6830,245,157,18725,273,239,46,207,176,29,209,184,33,273,239,46,Finisher,2622
+Dariusz,Stepien,Dariusz Stepien,647,M30-34,Male,Baar-Ebenhausen,BAYERN,Poland,PL,0:42:11,2:37:51,1:43:47,,,5:12:27,2531,9471,6227,322,196,18747,274,240,26,428,365,40,324,281,27,274,240,26,Finisher,2081
+Adam,Wojnarowski,Adam Wojnarowski,275,M40-44,Male,Branno,wielkopolskie,Poland,PL,0:41:27,2:30:23,1:54:15,,,5:12:39,2487,9023,6855,236,158,18759,275,241,56,411,355,87,211,186,38,275,241,56,Finisher,2365
+Michael,Nanz,Michael Nanz,247,M40-44,Male,Lürschau,,Germany,DE,0:39:06,2:35:51,1:50:08,,,5:12:53,2346,9351,6608,312,156,18773,276,242,57,333,289,71,260,230,53,276,242,57,Finisher,2360
+Maciej,Gronowski,Maciej Gronowski,171,M18-24,Male,Poznań,wielkopolskie,Poland,PL,0:37:22,2:39:15,1:50:54,,,5:13:04,2242,9555,6654,267,66,18784,277,243,8,284,243,8,275,240,8,277,243,8,Finisher,2252
+Marcin,Rusin,Marcin Rusin,347,M40-44,Male,Rzeszów,podkarpackie,Poland,PL,0:37:04,2:44:28,1:44:00,,,5:13:18,2224,9868,6240,347,119,18798,278,244,58,268,227,55,342,298,72,278,244,58,Finisher,2353
+Hubert,Piotrowicz,Hubert Piotrowicz,320,M40-44,Male,czempiń,wielkopolskie,Poland,PL,0:37:10,2:37:20,1:51:20,,,5:13:30,2230,9440,6680,348,112,18810,279,245,59,277,236,56,262,232,54,279,245,59,Finisher,2349
+Leszek,Muszynski,Leszek Muszynski,492,M35-39,Male,Sady,,Poland,PL,0:40:54,2:42:21,1:42:00,,,5:13:31,2454,9741,6120,296,200,18811,280,246,41,395,341,57,347,302,50,280,246,41,Finisher,2265
+Janusz,Misiaszek,Janusz Misiaszek,467,M60-64,Male,Kędzierzyn-Koźle,opolskie,Poland,PL,0:39:26,2:41:18,1:47:28,,,5:13:32,2366,9678,6448,239,81,18812,281,247,5,350,304,5,311,270,6,281,247,5,Finisher,3037
+Lukasz,Olbromski,Lukasz Olbromski,202,M40-44,Male,Warszawa,mazowieckie,Poland,PL,0:32:26,2:44:04,1:48:35,,,5:13:37,1946,9844,6515,354,158,18817,282,248,60,117,97,14,290,252,55,282,248,60,Finisher,2347
+Pawel,Kotas,Pawel Kotas,633,M30-34,Male,Wrocław,dolnośląskie,Poland,PL,0:32:26,2:45:27,1:50:41,,,5:13:42,1946,9927,6641,228,80,18822,283,249,27,117,97,12,286,249,26,283,249,27,Finisher,2059
+Maciej,Nowaczyk,Maciej Nowaczyk,406,M40-44,Male,Baranowo,wielkopolskie,Poland,PL,0:35:25,2:36:48,1:54:55,,,5:13:42,2125,9408,6895,278,116,18822,283,249,61,191,163,35,220,194,43,283,249,61,Finisher,2346
+Michal,Wawrzyniak,Michal Wawrzyniak,528,M40-44,Male,Solec Kujawski,kujawsko-pomorskie,Poland,PL,0:35:23,2:34:18,1:57:05,,,5:13:43,2123,9258,7025,288,129,18823,285,251,62,189,161,34,197,173,35,285,251,62,Finisher,2345
+Mariusz,Wojtkowiak,Mariusz Wojtkowiak,376,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:36:52,2:42:30,1:49:01,,,5:14:10,2212,9750,6541,271,76,18850,286,252,63,254,215,50,299,259,59,286,252,63,Finisher,2337
+Wojciech,Czapiewski,Wojciech Czapiewski,522,M40-44,Male,Brzuśce,pomorskie,Poland,PL,0:35:26,2:42:17,1:49:39,,,5:15:06,2126,9737,6579,288,176,18906,287,253,64,193,165,36,292,254,56,287,253,64,Finisher,2321
+Krzysztof,Zajac,Krzysztof Zajac,469,M35-39,Male,Dębno,zachodniopomorskie,Poland,PL,0:44:36,2:25:18,1:53:18,,,5:15:22,2676,8718,6798,238,492,18922,288,254,42,491,418,68,190,166,32,288,254,42,Finisher,2232
+Jerry,Kenbeek,Jerry Kenbeek,102,M45-49,Male,Voorburg,,Netherlands,NL,0:41:11,2:31:59,1:52:29,,,5:15:45,2471,9119,6749,256,350,18945,289,255,47,402,347,67,228,201,37,289,255,47,Finisher,2556
+Jakub,Waliszewski,Jakub Waliszewski,463,M35-39,Male,Poznań,,Poland,PL,0:37:03,2:37:40,1:54:17,,,5:15:53,2223,9460,6857,285,128,18953,290,256,43,267,226,39,254,225,41,290,256,43,Finisher,2223
+Krzysztof,Branny,Krzysztof Branny,69,M50-54,Male,Kierszek,MAZOWIECKIE,Poland,PL,0:35:24,2:37:32,1:56:51,,,5:15:55,2124,9452,7011,256,112,18955,291,257,25,190,162,13,226,199,16,291,257,25,Finisher,2594
+Marcin,Mlynarczyk,Marcin Mlynarczyk,466,M45-49,Male,Kraków,,Poland,PL,0:36:02,2:32:26,1:59:50,,,5:16:07,2162,9146,7190,285,184,18967,292,258,48,217,186,32,184,161,27,292,258,48,Finisher,2550
+Pawel,Mendyka,Pawel Mendyka,254,M35-39,Male,Szczecin,zachodniopomorskie,Poland,PL,0:40:25,2:39:59,1:48:44,,,5:16:15,2425,9599,6524,316,111,18975,293,259,44,383,333,55,328,285,49,293,259,44,Finisher,2216
+Alicja,Stepien,Alicja Stepien,642,F45-49,Female,Zielona Góra,lubuskie,Poland,PL,0:38:00,2:38:06,1:52:10,,,5:16:18,2280,9486,6730,314,168,18978,294,35,3,302,44,3,281,36,1,294,35,3,Finisher,3215
+Martin,Teplan,Martin Teplan,423,M40-44,Male,Brno,Morava,Czech Republic,CZ,0:44:03,2:41:32,1:40:07,,,5:16:27,2643,9692,6007,319,326,18987,295,260,65,481,409,101,363,316,79,295,260,65,Finisher,2296
+Baiba,Medne,Baiba Medne,48,FPRO,Female,Dobele,Dobeles novads,Latvia,LV,0:30:51,2:38:23,2:02:29,,,5:16:28,1851,9503,7349,194,91,18988,296,36,12,85,17,13,177,22,13,296,36,12,Finisher,2305
+Zbigniew,Glinkowski,Zbigniew Glinkowski,104,M60-64,Male,Dymaczewo Stare,wielkopolskie,Poland,PL,0:43:34,2:36:55,1:49:01,,,5:16:29,2614,9415,6541,284,135,18989,297,261,6,472,402,8,316,275,7,297,261,6,Finisher,2984
+Magdalena,Warzybok,Magdalena Warzybok,118,F40-44,Female,Warszawa,mazowieckie,Poland,PL,0:36:53,2:40:13,1:52:45,,,5:16:33,2213,9613,6765,258,144,18993,298,37,6,256,40,5,282,37,6,298,37,6,Finisher,3134
+Heike,Schulze,Heike Schulze,213,F55-59,Female,Frankfurt Oder,foreigner,Germany,DE,0:36:53,2:38:06,1:56:18,,,5:16:55,2213,9486,6978,283,55,19015,299,38,2,256,40,2,256,30,1,299,38,2,Finisher,3365
+Mikolaj,Markowski,Mikolaj Markowski,146,M35-39,Male,Chojniczki,,Poland,PL,0:39:14,2:39:45,1:51:08,,,5:17:08,2354,9585,6668,294,127,19028,300,262,45,341,296,49,299,259,46,300,262,45,Finisher,2200
+Przemek,Gluchowski,Przemek Gluchowski,452,M45-49,Male,Żychlin,,Poland,PL,0:37:07,2:42:08,1:48:04,,,5:17:10,2227,9728,6484,357,234,19030,301,263,49,272,231,36,314,273,52,301,263,49,Finisher,2531
+Bartosz,Kurek,Bartosz Kurek,609,M25-29,Male,Częstochowa,,Poland,PL,0:32:08,2:33:25,2:03:51,,,5:17:19,1928,9205,7431,288,187,19039,302,264,21,106,88,9,164,146,15,302,264,21,Finisher,2285
+Marcin,Mazurek,Marcin Mazurek,246,M50-54,Male,Kraków,małopolskie,Poland,PL,0:36:40,2:52:51,1:38:58,,,5:17:34,2200,10371,5938,320,225,19054,303,265,26,243,207,20,393,338,35,303,265,26,Finisher,2564
+Agnieszka,Nowak,Agnieszka Nowak,632,F30-34,Female,Pleszew,wielkopolskie,Poland,PL,0:40:59,2:48:39,1:42:04,,,5:17:53,2459,10119,6124,266,105,19073,304,39,5,397,55,8,389,55,8,304,39,5,Finisher,2585
+Alexander,Hanisch,Alexander Hanisch,143,M40-44,Male,Hamburg,,Germany,DE,0:34:44,2:45:38,1:50:40,,,5:17:54,2084,9938,6640,246,166,19074,305,266,66,173,146,28,307,266,61,305,266,66,Finisher,2270
+Kamil,Kucharczyk,Kamil Kucharczyk,259,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:42:29,2:41:37,1:46:03,,,5:17:58,2549,9697,6363,334,135,19078,306,267,46,438,374,62,356,310,52,306,267,46,Finisher,2185
+Justyna,Szweda,Justyna Szweda,649,F30-34,Female,Kraków,małopolskie,Poland,PL,0:35:44,2:47:34,1:47:55,,,5:18:10,2144,10054,6475,268,149,19090,307,40,6,205,31,4,345,45,7,307,40,6,Finisher,2580
+Anthony,Attard,Anthony Attard,417,M40-44,Male,Victoria,Gozo,Malta,MT,0:36:49,2:40:48,1:50:57,,,5:18:17,2209,9648,6657,387,196,19097,308,268,67,250,212,49,302,261,60,308,268,67,Finisher,2263
+Marcus Booster,Ziemann,Marcus Booster Ziemann,548,M50-54,Male,Herne,Nordrhein-Westfalen,Germany,DE,0:35:41,2:39:54,1:54:05,,,5:18:47,2141,9594,6845,377,170,19127,309,269,27,202,173,14,287,250,27,309,269,27,Finisher,2542
+Aleksander,Bak,Aleksander Bak,611,M45-49,Male,Ośno lubuskie,lubuskie,Poland,PL,0:37:10,2:44:37,1:50:07,,,5:18:50,2230,9877,6607,300,116,19130,310,270,50,277,236,39,339,296,57,310,270,50,Finisher,2501
+Stefan,Krueger,Stefan Krueger,539,M35-39,Male,Neuenhagen,BB,Germany,DE,0:35:58,2:40:52,1:54:45,,,5:19:06,2158,9652,6885,261,190,19146,311,271,47,213,182,29,276,241,44,311,271,47,Finisher,2165
+David,Adamia,David Adamia,529,M40-44,Male,Tbilisi,Shida kartli,Georgia,GE,0:37:00,2:37:21,1:57:28,,,5:19:23,2220,9441,7048,261,193,19163,312,272,68,263,222,54,243,214,49,312,272,68,Finisher,2243
+Marcin,Kadys,Marcin Kadys,313,M40-44,Male,Szczecin,,Poland,PL,0:39:35,2:39:28,1:52:04,,,5:19:34,2375,9568,6724,392,115,19174,313,273,69,358,311,77,326,283,68,313,273,69,Finisher,2240
+Iryna,Vasilevskaya,Iryna Vasilevskaya,484,F40-44,Female,Kyiv,Kyiv,Ukraine,UA,0:40:48,2:35:01,1:57:05,,,5:19:42,2448,9301,7025,275,133,19182,314,41,7,394,54,6,266,31,5,314,41,7,Finisher,3078
+Ivo,Nekvinda,Ivo Nekvinda,545,M18-24,Male,Pardubice,PARDUBICE,Czech Republic,CZ,0:39:11,2:39:06,1:51:44,,,5:19:53,2351,9546,6704,426,166,19193,315,274,9,339,294,9,322,280,9,315,274,9,Finisher,2129
+Slawomir,Pogonski,Slawomir Pogonski,530,M35-39,Male,Kobierzyce,dolnośląskie,Poland,PL,0:46:24,2:28:18,1:58:33,,,5:20:03,2784,8898,7113,260,148,19203,316,275,48,523,443,74,248,219,40,316,275,48,Finisher,2148
+Yury,Paulenka,Yury Paulenka,677,M35-39,Male,Wrocław,dolnośląskie,Unknown,,0:38:54,2:53:13,1:39:32,,,5:20:04,2334,10393,5972,350,155,19204,317,276,49,325,281,45,414,359,61,317,276,49,Finisher,2147
+Agata,Szkudlarek,Agata Szkudlarek,508,F18-24,Female,Pabianice,łódzkie,Poland,PL,0:42:32,2:46:04,1:44:09,,,5:20:39,2552,9964,6249,294,180,19239,318,42,3,441,65,3,384,52,3,318,42,3,Finisher,2891
+Lukasz,Pyzik,Lukasz Pyzik,453,M40-44,Male,Pietrzykowice,,Poland,PL,0:38:08,2:41:57,1:52:49,,,5:20:45,2288,9717,6769,295,176,19245,319,277,70,306,262,64,312,271,63,319,277,70,Finisher,2219
+Szymon,Stanczak,Szymon Stanczak,537,M45-49,Male,Pogórze,,Poland,PL,0:49:17,2:39:09,1:42:42,,,5:20:48,2957,9549,6162,355,225,19248,320,278,51,555,466,93,390,335,64,320,278,51,Finisher,2465
+Jacek,Łuczak,Jacek Łuczak,667,M50-54,Male,Poznań,Wielkopolskie,Poland,PL,0:39:29,2:49:40,1:44:29,,,5:20:53,2369,10180,6269,287,148,19253,321,279,28,355,308,29,387,334,34,321,279,28,Finisher,2504
+Pawel,Duchnowski,Pawel Duchnowski,666,M40-44,Male,Southampton,foreigner,Poland,PL,0:36:12,2:43:04,1:50:59,,,5:20:58,2172,9784,6659,446,197,19258,322,280,71,223,191,41,338,295,71,322,280,71,Finisher,2215
+Adam,Skierkowski,Adam Skierkowski,437,M45-49,Male,Świecie,,Poland,PL,0:38:06,2:44:05,1:50:23,,,5:21:01,2286,9845,6623,347,160,19261,323,281,52,305,261,46,346,301,59,323,281,52,Finisher,2462
+Klaudiusz,Fojcik,Klaudiusz Fojcik,503,M45-49,Male,Cieszyn,śląskie,Poland,PL,0:31:11,2:41:51,2:00:13,,,5:21:10,1871,9711,7213,332,143,19270,324,282,53,90,73,12,242,213,41,324,282,53,Finisher,2459
+Gusten,Johansson,Gusten Johansson,679,M50-54,Male,Vinslöv,,Sweden,SE,0:37:51,2:42:27,1:52:35,,,5:21:17,2271,9747,6755,323,181,19277,325,283,29,295,252,23,330,287,28,325,283,29,Finisher,2497
+Jaroslaw,Swiniarski,Jaroslaw Swiniarski,615,M60-64,Male,Gdynia,pomorskie,Poland,PL,0:42:43,2:33:12,1:59:53,,,5:21:20,2563,9192,7193,272,60,19280,326,284,7,445,379,7,268,237,5,326,284,7,Finisher,2897
+Siobhan,Quain,Siobhan Quain,617,F35-39,Female,Limerick,Limerick,Ireland,IE,0:34:34,2:41:31,1:58:29,,,5:21:21,2074,9691,7109,263,144,19281,327,43,4,169,26,1,270,33,2,327,43,4,Finisher,2545
+Filip,Twardowski,Filip Twardowski,381,M25-29,Male,Święciechowa,wielkopolskie,Poland,PL,0:36:48,2:42:03,1:49:56,,,5:21:26,2208,9723,6596,329,430,19286,328,285,22,249,211,18,306,265,24,328,285,22,Finisher,2211
+Ireneusz,Stepien,Ireneusz Stepien,644,M50-54,Male,Zielona Góra,lubuskie,Poland,PL,0:45:14,2:35:29,1:52:06,,,5:21:44,2714,9329,6726,334,201,19304,329,286,30,500,424,40,333,290,29,329,286,30,Finisher,2489
+Anna,Botiukh,Anna Botiukh,540,F25-29,Female,Kyiv,Kyiv,Ukraine,UA,0:39:54,2:49:21,1:46:52,,,5:21:57,2394,10161,6412,264,86,19317,330,44,6,368,49,6,386,53,7,330,44,6,Finisher,2547
+Piotr,Kudzior,Piotr Kudzior,173,M25-29,Male,Poznań,,Poland,PL,0:39:22,2:39:32,1:56:36,,,5:22:53,2362,9572,6996,325,118,19373,331,287,23,347,301,28,305,264,23,331,287,23,Finisher,2185
+Frederic,Leblanc,Frederic Leblanc,109,M55-59,Male,Talmont saint Hilaire,VENDEE,France,FR,0:37:52,2:43:48,1:46:32,,,5:22:54,2272,9828,6392,455,427,19374,332,288,5,297,254,5,352,306,7,332,288,5,Finisher,2634
+Tomasz,Diering,Tomasz Diering,295,M35-39,Male,Skórzewo,wielkopolskie,Poland,PL,0:42:29,2:44:39,1:49:28,,,5:22:55,2549,9879,6568,288,91,19375,333,289,50,438,374,62,372,323,55,333,289,50,Finisher,2096
+Maciek,Wieczorek,Maciek Wieczorek,395,M50-54,Male,Poznań,wielkopolskie,Poland,PL,0:42:12,2:45:07,1:47:26,,,5:22:57,2532,9907,6446,302,190,19377,334,290,31,431,368,35,378,328,32,334,290,31,Finisher,2467
+Remi,Cichosz,Remi Cichosz,614,M50-54,Male,Zurich ,,Poland,PL,0:40:20,2:35:25,1:59:07,,,5:23:04,2420,9325,7147,329,163,19384,335,291,32,379,329,32,278,243,25,335,291,32,Finisher,2465
+Maciej,Kotas,Maciej Kotas,631,M25-29,Male,Jejkowice,śląskie,Poland,PL,0:40:07,2:41:04,1:56:09,,,5:23:18,2407,9664,6969,235,123,19398,336,292,24,373,323,29,313,272,25,336,292,24,Finisher,2177
+Siarhei,Dzekevich,Siarhei Dzekevich,390,M30-34,Male,Warszawa,mazowieckie,Unknown,,0:39:25,2:46:28,1:50:03,,,5:24:07,2365,9988,6603,338,153,19447,337,293,28,349,303,32,368,320,32,337,293,28,Finisher,1871
+Janusz,Perczak,Janusz Perczak,215,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:40:25,2:31:26,2:03:28,,,5:24:59,2425,9086,7408,429,151,19499,338,294,29,383,333,36,247,218,24,338,294,29,Finisher,1856
+Manfred,Bäcker,Manfred Bäcker,303,M60-64,Male,Dersekow,foreigner,Germany,DE,0:39:44,2:48:29,1:46:56,,,5:25:05,2384,10109,6416,406,190,19505,339,295,8,361,314,6,394,339,8,339,295,8,Finisher,2829
+Zbigniew,Malkowski,Zbigniew Malkowski,686,M45-49,Male,Szreniawa,wielkopolskie,Poland,PL,0:39:48,2:34:11,2:02:15,,,5:25:20,2388,9251,7335,346,200,19520,340,296,54,362,315,58,258,228,43,340,296,54,Finisher,2384
+Marcin,Jankowiak,Marcin Jankowiak,105,M35-39,Male,Zielona Góra,LUBUSKIE,Poland,PL,0:46:32,2:42:05,1:51:03,,,5:25:24,2792,9725,6663,219,125,19524,341,297,51,526,446,76,376,327,56,341,297,51,Finisher,2051
+Adam,Kaluzny,Adam Kaluzny,426,M40-44,Male,Poznań,,Poland,PL,,,1:53:49,,,5:25:46,0,0,6829,0,0,19546,342,298,72,99999,99999,99999,99999,99999,99999,342,298,72,Finisher,2129
+Ewa,Galewicz-Lubaczewska,Ewa Galewicz-Lubaczewska,411,F30-34,Female,Warszawa,mazowieckie,Poland,PL,0:43:23,2:35:15,2:00:55,,,5:25:48,2603,9315,7255,258,117,19548,343,45,7,466,70,10,296,40,5,343,45,7,Finisher,2442
+Tomasz,Jedwabny,Tomasz Jedwabny,652,M45-49,Male,Magdalenka,mazowieckie,Poland,PL,0:38:26,2:43:15,1:56:29,,,5:26:06,2306,9795,6989,269,207,19566,344,299,55,313,269,49,331,288,55,344,299,55,Finisher,2370
+Bartlomiej,Dmoch,Bartlomiej Dmoch,527,M30-34,Male,Warszawa,mazowieckie,Poland,PL,0:39:51,2:45:48,1:53:24,,,5:26:09,2391,9948,6804,288,138,19569,345,300,30,366,319,33,359,313,30,345,300,30,Finisher,1835
+Daniel,Petrow,Daniel Petrow,575,M35-39,Male,Grudziądz,kujawsko-pomorskie,Poland,PL,0:45:24,3:03:30,1:29:24,,,5:27:20,2724,11010,5364,298,244,19640,346,301,52,503,427,72,487,418,75,346,301,52,Finisher,2017
+Birgitte,Klitgaard,Birgitte Klitgaard,346,F60-64,Female,"Copenhagen
+København S",,Denmark,DK,0:41:47,2:45:21,1:51:06,,,5:27:26,2507,9921,6666,283,269,19646,347,46,1,422,61,1,371,49,1,347,46,1,Finisher,3500
+Rafal,Lasota,Rafal Lasota,218,M45-49,Male,Wroclaw,DOLNOSLASKIE,Poland,PL,0:43:09,2:51:29,1:44:55,,,5:27:59,2589,10289,6295,302,204,19679,348,302,56,460,393,79,424,368,73,348,302,56,Finisher,2336
+Karl Kristofer,Kurruk,Karl Kristofer Kurruk,280,M25-29,Male,Tartu,Tartu,Estonia,EE,0:37:51,2:38:26,2:01:40,,,5:28:24,2271,9506,7300,298,329,19704,349,303,25,295,252,23,279,244,21,349,303,25,Finisher,2085
+Magda,Skorek,Magda Skorek,656,F35-39,Female,tarnowskie gory,,Poland,PL,0:35:02,2:53:40,1:53:25,,,5:28:32,2102,10420,6805,246,139,19712,350,47,5,181,28,3,379,51,6,350,47,5,Finisher,2415
+Agnieszka,Wronska,Agnieszka Wronska,607,F40-44,Female,Warszawa,,Poland,PL,0:41:33,2:44:00,1:55:32,,,5:28:44,2493,9840,6932,339,120,19724,351,48,8,414,57,8,365,48,8,351,48,8,Finisher,2915
+Arnoldas,Gaudiešius,Arnoldas Gaudiešius,473,M40-44,Male,Vilnius,Vilnius,Lithuania,LT,0:39:07,2:52:54,1:48:33,,,5:28:48,2347,10374,6513,343,151,19728,352,304,73,335,290,72,412,357,90,352,304,73,Finisher,2074
+Pawel,Zach,Pawel Zach,489,M40-44,Male,Rzeszów,podkarpackie,Poland,PL,0:37:45,2:44:53,1:59:14,,,5:28:48,2265,9893,7154,300,116,19728,352,304,73,294,251,62,344,300,73,352,304,73,Finisher,2074
+Ewelina ,Zawierowska ,Ewelina Zawierowska,285,F35-39,Female,ustka ,pomorskie,Poland,PL,0:37:39,2:38:38,2:05:45,,,5:29:10,2259,9518,7545,283,145,19750,354,49,6,291,43,6,274,35,4,354,49,6,Finisher,2404
+Bartek,Jaczun,Bartek Jaczun,340,M45-49,Male,Komorniki,,Poland,PL,0:34:45,2:52:32,1:54:21,,,5:29:11,2085,10352,6861,270,183,19751,355,306,57,175,148,24,370,322,61,355,306,57,Finisher,2315
+Mateusz,Pilarczyk,Mateusz Pilarczyk,327,M35-39,Male,Poznań,kujawsko-pomorskie,Poland,PL,0:40:10,2:49:15,1:52:14,,,5:29:36,2410,10155,6734,311,166,19776,356,307,53,376,326,54,392,337,57,356,307,53,Finisher,1976
+Iva,Baronova,Iva Baronova,448,F45-49,Female,Brno,South Moravia,Czech Republic,CZ,0:36:36,2:57:20,1:47:35,,,5:29:37,2196,10640,6455,295,191,19777,357,50,4,239,34,1,421,56,4,357,50,4,Finisher,2975
+Damian,Niewiadomski,Damian Niewiadomski,251,M45-49,Male,Tarnowskie Góry,,Poland,PL,0:34:21,2:43:00,2:05:49,,,5:30:23,2061,9780,7549,259,174,19823,358,308,58,160,135,21,285,248,48,358,308,58,Finisher,2293
+Ladislav,Dvorácek,Ladislav Dvorácek,338,M50-54,Male,Cercany,Czech Republic,Czech Republic,CZ,0:40:13,2:44:20,1:56:58,,,5:30:38,2413,9860,7018,328,219,19838,359,309,33,377,327,31,357,311,30,359,309,33,Finisher,2329
+Bartosz,Cichy,Bartosz Cichy,163,M35-39,Male,Augustów,podlaskie,Poland,PL,0:35:28,2:40:56,2:08:10,,,5:30:58,2128,9656,7690,312,72,19858,360,310,54,194,166,28,283,246,45,360,310,54,Finisher,1951
+Jakub,Hobler,Jakub Hobler,225,M35-39,Male,Wieliczka,małopolskie,Poland,PL,0:46:24,2:47:08,1:49:29,,,5:31:02,2784,10028,6569,355,126,19862,361,311,55,523,443,74,423,367,64,361,311,55,Finisher,1950
+Lukasz,Bernatowicz,Lukasz Bernatowicz,479,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:38:42,2:42:01,2:01:48,,,5:31:24,2322,9721,7308,292,241,19884,362,312,59,319,275,52,326,283,54,362,312,59,Finisher,2275
+Piotr,Kowalski,Piotr Kowalski,189,M40-44,Male,Poznan,wielkopolskie,Poland,PL,0:40:07,2:55:29,1:48:43,,,5:31:33,2407,10529,6523,293,141,19893,363,313,75,373,323,79,430,374,95,363,313,75,Finisher,2024
+Adam,Skrobol,Adam Skrobol,205,M45-49,Male,Łąka,śląskie,Poland,PL,0:49:39,2:41:01,1:51:15,,,5:31:56,2979,9661,6675,404,197,19916,364,314,60,561,472,95,408,353,69,364,314,60,Finisher,2265
+Gabriela,Gawel,Gabriela Gawel,563,F25-29,Female,Jarosław,,Poland,PL,0:42:26,2:56:44,1:46:03,,,5:32:09,2546,10604,6363,288,128,19929,365,51,7,436,64,10,449,63,8,365,51,7,Finisher,2364
+Tomasz,Glebowski,Tomasz Glebowski,248,M50-54,Male,Czerwonak,wielkopolskie,Poland,PL,0:41:24,2:53:20,1:48:30,,,5:32:39,2484,10400,6510,402,163,19959,366,315,34,408,352,33,437,377,36,366,315,34,Finisher,2292
+Pavel,Ladziato,Pavel Ladziato,480,M35-39,Male,Vilnius,foreigner,Lithuania,LT,0:39:48,2:45:58,1:58:23,,,5:32:40,2388,9958,7103,357,154,19960,367,316,56,362,315,52,369,321,54,367,316,56,Finisher,1921
+Uldis,Kaufmanis,Uldis Kaufmanis,506,M45-49,Male,Riga,foreigner,Latvia,LV,0:41:03,2:18:36,2:26:34,,,5:32:46,2463,8316,8794,290,103,19966,368,317,61,399,344,65,116,100,16,368,317,61,Finisher,2250
+Tomasz,Kasprzak,Tomasz Kasprzak,214,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:37:09,2:46:40,1:59:52,,,5:32:53,2229,10000,7192,379,173,19973,369,318,31,276,235,27,358,312,29,369,318,31,Finisher,1713
+Rafal,Smigórski,Rafal Smigórski,317,M45-49,Male,Borówiec,wielkopolskie,Poland,PL,0:39:29,2:47:00,1:58:27,,,5:32:56,2369,10020,7107,327,153,19976,370,319,62,355,308,57,372,323,62,370,319,62,Finisher,2247
+Lukasz,Szczotka,Lukasz Szczotka,341,M25-29,Male,Chybie,śląskie,Poland,PL,0:39:03,,2:00:27,,,5:33:26,2343,0,7227,346,0,20006,371,320,26,331,287,24,99999,99999,99999,371,320,26,Finisher,1995
+Mariusz,Poreba,Mariusz Poreba,343,M45-49,Male,Rzeszów,podkarpackie,Poland,PL,0:38:15,2:53:47,1:56:56,,,5:33:51,2295,10427,7016,243,50,20031,372,321,63,311,267,48,401,346,67,372,321,63,Finisher,2231
+Tomasz,Malyszek,Tomasz Malyszek,383,M25-29,Male,leszno,wielkopolskie,Poland,PL,0:36:59,2:41:12,2:02:38,,,5:33:59,2219,9672,7358,524,266,20039,373,322,27,260,219,20,340,297,26,373,322,27,Finisher,1985
+Pawel,Lejk,Pawel Lejk,144,M40-44,Male,Gdańsk,pomorskie,Poland,PL,0:41:41,2:39:26,2:03:04,,,5:34:28,2501,9566,7384,425,192,20068,374,323,76,420,360,90,348,303,74,374,323,76,Finisher,1972
+Karol,Kaczmarek,Karol Kaczmarek,315,M45-49,Male,Rawicz,wielkopolskie,Poland,PL,0:34:13,2:40:27,2:12:39,,,5:34:33,2053,9627,7959,339,95,20073,375,324,64,157,133,20,263,233,45,375,324,64,Finisher,2218
+Dzmitry,Chekan,Dzmitry Chekan,497,M30-34,Male,Tallinn,Harju,Unknown,,0:38:46,2:43:50,2:00:07,,,5:34:41,2326,9830,7207,482,236,20081,376,325,32,320,276,29,360,314,31,376,325,32,Finisher,1681
+Wojtek,Drewczynski,Wojtek Drewczynski,245,M40-44,Male,Chojnice,,Poland,PL,0:43:31,2:42:58,,,,5:35:31,2611,9778,0,262,0,20131,377,326,77,470,400,98,362,315,78,377,326,77,Finisher,1953
+Adam,Grupka,Adam Grupka,255,M25-29,Male,Poznań,wielkopolskie,Poland,PL,0:33:27,2:53:42,1:57:31,,,5:35:45,2007,10422,7051,382,283,20145,378,327,28,143,121,12,385,333,27,378,327,28,Finisher,1953
+Milton Jorge,Pina Da Silva,Milton Jorge Pina Da Silva,616,M40-44,Male,Schönefeld,foreigner,Portugal,PT,0:44:58,2:48:09,1:52:07,,,5:35:54,2698,10089,6727,418,222,20154,379,328,78,496,421,105,428,372,94,379,328,78,Finisher,1946
+Kazimierz,Niemczyk,Kazimierz Niemczyk,639,M60-64,Male,Milanówek,mazowieckie,Poland,PL,0:45:00,2:51:07,1:50:40,,,5:36:11,2700,10267,6640,341,223,20171,380,329,9,497,422,9,438,378,9,380,329,9,Finisher,2629
+Lukasz,Komierowski,Lukasz Komierowski,699,M40-44,Male,Tomice,,Poland,PL,0:48:28,2:51:38,1:48:16,,,5:36:18,2908,10298,6496,309,167,20178,381,330,79,548,460,115,457,393,102,381,330,79,Finisher,1939
+Noelle Priscilla,Darabant Husanu,Noelle Priscilla Darabant Husanu,499,F25-29,Female,Lugoj,Timiș,Romania,RO,0:40:39,2:46:29,2:02:20,,,5:36:54,2439,9989,7340,308,138,20214,382,52,8,391,53,9,376,50,6,382,52,8,Finisher,2278
+Michal,Choluj,Michal Choluj,131,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:43:08,2:36:24,2:09:15,,,5:36:58,2588,9384,7755,340,151,20218,383,331,65,459,392,78,314,273,52,383,331,65,Finisher,2174
+Karol,Zgierski,Karol Zgierski,169,M35-39,Male,Tarnowo Podgórne,wielkopolskie,Poland,PL,0:39:11,2:53:29,1:57:22,,,5:37:02,2351,10409,7042,258,162,20222,384,332,57,339,294,48,405,350,59,384,332,57,Finisher,1842
+Laimutis,Juozapavicius,Laimutis Juozapavicius,424,M25-29,Male,Alytus,foreigner,Lithuania,LT,0:45:51,2:46:16,1:57:33,,,5:37:08,2751,9976,7053,286,162,20228,385,333,29,512,433,32,404,349,28,385,333,29,Finisher,1928
+Radoslaw,Andrzejewski,Radoslaw Andrzejewski,191,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:46:50,3:02:50,1:40:46,,,5:37:17,2810,10970,6046,280,131,20237,386,334,33,530,449,47,492,422,46,386,334,33,Finisher,1634
+Grzegorz,Kopplinger,Grzegorz Kopplinger,344,M45-49,Male,Rzeszów,podkarpackie,Poland,PL,0:51:21,2:49:49,1:49:24,,,5:37:22,3081,10189,6564,257,151,20242,387,335,66,572,482,98,460,396,75,387,335,66,Finisher,2167
+Pawel,Mazurek,Pawel Mazurek,236,M50-54,Male,Bytkowo,wielkopolskie,Poland,PL,0:41:27,2:45:52,1:58:45,,,5:37:23,2487,9952,7125,368,311,20243,388,336,35,411,355,34,383,332,33,388,336,35,Finisher,2207
+Ionuț,Mocan,Ionuț Mocan,460,M35-39,Male,Cluj Napoca,România,Romania,RO,0:36:11,3:02:45,1:48:27,,,5:37:33,2171,10965,6507,357,253,20253,389,337,58,222,190,32,455,391,67,389,337,58,Finisher,1833
+Joanna,Drop,Joanna Drop,517,F55-59,Female,"Zielona Góra, Polska",lubuskie,Poland,PL,0:36:07,2:48:00,2:06:20,,,5:37:34,2167,10080,7580,290,137,20254,390,53,3,219,32,1,350,46,4,390,53,3,Finisher,2993
+Pawel,Czekirda,Pawel Czekirda,511,M45-49,Male,Leżajsk,,Poland,PL,0:41:15,2:53:12,1:53:22,,,5:37:35,2475,10392,6802,353,233,20255,391,338,67,406,350,68,429,373,74,391,338,67,Finisher,2163
+Pawel,Wójcik,Pawel Wójcik,622,M40-44,Male,Połchowo,pomorskie,Poland,PL,0:37:16,2:48:21,2:03:48,,,5:37:54,2236,10101,7428,348,161,20274,392,339,80,280,239,58,367,319,81,392,339,80,Finisher,1910
+Antanas,Marcinkevicius,Antanas Marcinkevicius,443,M30-34,Male,Zalesa,foreigner,Lithuania,LT,0:46:21,2:57:09,1:45:38,,,5:38:00,2781,10629,6338,369,163,20280,393,340,34,521,441,46,473,407,43,393,340,34,Finisher,1621
+Lisa,Wächter,Lisa Wächter,488,F30-34,Female,Wolfsburg,foreigner,Germany,DE,0:36:39,2:44:37,2:07:42,,,5:38:03,2199,9877,7662,357,188,20283,394,54,8,240,35,6,341,44,6,394,54,8,Finisher,2222
+Szymon,Bolek,Szymon Bolek,164,M40-44,Male,Sosnowiec,,Poland,PL,0:33:32,2:50:01,2:06:39,,,5:38:30,2012,10201,7599,328,170,20310,395,341,81,144,122,23,351,305,75,395,341,81,Finisher,1899
+Marek,Urbanski,Marek Urbanski,584,M45-49,Male,Zielona Góra,,Poland,PL,0:39:26,2:50:35,2:00:19,,,5:38:49,2366,10235,7219,347,162,20329,396,342,68,350,304,55,398,343,66,396,342,68,Finisher,2141
+Filip,Hewelke,Filip Hewelke,316,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:37:17,2:51:48,1:58:57,,,5:39:10,2237,10308,7137,435,233,20350,397,343,69,282,241,40,402,347,68,397,343,69,Finisher,2135
+Tomek,Rutkowski,Tomek Rutkowski,204,M45-49,Male,SZAMOTUŁY,wielkopolskie,Poland,PL,0:39:27,2:44:23,2:04:07,,,5:39:17,2367,9863,7447,334,346,20357,398,344,70,353,307,56,355,309,60,398,344,70,Finisher,2133
+Krzysztof,Szab?owski,Krzysztof Szab?owski,99,M40-44,Male,Rosanów,,Poland,PL,0:38:32,2:41:52,2:11:47,,,5:39:34,2312,9712,7907,294,149,20374,399,345,82,315,271,68,319,278,65,399,345,82,Finisher,1880
+Miroslaw,Bijos,Miroslaw Bijos,201,M40-44,Male,Głogów Małopolski,podkarpackie,Poland,PL,0:41:29,2:39:54,2:10:52,,,5:39:42,2489,9594,7852,318,129,20382,400,346,83,413,357,88,337,294,70,400,346,83,Finisher,1878
+Andrzej,Lacki,Andrzej Lacki,451,M50-54,Male,Zielona Gora,,Poland,PL,0:38:54,2:46:12,2:04:30,,,5:39:51,2334,9972,7470,418,197,20391,401,347,36,325,281,26,374,325,31,401,347,36,Finisher,2163
+Wojciech,Goraczkowski,Wojciech Goraczkowski,273,M30-34,Male,Gowarzewo,wielkopolskie,Poland,PL,0:50:09,2:44:11,1:58:02,,,5:39:52,3009,9851,7082,321,129,20392,402,348,35,564,474,54,425,369,35,402,348,35,Finisher,1588
+Darya,Adamovich,Darya Adamovich,477,F18-24,Female,Wrocław,dolnośląskie,Unknown,,0:44:46,2:50:34,1:54:53,,,5:39:52,2686,10234,6893,338,241,20392,402,55,4,492,74,4,433,58,4,402,55,4,Finisher,2546
+Piotr,Radkowski,Piotr Radkowski,421,M40-44,Male,Kraków,małopolskie,Poland,PL,0:33:00,2:58:12,2:00:27,,,5:40:12,1980,10692,7227,424,89,20412,404,349,84,136,114,19,418,363,92,404,349,84,Finisher,1869
+Rudolf,Wächter,Rudolf Wächter,587,M55-59,Male,Wolfsburg,foreigner,Germany,DE,0:29:13,2:48:05,2:15:18,,,5:40:54,1753,10085,8118,307,191,20454,405,350,6,49,39,1,291,253,3,405,350,6,Finisher,2310
+Karel,Kubec,Karel Kubec,370,M40-44,Male,Trutnov,dolnośląskie,Czech Republic,CZ,0:36:24,2:47:24,2:09:15,,,5:41:46,2184,10044,7755,328,195,20506,406,351,85,231,198,45,353,307,76,406,351,85,Finisher,1841
+Lukasz,Foks,Lukasz Foks,428,M30-34,Male,Warszawa,Other,Poland,PL,0:50:21,2:58:54,1:41:38,,,5:41:49,3021,10734,6098,426,230,20509,407,352,36,565,475,55,499,428,48,407,352,36,Finisher,1553
+Marcin,Sobkowiak,Marcin Sobkowiak,60,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:38:41,2:52:05,2:03:49,,,5:41:50,2321,10325,7429,309,126,20510,408,353,86,318,274,69,399,344,85,408,353,86,Finisher,1839
+Julia,Swiatek,Julia Swiatek,591,F40-44,Female,Lusowo,,Poland,PL,0:42:57,2:53:50,1:58:49,,,5:41:53,2577,10430,7129,257,120,20513,409,56,9,451,67,9,434,59,9,409,56,9,Finisher,2678
+Rafal,Modelski,Rafal Modelski,362,M40-44,Male,Swarzędz,wielkopolskie,Poland,PL,0:39:29,2:50:17,1:59:56,,,5:41:56,2369,10217,7196,471,263,20516,410,354,87,355,308,76,410,355,89,410,354,87,Finisher,1838
+Vera,Schinnerl,Vera Schinnerl,544,F50-54,Female,Riemerling,BY,Germany,DE,0:39:56,2:57:45,1:55:11,,,5:42:07,2396,10665,6911,389,166,20527,411,57,2,369,50,3,451,64,3,411,57,2,Finisher,2845
+Wlodzimierz,Krawczyk,Wlodzimierz Krawczyk,250,M55-59,Male,Śrem,,Poland,PL,0:35:52,2:44:32,2:12:54,,,5:42:08,2152,9872,7974,375,155,20528,412,355,7,209,178,3,336,293,6,412,355,7,Finisher,2288
+Piotr,Owsinski,Piotr Owsinski,427,M45-49,Male,Zielona Góra,lubuskie,Poland,PL,0:36:17,2:57:00,2:02:09,,,5:42:44,2177,10620,7329,318,120,20564,413,356,71,225,193,33,420,365,72,413,356,71,Finisher,2071
+Jasiek,Kowalski,Jasiek Kowalski,449,M40-44,Male,Poznan,wielkopolskie,Poland,PL,0:40:38,2:56:04,1:58:44,,,5:43:11,2438,10564,7124,263,202,20591,414,357,88,389,337,82,435,376,97,414,357,88,Finisher,1815
+Marek,Nawierski,Marek Nawierski,673,M30-34,Male,Krakow,małopolskie,Poland,PL,0:42:08,2:56:34,1:56:54,,,5:43:25,2528,10594,7014,306,163,20605,415,358,37,427,364,39,448,386,39,415,358,37,Finisher,1524
+Olga,Janiszewska,Olga Janiszewska,274,F25-29,Female,Kraków,małopolskie,Poland,PL,0:46:52,3:11:09,1:37:50,,,5:43:33,2812,11469,5870,321,141,20613,416,58,9,531,82,12,516,74,9,416,58,9,Finisher,2159
+Przemek,Koch,Przemek Koch,525,M35-39,Male,Śrem,,Poland,PL,0:39:21,2:43:32,2:11:49,,,5:43:36,2361,9812,7909,357,177,20616,417,359,59,345,299,50,349,304,51,417,359,59,Finisher,1724
+Miller,Vieira,Miller Vieira,483,M35-39,Male,Kongens Lyngby,,Brazil,BR,0:43:30,2:55:15,1:55:20,,,5:44:06,2610,10515,6920,363,238,20646,418,360,60,469,399,65,454,390,66,418,360,60,Finisher,1715
+Piotr,Stachera ,Piotr Stachera,351,M40-44,Male,Jelcz-Laskowice ,dolnośląskie,Poland,PL,0:39:08,2:52:42,2:05:08,,,5:44:10,2348,10362,7508,284,148,20650,419,361,89,337,292,73,403,348,86,419,361,89,Finisher,1797
+Przemek,Szymura,Przemek Szymura,582,M40-44,Male,Smoszew,wielkopolskie,Poland,PL,0:40:24,2:42:33,2:12:02,,,5:44:42,2424,9753,7922,379,204,20682,420,362,90,382,332,81,353,307,76,420,362,90,Finisher,1788
+Noémie,Tyteca,Noémie Tyteca,382,F30-34,Female,schilde,,Belgium,BE,0:36:18,2:58:01,2:01:14,,,5:45:06,2178,10681,7274,380,193,20706,421,59,9,227,33,5,432,57,9,421,59,9,Finisher,2095
+Michal,Klecha,Michal Klecha,482,M30-34,Male,Rydzyna,wielkopolskie,Poland,PL,0:44:51,2:52:08,1:58:53,,,5:45:16,2691,10328,7133,401,163,20716,422,363,38,494,420,44,445,383,37,422,363,38,Finisher,1490
+Piotr,Oleskowicz-Popiel,Piotr Oleskowicz-Popiel,278,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:42:13,2:56:37,1:56:44,,,5:45:24,2533,10597,7004,357,233,20724,423,364,91,432,369,93,453,389,101,423,364,91,Finisher,1775
+Lukasz,Ginter,Lukasz Ginter,363,M25-29,Male,Poznań,wielkopolskie,Poland,PL,0:42:44,2:50:31,2:05:27,,,5:46:04,2564,10231,7527,267,175,20764,424,365,30,446,380,30,411,356,29,424,365,30,Finisher,1767
+Tilo,Tschöpe,Tilo Tschöpe,560,M55-59,Male,Dresden,,Germany,DE,0:37:07,2:43:09,2:16:42,,,5:46:14,2227,9789,8202,355,201,20774,425,366,8,272,231,4,332,289,5,425,366,8,Finisher,2214
+Mirna,Marovic,Mirna Marovic,88,F50-54,Female,Zagreb,,Croatia,HR,0:36:39,2:48:54,2:07:39,,,5:46:16,2199,10134,7659,509,275,20776,426,60,3,240,35,1,388,54,2,426,60,3,Finisher,2771
+Franziska,Tschöpe,Franziska Tschöpe,498,F55-59,Female,Dresden,,Germany,DE,0:41:38,2:55:00,1:59:26,,,5:46:17,2498,10500,7166,387,226,20777,427,61,4,418,60,5,441,61,5,427,61,4,Finisher,2837
+Jedrzej,Popielarz,Jedrzej Popielarz,211,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:43:55,2:55:56,1:56:46,,,5:46:18,2635,10556,7006,464,117,20778,428,367,61,477,406,67,466,401,70,428,367,61,Finisher,1675
+Krzysztof,Pietrusiak,Krzysztof Pietrusiak,199,M40-44,Male,Palędzie,wielkopolskie,Poland,PL,0:44:19,2:51:43,2:00:19,,,5:46:18,2659,10303,7219,408,189,20778,428,367,92,485,412,103,439,379,98,428,367,92,Finisher,1759
+Jacques,Smit,Jacques Smit,299,M35-39,Male,Maidstone,foreigner,South Africa,ZA,0:47:10,3:07:47,1:43:56,,,5:46:28,2830,11267,6236,389,66,20788,430,369,62,536,451,78,508,436,77,430,369,62,Finisher,1672
+Piotr,Wolniewicz,Piotr Wolniewicz,455,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:41:11,2:58:43,1:57:47,,,5:46:38,2471,10723,7067,329,208,20798,431,370,63,402,347,58,459,395,68,431,370,63,Finisher,1669
+Adriana,Jasielska,Adriana Jasielska,329,F40-44,Female,POZNAŃ,wielkopolskie,Poland,PL,0:47:04,2:50:29,2:00:32,,,5:47:01,2824,10229,7232,363,173,20821,432,62,10,535,85,19,444,62,11,432,62,10,Finisher,2586
+Melanie,Behr,Melanie Behr,440,F40-44,Female,Ottobeuren,,Germany,DE,0:45:41,2:48:50,2:01:19,,,5:47:05,2741,10130,7279,400,275,20825,433,63,11,509,78,15,436,60,10,433,63,11,Finisher,2585
+Luca,Campobasso,Luca Campobasso,380,M30-34,Male,Genova,,Italy,IT,0:41:05,2:54:40,2:00:57,,,5:47:35,2465,10480,7257,480,173,20855,434,371,39,400,345,38,446,384,38,434,371,39,Finisher,1449
+Michal,Czerwinski,Michal Czerwinski,184,M30-34,Male,Gniezno,wielkopolskie,Poland,PL,0:35:30,2:53:41,2:10:05,,,5:47:39,2130,10421,7805,352,151,20859,435,372,40,196,168,22,395,340,33,435,372,40,Finisher,1448
+Stefan,Grabinski-Friehmelt,Stefan Grabinski-Friehmelt,220,M35-39,Male,Rosbach vor der Höhe,,Germany,DE,0:32:40,3:02:22,2:05:27,,,5:48:30,1960,10942,7527,296,185,20910,436,373,64,125,103,18,427,371,65,436,373,64,Finisher,1636
+Christian,Fischer,Christian Fischer,564,M40-44,Male,Ganderkesee,,Germany,DE,0:43:31,2:47:21,2:09:22,,,5:50:05,2611,10041,7762,379,212,21005,437,374,93,470,400,98,406,351,87,437,374,93,Finisher,1691
+Ryszard,Grobelny,Ryszard Grobelny,684,M55-59,Male,Poznań,wielkopolskie,Poland,PL,0:42:49,2:43:40,2:13:45,,,5:50:17,2569,9820,8025,384,219,21017,438,375,9,449,383,8,380,329,8,438,375,9,Finisher,2141
+Marcin,Bury,Marcin Bury,619,M40-44,Male,Wroclaw,Lower Silesia,Poland,PL,0:36:54,2:43:00,2:22:01,,,5:50:17,2214,9780,8521,346,156,21017,438,375,94,259,218,52,328,285,69,438,375,94,Finisher,1687
+Dawid,Sledzinski,Dawid Sledzinski,402,M40-44,Male,Poznań ,wielkopolskie,Poland,PL,0:43:18,2:43:21,2:16:21,,,5:51:49,2598,9801,8181,397,132,21109,440,377,95,464,395,97,382,331,83,440,377,95,Finisher,1660
+Beata,Osiecka,Beata Osiecka,62,F55-59,Female,KONSTANCIN-JEZIORNA,,Poland,PL,0:41:33,,2:26:58,,,5:52:23,2493,0,8818,293,0,21143,441,64,5,414,57,4,99999,99999,99999,441,64,5,Finisher,2727
+Michal,Twardowski,Michal Twardowski,588,M35-39,Male,Nochowo,wielkopolskie,Poland,PL,0:41:53,3:02:14,1:59:10,,,5:52:35,2513,10934,7150,334,224,21155,442,378,65,425,363,60,474,408,73,442,378,65,Finisher,1562
+Pierre,Schulze,Pierre Schulze,470,M50-54,Male,Frankfurt Oder,foreigner,Germany,DE,0:43:36,3:09:42,1:49:23,,,5:52:35,2616,11382,6563,416,178,21155,442,378,37,473,403,38,505,433,39,442,378,37,Finisher,1934
+Piotr,Hanczak,Piotr Hanczak,286,M45-49,Male,Poznań,wielkopolskie,Poland,PL,0:39:48,2:53:30,2:11:29,,,5:52:42,2388,10410,7889,301,174,21162,444,380,72,362,315,58,419,364,71,444,380,72,Finisher,1891
+Tomasz,Sobkowiak,Tomasz Sobkowiak,158,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:45:01,2:56:44,2:01:18,,,5:53:28,2701,10604,7278,406,219,21208,445,381,66,498,423,69,470,404,72,445,381,66,Finisher,1546
+Jozef,Haller,Jozef Haller,608,M40-44,Male,Sopot,pomorskie,Poland,PL,0:44:14,2:45:37,2:12:20,,,5:53:33,2654,9937,7940,445,237,21213,446,382,96,483,411,102,407,352,88,446,382,96,Finisher,1628
+Justyna,Zielinska,Justyna Zielinska,689,F45-49,Female,Luboń,wielkopolskie,Poland,PL,0:44:18,3:02:49,1:58:39,,,5:54:06,2658,10969,7119,341,159,21246,447,65,5,484,73,5,483,69,5,447,65,5,Finisher,2535
+Arkadiusz,Buczkowski,Arkadiusz Buczkowski,565,M40-44,Male,Hersbruck,foreigner,Poland,PL,0:34:56,3:02:58,2:05:21,,,5:54:10,2096,10978,7521,410,245,21250,448,383,97,178,151,29,452,388,100,448,383,97,Finisher,1617
+Patryk,Hampel,Patryk Hampel,393,M30-34,Male,Leszno,wielkopolskie,Poland,PL,0:41:00,2:58:30,2:06:31,,,5:54:14,2460,10710,7591,336,157,21254,449,384,41,398,343,37,456,392,40,449,384,41,Finisher,1329
+Susanne,Kugelmann,Susanne Kugelmann,302,F40-44,Female,Kröslin,foreigner,Germany,DE,0:43:14,3:02:19,2:01:02,,,5:54:18,2594,10939,7262,310,153,21258,450,66,12,462,68,10,478,68,15,450,66,12,Finisher,2455
+Henri,De Hennin,Henri De Hennin,336,M18-24,Male,Bierges,foreigner,Belgium,BE,1:05:40,,2:09:05,,,5:54:31,3940,0,7745,0,0,21271,451,385,10,584,492,13,99999,99999,99999,451,385,10,Finisher,1506
+Andrzej,Pajak,Andrzej Pajak,321,M35-39,Male,Skórzewo,wielkopolskie,Poland,PL,0:39:42,2:46:10,2:22:29,,,5:54:46,2382,9970,8549,325,60,21286,452,386,67,360,313,51,366,318,53,452,386,67,Finisher,1523
+Gerald,Kiessling,Gerald Kiessling,641,M40-44,Male,Leipzig,SN,Germany,DE,0:43:07,2:42:19,2:16:37,,,5:54:55,2587,9739,8197,459,313,21295,453,387,98,457,390,95,381,330,82,453,387,98,Finisher,1604
+Przemyslaw,Pauli,Przemyslaw Pauli,170,M35-39,Male,Vendrell,TARRAGONA [TARRAGONA],Poland,PL,0:45:35,2:55:53,2:06:19,,,5:55:15,2735,10553,7579,355,93,21315,454,388,68,507,431,73,465,400,69,454,388,68,Finisher,1514
+Wojciech,Perzynski,Wojciech Perzynski,515,M55-59,Male,Konin,wielkopolskie,Poland,PL,0:43:25,2:46:07,2:17:41,,,5:55:25,2605,9967,8261,292,200,21325,455,389,10,467,397,10,391,336,9,455,389,10,Finisher,2048
+Przemyslaw,Marcinkowski,Przemyslaw Marcinkowski,694,M45-49,Male,Szklarska Poręba,,Poland,PL,0:50:32,2:39:46,2:17:43,,,5:55:55,3032,9586,8263,295,179,21355,456,390,73,566,476,96,396,341,65,456,390,73,Finisher,1833
+Alan,Arent,Alan Arent,265,M40-44,Male,Gdansk,pomorskie,Poland,PL,0:37:13,2:53:01,2:14:32,,,5:56:09,2233,10381,8072,463,220,21369,457,391,99,279,238,57,414,359,91,457,391,99,Finisher,1582
+Pawel,Kwiatecki,Pawel Kwiatecki,379,M30-34,Male,Assebroek,,Poland,PL,0:48:35,2:48:24,2:12:04,,,5:56:20,2915,10104,7924,363,74,21380,458,392,42,552,463,50,440,380,36,458,392,42,Finisher,1291
+Piotr,Koniec,Piotr Koniec,339,M45-49,Male,Bydgoszcz,kujawsko-pomorskie,Poland,PL,0:42:11,2:42:26,2:20:55,,,5:56:27,2531,9746,8455,452,203,21387,459,393,74,428,365,70,375,326,63,459,393,74,Finisher,1824
+Bozena,Pedowska,Bozena Pedowska,147,F55-59,Female,GLIWICE,śląskie,Poland,PL,0:41:48,3:06:44,2:00:28,,,5:56:34,2508,11204,7228,320,134,21394,460,67,6,423,62,6,487,70,6,460,67,6,Finisher,2651
+Lukasz,Niedzielak,Lukasz Niedzielak,183,M30-34,Male,Kamionki,wielkopolskie,Poland,PL,0:39:57,2:53:45,2:15:06,,,5:56:44,2397,10425,8106,273,203,21404,461,394,43,370,320,34,417,362,34,461,394,43,Finisher,1284
+Zoryana,Bohdan,Zoryana Bohdan,384,F40-44,Female,Lviv,małopolskie,Ukraine,UA,0:45:38,2:56:12,2:00:43,,,5:56:45,2738,10572,7243,502,350,21405,462,68,13,508,77,14,476,67,14,462,68,13,Finisher,2411
+Jaroslaw,Tchorowski,Jaroslaw Tchorowski,472,M50-54,Male,Zielona Góra,lubuskie,Poland,PL,0:35:46,3:01:25,2:08:17,,,5:56:57,2146,10885,7697,413,276,21417,463,395,38,206,175,16,450,387,38,463,395,38,Finisher,1855
+Dominik,Fijalkowski,Dominik Fijalkowski,456,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:37:57,2:59:42,2:09:00,,,5:57:18,2277,10782,7740,367,272,21438,464,396,100,300,257,63,447,385,99,464,396,100,Finisher,1561
+Patryk,Trzcielinski,Patryk Trzcielinski,129,M40-44,Male,Żerków,wielkopolskie,Poland,PL,0:48:37,2:59:22,1:59:22,,,5:57:27,2917,10762,7162,355,251,21447,465,397,101,553,464,117,489,419,107,465,397,101,Finisher,1558
+Marcin,Dekowski,Marcin Dekowski,610,M40-44,Male,Wągrowiec,wielkopolskie,Poland,PL,0:41:11,2:50:44,2:14:19,,,5:57:30,2471,10244,8059,476,200,21450,466,398,102,402,347,85,426,370,93,466,398,102,Finisher,1557
+Lukasz,Partyka,Lukasz Partyka,478,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:43:07,2:53:47,2:13:42,,,5:57:56,2587,10427,8022,216,224,21476,467,399,103,457,390,95,431,375,96,467,399,103,Finisher,1550
+Tomasz,Ludek,Tomasz Ludek,301,M35-39,Male,Przeźmierowo,wielkopolskie,Poland,PL,0:42:57,3:05:21,2:00:41,,,5:58:15,2577,11121,7241,293,263,21495,468,400,69,451,385,64,485,416,74,468,400,69,Finisher,1460
+Grzegorz,Smoczyk,Grzegorz Smoczyk,512,M30-34,Male,lusowo,wielkopolskie,Poland,PL,0:44:31,2:57:56,2:09:13,,,5:58:20,2671,10676,7753,261,139,21500,469,401,44,490,417,43,463,398,41,469,401,44,Finisher,1255
+Pawel,Górczynski,Pawel Górczynski,253,M40-44,Male,Wiry,,Poland,PL,0:46:16,3:26:05,1:32:58,,,5:58:26,2776,12365,5578,654,133,21506,470,402,104,519,439,109,546,466,116,470,402,104,Finisher,1541
+Petra,Pesova,Petra Pesova,385,F40-44,Female,Novy Jicin,foreigner,Czech Republic,CZ,0:49:42,3:01:43,2:00:31,,,5:59:21,2982,10903,7231,300,145,21561,471,69,14,562,90,21,500,72,16,471,69,14,Finisher,2364
+Przemyslaw,Markowski,Przemyslaw Markowski,420,M45-49,Male,Poznań,wielkopolskie,Poland,PL,0:35:02,3:14:48,2:00:37,,,6:00:10,2102,11688,7237,419,164,21610,472,403,75,181,154,25,501,429,83,472,403,75,Finisher,1757
+Sam,Brenkel,Sam Brenkel,354,M30-34,Male,London,ABC,United Kingdom,GB,0:36:27,3:08:10,2:06:13,,,6:00:40,2187,11290,7573,362,228,21640,473,404,45,235,202,25,477,410,44,473,404,45,Finisher,1213
+Wojciech,Krynicki,Wojciech Krynicki,628,M40-44,Male,Warszawa,mazowieckie,Poland,PL,0:43:58,2:55:09,2:06:34,,,6:00:41,2638,10509,7594,635,265,21641,474,405,105,478,407,100,475,409,105,474,405,105,Finisher,1500
+Bulat,Baimov,Bulat Baimov,683,M30-34,Male,Wrocław,dolnośląskie,Kazakhstan,KZ,0:45:52,3:07:42,1:55:01,,,6:01:14,2752,11262,6901,501,258,21674,475,406,46,513,434,45,510,438,49,475,406,46,Finisher,1203
+Luna,Hu,Luna Hu,297,F18-24,Female,london,,Hong Kong,HK,0:44:57,3:05:06,2:02:15,,,6:02:53,2697,11106,7335,324,311,21773,476,70,5,495,75,5,497,71,5,476,70,5,Finisher,2131
+Michal,Kochel,Michal Kochel,663,M40-44,Male,Wroclaw,,Poland,PL,0:41:45,3:06:17,2:06:14,,,6:03:08,2505,11177,7574,334,198,21788,477,407,106,421,361,91,486,417,106,477,407,106,Finisher,1456
+Oksana,Sivtsova,Oksana Sivtsova,550,F25-29,Female,Warszawa,mazowieckie,Ukraine,UA,0:40:34,3:22:21,1:53:07,,,6:03:12,2434,12141,6787,291,139,21792,478,71,10,387,52,8,527,77,10,478,71,10,Finisher,1805
+Damian,Kolasinski,Damian Kolasinski,197,M45-49,Male,Zalasewo,wielkopolskie,Poland,PL,0:40:06,2:52:02,2:22:44,,,6:03:15,2406,10322,8564,321,182,21795,479,408,76,372,322,60,409,354,70,479,408,76,Finisher,1701
+Michal,Bajkowski,Michal Bajkowski,306,M35-39,Male,Osjaków,łódzkie,Poland,PL,0:45:23,2:44:23,2:24:40,,,6:03:42,2723,9863,8680,370,186,21822,480,409,70,502,426,71,400,345,58,480,409,70,Finisher,1362
+Cezary,Miksa,Cezary Miksa,604,M35-39,Male,Józefów,mazowieckie,Poland,PL,0:37:55,2:41:14,2:34:20,,,6:03:44,2275,9674,9260,368,247,21824,481,410,71,299,256,42,318,277,48,481,410,71,Finisher,1361
+Tomasz,Zajac,Tomasz Zajac,500,M35-39,Male,Skierniewice,łódzkie,Poland,PL,0:50:43,2:40:54,2:20:32,,,6:04:47,3043,9654,8432,376,382,21887,482,411,72,569,479,81,413,358,60,482,411,72,Finisher,1343
+Daniel,Predko,Daniel Predko,241,M40-44,Male,Wroclaw,dolnośląskie,Poland,PL,0:41:21,3:13:21,2:03:32,,,6:04:58,2481,11601,7412,331,73,21898,483,412,107,407,351,86,504,432,109,483,412,107,Finisher,1423
+Jaroslaw,Zielinski,Jaroslaw Zielinski,257,M40-44,Male,radom,mazowieckie,Poland,PL,0:36:45,3:03:28,2:15:41,,,6:05:05,2205,11008,8141,308,243,21905,484,413,108,248,210,48,458,394,103,484,413,108,Finisher,1421
+Damian,Galdynski,Damian Galdynski,434,M30-34,Male,POZNAŃ,wielkopolskie,Poland,PL,0:42:22,3:06:36,,,,6:05:06,2542,11196,0,325,0,21906,485,414,47,435,372,41,493,423,47,485,414,47,Finisher,1133
+Zuzana,Balážová,Zuzana Balážová,494,F30-34,Female,Bratislava,Bratislava Region,Slovakia,SK,0:47:45,3:11:22,1:58:00,,,6:05:19,2865,11482,7080,314,178,21919,486,72,10,543,87,11,517,75,10,486,72,10,Finisher,1731
+Pawel,Kasprzak,Pawel Kasprzak,177,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:47:15,3:10:33,2:00:17,,,6:05:55,2835,11433,7217,317,153,21955,487,415,48,538,453,48,515,442,50,487,415,48,Finisher,1119
+Igor,Pastukh,Igor Pastukh,509,M65-69,Male,Zhytomyr,foreigner,Ukraine,UA,0:38:09,3:04:27,2:13:05,,,6:05:56,2289,11067,7985,383,232,21956,488,416,1,307,263,1,471,405,1,488,416,1,Finisher,3500
+Olivier,Cornes,Olivier Cornes,269,M30-34,Male,Zurich,,Switzerland,CH,0:37:34,3:01:41,2:12:36,,,6:05:58,2254,10901,7956,479,368,21958,489,417,49,289,247,28,464,399,42,489,417,49,Finisher,1118
+Joanna,Ratajczak,Joanna Ratajczak,212,F40-44,Female,Ruszków Drugi,,Poland,PL,0:47:36,,2:19:52,,,6:06:18,2856,0,8392,359,0,21978,490,73,15,542,86,20,99999,99999,99999,490,73,15,Finisher,2239
+Bartosz,Guss,Bartosz Guss,665,M45-49,Male,Poznań,wielkopolskie,Poland,PL,0:46:15,3:10:21,2:00:28,,,6:06:31,2775,11421,7228,350,217,21991,491,418,77,517,437,89,513,440,87,491,418,77,Finisher,1643
+Waldemar,Ostrowski,Waldemar Ostrowski,187,M45-49,Male,Wrocław,,Poland,PL,0:44:48,3:03:01,2:09:24,,,6:06:53,2688,10981,7764,376,204,22013,492,419,78,493,419,85,491,421,81,492,419,78,Finisher,1636
+Grzegorz,Sokolowski,Grzegorz Sokolowski,200,M35-39,Male,Zielona Góra,lubuskie,Poland,PL,0:36:08,2:58:37,2:24:57,,,6:07:04,2168,10717,8697,271,171,22024,493,420,73,220,188,31,422,366,63,493,420,73,Finisher,1301
+Marcin,Machynski,Marcin Machynski,228,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:41:38,3:00:29,2:16:24,,,6:07:35,2498,10829,8184,343,201,22055,494,421,109,418,359,89,468,403,104,494,421,109,Finisher,1376
+Dariusz,Markowski,Dariusz Markowski,640,M60-64,Male,Polanica Zdrój,dolnośląskie,Poland,PL,0:46:28,2:53:55,2:20:21,,,6:08:30,2788,10435,8421,304,162,22110,495,422,10,525,445,10,460,396,10,495,422,10,Finisher,2048
+Artur,Marzec,Artur Marzec,300,M45-49,Male,Wieliczka,małopolskie,Poland,PL,0:45:24,3:17:26,1:55:33,,,6:08:40,2724,11846,6933,371,246,22120,496,423,79,503,427,86,532,455,90,496,423,79,Finisher,1604
+Pawel,Skrzypczak,Pawel Skrzypczak,373,M35-39,Male,Nochowo,wielkopolskie,Poland,PL,0:32:52,3:08:37,2:18:05,,,6:09:02,1972,11317,8285,375,193,22142,497,424,74,129,107,19,467,402,71,497,424,74,Finisher,1266
+Dmitry,Iakovlev,Dmitry Iakovlev,534,M45-49,Male,Wroclaw,,Unknown,,0:49:27,3:14:11,1:51:38,,,6:09:30,2967,11651,6698,552,302,22170,498,425,80,559,470,94,535,457,91,498,425,80,Finisher,1589
+Wojciech,Wieronski,Wojciech Wieronski,309,M45-49,Male,Krakow,małopolskie,Poland,PL,0:40:22,3:12:29,2:04:09,,,6:09:46,2422,11549,7449,586,180,22186,499,426,81,381,331,62,514,441,88,499,426,81,Finisher,1584
+Andreas,Büch,Andreas Büch,625,M40-44,Male,Biederitz,Sachsen-Anhalt,Germany,DE,0:45:55,3:09:23,2:05:38,,,6:10:31,2755,11363,7538,389,186,22231,500,427,110,514,435,108,509,437,111,500,427,110,Finisher,1323
+Szymon ,Kurzawinski ,Szymon Kurzawinski,176,M55-59,Male,Tarnowo Podgórne,wielkopolskie,Poland,PL,0:41:33,2:55:31,2:25:12,,,6:11:44,2493,10531,8712,361,207,22304,501,428,11,414,358,7,441,381,10,501,428,11,Finisher,1755
+Marek,Adam,Marek Adam,221,M45-49,Male,Skórzewo,wielkopolskie,Poland,PL,0:42:58,3:00:05,2:13:09,,,6:12:54,2578,10805,7989,699,303,22374,502,429,82,453,386,76,494,424,82,502,429,82,Finisher,1528
+Katarzyna,Kaczmarek,Katarzyna Kaczmarek,372,F40-44,Female,Zielona Góra,lubuskie,Poland,PL,0:43:15,2:59:30,2:21:03,,,6:13:05,2595,10770,8463,341,216,22385,503,74,16,463,69,11,469,66,13,503,74,16,Finisher,2117
+Vladislavs,Punculs,Vladislavs Punculs,586,M35-39,Male,Riga,foreigner,Latvia,LV,0:51:20,3:05:06,2:03:45,,,6:13:08,3080,11106,7425,481,296,22388,504,430,75,571,481,82,518,443,78,504,430,75,Finisher,1192
+Kamil,Kaniewski,Kamil Kaniewski,216,M40-44,Male,Dąbrowa,wielkopolskie,Poland,PL,0:50:33,3:09:43,2:03:09,,,6:13:32,3033,11383,7389,359,248,22412,505,431,111,567,477,118,526,450,114,505,431,111,Finisher,1269
+Dawid,Mielcarek,Dawid Mielcarek,307,M25-29,Male,Wrocław,dolnośląskie,Poland,PL,0:42:45,3:10:42,2:12:51,,,6:14:18,2565,11442,7971,370,110,22458,506,432,31,447,381,31,503,431,30,506,432,31,Finisher,1259
+Monika,Sobkowiak,Monika Sobkowiak,179,F35-39,Female,Krotoszyn,wielkopolskie,Poland,PL,0:41:34,3:14:10,2:09:37,,,6:15:43,2494,11650,7777,395,227,22543,507,75,7,417,59,7,511,73,7,507,75,7,Finisher,1566
+Malgorzata,Filarska,Malgorzata Filarska,276,M40-44,Male,Wrocław,dolnośląskie,Poland,PL,0:40:38,2:44:44,2:43:46,,,6:15:57,2438,9884,9826,336,73,22557,508,433,112,389,337,82,364,317,80,508,433,112,Finisher,1225
+Riaz,Lane,Riaz Lane,441,M18-24,Male,Grafenwoehr,foreigner,United States,US,0:59:01,3:16:54,1:53:38,,,6:16:52,3541,11814,6818,293,146,22612,509,434,11,581,489,12,541,461,11,509,434,11,Finisher,1103
+Lukasz,Bogusiewicz,Lukasz Bogusiewicz,445,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:55:36,3:04:12,2:09:15,,,6:18:08,3336,11052,7755,298,247,22688,510,435,50,579,487,58,520,445,52,510,435,50,Finisher,899
+Jakub,Gnat,Jakub Gnat,516,M45-49,Male,Mierzyn,,Poland,PL,0:42:32,3:05:35,2:19:52,,,6:18:22,2552,11135,8392,353,270,22702,511,436,83,441,377,75,490,420,80,511,436,83,Finisher,1429
+Piotr,Roszak,Piotr Roszak,258,M35-39,Male,Baranowo,,Poland,PL,0:42:17,3:06:04,2:22:49,,,6:20:14,2537,11164,8569,382,162,22814,512,437,76,434,371,61,495,425,76,512,437,76,Finisher,1064
+Michal,Bieniecki,Michal Bieniecki,431,M45-49,Male,Olsztyn,warmińsko-mazurskie,Poland,PL,0:40:18,3:03:15,2:28:07,,,6:20:29,2418,10995,8887,340,189,22829,513,438,84,378,328,61,472,406,76,513,438,84,Finisher,1391
+Arkadiusz,Cichura,Arkadiusz Cichura,630,M40-44,Male,Moszczenica,łódzkie,Poland,PL,0:46:23,3:13:42,2:12:28,,,6:21:21,2783,11622,7948,363,165,22881,514,439,113,522,442,110,525,449,113,514,439,113,Finisher,1128
+Jan,Kaletka,Jan Kaletka,377,M30-34,Male,Kościan,wielkopolskie,Poland,PL,0:39:59,3:03:48,2:27:32,,,6:22:15,2399,11028,8852,444,212,22935,515,440,51,371,321,35,480,412,45,515,440,51,Finisher,825
+Marcin,Basinski,Marcin Basinski,281,M45-49,Male,PACZKOWO,wielkopolskie,Poland,PL,0:41:24,3:15:22,2:18:07,,,6:23:58,2484,11722,8287,339,206,23038,516,441,85,408,352,69,512,439,86,516,441,85,Finisher,1328
+Jaroslaw,Wieczorek,Jaroslaw Wieczorek,433,M55-59,Male,Poznań,,Poland,PL,0:46:42,3:10:30,2:12:36,,,6:24:36,2802,11430,7956,517,371,23076,517,442,12,528,448,13,524,448,11,517,442,12,Finisher,1523
+Krystian,Kulczycki,Krystian Kulczycki,175,M45-49,Male,Wroclaw,,Poland,PL,0:43:02,3:01:00,2:28:35,,,6:25:42,2582,10860,8915,548,237,23142,518,443,86,456,389,77,484,415,79,518,443,86,Finisher,1297
+Andrzej,Karas,Andrzej Karas,399,M50-54,Male,Radom,mazowieckie,Poland,PL,0:46:35,3:19:53,2:11:05,,,6:27:33,2795,11993,7865,324,276,23253,519,444,39,527,447,41,534,456,40,519,444,39,Finisher,1304
+Filip,Rybakowski,Filip Rybakowski,268,M45-49,Male,Poznan,,Poland,PL,0:43:22,3:16:59,2:14:27,,,6:27:46,2602,11819,8067,455,323,23266,520,445,87,465,396,81,528,451,89,520,445,87,Finisher,1260
+Michal,Kaczmarek,Michal Kaczmarek,178,M40-44,Male,Dopiewiec,wielkopolskie,Poland,PL,0:31:11,2:59:32,2:51:03,,,6:27:53,1871,10772,10263,296,71,23273,521,446,114,90,73,9,397,342,84,521,446,114,Finisher,1010
+Jan,Karbowski,Jan Karbowski,583,M40-44,Male,Skórzewo,wielkopolskie,Poland,PL,,,2:06:47,,,6:28:04,0,0,7607,0,0,23284,522,447,115,99999,99999,99999,99999,99999,99999,522,447,115,Finisher,1007
+Silvia,Bonfanti,Silvia Bonfanti,194,F35-39,Female,como,foreigner,Italy,IT,0:45:43,3:24:09,2:09:57,,,6:28:48,2743,12249,7797,332,207,23328,523,76,8,510,79,9,539,80,9,523,76,8,Finisher,1331
+Tomasz,Chmielewski,Tomasz Chmielewski,404,M35-39,Male,Dublin 15,Dublin,Poland,PL,0:41:26,2:50:26,2:48:27,,,6:29:25,2486,10226,10107,367,179,23365,524,448,77,410,354,59,416,361,62,524,448,77,Finisher,899
+Paul,Formanko,Paul Formanko,464,M25-29,Male,London,,Slovakia,SK,0:36:50,3:22:26,2:18:06,,,6:29:28,2210,12146,8286,348,378,23368,525,449,32,253,214,19,521,446,31,525,449,32,Finisher,986
+Michal ,Janowski ,Michal Janowski,572,M40-44,Male,SZYMANOWO,wielkopolskie,Poland,PL,0:45:24,3:09:58,2:26:41,,,6:30:55,2724,11398,8801,360,172,23455,526,450,116,503,427,106,507,435,110,526,450,116,Finisher,956
+Jakub,Kaczmarek,Jakub Kaczmarek,505,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:48:32,3:20:37,2:15:16,,,6:32:17,2912,12037,8116,323,149,23537,527,451,52,550,462,49,536,458,53,527,451,52,Finisher,700
+Tomasz,Mamak,Tomasz Mamak,658,M45-49,Male,Izdebnik,małopolskie,Poland,PL,0:41:08,3:02:17,2:33:06,,,6:32:34,2468,10937,9186,497,466,23554,528,452,88,401,346,66,481,413,77,528,452,88,Finisher,1174
+Andris ,Rozentals,Andris Rozentals,168,M40-44,Male,Rīga ,Rīga,Latvia,LV,0:45:31,3:01:54,2:32:06,,,6:33:03,2731,10914,9126,487,325,23583,529,453,117,506,430,107,498,427,108,529,453,117,Finisher,917
+Teodora,Florian,Teodora Florian,459,F40-44,Female,Cluj Napoca,Cluj,Romania,RO,0:46:55,3:42:06,1:55:22,,,6:34:31,2815,13326,6922,362,246,23671,530,77,17,532,83,17,556,83,18,530,77,17,Finisher,1731
+Oren,Pecio,Oren Pecio,693,M25-29,Male,Warszawa,mazowieckie,Israel,IL,0:48:23,3:24:49,2:09:32,,,6:34:51,2903,12289,7772,458,269,23691,531,454,33,546,458,34,542,462,32,531,454,33,Finisher,889
+Piotr,Mrozowski,Piotr Mrozowski,337,M35-39,Male,Pisary,małopolskie,Poland,PL,0:49:06,3:05:27,2:18:44,,,6:35:16,2946,11127,8324,803,516,23716,532,455,78,554,465,79,528,451,79,532,455,78,Finisher,794
+Beata,Sadowska,Beata Sadowska,474,F40-44,Female,kielce,świętokrzyskie,Canada,CA,0:46:59,3:41:36,1:58:33,,,6:35:18,2819,13296,7113,324,166,23718,533,78,18,533,84,18,555,82,17,533,78,18,Finisher,1717
+Piotr,Kapcinski,Piotr Kapcinski,167,M35-39,Male,Poznań,,Poland,PL,,,2:26:27,,,6:35:48,0,0,8787,0,0,23748,534,456,79,99999,99999,99999,99999,99999,99999,534,456,79,Finisher,784
+Urszula,Lapawa,Urszula Lapawa,319,F35-39,Female,Poznań,wielkopolskie,Poland,PL,0:45:11,3:14:35,2:27:41,,,6:37:04,2711,11675,8861,353,224,23824,535,79,9,499,76,8,522,76,8,535,79,9,Finisher,1182
+Filip,Dwojak,Filip Dwojak,671,M18-24,Male,Janowice Wielkie,dolnośląskie,Poland,PL,0:42:59,3:08:25,2:40:04,,,6:38:06,2579,11305,9604,242,156,23886,536,457,12,454,387,10,496,426,10,536,457,12,Finisher,721
+Jakub,Syta,Jakub Syta,328,M45-49,Male,Warszawa,,Poland,PL,0:45:45,3:09:49,2:33:50,,,6:38:07,2745,11389,9230,318,205,23887,537,458,89,511,432,87,506,434,85,537,458,89,Finisher,1074
+Jacek,Kokot,Jacek Kokot,326,M30-34,Male,Poznań,wielkopolskie,Poland,PL,0:56:09,3:17:53,2:11:28,,,6:38:18,3369,11873,7888,475,293,23898,538,459,53,580,488,59,544,464,55,538,459,53,Finisher,700
+Artur,Szczurek,Artur Szczurek,180,M45-49,Male,Poznań,wielkopolskie,Poland,PL,0:50:34,2:59:45,2:36:59,,,6:38:54,3034,10785,9419,419,277,23934,539,460,90,568,478,97,502,430,84,539,460,90,Finisher,1060
+Marcin,Lukasiewicz,Marcin Lukasiewicz,562,M35-39,Male,Lądek-Zdrój,dolnośląskie,Poland,PL,0:45:15,3:14:25,2:25:05,,,6:39:29,2715,11665,8705,549,335,23969,540,461,80,501,425,70,531,454,80,540,461,80,Finisher,718
+Marcin,Wasilewski,Marcin Wasilewski,444,M30-34,Male,Rybnik,śląskie,Poland,PL,0:52:21,3:21:28,2:18:36,,,6:40:43,3141,12088,8316,442,56,24043,541,462,54,575,485,57,543,463,54,541,462,54,Finisher,700
+Artem,Zhyrnov,Artem Zhyrnov,442,M30-34,Male,Kreba-Neudorf,,Ukraine,UA,0:49:26,3:07:51,2:33:26,,,6:40:47,2966,11271,9206,434,170,24047,542,463,55,558,469,53,519,444,51,542,463,55,Finisher,700
+Spencer,Young,Spencer Young,436,M25-29,Male,Amberg,foreigner,United States,US,0:46:15,3:32:24,2:07:18,,,6:42:08,2775,12744,7638,442,529,24128,543,464,34,517,437,33,549,469,33,543,464,34,Finisher,758
+Shawn,Staggs,Shawn Staggs,439,M30-34,Male,erbendorf,foreigner,United States,US,0:51:42,3:22:24,2:14:26,,,6:43:00,3102,12144,8066,561,307,24180,544,465,56,573,483,56,547,467,56,544,465,56,Finisher,700
+Piotr,Hartel,Piotr Hartel,304,M50-54,Male,Pierwoszów,dolnośląskie,Poland,PL,0:51:01,3:17:12,2:23:18,,,6:43:02,3061,11832,8598,430,261,24182,545,466,40,570,480,42,538,459,41,545,466,40,Finisher,1025
+Przemyslaw,Wawrzyniak,Przemyslaw Wawrzyniak,279,M55-59,Male,Oborniki,wielkopolskie,Poland,PL,0:44:26,3:16:20,2:27:23,,,6:43:06,2666,11780,8843,435,462,24186,546,467,13,488,415,12,530,453,12,546,467,13,Finisher,1190
+Karolina,Koziol,Karolina Koziol,141,F30-34,Female,Zielonka,wielkopolskie,Poland,PL,0:48:17,3:12:22,2:32:19,,,6:44:44,2897,11542,9139,543,163,24284,547,80,11,545,88,12,533,78,11,547,80,11,Finisher,1022
+Josh,Claytor,Josh Claytor,435,M30-34,Male,GRAFENWOEHR,foreigner,United States,US,0:49:25,3:25:09,2:13:56,,,6:44:49,2965,12309,8036,648,331,24289,548,468,57,557,468,52,548,468,57,548,468,57,Finisher,700
+Remy,Pazzottu,Remy Pazzottu,135,M50-54,Male,L HERBERGEMENT,,France,FR,0:36:49,2:58:21,2:57:39,,,6:44:54,2209,10701,10659,477,248,24294,549,469,41,250,212,21,443,382,37,549,469,41,Finisher,992
+Dawid,Jackowski,Dawid Jackowski,222,M40-44,Male,Piła,wielkopolskie,Poland,PL,0:48:31,,2:59:00,,,6:47:28,2911,0,10740,580,0,24448,550,470,118,549,461,116,99999,99999,99999,550,470,118,Finisher,700
+Maciej,Kurzajewski,Maciej Kurzajewski,688,M45-49,Male,Warszawa Wesoła,mazowieckie,Poland,PL,1:05:14,3:28:12,2:07:22,,,6:49:32,3914,12492,7642,300,224,24572,551,471,91,583,491,99,560,477,94,551,471,91,Finisher,868
+Barbara,Urzedowicz,Barbara Urzedowicz,690,F30-34,Female,Łódź,,Poland,PL,0:42:07,3:55:11,2:07:10,,,6:52:41,2527,14111,7630,269,224,24761,552,81,12,426,63,9,562,84,12,552,81,12,Finisher,878
+Olga,Baran,Olga Baran,397,F35-39,Female,Warszawa,mazowieckie,Poland,PL,0:54:25,3:44:21,2:03:00,,,6:53:35,3265,13461,7380,499,210,24815,553,82,10,577,91,10,563,85,10,553,82,10,Finisher,884
+Piotr,Fronc,Piotr Fronc,394,M35-39,Male,Brańsk,podlaskie,Poland,PL,0:47:03,3:29:18,2:31:23,,,6:57:10,2823,12558,9083,347,219,25030,554,472,81,534,450,77,545,465,81,554,472,81,Finisher,700
+Maciej,Michniewicz,Maciej Michniewicz,454,M45-49,Male,Kłodawa,lubuskie,Poland,PL,0:46:18,2:59:13,2:58:04,,,6:59:47,2778,10753,10684,395,577,25187,555,473,92,520,440,90,482,414,78,555,473,92,Finisher,700
+Dawid,Wilk,Dawid Wilk,229,M40-44,Male,Poznan,wielkopolskie,Poland,PL,0:47:22,3:11:33,2:52:09,,,7:01:24,2842,11493,10329,406,214,25284,556,474,119,540,455,112,523,447,112,556,474,119,Finisher,700
+Mikolaj,Sowinski,Mikolaj Sowinski,416,M18-24,Male,Komorniki,wielkopolskie,Poland,PL,0:50:05,3:38:29,2:22:53,,,7:04:32,3005,13109,8573,468,317,25472,557,475,13,563,473,11,557,474,12,557,475,13,Finisher,700
+Jakub,Wtulich,Jakub Wtulich,371,M40-44,Male,Poznań,wielkopolskie,Poland,PL,0:47:20,3:21:45,2:41:48,,,7:04:42,2840,12105,9708,481,348,25482,558,476,120,539,454,111,540,460,115,558,476,120,Finisher,700
+Robert,Motyka,Robert Motyka,691,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:48:26,3:31:35,2:33:39,,,7:05:00,2906,12695,9219,428,252,25500,559,477,93,547,459,92,551,471,92,559,477,93,Finisher,700
+Bartlomiej,Nagalewski,Bartlomiej Nagalewski,234,M45-49,Male,Witnica,lubuskie,Poland,PL,0:43:13,,4:01:52,,,7:09:20,2593,0,14512,379,0,25760,560,478,94,461,394,80,99999,99999,99999,560,478,94,Finisher,700
+Jedrzej,Szymanski,Jedrzej Szymanski,235,M40-44,Male,Poznań,wielkopolskie,Poland,PL,1:01:34,,2:37:54,,,7:09:26,3694,0,9474,406,0,25766,561,479,121,582,490,119,99999,99999,99999,561,479,121,Finisher,700
+Grzegorz,Kalotka,Grzegorz Kalotka,600,M30-34,Male,Poznań,wielkopolskie,Poland,PL,,,2:37:10,,,7:10:25,0,0,9430,0,0,25825,562,480,58,99999,99999,99999,99999,99999,99999,562,480,58,Finisher,700
+Bartosz,Kasprzak,Bartosz Kasprzak,263,M35-39,Male,Poznań,wielkopolskie,Poland,PL,0:49:29,3:29:42,2:40:49,,,7:10:44,2969,12582,9649,448,196,25844,563,481,82,560,471,80,550,470,82,563,481,82,Finisher,700
+Maria,Hampel,Maria Hampel,166,F25-29,Female,Leszno,wielkopolskie,Poland,PL,0:45:55,3:22:04,2:51:32,,,7:11:50,2755,12124,10292,423,316,25910,564,83,11,514,80,11,537,79,11,564,83,11,Finisher,700
+Sinead,Donovan,Sinead Donovan,260,F50-54,Female,Blackrock,Dublin,Ireland,IE,0:48:34,3:35:58,2:40:38,,,7:16:35,2914,12958,9638,467,218,26195,565,84,4,551,89,4,554,81,4,565,84,4,Finisher,1145
+Joanna,Smit,Joanna Smit,298,F40-44,Female,Maidstone,foreigner,Poland,PL,0:43:39,3:58:22,2:25:48,,,7:21:05,2619,14302,8748,560,236,26465,566,85,19,474,71,12,564,86,19,566,85,19,Finisher,893
+Grzegorz,Perzynski,Grzegorz Perzynski,578,M45-49,Male,Gdańsk,pomorskie,Poland,PL,0:44:01,3:33:04,2:54:35,,,7:28:55,2641,12784,10475,673,362,26935,567,482,95,480,408,83,552,472,93,567,482,95,Finisher,700
+Adam,Urbanski,Adam Urbanski,165,M40-44,Male,Dąbrowa,wielkopolskie,Poland,PL,0:47:30,3:42:56,2:47:23,,,7:30:40,2850,13376,10043,471,300,27040,568,483,122,541,456,113,559,476,117,568,483,122,Finisher,700
+Jacek,Bieniecki,Jacek Bieniecki,219,M55-59,Male,Gąsawy,wielkopolskie,Poland,PL,0:51:51,3:35:48,3:12:13,,,7:50:45,3111,12948,11533,549,104,28245,569,484,14,574,484,14,558,475,13,569,484,14,Finisher,700
+Michal,Dymek,Michal Dymek,288,M35-39,Male,Jerzmanowa,dolnośląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dominik,Lawniczak,Dominik Lawniczak,98,M40-44,Male,Nottingham,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ligita,Juozapaviciene,Ligita Juozapaviciene,425,F25-29,Female,Alytus,foreigner,Lithuania,LT,0:40:31,,,,,,2431,0,0,335,0,0,99999,99999,99999,386,51,7,99999,99999,99999,99999,99999,99999,DNF,0
+Ivan,Tutukin,Ivan Tutukin,18,MPRO,Male,Lubertsy,Intl State,Kazakhstan,KZ,0:25:03,3:23:06,,,,,1503,12186,0,163,0,0,99999,99999,99999,8,8,7,479,411,16,99999,99999,99999,DNF,0
+Gabriel Elvira,Selischi,Gabriel Elvira Selischi,358,M55-59,Male,Vienna,,Romania,RO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Saba,Tomasz Saba,654,M45-49,Male,CHOTOMÓW,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Katarzyna,Gruszka,Katarzyna Gruszka,409,F35-39,Female,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paolo arturo,Tentori,Paolo arturo Tentori,261,M55-59,Male,Calolziocorte,foreigner,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Piotr,Strykowski,Piotr Strykowski,369,M50-54,Male,Warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Bialek,Tomasz Bialek,612,M35-39,Male,Kepno,,Poland,PL,0:31:49,2:08:17,,,,,1909,7697,0,240,89,0,99999,99999,99999,103,85,15,25,25,3,99999,99999,99999,DNF,0
+Sergiy,Kurochkin,Sergiy Kurochkin,31,MPRO,Male,Zaporozhye,dolnośląskie,Ukraine,UA,0:23:39,,,,,,1419,0,0,164,0,0,99999,99999,99999,5,5,4,99999,99999,99999,99999,99999,99999,DNF,0
+Rosie,Weston,Rosie Weston,36,FPRO,Female,Loughborough,foreigner,United Kingdom,GB,0:27:10,,,,,,1630,0,0,186,0,0,99999,99999,99999,33,4,3,99999,99999,99999,99999,99999,99999,DNF,0
+Maksym,Tylkowski,Maksym Tylkowski,314,M25-29,Male,Witkowo,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Pomykala,Tomasz Pomykala,277,M35-39,Male,Poznań,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adam,Nowak,Adam Nowak,230,M35-39,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregory,Dreux,Gregory Dreux,136,M40-44,Male,Talmont-Saint-Hilaire,foreigner,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bernd,Seifert,Bernd Seifert,186,Unknown,Male,Darmstadt,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Piotr,Lawicki,Piotr Lawicki,33,MPRO,Male,Obora,,Poland,PL,0:27:24,,,,,,1644,0,0,162,0,0,99999,99999,99999,37,32,18,99999,99999,99999,99999,99999,99999,DNF,0
+Piotr,Nowak,Piotr Nowak,206,M55-59,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksander,Batoryna,Aleksander Batoryna,653,M35-39,Male,będzin,śląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michał,Żurczak,Michał Żurczak,156,M30-34,Male,Baar,ZUG,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grzegorz,Pindur,Grzegorz Pindur,353,M45-49,Male,Poznań,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrzej,Grzes,Andrzej Grzes,272,M25-29,Male,Śrem,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksandra,Rzeszutko,Aleksandra Rzeszutko,606,F40-44,Female,Warszawa,mazowieckie,Poland,PL,0:46:43,2:54:01,,,,,2803,10441,0,341,123,0,99999,99999,99999,529,81,16,462,65,12,99999,99999,99999,DNF,0
+Vicenç,Castellà,Vicenç Castellà,8,MPRO,Male,Vilassar de Dalt,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wiktor ,Paradny,Wiktor Paradny,174,M35-39,Male,Marki,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jakub,Rymer,Jakub Rymer,389,M35-39,Male,Bydgoszcz,kujawsko-pomorskie,Poland,PL,0:31:38,2:21:23,,,,,1898,8483,0,206,384,0,99999,99999,99999,99,81,14,69,59,12,99999,99999,99999,DNF,0
+Daniel,Wójcik,Daniel Wójcik,571,M40-44,Male,warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tom,Essex,Tom Essex,134,M30-34,Male,Amsterdam,foreigner,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Visentin,Eric Visentin,210,M45-49,Male,Wrocław,dolnośląskie,France,FR,0:40:26,,,,,,2426,0,0,355,0,0,99999,99999,99999,385,335,63,99999,99999,99999,99999,99999,99999,DNF,0
+Pawel,Bugajny,Pawel Bugajny,271,M55-59,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Agnieszka,Wieclaw,Agnieszka Wieclaw,660,F40-44,Female,Kraków,małopolskie,Poland,PL,0:44:00,,,,,,2640,0,0,315,0,0,99999,99999,99999,479,72,13,99999,99999,99999,99999,99999,99999,DNF,0
+Maciej,Baksza,Maciej Baksza,352,M25-29,Male,Hamburg,Hamburg,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lada,Novak,Lada Novak,290,M55-59,Male,Prague,foreigner,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Birgit,Wessel,Birgit Wessel,139,F50-54,Female,Hamburg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Artur,Wilczynski,Artur Wilczynski,349,M40-44,Male,Białystok,podlaskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Venla,Koivula,Venla Koivula,46,FPRO,Female,Nokia,,Finland,FI,0:30:30,2:29:19,,,,,1830,8959,0,195,94,0,99999,99999,99999,77,16,12,106,15,11,99999,99999,99999,DNF,0
+Witold,Sobczak,Witold Sobczak,231,M45-49,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Markus,Greve,Markus Greve,217,M45-49,Male,Colbitz,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Clément,Piedboeuf,Clément Piedboeuf,335,M18-24,Male,walhain,foreigner,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Piotr,Kapela,Piotr Kapela,430,M45-49,Male,Bojszowy Nowe,śląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Julita,Tomaszewska,Julita Tomaszewska,573,F40-44,Female,Legionowo,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lukasz,Walewski,Lukasz Walewski,523,M45-49,Male,Rzeszów,podkarpackie,Poland,PL,0:30:59,4:07:05,,,,,1859,14825,0,209,0,0,99999,99999,99999,88,71,11,561,478,95,99999,99999,99999,DNF,0
+Kazimierz,Szulist,Kazimierz Szulist,196,M40-44,Male,OSIELSKO,KUJAWSKO-POMORSKIE,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrzej,Pajak,Andrzej Pajak,585,M35-39,Male,Skórzewo,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Nowacki,Tomasz Nowacki,685,M45-49,Male,warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Krystian,Czajka,Krystian Czajka,486,M40-44,Male,Żory,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Krzysztof,Urban,Krzysztof Urban,103,M40-44,Male,Warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dariusz,Tyszka,Dariusz Tyszka,148,M45-49,Male,Warszawa,MZ,Poland,PL,0:43:39,2:35:45,,,,,2619,9345,0,288,256,0,99999,99999,99999,474,404,82,304,263,50,99999,99999,99999,DNF,0
+Tomasz,Trocki,Tomasz Trocki,334,M45-49,Male,Warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alicja,Pyszka-Bazan,Alicja Pyszka-Bazan,66,F25-29,Female,Tychy,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Patrick,Strauss,Patrick Strauss,287,M35-39,Male,Hamburg,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dorota,Trzeja Zdanowska,Dorota Trzeja Zdanowska,357,F45-49,Female,Będzin,śląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcin,Liszynski,Marcin Liszynski,294,M45-49,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maciej,Sobkowiak,Maciej Sobkowiak,155,M30-34,Male,Krotoszyn,wielkopolskie,Poland,PL,0:49:17,3:34:28,,,,,2957,12868,0,438,0,0,99999,99999,99999,555,466,51,553,473,58,99999,99999,99999,DNF,0
+Arne,Langner,Arne Langner,378,M45-49,Male,Berlin,BE,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grzegorz,Kosior,Grzegorz Kosior,350,M30-34,Male,Węgrzce Wielkie,małopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Damian,Bankiewicz,Damian Bankiewicz,345,M50-54,Male,Warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ferdie,Pernia,Ferdie Pernia,419,M55-59,Male,Kailua Kona,HAWAII,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marek,Chlosta,Marek Chlosta,322,M45-49,Male,Strausberg,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Katarzyna,Kopanska,Katarzyna Kopanska,232,F50-54,Female,Pruszyn,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitry,Artuchovsky,Dmitry Artuchovsky,682,M35-39,Male,,"
+Minsk",Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ewelina,Junczyk-Jaskula,Ewelina Junczyk-Jaskula,387,F30-34,Female,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Quentin,De Vos,Quentin De Vos,29,MPRO,Male,knokke-heist,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+John,Mitchell,John Mitchell,374,M25-29,Male,London,foreigner,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Giulio,Molinari,Giulio Molinari,3,MPRO,Male,Caltignaga,Novara,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maciej ,Kiedrowski ,Maciej Kiedrowski,355,M40-44,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Bialoblocki,Tomasz Bialoblocki,283,M50-54,Male,Kiekrz,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kadri,Fink,Kadri Fink,243,F35-39,Female,Nürnberg,foreigner,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Olga,Kalotka,Olga Kalotka,592,F30-34,Female,Poznań,wielkopolskie,Poland,PL,0:54:30,,,,,,3270,0,0,350,0,0,99999,99999,99999,578,92,13,99999,99999,99999,99999,99999,99999,DNF,0
+Milosz,Sowinski,Milosz Sowinski,30,MPRO,Male,Krzyzanowice,dolnośląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pati,Grzelecka,Pati Grzelecka,267,F35-39,Female,Gdynia,pomorskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Glen,Osmond,Glen Osmond,64,M50-54,Male,Warszawa,Małopolskie,United States,US,0:26:24,,,,,,1584,0,0,206,0,0,99999,99999,99999,25,24,1,99999,99999,99999,99999,99999,99999,DNF,0
+Oleksandr,Nikitenko,Oleksandr Nikitenko,226,M35-39,Male,Wrocław,,Ukraine,UA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Katrin,Weiss-Hantsche,Katrin Weiss-Hantsche,521,F55-59,Female,Großröhrsdorf,,Germany,DE,0:42:42,2:32:52,,,,,2562,9172,0,293,188,0,99999,99999,99999,444,66,7,268,32,2,99999,99999,99999,DNF,0
+Sundip,Chahal,Sundip Chahal,137,M45-49,Male,DUBAI,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dariusz,Lapawa,Dariusz Lapawa,318,M35-39,Male,Poznań,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tamara,Kennedy,Tamara Kennedy,324,F25-29,Female,Bromley ,foreigner,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paulina Maria,Malach,Paulina Maria Malach,305,F25-29,Female,Watford ,foreigner,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jarek,Swiatek,Jarek Swiatek,458,M35-39,Male,Chyby,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrzej,Swiderski,Andrzej Swiderski,145,M35-39,Male,Warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Brembor,Tomasz Brembor,25,MPRO,Male,Chorzów,śląskie,Poland,PL,0:23:41,2:12:32,,,,,1421,7952,0,154,79,0,99999,99999,99999,6,6,5,14,14,13,99999,99999,99999,DNF,0
+Marcin,Stepien,Marcin Stepien,239,M40-44,Male,Krzeczyn Wielki,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Thomas,Davis,Thomas Davis,17,MPRO,Male,Essex,foreigner,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matthew,de Vroet,Matthew de Vroet,12,MPRO,Male,Girona,GIRONA [GERONA],Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arek,Hajduk,Arek Hajduk,224,M45-49,Male,Gortatowo,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bartosz,Dybowski,Bartosz Dybowski,579,M40-44,Male,Góra,wielkopolskie,Poland,PL,0:31:39,2:41:49,,,,,1899,9709,0,291,167,0,99999,99999,99999,100,82,11,238,209,46,99999,99999,99999,DNF,0
+Tomasz,Kasprzak,Tomasz Kasprzak,368,M40-44,Male,Tulce,wielkopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Oksana,Lubowiecka,Oksana Lubowiecka,413,F50-54,Female,Kraków,małopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Artur,Jedrycha,Artur Jedrycha,293,M45-49,Male,Dąbrowa Górnicza,śląskie,Poland,PL,0:42:31,,,,,,2551,0,0,333,0,0,99999,99999,99999,440,376,74,99999,99999,99999,99999,99999,99999,DNF,0
+Maik,Gubbatz,Maik Gubbatz,192,M40-44,Male,Kolkwitz,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aaron,Losness,Aaron Losness,668,M50-54,Male,SANTA CLARA,CA,United States,US,0:53:03,4:05:07,,,,,3183,14707,0,734,0,0,99999,99999,99999,576,486,43,565,479,42,99999,99999,99999,DNF,0
+Emese,Möhring,Emese Möhring,90,F50-54,Female,Münster,,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kamil,Kurczewski,Kamil Kurczewski,627,M30-34,Male,Łódź,łódzkie,Poland,PL,0:34:04,,,,,,2044,0,0,246,0,0,99999,99999,99999,154,130,15,99999,99999,99999,99999,99999,99999,DNF,0

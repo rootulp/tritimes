@@ -1,0 +1,410 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Justin,Brewer,Justin Brewer,2081,M25-29,Male,Sunrise Beach,QLD,Australia,AU,0:24:42,2:20:59,1:25:46,,,4:16:46,1482,8459,5146,193,126,15406,1,1,1,1,1,1,1,1,1,1,1,1,Finisher,3500
+George,Hughes,George Hughes,2131,M30-34,Male,Evesham,Worcs,United Kingdom,GB,0:26:36,2:27:31,1:26:43,,,4:24:09,1596,8851,5203,161,38,15849,2,2,1,3,3,1,6,6,3,2,2,1,Finisher,3500
+Nathan,Jones,Nathan Jones,2172,M35-39,Male,Auckland,AUK,New Zealand,NZ,0:32:07,2:25:19,1:23:32,,,4:24:19,1927,8719,5012,153,48,15859,3,3,1,44,35,7,14,14,3,3,3,1,Finisher,3500
+Kieran,Birch,Kieran Birch,2006,M30-34,Male,Perth,AU-WA,Australia,AU,0:27:39,2:19:46,1:33:20,,,4:24:37,1659,8386,5600,174,58,15877,4,4,2,8,8,2,2,2,1,4,4,2,Finisher,3491
+Alan,Bryson ,Alan Bryson,2216,M40-44,Male,Corwen,,New Zealand,NZ,0:29:45,2:26:46,1:24:57,,,4:26:29,1785,8806,5097,168,133,15989,5,5,1,21,18,2,12,12,1,5,5,1,Finisher,3500
+Paul,Cowling,Paul Cowling,2007,M30-34,Male,Oakham,,United Kingdom,GB,0:27:41,2:23:26,1:31:48,,,4:27:44,1661,8606,5508,184,105,16064,6,6,3,9,9,3,3,3,2,6,6,3,Finisher,3435
+Timmy,Hortz,Timmy Hortz,2008,M30-34,Male,,QLD,Australia,AU,0:29:31,2:24:01,1:30:19,,,4:28:29,1771,8641,5419,208,70,16109,7,7,4,18,16,5,7,7,4,7,7,4,Finisher,3422
+Rhys,Jones,Rhys Jones,2088,M25-29,Male,Koongal,QLD,Australia,AU,0:30:15,2:25:20,1:29:29,,,4:29:21,1815,8720,5369,201,56,16161,8,8,2,23,19,5,9,9,2,8,8,2,Finisher,3273
+Adam,Bailey,Adam Bailey,2017,M30-34,Male,London,London,United Kingdom,GB,0:31:26,2:27:06,1:28:19,,,4:30:37,1886,8826,5299,170,56,16237,9,9,5,37,32,9,16,16,7,9,9,5,Finisher,3383
+Phil,Close,Phil Close,2125,M30-34,Male,North Shore,AUK,New Zealand,NZ,0:30:32,2:29:36,1:27:45,,,4:31:32,1832,8976,5265,168,51,16292,10,10,6,28,24,6,19,19,8,10,10,6,Finisher,3367
+Scott,Furness,Scott Furness,2276,M45-49,Male,Tauranga,BOP,New Zealand,NZ,0:27:13,2:24:08,1:35:33,,,4:31:53,1633,8648,5733,225,74,16313,11,11,1,6,6,1,5,5,1,11,11,1,Finisher,3500
+Trent,Dawson,Trent Dawson,2013,M35-39,Male,Melbourne,VIC,Australia,AU,0:29:43,2:26:32,1:34:28,,,4:34:05,1783,8792,5668,165,37,16445,12,12,2,20,17,3,10,10,2,12,12,2,Finisher,3324
+Alexander,Nies,Alexander Nies,2079,M25-29,Male,Nidda,,Germany,DE,0:37:00,2:21:15,1:31:21,,,4:35:19,2220,8475,5481,281,62,16519,13,13,3,140,98,17,19,19,4,13,13,3,Finisher,3166
+Luke,Host,Luke Host,2130,M30-34,Male,Maylands,WA,Australia,AU,0:30:52,2:22:42,1:36:48,,,4:35:33,1852,8562,5808,252,59,16533,14,14,7,32,28,7,8,8,5,14,14,7,Finisher,3294
+David,Bobrowski,David Bobrowski,2080,M25-29,Male,Saint remy les chevreuses,,France,FR,0:30:49,2:27:43,1:33:11,,,4:36:02,1849,8863,5591,177,82,16562,15,15,4,30,26,6,17,17,3,15,15,4,Finisher,3153
+Andrew,Malatios,Andrew Malatios,2187,M35-39,Male,Hamersley,WA,Australia,AU,0:32:46,2:31:41,1:27:41,,,4:36:02,1966,9101,5261,180,54,16562,15,15,3,53,42,9,28,28,5,15,15,3,Finisher,3289
+Tom,Bland,Tom Bland,2223,M40-44,Male,Te Horo,AP,New Zealand,NZ,0:30:21,2:27:39,1:34:12,,,4:36:28,1821,8859,5652,177,79,16588,17,17,2,25,21,3,15,15,2,17,17,2,Finisher,3320
+Mike,Crowe,Mike Crowe,2031,M45-49,Male,Nelson,NSN,New Zealand,NZ,0:30:23,2:26:07,1:39:20,,,4:39:30,1823,8767,5960,169,51,16770,18,18,2,26,22,2,12,12,2,18,18,2,Finisher,3362
+Daniel,Jones,Daniel Jones,2028,M35-39,Male,Taupo,WKO,New Zealand,NZ,0:30:18,2:20:55,1:44:43,,,4:40:01,1818,8455,6283,185,60,16801,19,19,4,24,20,4,4,4,1,19,19,4,Finisher,3217
+Peter,Knight,Peter Knight,2132,M30-34,Male,Netley,England,United Kingdom,GB,0:30:59,2:25:01,1:40:45,,,4:40:58,1859,8701,6045,194,59,16858,20,20,8,34,30,8,11,11,6,20,20,8,Finisher,3197
+George,Eyles,George Eyles,2218,M40-44,Male,VAN NUYS,CA,United Kingdom,GB,0:35:42,2:22:51,1:37:41,,,4:41:41,2142,8571,5861,244,83,16901,21,21,3,119,84,8,18,18,3,21,21,3,Finisher,3226
+Eachann,Bruce,Eachann Bruce,2412,M18-24,Male,Auckland,AUK,New Zealand,NZ,0:32:09,2:32:50,1:33:38,,,4:43:18,1929,9170,5618,207,74,16998,22,22,1,46,37,3,29,29,1,22,22,1,Finisher,3500
+Daniel,Wallace,Daniel Wallace,2277,M45-49,Male,Christchurch,CAN,New Zealand,NZ,0:34:23,2:32:06,1:32:57,,,4:43:50,2063,9126,5577,198,66,17030,23,23,3,89,63,9,33,33,5,23,23,3,Finisher,3284
+Darryl,Worthington,Darryl Worthington,2033,M50-54,Male,Doubleview,WA,Australia,AU,0:28:39,2:32:59,1:38:24,,,4:45:03,1719,9179,5904,208,93,17103,24,24,1,12,12,1,22,22,1,24,24,1,Finisher,3500
+John,Redondo,John Redondo,2275,M45-49,Male,,QLD,Australia,AU,0:33:38,2:28:34,1:40:30,,,4:47:34,2018,8914,6030,236,56,17254,25,25,4,67,48,7,25,25,3,25,25,4,Finisher,3217
+Louis-Simon,Guay,Louis-Simon Guay,2071,M18-24,Male,Montréal,QC,Canada,CA,0:26:39,2:38:14,1:38:04,,,4:47:49,1599,9494,5884,238,54,17269,26,26,2,4,4,1,31,31,2,26,26,2,Finisher,3418
+Adam,Rave,Adam Rave,2140,M30-34,Male,Waverly,IA,United States,US,0:33:07,2:29:47,1:40:53,,,4:48:20,1987,8987,6053,206,67,17300,27,27,9,59,45,10,26,26,9,27,27,9,Finisher,3064
+Benjamin,Pretty,Benjamin Pretty,2075,M18-24,Male,Auckland,AUK,New Zealand,NZ,0:27:50,2:41:17,1:34:24,,,4:48:43,1670,9677,5664,247,65,17323,28,28,3,10,10,2,41,39,3,28,28,3,Finisher,3402
+Mathilde,Batailler,Mathilde Batailler,2014,F30-34,Female,Deewhy,NSW,France,FR,0:33:36,2:37:13,1:33:33,,,4:48:52,2016,9433,5613,198,72,17332,29,1,1,66,19,6,43,3,1,29,1,1,Finisher,3500
+Marco,Schönmann,Marco Schönmann,2044,M35-39,Male,Hombrechtikon,,Switzerland,CH,0:30:51,2:39:34,1:35:13,,,4:50:25,1851,9574,5713,226,61,17425,30,29,5,31,27,6,44,41,7,30,29,5,Finisher,3030
+Sam,Kettle,Sam Kettle,2089,M25-29,Male,Auckland,AUK,New Zealand,NZ,0:26:59,2:35:23,1:44:53,,,4:51:27,1619,9323,6293,196,56,17487,31,30,5,5,5,3,23,23,5,31,30,5,Finisher,2875
+Christopher,Dykzeul,Christopher Dykzeul,2055,M40-44,Male,,WKO,New Zealand,NZ,0:30:37,2:34:21,1:41:24,,,4:51:28,1837,9261,6084,218,88,17488,32,31,4,29,25,4,30,30,5,32,31,4,Finisher,3050
+Samuel,Theroux,Samuel Theroux,2026,M25-29,Male,Montreal,QC,Canada,CA,0:34:23,2:34:33,1:36:33,,,4:51:40,2063,9273,5793,301,70,17500,33,32,6,89,63,12,42,40,9,33,32,6,Finisher,2871
+Lee,Campbell,Lee Campbell,2217,M40-44,Male,West Leederville,WA,New Zealand,NZ,0:28:39,2:32:49,1:45:39,,,4:51:46,1719,9169,6339,202,77,17506,34,33,5,12,12,1,21,21,4,34,33,5,Finisher,3044
+Lucas,Bunzel,Lucas Bunzel,2024,M25-29,Male,SAN FRANCISCO,CA,United States,US,0:24:43,2:37:50,1:44:39,,,4:52:38,1483,9470,6279,235,91,17558,35,34,7,2,2,2,27,27,6,35,34,7,Finisher,2854
+Natalie,Dodd,Natalie Dodd,2012,F30-34,Female,Blenheim,,United Kingdom,GB,0:29:50,2:41:13,1:37:28,,,4:53:04,1790,9673,5848,212,61,17584,36,2,2,22,4,2,46,4,2,36,2,2,Finisher,3424
+Kerri,Dewe,Kerri Dewe,2001,F40-44,Female,Auckland,AUK,New Zealand,NZ,0:32:59,2:34:13,1:42:29,,,4:53:37,1979,9253,6149,190,46,17617,37,3,1,57,14,3,35,1,1,37,3,1,Finisher,3500
+Nick,Hegan,Nick Hegan,2335,M50-54,Male,Wellington,WGN,New Zealand,NZ,0:39:39,2:32:09,1:35:55,,,4:54:05,2379,9129,5755,289,93,17645,38,35,2,186,121,12,52,45,3,38,35,2,Finisher,3337
+Fleur,Bromley,Fleur Bromley,2419,F40-44,Female,taupo,WKO,New Zealand,NZ,0:29:17,2:43:11,1:37:39,,,4:54:40,1757,9791,5859,206,67,17680,39,4,2,15,1,1,49,6,2,39,4,2,Finisher,3481
+Marco,Versfeld,Marco Versfeld,2241,M40-44,Male,Lincoln,CAN,South Africa,ZA,0:32:08,2:35:22,1:42:35,,,4:54:48,1928,9322,6155,206,77,17688,40,36,6,45,36,5,36,35,6,40,36,6,Finisher,2990
+Martyn,Barclay,Martyn Barclay,2420,F45-49,Male,,AUK,New Zealand,NZ,0:29:28,2:40:21,1:40:56,,,4:55:16,1768,9621,6056,199,72,17716,41,5,1,16,2,1,40,2,1,41,5,1,Finisher,3500
+Thomas,Hughes,Thomas Hughes,2415,M25-29,Male,Woodhill,NTL,New Zealand,NZ,0:31:44,2:39:49,1:43:40,,,4:59:54,1904,9589,6220,203,78,17994,42,37,8,40,34,7,47,43,10,42,37,8,Finisher,2723
+Michael,Decarli,Michael Decarli,2418,M40-44,Male,KAILUA KONA,HI,United States,US,0:33:50,2:39:44,1:42:10,,,5:02:15,2030,9584,6130,271,120,18135,43,38,7,73,54,6,55,48,8,43,38,7,Finisher,2856
+Kieran,Van Dorsten,Kieran Van Dorsten,2146,M30-34,Male,Cambridge,WKO,New Zealand,NZ,0:29:29,2:44:24,1:44:18,,,5:03:06,1769,9864,6258,200,95,18186,44,39,10,17,15,4,54,47,10,44,39,10,Finisher,2798
+Greg,Spierings,Greg Spierings,2009,M50-54,Male,Harkaway,VIC,Australia,AU,0:34:28,2:42:38,1:39:48,,,5:03:21,2068,9758,5988,289,98,18201,45,40,3,92,65,4,59,52,6,45,40,3,Finisher,3170
+James,Mcgrogan ,James Mcgrogan,2289,M45-49,Male,Wellington,,New Zealand,NZ,0:33:02,2:31:21,1:51:47,,,5:03:31,1982,9081,6707,312,129,18211,46,41,5,58,44,5,32,32,4,46,41,5,Finisher,2930
+Todd,Sisson,Todd Sisson,2004,M50-54,Male,Hamilton,WKO,New Zealand,NZ,0:34:30,2:47:16,1:37:51,,,5:04:27,2070,10036,5871,217,73,18267,47,42,4,95,68,5,71,61,7,47,42,4,Finisher,3150
+Iain,Wood,Iain Wood,2047,M50-54,Male,,CAN,New Zealand,NZ,0:35:16,2:35:57,1:49:09,,,5:04:59,2116,9357,6549,195,82,18299,48,43,5,103,74,7,45,42,2,48,43,5,Finisher,3141
+Nick,Jessen,Nick Jessen,2182,M35-39,Male,Palmerston North,MWT,New Zealand,NZ,0:27:33,2:34:48,1:58:06,,,5:05:31,1653,9288,7086,207,97,18331,49,44,6,7,7,1,24,24,4,49,44,6,Finisher,2758
+Nicole,Youman,Nicole Youman,2169,F30-34,Female,Auckland,AUK,New Zealand,NZ,0:32:38,2:49:32,1:39:02,,,5:05:35,1958,10172,5942,187,76,18335,50,6,3,50,11,3,69,10,3,50,6,3,Finisher,3199
+Elliot,Harvey,Elliot Harvey,2086,M25-29,Male,Christchurch,CAN,New Zealand,NZ,0:34:29,2:31:48,1:54:24,,,5:05:43,2069,9108,6864,240,62,18343,51,45,9,94,67,14,34,34,7,51,45,9,Finisher,2618
+Dave,Scott,Dave Scott,2022,M55-59,Male,Palmerston North,North Island,New Zealand,NZ,0:31:07,2:50:48,1:37:51,,,5:06:02,1867,10248,5871,199,177,18362,52,46,1,36,31,2,68,59,2,52,46,1,Finisher,3500
+Hiroshi,Sakai,Hiroshi Sakai,2326,M50-54,Male,"Kichijoji-Kitamachi, Musashino-City",Tokyo,Japan,JP,0:34:03,2:42:54,1:42:06,,,5:06:24,2043,9774,6126,294,147,18384,53,47,6,80,59,2,58,51,5,53,47,6,Finisher,3115
+Michael,Bestvina,Michael Bestvina,2023,M35-39,Male,AUSTIN,TX,United States,US,0:30:24,2:40:45,1:49:52,,,5:07:27,1824,9645,6592,303,83,18447,54,48,7,27,23,5,50,44,8,54,48,7,Finisher,2723
+Roy,Chesters,Roy Chesters,2037,M60-64,Male,Adelaide,SA,Australia,AU,0:35:48,2:46:52,1:37:34,,,5:08:01,2148,10012,5854,292,175,18481,55,49,1,123,87,4,80,66,1,55,49,1,Finisher,3500
+Pascal,Cochard,Pascal Cochard,2035,M55-59,Male,EAUBONNE,,France,FR,0:45:31,2:37:36,1:39:12,,,5:08:30,2731,9456,5952,292,79,18510,56,50,2,277,168,11,82,68,4,56,50,2,Finisher,3455
+Kylie,Cox,Kylie Cox,2252,F40-44,Female,Cashmere,CAN,New Zealand,NZ,0:34:13,2:44:50,1:44:49,,,5:08:36,2053,9890,6289,206,78,18516,57,7,3,83,23,4,61,8,3,57,7,3,Finisher,3230
+Chris,Inch,Chris Inch,2181,M35-39,Male,Laurentian hills,ON,Canada,CA,0:35:16,2:47:24,1:41:29,,,5:09:04,2116,10044,6089,165,130,18544,58,51,8,103,74,14,72,62,9,58,51,8,Finisher,2694
+Luke,Tamblyn,Luke Tamblyn,2219,M40-44,Male,South Mission Beach,QLD,Australia,AU,0:37:18,2:41:43,1:46:05,,,5:09:38,2238,9703,6365,209,63,18578,59,52,8,145,99,10,62,54,9,59,52,8,Finisher,2723
+Nathan,Masters,Nathan Masters,2234,M40-44,Male,Wellington,WGN,New Zealand,NZ,0:40:13,2:40:47,1:44:41,,,5:10:53,2413,9647,6281,225,87,18653,60,53,9,194,126,14,66,58,10,60,53,9,Finisher,2700
+Amy,Ryan,Amy Ryan,2016,F35-39,Female,Mayfeild,AU-NSW,Australia,AU,0:35:26,2:46:36,1:44:21,,,5:11:27,2126,9996,6261,234,70,18687,61,8,1,111,33,6,75,13,1,61,8,1,Finisher,3500
+Gene,Mcnaught,Gene Mcnaught,2340,M50-54,Male,Porirua,WGN,New Zealand,NZ,0:36:45,2:38:25,1:52:07,,,5:11:56,2205,9505,6727,219,60,18716,62,54,7,134,95,10,56,49,4,62,54,7,Finisher,3016
+Ben,Holmes,Ben Holmes,2284,M45-49,Male,,QLD,Australia,AU,0:32:20,2:47:11,1:46:47,,,5:12:07,1940,10031,6407,260,89,18727,63,55,6,48,39,4,63,55,6,63,55,6,Finisher,2775
+Edward,Cromwell,Edward Cromwell,2083,M25-29,Male,Christchurch,CAN,United Kingdom,GB,0:32:41,2:47:47,1:45:13,,,5:12:40,1961,10067,6313,289,130,18760,64,56,10,52,41,8,69,60,12,64,56,10,Finisher,2493
+Guy,Mcleod,Guy Mcleod,2091,M25-29,Male,Taupō,WAIKATO,New Zealand,NZ,0:33:46,2:34:13,1:59:16,,,5:13:30,2026,9253,7156,295,80,18810,65,57,11,71,52,10,39,38,8,65,57,11,Finisher,2478
+Dale,Jackson,Dale Jackson,2036,M55-59,Male,SUNNYVALE,CA,United States,US,0:31:43,2:36:55,1:59:31,,,5:13:53,1903,9415,7171,202,142,18833,66,58,3,39,33,3,38,37,1,66,58,3,Finisher,3358
+Matt,Lloyd-Davies,Matt Lloyd-Davies,2027,M30-34,Male,Collaroy Plateau,NSW,United Kingdom,GB,0:36:03,2:39:37,1:54:43,,,5:15:39,2163,9577,6883,224,92,18939,67,59,11,126,89,16,57,50,11,67,59,11,Finisher,2573
+David,Knowles,David Knowles,2365,M55-59,Male,Auckland,AUK,New Zealand,NZ,0:32:56,2:54:43,1:42:25,,,5:16:10,1976,10483,6145,246,120,18970,68,60,4,56,43,4,93,78,6,68,60,4,Finisher,3317
+Steven,Lyon,Steven Lyon,2186,M35-39,Male,Maylands,WA,United Kingdom,GB,0:40:22,2:43:16,1:46:57,,,5:16:25,2422,9796,6417,254,96,18985,69,61,9,198,128,22,81,67,10,69,61,9,Finisher,2562
+Christian,Reiter,Christian Reiter,2141,M30-34,Male,Hetzerath,RP,Germany,DE,0:38:41,2:53:48,1:38:31,,,5:17:34,2321,10428,5911,256,138,19054,70,62,12,170,113,21,114,90,19,70,62,12,Finisher,2538
+Florence,Loader,Florence Loader,2102,F25-29,Female,Christchurch,CAN,New Zealand,NZ,0:31:49,2:49:29,1:50:41,,,5:18:11,1909,10169,6641,251,121,19091,71,9,1,41,7,3,73,11,3,71,9,1,Finisher,3500
+Emma,Poole,Emma Poole,2116,F25-29,Female,Taumarunui,MWT,New Zealand,NZ,0:31:32,2:39:40,2:02:26,,,5:18:31,1892,9580,7346,226,67,19111,72,10,2,38,6,2,48,5,1,72,10,2,Finisher,3494
+Gareth,Green,Gareth Green,2046,M40-44,Male,Taupo,WKO,New Zealand,NZ,0:41:12,2:45:40,1:45:09,,,5:18:48,2472,9940,6309,282,125,19128,73,63,10,215,138,17,92,77,11,73,63,10,Finisher,2558
+Peter,Butler,Peter Butler,2123,M30-34,Male,Tawa,WGN,New Zealand,NZ,0:43:00,2:49:17,1:38:41,,,5:19:25,2580,10157,5921,351,156,19165,74,64,13,248,153,27,120,96,20,74,64,13,Finisher,2505
+Paul,Berry,Paul Berry,2399,M65-69,Male,,AUK,New Zealand,NZ,0:39:58,2:45:35,1:47:06,,,5:19:53,2398,9935,6426,283,151,19193,75,65,1,191,124,1,89,74,1,75,65,1,Finisher,3500
+Roger,Spice,Roger Spice,2366,M55-59,Male,Auckland,AUK,New Zealand,NZ,0:35:41,2:50:17,1:47:46,,,5:20:50,2141,10217,6466,246,180,19250,76,66,5,117,82,5,86,71,5,76,66,5,Finisher,3233
+Ben,Clark,Ben Clark,2082,M25-29,Male,Malvern,VIC,Australia,AU,0:34:28,2:59:33,1:39:48,,,5:20:51,2068,10773,5988,256,166,19251,77,67,12,92,65,13,122,98,16,77,67,12,Finisher,2346
+Doro,Karbach,Doro Karbach,2003,F45-49,Female,Mondsee,,Austria,AT,0:33:17,2:47:11,1:54:54,,,5:21:19,1997,10031,6894,257,100,19279,78,11,2,63,17,4,66,9,2,78,11,2,Finisher,3031
+Darryl,Swift,Darryl Swift,2197,M35-39,Male,Annerley,QLD,Australia,AU,0:29:16,2:37:31,2:09:27,,,5:21:28,1756,9451,7767,266,48,19288,79,68,10,14,14,2,37,36,6,79,68,10,Finisher,2471
+Matt,Henderson,Matt Henderson,2423,M30-34,Male,Baldivis,WA,Unknown,,0:38:06,2:41:00,1:56:37,,,5:22:32,2286,9660,6997,297,112,19352,80,69,14,154,104,18,64,56,12,80,69,14,Finisher,2449
+Bevan,Cross,Bevan Cross,2128,M30-34,Male,Hamilton,WKO,New Zealand,NZ,0:40:13,2:48:13,1:49:42,,,5:22:45,2413,10093,6582,222,55,19365,81,70,15,194,126,24,98,80,16,81,70,15,Finisher,2445
+Clayton,Poole,Clayton Poole,2191,M35-39,Male,Belmont South,NSW,Australia,AU,0:41:01,2:44:30,1:52:31,,,5:23:59,2461,9870,6751,276,81,19439,82,71,11,210,135,23,87,72,12,82,71,11,Finisher,2426
+Charlotte,Paterson,Charlotte Paterson,2115,F25-29,Female,Auckland,AUK,New Zealand,NZ,0:35:18,2:59:28,1:45:04,,,5:24:38,2118,10768,6304,213,75,19478,83,12,3,105,30,7,123,25,5,83,12,3,Finisher,3383
+Mike,Lynch,Mike Lynch,2367,M55-59,Male,Porirua ,WGN,New Zealand,NZ,0:47:05,2:35:18,1:56:20,,,5:25:14,2825,9318,6980,255,136,19514,84,72,6,288,175,13,77,64,3,84,72,6,Finisher,3154
+Tarae,Griffin,Tarae Griffin,2203,F35-39,Female,bogota,cundinamarca,United States,US,0:42:07,3:08:23,1:29:28,,,5:25:22,2527,11303,5368,216,108,19522,85,13,2,227,84,10,180,46,4,85,13,2,Finisher,3249
+Alison,Whiteman,Alison Whiteman,2011,F50-54,Female,WARNBRO,WA,Australia,AU,0:34:12,2:48:15,1:57:41,,,5:25:47,2052,10095,7061,251,88,19547,86,14,1,82,22,1,77,14,1,86,14,1,Finisher,3500
+Benjamin,Corby,Benjamin Corby,2042,M35-39,Male,Dubai,DXB,United Kingdom,GB,0:35:26,2:57:14,1:47:41,,,5:26:01,2126,10634,6461,265,75,19561,87,73,12,111,79,15,116,92,16,87,73,12,Finisher,2389
+David,Oda,David Oda,2139,M30-34,Male,LONG BEACH,CA,United States,US,0:45:20,2:53:25,1:40:29,,,5:26:12,2720,10405,6029,229,189,19572,88,74,16,275,167,28,139,109,21,88,74,16,Finisher,2383
+Christopher,Salcido,Christopher Salcido,2193,M35-39,Male,Sandy,UT,United States,US,0:33:50,2:50:20,1:53:06,,,5:26:26,2030,10220,6786,353,197,19586,89,75,13,73,54,10,85,70,11,89,75,13,Finisher,2381
+Paul,Saunders,Paul Saunders,2294,M45-49,Male,ATLANTA,GA,United States,US,0:34:00,2:48:08,1:57:20,,,5:27:12,2040,10088,7040,316,148,19632,90,76,7,79,58,8,79,65,7,90,76,7,Finisher,2504
+Tom,Overbury,Tom Overbury,2094,M25-29,Male,Auckland,AUK,United Kingdom,GB,0:34:08,3:08:18,1:37:54,,,5:27:54,2048,11298,5874,281,173,19674,91,77,13,81,60,11,156,120,19,91,77,13,Finisher,2219
+Alexandra,Anasson,Alexandra Anasson,2040,F30-34,Female,Birkdale,QLD,Australia,AU,0:38:16,3:01:21,1:42:42,,,5:28:21,2296,10881,6162,286,76,19701,92,15,4,162,53,11,142,32,7,92,15,4,Finisher,2789
+Tyrone,Dugmore,Tyrone Dugmore,2179,M35-39,Male,Porirua,WGN,New Zealand,NZ,0:33:52,2:53:46,1:53:19,,,5:29:37,2032,10426,6799,350,170,19777,93,78,14,75,56,11,104,84,13,93,78,14,Finisher,2324
+Tanja,Lempriere,Tanja Lempriere,2314,F45-49,Female,Ngaruawahia,WKO,New Zealand,NZ,0:35:39,2:51:39,1:55:18,,,5:30:00,2139,10299,6918,288,156,19800,94,16,3,113,34,5,96,18,3,94,16,3,Finisher,2874
+Sean,Downey,Sean Downey,2084,M25-29,Male,Auckland,AUK,New Zealand,NZ,0:35:21,2:41:59,2:07:04,,,5:31:20,2121,9719,7624,297,119,19880,95,79,14,106,76,15,60,53,11,95,79,14,Finisher,2157
+Caitlin,Bowerman,Caitlin Bowerman,2103,F25-29,Female,BOULDER,CO,United States,US,0:33:57,2:50:08,2:00:11,,,5:31:39,2037,10208,7211,262,181,19899,96,17,4,76,20,5,83,15,4,96,17,4,Finisher,3257
+Joe,Weir,Joe Weir,2147,M30-34,Male,Wyneden,NSW,Australia,AU,0:33:58,2:53:12,1:57:56,,,5:32:07,2038,10392,7076,297,124,19927,97,80,17,77,57,12,97,79,15,97,80,17,Finisher,2276
+Adrian,Ogier,Adrian Ogier,2291,M45-49,Male,Wellington,WGN,New Zealand,NZ,0:32:12,2:54:06,2:00:47,,,5:32:17,1932,10446,7247,229,83,19937,98,81,8,47,38,3,87,72,8,98,81,8,Finisher,2412
+Jeffrey,Rippey,Jeffrey Rippey,2025,M60-64,Male,Kihei,HI,United States,US,0:33:16,2:52:59,1:59:44,,,5:32:41,1996,10379,7184,272,130,19961,99,82,2,62,46,1,90,75,2,99,82,2,Finisher,3056
+Edouard,Desreumaux,Edouard Desreumaux,2177,M35-39,Male,Roncq,,France,FR,0:32:40,2:51:49,1:46:23,,,5:33:49,1960,10309,6383,754,623,20029,100,83,15,51,40,8,115,91,15,100,83,15,Finisher,2249
+Emma,Crichton,Emma Crichton,2306,F45-49,Female,Christchurch,CAN,New Zealand,NZ,0:36:48,3:00:55,1:49:59,,,5:34:00,2208,10855,6599,304,74,20040,101,18,4,135,40,7,140,31,7,101,18,4,Finisher,2802
+Hamish,Stein,Hamish Stein,2098,M25-29,Male,North Melbourne,VIC,Australia,AU,0:28:33,2:53:41,2:05:30,,,5:34:05,1713,10421,7530,251,130,20045,102,84,15,11,11,4,76,63,13,102,84,15,Finisher,2108
+Jane,Hermann,Jane Hermann,2384,F55-59,Female,Brighton,QLD,Australia,AU,0:34:20,2:47:14,2:07:03,,,5:34:05,2060,10034,7623,259,69,20045,102,19,1,88,26,1,74,12,1,102,19,1,Finisher,3500
+Jeffrey,Krebs,Jeffrey Krebs,2021,M55-59,Male,San Diego,CA,United States,US,0:46:04,2:59:22,1:41:21,,,5:34:07,2764,10762,6081,346,94,20047,104,85,7,283,172,12,169,128,9,104,85,7,Finisher,2994
+Arthur,Crawford,Arthur Crawford,2070,M18-24,Male,London,,New Zealand,NZ,0:41:36,2:59:51,1:46:49,,,5:34:42,2496,10791,6409,282,104,20082,105,86,4,221,140,5,151,117,4,105,86,4,Finisher,2574
+Nicola,Oneale,Nicola Oneale,2114,F25-29,Female,Auckland,AUK,New Zealand,NZ,0:32:33,2:39:56,2:16:37,,,5:34:50,1953,9596,8197,235,109,20090,106,20,5,49,10,4,51,7,2,106,20,5,Finisher,3200
+Mischa,Kay,Mischa Kay,2183,M35-39,Male,,AUK,New Zealand,NZ,0:37:27,2:55:13,1:54:48,,,5:35:30,2247,10513,6888,328,154,20130,107,87,16,148,102,18,120,96,18,107,87,16,Finisher,2218
+Ansong,Li,Ansong Li,2058,M45-49,Male,深圳市,广东省,China,CN,0:40:53,2:52:57,1:52:51,,,5:35:32,2453,10377,6771,277,254,20132,108,88,9,205,131,17,124,99,11,108,88,9,Finisher,2354
+Katelyn,Massaroni,Katelyn Massaroni,2051,F30-34,Female,Monterey,CA,United States,US,0:34:14,2:58:06,1:57:39,,,5:36:21,2054,10686,7059,255,127,20181,109,21,5,84,24,7,111,23,6,109,21,5,Finisher,2645
+Rebecca,Thurston,Rebecca Thurston,2212,F35-39,Female,Tauranga,BOP,New Zealand,NZ,0:36:48,2:58:48,1:54:13,,,5:36:36,2208,10728,6853,286,121,20196,110,22,3,135,40,7,128,27,2,110,22,3,Finisher,3047
+Adrian,Whittaker,Adrian Whittaker,2242,M40-44,Male,Port Douglas,QLD,Australia,AU,0:35:24,2:38:04,2:19:13,,,5:37:15,2124,9484,8353,208,66,20235,111,89,11,110,78,7,53,46,7,111,89,11,Finisher,2226
+Michele,Allison,Michele Allison,2005,F60-64,Female,Wellington,AU-NSW,New Zealand,NZ,0:37:10,2:59:49,1:53:36,,,5:37:17,2230,10789,6816,270,132,20237,112,23,1,141,43,1,135,30,1,112,23,1,Finisher,3500
+Chris,Mussell,Chris Mussell,2290,M45-49,Male,Christchurch,CAN,Canada,CA,0:41:59,2:53:49,1:55:26,,,5:37:50,2519,10429,6926,267,129,20270,113,90,10,224,142,18,126,100,12,113,90,10,Finisher,2312
+Ben,Wright,Ben Wright,2149,M30-34,Male,Auckland,AUK,New Zealand,NZ,0:39:48,2:48:53,1:58:47,,,5:38:18,2388,10133,7127,365,285,20298,114,91,18,190,123,23,106,86,17,114,91,18,Finisher,2165
+Natalie,Anderson,Natalie Anderson,2350,F50-54,Female,North Fremantle,AU-WA,South Africa,ZA,0:34:16,2:52:34,2:04:37,,,5:38:34,2056,10354,7477,304,123,20314,115,24,2,85,25,2,95,17,2,115,24,2,Finisher,3269
+Julian,Zambrano,Julian Zambrano,2198,M35-39,Male,EVERTON HILLS,QLD,Australia,AU,0:38:16,2:56:58,1:53:58,,,5:38:44,2296,10618,6838,356,216,20324,116,92,17,162,110,19,133,104,20,116,92,17,Finisher,2160
+Jeremy,Ballantyne,Jeremy Ballantyne,2059,M45-49,Male,Wellington,WGN,New Zealand,NZ,0:34:41,2:54:08,2:03:22,,,5:38:52,2081,10448,7402,286,115,20332,117,93,11,98,70,10,105,85,10,117,93,11,Finisher,2294
+Jess,Lusby,Jess Lusby,2077,F18-24,Female,Hamilton,WKO,New Zealand,NZ,0:39:35,3:06:31,1:45:44,,,5:39:01,2375,11191,6344,285,146,20341,118,25,1,184,64,1,168,41,1,118,25,1,Finisher,3500
+Sheldon,Bevan,Sheldon Bevan,2122,M30-34,Male,Auckland,AUK,South Africa,ZA,0:35:23,2:48:59,2:09:37,,,5:39:57,2123,10139,7777,252,106,20397,119,94,19,108,77,14,84,69,14,119,94,19,Finisher,2135
+Tristan,Sames,Tristan Sames,2194,M35-39,Male,,OTA,New Zealand,NZ,0:35:42,2:54:14,2:03:26,,,5:40:11,2142,10454,7406,291,118,20411,120,95,18,119,84,16,107,87,14,120,95,18,Finisher,2134
+Roberto,Kelly,Roberto Kelly,2287,M45-49,Male,santiago,Santiago Metropolitan Region,Chile,CL,0:35:41,2:52:48,2:06:12,,,5:40:23,2141,10368,7572,248,94,20423,121,96,12,117,82,12,102,82,9,121,96,12,Finisher,2267
+Tim,Pearce,Tim Pearce,2342,M50-54,Male,Wembley,WA,Australia,AU,0:34:19,2:52:10,2:08:19,,,5:41:33,2059,10330,7699,262,143,20493,122,97,8,87,62,3,91,76,8,122,97,8,Finisher,2483
+Mike,Prosser,Mike Prosser,2292,M45-49,Male,Fairlie,CAN,New Zealand,NZ,0:43:42,2:52:34,1:57:11,,,5:41:46,2622,10354,7031,305,194,20506,123,98,13,256,157,21,134,105,13,123,98,13,Finisher,2242
+Will,Rayment,Will Rayment,2192,M35-39,Male,Hilversum,,United Kingdom,GB,0:41:41,2:57:25,1:55:15,,,5:41:51,2501,10645,6915,337,113,20511,124,99,19,222,141,25,144,112,21,124,99,19,Finisher,2104
+Tana,Jackson,Tana Jackson,2002,F45-49,Female,Sunnyvale,CA,United States,US,0:38:40,2:51:38,2:04:59,,,5:42:15,2320,10298,7499,279,139,20535,125,26,5,168,56,10,108,21,4,125,26,5,Finisher,2654
+Thiri,Holebrook,Thiri Holebrook,2258,F40-44,Female,Waipu,NTL,New Zealand,NZ,0:42:40,2:55:21,1:55:19,,,5:42:18,2560,10521,6919,432,106,20538,126,27,4,242,90,15,148,34,7,126,27,4,Finisher,2623
+Kathryn,Burton,Kathryn Burton,2018,F50-54,Female,Tuakau,WKO,New Zealand,NZ,0:39:22,2:55:44,1:59:49,,,5:42:42,2362,10544,7189,307,160,20562,127,28,3,178,60,7,125,26,3,127,28,3,Finisher,3195
+Emma,Cachemaille,Emma Cachemaille,2245,F40-44,Female,Wellington,WGN,New Zealand,NZ,0:34:39,2:52:29,2:09:55,,,5:43:32,2079,10349,7795,283,106,20612,128,29,5,97,28,5,94,16,4,128,29,5,Finisher,2601
+Darcey,O'Brien,Darcey O'Brien,2317,F45-49,Female,HAGATNA,GU,United States,US,0:38:09,3:01:12,1:52:54,,,5:43:37,2289,10872,6774,491,191,20617,129,30,6,158,51,9,157,37,8,129,30,6,Finisher,2629
+Andrea,Bunn,Andrea Bunn,2303,F45-49,Female,New Plymouth,,New Zealand,NZ,0:37:44,2:54:18,2:04:23,,,5:43:39,2264,10458,7463,275,159,20619,130,31,7,151,48,8,113,24,5,130,31,7,Finisher,2629
+Angus,Rodwell,Angus Rodwell,2096,M25-29,Male,,AUK,New Zealand,NZ,0:38:13,2:59:05,2:00:24,,,5:43:51,2293,10745,7224,280,89,20631,131,100,16,161,109,19,136,106,17,131,100,16,Finisher,1932
+Hamish,Ross,Hamish Ross,2142,M30-34,Male,Auckland,AUK,New Zealand,NZ,0:37:36,2:42:48,2:16:22,,,5:44:11,2256,9768,8182,260,185,20651,132,101,20,150,103,17,65,57,13,132,101,20,Finisher,2059
+Lesley,Turner Hall,Lesley Turner Hall,2323,F45-49,Female,,OTA,New Zealand,NZ,0:38:45,3:13:33,1:41:29,,,5:44:34,2325,11613,6089,431,216,20674,133,32,8,172,59,11,201,56,13,133,32,8,Finisher,2612
+Christine,Taylor,Christine Taylor,2270,F40-44,Female,,NTL,New Zealand,NZ,0:39:40,3:01:05,1:58:04,,,5:45:23,2380,10865,7084,244,150,20723,134,33,6,188,67,11,145,33,6,134,33,6,Finisher,2568
+Larissa,Just,Larissa Just,2160,F30-34,Female,Cambridge,TAS,Australia,AU,0:36:53,2:54:25,2:07:30,,,5:45:35,2213,10465,7650,282,125,20735,135,34,6,138,42,10,110,22,5,135,34,6,Finisher,2479
+Matthew,Gedye,Matthew Gedye,2078,M25-29,Male,Fairfield,VIC,Australia,AU,0:40:00,3:14:32,1:42:29,,,5:45:53,2400,11672,6149,375,157,20753,136,102,17,192,125,20,208,149,20,136,102,17,Finisher,1895
+Fernando,Lamelas,Fernando Lamelas,2184,M35-39,Male,Weidingen,Wiltz,Mexico,MX,0:34:36,2:55:59,2:06:59,,,5:46:40,2076,10559,7619,395,151,20800,137,103,20,96,69,13,118,94,17,137,103,20,Finisher,2017
+Hein,Pretorius,Hein Pretorius,2061,M45-49,Male,Blandford Forum,,Netherlands,NL,0:39:32,2:57:40,2:00:59,,,5:46:56,2372,10660,7259,399,126,20816,138,104,14,182,120,16,141,110,15,138,104,14,Finisher,2149
+Anthony,Wise,Anthony Wise,2148,M30-34,Male,GREAT FALLS,VA,United States,US,0:35:39,2:53:50,2:07:25,,,5:47:50,2139,10430,7645,337,319,20870,139,105,21,113,80,15,109,88,18,139,105,21,Finisher,1993
+Sinem,Saunders,Sinem Saunders,2164,F30-34,Female,Rivervale,WA,Australia,AU,0:33:27,2:53:55,2:13:01,,,5:47:53,2007,10435,7981,311,139,20873,140,35,7,65,18,5,101,20,4,140,35,7,Finisher,2437
+George,Watkinson,George Watkinson,2099,M25-29,Male,West Bridgford,,United Kingdom,GB,0:35:53,2:55:06,2:11:03,,,5:51:49,2153,10506,7863,393,194,21109,141,106,18,124,88,16,119,95,15,141,106,18,Finisher,1789
+Cheryl,Scigousky,Cheryl Scigousky,2361,F50-54,Female,Glen Ellyn,IL,United States,US,0:39:29,2:56:46,2:10:13,,,5:51:55,2369,10606,7813,251,76,21115,142,36,4,180,61,8,129,28,4,142,36,4,Finisher,3029
+Cynthia,Mclarty,Cynthia Mclarty,2062,F45-49,Female,Portsea,VIC,Australia,AU,0:33:14,3:01:48,2:08:42,,,5:52:11,1994,10908,7722,334,173,21131,143,37,9,61,16,3,130,29,6,143,37,9,Finisher,2475
+Jack,Palmer,Jack Palmer,2095,M25-29,Male,,,United Kingdom,GB,0:33:42,2:55:02,2:16:30,,,5:52:13,2022,10502,8190,271,148,21133,144,107,19,69,50,9,103,83,14,144,107,19,Finisher,1781
+Gayle,Young,Gayle Young,2034,F50-54,Female,Tinana,AU-QLD,Australia,AU,0:38:40,3:03:42,2:03:56,,,5:52:30,2320,11022,7436,247,125,21150,145,38,5,168,56,6,153,36,5,145,38,5,Finisher,3019
+Tony,Young,Tony Young,2032,M45-49,Male,Tinana,AU-QLD,Australia,AU,0:36:03,3:01:49,2:03:56,,,5:52:30,2163,10909,7436,403,239,21150,145,108,15,126,89,13,143,111,16,145,108,15,Finisher,2048
+Bruce,Nolan,Bruce Nolan,2376,M55-59,Male,Mount Gravatt East,QLD,Australia,AU,0:30:54,2:56:23,2:16:26,,,5:53:02,1854,10583,8186,315,244,21182,147,109,8,33,29,1,100,81,7,147,109,8,Finisher,2654
+Dieter,Schlieckmann,Dieter Schlieckmann,2039,M60-64,Male,Steinfurt,,Germany,DE,0:38:47,2:51:49,2:13:47,,,5:53:07,2327,10309,8027,393,131,21187,148,110,3,173,114,6,117,93,3,148,110,3,Finisher,2688
+Soren,Hall,Soren Hall,2283,M45-49,Male,,BOP,New Zealand,NZ,0:36:58,3:04:33,2:04:56,,,5:54:21,2218,11073,7496,303,171,21261,149,111,16,139,97,14,154,118,17,149,111,16,Finisher,2015
+Pam,Anderson,Pam Anderson,2247,F40-44,Female,Taupo,WKO,New Zealand,NZ,0:32:49,2:55:59,2:22:27,,,5:56:44,1969,10559,8547,223,106,21404,150,39,7,54,12,2,99,19,5,150,39,7,Finisher,2363
+Julien-Olivier,Koch,Julien-Olivier Koch,2133,M30-34,Male,West Vancouver,BC,France,FR,0:40:58,3:00:19,2:03:11,,,5:56:53,2458,10819,7391,501,244,21413,151,112,22,209,134,25,164,124,23,151,112,22,Finisher,1830
+Grant,Boyd,Grant Boyd,2045,M55-59,Male,Picton,,New Zealand,NZ,0:37:19,2:54:50,2:19:24,,,5:57:15,2239,10490,8364,266,76,21435,152,113,9,146,100,7,111,89,8,152,113,9,Finisher,2578
+Stephanie,Hightower,Stephanie Hightower,2204,F35-39,Female,CHEVY CHASE,MD,United States,US,0:32:04,3:20:55,1:49:18,,,5:57:31,1924,12055,6558,427,487,21451,153,40,4,42,8,1,206,59,8,153,40,4,Finisher,2670
+Gerald,Salcido,Gerald Salcido,2239,M40-44,Male,Sandy,UT,United States,US,0:39:20,2:55:17,2:14:48,,,5:57:47,2360,10517,8088,343,159,21467,154,114,12,177,118,13,127,101,12,154,114,12,Finisher,1856
+Kellie,Langley,Kellie Langley,2313,F45-49,Female,Taroomball,QLD,Australia,AU,0:35:58,3:06:43,2:08:11,,,5:58:29,2158,11203,7691,373,84,21509,155,41,10,125,37,6,162,39,9,155,41,10,Finisher,2362
+Jane,Weir,Jane Weir,2165,F30-34,Female,Charters Towers,QLD,Australia,AU,0:33:10,3:17:40,1:59:12,,,5:58:58,1990,11860,7152,388,148,21538,156,42,8,60,15,4,195,52,10,156,42,8,Finisher,2238
+Sal,Lennon,Sal Lennon,2109,F25-29,Female,,VIC,New Zealand,NZ,0:37:11,3:12:08,2:03:17,,,5:59:00,2231,11528,7397,294,90,21540,157,43,6,142,44,9,181,47,7,157,43,6,Finisher,2765
+Royce,Newdick,Royce Newdick,2341,M50-54,Male,Wattle grove,NSW,Australia,AU,0:36:18,3:03:30,2:09:52,,,5:59:26,2178,11010,7792,434,152,21566,158,115,9,133,94,9,155,119,11,158,115,9,Finisher,2161
+Brendon,Crequer,Brendon Crequer,2227,M40-44,Male,Nelson,NSN,New Zealand,NZ,0:42:15,3:06:29,2:05:24,,,5:59:56,2535,11189,7524,264,84,21596,159,116,13,232,147,19,172,129,15,159,116,13,Finisher,1817
+Lisa,Agnew,Lisa Agnew,2052,F30-34,Female,Redlynch,AU-QLD,Australia,AU,0:36:17,3:13:53,2:03:25,,,6:00:41,2177,11633,7405,298,128,21641,160,44,9,132,39,9,184,49,9,160,44,9,Finisher,2207
+Mark,Stantiall,Mark Stantiall,2145,M30-34,Male,Tauranga,BOP,New Zealand,NZ,0:38:08,3:01:00,2:14:28,,,6:01:11,2288,10860,8068,348,107,21671,161,117,23,157,107,20,146,113,22,161,117,23,Finisher,1753
+Adrian,Bell,Adrian Bell,2329,M50-54,Male,Hagatna,GU,United States,US,0:40:57,3:02:20,2:10:59,,,6:01:42,2457,10940,7859,329,117,21702,162,118,10,208,133,14,161,123,13,162,118,10,Finisher,2120
+Angie,Hammond,Angie Hammond,2274,F40-44,Female,KUREELPA,QLD,Australia,AU,0:40:23,3:01:43,2:09:12,,,6:01:59,2423,10903,7752,354,287,21719,163,45,8,199,71,12,158,38,8,163,45,8,Finisher,2269
+Mark,Jarvis,Mark Jarvis,2337,M50-54,Male,Wynnum,AU-QLD,Australia,AU,0:35:44,3:03:10,2:14:19,,,6:02:14,2144,10990,8059,416,125,21734,164,119,11,122,86,8,149,115,10,164,119,11,Finisher,2110
+Robb,Graham,Robb Graham,2334,M50-54,Male,Pukekohe,,New Zealand,NZ,0:40:53,2:48:42,2:14:42,,,6:02:30,2453,10122,8082,661,432,21750,165,120,12,205,131,13,130,102,9,165,120,12,Finisher,2105
+Spencer,Salcido,Spencer Salcido,2143,M30-34,Male,Sandy,UT,United States,US,0:46:21,2:58:08,2:04:57,,,6:03:18,2781,10688,7497,567,265,21798,166,121,24,287,174,30,179,134,24,166,121,24,Finisher,1715
+Michael,Eggins,Michael Eggins,2053,M35-39,Male,Valley Heights,NSW,Australia,AU,0:36:04,2:59:26,2:19:36,,,6:03:44,2164,10766,8376,322,196,21824,167,122,21,128,91,17,132,103,19,167,122,21,Finisher,1710
+Sonya,Ginty,Sonya Ginty,2414,F35-39,Female,Auckland,AUK,United Kingdom,GB,0:34:26,3:06:57,2:14:01,,,6:04:11,2066,11217,8041,295,232,21851,168,46,5,91,27,4,152,35,3,168,46,5,Finisher,2550
+Andy,Scullion,Andy Scullion,2097,M25-29,Male,Manly,NSW,United Kingdom,GB,0:37:21,2:57:37,2:16:55,,,6:04:14,2241,10657,8215,430,311,21854,169,123,20,147,101,18,138,108,18,169,123,20,Finisher,1565
+Andrew,Vincent,Andrew Vincent,2050,M30-34,Male,Picton,NSW,Australia,AU,0:34:56,3:16:58,2:07:26,,,6:04:23,2096,11818,7646,216,87,21863,170,124,25,100,71,13,186,137,25,170,124,25,Finisher,1695
+David,Dudley,David Dudley,2332,M50-54,Male,Auckland,,New Zealand,NZ,0:42:13,3:00:35,2:15:41,,,6:06:20,2533,10835,8141,314,157,21980,171,125,13,230,145,15,159,121,12,171,125,13,Finisher,2036
+Rae Jean,Pearce,Rae Jean Pearce,2064,F50-54,Female,Wembley,WA,Australia,AU,0:43:39,3:02:43,2:11:16,,,6:06:35,2619,10963,7876,418,119,21995,172,47,6,254,98,10,175,44,7,172,47,6,Finisher,2765
+Matthew,Law,Matthew Law,2185,M35-39,Male,Sussex,England,United Kingdom,GB,0:44:14,2:58:21,2:14:21,,,6:07:04,2654,10701,8061,352,256,22024,173,126,22,267,163,31,160,122,22,173,126,22,Finisher,1650
+Suvarn,Naidoo,Suvarn Naidoo,2074,M18-24,Male,Wellington,WGN,New Zealand,NZ,0:33:38,3:16:07,2:08:31,,,6:07:55,2018,11767,7711,325,254,22075,174,127,5,67,48,4,185,136,5,174,127,5,Finisher,1976
+Dan,Cychosz,Dan Cychosz,2129,M30-34,Male,Boulder,CO,United States,US,0:33:49,3:38:29,1:47:00,,,6:08:37,2029,13109,6420,348,211,22117,175,128,26,72,53,11,262,170,29,175,128,26,Finisher,1619
+Matt,Child,Matt Child,2175,M35-39,Male,Havelock North,HKB,United Kingdom,GB,0:34:16,3:20:32,1:55:44,,,6:09:06,2056,12032,6944,650,464,22146,176,129,23,85,61,12,221,156,27,176,129,23,Finisher,1613
+Michael,Rosenfeldt,Michael Rosenfeldt,2293,M45-49,Male,Auckland,AUK,New Zealand,NZ,0:35:07,2:59:25,2:24:22,,,6:09:20,2107,10765,8662,447,179,22160,177,130,17,101,72,11,137,107,14,177,130,17,Finisher,1745
+Paul,Hewitt,Paul Hewitt,2231,M40-44,Male,Upper Hutt,WGN,New Zealand,NZ,0:50:34,2:54:35,2:16:45,,,6:09:27,3034,10475,8205,329,124,22167,178,131,14,305,186,24,167,127,14,178,131,14,Finisher,1646
+Michelle,Grocock,Michelle Grocock,2301,F45-49,Female,Warburton,VIC,Australia,AU,0:43:39,3:10:13,2:07:15,,,6:09:44,2619,11413,7635,367,150,22184,179,48,11,254,98,18,204,57,14,179,48,11,Finisher,2159
+Mark,Pedicelli,Mark Pedicelli,2377,M55-59,Male,Harrington,QC,Canada,CA,0:42:24,3:06:24,2:11:55,,,6:10:20,2544,11184,7915,425,152,22220,180,132,10,236,150,9,189,139,10,180,132,10,Finisher,2342
+Leon,Newnham,Leon Newnham,2189,M35-39,Male,LA,CA,Australia,AU,0:41:07,3:09:31,2:13:48,,,6:11:21,2467,11371,8028,296,119,22281,181,133,24,211,136,24,187,138,24,181,133,24,Finisher,1573
+Florencia,Lapostol Piderit,Florencia Lapostol Piderit,2106,F25-29,Female,Concepcion,Biobío,Chile,CL,0:42:01,3:13:30,2:05:51,,,6:11:33,2521,11610,7551,364,247,22293,182,49,7,225,83,13,210,61,9,182,49,7,Finisher,2539
+Paul,Howells,Paul Howells,2390,M60-64,Male,Christchurch,CAN,New Zealand,NZ,0:35:40,3:09:33,2:14:37,,,6:11:38,2140,11373,8077,481,227,22298,183,134,4,115,81,3,174,131,4,183,134,4,Finisher,2354
+Andrea,Gallaher,Andrea Gallaher,2311,F45-49,Female,Rotorua,BOP,New Zealand,NZ,0:42:49,3:02:43,2:17:34,,,6:11:49,2569,10963,8254,396,127,22309,184,50,12,246,94,17,171,43,10,184,50,12,Finisher,2122
+Yiming,Tong,Yiming Tong,2424,M45-49,Male,Ryde,AU-NSW,Australia,AU,0:38:53,3:14:34,2:09:11,,,6:12:11,2333,11674,7751,365,208,22331,185,135,18,175,116,15,202,146,20,185,135,18,Finisher,1694
+Anna,Scarth,Anna Scarth,2268,F40-44,Female,,NSN,United Kingdom,GB,0:39:33,3:22:23,2:01:22,,,6:12:27,2373,12143,7282,307,242,22347,186,51,9,183,63,10,227,70,10,186,51,9,Finisher,2081
+Paola,Riano,Paola Riano,2210,F35-39,Female,Auckland,AUCKLAND,New Zealand,NZ,0:41:20,3:12:11,2:08:53,,,6:12:39,2480,11531,7733,356,259,22359,187,52,6,218,80,9,200,55,6,187,52,6,Finisher,2398
+Martin,Ball,Martin Ball,2041,M60-64,Male,CAIRNS CITY,QLD,Australia,AU,0:51:04,3:18:21,1:54:06,,,6:13:00,3064,11901,6846,387,182,22380,188,136,5,309,189,10,255,167,8,188,136,5,Finisher,2330
+Abbie,Winder,Abbie Winder,2166,F30-34,Female,Auckland,AUK,New Zealand,NZ,0:43:48,3:17:53,2:02:21,,,6:13:04,2628,11873,7341,360,182,22384,189,53,10,260,102,16,229,72,11,189,53,10,Finisher,1984
+Charlotte,Daker,Charlotte Daker,2201,F35-39,Female,Auckland,AUK,United Kingdom,GB,0:44:05,3:07:41,2:13:22,,,6:13:09,2645,11261,8002,365,116,22389,190,54,7,266,104,12,197,54,5,190,54,7,Finisher,2389
+Leonie,Pedrazzini,Leonie Pedrazzini,2386,F55-59,Female,Lennox Head,NSW,Australia,AU,0:40:28,3:21:56,2:00:50,,,6:13:19,2428,12116,7250,444,161,22399,191,55,2,200,72,3,236,76,3,191,55,2,Finisher,2793
+Kirsty,Pinder,Kirsty Pinder,2265,F40-44,Female,Auckland,AUK,New Zealand,NZ,0:38:43,3:25:40,2:00:44,,,6:13:25,2323,12340,7244,328,170,22405,192,56,10,171,58,9,237,77,12,192,56,10,Finisher,2063
+Mike,Jones,Mike Jones,2338,M50-54,Male,"Takapuna, Auckland",AUK,New Zealand,NZ,0:35:12,3:11:48,2:18:06,,,6:13:36,2112,11508,8286,369,141,22416,193,137,14,102,73,6,173,130,14,193,137,14,Finisher,1906
+Gary,Sellars,Gary Sellars,2404,M65-69,Male,Christchurch,CAN,New Zealand,NZ,0:44:39,2:52:44,2:26:27,,,6:13:48,2679,10364,8787,467,131,22428,194,138,2,271,164,2,147,114,2,194,138,2,Finisher,2529
+Alexander,Scanlon,Alexander Scanlon,2195,M35-39,Male,Wollstonecraft,NSW,Australia,AU,0:45:35,3:13:37,1:58:56,,,6:14:04,2735,11617,7136,624,332,22444,195,139,25,278,169,32,235,160,28,195,139,25,Finisher,1524
+Liz,Inglis,Liz Inglis,2261,F40-44,Female,Christchurch,CAN,New Zealand,NZ,0:50:58,3:13:23,2:03:33,,,6:14:11,3058,11603,7413,272,105,22451,196,57,11,306,120,24,232,74,11,196,57,11,Finisher,2049
+Patrick,Bourdillon,Patrick Bourdillon,2411,M70-74,Male,Carmel,IN,United States,US,0:41:27,3:05:15,2:17:42,,,6:14:20,2487,11115,8262,420,176,22460,197,140,1,219,139,2,177,132,2,197,140,1,Finisher,3500
+Julie,Palmer,Julie Palmer,2348,F50-54,Female,st. louis,MO,United States,US,0:38:11,3:04:22,2:18:54,,,6:14:23,2291,11062,8334,424,352,22463,198,58,7,159,52,4,163,40,6,198,58,7,Finisher,2625
+Guillaume,Duval,Guillaume Duval,2228,M40-44,Male,ST LEU (REUNION ISLAND),Réunion,Réunion,RE,0:38:35,3:09:54,2:18:11,,,6:14:30,2315,11394,8291,360,110,22470,199,141,15,167,112,12,182,135,16,199,141,15,Finisher,1555
+Alban,Beaumont,Alban Beaumont,2121,M30-34,Male,Christchurch,CAN,New Zealand,NZ,0:42:04,3:12:45,2:12:41,,,6:15:57,2524,11565,7961,320,187,22557,200,142,27,226,143,26,207,148,26,200,142,27,Finisher,1487
+Hannah,Jones,Hannah Jones,2105,F25-29,Female,Shawnee,KS,United States,US,0:31:01,3:19:52,2:18:42,,,6:16:04,1861,11992,8322,295,94,22564,201,59,8,35,5,1,188,50,8,201,59,8,Finisher,2458
+Esra,Kellermanns,Esra Kellermanns,2262,F40-44,Female,ERIE,CO,Germany,DE,0:36:11,3:16:25,2:16:50,,,6:16:39,2171,11785,8210,306,127,22599,202,60,12,129,38,6,196,53,9,202,60,12,Finisher,2005
+Lisa,Ensor,Lisa Ensor,2308,F45-49,Female,Auckland,AUK,New Zealand,NZ,0:32:06,3:35:45,2:00:02,,,6:16:52,1926,12945,7202,332,207,22612,203,61,13,43,9,2,250,85,18,203,61,13,Finisher,2031
+jose,gerstle,jose gerstle,2043,M60-64,Male,"santiago, CHILE",Santiago Metropolitan Region,Chile,CL,0:50:05,3:01:23,2:15:45,,,6:17:10,3005,10883,8145,455,142,22630,204,143,6,303,184,9,198,144,5,204,143,6,Finisher,2255
+Guillermo Adrián,Perez,Guillermo Adrián Perez,2237,M40-44,Male,General Roca,Río Negro,Argentina,AR,0:42:13,3:02:43,2:25:44,,,6:18:34,2533,10963,8744,333,141,22714,205,144,16,230,145,18,166,126,13,205,144,16,Finisher,1482
+James,Chapman,James Chapman,2413,M35-39,Male,,QLD,Australia,AU,0:42:07,3:02:22,2:26:42,,,6:18:49,2527,10942,8802,346,112,22729,206,145,26,227,144,26,165,125,23,206,145,26,Finisher,1439
+John,Thomson,John Thomson,2391,M60-64,Male,Bunbury,WA,Australia,AU,0:36:50,3:15:55,2:16:41,,,6:18:55,2210,11755,8201,408,161,22735,207,146,7,137,96,5,203,147,6,207,146,7,Finisher,2223
+Yang,Yi,Yang Yi,2119,F25-29,Female,成都,四川,China,CN,0:37:27,3:22:28,2:11:15,,,6:20:08,2247,12148,7875,350,188,22808,208,62,9,148,47,11,225,68,10,208,62,9,Finisher,2384
+Jo,Braithwaite,Jo Braithwaite,2063,F50-54,Female,Orange,AU-NSW,Australia,AU,0:44:21,3:13:16,2:13:43,,,6:20:33,2661,11596,8023,366,187,22833,209,63,8,268,105,12,215,65,8,209,63,8,Finisher,2514
+Amanda,Bonjour,Amanda Bonjour,2154,F30-34,Female,Warwick,Warwickshire,United Kingdom,GB,0:41:28,3:23:44,2:06:53,,,6:20:56,2488,12224,7613,320,211,22856,210,64,11,220,81,14,239,79,12,210,64,11,Finisher,1842
+Lauren,Hann,Lauren Hann,2406,F65-69,Female,New Plymouth,TKI,New Zealand,NZ,0:39:30,3:21:47,2:12:46,,,6:21:10,2370,12107,7966,348,79,22870,211,65,1,181,62,1,228,71,1,211,65,1,Finisher,3500
+Antoine,Zimermann,Antoine Zimermann,2150,M30-34,Male,Wellington ,WGN,France,FR,0:50:59,3:26:07,1:57:21,,,6:23:01,3059,12367,7041,373,141,22981,212,147,28,307,187,31,276,175,30,212,147,28,Finisher,1360
+Chad,Isaac,Chad Isaac,2232,M40-44,Male,Enderby,BC,Canada,CA,0:40:49,3:09:42,2:24:56,,,6:24:01,2449,11382,8696,361,153,23041,213,148,17,204,130,15,192,141,17,213,148,17,Finisher,1384
+Marshall,Clark,Marshall Clark,2279,M45-49,Male,SALT LAKE CITY,UT,United States,US,0:42:25,3:05:43,2:27:57,,,6:24:13,2545,11143,8877,334,154,23053,214,149,19,237,151,19,177,132,18,214,149,19,Finisher,1478
+Jodi,Clark,Jodi Clark,2305,F45-49,Female,Salt Lake City,UT,United States,US,0:40:14,3:07:27,2:26:18,,,6:24:13,2414,11247,8778,410,204,23053,214,66,14,196,69,12,183,48,11,214,66,14,Finisher,1898
+Riaan,Bessinger,Riaan Bessinger,2221,M40-44,Male,Wellington,WGN,New Zealand,NZ,0:38:12,3:19:21,2:13:00,,,6:24:38,2292,11961,7980,482,363,23078,216,150,18,160,108,11,220,155,19,216,150,18,Finisher,1373
+Jim,Riley,Jim Riley,2068,M70-74,Male,CARDIFF BY THE SEA,CA,United States,US,0:38:59,3:00:39,2:36:13,,,6:24:51,2339,10839,9373,379,161,23091,217,151,2,176,117,1,150,116,1,217,151,2,Finisher,3310
+Holly,Newton,Holly Newton,2111,F25-29,Female,Busselton,AU-WA,Australia,AU,0:35:42,3:10:02,2:30:46,,,6:25:19,2142,11402,9046,378,151,23119,218,67,10,119,36,8,170,42,6,218,67,10,Finisher,2291
+Hidenori,Kusunoki,Hidenori Kusunoki,2151,M30-34,Male,千代田区神田須田町,東京都,Japan,JP,0:38:06,3:21:39,2:18:09,,,6:25:40,2286,12099,8289,297,169,23140,219,152,29,154,104,18,219,154,27,219,152,29,Finisher,1312
+Steve,Bailey,Steve Bailey,2327,M50-54,Male,Cairns North,QLD,New Zealand,NZ,0:38:50,3:19:11,2:18:53,,,6:26:09,2330,11951,8333,396,159,23169,220,153,15,174,115,11,218,153,16,220,153,15,Finisher,1680
+Max,Bessone,Max Bessone,2222,M40-44,Male,wellington,WGN,New Zealand,NZ,0:45:01,3:17:58,2:07:18,,,6:26:09,2701,11878,7638,617,335,23169,220,153,19,272,165,20,249,165,21,220,153,19,Finisher,1346
+Chris,Mahoney,Chris Mahoney,2137,M30-34,Male,Kirrawee,NSW,Australia,AU,0:39:24,3:23:49,2:13:13,,,6:26:12,2364,12229,7993,365,221,23172,222,155,30,179,119,22,233,159,28,222,155,30,Finisher,1303
+Natalie,Hunt-Hope,Natalie Hunt-Hope,2260,F40-44,Female,Auckland,AUK,New Zealand,NZ,0:41:18,3:32:18,2:06:04,,,6:26:17,2478,12738,7564,273,124,23177,223,68,13,217,79,13,263,93,15,223,68,13,Finisher,1832
+Rich,Marshall,Rich Marshall,2288,M45-49,Male,Palmerston North,MWT,New Zealand,NZ,0:43:54,3:17:45,2:15:48,,,6:27:27,2634,11865,8148,369,231,23247,224,156,20,262,160,22,230,158,22,224,156,20,Finisher,1419
+Wee Chao,Soh,Wee Chao Soh,2056,M40-44,Male,Pakkred,Nonthaburi,Singapore,SG,0:50:10,3:03:40,2:25:16,,,6:27:52,3010,11020,8716,319,207,23272,225,157,20,304,185,23,199,145,18,225,157,20,Finisher,1315
+Tiffany,Jung,Tiffany Jung,2357,F50-54,Female,Pasadena,CA,United States,US,0:38:34,3:24:52,2:13:00,,,6:27:53,2314,12292,7980,435,252,23273,226,69,9,166,55,5,242,81,11,226,69,9,Finisher,2382
+Steven,Barrott,Steven Barrott,2328,M50-54,Male,Cambridge,WKO,New Zealand,NZ,0:51:22,3:05:07,2:20:37,,,6:27:59,3082,11107,8437,484,169,23279,227,158,16,311,191,18,217,152,15,227,158,16,Finisher,1647
+Wai Leung,Dick,Wai Leung Dick,2281,M45-49,Male,,,Hong Kong,HK,0:45:08,3:06:58,2:29:46,,,6:28:58,2708,11218,8986,300,126,23338,228,159,21,273,166,23,194,143,19,228,159,21,Finisher,1392
+Kate,Prosser,Kate Prosser,2266,F40-44,Female,Fairlie,CAN,New Zealand,NZ,0:47:52,3:24:23,2:06:37,,,6:29:09,2872,12263,7597,369,248,23349,229,70,14,292,116,22,266,95,17,229,70,14,Finisher,1780
+Jasmine,Robinson,Jasmine Robinson,2162,F30-34,Female,Taupo,WKO,New Zealand,NZ,0:29:31,3:19:42,2:33:45,,,6:29:42,1771,11982,9225,259,145,23382,230,71,12,18,3,1,176,45,8,230,71,12,Finisher,1685
+Ekkapak,Sriussadaporn,Ekkapak Sriussadaporn,2196,M35-39,Male,Taling Chan,Bangkok,Thailand,TH,0:49:44,3:20:43,2:10:00,,,6:31:40,2984,12043,7800,471,202,23500,231,160,27,302,183,33,264,171,29,231,160,27,Finisher,1207
+Scotia,Boelee,Scotia Boelee,2351,F50-54,Female,Urenui,,New Zealand,NZ,0:37:15,3:23:06,2:21:31,,,6:31:48,2235,12186,8491,362,234,23508,232,72,10,144,46,3,226,69,10,232,72,10,Finisher,2311
+Natalie,Jaques-Sinclair,Natalie Jaques-Sinclair,2205,F35-39,Female,Mount Louisa,QLD,Australia,AU,0:41:09,3:17:15,2:21:46,,,6:32:07,2469,11835,8506,439,278,23527,233,73,8,213,77,8,224,67,11,233,73,8,Finisher,2048
+Leanne,Lydiard,Leanne Lydiard,2349,F50-54,Female,Kewarra Beach,AU-QLD,Australia,AU,0:40:37,3:19:34,2:22:58,,,6:32:47,2437,11974,8578,329,249,23567,234,74,11,202,74,9,223,66,9,234,74,11,Finisher,2294
+Suzaan,Le Roux,Suzaan Le Roux,2108,F25-29,Female,Papamoa,BOP,South Africa,ZA,0:37:14,3:28:31,2:18:21,,,6:32:53,2234,12511,8301,341,186,23573,235,75,11,143,45,10,246,84,11,235,75,11,Finisher,2155
+Jack,Campbell,Jack Campbell,2388,M60-64,Male,Courtenay,BC,Canada,CA,0:43:49,3:22:42,2:15:22,,,6:33:06,2629,12162,8122,397,276,23586,236,161,8,261,159,7,248,164,7,236,161,8,Finisher,1968
+Jodine,Tierney,Jodine Tierney,2271,F40-44,Female,Hamilton,WKO,New Zealand,NZ,0:37:51,3:32:12,2:14:05,,,6:33:38,2271,12732,8045,383,187,23618,237,76,15,152,49,7,256,89,14,237,76,15,Finisher,1699
+Chris,Wiersma,Chris Wiersma,2297,M45-49,Male,Calgary,AB,Canada,CA,0:33:26,3:22:18,2:23:58,,,6:34:27,2006,12138,8638,493,392,23667,238,162,22,64,47,6,216,151,21,238,162,22,Finisher,1293
+Chidchanok,Wattanakul,Chidchanok Wattanakul,2214,F35-39,Female,Banpho,Chachoengsao,Thailand,TH,0:51:30,3:12:44,2:21:38,,,6:35:16,3090,11564,8498,340,224,23716,239,77,9,313,121,14,238,78,12,239,77,9,Finisher,1991
+Kim,Russell,Kim Russell,2387,F55-59,Female,Lower Hutt,WGN,New Zealand,NZ,0:35:23,3:28:35,2:21:33,,,6:35:31,2123,12515,8493,328,272,23731,240,78,3,108,32,2,234,75,2,240,78,3,Finisher,2394
+Yvonne,Shaw,Yvonne Shaw,2065,F55-59,Female,Fairlie,CAN,New Zealand,NZ,0:43:46,3:21:31,2:23:00,,,6:36:26,2626,12091,8580,322,167,23786,241,79,4,258,101,8,241,80,4,241,79,4,Finisher,2377
+Amanda,Wood,Amanda Wood,2167,F30-34,Female,Oxley,QLD,Australia,AU,0:39:35,3:25:19,2:22:34,,,6:36:42,2375,12319,8554,366,188,23802,242,80,13,184,64,12,244,82,13,242,80,13,Finisher,1559
+Steve,Driscoll,Steve Driscoll,2178,M35-39,Male,Auckland,AUK,New Zealand,NZ,0:44:00,3:08:45,2:35:09,,,6:37:26,2640,11325,9309,252,320,23846,243,163,28,263,161,30,193,142,25,243,163,28,Finisher,1103
+Branden,Potgieter,Branden Potgieter,2238,M40-44,Male,Tawa,WGN,New Zealand,NZ,0:36:16,3:19:27,2:26:07,,,6:37:46,2176,11967,8767,596,360,23866,244,164,21,131,93,9,222,157,20,244,164,21,Finisher,1136
+Louise,Watters,Louise Watters,2161,F30-34,Female,Nirimba,QLD,United Kingdom,GB,0:39:39,3:41:13,2:09:57,,,6:37:57,2379,13273,7797,331,97,23877,245,81,14,186,66,13,279,102,16,245,81,14,Finisher,1536
+Knisha,Ruland,Knisha Ruland,2319,F45-49,Female,Rotorua,BOP,New Zealand,NZ,0:47:09,3:03:59,2:40:05,,,6:38:48,2829,11039,9605,321,134,23928,246,82,15,289,114,20,191,51,12,246,82,15,Finisher,1636
+Clare,Gormley,Clare Gormley,2157,F30-34,Female,Lower Hutt,WGN,Ireland,IE,0:42:25,3:28:25,2:19:21,,,6:39:00,2545,12505,8361,380,149,23940,247,83,15,237,87,15,258,90,15,247,83,15,Finisher,1517
+Jeremy,Whitfield,Jeremy Whitfield,2100,M25-29,Male,Whistler,BC,Canada,CA,0:40:39,3:53:50,1:53:13,,,6:39:05,2439,14030,6793,422,261,23945,248,165,21,203,129,21,308,190,22,248,165,21,Finisher,938
+Sean,Lyons,Sean Lyons,2054,M35-39,Male,CENTERPORT,NY,United States,US,0:39:47,3:16:31,2:35:48,,,6:39:20,2387,11791,9348,320,114,23960,249,166,29,189,122,21,211,150,26,249,166,29,Finisher,1069
+Airada,Saipanya,Airada Saipanya,2163,F30-34,Female,Muang,Nongbua Lamphu,Thailand,TH,0:35:40,3:27:53,2:24:46,,,6:39:51,2140,12473,8686,449,243,23991,250,84,16,115,35,8,245,83,14,250,84,16,Finisher,1502
+Jennifer,Paggi,Jennifer Paggi,2318,F45-49,Female,,NSW,United States,US,0:41:16,3:13:56,2:37:12,,,6:42:11,2476,11636,9432,376,211,24131,251,85,16,216,78,15,209,60,15,251,85,16,Finisher,1575
+Ka Wo,Li,Ka Wo Li,2375,M55-59,Male,,,Hong Kong,HK,0:36:11,3:27:10,2:27:46,,,6:43:07,2171,12430,8866,441,279,24187,252,167,11,129,92,6,243,162,12,252,167,11,Finisher,1752
+Leanne,Vogler,Leanne Vogler,2273,F40-44,Female,Orange,NSW,Australia,AU,0:45:29,3:36:59,2:08:31,,,6:43:38,2729,13019,7711,399,360,24218,253,86,16,276,109,18,285,106,21,253,86,16,Finisher,1519
+Shane,Mercer,Shane Mercer,2236,M40-44,Male,Wellington,WGN,New Zealand,NZ,0:46:02,3:22:36,2:25:10,,,6:43:54,2762,12156,8710,358,248,24234,254,168,22,282,171,21,252,166,22,254,168,22,Finisher,1026
+Hillary,Westerhoff,Hillary Westerhoff,2215,F35-39,Female,Taupo,WKO,New Zealand,NZ,0:33:58,3:19:48,2:36:43,,,6:44:49,2038,11988,9403,556,304,24289,255,87,10,77,21,3,213,63,10,255,87,10,Finisher,1819
+Marwin,Canapi,Marwin Canapi,2174,M35-39,Male,Auckland,AUK,Philippines,PH,0:38:18,3:34:21,2:21:18,,,6:44:56,2298,12861,8478,384,275,24296,256,169,30,164,111,20,269,173,30,256,169,30,Finisher,968
+Rachel,Kelly,Rachel Kelly,2015,F45-49,Female,Anthem,AZ,United States,US,0:43:42,3:22:07,2:27:40,,,6:45:16,2622,12127,8860,523,184,24316,257,88,17,256,100,19,251,86,19,257,88,17,Finisher,1520
+Andrea,Keenan,Andrea Keenan,2312,F45-49,Female,Brisbane,QLD,New Zealand,NZ,0:40:56,3:22:13,2:34:59,,,6:46:31,2456,12133,9299,338,165,24391,258,89,18,207,75,14,231,73,17,258,89,18,Finisher,1497
+Dave,Buckley,Dave Buckley,2368,M55-59,Male,Hamilton,WKO,New Zealand,NZ,0:43:23,3:24:57,2:25:29,,,6:46:53,2603,12297,8729,546,238,24413,259,170,12,251,155,10,261,169,13,259,170,12,Finisher,1684
+Karen,Nancarrow,Karen Nancarrow,2067,F60-64,Female,Nelson,NSN,New Zealand,NZ,0:38:21,3:29:42,2:29:34,,,6:47:26,2301,12582,8974,448,141,24446,260,90,2,165,54,2,254,88,2,260,90,2,Finisher,2237
+Susan,Briers,Susan Briers,2394,F60-64,Female,ST AUGUSTINE,FL,United States,US,0:40:28,3:30:14,2:26:20,,,6:48:20,2428,12614,8780,485,193,24500,261,91,3,200,72,3,267,96,3,261,91,3,Finisher,2221
+Kevin,Hann,Kevin Hann,2402,M65-69,Male,New Plymouth,TKI,New Zealand,NZ,0:47:38,3:33:36,2:20:26,,,6:49:25,2858,12816,8426,326,139,24565,262,171,3,290,176,3,282,179,3,262,171,3,Finisher,1888
+Wu,Bing,Wu Bing,2057,M40-44,Male,深圳,Guangxi,China,CN,1:00:50,3:16:48,2:20:47,,,6:49:45,3650,11808,8447,527,153,24585,263,172,23,321,194,25,281,178,25,263,172,23,Finisher,921
+Daniel,Coppard,Daniel Coppard,2226,M40-44,Male,Auckland,AUK,New Zealand,NZ,0:41:10,3:27:17,2:17:14,,,6:50:10,2470,12437,8234,777,692,24610,264,173,24,214,137,16,274,174,23,264,173,24,Finisher,913
+Jean-Pierre,Le Roux,Jean-Pierre Le Roux,2090,M25-29,Male,Papamoa,BOP,South Africa,ZA,0:43:47,3:19:39,2:35:51,,,6:50:12,2627,11979,9351,430,225,24612,265,174,22,259,158,22,240,161,21,265,174,22,Finisher,738
+John,Broadbent,John Broadbent,2408,M70-74,Male,Leek,Staffordshire,United Kingdom,GB,0:49:33,3:38:14,2:10:03,,,6:50:54,2973,13094,7803,603,181,24654,266,175,3,301,182,4,304,188,4,266,175,3,Finisher,2841
+Jeremy,Sutton,Jeremy Sutton,2296,M45-49,Male,,,New Zealand,NZ,0:51:24,3:16:07,2:36:06,,,6:51:47,3084,11767,9366,320,170,24707,267,176,23,312,192,25,247,163,23,267,176,23,Finisher,981
+Brian,Lewis,Brian Lewis,2374,M55-59,Male,LA JOLLA,CA,United States,US,0:38:06,3:10:48,2:49:29,,,6:51:56,2286,11448,10169,448,365,24716,268,177,13,154,104,8,190,140,11,268,177,13,Finisher,1593
+Cara,Schalkwyk,Cara Schalkwyk,2269,F40-44,Female,Bunbury,WA,Australia,AU,0:37:54,3:30:00,2:33:29,,,6:52:15,2274,12600,9209,447,205,24735,269,92,17,153,50,8,253,87,13,269,92,17,Finisher,1364
+Jennifer,Chandler,Jennifer Chandler,2200,F35-39,Female,Marshall,TX,United States,US,0:51:32,3:39:33,2:13:43,,,6:53:54,3092,13173,8023,387,159,24834,270,93,11,314,122,15,302,115,14,270,93,11,Finisher,1655
+Sarah,Mcleod,Sarah Mcleod,2385,F55-59,Female,Brighton,AU-VIC,Australia,AU,0:46:11,3:26:51,2:32:49,,,6:54:55,2771,12411,9169,248,296,24895,271,94,5,285,112,9,258,90,5,271,94,5,Finisher,2045
+LARA,CONDON,LARA CONDON,2251,F40-44,Female,Chelmer,QLD,Australia,AU,0:49:20,3:28:55,2:25:18,,,6:55:48,2960,12535,8718,549,186,24948,272,95,18,299,119,23,283,104,20,272,95,18,Finisher,1300
+Marianela,Obando,Marianela Obando,2208,F35-39,Female,Quebradilla,Cartago,Costa Rica,CR,0:32:50,3:22:44,2:54:32,,,6:56:33,1970,12164,10472,268,119,24993,273,96,12,55,13,2,205,58,7,273,96,12,Finisher,1608
+Marilyn,Obando Valverde,Marilyn Obando Valverde,2209,F35-39,Female,Howick,AUK,Costa Rica,CR,0:35:22,3:21:18,2:52:49,,,6:56:34,2122,12078,10369,300,125,24994,274,97,13,107,31,5,212,62,9,274,97,13,Finisher,1607
+Jo,Doughty-Roberts,Jo Doughty-Roberts,2254,F40-44,Female,,NSW,New Zealand,NZ,0:42:29,3:28:19,2:33:38,,,6:58:20,2549,12499,9218,497,337,25100,275,98,19,240,89,14,270,97,18,275,98,19,Finisher,1255
+Kim,Campbell,Kim Campbell,2066,F60-64,Female,Courtenay,BC,Canada,CA,0:41:52,3:33:50,2:29:53,,,6:59:51,2512,12830,8993,454,402,25191,276,99,4,223,82,5,275,101,4,276,99,4,Finisher,2013
+Kent,Zamora,Kent Zamora,2346,M50-54,Male,Monrovia,CA,United States,US,0:42:20,3:35:48,2:28:38,,,6:59:57,2540,12948,8918,489,302,25197,277,178,17,235,149,16,278,177,17,277,178,17,Finisher,1071
+Wendy,Towns,Wendy Towns,2272,F40-44,Female,MONROVIA,CA,United States,US,0:42:45,3:36:34,2:28:42,,,6:59:57,2565,12994,8922,424,292,25197,277,100,20,245,93,16,279,102,19,277,100,20,Finisher,1226
+Susan,Cohn,Susan Cohn,2381,F55-59,Female,,NSW,Australia,AU,0:43:01,3:46:27,2:16:27,,,7:00:45,2581,13587,8187,498,392,25245,279,101,6,249,96,7,303,116,9,279,101,6,Finisher,1940
+Leigh,Davidson,Leigh Davidson,2383,F55-59,Female,Christchurch,CAN,New Zealand,NZ,0:42:54,3:40:57,2:27:42,,,7:01:35,2574,13257,8862,406,196,25295,280,102,7,247,95,6,287,107,6,280,102,7,Finisher,1925
+Rosemary,Nilsson,Rosemary Nilsson,2316,F45-49,Female,Walkerston,QLD,Australia,AU,0:42:08,3:28:41,2:40:20,,,7:01:38,2528,12521,9620,391,238,25298,281,103,19,229,85,16,260,92,20,281,103,19,Finisher,1225
+Joël,Hauss,Joël Hauss,2389,M60-64,Male,Les Avirons,Réunion,France,FR,0:33:45,3:38:05,2:40:29,,,7:04:31,2025,13085,9629,424,308,25471,282,179,9,70,51,2,268,172,9,282,179,9,Finisher,1403
+Wing Sze,Ng,Wing Sze Ng,2112,F25-29,Female,,,Hong Kong,HK,0:42:28,4:04:28,2:05:30,,,7:04:43,2548,14668,7530,535,202,25483,283,104,12,239,88,14,318,124,15,283,104,12,Finisher,1582
+Chuangxin,Lu,Chuangxin Lu,2136,M30-34,Male,东莞,广东,China,CN,0:51:04,3:29:11,2:25:51,,,7:05:37,3064,12551,8751,812,359,25537,284,180,31,309,189,32,296,185,31,284,180,31,Finisher,700
+Ma,Zexi,Ma Zexi,2110,F25-29,Female,北京,CN-BJ,China,CN,0:34:41,3:51:38,2:31:12,,,7:08:09,2081,13898,9072,420,218,25689,285,105,13,98,29,6,293,110,13,285,105,13,Finisher,1520
+Karen,Gooch,Karen Gooch,2256,F40-44,Female,Waterloo,NSW,United Kingdom,GB,0:47:48,3:25:45,2:46:45,,,7:08:45,2868,12345,10005,287,220,25725,286,106,21,291,115,21,265,94,16,286,106,21,Finisher,1067
+Bianca,Thiel,Bianca Thiel,2363,F50-54,Female,Upper Hutt,WGN,New Zealand,NZ,0:44:02,3:29:08,2:45:24,,,7:10:50,2642,12548,9924,428,308,25850,287,107,12,265,103,11,273,100,13,287,107,12,Finisher,1609
+Sophie,Hicks Lloyd,Sophie Hicks Lloyd,2257,F40-44,Female,,NSW,Australia,AU,0:43:32,3:43:12,2:33:44,,,7:11:11,2612,13392,9224,429,214,25871,288,108,22,253,97,17,297,112,22,288,108,22,Finisher,1023
+Mike,Ashcroft,Mike Ashcroft,2278,M45-49,Male,Lower Hutt,,New Zealand,NZ,0:49:00,3:17:05,2:51:19,,,7:11:33,2940,11825,10279,645,204,25893,289,181,24,297,179,24,257,168,24,289,181,24,Finisher,700
+Alastair,Duhs,Alastair Duhs,2282,M45-49,Male,Auckland,,New Zealand,NZ,0:42:32,3:41:38,2:37:22,,,7:12:20,2552,13298,9442,405,243,25940,290,182,25,241,152,20,288,181,25,290,182,25,Finisher,700
+Jen,Dive,Jen Dive,2202,F35-39,Female,Googong,NSW,Australia,AU,0:42:18,3:43:05,2:37:48,,,7:12:22,2538,13385,9468,387,164,25942,291,109,14,234,86,11,289,108,13,291,109,14,Finisher,1323
+Inna,Giguere,Inna Giguere,2255,F40-44,Female,Hermosa Beach,CA,United States,US,0:45:36,3:49:15,2:26:24,,,7:12:30,2736,13755,8784,430,245,25950,292,110,23,279,110,19,309,119,24,292,110,23,Finisher,1000
+Warren,Hill,Warren Hill,2409,M80-84,Male,Auckland,,New Zealand,NZ,0:49:14,3:37:29,2:35:55,,,7:12:43,2954,13049,9355,413,192,25963,293,183,1,298,180,2,295,184,1,293,183,1,Finisher,3500
+Natasha,Carson,Natasha Carson,2250,F40-44,Female,Oxley,QLD,Australia,AU,0:54:14,3:55:28,2:09:12,,,7:14:52,3254,14128,7752,595,363,26092,294,111,24,317,124,25,319,125,25,294,111,24,Finisher,957
+Jim,Williams,Jim Williams,2392,M60-64,Male,Winston-Salem,NC,United States,US,0:44:00,3:40:13,2:38:37,,,7:15:48,2640,13213,9517,510,268,26148,295,184,10,263,161,8,291,183,10,295,184,10,Finisher,1199
+Nicki,Sames,Nicki Sames,2118,F25-29,Female,Dunedin,OTA,New Zealand,NZ,0:44:23,3:29:51,2:52:23,,,7:16:21,2663,12591,10343,360,224,26181,296,112,14,269,106,15,272,99,12,296,112,14,Finisher,1373
+Becky,Nicholson,Becky Nicholson,2113,F25-29,Female,Papakura,AUK,New Zealand,NZ,0:40:07,3:48:45,2:36:57,,,7:17:32,2407,13725,9417,399,304,26252,297,113,15,193,68,12,299,113,14,297,113,15,Finisher,1351
+David,Liu,David Liu,2339,M50-54,Male,Woodinville,WA,Hong Kong,HK,0:46:05,3:51:49,2:32:35,,,7:20:27,2765,13909,9155,416,182,26427,298,185,18,284,173,17,314,193,18,298,185,18,Finisher,702
+Emma,Doucette,Emma Doucette,2307,F45-49,Female,New Plymouth,TKI,New Zealand,NZ,0:40:16,3:14:04,3:10:40,,,7:22:46,2416,11644,11440,560,506,26566,299,114,20,197,70,13,214,64,16,299,114,20,Finisher,845
+Annette,Nilsson,Annette Nilsson,2264,F40-44,Female,Waiouru,MWT,Australia,AU,0:46:18,3:43:33,2:43:47,,,7:25:04,2778,13413,9827,487,199,26704,300,115,25,286,113,20,305,117,23,300,115,25,Finisher,773
+Sharie,Morton,Sharie Morton,2380,F55-59,Female,Wickham,NSW,United States,US,0:42:42,3:42:50,2:49:26,,,7:25:44,2562,13370,10166,461,185,26744,301,116,8,244,92,5,292,109,7,301,116,8,Finisher,1490
+Yvette,Brunton,Yvette Brunton,2156,F30-34,Female,Feilding,MWT,New Zealand,NZ,0:48:18,3:32:25,2:51:20,,,7:25:45,2898,12745,10280,494,328,26745,302,117,17,295,117,17,284,105,17,302,117,17,Finisher,700
+Leah,Drowley ,Leah Drowley,2354,F50-54,Female,Picton,,New Zealand,NZ,0:48:58,3:23:21,3:04:42,,,7:28:15,2938,12201,11082,448,226,26895,303,118,13,296,118,13,271,98,12,303,118,13,Finisher,1295
+Kristina,Balogh,Kristina Balogh,2153,F30-34,Female,King of Prussia,PA,United States,US,0:56:54,3:49:11,2:33:17,,,7:30:20,3414,13751,9197,431,227,27020,304,119,18,319,126,18,316,123,18,304,119,18,Finisher,700
+Greg,Epps,Greg Epps,2400,M65-69,Male,Cornubia,QLD,Australia,AU,0:51:00,3:33:00,2:43:26,,,7:30:39,3060,12780,9806,845,548,27039,305,186,4,308,188,4,306,189,4,305,186,4,Finisher,1146
+Bradley,Delamare,Bradley Delamare,2176,M35-39,Male,Sydney,NSW,Australia,AU,0:43:08,3:42:01,2:51:52,,,7:31:56,2588,13321,10312,641,254,27116,306,187,31,250,154,28,300,187,32,306,187,31,Finisher,700
+Jeffrey,Folsom,Jeffrey Folsom,2230,M40-44,Male,PORTLAND,OR,United States,US,0:47:56,3:31:01,3:06:01,,,7:35:54,2876,12661,11161,374,282,27354,307,188,25,293,177,22,277,176,24,307,188,25,Finisher,700
+Tina,Cornelius,Tina Cornelius,2382,F55-59,Female,Porirua,WGN,New Zealand,NZ,0:42:40,3:47:09,2:51:47,,,7:36:27,2560,13629,10307,462,429,27387,308,120,9,242,90,4,301,114,8,308,120,9,Finisher,1297
+Ann,Bondy,Ann Bondy,2405,F65-69,Female,Porirua,WGN,New Zealand,NZ,0:45:15,3:48:37,2:54:54,,,7:40:29,2715,13717,10494,437,266,27629,309,121,2,274,108,2,307,118,2,309,121,2,Finisher,2072
+Chatchapol,Ongkosit,Chatchapol Ongkosit,2190,M35-39,Male,"Nongbua, Muang",Nongbua Lamphu,Thailand,TH,0:43:26,3:51:09,2:52:45,,,7:40:45,2606,13869,10365,486,319,27645,310,189,32,252,156,29,310,191,33,310,189,32,Finisher,700
+Hsuan-Yao,Chang,Hsuan-Yao Chang,2299,M45-49,Male,东莞市,广东省,China,CN,0:52:10,3:45:37,2:39:09,,,7:40:56,3130,13537,9549,1080,360,27656,311,190,26,316,193,26,317,194,26,311,190,26,Finisher,700
+Ian,King,Ian King,2020,M70-74,Male,Sunshine Coast,QLD,Australia,AU,0:49:31,3:34:36,3:08:00,,,7:43:28,2971,12876,11280,496,185,27808,312,191,4,300,181,3,290,182,3,312,191,4,Finisher,1895
+Frédéric,Manguin,Frédéric Manguin,2188,M35-39,Male,Montmorency,,France,FR,0:42:17,3:41:45,3:09:18,,,7:44:28,2537,13305,11358,385,283,27868,313,192,33,233,148,27,286,180,31,313,192,33,Finisher,700
+Garth,Barfoot,Garth Barfoot,2410,M80-84,Male,,AUK,New Zealand,NZ,0:48:08,3:45:34,2:58:47,,,7:47:21,2888,13534,10727,568,324,28041,314,193,2,294,178,1,311,192,2,314,193,2,Finisher,2876
+Barbara,West,Barbara West,2397,F60-64,Female,Lower Hutt,WGN,New Zealand,NZ,0:41:07,3:38:51,3:00:23,,,7:48:34,2467,13131,10823,802,891,28114,315,122,5,211,76,4,294,111,5,315,122,5,Finisher,1136
+Sonja,Dorenbusch,Sonja Dorenbusch,2253,F40-44,Female,Münster,,Germany,DE,0:54:46,3:58:37,2:45:45,,,7:48:42,3286,14317,9945,399,175,28122,316,123,26,318,125,26,320,126,26,316,123,26,Finisher,700
+Sagar,Lonkar,Sagar Lonkar,2135,M30-34,Male,Wellington,WGN,New Zealand,NZ,0:45:54,3:43:12,3:11:58,,,7:49:01,2754,13392,11518,345,132,28141,317,194,32,281,170,29,298,186,32,317,194,32,Finisher,700
+Lisa,Mcdowell,Lisa Mcdowell,2207,F35-39,Female,Te Puke,BOP,New Zealand,NZ,0:44:28,3:52:47,3:02:12,,,7:49:23,2668,13967,10932,421,175,28163,318,124,15,270,107,13,313,121,16,318,124,15,Finisher,700
+Amy,Wain,Amy Wain,2213,F35-39,Female,Nikenbah,QLD,Australia,AU,0:51:35,3:44:14,3:06:20,,,7:54:06,3095,13454,11180,501,216,28446,319,125,16,315,123,16,312,120,15,319,125,16,Finisher,700
+Wing Shan,Fu,Wing Shan Fu,2310,F45-49,Female,,,Hong Kong,HK,0:57:39,3:49:34,3:02:03,,,7:58:26,3459,13774,10923,349,201,28706,320,126,21,320,127,21,315,122,21,320,126,21,Finisher,700
+Carleen,Gibbons,Carleen Gibbons,2395,F60-64,Female,,TKI,New Zealand,NZ,0:45:37,4:10:31,2:50:47,,,7:59:50,2737,15031,10247,575,200,28790,321,127,6,280,111,6,321,127,6,321,127,6,Finisher,934
+Christopher,O'Brien,Christopher O'Brien,2138,M30-34,Male,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Helen,Cartwright,Helen Cartwright,2304,F45-49,Female,Porirua,WGN,New Zealand,NZ,1:10:44,,,,,,4244,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Carla,Mounsey,Carla Mounsey,2263,F40-44,Female,Hamilton,WKO,New Zealand,NZ,0:49:58,4:23:12,,,,,2998,15792,0,520,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Vanessa,Hook,Vanessa Hook,2076,F18-24,Female,whangarei,NTL,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Emily,Macgillivray,Emily Macgillivray,2206,F35-39,Female,Honolulu,HI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bruce,Lemen,Bruce Lemen,2373,M55-59,Male,Omaha,NE,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matt,Brumby,Matt Brumby,2224,M40-44,Male,Devonport,TAS,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Liz,Paton,Liz Paton,2379,F55-59,Female,Wellington,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Keir,Garrett,Keir Garrett,2356,F50-54,Female,,NSW,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,Mcroberts,Mike Mcroberts,2347,M50-54,Male,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeff,Bullock,Jeff Bullock,2019,M40-44,Male,forest park,GA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Bedforth,Scott Bedforth,2030,M45-49,Male,karrinyup,WA,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carla,Rule,Carla Rule,2267,F40-44,Female,Hamilton,WKO,New Zealand,NZ,0:43:28,3:53:58,3:29:42,,,8:18:26,2608,14038,12582,473,205,29906,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Molly,Swanson,Molly Swanson,2049,F25-29,Female,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lairenjam Niranjan,Singh,Lairenjam Niranjan Singh,2233,M40-44,Male,Imphal West,Manipur,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Xuechun,Li,Xuechun Li,2416,F45-49,Female,深圳,深圳市,China,CN,0:59:05,,,,,,3545,0,0,462,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Natasha,Brennan,Natasha Brennan,2155,F30-34,Female,Alexandra Headland,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nick,Fowle,Nick Fowle,2369,M55-59,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ian,Langley,Ian Langley,2372,M55-59,Male,Taupo,,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ashliegh,Christensen,Ashliegh Christensen,2124,M30-34,Male,South Hedland,WA,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Annie,Ollada,Annie Ollada,2359,F50-54,Female,Aurora,CO,United States,US,0:54:03,4:18:23,,,,,3243,15503,0,710,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Connor,Macleod,Connor Macleod,2072,M18-24,Male,Wellington,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon,Ellingham,Simon Ellingham,2085,M25-29,Male,Ascot,AU-QLD,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jo,Hollis,Jo Hollis,2259,F40-44,Female,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Craig,Granville,Craig Granville,2370,M55-59,Male,Francistown,Central District,Botswana,BW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,Hirst,Mike Hirst,2336,M50-54,Male,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jose Alexandre,Varela Dos Reis,Jose Alexandre Varela Dos Reis,2345,M50-54,Male,Macau,China,Macao,MO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Donna,Stanton,Donna Stanton,2211,F35-39,Female,Hamilton,WKO,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Susan,Martin,Susan Martin,2393,F60-64,Female,MUNDARING,WA,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+edwin,oliva,edwin oliva,2093,M25-29,Male,Cambridge,MA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gavin,Champion,Gavin Champion,2331,M50-54,Male,Carterton,,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,Gaffaney,Mike Gaffaney,2401,M65-69,Male,,AUK,New Zealand,NZ,1:01:52,3:49:59,,,,,3712,13799,0,484,373,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Greg,Pye,Greg Pye,2343,M50-54,Male,Auckland,,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sarah,Lewis,Sarah Lewis,2325,F45-49,Female,Coorparoo,AU-QLD,Australia,AU,0:45:23,,,,,,2723,0,0,659,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Mindy,Smith,Mindy Smith,2320,F45-49,Female,,NSW,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carin,Levine,Carin Levine,2315,F45-49,Female,San Jose,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christina,Turner,Christina Turner,2244,F40-44,Female,Auckland,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anne,Lavandon,Anne Lavandon,2010,F45-49,Female,La Salle-les-Alpes,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adrian,Chia,Adrian Chia,2225,M40-44,Male,,,Singapore,SG,1:07:12,3:50:35,2:47:36,,,7:57:01,4032,13835,10056,427,271,28621,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Andrea,Schiefel,Andrea Schiefel,2360,F50-54,Female,Nottuln,,Germany,DE,0:59:15,,,,,,3555,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Murray,Michael Murray,2073,M18-24,Male,TAMPA,FL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Margaret,Moynahan,Margaret Moynahan,2396,F60-64,Female,Brisbane,QLD,Australia,AU,1:07:54,4:46:43,,,,,4074,17203,0,1048,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Samantha,Allen,Samantha Allen,2246,F40-44,Female,Makati,Intl State,Philippines,PH,0:50:24,4:11:03,,,,,3024,15063,0,538,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Chris,Reed,Chris Reed,2417,M30-34,Male,Wellington,WGN,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Troy,Turner,Troy Turner,2240,M40-44,Male,Lower Hutt,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrea,Herbst,Andrea Herbst,2104,F25-29,Female,SAN FRANCISCO,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ellen,Larsen,Ellen Larsen,2107,F25-29,Female,Tallmadge,OH,United States,US,0:43:47,,,,,,2627,0,0,408,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Dan,Zhao,Dan Zhao,2170,F30-34,Female,北京,北京,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tania,Gover,Tania Gover,2243,F40-44,Female,Shelly Beach,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Olofson,Scott Olofson,2300,M45-49,Male,Hidden Hills,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yanfang,Sui,Yanfang Sui,2321,F45-49,Female,深圳,广东省,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Barnett,Alexander Barnett,2048,M25-29,Male,Brisbane,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hugh,Armitage,Hugh Armitage,2398,M65-69,Male,Atlanta,GA,Canada,CA,1:08:58,4:44:25,,,,,4138,17065,0,721,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Laura,Robertson,Laura Robertson,2117,F25-29,Female,wellington,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Claire,Scott,Claire Scott,2362,F50-54,Female,Palmerston North,MWT,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Klaas,Vanden Beld,Klaas Vanden Beld,2378,M55-59,Male,EAGLE,ID,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michiaki,Kono,Michiaki Kono,2199,M35-39,Male,伏見区深草正覚町,京都府京都市,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hiroshi,Sudo,Hiroshi Sudo,2173,M35-39,Male,Phnom Penh,Phnom Penh,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Diana,Kawana,Diana Kawana,2358,F50-54,Female,Palmerston North,MWT,New Zealand,NZ,0:48:35,4:51:45,3:14:24,,,9:13:58,2915,17505,11664,693,461,33238,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Euphemia,Thien,Euphemia Thien,2364,F50-54,Female,SABAH,,Malaysia,MY,0:54:32,3:53:54,3:01:43,,,8:06:30,3272,14034,10903,750,231,29190,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jan,Esquilant,Jan Esquilant,2355,F50-54,Female,"Kilbirnie, Wellington",WGN,New Zealand,NZ,1:01:48,5:02:47,,,,,3708,18167,0,795,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sheridan,Buchanan,Sheridan Buchanan,2352,F50-54,Female,,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Catherine,Viola,Catherine Viola,2324,F45-49,Female,Lakewood,OH,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bryer,Tindell,Bryer Tindell,2322,F45-49,Female,Boca Raton,FL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Moggach,Daniel Moggach,2092,M25-29,Male,Oromocto,NB,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Monica,Robbers,Monica Robbers,2302,F45-49,Female,Wellington ,WGN,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zoe,Mortemore,Zoe Mortemore,2152,F30-34,Female,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kylie,Frost,Kylie Frost,2309,F45-49,Female,Auckland,AUK,New Zealand,NZ,0:54:07,3:53:25,3:45:50,,,8:44:33,3247,14005,13550,531,140,31473,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Leighton,Matheson,Leighton Matheson,2029,M40-44,Male,,,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sham,Hurbuns,Sham Hurbuns,2285,M45-49,Male,North Shore City,AUK,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nathan,Saunders,Nathan Saunders,2144,M30-34,Male,Rivervale,WA,New Zealand,NZ,0:24:35,2:21:02,,,,,1475,8462,0,158,51,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Julie,Clément,Julie Clément,2353,F50-54,Female,Mascouche,QC,Canada,CA,0:58:18,4:10:07,,,,,3498,15007,0,431,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Prasenjit Singh,Laikangbam,Prasenjit Singh Laikangbam,2134,M30-34,Male,Imphal,Manipur,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rick,Galbraith,Rick Galbraith,2333,M50-54,Male,Taupo,WKO,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+CHUNZI,YANG,CHUNZI YANG,2168,F30-34,Female,北京,APO,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Graham,Jones,Graham Jones,2403,M65-69,Male,Taupo,BOP,New Zealand,NZ,0:52:42,3:43:45,3:20:15,,,8:09:27,3162,13425,12015,514,251,29367,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Betsy,Tootell,Betsy Tootell,2407,F65-69,Female,lewes,DE,United States,US,0:48:42,4:02:34,2:48:31,,,7:54:09,2922,14554,10111,676,186,28449,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Stone,Michael Stone,2344,M50-54,Male,Boulder,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Alexander,Scott Alexander,2220,M40-44,Male,SUTTON,NSW,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vaughan,Hunt,Vaughan Hunt,2371,M55-59,Male,Ashhurst,MWT,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bernard,Ravinet,Bernard Ravinet,2120,M30-34,Male,,,Brazil,BR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luiz,Simao,Luiz Simao,2295,M45-49,Male,Rio de janeiro,BR-RJ,Brazil,BR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Courtney,Mcdonald,Courtney Mcdonald,2159,F30-34,Female,Joyner,QLD,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Benjamin,Elrod,Benjamin Elrod,2229,M40-44,Male,CHICAGO,IL,United States,US,0:41:02,3:30:56,,,,,2462,12656,0,458,264,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Debbie,Kaufman,Debbie Kaufman,2158,F30-34,Female,easton,CT,United States,US,0:51:09,4:45:45,,,,,3069,17145,0,471,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+John,Parnell,John Parnell,2060,M45-49,Male,Howrah,TAS,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Mcmaster,Andrew Mcmaster,2235,M40-44,Male,Hastings,HKB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kate,Brown,Kate Brown,2248,F40-44,Female,Taupo,WKO,New Zealand,NZ,0:33:19,,,,,,1999,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0

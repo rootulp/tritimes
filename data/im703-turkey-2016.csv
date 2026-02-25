@@ -1,0 +1,574 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Jonas,Schomburg,Jonas Schomburg,3,MPRO,Male,Langenhagen,NI,Turkey,TR,0:23:31,2:09:56,1:23:04,,,4:01:10,1411,7796,4984,194,85,14470,1,1,1,1,1,1,1,1,1,1,1,1,Finisher,3500
+Thomas,Huwiler,Thomas Huwiler,245,M25-29,Male,Acacias,,Switzerland,CH,0:28:35,2:13:25,1:14:07,,,4:01:11,1715,8005,4447,225,79,14471,2,2,1,28,24,4,5,5,1,2,2,1,Finisher,3500
+Jérémy,MOREL,Jérémy MOREL,2,MPRO,,Roubaix,Hauts-de-France,France,FR,0:26:53,2:13:09,1:20:54,,,4:05:48,1613,7989,4854,208,84,14748,4,4,2,14,12,2,3,3,2,4,4,2,Finisher,3416
+Francky,Favre,Francky Favre,16,M35-39,Male,VILLARZEL CABARDES,,Martinique,MQ,0:29:21,2:15:49,1:25:25,,,4:16:29,1761,8149,5125,250,104,15389,6,6,1,42,38,6,7,7,2,6,6,1,Finisher,3500
+Adrian,Siemons,Adrian Siemons,31,M30-34,Male,Rijkevorsel,Vlaams Gewest,Belgium,BE,0:31:14,2:16:35,1:24:49,,,4:18:15,1874,8195,5089,233,104,15495,7,7,1,71,66,16,23,23,9,7,7,1,Finisher,3500
+Mert,Onaran,Mert Onaran,505,M30-34,Male,İzmir,Türkiye,Turkey,TR,0:26:53,2:20:47,1:25:16,,,4:18:25,1613,8447,5116,239,90,15505,8,8,2,11,10,3,16,16,4,8,8,2,Finisher,3497
+Fabien,Besancon,Fabien Besancon,27,M30-34,Male,Saint Fargeau Ponthierry,,France,FR,0:25:47,2:21:36,1:25:29,,,4:18:40,1547,8496,5129,257,91,15520,9,9,3,6,6,1,17,17,5,9,9,3,Finisher,3492
+Arif,Harun Arman,Arif Harun Arman,573,M35-39,Male,istanbul,Erenkoy,Turkey,TR,0:28:39,2:18:43,1:24:55,,,4:19:05,1719,8323,5095,250,158,15545,10,10,2,29,25,3,12,12,3,10,10,2,Finisher,3453
+Alexandru,Toma,Alexandru Toma,557,M25-29,Male,Bucharest,București,Romania,RO,0:25:13,2:22:05,1:27:24,,,4:20:49,1513,8525,5244,262,105,15649,11,11,2,4,4,1,18,18,3,11,11,2,Finisher,3146
+Carlo,Benetti,Carlo Benetti,528,M25-29,Male,asiago,vicenza,Italy,IT,0:33:06,2:21:22,1:19:29,,,4:21:36,1986,8482,4769,314,145,15696,12,12,3,116,105,7,48,48,4,12,12,3,Finisher,3132
+Tim,Fievez,Tim Fievez,372,M30-34,Male,Issoudun,,Belgium,BE,0:25:53,2:15:55,1:34:15,,,4:21:59,1553,8155,5655,244,112,15719,13,13,4,8,8,2,6,6,1,13,13,4,Finisher,3432
+Matthias,Fackler,Matthias Fackler,465,M30-34,Male,München,BAYERN,Germany,DE,0:31:26,2:16:16,1:28:41,,,4:22:08,1886,8176,5321,240,105,15728,14,14,5,75,70,19,21,21,8,14,14,5,Finisher,3430
+Kemal,Çobanyildizi,Kemal Çobanyildizi,515,M30-34,Male,Isparta,Merkez,Turkey,TR,0:28:56,2:18:04,1:29:12,,,4:22:19,1736,8284,5352,270,97,15739,15,15,6,39,35,11,11,11,3,15,15,6,Finisher,3426
+Tahsin,Özgür,Tahsin Özgür,40,M35-39,Male,Istanbul,,Turkey,TR,0:31:22,2:19:44,1:26:20,,,4:23:37,1882,8384,5180,261,110,15817,17,17,3,74,69,14,30,30,10,17,17,3,Finisher,3371
+Richard,Giles,Richard Giles,41,M35-39,Male,Hull,,United Kingdom,GB,0:31:01,2:18:00,1:29:13,,,4:25:05,1861,8280,5353,273,138,15905,18,18,4,68,63,12,28,28,8,18,18,4,Finisher,3345
+Viktor,Didenko,Viktor Didenko,393,M35-39,Male,Kharkov,Ukraine,Ukraine,UA,0:30:12,2:17:35,1:31:11,,,4:25:28,1812,8255,5471,252,138,15928,19,19,5,51,47,9,25,25,7,19,19,5,Finisher,3338
+Sitemkar,Bolsoy,Sitemkar Bolsoy,23,M40-44,Male,Adana,Seyhan,Turkey,TR,0:30:31,2:16:59,1:32:35,,,4:25:51,1831,8219,5555,247,99,15951,20,20,1,61,56,7,15,15,1,20,20,1,Finisher,3500
+Andreas,Wünscher,Andreas Wünscher,526,M35-39,Male,Graz,,Austria,AT,0:28:52,2:18:31,1:32:58,,,4:26:04,1732,8311,5578,253,90,15964,21,21,6,38,34,5,14,14,4,21,21,6,Finisher,3327
+Ramazan Emre,Apaydin,Ramazan Emre Apaydin,39,M25-29,Male,istanbul,sisli,Turkey,TR,0:28:08,2:18:34,1:38:05,,,4:31:19,1688,8314,5885,291,101,16279,23,23,4,25,22,3,13,13,2,23,23,4,Finisher,2957
+Pavel,Blagikh,Pavel Blagikh,343,M30-34,Male,Girona,Catalonia,Russia,RU,0:36:48,2:15:38,1:33:26,,,4:31:48,2208,8138,5606,240,116,16308,24,24,7,238,215,44,36,36,11,24,24,7,Finisher,3256
+Joel,Corthinal,Joel Corthinal,308,M40-44,Male,La Queue en Brie,,France,FR,0:34:35,2:20:03,1:31:20,,,4:32:21,2075,8403,5480,277,106,16341,25,25,2,164,147,21,45,45,4,25,25,2,Finisher,3383
+Ruso,Yakimovic,Ruso Yakimovic,336,M30-34,Male,Akat,,Turkey,TR,0:27:01,2:30:05,1:29:50,,,4:32:55,1621,9005,5390,247,112,16375,26,26,8,16,14,5,59,57,15,26,26,8,Finisher,3236
+Alessandro,Bonino,Alessandro Bonino,584,M30-34,Male,Monticello d'Alba,italia,Italy,IT,0:31:57,2:23:54,1:31:07,,,4:33:09,1917,8634,5467,262,109,16389,27,27,9,82,77,21,50,50,13,27,27,9,Finisher,3231
+Anton,Vinogradov,Anton Vinogradov,521,M30-34,Male,Moscow,APO,Russia,RU,0:30:09,2:17:45,1:39:44,,,4:33:11,1809,8265,5984,227,106,16391,28,28,10,49,45,13,20,20,7,28,28,10,Finisher,3231
+Oleg,Astanin,Oleg Astanin,578,M35-39,Male,istanbul,APO,Russia,RU,0:25:45,2:21:26,1:39:58,,,4:33:37,1545,8486,5998,278,110,16417,29,29,7,5,5,1,24,24,6,29,29,7,Finisher,3191
+Dominique,Michel,Dominique Michel,571,M50-54,Male,CHATOU,,France,FR,0:32:46,2:21:48,1:31:59,,,4:33:42,1966,8508,5519,307,122,16422,30,30,1,103,94,7,47,47,1,30,30,1,Finisher,3500
+Yuriy,Rastegaev,Yuriy Rastegaev,470,M45-49,Male,Velsk,"APO
+",Russia,RU,0:33:05,2:17:42,1:36:29,,,4:34:07,1985,8262,5789,307,104,16447,32,32,1,115,104,10,34,34,1,32,32,1,Finisher,3500
+Umit,Vatansever,Umit Vatansever,492,M35-39,Male,Indianapolis,IN,Turkey,TR,0:28:42,2:18:28,1:40:48,,,4:34:32,1722,8308,6048,272,122,16472,33,33,8,31,27,4,22,22,5,33,33,8,Finisher,3175
+Eric,Dyner,Eric Dyner,506,M40-44,Male,SCARSDALE,NY,United States,US,0:28:48,2:21:00,1:36:48,,,4:34:43,1728,8460,5808,344,143,16483,34,34,3,34,30,3,31,31,2,34,34,3,Finisher,3340
+Oleks,Dovzhenko	,Oleks Dovzhenko,22,M30-34,Male,Copenhagen S,HOVEDSTADEN,Ukraine,UA,0:33:59,2:22:34,1:30:45,,,4:34:48,2039,8554,5445,331,119,16488,35,35,11,142,128,29,67,65,18,35,35,11,Finisher,3202
+Oguz,Omur,Oguz Omur,54,M45-49,Male,Istanbul,na,Turkey,TR,0:28:51,2:23:04,1:36:33,,,4:35:05,1731,8584,5793,290,107,16505,36,36,2,36,32,1,38,38,2,36,36,2,Finisher,3482
+Filippo,Sensoli,Filippo Sensoli,32,M45-49,Male,livigno,,Italy,IT,0:33:33,2:18:51,1:36:30,,,4:35:15,2013,8331,5790,269,112,16515,37,37,3,126,113,13,40,40,3,37,37,3,Finisher,3479
+Maksym,Mazur,Maksym Mazur,303,M35-39,Male,Kyiv,Kyiv,Ukraine,UA,0:25:51,2:13:53,1:48:43,,,4:35:43,1551,8033,6523,265,171,16543,38,38,9,7,7,2,4,4,1,38,38,9,Finisher,3153
+Baris,Ilhan,Baris Ilhan,398,M25-29,Male,İzmir,,Turkey,TR,0:27:24,2:30:11,1:33:02,,,4:35:57,1644,9011,5582,227,93,16557,39,39,5,19,16,2,61,59,6,39,39,5,Finisher,2874
+Joost,Van Rens,Joost Van Rens,495,M40-44,Male,Baarn,,Netherlands,NL,0:31:45,2:21:24,1:36:07,,,4:36:37,1905,8484,5767,287,154,16597,40,40,4,79,74,10,42,42,3,40,40,4,Finisher,3306
+Rolf,Seiler,Rolf Seiler,20,M50-54,Male,Steinerberg,,Switzerland,CH,0:32:19,2:23:39,1:34:45,,,4:36:38,1939,8619,5685,247,108,16598,41,41,2,91,84,4,49,49,2,41,41,2,Finisher,3447
+Gokhan,Dogruol,Gokhan Dogruol,19,M50-54,Male,Istanbul,,Turkey,TR,0:29:12,2:27:38,1:34:49,,,4:37:44,1752,8858,5689,260,105,16664,42,42,3,40,36,1,57,55,3,42,42,3,Finisher,3427
+Andreas,Rath,Andreas Rath,151,M35-39,Male,Ofterdingen,,Germany,DE,0:32:14,2:19:05,1:39:59,,,4:38:01,1934,8345,5999,290,113,16681,43,43,10,87,80,16,35,35,11,43,43,10,Finisher,3112
+Mikhail,Lubenets,Mikhail Lubenets,18,M40-44,Male,luxembourg,luxembourg,Russia,RU,0:37:18,2:27:28,1:26:40,,,4:38:08,2238,8848,5200,283,119,16688,44,44,5,254,230,41,88,82,10,44,44,5,Finisher,3278
+Bahadir,Tama,Bahadir Tama,353,M30-34,Male,Istanbul,Basaksehir,Turkey,TR,0:28:00,2:20:01,1:46:18,,,4:39:38,1680,8401,6378,219,100,16778,45,45,12,22,19,6,19,19,6,45,45,12,Finisher,3115
+Carl-Johan,Leinoff,Carl-Johan Leinoff,450,M30-34,Male,Kilchberg,,Sweden,SE,0:32:16,2:16:06,1:44:22,,,4:40:08,1936,8166,6262,293,151,16808,46,46,13,88,81,22,26,26,10,46,46,13,Finisher,3106
+Roksolana,Ishchuk,Roksolana Ishchuk,558,F30-34,Female,Moscow,"Mos
+",Russia,RU,0:26:51,2:30:24,1:38:37,,,4:41:08,1611,9024,5917,216,100,16868,47,1,1,10,1,1,53,1,1,47,1,1,Finisher,3500
+Mikkel,Christophersen,Mikkel Christophersen,231,M35-39,Male,"
+rødovre",,Denmark,DK,0:30:31,2:24:00,1:39:14,,,4:41:40,1831,8640,5954,305,170,16900,50,49,11,62,57,11,46,46,15,50,49,11,Finisher,3046
+Wojciech,Odzimek,Wojciech Odzimek,425,M35-39,Male,Almaty,Almaty,Poland,PL,0:31:02,2:17:54,1:47:00,,,4:42:48,1862,8274,6420,283,129,16968,52,51,12,69,64,13,29,29,9,52,51,12,Finisher,3026
+Zülfü,Karabulut,Zülfü Karabulut,332,M30-34,Male,Antalya,Muratpaşa,Turkey,TR,0:28:06,2:17:16,1:51:45,,,4:42:53,1686,8236,6705,255,91,16973,53,52,14,24,21,8,8,8,2,53,52,14,Finisher,3056
+Duygun,Yurteri,Duygun Yurteri,347,M30-34,Male,istanbul,İstanbul,Turkey,TR,0:26:56,2:29:30,1:40:16,,,4:43:29,1616,8970,6016,289,118,17009,54,53,15,15,13,4,60,58,16,54,53,15,Finisher,3045
+Ece,Calp,Ece Calp,574,FPRO,Female,İzmir,Karabağlar,Turkey,TR,0:27:08,2:34:25,1:35:45,,,4:43:31,1628,9265,5745,280,93,17011,55,2,1,18,3,1,74,4,1,55,2,1,Finisher,3500
+Mathieu,Dussartre,Mathieu Dussartre,137,M35-39,Male,VALENCE,,France,FR,0:32:36,2:23:11,1:41:32,,,4:45:06,1956,8591,6092,301,166,17106,57,55,13,100,91,19,52,52,16,57,55,13,Finisher,2984
+Matteo,Cantieri,Matteo Cantieri,535,M35-39,,Vergato,Bologna,Italy,IT,0:32:26,2:23:38,1:42:34,,,4:45:15,1946,8618,6154,294,103,17115,58,56,14,95,87,17,55,53,17,58,56,14,Finisher,2982
+Andrey,Karpov,Andrey Karpov,360,M30-34,Male,Moscow,,Russia,RU,0:34:10,2:18:45,1:45:23,,,4:45:48,2050,8325,6323,289,161,17148,60,58,16,150,136,33,41,41,12,60,58,16,Finisher,3004
+Lukasz,Szemelowski,Lukasz Szemelowski,550,M35-39,Male,LONDON,,Poland,PL,0:31:29,2:20:42,1:46:59,,,4:45:54,1889,8442,6419,275,129,17154,61,59,15,76,71,15,39,39,13,61,59,15,Finisher,2970
+Junya,Nakadate,Junya Nakadate,468,M30-34,Male,"Jakarta Selatan
+Jakarta","
+Jakarta",Japan,JP,0:33:50,2:35:32,1:27:29,,,4:46:10,2030,9332,5249,345,214,17170,62,60,17,136,122,27,136,130,25,62,60,17,Finisher,2997
+Pierre,Jander,Pierre Jander,390,M35-39,Male,Weiden,,Germany,DE,0:30:05,2:22:14,1:48:07,,,4:46:11,1805,8534,6487,257,88,17171,63,61,16,48,44,8,37,37,12,63,61,16,Finisher,2965
+Wendy,Mader,Wendy Mader,491,F40-44,Female,WOODSTOCK,GA,United States,US,0:26:53,2:29:55,1:44:39,,,4:47:41,1613,8995,6279,244,130,17261,65,3,1,13,2,1,54,2,1,65,3,1,Finisher,3500
+Sergei,Tcarev,Sergei Tcarev,565,M45-49,Male,borovichi,APO,Russia,RU,0:33:27,2:23:54,1:44:28,,,4:49:00,2007,8634,6268,319,112,17340,66,63,4,122,109,12,69,67,4,66,63,4,Finisher,3232
+Daniel,Machek,Daniel Machek,458,M55-59,Male,Praha 3,Czech,Czech Republic,CZ,0:26:53,2:30:20,1:44:49,,,4:49:27,1613,9020,6289,278,167,17367,68,65,1,12,11,1,66,64,1,68,65,1,Finisher,3500
+Sergei,Lozin,Sergei Lozin,499,M30-34,Male,Moscow,,Russia,RU,0:29:36,2:26:00,1:45:37,,,4:49:30,1776,8760,6337,332,165,17370,69,66,18,43,39,12,56,54,14,69,66,18,Finisher,2937
+Özgür,Aksaman,Özgür Aksaman,1,MPRO,Male,Istanbul,TURKIYE,Turkey,TR,0:30:39,2:34:34,1:37:58,,,4:49:34,1839,9274,5878,279,104,17374,70,67,3,65,60,3,91,85,3,70,67,3,Finisher,2628
+Berry,Nae,Berry Nae,441,M40-44,Male,istanbul,Turkey,Turkey,TR,0:37:58,2:24:26,1:40:15,,,4:49:47,2278,8666,6015,310,118,17387,71,68,6,284,252,47,78,73,7,71,68,6,Finisher,3069
+Oriana,Heer,Oriana Heer,14,F35-39,Female,Felanitx,,Switzerland,CH,0:33:21,2:28:18,1:42:29,,,4:50:05,2001,8898,6149,257,100,17405,72,4,1,121,13,2,73,3,1,72,4,1,Finisher,3500
+Bartosz,Matysiak,Bartosz Matysiak,30,M35-39,Male,Bruvoll,,Poland,PL,0:37:29,2:26:05,1:40:27,,,4:51:09,2249,8765,6027,278,150,17469,74,70,17,265,237,41,81,76,19,74,70,17,Finisher,2876
+Arthur,Ocheretny,Arthur Ocheretny,498,M35-39,Male,Moscow,MOSKVA,Russia,RU,0:37:21,2:24:10,1:40:00,,,4:51:30,2241,8650,6000,430,169,17490,75,71,18,259,233,38,86,80,20,75,71,18,Finisher,2869
+Ali,Tabbal,Ali Tabbal,265,M45-49,Male,Dubai,DXB,Lebanon,LB,0:30:11,2:27:24,1:46:25,,,4:51:43,1811,8844,6385,306,157,17503,76,72,5,50,46,3,70,68,5,76,72,5,Finisher,3183
+Gryshyna,Oleksandra,Gryshyna Oleksandra,105,F25-29,Female,Dnipro,Dnipro district,Ukraine,UA,0:28:26,2:34:18,1:42:09,,,4:51:50,1706,9258,6129,271,146,17510,77,5,1,26,4,1,77,5,1,77,5,1,Finisher,3500
+Baris,Kiliçkaya,Baris Kiliçkaya,378,M40-44,Male,ISTANBUL,TURKEY,Turkey,TR,0:33:09,2:38:03,1:30:16,,,4:52:28,1989,9483,5416,455,205,17548,78,73,7,117,106,15,170,158,28,78,73,7,Finisher,3020
+Yves-Robert,Tolleron,Yves-Robert Tolleron,523,M55-59,Male,CRESTET,,France,FR,0:42:24,2:25:54,1:37:21,,,4:52:36,2544,8754,5841,286,131,17556,79,74,2,402,356,10,111,105,2,79,74,2,Finisher,3443
+Anton,Zinakov,Anton Zinakov,564,M30-34,Male,Moscow,Moscow,Russia,RU,0:35:04,2:28:30,1:41:04,,,4:52:37,2104,8910,6064,318,161,17557,80,75,19,182,165,34,87,81,20,80,75,19,Finisher,2881
+Oleksandr,Nikitin,Oleksandr Nikitin,341,M35-39,Male,Kiev,Kiev,Ukraine,UA,0:37:41,2:27:25,1:38:06,,,4:53:31,2261,8845,5886,351,268,17611,82,77,19,272,242,42,99,93,23,82,77,19,Finisher,2833
+Fatih,Topcu,Fatih Topcu,328,M35-39,Male,İSTANBUL,ISTANBUL,Turkey,TR,0:35:51,2:33:26,1:36:28,,,4:53:50,2151,9206,5788,347,138,17630,83,78,20,204,183,31,135,129,28,83,78,20,Finisher,2827
+utku erdem,özer,utku erdem özer,68,M35-39,Male,istanbul,istanbul,Turkey,TR,0:36:02,2:25:53,1:44:40,,,4:54:14,2162,8753,6280,307,152,17654,84,79,21,214,193,33,76,72,18,84,79,21,Finisher,2820
+Cihan,Asrak,Cihan Asrak,453,M25-29,Male,Sarıyer,foreigner,Turkey,TR,0:33:45,2:22:56,1:51:41,,,4:55:30,2025,8576,6701,284,144,17730,85,80,6,133,120,9,62,60,7,85,80,6,Finisher,2522
+Emre,Ozbilge,Emre Ozbilge,186,M30-34,Male,Kyrenia,Kyrenia,Cyprus,CY,0:42:27,2:27:43,1:37:10,,,4:55:53,2547,8863,5830,379,134,17753,86,81,20,403,357,73,145,139,27,86,81,20,Finisher,2822
+Leon,Peso,Leon Peso,532,M50-54,Male,Istanbul,,Turkey,TR,0:38:23,2:34:12,1:35:35,,,4:56:14,2303,9252,5735,323,161,17774,87,82,4,298,264,20,160,150,12,87,82,4,Finisher,3094
+Gian Luca,Riontino,Gian Luca Riontino,58,M40-44,Male,Milano,Italia,Italy,IT,0:34:43,2:31:05,1:42:38,,,4:56:29,2083,9065,6158,355,128,17789,88,83,8,171,154,22,102,96,13,88,83,8,Finisher,2948
+Ipek,Onaran Sezer,Ipek Onaran Sezer,12,F30-34,Female,İstanbul,,Turkey,TR,0:31:58,2:38:37,1:37:49,,,4:56:32,1918,9517,5869,367,121,17792,89,6,2,83,6,2,149,7,2,89,6,2,Finisher,3222
+Kerem,Topuz,Kerem Topuz,546,M35-39,Male,Ankara,Ankara,Turkey,TR,0:35:02,2:34:04,1:40:48,,,4:56:38,2102,9244,6048,301,103,17798,90,84,22,181,164,29,122,116,26,90,84,22,Finisher,2777
+Binatli,Tugay,Binatli Tugay,317,M45-49,Male,Istanbul,turkey,Turkey,TR,0:34:40,2:31:59,1:42:36,,,4:56:51,2080,9119,6156,300,156,17811,91,85,6,167,150,18,100,94,6,91,85,6,Finisher,3090
+Murat,Guney,Murat Guney,349,M30-34,Male,İstanbul,ISTANBUL,Turkey,TR,0:39:24,2:26:51,1:43:05,,,4:57:12,2364,8811,6185,334,138,17832,92,86,21,323,286,58,103,97,22,92,86,21,Finisher,2798
+Daniel,Arpinte,Daniel Arpinte,375,M40-44,Male,Bucharest,Romania,Romania,RO,0:35:30,2:27:09,1:46:37,,,4:57:15,2130,8829,6397,310,169,17835,93,87,9,191,172,26,79,74,8,93,87,9,Finisher,2934
+Mark,Rogers,Mark Rogers,158,M50-54,Male,Wadebridge,,United Kingdom,GB,0:34:10,2:28:47,1:46:28,,,4:57:28,2050,8927,6388,317,166,17848,94,88,5,151,137,11,82,77,4,94,88,5,Finisher,3072
+Ömür,Battal,Ömür Battal,409,M35-39,Male,İstanbul,Maltepe,Turkey,TR,0:32:27,2:34:06,1:44:43,,,4:57:30,1947,9246,6283,249,125,17850,95,89,23,96,88,18,96,90,22,95,89,23,Finisher,2761
+Ozhan,Ozturk,Ozhan Ozturk,65,M40-44,Male,istanbul,sisli,Turkey,TR,0:36:48,2:32:21,1:40:34,,,4:58:05,2208,9141,6034,368,134,17885,96,90,10,239,216,36,137,131,21,96,90,10,Finisher,2919
+Ahmet Melih,Yavas,Ahmet Melih Yavas,160,M40-44,Male,İstanbul,Istanbul,Turkey,TR,0:36:27,2:35:35,1:38:07,,,4:58:29,2187,9335,5887,386,114,17909,97,91,11,229,207,33,168,157,27,97,91,11,Finisher,2912
+Markus,Klein,Markus Klein,163,M45-49,Male,Weinheim,,Germany,DE,0:38:04,2:26:58,1:44:50,,,4:59:00,2284,8818,6290,398,150,17940,98,92,7,290,258,29,101,95,7,98,92,7,Finisher,3052
+ONAY,BAYRAM,ONAY BAYRAM,72,M35-39,Male,Sarıyer,,Turkey,TR,0:34:46,2:34:34,1:40:10,,,4:59:19,2086,9274,6010,418,171,17959,99,93,24,173,156,26,143,137,30,99,93,24,Finisher,2729
+Tolga,Alpagot,Tolga Alpagot,29,M40-44,Male,Versoix,,Turkey,TR,0:36:00,2:31:47,1:42:53,,,4:59:46,2160,9107,6173,359,187,17986,100,94,12,213,192,27,120,114,19,100,94,12,Finisher,2889
+Anthony,Waddington,Anthony Waddington,527,M40-44,Male,Monmouth,,United Kingdom,GB,0:34:01,2:34:20,1:42:41,,,4:59:49,2041,9260,6161,340,187,17989,101,95,13,144,130,19,121,115,20,101,95,13,Finisher,2888
+Uroš,Kepic,Uroš Kepic,293,M45-49,Male,Ljubljana,foreigner,Slovenia,SI,0:33:04,2:40:58,1:39:00,,,5:00:12,1984,9658,5940,287,143,18012,102,96,8,113,102,9,171,159,17,102,96,8,Finisher,3030
+Hanne,Staanum,Hanne Staanum,91,F50-54,Female,København S,,Denmark,DK,0:44:21,2:26:32,1:41:15,,,5:00:23,2661,8792,6075,356,139,18023,103,7,1,442,50,5,150,8,1,103,7,1,Finisher,3500
+Martin,Gautschi,Martin Gautschi,52,M55-59,Male,Hittnau,,Switzerland,CH,0:47:03,2:25:36,1:38:43,,,5:00:38,2823,8736,5923,375,181,18038,104,97,3,485,428,12,172,160,5,104,97,3,Finisher,3298
+Ege,Battal,Ege Battal,415,M40-44,Male,İSTANBUL,,Turkey,TR,0:32:25,2:34:02,1:47:59,,,5:00:46,1945,9242,6479,250,130,18046,105,98,14,93,86,14,95,89,12,105,98,14,Finisher,2871
+Wolfgang,Probst,Wolfgang Probst,340,M45-49,Male,Steinfurt,,Germany,DE,0:32:18,2:36:40,1:42:35,,,5:00:47,1938,9400,6155,360,194,18047,106,99,9,90,83,5,133,127,13,106,99,9,Finisher,3020
+Emrah,Bayraktar,Emrah Bayraktar,57,M35-39,Male,ISTANBUL,,Turkey,TR,0:39:12,2:27:57,1:45:33,,,5:01:25,2352,8877,6333,369,154,18085,107,100,25,318,282,48,115,109,25,107,100,25,Finisher,2691
+Billy,Hodgson,Billy Hodgson,326,M25-29,Male,Truro,Cornwall,United Kingdom,GB,0:34:29,2:31:46,1:48:49,,,5:01:40,2069,9106,6529,275,121,18100,108,101,7,160,144,11,98,92,10,108,101,7,Finisher,2411
+Kerim,Sukan,Kerim Sukan,410,M40-44,Male,Istanbul,Besiktas,Turkey,TR,0:28:47,2:32:41,1:53:11,,,5:01:43,1727,9161,6791,313,111,18103,109,102,15,33,29,2,75,71,6,109,102,15,Finisher,2854
+Serhan,Tuncer,Serhan Tuncer,568,M40-44,Male,Istanbul,Istanbul,Turkey,TR,0:36:24,2:39:53,1:38:20,,,5:02:07,2184,9593,5900,302,148,18127,111,104,16,226,204,31,192,179,31,111,104,16,Finisher,2847
+Christian,Petutschnig,Christian Petutschnig,145,M45-49,Male,Klosterneuburg,,Austria,AT,0:33:37,2:35:52,1:44:09,,,5:02:21,2017,9352,6249,327,196,18141,112,105,10,130,117,14,132,126,12,112,105,10,Finisher,2991
+Berkay,Ramiz,Berkay Ramiz,181,M25-29,Male,Lefkosa,KKTC,Turkey,TR,0:28:51,2:27:31,1:58:36,,,5:02:23,1731,8851,7116,307,138,18143,113,106,8,37,33,5,63,61,8,113,106,8,Finisher,2398
+Cemal Emrah,Uster,Cemal Emrah Uster,519,M40-44,Male,,,Turkey,TR,0:30:25,2:32:13,1:50:23,,,5:02:23,1825,9133,6623,353,209,18143,114,107,17,57,52,6,85,79,9,114,107,17,Finisher,2842
+Gökhan,Erc Yes,Gökhan Erc Yes,376,M35-39,Male,Istanbul,APO,Turkey,TR,0:38:24,2:36:13,1:39:59,,,5:02:26,2304,9373,5999,360,110,18146,115,108,26,299,265,45,187,174,37,115,108,26,Finisher,2672
+Andriy,Larchenko,Andriy Larchenko,503,M25-29,Male,Kiev,Kyiv,Ukraine,UA,0:35:33,2:36:59,1:42:09,,,5:02:46,2133,9419,6129,346,139,18166,116,109,9,194,175,13,166,156,14,116,109,9,Finisher,2391
+Maija,Hovila,Maija Hovila,504,F30-34,Female,Espoo,Uusimaa,United Kingdom,GB,0:35:44,2:36:53,1:42:42,,,5:03:14,2144,9413,6162,348,127,18194,117,8,3,200,20,5,167,11,3,117,8,3,Finisher,3102
+Claudia,Hille,Claudia Hille,517,F50-54,Female,Pflach,,Germany,DE,0:34:31,2:44:02,1:38:40,,,5:03:27,2071,9842,5920,255,119,18207,118,9,2,161,17,1,210,16,3,118,9,2,Finisher,3444
+Tim,Hutchins,Tim Hutchins,487,M40-44,Male,LAKEWOOD,CO,United Kingdom,GB,0:37:44,2:29:59,1:46:12,,,5:03:29,2264,8999,6372,337,237,18209,119,110,18,274,243,43,116,110,16,119,110,18,Finisher,2822
+Bora,Özdogan,Bora Özdogan,43,M40-44,Male,Istanbul,Uskudar,Turkey,TR,0:37:03,2:32:28,1:42:59,,,5:03:35,2223,9148,6179,461,204,18215,120,111,19,246,223,39,154,146,22,120,111,19,Finisher,2820
+Oleksandr,Vovk,Oleksandr Vovk,351,M18-24,Male,Kyiv,Kyiv,Ukraine,UA,0:35:37,2:33:49,1:46:31,,,5:03:39,2137,9229,6391,314,148,18219,121,112,1,197,178,2,130,124,2,121,112,1,Finisher,3500
+Jean-Patrick,Mothes,Jean-Patrick Mothes,551,M40-44,Male,Bordeaux,,France,FR,0:33:57,2:38:25,1:41:50,,,5:03:46,2037,9505,6110,393,181,18226,122,113,20,141,127,18,173,161,29,122,113,20,Finisher,2817
+Iegor,Rubanskyi,Iegor Rubanskyi,438,M30-34,Male,Kyiv,Kyiv,Ukraine,UA,0:30:55,2:41:23,1:44:27,,,5:03:53,1855,9683,6267,289,139,18233,123,114,22,67,62,15,153,145,30,123,114,22,Finisher,2678
+Mark,Cox,Mark Cox,212,M30-34,Male,sheffield,south Yorkshire,United Kingdom,GB,0:35:30,2:28:59,1:51:47,,,5:04:38,2130,8939,6707,342,160,18278,124,115,23,192,173,37,94,88,21,124,115,23,Finisher,2665
+Sera,Sayar,Sera Sayar,104,F18-24,Female,Istanbul,,Turkey,TR,0:30:20,2:41:41,1:45:05,,,5:05:09,1820,9701,6305,321,162,18309,125,10,1,55,5,1,156,9,1,125,10,1,Finisher,3500
+Emre,Tacir,Emre Tacir,566,M40-44,Male,Menifee,CA,Turkey,TR,0:36:58,2:36:48,1:43:21,,,5:05:29,2218,9408,6201,341,161,18329,126,116,21,242,219,37,178,165,30,126,116,21,Finisher,2786
+Simon,Verzijl,Simon Verzijl,62,M50-54,Male,Kockengen,,Netherlands,NL,0:32:18,2:32:41,1:53:32,,,5:05:31,1938,9161,6812,302,118,18331,127,117,6,89,82,3,93,87,5,127,117,6,Finisher,2927
+Volkan,Odak,Volkan Odak,388,M25-29,Male,istanbul,istanbul,Turkey,TR,0:33:29,2:33:55,1:49:32,,,5:05:37,2009,9235,6572,268,253,18337,128,118,10,124,111,8,104,98,11,128,118,10,Finisher,2340
+Selcuk,Yildirim,Selcuk Yildirim,249,M50-54,Male,Berlin,foreigner,Germany,DE,0:34:37,2:36:19,1:45:26,,,5:05:45,2077,9379,6326,307,256,18345,129,119,7,166,149,13,142,136,10,129,119,7,Finisher,2923
+Petrus,Ravanazzo,Petrus Ravanazzo,547,M30-34,Male,São Paulo,SP,Brazil,BR,0:28:46,2:27:45,2:01:47,,,5:05:53,1726,8865,7307,300,155,18353,130,120,24,32,28,10,65,63,17,130,120,24,Finisher,2642
+Ahmet,Berber,Ahmet Berber,431,M35-39,Male,İSTANBUL,Turkey,Turkey,TR,0:32:48,2:35:33,1:44:59,,,5:05:55,1968,9333,6299,446,309,18355,131,121,27,106,97,21,141,135,29,131,121,27,Finisher,2610
+Ozan,Demirel,Ozan Demirel,430,M35-39,Male,Istanbul,Gokturk,Turkey,TR,0:37:27,2:30:19,1:48:52,,,5:06:04,2247,9019,6532,399,167,18364,132,122,28,262,235,40,125,119,27,132,122,28,Finisher,2607
+Onur,Caka,Onur Caka,201,M30-34,Male,Etobicoke,ON,Turkey,TR,0:33:35,2:42:58,1:40:07,,,5:06:07,2015,9778,6007,386,181,18367,133,123,25,127,114,25,213,197,37,133,123,25,Finisher,2638
+Serdar,Selisik,Serdar Selisik,512,M40-44,Male,İstanbul,APO,Turkey,TR,0:34:54,2:29:50,1:54:26,,,5:06:19,2094,8990,6866,305,124,18379,135,125,22,177,160,24,90,84,11,135,125,22,Finisher,2771
+Mert,Salur,Mert Salur,455,M25-29,Male,Istanbul,Istanbul,Turkey,TR,0:35:57,2:36:14,1:47:54,,,5:06:33,2157,9374,6474,288,100,18393,136,126,11,210,189,17,152,144,13,136,126,11,Finisher,2323
+Alper,Akcan,Alper Akcan,412,M40-44,Male,Istanbul,Beşiktaş,Turkey,TR,0:38:01,2:30:11,1:50:07,,,5:06:38,2281,9011,6607,334,165,18398,137,127,23,287,255,48,119,113,18,137,127,23,Finisher,2765
+Bora,Özcivit,Bora Özcivit,448,M25-29,Male,Cork,Cork,Turkey,TR,0:35:34,2:20:03,2:03:46,,,5:06:42,2134,8403,7426,296,143,18402,138,128,12,195,176,14,51,51,5,138,128,12,Finisher,2320
+Storme,Alexander,Storme Alexander,25,F35-39,Female,"Ongar, essex",England,United Kingdom,GB,0:33:01,2:39:34,1:46:58,,,5:06:58,1981,9574,6418,309,136,18418,139,11,2,112,11,1,158,10,2,139,11,2,Finisher,3196
+Murat,Çiftçi,Murat Çiftçi,182,M40-44,Male,Nicosia,APO,Turkey,TR,0:35:26,2:36:33,1:46:44,,,5:07:22,2126,9393,6404,366,153,18442,140,129,24,189,170,25,164,154,25,140,129,24,Finisher,2752
+Jurijs,Bormanis,Jurijs Bormanis,217,M25-29,Male,Salford,Greater Manchester,Latvia,LV,0:42:21,2:38:39,1:36:29,,,5:07:25,2541,9519,5789,333,263,18445,141,130,13,401,355,27,235,217,18,141,130,13,Finisher,2307
+Mike,Spiewok,Mike Spiewok,161,M55-59,Male,Pfäffikon ZH,,Switzerland,CH,0:39:24,2:33:47,1:47:31,,,5:07:34,2364,9227,6451,293,119,18454,142,131,4,324,287,8,163,153,4,142,131,4,Finisher,3173
+Yaroslav,Vedmid,Yaroslav Vedmid,221,M35-39,Male,Kyiv,Kyiv,Ukraine,UA,0:34:48,2:42:19,1:42:03,,,5:07:35,2088,9739,6123,322,183,18455,143,132,29,175,158,27,207,192,39,143,132,29,Finisher,2580
+Thomas,Huertas,Thomas Huertas,55,M35-39,Male,Ongar,,United Kingdom,GB,0:38:42,2:33:23,1:48:28,,,5:07:42,2322,9203,6508,271,158,18462,146,135,30,305,270,46,147,141,31,146,135,30,Finisher,2578
+David,Virden,David Virden,61,M50-54,Male,Church Stretton,SAL,United Kingdom,GB,0:33:29,2:36:15,1:51:56,,,5:08:35,2009,9375,6716,302,113,18515,147,136,8,123,110,9,131,125,8,147,136,8,Finisher,2872
+Dariusz,Swiderski,Dariusz Swiderski,276,M45-49,Male,Warszawa,mazowieckie,Poland,PL,0:46:09,2:36:46,1:37:23,,,5:08:37,2769,9406,5843,329,170,18517,148,137,11,475,418,46,246,226,25,148,137,11,Finisher,2879
+Stuart,Mannering,Stuart Mannering,157,M40-44,Male,Addlestone,Surrey,United Kingdom,GB,0:36:27,2:38:37,1:42:44,,,5:08:53,2187,9517,6164,465,200,18533,149,138,25,228,206,32,211,195,36,149,138,25,Finisher,2725
+Nariman,Tauzari,Nariman Tauzari,569,M40-44,Male,Kazan,Tatarstan,Russia,RU,0:37:00,2:31:16,1:53:53,,,5:09:29,2220,9076,6833,329,111,18569,150,139,26,244,221,38,118,112,17,150,139,26,Finisher,2714
+Brian,Best,Brian Best,218,M45-49,Male,Bakersfield,CA,United States,US,0:32:58,2:35:12,1:52:51,,,5:09:50,1978,9312,6771,360,169,18590,151,140,12,111,101,8,123,117,9,151,140,12,Finisher,2857
+Martin,Bernhart,Martin Bernhart,307,M50-54,Male,Alanya,Antalya,Turkey,TR,0:44:08,2:30:04,1:48:09,,,5:10:24,2648,9004,6489,292,191,18624,152,141,9,440,391,26,175,162,13,152,141,9,Finisher,2839
+Hakan,Berberler,Hakan Berberler,559,M45-49,Male,Istanbul,marmara,Turkey,TR,0:39:06,2:45:20,1:38:05,,,5:10:39,2346,9920,5885,358,130,18639,154,143,13,314,278,32,266,242,31,154,143,13,Finisher,2842
+Sergey,Korobov,Sergey Korobov,476,M35-39,Male,London,GB-ENG,Russia,RU,0:37:44,2:36:32,1:49:30,,,5:10:44,2264,9392,6570,290,128,18644,155,144,31,275,244,43,176,163,32,155,144,31,Finisher,2523
+Markus,Paerssinen,Markus Paerssinen,230,M45-49,Male,stuttgart,,Germany,DE,0:32:55,2:42:25,1:47:01,,,5:10:52,1975,9745,6421,374,137,18652,156,145,14,108,99,7,197,183,20,156,145,14,Finisher,2838
+Sergey,Novozhylov,Sergey Novozhylov,164,M25-29,Male,Odessa,Odessa,Ukraine,UA,0:32:53,2:31:08,1:57:07,,,5:11:06,1973,9068,7027,340,258,18666,157,146,14,107,98,6,89,83,9,157,146,14,Finisher,2241
+Natalia,Shtrombakh,Natalia Shtrombakh,107,F40-44,Female,Girona,,Russia,RU,0:39:20,2:34:22,1:49:52,,,5:11:22,2360,9262,6592,320,148,18682,159,12,2,320,37,9,174,13,3,159,12,2,Finisher,3073
+Kemal,Elektrikci,Kemal Elektrikci,273,M18-24,Male,Lefkoşa,APO,Cyprus,CY,0:33:15,2:33:22,1:55:24,,,5:11:32,1995,9202,6924,328,243,18692,160,148,2,119,107,1,105,99,1,160,148,2,Finisher,3358
+Alper,Rengiz,Alper Rengiz,318,M30-34,Male,Antalya,Konyaaltı,Turkey,TR,0:35:56,2:31:42,1:55:12,,,5:11:49,2156,9102,6912,336,203,18709,161,149,26,208,187,39,113,107,23,161,149,26,Finisher,2535
+George,Bennett,George Bennett,139,M35-39,Male,Sheffield,DE,United Kingdom,GB,0:39:25,2:43:22,1:41:08,,,5:12:20,2365,9802,6068,352,153,18740,162,150,32,325,288,51,248,228,47,162,150,32,Finisher,2494
+Alpay,Akhun,Alpay Akhun,562,M45-49,Male,İzmir,İzmir,Turkey,TR,0:36:13,2:36:42,1:52:27,,,5:12:32,2173,9402,6747,305,125,18752,163,151,15,219,198,23,162,152,16,163,151,15,Finisher,2808
+Jeff,Illel,Jeff Illel,69,M45-49,Male,Istanbul,Istanbul,Turkey,TR,0:35:52,2:32:19,1:53:13,,,5:12:35,2152,9139,6793,411,260,18755,164,152,16,207,186,22,134,128,14,164,152,16,Finisher,2807
+Hasan,Ellialtioglu,Hasan Ellialtioglu,302,M45-49,Male,Istanbul,Beykoz,Turkey,TR,0:34:21,2:36:43,1:50:57,,,5:12:53,2061,9403,6657,411,241,18773,165,153,17,157,141,15,159,149,15,165,153,17,Finisher,2802
+Çagri,Terzioglu,Çagri Terzioglu,428,M30-34,Male,İstanbul,APO,Turkey,TR,0:38:00,2:34:50,1:52:34,,,5:13:10,2280,9290,6754,277,189,18790,166,154,27,286,254,52,157,148,31,166,154,27,Finisher,2511
+Markus,Strebel,Markus Strebel,496,M50-54,Male,Bachenbülach,,Switzerland,CH,0:32:32,2:37:23,1:56:32,,,5:13:14,1952,9443,6992,282,125,18794,167,155,10,98,89,5,129,123,7,167,155,10,Finisher,2788
+Cahit,Korel,Cahit Korel,477,M35-39,Male,,,Turkey,TR,0:39:21,2:40:30,1:46:36,,,5:13:30,2361,9630,6396,289,134,18810,168,156,33,321,284,50,225,208,42,168,156,33,Finisher,2473
+Emin,Keles,Emin Keles,70,M35-39,Male,Istanbul,Istanbul,Turkey,TR,0:36:36,2:28:30,2:01:06,,,5:13:35,2196,8910,7266,293,150,18815,169,157,34,232,209,35,92,86,21,169,157,34,Finisher,2472
+Can,Adigüzel,Can Adigüzel,246,M30-34,Male,Leipzig,,Turkey,TR,0:34:07,2:42:36,1:47:37,,,5:13:42,2047,9756,6457,423,139,18822,170,158,28,149,135,32,220,204,38,170,158,28,Finisher,2501
+Umit,Goktepe,Umit Goktepe,335,M30-34,Male,Istanbul,Istanbul,Turkey,TR,0:38:39,2:44:48,1:41:57,,,5:13:49,2319,9888,6117,362,143,18829,171,159,29,304,269,53,256,235,45,171,159,29,Finisher,2499
+Andrew,Hackett,Andrew Hackett,35,M45-49,Male,Northmapton,England,United Kingdom,GB,0:37:12,2:40:26,1:48:39,,,5:13:52,2232,9626,6519,306,149,18832,172,160,18,251,228,26,209,194,22,172,160,18,Finisher,2784
+Cenk,Arslan,Cenk Arslan,67,M40-44,Male,Windsor,WINDSOR AND MAIDENHEAD,Turkey,TR,0:36:47,2:35:08,1:53:58,,,5:13:55,2207,9308,6838,325,157,18835,173,161,27,236,213,35,155,147,23,173,161,27,Finisher,2634
+Omer Rifat,Gencal,Omer Rifat Gencal,509,M45-49,Male,İstanbul,Turkey,Turkey,TR,0:30:03,2:36:20,1:54:54,,,5:14:04,1803,9380,6894,491,276,18844,174,162,19,45,41,2,128,122,11,174,162,19,Finisher,2780
+Hüseyin,Balci,Hüseyin Balci,435,M40-44,Male,Istanbul,Istanbul,Turkey,TR,0:33:32,2:38:32,1:53:43,,,5:14:14,2012,9512,6823,372,135,18854,175,163,28,125,112,16,165,155,26,175,163,28,Finisher,2629
+Serkan,Yürür,Serkan Yürür,170,M35-39,Male,Nicosia,APO,Turkey,TR,0:39:53,2:35:49,1:49:46,,,5:14:15,2393,9349,6586,376,151,18855,176,164,35,346,309,57,203,189,38,176,164,35,Finisher,2460
+Tarcan,Kiper,Tarcan Kiper,37,M50-54,Male,Istanbul,Istanbul,Turkey,TR,0:32:36,2:34:45,1:53:01,,,5:14:24,1956,9285,6781,493,349,18864,177,165,11,99,90,6,139,133,9,177,165,11,Finisher,2767
+Enis,Akyüz,Enis Akyüz,406,M30-34,Male,istanbul,turkey,Turkey,TR,0:39:47,2:41:25,1:46:42,,,5:14:51,2387,9685,6402,300,117,18891,178,166,30,339,302,62,232,214,39,178,166,30,Finisher,2481
+Irfan,Karaman,Irfan Karaman,258,M30-34,Male,Antalya,Muratpasa,Turkey,TR,0:33:59,2:37:17,1:52:44,,,5:15:22,2039,9437,6764,514,168,18922,179,167,31,143,129,30,183,170,34,179,167,31,Finisher,2471
+Sabri Yigit,Ufler,Sabri Yigit Ufler,305,M30-34,Male,Antalya,ANTALYA,Turkey,TR,0:35:41,2:34:27,1:55:30,,,5:15:33,2141,9267,6930,409,186,18933,180,168,32,199,180,38,151,143,29,180,168,32,Finisher,2468
+Cihan,Peker,Cihan Peker,210,M30-34,Male,Istanbul,Istanbul,Turkey,TR,0:36:32,2:45:16,1:45:20,,,5:15:45,2192,9916,6320,352,165,18945,181,169,33,230,208,43,242,223,41,181,169,33,Finisher,2465
+Vitaliy,Provotorov,Vitaliy Provotorov,242,M30-34,Male,Kyiv,Kyïv,Ukraine,UA,0:34:02,2:40:27,1:52:40,,,5:16:01,2042,9627,6760,382,150,18961,182,170,34,145,131,31,188,175,35,182,170,34,Finisher,2460
+Doerte,Siebke,Doerte Siebke,13,F45-49,Female,Wentorf,,Germany,DE,0:32:32,2:31:19,2:05:16,,,5:16:23,1952,9079,7516,278,158,18983,184,13,1,97,9,3,84,6,1,184,13,1,Finisher,3500
+Oleg,Sidorenko,Oleg Sidorenko,267,M50-54,Male,Stavropol,APO,Russia,RU,0:34:43,2:38:55,1:54:25,,,5:16:41,2083,9535,6865,357,161,19001,185,172,12,170,153,14,180,167,14,185,172,12,Finisher,2726
+Micah,Dougall,Micah Dougall,377,M30-34,Male,Colchester,United Kingdom,United Kingdom,GB,0:39:01,2:35:36,1:55:01,,,5:16:41,2341,9336,6901,302,121,19001,186,173,35,311,276,56,182,169,33,186,173,35,Finisher,2448
+Huseyin,Yilmaz,Huseyin Yilmaz,304,M45-49,Male,ANTALYA,KONYAALTI,Turkey,TR,0:37:20,2:36:51,1:53:42,,,5:16:45,2240,9411,6822,367,165,19005,188,175,20,256,231,27,184,171,18,188,175,20,Finisher,2732
+Vahid,Hasanbeigi Khameneh,Vahid Hasanbeigi Khameneh,339,M35-39,Male,Tehran,TEH,Iran,IR,0:29:55,2:23:32,2:15:33,,,5:16:59,1795,8612,8133,299,180,19019,189,176,36,44,40,7,44,44,14,189,176,36,Finisher,2411
+Michael,Frain,Michael Frain,452,M30-34,Male,London,LND,Ireland,IE,0:39:11,2:47:07,1:43:00,,,5:17:50,2351,10027,6180,300,212,19070,190,177,36,316,280,57,275,250,50,190,177,36,Finisher,2427
+Alper,Adas,Alper Adas,350,M35-39,Male,antalya,muratpaşa,Turkey,TR,0:39:14,2:35:26,1:55:06,,,5:18:14,2354,9326,6906,346,162,19094,191,178,37,319,283,49,186,173,36,191,178,37,Finisher,2388
+Cüneyt,Aygün,Cüneyt Aygün,322,M35-39,Male,Ankara,Ankara,Turkey,TR,0:38:57,2:45:52,1:45:54,,,5:18:36,2337,9952,6354,357,116,19116,193,180,38,310,275,47,269,244,50,193,180,38,Finisher,2381
+Server,Tanfer,Server Tanfer,255,M50-54,Male,ISTANBUL,IST,Turkey,TR,0:34:50,2:34:44,1:58:15,,,5:19:05,2090,9284,7095,411,265,19145,194,181,13,176,159,15,144,138,11,194,181,13,Finisher,2683
+Yasin,Kazakli,Yasin Kazakli,155,M35-39,Male,istanbul,umraniye,Turkey,TR,0:40:30,2:33:19,1:56:55,,,5:19:18,2430,9199,7015,338,176,19158,195,182,39,356,318,60,179,166,34,195,182,39,Finisher,2369
+Baris,Uludag,Baris Uludag,563,M25-29,Male,istanbul,sarıyer,Turkey,TR,0:41:06,2:29:57,2:00:59,,,5:19:58,2466,8997,7259,333,143,19198,197,184,15,373,331,24,146,140,12,197,184,15,Finisher,2081
+Uras,Duhan,Uras Duhan,484,M25-29,Male,İstanbul,marmara,Turkey,TR,0:35:35,2:40:03,1:56:11,,,5:20:12,2135,9603,6971,362,141,19212,198,185,16,196,177,15,199,185,15,198,185,16,Finisher,2077
+Ahmet,Barazi,Ahmet Barazi,283,M25-29,Male,Antalya,Kepez,Turkey,TR,0:38:03,2:39:28,1:52:42,,,5:20:31,2283,9568,6762,392,226,19231,199,186,17,288,256,21,222,205,17,199,186,17,Finisher,2072
+Kaan,Akpinar,Kaan Akpinar,436,M35-39,Male,ESKISEHIR,APO,Turkey,TR,0:40:00,2:35:37,1:57:53,,,5:20:32,2400,9337,7073,284,138,19232,200,187,40,350,313,59,185,172,35,200,187,40,Finisher,2347
+Kirstin ,Sommer,Kirstin Sommer,77,F50-54,Female,Norderstedt ,,Germany,DE,0:35:08,2:41:52,1:56:27,,,5:20:34,2108,9712,6987,307,120,19234,201,14,3,183,18,2,204,15,2,201,14,3,Finisher,3136
+Haluk,Babacan,Haluk Babacan,64,M50-54,Male,İstanbul,Kadikoy,Turkey,TR,0:32:47,2:33:10,2:07:55,,,5:20:42,1967,9190,7675,293,117,19242,202,188,14,105,96,8,97,91,6,202,188,14,Finisher,2654
+Hakan,Kanca,Hakan Kanca,38,M45-49,Male,Umraniye,Istanbul,Turkey,TR,0:32:46,2:34:54,2:05:05,,,5:20:47,1966,9294,7505,331,151,19247,203,189,21,104,95,6,112,106,8,203,189,21,Finisher,2660
+Ahmet,Simsek,Ahmet Simsek,204,M50-54,Male,ISTANBUL,APO,Germany,DE,0:40:21,2:41:07,1:48:16,,,5:20:59,2421,9667,6496,469,206,19259,204,190,15,352,315,22,254,233,16,204,190,15,Finisher,2648
+Carole,Muller,Carole Muller,44,F35-39,Female,Bassens,,Turkey,TR,0:37:14,2:39:52,1:57:46,,,5:21:48,2234,9592,7066,266,150,19308,205,15,3,252,24,4,196,14,3,205,15,3,Finisher,2929
+Ali,Atav,Ali Atav,344,M35-39,Male,Kadikoy,ISTANBUL,Turkey,TR,0:42:53,2:57:07,1:32:50,,,5:21:49,2573,10627,5570,330,209,19309,206,191,41,414,368,71,376,339,65,206,191,41,Finisher,2324
+Sermet,Buran,Sermet Buran,174,M30-34,Male,Nicosia,APO,Turkey,TR,0:36:04,2:49:14,1:48:33,,,5:21:51,2164,10154,6513,335,145,19311,207,192,37,215,194,40,272,247,48,207,192,37,Finisher,2355
+Burak,Mengü,Burak Mengü,383,M30-34,Male,İstsnbul,Turkey,Turkey,TR,0:36:59,2:37:49,1:59:57,,,5:21:52,2219,9469,7197,290,137,19312,208,193,38,243,220,46,181,168,32,208,193,38,Finisher,2354
+Berkant,Sener,Berkant Sener,177,M25-29,Male,Alikahya / izmit,KOCAELİ,Turkey,TR,0:37:49,2:37:54,1:55:00,,,5:21:54,2269,9474,6900,432,239,19314,209,194,18,276,245,19,212,196,16,209,194,18,Finisher,2047
+Tolga,Ünal,Tolga Ünal,391,M40-44,Male,İstanbul,Ümraniye,Turkey,TR,0:30:05,3:01:29,1:39:01,,,5:22:07,1805,10889,5941,477,215,19327,210,195,29,47,43,4,330,299,57,210,195,29,Finisher,2487
+Shukri,Husseini,Shukri Husseini,297,M35-39,Male,Dubai,DXB,Jordan,JO,0:40:34,2:43:09,1:49:00,,,5:22:24,2434,9789,6540,369,212,19344,211,196,42,357,319,61,260,237,48,211,196,42,Finisher,2313
+A. Umur,Guven,A. Umur Guven,286,M45-49,Male,Istanbul,APO,Turkey,TR,0:36:58,2:43:46,1:48:51,,,5:22:30,2218,9826,6531,521,254,19350,212,197,22,241,218,25,255,234,27,212,197,22,Finisher,2629
+Nikolaj,Bjerringfelt,Nikolaj Bjerringfelt,346,M35-39,Male,"
+Roskilde",,Denmark,DK,0:34:45,2:42:15,1:56:01,,,5:23:02,2085,9735,6961,402,199,19382,215,200,43,172,155,25,219,203,40,215,200,43,Finisher,2302
+Hakan,U Urlu,Hakan U Urlu,274,M30-34,Male,Antalya,Muratpaşa,Turkey,TR,0:37:31,2:39:54,1:58:44,,,5:23:57,2251,9594,7124,314,154,19437,216,201,39,267,239,50,208,193,36,216,201,39,Finisher,2317
+Nuri Çagatay,Çimsit,Nuri Çagatay Çimsit,420,M40-44,Male,Istanbul,Levent,Turkey,TR,0:38:26,2:39:01,1:58:35,,,5:24:07,2306,9541,7115,355,130,19447,218,203,30,300,266,49,216,200,37,218,203,30,Finisher,2451
+Ogultan,Bestek,Ogultan Bestek,354,M18-24,Male,ISTANBUL,ISTANBUL,Turkey,TR,0:43:57,2:46:29,1:45:27,,,5:24:18,2637,9989,6327,350,155,19458,219,204,3,436,387,8,307,279,5,219,204,3,Finisher,3128
+Nikolay,Efremov,Nikolay Efremov,323,M30-34,Male,Moscow,"APO
+",Russia,RU,0:35:17,2:49:26,1:49:23,,,5:24:25,2117,10166,6563,455,164,19465,220,205,40,185,166,35,279,254,53,220,205,40,Finisher,2309
+Üstünda ,Can,Üstünda Can,474,M30-34,Male,Istanbul,Sisli,Turkey,TR,0:40:40,2:45:22,1:51:30,,,5:24:47,2440,9922,6690,285,150,19487,221,206,41,359,321,65,270,245,47,221,206,41,Finisher,2302
+Ali Riza,Bilal,Ali Riza Bilal,36,M40-44,Male,Tallinn,Tallinn,Turkey,TR,0:34:07,2:34:28,2:09:53,,,5:24:58,2047,9268,7793,240,150,19498,222,207,31,148,134,20,110,104,14,222,207,31,Finisher,2435
+Bastien,Hoste,Bastien Hoste,166,M25-29,Male,Moerkerke,BE,Belgium,BE,0:34:31,2:51:55,1:49:29,,,5:25:33,2071,10315,6569,406,172,19533,223,208,19,162,145,12,286,261,21,223,208,19,Finisher,1981
+Goksen,Cinar,Goksen Cinar,17,M35-39,Male,Irvine,CALIFORNIA,Turkey,TR,0:32:44,2:35:01,2:11:03,,,5:25:48,1964,9301,7863,275,145,19548,224,209,44,102,93,20,106,100,24,224,209,44,Finisher,2252
+Mehmet,Köse,Mehmet Köse,541,M35-39,Male,üsküdar,istanbul,Turkey,TR,0:35:00,2:41:17,1:56:17,,,5:25:54,2100,9677,6977,468,332,19554,226,211,45,179,162,28,223,206,41,226,211,45,Finisher,2250
+Vesile,Anatca,Vesile Anatca,518,F35-39,Female,Antalya,Apo,Turkey,TR,0:40:29,2:50:28,1:43:49,,,5:25:54,2429,10228,6229,445,223,19554,227,16,4,355,38,10,319,29,7,227,16,4,Finisher,2855
+Justin,Hunt,Justin Hunt,325,M40-44,Male,Truro,England,United Kingdom,GB,0:32:08,2:55:58,1:49:35,,,5:26:07,1928,10558,6575,316,190,19567,228,212,32,85,78,12,287,262,46,228,212,32,Finisher,2415
+Vicky,Jones,Vicky Jones,51,F40-44,Female,Crickhowell,Powys,United Kingdom,GB,0:33:10,2:46:31,1:58:25,,,5:26:45,1990,9991,7105,349,170,19605,229,17,3,118,12,2,229,18,4,229,17,3,Finisher,2796
+Johan,Moolman,Johan Moolman,197,M40-44,Male,Dubai,DXB,South Africa,ZA,0:31:37,2:34:45,2:10:47,,,5:27:08,1897,9285,7847,412,187,19628,230,213,33,77,72,9,114,108,15,230,213,33,Finisher,2396
+Marleen,Valk,Marleen Valk,26,F40-44,Female,Baarn,UTRECHT,Netherlands,NL,0:37:20,2:47:19,1:54:39,,,5:27:10,2240,10039,6879,301,171,19630,231,18,4,255,25,3,258,22,5,231,18,4,Finisher,2789
+Tracy,Khayat,Tracy Khayat,93,F18-24,Female,Badaro,Beirut,Lebanon,LB,0:34:18,2:48:37,1:55:29,,,5:27:11,2058,10117,6929,348,179,19631,232,19,2,156,16,2,250,21,2,232,19,2,Finisher,3103
+Hashem,Alharbi,Hashem Alharbi,306,M40-44,Male,Abu Dhabi ,AUH,United Arab Emirates,AE,0:45:19,2:32:19,2:02:18,,,5:27:31,2719,9139,7338,257,198,19651,233,214,34,462,407,72,202,188,34,233,214,34,Finisher,2390
+Baris,Devir,Baris Devir,59,M30-34,Male,izmir,foreigner,Turkey,TR,0:35:17,2:33:43,2:08:57,,,5:27:46,2117,9223,7737,393,196,19666,234,215,42,186,167,36,138,132,26,234,215,42,Finisher,2248
+Özkan,Dizar,Özkan Dizar,542,M30-34,Male,ISTANBUL,GOP,Turkey,TR,0:28:01,2:39:36,2:10:23,,,5:28:27,1681,9576,7823,364,263,19707,235,216,43,23,20,7,117,111,24,235,216,43,Finisher,2236
+Thomas,Powell,Thomas Powell,442,M40-44,Male,Wells,Somerset,United Kingdom,GB,0:32:10,2:46:01,1:59:51,,,5:28:30,1930,9961,7191,393,235,19710,236,217,35,86,79,13,226,209,39,236,217,35,Finisher,2372
+Malgorzata,Nowacka,Malgorzata Nowacka,103,F40-44,Female,WARSAW,mazowieckie,Poland,PL,0:39:04,2:34:42,2:07:14,,,5:28:45,2344,9282,7634,292,173,19725,237,20,5,313,36,8,169,12,2,237,20,5,Finisher,2760
+Jonathan,Townrow,Jonathan Townrow,272,M35-39,Male,Watchfield,APO,United Kingdom,GB,0:38:04,2:43:53,1:58:52,,,5:28:48,2284,9833,7132,285,194,19728,238,218,46,289,257,44,236,218,44,238,218,46,Finisher,2198
+Juan Jose,Somoza,Juan Jose Somoza,287,M45-49,Male,Dubai,DUBAYY,Venezuela,VE,0:35:30,2:42:08,2:01:16,,,5:28:50,2130,9728,7276,434,162,19730,239,219,23,190,171,21,227,210,24,239,219,23,Finisher,2515
+Lubomir,Filo,Lubomir Filo,560,M40-44,Male,Zvolen,Slovak Republic,Slovakia,SK,0:41:11,2:36:55,2:01:58,,,5:28:54,2471,9415,7318,330,200,19734,240,220,36,376,333,60,218,202,38,240,220,36,Finisher,2365
+Didem,Dogruol,Didem Dogruol,114,F50-54,Female,Istanbul,Turkey,Turkey,TR,0:36:20,2:53:00,1:51:07,,,5:28:54,2180,10380,6667,343,164,19734,241,21,4,221,22,3,296,28,4,241,21,4,Finisher,2986
+Nedim,Anter,Nedim Anter,387,M40-44,Male,Istanbul,Turkey,Turkey,TR,0:37:56,2:41:19,1:55:36,,,5:28:56,2276,9679,6936,597,248,19736,242,221,37,282,250,45,253,232,42,242,221,37,Finisher,2364
+Kivanc,Onutman,Kivanc Onutman,60,M45-49,Male,istanbul,turkey,Turkey,TR,0:41:05,2:47:32,1:50:16,,,5:29:03,2465,10052,6616,412,198,19743,243,222,24,372,330,36,301,273,32,243,222,24,Finisher,2511
+Michael,Meier,Michael Meier,315,M40-44,Male,Forch,,Switzerland,CH,0:31:48,3:14:07,1:36:33,,,5:29:12,1908,11647,5793,258,146,19752,244,223,38,80,75,11,412,372,65,244,223,38,Finisher,2359
+Bugra,Hadimoglu,Bugra Hadimoglu,529,M30-34,Male,ISTANBUL,ISTANBUL,Turkey,TR,0:36:50,2:47:08,1:56:25,,,5:29:14,2210,10028,6985,372,159,19754,245,224,44,240,217,45,262,239,46,245,224,44,Finisher,2222
+Caglar,Ciftci,Caglar Ciftci,200,M45-49,Male,mugla,APO,Turkey,TR,0:34:27,2:39:01,2:06:03,,,5:29:43,2067,9541,7563,448,164,19783,246,225,25,158,142,16,190,177,19,246,225,25,Finisher,2499
+Evgeny,Boyko,Evgeny Boyko,321,M30-34,Male,Sankt-Peterburg,,Russia,RU,0:43:30,2:47:07,1:50:47,,,5:29:49,2610,10027,6647,350,155,19789,247,226,45,426,378,76,309,281,57,247,226,45,Finisher,2211
+Mecnun,Vatansever,Mecnun Vatansever,478,M40-44,Male,,,Turkey,TR,0:39:09,2:49:40,1:52:01,,,5:31:01,2349,10180,6721,417,194,19861,250,229,39,315,279,52,305,277,52,250,229,39,Finisher,2327
+Mahir,Rozalis,Mahir Rozalis,423,M40-44,Male,istanbul,istanbul,Turkey,TR,0:33:42,2:41:48,2:05:50,,,5:31:18,2022,9708,7550,350,248,19878,252,231,40,132,119,17,193,180,32,252,231,40,Finisher,2321
+Iaroslav,Mykhaliuk,Iaroslav Mykhaliuk,244,M30-34,Male,Kiev,Kiev,Ukraine,UA,0:32:56,2:46:34,1:57:48,,,5:31:19,1976,9994,7068,500,341,19879,253,232,46,110,100,23,244,224,42,253,232,46,Finisher,2184
+Viktoriia,Kordan,Viktoriia Kordan,106,F30-34,Female,Kiev,Kiev,Ukraine,UA,0:32:56,2:46:33,1:57:56,,,5:31:20,1976,9993,7076,497,338,19880,254,22,4,109,10,3,243,20,5,254,22,4,Finisher,2596
+Seyran,Güne ,Seyran Güne,380,M35-39,Male,ISTANBUL,HALKALI,Turkey,TR,0:44:47,2:44:43,1:49:06,,,5:31:24,2687,9883,6546,368,400,19884,255,233,47,453,400,79,304,276,52,255,233,47,Finisher,2151
+Coraline,Chapatte,Coraline Chapatte,128,F35-39,Female,Neuchâtel,,Switzerland,CH,0:41:44,2:52:28,1:50:52,,,5:31:33,2504,10348,6652,278,111,19893,256,23,5,390,44,12,321,30,8,256,23,5,Finisher,2753
+Can,Ozbek,Can Ozbek,278,M30-34,Male,Ankara,Cayyolu,Turkey,TR,0:33:39,2:37:58,2:13:06,,,5:32:06,2019,9478,7986,305,138,19926,257,234,47,131,118,26,148,142,28,257,234,47,Finisher,2170
+Sezin,Kutlu,Sezin Kutlu,122,F35-39,Female,RCH PALOS VRD,CA,Turkey,TR,0:37:55,2:44:19,2:02:41,,,5:32:33,2275,9859,7361,319,139,19953,258,24,6,280,32,8,240,19,4,258,24,6,Finisher,2735
+Burak,Aydar,Burak Aydar,187,M35-39,Male,İstanbul,Maltepe,Turkey,TR,0:39:47,2:43:43,2:00:33,,,5:32:45,2387,9823,7233,384,138,19965,259,235,48,341,304,55,261,238,49,259,235,48,Finisher,2127
+Bogdan,Osmolovych,Bogdan Osmolovych,459,M25-29,Male,Kyiv,APO,Ukraine,UA,0:37:21,2:50:54,1:57:30,,,5:33:05,2241,10254,7050,317,123,19985,260,236,20,258,232,18,288,263,22,260,236,20,Finisher,1845
+Mehmet,Asal,Mehmet Asal,138,M45-49,Male,Istanbul,Etiler,Turkey,TR,0:34:56,2:34:00,2:16:31,,,5:33:17,2096,9240,8191,335,135,19997,261,237,26,178,161,19,127,121,10,261,237,26,Finisher,2435
+Lyudmyla,Karpanova,Lyudmyla Karpanova,95,F40-44,Female,Kyiv,Kyiv Oblast,Ukraine,UA,0:37:20,2:55:24,1:52:09,,,5:34:01,2240,10524,6729,373,175,20041,262,25,6,257,26,4,324,31,7,262,25,6,Finisher,2666
+Sami,Noyan,Sami Noyan,456,M55-59,Male,ankara,etimesgut,Turkey,TR,0:33:56,2:55:22,1:52:58,,,5:34:04,2036,10522,6778,517,191,20044,263,238,5,140,126,3,316,288,9,263,238,5,Finisher,2696
+Bertrand,Schott,Bertrand Schott,486,M40-44,Male,Cernay,HAUT-RHIN,France,FR,0:39:27,2:36:32,2:10:08,,,5:34:07,2367,9392,7808,331,149,20047,264,239,41,330,293,55,195,182,33,264,239,41,Finisher,2271
+Grigory,Zotov,Grigory Zotov,279,M45-49,Male,moscow,,Russia,RU,0:34:33,2:42:14,2:08:24,,,5:34:15,2073,9734,7704,374,170,20055,265,240,27,163,146,17,215,199,23,265,240,27,Finisher,2417
+Pablo,Gomez,Pablo Gomez,483,M40-44,Male,MADRID,,Spain,ES,0:30:35,2:25:33,2:30:00,,,5:34:31,1835,8733,9000,323,180,20071,266,241,42,64,59,8,64,62,5,266,241,42,Finisher,2264
+Rudolf,Kruty,Rudolf Kruty,463,M35-39,Male,Bratislava,Bratislava,Slovakia,SK,0:35:57,2:36:07,2:11:58,,,5:35:06,2157,9367,7918,433,231,20106,267,242,49,209,188,32,177,164,33,267,242,49,Finisher,2084
+Werner,Ammann,Werner Ammann,211,M65-69,Male,Knonau,,Switzerland,CH,0:39:35,2:36:02,2:10:29,,,5:35:14,2375,9362,7829,365,183,20114,268,243,1,333,296,1,200,186,1,268,243,1,Finisher,3500
+Vahdi Umut,Bengi,Vahdi Umut Bengi,507,M35-39,Male,Ankara,Çankaya,Turkey,TR,0:30:28,2:51:11,2:04:33,,,5:35:42,1828,10271,7473,347,223,20142,269,244,50,59,54,10,239,221,46,269,244,50,Finisher,2074
+Ayhan,Tama,Ayhan Tama,524,M55-59,Male,izmir,APO,Turkey,TR,0:34:35,2:34:22,2:17:19,,,5:36:20,2075,9262,8239,397,207,20180,270,245,6,165,148,4,140,134,3,270,245,6,Finisher,2656
+Ali,Dukyanci,Ali Dukyanci,173,M25-29,Male,nicosia,nicosia,Turkey,TR,0:39:47,2:51:36,1:56:29,,,5:36:40,2387,10296,6989,380,148,20200,271,246,21,342,305,23,315,287,25,271,246,21,Finisher,1781
+Gabor,Papp,Gabor Papp,226,M30-34,Male,Luxembourg,,Hungary,HU,0:33:04,2:53:44,1:54:03,,,5:36:54,1984,10424,6843,570,393,20214,272,247,48,114,103,24,308,280,56,272,247,48,Finisher,2084
+Yamaç,Kolatan,Yamaç Kolatan,440,M18-24,Male,istanbul,APO,Turkey,TR,0:41:39,2:37:26,2:10:21,,,5:37:00,2499,9446,7821,302,152,20220,273,248,4,385,342,6,224,207,4,273,248,4,Finisher,2899
+Hakan,Sayar,Hakan Sayar,439,M50-54,Male,Istanbul,APO,Turkey,TR,0:41:02,2:50:14,1:55:39,,,5:37:13,2462,10214,6939,410,208,20233,274,249,16,369,328,23,317,289,17,274,249,16,Finisher,2356
+Onur,Yavuz,Onur Yavuz,168,M35-39,Male,BURSA,,Turkey,TR,0:44:48,2:51:27,1:51:04,,,5:37:38,2688,10287,6664,472,147,20258,275,250,51,454,401,80,365,331,62,275,250,51,Finisher,2039
+Sergey,Matveev,Sergey Matveev,42,M45-49,Male,Brumovice,644,Russia,RU,0:44:33,2:49:50,1:53:44,,,5:37:49,2673,10190,6824,385,197,20269,276,251,28,448,397,42,340,307,34,276,251,28,Finisher,2353
+Bora,Yucel,Bora Yucel,424,M40-44,Male,Istanbul,Marmara,Turkey,TR,0:43:57,2:39:56,2:01:56,,,5:38:03,2637,9596,7316,540,194,20283,277,252,43,437,388,70,283,258,45,277,252,43,Finisher,2200
+Kseniia,Soldatova,Kseniia Soldatova,94,F30-34,Female,Kyiv,Kyiv,Ukraine,UA,0:35:12,2:41:09,2:09:28,,,5:38:22,2112,9669,7768,451,302,20302,278,26,5,184,19,4,221,17,4,278,26,5,Finisher,2469
+Adam,Kupiec,Adam Kupiec,56,M35-39,Male,Bratislava,BRATISLAVSKY KRAJ,Poland,PL,0:46:35,2:45:22,1:54:56,,,5:38:28,2795,9922,6896,440,255,20308,279,253,52,479,422,81,328,297,55,279,253,52,Finisher,2024
+Mania Maria,Bikof,Mania Maria Bikof,530,F45-49,Female,Athens,Greece,Greece,GR,0:32:26,2:52:42,2:05:27,,,5:38:46,1946,10362,7527,336,155,20326,280,27,2,94,8,2,268,25,2,280,27,2,Finisher,3097
+Dave,Kellermanns,Dave Kellermanns,113,F35-39,Male,Erie,CO,Germany,DE,0:33:47,2:54:46,2:02:23,,,5:38:47,2027,10486,7343,343,128,20327,281,28,7,135,14,3,291,27,6,281,28,7,Finisher,2623
+Moira,Hackett,Moira Hackett,109,F40-44,Female,Wootton,New South Wales,United Kingdom,GB,0:37:38,2:53:48,1:54:07,,,5:38:51,2258,10428,6847,487,311,20331,282,29,7,270,30,5,331,32,8,282,29,7,Finisher,2579
+Mehmet Milhan,Dalgiç,Mehmet Milhan Dalgiç,539,M45-49,Male,Istanbul,APO,Turkey,TR,0:38:20,2:38:44,2:15:05,,,5:39:22,2300,9524,8105,322,111,20362,283,254,29,296,262,31,206,191,21,283,254,29,Finisher,2325
+Halil,Beskardesler,Halil Beskardesler,295,M30-34,Male,istanbul,APO,Turkey,TR,0:28:30,2:50:10,2:07:59,,,5:40:02,1710,10210,7679,466,337,20402,284,255,49,27,23,9,233,215,40,284,255,49,Finisher,2027
+Hakan,Posacioglu,Hakan Posacioglu,359,M50-54,Male,izmir,turkey,Turkey,TR,0:30:44,2:45:54,2:16:05,,,5:40:20,1844,9954,8165,298,159,20420,286,257,17,66,61,2,198,184,15,286,257,17,Finisher,2300
+Deniz,Kalibcioglu,Deniz Kalibcioglu,264,M30-34,Male,Nicosia,Nicosia,Cyprus,CY,0:39:50,2:54:14,1:56:44,,,5:40:24,2390,10454,7004,408,168,20424,288,259,50,344,307,63,341,308,62,288,259,50,Finisher,2021
+Nil,Yanginoglu,Nil Yanginoglu,531,F25-29,Female,istanbul,türkiye,Turkey,TR,0:37:37,2:46:45,2:08:12,,,5:40:35,2257,10005,7692,326,155,20435,289,30,2,269,29,3,259,23,2,289,30,2,Finisher,2622
+Anton,Bars,Anton Bars,536,M30-34,Male,Voscow,"APO
+Moscow",Russia,RU,0:46:36,2:40:01,2:06:22,,,5:41:01,2796,9601,7582,338,144,20461,290,260,51,480,423,83,278,253,52,290,260,51,Finisher,2010
+Cedric,Lemaitre,Cedric Lemaitre,213,M40-44,Male,barcelona,,France,FR,0:37:03,2:37:27,2:15:19,,,5:41:19,2223,9447,8119,458,232,20479,291,261,44,247,224,40,205,190,35,291,261,44,Finisher,2141
+Tarkan,Tuncel,Tarkan Tuncel,144,M40-44,Male,Istanbul,APO,Turkey,TR,0:42:38,2:44:43,2:01:25,,,5:41:23,2558,9883,7285,477,280,20483,293,263,45,407,361,66,300,272,49,293,263,45,Finisher,2140
+Tunca,Rodoplu,Tunca Rodoplu,189,M35-39,Male,London,,Turkey,TR,0:34:05,2:46:07,2:12:33,,,5:41:23,2045,9967,7953,339,179,20483,294,264,53,147,133,23,230,212,43,294,264,53,Finisher,1971
+Mehmet,Türkyilmaz,Mehmet Türkyilmaz,188,M40-44,Male,İstanbul,Turkey,Turkey,TR,0:37:57,2:47:36,2:04:56,,,5:41:28,2277,10056,7496,405,254,20488,295,265,46,283,251,46,280,255,44,295,265,46,Finisher,2138
+Pinar,Caliskan,Pinar Caliskan,538,F40-44,Female,Istanbul,Sarıyer,Turkey,TR,0:38:20,2:44:18,2:06:02,,,5:41:30,2300,9858,7562,453,317,20490,296,31,8,295,34,6,263,24,6,296,31,8,Finisher,2531
+Jürgen,Scheel,Jürgen Scheel,579,M45-49,Male,Arfrade,,Germany,DE,0:37:29,2:46:20,2:09:06,,,5:41:34,2249,9980,7746,347,172,20494,298,267,30,266,238,28,257,236,28,298,267,30,Finisher,2285
+Hasan,Karsili,Hasan Karsili,172,M25-29,Male,Kıbrıs/Lefkoşa ,Lefkoşa,Turkey,TR,0:45:13,2:53:06,1:54:51,,,5:41:36,2713,10386,6891,360,146,20496,299,268,22,458,404,30,367,332,26,299,268,22,Finisher,1692
+Bener,Erguvenoglu,Bener Erguvenoglu,421,M30-34,Male,Istanbul,Esentepe,Turkey,TR,0:45:11,2:44:29,2:00:01,,,5:41:41,2711,9869,7201,439,281,20501,300,269,52,457,403,81,310,282,58,300,269,52,Finisher,1998
+André,Bättig,André Bättig,71,M55-59,Male,Gurmels,,Switzerland,CH,0:38:14,2:43:28,2:12:10,,,5:41:51,2294,9808,7930,308,171,20511,301,270,7,293,260,7,237,219,8,301,270,7,Finisher,2556
+Dmitry,Rasskazov,Dmitry Rasskazov,202,M40-44,Male,Kiev,Kyiv,Ukraine,UA,0:39:25,2:45:47,2:08:09,,,5:42:37,2365,9947,7689,341,215,20557,302,271,47,326,289,54,273,248,43,302,271,47,Finisher,2118
+Brian,Lynch,Brian Lynch,368,M25-29,Male,London,OTHER,Ireland,IE,0:43:53,3:01:36,1:43:08,,,5:42:47,2633,10896,6188,603,247,20567,303,272,23,433,385,28,447,403,30,303,272,23,Finisher,1671
+Pierre,Gentric,Pierre Gentric,176,M55-59,Male,,TURQUIE,France,FR,0:33:36,2:45:44,2:15:48,,,5:43:19,2016,9944,8148,341,150,20599,304,273,8,129,116,2,228,211,7,304,273,8,Finisher,2530
+Britta,Bugiel,Britta Bugiel,132,F45-49,Female,Hamburg,,Germany,DE,0:36:36,3:01:13,1:56:31,,,5:43:32,2196,10873,6991,416,136,20612,305,32,3,231,23,4,372,37,4,305,32,3,Finisher,3011
+Alp Resat,Çapa,Alp Resat Çapa,150,M45-49,Male,Istanbul,.,Turkey,TR,0:38:17,2:55:09,2:00:22,,,5:44:11,2297,10509,7222,416,207,20651,306,274,31,294,261,30,335,302,33,306,274,31,Finisher,2238
+Murat,Kulak,Murat Kulak,237,M40-44,Male,istanbul,istanbul,Turkey,TR,0:36:24,2:55:35,1:58:32,,,5:44:13,2184,10535,7112,628,194,20653,307,275,48,225,203,30,351,318,59,307,275,48,Finisher,2089
+Magnus,Benon,Magnus Benon,281,M45-49,Male,Moscow,Moscow,Russia,RU,0:39:26,2:43:03,2:12:30,,,5:44:23,2366,9783,7950,365,199,20663,308,276,32,329,292,33,247,227,26,308,276,32,Finisher,2235
+Philipp,Jander,Philipp Jander,373,M30-34,Male,Weiden,DE,Germany,DE,0:30:28,2:51:36,2:13:25,,,5:44:37,1828,10296,8005,374,174,20677,309,277,53,60,55,14,245,225,43,309,277,53,Finisher,1945
+Warren,Allison,Warren Allison,271,M30-34,Male,Warminster,WILTSHIRE,United Kingdom,GB,0:36:23,2:49:54,2:11:04,,,5:44:48,2183,10194,7864,300,147,20688,310,278,54,223,201,42,274,249,49,310,278,54,Finisher,1942
+Ahmed,Al Harban,Ahmed Al Harban,369,M30-34,Male,Doha,Doha,Bahrain,BH,0:44:14,2:51:28,1:57:16,,,5:45:04,2654,10288,7036,456,270,20704,311,279,55,441,392,78,357,324,67,311,279,55,Finisher,1937
+Saffron,Pineger,Saffron Pineger,90,F35-39,Female,London,London,United Kingdom,GB,0:37:22,2:50:02,2:07:22,,,5:45:14,2242,10202,7642,399,229,20714,312,33,8,260,27,5,290,26,5,312,33,8,Finisher,2507
+Vojtech,Spisak,Vojtech Spisak,239,M40-44,Male,Marianka,Slovakia,Slovakia,SK,0:39:02,2:54:05,2:00:30,,,5:45:21,2342,10445,7230,445,259,20721,313,280,49,312,277,51,338,305,58,313,280,49,Finisher,2069
+Yaser,Masanoglu,Yaser Masanoglu,457,M40-44,Male,İSTANBUL,FATİH İSTANBUL,Turkey,TR,0:36:11,2:43:55,2:14:21,,,5:45:42,2171,9835,8061,447,228,20742,314,281,50,217,196,29,241,222,40,314,281,50,Finisher,2062
+Selman,Çakir,Selman Çakir,185,M35-39,Male,İSTANBUL,TUZLA,Turkey,TR,0:41:34,2:58:36,1:55:44,,,5:45:42,2494,10716,6944,352,236,20742,315,282,54,382,339,66,381,344,67,315,282,54,Finisher,1894
+Dominik,Scholl,Dominik Scholl,205,M25-29,Male,Völklingen,DE,Germany,DE,0:37:50,2:48:24,2:10:15,,,5:46:42,2270,10104,7815,413,200,20802,317,284,24,277,246,20,284,259,20,317,284,24,Finisher,1600
+Otakar,Krafka,Otakar Krafka,502,M50-54,Male,Znojmo,Czech Republic,Czech Republic,CZ,0:44:29,2:45:43,2:03:38,,,5:46:47,2669,9943,7418,484,293,20807,318,285,18,446,395,27,318,290,18,318,285,18,Finisher,2184
+Jean,Mertens,Jean Mertens,447,M60-64,Male,Lausanne,,Switzerland,CH,0:38:27,2:35:10,2:22:48,,,5:47:54,2307,9310,8568,438,251,20874,320,287,1,301,267,1,189,176,1,320,287,1,Finisher,3500
+Baris,Karayagmurlar,Baris Karayagmurlar,554,M30-34,Male,Kadikoy/ Istanbul,Turkey,Turkey,TR,0:37:01,2:57:34,2:05:21,,,5:48:06,2221,10654,7521,324,166,20886,321,288,56,245,222,47,334,301,61,321,288,56,Finisher,1882
+Ali Levent,Kurtoglu,Ali Levent Kurtoglu,411,M35-39,Male,Istanbul,Istanbul,Turkey,TR,0:41:04,2:54:11,2:01:04,,,5:48:11,2464,10451,7264,435,277,20891,322,289,55,370,329,63,353,320,60,322,289,55,Finisher,1849
+Charles,Evans,Charles Evans,269,M25-29,Male,London,,United Kingdom,GB,0:34:13,2:54:31,2:11:14,,,5:48:29,2053,10471,7874,350,161,20909,323,290,25,152,138,10,294,267,23,323,290,25,Finisher,1568
+Halil,Kiliç,Halil Kiliç,66,M30-34,Male,istanbul,APO,Turkey,TR,0:31:15,2:32:14,2:38:33,,,5:48:41,1875,9134,9513,287,112,20921,324,291,57,72,67,17,83,78,19,324,291,57,Finisher,1872
+Rainer,Wentein,Rainer Wentein,467,M40-44,Male,Les Paccots,,Belgium,BE,0:41:10,2:47:43,2:05:00,,,5:48:44,2470,10063,7500,598,293,20924,325,292,51,375,332,59,323,293,55,325,292,51,Finisher,2008
+Arkin,Siktasli,Arkin Siktasli,319,M35-39,Male,MANİSA,Şehzadeler,Turkey,TR,0:37:12,2:54:53,2:05:07,,,5:48:45,2232,10493,7507,429,264,20925,326,293,56,250,227,37,326,295,54,326,293,56,Finisher,1839
+Christopher,Wuttke,Christopher Wuttke,254,M40-44,Male,Bückeburg,,Germany,DE,0:44:56,2:43:27,2:08:38,,,5:48:47,2696,9807,7718,427,279,20927,327,294,52,456,402,71,302,274,50,327,294,52,Finisher,2007
+Annemie,Huygelen,Annemie Huygelen,46,F35-39,Female,Brugge,WEST-VLAANDEREN,Belgium,BE,0:38:07,2:58:14,2:00:55,,,5:49:07,2287,10694,7255,460,251,20947,328,34,9,292,33,9,364,34,9,328,34,9,Finisher,2437
+Berke,Ozucer,Berke Ozucer,216,M30-34,Male,Istanbul,APO,Turkey,TR,0:36:14,3:05:34,2:00:18,,,5:49:10,2174,11134,7218,297,127,20950,329,295,58,220,199,41,391,354,73,329,295,58,Finisher,1863
+Yury,Yurchanka,Yury Yurchanka,342,M25-29,Male,Warsaw,mazowieckie,Belarus,BY,0:47:18,3:03:29,1:49:43,,,5:49:10,2838,11009,6583,389,131,20950,331,297,26,488,431,33,453,408,31,331,297,26,Finisher,1556
+Onur,Kircali,Onur Kircali,301,M40-44,Male,ISTANBUL,MASLAK,Turkey,TR,0:37:36,2:54:11,2:08:00,,,5:49:55,2256,10451,7680,405,203,20995,333,299,53,268,240,42,320,291,54,333,299,53,Finisher,1986
+Şeyda,Erkahraman,Şeyda Erkahraman,49,F45-49,Female,Istanbul,Turkey,Turkey,TR,0:42:09,3:01:27,1:55:04,,,5:50:09,2529,10887,6904,452,237,21009,334,35,4,400,46,6,419,41,5,334,35,4,Finisher,2892
+Alan,CHAMPION,Alan CHAMPION,370,M60-64,Male,Biot,ALPES-MARITIMES,United Kingdom,GB,0:46:17,2:48:43,2:04:02,,,5:50:16,2777,10123,7442,404,270,21016,335,300,2,477,420,3,347,314,2,335,300,2,Finisher,3457
+Atul,Godbole,Atul Godbole,510,M35-39,Male,Pune,Maharashtra,India,IN,0:41:31,3:10:10,1:45:45,,,5:50:36,2491,11410,6345,632,158,21036,337,302,57,380,337,65,472,423,83,337,302,57,Finisher,1805
+Burak,Alpaslan,Burak Alpaslan,386,M45-49,Male,Princeton Jct,NJ,United States,US,0:50:35,2:47:17,2:00:58,,,5:50:44,3035,10037,7258,517,197,21044,338,303,33,518,456,50,387,350,37,338,303,33,Finisher,2120
+Burak,Karacik,Burak Karacik,397,M35-39,Male,istanbul,istanbul,Turkey,TR,0:39:54,2:50:31,2:12:23,,,5:50:49,2394,10231,7943,326,155,21049,339,304,58,347,310,58,306,278,53,339,304,58,Finisher,1802
+Aziz Yigit,Gökalp,Aziz Yigit Gökalp,433,M30-34,Male,İstanbul,APO,Turkey,TR,0:38:48,2:57:13,2:05:19,,,5:50:58,2328,10633,7519,358,220,21058,340,305,59,306,271,54,349,316,65,340,305,59,Finisher,1831
+Umut,Can Temiz,Umut Can Temiz,337,M18-24,Male,İstanbul,Kağıthane,Turkey,TR,0:42:49,2:33:38,2:26:50,,,5:50:58,2569,9218,8810,300,161,21058,341,306,5,412,366,7,194,181,3,341,306,5,Finisher,2648
+Serkan,Aksel,Serkan Aksel,446,M30-34,Male,Istanbul,,Turkey,TR,0:39:41,2:45:48,2:14:06,,,5:51:03,2381,9948,8046,460,228,21063,342,307,60,336,299,61,285,260,54,342,307,60,Finisher,1829
+Ramazan,Kaiaev,Ramazan Kaiaev,310,M35-39,Male,Bishkek,Chui region,Kyrgyzstan,KG,0:34:42,3:01:45,2:02:44,,,5:51:04,2082,10905,7364,416,297,21064,343,308,59,168,151,24,358,325,61,343,308,59,Finisher,1797
+Eralp,Hosgör,Eralp Hosgör,299,M40-44,Male,İzmir,izmir,Turkey,TR,0:41:46,2:45:58,2:14:50,,,5:51:10,2506,9958,8090,363,153,21070,344,309,54,391,347,61,289,264,47,344,309,54,Finisher,1964
+Erdinç,Saraç,Erdinç Saraç,494,M30-34,Male,İstanbul,Avcılar,Turkey,TR,0:41:53,2:40:02,2:18:02,,,5:51:14,2513,9602,8282,412,265,21074,345,310,61,394,350,72,251,230,44,345,310,61,Finisher,1826
+U Ur,Geçkin,U Ur Geçkin,514,M25-29,Male,Bursa,APO,Turkey,TR,0:46:08,2:40:30,2:15:43,,,5:52:02,2768,9630,8143,366,215,21122,346,311,27,472,415,32,282,257,19,346,311,27,Finisher,1504
+Dmytro,Polupan,Dmytro Polupan,233,M25-29,Male,Kiev,Kievskaya,Ukraine,UA,0:38:52,2:47:20,2:08:20,,,5:52:14,2332,10040,7700,658,404,21134,347,312,28,309,274,22,312,284,24,347,312,28,Finisher,1501
+Fatih Murat,Tunc,Fatih Murat Tunc,432,M40-44,Male,istanbul,istanbul,Turkey,TR,0:42:01,2:48:54,2:11:18,,,5:52:21,2521,10134,7878,396,212,21141,349,314,55,397,353,63,314,286,53,349,314,55,Finisher,1943
+Volodymyr,Kononskyi,Volodymyr Kononskyi,209,M35-39,Male,Киев,Kyiv,Ukraine,UA,0:42:47,2:52:19,2:08:27,,,5:52:22,2567,10339,7707,339,190,21142,350,315,60,410,364,70,339,306,57,350,315,60,Finisher,1774
+Ahmet,Bengöz,Ahmet Bengöz,472,M30-34,Male,Ankara,Ankara,Turkey,TR,0:31:45,2:58:33,2:12:21,,,5:52:27,1905,10713,7941,410,178,21147,351,316,62,78,73,20,311,283,59,351,316,62,Finisher,1804
+Kerem,Güneser,Kerem Güneser,190,M30-34,Male,lefkoşe,APO,Turkey,TR,0:40:56,2:55:16,2:08:19,,,5:53:11,2456,10516,7699,384,136,21191,352,317,63,367,327,68,354,321,66,352,317,63,Finisher,1791
+Michael,Peberdy,Michael Peberdy,198,M30-34,Male,St-Cergue,,Australia,AU,0:41:39,2:55:10,2:00:56,,,5:53:57,2499,10510,7256,573,399,21237,354,319,64,386,343,69,385,348,71,354,319,64,Finisher,1777
+Barkin,Baysal,Barkin Baysal,403,M40-44,Male,ISTANBUL,ISTANBUL,Turkey,TR,0:42:35,2:48:19,2:09:51,,,5:53:58,2555,10099,7791,511,282,21238,355,320,56,405,359,64,329,298,56,355,320,56,Finisher,1913
+Tevf K,Örten,Tevf K Örten,445,M55-59,Male,Istanbul,TURKEY,Turkey,TR,0:35:40,2:39:47,2:28:25,,,5:54:06,2140,9587,8905,381,233,21246,356,321,9,198,179,6,201,187,6,356,321,9,Finisher,2336
+Ozlem,Soydas,Ozlem Soydas,116,F25-29,Female,İstanbul,APO,Turkey,TR,0:44:56,3:02:05,1:59:06,,,5:54:09,2696,10925,7146,315,167,21249,357,36,3,455,54,5,431,42,5,357,36,3,Finisher,2378
+Mark,Carson,Mark Carson,451,M55-59,Male,Vasles,,United Kingdom,GB,0:35:02,2:58:06,2:12:47,,,5:54:58,2102,10686,7967,361,182,21298,359,323,10,180,163,5,325,294,10,359,323,10,Finisher,2320
+Alexey,Shamin,Alexey Shamin,266,M40-44,Male,Moscow,,Russia,RU,0:40:25,3:05:08,1:56:33,,,5:55:03,2425,11108,6993,510,267,21303,360,324,57,354,317,58,439,395,67,360,324,57,Finisher,1894
+birol,kirklareli,birol kirklareli,355,M50-54,Male,Istanbul,Atasehir,Turkey,TR,0:34:03,2:59:25,2:07:30,,,5:55:17,2043,10765,7650,541,318,21317,361,325,19,146,132,10,352,319,19,361,325,19,Finisher,2031
+Adnan,Ek,Adnan Ek,481,M50-54,Male,istanbul,Turkey,Turkey,TR,0:41:58,2:54:35,2:07:37,,,5:55:25,2518,10475,7657,413,262,21325,362,326,20,395,351,24,360,327,20,362,326,20,Finisher,2029
+Burak,Gurkan,Burak Gurkan,148,M40-44,Male,Istanbul,APO,Turkey,TR,0:39:41,2:56:19,2:06:55,,,5:55:39,2381,10579,7615,552,212,21339,363,327,58,337,300,56,375,338,61,363,327,58,Finisher,1883
+Ahmet,Özbeçetek,Ahmet Özbeçetek,247,M45-49,Male,İSTANBUL,SARIYER,Turkey,TR,0:43:43,2:50:06,2:11:25,,,5:55:44,2623,10206,7885,453,177,21344,364,328,34,429,381,38,344,311,35,364,328,34,Finisher,2030
+Can,Dursun,Can Dursun,235,M30-34,Male,Istanbul,Istanbul,Turkey,TR,0:41:42,2:58:24,2:01:53,,,5:56:20,2502,10704,7313,642,219,21380,366,330,65,388,345,70,414,374,75,366,330,65,Finisher,1734
+Nikolay,Kaplanets,Nikolay Kaplanets,248,M30-34,Male,Vishgorod,Kievskaya oblast,Ukraine,UA,0:44:21,2:52:05,2:11:40,,,5:56:25,2661,10325,7900,323,176,21385,367,331,66,443,393,79,348,315,64,367,331,66,Finisher,1733
+Timucin,Gulac,Timucin Gulac,311,M40-44,Male,izmir,izmir,Turkey,TR,0:28:41,2:42:43,2:35:18,,,5:58:03,1721,9763,9318,394,287,21483,368,332,59,30,26,1,161,151,24,368,332,59,Finisher,1840
+Murat,Tumay,Murat Tumay,522,M40-44,Male,Istanbul,İstanbul,Turkey,TR,0:40:23,2:58:38,2:00:41,,,5:58:54,2423,10718,7241,718,434,21534,371,335,60,353,316,57,417,377,66,371,335,60,Finisher,1825
+Erik,Klomp,Erik Klomp,395,M50-54,Male,sariyer,turkey istanbul,Netherlands,NL,0:35:49,2:59:21,2:11:24,,,5:59:54,2149,10761,7884,497,303,21594,372,336,21,202,181,16,361,328,21,372,336,21,Finisher,1948
+Murat,Erbelger,Murat Erbelger,416,M45-49,Male,istanbul,istanbul,Turkey,TR,0:36:23,3:04:13,2:09:19,,,6:00:00,2183,11053,7759,361,244,21600,373,337,35,224,202,24,388,351,38,373,337,35,Finisher,1954
+Ilker,Ecir,Ilker Ecir,180,M35-39,Male,Istanbul,Kadikoy,Turkey,TR,0:35:32,2:44:13,2:29:17,,,6:00:10,2132,9853,8957,438,230,21610,375,339,61,193,174,30,238,220,45,375,339,61,Finisher,1633
+Dilek,Baytan,Dilek Baytan,50,F50-54,Female,İstanbul,Şişli,Turkey,TR,0:40:45,3:11:47,1:59:05,,,6:00:34,2445,11507,7145,359,178,21634,377,37,5,360,39,4,456,46,5,377,37,5,Finisher,2416
+Vitaliy,Trenkenshu,Vitaliy Trenkenshu,462,M30-34,Male,Astana,Astana,Kazakhstan,KZ,0:39:33,2:52:19,2:18:37,,,6:00:51,2373,10339,8317,419,203,21651,378,341,67,331,294,59,322,292,60,378,341,67,Finisher,1653
+Alper,Bahar,Alper Bahar,285,M45-49,Male,istanbul,istanbul,Turkey,TR,0:43:46,2:54:04,2:09:11,,,6:01:19,2626,10444,7751,517,341,21679,380,343,36,430,382,39,386,349,36,380,343,36,Finisher,1930
+Engin,Eskiduman,Engin Eskiduman,437,M40-44,Male,Adana,APO,Turkey,TR,0:43:19,3:09:57,1:58:05,,,6:01:43,2599,11397,7085,432,190,21703,381,344,61,422,375,69,465,417,71,381,344,61,Finisher,1774
+Burak,Gonen,Burak Gonen,352,M45-49,Male,Antalya,Muratpaşa,Turkey,TR,0:35:25,2:48:08,2:27:10,,,6:02:14,2125,10088,8830,407,284,21734,382,345,37,188,169,20,265,241,30,382,345,37,Finisher,1913
+Denis,Surkov,Denis Surkov,533,M35-39,Male,Moscw,,Russia,RU,0:39:34,2:59:25,2:11:20,,,6:02:21,2374,10765,7880,425,297,21741,383,346,62,332,295,53,382,345,68,383,346,62,Finisher,1594
+Mehmet,Cet N,Mehmet Cet N,449,M35-39,Male,istanbul,APO,Turkey,TR,0:43:19,2:57:48,2:12:35,,,6:02:21,2599,10668,7955,308,211,21741,384,347,63,420,373,73,384,347,69,384,347,63,Finisher,1594
+Avni,Kilincaslan,Avni Kilincaslan,414,M35-39,Male,Istanbul,Istanbul,Turkey,TR,0:44:33,2:50:19,2:17:15,,,6:02:37,2673,10219,8235,402,228,21757,386,349,64,449,398,77,345,312,59,386,349,64,Finisher,1589
+Ismail,Unal,Ismail Unal,511,M40-44,Male,izmir,izmir,Turkey,TR,0:42:00,2:55:04,2:14:23,,,6:02:38,2520,10504,8063,458,213,21758,387,350,62,396,352,62,371,335,60,387,350,62,Finisher,1757
+Ça?La,Arundar,Ça?La Arundar,125,F40-44,Male,İstanbul,Marmara,Turkey,TR,0:38:38,3:03:12,2:09:59,,,6:02:59,2318,10992,7799,431,239,21779,388,38,9,303,35,7,402,40,10,388,38,9,Finisher,2144
+Fezile,Isik,Fezile Isik,544,F45-49,Female,Lefkosa,APOkuzey Kibris,Turkey,TR,0:41:05,3:06:35,2:06:36,,,6:03:09,2465,11195,7596,348,185,21789,389,39,5,371,42,5,437,44,6,389,39,5,Finisher,2658
+Hasan,Suel,Hasan Suel,316,M45-49,Male,Istanbul,İstanbul,Turkey,TR,0:46:01,2:58:31,2:06:00,,,6:03:24,2761,10711,7560,559,213,21804,390,351,38,471,414,45,438,394,43,390,351,38,Finisher,1892
+EMRE,ÜÇÜNCÜOĞLU,EMRE ÜÇÜNCÜOĞLU,422,M35-39,Male,ISTANBUL,PENDIK,Turkey,TR,0:41:35,2:50:54,2:20:57,,,6:03:52,2495,10254,8457,446,180,21832,391,352,65,383,340,67,332,300,56,391,352,65,Finisher,1567
+Christine,Gora,Christine Gora,135,F40-44,Female,Satigny GE,GENEVE,Poland,PL,0:52:05,2:58:09,2:04:25,,,6:04:21,3125,10689,7465,411,171,21861,392,40,10,534,68,16,452,45,11,392,40,10,Finisher,2120
+Arda,Ergene,Arda Ergene,381,M35-39,Male,Kadikoy Istanbul,Turkey,Turkey,TR,0:33:35,3:03:46,2:15:05,,,6:04:35,2015,11026,8105,440,289,21875,393,353,66,128,115,22,370,334,63,393,353,66,Finisher,1554
+Mert,Kalafatoglu,Mert Kalafatoglu,427,M35-39,Male,Istanbul,Suadiye,Turkey,TR,0:37:24,3:01:53,2:12:46,,,6:04:47,2244,10913,7966,453,311,21887,394,354,67,261,234,39,392,355,70,394,354,67,Finisher,1550
+Emre,Ozdoganci,Emre Ozdoganci,348,M35-39,Male,ISTANBUL,ALTINTEPE,Turkey,TR,0:39:53,2:53:52,2:20:43,,,6:05:08,2393,10432,8443,445,195,21908,395,355,68,345,308,56,343,310,58,395,355,68,Finisher,1544
+Umut,Karamahmut,Umut Karamahmut,434,M35-39,Male,Kuwait,Salmiya,Turkey,TR,0:52:27,2:52:13,2:07:26,,,6:05:36,3147,10333,7646,520,290,21936,396,356,69,538,468,88,436,393,79,396,356,69,Finisher,1535
+Denys,Khokhlov,Denys Khokhlov,183,M35-39,Male,Kiev,Kyiv,Ukraine,UA,0:40:47,2:55:52,2:13:59,,,6:05:44,2447,10552,8039,545,361,21944,397,357,70,362,322,62,377,340,66,397,357,70,Finisher,1533
+Nevsin,Mengu,Nevsin Mengu,48,F30-34,Female,İstanbul,istanbul,Turkey,TR,0:50:47,3:01:33,2:02:38,,,6:05:49,3047,10893,7358,374,277,21949,398,41,6,523,64,11,458,47,6,398,41,6,Finisher,1975
+Elena,Dmitrieva,Elena Dmitrieva,99,F35-39,Female,Saint-Petersburg,"APO
+",Russia,RU,0:37:41,3:14:23,2:02:14,,,6:05:52,2261,11663,7334,422,272,21952,399,42,10,273,31,7,460,48,12,399,42,10,Finisher,2135
+Sergey,Vodopianov,Sergey Vodopianov,250,M30-34,Male,Kyiv,UKR,Ukraine,UA,0:41:48,2:57:24,2:16:56,,,6:06:42,2508,10644,8216,420,214,22002,400,358,68,392,348,71,383,346,70,400,358,68,Finisher,1547
+Can,Toydemir,Can Toydemir,220,M45-49,Male,İstanbul,APO,Turkey,TR,0:39:38,3:16:09,1:58:56,,,6:07:35,2378,11769,7136,423,349,22055,401,359,39,335,298,34,473,424,47,401,359,39,Finisher,1817
+Mirza, lker,Mirza lker,489,M30-34,Male,Lefkoşa,+90,Turkey,TR,0:39:38,3:12:05,2:06:16,,,6:07:44,2378,11525,7576,369,216,22064,402,360,69,334,297,60,454,409,79,402,360,69,Finisher,1529
+Yelena,Merkina,Yelena Merkina,131,F40-44,Female,Almaty,Pushkina 84-28,Kazakhstan,KZ,0:43:27,2:58:07,2:15:47,,,6:07:57,2607,10687,8147,430,206,22077,403,43,11,423,48,10,401,39,9,403,43,11,Finisher,2055
+Hakan,Deniz,Hakan Deniz,400,M40-44,Male,Izmir,Turkey,Turkey,TR,0:39:11,2:49:03,2:29:41,,,6:08:46,2351,10143,8981,414,237,22126,404,361,63,317,281,53,298,270,48,404,361,63,Finisher,1647
+Menduh,Lutfija,Menduh Lutfija,280,M60-64,Male,istanbul,APO,Turkey,TR,0:45:34,2:51:25,2:22:57,,,6:09:01,2734,10285,8577,415,130,22141,405,362,3,464,409,2,363,330,3,405,362,3,Finisher,3119
+ÇAĞLAR,İNAN,ÇAĞLAR İNAN,543,M40-44,Male,ISTANBUL,TURKEY,Turkey,TR,0:42:43,2:59:52,2:15:14,,,6:09:01,2563,10792,8114,430,242,22141,406,363,64,408,362,67,407,367,64,406,363,64,Finisher,1643
+Tamas,Kovacs,Tamas Kovacs,426,M30-34,Male,Istanbul,Istanbul,Hungary,HU,0:37:08,2:50:40,2:30:47,,,6:09:06,2228,10240,9047,443,188,22146,407,364,70,249,226,48,299,271,55,407,364,70,Finisher,1504
+Ilya,Potemin,Ilya Potemin,275,M35-39,Male,sestroretsk,"
+saint petersburg",Russia,RU,0:36:38,3:01:09,2:21:03,,,6:09:07,2198,10869,8463,421,196,22147,408,365,71,234,211,36,373,336,64,408,365,71,Finisher,1472
+Mert,Eryürük,Mert Eryürük,402,M40-44,Male,BESIKTAS / ISTANBUL,Istanbul,Turkey,TR,0:36:08,2:52:22,2:30:47,,,6:09:24,2168,10342,9047,422,185,22164,410,367,65,216,195,28,303,275,51,410,367,65,Finisher,1636
+Thiago,Valsani,Thiago Valsani,399,M30-34,Male,Winterthur,,Brazil,BR,0:38:50,3:00:46,2:17:49,,,6:09:37,2330,10846,8269,508,224,22177,411,368,71,307,272,55,396,358,74,411,368,71,Finisher,1495
+Murat,Bayram,Murat Bayram,329,M35-39,Male,Kestel,Bursa,Turkey,TR,0:41:52,3:01:30,2:11:53,,,6:09:51,2512,10890,7913,507,369,22191,412,369,72,393,349,68,430,389,77,412,369,72,Finisher,1459
+Okan,Alpay,Okan Alpay,262,M45-49,Male,Istanbul,Sariyer,Turkey,TR,0:33:16,2:50:51,2:35:23,,,6:10:01,1996,10251,9323,371,260,22201,413,370,40,120,108,11,264,240,29,413,370,40,Finisher,1773
+Fatih,Tosun,Fatih Tosun,454,M55-59,Male,Denizli,Denizli,Turkey,TR,0:49:54,3:01:26,2:07:30,,,6:11:00,2994,10886,7650,469,261,22260,415,372,11,515,453,13,461,413,13,415,372,11,Finisher,2032
+Neil,Fowler,Neil Fowler,298,M35-39,Male,Westhill,Aberdeenshire,United Kingdom,GB,0:36:26,3:06:02,2:14:37,,,6:11:16,2186,11162,8077,509,342,22276,416,373,73,227,205,34,416,376,72,416,373,73,Finisher,1433
+Kaan,Olgun,Kaan Olgun,165,M45-49,Male,ISTANBUL,IST,Turkey,TR,0:43:29,2:54:33,2:17:27,,,6:12:01,2609,10473,8247,724,268,22321,417,374,41,425,377,37,410,370,40,417,374,41,Finisher,1737
+Arda,Gülhan,Arda Gülhan,284,M25-29,Male,Istanbul,Istanbul - Marmara Region,Turkey,TR,0:45:18,3:02:37,2:08:07,,,6:12:44,2718,10957,7687,427,575,22364,418,375,29,461,406,31,444,400,29,418,375,29,Finisher,1132
+Sinan,Aksu,Sinan Aksu,331,M40-44,Male,istanbul,na,Turkey,TR,0:50:04,2:51:22,2:20:35,,,6:13:03,3004,10282,8435,469,193,22383,419,376,66,516,454,78,405,365,63,419,376,66,Finisher,1570
+Nihat,Çinarli,Nihat Çinarli,429,M35-39,Male,,,Turkey,TR,0:42:47,2:45:40,2:34:26,,,6:13:13,2567,9940,9266,397,223,22393,420,377,74,409,363,69,297,269,51,420,377,74,Finisher,1398
+Ebru Samiye,Kulak,Ebru Samiye Kulak,89,F40-44,Female,Istanbul,Istanbul,Turkey,TR,0:45:17,3:16:07,2:00:32,,,6:13:21,2717,11767,7232,514,171,22401,421,44,12,459,55,13,502,58,14,421,44,12,Finisher,1958
+Nikolay,Vasilyev,Nikolay Vasilyev,480,M40-44,Male,Dubai,DXB,Russia,RU,0:37:53,3:02:36,2:23:35,,,6:13:39,2273,10956,8615,370,205,22419,422,378,67,278,247,44,390,353,62,422,378,67,Finisher,1559
+Eleanor,Alexander,Eleanor Alexander,78,F25-29,Female,Aberdeen,,United Kingdom,GB,0:34:15,3:04:45,2:26:11,,,6:13:42,2055,11085,8771,341,170,22422,423,45,4,153,15,2,369,36,4,423,45,4,Finisher,2026
+Sergii,Boldaiev,Sergii Boldaiev,418,M30-34,Male,Kyiv,APO,Ukraine,UA,0:37:55,3:02:02,2:24:53,,,6:14:41,2275,10922,8693,401,190,22481,424,379,72,281,249,51,389,352,72,424,379,72,Finisher,1404
+Nataly,Larchenko,Nataly Larchenko,102,F25-29,Female,KIEV,Kyiv,Ukraine,UA,0:40:59,2:56:58,2:25:03,,,6:14:47,2459,10618,8703,374,333,22487,425,46,5,368,41,4,366,35,3,425,46,5,Finisher,2006
+Wilhelmus,Verheijen,Wilhelmus Verheijen,142,M50-54,Male,Wien,,Netherlands,NL,0:42:56,2:56:25,2:17:07,,,6:14:51,2576,10585,8227,748,355,22491,426,380,22,415,369,25,429,388,23,426,380,22,Finisher,1679
+Sophie,Wodon,Sophie Wodon,126,F45-49,Female,Lausanne,,Belgium,BE,0:44:35,3:08:05,2:09:52,,,6:15:04,2675,11285,7792,472,280,22504,427,47,6,451,53,7,466,49,7,427,47,6,Finisher,2443
+Andriy,Yakovlyev,Andriy Yakovlyev,561,M30-34,Male,Kiev,test,Ukraine,UA,0:51:25,3:10:30,2:02:40,,,6:15:19,3085,11430,7360,401,243,22519,428,381,73,528,462,90,495,442,86,428,381,73,Finisher,1392
+Alev,Aksoy,Alev Aksoy,238,M35-39,Male,Istanbul,IStanbul,Turkey,TR,0:39:26,3:04:17,2:20:04,,,6:15:25,2366,11057,8404,483,215,22525,429,382,75,327,290,52,428,387,76,429,382,75,Finisher,1359
+Ahmet Melih,Isikçi,Ahmet Melih Isikçi,490,M55-59,Male,BALIKESİR,BALIKESİR,Turkey,TR,0:39:26,2:59:40,2:24:37,,,6:15:30,2366,10780,8677,467,240,22530,430,383,12,328,291,9,393,356,11,430,383,12,Finisher,1951
+Eren,Yöntem,Eren Yöntem,219,M25-29,Male,istanbul,beyoglu,Turkey,TR,0:35:50,3:09:31,2:20:02,,,6:15:52,2150,11371,8402,383,246,22552,431,384,30,203,182,16,427,386,28,431,384,30,Finisher,1075
+Yücel,Bilici,Yücel Bilici,289,M40-44,Male,İstanbul,Bakirkoy,Turkey,TR,0:42:36,3:05:50,2:12:29,,,6:16:04,2556,11150,7949,412,497,22564,433,386,68,406,360,65,446,402,69,433,386,68,Finisher,1516
+Efe,Kale,Efe Kale,497,M25-29,Male,İzmir,İzmir,Turkey,TR,0:41:13,3:01:42,2:22:47,,,6:16:13,2473,10902,8567,378,253,22573,434,387,31,377,334,25,404,364,27,434,387,31,Finisher,1069
+Müjdat,Ök,Müjdat Ök,549,M45-49,Male,istanbul,APO,Turkey,TR,0:47:29,2:59:07,2:16:44,,,6:16:13,2849,10747,8204,512,261,22573,435,388,42,492,433,47,445,401,44,435,388,42,Finisher,1662
+Genevieve,Boutin,Genevieve Boutin,130,F40-44,Female,LONG IS CITY,NY,Canada,CA,0:43:53,3:25:00,1:56:53,,,6:16:26,2633,12300,7013,435,205,22586,436,48,13,434,49,11,515,63,16,436,48,13,Finisher,1902
+Alexandra,Voskresenskaya,Alexandra Voskresenskaya,98,F30-34,Female,Rostov-on-Don,Rostov,Russia,RU,0:41:07,3:22:24,2:04:15,,,6:16:39,2467,12144,7455,353,180,22599,437,49,7,374,43,7,499,57,11,437,49,7,Finisher,1780
+Efe,Gürsoy,Efe Gürsoy,259,M30-34,Male,izmir,konak,Turkey,TR,0:31:18,3:04:09,2:30:23,,,6:17:10,1878,11049,9023,482,198,22630,438,389,74,73,68,18,362,329,68,438,389,74,Finisher,1359
+Celil,Akman,Celil Akman,408,M45-49,Male,Bursa,16,Turkey,TR,0:44:25,3:09:31,2:11:28,,,6:17:24,2665,11371,7888,477,243,22644,439,390,43,444,394,41,470,421,46,439,390,43,Finisher,1640
+Eva Maria,Firat,Eva Maria Firat,82,F35-39,Female,Linz,,Austria,AT,0:44:28,3:20:02,2:01:32,,,6:17:33,2668,12002,7292,385,306,22653,440,50,11,445,51,13,507,60,14,440,50,11,Finisher,1925
+Murat,Sapsaglam,Murat Sapsaglam,327,M45-49,Male,IZMIR,IZMIR,Turkey,TR,0:30:13,3:13:23,2:24:37,,,6:17:51,1813,11603,8677,336,242,22671,441,391,44,52,48,4,403,363,39,441,391,44,Finisher,1632
+Kevser,Önal,Kevser Önal,134,F35-39,Female,Ankara,Çankaya,Turkey,TR,0:40:46,2:57:40,2:25:09,,,6:19:02,2446,10660,8709,578,349,22742,443,51,12,361,40,11,395,38,10,443,51,12,Finisher,1898
+Murat,Candeger,Murat Candeger,268,M50-54,Male,WezembeekOppem,VLAAMS-BRABANT,Turkey,TR,0:38:07,3:05:50,2:18:25,,,6:19:13,2287,11150,8305,655,356,22753,444,393,23,291,259,19,443,399,24,444,393,23,Finisher,1600
+Önder,Özyilmaz,Önder Özyilmaz,195,M35-39,Male,istanbul,tuzla,Turkey,TR,0:50:37,2:58:50,2:20:28,,,6:19:38,3037,10730,8428,398,185,22778,445,394,76,520,458,86,448,404,80,445,394,76,Finisher,1283
+Volkan,Ustabay,Volkan Ustabay,156,M30-34,Male,Istanbul,Besiktas,Turkey,TR,0:37:27,2:48:48,2:46:18,,,6:21:00,2247,10128,9978,348,159,22860,448,397,75,263,236,49,277,252,51,448,397,75,Finisher,1290
+Yener,Kahraman,Yener Kahraman,534,M30-34,Male,istanbul,APO,Turkey,TR,0:56:23,3:06:37,2:08:50,,,6:21:24,3383,11197,7730,389,185,22884,449,398,76,547,475,92,500,443,87,449,398,76,Finisher,1283
+Patrick,Bashor,Patrick Bashor,175,M30-34,Male,Spring,TX,United States,US,0:39:56,2:53:37,2:37:30,,,6:22:04,2396,10417,9450,447,214,22924,451,400,77,348,311,64,342,309,63,451,400,77,Finisher,1271
+Tugce,Arac,Tugce Arac,120,F35-39,Female,Istanbul,Besiktas,Turkey,TR,0:48:07,3:13:25,2:09:34,,,6:22:17,2887,11605,7774,436,235,22937,452,52,13,496,60,17,496,54,13,452,52,13,Finisher,1840
+Barry,O'Farrell,Barry O'Farrell,576,M18-24,Male,Stillorgan,Co. Dublin,Ireland,IE,0:36:47,3:02:30,2:24:38,,,6:22:24,2207,10950,8678,528,581,22944,453,401,6,237,214,3,398,360,7,453,401,6,Finisher,2082
+Selcuk,Oguzturk,Selcuk Oguzturk,290,M40-44,Male,İstanbul ,turkey,Turkey,TR,0:51:59,3:07:20,2:12:58,,,6:22:50,3119,11240,7978,413,220,22970,455,403,69,532,465,80,486,435,74,455,403,69,Finisher,1394
+Gülsen,Tokaç,Gülsen Tokaç,76,F35-39,Female,ISTANBUL,ISTANBUL,Turkey,TR,0:52:09,3:12:21,2:08:51,,,6:22:59,3129,11541,7731,411,167,22979,457,53,14,536,69,19,510,61,15,457,53,14,Finisher,1827
+Francis,Foata,Francis Foata,469,M40-44,Male,lausanne,,France,FR,0:48:53,2:52:58,2:20:08,,,6:24:32,2933,10378,8408,752,601,23072,459,406,70,502,441,77,442,398,68,459,406,70,Finisher,1363
+Aibek,Djangaziev,Aibek Djangaziev,493,M30-34,Male,Bishkek,Bishkek,Kyrgyzstan,KG,0:42:50,2:55:03,2:34:09,,,6:24:43,2570,10503,9249,483,278,23083,460,407,78,413,367,74,379,342,69,460,407,78,Finisher,1223
+Tuncay,Cumhur,Tuncay Cumhur,443,M50-54,Male,Istanbul,Turkey,Turkey,TR,0:34:15,3:06:08,2:31:47,,,6:25:07,2055,11168,9107,589,188,23107,461,408,24,154,139,12,411,371,22,461,408,24,Finisher,1494
+Stevie,Patrick,Stevie Patrick,460,M35-39,Male,Gimel,,United Kingdom,GB,0:43:28,2:57:02,2:25:32,,,6:26:02,2608,10622,8732,649,551,23162,462,409,77,424,376,74,422,381,73,462,409,77,Finisher,1168
+Mehmet,Üstündag,Mehmet Üstündag,570,M35-39,Male,istanbul,kadikoy,Turkey,TR,0:44:35,3:07:34,2:19:16,,,6:26:24,2675,11254,8356,529,370,23184,463,410,78,452,399,78,468,419,82,463,410,78,Finisher,1161
+Gian Luca,Bruzzone,Gian Luca Bruzzone,227,M50-54,Male,Genova,,Italy,IT,0:37:40,3:22:59,2:13:31,,,6:26:25,2260,12179,8011,443,292,23185,464,411,25,271,241,18,493,440,26,464,411,25,Finisher,1471
+Dave,Kellermanns,Dave Kellermanns,371,M40-44,Male,Erie,CO,Germany,DE,0:34:47,2:45:39,2:52:21,,,6:26:34,2087,9939,10341,521,306,23194,465,412,71,174,157,23,252,231,41,465,412,71,Finisher,1327
+Bulent,Kaysili,Bulent Kaysili,520,M45-49,Male,BEYLIKDUZU,ISTANBUL,Turkey,TR,0:43:51,2:58:33,2:30:06,,,6:27:16,2631,10713,9006,511,375,23236,467,414,45,431,383,40,415,375,41,467,414,45,Finisher,1463
+Engin,Budak,Engin Budak,223,M35-39,Male,Heverlee,,Turkey,TR,0:52:08,2:48:51,2:33:19,,,6:28:48,3128,10131,9199,637,233,23328,468,415,79,535,467,87,424,383,74,468,415,79,Finisher,1118
+Cem,Mercan,Cem Mercan,240,M45-49,Male,Bratislava,Bratislava Region,Slovakia,SK,0:45:54,2:57:45,2:34:12,,,6:28:58,2754,10665,9252,466,201,23338,469,416,46,470,413,44,423,382,42,469,416,46,Finisher,1432
+Onur,Ünal,Onur Ünal,357,M30-34,Male,İstanbul,34,Turkey,TR,0:40:49,3:11:38,2:26:26,,,6:29:20,2449,11498,8786,389,238,23360,470,417,79,364,324,66,459,412,81,470,417,79,Finisher,1140
+Reyhan,Mengi,Reyhan Mengi,88,F30-34,Female,Atasehir,İstanbul,Turkey,TR,0:49:44,3:13:43,2:17:49,,,6:29:22,2984,11623,8269,334,152,23362,471,54,8,510,62,10,498,56,10,471,54,8,Finisher,1551
+Yildirim,Bayazit,Yildirim Bayazit,171,M30-34,Male,Ankara,Cankaya,Turkey,TR,0:46:12,3:03:52,2:22:15,,,6:29:26,2772,11032,8535,579,448,23366,472,418,80,476,419,82,463,415,82,472,418,80,Finisher,1138
+Bekir,Yemen,Bekir Yemen,567,M35-39,Male,Nicosia,Ortaköy,Turkey,TR,0:47:14,3:05:51,2:26:47,,,6:29:48,2834,11151,8807,374,222,23388,473,419,80,486,429,82,462,414,81,473,419,80,Finisher,1100
+bahri,uc,bahri uc,471,M45-49,Male,DENİZLİ,DENİZLİ,Turkey,TR,0:49:29,3:07:36,2:24:35,,,6:30:01,2969,11256,8675,356,145,23401,474,420,47,506,445,49,475,426,48,474,420,47,Finisher,1413
+Kanat,Kelsinbekov,Kanat Kelsinbekov,556,M25-29,Male,Wesley Chapel,FLORIDA,Kyrgyzstan,KG,0:49:04,3:28:02,2:01:41,,,6:30:05,2944,12482,7301,433,245,23405,475,421,32,505,444,35,526,461,34,475,421,32,Finisher,819
+Sedef,Karlikli,Sedef Karlikli,121,F40-44,Female,ISTANBUL,TURKEY,Turkey,TR,0:48:40,3:08:49,2:16:05,,,6:30:42,2920,11329,8165,688,340,23442,476,55,14,500,61,14,497,55,13,476,55,14,Finisher,1645
+GÖKHAN,ERSAN,GÖKHAN ERSAN,488,M30-34,Male,ANKARA,TURKEY,Turkey,TR,0:43:37,3:00:04,2:33:55,,,6:30:42,2617,10804,9235,452,334,23442,477,422,81,427,379,77,421,380,76,477,422,81,Finisher,1115
+Vladyslav,Rieznikov,Vladyslav Rieznikov,222,M35-39,Male,Kyiv,Kyiv,Ukraine,UA,0:41:28,3:01:47,2:34:27,,,6:31:08,2488,10907,9267,508,298,23468,478,423,81,379,336,64,426,385,75,478,423,81,Finisher,1076
+Murat Den Z,Uzun,Murat Den Z Uzun,384,M30-34,Male,BURSA,NİLÜFER,Turkey,TR,0:33:51,3:14:02,2:29:02,,,6:31:08,2031,11642,8942,387,466,23468,479,424,82,137,123,28,441,397,78,479,424,82,Finisher,1108
+Cem,Bayrakdaroglu,Cem Bayrakdaroglu,263,M35-39,Male,Ankara,Turkey,Turkey,TR,0:49:35,2:50:53,2:37:58,,,6:31:11,2975,10253,9478,465,300,23471,480,425,82,508,447,85,399,361,71,480,425,82,Finisher,1075
+Mert,Aktürk,Mert Aktürk,232,M18-24,Male,Milano,Lombardy,Turkey,TR,0:40:37,2:55:08,2:45:00,,,6:31:39,2437,10508,9900,349,305,23499,481,426,7,358,320,4,346,313,6,481,426,7,Finisher,1916
+Pavel,Bezlepkin,Pavel Bezlepkin,214,M30-34,Male,Moscow,Moscow,Russia,RU,0:43:07,3:06:55,2:22:13,,,6:32:01,2587,11215,8533,728,458,23521,482,427,83,417,371,75,471,422,84,482,427,83,Finisher,1092
+Can,Papuccuoglu,Can Papuccuoglu,407,M35-39,Male,ISTANBUL,TURKEY,Turkey,TR,0:44:04,3:01:34,2:37:12,,,6:32:31,2644,10894,9432,417,164,23551,483,428,83,439,390,76,434,391,78,483,428,83,Finisher,1051
+Asli,Özdas,Asli Özdas,553,F40-44,Female,istanbul,APO,Turkey,TR,0:50:46,3:08:00,2:23:41,,,6:33:09,3046,11280,8621,365,277,23589,484,56,15,522,63,15,479,50,12,484,56,15,Finisher,1601
+Mukhtar,Nurzhigitov,Mukhtar Nurzhigitov,282,M30-34,Male,Almaty,Almaty,Kazakhstan,KZ,0:40:53,3:12:39,2:30:09,,,6:34:13,2453,11559,9009,443,189,23653,485,429,84,365,325,67,467,418,83,485,429,84,Finisher,1052
+Artem,Baroyan,Artem Baroyan,300,M30-34,Male,Utrecht,Utrecht,Ukraine,UA,0:46:46,3:02:43,2:18:47,,,6:34:31,2806,10963,8327,545,1030,23671,486,430,85,482,425,84,457,411,80,486,430,85,Finisher,1047
+Fatih Volkan,Ileri,Fatih Volkan Ileri,396,M40-44,Male,Saint Petersburg,Leningrad,Turkey,TR,0:36:46,3:19:48,2:24:40,,,6:35:37,2206,11988,8680,573,290,23737,488,432,72,235,212,34,485,434,73,488,432,72,Finisher,1164
+FULYA,ERKMEN,FULYA ERKMEN,119,F30-34,Female,Beşiktaş,Istanbul,Turkey,TR,0:42:03,3:16:16,2:27:47,,,6:37:18,2523,11776,8867,414,258,23838,489,57,9,398,45,8,482,51,7,489,57,9,Finisher,1409
+Nicolas,Douillet,Nicolas Douillet,253,M35-39,Male,Istanbul,besiktas,France,FR,0:39:45,3:19:27,2:25:10,,,6:38:47,2385,11967,8710,471,394,23927,490,433,84,338,301,54,487,436,85,490,433,84,Finisher,938
+Christopher,Comerford,Christopher Comerford,461,M45-49,Male,LONG IS CITY,NY,United States,US,0:40:54,3:12:42,2:30:07,,,6:41:15,2454,11562,9007,600,452,24075,492,435,48,366,326,35,476,427,49,492,435,48,Finisher,1211
+Idrak,Alaquel,Idrak Alaquel,101,F35-39,Female,Al Qurayyah,Manama,Saudi Arabia,SA,0:37:27,3:05:58,2:43:59,,,6:41:41,2247,11158,9839,537,320,24101,493,58,15,264,28,6,432,43,11,493,58,15,Finisher,1491
+Seda,Karipcin,Seda Karipcin,118,F35-39,Female,Istanbul ,Maslak ,Turkey,TR,0:47:24,3:22:05,2:21:11,,,6:42:23,2844,12125,8471,484,219,24143,494,59,16,491,59,16,517,65,17,494,59,16,Finisher,1478
+Guy,Debeuf,Guy Debeuf,63,M55-59,Male,Braine-l'Alleud,,Belgium,BE,0:43:52,3:00:10,2:47:57,,,6:42:48,2632,10810,10077,426,223,24168,495,436,13,432,384,11,420,379,12,495,436,13,Finisher,1459
+Arda,Köksal,Arda Köksal,555,M35-39,Male,İstanbul,tr,Turkey,TR,0:47:14,3:06:20,2:28:57,,,6:44:05,2834,11180,8937,814,480,24245,497,438,85,487,430,83,488,437,86,497,438,85,Finisher,843
+Taner,Bestek,Taner Bestek,525,M45-49,Male,Istanbul,Istanbul,Turkey,TR,1:01:19,3:12:47,2:13:52,,,6:44:20,3679,11567,8032,545,437,24260,498,439,49,554,482,52,525,460,51,498,439,49,Finisher,1156
+Mikhail,Shtepan,Mikhail Shtepan,552,M30-34,Male,Moscow,"APO
+",Russia,RU,0:46:47,3:16:20,2:29:31,,,6:44:45,2807,11780,8971,479,248,24285,499,440,86,483,426,85,508,448,88,499,440,86,Finisher,863
+Mekhmet Kutup,Indzhebai,Mekhmet Kutup Indzhebai,358,M40-44,Male,MOSKVA,Central Federal District,Russia,RU,0:46:08,3:17:48,2:29:00,,,6:46:23,2768,11868,8940,466,341,24383,500,441,73,473,416,74,511,450,75,500,441,73,Finisher,970
+Barış,Okuducu,Barış Okuducu,225,M30-34,Male,İSTANBUL,,Turkey,TR,0:50:35,2:57:26,2:46:29,,,6:47:00,3035,10646,9989,379,371,24420,501,442,87,519,457,88,440,396,77,501,442,87,Finisher,822
+Serdar,Daşar,Serdar Daşar,234,M35-39,Male,Istanbul,Istanbul-Turkiye,Turkey,TR,0:47:19,3:06:50,2:39:00,,,6:47:53,2839,11210,9540,527,357,24473,502,443,86,489,432,84,474,425,84,502,443,86,Finisher,774
+Volkan,Aydin,Volkan Aydin,444,M40-44,Male,İstabul,Atasehir,Turkey,TR,0:42:49,3:31:01,2:23:32,,,6:48:02,2569,12661,8612,427,213,24482,503,444,74,411,365,68,523,458,79,503,444,74,Finisher,940
+Igor,Savchuk,Igor Savchuk,361,M45-49,Male,Moscow,APO,Russia,RU,0:45:49,3:17:10,2:27:13,,,6:48:10,2749,11830,8833,610,468,24490,505,446,50,468,411,43,513,452,50,505,446,50,Finisher,1087
+Edo,Rensman,Edo Rensman,184,M40-44,Male,Diemen,NL,Netherlands,NL,0:46:41,3:23:49,2:21:17,,,6:48:16,2801,12229,8477,608,381,24496,506,447,75,481,424,75,522,457,78,506,447,75,Finisher,936
+ Ayca,Borg,Ayca Borg,115,F40-44,Female,Podgorica,PODGORICA,Turkey,TR,0:44:34,3:20:01,2:29:46,,,6:48:35,2674,12001,8986,524,330,24515,507,60,16,450,52,12,514,62,15,507,60,16,Finisher,1323
+Derry,O'Neill,Derry O'Neill,500,M45-49,Male,lincoln,,United Kingdom,GB,0:48:35,3:04:19,2:42:38,,,6:48:52,2915,11059,9758,504,296,24532,508,448,51,498,438,48,469,420,45,508,448,51,Finisher,1074
+Banu,Kirklareli,Banu Kirklareli,108,F35-39,Female,Istanbul,Atasehir,Turkey,TR,0:55:20,3:18:26,2:20:56,,,6:50:30,3320,11906,8456,667,281,24630,509,61,17,543,71,20,527,66,18,509,61,17,Finisher,1332
+Sem H,Kumluk,Sem H Kumluk,479,M25-29,Male,Istanbul,Maltepe,Turkey,TR,0:43:53,3:15:14,2:38:59,,,6:50:30,2633,11714,9539,393,351,24630,510,449,33,435,386,29,483,432,32,510,449,33,Finisher,700
+Melek,Bilge,Melek Bilge,96,F30-34,Female,GIRNE,mersın 10,Turkey,TR,0:35:47,3:25:38,2:40:52,,,6:53:42,2147,12338,9652,355,330,24822,511,62,10,201,21,6,490,52,8,511,62,10,Finisher,1113
+Genco,Yucel,Genco Yucel,548,M50-54,Male,istanbul,APO,Turkey,TR,0:47:40,3:11:59,2:35:45,,,6:53:55,2860,11519,9345,650,461,24835,512,450,26,494,435,28,503,445,27,512,450,26,Finisher,976
+Sencer,Yildiz,Sencer Yildiz,228,M40-44,Male,ISTANBUL,,Turkey,TR,0:38:52,3:07:41,2:52:30,,,6:54:53,2332,11261,10350,603,347,24893,514,452,76,308,273,50,450,406,70,514,452,76,Finisher,817
+Ismail,Ergun,Ismail Ergun,485,M50-54,Male,Istanbul,Turkey,Turkey,TR,0:38:38,3:11:00,2:54:33,,,6:55:10,2318,11460,10473,388,271,24910,515,453,27,302,268,21,449,405,25,515,453,27,Finisher,953
+Berna,Solak,Berna Solak,83,F35-39,Female,İSTANBUL,APO,Turkey,TR,0:45:42,3:22:47,2:35:20,,,6:56:48,2742,12167,9320,524,255,25008,517,63,18,466,57,14,516,64,16,517,63,18,Finisher,1219
+camey,springer,camey springer,127,F45-49,Female,Morriville,PA,United States,US,0:32:00,3:00:02,3:11:41,,,6:57:01,1920,10802,11501,476,322,25021,519,64,7,84,7,1,333,33,3,519,64,7,Finisher,1688
+Oguz,Bodur,Oguz Bodur,330,M30-34,Male,Antalya,APO,Turkey,TR,0:49:49,3:08:15,2:45:04,,,6:57:41,2989,11295,9904,623,250,25061,520,456,88,511,449,87,494,441,85,520,456,88,Finisher,700
+Anna,Miagkova,Anna Miagkova,100,F25-29,Female,St. Petersburg,,Russia,RU,0:45:40,3:15:10,2:42:45,,,6:59:03,2740,11710,9765,594,334,25143,522,65,6,465,56,6,504,59,6,522,65,6,Finisher,1210
+Emrah,Eksi,Emrah Eksi,224,M30-34,Male,Istanbul,Istanbul,Turkey,TR,0:51:15,3:16:48,2:37:08,,,7:00:17,3075,11808,9428,604,302,25217,523,458,89,526,460,89,518,453,90,523,458,89,Finisher,700
+Serkan,Imrak,Serkan Imrak,141,M40-44,Male,İzmir,Narlıdere,Turkey,TR,0:51:22,3:12:21,2:46:17,,,7:03:26,3082,11541,9977,522,284,25406,524,459,77,527,461,79,512,451,76,524,459,77,Finisher,700
+Elif,Karagoz,Elif Karagoz,540,F30-34,Female,Istanbul,Istanbul,Turkey,TR,0:43:10,3:15:14,2:51:47,,,7:03:52,2590,11714,10307,558,263,25432,525,66,11,418,47,9,492,53,9,525,66,11,Finisher,930
+Nuri Celal,Toroglu,Nuri Celal Toroglu,545,M50-54,Male,İstanbul,APO,Turkey,TR,0:50:08,3:33:49,2:21:41,,,7:05:05,3008,12829,8501,719,448,25505,526,460,28,517,455,29,539,472,29,526,460,28,Finisher,775
+Burç,Seven,Burç Seven,374,M40-44,Male,Istanbul,Sariyer,Turkey,TR,0:47:55,3:22:38,2:42:58,,,7:08:15,2875,12158,9778,566,318,25695,527,461,78,495,436,76,521,456,77,527,461,78,Finisher,700
+Nandipa,Mafongosi,Nandipa Mafongosi,112,F30-34,Female,Cape Town,Western Cape,South Africa,ZA,0:55:30,3:28:49,2:29:50,,,7:09:11,3330,12529,8990,610,292,25751,528,67,12,544,72,13,535,67,12,528,67,12,Finisher,835
+Orhan Murat,Gürson,Orhan Murat Gürson,215,M45-49,Male,ANTALYA,APO,Turkey,TR,1:02:03,3:20:26,2:30:02,,,7:09:18,3723,12026,9002,613,394,25758,529,462,52,555,483,53,532,466,53,529,462,52,Finisher,706
+Ahmet,Tugay,Ahmet Tugay,473,M40-44,Male,Izmir,Izmir,Turkey,TR,0:45:46,3:11:30,3:00:46,,,7:11:22,2746,11490,10846,477,323,25882,530,463,79,467,410,73,481,431,72,530,463,79,Finisher,700
+Sanem,Karacan Orfanli,Sanem Karacan Orfanli,124,F35-39,Female,İstanbul,Turkey,Turkey,TR,0:50:53,3:40:57,2:27:22,,,7:11:50,3053,13257,8842,407,351,25910,531,68,19,524,65,18,541,68,19,531,68,19,Finisher,948
+Murat,Yalcintas,Murat Yalcintas,508,M50-54,Male,İstanbul,Turkey,Turkey,TR,0:51:58,3:29:50,2:36:39,,,7:12:58,3118,12590,9399,601,270,25978,532,464,29,531,464,31,531,465,28,532,464,29,Finisher,700
+Ali,Bidi,Ali Bidi,194,M65-69,Male,ANTALYA,AKSU,Turkey,TR,0:59:49,3:24:43,2:30:59,,,7:13:36,3589,12283,9059,682,403,26016,533,465,2,551,479,2,538,471,2,533,465,2,Finisher,1729
+Mykola,Radlinskyy,Mykola Radlinskyy,404,M30-34,Male,Poltava,Poltava region,Ukraine,UA,0:44:32,3:42:47,2:38:10,,,7:18:40,2672,13367,9490,486,305,26320,534,466,90,447,396,80,536,469,91,534,466,90,Finisher,700
+Yasemin,Ataman,Yasemin Ataman,123,F30-34,Female,istanbul,istanbul,Turkey,TR,0:51:00,0:00:00,2:45:04,,,7:18:48,3060,0,9904,0,16424,26328,535,69,13,525,66,12,99999,99999,99999,535,69,13,Finisher,700
+Sahin,Çaglayan,Sahin Çaglayan,162,M25-29,Male,İstanbul,APO,Turkey,TR,0:48:55,3:35:09,2:38:51,,,7:20:57,2935,12909,9531,520,562,26457,536,467,34,503,442,34,533,467,35,536,467,34,Finisher,700
+Deniz,Sirman,Deniz Sirman,501,M35-39,Male,umraniye,istanbul,Turkey,TR,0:43:43,3:20:30,3:09:59,,,7:23:53,2623,12030,11399,336,245,26633,537,468,87,428,380,75,501,444,87,537,468,87,Finisher,700
+Baris Sinan,Ural,Baris Sinan Ural,320,M40-44,Male,Al Qurayyah,Manama,Turkey,TR,0:52:01,3:44:48,2:35:03,,,7:24:31,3121,13488,9303,521,238,26671,538,469,80,533,466,81,549,480,81,538,469,80,Finisher,700
+Bahattin,Kılıçaslan,Bahattin Kılıçaslan,206,M50-54,Male,İstanbul,APO,Turkey,TR,0:50:44,3:40:06,2:40:19,,,7:25:48,3044,13206,9619,557,322,26748,539,470,30,521,459,30,544,475,30,539,470,30,Finisher,700
+Serhat,Yakar,Serhat Yakar,333,M35-39,Male,İstanbul,APO,Turkey,TR,0:42:57,3:48:43,2:43:42,,,7:26:49,2577,13723,9822,393,294,26809,540,471,88,416,370,72,540,473,88,540,471,88,Finisher,700
+Mert,Sisman,Mert Sisman,577,M30-34,Male,antalya,antalya,Turkey,TR,0:55:32,3:03:49,3:09:19,,,7:26:59,3332,11029,11359,719,380,26819,541,472,91,545,473,91,509,449,89,541,472,91,Finisher,700
+Ozgur,Maras,Ozgur Maras,241,M45-49,Male,Istanbul,Istanbul,Turkey,TR,0:56:26,3:18:31,2:55:16,,,7:27:20,3386,11911,10516,596,431,26840,542,473,53,548,476,51,528,462,52,542,473,53,Finisher,700
+Vinnie,O'Farrell,Vinnie O'Farrell,575,M25-29,Male,Rathmines,Dublin,Ireland,IE,0:41:18,3:27:18,3:05:12,,,7:29:00,2478,12438,11112,615,297,26940,543,474,35,378,335,26,520,455,33,543,474,35,Finisher,700
+Kubra,Varli,Kubra Varli,85,F25-29,Female,İstanbul,APO,Turkey,TR,0:52:24,3:38:27,2:45:07,,,7:29:44,3144,13107,9907,527,299,26984,544,70,7,537,70,8,543,69,7,544,70,7,Finisher,700
+Tarik,Ucar,Tarik Ucar,146,M30-34,Male,Tekirdag,APO,Turkey,TR,0:47:36,3:43:07,2:49:35,,,7:35:49,2856,13387,10175,482,449,27349,545,475,92,493,434,86,542,474,92,545,475,92,Finisher,700
+HAMZA,SANDA,HAMZA SANDA,192,M35-39,Male,istanbul,küçükçekmece,Turkey,TR,1:05:17,3:21:55,2:48:49,,,7:37:56,3917,12115,10129,779,536,27476,546,476,89,557,485,90,545,476,89,546,476,89,Finisher,700
+Rune,Jørgensen,Rune Jørgensen,257,M30-34,Male,Tappernøje,,Denmark,DK,0:57:21,3:34:08,2:49:51,,,7:39:41,3441,12848,10191,735,366,27581,547,477,93,550,478,93,546,477,93,547,477,93,Finisher,700
+Steve,Broadrick,Steve Broadrick,475,M55-59,Male,Droitwich,Worcestershire,United Kingdom,GB,0:51:40,3:44:08,2:50:13,,,7:42:05,3100,13448,10213,641,323,27725,548,478,14,529,463,14,551,482,14,548,478,14,Finisher,700
+Simge,Yüksel,Simge Yüksel,129,F35-39,Female,Istanbul,APO,Turkey,TR,0:47:23,4:00:33,2:40:12,,,7:42:40,2843,14433,9612,585,287,27760,549,71,20,490,58,15,553,71,20,549,71,20,Finisher,700
+Aykut,Misirlioglu,Aykut Misirlioglu,229,M50-54,Male,ISTANBUL,Marmara,Turkey,TR,1:00:39,3:28:30,2:48:55,,,7:45:38,3639,12510,10135,990,664,27938,550,479,31,552,480,32,550,481,31,550,479,31,Finisher,700
+Julia,Akinci,Julia Akinci,92,F25-29,Female,Istanbul,,Ukraine,UA,0:51:42,3:54:55,2:48:16,,,7:48:21,3102,14095,10096,522,286,28101,551,72,8,530,67,7,552,70,8,551,72,8,Finisher,700
+Haluk,Boga,Haluk Boga,270,M40-44,Male,BURSA,BURSA,Turkey,TR,0:56:29,3:37:07,3:08:21,,,8:03:20,3389,13027,11301,676,607,29000,552,480,81,549,477,82,548,479,80,552,480,81,Finisher,700
+Ustun Ayhan,Ustundag,Ustun Ayhan Ustundag,314,M35-39,Male,Istanbul,APO,Turkey,TR,1:03:36,3:41:28,3:04:06,,,8:08:35,3816,13288,11046,757,408,29315,553,481,90,556,484,89,554,483,90,553,481,90,Finisher,700
+Sezer,Büyükbayrak,Sezer Büyükbayrak,191,M18-24,Male,istanbul,küçükçekmece,Turkey,TR,0:54:53,3:35:33,3:25:10,,,8:21:15,3293,12933,12310,818,721,30075,554,482,8,542,472,9,547,478,9,554,482,8,Finisher,700
+Sergey,Yakovlev,Sergey Yakovlev,292,M40-44,Male,Gattieres,,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matt,Peel,Matt Peel,364,M30-34,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Janusz,Lew-Mirski,Janusz Lew-Mirski,24,M40-44,Male,Warszawa,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Duncan,Hyslop,Duncan Hyslop,312,M35-39,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Efe,Kuyumcu,Efe Kuyumcu,136,M30-34,Male,izmir,torbali,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Olivia,Pérez,Olivia Pérez,84,F25-29,Female,Zürich,CH,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ahmet,Alpat,Ahmet Alpat,413,M30-34,Male,ISTANBUL,Istanbul,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mike,Gregory,Mike Gregory,193,M30-34,Male,Ladysmith,BC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+ mer,Güvener,mer Güvener,81,F25-29,Female,Girne,Nicosia,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Arosemena,Luis,Arosemena Luis,28,M40-44,Male,,,Peru,PE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon,Boqvist,Simon Boqvist,53,M30-34,Male,Stockholm,Stockholm,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Baha,Borash,Baha Borash,261,M25-29,Male,Astana,Kazakhstan,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Caroline,Mackinnon,Caroline Mackinnon,86,F60-64,Female,London,London,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+G.C.,Van Mackelenbergh,G.C. Van Mackelenbergh,203,M45-49,Male,St.-Amandsberg,BE,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carolina,Schwedhelm,Carolina Schwedhelm,80,F25-29,Female,Berlin,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ates,Berna,Ates Berna,169,M40-44,Male,Istanbul,Tuzla,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrey,Yaroslavskiy,Andrey Yaroslavskiy,260,M45-49,Male,Astana,Kazakhstan,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexandr,Vinokurov,Alexandr Vinokurov,291,M40-44,Male,Astana,Astana,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Saruhan,Oflaz,Saruhan Oflaz,277,M30-34,Male,Istanbul,Maslak,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Muzaffer,Kuvvet,Muzaffer Kuvvet,21,M40-44,Male,istanbul,eyup,Turkey,TR,,,,,,,1815,0,0,327,0,0,99999,99999,99999,54,50,5,99999,99999,99999,99999,99999,99999,DNF,0
+Kevin Frederick,Howard,Kevin Frederick Howard,140,M60-64,Male,Wirral,Cheshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergey,Mosin Naumkina,Sergey Mosin Naumkina,537,M45-49,Male,Calonge,GIRONA [GERONA],Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rozanne,Larsen,Rozanne Larsen,79,F30-34,Female,WASHINGTON,DC,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Altan,Aytar,Altan Aytar,152,M40-44,Male,Ankara,Çankaya,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ali,Coskun,Ali Coskun,392,M40-44,Male,ISTANBUL,BESIKTAS,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Egem Sena,Kolat,Egem Sena Kolat,73,F35-39,Female,Izmir,IZMIR,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hakan,Dundar,Hakan Dundar,362,M40-44,Male,ISTANBUL,no,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kerem,Güvel,Kerem Güvel,159,M35-39,Male,Istanbul,bahcelievler,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Beatrix,Cser,Beatrix Cser,47,F40-44,Female,Karlskrona,,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Charles,Mackinnon,Charles Mackinnon,207,M60-64,Male,London,London,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Utku,Inan,Utku Inan,394,M35-39,Male,İstanbul,APO,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergejs,Kudrjavcevs,Sergejs Kudrjavcevs,324,M35-39,Male,Riga,Riga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tarryn,Wickins,Tarryn Wickins,111,F30-34,Female,London,Other,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Derek,Cameron,Derek Cameron,367,M45-49,Male,Lee on Solent,Hants,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Rogers,Mark Rogers,179,M50-54,Male,Wadebridge,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Egemen,Erden,Egemen Erden,251,M45-49,Male,Istanbul,Besiktas,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alix,Camino,Alix Camino,97,F40-44,Female,Paris,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ender,Kalpak,Ender Kalpak,580,M40-44,Male,ISTANBUL,TURKEY,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tom,Farnworth,Tom Farnworth,154,M25-29,Male,London,England,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Markus,Ockborn,Markus Ockborn,365,M50-54,Male,,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Grubb,David Grubb,33,M45-49,Male,Lund,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Burcu,Aslanagi,Burcu Aslanagi,15,F40-44,Female,Istanbul,,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+MESUT,KABAER,MESUT KABAER,313,M25-29,Male,Istanbul,Fatih,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Cihan Serdar,Kizilcik,Cihan Serdar Kizilcik,243,M40-44,Male,Istanbul,APO,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carlos,Castro,Carlos Castro,288,M50-54,Male,Doha,Doha,Venezuela,VE,,,,,,,2160,0,0,0,25522,0,99999,99999,99999,211,190,17,99999,99999,99999,99999,99999,99999,DNF,0
+Assan,Bazayev,Assan Bazayev,294,M35-39,Male,Астана,Астана,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dominic,Leivers,Dominic Leivers,34,M35-39,Male,London,Select,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mete,Pinar,Mete Pinar,345,M30-34,Male,Istanbul,Florya,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Mustafa,Kumbaraci,Mustafa Kumbaraci,167,M40-44,Male,Bursa,Bursa,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sarp,Tiryakioglu,Sarp Tiryakioglu,143,M45-49,Male,Beyoglu,Istanbul,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michal,Szafraniuk,Michal Szafraniuk,208,M30-34,Male,Warsaw,Mazowieckie ,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Scott,Voigt,Scott Voigt,464,M18-24,Male,Darien,CT,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcel,Weijers,Marcel Weijers,516,M50-54,Male,Mt Richon,WA,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Timerbulat,Bagautdinov,Timerbulat Bagautdinov,356,M25-29,Male,moscow,moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Petra,Sieber Brinkschulte,Petra Sieber Brinkschulte,45,F55-59,Female,Horw,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+João,Fonseca,João Fonseca,199,M45-49,Male,Porto,Porto,Portugal,PT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hannes,Bonami,Hannes Bonami,513,M30-34,Male,Landegem,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Denis,Polyakov,Denis Polyakov,338,M40-44,Male,Moscow,Moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Inanç,Vatansever,Inanç Vatansever,379,M35-39,Male,ISTANBUL,Küçükçekmece,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benedict,Paget,Benedict Paget,363,M30-34,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dincer,Yilmaz,Dincer Yilmaz,309,M30-34,Male,Altievler Mh.,IZMIR,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anton,Kort,Anton Kort,334,M35-39,Male,DULLES,VA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tamer,Zeybek,Tamer Zeybek,296,M45-49,Male,cigli,APO,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Can,Aslan,Can Aslan,466,M30-34,Male,Istanbul,Turkey,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Müstesna,Erkahraman,Müstesna Erkahraman,74,F45-49,Female,istanbul,istanbul,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Christine,Pagen,Christine Pagen,87,F40-44,Female,Upper Marlboro,MD,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pavel,Matveev,Pavel Matveev,196,M35-39,Male,Moscow,Moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitri,Veremeev,Dmitri Veremeev,252,M40-44,Male,Dubai,Dubai,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Batuhan,Unal,Batuhan Unal,405,M18-24,Male,KAGITHANE,,Turkey,TR,,,,,,,2494,11462,0,460,394,0,99999,99999,99999,381,338,5,464,416,8,99999,99999,99999,DNF,0
+Mark,Forrester,Mark Forrester,178,M50-54,Male,Dubai,DXB,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lise Charlotte,Tviberg,Lise Charlotte Tviberg,110,F50-54,Female,Slattum,NO,Norway,NO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benjamin,Klante,Benjamin Klante,366,M40-44,Male,Wallisellen,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Korkut,Omur,Korkut Omur,382,M50-54,Male,Monaco,,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+A.Burak,Soyak,A.Burak Soyak,149,M35-39,Male,Istanbul,Bağcılar,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomasz,Nowacki,Tomasz Nowacki,572,M40-44,Male,warszawa,mazowieckie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Bernhard,Huemer,Bernhard Huemer,236,M25-29,Male,London,London,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Estelle-Marie,Kieffer,Estelle-Marie Kieffer,11,F40-44,Female,Obernai,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
