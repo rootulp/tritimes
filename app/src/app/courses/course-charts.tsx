@@ -38,7 +38,7 @@ export default function CourseCharts({
   const filtered = courses.filter(
     (c) =>
       c.distance === distance &&
-      !c.course.match(/world-championship-(men|women)$/)
+      !c.course.includes("world-championship")
   );
 
   const btnClass = (active: boolean) =>
