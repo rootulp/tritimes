@@ -1,0 +1,612 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Toma,Alexandru,Toma Alexandru,1085,M30-34,Male,Bucharest,Romania,Romania,RO,0:24:32,2:17:06,1:31:38,,,4:18:47,1472,8226,5498,152,179,15527,1,1,1,1,1,1,1,1,1,1,1,1,Finisher,3500
+Alexey,Oreshin,Alexey Oreshin,1239,M35-39,Male,singapore,Singapore,Unknown,,0:33:19,2:13:13,1:32:27,,,4:22:54,1999,7993,5547,147,88,15774,2,2,1,48,42,6,2,2,1,2,2,1,Finisher,3500
+Assad,Attamimi,Assad Attamimi,1451,M45-49,Male,Singapore,Singapore,Australia,AU,0:28:23,2:29:29,1:24:54,,,4:26:36,1703,8969,5094,147,81,15996,3,3,1,4,3,1,7,7,2,3,3,1,Finisher,3500
+Pierre-Marie,Pautard,Pierre-Marie Pautard,1084,M30-34,Male,Gimpo,KR-41,France,FR,0:31:10,2:25:39,1:28:48,,,4:29:26,1870,8739,5328,130,98,16166,4,4,2,22,19,8,4,4,2,4,4,2,Finisher,3308
+Ulli,Birner,Ulli Birner,1092,M30-34,Male,Hirschau,,Germany,DE,0:31:26,2:25:01,1:27:40,,,4:30:56,1886,8701,5260,271,137,16256,5,5,3,25,21,10,12,12,4,5,5,3,Finisher,3281
+Jaray,Jearnai,Jaray Jearnai,1332,M40-44,Male,Phuket,,Thailand,TH,0:28:39,2:29:14,1:30:39,,,4:33:43,1719,8954,5439,159,151,16423,6,6,1,6,5,2,9,9,2,6,6,1,Finisher,3500
+Tony,Van Eck,Tony Van Eck,1131,M30-34,Male,Singapore,01,Netherlands,NL,0:36:30,2:29:34,1:24:18,,,4:36:46,2190,8974,5058,240,143,16606,7,7,4,83,69,21,23,22,9,7,7,4,Finisher,3176
+Wouter,Duyck,Wouter Duyck,1064,M30-34,Male,Singapore,,Belgium,BE,0:32:11,2:25:49,1:34:13,,,4:36:52,1931,8749,5653,148,131,16612,8,8,5,35,30,12,8,8,3,8,8,5,Finisher,3174
+Narit,Nawong,Narit Nawong,1026,M25-29,Male,Bassendean,WA,Thailand,TH,0:30:49,2:26:50,1:38:00,,,4:40:20,1849,8810,5880,180,101,16820,9,9,1,14,13,2,10,10,2,9,9,1,Finisher,3500
+Nicolas,Philippe,Nicolas Philippe,1376,M40-44,Male,,,France,FR,0:32:10,2:30:02,1:33:14,,,4:40:25,1930,9002,5594,156,143,16825,10,10,2,34,29,7,15,15,5,10,10,2,Finisher,3379
+Philipp,Kloeber,Philipp Kloeber,1236,M35-39,Male,Singapore,Singapore,Germany,DE,0:32:55,2:27:24,1:37:01,,,4:43:32,1975,8844,5821,183,188,17012,11,11,2,45,39,5,13,13,2,11,11,2,Finisher,3128
+Youri,Lavoine,Youri Lavoine,1284,M40-44,Male,Singapore,Singapore,France,FR,0:32:05,2:24:38,1:42:11,,,4:44:30,1925,8678,6131,172,164,17070,12,12,3,32,27,6,5,5,1,12,12,3,Finisher,3305
+Florian,Deichmann,Florian Deichmann,1613,M40-44,Male,HCMC,HCMC,Germany,DE,0:43:06,2:28:25,1:29:29,,,4:45:51,2586,8905,5369,177,114,17151,13,13,4,196,169,43,29,28,7,13,13,4,Finisher,3281
+Richard,Hall Jr,Richard Hall Jr,1120,M30-34,Male,CENTENNIAL,CO,United States,US,0:28:56,2:32:48,1:35:09,,,4:46:30,1736,9168,5709,270,307,17190,14,14,6,7,6,2,18,18,6,14,14,6,Finisher,3001
+Ling Er,Choo,Ling Er Choo,1136,F35-39,Female,Tampines,Singapore,Singapore,SG,0:31:39,2:34:50,1:35:48,,,4:47:30,1899,9290,5748,198,114,17250,15,1,1,27,5,2,20,1,1,15,1,1,Finisher,3500
+Nathapat,Sirimongkolpan,Nathapat Sirimongkolpan,1133,M30-34,Male,"Chongnonsee,yannawa",Bangkok,Thailand,TH,0:37:46,2:33:51,1:29:52,,,4:47:55,2266,9231,5392,205,181,17275,16,15,7,103,87,22,32,31,13,16,15,7,Finisher,2975
+Ewin,Teo,Ewin Teo,1305,M40-44,Male,Singapore,,Singapore,SG,0:32:00,2:29:08,1:41:40,,,4:48:44,1920,8948,6100,190,166,17324,17,16,5,30,25,4,14,14,4,17,16,5,Finisher,3229
+Sergio,Rodriguez,Sergio Rodriguez,1107,M30-34,Male,,,Spain,ES,0:31:07,2:32:44,1:38:34,,,4:49:03,1867,9164,5914,230,168,17343,18,17,8,18,16,6,19,19,7,18,17,8,Finisher,2955
+Guillaume,Lannes,Guillaume Lannes,1172,M35-39,Male,Singapore,01,France,FR,0:28:20,2:33:32,1:41:59,,,4:49:11,1700,9212,6119,200,120,17351,19,18,3,3,2,1,17,17,3,19,18,3,Finisher,3026
+David,Aldea,David Aldea,1333,M40-44,Male,Thalang,Phuket,Spain,ES,0:28:35,2:29:13,1:46:14,,,4:49:25,1715,8953,6374,173,150,17365,20,19,6,5,4,1,11,11,3,20,19,6,Finisher,3217
+Lasse,Daene,Lasse Daene,1025,M25-29,Male,,,Germany,DE,0:30:35,2:25:07,1:48:34,,,4:50:30,1835,8707,6514,159,214,17430,21,20,2,13,12,1,3,3,1,21,20,2,Finisher,3317
+Eugene,Oelofse,Eugene Oelofse,1295,M40-44,Male,Sentral,WILAYAH PERSEKUTUAN KUALA LUMPUR,South Africa,ZA,0:32:03,2:35:26,1:40:54,,,4:52:34,1923,9326,6054,147,103,17554,22,21,7,31,26,5,21,20,6,22,21,7,Finisher,3160
+Ziq,Junaidy,Ziq Junaidy,1022,M25-29,Male,KUALA LUMPUR,WILAYAH PERSEKUTUAN,Malaysia,MY,0:32:36,2:38:47,1:34:52,,,4:52:40,1956,9527,5692,245,140,17560,23,22,3,44,38,3,35,34,3,23,22,3,Finisher,3278
+Peter ,Havas,Peter Havas,1482,M45-49,Male,budapest,,Hungary,HU,0:36:37,2:19:45,1:51:04,,,4:52:52,2197,8385,6664,198,127,17572,24,23,2,85,71,10,6,6,1,24,23,2,Finisher,3027
+Eike Andre,Weinberg,Eike Andre Weinberg,1111,M30-34,Male,,,Germany,DE,0:36:20,2:30:18,1:41:20,,,4:54:00,2180,9018,6080,203,159,17640,25,24,9,78,65,19,22,21,8,25,24,9,Finisher,2866
+Anirut,Dumluck,Anirut Dumluck,1090,M30-34,Male,Patong Kathu,Phuket,Thailand,TH,0:30:33,2:31:12,1:46:30,,,4:54:02,1833,9072,6390,190,158,17642,26,25,10,11,10,4,16,16,5,26,25,10,Finisher,2865
+Thanachat,Kongudom,Thanachat Kongudom,1081,M30-34,Male,ช้างเผือก,เชียงใหม่,Thailand,TH,0:40:32,2:35:14,1:33:49,,,4:55:17,2432,9314,5629,187,155,17717,27,26,11,148,129,27,44,43,18,27,26,11,Finisher,2843
+Luciano,Cappello,Luciano Cappello,1003,M30-34,Male,Århus,Midtjylland,Spain,ES,0:32:31,2:40:17,1:36:52,,,4:55:20,1951,9617,5812,194,145,17720,28,27,12,42,36,15,37,36,15,28,27,12,Finisher,2842
+Jhan,Yong Chan,Jhan Yong Chan,1069,M30-34,Male,Seremban,Negeri Sembilan,Malaysia,MY,0:32:29,2:43:16,1:36:20,,,4:56:40,1949,9796,5780,158,115,17800,29,28,13,41,35,14,43,42,17,29,28,13,Finisher,2818
+Gregoire,Sauve,Gregoire Sauve,1431,M45-49,Male,Versailles,,France,FR,0:34:00,2:37:09,1:39:01,,,4:56:46,2040,9429,5941,209,187,17806,30,29,3,50,44,3,30,29,3,30,29,3,Finisher,2957
+Jayce,Homersham,Jayce Homersham,1095,M30-34,Male,,,United Kingdom,GB,0:35:46,2:37:04,1:39:52,,,4:58:28,2146,9424,5992,190,156,17908,31,30,14,73,60,17,36,35,14,31,30,14,Finisher,2785
+Alfredo,Molinas,Alfredo Molinas,1112,M30-34,Male,Madrid,,Spain,ES,0:31:30,2:37:36,1:44:20,,,4:58:52,1890,9456,6260,185,140,17932,32,31,15,26,22,11,25,24,10,32,31,15,Finisher,2778
+Saha,Bhasavanich,Saha Bhasavanich,1467,M45-49,Male,Phasi Charoen,KRUNG THEP MAHA NAKHON,Thailand,TH,0:37:31,2:33:15,1:41:18,,,4:59:26,2251,9195,6078,272,170,17966,33,32,4,101,85,13,34,33,4,33,32,4,Finisher,2909
+Herve,Conseil,Herve Conseil,1495,M50-54,Male,Wassenaar,,France,FR,0:36:07,2:31:13,1:45:16,,,5:00:22,2167,9073,6316,243,223,18022,34,33,1,75,62,6,24,23,1,34,33,1,Finisher,3500
+Daniel,Mew,Daniel Mew,1097,M30-34,Male,Singapore,Singapore,United Kingdom,GB,0:31:08,2:40:44,1:43:54,,,5:00:57,1868,9644,6234,173,138,18057,35,34,16,20,18,7,31,30,12,35,34,16,Finisher,2741
+Davy,Rosseel,Davy Rosseel,1618,M45-49,Male,Berchem,ANTWERPEN,Belgium,BE,0:31:53,2:47:38,1:35:18,,,5:03:10,1913,10058,5718,283,218,18190,36,35,5,28,23,2,61,57,9,36,35,5,Finisher,2841
+Andreas,Enderlin,Andreas Enderlin,1413,M45-49,Male,Singapore,Singapore,Switzerland,CH,0:36:53,2:43:36,1:37:34,,,5:03:54,2213,9816,5854,181,170,18234,37,36,6,89,74,11,60,56,8,37,36,6,Finisher,2828
+Nico,Ng,Nico Ng,1035,M25-29,Male,Singapore,Singapore,Singapore,SG,0:35:01,2:49:09,1:32:52,,,5:03:56,2101,10149,5572,256,157,18236,38,37,4,61,53,4,81,74,4,38,37,4,Finisher,3075
+Jason,Walker,Jason Walker,1203,M35-39,Male,Mantin,Negeri Sembilian,United Kingdom,GB,0:35:19,2:34:23,1:49:12,,,5:05:20,2119,9263,6552,237,149,18320,39,38,4,68,57,8,27,26,4,39,38,4,Finisher,2736
+Rie,Watanabe,Rie Watanabe,1247,F40-44,Female,katano city,OSAKA,Japan,JP,0:37:18,2:39:26,1:42:22,,,5:06:33,2238,9566,6142,248,200,18393,40,2,1,99,16,3,53,2,1,40,2,1,Finisher,3500
+Russell,Van Der Water,Russell Van Der Water,1468,M45-49,Male,Holland Grove Park,Singapore,Australia,AU,0:36:24,2:36:04,1:46:11,,,5:06:40,2184,9364,6371,297,183,18400,41,39,7,80,67,9,40,39,5,41,39,7,Finisher,2778
+Nattanun,Khanteetao,Nattanun Khanteetao,1078,M30-34,Male,สัตหีบ,ชลบุรี,Thailand,TH,0:40:56,2:34:58,1:44:44,,,5:06:52,2456,9298,6284,186,188,18412,42,40,17,155,136,28,45,44,19,42,40,17,Finisher,2634
+Jennifer,Dowey,Jennifer Dowey,1245,F40-44,Female,,,United Kingdom,GB,0:35:43,2:42:46,1:41:12,,,5:07:25,2143,9766,6072,253,212,18445,43,3,2,71,12,2,59,4,2,43,3,2,Finisher,3484
+June Liang,Lim,June Liang Lim,1129,M30-34,Male,Singapore,,Singapore,SG,0:31:25,2:37:27,1:52:32,,,5:08:28,1885,9447,6752,240,184,18508,44,41,18,24,20,9,26,25,11,44,41,18,Finisher,2605
+Martin,Arias Tinoco,Martin Arias Tinoco,1187,M35-39,Male,Singapore,,Mexico,MX,0:43:31,2:39:23,1:33:31,,,5:08:31,2611,9563,5611,461,266,18511,45,42,5,201,173,31,88,79,12,45,42,5,Finisher,2678
+Stéphanie,Pezot,Stéphanie Pezot,1050,F30-34,Female,Paris,,France,FR,0:35:45,2:46:25,1:39:47,,,5:08:39,2145,9985,5987,228,174,18519,46,4,1,72,13,3,68,5,1,46,4,1,Finisher,3500
+Szymon,Gross,Szymon Gross,1371,M40-44,Male,Kuala Lumpur,,Poland,PL,0:42:24,2:41:21,1:37:16,,,5:08:40,2544,9681,5836,272,187,18520,47,43,8,182,157,39,79,72,20,47,43,8,Finisher,2870
+Matt,Pritchard,Matt Pritchard,1471,M45-49,Male,kuala lumpur,Kuala Lumpur,Canada,CA,0:36:13,2:38:41,1:48:47,,,5:08:42,2173,9521,6527,163,137,18522,48,44,8,77,64,8,42,41,6,48,44,8,Finisher,2742
+Mohd Syafiq,Bin Ahmad,Mohd Syafiq Bin Ahmad,1068,M30-34,Male,Kedah,Kedah,Malaysia,MY,0:44:34,2:29:45,1:44:47,,,5:09:12,2674,8985,6287,311,295,18552,49,45,19,224,194,37,46,45,20,49,45,19,Finisher,2592
+Jonathan,Matthews ,Jonathan Matthews,1449,M45-49,Male,Singapore,Singapore,Ireland,IE,0:40:20,2:43:25,1:39:46,,,5:11:26,2420,9805,5986,305,170,18686,50,46,9,146,127,21,83,75,11,50,46,9,Finisher,2693
+Louie Francis G,Marquez,Louie Francis G Marquez,1196,M35-39,Male,Davao city,PH-DAS,Philippines,PH,0:29:25,2:46:19,1:47:35,,,5:11:42,1765,9979,6455,251,253,18702,51,47,6,8,7,2,48,47,7,51,47,6,Finisher,2621
+Shun,Sato,Shun Sato,1336,M40-44,Male,Toshima-ku,Tokyo,Japan,JP,0:33:58,2:47:02,1:44:09,,,5:13:21,2038,10022,6249,272,221,18801,52,48,9,49,43,12,65,61,13,52,48,9,Finisher,2786
+Tristan,Chiappini,Tristan Chiappini,1330,M40-44,Male,Singapore,Singapore,United Kingdom,GB,0:33:16,2:39:20,1:48:48,,,5:13:27,1996,9560,6528,418,304,18807,53,49,10,47,41,11,47,46,9,53,49,10,Finisher,2784
+Vincent,Lerouvillois,Vincent Lerouvillois,1285,M40-44,Male,Gelang Patah,Johor,France,FR,0:38:07,2:46:26,1:43:43,,,5:13:35,2287,9986,6223,182,137,18815,54,50,11,111,95,23,74,68,18,54,50,11,Finisher,2782
+ABDUL RAHMAN BIN ABU HASSAN,RAHMAN,ABDUL RAHMAN BIN ABU HASSAN RAHMAN,1233,M35-39,Male,Malaysia,Perak,Malaysia,MY,0:34:04,2:36:28,1:57:02,,,5:13:40,2044,9388,7022,197,169,18820,55,51,7,51,45,7,28,27,5,55,51,7,Finisher,2586
+Ken,Forbes,Ken Forbes,1364,M40-44,Male,,,United Kingdom,GB,0:40:53,2:47:02,1:36:45,,,5:14:05,2453,10022,5805,333,232,18845,56,52,12,153,134,34,99,89,23,56,52,12,Finisher,2773
+Lev,Zhidkov,Lev Zhidkov,1110,M30-34,Male,Irkutsk,Sibirskiy Federal'nyy Okrug,Unknown,,0:36:20,2:49:59,1:40:26,,,5:14:25,2180,10199,6026,268,193,18865,57,53,20,79,66,20,92,82,25,57,53,20,Finisher,2498
+Tahira Najmunisaa,Muhammad Zaid,Tahira Najmunisaa Muhammad Zaid,1051,F30-34,Female,lumut,,Malaysia,MY,0:51:51,2:40:31,1:37:17,,,5:14:56,3111,9631,5837,193,125,18896,58,5,2,347,45,12,107,11,3,58,5,2,Finisher,3386
+Casper,Hsieh,Casper Hsieh,1094,M30-34,Male,Taipei,TW-TPE,Taiwan,TW,0:35:51,2:45:00,1:47:19,,,5:15:13,2151,9900,6439,264,160,18913,59,54,21,74,61,18,63,59,22,59,54,21,Finisher,2484
+Mark,Lampard,Mark Lampard,1528,M50-54,Male,Singapore,,Canada,CA,0:31:07,2:40:15,1:57:11,,,5:15:34,1867,9615,7031,222,200,18934,60,55,2,19,17,2,33,32,2,60,55,2,Finisher,3226
+Scott,Dunn,Scott Dunn,1509,M50-54,Male,,,Canada,CA,0:37:10,2:40:02,1:52:52,,,5:15:48,2230,9602,6772,216,129,18948,61,56,3,96,81,7,52,51,3,61,56,3,Finisher,3222
+Nick,Chambers,Nick Chambers,1277,M40-44,Male,Kuala Lumpur,Kuala Lumpur,Guernsey,GG,0:34:55,2:41:23,1:54:56,,,5:17:35,2095,9683,6896,242,139,19055,62,57,13,60,52,15,49,48,10,62,57,13,Finisher,2710
+Anna,Willett,Anna Willett,1483,F50-54,Female,Kuala Lumpur,,Australia,AU,0:32:15,2:45:33,1:53:25,,,5:18:01,1935,9933,6805,273,135,19081,63,6,1,36,6,1,58,3,1,63,6,1,Finisher,3500
+Rebecca,Fowler,Rebecca Fowler,1383,F45-49,Female,Reading,West berkshire,United Kingdom,GB,0:34:35,2:49:36,1:48:12,,,5:18:24,2075,10176,6492,232,130,19104,64,7,1,53,7,1,77,7,2,64,7,1,Finisher,3500
+Bjoern,Beck,Bjoern Beck,1328,M40-44,Male,,,Germany,DE,0:41:18,2:37:24,1:50:15,,,5:18:30,2478,9444,6615,336,236,19110,65,58,14,165,144,36,62,58,12,65,58,14,Finisher,2693
+Edson,Junior,Edson Junior,1219,M35-39,Male,singapore,Singapore,Brazil,BR,0:40:19,2:41:30,1:50:11,,,5:19:00,2419,9690,6611,244,176,19140,66,59,8,145,126,22,67,63,10,66,59,8,Finisher,2490
+Chris,Clarke,Chris Clarke,1061,M30-34,Male,HCMC,Quan 2,United Kingdom,GB,0:31:00,2:52:21,1:47:56,,,5:19:09,1860,10341,6476,299,173,19149,67,60,22,17,15,5,80,73,24,67,60,22,Finisher,2413
+Affendy,Iskandar,Affendy Iskandar,1311,M40-44,Male,Seri Kembangan,MY-10,Malaysia,MY,0:40:49,2:43:55,1:48:58,,,5:20:01,2449,9835,6538,209,171,19201,68,61,15,152,133,33,78,71,19,68,61,15,Finisher,2666
+Vitsakorn,Pindech,Vitsakorn Pindech,1191,M35-39,Male,Naimuang,Nakhonsithammarat,Thailand,TH,0:36:31,2:49:55,1:47:24,,,5:21:01,2191,10195,6444,237,194,19261,69,62,9,84,70,10,87,78,11,69,62,9,Finisher,2453
+Janne,Oldager,Janne Oldager,1393,F45-49,Female,,,Denmark,DK,0:42:12,2:42:15,1:49:45,,,5:21:48,2532,9735,6585,257,199,19308,70,8,2,180,25,6,82,8,3,70,8,2,Finisher,3438
+Mark,Castrey,Mark Castrey,1359,M40-44,Male,,,Australia,AU,0:37:46,2:44:22,1:52:09,,,5:22:03,2266,9862,6729,291,176,19323,71,63,16,102,86,21,72,67,17,71,63,16,Finisher,2630
+Lily,Muldoon,Lily Muldoon,1146,F35-39,Female,SAN FRANCISCO,CA,United States,US,0:35:16,2:57:04,1:43:51,,,5:22:31,2116,10624,6231,239,141,19351,72,9,2,67,11,4,114,12,2,72,9,2,Finisher,2869
+Risa,Nanao,Risa Nanao,1388,F45-49,Female,Higashikawacho,JP-01,Japan,JP,0:35:16,2:48:26,1:54:06,,,5:24:06,2116,10106,6846,210,168,19446,73,10,3,66,10,2,73,6,1,73,10,3,Finisher,3397
+Aun Yeong,Tan,Aun Yeong Tan,1310,M40-44,Male,Petaling Jaya,selangor,Malaysia,MY,0:35:08,2:40:32,1:59:40,,,5:24:20,2108,9632,7180,306,234,19460,74,64,17,64,55,16,51,50,11,74,64,17,Finisher,2588
+Jin,Yan,Jin Yan,1014,M18-24,Male,北京市,北京市,China,CN,0:41:04,2:37:37,1:59:19,,,5:24:32,2464,9457,7159,215,177,19472,75,65,1,159,139,1,57,55,1,75,65,1,Finisher,3500
+Martijn,Elbers,Martijn Elbers,1450,M45-49,Male,kuala lumpur,MY-14,Netherlands,NL,0:35:03,2:41:19,2:01:23,,,5:24:36,2103,9679,7283,246,166,19476,76,66,10,63,54,7,50,49,7,76,66,10,Finisher,2456
+Alexander,Kotzev,Alexander Kotzev,1125,M30-34,Male,,,Bulgaria,BG,0:38:11,2:33:23,2:03:29,,,5:24:44,2291,9203,7409,317,264,19484,77,67,23,113,97,23,39,38,16,77,67,23,Finisher,2312
+Aris,Garas,Aris Garas,1132,M30-34,Male,London,,Greece,GR,0:35:15,2:56:43,1:43:35,,,5:24:48,2115,10603,6215,327,228,19488,78,68,24,65,56,16,119,106,29,78,68,24,Finisher,2311
+Jean-Baptiste,Feat,Jean-Baptiste Feat,1406,M45-49,Male,,,France,FR,0:37:18,2:47:52,1:53:26,,,5:25:21,2238,10072,6806,231,175,19521,79,69,11,98,83,12,84,76,12,79,69,11,Finisher,2442
+Choon Siang,Tan,Choon Siang Tan,1417,M45-49,Male,,,Singapore,SG,0:42:55,2:41:22,1:54:29,,,5:25:28,2575,9682,6869,211,191,19528,80,70,12,192,166,29,75,69,10,80,70,12,Finisher,2440
+Sam,Middlehurst,Sam Middlehurst,1220,M35-39,Male,kuala lumpur,MY-14,United Kingdom,GB,0:37:07,2:40:54,2:01:23,,,5:26:02,2227,9654,7283,177,221,19562,81,71,10,93,78,12,54,52,8,81,71,10,Finisher,2363
+Rodrigo,Aja,Rodrigo Aja,1209,M35-39,Male,Kuala Lumpur,MY-14,Mexico,MX,0:30:25,2:43:40,2:05:46,,,5:27:00,1825,9820,7546,204,224,19620,82,72,11,10,9,3,41,40,6,82,72,11,Finisher,2346
+TSUYOSHI,SAWADA,TSUYOSHI SAWADA,1515,M50-54,Male,,,Japan,JP,0:30:57,2:53:39,1:55:48,,,5:27:20,1857,10419,6948,196,221,19640,83,73,4,16,14,1,76,70,5,83,73,4,Finisher,3014
+James,Keady,James Keady,1358,M40-44,Male,Singapore,01,Australia,AU,0:39:21,2:49:55,1:45:08,,,5:27:23,2361,10195,6308,383,395,19643,84,74,18,132,116,26,109,98,27,84,74,18,Finisher,2534
+Matthew,Dowle,Matthew Dowle,1327,M40-44,Male,Lyneham,ACT,Australia,AU,0:32:31,2:49:22,1:58:34,,,5:27:33,1951,10162,7114,294,132,19653,85,75,19,43,37,9,70,65,15,85,75,19,Finisher,2531
+Chanat,Phusakul,Chanat Phusakul,1134,M30-34,Male,"Thawang,Muang",Nakhon si Thamarat,Thailand,TH,0:29:36,2:49:25,1:59:10,,,5:27:42,1776,10165,7150,378,193,19662,86,76,25,9,8,3,64,60,23,86,76,25,Finisher,2259
+Khairul Azuan,Bin Nek Mat,Khairul Azuan Bin Nek Mat,1222,M35-39,Male,Shah Alam,Selangor,Malaysia,MY,0:41:04,2:46:15,1:54:03,,,5:28:20,2464,9975,6843,206,212,19700,87,77,12,160,140,25,91,81,13,87,77,12,Finisher,2322
+Sebastien,Borne,Sebastien Borne,1622,M40-44,Male,Singapore,Singapore,Unknown,,0:36:28,2:45:14,1:58:36,,,5:28:59,2188,9914,7116,309,213,19739,88,78,20,82,68,17,71,66,16,88,78,20,Finisher,2505
+Juan Miguel,Ocampo,Juan Miguel Ocampo,1096,M30-34,Male,,,Philippines,PH,0:45:35,2:46:04,1:49:01,,,5:29:15,2735,9964,6541,289,227,19755,89,79,26,250,217,45,115,103,27,89,79,26,Finisher,2231
+SERENA,YANG,SERENA YANG,1037,F30-34,Female,shah alam,MY-10,Malaysia,MY,0:30:50,2:56:43,1:57:08,,,5:29:28,1850,10603,7028,188,100,19768,90,11,3,15,2,1,89,10,2,90,11,3,Finisher,3125
+Francis Aldous,Dionisio,Francis Aldous Dionisio,1202,M35-39,Male,Malolos City,Bulacan,Philippines,PH,0:36:40,2:41:20,2:04:43,,,5:29:39,2200,9680,7483,207,209,19779,91,80,13,86,72,11,56,54,9,91,80,13,Finisher,2298
+Aschton,Hansen,Aschton Hansen,1365,M40-44,Male,Singapore,Singapore,United Kingdom,GB,0:41:07,2:50:16,1:53:49,,,5:30:09,2467,10216,6829,172,126,19809,92,81,21,162,142,35,102,92,25,92,81,21,Finisher,2484
+Rattananit,Buathong,Rattananit Buathong,1593,M30-34,Male,ต.บ่อยาง อ.เมือง,สงขลา,Thailand,TH,0:38:20,2:47:37,1:56:22,,,5:30:22,2300,10057,6982,296,187,19822,93,82,27,116,100,24,93,83,26,93,82,27,Finisher,2211
+Kitibodee,Teptong,Kitibodee Teptong,1173,M35-39,Male,"ตลิ่งชั่น , ท่าศาลา",นครศรีธรรมราช,Thailand,TH,0:45:22,2:56:04,1:41:27,,,5:31:01,2722,10564,6087,330,158,19861,94,83,14,244,212,40,159,143,24,94,83,14,Finisher,2273
+Ser Luck,Teo,Ser Luck Teo,1538,M50-54,Male,,,Singapore,SG,0:32:17,2:49:58,2:01:55,,,5:31:21,1937,10198,7315,198,233,19881,95,84,5,38,32,3,66,62,4,95,84,5,Finisher,2942
+Anna,Fritz,Anna Fritz,1615,F40-44,Female,Ho Chi Minh City,HO CHI MINH,Germany,DE,0:41:59,2:43:17,1:58:04,,,5:31:22,2519,9797,7084,267,215,19882,96,12,3,176,24,4,86,9,3,96,12,3,Finisher,3053
+Andrew,Norman,Andrew Norman,1355,M40-44,Male,Bangkok,Bangkok,United Kingdom,GB,0:42:42,2:43:59,1:55:29,,,5:31:31,2562,9839,6929,347,214,19891,97,85,22,188,162,41,96,86,22,97,85,22,Finisher,2459
+Michael,Denevan,Michael Denevan,1195,M35-39,Male,Berkeley,CA,United States,US,0:38:19,2:59:58,1:45:53,,,5:31:37,2299,10798,6353,267,181,19897,98,86,15,114,98,17,143,129,19,98,86,15,Finisher,2263
+Yusaku,Kawata,Yusaku Kawata,1608,M30-34,Male,芳賀郡茂木町,栃木県,Japan,JP,0:32:17,2:42:57,2:06:07,,,5:32:34,1937,9777,7567,356,317,19954,99,87,28,37,31,13,55,53,21,99,87,28,Finisher,2171
+Abdul,Hafiz Salleh,Abdul Hafiz Salleh,1282,M40-44,Male,kajang,selangor,Malaysia,MY,0:30:34,2:43:07,2:11:17,,,5:32:39,1834,9787,7877,185,276,19959,100,88,23,12,11,3,38,37,8,100,88,23,Finisher,2439
+Anwar,Mahfuz,Anwar Mahfuz,1018,M25-29,Male,BATU CAVES,Selangor,Malaysia,MY,0:39:44,2:45:08,1:57:23,,,5:32:49,2384,9908,7043,351,284,19969,101,89,5,136,119,9,90,80,5,101,89,5,Finisher,2555
+Wan Kheat Gavin,Loh,Wan Kheat Gavin Loh,1503,M50-54,Male,KUALA LUMPUR,WILAYAH PERSEKUTUAN KUALA LUMPUR,Malaysia,MY,0:39:15,2:49:15,1:54:52,,,5:33:56,2355,10155,6892,337,297,20036,102,90,6,130,114,11,101,91,7,102,90,6,Finisher,2895
+Chris,Lambe,Chris Lambe,1232,M35-39,Male,,,United Kingdom,GB,0:42:31,2:44:51,1:55:35,,,5:34:28,2551,9891,6935,438,252,20068,103,91,16,185,159,28,105,95,15,103,91,16,Finisher,2211
+Yoann,Soulard,Yoann Soulard,1372,M40-44,Male,,,France,FR,0:34:51,2:52:11,2:00:10,,,5:34:51,2091,10331,7210,251,209,20091,104,92,24,57,49,14,94,84,21,104,92,24,Finisher,2399
+Myles,Worthe,Myles Worthe,1118,M30-34,Male,Manchester,LAN,United Kingdom,GB,0:47:06,2:57:38,1:43:53,,,5:35:21,2826,10658,6233,246,158,20121,105,93,29,278,244,51,173,156,35,105,93,29,Finisher,2121
+Ariel,Delfin,Ariel Delfin,1291,M40-44,Male,Koronadal City,PH-SCO,Philippines,PH,0:42:35,2:39:23,2:06:28,,,5:35:28,2555,9563,7588,267,156,20128,106,94,25,186,160,40,69,64,14,106,94,25,Finisher,2388
+Alexander,Moyer,Alexander Moyer,1214,M35-39,Male,Batu Ferringhi,MY-07,United States,US,0:37:57,2:49:07,1:55:59,,,5:35:53,2277,10147,6959,432,337,20153,107,95,17,107,91,15,103,93,14,107,95,17,Finisher,2186
+Yong,Foo Ken,Yong Foo Ken,1374,M40-44,Male,Kuala Lumpur,Kuala Lumpur,Malaysia,MY,0:43:52,2:51:26,1:49:41,,,5:36:06,2632,10286,6581,384,283,20166,108,96,26,208,179,44,139,126,38,108,96,26,Finisher,2377
+Joaquin,Sanchez Duarte,Joaquin Sanchez Duarte,1108,M30-34,Male,SINGAPORE,01,United Kingdom,GB,0:44:12,2:52:32,1:50:27,,,5:36:08,2652,10352,6627,306,231,20168,109,97,30,214,185,34,140,127,30,109,97,30,Finisher,2107
+Miroslav,Danis,Miroslav Danis,1447,M45-49,Male,Asaka shi Hizaori cho,Saitama,Slovakia,SK,0:43:32,2:45:37,1:55:42,,,5:36:42,2612,9937,6942,425,286,20202,110,98,13,202,174,31,113,102,16,110,98,13,Finisher,2238
+Juangti,Wan-Leong,Juangti Wan-Leong,1323,M40-44,Male,Petaling Jaya,Selangor,Malaysia,MY,0:40:48,2:52:14,1:59:37,,,5:38:06,2448,10334,7177,185,141,20286,111,99,27,151,132,32,112,101,29,111,99,27,Finisher,2341
+Zoltan,Komlosi,Zoltan Komlosi,1314,M40-44,Male,,,Hungary,HU,0:39:02,2:54:01,1:55:03,,,5:38:15,2342,10441,6903,367,242,20295,112,100,28,126,110,25,127,114,33,112,100,28,Finisher,2338
+Samuel,Cheong,Samuel Cheong,1024,M25-29,Male,kota kemuning,MY-10,Malaysia,MY,0:39:09,3:03:20,1:48:24,,,5:38:26,2349,11000,6504,306,146,20306,113,101,6,128,112,8,165,149,8,113,101,6,Finisher,2454
+Yumiko,Hamano,Yumiko Hamano,1385,F45-49,Female,Yokohama-shi,Kanagawa-ken,Japan,JP,0:40:02,2:59:15,1:51:55,,,5:38:48,2402,10755,6715,269,186,20328,114,13,4,142,19,4,148,15,4,114,13,4,Finisher,3132
+Florian,Schimzack,Florian Schimzack,1298,M40-44,Male,Atlanta,GA,Germany,DE,0:37:06,2:54:01,1:58:40,,,5:38:54,2226,10441,7120,372,176,20334,115,102,29,92,77,19,117,104,30,115,102,29,Finisher,2326
+Hiroyuki,Komyo,Hiroyuki Komyo,1549,M55-59,Male,"Setagaya-ku, Kitazawa",Tokyo,Japan,JP,0:35:31,2:55:52,1:58:21,,,5:39:49,2131,10552,7101,363,243,20389,116,103,1,69,58,2,120,107,1,116,103,1,Finisher,3500
+Rex,Villaflor,Rex Villaflor,1337,M40-44,Male,Singapore,01,Philippines,PH,0:32:28,2:59:12,2:00:21,,,5:41:18,1948,10752,7221,347,210,20478,117,104,30,40,34,8,121,108,31,117,104,30,Finisher,2283
+Karen,E Ling Siah,Karen E Ling Siah,1141,F35-39,Female,Petaling Jaya,Selangor,Malaysia,MY,0:48:35,3:05:06,1:42:09,,,5:43:03,2915,11106,6129,283,149,20583,118,14,3,307,38,7,220,24,4,118,14,3,Finisher,2500
+Manuel,Juarez De La Rasilla,Manuel Juarez De La Rasilla,1375,M40-44,Male,Sevilla,,Spain,ES,0:37:08,2:57:20,2:00:32,,,5:43:09,2228,10640,7232,288,201,20589,119,105,31,94,79,20,128,115,34,119,105,31,Finisher,2250
+Sue,Teoh,Sue Teoh,1254,F40-44,Female,PETALING JAYA,Selangor,Malaysia,MY,0:31:14,3:00:24,2:02:51,,,5:43:14,1874,10824,7371,301,224,20594,120,15,4,23,4,1,116,13,4,120,15,4,Finisher,2839
+Kenny,Lum,Kenny Lum,1402,M45-49,Male,Malaysian,,Malaysia,MY,0:34:49,3:01:22,1:59:50,,,5:43:19,2089,10882,7190,250,188,20599,121,106,14,56,48,5,132,119,17,121,106,14,Finisher,2119
+Volker,Dieckmann,Volker Dieckmann,1537,M50-54,Male,Kuala Lumpur,,Germany,DE,0:41:00,2:52:48,1:58:51,,,5:43:55,2460,10368,7131,407,268,20635,122,107,7,158,138,12,134,121,11,122,107,7,Finisher,2716
+Yin Hao,Liew,Yin Hao Liew,1363,M40-44,Male,Bayan Lepas,,Malaysia,MY,0:41:39,2:50:41,2:02:49,,,5:44:15,2499,10241,7369,320,227,20655,123,108,32,169,147,38,123,110,32,123,108,32,Finisher,2230
+Tony,Howett,Tony Howett,1356,M40-44,Male,Dubai,DXB,Myanmar,MM,0:40:27,2:54:24,2:01:28,,,5:44:44,2427,10464,7288,278,228,20684,124,109,33,147,128,31,129,116,35,124,109,33,Finisher,2221
+Jarret,Liew,Jarret Liew,1499,M50-54,Male,Sungai Buloh,Selangor Darul Ehsan,Malaysia,MY,0:34:54,2:52:34,2:09:04,,,5:45:01,2094,10354,7744,291,218,20701,125,110,8,59,51,5,95,85,6,125,110,8,Finisher,2696
+Marco,Poot,Marco Poot,1605,M45-49,Male,FT,,Netherlands,NL,0:42:06,2:49:50,2:06:12,,,5:45:12,2526,10190,7572,237,187,20712,126,111,15,179,155,26,111,100,15,126,111,15,Finisher,2085
+Saiful,Syazwan,Saiful Syazwan,1598,M18-24,Male,LANGKAWI,KEDAH,Malaysia,MY,0:48:47,2:33:04,2:12:50,,,5:45:41,2927,9184,7970,438,222,20741,127,112,2,314,275,5,85,77,2,127,112,2,Finisher,3119
+Ee Poh,Ong,Ee Poh Ong,1368,M40-44,Male,Singapore,01,Singapore,SG,0:38:36,2:51:42,2:07:36,,,5:46:18,2316,10302,7656,260,244,20778,128,113,34,121,105,24,104,94,26,128,113,34,Finisher,2193
+Dave,Turner,Dave Turner,1438,M45-49,Male,Kingskerswell,Devon,United Kingdom,GB,0:39:02,2:49:38,2:09:57,,,5:46:30,2342,10178,7797,262,211,20790,129,114,16,125,109,20,98,88,14,129,114,16,Finisher,2061
+Masayuki,Kawasaki,Masayuki Kawasaki,1510,M50-54,Male,Iwaki-city,FUKUSHIMA,Japan,JP,0:37:59,2:54:03,2:03:01,,,5:47:03,2279,10443,7381,484,236,20823,130,115,9,108,92,9,131,118,10,130,115,9,Finisher,2659
+Yih,Chin,Yih Chin,1440,M45-49,Male,Kajang,Selangor,Malaysia,MY,0:47:11,2:47:53,2:01:11,,,5:47:42,2831,10073,7271,337,351,20862,131,116,17,281,246,41,135,122,19,131,116,17,Finisher,2040
+James,Low,James Low,1414,M45-49,Male,,,Singapore,SG,0:48:35,2:53:38,1:54:27,,,5:47:53,2915,10418,6867,399,274,20873,132,117,18,306,269,48,174,157,25,132,117,18,Finisher,2036
+Vi Shuen,Tan,Vi Shuen Tan,1091,M30-34,Male,,,Malaysia,MY,0:45:10,2:57:04,1:57:05,,,5:48:12,2710,10624,7025,318,214,20892,133,118,31,236,206,41,164,148,34,133,118,31,Finisher,1890
+Bertrand,Garnier,Bertrand Garnier,1442,M45-49,Male,paris,Île-de-France,France,FR,0:38:02,2:59:39,2:03:22,,,5:48:44,2282,10779,7402,258,202,20924,134,119,19,109,93,15,141,128,20,134,119,19,Finisher,2021
+Zool Hilmy ,Hazally,Zool Hilmy Hazally,1264,M40-44,Male,ISKANDAR PUTERI,JOHOR,Malaysia,MY,0:46:47,2:48:55,2:06:07,,,5:49:03,2807,10135,7567,234,200,20943,135,120,35,273,239,53,130,117,36,135,120,35,Finisher,2144
+Jubaile,Morales,Jubaile Morales,1166,M35-39,Male,Flemington,AU-VIC,Philippines,PH,0:40:58,2:59:58,1:58:54,,,5:49:18,2458,10798,7134,365,203,20958,136,121,18,156,137,24,161,145,25,136,121,18,Finisher,1944
+Yeaw,Lou,Yeaw Lou,1373,M40-44,Male,SELANGOR,,Malaysia,MY,0:49:10,2:48:38,1:59:36,,,5:49:25,2950,10118,7176,385,336,20965,137,122,36,318,279,60,150,135,40,137,122,36,Finisher,2137
+Mohd Fadzil,Ismail,Mohd Fadzil Ismail,1529,M50-54,Male,Shah Alam,MY-10,Malaysia,MY,0:44:45,2:46:52,2:09:09,,,5:49:57,2685,10012,7749,358,193,20997,138,123,10,226,196,15,122,109,9,138,123,10,Finisher,2607
+Mohamad Shadidi Zikri,Hasan Hilmi,Mohamad Shadidi Zikri Hasan Hilmi,1103,M30-34,Male,Malaysia,,Malaysia,MY,0:44:58,2:58:27,1:55:43,,,5:50:24,2698,10707,6943,352,324,21024,139,124,32,230,200,39,179,162,38,139,124,32,Finisher,1850
+Chew,Huey Ming,Chew Huey Ming,1015,F25-29,Female,Bukit Mertajam,MY-07,Malaysia,MY,0:54:15,2:48:43,1:55:03,,,5:51:09,3255,10123,6903,552,236,21069,140,16,1,379,51,1,188,19,1,140,16,1,Finisher,3500
+Jyh,Chong,Jyh Chong,1170,M35-39,Male,Johor Bahru,Johor,Malaysia,MY,0:44:24,3:02:58,1:54:16,,,5:51:27,2664,10978,6856,354,234,21087,141,125,19,219,189,34,198,177,30,141,125,19,Finisher,1906
+Melvin,Lee,Melvin Lee,1426,M45-49,Male,Penang,Northern,Malaysia,MY,0:48:18,2:58:36,1:55:41,,,5:51:53,2898,10716,6941,363,196,21113,142,126,20,299,263,45,196,175,30,142,126,20,Finisher,1964
+Jean-Guillaume,Boireau,Jean-Guillaume Boireau,1609,M40-44,Male,,,France,FR,0:41:37,3:02:14,1:55:26,,,5:51:57,2497,10934,6926,470,290,21117,143,127,37,167,146,37,186,168,47,143,127,37,Finisher,2091
+Parnuwat,Rudklao,Parnuwat Rudklao,1561,M55-59,Male,Plutaloung Sattahip,,Thailand,TH,0:39:10,2:58:20,2:05:31,,,5:52:52,2350,10700,7531,336,255,21172,144,128,2,129,113,5,146,132,3,144,128,2,Finisher,3265
+Aimee,Pink,Aimee Pink,1036,F30-34,Female,Neath,Castell-nedd Port Talbot,United Kingdom,GB,0:34:44,3:06:52,2:02:44,,,5:53:25,2084,11212,7364,307,238,21205,145,17,4,54,8,2,157,16,4,145,17,4,Finisher,2694
+Hon Wai,Cheong,Hon Wai Cheong,1611,M55-59,Male,Shah Alam,MY-10,Malaysia,MY,0:44:22,2:56:33,2:04:40,,,5:55:09,2662,10593,7480,370,204,21309,146,129,3,217,187,10,162,146,4,146,129,3,Finisher,3224
+William,Power,William Power,1350,M40-44,Male,Sugarland,TX,Canada,CA,0:33:15,2:53:45,2:15:56,,,5:55:13,1995,10425,8156,395,343,21313,147,130,38,46,40,10,100,90,24,147,130,38,Finisher,2033
+Takahiro,Kobuchi,Takahiro Kobuchi,1446,M45-49,Male,横浜市青葉区,神奈川県,Japan,JP,0:40:55,2:57:39,2:05:06,,,5:55:17,2455,10659,7506,346,351,21317,148,131,21,154,135,22,151,136,21,148,131,21,Finisher,1903
+Craig,Howe,Craig Howe,1156,M35-39,Male,,,United Kingdom,GB,0:37:11,2:54:37,2:13:21,,,5:55:36,2231,10477,8001,380,247,21336,149,132,20,97,82,14,125,112,18,149,132,20,Finisher,1831
+Henrik,Meincke,Henrik Meincke,1469,M45-49,Male,Singapore,Singapore,Denmark,DK,0:38:23,2:50:05,2:19:01,,,5:55:51,2303,10205,8341,269,233,21351,150,133,22,117,101,16,97,87,13,150,133,22,Finisher,1893
+Johnathan,Teng,Johnathan Teng,1115,M30-34,Male,Singapore,Singapore,Singapore,SG,0:44:56,2:56:39,2:02:27,,,5:56:18,2696,10599,7347,322,414,21378,151,134,33,228,198,38,160,144,33,151,134,33,Finisher,1744
+Jasper,Sevilla,Jasper Sevilla,1433,M45-49,Male,Singapore,Singapore,Philippines,PH,0:47:03,3:07:43,1:50:17,,,5:57:02,2823,11263,6617,423,296,21422,152,135,23,277,243,39,237,209,39,152,135,23,Finisher,1872
+Azizan,Petra,Azizan Petra,1178,M35-39,Male,Bandar Seri Begawan,Brunei Muara,Brazil,BR,0:48:10,2:43:34,2:15:11,,,5:57:10,2890,9814,8111,362,253,21430,153,136,21,295,259,47,124,111,17,153,136,21,Finisher,1803
+Melanie,Speet,Melanie Speet,1148,F35-39,Female,Singapore,,Australia,AU,0:26:43,3:12:03,2:10:14,,,5:57:17,1603,11523,7814,230,267,21437,154,18,4,2,1,1,142,14,3,154,18,4,Finisher,2243
+Inigo Nicolas,Ortiz Garcia Varona,Inigo Nicolas Ortiz Garcia Varona,1031,M25-29,Male,,,Singapore,SG,0:37:53,2:56:20,2:16:20,,,5:57:19,2273,10580,8180,252,154,21439,155,137,7,105,89,6,126,113,6,155,137,7,Finisher,2114
+Jose Andres,Pascual Sendino,Jose Andres Pascual Sendino,1464,M45-49,Male,Singapore,,Spain,ES,0:34:20,3:19:26,1:54:59,,,5:57:39,2060,11966,6899,278,256,21459,156,138,24,52,46,4,221,197,37,156,138,24,Finisher,1861
+Faris Irsyad,Amir Hisham,Faris Irsyad Amir Hisham,1101,M30-34,Male,Local,MY-10,Malaysia,MY,0:54:05,2:55:29,2:02:18,,,5:58:18,3245,10529,7338,168,218,21498,157,139,34,377,327,60,191,172,41,157,139,34,Finisher,1708
+Kenny,Foong,Kenny Foong,1362,M40-44,Male,SHAH ALAM,SELANGOR,Malaysia,MY,0:48:36,2:53:23,2:07:11,,,5:58:21,2916,10403,7631,296,255,21501,158,140,39,309,270,58,158,142,41,158,140,39,Finisher,1976
+Rose,Blackie,Rose Blackie,1140,F35-39,Female,Norwich,Norfolk,United Kingdom,GB,0:41:38,3:13:32,1:48:53,,,5:58:35,2498,11612,6533,487,385,21515,159,19,5,168,22,5,246,29,5,159,19,5,Finisher,2220
+Sang Yu,Lim,Sang Yu Lim,1030,M25-29,Male,Ayer Itam,MY-07,Malaysia,MY,0:54:35,3:01:55,1:53:20,,,5:58:42,3275,10915,6800,373,160,21522,160,141,8,383,330,15,242,214,12,160,141,8,Finisher,2089
+Adrian Carlos,Ruben,Adrian Carlos Ruben,1238,M35-39,Male,SINGAPORE,CENTRAL SINGAPORE,Philippines,PH,0:52:56,3:03:11,1:52:12,,,5:58:53,3176,10991,6732,335,299,21533,161,142,22,365,316,56,236,208,32,161,142,22,Finisher,1772
+Mohammad Amir Ikhwan,Bin Abdul Rashid,Mohammad Amir Ikhwan Bin Abdul Rashid,1597,M30-34,Male,Langkawi,Kedah,Malaysia,MY,0:46:24,2:48:42,2:12:21,,,5:58:56,2784,10122,7941,459,229,21536,162,143,35,262,229,48,145,131,31,162,143,35,Finisher,1697
+Lê,Hoàng Vũ,Lê Hoàng Vũ,1280,M40-44,Male,Ninh Kiều,VN-CT,Vietnam,VN,0:42:53,2:47:21,2:17:38,,,5:59:40,2573,10041,8258,331,378,21580,163,144,40,191,165,42,110,99,28,163,144,40,Finisher,1952
+Muhammad Zulfadzli,Che Mustafar,Muhammad Zulfadzli Che Mustafar,1300,M40-44,Male,Petaling Jaya,SELANGOR,Malaysia,MY,0:49:35,3:05:25,1:58:11,,,5:59:43,2975,11125,7091,227,165,21583,164,145,41,327,288,64,224,200,54,164,145,41,Finisher,1952
+Ahmad Huzaifah,Ahmad Izuddin,Ahmad Huzaifah Ahmad Izuddin,1116,M30-34,Male,GombakTaman melawati,,Malaysia,MY,0:45:12,2:49:11,2:20:03,,,5:59:55,2712,10151,8403,182,148,21595,165,146,36,238,208,42,118,105,28,165,146,36,Finisher,1679
+Silvia,Meloni,Silvia Meloni,1381,F45-49,Female,Singapore,Singapore,Italy,IT,0:42:25,3:05:48,2:04:16,,,6:02:45,2545,11148,7456,280,337,21765,166,20,5,184,26,7,195,21,5,166,20,5,Finisher,2701
+Mohammad Afiq,Zulkifli,Mohammad Afiq Zulkifli,1114,M30-34,Male,Selangor,,Malaysia,MY,0:45:22,2:55:40,2:12:55,,,6:03:01,2722,10540,7975,320,224,21781,167,147,37,245,213,44,155,140,32,167,147,37,Finisher,1623
+Jia Hee,Lee,Jia Hee Lee,1056,M30-34,Male,Pulau Penang,MY-07,Malaysia,MY,0:46:29,2:57:51,1:58:24,,,6:03:23,2789,10671,7104,690,548,21803,168,148,38,266,233,49,212,191,43,168,148,38,Finisher,1617
+Khammashad,Sirapojanakun,Khammashad Sirapojanakun,1225,M35-39,Male,Naimaung,Maung,Thailand,TH,0:39:30,2:50:57,2:20:38,,,6:03:26,2370,10257,8438,301,440,21806,169,149,23,133,117,19,106,96,16,169,149,23,Finisher,1690
+Lloyd,Johnson,Lloyd Johnson,1165,M35-39,Male,putrajaya,Putrajaya,United Kingdom,GB,0:40:36,3:01:29,2:14:52,,,6:04:08,2436,10889,8092,236,196,21848,170,150,24,149,130,23,154,139,22,170,150,24,Finisher,1677
+Azani,Mat Jusoh,Azani Mat Jusoh,1405,M45-49,Male,Subang Jaya,Selangor,Malaysia,MY,0:47:24,2:55:40,2:10:06,,,6:04:47,2844,10540,7806,280,417,21887,171,151,25,287,252,42,166,150,22,171,151,25,Finisher,1732
+Boon Shin,Ooi,Boon Shin Ooi,1408,M45-49,Male,Sungai Ara,Penang,Malaysia,MY,0:48:14,3:03:08,2:01:43,,,6:04:59,2894,10988,7303,418,296,21899,172,152,26,296,260,44,219,196,36,172,152,26,Finisher,1729
+Kwang Liang (Michael),Tan,Kwang Liang (Michael) Tan,1457,M45-49,Male,Singapore,,Singapore,SG,0:43:25,3:00:02,2:12:43,,,6:05:13,2605,10802,7963,315,227,21913,173,153,27,199,171,30,172,155,24,173,153,27,Finisher,1724
+Mathieu,Braconnier,Mathieu Braconnier,1206,M35-39,Male,,,France,FR,0:37:09,3:20:22,1:55:11,,,6:05:30,2229,12022,6911,465,304,21930,174,154,25,95,80,13,255,223,36,174,154,25,Finisher,1653
+Mohamad Rosdan Bin Ishak,Rosdan,Mohamad Rosdan Bin Ishak Rosdan,1602,M18-24,Male,LUMUT PERAK,Manjung,Malaysia,MY,0:41:43,3:06:25,2:08:56,,,6:05:40,2503,11185,7736,328,187,21940,175,155,3,170,148,2,201,180,3,175,155,3,Finisher,2759
+Kamil,Fatkullin,Kamil Fatkullin,1216,M35-39,Male,Moscow,,Unknown,,0:39:55,3:04:28,2:00:31,,,6:06:11,2395,11068,7231,524,753,21971,176,156,26,140,122,21,197,176,29,176,156,26,Finisher,1640
+Lynda,Sharp,Lynda Sharp,1574,F60-64,Female,Bang Kholame,Bangkok,United Kingdom,GB,0:36:44,3:08:22,2:14:09,,,6:07:04,2204,11302,8049,286,183,22024,177,21,1,88,15,1,180,18,1,177,21,1,Finisher,3500
+Jeremy,Aniere,Jeremy Aniere,1563,M55-59,Male,Quindalup,WA,Australia,AU,0:40:38,2:54:45,2:21:38,,,6:07:50,2438,10485,8498,362,287,22070,178,157,4,150,131,6,137,124,2,178,157,4,Finisher,2995
+Luca,Pucciani,Luca Pucciani,1354,M40-44,Male,Singapore,01,Singapore,SG,0:49:19,2:52:12,2:13:21,,,6:08:03,2959,10332,8001,413,379,22083,179,158,42,321,282,61,167,151,42,179,158,42,Finisher,1802
+Matthieu,Chevalier,Matthieu Chevalier,1210,M35-39,Male,Makati City,PH-00,France,FR,0:45:06,2:53:25,2:18:56,,,6:08:13,2706,10405,8336,391,256,22093,180,159,27,232,202,36,153,138,21,180,159,27,Finisher,1604
+Kristopherson,Robledo,Kristopherson Robledo,1379,M40-44,Male,Singapore,40,Philippines,PH,0:57:32,3:02:24,1:58:56,,,6:08:39,3452,10944,7136,359,229,22119,181,160,43,401,344,78,263,230,58,181,160,43,Finisher,1791
+Ken,Soda,Ken Soda,1448,M45-49,Male,Aveley,AU-WA,Japan,JP,0:38:49,3:07:12,2:11:51,,,6:09:04,2329,11232,7911,444,228,22144,182,161,28,123,107,19,200,179,31,182,161,28,Finisher,1655
+George,Kazzi,George Kazzi,1556,M55-59,Male,Glenwood. Sydney,NSW,Australia,AU,0:45:25,3:04:22,2:11:18,,,6:09:22,2725,11062,7878,312,184,22162,183,162,5,246,214,12,209,188,6,183,162,5,Finisher,2968
+Jonathan,Daza,Jonathan Daza,1027,M25-29,Male,singapore,02,Philippines,PH,0:48:56,3:08:26,2:01:43,,,6:09:29,2936,11306,7303,327,297,22169,184,163,9,316,277,14,244,216,13,184,163,9,Finisher,1895
+Anorma,Cook,Anorma Cook,1607,F40-44,Female,Bangkok,,Thailand,TH,0:44:17,3:17:48,1:58:10,,,6:10:03,2657,11868,7090,346,242,22203,185,22,5,215,30,5,272,34,7,185,22,5,Finisher,2357
+Jien Yue,Choong,Jien Yue Choong,1023,M25-29,Male,Petaling Jaya,YT,Malaysia,MY,0:39:07,3:00:03,2:18:41,,,6:10:52,2347,10803,8321,250,532,22252,186,164,10,127,111,7,147,133,7,186,164,10,Finisher,1870
+Hing Yuen,Ng,Hing Yuen Ng,1289,M40-44,Male,Sungai buluh,selangor,Malaysia,MY,0:48:37,3:00:58,2:13:47,,,6:11:36,2917,10858,8027,224,270,22296,187,165,44,311,272,59,199,178,48,187,165,44,Finisher,1738
+Christopher,Sia,Christopher Sia,1028,M25-29,Male,Kuching,MY-13,Malaysia,MY,0:44:02,3:03:00,2:13:06,,,6:11:43,2642,10980,7986,410,285,22303,188,166,11,209,180,12,202,181,9,188,166,11,Finisher,1855
+Kris,Martenstyn,Kris Martenstyn,1334,M40-44,Male,singapore,SINGAPORE,Sri Lanka,LK,0:36:56,3:11:10,2:12:30,,,6:12:04,2216,11470,7950,359,329,22324,189,167,45,91,76,18,205,184,49,189,167,45,Finisher,1729
+Johan,Pelissier,Johan Pelissier,1377,M40-44,Male,Toulouse,31,France,FR,0:40:18,3:13:34,2:10:29,,,6:12:12,2418,11614,7829,283,189,22332,190,168,46,144,125,30,222,198,52,190,168,46,Finisher,1727
+Misato,Fujita,Misato Fujita,1547,F55-59,Female,Tokyo,,Japan,JP,0:42:57,3:01:04,2:12:30,,,6:12:18,2577,10864,7950,506,441,22338,191,23,1,194,27,2,192,20,2,191,23,1,Finisher,3500
+Petr,Polansky,Petr Polansky,1588,M65-69,Male,Pardubice,Trnová,Czech Republic,CZ,0:38:29,2:57:53,2:26:46,,,6:12:39,2309,10673,8806,270,300,22359,192,169,1,118,102,2,136,123,1,192,169,1,Finisher,3500
+Chinnatatt,Sirichanachai,Chinnatatt Sirichanachai,1412,M45-49,Male,Wangthonglang,KRUNG THEP MAHA NAKHON,Thailand,TH,0:44:07,2:59:19,2:14:24,,,6:12:50,2647,10759,8064,564,337,22370,193,170,29,212,183,33,194,174,29,193,170,29,Finisher,1587
+Nur Farihah,Hassan,Nur Farihah Hassan,1143,F35-39,Female,PETALING JAYA,SELANGOR,Malaysia,MY,0:56:46,2:59:54,2:03:46,,,6:12:52,3406,10794,7426,448,298,22372,194,24,6,397,57,12,250,31,6,194,24,6,Finisher,1963
+Seow,Jimie,Seow Jimie,1226,M35-39,Male,Bayan Lepas,Penang,Malaysia,MY,0:47:16,2:55:06,2:17:48,,,6:13:14,2836,10506,8268,413,371,22394,195,171,28,282,247,44,178,161,26,195,171,28,Finisher,1514
+Matt,Prystav,Matt Prystav,1439,M45-49,Male,Singapore,,Switzerland,CH,0:38:34,3:02:41,2:19:47,,,6:14:11,2314,10961,8387,436,353,22451,196,172,30,120,104,18,170,153,23,196,172,30,Finisher,1563
+Hesheng,Tan,Hesheng Tan,1128,M30-34,Male,Singapore,,Singapore,SG,0:42:45,3:04:03,2:15:47,,,6:14:13,2565,11043,8147,426,272,22453,197,173,39,189,163,32,203,182,42,197,173,39,Finisher,1422
+Sam,Sakai,Sam Sakai,1524,M50-54,Male,Maebashi,GUNMA,Japan,JP,0:38:38,2:50:00,2:30:46,,,6:14:45,2318,10200,9046,419,501,22485,198,174,11,122,106,10,108,97,8,198,174,11,Finisher,2161
+bukhary ikhwan,ismail,bukhary ikhwan ismail,1299,M40-44,Male,Kajang,Selangor,Malaysia,MY,0:44:50,2:58:46,2:19:33,,,6:15:02,2690,10726,8373,297,416,22502,199,175,47,227,197,46,171,154,43,199,175,47,Finisher,1676
+Mohamad Nazrul,Mohamad Zainal,Mohamad Nazrul Mohamad Zainal,1275,M40-44,Male,PUTRAJAYA,MALAYSIA,Malaysia,MY,0:51:04,3:03:03,2:06:26,,,6:16:06,3064,10983,7586,318,615,22566,200,176,48,340,297,66,225,201,55,200,176,48,Finisher,1657
+Muhamad,Sahrizan,Muhamad Sahrizan,1478,M45-49,Male,Subang Jaya,Selangor,Malaysia,MY,0:44:19,2:50:21,2:31:27,,,6:16:15,2659,10221,9087,348,260,22575,201,177,31,216,186,34,133,120,18,201,177,31,Finisher,1526
+Stephen ,Choy,Stephen Choy,1565,M55-59,Male,Singapore ,Singapore,Singapore,SG,0:46:23,3:04:37,2:17:49,,,6:16:19,2783,11077,8269,287,162,22579,202,178,6,261,228,14,211,190,7,202,178,6,Finisher,2843
+Laila,Jumaain,Laila Jumaain,1258,F40-44,Female,Malaysian,Malaysia,Malaysia,MY,0:58:24,2:56:02,2:13:47,,,6:17:09,3504,10562,8027,336,199,22629,203,25,6,405,59,12,231,27,5,203,25,6,Finisher,2229
+Faiz,Rusli,Faiz Rusli,1117,M30-34,Male,Ampang,MY-10,Malaysia,MY,1:00:06,3:06:06,1:58:44,,,6:17:19,3606,11166,7124,457,286,22639,204,179,40,417,353,63,294,259,52,204,179,40,Finisher,1366
+Rajen,Prabhu,Rajen Prabhu,1430,M45-49,Male,Singapore ,Singapore,India,IN,0:38:32,3:11:51,2:15:15,,,6:17:39,2312,11511,8115,382,339,22659,205,180,32,119,103,17,215,194,35,205,180,32,Finisher,1501
+Pasin,Intuseth,Pasin Intuseth,1357,M40-44,Male,Wattana,Bangkok,Thailand,TH,0:39:43,2:57:27,2:31:26,,,6:18:17,2383,10647,9086,334,248,22697,206,181,49,134,118,27,144,130,39,206,181,49,Finisher,1617
+Hiroaki,Baba,Hiroaki Baba,1578,M60-64,Male,Higashikawacho,HOKKAIDO,Japan,JP,0:48:52,3:11:44,2:06:48,,,6:19:06,2932,11504,7608,282,420,22746,207,182,1,315,276,5,258,225,2,207,182,1,Finisher,3500
+Ian Oliver,Canieso,Ian Oliver Canieso,1419,M45-49,Male,Malolos,Bulacan,Philippines,PH,0:48:44,2:57:02,2:19:14,,,6:19:20,2924,10622,8354,489,371,22760,208,183,33,312,273,50,204,183,32,208,183,33,Finisher,1470
+Daniel King Kuan,Lim,Daniel King Kuan Lim,1502,M50-54,Male,Petaling Jaya,SELANGOR,Malaysia,MY,0:49:11,2:52:48,2:28:15,,,6:19:21,2951,10368,8895,307,240,22761,209,184,12,319,280,23,163,147,12,209,184,12,Finisher,2078
+Klaus,Mueller,Klaus Mueller,1461,M45-49,Male,,HESSEN,Germany,DE,0:41:58,3:03:10,2:21:02,,,6:19:29,2518,10990,8462,387,412,22769,210,185,34,174,151,24,185,167,27,210,185,34,Finisher,1468
+Chan,Yian Kit,Chan Yian Kit,1205,M35-39,Male,Wilayah Persekutuan KL,Kuala Lumpur,Malaysia,MY,0:42:18,3:20:40,2:04:54,,,6:19:31,2538,12040,7494,398,301,22771,211,186,29,181,156,27,275,241,42,211,186,29,Finisher,1400
+Matthew,Chan,Matthew Chan,1221,M35-39,Male,Malacca,MY-04,Malaysia,MY,0:45:21,3:07:48,2:14:13,,,6:19:40,2721,11268,8053,457,281,22780,212,187,30,241,210,38,234,207,31,212,187,30,Finisher,1398
+Daniel,Lok,Daniel Lok,1319,M40-44,Male,Petaling Jaya,MY-10,Malaysia,MY,0:47:21,3:12:44,2:08:31,,,6:20:18,2841,11564,7711,455,247,22818,213,188,50,284,249,56,271,238,59,213,188,50,Finisher,1581
+Effarezan,Abdul Rahman,Effarezan Abdul Rahman,1251,F40-44,Female,Selangor,,Malaysia,MY,0:48:22,3:08:15,2:11:36,,,6:20:18,2902,11295,7896,421,304,22818,214,26,7,300,37,6,248,30,6,214,26,7,Finisher,2172
+Pornlapas,Ruengthong,Pornlapas Ruengthong,1488,F50-54,Female,Koh Kaew,,Thailand,TH,0:39:44,3:11:07,2:20:14,,,6:20:27,2384,11467,8414,369,193,22827,215,27,2,135,17,2,217,22,2,215,27,2,Finisher,2376
+Yasuo,Suzuki,Yasuo Suzuki,1506,M50-54,Male,"Chuo, Tokyo",JP-13,Japan,JP,0:32:25,3:14:49,2:19:50,,,6:20:36,1945,11689,8390,463,350,22836,216,189,13,39,33,4,208,187,13,216,189,13,Finisher,2055
+Nazrin,Azis,Nazrin Azis,1083,M30-34,Male,Almere,FLEVOLAND,Malaysia,MY,0:47:54,3:01:30,2:16:40,,,6:20:45,2874,10890,8200,622,259,22845,217,190,41,294,258,53,228,203,45,217,190,41,Finisher,1304
+MUHAMMAD ASHAARI,BIN ABU HUSIN,MUHAMMAD ASHAARI BIN ABU HUSIN,1102,M30-34,Male,Coffs Harbour,AU-NSW,Malaysia,MY,0:46:39,2:56:13,2:27:23,,,6:20:57,2799,10573,8843,373,269,22857,218,191,42,269,235,50,176,159,37,218,191,42,Finisher,1301
+Aleksandr,Shakhovetc,Aleksandr Shakhovetc,1230,M35-39,Male,Thalang,,Unknown,,0:43:49,3:12:36,2:12:16,,,6:20:58,2629,11556,7936,383,355,22858,219,192,31,206,177,33,243,215,34,219,192,31,Finisher,1374
+Desmond,Foo Wai Kheong,Desmond Foo Wai Kheong,1199,M35-39,Male,MALAYSIAN,PENANG,Malaysia,MY,1:01:57,3:05:54,1:59:54,,,6:21:04,3717,11154,7194,416,383,22864,220,193,32,432,367,67,298,263,46,220,193,32,Finisher,1373
+Andrew,Harvey,Andrew Harvey,1113,M30-34,Male,Singapore,Singapore,United Kingdom,GB,0:39:21,3:06:35,2:28:11,,,6:21:13,2361,11195,8891,179,246,22873,221,194,43,131,115,25,175,158,36,221,194,43,Finisher,1296
+Anne Bendix,Dahl,Anne Bendix Dahl,1545,F55-59,Female,Kuala Lumpur,,Denmark,DK,0:31:10,3:10:21,2:26:49,,,6:21:16,1870,11421,8809,415,362,22876,222,28,2,21,3,1,168,17,1,222,28,2,Finisher,3338
+Dr Haslin,Abdul Hamid,Dr Haslin Abdul Hamid,1229,M35-39,Male,Wangsa Maju,MY-14,Malaysia,MY,0:47:41,3:16:16,2:11:10,,,6:21:24,2861,11776,7870,177,201,22884,223,195,33,293,257,46,267,234,39,223,195,33,Finisher,1367
+Desmond,Puah,Desmond Puah,1320,M40-44,Male,Singapore,01,Singapore,SG,0:37:55,3:03:00,2:24:06,,,6:21:33,2275,10980,8646,494,498,22893,224,196,51,106,90,22,177,160,44,224,196,51,Finisher,1559
+Robert,Buerger,Robert Buerger,1531,M50-54,Male,Malaysia,,Austria,AT,0:44:25,3:13:12,2:12:09,,,6:21:54,2665,11592,7929,456,273,22914,225,197,14,220,190,14,254,222,16,225,197,14,Finisher,2032
+Michael,Turoczy,Michael Turoczy,1591,M65-69,Male,Sasebo,NAGASAKI,Japan,JP,0:38:10,3:16:17,2:13:58,,,6:22:51,2290,11777,8038,488,378,22971,226,198,2,112,96,1,240,212,2,226,198,2,Finisher,3316
+Melvin,Lee,Melvin Lee,1184,M35-39,Male,Johor Bahru,Johor,Malaysia,MY,0:39:51,3:04:06,2:27:02,,,6:23:57,2391,11046,8822,502,275,23037,227,199,34,138,121,20,190,171,28,227,199,34,Finisher,1321
+Takanori,Kajiwara,Takanori Kajiwara,1554,M55-59,Male,Naganoken,,Japan,JP,0:44:32,3:26:01,1:57:46,,,6:23:58,2672,12361,7066,626,314,23038,228,200,7,222,192,11,327,286,14,228,200,7,Finisher,2705
+Renee,Tng,Renee Tng,1614,F30-34,Female,Santa MOnica,CALIFORNIA,Singapore,SG,0:41:16,3:13:36,2:18:14,,,6:23:59,2476,11616,8294,380,273,23039,229,29,5,164,21,4,235,28,5,229,29,5,Finisher,2144
+Ben,Fry,Ben Fry,1234,M35-39,Male,Singapore,Singapore,United Kingdom,GB,0:43:16,2:56:18,2:31:43,,,6:24:18,2596,10578,9103,413,368,23058,230,201,35,198,170,30,156,141,23,230,201,35,Finisher,1314
+Yi Kang,Ng,Yi Kang Ng,1176,M35-39,Male,,,Singapore,SG,0:43:37,2:57:00,2:27:09,,,6:24:37,2617,10620,8829,629,382,23077,231,202,36,204,176,32,184,166,27,231,202,36,Finisher,1309
+Aleksei,Kosichkin,Aleksei Kosichkin,1197,M35-39,Male,"Lindfield, Haywards Heath",West Sussex,United Kingdom,GB,0:45:21,3:17:19,2:09:34,,,6:24:38,2721,11839,7774,434,309,23078,232,203,37,243,211,39,276,242,43,232,203,37,Finisher,1308
+Maria,Levi,Maria Levi,1486,F50-54,Female,Moscow,,United Kingdom,GB,0:45:31,3:05:25,2:22:19,,,6:24:44,2731,11125,8539,418,270,23084,233,30,3,248,33,4,218,23,3,233,30,3,Finisher,2299
+Yasir,Mohammad,Yasir Mohammad,1293,M40-44,Male,KUALA LUMPUR,,Malaysia,MY,1:00:36,2:52:14,2:25:18,,,6:25:17,3636,10334,8718,196,232,23117,234,204,52,423,358,80,214,193,51,234,204,52,Finisher,1491
+Muhammad Nashrun,Norkamarul Zaman,Muhammad Nashrun Norkamarul Zaman,1032,M25-29,Male,Cheras,SK,Malaysia,MY,0:41:06,3:09:05,2:25:09,,,6:25:18,2466,11345,8709,330,268,23118,235,205,12,161,141,10,210,189,10,235,205,12,Finisher,1610
+Tony,Heneberry,Tony Heneberry,1579,M60-64,Male,Petaling Jaya,SELANGOR,Ireland,IE,0:43:36,3:26:37,2:02:32,,,6:26:47,2616,12397,7352,465,377,23207,236,206,2,203,175,2,313,275,3,236,206,2,Finisher,3361
+Bhupinder Pal,Singh,Bhupinder Pal Singh,1177,M35-39,Male,,,Singapore,SG,0:53:55,3:17:40,2:00:18,,,6:27:42,3235,11860,7218,636,313,23262,237,207,38,376,326,60,332,290,53,237,207,38,Finisher,1253
+Sai,Chan,Sai Chan,1444,M45-49,Male,Serangoon,,Singapore,SG,0:34:52,3:14:56,2:28:24,,,6:27:49,2092,11696,8904,295,283,23269,238,208,35,58,50,6,207,186,33,238,208,35,Finisher,1318
+Paul,Phuah,Paul Phuah,1307,M40-44,Male,Malaysia,,Malaysia,MY,0:52:09,2:51:43,2:32:40,,,6:28:25,3129,10303,9160,432,281,23305,239,209,53,356,309,70,183,165,46,239,209,53,Finisher,1435
+Cheong,Ye Rong,Cheong Ye Rong,1215,M35-39,Male,MALAYSIA,,Malaysia,MY,0:38:05,3:00:18,2:38:21,,,6:28:49,2285,10818,9501,390,335,23329,240,210,39,110,94,16,152,137,20,240,210,39,Finisher,1233
+Francesco,Ferrarese,Francesco Ferrarese,1183,M35-39,Male,Kuala Lumpur,,Italy,IT,0:35:33,3:25:45,2:18:12,,,6:29:52,2133,12345,8292,320,301,23392,241,211,40,70,59,9,266,233,38,241,211,40,Finisher,1214
+Izuddin,Md Ishak,Izuddin Md Ishak,1606,M45-49,Male,Kepala Batas,,Malaysia,MY,0:45:09,3:00:33,2:30:05,,,6:30:35,2709,10833,9005,414,475,23435,242,212,36,235,205,35,193,173,28,242,212,36,Finisher,1268
+Eugene,Wong,Eugene Wong,1436,M45-49,Male,Kuala Lumpur,,Malaysia,MY,0:48:31,3:10:26,2:19:51,,,6:31:00,2911,11426,8391,481,250,23460,243,213,37,305,268,47,268,235,41,243,213,37,Finisher,1260
+Theerin,Tanatithchanudom,Theerin Tanatithchanudom,1080,M30-34,Male,Bangkok,KRUNG THEP MAHA NAKHON,Thailand,TH,0:51:25,3:14:12,2:12:38,,,6:31:02,3085,11652,7958,438,329,23462,244,214,44,344,300,57,290,255,51,244,214,44,Finisher,1119
+Hui Yi,Lee,Hui Yi Lee,1043,F30-34,Female,KEPALA BATAS,PENANG,Malaysia,MY,0:51:24,3:09:30,2:22:52,,,6:31:39,3084,11370,8572,264,210,23499,245,31,6,343,44,11,257,33,6,245,31,6,Finisher,2006
+Welly,Suryana,Welly Suryana,1274,M40-44,Male,singapore,Singapore,Singapore,SG,0:39:57,3:10:36,2:33:50,,,6:31:41,2397,11436,9230,232,205,23501,246,215,54,141,123,29,206,185,50,246,215,54,Finisher,1376
+Md Istiak,Uddin,Md Istiak Uddin,1019,M25-29,Male,Dhaka,Dhaka,Bangladesh,BD,0:36:12,3:19:16,2:23:48,,,6:32:08,2172,11956,8628,397,375,23528,247,216,13,76,63,5,238,210,11,247,216,13,Finisher,1487
+Terence,Tan,Terence Tan,1458,M45-49,Male,Selangor Darul Ehsan,,Malaysia,MY,0:42:42,3:12:23,2:23:53,,,6:32:10,2562,11543,8633,505,287,23530,248,217,38,187,161,27,247,218,40,248,217,38,Finisher,1239
+Kok,Lee Min,Kok Lee Min,1380,F45-49,Female,Mont Kiara,Kuala Lumpur,Malaysia,MY,0:40:58,3:13:50,2:27:32,,,6:32:18,2458,11630,8852,303,295,23538,249,32,6,157,20,5,229,26,6,249,32,6,Finisher,2169
+Sumiko,Tan,Sumiko Tan,1145,F35-39,Female,,,Singapore,SG,0:35:02,3:39:16,2:10:12,,,6:32:27,2102,13156,7812,292,185,23547,250,33,7,62,9,3,317,40,7,250,33,7,Finisher,1610
+Indra,Gunawan,Indra Gunawan,1432,M45-49,Male,,,Indonesia,ID,0:41:56,3:04:11,2:30:55,,,6:32:37,2516,11051,9055,587,347,23557,251,218,39,173,150,23,213,192,34,251,218,39,Finisher,1231
+Ahmed Nabil,Zakaria,Ahmed Nabil Zakaria,1089,M30-34,Male,Kuala Lumpur,Kuala Lumpur,Malaysia,MY,0:47:35,2:59:56,2:36:24,,,6:32:49,2855,10796,9384,277,257,23569,252,219,45,291,256,52,187,169,39,252,219,45,Finisher,1087
+Syazwan,Roslan,Syazwan Roslan,1093,M30-34,Male,Seremban,MY-05,Malaysia,MY,0:43:28,3:03:29,2:28:24,,,6:33:10,2608,11009,8904,598,470,23590,253,220,46,200,172,33,216,195,44,253,220,46,Finisher,1081
+Izzat,Hamdan,Izzat Hamdan,1070,M30-34,Male,Selangor,MY-10,Malaysia,MY,0:41:48,3:05:52,2:37:26,,,6:33:40,2508,11152,9446,273,241,23620,254,221,47,172,149,30,189,170,40,254,221,47,Finisher,1072
+Mark,Nelson,Mark Nelson,1580,M60-64,Male,Bangkok,,United Kingdom,GB,0:36:43,3:02:48,2:47:32,,,6:34:12,2203,10968,10052,257,170,23652,255,222,3,87,73,1,149,134,1,255,222,3,Finisher,3228
+Keith,Trudgill,Keith Trudgill,1571,M55-59,Male,Don Hua Lo Amphur Muang,Chonburi,United Kingdom,GB,0:46:27,3:12:04,2:18:50,,,6:34:45,2787,11524,8330,534,510,23685,256,223,8,264,231,15,270,237,10,256,223,8,Finisher,2511
+Razali,Md.Jonit,Razali Md.Jonit,1535,M50-54,Male,Seri Kembangan,MY-10,Malaysia,MY,0:50:58,3:07:48,2:23:31,,,6:35:13,3058,11268,8611,422,355,23713,257,224,15,339,296,24,261,228,17,257,224,15,Finisher,1792
+Asfahani,Sukiman,Asfahani Sukiman,1211,M35-39,Male,KUALA LUMPUR,,Malaysia,MY,0:57:30,3:10:32,2:14:54,,,6:35:18,3450,11432,8094,469,272,23718,258,225,41,400,343,63,301,266,48,258,225,41,Finisher,1116
+Mohd Danial Bin,Mohd Zaini,Mohd Danial Bin Mohd Zaini,1121,M30-34,Male,Batu Caves,Selangor,Malaysia,MY,0:52:24,2:59:08,2:27:52,,,6:35:50,3144,10748,8872,508,479,23750,259,226,48,360,311,58,230,204,46,259,226,48,Finisher,1033
+Marios,Pittas,Marios Pittas,1562,M55-59,Male,Singapore,NORTH EAST,Singapore,SG,0:39:01,3:02:29,2:41:21,,,6:36:04,2341,10949,9681,416,377,23764,260,227,9,124,108,4,169,152,5,260,227,9,Finisher,2487
+Nor Anis Jihady,Nor Azdha,Nor Anis Jihady Nor Azdha,1192,M35-39,Male,Kelantan,KELANTAN,Malaysia,MY,0:42:57,3:14:33,2:28:45,,,6:37:18,2577,11673,8925,403,260,23838,261,228,42,193,167,29,251,220,35,261,228,42,Finisher,1080
+Caren,Frijlink,Caren Frijlink,1485,F50-54,Female,Kuala Lumpur,,Netherlands,NL,0:39:52,3:14:13,2:33:18,,,6:37:25,2392,11653,9198,336,266,23845,262,34,4,139,18,3,227,25,4,262,34,4,Finisher,2070
+Corinna,Rudolph,Corinna Rudolph,1054,F30-34,Female,Tanjung tokong,Penang,Germany,DE,0:49:50,3:20:17,2:17:38,,,6:37:46,2990,12017,8258,358,243,23866,263,35,7,328,40,10,304,36,8,263,35,7,Finisher,1895
+Jerry,Sim,Jerry Sim,1272,M40-44,Male,,,Singapore,SG,0:45:42,3:21:35,2:14:16,,,6:38:00,2742,12095,8056,543,444,23880,264,229,55,252,219,50,305,269,66,264,229,55,Finisher,1262
+Harley,Trung,Harley Trung,1198,M35-39,Male,Thu Duc,Ho Chi Minh,Vietnam,VN,0:48:28,3:36:03,1:58:14,,,6:38:21,2908,12963,7094,345,592,23901,265,230,43,303,266,49,354,309,59,265,230,43,Finisher,1061
+Danishfariesy,Affendy,Danishfariesy Affendy,1011,M18-24,Male,BATU CAVES,MY-10,Malaysia,MY,0:45:49,3:06:30,2:32:49,,,6:38:22,2749,11190,9169,432,361,23902,266,231,4,253,220,4,226,202,4,266,231,4,Finisher,2171
+Mun Nee,Ang,Mun Nee Ang,1394,F45-49,Female,bayan lepas,,Malaysia,MY,0:59:15,3:11:25,2:17:05,,,6:38:43,3555,11485,8225,346,312,23923,267,36,7,411,63,11,306,37,8,267,36,7,Finisher,2054
+Bruno,Boucholl,Bruno Boucholl,1519,M50-54,Male,KUALA LUMPUR,,France,FR,0:37:27,3:24:07,2:24:08,,,6:38:58,2247,12247,8648,420,377,23938,268,232,16,100,84,8,273,239,19,268,232,16,Finisher,1725
+Mircea,Ciungan,Mircea Ciungan,1073,M30-34,Male,Mosman,NSW,Malaysia,MY,0:57:30,3:05:54,2:13:18,,,6:39:11,3450,11154,7998,837,513,23951,269,233,49,399,342,62,310,272,54,269,233,49,Finisher,972
+Hazree,Sofian,Hazree Sofian,1086,M30-34,Male,Singapore,SINGAPORE,Singapore,SG,0:45:20,3:18:45,2:19:50,,,6:39:23,2720,11925,8390,421,508,23963,270,234,50,240,209,43,283,248,50,270,234,50,Finisher,969
+Jonathan,Nonis,Jonathan Nonis,1294,M40-44,Male,Kuala Lumpur,,Malaysia,MY,0:34:48,3:00:33,2:51:54,,,6:39:53,2088,10833,10314,372,386,23993,271,235,56,55,47,13,138,125,37,271,235,56,Finisher,1229
+Erik,Winter,Erik Winter,1429,M45-49,Male,Den Helder,,Netherlands,NL,0:51:08,3:12:26,2:23:47,,,6:40:38,3068,11546,8627,502,296,24038,272,236,40,342,299,55,285,250,45,272,236,40,Finisher,1087
+Rene,Hillig,Rene Hillig,1437,M45-49,Male,,,Germany,DE,0:42:03,3:13:39,2:36:26,,,6:40:56,2523,11619,9386,276,252,24056,273,237,41,178,154,25,232,205,38,273,237,41,Finisher,1082
+Muhammad Yazid⁩,Mohd Usope,Muhammad Yazid⁩ Mohd Usope,1283,M40-44,Male,Kuala Selangor,Selangor,Malaysia,MY,0:45:34,3:09:17,2:32:35,,,6:41:06,2734,11357,9155,450,370,24066,274,238,57,249,216,49,239,211,56,274,238,57,Finisher,1207
+Hemant,Zende,Hemant Zende,1123,M30-34,Male,pune,Maharastra,India,IN,0:49:10,3:19:43,2:16:29,,,6:41:30,2950,11983,8189,673,294,24090,275,239,51,317,278,54,320,280,55,275,239,51,Finisher,931
+Masako,Kida,Masako Kida,1395,F45-49,Female,Kobe,JP-28,Japan,JP,0:36:26,3:33:03,2:19:37,,,6:41:56,2186,12783,8377,455,315,24116,276,37,8,81,14,3,309,38,9,276,37,8,Finisher,1996
+Teck King,Lim,Teck King Lim,1504,M50-54,Male,Singapore,Singapore,Malaysia,MY,0:46:46,3:08:39,2:31:57,,,6:41:56,2806,11319,9117,497,378,24116,277,240,17,272,238,18,249,219,15,277,240,17,Finisher,1671
+Safarizlin,Abu Hassan,Safarizlin Abu Hassan,1303,M40-44,Male,Klang,,Malaysia,MY,0:44:57,3:23:02,2:21:31,,,6:43:00,2697,12182,8491,347,464,24180,278,241,58,229,199,47,293,258,63,278,241,58,Finisher,1172
+Krizia Paula Montefalcon,Clemente,Krizia Paula Montefalcon Clemente,1041,F30-34,Female,Thu Duc,Ho Chi Minh City,Philippines,PH,0:43:09,3:32:10,2:18:18,,,6:43:07,2589,12730,8298,327,243,24187,279,38,8,197,28,6,325,41,10,279,38,8,Finisher,1799
+Rudy Azwan,Sairan,Rudy Azwan Sairan,1297,M40-44,Male,Kuala Lumpur,,Malaysia,MY,0:51:57,2:57:15,2:37:12,,,6:43:28,3117,10635,9432,565,459,24208,280,242,59,352,306,68,223,199,53,280,242,59,Finisher,1164
+Martin,Hauske,Martin Hauske,1530,M50-54,Male,Singapore,01,Germany,DE,0:47:01,2:59:56,2:35:42,,,6:44:10,2821,10796,9342,827,464,24250,281,243,18,276,242,19,233,206,14,281,243,18,Finisher,1631
+Choon Keith,Ng,Choon Keith Ng,1612,M35-39,Male,SHAH ALAM,,Malaysia,MY,0:31:53,3:28:54,2:31:20,,,6:44:47,1913,12534,9080,500,260,24287,282,244,44,29,24,4,274,240,41,282,244,44,Finisher,946
+Kwai Lan,Aw Yong,Kwai Lan Aw Yong,1382,F45-49,Female,Shah Alam,Selangor Darul Ehsan,Malaysia,MY,0:47:09,3:10:02,2:32:43,,,6:45:16,2829,11402,9163,426,496,24316,283,39,9,280,35,8,253,32,7,283,39,9,Finisher,1936
+Wei Ling,Lee,Wei Ling Lee,1391,F45-49,Female,Penang,,Malaysia,MY,0:55:21,3:27:58,2:11:29,,,6:46:32,3321,12478,7889,465,239,24392,284,40,10,389,54,9,357,46,10,284,40,10,Finisher,1913
+Kamal Syakier,Bin Mohamed,Kamal Syakier Bin Mohamed,1168,M35-39,Male,Seremban,MY-05,Malaysia,MY,1:02:28,3:03:36,2:24:50,,,6:46:57,3748,11016,8690,599,364,24417,285,245,45,435,370,69,303,268,50,285,245,45,Finisher,907
+Shahariz,Aziz,Shahariz Aziz,1460,M45-49,Male,Kuala Lumpur,WILAYAH PERSEKUTUAN KUALA LUMPUR,Malaysia,MY,0:49:29,3:13:26,2:30:57,,,6:47:08,2969,11606,9057,464,332,24428,286,246,42,325,286,52,280,245,43,286,246,42,Finisher,970
+Michael K.T,Chow,Michael K.T Chow,1536,M50-54,Male,Kuala Lumpur,FT,Malaysia,MY,0:48:23,3:10:52,2:36:06,,,6:47:17,2903,11452,9366,401,314,24437,287,247,19,302,265,22,264,231,18,287,247,19,Finisher,1575
+Mustadzim,Muhamad,Mustadzim Muhamad,1335,M40-44,Male,"Malaysia, Shah Alam",Selangor,Malaysia,MY,1:00:34,3:04:22,2:24:39,,,6:47:31,3634,11062,8679,555,521,24451,288,248,60,422,357,79,295,260,64,288,248,60,Finisher,1091
+Noor Nasrulhakim Joraidee,Bin Johar,Noor Nasrulhakim Joraidee Bin Johar,1617,M35-39,Male,Kedah,,Malaysia,MY,0:46:14,3:13:40,2:35:07,,,6:47:43,2774,11620,9307,447,316,24463,289,249,46,258,225,41,269,236,40,289,249,46,Finisher,893
+Shaheen,Adam,Shaheen Adam,1075,M30-34,Male,Shah Alam,,Malaysia,MY,0:40:14,3:17:43,2:39:05,,,6:48:10,2414,11863,9545,451,217,24490,290,250,52,143,124,26,259,226,48,290,250,52,Finisher,811
+通章,杉山,通章 杉山,1415,M45-49,Male,名古屋市千種区内山,愛知県,South Korea,KR,0:54:57,3:09:09,2:27:26,,,6:49:11,3297,11349,8846,605,454,24551,291,251,43,386,333,57,296,261,46,291,251,43,Finisher,933
+Jasper,Sim,Jasper Sim,1459,M45-49,Male,,,Singapore,SG,0:46:44,3:24:42,2:21:24,,,6:50:15,2804,12282,8484,522,523,24615,292,252,44,271,237,38,321,281,48,292,252,44,Finisher,914
+Grace,Su,Grace Su,1039,F30-34,Female,Singapore,,Singapore,SG,0:54:32,3:17:31,2:25:59,,,6:50:19,3272,11851,8759,411,326,24619,293,41,9,381,52,14,316,39,9,293,41,9,Finisher,1670
+Azril,Padli,Azril Padli,1157,M35-39,Male,kapar,selangor darul ehsan,Malaysia,MY,0:54:49,3:12:07,2:31:07,,,6:50:47,3289,11527,9067,368,395,24647,294,253,47,384,331,62,291,256,45,294,253,47,Finisher,838
+Carly,Balmforth,Carly Balmforth,1046,F30-34,Female,Bangsar,14,United Kingdom,GB,0:45:21,3:36:03,2:18:04,,,6:50:48,2721,12963,8284,334,346,24648,295,42,10,242,32,8,341,43,11,295,42,10,Finisher,1661
+Azwan,Zhafri,Azwan Zhafri,1185,M35-39,Male,Shah Alam,Selangor,Malaysia,MY,0:54:26,3:01:23,2:41:40,,,6:50:58,3266,10883,9700,407,402,24658,296,254,48,380,329,61,241,213,33,296,254,48,Finisher,834
+Nobusuke,Hirano,Nobusuke Hirano,1505,M50-54,Male,藤沢市藤沢,神奈川県,Japan,JP,0:45:07,3:22:51,2:28:09,,,6:51:09,2707,12171,8889,533,370,24669,297,255,20,233,203,16,308,271,23,297,255,20,Finisher,1505
+Wan Hamidi,Wan Aziz,Wan Hamidi Wan Aziz,1443,M45-49,Male,,SELANGOR,Malaysia,MY,0:51:05,3:21:27,2:26:29,,,6:51:28,3065,12087,8789,459,287,24688,298,256,45,341,298,54,322,282,49,298,256,45,Finisher,892
+Vibun,Ai Chuan,Vibun Ai Chuan,1567,M55-59,Male,Negeri Sembilan,05,Malaysia,MY,1:01:38,3:22:12,2:13:18,,,6:52:09,3698,12132,7998,461,440,24729,299,257,10,430,365,22,358,312,16,299,257,10,Finisher,2198
+Keet Lam,Woo,Keet Lam Woo,1067,M30-34,Male,Selangor,SELANGOR,Malaysia,MY,0:41:25,3:17:15,2:43:07,,,6:52:16,2485,11835,9787,335,295,24736,300,258,53,166,145,29,252,221,47,300,258,53,Finisher,737
+Jorim,Tan,Jorim Tan,1351,M40-44,Male,Pulau Pinang,Pulau Pinang,Malaysia,MY,0:49:31,3:13:37,2:31:47,,,6:52:27,2971,11617,9107,548,503,24747,301,259,61,326,287,63,287,252,62,301,259,61,Finisher,1002
+Siti Shuhaizam,Mamat Raduan,Siti Shuhaizam Mamat Raduan,1252,F40-44,Female,SHAH ALAM,SELANGOR,Malaysia,MY,0:54:32,3:28:34,2:18:17,,,6:54:11,3272,12514,8297,382,386,24851,302,43,8,382,53,9,351,45,9,302,43,8,Finisher,1562
+Muhd Khairul Salikin,Mansor,Muhd Khairul Salikin Mansor,1603,M30-34,Male,Langkawi,Kedah,Malaysia,MY,0:55:52,3:12:30,2:34:24,,,6:54:17,3352,11550,9264,363,328,24857,303,260,54,392,336,61,297,262,53,303,260,54,Finisher,701
+Jee,Wong,Jee Wong,1237,M35-39,Male,Subang Jaya,MY-10,Malaysia,MY,0:46:26,3:20:54,2:35:48,,,6:54:25,2786,12054,9348,331,346,24865,304,261,49,263,230,43,289,254,44,304,261,49,Finisher,772
+Ahmad,Hariz,Ahmad Hariz,1306,M40-44,Male,Subang Jaya,,Malaysia,MY,0:56:57,3:01:14,2:43:10,,,6:54:41,3417,10874,9790,426,374,24881,305,262,62,398,341,77,256,224,57,305,262,62,Finisher,962
+Muhammad syafiq,Zainuddin,Muhammad syafiq Zainuddin,1163,M35-39,Male,Setapak,Kuala Lumpur,Malaysia,MY,0:49:28,3:11:55,2:37:40,,,6:54:52,2968,11515,9460,313,636,24892,306,263,50,324,285,50,265,232,37,306,263,50,Finisher,764
+James Nai Hu,Yek,James Nai Hu Yek,1164,M35-39,Male,MALAYSIA,SARAWAK,Malaysia,MY,0:48:22,3:19:41,2:25:21,,,6:55:00,2902,11981,8721,602,693,24900,307,264,51,301,264,48,315,277,51,307,264,51,Finisher,762
+Cheen Hsung,Lim,Cheen Hsung Lim,1501,M50-54,Male,n/a,Penang,Malaysia,MY,0:43:50,3:19:49,2:37:20,,,6:55:06,2630,11989,9440,444,402,24906,308,265,21,207,178,13,282,247,20,308,265,21,Finisher,1434
+Yee Xiang,Yap,Yee Xiang Yap,1044,F30-34,Female,Shah Alam,SELANGOR,Malaysia,MY,0:47:39,3:17:11,2:41:24,,,6:55:15,2859,11831,9684,318,224,24915,309,44,11,292,36,9,277,35,7,309,44,11,Finisher,1581
+Erik Hor,King Wah,Erik Hor King Wah,1490,M50-54,Male,Kajang,Selangor,Malaysia,MY,0:53:28,3:12:50,2:36:29,,,6:56:07,3208,11570,9389,351,450,24967,310,266,22,373,323,29,286,251,21,310,266,22,Finisher,1416
+Wooi Teong,Chen,Wooi Teong Chen,1340,M40-44,Male,PENANG,,Malaysia,MY,0:56:32,3:10:53,2:31:36,,,6:57:33,3392,11453,9096,462,651,25053,311,267,63,396,340,76,300,265,65,311,267,63,Finisher,911
+Christian,Sanderson,Christian Sanderson,1558,M55-59,Male,"Jl. Tukad Balian, Renon
+Denpasar","Bali
+Bali",United Kingdom,GB,0:32:06,4:35:06,1:41:42,,,6:57:41,1926,16506,6102,234,293,25061,312,268,11,33,28,1,440,374,22,312,268,11,Finisher,2098
+Hidehiro,Yasuhara,Hidehiro Yasuhara,1564,M55-59,Male,FUKUYAMA-SHI  KITAYOSHIZU-CHO,JP-34,Japan,JP,0:41:11,3:22:12,2:31:15,,,6:57:52,2471,12132,9075,880,515,25072,313,269,12,163,143,7,314,276,12,313,269,12,Finisher,2095
+Yong Heng,Chin,Yong Heng Chin,1566,M55-59,Male,Petaling Jaya,Selangor Darul Ehsan,Malaysia,MY,0:42:58,3:11:29,2:45:29,,,6:59:40,2578,11489,9929,509,674,25180,314,270,13,195,168,8,245,217,8,314,270,13,Finisher,2062
+Asrul Syamin,Hisyam Yong,Asrul Syamin Hisyam Yong,1186,M35-39,Male,Malaysia,Selangor,Malaysia,MY,0:52:36,3:21:36,2:28:44,,,6:59:54,3156,12096,8924,538,480,25194,315,271,52,362,313,55,334,292,54,315,271,52,Finisher,700
+Diana,Ferreira,Diana Ferreira,1137,F35-39,Female,,,Mexico,MX,0:43:41,3:51:52,2:06:09,,,7:00:01,2621,13912,7569,755,344,25201,316,45,8,205,29,6,404,53,11,316,45,8,Finisher,1114
+Joanne,Cheong,Joanne Cheong,1042,F30-34,Female,Kota Kemuning,Selangor,Malaysia,MY,0:45:17,3:36:10,2:28:47,,,7:00:27,2717,12970,8927,422,191,25227,317,46,12,239,31,7,347,44,12,317,46,12,Finisher,1487
+Seng Tian,Lim,Seng Tian Lim,1462,M45-49,Male,"Klang
+Klang",Selangor,Malaysia,MY,0:47:34,3:15:51,2:44:33,,,7:01:00,2854,11751,9873,505,275,25260,318,272,46,290,255,43,284,249,44,318,272,46,Finisher,720
+Choon Kwang,Wong,Choon Kwang Wong,1017,M25-29,Male,Bayan Lepas,Penang,Malaysia,MY,0:42:02,3:36:19,2:26:53,,,7:01:16,2522,12979,8813,563,399,25276,319,273,14,177,153,11,345,302,15,319,273,14,Finisher,963
+Mohd Fauzi,Bin Anan,Mohd Fauzi Bin Anan,1087,M30-34,Male,Labuan,Labuan,Malaysia,MY,0:49:23,3:09:42,2:51:17,,,7:02:16,2963,11382,10277,408,307,25336,320,274,55,322,283,55,262,229,49,320,274,55,Finisher,700
+Joel,Kesavan,Joel Kesavan,1181,M35-39,Male,Selangor,,Malaysia,MY,0:53:04,3:33:18,2:12:30,,,7:02:17,3184,12798,7950,738,666,25337,321,275,53,368,319,58,383,334,66,321,275,53,Finisher,700
+Chin Kum,Lio,Chin Kum Lio,1231,M35-39,Male,Singapore,Singapore,Singapore,SG,0:50:30,3:24:56,2:27:48,,,7:02:34,3030,12296,8868,697,463,25354,322,276,54,335,293,52,342,299,57,322,276,54,Finisher,700
+Darren,Toh,Darren Toh,1208,M35-39,Male,Singapore,,Singapore,SG,0:50:45,3:22:32,2:28:30,,,7:03:11,3045,12152,8910,695,590,25391,323,277,55,337,295,53,336,294,56,323,277,55,Finisher,700
+Chee Yang,Tay,Chee Yang Tay,1124,M30-34,Male,,,Singapore,SG,0:53:44,3:23:41,2:34:07,,,7:05:09,3224,12221,9247,514,304,25509,324,278,56,374,324,59,339,297,56,324,278,56,Finisher,700
+Aditya,Kondejkar,Aditya Kondejkar,1057,M30-34,Male,Pune,Maharashtra,India,IN,0:44:24,3:41:31,2:25:05,,,7:06:32,2664,13291,8705,536,397,25592,325,279,57,218,188,35,370,323,60,325,279,57,Finisher,700
+Les,Mcmillan,Les Mcmillan,1589,M65-69,Male,Langkawi,Kedah,Malaysia,MY,0:47:22,3:21:07,2:42:26,,,7:07:31,2842,12067,9746,558,438,25651,326,280,3,286,251,3,312,274,3,326,280,3,Finisher,2512
+Au Yeong,Kin Moon,Au Yeong Kin Moon,1548,M55-59,Male,Singapore ,Singapore,Singapore,SG,0:36:55,3:23:25,2:56:34,,,7:08:17,2215,12205,10594,327,356,25697,327,281,14,90,75,3,260,227,9,327,281,14,Finisher,1907
+Jason,Thiang,Jason Thiang,1584,M60-64,Male,malaysia,Selangor,Malaysia,MY,0:46:15,3:38:39,2:28:21,,,7:08:30,2775,13119,8901,541,375,25710,328,282,4,259,226,3,368,321,6,328,282,4,Finisher,2610
+Ramli,Nayan,Ramli Nayan,1600,M55-59,Male,Kedah,,Malaysia,MY,0:46:12,3:24:19,2:38:08,,,7:09:02,2772,12259,9488,609,615,25742,329,283,15,257,224,13,324,284,13,329,283,15,Finisher,1894
+Derek,Shepherdson,Derek Shepherdson,1403,M45-49,Male,"malaysia, shah alam",MY-10,Malaysia,MY,0:45:58,3:19:09,2:53:00,,,7:09:16,2758,11949,10380,316,353,25756,330,284,47,256,223,36,279,244,42,330,284,47,Finisher,700
+Koichi,Tanaka,Koichi Tanaka,1533,M50-54,Male,KoshigoeKamakura,Kanagawa,Japan,JP,0:48:15,3:18:13,2:49:37,,,7:09:17,2895,11893,10177,406,385,25757,331,285,23,297,261,21,292,257,22,331,285,23,Finisher,1179
+Nuk,Manusook,Nuk Manusook,1435,M45-49,Male,"Bangkhunkong,  Bangkruay",Nonthaburi,Thailand,TH,0:42:49,3:41:37,2:26:52,,,7:09:24,2569,13297,8812,541,545,25764,332,286,48,190,164,28,364,317,55,332,286,48,Finisher,700
+TEIK LEE,OON,TEIK LEE OON,1553,M55-59,Male,Iskandar Puteri,MY-01,Malaysia,MY,0:52:30,3:39:23,2:19:27,,,7:10:10,3150,13163,8367,414,717,25810,333,287,16,361,312,18,384,335,17,333,287,16,Finisher,1873
+Chien Sean,Chee,Chien Sean Chee,1273,M40-44,Male,Malaysia,Selangor,Malaysia,MY,0:46:44,3:16:40,2:51:59,,,7:10:53,2804,11800,10319,419,511,25853,334,288,64,270,236,52,278,243,60,334,288,64,Finisher,700
+Richie,Tan Peng Hooi,Richie Tan Peng Hooi,1012,M18-24,Male,Langkawi,,Malaysia,MY,0:45:27,3:29:22,2:45:11,,,7:11:26,2727,12562,9911,385,301,25886,335,289,5,247,215,3,329,288,5,335,289,5,Finisher,1575
+Kean Mun,Choong,Kean Mun Choong,1491,M50-54,Male,SHAH ALAM,SELANGOR,Malaysia,MY,0:47:32,3:23:57,2:46:55,,,7:12:21,2852,12237,10015,488,349,25941,336,290,24,289,254,20,318,278,24,336,290,24,Finisher,1124
+Aktar,Abdul Rahman,Aktar Abdul Rahman,1473,M45-49,Male,Sungai Petani,MY-02,Malaysia,MY,0:59:09,3:09:45,2:47:02,,,7:12:52,3549,11385,10022,529,486,25972,337,291,49,410,348,60,311,273,47,337,291,49,Finisher,700
+Roman,Mikheev,Roman Mikheev,1521,M50-54,Male,Muang,,Unknown,,0:53:05,3:27:49,2:31:36,,,7:13:20,3185,12469,9096,601,649,26000,338,292,25,369,320,28,356,311,25,338,292,25,Finisher,1106
+Zulkarnain,Rikan,Zulkarnain Rikan,1286,M40-44,Male,Telok Panglima Garang,Selangor D. E.,Malaysia,MY,0:52:39,3:19:03,2:52:57,,,7:13:45,3159,11943,10377,299,247,26025,339,293,65,363,314,72,307,270,67,339,293,65,Finisher,700
+Peng Hung,Choo,Peng Hung Choo,1477,M45-49,Male,Selangor,,Malaysia,MY,0:44:04,2:58:03,3:18:18,,,7:14:04,2644,10683,11898,492,328,26044,340,294,50,210,181,32,181,163,26,340,294,50,Finisher,700
+Shahril Adlan,Sulong Ahmad,Shahril Adlan Sulong Ahmad,1348,M40-44,Male,Malaysian,Selangor Darul Ehsan,Malaysia,MY,0:46:50,3:34:27,2:39:52,,,7:15:07,2810,12867,9592,444,396,26107,341,295,66,274,240,54,348,304,72,341,295,66,Finisher,700
+Timothy,Sangawa,Timothy Sangawa,1193,M35-39,Male,Kuala Lumpur,,United Kingdom,GB,0:38:19,3:25:36,2:46:21,,,7:15:53,2299,12336,9981,720,817,26153,342,296,56,115,99,18,302,267,49,342,296,56,Finisher,700
+Muhammad Taufik,Kamaruddin,Muhammad Taufik Kamaruddin,1058,M30-34,Male,PASIR GUDANG,JOHOR,Malaysia,MY,1:00:27,3:27:46,2:30:58,,,7:16:11,3627,12466,9058,528,493,26171,343,297,58,421,356,65,378,330,61,343,297,58,Finisher,700
+Mohd Shazman,Zulkiply,Mohd Shazman Zulkiply,1270,M40-44,Male,Bandar Baru Bangi,Selangor,Malaysia,MY,0:53:01,3:23:18,2:50:10,,,7:17:30,3181,12198,10210,373,287,26250,344,298,67,367,318,73,333,291,70,344,298,67,Finisher,700
+Lee,K Jin,Lee K Jin,1422,M45-49,Male,BUKIT MERTAJAM,,Malaysia,MY,0:47:07,3:31:13,2:41:22,,,7:18:00,2827,12673,9682,633,464,26280,345,299,51,279,245,40,350,306,54,345,299,51,Finisher,700
+Miyoki,Khoo,Miyoki Khoo,1151,F35-39,Female,Kuala Lumpur,,Malaysia,MY,0:50:24,3:41:32,2:32:09,,,7:18:05,3024,13292,9129,456,384,26285,346,47,9,333,42,10,386,51,10,346,47,9,Finisher,789
+Dattatray,Chavan,Dattatray Chavan,1445,M45-49,Male,PUNE,Maharashtra,India,IN,1:07:27,3:12:04,2:41:51,,,7:18:07,4047,11524,9711,528,477,26287,347,300,52,444,376,66,346,303,53,347,300,52,Finisher,700
+Adam,Lee,Adam Lee,1278,M40-44,Male,Kuala Lumpur,MY-14,Malaysia,MY,0:53:13,3:29:28,2:35:29,,,7:18:20,3193,12568,9329,682,527,26300,348,301,68,371,322,75,369,322,75,348,301,68,Finisher,700
+Zainal,Abidin,Zainal Abidin,1601,M35-39,Male,Malaysia,,Malaysia,MY,0:47:18,3:20:19,2:59:33,,,7:19:26,2838,12019,10773,447,290,26366,349,302,57,283,248,45,299,264,47,349,302,57,Finisher,700
+Mohamad Nizam,Nazarudin,Mohamad Nizam Nazarudin,1517,M50-54,Male,Kota Kinabalu,Sabah,Malaysia,MY,0:51:53,3:35:32,2:39:10,,,7:20:07,3113,12932,9550,528,284,26407,350,303,26,349,304,26,377,329,28,350,303,26,Finisher,984
+Jing Nee,Yeap,Jing Nee Yeap,1542,F55-59,Female,Malaysian,Kuala Lumpur,Malaysia,MY,0:58:48,3:43:46,2:24:29,,,7:20:39,3528,13426,8669,442,373,26439,351,48,3,408,61,4,410,54,3,351,48,3,Finisher,2269
+Paul,Arden,Paul Arden,1523,M50-54,Male,Coggeshall,ESS,Jersey,JE,0:55:05,3:32:12,2:42:49,,,7:20:52,3305,12732,9769,378,269,26452,352,304,27,387,334,30,365,318,26,352,304,27,Finisher,971
+PENG FEI,KIM,PENG FEI KIM,1309,M40-44,Male,Cheras,,Malaysia,MY,0:44:33,2:58:53,3:26:06,,,7:21:10,2673,10733,12366,445,252,26470,353,305,69,223,193,45,182,164,45,353,305,69,Finisher,700
+Tang,T L,Tang T L,1620,M45-49,Male,,,Singapore,SG,0:48:28,4:03:36,2:07:38,,,7:21:21,2908,14616,7658,703,596,26481,354,306,53,304,267,46,432,370,64,354,306,53,Finisher,700
+Wibowo,Darwin,Wibowo Darwin,1452,M45-49,Male,"Srengseng
+Jakarta","
+Jakarta",Indonesia,ID,0:46:36,3:27:50,2:49:50,,,7:21:34,2796,12470,10190,652,386,26494,355,307,54,267,234,37,338,296,50,355,307,54,Finisher,700
+JOSEPHINE FUNG CHEN,TEO,JOSEPHINE FUNG CHEN TEO,1246,F40-44,Female,KUCHING,MY-13,Malaysia,MY,0:52:19,3:35:18,2:41:50,,,7:21:53,3139,12918,9710,469,276,26513,356,49,9,359,49,8,374,48,10,356,49,9,Finisher,1064
+Mohamed Izam,Mohamed Yusof,Mohamed Izam Mohamed Yusof,1551,M55-59,Male,Selangor,Malaysia,Malaysia,MY,0:47:25,3:27:39,2:53:30,,,7:21:55,2845,12459,10410,427,374,26515,357,308,17,288,253,16,331,289,15,357,308,17,Finisher,1662
+Misaki,Tanaka,Misaki Tanaka,1138,F35-39,Female,藤沢市高倉,神奈川県,Japan,JP,0:51:54,3:38:06,2:36:53,,,7:22:05,3114,13086,9413,546,366,26525,358,50,10,351,46,11,385,50,9,358,50,10,Finisher,717
+Dennis,Ganendra,Dennis Ganendra,1568,M55-59,Male,Selangor,Malaysia,Malaysia,MY,0:44:09,3:20:29,3:03:12,,,7:22:21,2649,12029,10992,472,398,26541,359,309,18,213,184,9,288,253,11,359,309,18,Finisher,1654
+Bernard,Hor,Bernard Hor,1224,M35-39,Male,Shah Alam,,Malaysia,MY,0:44:43,3:42:47,2:41:15,,,7:22:46,2683,13367,9675,474,366,26566,360,310,58,225,195,35,373,326,63,360,310,58,Finisher,700
+"Kwan Wai, Jason",Tan,"Kwan Wai, Jason Tan",1325,M40-44,Male,,,Singapore,SG,0:50:35,3:18:10,2:56:31,,,7:22:49,3035,11890,10591,687,365,26569,361,311,70,336,294,65,323,283,68,361,311,70,Finisher,700
+Fraser,Brown,Fraser Brown,1481,M45-49,Male,,,United Kingdom,GB,0:37:48,3:39:37,2:53:13,,,7:23:10,2268,13177,10393,562,190,26590,362,312,55,104,88,14,340,298,51,362,312,55,Finisher,700
+Dan,Lim,Dan Lim,1522,M50-54,Male,SINGAPORE,03,Singapore,SG,1:02:02,3:47:16,2:16:04,,,7:23:36,3722,13636,8164,712,381,26616,363,313,28,433,368,33,428,367,33,363,313,28,Finisher,921
+Mei Ying,Ang,Mei Ying Ang,1257,F40-44,Female,Georgetown,Pulau Pinang,Malaysia,MY,0:55:41,3:18:34,2:57:16,,,7:23:48,3341,11914,10636,442,295,26628,364,51,10,391,56,11,330,42,8,364,51,10,Finisher,1029
+Hiroaki,Shibata,Hiroaki Shibata,1583,M60-64,Male,Yokohama,Kanagawa,Japan,JP,0:47:22,3:54:05,2:14:17,,,7:24:17,2842,14045,8057,906,808,26657,365,314,5,285,250,4,418,360,8,365,314,5,Finisher,2326
+Mohd Irwan,Mihat,Mohd Irwan Mihat,1345,M40-44,Male,KUALA LUMPUR,,Malaysia,MY,1:01:43,3:34:17,2:30:20,,,7:25:11,3703,12857,9020,543,589,26711,366,315,71,431,366,82,401,349,80,366,315,71,Finisher,700
+Alvin,Ang,Alvin Ang,1463,M45-49,Male,SHAH ALAM,SELANGOR,Malaysia,MY,1:01:27,3:33:59,2:24:57,,,7:25:21,3687,12839,8697,864,634,26721,367,316,56,427,362,63,409,356,61,367,316,56,Finisher,700
+Aimran,Sarip,Aimran Sarip,1204,M35-39,Male,,,Singapore,SG,0:45:10,3:40:40,2:44:53,,,7:25:36,2710,13240,9893,369,524,26736,368,317,59,237,207,37,361,315,61,368,317,59,Finisher,700
+Au,Kee Yeap,Au Kee Yeap,1194,M35-39,Male,ARA DAMANSARA,SELANGOR,Malaysia,MY,0:53:54,3:18:49,3:01:37,,,7:25:53,3234,11929,10897,430,263,26753,369,318,60,375,325,59,319,279,52,369,318,60,Finisher,700
+Sam,Haggag,Sam Haggag,1577,M60-64,Male,Kuala Lumpur,MY-14,United Kingdom,GB,0:56:19,3:27:27,2:48:09,,,7:26:18,3379,12447,10089,377,486,26778,370,319,6,395,339,8,353,308,5,370,319,6,Finisher,2290
+Mohd Shakir,Usman Muhammad,Mohd Shakir Usman Muhammad,1171,M35-39,Male,kuala lumpur,,Malaysia,MY,0:46:19,3:29:35,2:55:45,,,7:26:33,2779,12575,10545,448,445,26793,371,320,61,260,227,42,335,293,55,371,320,61,Finisher,700
+Li Vyen,Tham,Li Vyen Tham,1152,F35-39,Female,Petaling Jaya,SELANGOR,Malaysia,MY,0:48:36,3:36:44,2:48:59,,,7:26:34,2916,13004,10139,465,271,26794,372,52,11,308,39,8,363,47,8,372,52,11,Finisher,700
+Sheek Hian,Foo,Sheek Hian Foo,1507,M50-54,Male,Petaling Jaya,MY-10,Malaysia,MY,0:52:07,3:36:16,2:36:14,,,7:26:39,3127,12976,9374,763,560,26799,373,321,29,355,308,27,389,338,29,373,321,29,Finisher,866
+Muhammad,Zaidi,Muhammad Zaidi,1159,M35-39,Male,,,Singapore,SG,1:00:06,3:27:17,2:43:07,,,7:26:48,3606,12437,9787,379,599,26808,374,322,62,418,354,66,367,320,62,374,322,62,Finisher,700
+Koik,Boon Hong,Koik Boon Hong,1322,M40-44,Male,Alor Setar,MY-02,Malaysia,MY,0:46:50,3:42:36,2:40:24,,,7:26:52,2810,13356,9624,618,404,26812,375,323,72,275,241,55,388,337,78,375,323,72,Finisher,700
+Fareh Ishraf Mazputra,Ahmad Fairuz,Fareh Ishraf Mazputra Ahmad Fairuz,1534,M50-54,Male,Shah Alam,Selangor,Malaysia,MY,0:56:12,3:40:39,2:38:07,,,7:27:06,3372,13239,9487,380,347,26826,376,324,30,394,338,31,395,344,30,376,324,30,Finisher,858
+Jason,Tan,Jason Tan,1227,M35-39,Male,Kuala Lumpur,WP Kuala Lumpur,Malaysia,MY,0:52:56,3:45:36,2:39:11,,,7:27:09,3176,13536,9551,315,252,26829,377,325,63,366,317,57,398,347,67,377,325,63,Finisher,700
+Drew,Mitchell,Drew Mitchell,1331,M40-44,Male,Shipton by Beningbrough,North Yorkshire,United Kingdom,GB,0:39:48,4:08:54,2:29:15,,,7:28:28,2388,14934,8955,316,315,26908,378,326,73,137,120,28,414,358,84,378,326,73,Finisher,700
+Isabel,Tan,Isabel Tan,1047,F30-34,Female,,,Malaysia,MY,0:41:46,3:49:23,2:45:27,,,7:28:40,2506,13763,9927,449,275,26920,379,53,13,171,23,5,382,49,13,379,53,13,Finisher,979
+Zulfiqar,Zainuddin,Zulfiqar Zainuddin,1421,M45-49,Male,Selangor,SELANGOR,Malaysia,MY,0:58:12,3:29:02,2:46:33,,,7:29:11,3492,12542,9993,477,448,26951,380,327,57,403,345,59,371,324,56,380,327,57,Finisher,700
+Wee Yan,Chia,Wee Yan Chia,1034,M25-29,Male,KLANG,Selangor,Malaysia,MY,0:44:06,3:35:57,2:57:32,,,7:29:31,2646,12957,10652,454,262,26971,381,328,15,211,182,13,344,301,14,381,328,15,Finisher,700
+Kian Hui,Chong,Kian Hui Chong,1353,M40-44,Male,Singapore,SINGAPORE,Singapore,SG,0:45:04,3:43:55,2:45:53,,,7:29:57,2704,13435,9953,500,405,26997,382,329,74,231,201,48,379,331,77,382,329,74,Finisher,700
+Rondi,Anderson,Rondi Anderson,1586,F65-69,Female,EAST LANSING,MI,Bangladesh,BD,1:00:11,3:51:12,2:27:06,,,7:30:20,3611,13872,8826,319,393,27020,383,54,1,419,65,1,420,59,1,383,54,1,Finisher,3500
+Pasinee,Thiraphanu,Pasinee Thiraphanu,1260,F40-44,Female,Mueang,,Thailand,TH,0:52:17,3:53:20,2:33:30,,,7:30:32,3137,14000,9210,387,298,27032,384,55,11,358,48,7,412,56,12,384,55,11,Finisher,908
+Mohd Izhar,Jalil,Mohd Izhar Jalil,1105,M30-34,Male,SELANGOR,SELANGOR,Malaysia,MY,0:45:40,3:39:00,2:50:51,,,7:31:05,2740,13140,10251,434,499,27065,385,330,59,251,218,46,360,314,58,385,330,59,Finisher,700
+Muhammad Iskandar,Khairani,Muhammad Iskandar Khairani,1072,M30-34,Male,Petaling Jaya,MY-10,Malaysia,MY,0:42:24,3:44:45,2:52:11,,,7:31:34,2544,13485,10331,389,345,27094,386,331,60,183,158,31,366,319,59,386,331,60,Finisher,700
+Arjun,Agarwal,Arjun Agarwal,1189,M35-39,Male,Bareilly,,India,IN,0:41:59,3:47:28,2:49:29,,,7:32:09,2519,13648,10169,399,395,27129,387,332,64,175,152,26,376,328,64,387,332,64,Finisher,700
+Joash,Lim,Joash Lim,1062,M30-34,Male,,,Singapore,SG,0:50:16,3:32:56,3:01:24,,,7:34:11,3016,12776,10884,333,241,27251,388,333,61,332,291,56,349,305,57,388,333,61,Finisher,700
+Razman,Rahim,Razman Rahim,1268,M40-44,Male,Kuala Lumpur,WILAYAH PERSEKUTUAN KUALA LUMPUR,Malaysia,MY,1:08:27,3:19:07,2:49:14,,,7:34:32,4107,11947,10154,468,596,27272,389,334,75,446,378,85,372,325,76,389,334,75,Finisher,700
+Ayob,Yahaya,Ayob Yahaya,1569,M55-59,Male,Shah alam,MY-10,Malaysia,MY,0:54:52,3:36:05,2:44:44,,,7:34:38,3292,12965,9884,669,468,27278,390,335,19,385,332,20,391,340,18,390,335,19,Finisher,1433
+Ridha Abdah,Subri,Ridha Abdah Subri,1223,M35-39,Male,Shah Alam,Selangor,Malaysia,MY,0:51:31,3:28:45,2:57:23,,,7:35:00,3091,12525,10643,585,456,27300,391,336,65,345,301,54,352,307,58,391,336,65,Finisher,700
+Mo,Nazri,Mo Nazri,1290,M40-44,Male,,,Malaysia,MY,0:53:08,3:06:53,3:13:44,,,7:35:32,3188,11213,11624,657,650,27332,392,337,76,370,321,74,281,246,61,392,337,76,Finisher,700
+Kelvin,Phua,Kelvin Phua,1526,M50-54,Male,Singapore,SOUTH EAST,Singapore,SG,0:51:52,3:37:13,2:55:33,,,7:36:11,3112,13033,10533,399,294,27371,393,338,31,348,303,25,375,327,27,393,338,31,Finisher,700
+Mohd Amirulalif,Mohd Hisham,Mohd Amirulalif Mohd Hisham,1160,M35-39,Male,MELAKA,,Malaysia,MY,1:07:30,3:41:17,2:35:28,,,7:36:19,4050,13277,9328,473,251,27379,394,339,66,445,377,71,419,361,68,394,339,66,Finisher,700
+Abu Hasan,Zulhelmi,Abu Hasan Zulhelmi,1154,M35-39,Male,Shah AlamShah Alam,Selangor,Malaysia,MY,0:58:14,3:26:44,3:00:44,,,7:36:20,3494,12404,10844,403,235,27380,395,340,67,404,346,64,359,313,60,395,340,67,Finisher,700
+Zuraidy,Juraimi,Zuraidy Juraimi,1281,M40-44,Male,bandar puncak alam,Selangor,Malaysia,MY,1:03:48,3:32:07,2:48:02,,,7:37:00,3828,12727,10082,487,296,27420,396,341,77,439,373,83,399,348,79,396,341,77,Finisher,700
+Hakim,Yahya,Hakim Yahya,1276,M40-44,Male,Malaysia,Selangor,Malaysia,MY,1:03:49,3:18:46,3:00:11,,,7:37:15,3829,11926,10811,466,403,27435,397,342,78,440,374,84,355,310,73,397,342,78,Finisher,700
+Khemjira,Klongsanan,Khemjira Klongsanan,1392,F45-49,Female,Donhurlor MuangChonburi,Chonburi​,Thailand,TH,0:59:07,3:56:23,2:29:15,,,7:37:34,3547,14183,8955,355,414,27454,398,56,11,409,62,10,429,62,11,398,56,11,Finisher,995
+Bm Tnl Muhammad Jasni,Bin Khalid,Bm Tnl Muhammad Jasni Bin Khalid,1599,M35-39,Male,malaysia,langkawi,Malaysia,MY,1:05:56,4:00:43,2:18:36,,,7:38:18,3956,14443,8316,515,269,27498,399,343,68,443,375,70,444,377,71,399,343,68,Finisher,700
+Maryandi,Maryandi,Maryandi Maryandi,1302,M40-44,Male,"Pondok Jagung Timur, Serpong Uta",BANTEN,Indonesia,ID,0:48:16,3:28:24,3:05:38,,,7:38:23,2896,12504,11138,516,449,27503,400,344,79,298,262,57,337,295,71,400,344,79,Finisher,700
+Chee Gay,Lim,Chee Gay Lim,1516,M50-54,Male,Malaysian,MY-14,Malaysia,MY,0:45:50,3:55:24,2:44:48,,,7:39:57,2750,14124,9888,448,387,27597,401,345,32,254,221,17,405,352,31,401,345,32,Finisher,700
+Shahridan Aizad,Sulong Ahmad,Shahridan Aizad Sulong Ahmad,1175,M35-39,Male,MALAYSIA,PAHANG,Malaysia,MY,0:50:28,3:39:50,2:56:47,,,7:40:19,3028,13190,10607,488,306,27619,402,346,69,334,292,51,381,333,65,402,346,69,Finisher,700
+Low,Yi Chin,Low Yi Chin,1475,M45-49,Male,Kuantan,,Malaysia,MY,0:48:37,3:46:02,2:50:46,,,7:41:25,2917,13562,10246,516,444,27685,403,347,58,310,271,49,397,346,59,403,347,58,Finisher,700
+Mohd Irwan,Ahmad Mustafa,Mohd Irwan Ahmad Mustafa,1315,M40-44,Male,Shah Alam,MY-10,Malaysia,MY,0:49:25,3:36:37,3:06:06,,,7:43:05,2965,12997,11166,406,251,27785,404,348,80,323,284,62,362,316,74,404,348,80,Finisher,700
+Nor Hana,Dinyati,Nor Hana Dinyati,1255,F40-44,Female,Shah Alam,10,Malaysia,MY,1:03:17,3:45:11,2:37:58,,,7:43:13,3797,13511,9478,565,442,27793,405,57,12,437,66,14,425,61,13,405,57,12,Finisher,700
+Cheah,Bee Hwa,Cheah Bee Hwa,1253,F40-44,Female,PENANG,PENANG,Malaysia,MY,1:05:28,3:33:04,2:53:33,,,7:44:00,3928,12784,10413,358,357,27840,406,58,13,441,67,15,400,52,11,406,58,13,Finisher,700
+Kiong Yen,Yie,Kiong Yen Yie,1074,M30-34,Male,BANTING,SELANGOR,Malaysia,MY,1:01:36,3:25:59,3:01:33,,,7:44:49,3696,12359,10893,615,327,27889,407,349,62,428,363,68,380,332,62,407,349,62,Finisher,700
+Helmi,Jaafar,Helmi Jaafar,1427,M45-49,Male,Kajang,Selangor,Malaysia,MY,1:03:23,3:17:09,3:10:25,,,7:45:16,3803,11829,11425,398,461,27916,408,350,59,438,372,65,343,300,52,408,350,59,Finisher,700
+Arnab,Biswas,Arnab Biswas,1130,M30-34,Male,Dhaka,Dhaka,Bangladesh,BD,0:45:07,3:47:33,2:58:31,,,7:45:55,2707,13653,10711,526,358,27955,409,351,63,234,204,40,390,339,64,409,351,63,Finisher,700
+Ekhmal,Halimi,Ekhmal Halimi,1021,M25-29,Male,Malaysia,Selangor,Malaysia,MY,0:59:42,3:36:41,2:59:52,,,7:47:17,3582,13001,10792,361,302,28037,410,352,16,414,351,16,392,341,16,410,352,16,Finisher,700
+Smg,Saklayen,Smg Saklayen,1347,M40-44,Male,Dhaka,Dhaka,Bangladesh,BD,0:52:07,3:42:03,2:41:12,,,7:47:27,3127,13323,9672,917,1009,28047,411,353,81,354,307,69,408,355,82,411,353,81,Finisher,700
+Edwin,D Garcia,Edwin D Garcia,1267,M40-44,Male,Batangas City,Batangas,Philippines,PH,1:01:37,3:35:32,2:53:49,,,7:47:46,3697,12932,10429,635,373,28066,412,354,82,429,364,81,403,351,81,412,354,82,Finisher,700
+Shah Jahan,Bin Abdul Khalim,Shah Jahan Bin Abdul Khalim,1404,M45-49,Male,cheras,Wilayah Persekutuan Kuala Lumpur,Malaysia,MY,0:59:34,3:37:01,3:00:07,,,7:48:37,3574,13021,10807,367,348,28117,413,355,60,413,350,61,393,342,57,413,355,60,Finisher,700
+Pamela,Williams,Pamela Williams,1002,F70-74,Female,Esperance,AU-WA,Australia,AU,0:46:38,4:13:00,2:37:10,,,7:49:08,2798,15180,9430,522,218,28148,414,59,1,268,34,1,439,66,1,414,59,1,Finisher,3500
+Joseph Eng Hian,Chua,Joseph Eng Hian Chua,1582,M60-64,Male,Singapore,,Singapore,SG,0:50:11,3:21:47,3:20:44,,,7:49:12,3011,12107,12044,556,435,28152,415,356,7,331,290,7,328,287,4,415,356,7,Finisher,1878
+Zhafri,Hariz,Zhafri Hariz,1063,M30-34,Male,Seremban,NEGERI SEMBILAN,Malaysia,MY,1:00:42,3:55:42,2:37:24,,,7:50:52,3642,14142,9444,382,642,28252,416,357,64,424,359,66,430,368,67,416,357,64,Finisher,700
+Bernard,Lim,Bernard Lim,1470,M45-49,Male,Bayan Lepas,Penang,Malaysia,MY,1:00:42,3:43:12,2:47:35,,,7:50:57,3642,13392,10055,699,469,28257,417,358,61,425,360,62,416,359,62,417,358,61,Finisher,700
+Jason,Kong,Jason Kong,1410,M45-49,Male,Cheras,Selangor,Malaysia,MY,0:48:47,3:52:41,2:57:50,,,7:52:23,2927,13961,10670,474,311,28343,418,359,62,313,274,51,407,354,60,418,359,62,Finisher,700
+Gerardo,Diaz,Gerardo Diaz,1397,M45-49,Male,Madison,NJ,Mexico,MX,0:55:19,4:08:11,2:30:41,,,7:53:38,3319,14891,9041,731,436,28418,419,360,63,388,335,58,445,378,66,419,360,63,Finisher,700
+Cassia,Ribeiro,Cassia Ribeiro,1249,F40-44,Female,,,Mexico,MX,0:55:23,4:08:20,2:30:40,,,7:53:41,3323,14900,9040,726,432,28421,420,60,14,390,55,10,446,68,16,420,60,14,Finisher,700
+Saitip,Chinnapan,Saitip Chinnapan,1045,F30-34,Female,ตำบล ปากนคร อำเภอ เมือง,นครศรีธรรมราช,Thailand,TH,0:53:14,3:54:34,2:57:08,,,7:56:14,3194,14074,10628,411,267,28574,421,61,14,372,50,13,415,57,14,421,61,14,Finisher,700
+Mee Yiing,Wong,Mee Yiing Wong,1573,F60-64,Female,Kuching,Sarawak,Malaysia,MY,0:59:44,3:54:01,2:46:03,,,7:56:18,3584,14041,9963,670,320,28578,422,62,2,416,64,2,436,64,2,422,62,2,Finisher,1533
+Masugi,Hotta,Masugi Hotta,1484,F50-54,Female,setagaya-ku,,Japan,JP,0:52:00,4:05:38,2:41:56,,,8:00:14,3120,14738,9716,827,413,28814,423,63,5,353,47,5,441,67,5,423,63,5,Finisher,700
+Arvind,Yadav,Arvind Yadav,1158,M35-39,Male,BAREILLY,Uttar Pradesh,India,IN,1:02:10,4:01:03,2:40:42,,,8:00:54,3730,14463,9642,588,430,28854,424,361,70,434,369,68,443,376,70,424,361,70,Finisher,700
+Euphemia,Thien,Euphemia Thien,1543,F55-59,Female,SABAH,,Malaysia,MY,0:50:57,3:58:05,2:55:27,,,8:02:05,3057,14285,10527,471,584,28925,425,64,4,338,43,3,421,60,4,425,64,4,Finisher,1523
+Hanafiah,Aris,Hanafiah Aris,1317,M40-44,Male,Selangor,Selangor,Malaysia,MY,0:46:28,3:27:58,3:36:17,,,8:02:26,2788,12478,12977,385,319,28946,426,362,83,265,232,51,326,285,69,426,362,83,Finisher,700
+You Yan,Loo,You Yan Loo,1053,F30-34,Female,Sungai Bakap,,Malaysia,MY,0:58:05,3:45:55,3:02:38,,,8:02:56,3485,13555,10958,695,283,28976,427,65,15,402,58,15,417,58,15,427,65,15,Finisher,700
+Rj Rahman,Mansor,Rj Rahman Mansor,1576,M60-64,Male,MALAYSIA,FT,Malaysia,MY,0:49:17,3:50:28,3:12:09,,,8:03:11,2957,13828,11529,401,277,28991,428,363,8,320,281,6,402,350,7,428,363,8,Finisher,1626
+MOHAMAD AZRUL,ADNAN,MOHAMAD AZRUL ADNAN,1066,M30-34,Male,BALING,,Malaysia,MY,1:00:23,3:47:10,3:01:50,,,8:04:10,3623,13630,10910,590,298,29050,429,364,65,420,355,64,423,363,65,429,364,65,Finisher,700
+Adam,Hussein,Adam Hussein,1559,M55-59,Male,Kota Samarahan,MY-13,Malaysia,MY,0:55:55,3:44:58,3:06:54,,,8:06:16,3355,13498,11214,485,623,29176,430,365,20,393,337,21,406,353,20,430,365,20,Finisher,863
+Marianne,Ragudo,Marianne Ragudo,1142,F35-39,Female,Muntinlupa,PH-00,Philippines,PH,0:49:52,3:53:17,3:11:57,,,8:06:53,2992,13997,11517,423,284,29213,431,66,12,329,41,9,411,55,12,431,66,12,Finisher,700
+Mohamad Fadhli,Mohamed Hassan,Mohamad Fadhli Mohamed Hassan,1076,M30-34,Male,singpore,03,Singapore,SG,1:01:03,3:50:38,2:57:00,,,8:07:36,3663,13838,10620,769,367,29256,432,366,66,426,361,67,434,372,68,432,366,66,Finisher,700
+Yatt,Sabri,Yatt Sabri,1259,F40-44,Female,Selangor,Malaysia,Malaysia,MY,1:05:41,3:50:16,2:55:24,,,8:07:39,3941,13816,10524,555,423,29259,433,67,15,442,68,16,437,65,15,433,67,15,Finisher,700
+Mohit,Agarwal,Mohit Agarwal,1279,M40-44,Male,Bareilly,Uttar Pradesh,India,IN,0:51:53,4:08:05,2:53:15,,,8:10:55,3113,14885,10395,708,355,29455,434,367,84,350,305,67,442,375,85,434,367,84,Finisher,700
+Nurwidiyantoro,Permono,Nurwidiyantoro Permono,1621,M45-49,Male,"Jakarta Selatan, Setiabudi
+JAKARTA SELATAN - SETIABUDI","DKI JAKARTA
+DKI JAKARTA",Indonesia,ID,0:50:08,4:01:09,3:04:55,,,8:13:19,3008,14469,11095,465,562,29599,435,368,64,330,289,53,426,365,63,435,368,64,Finisher,700
+Norazly,Awang,Norazly Awang,1400,M45-49,Male,Kepala Batas,Pulau Pinang,Malaysia,MY,0:54:08,3:42:28,3:26:07,,,8:15:34,3248,13348,12367,396,373,29734,436,369,65,378,328,56,396,345,58,436,369,65,Finisher,700
+Andrew,Satu,Andrew Satu,1581,M60-64,Male,Pantai Cenang,Kedah,Malaysia,MY,0:59:43,3:55:13,3:07:14,,,8:17:12,3583,14113,11234,557,346,29832,437,370,9,415,352,9,433,371,9,437,370,9,Finisher,1374
+Chee Keong,Chan,Chee Keong Chan,1570,M55-59,Male,Penang,,Malaysia,MY,0:51:33,3:38:17,3:24:12,,,8:18:36,3093,13097,12252,793,681,29916,438,371,21,346,302,17,394,343,19,438,371,21,Finisher,700
+Thant Sin,Htoo,Thant Sin Htoo,1077,M30-34,Male,Yangon,Yangon,Myanmar,MM,0:44:28,3:48:13,3:33:02,,,8:18:44,2668,13693,12782,421,359,29924,439,372,67,221,191,36,387,336,63,439,372,67,Finisher,700
+Tiong Chin,Chieng,Tiong Chin Chieng,1500,M50-54,Male,Malaysia,Sarawak,Malaysia,MY,0:59:33,3:46:27,3:16:03,,,8:19:23,3573,13587,11763,663,376,29963,440,373,33,412,349,32,422,362,32,440,373,33,Finisher,700
+Adli,CHUNG,Adli CHUNG,1550,M55-59,Male,KUALA LUMPUR,MY-14,Malaysia,MY,0:52:53,4:00:03,3:12:25,,,8:20:26,3173,14403,11545,472,433,30026,441,374,22,364,315,19,427,366,21,441,374,22,Finisher,700
+Harrison,Oldridge,Harrison Oldridge,1082,M30-34,Male,Singapore,,Australia,AU,0:45:55,4:04:01,3:18:47,,,8:21:45,2755,14641,11927,470,312,30105,442,375,68,255,222,47,424,364,66,442,375,68,Finisher,700
+Mohd Haziq,Hashim,Mohd Haziq Hashim,1162,M35-39,Male,Johor,MY-01,Malaysia,MY,0:58:45,3:56:01,3:12:28,,,8:23:29,3525,14161,11548,486,489,30209,443,376,71,407,347,65,431,369,69,443,376,71,Finisher,700
+Haizlin,Sulaiman,Haizlin Sulaiman,1472,M45-49,Male,Malaysia,Melaka,Malaysia,MY,1:03:00,3:55:19,3:14:06,,,8:25:57,3780,14119,11646,481,332,30357,444,377,66,436,371,64,438,373,65,444,377,66,Finisher,700
+Hooi Leng,Chuan,Hooi Leng Chuan,1316,M40-44,Male,Subang Jaya,,Malaysia,MY,0:52:11,3:45:56,3:25:34,,,8:27:21,3131,13556,12334,920,501,30441,445,378,85,357,310,71,413,357,83,445,378,85,Finisher,700
+Shi Yuan,Cheng,Shi Yuan Cheng,1256,F40-44,Female,,,Singapore,SG,0:58:35,3:56:46,3:17:17,,,8:27:44,3515,14206,11837,549,356,30464,446,68,16,406,60,13,435,63,14,446,68,16,Finisher,700
+Angel,Jadloc,Angel Jadloc,1052,F30-34,Female,Abu dhabi,AUH,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arran,Brennan,Arran Brennan,1508,M50-54,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jun De,Koay,Jun De Koay,1013,M18-24,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Melissa Angela,Penafiel,Melissa Angela Penafiel,1139,F35-39,Female,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Helmut,Kurzboeck,Helmut Kurzboeck,1572,M55-59,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Feiyou,Low,Feiyou Low,1218,M35-39,Male,Singapore,Singapore,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Suhaila,Ariffin,Suhaila Ariffin,1389,F45-49,Female,Malaysia,,Malaysia,MY,2:25:25,,,,,,8725,0,0,2883,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Andrew,Law Teck Peng,Andrew Law Teck Peng,1420,M45-49,Male,Selangor,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stuart,Brown,Stuart Brown,1088,M30-34,Male,Coventry,Warwickshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toni,Tran,Toni Tran,1619,M35-39,Male,Da Nang,VN-DN,Vietnam,VN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ahmad Mustaqiim,Ahmad Fauzi,Ahmad Mustaqiim Ahmad Fauzi,1616,M35-39,Male,Kuala Lumpur,Wilayah Persekutuan,Malaysia,MY,2:11:09,,,,,,7869,0,0,3533,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Kumar,Brijwani,Kumar Brijwani,1366,M40-44,Male,Kolhapur,Maharashtra,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aun Chuan,Lim,Aun Chuan Lim,1425,M45-49,Male,BAYAN LEPAS,PENANG,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregory ,White,Gregory White,1465,M45-49,Male,Bangkok,KRUNG THEP MAHA NAKHON,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lydia,Myers,Lydia Myers,1147,F35-39,Female,,NSW,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohamad Muzamir,Abu Bakar,Mohamad Muzamir Abu Bakar,1594,M45-49,Male,Shah Alam,MY-10,Malaysia,MY,1:26:38,,,,,,5198,0,0,6247,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Boyke,Triwibowo,Boyke Triwibowo,1424,M45-49,Male,"Pondok pinang kebayoran lama
+Jakarta","DKI Jakarta
+Indonesia",Indonesia,ID,0:58:14,4:38:54,,,,,3494,16734,0,729,315,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jun,Nagatsuka,Jun Nagatsuka,1423,M45-49,Male,"CHIGASAKI-SHI, NAKA-KAIGAN",KANAGAWA,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mimiwati,Zahari,Mimiwati Zahari,1544,F55-59,Female,Petaling JayaSelangor,,Malaysia,MY,1:11:36,4:09:00,2:37:36,,,8:17:58,4296,14940,9456,748,437,29878,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jason,Lee,Jason Lee,1263,M40-44,Male,Shah Alam,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohamad Norizan,Yahya,Mohamad Norizan Yahya,1456,M45-49,Male,Selangor,Darul Ehsan,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shanker,Diraviam,Shanker Diraviam,1513,M50-54,Male,Singapore ,Singapore,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ily Farhana,Ahmad Illahi,Ily Farhana Ahmad Illahi,1243,F40-44,Female,Petaling Jaya,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yves,Tomballe,Yves Tomballe,1312,M40-44,Male,Janabiya,Northern,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wong,Chi Hou,Wong Chi Hou,1416,M45-49,Male,macau,macau,Macao,MO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wolfgang,Amann,Wolfgang Amann,1496,M50-54,Male,Doha,Doha,Qatar,QA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alzafny,Ahmad,Alzafny Ahmad,1428,M45-49,Male,KEDAH,MALAYSIA,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kie King,Ling,Kie King Ling,1532,M50-54,Male,MALAYSIA,SARAWAK,Malaysia,MY,0:48:43,3:54:29,,,,,2923,14069,0,557,357,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ong,Kian Huat,Ong Kian Huat,1493,M50-54,Male,melaka,melaka,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yoon Ming,Yuen,Yoon Ming Yuen,1401,M45-49,Male,Petaling Jaya,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christopher,Lim,Christopher Lim,1370,M40-44,Male,Wilayah persekutuan,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ahmad Nazit,Rashid,Ahmad Nazit Rashid,1418,M45-49,Male,BALING,MY-02,Malaysia,MY,0:46:35,3:59:50,3:44:22,,,8:43:50,2795,14390,13462,431,352,31430,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Faiz,Che Abu,Faiz Che Abu,1296,M40-44,Male,KUALA LUMPUR,WILAYAH PERSEKUTUAN,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohammad Hafidz,Jamaluddin,Mohammad Hafidz Jamaluddin,1265,M40-44,Male,Malaysian,Johor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alden,Toh,Alden Toh,1106,M30-34,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohd Nur Iqdham,Sabarudin,Mohd Nur Iqdham Sabarudin,1318,M40-44,Male,Subang Jaya,Selangor,Malaysia,MY,1:12:49,3:30:34,2:17:30,,,7:24:37,4369,12634,8250,1052,374,26677,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Wei Jin,Tan,Wei Jin Tan,1135,M30-34,Male,,,Malaysia,MY,0:41:49,,,,,,2509,0,0,374,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jin Son Vincent,Cheong,Jin Son Vincent Cheong,1498,M50-54,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shannon,Lung,Shannon Lung,1262,M40-44,Male,,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Boris,Hellmuth,Boris Hellmuth,1342,M40-44,Male,Herrenberg ,BW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohd Ariff,Sharifudin,Mohd Ariff Sharifudin,1321,M40-44,Male,MALAYSIAN,KUALA TERENGGANU,Malaysia,MY,2:22:51,,,,,,8571,0,0,2850,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Merz,Michael,Merz Michael,1266,M40-44,Male,Bangalore,Karnataka,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tomy,Prastowo,Tomy Prastowo,1455,M45-49,Male,"Kramatjati, Cawang
+13630","East Jakarta
+Indonesia",Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hock Yim,Wong,Hock Yim Wong,1592,M70-74,Male,Ipoh,MY-08,Malaysia,MY,1:07:31,3:53:15,,,,,4051,13995,0,618,272,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Antoine,Corbi,Antoine Corbi,1169,M35-39,Male,,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hongtae,Lee,Hongtae Lee,1399,M45-49,Male,Suyeong-gu,KR-26,South Korea,KR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dayang Nurul Syahida,Awang Fadzellah,Dayang Nurul Syahida Awang Fadzellah,1049,F30-34,Female,CYBERJAYA,SELANGOR,Malaysia,MY,1:03:54,4:12:08,2:53:25,,,8:37:29,3834,15128,10405,542,1140,31049,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Syahreezal,Kamaruddin,Syahreezal Kamaruddin,1329,M40-44,Male,Bayan Lepas,MY-07,Malaysia,MY,1:23:01,,,,,,4981,0,0,6366,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Fauzany,Ramly,Fauzany Ramly,1244,M35-39,Female,Kuala Lumpur,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+William,Kerr,William Kerr,1180,M35-39,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Faris,Azlan,Faris Azlan,1020,M25-29,Male,Malaysia,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anak,Karim,Anak Karim,1386,F45-49,Female,Bandar Baru BangiSelangor,MY-10,Malaysia,MY,1:27:13,,,,,,5233,0,0,6203,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Min Xiang,Lee,Min Xiang Lee,1055,M30-34,Male,Subang Jaya,SELANGOR,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohd Azwira,Mohd Azmi,Mohd Azwira Mohd Azmi,1367,M40-44,Male,Presint 18,Putrajaya,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shuji,Yoneda,Shuji Yoneda,1378,M40-44,Male,Ota-ward,Tokyo,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Keisuke,Ogawa,Keisuke Ogawa,1409,M45-49,Male,Singapore,01,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pui Yi Elizabeth,Tam,Pui Yi Elizabeth Tam,1396,F45-49,Female,,,Hong Kong,HK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Lee,Daniel Lee,1200,M35-39,Male,Malaysia,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wong,Siew Chong,Wong Siew Chong,1346,M40-44,Male,meru,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peter,Moss,Peter Moss,1497,M50-54,Male,Malaysia,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcel,Ewals,Marcel Ewals,1525,M50-54,Male,Sg,CENTRAL SINGAPORE,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Russell J,Chin,Russell J Chin,1271,M40-44,Male,Selangor,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcello,Cultrera,Marcello Cultrera,1479,M45-49,Male,Kuala Lumpur,Kuala Lumpur,Italy,IT,0:53:49,4:30:09,2:37:16,,,8:17:09,3229,16209,9436,502,453,29829,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Gim Siong,Ong,Gim Siong Ong,1604,M50-54,Male,Singapore,SOUTH EAST,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roy,Iskandar,Roy Iskandar,1339,M40-44,Male,"Tangerang Selatan
+15227","Banten
+Banten",Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Radzi,Nonee,Radzi Nonee,1487,F50-54,Female,WP,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jasmine,Sim,Jasmine Sim,1248,F40-44,Female,Singapore,,Singapore,SG,0:42:31,,,,,,2551,0,0,346,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ahmad Jauhari,Yahya,Ahmad Jauhari Yahya,1590,M65-69,Male,Kuala Lumpur,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ashraff,Dewal,Ashraff Dewal,1596,M50-54,Male,Kuala Lumpur,MY-14,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sheng Guo,Xie,Sheng Guo Xie,1313,M40-44,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mennesson,Aubry,Mennesson Aubry,1489,M50-54,Male,Kuala Lumpur,WP,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohd Hafez,Abas,Mohd Hafez Abas,1190,M35-39,Male,Alor Setar,MY-02,Malaysia,MY,0:46:56,4:41:27,,,,,2816,16887,0,352,390,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+San,Yimphanich,San Yimphanich,1407,M45-49,Male,"Salathummasop, Thaweewattana",Bangkok,Thailand,TH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tony,Wong,Tony Wong,1261,M40-44,Male,KL,KL,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Muizz,Hasnani,Muizz Hasnani,1098,M30-34,Male,BSB,Brunei Muara,Bahrain,BH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zakira,Zulrimi,Zakira Zulrimi,1040,F30-34,Female,Selangor,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chandrasegaran,Uthamaseelan,Chandrasegaran Uthamaseelan,1338,M40-44,Male,Subang,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeffry,Lin,Jeffry Lin,1207,M35-39,Male,Singapore,SINGAPORE,Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Muhammad Arif,Aiman,Muhammad Arif Aiman,1065,M30-34,Male,MALAYSIA,SELANGOR,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Soon Keat,Ong,Soon Keat Ong,1539,M50-54,Male,bukit beruang,,Malaysia,MY,0:38:24,,,,,,2304,0,0,534,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Richard Elep,Soriano,Richard Elep Soriano,1527,M50-54,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Choon Yit Marcel,Ho,Choon Yit Marcel Ho,1480,M45-49,Male,Malaysia,Penang,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Monk,Daniel Monk,1235,M35-39,Male,St Neot,Cornwall,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carla,Mitchell,Carla Mitchell,1610,F40-44,,York,England,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Swadeep,Chansrichavala,Swadeep Chansrichavala,1179,M35-39,Male,Bangkok,Bangkok,Thailand,TH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hegyi,Attila,Hegyi Attila,1552,M55-59,Male,Üröm,,Hungary,HU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fahmiezan,Zulkefli,Fahmiezan Zulkefli,1100,M30-34,Male,MELAKA,MELAKA,Malaysia,MY,1:26:45,,,,,,5205,0,0,6197,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Fadzarudin,Anuar,Fadzarudin Anuar,1122,M30-34,Male,Kuala Lumpur,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jane,Mak,Jane Mak,1575,F60-64,Female,Noordlaren,,Netherlands,NL,0:56:31,,,,,,3391,0,0,739,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sylvia Kinasih,Kinasih,Sylvia Kinasih Kinasih,1387,F45-49,Female,Sampora cisaukTangerang 15345,Banten,Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gary,Leong,Gary Leong,1188,M35-39,Male,Petaling Jaya,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pankaj,Ravalu,Pankaj Ravalu,1016,M25-29,Male,Kolhapur,Maharashtra,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chun Siang,Oh,Chun Siang Oh,1541,M50-54,Male,Penang,Malaysia,Malaysia,MY,1:03:07,5:54:59,,,,,3787,21299,0,1046,299,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Filippo,Di Mauro,Filippo Di Mauro,1587,M65-69,Male,Blonay,VAUD,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francisco,Perez,Francisco Perez,1308,M40-44,Male,Singapore,SOUTH EAST,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joshua,Guam,Joshua Guam,1217,M35-39,Male,,CENTRAL SINGAPORE,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Haneef,Ismail,Haneef Ismail,1595,M30-34,Male,Malaysia,MY-04,Malaysia,MY,0:45:14,3:48:34,3:26:42,,,8:30:58,2714,13714,12402,557,1270,30658,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Nozawa,Kanako,Nozawa Kanako,1048,F30-34,Female,Caloocan,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Khairul Hilmi,Mohamad Tabarani,Khairul Hilmi Mohamad Tabarani,1029,M25-29,Male,Selangor,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adi Yuseri,Md Yusof,Adi Yuseri Md Yusof,1269,M40-44,Male,Petaling Jaya,,Malaysia,MY,1:04:14,,,,,,3854,0,0,655,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Chan Meng,Pou,Chan Meng Pou,1514,M50-54,Male,中山,廣東,Macao,MO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dean,Bramham,Dean Bramham,1540,M50-54,Male,Malaysia,Kuala Lumpur,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Selvyn,Suhanto,Selvyn Suhanto,1352,M40-44,Male,Jakarta Pusat,Jakarta,Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alex,Thio,Alex Thio,1126,M30-34,Male,Singapore,Singapore,Singapore,SG,0:27:36,,,,,,1656,0,0,165,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rosdin,Yahya,Rosdin Yahya,1520,M50-54,Male,SELANGOR,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kenny Kok Wah,Siew,Kenny Kok Wah Siew,1174,M35-39,Male,Malaysia,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tung,Nguyen,Tung Nguyen,1161,M35-39,Male,Tây Ninh City,Tây Ninh,Vietnam,VN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pavinee,Maneepairoj,Pavinee Maneepairoj,1144,F35-39,Female,Bangkok,Bangkok,Thailand,TH,0:45:17,4:21:35,3:07:42,,,8:37:53,2717,15695,11262,629,769,31073,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Overstreet,George,Overstreet George,1287,M40-44,Male,COLORADO SPGS,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joe,Taylor,Joe Taylor,1453,M45-49,Male,Kuala lumpur,Petaling jaya,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fariz,Shamsuddin,Fariz Shamsuddin,1343,M40-44,Male,Shah Alam,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roberto,Guerra,Roberto Guerra,1518,M50-54,Male,Kuala Lumpur,WP,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sjaaf Zulkifli,Mohamed Zain,Sjaaf Zulkifli Mohamed Zain,1560,M55-59,Male,Johor Bahru,Johor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ryan,Habana,Ryan Habana,1434,M45-49,Male,,,Philippines,PH,2:13:53,,,,,,8033,0,0,3479,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Reza,Bey,Reza Bey,1326,M40-44,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dale,Mcallister,Dale Mcallister,1585,M60-64,Male,singapore,Singapore,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Louis,Haseman,Louis Haseman,1212,M35-39,Male,Bangkok,Bangkok,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Paul,Bradshaw,Paul Bradshaw,1555,M55-59,Male,Singapore,01,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Khairudin,Bin Yaacob,Khairudin Bin Yaacob,1240,M35-39,Male,Selangor,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anwar,Ahmad,Anwar Ahmad,1155,M35-39,Male,JOHOR BAHRU,Johor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ahmad Shahir,Ismail,Ahmad Shahir Ismail,1201,M35-39,Male,Semenyih,Selangor,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chai,Heng Hua,Chai Heng Hua,1369,M40-44,Male,Penang,,Malaysia,MY,0:57:38,4:27:25,,,,,3458,16045,0,471,4935,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Aaron,Tan Lyn Foong,Aaron Tan Lyn Foong,1494,M50-54,Male,Tanjung Tokong,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zulkipli,Baijuri,Zulkipli Baijuri,1361,M40-44,Male,MALAYSIA,KUALA LUMPUR,Malaysia,MY,0:41:27,4:02:38,,,,,2487,14558,0,529,872,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Bui Do Nguyen,Wowart.Vn,Bui Do Nguyen Wowart.Vn,1241,M35-39,Male,Ho chi minh,Ho chi minh,Vietnam,VN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David Eng Kee,Chua,David Eng Kee Chua,1557,M55-59,Male,Singapore,,Singapore,SG,0:45:23,,,,,,2723,0,0,375,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Kok Meng,Ng,Kok Meng Ng,1512,M50-54,Male,Bayan Lepas,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+John Vincent,Mercado,John Vincent Mercado,1099,M30-34,Male,Mansasa district,PH-BOH,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Koh,Mark Koh,1288,M40-44,Male,Kuala Lumpur,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eillya,Mamat,Eillya Mamat,1250,F40-44,Female,Malaysia,WILAYAH PERSEKUTUAN KUALA LUMPUR,Malaysia,MY,1:11:03,3:56:18,,,,,4263,14178,0,599,536,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Giulia,Bossi,Giulia Bossi,1038,F30-34,Female,Singapore,Singapore,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hin,Hsu,Hin Hsu,1360,M40-44,Male,DALLAS,TX,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kostadin,Solakov,Kostadin Solakov,1182,M35-39,Male,Wollstonecraft,AU-NSW,North Macedonia,MK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mohd Ridzwani,Kadir,Mohd Ridzwani Kadir,1476,M45-49,Male,Nilai,Nsembilan,Malaysia,MY,1:17:36,,,,,,4656,0,0,6947,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Natisha,Najme Khir,Natisha Najme Khir,1242,F40-44,Female,Malaysia,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dougal,Grant,Dougal Grant,1454,M45-49,Male,Kampong Penaga,Belait,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yaeko,Ariga,Yaeko Ariga,1546,F55-59,Female,島尻郡与那原町東浜,沖縄県,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Faisal Tan,Mohd Amin,Faisal Tan Mohd Amin,1344,M40-44,Male,MALAYSIAN,SELANGOR,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yanee,Ma,Yanee Ma,1150,F35-39,Female,Singapore,04,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hashem,Alharbi,Hashem Alharbi,1466,M45-49,Male,Abu Dhabi ,AUH,United Arab Emirates,AE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+MOHD,HAFIFI,MOHD HAFIFI,1167,M35-39,Male,Selangor,Cyberjaya,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kang Kiat,Teo,Kang Kiat Teo,1033,M25-29,Male,,,Singapore,SG,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hasri,Baie,Hasri Baie,1104,M30-34,Male,MALAYSIA,,Malaysia,MY,1:20:13,,,,,,4813,0,0,6540,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Salvador,Alarcon Alacio,Salvador Alarcon Alacio,1001,M45-49,Male,Singapore,Singapore,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Meor Azman,Meor Danial,Meor Azman Meor Danial,1441,M45-49,Male,Petaling Jaya,Selangor,Malaysia,MY,2:23:22,,,,,,8602,0,0,2854,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Halim,Wahjana,Halim Wahjana,1511,M50-54,Male,"Kramat
+Jakarta 10450","DKI Jakarta
+Indonesia",Indonesia,ID,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mireille,Couture,Mireille Couture,1390,F45-49,Female,Singapore,Singapore,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zairul,Lahlin,Zairul Lahlin,1398,M45-49,Male,Shah Alam,,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vivian,Liew,Vivian Liew,1384,F45-49,Female,Puchong,Selangor Darul Ehsan,Malaysia,MY,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kim Fong,Lo,Kim Fong Lo,1341,M40-44,Male,Macau,Macau,Macao,MO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0

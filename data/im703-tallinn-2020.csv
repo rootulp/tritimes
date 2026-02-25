@@ -1,0 +1,700 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Daniel,Bækkegård,Daniel Bækkegård,3,MPRO,Male,Silvaplana,,Denmark,DK,0:22:45,1:59:58,1:13:57,,,3:40:08,1365,7198,4437,106,102,13208,1,1,1,1,1,1,1,1,1,1,1,1,Finisher,3500
+Kienle,Sebastian,Kienle Sebastian,1,MPRO,Male,Mühlacker,,Germany,DE,0:25:40,1:57:30,1:15:33,,,3:41:54,1540,7050,4533,98,93,13314,2,2,2,13,13,13,3,3,3,2,2,2,Finisher,3468
+Andreas,Dreitz,Andreas Dreitz,25,MPRO,Male,Michelau,foreigner,Germany,DE,0:24:41,1:58:06,1:17:16,,,3:43:52,1481,7086,4636,118,111,13432,3,3,3,7,7,7,2,2,2,3,3,3,Finisher,3432
+Henrik,Goesch,Henrik Goesch,15,MPRO,Male,turku,,Finland,FI,0:24:21,2:05:15,1:13:29,,,3:46:23,1461,7515,4409,97,101,13583,4,4,4,4,4,4,8,8,8,4,4,4,Finisher,3387
+Nils,Frommhold,Nils Frommhold,5,MPRO,Male,Freiburg,,Germany,DE,0:24:19,2:00:25,1:18:38,,,3:46:44,1459,7225,4718,98,105,13604,5,5,5,3,3,3,4,4,4,5,5,5,Finisher,3381
+Alexander,Schilling,Alexander Schilling,10,MPRO,Male,Leipzig,Saxony,Germany,DE,0:25:18,2:04:32,1:14:30,,,3:47:18,1518,7472,4470,87,91,13638,6,6,6,8,8,8,10,10,10,6,6,6,Finisher,3371
+Frederik,Henes,Frederik Henes,14,MPRO,Male,Freiburg,BW,Germany,DE,0:24:22,2:06:13,1:13:27,,,3:47:44,1462,7573,4407,108,114,13664,7,7,7,5,5,5,11,11,11,7,7,7,Finisher,3363
+Kristoffer Visti,Graae,Kristoffer Visti Graae,30,MPRO,Male,Kgs. Lyngby,,Denmark,DK,0:26:23,2:00:43,1:20:49,,,3:51:39,1583,7243,4849,115,109,13899,8,8,8,16,16,15,5,5,5,8,8,8,Finisher,3292
+Marc,Unger,Marc Unger,20,MPRO,Male,Willingshausen,HE,Germany,DE,0:25:31,2:04:09,1:19:19,,,3:52:39,1531,7449,4759,96,125,13959,9,9,9,11,11,11,9,9,9,9,9,9,Finisher,3274
+Kevin,Vabaorg,Kevin Vabaorg,8,MPRO,Male,Viru-Jaagupi,Laane Viru Maakond,Estonia,EE,0:24:35,2:04:46,1:20:33,,,3:53:17,1475,7486,4833,92,110,13997,10,10,10,6,6,6,6,6,6,10,10,10,Finisher,3263
+Kristian,Rød,Kristian Rød,18,MPRO,Male,Oslo,,Norway,NO,0:28:20,2:06:10,1:16:47,,,3:54:26,1700,7570,4607,104,85,14066,11,11,11,22,19,16,12,12,12,11,11,11,Finisher,3242
+Tomasz,Szala,Tomasz Szala,29,MPRO,Male,Nowa Iwiczna,mazowieckie,Poland,PL,0:25:38,2:03:45,1:23:00,,,3:55:34,1538,7425,4980,106,86,14134,12,12,12,12,12,12,7,7,7,12,12,12,Finisher,3222
+Thor,Bendix Madsen,Thor Bendix Madsen,24,MPRO,Male,Copenhagen,foreigner,Denmark,DK,0:25:23,2:10:32,1:16:07,,,3:55:36,1523,7832,4567,113,102,14136,13,13,13,10,10,10,14,14,14,13,13,13,Finisher,3221
+Kristian,Grue,Kristian Grue,28,MPRO,Male,Oslo,,Norway,NO,0:26:17,2:08:28,1:20:18,,,3:58:03,1577,7708,4818,92,88,14283,14,14,14,14,14,14,13,13,13,14,14,14,Finisher,3177
+Matthew,Brooke,Matthew Brooke,139,M30-34,Male,Nuneaton,Warwickshire,United Kingdom,GB,0:30:06,2:08:23,1:18:48,,,4:01:32,1806,7703,4728,152,103,14492,15,15,1,39,31,3,16,16,1,15,15,1,Finisher,3500
+Graham,Crammond,Graham Crammond,195,M35-39,Male,Newcastle upon tyne,AS,United Kingdom,GB,0:31:03,2:09:12,1:18:14,,,4:02:58,1863,7752,4694,136,132,14578,16,16,1,48,38,3,17,17,1,16,16,1,Finisher,3500
+Kat,Matthews,Kat Matthews,54,FPRO,Female,Loughborough,LEI,United Kingdom,GB,0:27:55,2:14:05,1:22:50,,,4:08:14,1675,8045,4970,97,107,14894,17,1,1,18,1,1,19,1,1,17,1,1,Finisher,3500
+Balazs,Csoke,Balazs Csoke,11,MPRO,Male,Uster,Zurich,Hungary,HU,0:24:17,2:16:43,1:26:42,,,4:11:51,1457,8203,5202,102,148,15111,18,17,15,2,2,2,18,18,15,18,17,15,Finisher,2929
+Maja,Stage Nielsen,Maja Stage Nielsen,51,FPRO,Female,esbjerg,,Denmark,DK,0:27:59,2:15:00,1:26:07,,,4:13:15,1679,8100,5167,128,122,15195,19,2,2,20,3,3,21,2,2,19,2,2,Finisher,3409
+Johannes,Sikk,Johannes Sikk,9,MPRO,Male,elva,tartumaa,Estonia,EE,0:25:20,2:17:26,1:28:23,,,4:14:44,1520,8246,5303,97,118,15284,20,18,16,9,9,9,20,19,16,20,18,16,Finisher,2877
+Daniel,Lanigan,Daniel Lanigan,305,M35-39,Male,West Yorkshire,,United Kingdom,GB,0:35:42,2:09:45,1:26:14,,,4:15:55,2142,7785,5174,140,114,15355,21,19,2,130,104,18,22,20,2,21,19,2,Finisher,3266
+Kaidi,Kivioja,Kaidi Kivioja,53,FPRO,Female,Rakvere,Lääne-Viru maakond,Estonia,EE,0:27:57,2:20:52,1:24:41,,,4:16:50,1677,8452,5081,108,93,15410,22,3,3,19,2,2,26,3,3,22,3,3,Finisher,3345
+Robert,Budge,Robert Budge,576,M25-29,Male,Nelson,TAS,New Zealand,NZ,0:29:14,2:20:43,1:22:33,,,4:16:54,1754,8443,4953,153,110,15414,23,20,1,28,23,3,30,27,1,23,20,1,Finisher,3500
+Oliver,Kolodseike,Oliver Kolodseike,588,M30-34,Male,London,SRY,Germany,DE,0:31:46,2:14:11,1:27:25,,,4:18:18,1906,8051,5245,189,107,15498,24,21,2,55,45,5,24,22,2,24,21,2,Finisher,3198
+Matt,Rammo,Matt Rammo,624,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,0:33:14,2:18:32,1:23:35,,,4:19:06,1994,8312,5015,115,110,15546,25,22,3,82,66,10,34,31,6,25,22,3,Finisher,3183
+Priit,Ailt,Priit Ailt,111,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:28:11,2:18:00,1:29:12,,,4:19:44,1691,8280,5352,114,146,15584,26,23,3,21,18,1,23,21,3,26,23,3,Finisher,3198
+Joanna ,Ryter,Joanna Ryter,57,FPRO,Female,Les Geneveys-sur-Coffrane,NEUCHATEL,Switzerland,CH,0:32:41,2:21:09,1:22:40,,,4:20:13,1961,8469,4960,108,116,15613,27,4,4,72,12,5,42,7,7,27,4,4,Finisher,3284
+George,Steele,George Steele,341,M25-29,Male,Chester,Cheshire ,United Kingdom,GB,0:32:06,2:21:06,1:23:16,,,4:20:15,1926,8466,4996,126,101,15615,28,24,2,64,53,7,40,35,3,28,24,2,Finisher,3439
+Richard,Slater,Richard Slater,201,M30-34,Male,Espoo,Espoo,United Kingdom,GB,0:30:00,2:19:54,1:26:57,,,4:20:55,1800,8394,5217,118,126,15655,29,25,4,38,30,2,28,25,4,29,25,4,Finisher,3151
+Oliver,Thorne,Oliver Thorne,706,M35-39,Male,Bishops stortford,,United Kingdom,GB,0:32:19,2:17:33,1:25:44,,,4:21:04,1939,8253,5144,192,136,15664,30,26,4,68,57,6,32,29,5,30,26,4,Finisher,3174
+Andis,Grandans,Andis Grandans,567,M30-34,Male,Riga,Latvia,Latvia,LV,0:36:14,2:14:52,1:25:32,,,4:21:23,2174,8092,5132,164,121,15683,31,27,5,141,114,21,35,32,7,31,27,5,Finisher,3142
+Vilgaudas,Kaupa,Vilgaudas Kaupa,233,M30-34,Male,Vilnius,Vilnius,Lithuania,LT,0:33:05,2:19:19,1:25:24,,,4:23:14,1985,8359,5124,213,113,15794,32,28,6,81,65,9,43,36,8,32,28,6,Finisher,3109
+Mart,Suurkivi,Mart Suurkivi,169,M25-29,Male,Kadrina,Lääne-Virumaa,Estonia,EE,0:29:21,2:23:23,1:29:01,,,4:25:57,1761,8603,5341,129,124,15957,33,29,3,30,24,4,38,34,2,33,29,3,Finisher,3337
+Emeri,Lepp,Emeri Lepp,135,M40-44,Male,Peetri alevik,Rae vald,Estonia,EE,0:29:53,2:06:24,1:45:27,,,4:27:36,1793,7584,6327,166,185,16056,34,30,1,34,27,1,15,15,1,34,30,1,Finisher,3500
+Paul,Ruubel,Paul Ruubel,167,M35-39,Male,Pärnu,Pärnu maakond,Estonia,EE,0:30:56,2:19:14,1:34:01,,,4:28:29,1856,8354,5641,142,116,16109,35,31,5,46,36,2,31,28,4,35,31,5,Finisher,3040
+Katharina,Grohmann,Katharina Grohmann,59,FPRO,Female,Nidderau,,Germany,DE,0:35:30,2:17:05,1:31:41,,,4:28:32,2130,8225,5501,140,116,16112,36,5,5,124,26,7,39,5,5,36,5,5,Finisher,3134
+Margus,Heintalu,Margus Heintalu,221,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,0:31:08,2:25:40,1:27:16,,,4:29:04,1868,8740,5236,176,124,16144,37,32,6,49,39,4,54,47,6,37,32,6,Finisher,3030
+Urmo,Utar,Urmo Utar,141,M30-34,Male,Peetri alevik,Harju maakond,Estonia,EE,0:31:49,2:15:43,1:36:30,,,4:29:33,1909,8143,5790,224,108,16173,38,33,7,57,47,6,27,24,3,38,33,7,Finisher,2995
+Line,Borsinski,Line Borsinski,55,FPRO,Female,"
+Åbyhøj",,Denmark,DK,0:32:44,2:20:47,1:32:12,,,4:29:58,1964,8447,5532,123,133,16198,39,6,6,76,14,6,41,6,6,39,6,6,Finisher,3108
+Toomas,Loho,Toomas Loho,558,M45-49,Male,Kiili vald,Harju mk,Estonia,EE,0:30:59,2:16:57,1:38:26,,,4:31:17,1859,8217,5906,154,141,16277,40,34,1,47,37,1,25,23,1,40,34,1,Finisher,3500
+Marek,Antoniak,Marek Antoniak,620,M50-54,Male,Harku vald,Harjumaa,Estonia,EE,0:36:34,2:15:17,1:35:21,,,4:31:50,2194,8117,5721,164,114,16310,41,35,1,150,122,10,37,33,1,41,35,1,Finisher,3500
+Kristjan,Melikov,Kristjan Melikov,628,M40-44,Male,Tallinn,HARJUMAA,Estonia,EE,0:30:09,2:26:13,1:32:42,,,4:34:03,1809,8773,5562,173,127,16443,42,36,2,40,32,4,51,44,6,42,36,2,Finisher,3383
+Siim,Holts,Siim Holts,105,M25-29,Male,Tartu,APO,Estonia,EE,0:28:23,2:25:08,1:35:39,,,4:34:42,1703,8708,5739,191,141,16482,43,37,4,24,20,1,44,37,4,43,37,4,Finisher,3179
+Arturs,Loze,Arturs Loze,327,M25-29,Male,Jurmala,Latvia,Latvia,LV,0:37:50,2:20:31,1:29:25,,,4:35:01,2270,8431,5365,251,184,16501,44,38,5,182,151,20,62,54,7,44,38,5,Finisher,3173
+Elizabeth,Duncombe,Elizabeth Duncombe,56,FPRO,Female,London,london,United Kingdom,GB,0:38:16,2:19:03,1:30:38,,,4:35:06,2296,8343,5438,298,132,16506,45,7,7,198,32,8,59,8,8,45,7,7,Finisher,3016
+Taavi,Tali,Taavi Tali,582,M30-34,Male,Pärnu linn,Pärnumaa,Estonia,EE,0:31:58,2:17:25,1:40:47,,,4:35:32,1918,8245,6047,155,167,16532,46,39,8,62,51,7,29,26,5,46,39,8,Finisher,2888
+Rasmus,Jaagant,Rasmus Jaagant,149,M18-24,Male,Otepää,Valgamaa,Estonia,EE,0:32:52,2:27:28,1:30:45,,,4:35:41,1972,8848,5445,180,96,16541,47,40,1,78,63,6,65,57,1,47,40,1,Finisher,3500
+Martins,Marnauza,Martins Marnauza,103,M35-39,Male,Ozolnieki,JELGAVAS NOVADS,Latvia,LV,0:33:03,2:25:18,1:30:12,,,4:35:58,1983,8718,5412,288,157,16558,48,41,7,80,64,7,64,56,9,48,41,7,Finisher,2906
+Sven,Freiberg,Sven Freiberg,185,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,0:35:24,2:14:54,1:41:13,,,4:36:51,2124,8094,6073,194,126,16611,49,42,2,120,95,9,33,30,2,49,42,2,Finisher,3399
+Egert,Purre,Egert Purre,603,M30-34,Male,Viimsi Vald,foreigner,Estonia,EE,0:46:07,2:12:54,1:32:47,,,4:36:58,2767,7974,5567,167,143,16618,50,43,9,413,353,74,58,51,12,50,43,9,Finisher,2862
+Jorma,Härmsalu,Jorma Härmsalu,289,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,0:31:32,2:26:38,1:34:36,,,4:37:22,1892,8798,5676,177,99,16642,51,44,8,53,43,5,56,49,7,51,44,8,Finisher,2880
+Alex,Siim,Alex Siim,213,M30-34,Male,Rakvere,Lääne-Virumaa,Estonia,EE,0:35:46,2:20:36,1:36:42,,,4:38:04,2146,8436,5802,191,109,16684,52,45,10,131,105,19,53,46,10,52,45,10,Finisher,2842
+Michelangelo,Biondi,Michelangelo Biondi,137,M30-34,Male,roselle,,Italy,IT,0:29:00,2:26:18,1:37:22,,,4:38:46,1740,8778,5842,179,187,16726,53,46,11,26,21,1,49,42,9,53,46,11,Finisher,2829
+Mikk,Mets,Mikk Mets,608,M30-34,Male,Tartu,Estonia,Estonia,EE,0:34:37,2:25:13,1:32:46,,,4:38:52,2077,8713,5566,189,186,16732,54,47,12,96,77,12,63,55,13,54,47,12,Finisher,2828
+Martins,Vetra,Martins Vetra,271,M35-39,Male,Riga,Rīga,Latvia,LV,0:36:38,2:23:58,1:32:23,,,4:38:59,2198,8638,5543,224,136,16739,55,48,9,152,124,21,69,60,11,55,48,9,Finisher,2851
+Henri,Rüüsak,Henri Rüüsak,157,M45-49,Male,Tallinn,Harju,Estonia,EE,0:31:29,2:34:11,1:28:01,,,4:39:23,1889,9251,5281,220,121,16763,56,49,3,52,42,2,102,89,8,56,49,3,Finisher,3354
+Oleg ,Ignatjev ,Oleg Ignatjev,577,M35-39,Male,Tallinn,HARJUMAA,Estonia,EE,0:34:47,2:28:34,1:30:53,,,4:40:05,2087,8914,5453,220,131,16805,57,50,10,99,79,12,89,77,17,57,50,10,Finisher,2831
+Kaido,Voogla,Kaido Voogla,273,M40-44,Male,Saku,Harju,Estonia,EE,0:36:21,2:19:35,1:39:25,,,4:40:31,2181,8375,5965,179,131,16831,58,51,3,144,116,16,50,43,5,58,51,3,Finisher,3267
+Michela,Santini,Michela Santini,179,F40-44,Female,Camaiore,Lucca,Italy,IT,0:33:56,2:29:07,1:33:28,,,4:41:37,2036,8947,5608,165,143,16897,59,8,1,86,18,2,79,10,1,59,8,1,Finisher,3500
+Taavi,Raudsaar,Taavi Raudsaar,638,M35-39,Male,Tallinn,foreigner,Estonia,EE,0:36:33,2:27:12,1:33:20,,,4:41:41,2193,8832,5600,168,108,16901,60,52,11,148,120,20,85,74,15,60,52,11,Finisher,2803
+Alexis,Dancelme,Alexis Dancelme,291,M25-29,Male,Saint-Germain-des-pres,,France,FR,0:34:55,2:17:58,1:43:23,,,4:42:56,2095,8278,6203,252,148,16976,61,53,6,102,81,11,45,38,5,61,53,6,Finisher,3031
+Martin,Metspalu,Martin Metspalu,175,M40-44,Male,Tartu,Estonia,Estonia,EE,0:30:34,2:23:42,1:42:42,,,4:42:57,1834,8622,6162,235,124,16977,62,54,4,44,35,5,48,41,4,62,54,4,Finisher,3223
+Kristjan,Rätsep,Kristjan Rätsep,267,M30-34,Male,Rakvere,Lääne-Viru maakond,Estonia,EE,0:35:31,2:28:51,1:33:03,,,4:43:04,2131,8931,5583,219,120,16984,63,55,13,125,99,17,97,84,16,63,55,13,Finisher,2752
+Marius,Cimpean,Marius Cimpean,117,M40-44,Male,Cluj Napoca,Cluj,Romania,RO,0:29:56,2:25:01,1:41:52,,,4:43:04,1796,8701,6112,188,187,16984,64,56,5,36,29,3,47,40,3,64,56,5,Finisher,3221
+Rolands,Putnins,Rolands Putnins,299,M30-34,Male,Riga,RIGA,Latvia,LV,0:38:34,2:22:14,1:38:35,,,4:45:42,2314,8534,5915,217,162,17142,65,57,14,205,172,37,71,62,14,65,57,14,Finisher,2705
+Priit,Raudsepp,Priit Raudsepp,622,M35-39,Male,Tallinn,APO,Estonia,EE,0:34:20,2:25:11,1:40:31,,,4:45:52,2060,8711,6031,176,174,17152,66,58,12,92,73,10,61,53,8,66,58,12,Finisher,2727
+Urmas,Laur,Urmas Laur,493,M50-54,Male,Tallinn,Harju,Estonia,EE,0:37:52,2:25:10,1:36:01,,,4:45:59,2272,8710,5761,263,152,17159,67,59,2,185,154,13,92,80,6,67,59,2,Finisher,3245
+Lottie,Lucas,Lottie Lucas,129,F25-29,Female,Dubai,foreigner,United Kingdom,GB,0:28:20,2:39:57,1:32:36,,,4:46:11,1700,9597,5556,150,167,17171,68,9,1,23,4,1,118,15,2,68,9,1,Finisher,3500
+Are,Tints,Are Tints,449,M30-34,Male,Viljandi,Viljandimaa,Estonia,EE,0:35:18,2:26:31,1:38:21,,,4:46:17,2118,8791,5901,221,146,17177,69,60,15,113,88,14,76,67,15,69,60,15,Finisher,2694
+Jaanus,Koval,Jaanus Koval,598,M35-39,Male,Tallinn,APO,Estonia,EE,0:36:06,2:25:59,1:38:11,,,4:46:45,2166,8759,5891,224,165,17205,70,61,13,139,112,19,80,70,13,70,61,13,Finisher,2711
+Kalle,Young,Kalle Young,303,M18-24,Male,Windgap,kilkenny,Ireland,IE,0:31:57,2:29:32,1:40:42,,,4:47:04,1917,8972,6042,132,161,17224,71,62,2,60,49,4,66,58,2,71,62,2,Finisher,3295
+Thorge,Thomsen,Thorge Thomsen,108,M30-34,Male,Husum,,Germany,DE,0:40:56,2:29:34,1:29:41,,,4:47:25,2456,8974,5381,276,157,17245,72,63,16,279,239,51,148,131,28,72,63,16,Finisher,2674
+Anette,Zukker,Anette Zukker,159,F18-24,Female,Tartu,Tartu maakond,Estonia,EE,0:33:02,2:28:31,1:40:58,,,4:47:27,1982,8911,6058,150,147,17247,73,10,1,79,16,4,67,9,1,73,10,1,Finisher,3500
+Vladimir,Galkin,Vladimir Galkin,616,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,0:29:50,2:31:50,1:39:53,,,4:47:47,1790,9110,5993,218,156,17267,74,64,3,33,26,1,74,65,3,74,64,3,Finisher,3212
+Harles,Tammeleht,Harles Tammeleht,559,M30-34,Male,Tabasalu,foreigner,Estonia,EE,0:39:47,2:26:43,1:36:48,,,4:48:22,2387,8803,5808,160,144,17302,75,65,17,243,207,47,100,87,18,75,65,17,Finisher,2657
+Mait,Miller,Mait Miller,634,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,0:34:34,2:24:44,1:44:47,,,4:49:30,2074,8684,6287,182,143,17370,76,66,4,94,75,6,60,52,3,76,66,4,Finisher,3172
+Rainer,Kuhi,Rainer Kuhi,640,M40-44,Male,Tallinn,Harju,Estonia,EE,0:29:53,2:20:11,1:46:56,,,4:49:33,1793,8411,6416,474,280,17373,77,67,6,35,28,2,46,39,2,77,67,6,Finisher,3104
+Rivo,Pärna,Rivo Pärna,237,M35-39,Male,Tallinn,Harju,Estonia,EE,0:35:35,2:27:27,1:41:56,,,4:49:49,2135,8847,6116,161,130,17389,78,68,14,126,100,16,78,69,12,78,68,14,Finisher,2656
+Michael,Kummer,Michael Kummer,197,M40-44,Male,Gräfenhainichen,,Germany,DE,0:32:29,2:33:27,1:38:18,,,4:49:57,1949,9207,5898,193,150,17397,79,69,7,70,59,7,99,86,9,79,69,7,Finisher,3097
+Martin,Teras,Martin Teras,231,M25-29,Male,Nashville,TN,Estonia,EE,0:35:01,2:21:16,1:47:37,,,4:50:00,2101,8476,6457,186,179,17400,80,70,7,104,82,12,52,45,6,80,70,7,Finisher,2904
+Aivars,Uzols,Aivars Uzols,255,M55-59,Male,Daugavpils,foreigner,Latvia,LV,0:34:02,2:29:00,1:40:09,,,4:50:10,2042,8940,6009,235,184,17410,81,71,1,89,70,1,88,76,1,81,71,1,Finisher,3500
+Rainer,Velbri,Rainer Velbri,677,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:44:21,2:20:47,1:38:14,,,4:50:54,2661,8447,5894,266,187,17454,82,72,18,380,328,69,106,93,20,82,72,18,Finisher,2611
+Gints,Ermanis,Gints Ermanis,670,M45-49,Male,Adazi,ADAZU NOVADS,Latvia,LV,0:42:49,2:26:40,1:34:57,,,4:51:04,2569,8800,5697,251,148,17464,83,73,5,337,289,31,139,124,12,83,73,5,Finisher,3143
+Juris,Jansons,Juris Jansons,533,M45-49,Male,Riga,RIGA,Latvia,LV,0:38:17,2:24:20,1:42:09,,,4:51:11,2297,8660,6129,226,159,17471,84,74,6,200,168,19,84,73,6,84,74,6,Finisher,3141
+Maksim,Berjoza,Maksim Berjoza,604,M35-39,Male,Riga,LV,Latvia,LV,0:42:13,2:23:56,1:36:19,,,4:51:40,2533,8636,5779,319,233,17500,85,75,15,315,272,55,122,107,20,85,75,15,Finisher,2623
+Mihails,Paladijs,Mihails Paladijs,153,M45-49,Male,Daugavpils,,Latvia,LV,0:32:09,2:31:14,1:42:38,,,4:51:56,1929,9074,6158,219,135,17516,86,76,7,65,54,4,90,78,7,86,76,7,Finisher,3128
+Sergei,Voronichev,Sergei Voronichev,606,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,0:31:38,2:35:44,1:39:29,,,4:52:45,1898,9344,5969,206,148,17565,87,77,19,54,44,4,119,104,21,87,77,19,Finisher,2578
+Gints,Bukovskis,Gints Bukovskis,548,M45-49,Male,Riga,Latvia,Latvia,LV,0:41:27,2:21:02,1:44:45,,,4:52:53,2487,8462,6285,172,166,17573,88,78,8,299,257,29,75,66,4,88,78,8,Finisher,3111
+Mirjam,Allik,Mirjam Allik,650,F35-39,Female,Tallinn,Harjumaa,Estonia,EE,0:32:43,2:41:15,1:35:11,,,4:52:56,1963,9675,5711,132,95,17576,89,11,1,75,13,1,158,18,1,89,11,1,Finisher,3500
+Rebecca,Leadbeater,Rebecca Leadbeater,131,F18-24,Female,Milton Keynes,,United Kingdom,GB,0:29:25,2:35:43,1:43:31,,,4:53:39,1765,9343,6211,156,144,17619,90,12,2,31,7,2,94,13,3,90,12,2,Finisher,3388
+Jaak,Roosimägi,Jaak Roosimägi,599,M40-44,Male,Kihniö,Finland,Estonia,EE,0:35:25,2:30:57,1:41:52,,,4:54:08,2125,9057,6112,190,164,17648,91,79,8,121,96,13,105,92,10,91,79,8,Finisher,3022
+Riin,Buddell,Riin Buddell,594,F30-34,Female,Tallinn,Nõmme,Estonia,EE,0:35:07,2:35:06,1:38:24,,,4:54:21,2107,9306,5904,215,129,17661,92,13,1,109,24,2,141,16,1,92,13,1,Finisher,3500
+Christoph,Simsch Dr,Christoph Simsch Dr,546,M50-54,Male,Stimpfach,BW,Germany,DE,0:32:37,2:29:05,1:47:30,,,4:54:37,1957,8945,6450,165,160,17677,93,80,4,71,60,5,72,63,2,93,80,4,Finisher,3089
+Risto,Kankaanpää,Risto Kankaanpää,517,M35-39,Male,Helsinki,Uusimaa,Finland,FI,0:38:34,2:36:31,1:34:10,,,4:54:38,2314,9391,5650,194,131,17678,94,81,16,204,171,31,182,161,33,94,81,16,Finisher,2570
+Andreas,Veeret,Andreas Veeret,405,M35-39,Male,Tallinn,Harju,Estonia,EE,0:37:19,2:35:18,1:35:43,,,4:54:54,2239,9318,5743,234,159,17694,95,82,17,171,142,25,161,143,29,95,82,17,Finisher,2565
+Tomas,Ibanez,Tomas Ibanez,123,M45-49,Male,Munich,,Spain,ES,0:37:44,2:38:02,1:33:00,,,4:55:06,2264,9482,5580,219,161,17706,96,83,9,181,150,17,197,176,20,96,83,9,Finisher,3071
+Jaan,Jagomägi,Jaan Jagomägi,467,M45-49,Male,Tartu,NA,Estonia,EE,0:35:19,2:37:25,1:35:38,,,4:55:20,2119,9445,5738,252,166,17720,97,84,10,114,89,8,166,147,15,97,84,10,Finisher,3067
+Timmo,Kuuskla,Timmo Kuuskla,671,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:38:11,2:27:23,1:42:18,,,4:55:35,2291,8843,6138,304,160,17735,98,85,8,194,163,22,116,102,10,98,85,8,Finisher,2803
+Vytautas,Jakštys,Vytautas Jakštys,361,M30-34,Male,Vilnius,Vilnius,Lithuania,LT,0:44:04,2:25:18,1:39:02,,,4:55:36,2644,8718,5942,281,151,17736,99,86,20,373,323,68,143,127,26,99,86,20,Finisher,2526
+Janis,Ruskuls,Janis Ruskuls,636,M30-34,Male,Riga,Rīga,Latvia,LV,0:43:00,2:27:27,1:37:42,,,4:56:06,2580,8847,5862,338,140,17766,100,87,21,345,297,63,156,139,30,100,87,21,Finisher,2517
+Ulf,Rosen,Ulf Rosen,183,M50-54,Male,Tallinn,Harju,Estonia,EE,0:40:02,2:39:41,1:30:17,,,4:56:10,2402,9581,5417,220,150,17770,101,88,5,250,214,17,229,205,18,101,88,5,Finisher,3062
+Janno,Metsapool,Janno Metsapool,155,M30-34,Male,Oulu,Pohjois-Pohjanmaa,Estonia,EE,0:35:21,2:39:53,1:34:36,,,4:56:13,2121,9593,5676,210,173,17773,102,89,22,118,93,15,188,167,36,102,89,22,Finisher,2515
+Artjom,Skljarov,Artjom Skljarov,297,M35-39,Male,Fort Collins,CO,Estonia,EE,0:41:11,2:21:48,1:46:21,,,4:56:16,2471,8508,6381,220,197,17776,103,90,18,286,246,46,86,75,16,103,90,18,Finisher,2540
+Preedik,Kulli,Preedik Kulli,261,M35-39,Male,padise,harjumaa,Estonia,EE,0:42:34,2:25:29,1:41:51,,,4:56:25,2554,8729,6111,219,173,17785,104,91,19,332,284,57,123,108,21,104,91,19,Finisher,2537
+Kerstin,Mogull,Kerstin Mogull,321,F55-59,Female,London,SRY,United Kingdom,GB,0:32:45,2:32:43,1:43:03,,,4:56:32,1965,9163,6183,285,196,17792,105,14,1,77,15,1,113,14,1,105,14,1,Finisher,3500
+Christopher,Kaare,Christopher Kaare,678,M18-24,Male,Laagri,Harju,Estonia,EE,0:32:42,2:27:10,1:49:17,,,4:56:37,1962,8830,6557,268,180,17797,106,92,3,73,61,5,70,61,3,106,92,3,Finisher,3123
+Arvis,Meldrajs,Arvis Meldrajs,741,M25-29,Male,Riga,Rigas raj,Latvia,LV,0:42:10,2:24:58,1:43:38,,,4:57:08,2530,8698,6218,240,141,17828,107,93,9,311,268,32,121,106,11,107,93,9,Finisher,2775
+Kaarel,Sisask,Kaarel Sisask,187,M30-34,Male,Pärnu,Pärnumaa,Estonia,EE,0:34:23,2:28:58,1:45:59,,,4:57:20,2063,8938,6359,353,126,17840,108,94,23,93,74,11,101,88,19,108,94,23,Finisher,2495
+Toomas,Greenbaum,Toomas Greenbaum,177,M40-44,Male,tallinn,Tallinn,Estonia,EE,0:33:25,2:32:14,1:44:00,,,4:57:23,2005,9134,6240,260,206,17843,109,95,9,84,67,9,109,96,11,109,95,9,Finisher,2963
+Rait,Rebane,Rait Rebane,283,M30-34,Male,Tallinn,APO,Estonia,EE,0:32:12,2:26:53,1:53:50,,,4:57:27,1932,8813,6830,152,120,17847,110,96,24,66,55,8,57,50,11,110,96,24,Finisher,2493
+Igors,Geletko,Igors Geletko,669,M45-49,Male,Marupe,Other (Non US),Latvia,LV,0:38:46,2:32:32,1:39:02,,,4:57:34,2326,9152,5942,253,182,17854,111,97,11,216,182,20,151,134,13,111,97,11,Finisher,3026
+Indrek,Reinbach,Indrek Reinbach,391,M40-44,Male,Rannamõisa,Harjumaa,Estonia,EE,0:39:15,2:25:57,1:45:59,,,4:58:33,2355,8757,6359,288,153,17913,112,98,10,228,194,23,110,97,12,112,98,10,Finisher,2942
+Tarmo,Kalviste,Tarmo Kalviste,265,M50-54,Male,Tallinn,Harju,Estonia,EE,0:31:48,2:32:15,1:49:04,,,4:58:47,1908,9135,6544,182,158,17927,113,99,6,56,46,4,91,79,5,113,99,6,Finisher,3014
+Argo,Kerner,Argo Kerner,618,M50-54,Male,Tabasalu,Harku vald,Estonia,EE,0:40:22,2:29:25,1:41:58,,,4:58:49,2422,8965,6118,255,170,17929,114,100,7,261,224,18,142,126,11,114,100,7,Finisher,3014
+Alan,Dempsey,Alan Dempsey,281,M45-49,Male,Dublin,Dublin,Ireland,IE,0:35:52,2:43:33,1:32:47,,,4:58:56,2152,9813,5567,245,159,17936,115,101,12,132,106,10,232,208,25,115,101,12,Finisher,3002
+Viljar,Vooremäe,Viljar Vooremäe,245,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:34:35,2:36:57,1:40:54,,,4:59:00,2075,9417,6054,242,152,17940,116,102,10,95,76,10,152,135,14,116,102,10,Finisher,2742
+Hannes,Mulla,Hannes Mulla,249,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:39:24,2:20:00,1:53:11,,,4:59:44,2364,8400,6791,292,136,17984,117,103,20,236,201,35,68,59,10,117,103,20,Finisher,2478
+Youssef,Sebban,Youssef Sebban,317,M30-34,Male,miami,FL,Morocco,MA,0:36:56,2:35:11,1:40:07,,,4:59:47,2216,9311,6007,294,159,17987,118,104,25,159,130,28,168,149,33,118,104,25,Finisher,2451
+Radoslaw,Kasztelan,Radoslaw Kasztelan,277,M40-44,Male,Kwidzyn,,Poland,PL,0:39:16,2:29:09,1:44:30,,,4:59:48,2356,8949,6270,216,197,17988,119,105,11,229,195,24,126,111,15,119,105,11,Finisher,2920
+Toomas,Jõgeva,Toomas Jõgeva,389,M50-54,Male,Otepää,Valga maakond,Estonia,EE,0:37:57,2:30:48,1:43:21,,,4:59:55,2277,9048,6201,296,172,17995,120,106,8,187,156,14,140,125,10,120,106,8,Finisher,2994
+Relika,Toome,Relika Toome,147,F25-29,Female,Tallinn,Harjumaa,Estonia,EE,0:30:46,2:33:30,1:51:07,,,4:59:55,1846,9210,6667,151,121,17995,121,15,2,45,10,2,87,12,1,121,15,2,Finisher,3252
+Artjoms,Hondozko,Artjoms Hondozko,672,M30-34,Male,Riga,Riga,Latvia,LV,0:43:32,2:28:39,1:39:12,,,4:59:55,2612,8919,5952,311,201,17995,122,107,26,360,311,67,173,153,34,122,107,26,Finisher,2449
+Uldis,Kaufmanis,Uldis Kaufmanis,106,M45-49,Male,Riga,foreigner,Latvia,LV,0:40:26,2:21:11,1:52:09,,,5:00:13,2426,8471,6729,245,143,18013,123,108,13,263,226,24,77,68,5,123,108,13,Finisher,2979
+Buravcovs,Konstantins,Buravcovs Konstantins,643,M35-39,Male,Rīga,Latvija,Latvia,LV,0:35:10,2:29:07,1:50:08,,,5:00:16,2110,8947,6608,211,141,18016,124,109,21,110,86,13,95,82,18,124,109,21,Finisher,2468
+Vahur,Sirp,Vahur Sirp,561,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:39:48,2:29:56,1:43:49,,,5:00:24,2388,8996,6229,210,201,18024,125,110,27,244,208,48,132,117,24,125,110,27,Finisher,2440
+Kim,Truija,Kim Truija,285,M40-44,Male,Ilmandu,APO,Estonia,EE,0:35:19,2:22:37,1:56:40,,,5:00:25,2119,8557,7000,181,168,18025,126,111,12,116,91,11,55,48,7,126,111,12,Finisher,2909
+Paula-Brit,Siimar,Paula-Brit Siimar,101,F18-24,Female,Tallinn,Harju,Estonia,EE,0:29:14,2:35:26,1:52:34,,,5:00:38,1754,9326,6754,102,101,18038,127,16,3,29,6,1,83,11,2,127,16,3,Finisher,3262
+Kert Kevin,Lissmann,Kert Kevin Lissmann,165,M18-24,Male,tallinn,harjumaa,Estonia,EE,0:29:39,2:33:07,1:54:07,,,5:00:43,1779,9187,6847,122,108,18043,128,112,4,32,25,3,73,64,4,128,112,4,Finisher,3049
+Jevgenijs,Sergejevs,Jevgenijs Sergejevs,269,M40-44,Male,Rīga,Riga,Latvia,LV,0:38:41,2:33:26,1:39:46,,,5:01:06,2321,9206,5986,383,169,18066,129,113,13,211,177,20,185,164,23,129,113,13,Finisher,2897
+Stanislav,Gurba,Stanislav Gurba,229,M30-34,Male,Tartu linn,TARTUMAA,Estonia,EE,0:38:39,2:36:25,1:40:07,,,5:01:13,2319,9385,6007,234,128,18073,130,114,28,208,175,39,190,169,38,130,114,28,Finisher,2425
+Andrus,Prangli,Andrus Prangli,351,M45-49,Male,Maardu,Harjumaa,Estonia,EE,0:37:26,2:38:07,1:39:03,,,5:01:22,2246,9487,5943,230,175,18082,131,115,14,175,145,16,196,175,19,131,115,14,Finisher,2958
+Carolyn,Paajanen,Carolyn Paajanen,757,F30-34,Female,Espoo,Uusimaa,Finland,FI,0:39:30,2:34:53,1:41:21,,,5:01:23,2370,9293,6081,179,160,18083,132,17,2,237,36,5,172,20,3,132,17,2,Finisher,3373
+Sander,Eesmaa,Sander Eesmaa,393,M25-29,Male,Laagri,foreigner,Estonia,EE,0:37:37,2:27:03,1:49:41,,,5:01:32,2257,8823,6581,305,127,18092,133,116,11,179,148,19,107,94,9,133,116,11,Finisher,2696
+Kaspar,Kalle,Kaspar Kalle,574,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:36:36,2:33:01,1:46:29,,,5:01:32,2196,9181,6389,192,134,18092,134,117,5,151,123,8,127,112,7,134,117,5,Finisher,3034
+Grigori,Gvozdovski,Grigori Gvozdovski,715,M35-39,Male,Tallinn,HARJUMAA,Estonia,EE,0:40:20,2:30:22,1:42:36,,,5:01:37,2420,9022,6156,302,199,18097,135,118,22,257,221,39,153,136,28,135,118,22,Finisher,2444
+Leila,Luik,Leila Luik,704,F35-39,Female,Tartu,Tartumaa,Estonia,EE,0:36:20,2:46:21,1:31:41,,,5:01:44,2180,9981,5501,253,188,18104,136,18,2,143,28,7,254,25,5,136,18,2,Finisher,3341
+Oskars,Kundzinš,Oskars Kundzinš,541,M35-39,Male,Rīga,Latvia,Latvia,LV,0:39:12,2:28:11,1:48:28,,,5:01:44,2352,8891,6508,144,210,18104,137,119,23,223,189,34,108,95,19,137,119,23,Finisher,2442
+Tadas,Lukauskis,Tadas Lukauskis,490,M18-24,Male,Kaunas,foreigner,Lithuania,LT,0:37:16,2:44:36,1:33:06,,,5:02:16,2236,9876,5586,237,201,18136,138,120,6,169,140,9,246,222,10,138,120,6,Finisher,3021
+Erki,Kukk,Erki Kukk,343,M35-39,Male,Tartu,TARTUMAA,Estonia,EE,0:34:05,2:36:09,1:47:04,,,5:02:25,2045,9369,6424,183,125,18145,139,121,24,90,71,8,134,119,25,139,121,24,Finisher,2429
+Andre,Pukk,Andre Pukk,235,M40-44,Male,Tallinn,Harju maakond,Estonia,EE,0:31:54,2:35:47,1:46:54,,,5:02:33,1914,9347,6414,204,273,18153,140,122,14,59,48,6,120,105,14,140,122,14,Finisher,2870
+Priit,Kingo,Priit Kingo,441,M40-44,Male,Peetri alevik,Rae vald,Estonia,EE,0:39:02,2:36:57,1:37:24,,,5:02:40,2342,9417,5844,345,213,18160,141,123,15,219,185,21,214,191,30,141,123,15,Finisher,2868
+Valerijs,Kulickis,Valerijs Kulickis,596,M40-44,Male,Marupe,Mārupes novads,Latvia,LV,0:35:23,2:40:12,1:40:43,,,5:02:49,2123,9612,6043,217,175,18169,142,124,16,119,94,12,194,173,25,142,124,16,Finisher,2866
+Hannes,Metssalu,Hannes Metssalu,585,M25-29,Male,Tallinn,,Estonia,EE,0:43:23,2:39:36,1:30:56,,,5:03:00,2603,9576,5456,360,184,18180,143,125,12,356,307,36,276,250,29,143,125,12,Finisher,2670
+Denis,Strahov,Denis Strahov,479,M40-44,Male,Riga,LV,Latvia,LV,0:35:55,2:37:50,1:41:56,,,5:03:04,2155,9470,6116,263,181,18184,144,126,17,134,107,14,178,157,21,144,126,17,Finisher,2861
+Markus,Marandi,Markus Marandi,109,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:27:11,2:38:40,1:53:28,,,5:03:24,1631,9520,6808,105,140,18204,145,127,7,17,17,2,93,81,5,145,127,7,Finisher,3001
+Karl,Pae,Karl Pae,793,M35-39,Male,Tallinn,Harju,Estonia,EE,0:46:25,2:33:05,1:38:31,,,5:03:57,2785,9185,5911,223,133,18237,146,128,25,420,359,74,226,202,39,146,128,25,Finisher,2402
+Laura,Heinonen,Laura Heinonen,676,F30-34,Female,Helsinki,,Finland,FI,0:39:20,2:31:37,1:47:39,,,5:04:11,2360,9097,6459,198,137,18251,147,19,3,231,35,4,144,17,2,147,19,3,Finisher,3323
+Jaanus,Männik,Jaanus Männik,509,M40-44,Male,Peetri alevik,Harju,Estonia,EE,0:37:57,2:25:46,1:52:26,,,5:04:12,2277,8746,6746,257,226,18252,148,129,18,186,155,18,96,83,8,148,129,18,Finisher,2841
+Andres,Metsmägi,Andres Metsmägi,664,M35-39,Male,Tartu,Tartu maakond,Estonia,EE,0:38:43,2:31:37,1:48:56,,,5:04:22,2323,9097,6536,177,129,18262,149,130,26,213,179,32,133,118,24,149,130,26,Finisher,2394
+Taavet,Reimers,Taavet Reimers,550,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,0:34:44,2:28:23,1:55:11,,,5:04:44,2084,8903,6911,189,198,18284,150,131,27,98,78,11,81,71,14,150,131,27,Finisher,2388
+Povilas,Uosaitis,Povilas Uosaitis,368,M35-39,Male,Alytus,Alytus,Lithuania,LT,0:41:59,2:30:26,1:43:24,,,5:04:56,2519,9026,6204,344,204,18296,151,132,28,307,265,50,179,158,32,151,132,28,Finisher,2384
+Andreas,Papp,Andreas Papp,227,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:35:37,2:37:49,1:45:57,,,5:05:01,2137,9469,6357,163,175,18301,152,133,29,128,102,18,157,140,31,152,133,29,Finisher,2357
+Titas,Sijanas,Titas Sijanas,313,M25-29,Male,Vilnius,Vilnius,Lithuania,LT,0:32:20,2:41:51,1:44:46,,,5:05:14,1940,9711,6286,214,163,18314,153,134,13,69,58,8,175,154,16,153,134,13,Finisher,2630
+Mareen,Hufe,Mareen Hufe,52,FPRO,Female,Wesel,,Germany,DE,0:29:59,2:21:34,2:08:49,,,5:05:18,1799,8494,7729,141,154,18318,154,20,8,37,8,4,36,4,4,154,20,8,Finisher,2472
+Sandis,Kanbergs,Sandis Kanbergs,817,M40-44,Male,Tukums,Tukuma novads,Latvia,LV,0:41:15,2:27:25,1:45:45,,,5:05:49,2475,8845,6345,455,229,18349,155,135,19,288,248,39,159,141,18,155,135,19,Finisher,2812
+Janis,Kasalis,Janis Kasalis,684,M45-49,Male,Riga,RIGA,Latvia,LV,0:39:18,2:34:49,1:43:20,,,5:05:50,2358,9289,6200,313,190,18350,156,136,15,230,196,22,195,174,18,156,136,15,Finisher,2878
+Martin,Teetsov,Martin Teetsov,373,M35-39,Male,Kehtna,Rapla maakond,Estonia,EE,0:36:52,2:31:39,1:50:18,,,5:05:57,2212,9099,6618,279,148,18357,157,137,29,157,128,22,130,115,23,157,137,29,Finisher,2366
+Silver,Mikk,Silver Mikk,644,M25-29,Male,Tartu,APO,Estonia,EE,0:33:48,2:39:31,1:45:17,,,5:05:58,2028,9571,6317,323,119,18358,158,138,14,85,68,9,187,166,17,158,138,14,Finisher,2616
+Anneli,Ratassepp,Anneli Ratassepp,545,F35-39,Female,Tallinn,Harjumaa,Estonia,EE,0:38:39,2:34:50,1:46:51,,,5:05:59,2319,9290,6411,203,136,18359,159,21,3,209,34,9,163,19,2,159,21,3,Finisher,3265
+Toomas,Türn,Toomas Türn,575,M40-44,Male,Kurepalu,TARTUMAA,Estonia,EE,0:35:03,2:34:27,1:49:03,,,5:06:07,2103,9267,6543,218,237,18367,160,139,20,108,85,10,129,114,16,160,139,20,Finisher,2806
+Ardo,Pajur,Ardo Pajur,443,M45-49,Male,Viimsi,Harjumaa,Estonia,EE,0:36:59,2:28:28,1:52:40,,,5:06:14,2219,8908,6760,314,173,18374,161,140,16,163,134,14,117,103,10,161,140,16,Finisher,2870
+Raimo,Ülavere,Raimo Ülavere,251,M50-54,Male,Tallinn,Harju,Estonia,EE,0:35:02,2:30:01,1:53:58,,,5:06:31,2102,9001,6838,265,185,18391,162,141,9,106,83,6,104,91,7,162,141,9,Finisher,2875
+Armands,Rozenbergs,Armands Rozenbergs,733,M40-44,Male,Bukulti,Ropažu novads,Latvia,LV,0:42:33,2:28:41,1:48:49,,,5:06:45,2553,8921,6529,244,158,18405,163,142,21,330,282,43,150,133,17,163,142,21,Finisher,2795
+Mihkel,Arro,Mihkel Arro,347,M30-34,Male,Otepää,Valga,Estonia,EE,0:39:56,2:29:03,1:51:03,,,5:06:57,2396,8943,6663,232,183,18417,164,143,30,247,211,49,128,113,22,164,143,30,Finisher,2322
+Hendrik,Rull,Hendrik Rull,381,M18-24,Male,Tartu,Tartumaa,Estonia,EE,0:38:10,2:40:17,1:42:57,,,5:06:59,2290,9617,6177,201,133,18419,165,144,8,193,162,10,215,192,9,165,144,8,Finisher,2936
+Povilas,Lengvinas,Povilas Lengvinas,339,M25-29,Male,Klaipeda,,Lithuania,LT,0:35:19,2:37:01,1:50:08,,,5:07:04,2119,9421,6608,130,145,18424,166,145,15,115,90,13,145,128,12,166,145,15,Finisher,2597
+Ants,Einsalu,Ants Einsalu,690,M60-64,Male,Väike-Maarja,Laane-Virumaa,Estonia,EE,0:45:05,2:22:19,1:50:53,,,5:07:12,2705,8539,6653,370,166,18432,167,146,1,398,342,4,137,122,1,167,146,1,Finisher,3500
+Eduard,Kimask,Eduard Kimask,749,M45-49,Male,"Tallinn, Estonia",Harju,Estonia,EE,0:45:44,2:39:17,1:32:43,,,5:07:30,2744,9557,5563,399,187,18450,168,147,17,407,349,37,300,267,32,168,147,17,Finisher,2848
+Joonas,Jõgi,Joonas Jõgi,590,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:56:47,2:18:29,1:46:13,,,5:07:32,3407,8309,6373,226,137,18452,169,148,16,512,431,54,192,171,18,169,148,16,Finisher,2588
+Ossi,Ahto,Ossi Ahto,779,M40-44,Male,Helsinki,Uusimaa,Finland,FI,0:40:23,2:36:12,1:44:43,,,5:07:40,2423,9372,6283,229,153,18460,170,149,22,262,225,33,204,183,27,170,149,22,Finisher,2778
+Maksims,Lukasevics,Maksims Lukasevics,397,M25-29,Male,Jurmala,JURMALA,Latvia,LV,0:37:11,2:43:04,1:41:05,,,5:08:09,2231,9784,6065,259,150,18489,171,150,17,168,139,18,234,210,21,171,150,17,Finisher,2577
+Kia,Räihä,Kia Räihä,207,F35-39,Female,Espoo,Espoo,Finland,FI,0:34:49,2:38:19,1:48:10,,,5:08:16,2089,9499,6490,262,155,18496,172,22,4,100,21,3,174,21,3,172,22,4,Finisher,3224
+Andre,Petraudze,Andre Petraudze,602,M30-34,Male,Suurupi,Harju,Estonia,EE,0:39:03,2:40:10,1:42:08,,,5:08:31,2343,9610,6128,219,210,18511,173,151,31,220,186,43,223,199,42,173,151,31,Finisher,2294
+Janiss,Berzins,Janiss Berzins,547,M30-34,Male,Adazi,Adazi,Latvia,LV,0:36:53,2:31:40,1:51:26,,,5:08:33,2213,9100,6686,280,233,18513,174,152,32,158,129,27,131,116,23,174,152,32,Finisher,2293
+Tarmo,Jänes,Tarmo Jänes,403,M35-39,Male,Rapla,Rapla maakond,Estonia,EE,0:37:35,2:40:07,1:43:55,,,5:08:35,2255,9607,6235,265,154,18515,175,153,30,177,146,27,218,195,37,175,153,30,Finisher,2318
+Allar ,Pähn,Allar Pähn,477,M30-34,Male,Tartu,Tartu maakond,Estonia,EE,0:38:40,2:33:50,1:50:30,,,5:08:38,2320,9230,6630,205,132,18518,176,154,33,210,176,40,154,137,29,176,154,33,Finisher,2292
+Indrek,Bauer,Indrek Bauer,633,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:41:18,2:37:37,1:43:17,,,5:08:39,2478,9457,6197,263,124,18519,177,155,34,293,253,54,227,203,43,177,155,34,Finisher,2291
+Mihkel,Siimon,Mihkel Siimon,483,M30-34,Male,Tartu,Tartumaa,Estonia,EE,0:36:45,2:33:57,1:53:20,,,5:08:46,2205,9237,6800,172,112,18526,178,156,35,155,127,26,136,121,25,178,156,35,Finisher,2289
+Lukas,Baranauskas,Lukas Baranauskas,215,M25-29,Male,Klaipeda,,Lithuania,LT,0:31:17,2:33:27,1:56:42,,,5:08:56,1877,9207,7002,278,172,18536,179,157,18,51,41,6,103,90,8,179,157,18,Finisher,2563
+Sven,Vene,Sven Vene,356,M50-54,Male,Pärnu,Pärnumaa,Estonia,EE,0:35:38,2:30:53,1:56:00,,,5:09:13,2138,9053,6960,232,171,18553,180,158,10,129,103,7,114,100,8,180,158,10,Finisher,2827
+Karlis,Salijums,Karlis Salijums,521,M45-49,Male,Garkalnes novads,Ropažu novads,Latvia,LV,0:43:58,2:28:04,1:49:24,,,5:09:28,2638,8884,6564,266,217,18568,181,159,18,371,322,34,160,142,14,181,159,18,Finisher,2812
+Erko,Karo,Erko Karo,409,M45-49,Male,Tabasalu,Harju,Estonia,EE,0:40:14,2:27:52,1:54:48,,,5:09:29,2414,8872,6888,229,166,18569,182,160,19,254,218,23,125,110,11,182,160,19,Finisher,2812
+Eduards,Skukis,Eduards Skukis,358,M35-39,Male,Riga,Riga,Latvia,LV,0:39:39,2:38:04,1:45:28,,,5:10:01,2379,9484,6328,219,191,18601,183,161,31,240,204,36,210,187,36,183,161,31,Finisher,2293
+Marek,Soop,Marek Soop,837,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:38:56,2:42:04,1:42:15,,,5:10:06,2336,9724,6135,254,156,18606,184,162,32,218,184,33,241,217,43,184,162,32,Finisher,2291
+Theophile,Seban,Theophile Seban,337,M30-34,Male,Saint Germain Les Cobeils,,France,FR,0:36:15,2:33:44,1:50:43,,,5:10:11,2175,9224,6643,273,297,18611,185,163,36,142,115,22,146,129,27,185,163,36,Finisher,2264
+Raul,Roots,Raul Roots,647,M30-34,Male,Tallinn,Harju,Estonia,EE,0:41:16,2:47:17,1:35:39,,,5:10:33,2476,10037,5739,260,122,18633,186,164,37,289,249,52,310,275,59,186,164,37,Finisher,2257
+Jorens,Zeiers,Jorens Zeiers,526,M18-24,Male,Riga,Riga,Latvia,LV,0:40:41,2:33:11,1:51:22,,,5:10:42,2441,9191,6682,192,136,18642,187,165,9,271,233,14,170,151,8,187,165,9,Finisher,2869
+Jenny,Pettersson,Jenny Pettersson,419,F35-39,Female,Eckerö,Åland,Aland Islands,AX,0:37:20,2:40:37,1:47:40,,,5:11:13,2240,9637,6460,179,157,18673,188,23,5,172,30,8,207,23,4,188,23,5,Finisher,3170
+Andrus,Jaamul,Andrus Jaamul,626,M50-54,Male,Muraste,Harjumaa,Estonia,EE,0:31:13,2:31:13,2:01:03,,,5:11:15,1873,9073,7263,236,230,18675,189,166,11,50,40,3,82,72,4,189,166,11,Finisher,2790
+Juris,Scerbickis,Juris Scerbickis,421,M45-49,Male,Marupe,Marupe,Latvia,LV,0:46:17,2:24:39,1:49:56,,,5:11:20,2777,8679,6596,375,252,18680,190,167,20,415,354,39,171,152,16,190,167,20,Finisher,2779
+Edžus,Bertmanis,Edžus Bertmanis,565,M30-34,Male,Riga,foreigner,Latvia,LV,0:36:30,2:36:12,1:52:11,,,5:11:27,2190,9372,6731,252,143,18687,191,168,38,147,119,23,165,146,32,191,168,38,Finisher,2241
+Martin,Altraja,Martin Altraja,407,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:38:13,2:41:47,1:44:47,,,5:11:37,2293,9707,6287,284,127,18697,192,169,39,196,165,35,237,213,44,192,169,39,Finisher,2238
+Helena,Peik,Helena Peik,665,F25-29,Female,Valga vald,Valgmaa,Estonia,EE,0:46:01,2:43:05,1:36:37,,,5:11:39,2761,9785,5797,206,151,18699,193,24,3,409,59,10,306,34,4,193,24,3,Finisher,3041
+Liivia,Raudsik-Deprince,Liivia Raudsik-Deprince,171,F30-34,Female,Bruges,,Estonia,EE,0:28:55,2:49:00,1:47:18,,,5:11:45,1735,10140,6438,263,130,18705,194,25,4,25,5,1,220,24,4,194,25,4,Finisher,3186
+Andrus,Pedai,Andrus Pedai,657,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,0:40:41,2:33:34,1:49:10,,,5:12:04,2441,9214,6550,334,186,18724,195,170,21,270,232,26,200,179,21,195,170,21,Finisher,2765
+Krister,Haav,Krister Haav,729,M40-44,Male,Tallinn,Harju,Estonia,EE,0:40:09,2:36:29,1:46:40,,,5:12:06,2409,9389,6400,328,200,18726,196,171,23,253,217,29,217,194,32,196,171,23,Finisher,2699
+Jürgen,Ligi,Jürgen Ligi,532,M60-64,Male,Tallinn,Eesti,Estonia,EE,0:41:13,2:32:59,1:48:53,,,5:12:14,2473,9179,6533,347,201,18734,197,172,2,287,247,2,201,180,2,197,172,2,Finisher,3409
+Kristo,Kiipsaar,Kristo Kiipsaar,469,M25-29,Male,Ülenurme,Tartumaa,Estonia,EE,0:37:08,2:37:33,1:48:52,,,5:12:35,2228,9453,6532,328,214,18755,198,173,19,167,138,17,202,181,19,198,173,19,Finisher,2497
+Marko,Pukk,Marko Pukk,909,M40-44,Male,Viljandi,Peetrimõisa küla,Estonia,EE,0:39:21,,1:53:02,,,5:13:07,2361,0,6782,3127,0,18787,199,174,24,233,198,25,99999,99999,99999,199,174,24,Finisher,2680
+Indrek,Hääl,Indrek Hääl,417,M40-44,Male,Estonia,foreigner,Estonia,EE,0:42:47,2:41:25,1:41:00,,,5:13:21,2567,9685,6060,294,195,18801,200,175,25,336,288,45,279,253,38,200,175,25,Finisher,2676
+Andris,Eihmanis,Andris Eihmanis,701,M35-39,Male,LIEPAJA,State,Latvia,LV,0:44:30,2:36:58,1:42:22,,,5:13:24,2670,9418,6142,388,187,18804,201,176,33,384,332,69,263,237,50,201,176,33,Finisher,2232
+Vitali,Petrov,Vitali Petrov,492,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:38:14,2:40:15,1:45:48,,,5:13:26,2294,9615,6348,276,273,18806,202,177,34,197,166,29,224,200,38,202,177,34,Finisher,2231
+Anvar,Salomets,Anvar Salomets,625,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:42:23,2:39:31,1:43:15,,,5:13:31,2543,9571,6195,302,201,18811,203,178,35,320,277,56,255,230,48,203,178,35,Finisher,2230
+Ingmar,Kaup,Ingmar Kaup,700,M40-44,Male,Tallinn,APO,Estonia,EE,0:40:56,2:33:02,1:52:38,,,5:13:33,2456,9182,6758,246,171,18813,204,179,26,280,240,37,177,156,20,204,179,26,Finisher,2672
+Natalia,Gribovskaya,Natalia Gribovskaya,777,F35-39,Female,Tallinn,Peetri,Estonia,EE,0:35:54,2:51:44,1:36:54,,,5:13:46,2154,10304,5814,297,256,18826,205,26,6,133,27,6,307,35,7,205,26,6,Finisher,3125
+Aleksandr,Selivanov,Aleksandr Selivanov,253,M40-44,Male,Lohkva,Tartumaa,Estonia,EE,0:42:19,2:36:44,1:48:30,,,5:14:11,2539,9404,6510,260,138,18851,206,180,27,318,275,42,230,206,33,206,180,27,Finisher,2661
+Andrei,Magrön,Andrei Magrön,905,M35-39,Male,Kirkkonummi,Masala,Finland,FI,0:42:03,2:40:39,1:44:22,,,5:14:17,2523,9639,6262,247,187,18857,207,181,36,308,266,51,252,228,46,207,181,36,Finisher,2216
+Sven,Rohlin,Sven Rohlin,592,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,0:30:18,2:41:21,1:54:08,,,5:14:27,1818,9681,6848,297,224,18867,208,182,12,41,33,2,162,144,13,208,182,12,Finisher,2732
+Matiss,Priedits,Matiss Priedits,497,M25-29,Male,,,Latvia,LV,0:43:20,2:39:19,1:45:48,,,5:14:42,2600,9559,6348,238,138,18882,209,183,20,355,306,35,250,226,25,209,183,20,Finisher,2459
+Erki,Salk,Erki Salk,163,M35-39,Male,Pärnu,Pärnumaa,Estonia,EE,0:35:13,2:39:20,1:53:47,,,5:14:55,2113,9560,6827,271,123,18895,210,184,37,112,87,14,193,172,35,210,184,37,Finisher,2204
+Dzintars,Kalnins,Dzintars Kalnins,829,M30-34,Male,Riga,Latvia,Latvia,LV,0:41:46,2:34:24,1:53:36,,,5:15:05,2506,9264,6816,160,160,18905,211,185,40,306,264,58,189,168,37,211,185,40,Finisher,2176
+Mikk,Teelahk,Mikk Teelahk,693,M25-29,Male,Haabneeme alevik,Viimsi vald,Estonia,EE,0:48:48,2:36:26,1:43:47,,,5:15:28,2928,9386,6227,187,200,18928,212,186,21,464,399,48,269,243,26,212,186,21,Finisher,2445
+Indro,Dsilna,Indro Dsilna,395,M40-44,Male,Harkujarve,Harjumaa,Estonia,EE,0:39:24,2:37:20,1:52:20,,,5:15:47,2364,9440,6740,232,171,18947,213,187,28,235,200,26,205,184,28,213,187,28,Finisher,2632
+Are,Tallmeister,Are Tallmeister,459,M25-29,Male,Peetrimõisa küla,foreigner,Estonia,EE,0:42:29,2:36:05,1:51:12,,,5:15:47,2549,9365,6672,189,172,18947,214,188,22,328,280,33,213,190,20,214,188,22,Finisher,2440
+Aleksandrs,Ozols,Aleksandrs Ozols,612,M45-49,Male,Riga,Riga,Latvia,LV,0:36:59,2:50:43,1:40:45,,,5:15:50,2219,10243,6045,220,222,18950,215,189,22,162,133,13,296,263,31,215,189,22,Finisher,2698
+Martti,Järv,Martti Järv,239,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:34:09,2:33:41,2:00:52,,,5:15:51,2049,9221,7252,234,194,18951,216,190,38,91,72,9,124,109,22,216,190,38,Finisher,2188
+Tarmo,Lauri,Tarmo Lauri,845,M40-44,Male,Haapsalu,Lääne maakond,Estonia,EE,0:46:41,2:42:43,1:39:32,,,5:16:04,2801,9763,5972,250,177,18964,217,191,29,425,363,58,316,281,42,217,191,29,Finisher,2627
+Artur,Part,Artur Part,353,M25-29,Male,Rakvere,Lääne-Virumaa,Estonia,EE,0:35:21,2:51:08,1:45:13,,,5:16:07,2121,10268,6313,150,116,18967,218,192,23,117,92,14,275,249,28,218,192,23,Finisher,2434
+Mikk,Rajaver,Mikk Rajaver,641,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:42:53,2:47:24,1:37:28,,,5:16:12,2573,10044,5848,350,158,18972,219,193,41,339,291,61,338,301,64,219,193,41,Finisher,2156
+Paulius,Lingys,Paulius Lingys,447,M30-34,Male,Vilnius,Vilniaus m.,Lithuania,LT,0:36:44,2:51:38,1:37:48,,,5:16:13,2204,10298,5868,352,252,18973,220,194,42,153,125,24,319,283,60,220,194,42,Finisher,2155
+Roland,Nemeth,Roland Nemeth,785,M40-44,Male,Viimsi vald,Harju maakond,Estonia,EE,0:43:39,2:37:27,1:47:05,,,5:16:50,2619,9447,6425,314,205,19010,221,195,30,363,314,48,249,225,36,221,195,30,Finisher,2613
+Ivar-Illimar,Ots,Ivar-Illimar Ots,605,M40-44,Male,Ilmandu,Harku,Estonia,EE,0:39:13,2:35:00,1:55:43,,,5:17:04,2353,9300,6943,231,197,19024,222,196,31,225,191,22,176,155,19,222,196,31,Finisher,2609
+Laura,Salm,Laura Salm,241,F30-34,Female,Viimsi vald,Harju maakond,Estonia,EE,0:36:51,2:50:45,1:42:38,,,5:17:10,2211,10245,6158,225,191,19030,223,27,5,156,29,3,295,33,6,223,27,5,Finisher,3089
+Linda,Siimon,Linda Siimon,855,F30-34,Female,Tartu,Tartumaa,Estonia,EE,0:41:25,2:46:08,1:44:17,,,5:17:19,2485,9968,6257,197,131,19039,224,28,6,298,42,7,292,31,5,224,28,6,Finisher,3086
+Karl-Martin,Miidu,Karl-Martin Miidu,463,M25-29,Male,Harku vald,Harju maakond,Estonia,EE,0:36:58,2:44:25,1:50:16,,,5:17:30,2218,9865,6616,210,141,19050,225,197,24,161,132,16,238,214,23,225,197,24,Finisher,2409
+Jarno,Kalind,Jarno Kalind,367,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,0:39:08,2:37:59,1:53:47,,,5:17:34,2348,9479,6827,246,154,19054,226,198,23,221,187,21,209,186,23,226,198,23,Finisher,2666
+Agata,Wlodarczak,Agata Wlodarczak,543,F25-29,Female,Bydgoszcz,,Poland,PL,0:38:30,2:49:26,1:44:15,,,5:18:38,2310,10166,6255,195,192,19118,227,29,4,202,33,4,294,32,3,227,29,4,Finisher,2915
+Kristjan,Saar,Kristjan Saar,642,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:43:27,2:38:24,1:50:04,,,5:18:45,2607,9504,6604,298,113,19125,228,199,39,358,309,64,252,228,46,228,199,39,Finisher,2135
+Rasmus,Puhk,Rasmus Puhk,355,M25-29,Male,Tartu,Tartumaa,Estonia,EE,0:38:42,2:40:47,1:49:21,,,5:19:10,2322,9647,6561,357,264,19150,229,200,25,212,178,23,242,218,24,229,200,25,Finisher,2379
+Janne,Timisjärvi,Janne Timisjärvi,485,M40-44,Male,Helsinki,Uusimaa,Finland,FI,0:40:32,2:41:34,1:50:57,,,5:19:28,2432,9694,6657,233,151,19168,230,201,32,266,229,35,247,223,35,230,201,32,Finisher,2566
+Indrek,Aarna,Indrek Aarna,761,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,0:43:15,2:31:26,1:56:54,,,5:19:35,2595,9086,7014,298,183,19175,231,202,13,351,303,23,199,178,15,231,202,13,Finisher,2640
+Taavi,Havre,Taavi Havre,569,M30-34,Male,Helsinki,Uusimaa,Estonia,EE,0:45:44,2:37:24,1:51:49,,,5:19:39,2744,9444,6709,150,133,19179,232,203,43,406,348,72,244,220,47,232,203,43,Finisher,2093
+Madis,Uibo,Madis Uibo,527,M35-39,Male,Männiku küla,Harju,Estonia,EE,0:35:37,2:42:47,1:53:10,,,5:20:07,2137,9767,6790,298,216,19207,233,204,40,127,101,17,228,204,40,233,204,40,Finisher,2111
+Merlis,Karu,Merlis Karu,528,M35-39,Male,Tartu,Tartumaa,Estonia,EE,0:40:37,2:31:01,2:02:24,,,5:20:22,2437,9061,7344,191,189,19222,234,205,41,269,231,41,147,130,27,234,205,41,Finisher,2106
+Mike,Möbius,Mike Möbius,325,M55-59,Male,Lutherstadt Wittenberg,ST,Germany,DE,0:45:23,2:41:07,1:42:27,,,5:20:37,2723,9667,6147,478,222,19237,235,206,2,402,345,8,322,286,3,235,206,2,Finisher,2951
+Toomas,Kantsik,Toomas Kantsik,413,M40-44,Male,Tartu linn,Tartumaa,Estonia,EE,0:39:55,2:38:12,1:56:31,,,5:21:05,2395,9492,6991,228,158,19265,236,207,33,246,210,27,216,193,31,236,207,33,Finisher,2537
+Roberts,Kuiva,Roberts Kuiva,331,M35-39,Male,Mārupe,Mārupes novads,Latvia,LV,0:41:01,2:33:39,1:59:38,,,5:21:14,2461,9219,7178,219,198,19274,237,208,42,283,243,44,183,162,34,237,208,42,Finisher,2091
+Kevin,Lippe,Kevin Lippe,224,M25-29,Male,Pärnu,Estonia,Estonia,EE,0:46:23,2:23:20,2:02:54,,,5:21:27,2783,8600,7374,332,197,19287,238,209,26,418,357,43,149,132,13,238,209,26,Finisher,2338
+Pirjo,Tenhu,Pirjo Tenhu,668,F50-54,Female,Heinola,Finland,Finland,FI,0:40:33,2:43:41,1:52:25,,,5:21:40,2433,9821,6745,183,118,19300,239,30,1,267,38,2,258,26,2,239,30,1,Finisher,3500
+Kalvo,Kalmu,Kalvo Kalmu,581,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,0:41:00,2:49:07,1:43:32,,,5:21:41,2460,10147,6212,275,207,19301,240,210,24,282,242,27,325,288,37,240,210,24,Finisher,2592
+mihkel,anderson,mihkel anderson,767,M35-39,Male,Tallinn,Estonia,Estonia,EE,0:43:05,2:40:47,1:49:19,,,5:21:44,2585,9647,6559,307,205,19304,241,211,43,349,301,63,277,251,52,241,211,43,Finisher,2082
+Eero,Oja,Eero Oja,359,M35-39,Male,Rae vald,Harjumaa,Estonia,EE,0:38:25,2:33:48,2:01:37,,,5:21:45,2305,9228,7297,279,196,19305,242,212,44,201,169,30,164,145,30,242,212,44,Finisher,2081
+Kai,Kantanen,Kai Kantanen,491,M50-54,Male,Vantaa,Uusimaa,Finland,FI,0:37:18,2:40:29,1:55:15,,,5:21:52,2238,9629,6915,322,210,19312,243,213,14,170,141,11,225,201,17,243,213,14,Finisher,2599
+Marko,Leibenau,Marko Leibenau,118,M45-49,Male,Keila,Harju maakond,Estonia,EE,0:49:43,2:41:15,1:41:29,,,5:21:55,2983,9675,6089,292,276,19315,244,214,25,470,403,44,334,297,38,244,214,25,Finisher,2588
+Aleksandr,Knjazetski,Aleksandr Knjazetski,369,M30-34,Male,Järveküla,Harju,Estonia,EE,0:38:53,2:33:58,2:01:04,,,5:22:06,2333,9238,7264,327,164,19326,245,215,44,217,183,42,181,160,35,245,215,44,Finisher,2049
+Markus,Laurell,Markus Laurell,555,M40-44,Male,Asikkala,PAIJANNE-TAVASTLAND,Finland,FI,0:36:22,2:39:47,1:58:44,,,5:22:08,2182,9587,7124,246,189,19328,246,216,34,145,117,17,203,182,26,246,216,34,Finisher,2518
+Johannes,Limbach,Johannes Limbach,747,M30-34,Male,Heidelberg,,Germany,DE,0:43:04,2:35:19,1:56:17,,,5:22:11,2584,9319,6977,232,219,19331,247,217,45,348,300,65,219,196,40,247,217,45,Finisher,2048
+Debbie,Vanner,Debbie Vanner,566,F50-54,Female,Newport Pagnell,,United Kingdom,GB,0:34:02,2:43:25,1:58:44,,,5:22:34,2042,9805,7124,197,187,19354,248,31,2,88,19,1,206,22,1,248,31,2,Finisher,3483
+Eddi,Joost,Eddi Joost,472,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,0:43:52,2:39:33,1:51:12,,,5:22:51,2632,9573,6672,297,198,19371,249,218,26,368,319,33,270,244,29,249,218,26,Finisher,2571
+Jaanus,Põtter,Jaanus Põtter,259,M45-49,Male,Tabasalu,Harju maakond,Estonia,EE,0:35:03,2:31:21,2:09:00,,,5:22:54,2103,9081,7740,229,222,19374,250,219,27,107,84,7,112,99,9,250,219,27,Finisher,2570
+Kirill,Gorlats,Kirill Gorlats,399,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,0:38:16,2:43:35,1:52:05,,,5:23:04,2296,9815,6725,389,159,19384,251,220,46,199,167,36,267,241,51,251,220,46,Finisher,2032
+Peep,Orlovski,Peep Orlovski,725,M35-39,Male,"Kose-Uuemõisa alevik, Kose vald",Harju,Estonia,EE,0:42:39,2:25:14,2:06:31,,,5:23:07,2559,8714,7591,339,185,19387,252,221,45,334,286,59,135,120,26,252,221,45,Finisher,2057
+Toomas,Matvejev,Toomas Matvejev,295,M30-34,Male,Kambja vald,Tartumaa,Estonia,EE,0:35:56,2:30:41,2:12:04,,,5:23:25,2156,9041,7924,139,145,19405,253,222,47,135,108,20,98,85,17,253,222,47,Finisher,2026
+Jevgeni,Martjušev,Jevgeni Martjušev,365,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:39:13,2:43:08,1:53:30,,,5:23:33,2353,9788,6810,321,141,19413,254,223,48,226,192,44,262,236,50,254,223,48,Finisher,2023
+Urmas,Rajaver,Urmas Rajaver,755,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:48:32,2:39:23,1:45:23,,,5:24:07,2912,9563,6323,452,197,19447,255,224,49,459,394,85,332,295,63,255,224,49,Finisher,2013
+Martin,Tulit,Martin Tulit,427,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,0:41:29,2:44:30,1:52:35,,,5:24:10,2489,9870,6755,201,136,19450,256,225,50,300,258,56,281,255,54,256,225,50,Finisher,2012
+Maris,Rudens,Maris Rudens,549,M40-44,Male,Marupe,Marupes nov,Latvia,LV,0:47:42,2:39:07,1:48:17,,,5:24:17,2862,9547,6497,332,219,19457,257,226,35,442,378,61,303,270,40,257,226,35,Finisher,2479
+Darius,Jonaitis,Darius Jonaitis,833,M45-49,Male,Mazeikiai,Mazeikiai,Lithuania,LT,0:48:09,2:39:57,1:48:08,,,5:24:29,2889,9597,6488,347,148,19469,258,227,28,452,388,41,317,282,35,258,227,28,Finisher,2542
+Kerttu-Liis,Laane,Kerttu-Liis Laane,453,F18-24,Female,Saku,Harju,Estonia,EE,0:42:28,2:44:38,1:51:55,,,5:24:33,2548,9878,6715,193,140,19473,259,32,4,325,46,7,288,29,4,259,32,4,Finisher,2832
+Jonas,Kabelka,Jonas Kabelka,799,M30-34,Male,Vilnius,Vilnius,Lithuania,LT,0:42:51,2:41:58,1:51:13,,,5:24:36,2571,9718,6673,316,198,19476,260,228,51,338,290,60,284,257,55,260,228,51,Finisher,2004
+Anti,Kalle,Anti Kalle,674,M50-54,Male,Haabneeme,Viimsi county,Estonia,EE,0:39:12,2:45:53,1:53:15,,,5:24:38,2352,9953,6795,218,160,19478,261,229,15,224,190,16,273,247,20,261,229,15,Finisher,2549
+Alexandr,Ananyev,Alexandr Ananyev,503,M45-49,Male,Jurmala,-,Russia,RU,0:41:06,2:34:20,2:00:56,,,5:25:05,2466,9260,7256,339,184,19505,262,230,29,285,245,28,208,185,22,262,230,29,Finisher,2531
+Francisco,Castellanos Sancho,Francisco Castellanos Sancho,685,M35-39,Male,Bremen,foreigner,Spain,ES,0:37:35,2:48:42,1:46:23,,,5:25:09,2255,10122,6383,529,220,19509,263,231,46,178,147,28,329,292,58,263,231,46,Finisher,2020
+Aleksandras,Charlampovicius,Aleksandras Charlampovicius,529,M30-34,Male,Vilnius,,Lithuania,LT,0:37:07,2:48:21,1:51:44,,,5:25:09,2227,10101,6704,277,201,19509,264,232,52,165,136,30,285,258,56,264,232,52,Finisher,1994
+Andrei,Dankevich,Andrei Dankevich,857,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,0:47:45,2:35:37,1:49:21,,,5:25:10,2865,9337,6561,544,203,19510,265,233,30,444,380,40,304,271,33,265,233,30,Finisher,2530
+Marko,Väisänen,Marko Väisänen,311,M40-44,Male,Vantaa,foreigner,Finland,FI,0:32:43,2:33:09,2:11:42,,,5:25:13,1963,9189,7902,273,186,19513,266,234,36,74,62,8,115,101,13,266,234,36,Finisher,2462
+Maksims,Kaniscevs,Maksims Kaniscevs,719,M30-34,Male,Riga,Riga,Latvia,LV,0:46:55,2:38:29,1:53:29,,,5:25:13,2815,9509,6809,232,148,19513,267,235,53,429,367,77,280,254,53,267,235,53,Finisher,1993
+Tiit,Matvejev,Tiit Matvejev,121,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:26:18,2:40:53,2:11:08,,,5:25:22,1578,9653,7868,179,243,19522,268,236,10,15,15,1,111,98,6,268,236,10,Finisher,2605
+Sergei,Kalasnikov,Sergei Kalasnikov,591,M30-34,Male,Oslo,,Estonia,EE,0:41:30,2:35:45,2:00:07,,,5:25:46,2490,9345,7207,332,172,19546,269,237,54,301,259,57,222,198,41,269,237,54,Finisher,1983
+Aleksei,Seleznev,Aleksei Seleznev,773,M35-39,Male,Lempäälä,Pirkanmaa,Estonia,EE,0:41:32,2:38:36,1:58:28,,,5:26:00,2492,9516,7108,269,174,19560,270,238,47,302,260,48,235,211,42,270,238,47,Finisher,2005
+Krete,Koovit,Krete Koovit,345,F18-24,Female,Viljandi,Viljandimaa,Estonia,EE,0:40:20,2:47:00,1:53:06,,,5:26:02,2420,10020,6786,206,131,19562,271,33,5,258,37,5,291,30,5,271,33,5,Finisher,2805
+Marcis,Pelcis,Marcis Pelcis,873,M35-39,Male,Riga,foreigner,Latvia,LV,0:48:33,2:36:58,1:52:37,,,5:26:13,2913,9418,6757,314,171,19573,272,239,48,460,395,80,290,261,54,272,239,48,Finisher,2001
+Tõnu,Vahtra,Tõnu Vahtra,146,M30-34,Male,"Raadi alev, Tartu parish",Tartu maakond,Estonia,EE,0:45:00,2:37:13,1:55:17,,,5:26:17,2700,9433,6917,371,156,19577,273,240,55,396,340,71,271,245,52,273,240,55,Finisher,1974
+Sulev,Sild,Sulev Sild,471,M40-44,Male,Aruküla,Harjumaa,Estonia,EE,0:38:12,2:34:13,2:01:16,,,5:26:22,2292,9253,7276,393,368,19582,274,241,37,195,164,19,191,170,24,274,241,37,Finisher,2442
+Siim,Rotmeister,Siim Rotmeister,695,M30-34,Male,Pärnu,Pärnu,Estonia,EE,0:43:17,2:38:58,1:56:07,,,5:26:36,2597,9538,6967,301,193,19596,275,242,56,353,305,66,257,232,48,275,242,56,Finisher,1968
+Siim,Schvede,Siim Schvede,899,M25-29,Male,Pärnu,Pärnu,Estonia,EE,0:39:50,2:53:13,1:46:17,,,5:26:45,2390,10393,6377,281,164,19605,276,243,27,245,209,27,353,315,36,276,243,27,Finisher,2242
+Viljar,Mangelsoo,Viljar Mangelsoo,481,M40-44,Male,Tallinn,Harju,Estonia,EE,0:43:41,2:37:11,1:58:32,,,5:26:47,2621,9431,7112,246,196,19607,277,244,38,364,315,49,239,215,34,277,244,38,Finisher,2434
+Volker,Hemberger,Volker Hemberger,520,M60-64,Male,zellingen,BY,Germany,DE,0:44:23,2:38:07,1:55:09,,,5:26:54,2663,9487,6909,328,226,19614,278,245,3,381,329,3,264,238,3,278,245,3,Finisher,3145
+Sten,Karu,Sten Karu,697,M25-29,Male,Saku,Harjumaa,Estonia,EE,0:41:17,2:37:28,1:59:09,,,5:26:59,2477,9448,7149,353,192,19619,279,246,28,292,252,30,236,212,22,279,246,28,Finisher,2238
+Kirill,Kovadlo,Kirill Kovadlo,154,M35-39,Male,Tallinn,Harju,Estonia,EE,0:57:13,2:38:22,1:42:55,,,5:27:15,3433,9502,6175,348,177,19635,280,247,49,514,433,86,376,335,69,280,247,49,Finisher,1982
+Tiit,Tõnismäe,Tiit Tõnismäe,371,M50-54,Male,Saue,foreigner,Estonia,EE,0:36:34,2:38:09,2:05:24,,,5:27:26,2194,9489,7524,238,202,19646,281,248,16,149,121,9,186,165,14,281,248,16,Finisher,2499
+Gatis,Madžiņš,Gatis Madžiņš,379,M45-49,Male,Sigulda,Rigas rjons,Latvia,LV,0:36:06,2:48:32,1:56:01,,,5:27:38,2166,10112,6961,209,209,19658,282,249,31,138,111,11,266,240,28,282,249,31,Finisher,2485
+Erik,Silas,Erik Silas,531,M25-29,Male,Tallinn,Harju,Estonia,EE,0:39:09,2:45:06,1:56:31,,,5:27:58,2349,9906,6991,253,179,19678,283,250,29,222,188,24,272,246,27,283,250,29,Finisher,2220
+Ingrid,Heroguel,Ingrid Heroguel,333,F35-39,Female,Rheinau ,BADEN-WURTTEMBERG,Germany,DE,0:34:56,2:56:47,1:48:40,,,5:28:02,2096,10607,6520,286,173,19682,284,34,7,103,22,4,341,38,8,284,34,7,Finisher,2868
+Raul,Torga,Raul Torga,191,M30-34,Male,Tartu,Tartumaa,Estonia,EE,0:35:29,2:50:33,1:53:33,,,5:28:06,2129,10233,6813,291,220,19686,285,251,57,123,98,16,293,262,57,285,251,57,Finisher,1941
+Artjoms,Mastihins,Artjoms Mastihins,362,M35-39,Male,Baloži,Ķekavas novads,Latvia,LV,0:40:50,2:45:38,1:52:00,,,5:28:11,2450,9938,6720,295,288,19691,286,252,50,275,235,42,297,264,55,286,252,50,Finisher,1966
+Marno,Maasikas,Marno Maasikas,613,M35-39,Male,Pärnu,Tori vald,Estonia,EE,0:44:28,2:36:35,2:01:35,,,5:29:45,2668,9395,7295,282,144,19785,287,253,51,383,331,68,245,221,44,287,253,51,Finisher,1937
+Madis,Ütt,Madis Ütt,583,M55-59,Male,Tartu,Tartumaa,Estonia,EE,0:38:36,2:38:09,2:04:41,,,5:29:51,2316,9489,7481,286,219,19791,288,254,3,206,173,3,211,188,2,288,254,3,Finisher,2785
+Andro,Aavik,Andro Aavik,425,M25-29,Male,Tartu vald Raadi alevik,foreigner,Estonia,EE,0:36:05,2:54:39,1:53:46,,,5:30:38,2165,10479,6826,235,133,19838,289,255,30,137,110,15,324,287,33,289,255,30,Finisher,2172
+Vallo,Veinthal,Vallo Veinthal,143,M45-49,Male,Tallinn,Harju,Estonia,EE,0:32:13,2:44:55,2:03:45,,,5:30:39,1933,9895,7425,380,207,19839,290,256,32,67,56,5,231,207,24,290,256,32,Finisher,2431
+Fredrik,Sirkel,Fredrik Sirkel,116,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:39:24,2:45:35,1:55:55,,,5:30:42,2364,9935,6955,388,200,19842,291,257,11,234,199,13,298,265,11,291,257,11,Finisher,2509
+Aleksei,Trunin,Aleksei Trunin,383,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:41:21,2:42:26,1:59:59,,,5:30:46,2481,9746,7199,227,193,19846,292,258,52,296,255,47,260,234,49,292,258,52,Finisher,1919
+Andre,Jakobson,Andre Jakobson,435,M30-34,Male,Tallinn,HARJUMAA,Estonia,EE,0:37:50,2:51:22,1:50:45,,,5:30:59,2270,10282,6645,373,289,19859,293,259,58,183,152,32,331,294,62,293,259,58,Finisher,1889
+Ivo,Kivastik,Ivo Kivastik,660,M50-54,,Sipa,Raplamaa,Estonia,EE,0:36:02,2:33:53,2:13:56,,,5:31:00,2162,9233,8036,219,211,19860,294,260,17,136,109,8,137,122,9,294,260,17,Finisher,2435
+Alger,Ers,Alger Ers,637,M45-49,Male,Tartu,Tartu maakond,Estonia,EE,0:44:38,2:41:25,1:57:28,,,5:31:10,2678,9685,7048,260,199,19870,295,261,33,388,335,36,289,260,30,295,261,33,Finisher,2422
+Oleg,Kozlov,Oleg Kozlov,563,M25-29,Male,Kiili,Harjumaa,Estonia,EE,0:49:06,2:52:26,1:45:04,,,5:31:16,2946,10346,6304,127,154,19876,296,262,31,465,400,49,388,345,42,296,262,31,Finisher,2161
+Sergejs,Dauksts,Sergejs Dauksts,511,M25-29,Male,Kekava,foreigner,Latvia,LV,0:39:30,2:34:02,2:12:44,,,5:31:47,2370,9242,7964,206,125,19907,297,263,32,238,202,26,167,148,15,297,263,32,Finisher,2152
+Tarmo,Nork,Tarmo Nork,769,M50-54,Male,Rae vald,Harjumaa,Estonia,EE,0:44:50,2:34:53,2:06:39,,,5:32:25,2690,9293,7599,185,179,19945,298,264,18,392,338,26,221,197,16,298,264,18,Finisher,2409
+Üllar,Gustavson,Üllar Gustavson,831,M40-44,Male,Viimsi,Harjumaa,Estonia,EE,0:40:28,2:44:30,2:00:20,,,5:32:27,2428,9870,7220,264,165,19947,299,265,39,264,227,34,282,256,39,299,265,39,Finisher,2332
+Raivo,Olgo,Raivo Olgo,691,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,0:41:21,2:30:16,2:14:00,,,5:33:08,2481,9016,8040,262,189,19988,300,266,19,297,256,19,155,138,12,300,266,19,Finisher,2396
+Rommel,Mesquita,Rommel Mesquita,557,M45-49,Male,newbridge,kildare,Ireland,IE,0:36:26,2:46:15,2:02:39,,,5:33:19,2186,9975,7359,247,232,19999,301,267,34,146,118,12,251,227,26,301,267,34,Finisher,2383
+Sverre,Mäesepp,Sverre Mäesepp,375,M35-39,Male,Tallinn,Tallinn,Estonia,EE,0:40:56,2:31:58,2:11:33,,,5:33:19,2456,9118,7893,249,284,19999,302,268,53,278,238,43,169,150,31,302,268,53,Finisher,1873
+Urmas,Volens,Urmas Volens,687,M40-44,Male,Tallinn,Harju,Estonia,EE,0:44:32,2:48:06,1:53:59,,,5:33:32,2672,10086,6839,204,212,20012,303,269,40,386,333,53,337,300,45,303,269,40,Finisher,2313
+Tarmo,Torim,Tarmo Torim,572,M50-54,Male,Haabneeme,Viimsi,Estonia,EE,0:41:36,2:40:00,2:00:39,,,5:33:36,2496,9600,7239,383,297,20016,304,270,20,305,263,20,265,239,19,304,270,20,Finisher,2388
+Ivan,Maiorov,Ivan Maiorov,611,M30-34,Male,Maardu,Harju,Estonia,EE,0:43:01,2:44:13,1:54:36,,,5:33:59,2581,9853,6876,427,302,20039,305,271,59,347,299,64,320,284,61,305,271,59,Finisher,1835
+Liisa,Rohila,Liisa Rohila,589,F25-29,Female,Tallinn,Estonia,Estonia,EE,0:44:38,2:55:40,1:47:39,,,5:34:19,2678,10540,6459,207,175,20059,306,35,5,389,54,9,389,44,6,306,35,5,Finisher,2633
+Ants,Nõmper,Ants Nõmper,178,M40-44,Male,Tallinn,HARJUMAA,Estonia,EE,0:47:06,2:49:21,1:49:00,,,5:34:28,2826,10161,6540,334,208,20068,307,272,41,431,369,59,377,336,52,307,272,41,Finisher,2296
+Graham,Sweetman,Graham Sweetman,654,M30-34,Male,Tidworth,Wiltshire,United Kingdom,GB,0:41:19,2:50:33,1:53:48,,,5:34:29,2479,10233,6828,362,167,20069,308,273,60,295,254,55,354,316,67,308,273,60,Finisher,1826
+Neeme,Gross,Neeme Gross,322,M45-49,Male,Türi,Järvamaa,Estonia,EE,0:31:57,2:40:54,2:12:46,,,5:34:40,1917,9654,7966,339,203,20080,309,274,35,61,50,3,184,163,17,309,274,35,Finisher,2359
+Maksim,Trofimov,Maksim Trofimov,627,M40-44,Male,Rannamõisa,Harku Vald,Estonia,EE,0:53:54,2:48:10,1:46:14,,,5:34:44,3234,10090,6374,245,141,20084,310,275,42,499,422,69,405,356,57,310,275,42,Finisher,2291
+Markus,Aadusaar,Markus Aadusaar,723,M25-29,Male,Karlstad,,Estonia,EE,0:44:54,2:42:39,1:57:24,,,5:35:14,2694,9759,7044,355,262,20114,311,276,33,394,339,41,314,279,32,311,276,33,Finisher,2090
+Fred,Sooläte,Fred Sooläte,721,M40-44,Male,Tallinn,Harjumaa (Tallinn),Estonia,EE,0:45:16,2:45:16,1:54:57,,,5:35:23,2716,9916,6897,399,196,20123,312,277,43,400,344,55,346,308,47,312,277,43,Finisher,2279
+Ingomar,Künnapuu,Ingomar Künnapuu,615,M40-44,Male,Harjumaa,Rae vald,Estonia,EE,0:44:26,2:45:59,1:56:09,,,5:35:24,2666,9959,6969,291,238,20124,313,278,44,382,330,52,330,293,43,313,278,44,Finisher,2279
+Laura,Piiper,Laura Piiper,803,F25-29,Female,Kehtna,Rapla maakond,Estonia,EE,0:47:24,2:53:45,1:46:38,,,5:35:30,2844,10425,6398,273,190,20130,314,36,6,436,63,12,400,48,8,314,36,6,Finisher,2612
+Egor,Kaspirovic,Egor Kaspirovic,556,M30-34,Male,Bornheim,NW,Germany,DE,0:41:17,2:33:46,2:12:22,,,5:35:35,2477,9226,7942,268,223,20135,315,279,61,291,251,53,198,177,39,315,279,61,Finisher,1807
+Ago,Kütt,Ago Kütt,184,M40-44,Male,Tartumaa,foreigner,Estonia,EE,0:40:19,2:38:38,2:01:49,,,5:35:49,2419,9518,7309,564,339,20149,316,280,45,256,220,31,268,242,37,316,280,45,Finisher,2272
+Katrena,Tenno,Katrena Tenno,781,F30-34,Female,Tallinn,Estonia,Estonia,EE,0:41:18,2:57:25,1:51:20,,,5:36:18,2478,10645,6680,221,154,20178,317,37,7,294,41,6,381,43,7,317,37,7,Finisher,2744
+Anton,Maljugin,Anton Maljugin,717,M40-44,Male,Tallinn,Harju,Estonia,EE,0:43:08,2:49:12,1:57:32,,,5:36:46,2588,10152,7052,262,153,20206,318,281,46,350,302,46,343,305,46,318,281,46,Finisher,2255
+Ignas,Svickis,Ignas Svickis,426,M35-39,Male,Vilnius,Lithuania,Lithuania,LT,0:49:09,2:55:17,1:45:27,,,5:37:32,2949,10517,6327,276,183,20252,319,282,54,466,401,82,416,366,74,319,282,54,Finisher,1797
+Borbely,Karoly,Borbely Karoly,692,M40-44,Male,Bucharest,București,Romania,RO,0:39:58,2:47:43,2:02:07,,,5:38:27,2398,10063,7327,332,187,20307,320,283,47,248,212,28,311,276,41,320,283,47,Finisher,2224
+Andra,Moistus,Andra Moistus,783,F18-24,Female,Saue Vald,Harjumaa,Estonia,EE,0:42:06,2:55:47,1:53:13,,,5:38:31,2526,10547,6793,271,175,20311,321,38,6,310,43,6,380,42,7,321,38,6,Finisher,2580
+Severin,Israel,Severin Israel,415,M35-39,Male,Tartu,Tartu maakond,Estonia,EE,0:37:23,2:42:55,2:11:17,,,5:38:35,2243,9775,7877,230,191,20315,322,284,55,174,144,26,233,209,41,322,284,55,Finisher,1778
+Jevgeni,Kotska,Jevgeni Kotska,586,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:35:26,2:45:14,2:10:05,,,5:38:46,2126,9914,7805,338,143,20326,323,285,56,122,97,15,248,224,45,323,285,56,Finisher,1775
+Ragnar,Lipstok,Ragnar Lipstok,349,M30-34,Male,Tallinn,Harju,Estonia,EE,0:39:42,2:44:05,2:08:25,,,5:38:53,2382,9845,7705,217,185,20333,324,286,62,241,205,46,259,233,49,324,286,62,Finisher,1747
+Tõnis,Kiis,Tõnis Kiis,579,M30-34,Male,Haljala vald,Lääne-Virumaa,Estonia,EE,0:37:39,3:03:38,1:50:03,,,5:39:00,2259,11018,6603,286,174,20340,325,287,63,180,149,31,404,355,71,325,287,63,Finisher,1745
+Juri,Karjagin,Juri Karjagin,266,M45-49,Male,Tartu,Tartumaa,Estonia,EE,0:37:21,2:51:17,2:01:34,,,5:39:27,2241,10277,7294,289,265,20367,326,288,36,173,143,15,315,280,34,326,288,36,Finisher,2273
+Sten,Berg,Sten Berg,847,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:43:35,2:48:33,1:58:17,,,5:40:04,2615,10113,7097,384,195,20404,327,289,34,361,312,38,359,321,37,327,289,34,Finisher,2003
+Aivar,Põlda,Aivar Põlda,401,M35-39,Male,Tallinn,VIIMSI,Estonia,EE,0:42:45,2:42:15,2:05:15,,,5:40:05,2565,9735,7515,312,277,20405,328,290,57,335,287,60,287,259,53,328,290,57,Finisher,1751
+Egle,Teder,Egle Teder,659,F40-44,Female,Valga,Valgamaa,Estonia,EE,0:46:36,2:48:15,1:58:26,,,5:40:15,2796,10095,7106,264,155,20415,329,39,2,423,62,5,360,39,3,329,39,2,Finisher,2444
+Andris,Dimants,Andris Dimants,411,M40-44,Male,Ogre,Ogres novads,Latvia,LV,0:44:11,2:47:11,2:01:08,,,5:40:19,2651,10031,7268,276,194,20419,330,291,48,377,326,51,336,299,44,330,291,48,Finisher,2191
+Relika,Mell,Relika Mell,352,F45-49,Female,Kiili vald,Harjumaa,Estonia,EE,0:44:08,3:02:21,1:44:24,,,5:40:23,2648,10941,6264,401,170,20423,331,40,1,374,51,3,438,52,3,331,40,1,Finisher,3500
+Vladislavs,Zuselis,Vladislavs Zuselis,473,M35-39,Male,Bukulti,Garkalnes novads,Latvia,LV,0:40:06,2:53:02,1:59:50,,,5:40:27,2406,10382,7190,262,188,20427,332,292,58,251,215,38,349,311,62,332,292,58,Finisher,1745
+Thor Kaspar,Marvet,Thor Kaspar Marvet,488,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:39:14,2:46:57,2:05:16,,,5:40:30,2354,10017,7516,379,164,20430,333,293,12,227,193,12,305,272,12,333,293,12,Finisher,2333
+Siim,Villako,Siim Villako,595,M18-24,Male,Tartu,Estonia,Estonia,EE,0:38:46,2:51:57,2:03:13,,,5:40:33,2326,10317,7393,262,135,20433,334,294,13,215,181,11,328,291,13,334,294,13,Finisher,2332
+Moonika,Kitt,Moonika Kitt,815,F40-44,Female,Tallinn,HARJUMAA,Estonia,EE,0:44:30,3:01:07,1:44:38,,,5:40:45,2670,10867,6278,397,233,20445,335,41,3,385,53,3,436,51,4,335,41,3,Finisher,2435
+Maano,Päeren,Maano Päeren,688,M45-49,Male,Tallinn,Harju,Estonia,EE,0:37:59,2:48:57,2:00:08,,,5:40:48,2279,10137,7208,450,375,20448,336,295,37,189,158,18,321,285,36,336,295,37,Finisher,2248
+Kristjan,Jansen,Kristjan Jansen,562,M35-39,Male,Tartu,Tartumaa,Estonia,EE,0:50:20,2:43:48,1:59:19,,,5:40:50,3020,9828,7159,259,183,20450,337,296,59,476,406,83,358,320,66,337,296,59,Finisher,1738
+Andre,Valkman,Andre Valkman,839,M35-39,Male,keila,Harju,Estonia,EE,0:55:52,2:45:25,1:51:45,,,5:40:53,3352,9925,6705,269,203,20453,338,297,60,510,430,85,401,353,72,338,297,60,Finisher,1737
+Aivo,Laaneväli,Aivo Laaneväli,390,M50-54,Male,Aruküla,Harju,Estonia,EE,0:45:40,2:40:40,2:05:57,,,5:41:09,2740,9640,7557,310,223,20469,339,298,21,404,347,27,299,266,21,339,298,21,Finisher,2252
+Andri,Jõgi,Andri Jõgi,877,M35-39,Male,Tallinn,Harju,Estonia,EE,0:42:13,2:55:34,1:50:49,,,5:41:15,2533,10534,6649,444,315,20475,340,299,61,314,271,54,397,352,71,340,299,61,Finisher,1730
+Nele,Sumberg,Nele Sumberg,145,F35-39,Female,Tallinn,Harjumaa,Estonia,EE,0:35:11,2:50:32,2:08:40,,,5:42:11,2111,10232,7720,265,204,20531,341,42,8,111,25,5,286,28,6,341,42,8,Finisher,2613
+Annemari,Kovalainen,Annemari Kovalainen,544,F45-49,Female,Espoo,Finland,Finland,FI,0:37:33,2:48:03,2:08:41,,,5:42:13,2253,10083,7721,257,219,20533,342,43,2,176,31,2,283,27,1,342,43,2,Finisher,3467
+Raul,Reiljan,Raul Reiljan,247,M25-29,Male,Võru vald,Võru maakond,Estonia,EE,0:46:57,2:55:53,1:52:36,,,5:42:21,2817,10553,6756,252,163,20541,343,300,35,430,368,44,407,358,43,343,300,35,Finisher,1961
+Kristo,Tamm,Kristo Tamm,243,M40-44,Male,Valga,Valgamaa,Estonia,EE,0:40:14,2:38:27,2:17:35,,,5:42:28,2414,9507,8255,181,191,20548,344,301,49,255,219,30,212,189,29,344,301,49,Finisher,2152
+Anton,Bazõlev,Anton Bazõlev,651,M35-39,Male,Tallinn,Harju,Estonia,EE,0:47:47,2:40:19,2:07:34,,,5:42:38,2867,9619,7654,239,179,20558,345,302,62,445,381,79,302,269,56,345,302,62,Finisher,1706
+Marco,Sang,Marco Sang,617,M55-59,Male,saue,APOharjumaa,Estonia,EE,0:42:32,2:47:06,2:04:54,,,5:43:25,2552,10026,7494,309,223,20605,346,303,4,329,281,6,326,289,4,346,303,4,Finisher,2541
+Marileen,Vierland,Marileen Vierland,275,F25-29,Female,Tallinn,Harjumaa,Estonia,EE,0:35:02,3:04:15,1:55:42,,,5:43:27,2102,11055,6942,359,150,20607,347,44,7,105,23,3,398,46,7,347,44,7,Finisher,2469
+Kristi,Toommägi,Kristi Toommägi,319,F40-44,Female,Tallinn,APO,Estonia,EE,0:31:50,2:57:37,2:05:41,,,5:43:31,1910,10657,7541,272,231,20611,348,45,4,58,11,1,318,36,2,348,45,4,Finisher,2385
+Antra,Roga,Antra Roga,568,F45-49,Female,Baltezers,ADAZU NOVADS,Latvia,LV,0:34:40,2:56:47,2:06:13,,,5:43:50,2080,10607,7573,190,181,20630,349,46,3,97,20,1,323,37,2,349,46,3,Finisher,3437
+Tarmo,Visnapuu,Tarmo Visnapuu,683,M40-44,Male,Viimsi,Harju,Estonia,EE,0:45:04,2:27:46,2:22:59,,,5:43:52,2704,8866,8579,322,161,20632,350,304,50,397,341,54,180,159,22,350,304,50,Finisher,2127
+Holger,Voigt,Holger Voigt,537,M50-54,Male,Neustrelitz,,Germany,DE,0:37:51,2:49:03,2:08:52,,,5:44:00,2271,10143,7732,298,196,20640,351,305,22,184,153,12,301,268,22,351,305,22,Finisher,2201
+Kairi,Salu,Kairi Salu,619,F25-29,Female,Tartu,Tartumaa,Estonia,EE,0:42:23,2:59:32,1:54:52,,,5:44:03,2543,10772,6892,241,195,20643,352,47,8,321,44,6,403,49,9,352,47,8,Finisher,2458
+Jaanis,Veinberg,Jaanis Veinberg,593,M25-29,Male,Saue,Harju,Estonia,EE,0:40:35,2:44:38,2:12:09,,,5:44:16,2435,9878,7929,231,185,20656,353,306,36,268,230,29,278,252,30,353,306,36,Finisher,1927
+Jaanis,Nurme,Jaanis Nurme,813,M40-44,Male,Saku,Harjumaa,Estonia,EE,0:46:05,2:48:48,2:01:17,,,5:44:45,2765,10128,7277,278,238,20685,354,307,51,410,351,56,361,322,48,354,307,51,Finisher,2111
+Ģirts,Kalniņš,Ģirts Kalniņš,823,M40-44,Male,Riga,Riga,Latvia,LV,0:42:14,2:58:33,1:55:24,,,5:44:47,2534,10713,6924,361,155,20687,355,308,52,316,273,41,406,357,58,355,308,52,Finisher,2110
+Romans,Jerjomins,Romans Jerjomins,915,M35-39,Male,Riga,Latvia,Latvia,LV,0:41:34,2:49:06,2:03:48,,,5:44:48,2494,10146,7428,329,292,20688,356,309,63,303,261,49,339,302,60,356,309,63,Finisher,1667
+Rauno,Kurg,Rauno Kurg,578,M45-49,Male,Tartu,Tartumaa,Estonia,EE,0:50:12,2:45:59,2:01:11,,,5:45:00,3012,9959,7271,267,191,20700,357,310,38,473,405,45,371,330,42,357,310,38,Finisher,2173
+Gregor,Raudvere,Gregor Raudvere,387,M30-34,Male,Tallinn,Harju,Estonia,EE,0:34:53,2:53:45,2:09:36,,,5:45:04,2093,10425,7776,253,158,20704,358,311,64,101,80,13,308,273,58,358,311,64,Finisher,1636
+Tiit,Hallas,Tiit Hallas,835,M35-39,Male,Estonia,foreigner,Estonia,EE,0:41:04,2:53:12,2:02:07,,,5:45:20,2464,10392,7327,332,205,20720,359,312,64,284,244,45,364,323,67,359,312,64,Finisher,1657
+Aivar,Taro,Aivar Taro,703,M40-44,Male,Tallinn,Harju,Estonia,EE,0:41:16,2:56:51,1:57:00,,,5:45:27,2476,10611,7020,352,268,20727,360,313,53,290,250,40,390,346,55,360,313,53,Finisher,2098
+Georg Sebastian,Kraas,Georg Sebastian Kraas,653,M25-29,Male,Saku,HARJUMAA,Estonia,EE,0:40:00,2:52:44,2:04:11,,,5:45:28,2400,10364,7451,263,251,20728,361,314,37,249,213,28,345,307,35,361,314,37,Finisher,1905
+Matis,Alusalu,Matis Alusalu,597,M30-34,Male,Saustinõmme küla,Saku vald,Estonia,EE,0:38:45,2:52:34,2:04:27,,,5:45:49,2325,10354,7467,382,221,20749,362,315,65,214,180,41,352,314,66,362,315,65,Finisher,1622
+Norbert,Hurt,Norbert Hurt,538,M35-39,Male,Peetri Alevik,Rae vald/Harjumaa,Estonia,EE,0:42:57,2:51:28,2:02:30,,,5:46:06,2577,10288,7350,358,192,20766,363,316,65,342,294,62,368,327,68,363,316,65,Finisher,1643
+Konstantin,Jefimov,Konstantin Jefimov,635,M25-29,Male,Viimsi,Harjumaa,Estonia,EE,0:38:02,3:00:02,2:00:20,,,5:46:17,2282,10802,7220,266,208,20777,364,317,38,190,159,21,383,340,39,364,317,38,Finisher,1891
+Anders,Eensalu,Anders Eensalu,639,M35-39,Male,Kulna,Lääne-Harju vald,Estonia,EE,0:42:53,2:45:16,2:10:34,,,5:46:21,2573,9916,7834,282,176,20781,365,318,66,340,292,61,309,274,57,365,318,66,Finisher,1639
+Meelis,Võsu,Meelis Võsu,217,M35-39,Male,Tallinn,Estonia,Estonia,EE,0:44:33,2:39:56,2:14:56,,,5:46:52,2673,9596,8096,256,191,20812,366,319,67,387,334,70,274,248,51,366,319,67,Finisher,1629
+Andi,Vallik,Andi Vallik,457,M40-44,Male,Risti,Läänemaa,Estonia,EE,0:43:17,2:55:05,2:01:01,,,5:47:11,2597,10505,7261,244,224,20831,367,320,54,352,304,47,382,339,53,367,320,54,Finisher,2067
+Juris,Perunovs,Juris Perunovs,621,M45-49,Male,Ventspils,Ventspils,Latvia,LV,0:42:59,2:50:09,2:08:05,,,5:47:19,2579,10209,7685,203,163,20839,368,321,39,344,296,32,342,304,39,368,321,39,Finisher,2131
+Madis,Täht,Madis Täht,279,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:38:05,2:54:11,2:06:29,,,5:48:13,2285,10451,7589,323,246,20893,369,322,66,191,160,34,351,313,65,369,322,66,Finisher,1579
+Siim,Peetrimägi,Siim Peetrimägi,881,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:47:18,2:55:24,1:56:54,,,5:48:36,2838,10524,7014,396,145,20916,370,323,68,434,372,76,419,369,75,370,323,68,Finisher,1598
+Matti,Loimaranta,Matti Loimaranta,763,M40-44,Male,Espoo,Uusimaa,Finland,FI,0:52:16,2:42:15,2:03:52,,,5:48:52,3136,9735,7432,405,224,20932,371,324,55,490,416,66,375,334,51,371,324,55,Finisher,2037
+Peter,Jähne,Peter Jähne,542,M55-59,Male,Cottbus,,Germany,DE,0:43:01,2:51:48,2:00:39,,,5:49:04,2581,10308,7239,436,380,20944,372,325,5,346,298,7,378,337,8,372,325,5,Finisher,2439
+Konstantin,Gordienko,Konstantin Gordienko,694,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:46:41,2:43:28,2:07:39,,,5:49:15,2801,9808,7659,416,272,20955,373,326,69,424,362,75,344,306,61,373,326,69,Finisher,1586
+Knut,Sandberg,Knut Sandberg,696,M35-39,Male,oslo,,Norway,NO,0:46:20,2:43:49,2:07:45,,,5:49:17,2780,9829,7665,473,210,20957,374,327,70,417,356,73,356,318,64,374,327,70,Finisher,1586
+Artur,Melkumjan,Artur Melkumjan,807,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:54:04,2:40:53,2:04:10,,,5:49:35,3244,9653,7450,359,270,20975,375,328,14,500,423,18,372,331,15,375,328,14,Finisher,2169
+Helmuts,Kleins,Helmuts Kleins,707,M25-29,Male,Svētciems,Salacgrīvas novads,Latvia,LV,0:43:25,2:51:42,2:03:21,,,5:49:43,2605,10302,7401,459,216,20983,376,329,39,357,308,37,385,342,40,376,329,39,Finisher,1829
+Kristjan,Poltimäe,Kristjan Poltimäe,292,M35-39,Male,"Rae vald, Harjumaa",Harju,Estonia,EE,0:40:22,2:54:24,2:09:09,,,5:49:57,2422,10464,7749,211,151,20997,377,330,71,260,223,40,357,319,65,377,330,71,Finisher,1574
+Marko,Suominen,Marko Suominen,630,M50-54,Male,Pälkäne,Pirkanmaa,Finland,FI,0:42:03,2:54:35,2:04:30,,,5:50:06,2523,10475,7470,337,200,21006,378,331,23,309,267,21,379,338,24,378,331,23,Finisher,2091
+Rimmo,Aim,Rimmo Aim,309,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:33:59,2:57:15,2:09:15,,,5:50:32,2039,10635,7755,297,305,21032,379,332,15,87,69,7,340,303,14,379,332,15,Finisher,2152
+Tõnis,Siht,Tõnis Siht,699,M30-34,Male,Ülenurme vald,Tartu maakond,Estonia,EE,0:36:44,2:43:27,2:21:32,,,5:50:40,2204,9807,8492,318,219,21040,380,333,67,154,126,25,243,219,46,380,333,67,Finisher,1535
+Madis,Järvpõld,Madis Järvpõld,256,M30-34,Male,Tartu,Tartu maakond,Estonia,EE,0:42:23,3:01:48,1:55:14,,,5:51:05,2543,10908,6914,349,351,21065,381,334,68,322,278,59,423,373,76,381,334,68,Finisher,1528
+Yury,Nosach,Yury Nosach,114,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,0:43:50,2:48:20,2:05:18,,,5:51:06,2630,10100,7518,459,359,21066,382,335,56,367,318,50,365,324,49,382,335,56,Finisher,1997
+Sergejs,Boginskis,Sergejs Boginskis,429,M35-39,Male,Riga,Rīga,Latvia,LV,0:42:11,2:46:54,2:12:26,,,5:51:26,2531,10014,7946,392,203,21086,383,336,72,313,270,53,333,296,59,383,336,72,Finisher,1547
+Mikko,Välimäki,Mikko Välimäki,580,M30-34,Male,LAPUA,Eteläpohjanmaa,Finland,FI,0:46:25,2:58:07,1:58:38,,,5:51:45,2785,10687,7118,284,230,21105,384,337,69,419,358,75,418,368,74,384,337,69,Finisher,1516
+HEIKI,TULK,HEIKI TULK,475,M55-59,Male,Tallinn,Harju maakond,Estonia,EE,0:38:10,2:51:47,2:08:59,,,5:51:45,2290,10307,7739,449,321,21105,385,338,6,192,161,2,348,310,7,385,338,6,Finisher,2391
+Mait,Kuusalu,Mait Kuusalu,681,M40-44,Male,Tallinn,Harju,Estonia,EE,0:40:57,2:58:52,2:04:09,,,5:52:11,2457,10732,7449,291,203,21131,386,339,57,281,241,38,393,349,56,386,339,57,Finisher,1977
+Adam,Lesak,Adam Lesak,192,M25-29,Male,Slovakia,Bratislava Region,Slovakia,SK,0:48:19,2:49:05,2:07:16,,,5:52:37,2899,10145,7636,230,247,21157,387,340,40,455,390,47,373,332,38,387,340,40,Finisher,1777
+Jairo,Nogueira Coutinho,Jairo Nogueira Coutinho,648,M50-54,Male,Geneve,,Switzerland,CH,0:38:34,3:06:00,2:02:24,,,5:53:31,2314,11160,7344,194,199,21211,388,341,24,203,170,15,411,361,28,388,341,24,Finisher,2029
+Sergei,Falgot,Sergei Falgot,649,M50-54,Male,Tartu,Estonia,Estonia,EE,0:42:21,2:51:16,2:09:14,,,5:53:44,2541,10276,7754,397,256,21224,389,342,25,319,276,22,367,326,23,389,342,25,Finisher,2025
+Kirill,Neitov,Kirill Neitov,607,M35-39,Male,Uuesalu küla,Harjumma,Estonia,EE,0:47:39,2:56:33,1:56:26,,,5:54:22,2859,10593,6986,459,366,21262,390,343,73,440,376,77,434,384,80,390,343,73,Finisher,1494
+Priit,Saluste,Priit Saluste,130,M50-54,Male,Jüri,"Rae vald, Harjumaa",Estonia,EE,0:44:11,2:54:35,2:06:27,,,5:54:28,2651,10475,7587,351,204,21268,391,344,26,375,324,25,392,348,25,391,344,26,Finisher,2012
+Vello,Luts,Vello Luts,663,M40-44,Male,Aruküla,HARJUMAA,Estonia,EE,0:40:21,2:57:13,2:08:21,,,5:55:40,2421,10633,7701,358,227,21340,392,345,58,259,222,32,387,344,54,392,345,58,Finisher,1914
+Eberhard,Ehrlich,Eberhard Ehrlich,584,M60-64,Male,Wittenberg OT Jahmo,ST,Germany,DE,0:46:34,2:48:39,2:10:18,,,5:55:42,2794,10119,7818,362,249,21342,393,346,4,422,361,5,374,333,5,393,346,4,Finisher,2627
+Aleksejs,Pozdnakovs,Aleksejs Pozdnakovs,731,M45-49,Male,Ventspils,Kurzeme,Latvia,LV,0:48:36,2:59:36,1:56:41,,,5:56:13,2916,10776,7001,386,294,21373,394,347,40,461,396,42,443,390,44,394,347,40,Finisher,1971
+Timofei,Potjomkin,Timofei Potjomkin,587,M30-34,Male,Leipzig,SACHSEN,Germany,DE,0:37:03,2:55:01,2:06:03,,,5:56:36,2223,10501,7563,637,472,21396,395,348,70,164,135,29,384,341,69,395,348,70,Finisher,1428
+Priit,Vendik,Priit Vendik,287,M30-34,Male,Tallinn   ,Harju,Estonia,EE,0:37:59,2:42:16,2:28:44,,,5:56:50,2279,9736,8924,294,178,21410,396,349,71,188,157,33,240,216,45,396,349,71,Finisher,1424
+Maarja,Kruusimaa,Maarja Kruusimaa,871,F30-34,Female,Viimsi vald,Harjumaa,Estonia,EE,0:44:56,3:04:53,1:56:30,,,5:57:21,2696,11093,6990,370,293,21441,397,48,8,395,56,9,447,55,8,397,48,8,Finisher,2366
+Fred,Karu,Fred Karu,189,M25-29,Male,Tallinn,aadress1,Estonia,EE,0:30:22,2:59:30,2:18:52,,,5:57:21,1822,10770,8332,307,210,21441,398,350,41,42,34,5,327,290,34,398,350,41,Finisher,1691
+Alexey,Shelepaev,Alexey Shelepaev,110,M35-39,Male,Lahela,,Russia,RU,0:43:50,2:56:01,2:09:39,,,5:57:45,2630,10561,7779,295,200,21465,399,351,74,366,317,66,394,350,70,399,351,74,Finisher,1433
+Maria,Sarv,Maria Sarv,853,F35-39,Female,Tartu,foreigner,Estonia,EE,0:50:14,3:01:53,1:56:13,,,5:57:47,3014,10913,6973,389,179,21467,400,49,9,475,70,17,457,57,11,400,49,9,Finisher,2332
+Christian,Bekkers,Christian Bekkers,551,M55-59,Male,Elviria,,Belgium,BE,0:47:08,2:42:10,2:15:27,,,5:58:18,2828,9730,8127,474,338,21498,401,352,7,433,371,10,347,309,6,401,352,7,Finisher,2273
+Kaili,Tikk,Kaili Tikk,573,F25-29,Female,Tallinn,Harjumaa,Estonia,EE,0:43:18,2:50:28,2:14:01,,,5:58:27,2598,10228,8041,352,287,21507,402,50,9,354,49,8,362,40,5,402,50,9,Finisher,2199
+Aleksandr,Baljuk,Aleksandr Baljuk,534,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:40:06,3:11:26,1:57:32,,,5:58:41,2406,11486,7052,360,216,21521,403,353,72,252,216,50,453,398,80,403,353,72,Finisher,1391
+Mario,Palumets,Mario Palumets,875,M18-24,Male,Saue,Harjumaa,Estonia,EE,0:53:13,2:55:50,1:58:58,,,5:58:50,3193,10550,7138,464,185,21530,404,354,16,497,421,17,450,395,16,404,354,16,Finisher,2003
+Ramunas,Monkevicius,Ramunas Monkevicius,737,M30-34,Male,Vilnius,Vilnius,Lithuania,LT,0:44:40,3:01:05,2:03:52,,,5:59:00,2680,10865,7432,278,285,21540,405,355,73,390,336,70,425,375,77,405,355,73,Finisher,1385
+Juri,Galitšenko,Juri Galitšenko,667,M45-49,Male,Tallinn,Harju,Estonia,EE,0:42:16,2:49:28,2:17:52,,,5:59:04,2536,10168,8272,346,222,21544,406,356,41,317,274,30,350,312,40,406,356,41,Finisher,1919
+Antti,Sinitsyn,Antti Sinitsyn,673,M30-34,Male,Tallinn,Harju,Estonia,EE,0:39:33,3:02:16,2:06:16,,,5:59:34,2373,10936,7576,467,222,21574,407,357,74,239,203,45,421,371,75,407,357,74,Finisher,1375
+Meelis,Veskus,Meelis Veskus,911,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:46:31,2:48:57,2:16:48,,,5:59:39,2791,10137,8208,279,165,21579,408,358,75,421,360,76,366,325,68,408,358,75,Finisher,1373
+Pavel,Borovkov,Pavel Borovkov,863,M35-39,Male,Narva,Ida-Virumaa,Estonia,EE,0:43:38,3:09:47,1:54:08,,,5:59:39,2618,11387,6848,422,303,21579,409,359,75,362,313,65,464,404,83,409,359,75,Finisher,1399
+Priit,Brus,Priit Brus,698,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:44:49,2:59:11,2:06:31,,,6:00:04,2689,10751,7591,346,227,21604,410,360,76,391,337,71,422,372,76,410,360,76,Finisher,1392
+Rain,Peerandi,Rain Peerandi,519,M35-39,Male,Assaku,"HARJUMAA, Rae Vald",Estonia,EE,0:45:07,2:56:29,2:11:13,,,6:00:43,2707,10589,7873,252,222,21643,411,361,77,399,343,72,402,354,73,411,361,77,Finisher,1380
+Karleen,Kersa,Karleen Kersa,113,F18-24,Female,Tallinn,Harjumaa,Estonia,EE,0:30:33,3:05:34,2:17:30,,,6:00:48,1833,11134,8250,219,214,21648,412,51,7,43,9,3,363,41,6,412,51,7,Finisher,2179
+Irina,Oleinits,Irina Oleinits,445,F50-54,Female,Tallinn,HARJUMAA,Estonia,EE,0:42:28,2:58:17,2:10:32,,,6:01:16,2548,10697,7832,378,220,21676,413,52,3,326,47,3,408,50,3,413,52,3,Finisher,2787
+Oskar,Kivinurk,Oskar Kivinurk,709,M25-29,Male,Saue linn,Eesti,Estonia,EE,0:39:20,2:46:03,2:23:39,,,6:01:20,2360,9963,8619,480,258,21680,414,362,42,232,197,25,313,278,31,414,362,42,Finisher,1620
+Toomas,Kogger,Toomas Kogger,797,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,0:44:11,2:49:47,2:17:46,,,6:02:07,2651,10187,8266,396,227,21727,415,363,42,376,325,35,370,329,41,415,363,42,Finisher,1865
+Johanna,Suominen,Johanna Suominen,632,F50-54,Female,Pälkäne,Pirkanmaa,Finland,FI,0:44:02,3:03:55,2:04:19,,,6:02:17,2642,11035,7459,378,224,21737,416,53,4,372,50,4,441,53,4,416,53,4,Finisher,2768
+Geoff,Spielman,Geoff Spielman,188,M35-39,Male,Berlin,foreigner,Canada,CA,0:37:08,3:19:01,1:55:42,,,6:02:27,2228,11941,6942,437,199,21747,417,364,78,166,137,24,474,412,84,417,364,78,Finisher,1349
+Norman,Kolk,Norman Kolk,727,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:48:19,2:53:37,2:12:07,,,6:03:16,2899,10417,7927,366,186,21796,418,365,76,454,389,82,413,363,73,418,365,76,Finisher,1308
+Geneviève,David,Geneviève David,753,F55-59,Female,Marseille,,France,FR,0:46:07,3:06:47,2:01:22,,,6:03:30,2767,11207,7282,373,182,21810,419,54,2,412,60,2,458,58,2,419,54,2,Finisher,2294
+Rain,Veskimäe,Rain Veskimäe,859,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:55:44,2:45:20,2:12:42,,,6:03:42,3344,9920,7962,436,160,21822,420,366,43,507,428,53,414,364,45,420,366,43,Finisher,1577
+Riho,Markna,Riho Markna,711,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:43:52,2:56:05,2:09:32,,,6:04:28,2632,10565,7772,578,322,21868,421,367,44,369,320,39,420,370,47,421,367,44,Finisher,1563
+Pavel,Dvoinos,Pavel Dvoinos,841,M35-39,Male,Tallinn,Harjumaa,Ukraine,UA,0:39:45,3:03:42,2:11:21,,,6:04:37,2385,11022,7881,429,160,21877,422,368,79,242,206,37,427,377,78,422,368,79,Finisher,1310
+Raimonds,Garenciks,Raimonds Garenciks,205,M65-69,Male,Carnikava,Carnikavas novads,Latvia,LV,0:32:05,2:50:35,2:33:35,,,6:04:48,1925,10235,9215,271,242,21888,423,369,1,63,52,1,256,231,1,423,369,1,Finisher,3500
+Martin,Schröder,Martin Schröder,162,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,0:51:10,2:55:44,2:09:45,,,6:05:18,3070,10544,7785,310,210,21918,424,370,77,482,410,89,435,385,78,424,370,77,Finisher,1272
+Alar,Lodi,Alar Lodi,151,M25-29,Male,Tartu,Tartumaa,Estonia,EE,0:29:10,3:10:02,2:19:36,,,6:05:52,1750,11402,8376,235,189,21952,425,371,45,27,22,2,386,343,41,425,371,45,Finisher,1538
+Heidi,Kallio,Heidi Kallio,907,F30-34,Female,Järvenpää,Järvenpää,Finland,FI,0:51:20,3:10:53,1:55:12,,,6:06:53,3080,11453,6912,375,193,22013,426,55,9,485,74,10,487,66,10,426,55,9,Finisher,2194
+Margus,Tamm,Margus Tamm,298,M45-49,Male,Lemmatsi küla,Tartumaa,Estonia,EE,0:46:06,3:06:13,2:03:53,,,6:07:00,2766,11173,7433,422,227,22020,427,372,43,411,352,38,461,402,45,427,372,43,Finisher,1777
+Jaanus,Loitmaa,Jaanus Loitmaa,851,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,0:53:11,2:51:18,2:12:28,,,6:07:09,3191,10278,7948,415,198,22029,428,373,59,496,420,68,431,381,59,428,373,59,Finisher,1708
+Pauliine,Nettan,Pauliine Nettan,257,F25-29,Female,Rakvere,Lääne-Virumaa,Estonia,EE,0:40:43,3:10:29,2:05:42,,,6:07:20,2443,11429,7542,406,221,22040,429,56,10,272,39,5,455,56,10,429,56,10,Finisher,2039
+Samvel,Mäemurd,Samvel Mäemurd,652,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,0:46:17,3:01:13,2:06:44,,,6:07:29,2777,10873,7604,543,251,22049,430,374,60,416,355,57,448,393,63,430,374,60,Finisher,1702
+Tiit,Oja,Tiit Oja,821,M25-29,Male,Tartu,Tartumaa,Estonia,EE,0:43:57,3:04:28,2:08:24,,,6:08:41,2637,11068,7704,517,195,22121,431,375,46,370,321,40,452,397,50,431,375,46,Finisher,1487
+Andre,Vulf,Andre Vulf,194,M40-44,Male,Tartu linn,Tartumaa,Estonia,EE,0:40:54,2:52:58,2:24:43,,,6:09:08,2454,10378,8683,393,241,22148,432,376,61,277,237,36,369,328,50,432,376,61,Finisher,1672
+Martin Max,Tauchert,Martin Max Tauchert,919,M18-24,Male,Karlovy Vary,Karlovy Vary,Czech Republic,CZ,0:46:43,3:02:37,2:06:07,,,6:09:34,2803,10957,7567,454,393,22174,433,377,17,426,364,16,451,396,17,433,377,17,Finisher,1810
+Tomas,Lencses,Tomas Lencses,885,M35-39,Male,Vilnius,Uzupis,Slovakia,SK,0:44:19,3:02:58,2:09:55,,,6:09:38,2659,10978,7795,448,298,22178,434,378,80,379,327,67,444,391,82,434,378,80,Finisher,1220
+Ville-Veikko,Laukkanen,Ville-Veikko Laukkanen,765,M50-54,Male,Helsinki,Uusimaa,Finland,FI,0:43:30,2:59:13,2:16:56,,,6:09:53,2610,10753,8216,376,238,22193,435,379,27,359,310,24,415,365,29,435,379,27,Finisher,1735
+Marek,Norit,Marek Norit,431,M35-39,Male,Jüri,Harjumaa,Estonia,EE,0:36:57,2:52:10,2:27:24,,,6:10:16,2217,10330,8844,527,297,22216,436,380,81,160,131,23,355,317,63,436,380,81,Finisher,1208
+Feyza,Gümrahoglu,Feyza Gümrahoglu,432,F40-44,Female,Rogaland,,Turkey,TR,0:44:51,3:18:26,1:55:56,,,6:10:46,2691,11906,6956,446,247,22246,437,57,5,393,55,4,488,67,5,437,57,5,Finisher,1895
+Eduard,Slutski,Eduard Slutski,465,M30-34,Male,Viimsi vald,Estonia,Estonia,EE,0:48:27,3:03:11,2:10:00,,,6:10:55,2907,10991,7800,371,187,22255,438,381,78,457,392,83,454,399,81,438,381,78,Finisher,1171
+Mait,Kadarpik,Mait Kadarpik,172,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:48:45,2:57:16,2:10:47,,,6:11:06,2925,10636,7847,588,269,22266,439,382,79,463,398,86,446,392,79,439,382,79,Finisher,1167
+Dominik,Skljarov,Dominik Skljarov,713,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,0:55:44,2:58:51,2:04:17,,,6:11:31,3344,10731,7457,522,237,22291,440,383,18,508,429,19,472,410,18,440,383,18,Finisher,1775
+Avo,Rõõmussaar,Avo Rõõmussaar,629,M45-49,Male,Tabasalu,EE - Estonia,Estonia,EE,0:40:30,2:42:41,2:40:07,,,6:11:46,2430,9761,9607,266,242,22306,441,384,44,265,228,25,261,235,27,441,384,44,Finisher,1691
+Igor,Volkov,Igor Volkov,423,M30-34,Male,Moscow,"Moscow
+Moscow",Russia,RU,0:49:59,2:51:04,2:20:05,,,6:12:30,2999,10264,8405,416,267,22350,442,385,80,472,404,87,412,362,72,442,385,80,Finisher,1142
+Marek,Aru,Marek Aru,889,M45-49,Male,Rakvere,Lääne Virumaa,Estonia,EE,0:49:10,2:56:34,2:16:37,,,6:12:54,2950,10594,8197,318,315,22374,443,386,45,467,402,43,430,380,43,443,386,45,Finisher,1670
+Dmitry,Demidov,Dmitry Demidov,901,M40-44,Male,Tabasalu,Harku vald,Estonia,EE,0:42:34,3:04:12,2:08:02,,,6:13:35,2554,11052,7682,747,380,22415,444,387,62,331,283,44,459,401,65,444,387,62,Finisher,1592
+Karel,Veski,Karel Veski,679,M40-44,Male,Pärnu,Pärnumaa,Estonia,EE,0:50:49,3:02:15,2:13:08,,,6:13:44,3049,10935,7988,220,232,22424,445,388,63,479,407,65,449,394,64,445,388,63,Finisher,1589
+Tanel,Kangur,Tanel Kangur,540,M30-34,Male,Tallinn,Estonia,Estonia,EE,0:47:25,3:07:43,2:07:02,,,6:14:14,2845,11263,7622,457,267,22454,446,389,81,437,374,78,469,408,84,446,389,81,Finisher,1111
+Risto,Tismus,Risto Tismus,433,M30-34,Male,Haapsalu,Läänemaa,Estonia,EE,0:50:50,3:07:43,2:05:11,,,6:14:16,3050,11263,7511,320,312,22456,447,390,82,480,408,88,475,413,86,447,390,82,Finisher,1110
+Gavin,Vanner,Gavin Vanner,112,M55-59,Male,Newport Pagnell,,United Kingdom,GB,0:55:03,2:57:11,,,,6:14:49,3303,10631,0,501,0,22489,448,391,8,506,427,11,465,405,9,448,391,8,Finisher,1976
+Edijs,Bogomolovs,Edijs Bogomolovs,174,M25-29,Male,Riga,Riga,Latvia,LV,1:01:06,2:59:08,2:03:15,,,6:15:58,3666,10748,7395,416,333,22558,449,392,47,518,436,55,482,418,52,449,392,47,Finisher,1356
+Alari,Kasemaa,Alari Kasemaa,560,M50-54,Male,Jõelähtme vald,Harjumaa,Estonia,EE,0:46:50,2:55:48,2:25:32,,,6:16:25,2810,10548,8732,272,223,22585,450,393,28,427,365,28,410,360,27,450,393,28,Finisher,1617
+Kirke,Külmhallik,Kirke Külmhallik,795,F18-24,Female,Kadrina,Lääne-Virumaa,Estonia,EE,0:49:46,3:04:13,2:08:27,,,6:17:09,2986,11053,7707,599,284,22629,451,58,8,471,68,8,476,63,9,451,58,8,Finisher,1885
+Veikko,Nurm,Veikko Nurm,214,M40-44,Male,"Kukruse, Kohtla-Järve",Ida-Viru maakond,Estonia,EE,0:47:19,3:07:33,2:09:38,,,6:17:45,2839,11253,7778,488,307,22665,452,394,64,435,373,60,470,409,66,452,394,64,Finisher,1517
+Kirill,Saidkhan,Kirill Saidkhan,476,M30-34,Male,"Viimsi Vald, Tallinn",Harju maakond,Estonia,EE,0:38:37,3:11:24,2:15:46,,,6:18:22,2317,11484,8146,496,259,22702,453,395,83,207,174,38,456,400,82,453,395,83,Finisher,1037
+Mihkel,Raud,Mihkel Raud,136,M25-29,Male,Kuressaare,Eesti,Estonia,EE,0:41:36,3:02:54,2:25:31,,,6:18:30,2496,10974,8731,278,230,22710,454,396,48,304,262,31,417,367,46,454,396,48,Finisher,1311
+Hanno,Paluoja,Hanno Paluoja,631,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,0:48:20,3:00:15,2:21:52,,,6:20:16,2900,10815,8512,342,248,22816,455,397,65,456,391,64,442,389,62,455,397,65,Finisher,1472
+Davis,Eniks,Davis Eniks,662,M30-34,Male,Sigulda,Siguldas novads,Latvia,LV,0:47:51,3:08:07,2:12:33,,,6:21:05,2871,11287,7953,443,312,22865,456,398,84,447,383,80,473,411,85,456,398,84,Finisher,988
+Margus,Kullerkupp,Margus Kullerkupp,513,M40-44,Male,Tallinn,---,Estonia,EE,0:36:12,3:22:58,2:11:31,,,6:22:12,2172,12178,7891,462,229,22932,457,399,66,140,113,15,481,417,68,457,399,66,Finisher,1437
+Tapani,Ojalainen,Tapani Ojalainen,686,M60-64,Male,Lahti,,Finland,FI,0:47:08,2:56:51,2:25:27,,,6:22:16,2828,10611,8727,422,349,22936,458,400,5,432,370,6,429,379,6,458,400,5,Finisher,2148
+Raul,Liivrand,Raul Liivrand,570,M25-29,Male,Manniku kula,Harjumaa,Estonia,EE,0:42:59,2:57:04,2:30:35,,,6:23:09,2579,10624,9035,424,327,22989,459,401,49,343,295,34,409,359,44,459,401,49,Finisher,1227
+Helen,Tihho,Helen Tihho,173,F35-39,Female,Uuesalu,Rae vald,Estonia,EE,0:33:15,3:07:18,2:35:20,,,6:24:10,1995,11238,9320,297,200,23050,460,59,10,83,17,2,399,47,10,460,59,10,Finisher,1857
+Joonas,Kreuz,Joonas Kreuz,314,M30-34,,Rapla,Kaerepere,Estonia,EE,0:47:57,3:13:16,2:10:01,,,6:25:02,2877,11596,7801,415,413,23102,461,402,85,451,387,81,485,420,87,461,402,85,Finisher,917
+Matis,Indov,Matis Indov,843,M30-34,Male,Keila,Harjumaa,Estonia,EE,0:54:53,3:07:47,,,,6:25:17,3293,11267,0,513,0,23117,462,403,86,505,426,91,489,422,88,462,403,86,Finisher,912
+Maria,Pernits,Maria Pernits,160,F18-24,Female,Saue vald,Harjumaa,Estonia,EE,0:50:38,3:03:34,2:21:33,,,6:25:47,3038,11014,8493,385,217,23147,463,60,9,478,72,9,466,61,8,463,60,9,Finisher,1730
+Uku,Vernik,Uku Vernik,705,M25-29,Male,Tartu,Tartumaa,Estonia,EE,0:47:45,2:56:03,2:30:06,,,6:26:02,2865,10563,9006,401,327,23162,464,404,50,443,379,46,426,376,48,464,404,50,Finisher,1175
+Redrik,Rahu,Redrik Rahu,198,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:52:22,3:08:41,2:08:46,,,6:26:02,3142,11321,7726,655,318,23162,465,405,51,492,417,51,490,423,53,465,405,51,Finisher,1175
+Kalle,Liebert,Kalle Liebert,164,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,0:51:21,2:50:12,2:28:39,,,6:27:10,3081,10212,8919,613,405,23230,466,406,29,486,412,30,433,383,30,466,406,29,Finisher,1424
+Paulius,Sukys,Paulius Sukys,505,M35-39,Male,Siauliai,Siauliai,Lithuania,LT,0:47:40,3:08:07,2:15:09,,,6:27:22,2860,11287,8109,585,401,23242,467,407,82,441,377,78,478,415,85,467,407,82,Finisher,900
+Dainius,Vosylius,Dainius Vosylius,202,M40-44,Male,Palanga,Klaipeda,Lithuania,LT,0:47:54,3:08:11,2:15:08,,,6:27:28,2874,11291,8108,580,396,23248,468,408,67,449,385,62,479,416,67,468,408,67,Finisher,1342
+Alina,Malinina,Alina Malinina,439,F35-39,Female,Harju,foreigner,Estonia,EE,0:40:49,2:57:49,2:34:37,,,6:27:32,2449,10669,9277,388,469,23252,469,61,11,274,40,10,396,45,9,469,61,11,Finisher,1797
+Tiit,Verev,Tiit Verev,436,M50-54,Male,Viimsi,Harjumaa,Estonia,EE,0:47:53,2:50:56,2:35:57,,,6:27:33,2873,10256,9357,365,401,23253,470,409,30,448,384,29,395,351,26,470,409,30,Finisher,1417
+Mait,Kaup,Mait Kaup,861,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,0:42:11,3:01:34,2:32:39,,,6:27:36,2531,10894,9159,380,293,23256,471,410,83,312,269,52,424,374,77,471,410,83,Finisher,896
+Mikko tai Katariina,Koskinen,Mikko tai Katariina Koskinen,216,M35-39,,Salo,Southwest Finland,Finland,FI,0:48:43,2:50:43,2:30:48,,,6:27:36,2923,10243,9048,679,364,23256,472,411,84,462,397,81,428,378,79,472,411,84,Finisher,896
+Signe,Uibo,Signe Uibo,805,F45-49,Female,Tallinn,HARJUMAA,Estonia,EE,0:50:13,3:00:54,2:24:08,,,6:28:21,3013,10854,8648,486,300,23301,473,62,4,474,69,5,460,59,5,473,62,4,Finisher,2636
+Kristo,Lilleoja,Kristo Lilleoja,811,M30-34,Male,Rakvere,Lääne-Viru maakond,Estonia,EE,0:47:49,3:07:40,2:22:54,,,6:28:25,2869,11260,8574,368,235,23305,474,412,87,446,382,79,468,407,83,474,412,87,Finisher,856
+Mehis,Muldma,Mehis Muldma,182,M25-29,Male,Tallinn,Harju,Estonia,EE,0:47:26,2:53:24,2:28:17,,,6:28:26,2846,10404,8897,749,410,23306,475,413,52,438,375,45,439,387,49,475,413,52,Finisher,1132
+Maria,Sonina,Maria Sonina,166,F35-39,Female,Narva,Ida-Virumaa,Estonia,EE,0:49:11,3:18:28,2:12:12,,,6:29:06,2951,11908,7932,318,238,23346,476,63,12,468,66,15,493,69,14,476,63,12,Finisher,1769
+Janis,Jurgelevics,Janis Jurgelevics,206,M30-34,Male,RIGA,LATVIA,Latvia,LV,0:42:54,3:20:50,2:06:08,,,6:29:15,2574,12050,7568,768,395,23355,477,414,88,341,293,62,497,427,89,477,414,88,Finisher,841
+Piret,Talviste,Piret Talviste,601,F25-29,Female,Tallinn,Harju maakond,Estonia,EE,0:42:26,3:25:10,2:13:17,,,6:29:55,2546,12310,7997,305,239,23395,478,64,11,324,45,7,492,68,11,478,64,11,Finisher,1632
+Raivo E,Tamm,Raivo E Tamm,867,M55-59,Male,Tallinn,Harju,Estonia,EE,0:42:25,3:16:12,2:17:12,,,6:30:55,2545,11772,8232,583,323,23455,479,415,9,323,279,5,486,421,10,479,415,9,Finisher,1686
+Sigrid,Sikk,Sigrid Sikk,496,F18-24,Female,Tallinn,Harjumaa,Estonia,EE,0:53:46,3:29:07,2:01:29,,,6:30:59,3226,12547,7289,291,107,23459,480,65,10,498,77,10,506,75,10,480,65,10,Finisher,1636
+Dmitrijs,Kolesniks,Dmitrijs Kolesniks,743,M30-34,Male,Adazi,Adazu,Latvia,LV,0:45:49,2:51:33,2:43:09,,,6:32:45,2749,10293,9789,431,304,23565,481,416,89,408,350,73,391,347,70,481,416,89,Finisher,778
+Edijs,Keirans,Edijs Keirans,132,M30-34,Male,Liezeres pagasts,Madonas Novads,Latvia,LV,0:48:29,3:35:33,1:59:29,,,6:33:58,2909,12933,7169,405,223,23638,482,417,90,458,393,84,508,432,90,482,417,90,Finisher,756
+Indrek,Vahtra,Indrek Vahtra,385,M35-39,Male,Saue,harjumaa,Estonia,EE,0:52:53,2:53:58,2:36:48,,,6:34:32,3173,10438,9408,334,318,23672,483,418,85,494,419,84,437,386,81,483,418,85,Finisher,771
+Grete,Arumäe,Grete Arumäe,142,F35-39,Female,,,Estonia,EE,0:44:18,3:15:19,,,,6:34:40,2658,11719,0,434,0,23680,484,66,13,378,52,11,480,64,13,484,66,13,Finisher,1668
+Karl Heinrich,Lauri,Karl Heinrich Lauri,128,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,0:45:26,3:09:43,2:31:33,,,6:35:20,2726,11383,9093,295,223,23720,485,419,53,403,346,42,463,403,51,485,419,53,Finisher,1008
+Takhir,Mamirov,Takhir Mamirov,771,M40-44,Male,Riga,Rīga,Kazakhstan,KZ,0:47:55,3:19:18,2:19:29,,,6:37:20,2875,11958,8369,434,204,23840,486,420,68,450,386,63,494,425,69,486,420,68,Finisher,1164
+Jennifer,Mitchell,Jennifer Mitchell,819,F45-49,Female,Tallinn,Harju,United States,US,0:47:34,3:12:33,2:23:28,,,6:37:26,2854,11553,8608,440,392,23846,487,67,5,439,64,4,484,65,6,487,67,5,Finisher,2473
+Loreta,Žukauskaite,Loreta Žukauskaite,258,F25-29,Female,Vilnius,Vilnius,Lithuania,LT,0:55:49,3:44:28,1:49:44,,,6:37:34,3349,13468,6584,280,173,23854,488,68,12,509,80,15,514,81,14,488,68,12,Finisher,1495
+Aleksandr,Kuzmin,Aleksandr Kuzmin,789,M25-29,Male,Narva,ida-virumaa,Estonia,EE,0:51:11,3:22:07,2:12:13,,,6:37:57,3071,12127,7933,509,238,23877,489,421,54,483,411,50,500,430,54,489,421,54,Finisher,961
+Michael,Savage,Michael Savage,666,M55-59,Male,Rusper,,United Kingdom,GB,0:40:47,2:48:13,3:00:01,,,6:39:48,2447,10093,10801,413,235,23988,490,422,10,273,234,4,335,298,5,490,422,10,Finisher,1526
+Sander,Moppel,Sander Moppel,502,M18-24,Male,Viimsi,Harjumaa,Estonia,EE,0:43:45,3:23:47,2:29:26,,,6:43:57,2625,12227,8966,304,116,24237,491,423,19,365,316,15,491,424,19,491,423,19,Finisher,1191
+Keidi,Nurme,Keidi Nurme,170,F35-39,Female,Kiisa,Harju,Estonia,EE,0:48:13,3:19:51,2:23:15,,,6:43:58,2893,11991,8595,414,345,24238,492,69,14,453,65,14,496,70,15,492,69,14,Finisher,1501
+Pavels,Mazurs,Pavels Mazurs,523,M45-49,Male,Riga,Latvia,Latvia,LV,0:51:56,3:12:46,,,,6:44:32,3116,11566,0,719,0,24272,493,424,46,488,414,46,498,428,46,493,424,46,Finisher,1101
+Kätlin,Pendarov,Kätlin Pendarov,196,F25-29,Female,Tallinn,Harjumaa,Estonia,EE,0:52:20,3:24:32,2:16:25,,,6:46:52,3140,12272,8185,516,299,24412,494,70,13,491,75,14,504,73,13,494,70,13,Finisher,1327
+Jüri,Jõul,Jüri Jõul,120,M45-49,Male,Tartu,Tartu maakond,Estonia,EE,0:56:50,3:08:48,2:25:01,,,6:47:42,3410,11328,8701,724,299,24462,495,425,47,513,432,47,499,429,47,495,425,47,Finisher,1044
+Eugen,Õis,Eugen Õis,791,M65-69,Male,"Vainupea küla, Lääne - Virumaa",Lääne-Viru maakond,Estonia,EE,0:51:07,3:06:28,2:35:54,,,6:48:56,3067,11188,9354,588,340,24536,496,426,2,481,409,2,483,419,2,496,426,2,Finisher,2705
+Aleksander,Märdimäe,Aleksander Märdimäe,124,M40-44,Male,Raasiku,Harjumaa,Estonia,EE,0:52:31,2:53:44,2:49:31,,,6:49:23,3151,10424,10171,461,356,24563,497,427,69,493,418,67,440,388,61,497,427,69,Finisher,947
+Reti,Joandi,Reti Joandi,366,F45-49,Female,Viljandi,Viljandimaa,Estonia,EE,0:51:14,2:58:58,2:48:58,,,6:49:26,3074,10738,10138,337,279,24566,498,71,6,484,73,6,445,54,4,498,71,6,Finisher,2257
+Ljubov,Lätt,Ljubov Lätt,148,F35-39,Female,Tallinn,HARJUMAA,Estonia,EE,0:45:21,3:26:52,2:24:16,,,6:50:12,2721,12412,8656,602,221,24612,499,72,15,401,57,12,501,71,16,499,72,15,Finisher,1389
+Paul,Nash,Paul Nash,501,M60-64,Male,Birdingbury,Warks,United Kingdom,GB,0:40:53,2:46:00,3:12:38,,,6:50:25,2453,9960,11558,390,264,24625,500,428,6,276,236,1,312,277,4,500,428,6,Finisher,1642
+Annika,Seero,Annika Seero,176,F35-39,Female,Tallinn,Harjumaa,Estonia,EE,0:45:40,3:09:35,2:42:46,,,6:53:21,2740,11375,9766,481,439,24801,501,73,16,405,58,13,471,62,12,501,73,16,Finisher,1332
+Piret,Telgmaa,Piret Telgmaa,122,F45-49,Female,Tartu,Tartu maakond,Estonia,EE,0:56:41,3:19:26,2:21:27,,,6:54:06,3401,11966,8487,636,356,24846,502,74,7,511,81,7,505,74,7,502,74,7,Finisher,2173
+Mart,Mikkelsaar,Mart Mikkelsaar,787,M60-64,Male,Kanepi,Põlva maakond,Estonia,EE,0:52:13,3:02:54,2:45:40,,,6:56:48,3133,10974,9940,561,400,25008,503,429,7,489,415,7,477,414,7,503,429,7,Finisher,1527
+Goksu Tugay,Bilal,Goksu Tugay Bilal,897,F40-44,Female,istanbul,İstanbul  Turkey,Turkey,TR,0:58:30,3:37:24,2:07:03,,,6:57:08,3510,13044,7623,482,369,25028,504,75,6,515,82,6,513,80,6,504,75,6,Finisher,1060
+Merike,Aifa,Merike Aifa,825,F30-34,Female,Tallinn,Harjumaa,Estonia,EE,0:42:29,3:12:24,2:52:34,,,6:57:21,2549,11544,10354,309,285,25041,505,76,10,327,48,8,462,60,9,505,76,10,Finisher,1286
+Inno,Puusepp,Inno Puusepp,893,M25-29,Male,Tamsalu,Lääne-Virumaa,Estonia,EE,0:54:53,3:25:01,2:20:43,,,6:57:35,3293,12301,8443,790,228,25055,506,430,55,504,425,52,510,433,55,506,430,55,Finisher,700
+Steen,Lerche-Jensen,Steen Lerche-Jensen,658,M50-54,Male,oslo,,Denmark,DK,0:51:37,3:02:28,2:52:11,,,7:00:40,3097,10948,10331,444,420,25240,507,431,31,487,413,31,467,406,31,507,431,31,Finisher,821
+Evgenia,Tretiyakova,Evgenia Tretiyakova,486,F25-29,Female,Viimsi ,Estonia,Estonia,EE,0:46:15,3:29:16,2:40:12,,,7:09:05,2775,12556,9612,463,339,25745,508,77,14,414,61,11,502,72,12,508,77,14,Finisher,927
+Marika,Minlibajeva,Marika Minlibajeva,827,F35-39,Female,Tallinn,HARJUMAA,Estonia,EE,0:49:22,3:36:21,2:33:01,,,7:09:55,2962,12981,9181,322,350,25795,509,78,17,469,67,16,509,77,17,509,78,17,Finisher,1034
+Pille,Nurmis,Pille Nurmis,150,F55-59,Female,Tallinn,Harju,Estonia,EE,0:54:22,3:29:35,2:35:55,,,7:10:16,3262,12575,9355,385,239,25816,510,79,3,501,78,3,507,76,3,510,79,3,Finisher,1092
+Gary,Mccormack,Gary Mccormack,212,M40-44,Male,Sallins,Kildare,Ireland,IE,0:58:32,2:44:41,3:10:52,,,7:11:16,3512,9881,11452,511,519,25876,511,432,70,516,434,70,432,382,60,511,432,70,Finisher,700
+Jekaterina,Luzik,Jekaterina Luzik,200,F30-34,Female,Peetri alevik,Harju maakond,Estonia,EE,0:53:05,3:38:49,2:28:59,,,7:14:11,3185,13129,8939,571,227,26051,512,80,11,495,76,11,512,79,11,512,80,11,Finisher,983
+Kai,Suokko,Kai Suokko,522,M55-59,Male,Espoo,Uusimaa,Finland,FI,0:46:53,3:18:02,,,,7:19:43,2813,11882,0,588,0,26383,513,433,11,428,366,9,495,426,11,513,433,11,Finisher,808
+Annika,Veimer,Annika Veimer,801,F50-54,Female,Tallinn,Harju,Estonia,EE,0:54:44,3:31:51,2:44:05,,,7:23:48,3284,12711,9845,469,319,26628,514,81,5,502,79,5,511,78,5,514,81,5,Finisher,1301
+Avnish,Chandel,Avnish Chandel,879,M30-34,Male,helsinki,uusimaa,India,IN,0:59:05,3:43:26,2:24:56,,,7:26:22,3545,13406,8696,638,498,26782,515,434,91,517,435,92,515,434,91,515,434,91,Finisher,700
+Paul,Poom,Paul Poom,208,M35-39,Male,Tallinn,"Estonia ,Tallinn ,Harju maakond",Estonia,EE,0:42:35,3:29:44,2:55:27,,,7:29:39,2555,12584,10527,712,602,26979,516,435,86,333,285,58,503,431,86,516,435,86,Finisher,700
+Cathlyn,Olev,Cathlyn Olev,168,F25-29,Female,Tallinn,Harjumaa,Estonia,EE,0:50:32,3:55:09,2:40:00,,,7:43:45,3032,14109,9600,527,556,27825,517,82,15,477,71,13,516,82,15,517,82,15,Finisher,700
+Andres,Kiis,Andres Kiis,158,M30-34,Male,Rakvere,Lääne-Virumaa,Estonia,EE,0:54:44,3:50:22,3:08:04,,,8:18:25,3284,13822,11284,707,808,29905,518,436,92,503,424,90,517,435,92,518,436,92,Finisher,700
+Eveli,Rumm,Eveli Rumm,152,F30-34,Female,Tamsalu,"Tapa vald, Lääne-Virumaa",Estonia,EE,1:03:37,3:53:28,3:13:57,,,8:28:05,3817,14008,11637,678,345,30485,519,83,12,519,83,12,518,83,12,519,83,12,Finisher,700
+Ruedi,Wild,Ruedi Wild,23,MPRO,Male,samstagern,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kristjan-Erik,Suurväli,Kristjan-Erik Suurväli,609,M45-49,Male,Tallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksandr,Miuller,Aleksandr Miuller,260,M35-39,Male,Saint Petersburg,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kadri,Forsström,Kadri Forsström,300,F50-54,Female,Espoo,Espoo,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wojciech,Odzimek,Wojciech Odzimek,203,M40-44,Male,Almaty,Almaty,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kai,Renlund,Kai Renlund,262,M50-54,Male,Pyhtää,Kymenlaakso,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Simon,Taylor,Simon Taylor,199,M55-59,Male,Hove,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hanna-Liis,Karp,Hanna-Liis Karp,865,F18-24,Female,Tallinn,HARJUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Regiina,Sepp,Regiina Sepp,539,F35-39,Female,rae vald,rae küla,Estonia,EE,0:39:45,,,,,,2385,0,0,335,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ruslan,Gilmutdinov,Ruslan Gilmutdinov,350,M35-39,Male,Ulyanovsk,"APO
+",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gianluca,Pellegrinelli,Gianluca Pellegrinelli,284,M55-59,Male,Santa Lucia di Piave,TV,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ilya ,Slepov,Ilya Slepov,133,M35-39,Male,Limassol,Lemesos,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Liisa,Põldma,Liisa Põldma,400,F30-34,Female,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Filipe,Azevedo,Filipe Azevedo,31,MPRO,Male,Dubai ,Normandy,Portugal,PT,0:24:19,,,,,,1459,0,0,108,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Mihhail,Kazennov,Mihhail Kazennov,384,M35-39,Male,Saue vald,Harju maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Erik,Kaup,Erik Kaup,380,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Viktor,Saaremets,Viktor Saaremets,288,M40-44,Male,Pärnu,Pärnu maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rinalds,Sluckis,Rinalds Sluckis,346,M35-39,Male,Marupe,Marupe,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Flunk,Alexander Flunk,869,M30-34,Male,Berlin,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Raido,Purga,Raido Purga,388,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carl,Sõlg,Carl Sõlg,228,M35-39,Male,Vinni vald,Laane-virumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Conor,Greenan,Conor Greenan,416,M30-34,Male,Shanghai,上海,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gijs,Pelt,Gijs Pelt,408,M30-34,Male,Amsterdam,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Holger,Rothenberger,Holger Rothenberger,254,M45-49,Male,Dessau-Roßlau,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jens,Petersen-Bach,Jens Petersen-Bach,6,MPRO,Male,"Hellerup
+Hellerup",,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aivar,Juhandi,Aivar Juhandi,324,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Reinis,Balmaks,Reinis Balmaks,392,M35-39,Male,Riga,Rīga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Margus,Dintsenko,Margus Dintsenko,883,M40-44,Male,Tabasalu,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Hummel,Mark Hummel,656,M50-54,Male,Ubstadt-Weiher,foreigner,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Halvor,Fladsrud Bø,Halvor Fladsrud Bø,454,M18-24,Male,Oslo,,Norway,NO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jean-Baptiste,Daguené,Jean-Baptiste Daguené,326,M30-34,Male,Vilnius,Alytaus Apskritis,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Artem,Popov,Artem Popov,462,M35-39,Male,Moscow,Bishkek,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juho,Kallio,Juho Kallio,680,M35-39,Male,Lahti,Päijät-Häme,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksei,Kuttanen,Aleksei Kuttanen,374,M45-49,Male,Kingisepp,"St. Petersburg
+Kingisepp",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Krister,Säll,Krister Säll,451,M45-49,Male,Skutskär,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kaili,Vainumaa,Kaili Vainumaa,554,F50-54,Female,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Alger,Vedler,Alger Vedler,377,M50-54,Male,Tartu,Tartu maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mikk,Mutso,Mikk Mutso,334,M40-44,Male,Tallinn,Estonia,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tobias,Dahl Thomsen,Tobias Dahl Thomsen,125,M18-24,Male,"
+Lynge",,Denmark,DK,0:29:49,,,,,,1789,0,0,153,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Florian,Kühne,Florian Kühne,498,M18-24,Male,Bad Lausick,SN,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Brets,Pirtnieks,Brets Pirtnieks,225,M45-49,Male,Rīga,Rīga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maris,Plume,Maris Plume,484,M40-44,Male,Jurmala,Jurmala,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Жанбулат,Кадыров,Жанбулат Кадыров,452,M45-49,Male,Almaty,Almaty,Kazakhstan,KZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Baiba,Medne,Baiba Medne,219,F30-34,Female,Dobele,Dobeles novads,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Wojciech,Pedowski,Wojciech Pedowski,306,M55-59,Male,Gliwice,śląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matas,Povilauskas,Matas Povilauskas,204,M18-24,Male,Vilnius,Vilnius,Lithuania,LT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Alison,Hinds,Alison Hinds,398,F45-49,Female,Hertford,Hertfordshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adam,Thompson,Adam Thompson,234,M30-34,Male,Cardiff,South Glamorgan,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Evgeny,Drabkin,Evgeny Drabkin,482,M50-54,Male,Moscow,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Trine,Ahlburg,Trine Ahlburg,675,F60-64,Female,"København V
+Copenhagen",,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Silver,Kasper,Silver Kasper,246,M18-24,Male,Parnu,Parnumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Kuutma,Kevin Kuutma,623,M30-34,Male,Tallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tim,Marbach,Tim Marbach,307,M30-34,Male,,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Teemu,Parviainen,Teemu Parviainen,610,M25-29,Male,Veikkola,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksandr,Satarikov,Aleksandr Satarikov,518,M45-49,Male,Marrakech,Marrakech,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kristjan,Tamme,Kristjan Tamme,895,M25-29,Male,Tallinn,Harju maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tapio,Behrndt,Tapio Behrndt,430,M35-39,Male,Espoo,Uusimaa,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Siim,Saar,Siim Saar,404,M18-24,Male,Jüri,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tarmo,Pintson,Tarmo Pintson,442,M50-54,Male,Tallinn,Harju maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrejs,Kovalovs,Andrejs Kovalovs,274,M40-44,Male,Riga,Riga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rain,Pajur,Rain Pajur,466,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christian,Rijs,Christian Rijs,564,M40-44,Male,READING,Berkshire,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ester,Marjapuu,Ester Marjapuu,849,F55-59,Female,Türi,Järvamaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergey,Tyan,Sergey Tyan,310,M40-44,Male,,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rauno,Mäepea,Rauno Mäepea,126,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Kaiti,Birk,Kaiti Birk,272,F35-39,Female,Tallinn,Estonia,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francisco Jose,Corredoira Vázquez,Francisco Jose Corredoira Vázquez,304,M35-39,Male,Lugo,LUGO [LUGO],Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Elina,Vilja,Elina Vilja,363,F25-29,Female,Tallinn,APO,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peter,Worrall,Peter Worrall,428,M25-29,Male,SPOKANE,WA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Artjoms,Semjonovs,Artjoms Semjonovs,252,M30-34,Male,Kauguri,Jurmala,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andres,Arike,Andres Arike,418,M50-54,Male,Otepää,Valgamaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mindaugas,Janulionis,Mindaugas Janulionis,525,M30-34,Male,Vilnius,,Lithuania,LT,0:39:43,2:39:38,,,,,2383,9578,0,202,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Serhat,Pakyuz,Serhat Pakyuz,104,M35-39,Male,London,,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitry,Lazarev,Dmitry Lazarev,489,M45-49,Male,Dubai,Dubai,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexey,Pestovskiy,Alexey Pestovskiy,248,M45-49,Male,Krasnogorsk,Moscow region,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mari,Fredman,Mari Fredman,342,F50-54,Female,Espoo,Espoo,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kadri,Bauman,Kadri Bauman,461,F40-44,Female,Keila,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maarja,Pütsep,Maarja Pütsep,270,F30-34,Female,Tallinn,Harju maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mihhail,Terentjev,Mihhail Terentjev,280,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Antony,Costes,Antony Costes,7,MPRO,Male,Sainte-Colombe,foreigner,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeroen,Jilesen,Jeroen Jilesen,186,M45-49,Male,Tallinn,Tallinn,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pawel,Grzegorczyk,Pawel Grzegorczyk,446,M40-44,Male,Kraków,małopolskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rauno,Jõgi,Rauno Jõgi,402,M25-29,Male,Tartu,Tartu maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ilya,Chukhlyaev,Ilya Chukhlyaev,338,M30-34,Male,Moscow,Central Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Edgars,Nikels,Edgars Nikels,646,M35-39,Male,Carnikava,Carnikavas novads,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jordan,Joanisse,Jordan Joanisse,420,M35-39,Male,Shanghai,Shanghai,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adam,Lamontagne,Adam Lamontagne,268,M40-44,Male,Tampere,PIRKANMAA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kyösti,Lehtola,Kyösti Lehtola,414,M45-49,Male,Palojoki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arne,Tödter,Arne Tödter,230,M45-49,Male,Hamburg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Milliken,Mark Milliken,470,M35-39,Male,Park City,UT,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toomas,Teesaar,Toomas Teesaar,348,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Oliver,Hobson,Oliver Hobson,127,M18-24,Male,,QLD,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Remi,Merriman,Remi Merriman,507,M30-34,Male,Hyde,Cheshire,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Agris,Peedu,Agris Peedu,302,M35-39,Male,Tallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Miki Mørck,Taagholt,Miki Mørck Taagholt,22,MPRO,Male,Odense,foreigner,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Stepankov,Alexander Stepankov,370,M30-34,Male,Moscow,Central Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mihkel,Jõgi,Mihkel Jõgi,444,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tõnis,Elling,Tõnis Elling,552,M45-49,Male,Harku vald,Harju maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Andrew,Logan,Andrew Logan,250,M40-44,Male,Johannesburg,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Антон,Леляк,Антон Леляк,296,M40-44,Male,Moscow,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Giles,Brook,Giles Brook,682,M45-49,Male,Oakham,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Robert,Budaj,Robert Budaj,209,M30-34,Male,Liptovský Mikuláš,foreigner,Slovakia,SK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jevgeni,Doronin,Jevgeni Doronin,406,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luca,Ronchi,Luca Ronchi,119,M25-29,Male,Capo di Ponte,Brescia,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Meelis,Karro,Meelis Karro,294,M40-44,Male,Tartu,Tartumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Igor,Zazimko,Igor Zazimko,328,M50-54,Male,Laiaküla,Viimsi,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gareth,Rees,Gareth Rees,422,M35-39,Male,London,London,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marge,Viidik,Marge Viidik,190,F35-39,Female,Tallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Olga,Korneenkova,Olga Korneenkova,376,F40-44,Female,Chakvi,Larnaca,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Thibault,Crignon,Thibault Crignon,320,M18-24,Male,Le Vésinet,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Magnus,Mellberg,Magnus Mellberg,396,M45-49,Male,Furuvik,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kaider,Grosnõi,Kaider Grosnõi,386,M30-34,Male,Tartu,Tartumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Julien,Bidault,Julien Bidault,645,M40-44,Male,Hyvinkää,usima,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kaspar,Mutso,Kaspar Mutso,455,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Siim,Simmo,Siim Simmo,382,M50-54,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Merle,Sagur,Merle Sagur,138,F35-39,Female,"SAKU alevik, Saku vald",Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Nicholas,Minter-Green,Nicholas Minter-Green,222,M45-49,Male,london,BARNET,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Martin,Varrand,Martin Varrand,655,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Postec,Kevin Postec,759,M30-34,Male,Jyväskylä,Keski-Suomi,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jan,Stratmann,Jan Stratmann,16,MPRO,Male,Hennef,NW,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jingxuan(Emma),Cai,Jingxuan(Emma) Cai,494,F18-24,Female,Huizhou,CN-GD,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ivan,Lavrentjev,Ivan Lavrentjev,499,M25-29,Male,TallinnTallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grimur,Sigurdsson,Grimur Sigurdsson,923,M40-44,Male,Seltjarnarnes,Seltjarnarnes,Iceland,IS,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mikhail,Zhurkin,Mikhail Zhurkin,434,M35-39,Male,Samara,foreigner,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rogerio,Goncalves,Rogerio Goncalves,456,M50-54,Male,Berlin,,Brazil,BR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ruth,Mampuys,Ruth Mampuys,925,F35-39,Female,Rotterdam,,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vili,Vainio,Vili Vainio,240,M30-34,Male,ESPOO,Espoo,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Konstantin,Olshanikov,Konstantin Olshanikov,344,M30-34,Male,Moscow,"APO
+",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Knight,Chris Knight,335,F45-49,Male,Cape Town,,Austria,AT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Greg,Voronin,Greg Voronin,244,M50-54,Male,Moscow,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Erko,Selde,Erko Selde,440,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ilya,Kosov,Ilya Kosov,480,M30-34,Male,Moscow,Moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dainis,Berzins,Dainis Berzins,332,M40-44,Male,Riga,Riga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Matteo,Bettoni,Matteo Bettoni,927,M40-44,Male,Rotterdam,,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitriy,Mamontov,Dmitriy Mamontov,450,M40-44,Male,St.Petersburg,Northwestern Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lebedev,Anatoly,Lebedev Anatoly,903,M40-44,Male,Odintcovo,"
+Moscow reg",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Frankie,Sanjana,Frankie Sanjana,58,FPRO,Female,Amsterdam,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Danila,Naumov,Danila Naumov,354,M25-29,Male,Cholpon-Ata,Kyrgyzstan,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ruslan,Kamenskiy,Ruslan Kamenskiy,316,M30-34,Male,Saint Petersburg,Northwestern Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Janek,Karbe,Janek Karbe,487,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,0:39:25,2:34:28,,,,,2365,9268,0,194,165,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Andrej,Trusevic,Andrej Trusevic,286,M35-39,Male,Vilnius,Lithuania,Lithuania,LT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Killian,Fjellbakk,Killian Fjellbakk,689,M25-29,Male,Hafslundsoy,,Norway,NO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+William,Åredal,William Åredal,474,M18-24,Male,Kristiansand,,Norway,NO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ruudi,Konrad,Ruudi Konrad,218,M45-49,Male,Jõelähtme vald,Rebala,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrejs,Antonovs,Andrejs Antonovs,775,M40-44,Male,Riga,County sweet,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Erkki,Lepp,Erkki Lepp,437,M30-34,Male,Tartu,Tartu maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Janis,Lapins,Janis Lapins,226,M35-39,Male,Kadaga,foreigner,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amanda,Bartolome,Amanda Bartolome,530,F40-44,Female,Zaragoza,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicolas,Hemet,Nicolas Hemet,115,M40-44,Male,VILLENEUVE-LOUBET,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amy,Pedder,Amy Pedder,238,F45-49,Female,Cape Town,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kaspars,Kadikis,Kaspars Kadikis,464,M25-29,Male,Riga,Riga,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toomas,Dettenborn,Toomas Dettenborn,236,M55-59,Male,Lohja,Lohja,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andi,Boecherer,Andi Boecherer,27,MPRO,Male,Freiburg,Baden-Württemberg,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Veiko,Rääts,Veiko Rääts,242,M35-39,Male,Pilkuse küla,Otepää vald,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kelsey,Tanner,Kelsey Tanner,745,F30-34,Female,Amsterdam,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Reima,Soikkeli,Reima Soikkeli,156,M40-44,Male,Kerava,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jan-Hendrik,Egner,Jan-Hendrik Egner,180,M50-54,Male,Meilen,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kamlesh,Patel,Kamlesh Patel,500,M40-44,Male,Bolton,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rein,Lätt,Rein Lätt,276,M45-49,Male,Muusika küla,Saue vald,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alex,Laughton-Scott,Alex Laughton-Scott,424,M30-34,Male,London,London,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maija,Hovila,Maija Hovila,535,F35-39,Female,Espoo,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Inge,Reiman,Inge Reiman,357,F50-54,Female,Tallinn,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Indrek,Peterson,Indrek Peterson,220,M40-44,Male,Tartu,TARTUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bozena,Pedowska,Bozena Pedowska,308,F55-59,Female,GLIWICE,śląskie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrey,Anisimov,Andrey Anisimov,318,M55-59,Male,Samara,"
+Samara Region",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Annika,Alas,Annika Alas,144,F35-39,Female,Pärnu,Pärnu maakond,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Ilja,Belajevs,Ilja Belajevs,460,M40-44,Male,Riga,APO,Latvia,LV,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Anton,Veselov,Anton Veselov,448,M45-49,Male,Gatchina,"
+L.O.",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Märt,Loonurme,Märt Loonurme,312,M45-49,Male,Helsinki,,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0

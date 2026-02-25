@@ -1,0 +1,910 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Jirimy,Jurkiewicz,Jirimy Jurkiewicz,17,M25-29,Male,,,Unknown,,0:21:44,2:05:21,1:21:56,,,3:52:40,1304,7521,4916,124,95,13960,1,1,1,2,2,2,5,4,1,1,1,1,Finisher,
+Igor,Amorelli,Igor Amorelli,13,M25-29,Male,Balneario Camboriu,BR-SC,Unknown,,0:22:03,2:07:19,1:20:26,,,3:52:42,1323,7639,4826,109,65,13962,2,2,2,3,3,3,6,5,2,2,2,2,Finisher,
+Lucas,Cocha,Lucas Cocha,14,M30-34,Male,C¢rodba,Córdoba,Unknown,,0:22:04,2:10:34,1:22:25,,,3:58:35,1324,7834,4945,132,80,14315,3,3,3,4,4,4,10,9,6,3,3,3,Finisher,
+Luiz Francisco,Ferreira,Luiz Francisco Ferreira,16,M30-34,Male,Blumenau,SC,Unknown,,0:21:43,2:08:06,1:26:30,,,3:59:44,1303,7686,5190,127,78,14384,4,4,4,1,1,1,7,6,3,4,4,4,Finisher,
+Santiago,Ascenco,Santiago Ascenco,12,M30-34,Male,Goiania,,Unknown,,0:23:30,2:09:26,1:24:29,,,4:00:42,1410,7766,5069,111,86,14442,5,5,5,10,9,8,8,7,4,5,5,5,Finisher,
+Mauro,Cavanha Conceigco,Mauro Cavanha Conceigco,3,M25-29,Male,Curitiba,Intl State,Unknown,,0:22:50,2:09:44,1:25:30,,,4:01:43,1370,7784,5130,134,85,14503,6,6,6,6,5,5,9,8,5,6,6,6,Finisher,
+Jose,Antunes,Jose Antunes,4,M35-39,Male,SAN DIEGO,CA,Unknown,,0:24:49,2:14:27,1:18:34,,,4:01:46,1489,8067,4714,141,95,14506,7,7,7,18,16,11,14,13,7,7,7,7,Finisher,
+ezequiel,morales,ezequiel morales,10,M40-44,Male,Niterói,RJ,Unknown,,0:24:52,2:14:24,1:20:07,,,4:03:14,1492,8064,4807,141,90,14594,8,8,8,20,17,12,15,14,8,8,8,8,Finisher,
+Rafael ,Sousa ,Rafael Sousa,724,M30-34,Male,goiania,GO,Unknown,,0:22:57,2:09:33,1:29:28,,,4:06:04,1377,7773,5368,141,105,14764,9,9,1,7,6,1,11,10,2,9,9,1,Finisher,3500
+Antonio,Manssur Filho,Antonio Manssur Filho,8,M40-44,Male,são paulo,sp,Unknown,,0:23:58,2:17:46,1:21:04,,,4:07:54,1438,8266,4864,168,138,14874,10,10,9,12,11,9,24,23,12,10,10,9,Finisher,
+Kenny,Sousa,Kenny Sousa,130,M35-39,Male,brasilia,D.F,Unknown,,0:27:01,2:13:06,1:24:50,,,4:09:15,1621,7986,5090,169,89,14955,11,11,1,41,35,3,18,17,4,11,11,1,Finisher,3500
+Gustavo Slaib,Cruz Pereira,Gustavo Slaib Cruz Pereira,5,M30-34,Male,Rio de janeiro,Rj,Unknown,,0:25:39,2:13:49,1:31:49,,,4:14:59,1539,8029,5509,130,92,15299,12,12,10,24,20,13,16,15,9,12,12,10,Finisher,
+Frederico,Monteiro,Frederico Monteiro,11,M35-39,Male,,,Unknown,,0:23:19,2:20:51,1:29:00,,,4:17:12,1399,8451,5340,140,102,15432,13,13,11,9,8,7,26,25,13,13,13,11,Finisher,
+Ciro,Violin,Ciro Violin,7,M30-34,Male,Leme,Intl State,Unknown,,0:23:11,2:17:49,1:31:53,,,4:17:27,1391,8269,5513,167,107,15447,14,14,12,8,7,6,21,20,11,14,14,12,Finisher,
+Italo,Rizzo,Italo Rizzo,192,M30-34,Male,GOIANIA,BR-GO,Unknown,,0:25:36,2:14:46,1:35:30,,,4:20:24,1536,8086,5730,188,84,15624,15,15,2,22,19,5,20,19,5,15,15,2,Finisher,3242
+Amanda,Stevens,Amanda Stevens,30,F35-39,Female,Enid,OK,Unknown,,0:22:36,2:22:29,1:31:57,,,4:20:54,1356,8549,5517,140,92,15654,16,1,1,5,1,1,27,2,2,16,1,1,Finisher,
+Marco,Aurélio Barbosa Gimenes,Marco Aurélio Barbosa Gimenes,145,M40-44,Male,Goiania,Goiás,Unknown,,0:34:03,2:14:32,1:26:26,,,4:20:56,2043,8072,5186,235,120,15656,17,16,1,277,257,43,30,28,1,17,16,1,Finisher,3500
+Alvaro,Cabrera,Alvaro Cabrera,9,M35-39,Male,Barra de Carrasco,Canelones,Unknown,,0:24:37,2:14:06,1:37:58,,,4:21:15,1477,8046,5878,177,97,15675,18,17,13,13,12,10,17,16,10,18,17,13,Finisher,
+Lean,Bilski,Lean Bilski,293,M30-34,Male,Curitiba,Paraná,Unknown,,0:27:21,2:22:26,1:30:47,,,4:25:06,1641,8546,5447,184,88,15906,19,18,3,45,39,10,32,30,9,19,18,3,Finisher,3157
+Jose,Luiz Camarero Neto,Jose Luiz Camarero Neto,745,M30-34,Male,Ribeirao Preto,São Paulo,Unknown,,0:30:43,2:20:51,1:29:20,,,4:25:43,1843,8451,5360,194,95,15943,20,19,4,145,132,35,36,34,12,20,19,4,Finisher,3146
+Christian Orlando,Amendola Ares,Christian Orlando Amendola Ares,646,M30-34,Male,Avellaneda,Intl State,Unknown,,0:29:30,2:21:17,1:30:03,,,4:25:59,1770,8477,5403,191,118,15959,21,20,5,80,72,19,34,32,10,21,20,5,Finisher,3141
+Rodolfo,Oliveira,Rodolfo Oliveira,603,M25-29,Male,Goiania,GOIAS,Unknown,,0:31:13,2:20:53,1:29:40,,,4:26:06,1873,8453,5380,170,90,15966,22,21,1,165,150,22,37,35,2,22,21,1,Finisher,3500
+Marcelo,Tomaszewski,Marcelo Tomaszewski,407,M30-34,Male,Garopaba,,Unknown,,0:28:23,2:22:37,1:32:27,,,4:28:12,1703,8557,5547,183,102,16092,23,22,6,67,60,17,35,33,11,23,22,6,Finisher,3101
+Thiago,Goncalves Rodrigues,Thiago Goncalves Rodrigues,257,M25-29,Male,Luzibnia,Go,Unknown,,0:26:40,2:27:05,1:29:59,,,4:28:29,1600,8825,5399,163,122,16109,24,23,2,36,30,4,43,41,3,24,23,2,Finisher,3457
+Carolina,Furriela,Carolina Furriela,34,F18-24,Female,campinas,Intl State,Unknown,,0:24:46,2:31:21,1:29:46,,,4:29:52,1486,9081,5386,145,94,16192,25,2,2,17,2,2,50,3,3,25,2,2,Finisher,
+Sergio,Vargas,Sergio Vargas,537,M35-39,Male,São paulo,SP,Unknown,,0:00:00,0:00:00,2:04:47,,,4:30:04,0,0,7487,0,144,16204,26,24,2,99999,99999,99999,2,1,1,26,24,2,Finisher,3125
+Fernando,Carvalho,Fernando Carvalho,218,M35-39,Male,BRASILIA,Federal District,Unknown,,0:26:21,2:26:10,1:32:31,,,4:30:19,1581,8770,5551,185,132,16219,27,25,3,32,26,1,40,38,6,27,25,3,Finisher,3120
+Leonardo,Moreira Mota,Leonardo Moreira Mota,157,M35-39,Male,,,Unknown,,0:27:27,2:24:42,1:31:53,,,4:30:31,1647,8682,5513,203,186,16231,28,26,4,46,40,6,39,37,5,28,26,4,Finisher,3117
+Eugenio,Furioso,Eugenio Furioso,158,M40-44,Male,Brasília,DF,Unknown,,0:29:22,2:21:09,1:35:04,,,4:30:35,1762,8469,5704,168,132,16235,29,27,2,78,70,9,33,31,3,29,27,2,Finisher,3326
+Rafael,Holsbach,Rafael Holsbach,738,M25-29,Male,Bras¡lia,Federal District,Unknown,,0:24:38,2:16:28,1:44:43,,,4:31:23,1478,8188,6283,204,130,16283,30,28,3,14,13,1,23,22,1,30,28,3,Finisher,3404
+Fernandes,Eduardo,Fernandes Eduardo,843,M35-39,Male,sao paulo,sao paulo,Unknown,,0:27:07,2:26:45,1:32:32,,,4:31:42,1627,8805,5552,145,173,16302,31,29,5,43,37,4,42,40,7,31,29,5,Finisher,3095
+Tiago,Donisete Ferreira Da Conceicao,Tiago Donisete Ferreira Da Conceicao,560,M30-34,Male,Londrina,,Unknown,,0:26:05,2:21:45,1:38:37,,,4:31:50,1565,8505,5917,199,124,16310,32,30,7,28,22,6,28,26,7,32,30,7,Finisher,3036
+Luis,Flavio,Luis Flavio,125,M25-29,Male,BRASILIA,Federal District,Unknown,,0:30:25,2:24:08,1:28:16,,,4:31:51,1825,8648,5296,409,133,16311,33,31,4,133,120,19,69,64,7,33,31,4,Finisher,3396
+Denis,Martins,Denis Martins,719,M30-34,Male,Brasilia,DF,Unknown,,0:30:12,2:25:43,1:31:56,,,4:32:02,1812,8743,5516,159,92,16322,34,32,8,123,111,30,51,48,17,34,32,8,Finisher,3032
+Hakanay,Queiroz,Hakanay Queiroz,535,M30-34,Male,Goiânia,Goias,Unknown,,0:00:00,0:00:00,2:06:31,,,4:33:14,0,0,7591,0,184,16394,35,33,9,99999,99999,99999,3,2,1,35,33,9,Finisher,3011
+Diego Fernando,Gonzalez,Diego Fernando Gonzalez,672,M35-39,Male,Wilde,Buenos Aires Province,Unknown,,0:28:10,2:28:52,1:31:12,,,4:33:25,1690,8932,5472,200,111,16405,36,34,6,57,51,12,64,60,15,36,34,6,Finisher,3065
+Luis,Humberto Ferreira,Luis Humberto Ferreira,855,M30-34,Male,Goiania,Goias,Unknown,,0:23:44,2:17:34,1:47:11,,,4:33:47,1424,8254,6431,192,126,16427,37,35,10,11,10,2,22,21,6,37,35,10,Finisher,3001
+Guilherme,Rigonatti,Guilherme Rigonatti,344,M25-29,Male,São Paulo,São Paulo,Unknown,,0:29:43,2:28:53,1:30:39,,,4:34:19,1783,8933,5439,193,111,16459,38,36,5,93,84,10,70,65,8,38,36,5,Finisher,3352
+Vanessa,Gianinni,Vanessa Gianinni,31,F30-34,Female,Campinas,São Paulo,Unknown,,0:25:42,0:00:00,4:35:59,,,4:35:59,1542,0,16559,152,0,16559,39,3,3,26,6,6,99999,99999,99999,39,3,3,Finisher,
+Ricardo,Pinheiro De Freitas Soares,Ricardo Pinheiro De Freitas Soares,630,M25-29,Male,Piracicaba,São Paulo,Unknown,,0:29:34,2:27:33,1:34:01,,,4:36:16,1774,8853,5641,201,107,16576,40,37,6,83,75,7,65,61,6,40,37,6,Finisher,3317
+Pinhati,Marcio,Pinhati Marcio,153,M40-44,Male,SANTA BARBARA D OESTE,SAO PAULO,Unknown,,0:34:47,2:18:12,1:37:03,,,4:36:48,2087,8292,5823,269,137,16608,41,38,3,318,296,49,47,45,6,41,38,3,Finisher,3214
+Guilherme,Braz Goncalves,Guilherme Braz Goncalves,256,M25-29,Male,Luzi Nia,Goiás,Unknown,,0:30:11,2:29:28,1:32:01,,,4:37:53,1811,8968,5521,244,129,16673,42,39,7,121,109,16,92,87,13,42,39,7,Finisher,3287
+RAFAEL,LEITÃO,RAFAEL LEITÃO,581,M30-34,Male,Fortaleza,CE,Unknown,,0:30:12,2:22:18,1:41:08,,,4:38:04,1812,8538,6068,148,118,16684,43,40,11,122,110,29,38,36,13,43,40,11,Finisher,2924
+Bruna,Mahn,Bruna Mahn,35,F25-29,Female,Campinas,São Paulo,Unknown,,0:25:42,2:31:11,1:37:08,,,4:38:12,1542,9071,5828,160,91,16692,44,4,4,25,5,5,57,4,4,44,4,4,Finisher,
+Marcos Paulo,Oliveira,Marcos Paulo Oliveira,219,M40-44,Male,Brasilia,Intl State,Unknown,,0:28:33,2:24:46,1:39:41,,,4:38:40,1713,8686,5981,195,145,16720,45,41,4,68,61,5,44,42,4,45,41,4,Finisher,3180
+Fernando,Palhares,Fernando Palhares,938,M40-44,Male,Florianopolis,Intl State,Unknown,,0:34:00,2:27:26,1:32:41,,,4:38:53,2040,8846,5561,178,108,16733,46,42,5,276,256,42,100,95,14,46,42,5,Finisher,3176
+Thiago,Mohana,Thiago Mohana,897,M25-29,Male,Fortaleza,CE,Unknown,,0:26:56,2:28:51,1:36:53,,,4:39:08,1616,8931,5813,206,182,16748,47,43,8,39,33,6,55,52,4,47,43,8,Finisher,3265
+Anderson,Rogenski,Anderson Rogenski,236,M25-29,Male,Rio de Janeiro,rio de janeiro,Unknown,,0:33:23,2:22:51,1:37:46,,,4:39:29,2003,8571,5866,203,126,16769,48,44,9,248,230,35,58,54,5,48,44,9,Finisher,3259
+Leonardo,Martellotto,Leonardo Martellotto,650,M30-34,Male,Cordoba,Cordoba,Unknown,,0:30:44,2:28:41,1:36:00,,,4:39:56,1844,8921,5760,165,106,16796,49,45,12,146,133,36,78,73,22,49,45,12,Finisher,2890
+Marc,Szlezynger,Marc Szlezynger,427,M40-44,Male,São Paulo,SP,Unknown,,0:29:56,2:24:11,1:40:48,,,4:40:26,1796,8651,6048,197,134,16826,50,46,6,107,96,14,46,44,5,50,46,6,Finisher,3149
+Pedro Alejandro,León,Pedro Alejandro León,644,M40-44,Male,Santa Lucia,AR-J,Unknown,,0:30:06,2:23:39,1:41:09,,,4:40:49,1806,8619,6069,233,122,16849,51,47,7,118,106,15,48,46,7,51,47,7,Finisher,3142
+Nilton,Jorge Gaspar Cabral,Nilton Jorge Gaspar Cabral,586,M40-44,Male,São Paulo,São Paulo,Unknown,,0:37:20,2:23:17,1:33:44,,,4:40:58,2240,8597,5624,292,105,16858,52,48,8,446,415,71,113,108,20,52,48,8,Finisher,3139
+Fabiano,Santos,Fabiano Santos,173,M30-34,Male,Brasilia,Intl State,Unknown,,0:29:52,2:24:09,1:41:26,,,4:42:01,1792,8649,6086,233,161,16921,53,49,13,101,91,25,49,47,16,53,49,13,Finisher,2852
+Andre,Kina,Andre Kina,810,M40-44,Male,sao Paulo,Intl State,Unknown,,0:28:45,2:32:06,1:33:54,,,4:42:34,1725,9126,5634,244,225,16954,54,50,9,69,62,6,105,100,17,54,50,9,Finisher,3110
+LEONARDO,BRETTAS,LEONARDO BRETTAS,182,M40-44,Male,Belo Horizonte,Minas Gerais,Unknown,,0:32:48,2:27:13,1:36:57,,,4:43:18,1968,8833,5817,249,131,16998,55,51,10,217,200,28,97,92,12,55,51,10,Finisher,3097
+Adriano,Ricardo Ribeiro Sevilla,Adriano Ricardo Ribeiro Sevilla,507,M35-39,Male,São Paulo,São Paulo,Unknown,,0:32:57,2:28:36,1:35:23,,,4:43:31,1977,8916,5723,282,113,17011,56,52,7,223,206,49,119,114,24,56,52,7,Finisher,2883
+Lourengo,Pontual Franga Bizarria,Lourengo Pontual Franga Bizarria,590,M35-39,Male,Fortaleza,Ce,Unknown,,0:28:03,2:29:15,1:41:06,,,4:43:38,1683,8955,6066,182,132,17018,57,53,8,55,49,10,63,59,14,57,53,8,Finisher,2881
+Leonardo,Schwindt,Leonardo Schwindt,126,M35-39,Male,Asa sul,Distrito Federal,Unknown,,0:29:59,2:26:15,1:41:59,,,4:43:57,1799,8775,6119,217,127,17037,58,54,9,112,101,23,60,56,11,58,54,9,Finisher,2875
+Tomaz,Alves Nina,Tomaz Alves Nina,242,M30-34,Male,BRASILIA,DF,Unknown,,0:30:57,2:29:09,1:37:43,,,4:43:58,1857,8949,5863,222,147,17038,59,55,14,148,135,37,94,89,27,59,55,14,Finisher,2817
+Luciano,Focá,Luciano Focá,508,M35-39,Male,São Paulo,BR-SP,Unknown,,0:28:21,2:27:16,1:44:11,,,4:44:41,1701,8836,6251,189,104,17081,60,56,10,66,59,16,52,49,8,60,56,10,Finisher,2862
+Pedro,Berredo,Pedro Berredo,702,M35-39,Male,Brasília,DF,Unknown,,0:28:14,2:30:39,1:40:01,,,4:44:49,1694,9039,6001,204,151,17089,61,57,11,59,53,13,81,76,18,61,57,11,Finisher,2859
+Augusto Cesar,Pocas,Augusto Cesar Pocas,947,M40-44,Male,São Paulo,Intl State,Unknown,,0:33:02,2:25:47,1:41:04,,,4:45:20,1982,8747,6064,192,135,17120,62,58,11,226,209,31,73,68,8,62,58,11,Finisher,3060
+Christian,Yanzon,Christian Yanzon,651,M35-39,Male,cordoba,Intl State,Unknown,,0:34:07,2:27:33,1:38:41,,,4:45:40,2047,8853,5921,208,111,17140,63,59,12,284,263,58,109,104,22,63,59,12,Finisher,2844
+Andre,Alcantara,Andre Alcantara,364,M45-49,Male,RIO CLARO,SP,Unknown,,0:33:28,2:29:04,1:34:51,,,4:45:52,2008,8944,5691,338,171,17152,64,60,1,254,236,16,131,125,4,64,60,1,Finisher,3500
+Mariana,Andrade,Mariana Andrade,33,F25-29,Female,Florinópolis,BR-SC,Unknown,,0:28:16,2:30:07,1:44:15,,,4:46:15,1696,9007,6255,133,84,17175,65,5,5,61,7,7,66,5,5,65,5,5,Finisher,
+Paulo,Henrique De Moraes Mendes,Paulo Henrique De Moraes Mendes,104,M25-29,Male,Brasilia,Federal District,Unknown,,0:29:36,2:29:09,1:42:18,,,4:46:25,1776,8949,6138,201,121,17185,66,61,10,87,79,9,76,71,10,66,61,10,Finisher,3134
+Pedro,Macedo Fernandes,Pedro Macedo Fernandes,847,M30-34,Male,Sao Paulo,,Unknown,,0:27:53,2:28:23,1:45:57,,,4:46:44,1673,8903,6357,153,118,17204,67,62,15,52,46,12,53,50,18,67,62,15,Finisher,2768
+Claudio,Delpueche,Claudio Delpueche,972,M40-44,Male,Puerto Pirámides,Chubut,Unknown,,0:30:36,2:30:55,1:40:25,,,4:46:54,1836,9055,6025,197,101,17214,68,63,12,143,130,19,104,99,16,68,63,12,Finisher,3032
+Rogerio,Del Nero,Rogerio Del Nero,354,M35-39,Male,Osasco,São Paulo,Unknown,,0:31:05,2:28:00,1:41:51,,,4:47:00,1865,8880,6111,192,172,17220,69,64,13,157,142,32,82,77,19,69,64,13,Finisher,2820
+Orlando,Bonadiman Neto,Orlando Bonadiman Neto,992,M30-34,Male,Limeira,Sao Paulo,Unknown,,0:24:45,2:31:10,1:45:50,,,4:47:10,1485,9070,6350,196,129,17230,70,65,16,16,15,4,54,51,19,70,65,16,Finisher,2760
+Daniel,Costa Rodrigues,Daniel Costa Rodrigues,693,M35-39,Male,BRASILIA,DISTRITO FEDERAL,Unknown,,0:31:25,2:23:28,1:45:25,,,4:47:43,1885,8608,6325,286,159,17263,71,66,14,171,156,36,59,55,10,71,66,14,Finisher,2807
+Leandro,Leao,Leandro Leao,284,M25-29,Male,SAO PAULO,SP,Unknown,,0:29:47,2:29:18,1:42:44,,,4:48:06,1787,8958,6164,193,184,17286,72,67,11,97,87,12,84,79,11,72,67,11,Finisher,3104
+Fabio,Corregiari,Fabio Corregiari,401,M35-39,Male,Sco Paulo,Sc,Unknown,,0:33:02,2:32:13,1:37:35,,,4:48:16,1982,9133,5855,170,156,17296,73,68,15,229,211,50,130,124,26,73,68,15,Finisher,2797
+Vitor,Girão,Vitor Girão,540,M25-29,Male,Fortaleza,Ceará,Unknown,,0:31:12,2:29:30,1:42:40,,,4:48:19,1872,8970,6160,183,114,17299,74,69,12,163,148,21,93,88,14,74,69,12,Finisher,3100
+Ariane,Monticeli,Ariane Monticeli,37,F30-34,Female,São José dos Campos ,BR-SP,Unknown,,0:28:58,2:38:36,1:36:12,,,4:48:38,1738,9516,5772,181,111,17318,75,6,6,72,8,8,152,7,6,75,6,6,Finisher,
+Tio,Gustavo,Tio Gustavo,91,M30-34,Male,Brasmlia,Di,Unknown,,0:43:22,2:28:12,1:31:56,,,4:48:41,2602,8892,5516,190,121,17321,76,70,17,649,593,158,209,199,59,76,70,17,Finisher,2732
+Tiago,Rossi,Tiago Rossi,417,M30-34,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:27:55,2:33:12,1:41:12,,,4:48:46,1675,9192,6072,239,148,17326,77,71,18,53,47,13,107,102,30,77,71,18,Finisher,2731
+Daniel,Guimarces,Daniel Guimarces,996,M30-34,Male,,,Unknown,,0:30:18,2:28:43,1:44:00,,,4:48:54,1818,8923,6240,190,163,17334,78,72,19,125,113,31,79,74,23,78,72,19,Finisher,2729
+David,Polania,David Polania,961,M30-34,Male,Ciudad De Mexico,Ciudad de Mexico,Unknown,,0:32:21,2:38:27,1:33:39,,,4:48:58,1941,9507,5619,186,85,17338,79,73,20,196,181,49,198,189,54,79,73,20,Finisher,2727
+Lucas,Cachapuz,Lucas Cachapuz,825,M18-24,Male,RIO DE JANEIRO,intl,Unknown,,0:32:17,2:28:39,1:42:23,,,4:49:09,1937,8919,6143,191,159,17349,80,74,1,192,177,7,96,91,1,80,74,1,Finisher,3500
+Joco,Paulo Machado Rodrigues,Joco Paulo Machado Rodrigues,399,M30-34,Male,Brasmlia De Minas,Di,Unknown,,0:29:35,2:24:05,1:49:05,,,4:49:20,1775,8645,6545,212,183,17360,81,75,21,85,77,21,45,43,15,81,75,21,Finisher,2721
+Pablo,Durante ,Pablo Durante,664,M40-44,Male,Nordelta,AR-B,Unknown,,0:29:13,2:30:08,1:44:14,,,4:49:24,1753,9008,6254,239,110,17364,82,76,13,77,69,8,90,85,11,82,76,13,Finisher,2987
+Rafael,Aragao Queiroz De Freitas,Rafael Aragao Queiroz De Freitas,534,M30-34,Male,GOIANIA,GOIAS,Unknown,,0:30:23,2:27:21,1:46:14,,,4:49:29,1823,8841,6374,206,125,17369,83,77,22,130,117,33,67,62,20,83,77,22,Finisher,2718
+Diogo,Octavio Nebias,Diogo Octavio Nebias,567,M35-39,Male,Sco Paulo,Sc,Unknown,,0:31:12,2:34:38,1:38:16,,,4:49:53,1872,9278,5896,188,159,17393,84,78,16,161,146,33,140,134,29,84,78,16,Finisher,2768
+TIAGO,LESSA,TIAGO LESSA,523,M30-34,Male,Rio de Janeiro,BR-RJ,Unknown,,0:36:55,2:28:08,1:38:25,,,4:50:03,2215,8888,5905,292,103,17403,85,79,23,422,395,108,146,140,37,85,79,23,Finisher,2708
+Jose,Eduardo Da Lucena,Jose Eduardo Da Lucena,233,M25-29,Male,São Paulo,São Paulo/Brasil,Unknown,,0:29:58,2:32:51,1:40:50,,,4:50:10,1798,9171,6050,226,165,17410,86,80,13,109,98,13,123,117,21,86,80,13,Finisher,3066
+Sandor,Balsamo,Sandor Balsamo,108,M40-44,Male,BRASÍLIA,Intl State,Unknown,,0:32:57,2:26:18,1:46:23,,,4:50:17,1977,8778,6383,177,102,17417,87,81,14,222,205,30,80,75,10,87,81,14,Finisher,2971
+Jesus,Lopes De Souza,Jesus Lopes De Souza,473,M30-34,Male,Sco Paulo,Sc,Unknown,,0:33:58,2:27:38,1:43:49,,,4:50:19,2038,8858,6229,172,122,17419,88,82,24,271,253,68,102,97,28,88,82,24,Finisher,2703
+Marcos,Souza Mascarenhas Silva,Marcos Souza Mascarenhas Silva,529,M25-29,Male,Lauro De Freitas,Ba,Unknown,,0:34:55,2:29:46,1:38:41,,,4:50:20,2095,8986,5921,278,140,17420,89,83,14,324,302,42,141,135,26,89,83,14,Finisher,3063
+Alexandre,Kalman,Alexandre Kalman,355,M35-39,Male,Sao paulo,BR-SP,Unknown,,0:34:11,2:32:39,1:37:09,,,4:50:33,2051,9159,5829,265,129,17433,90,84,17,287,266,59,162,154,34,90,84,17,Finisher,2756
+Felipe,Matos,Felipe Matos,167,M35-39,Male,Brasilia,Distrito Federal,Unknown,,0:28:20,2:27:21,1:49:41,,,4:50:37,1700,8841,6581,215,100,17437,91,85,18,65,58,15,56,53,9,91,85,18,Finisher,2755
+Gil,Castello Branco,Gil Castello Branco,721,M25-29,Male,Brasília,DF,Unknown,,0:31:14,2:29:48,1:43:37,,,4:50:44,1874,8988,6217,237,128,17444,92,86,15,166,151,23,106,101,16,92,86,15,Finisher,3056
+Thiago,Ferreira,Thiago Ferreira,826,M30-34,Male,Brasilia,Federal District,Unknown,,0:24:41,2:34:44,1:44:48,,,4:50:48,1481,9284,6288,206,189,17448,93,87,25,15,14,3,89,84,26,93,87,25,Finisher,2694
+Davi,Duchovni Silva,Davi Duchovni Silva,770,M25-29,Male,Campinas,Intl State,Unknown,,0:26:30,2:38:16,1:40:27,,,4:50:53,1590,9496,6027,212,128,17453,94,88,16,34,28,3,133,127,23,94,88,16,Finisher,3053
+Maximiliano,Ago,Maximiliano Ago,667,M40-44,Male,ROSARIO,Intl State,Unknown,,0:29:40,2:30:48,1:43:15,,,4:51:19,1780,9048,6195,289,167,17479,95,89,15,90,82,11,110,105,19,95,89,15,Finisher,2953
+Karine,Ximenes,Karine Ximenes,616,F25-29,Female,João Pessoa,Paraiba,Unknown,,0:33:59,2:29:18,1:42:57,,,4:51:25,2039,8958,6177,183,128,17485,96,7,1,273,20,4,120,6,1,96,7,1,Finisher,3500
+Waldemar,Ribeiro,Waldemar Ribeiro,501,M45-49,Male,São Paulo,São Paulo,Unknown,,0:29:57,2:31:48,1:43:35,,,4:51:28,1797,9108,6215,215,153,17488,97,90,2,108,97,4,111,106,3,97,90,2,Finisher,3399
+Luis,Carlos Lyra Pato,Luis Carlos Lyra Pato,841,M50-54,Male,Brasilia,DF,Unknown,,0:27:37,2:32:26,1:45:22,,,4:51:35,1657,9146,6322,216,154,17495,98,91,1,47,41,1,91,86,2,98,91,1,Finisher,3500
+Guyot,Pierre-Yves,Guyot Pierre-Yves,966,M25-29,Male,Cand‚,,Unknown,,0:29:34,2:29:59,1:47:50,,,4:52:29,1774,8999,6470,195,111,17549,99,92,17,84,76,8,87,82,12,99,92,17,Finisher,3025
+Leandro,Grippo,Leandro Grippo,882,M30-34,Male,Curitiba,PR - Paraná,Unknown,,0:28:20,2:33:33,1:46:03,,,4:52:46,1700,9213,6363,170,120,17566,100,93,26,64,57,16,103,98,29,100,93,26,Finisher,2659
+Carlos,Eduardo De Mattos,Carlos Eduardo De Mattos,470,M35-39,Male,CURITIBA,,Unknown,,0:34:38,2:27:42,1:42:08,,,4:52:50,2078,8862,6128,298,204,17570,101,94,19,309,287,66,126,120,25,101,94,19,Finisher,2715
+Tiago,Barros,Tiago Barros,186,M35-39,Male,Julio de Castilhos,Rio Grande Do Sul,Unknown,,0:33:35,2:32:35,1:39:23,,,4:52:58,2015,9155,5963,277,168,17578,102,95,20,259,241,53,154,147,33,102,95,20,Finisher,2713
+Jorge Alejandro,Barla,Jorge Alejandro Barla,674,M45-49,Male,concordia,AR-E,Unknown,,0:38:31,2:27:23,1:41:37,,,4:53:04,2311,8843,6097,206,127,17584,103,96,3,509,468,35,142,136,6,103,96,3,Finisher,3370
+Marcelo,Cristino,Marcelo Cristino,514,M35-39,Male,CEARA,Other,Unknown,,0:28:17,2:30:54,1:48:26,,,4:53:10,1697,9054,6506,187,146,17590,104,97,21,63,56,14,83,78,20,104,97,21,Finisher,2709
+Carlos Eugenio,Reino,Carlos Eugenio Reino,179,M45-49,Male,Bras¡lia,Federal District,Unknown,,0:30:24,2:34:24,1:42:09,,,4:53:26,1824,9264,6129,204,185,17606,105,98,4,131,118,6,132,126,5,105,98,4,Finisher,3363
+Fernando,Costa E Souza,Fernando Costa E Souza,254,M30-34,Male,São Paulo,,Unknown,,0:33:12,2:32:00,1:39:30,,,4:53:32,1992,9120,5970,313,217,17612,106,99,27,238,220,58,150,144,39,106,99,27,Finisher,2645
+Pedro,Reis,Pedro Reis,155,M25-29,Male,GOIANIA,GO,Unknown,,0:29:46,2:29:01,1:49:46,,,4:53:39,1786,8941,6586,187,119,17619,107,100,18,95,86,11,72,67,9,107,100,18,Finisher,3004
+Guilherme,Galvarros Bueno Lobo Ribeiro,Guilherme Galvarros Bueno Lobo Ribeiro,176,M30-34,Male,Brasmlia,Di,Unknown,,0:29:53,2:36:56,1:39:23,,,4:53:42,1793,9416,5963,304,146,17622,108,101,28,102,92,26,169,161,46,108,101,28,Finisher,2642
+Rodrigo,Vasconcellos Ferreira,Rodrigo Vasconcellos Ferreira,697,M35-39,Male,BRASILIA,Federal District,Unknown,,0:27:50,2:28:59,1:48:17,,,4:53:48,1670,8939,6497,304,218,17628,109,102,22,50,44,9,71,66,16,109,102,22,Finisher,2698
+Hudson,Lomeu Ramos,Hudson Lomeu Ramos,146,M45-49,Male,GOIANIA,goias,Unknown,,0:33:10,2:35:05,1:39:33,,,4:53:48,1990,9305,5973,234,126,17628,110,103,5,236,218,13,174,166,10,110,103,5,Finisher,3357
+Alexandre,Birman,Alexandre Birman,899,M35-39,Male,São Paulo,SP,Unknown,,0:26:59,2:29:11,1:51:39,,,4:53:54,1619,8951,6699,244,121,17634,111,104,23,40,34,2,62,58,13,111,104,23,Finisher,2696
+Guilherme,Pimentel,Guilherme Pimentel,796,M18-24,Male,Curitiba,Intl State,Unknown,,0:29:54,2:32:07,1:46:20,,,4:54:03,1794,9127,6380,209,133,17643,112,105,2,105,94,3,114,109,2,112,105,2,Finisher,3411
+Gabriel,Fontanive Dupont,Gabriel Fontanive Dupont,376,M18-24,Male,Porto Alegre,Ri,Unknown,,0:35:28,2:34:28,1:38:21,,,4:54:14,2128,9268,5901,230,127,17654,113,106,3,351,327,16,195,186,5,113,106,3,Finisher,3408
+Jackson,Borges,Jackson Borges,184,M35-39,Male,Brasilia,DF,Unknown,,0:34:42,2:38:55,1:35:20,,,4:54:18,2082,9535,5720,203,118,17658,114,107,24,312,290,67,242,231,53,114,107,24,Finisher,2689
+Leandro,Moreira,Leandro Moreira,597,M30-34,Male,Manaus,Amazonas,Unknown,,0:29:44,2:28:40,1:49:18,,,4:54:33,1784,8920,6558,265,146,17673,115,108,29,94,85,24,88,83,25,115,108,29,Finisher,2627
+VAGNER,JULIANO CAMARGO DOS SANTOS,VAGNER JULIANO CAMARGO DOS SANTOS,569,M30-34,Male,São Paulo - SP,SP,Unknown,,0:29:53,2:28:50,1:49:51,,,4:54:45,1793,8930,6591,201,170,17685,116,109,30,103,93,27,75,70,21,116,109,30,Finisher,2623
+Guilherme,Nehemy,Guilherme Nehemy,886,M35-39,Male,SAO PAULO,,Unknown,,0:32:57,2:32:56,1:40:54,,,4:54:47,1977,9176,6054,253,227,17687,117,110,25,221,204,48,149,143,32,117,110,25,Finisher,2680
+Alex,Gastin Valverde,Alex Gastin Valverde,890,M50-54,Male,Porto alegre,,Unknown,,0:32:02,2:25:25,1:50:35,,,4:55:01,1922,8725,6635,234,185,17701,118,111,2,185,170,4,68,63,1,118,111,2,Finisher,3438
+Roberto,Campos,Roberto Campos,609,M35-39,Male,santos,,Unknown,,0:27:09,2:29:42,1:52:32,,,4:55:03,1629,8982,6752,183,157,17703,119,112,26,44,38,5,61,57,12,119,112,26,Finisher,2675
+Rafael,Busatto,Rafael Busatto,880,M30-34,Male,curitiba,Parana ,Unknown,,0:31:09,2:36:48,1:42:21,,,4:55:07,1869,9408,6141,181,108,17707,120,113,31,159,144,40,157,150,41,120,113,31,Finisher,2617
+Leonardo,Rodrigues Da Silva,Leonardo Rodrigues Da Silva,878,M30-34,Male,Vila velha,Espírito Santo,Unknown,,0:26:52,2:41:54,1:40:45,,,4:55:39,1612,9714,6045,237,131,17739,121,114,32,38,32,9,182,174,49,121,114,32,Finisher,2607
+Cesar,Pavão,Cesar Pavão,240,M30-34,Male,Aracaju,BR-SE,Unknown,,0:29:35,0:00:00,4:55:42,,,4:55:42,1775,0,17742,200,0,17742,122,115,33,86,78,22,99999,99999,99999,122,115,33,Finisher,2606
+Christiano,Neis,Christiano Neis,432,M40-44,Male,Santna de Parnaiba,SP,Unknown,,0:27:02,2:31:57,1:51:55,,,4:55:54,1622,9117,6715,184,116,17754,123,116,16,42,36,4,74,69,9,123,116,16,Finisher,2870
+Gisele,Bertucci,Gisele Bertucci,38,F30-34,Female,Curitiba,Paraná,Unknown,,0:24:52,0:24:52,2:39:59,,,4:56:03,1492,1492,9599,5036,144,17763,124,8,7,19,3,3,1,1,1,124,8,7,Finisher,
+Bruno,César França,Bruno César França,305,M35-39,Male,BARUERI,SÃO PAULO,Unknown,,0:30:03,2:30:23,1:48:36,,,4:56:04,1803,9023,6516,220,202,17764,125,117,27,116,105,25,95,90,21,125,117,27,Finisher,2657
+Carlos,Eduardo De Souza Pedrozo,Carlos Eduardo De Souza Pedrozo,227,M45-49,Male,Sco Paulo De Olivenga,Sc,Unknown,,0:39:56,2:29:31,1:38:11,,,4:56:09,2396,8971,5891,341,170,17769,126,118,6,566,520,42,214,204,16,126,118,6,Finisher,3314
+Geraldo,Lemos,Geraldo Lemos,119,M35-39,Male,brasilia,df,Unknown,,0:32:48,2:33:03,1:44:47,,,4:56:13,1968,9183,6287,213,122,17773,127,119,28,216,199,46,144,138,31,127,119,28,Finisher,2654
+Alexandre,De Barros Perdão,Alexandre De Barros Perdão,238,M40-44,Male,Curitiba,paraná,Unknown,,0:25:32,2:33:28,1:47:16,,,4:56:38,1532,9208,6436,324,298,17798,128,120,17,21,18,1,99,94,13,128,120,17,Finisher,2857
+Daniel,Gardano Serra,Daniel Gardano Serra,430,M25-29,Male,Santana de Parnaiba,Sao Paulo,Unknown,,0:30:19,2:33:30,1:47:09,,,4:56:44,1819,9210,6429,221,125,17804,129,121,19,126,114,17,128,122,22,129,121,19,Finisher,2948
+Nicolas,Serafin,Nicolas Serafin,722,M30-34,Male,Belo Horizonte,Intl State,Unknown,,0:33:02,2:33:22,1:43:50,,,4:56:59,1982,9202,6230,283,122,17819,130,122,34,227,210,54,159,151,42,130,122,34,Finisher,2583
+Hans,Kittler,Hans Kittler,77,M40-44,Male,San Diego,CA,Unknown,,0:26:07,2:37:18,1:48:27,,,4:57:36,1567,9438,6507,160,184,17856,131,123,18,29,23,3,116,111,21,131,123,18,Finisher,2840
+Fernando,Armelin,Fernando Armelin,461,M55-59,Male,Sao Paulo,Intl State,Unknown,,0:32:28,0:00:00,4:57:45,,,4:57:45,1948,0,17865,347,0,17865,132,124,1,199,183,2,99999,99999,99999,132,124,1,Finisher,3500
+Rafael,Figueiredo,Rafael Figueiredo,952,M35-39,Male,Franca,São Paulo,Unknown,,0:29:55,2:27:54,1:52:54,,,4:57:49,1795,8874,6774,260,166,17869,133,125,29,106,95,22,77,72,17,133,125,29,Finisher,2625
+Ignacio,Dominguez Adame,Ignacio Dominguez Adame,765,M45-49,Male,Madrid,,Unknown,,0:30:32,2:37:39,1:39:29,,,4:57:51,1832,9459,5969,397,214,17871,134,126,7,140,127,8,211,201,15,134,126,7,Finisher,3284
+Almeida,Diego,Almeida Diego,940,M30-34,Male,,,Unknown,,0:28:17,2:40:01,1:43:37,,,4:58:04,1697,9601,6217,210,159,17884,135,127,35,62,55,15,168,160,45,135,127,35,Finisher,2564
+Dimas,Marchi,Dimas Marchi,462,M40-44,Male,Amparo,SAO PAULO,Unknown,,0:33:37,2:37:26,1:40:49,,,4:58:22,2017,9446,6049,260,130,17902,136,128,19,260,242,39,222,212,32,136,128,19,Finisher,2826
+Jone,Costa,Jone Costa,367,M30-34,Male,Palmas,TOCANTINS,Unknown,,0:31:33,2:38:05,1:43:02,,,4:58:36,1893,9485,6182,221,135,17916,137,129,36,174,159,44,185,177,51,137,129,36,Finisher,2554
+Giovane,Caldas,Giovane Caldas,416,M45-49,Male,SÃO PAULO,SP,Unknown,,0:33:13,2:35:51,1:42:47,,,4:58:47,1993,9351,6167,213,203,17927,138,130,8,240,222,14,180,172,11,138,130,8,Finisher,3267
+Marcos,Ruben Hernandez,Marcos Ruben Hernandez,660,M30-34,Male,comodoro rivadavia,Chubut,Unknown,,0:34:33,2:38:05,1:39:44,,,4:58:50,2073,9485,5984,207,181,17930,139,131,37,306,284,73,230,220,66,139,131,37,Finisher,2550
+Aguinaldo,Macedo Filho,Aguinaldo Macedo Filho,617,M35-39,Male,Joao Pessoa,Paraíba,Unknown,,0:37:03,2:29:57,1:45:06,,,4:59:13,2223,8997,6306,299,128,17953,140,132,30,432,403,94,170,162,37,140,132,30,Finisher,2600
+Fabricio,Peres,Fabricio Peres,747,M30-34,Male,São Paulo,Intl State,Unknown,,0:26:16,2:36:25,1:51:26,,,4:59:37,1576,9385,6686,212,118,17977,141,133,38,31,25,7,118,113,31,141,133,38,Finisher,2536
+Luiz,Paulo Volpe,Luiz Paulo Volpe,757,M35-39,Male,Sao Paulo,São Paulo,Unknown,,0:00:00,0:00:00,2:18:14,,,4:59:49,0,0,8294,0,131,17989,142,134,31,99999,99999,99999,13,12,3,142,134,31,Finisher,2589
+Joco,Henrique Guntzel,Joco Henrique Guntzel,683,M30-34,Male,,,Unknown,,0:33:27,2:34:42,1:42:56,,,4:59:57,2007,9282,6176,286,246,17997,143,135,39,253,235,63,183,175,50,143,135,39,Finisher,2530
+Guilherme,Moraes,Guilherme Moraes,549,M30-34,Male,Blumenau,Santa Catarina,Unknown,,0:34:19,2:36:27,1:44:15,,,5:00:01,2059,9387,6255,208,92,18001,144,136,40,294,272,71,202,193,56,144,136,40,Finisher,2528
+Marcelo,De Queiroz Rangel,Marcelo De Queiroz Rangel,533,M30-34,Male,Fortaleza,,Unknown,,0:37:58,2:26:21,1:49:26,,,5:00:06,2278,8781,6566,278,103,18006,145,137,41,485,450,122,139,133,35,145,137,41,Finisher,2527
+Rodrigo,Novais,Rodrigo Novais,113,M25-29,Male,Brasilia,DF,Unknown,,0:29:59,2:32:07,1:52:27,,,5:00:06,1799,9127,6747,197,136,18006,146,138,20,111,100,14,112,107,17,146,138,20,Finisher,2888
+Luiz Augusto,Alencar Barros,Luiz Augusto Alencar Barros,859,M45-49,Male,Hollywood,FL,Unknown,,0:30:45,2:39:25,1:44:31,,,5:00:17,1845,9565,6271,201,135,18017,147,139,9,147,134,10,190,182,13,147,139,9,Finisher,3240
+Eduardo,Couto,Eduardo Couto,701,M25-29,Male,Rio de janeiro,,Unknown,,0:31:48,2:30:39,1:51:52,,,5:00:41,1908,9039,6712,238,144,18041,148,140,21,182,167,25,122,116,20,148,140,21,Finisher,2877
+Jose,Lucio Cardim,Jose Lucio Cardim,472,M45-49,Male,Sco Paulo De Olivenga,Sc,Unknown,,0:32:19,2:37:30,1:44:02,,,5:01:01,1939,9450,6242,263,167,18061,149,141,10,195,180,12,201,192,14,149,141,10,Finisher,3227
+Flavio,Pereira,Flavio Pereira,495,M35-39,Male,SAO PAULO,,Unknown,,0:28:54,2:36:11,1:49:06,,,5:01:07,1734,9371,6546,210,206,18067,150,142,32,70,63,17,136,130,27,150,142,32,Finisher,2566
+Euripedes,Junior,Euripedes Junior,801,M35-39,Male,BRASILIA,DF,Unknown,,0:36:10,2:35:33,1:41:22,,,5:01:13,2170,9333,6082,351,137,18073,151,143,33,385,360,80,254,243,57,151,143,33,Finisher,2564
+Bernardo,Lincoln,Bernardo Lincoln,716,M30-34,Male,brasília,Intl State,Unknown,,0:32:25,2:34:12,1:46:52,,,5:01:30,1945,9252,6412,285,196,18090,152,144,42,198,182,50,163,155,43,152,144,42,Finisher,2502
+Guilherme,Carneiro Rodrigues,Guilherme Carneiro Rodrigues,726,M18-24,Male,rio de janeiro,RJ,Unknown,,0:32:49,2:40:58,1:43:05,,,5:02:18,1969,9658,6185,216,110,18138,153,145,4,218,201,10,249,238,10,153,145,4,Finisher,3263
+Gabriel,Emanuel,Gabriel Emanuel,649,M25-29,Male,Moron,Buenos Aires Buenos Aires Moron,Unknown,,0:30:32,2:38:21,1:47:53,,,5:02:23,1832,9501,6473,209,128,18143,154,146,22,141,128,20,178,170,27,154,146,22,Finisher,2846
+Alejandro,Sambad,Alejandro Sambad,662,M50-54,Male,Concordia,Entre Rios,Unknown,,0:33:14,2:35:21,1:47:43,,,5:02:39,1994,9321,6463,213,168,18159,155,147,3,241,223,7,173,165,3,155,147,3,Finisher,3300
+Celso,Aziz Kassab,Celso Aziz Kassab,449,M45-49,Male,Sao Paulo,SP,Unknown,,0:35:55,2:36:30,1:43:41,,,5:02:56,2155,9390,6221,284,126,18176,156,148,11,369,345,27,244,233,17,156,148,11,Finisher,3192
+Somulo,Mafra,Somulo Mafra,459,M30-34,Male,Rio de Janeiro,RJ,Unknown,,0:33:09,0:00:00,5:03:08,,,5:03:08,1989,0,18188,269,0,18188,157,149,43,235,217,56,99999,99999,99999,157,149,43,Finisher,2472
+Martín,Prieto,Martín Prieto,970,M18-24,Male,Asuncion,Distrito Capital,Unknown,,0:36:17,2:37:01,1:45:25,,,5:03:17,2177,9421,6325,172,102,18197,158,150,5,392,367,18,232,222,8,158,150,5,Finisher,3245
+Jorge Wiliam,Elnour Junior,Jorge Wiliam Elnour Junior,497,M30-34,Male,Brasilia,DISTRITO FEDERAL,Unknown,,0:31:12,2:31:10,1:53:48,,,5:03:23,1872,9070,6828,294,139,18203,159,151,44,164,149,41,125,119,32,159,151,44,Finisher,2468
+Nascimento,Gilberto,Nascimento Gilberto,392,M40-44,Male,Sao Paulo,Sc,Unknown,,0:38:39,2:34:21,1:44:31,,,5:03:43,2319,9261,6271,253,119,18223,160,152,20,512,471,80,246,235,38,160,152,20,Finisher,2729
+Daniel,Ruman Rodrigues,Daniel Ruman Rodrigues,493,M25-29,Male,São Paulo,Sao Paulo,Unknown,,0:26:11,2:33:51,1:56:12,,,5:04:00,1571,9231,6972,250,216,18240,161,153,23,30,24,2,98,93,15,161,153,23,Finisher,2817
+Francisco,Cavalcanti,Francisco Cavalcanti,551,M40-44,Male,Fortaleza,,Unknown,,0:31:04,2:32:32,1:54:42,,,5:04:05,1864,9152,6882,208,139,18245,162,154,21,155,140,22,124,118,22,162,154,21,Finisher,2723
+Marco,Aurelio Santarlasci,Marco Aurelio Santarlasci,424,M45-49,Male,Sao Paulo,SP,Unknown,,0:27:57,2:31:26,1:58:50,,,5:04:08,1677,9086,7130,197,158,18248,163,155,12,54,48,2,86,81,2,163,155,12,Finisher,3171
+Marcelo,Alves Dos Santos,Marcelo Alves Dos Santos,452,M30-34,Male,Brasilia,Federal District,Unknown,,0:38:27,2:25:14,1:54:42,,,5:04:37,2307,8714,6882,227,147,18277,164,156,45,505,465,126,127,121,33,164,156,45,Finisher,2446
+Francisco,Carvalho Junior,Francisco Carvalho Junior,699,M50-54,Male,fortaleza,,Unknown,,0:32:40,2:35:58,1:49:45,,,5:04:40,1960,9358,6585,212,165,18280,165,157,4,210,194,6,175,167,4,165,157,4,Finisher,3264
+Renan,Correia Martino,Renan Correia Martino,110,M30-34,Male,Brasilia,DF,Unknown,,0:30:57,2:40:51,1:47:50,,,5:04:44,1857,9651,6470,206,100,18284,166,158,46,149,136,38,218,208,62,166,158,46,Finisher,2444
+Marcio,Mollica,Marcio Mollica,868,M35-39,Male,,,Unknown,,0:32:36,2:31:37,1:53:30,,,5:05:07,1956,9097,6810,263,181,18307,167,159,34,206,190,44,137,131,28,167,159,34,Finisher,2494
+Mauro,Paglia,Mauro Paglia,666,M30-34,Male,ROSARIO,Santa Fe,Unknown,,0:29:32,2:39:51,1:50:37,,,5:05:14,1772,9591,6637,196,118,18314,168,160,47,82,74,20,181,173,48,168,160,47,Finisher,2435
+Louren‡o,Freitas,Louren‡o Freitas,830,M25-29,Male,Aracaju,,Unknown,,0:34:41,2:34:19,1:48:08,,,5:05:25,2081,9259,6488,331,166,18325,169,161,24,311,289,39,207,197,29,169,161,24,Finisher,2792
+Jose Ricardo,Gantus,Jose Ricardo Gantus,823,M30-34,Male,DORAL,FL,Unknown,,0:33:20,2:37:25,1:43:47,,,5:05:59,2000,9445,6227,408,279,18359,170,162,48,246,228,61,252,241,71,170,162,48,Finisher,2421
+Virginia,Vasconcelos,Virginia Vasconcelos,720,F35-39,Female,Aparecida de Goiânia,GO,Unknown,,0:35:10,2:36:19,1:50:27,,,5:06:19,2110,9379,6627,170,93,18379,171,9,1,336,23,4,203,10,1,171,9,1,Finisher,3500
+Gustavo,Fiúza Lima,Gustavo Fiúza Lima,690,M40-44,Male,Brasilia,Federal District,Unknown,,0:37:19,2:29:37,1:54:27,,,5:06:30,2239,8977,6867,307,0,18390,172,163,22,445,414,70,172,164,27,172,163,22,Finisher,2679
+Bruno,Paiva Gouveia,Bruno Paiva Gouveia,299,M25-29,Male,Brasmlia,Di,Unknown,,0:34:45,2:36:47,1:49:05,,,5:06:34,2085,9407,6545,235,122,18394,173,164,25,316,294,40,223,213,30,173,164,25,Finisher,2771
+Jorge,Arbex,Jorge Arbex,559,M40-44,Male,Teresópolis,RJ,Unknown,,0:29:39,2:37:49,1:52:34,,,5:06:52,1779,9469,6754,251,159,18412,174,165,23,89,81,10,165,157,26,174,165,23,Finisher,2673
+Anderson,De Oliveira Silva,Anderson De Oliveira Silva,623,M18-24,Male,São Paulo,São Paulo,Unknown,,0:39:44,0:00:00,5:06:56,,,5:06:56,2384,0,18416,0,0,18416,175,166,6,561,516,24,99999,99999,99999,175,166,6,Finisher,3179
+Fabio,Nicacio,Fabio Nicacio,595,M30-34,Male,sao paulo,Other,Unknown,,0:35:10,2:31:16,1:54:33,,,5:07:00,2110,9076,6873,218,143,18420,176,167,49,335,313,85,147,141,38,176,167,49,Finisher,2403
+Joedson,Wagner De Sousa Tocchio,Joedson Wagner De Sousa Tocchio,351,M30-34,Male,Brasmlia,Di,Unknown,,0:38:56,2:38:35,1:43:13,,,5:07:00,2336,9515,6193,270,106,18420,177,168,50,526,485,131,311,295,86,177,168,50,Finisher,2403
+Karine,Filadelpho,Karine Filadelpho,874,F30-34,Female,brasília,Intl State,Unknown,,0:31:02,2:41:45,1:48:17,,,5:07:01,1862,9705,6497,212,145,18421,178,10,1,153,15,2,235,11,1,178,10,1,Finisher,3500
+Nilo,Cottini Neto,Nilo Cottini Neto,931,M18-24,Male,São Paulo,SP,Unknown,,0:33:50,2:35:38,1:48:38,,,5:07:28,2030,9338,6518,355,207,18448,179,169,7,266,248,14,221,211,6,179,169,7,Finisher,3170
+Wilbert Golden,Batista,Wilbert Golden Batista,215,M50-54,Male,BRASILIA,DISTRITO FEDERAL,Unknown,,0:35:17,2:41:46,1:41:14,,,5:07:29,2117,9706,6074,377,175,18449,180,170,5,339,316,11,322,305,8,180,170,5,Finisher,3213
+Daniel,Aranovich Abreu,Daniel Aranovich Abreu,879,M35-39,Male,Caulinas,São Paulo,Unknown,,0:36:10,2:32:38,1:51:03,,,5:07:40,2170,9158,6663,282,187,18460,181,171,35,387,362,81,187,179,41,181,171,35,Finisher,2448
+Conrado,Ruivo,Conrado Ruivo,642,M35-39,Male,Sao Paulo,São Paulo,Unknown,,0:34:28,2:34:48,1:49:57,,,5:07:41,2068,9288,6597,304,204,18461,182,172,36,303,281,64,204,194,45,182,172,36,Finisher,2448
+Jose,Silva,Jose Silva,106,M50-54,Male,Brasília,DF,Unknown,,0:32:31,2:43:17,1:45:31,,,5:08:05,1951,9797,6331,218,188,18485,183,173,6,201,185,5,274,263,7,183,173,6,Finisher,3203
+Claudio,Sebastian Zapata,Claudio Sebastian Zapata,673,M35-39,Male,wilde,,Unknown,,0:36:14,2:35:35,1:48:30,,,5:08:13,2174,9335,6510,321,153,18493,184,174,37,390,365,83,245,234,54,184,174,37,Finisher,2438
+Renato Tetsuo,Yoshihara,Renato Tetsuo Yoshihara,137,M40-44,Male,,,Unknown,,0:30:24,2:36:34,1:53:03,,,5:08:26,1824,9394,6783,252,253,18506,185,175,24,132,119,18,160,152,25,185,175,24,Finisher,2645
+Bruno,Rodrigues Da Silva,Bruno Rodrigues Da Silva,544,M25-29,Male,Brasmlia,Di,Unknown,,0:39:26,2:22:46,1:59:24,,,5:08:27,2366,8566,7164,235,176,18507,186,176,26,554,510,70,117,112,18,186,176,26,Finisher,2737
+Juliano ,Augusto,Juliano Augusto,371,M30-34,Male,Taubaté,SAO PAULO,Unknown,,0:36:32,2:28:11,1:58:58,,,5:08:28,2192,8891,7138,190,97,18508,187,177,51,406,380,101,129,123,34,187,177,51,Finisher,2376
+Alexis,Iverson Martins,Alexis Iverson Martins,174,M25-29,Male,CURITIBA,Paraná,Unknown,,0:31:33,2:33:22,1:57:39,,,5:08:49,1893,9202,7059,232,143,18529,188,178,27,175,160,24,138,132,25,188,178,27,Finisher,2731
+Jeferson,De Souza Salvaya,Jeferson De Souza Salvaya,524,M35-39,Male,Petrópolis,RJ,Unknown,,0:37:34,2:34:03,1:49:04,,,5:08:58,2254,9243,6544,317,180,18538,189,179,38,459,425,100,241,230,52,189,179,38,Finisher,2425
+Carlos,Marne Dias Alves,Carlos Marne Dias Alves,232,M45-49,Male,brasilia,DF,Unknown,,0:29:58,2:37:06,1:55:25,,,5:09:02,1798,9426,6925,249,144,18542,190,180,13,110,99,5,161,153,9,190,180,13,Finisher,3083
+Lucas,Matos,Lucas Matos,117,M35-39,Male,Patos de minas,38701-160,Unknown,,0:00:00,0:00:00,2:37:05,,,5:09:04,0,0,9425,0,212,18544,191,181,39,99999,99999,99999,4,3,2,191,181,39,Finisher,2423
+Carlos,Falcao,Carlos Falcao,564,M40-44,Male,maceio,Alagoas,Unknown,,0:30:11,2:39:35,1:51:35,,,5:09:17,1811,9575,6695,298,178,18557,192,182,25,120,108,17,210,200,30,192,182,25,Finisher,2629
+Sérgio,Raye,Sérgio Raye,86,M35-39,Male,Brasmlia,DI,Unknown,,0:34:27,2:31:06,1:57:20,,,5:09:27,2067,9066,7040,230,164,18567,193,183,40,300,278,62,143,137,30,193,183,40,Finisher,2416
+Mario,Eduardo Bellette Junior,Mario Eduardo Bellette Junior,481,M30-34,Male,Campinas,Sc,Unknown,,0:00:00,0:00:00,2:29:45,,,5:09:28,0,0,8985,0,131,18568,194,184,52,99999,99999,99999,12,11,3,194,184,52,Finisher,2358
+Claudia,Daniel,Claudia Daniel,917,F40-44,Female,Lauro de freitas,Bahia,Unknown,,0:30:58,2:38:49,1:54:01,,,5:09:35,1858,9529,6841,228,119,18575,195,11,1,150,14,2,192,9,2,195,11,1,Finisher,3500
+Henrique,Villela,Henrique Villela,911,M40-44,Male,Rio de Janeiro,Intl State,Unknown,,0:37:02,2:38:03,1:45:35,,,5:09:36,2222,9483,6335,331,205,18576,196,185,26,430,402,68,288,275,43,196,185,26,Finisher,2624
+Lucas,De Andrade Arueira Campos,Lucas De Andrade Arueira Campos,278,M18-24,Male,Brasmlia,Di,Unknown,,0:31:04,2:32:54,1:55:29,,,5:09:41,1864,9174,6929,367,247,18581,197,186,8,156,141,4,148,142,3,197,186,8,Finisher,3130
+Danilo,Franca De Oliveira,Danilo Franca De Oliveira,835,M30-34,Male,Porto Alegre,,Unknown,,0:29:10,2:42:44,1:50:58,,,5:09:43,1750,9764,6658,233,178,18583,198,187,53,76,68,18,228,218,64,198,187,53,Finisher,2354
+Alexandre,Negrao,Alexandre Negrao,894,M25-29,Male,Campinas,,Unknown,,0:32:28,2:31:49,1:57:34,,,5:09:59,1948,9109,7054,255,233,18599,199,188,28,200,184,30,135,129,24,199,188,28,Finisher,2710
+Flavia,Rocha,Flavia Rocha,691,F40-44,Female,BRASILIA,DF,Unknown,,0:30:05,2:36:15,1:55:52,,,5:10:06,1805,9375,6952,280,194,18606,200,12,2,117,12,1,158,8,1,200,12,2,Finisher,3490
+Reinaldo,Moreira De Melo Filho,Reinaldo Moreira De Melo Filho,948,M40-44,Male,Bras¡lia,Federal District,Unknown,,0:33:05,2:37:10,1:54:25,,,5:10:13,1985,9430,6865,195,138,18613,201,189,27,231,213,32,188,180,29,201,189,27,Finisher,2612
+Lucas,Porfirio,Lucas Porfirio,789,M18-24,Male,Sao Luis,MA,Unknown,,0:36:07,2:36:48,1:51:16,,,5:10:23,2167,9408,6676,265,107,18623,202,190,9,382,357,17,248,237,9,202,190,9,Finisher,3117
+Guilherme,M P Lira,Guilherme M P Lira,477,M30-34,Male,Jundiam,Sc,Unknown,,0:34:35,2:35:17,1:53:58,,,5:10:38,2075,9317,6838,272,136,18638,203,191,54,307,285,74,205,195,57,203,191,54,Finisher,2337
+Jaime,Andres Franco Noreqa,Jaime Andres Franco Noreqa,962,M40-44,Male,Bogota,,Unknown,,0:30:08,2:37:40,1:56:21,,,5:10:48,1808,9460,6981,180,219,18648,204,192,28,119,107,16,156,149,24,204,192,28,Finisher,2602
+Mauro,Giorchino,Mauro Giorchino,444,M45-49,Male,São Paulo,SP,Unknown,,0:26:39,2:40:38,1:56:56,,,5:11:13,1599,9638,7016,211,209,18673,205,193,14,35,29,1,155,148,8,205,193,14,Finisher,3043
+Alexandre,Paiva Luciano,Alexandre Paiva Luciano,403,M35-39,Male,Taubaté,Intl State,Unknown,,0:30:01,2:37:19,1:56:52,,,5:11:15,1801,9439,7012,264,159,18675,206,194,41,113,102,24,166,158,35,206,194,41,Finisher,2384
+Lissandro,Souza,Lissandro Souza,94,M40-44,Male,Salvador,BAHIA,Unknown,,0:32:44,2:35:21,1:56:47,,,5:11:18,1964,9321,7007,251,135,18678,207,195,29,213,197,26,176,168,28,207,195,29,Finisher,2593
+Patrick,Kennedy,Patrick Kennedy,151,M50-54,Male,MIAMI,FL,Unknown,,0:33:44,2:38:04,1:53:19,,,5:11:31,2024,9484,6799,234,150,18691,208,196,7,263,245,9,227,217,5,208,196,7,Finisher,3141
+Thiago,Brom Ferreira,Thiago Brom Ferreira,680,M30-34,Male,Guara,Federal District,Unknown,,0:37:49,2:34:09,1:53:19,,,5:11:54,2269,9249,6799,255,142,18714,209,197,55,475,440,117,234,224,68,209,197,55,Finisher,2315
+Carlos,Alberto Do Nascimento Nunes,Carlos Alberto Do Nascimento Nunes,708,M45-49,Male,BrasA-lia,Federal District,Unknown,,0:33:43,2:32:06,1:57:27,,,5:12:02,2023,9126,7047,292,234,18722,210,198,15,262,244,17,153,146,7,210,198,15,Finisher,3029
+Raphael,Augusto,Raphael Augusto,223,M30-34,Male,SAO PAULO,SP,Unknown,,0:29:41,2:47:55,1:48:49,,,5:12:06,1781,10075,6529,191,150,18726,211,199,56,91,83,23,292,279,83,211,199,56,Finisher,2311
+Paulo Cezar,Souza,Paulo Cezar Souza,287,M30-34,Male,Rio De Janeiro,,Unknown,,0:36:43,2:46:19,1:40:49,,,5:12:08,2203,9979,6049,338,159,18728,212,200,57,413,387,104,392,372,108,212,200,57,Finisher,2310
+Marcel,De Almeida,Marcel De Almeida,448,M45-49,Male,varzea grande,Mato grosso,Unknown,,0:34:16,2:39:46,1:51:42,,,5:12:09,2056,9586,6702,223,162,18729,213,201,16,291,270,19,258,247,18,213,201,16,Finisher,3026
+Luis,Damato,Luis Damato,941,M40-44,Male,Key Biscayne,FL,Unknown,,0:33:23,2:30:30,1:59:20,,,5:12:10,2003,9030,7160,278,259,18730,214,202,30,249,231,34,134,128,23,214,202,30,Finisher,2577
+Vander,De Almeida,Vander De Almeida,639,M35-39,Male,Brasília,Distrito Federal,Unknown,,0:34:04,2:36:42,1:54:53,,,5:12:12,2044,9402,6893,264,129,18732,215,203,42,279,259,56,217,207,47,215,203,42,Finisher,2366
+Joao Paulo,Fuentes,Joao Paulo Fuentes,873,M18-24,Male,Braganca Paulista,São Paulo,Unknown,,0:31:48,2:39:05,1:51:05,,,5:12:15,1908,9545,6665,409,208,18735,216,204,10,181,166,5,257,246,11,216,204,10,Finisher,3084
+Christof,Braendli,Christof Braendli,953,M40-44,Male,Glattpark,,Unknown,,0:33:53,2:43:36,1:46:34,,,5:12:23,2033,9816,6394,266,234,18743,217,205,31,267,249,40,308,293,48,217,205,31,Finisher,2573
+Pedro,Paulo Assuncao Bandeira,Pedro Paulo Assuncao Bandeira,486,M45-49,Male,Salvador,,Unknown,,0:29:50,2:47:21,1:48:57,,,5:12:36,1790,10041,6537,218,170,18756,218,206,17,100,90,3,293,280,20,218,206,17,Finisher,3018
+Tiago,Silva,Tiago Silva,681,M30-34,Male,ITAJUBA,MG,Unknown,,0:33:54,2:36:36,1:53:28,,,5:12:37,2034,9396,6808,352,167,18757,219,207,58,268,250,66,236,225,69,219,207,58,Finisher,2302
+Ricardo,Andrade Melo,Ricardo Andrade Melo,547,M40-44,Male,Manaus,BR-AM,Unknown,,0:36:23,2:40:35,1:48:55,,,5:12:41,2183,9635,6535,285,123,18761,220,208,32,399,373,63,306,291,46,220,208,32,Finisher,2568
+Rodrigo,Vasconcellos Moreira,Rodrigo Vasconcellos Moreira,479,M35-39,Male,Rio de Janeiro,,Unknown,,0:31:27,2:37:20,1:57:10,,,5:12:43,1887,9440,7030,263,143,18763,221,209,43,172,157,37,184,176,40,221,209,43,Finisher,2357
+Hugo,Lopes,Hugo Lopes,684,M30-34,Male,Mosman,NSW,Unknown,,0:39:13,2:38:06,1:42:52,,,5:13:04,2353,9486,6172,532,241,18784,222,210,59,543,499,134,356,337,100,222,210,59,Finisher,2294
+Alan,Ide Ribeiro Da Silva,Alan Ide Ribeiro Da Silva,163,M35-39,Male,Palmas,Tocantins,Unknown,,0:33:06,2:33:37,1:55:58,,,5:13:11,1986,9217,6958,338,292,18791,223,211,44,233,215,52,177,169,39,223,211,44,Finisher,2349
+Gleise,Botelho,Gleise Botelho,164,F35-39,Female,Brasilia,df,Unknown,,0:32:23,2:46:50,1:48:10,,,5:13:28,1943,10010,6490,261,104,18808,224,13,2,197,16,2,325,18,5,224,13,2,Finisher,3371
+Wesley,Albuquerque Craveiro,Wesley Albuquerque Craveiro,220,M30-34,Male,Brasmlia,DI,Unknown,,0:33:11,2:34:18,1:59:15,,,5:13:35,1991,9258,7155,245,166,18815,225,212,60,237,219,57,164,156,44,225,212,60,Finisher,2284
+Mateus,Souza De Alcantara,Mateus Souza De Alcantara,471,M18-24,Male,Santos,Sc,Unknown,,0:37:44,2:41:08,1:44:28,,,5:13:40,2264,9668,6268,399,221,18820,226,213,11,468,434,22,348,329,15,226,213,11,Finisher,3058
+Luciano,Gomes,Luciano Gomes,337,M35-39,Male,RIO DE JANEIRO,Rio de Janeiro,Unknown,,0:37:18,2:40:37,1:49:48,,,5:13:44,2238,9637,6588,217,144,18824,227,214,45,443,412,97,302,289,68,227,214,45,Finisher,2339
+Jorge,Moreira,Jorge Moreira,743,M40-44,Male,Rio de Janeiro,Rio De Janeiro,Unknown,,0:43:40,2:35:58,1:47:21,,,5:13:49,2620,9358,6441,275,135,18829,228,215,33,656,598,105,334,316,51,228,215,33,Finisher,2548
+Leandro,Ribeiro Vaz,Leandro Ribeiro Vaz,148,M30-34,Male,brasilia,Federal District,Unknown,,0:37:55,2:50:06,1:38:04,,,5:13:59,2275,10206,5884,337,137,18839,229,216,61,482,447,119,448,423,123,229,216,61,Finisher,2277
+Antonio Carlos,Martins De Siqueira,Antonio Carlos Martins De Siqueira,421,M30-34,Male,Mogi das Cruzes,São Paulo,Unknown,,0:33:18,2:36:01,1:57:20,,,5:14:16,1998,9361,7040,286,171,18856,230,217,62,243,225,60,199,190,55,230,217,62,Finisher,2272
+DIOGO,LOUREIRO,DIOGO LOUREIRO,464,M40-44,Male,Sao Paulo,SP,Unknown,,0:35:42,2:37:05,1:55:16,,,5:14:26,2142,9425,6916,220,163,18866,231,218,34,357,333,56,237,226,35,231,218,34,Finisher,2537
+Paulo,Farina,Paulo Farina,160,M18-24,Male,Lins,BR-SP,Unknown,,0:32:35,2:48:44,1:45:59,,,5:14:34,1955,10124,6359,261,175,18874,232,219,12,204,188,8,352,333,16,232,219,12,Finisher,3042
+GLAUCO,ANTONIO SAPIA,GLAUCO ANTONIO SAPIA,463,M35-39,Male,VALINHOS,SP,Unknown,,0:36:32,2:42:06,1:48:26,,,5:14:43,2192,9726,6506,301,158,18883,233,220,46,405,379,90,328,310,74,233,220,46,Finisher,2321
+Raphael,Luiz Corrja De Melo,Raphael Luiz Corrja De Melo,483,M30-34,Male,Belo Horizonte,Mi,Unknown,,0:37:28,2:33:06,1:50:39,,,5:14:47,2248,9186,6639,488,326,18887,234,221,63,453,420,114,268,257,76,234,221,63,Finisher,2263
+Elisandro,De Espindola,Elisandro De Espindola,854,M35-39,Male,,,Unknown,,0:39:04,2:45:35,1:39:52,,,5:14:59,2344,9935,5992,330,298,18899,235,222,47,536,493,117,409,387,86,235,222,47,Finisher,2316
+Rodrigo ,Cantal,Rodrigo Cantal,531,M30-34,Male,Fortaleza,,Unknown,,0:36:40,2:39:00,1:52:07,,,5:14:59,2200,9540,6727,224,208,18899,236,223,64,410,384,103,272,261,78,236,223,64,Finisher,2259
+Pedro Henrique,Verano,Pedro Henrique Verano,187,M35-39,Male,BRASÍLIA,Intl State,Unknown,,0:32:36,2:41:25,1:54:49,,,5:15:07,1956,9685,6889,266,111,18907,237,224,48,205,189,43,266,255,60,237,224,48,Finisher,2314
+Carlos,Eduardo Rocha De Oliveira,Carlos Eduardo Rocha De Oliveira,571,M30-34,Male,,,Unknown,,0:33:00,2:36:12,2:00:47,,,5:15:21,1980,9372,7247,197,125,18921,238,225,65,225,208,53,179,171,47,238,225,65,Finisher,2252
+Renato,Lacerda,Renato Lacerda,131,M40-44,Male,Brasilia,df,Unknown,,0:32:42,2:39:26,1:57:05,,,5:15:33,1962,9566,7025,243,137,18933,239,226,35,211,195,25,233,223,34,239,226,35,Finisher,2516
+Cleber,Marcos De Toledo,Cleber Marcos De Toledo,92,M40-44,Male,Brasília,DF,Unknown,,0:29:48,2:28:52,2:09:04,,,5:15:42,1788,8932,7744,345,133,18942,240,227,36,98,88,12,101,96,15,240,227,36,Finisher,2514
+Flavio,Milhomem,Flavio Milhomem,685,M40-44,Male,BRASILIA,Federal District,Unknown,,0:34:07,2:48:30,1:46:11,,,5:15:43,2047,10110,6371,273,142,18943,241,228,37,283,262,45,372,352,55,241,228,37,Finisher,2513
+Sergio,Alarcon,Sergio Alarcon,960,M25-29,Male,Santiago,Región Metropolitana de Santiago,Unknown,,0:32:14,2:38:59,1:59:06,,,5:15:54,1934,9539,7146,178,157,18954,242,229,29,191,176,28,200,191,28,242,229,29,Finisher,2603
+Joao,Carlos Neto,Joao Carlos Neto,565,M45-49,Male,PETROLINA,Pernambuco,Unknown,,0:33:25,2:35:02,1:58:17,,,5:16:00,2005,9302,7097,301,255,18960,243,230,18,251,233,15,186,178,12,243,230,18,Finisher,2957
+Luiz,Carlos  Thomazette,Luiz Carlos  Thomazette,327,M30-34,Male,Fortaleza,Ce,Unknown,,0:36:48,2:37:52,1:55:14,,,5:16:07,2208,9472,6914,250,123,18967,244,231,66,417,391,106,269,258,77,244,231,66,Finisher,2239
+Jose,Baptista Dos Santos Neto,Jose Baptista Dos Santos Neto,154,M30-34,Male,Maceio,Intl State,Unknown,,0:37:59,2:37:13,1:52:22,,,5:16:09,2279,9433,6742,321,194,18969,245,232,67,488,452,124,287,274,81,245,232,67,Finisher,2238
+Geraldo,Magela Souza Nascimento,Geraldo Magela Souza Nascimento,286,M40-44,Male,Brasmlia,Di,Unknown,,0:37:46,2:45:15,1:46:54,,,5:16:15,2266,9915,6414,238,142,18975,246,233,38,471,437,75,371,351,54,246,233,38,Finisher,2504
+Luiz,Marcelo Mattos,Luiz Marcelo Mattos,474,M40-44,Male,taubate,São Paulo,Unknown,,0:39:20,2:36:18,1:52:46,,,5:16:17,2360,9378,6766,299,174,18977,247,234,39,548,504,86,289,276,44,247,234,39,Finisher,2503
+Nilson,Da Silva Junior,Nilson Da Silva Junior,314,M35-39,Male,Pinhais,PR,Unknown,,0:36:31,2:35:58,1:55:43,,,5:16:19,2191,9358,6943,301,186,18979,248,235,49,403,377,88,251,240,56,248,235,49,Finisher,2292
+Haislan,Costa,Haislan Costa,246,M35-39,Male,Juiz De Fora,Mi,Unknown,,0:29:31,2:41:36,1:57:29,,,5:16:20,1771,9696,7049,255,209,18980,249,236,50,81,73,21,220,210,48,249,236,50,Finisher,2292
+Bruno,Miguel Da Silva,Bruno Miguel Da Silva,780,M25-29,Male,Sao Paulo,,Unknown,,0:35:30,2:39:47,1:51:22,,,5:16:22,2130,9587,6682,313,270,18982,250,237,30,352,328,45,285,273,34,250,237,30,Finisher,2595
+Alessandro,Dias,Alessandro Dias,149,M35-39,Male,Brasilia,Intl State,Unknown,,0:35:27,2:31:58,2:01:27,,,5:16:24,2127,9118,7287,276,176,18984,251,238,51,350,326,74,171,163,38,251,238,51,Finisher,2291
+Gustavo,Oxer,Gustavo Oxer,596,M18-24,Male,Barueri,Sc,Unknown,,0:29:02,2:45:48,1:54:34,,,5:16:32,1742,9948,6874,265,163,18992,252,239,13,74,66,1,271,260,13,252,239,13,Finisher,3007
+Sergio,Cedano,Sergio Cedano,568,M35-39,Male,Sao Paulo,Intl State,Unknown,,0:38:03,2:54:07,1:37:32,,,5:16:47,2283,10447,5852,255,170,19007,253,240,52,490,454,107,478,451,106,253,240,52,Finisher,2284
+Eduardo,Alecsander Xavier De Medeiros,Eduardo Alecsander Xavier De Medeiros,120,M35-39,Male,BRASÍLIA,distrito federal,Unknown,,0:38:55,2:42:01,1:45:44,,,5:16:51,2335,9721,6344,425,186,19011,254,241,53,525,484,113,384,364,82,254,241,53,Finisher,2283
+Gustavo,Piccinini,Gustavo Piccinini,946,M30-34,Male,Porto Alegre,,Unknown,,0:35:20,2:35:53,1:56:25,,,5:17:04,2120,9353,6985,375,191,19024,255,242,68,343,319,87,250,239,70,255,242,68,Finisher,2222
+Luciano,Lima,Luciano Lima,172,M35-39,Male,brasilia,,Unknown,,0:28:55,2:43:56,1:58:08,,,5:17:08,1735,9836,7088,230,139,19028,256,243,54,71,64,18,238,227,50,256,243,54,Finisher,2278
+Fabio,Borges Moura,Fabio Borges Moura,687,M40-44,Male,BRASILIA,Federal District,Unknown,,0:44:36,2:31:49,1:51:26,,,5:17:14,2676,9109,6686,321,242,19034,257,244,40,678,616,108,307,292,47,257,244,40,Finisher,2486
+Joana,Kfuri,Joana Kfuri,245,F35-39,Female,rio de janeiro,rio de janeiro,Unknown,,0:36:03,2:41:29,1:52:25,,,5:17:20,2163,9689,6745,243,200,19040,258,14,3,377,25,5,304,15,4,258,14,3,Finisher,3301
+Mauricio,Pretto,Mauricio Pretto,631,M30-34,Male,Porto Alegre,Intl State,Unknown,,0:39:53,2:29:18,1:58:35,,,5:17:21,2393,8958,7115,354,221,19041,259,245,69,564,519,140,213,203,61,259,245,69,Finisher,2216
+Bruno,Secundo,Bruno Secundo,128,M35-39,Male,AGUAS CLARAS,DF,Unknown,,0:35:24,2:40:21,1:52:11,,,5:17:43,2124,9621,6731,385,202,19063,260,246,55,347,323,73,312,296,70,260,246,55,Finisher,2267
+Ricardo,Santana,Ricardo Santana,252,M35-39,Male,brasilia,,Unknown,,0:38:00,2:37:43,1:53:51,,,5:17:45,2280,9463,6831,244,247,19065,261,247,56,489,453,106,280,268,64,261,247,56,Finisher,2267
+Fernando,Ferreira,Fernando Ferreira,634,M40-44,Male,,,Unknown,,0:37:42,2:34:21,1:56:11,,,5:17:50,2262,9261,6971,288,288,19070,262,248,41,464,430,74,240,229,36,262,248,41,Finisher,2475
+Eduardo,Melo,Eduardo Melo,397,M40-44,Male,Brasilia,,Unknown,,0:31:02,2:51:33,1:45:17,,,5:17:59,1862,10293,6317,342,265,19079,263,249,42,154,139,21,387,367,57,263,249,42,Finisher,2473
+Alex,Adi,Alex Adi,653,M45-49,Male,M.ALBERTI,,Unknown,,0:34:17,2:42:12,1:55:18,,,5:18:06,2057,9732,6918,251,128,19086,264,250,19,292,271,20,290,277,19,264,250,19,Finisher,2919
+Juliano,Campelo,Juliano Campelo,292,M30-34,Male,Curitiba,Parana,Unknown,,0:00:00,0:00:00,2:19:05,,,5:18:06,0,0,8345,0,170,19086,265,251,70,99999,99999,99999,41,39,14,265,251,70,Finisher,2203
+Fabio,Costa Stoll,Fabio Costa Stoll,194,M40-44,Male,Rio de Janeiro,,Unknown,,0:36:47,2:45:07,1:44:12,,,5:18:10,2207,9907,6252,397,327,19090,266,252,43,415,389,65,389,369,58,266,252,43,Finisher,2469
+Nicolas,Liguori,Nicolas Liguori,665,M30-34,Male,San Justo,Buenos Aires,Unknown,,0:38:05,2:42:54,1:49:29,,,5:18:16,2285,9774,6569,325,143,19096,267,253,71,492,456,125,359,340,101,267,253,71,Finisher,2200
+Fernando,Menezes,Fernando Menezes,566,M35-39,Male,fortaleza,,Unknown,,0:30:31,2:39:44,2:00:44,,,5:18:28,1831,9584,7244,260,189,19108,268,254,57,139,126,30,208,198,46,268,254,57,Finisher,2254
+Lucio,Dantas Ferraz De Oliveira,Lucio Dantas Ferraz De Oliveira,622,M35-39,Male,Salvador,Ba,Unknown,,0:58:51,2:42:44,1:30:35,,,5:18:31,3531,9764,5435,255,126,19111,269,255,58,764,685,152,554,521,117,269,255,58,Finisher,2253
+Richard,Fuller Olsen,Richard Fuller Olsen,849,M40-44,Male,SÃO PAULO,SÃO PAULO,Unknown,,0:35:20,2:40:46,1:54:09,,,5:18:36,2120,9646,6849,310,191,19116,270,256,44,342,318,55,299,286,45,270,256,44,Finisher,2462
+Rodrigo,Aquino,Rodrigo Aquino,509,M30-34,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:34:38,2:37:22,1:58:33,,,5:18:44,2078,9442,7113,356,135,19124,271,257,72,310,288,76,261,250,73,271,257,72,Finisher,2192
+Wilson,Oliveira Paulino,Wilson Oliveira Paulino,205,M40-44,Male,Londrina,Parana,Unknown,,0:36:04,2:48:08,1:47:45,,,5:18:57,2164,10088,6465,271,149,19137,272,258,45,379,354,60,393,373,60,272,258,45,Finisher,2455
+Audrey,Carvalho Dos Santos,Audrey Carvalho Dos Santos,143,M30-34,Male,Brasmlia,Di,Unknown,,0:33:55,2:37:09,2:01:19,,,5:19:14,2035,9429,7279,240,171,19154,273,259,73,269,251,67,212,202,60,273,259,73,Finisher,2183
+Bernardo,Netto,Bernardo Netto,714,M35-39,Male,Campo Grande,,Unknown,,0:29:28,2:32:20,2:10:44,,,5:19:35,1768,9140,7844,229,194,19175,274,260,59,79,71,20,115,110,23,274,260,59,Finisher,2234
+Rosecler,Oliveira Amorim Da Costa,Rosecler Oliveira Amorim Da Costa,610,F35-39,Female,Santos,São Paulo,Unknown,,0:33:02,2:44:08,1:56:45,,,5:19:37,1982,9848,7005,201,141,19177,275,15,4,228,18,3,286,13,3,275,15,4,Finisher,3260
+Mateo Hernan,Orlandini,Mateo Hernan Orlandini,668,M40-44,Male,concordia,entre rios,Unknown,,0:28:59,2:33:19,2:12:29,,,5:19:41,1739,9199,7949,168,126,19181,276,261,46,73,65,7,108,103,18,276,261,46,Finisher,2442
+Felipe ,De Camargo Bom Meihy,Felipe De Camargo Bom Meihy,340,M40-44,Male,Taubaté,SAO PAULO,Unknown,,0:37:00,2:34:51,1:58:38,,,5:19:44,2220,9291,7118,342,213,19184,277,262,47,426,398,66,253,242,39,277,262,47,Finisher,2441
+wilson,passos,wilson passos,374,M35-39,Male,Tremembé,São Paulo,Unknown,,0:38:39,2:35:07,1:59:25,,,5:19:58,2319,9307,7165,242,165,19198,278,263,60,513,472,110,259,248,58,278,263,60,Finisher,2227
+Rodrigo,Pileggi Cimino,Rodrigo Pileggi Cimino,480,M30-34,Male,Sao Paulo,Intl State,Unknown,,0:32:32,2:36:59,2:04:27,,,5:20:19,1952,9419,7467,241,140,19219,279,264,74,202,186,51,191,183,52,279,264,74,Finisher,2163
+Ivo,Peixinho,Ivo Peixinho,689,M35-39,Male,Brasilia,DF,Unknown,,0:30:30,2:39:20,2:02:51,,,5:20:27,1830,9560,7371,243,223,19227,280,265,61,138,125,29,197,188,44,280,265,61,Finisher,2218
+Jose,Carlos Da Cunha Bastos Junior,Jose Carlos Da Cunha Bastos Junior,298,M30-34,Male,Bauru,Sc,Unknown,,0:42:20,2:37:43,1:53:58,,,5:20:29,2540,9463,6838,193,195,19229,281,266,75,624,573,151,320,303,88,281,266,75,Finisher,2160
+Renan,Schwab,Renan Schwab,213,M30-34,Male,Bento Gongalves,Ri,Unknown,,0:37:04,2:31:23,2:03:52,,,5:20:31,2224,9083,7432,311,181,19231,282,267,76,433,404,109,193,184,53,282,267,76,Finisher,2159
+Sergio,Nordskog Duarte,Sergio Nordskog Duarte,892,M35-39,Male,Rio de Janeiro,RJ,Unknown,,0:36:00,2:44:26,1:50:09,,,5:20:41,2160,9866,6609,442,164,19241,283,268,62,375,351,77,379,359,80,283,268,62,Finisher,2214
+Bruno,Maciel,Bruno Maciel,385,M30-34,Male,Brasilia,DF,Unknown,,0:31:07,2:35:49,2:06:12,,,5:20:53,1867,9349,7572,211,254,19253,284,269,77,158,143,39,151,145,40,284,269,77,Finisher,2153
+Massaaki,Sakagami,Massaaki Sakagami,812,M40-44,Male,Salto,Intl State,Unknown,,0:31:32,2:41:51,2:00:19,,,5:21:05,1892,9711,7219,256,187,19265,285,270,48,173,158,23,255,244,40,285,270,48,Finisher,2417
+Ricardo,Shinyashiki,Ricardo Shinyashiki,858,M25-29,Male,sao paulo,FL,Unknown,,0:36:07,2:40:25,1:59:17,,,5:21:06,2167,9625,7157,185,132,19266,286,271,31,383,358,50,277,266,32,286,271,31,Finisher,2510
+Felipe,Barrios,Felipe Barrios,968,M25-29,Male,Mexico,Intl State,Unknown,,0:37:31,2:45:28,1:50:13,,,5:21:08,2251,9928,6613,281,195,19268,287,272,32,455,421,57,377,357,48,287,272,32,Finisher,2509
+Guilherme,Schaefer Francisco Correia,Guilherme Schaefer Francisco Correia,333,M30-34,Male,,,Unknown,,0:34:03,2:43:55,1:53:41,,,5:21:14,2043,9835,6821,340,235,19274,288,273,78,278,258,69,327,309,91,288,273,78,Finisher,2147
+Rogerio,Cabral,Rogerio Cabral,735,M35-39,Male,KISSIMMEE,FL,Unknown,,0:36:08,2:38:13,1:58:48,,,5:21:33,2168,9493,7128,310,194,19293,289,274,63,384,359,79,276,265,63,289,274,63,Finisher,2198
+Leonardo,Beer,Leonardo Beer,156,M40-44,Male,rio de janeiro,Rio de Janeiro ,Unknown,,0:37:50,2:43:12,1:52:49,,,5:21:34,2270,9792,6769,309,154,19294,290,275,49,476,441,76,355,336,52,290,275,49,Finisher,2408
+Gustavo,Araujo,Gustavo Araujo,96,M25-29,Male,Brasília,DF,Unknown,,0:32:38,2:49:11,1:54:11,,,5:21:46,1958,10151,6851,215,131,19306,291,276,33,209,193,32,345,327,42,291,276,33,Finisher,2498
+Rodrigo,Sebollela Duque Estrada Regis,Rodrigo Sebollela Duque Estrada Regis,620,M35-39,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:35:06,2:43:27,1:55:59,,,5:21:58,2106,9807,6959,305,141,19318,292,277,64,332,310,70,326,308,73,292,277,64,Finisher,2191
+Diogo,Nunes Miguel De Oliveira,Diogo Nunes Miguel De Oliveira,773,M25-29,Male,Lauro de Freitas,,Unknown,,0:30:01,2:47:09,1:56:34,,,5:22:13,1801,10029,6994,324,185,19333,293,278,34,114,103,15,317,300,37,293,278,34,Finisher,2489
+Elen,Caetano,Elen Caetano,594,F30-34,Female,Goiânia,Goiás,Unknown,,0:37:28,2:40:11,1:57:53,,,5:22:15,2248,9611,7073,293,110,19335,294,16,2,454,34,5,316,17,3,294,16,2,Finisher,3225
+Thiago,Palermo,Thiago Palermo,601,M30-34,Male,Campinas,São Paulo,Unknown,,0:31:58,2:26:26,2:17:14,,,5:22:23,1918,8786,8234,240,165,19343,295,279,79,183,168,47,85,80,24,295,279,79,Finisher,2126
+Rafael,Correia Ferreira,Rafael Correia Ferreira,805,M35-39,Male,Vila Velha,Espirito Santo,Unknown,,0:36:15,2:34:11,2:03:07,,,5:22:24,2175,9251,7387,384,147,19344,296,280,65,391,366,84,239,228,51,296,280,65,Finisher,2183
+Giuliano,Baptistella,Giuliano Baptistella,272,M25-29,Male,Sco Paulo,Sc,Unknown,,0:34:08,2:45:23,1:55:11,,,5:22:34,2048,9923,6911,369,103,19354,297,281,35,285,264,37,351,332,43,297,281,35,Finisher,2483
+Carlos Eduardo,Alencar,Carlos Eduardo Alencar,836,M35-39,Male,Sao Paulo,BR-SP,Unknown,,0:32:55,2:36:56,2:06:56,,,5:23:02,1975,9416,7616,237,138,19382,298,282,66,220,203,47,196,187,43,298,282,66,Finisher,2171
+Cesar,Mikail,Cesar Mikail,300,M45-49,Male,,,Unknown,,0:37:01,2:53:15,1:44:04,,,5:23:04,2221,10395,6244,335,189,19384,299,283,20,427,399,31,474,448,43,299,283,20,Finisher,2830
+Guilherme,Prestes De Melo,Guilherme Prestes De Melo,627,M30-34,Male,Santana de Parnaiba,São Paulo,Unknown,,0:33:48,2:38:52,2:00:44,,,5:23:20,2028,9532,7244,310,286,19400,300,284,80,265,247,65,260,249,72,300,284,80,Finisher,2109
+Leonardo,Monteiro De Castro Silva,Leonardo Monteiro De Castro Silva,276,M35-39,Male,Brasmlia,Di,Unknown,,0:31:01,2:55:38,1:49:44,,,5:23:40,1861,10538,6584,241,196,19420,301,285,67,151,137,31,418,396,90,301,285,67,Finisher,2160
+William,Cezar,William Cezar,253,M25-29,Male,BRASÍLIA,DF,Unknown,,0:37:01,2:43:56,1:53:38,,,5:24:14,2221,9836,6818,392,187,19454,302,286,36,429,401,54,376,356,47,302,286,36,Finisher,2453
+Nicolus,Paskiewicz,Nicolus Paskiewicz,997,M25-29,Male,St. Petersburg,FL,Unknown,,0:37:05,2:51:45,1:46:18,,,5:24:31,2225,10305,6378,311,252,19471,303,287,37,434,405,55,451,425,54,303,287,37,Finisher,2448
+William,Francis Dwyer Iii,William Francis Dwyer Iii,800,M30-34,Male,Juneau,AK,Unknown,,0:36:25,2:41:11,1:58:35,,,5:24:45,2185,9671,7115,354,160,19485,304,288,81,400,374,100,324,307,90,304,288,81,Finisher,2083
+Rodrigo,Brunelli Gabrielli,Rodrigo Brunelli Gabrielli,611,M30-34,Male,Fortaleza,Ce,Unknown,,0:34:53,2:49:35,1:49:08,,,5:24:54,2093,10175,6548,338,340,19494,305,289,82,322,300,80,408,386,113,305,289,82,Finisher,2081
+Rodrigo,De Castro Memoria Ribeiro,Rodrigo De Castro Memoria Ribeiro,807,M40-44,Male,Brasilia,Federal District,Unknown,,0:30:40,2:40:27,2:06:58,,,5:25:00,1840,9627,7618,271,144,19500,306,290,50,144,131,20,226,216,33,306,290,50,Finisher,2346
+Lzcio,Marcelo Farias Lima,Lzcio Marcelo Farias Lima,309,M45-49,Male,Brasmlia,Di,Unknown,,0:35:24,2:44:23,1:55:30,,,5:25:07,2124,9863,6930,408,182,19507,307,291,21,345,321,24,364,345,27,307,291,21,Finisher,2793
+Genes,Lopes De Almeida Junior,Genes Lopes De Almeida Junior,177,M40-44,Male,brasilia,Federal District,Unknown,,0:40:40,2:37:27,2:00:22,,,5:25:33,2440,9447,7222,288,136,19533,308,292,51,596,548,93,319,302,50,308,292,51,Finisher,2336
+José Eduardo dos Santos,Garcia,José Eduardo dos Santos Garcia,709,M45-49,Male,Sao Paulo,Intl State,Unknown,,0:36:53,2:44:22,1:55:26,,,5:25:35,2213,9862,6926,306,228,19535,309,293,22,420,393,30,357,338,26,309,293,22,Finisher,2785
+Carlos,Henrique Campos,Carlos Henrique Campos,361,M30-34,Male,Moji-Mirim,São Paulo,Unknown,,0:35:27,2:51:11,1:49:09,,,5:25:39,2127,10271,6549,444,148,19539,310,294,83,349,325,88,452,426,124,310,294,83,Finisher,2067
+Robert,Jones,Robert Jones,967,M45-49,Male,Bampton,,Unknown,,0:40:31,2:47:35,1:57:47,,,5:25:53,2431,10055,7067,0,0,19553,311,295,23,589,542,49,385,365,31,311,295,23,Finisher,2779
+Fernando,Picante Oliva,Fernando Picante Oliva,657,M50-54,Male,caleta olivia,,Unknown,,0:40:33,2:41:24,1:57:39,,,5:25:58,2433,9684,7059,221,161,19558,312,296,8,590,543,18,350,331,11,312,296,8,Finisher,2881
+Hans,Bloch,Hans Bloch,733,M35-39,Male,"
+Odense C.",,Unknown,,0:39:05,2:47:10,1:51:54,,,5:26:23,2345,10030,6714,277,217,19583,313,297,68,538,495,118,420,398,91,313,297,68,Finisher,2111
+Roberta,Maia,Roberta Maia,105,F35-39,Female,Brasilia,Distrito Fedral,Unknown,,0:37:22,2:37:57,2:04:10,,,5:26:25,2242,9477,7450,258,158,19585,314,17,5,448,32,8,278,12,2,314,17,5,Finisher,3138
+Daniel,Oliveira,Daniel Oliveira,199,M35-39,Male,Brasilia,DF,Unknown,,0:32:11,2:35:42,2:11:45,,,5:26:40,1931,9342,7905,234,188,19600,315,298,69,187,172,41,167,159,36,315,298,69,Finisher,2106
+Alonso,De Melo Feitosa Filho,Alonso De Melo Feitosa Filho,539,M30-34,Male,Montreal,QC,Unknown,,0:34:38,2:49:13,1:53:44,,,5:26:42,2078,10153,6824,321,226,19602,316,299,84,308,286,75,398,377,109,316,299,84,Finisher,2048
+Saldanha,Ricardo,Saldanha Ricardo,887,M55-59,Male,São Paulo,Sao Paulo,Unknown,,0:31:01,2:39:20,2:08:10,,,5:26:45,1861,9560,7690,287,207,19605,317,300,2,152,138,1,215,205,1,317,300,2,Finisher,2978
+Rogerio,Santos,Rogerio Santos,342,M45-49,Male,São Paulo,SP,Unknown,,0:43:19,2:40:24,1:55:23,,,5:26:47,2599,9624,6923,258,203,19607,318,301,24,646,590,59,383,363,30,318,301,24,Finisher,2763
+Eduardo,Lycurgo Leite,Eduardo Lycurgo Leite,694,M40-44,Male,Brasilia,DF,Unknown,,0:33:25,2:38:24,2:02:08,,,5:26:56,2005,9504,7328,470,309,19616,319,302,52,250,232,35,279,267,41,319,302,52,Finisher,2312
+Cleber,Zumba De Souza,Cleber Zumba De Souza,871,M35-39,Male,Brasília,Distrito Federal,Unknown,,0:31:20,2:45:40,1:59:55,,,5:27:05,1880,9940,7195,324,286,19625,320,303,70,170,155,35,315,299,71,320,303,70,Finisher,2099
+Leandro,Andrade,Leandro Andrade,183,M35-39,Male,Goiania,GO,Unknown,,0:35:35,2:37:24,2:07:11,,,5:27:33,2135,9444,7631,299,144,19653,321,304,71,353,329,75,262,251,59,321,304,71,Finisher,2090
+Sergio,Bassichetto,Sergio Bassichetto,554,M45-49,Male,Aruja,SP,Unknown,,0:34:54,2:50:10,1:55:44,,,5:27:48,2094,10210,6944,251,169,19668,322,305,25,323,301,22,399,378,32,322,305,25,Finisher,2745
+Renato,Witt,Renato Witt,402,M30-34,Male,Porto Alegre,Rio Grande do sul,Unknown,,0:36:39,0:00:00,5:27:49,,,5:27:49,2199,0,19669,312,0,19669,323,306,85,408,382,102,99999,99999,99999,323,306,85,Finisher,2028
+José Roberto,P. R. Novaes,José Roberto P. R. Novaes,851,M40-44,Male,São Paulo,São Paulo,Unknown,,0:29:50,2:47:35,1:51:12,,,5:27:50,1790,10055,6672,271,882,19670,324,307,53,99,89,13,310,294,49,324,307,53,Finisher,2295
+Gilberto,Cavalini Bailco,Gilberto Cavalini Bailco,310,M25-29,Male,Brasmlia,Di,Unknown,,0:35:24,0:00:00,5:27:56,,,5:27:56,2124,0,19676,276,0,19676,325,308,38,346,322,43,99999,99999,99999,325,308,38,Finisher,2387
+Guilherme,Modesto Mello,Guilherme Modesto Mello,134,M35-39,Male,Brasmlia,Di,Unknown,,0:36:26,2:41:40,1:59:51,,,5:28:05,2186,9700,7191,337,271,19685,326,309,72,401,375,86,329,311,75,326,309,72,Finisher,2081
+Eduardo,Bruno Da Purificacao,Eduardo Bruno Da Purificacao,763,M35-39,Male,LAGOA SANTA,Minas Gerais,Unknown,,0:33:04,2:36:48,2:12:33,,,5:28:10,1984,9408,7953,227,118,19690,327,310,73,230,212,51,194,185,42,327,310,73,Finisher,2079
+Alberto,Faria Oliveira Neto,Alberto Faria Oliveira Neto,536,M35-39,Male,Fortaleza,CE,Unknown,,0:34:00,2:47:32,1:58:52,,,5:28:25,2040,10052,7132,319,162,19705,328,311,74,275,255,55,366,347,78,328,311,74,Finisher,2075
+Alvaro,Sobreira,Alvaro Sobreira,604,M30-34,Male,Sco Lums,Ma,Unknown,,0:35:15,2:41:17,2:03:56,,,5:28:30,2115,9677,7436,276,206,19710,329,312,86,338,315,86,297,284,84,329,312,86,Finisher,2016
+Kelson,Lucio Zlatanof Fuchs,Kelson Lucio Zlatanof Fuchs,478,M35-39,Male,Curitiba,Pa,Unknown,,0:38:16,2:34:57,2:06:47,,,5:28:51,2296,9297,7607,341,190,19731,330,313,75,500,461,108,270,259,61,330,313,75,Finisher,2067
+Edgar,Solano,Edgar Solano,717,M35-39,Male,Rio de Janeiro,RJ,Unknown,,0:36:55,2:45:41,1:53:51,,,5:28:51,2215,9941,6831,480,264,19731,331,314,76,423,396,93,416,394,88,331,314,76,Finisher,2067
+Guilherme,Brochado De Farias,Guilherme Brochado De Farias,203,M30-34,Male,Brasilia,DF,Unknown,,0:37:10,2:43:50,1:59:47,,,5:28:59,2230,9830,7187,277,215,19739,332,315,87,437,408,111,349,330,97,332,315,87,Finisher,2007
+Román,Cicero González,Román Cicero González,965,M30-34,Male,Santander,,Unknown,,0:35:40,2:49:17,1:53:29,,,5:29:09,2140,10157,6809,371,272,19749,333,316,88,356,332,89,427,403,118,333,316,88,Finisher,2004
+Florencia,Carrizosa,Florencia Carrizosa,976,F25-29,Female,Asuncion,Capital,Unknown,,0:36:19,2:51:36,1:56:18,,,5:29:12,2179,10296,6978,183,116,19752,334,18,2,395,26,5,422,23,3,334,18,2,Finisher,2819
+Angel Gustavo,Sanchez,Angel Gustavo Sanchez,654,M45-49,Male,San Juan,SAN JUAN,Unknown,,0:41:50,2:35:32,2:05:28,,,5:29:21,2510,9332,7528,232,159,19761,335,317,26,615,565,55,298,285,22,335,317,26,Finisher,2717
+Daniel,Sousa,Daniel Sousa,669,M40-44,Male,San Juan,Argentina,Unknown,,0:38:08,2:51:36,1:48:01,,,5:29:26,2288,10296,6481,503,198,19766,336,318,54,494,457,77,495,465,78,336,318,54,Finisher,2267
+Maria,Brandao Tavares,Maria Brandao Tavares,896,F30-34,Female,Salvador,Bahia,Unknown,,0:37:59,2:42:41,2:01:31,,,5:29:27,2279,9761,7291,284,152,19767,337,19,3,487,36,7,346,19,4,337,19,3,Finisher,3096
+Harysson,Gomes Silva,Harysson Gomes Silva,114,M35-39,Male,BRASILIA,DF,Unknown,,0:27:45,2:45:10,2:12:11,,,5:29:31,1665,9910,7931,159,106,19771,338,319,77,49,43,8,225,215,49,338,319,77,Finisher,2055
+Christiano,Rocha,Christiano Rocha,898,M30-34,Male,São Paulo,Intl State,Unknown,,0:34:09,2:51:36,1:53:39,,,5:29:32,2049,10296,6819,322,286,19772,339,320,89,286,265,70,426,402,117,339,320,89,Finisher,1997
+Danielle,Bertachini,Danielle Bertachini,937,F40-44,Female,Florianópolis,SC,Unknown,,0:34:19,2:49:26,2:00:44,,,5:29:33,2059,10166,7244,189,115,19773,340,20,3,293,22,4,368,20,3,340,20,3,Finisher,3140
+Alexandre,Schaefer Francisco Correia,Alexandre Schaefer Francisco Correia,803,M30-34,Male,Sao Paulo,,Unknown,,0:34:50,2:47:29,1:59:32,,,5:29:40,2090,10049,7172,309,160,19780,341,321,90,321,299,79,375,355,105,341,321,90,Finisher,1995
+Lucas,Magedanz,Lucas Magedanz,993,M25-29,Male,Brasmlia,Di,Unknown,,0:40:09,2:52:54,1:49:37,,,5:29:46,2409,10374,6577,266,160,19786,342,322,39,572,526,71,488,461,57,342,322,39,Finisher,2354
+Daniel,Rodriguez,Daniel Rodriguez,988,M45-49,Male,El Bosque,,Unknown,,0:40:11,2:44:10,1:49:46,,,5:29:49,2411,9850,6586,489,453,19789,343,323,27,573,527,44,437,412,38,343,323,27,Finisher,2708
+Pedro Henrique,Oliveira,Pedro Henrique Oliveira,191,M25-29,Male,Brasilia,DF,Unknown,,0:37:31,2:42:44,2:00:57,,,5:30:09,2251,9764,7257,286,251,19809,344,324,40,456,422,58,339,321,40,344,324,40,Finisher,2347
+Bruno,Ladeira,Bruno Ladeira,209,M35-39,Male,Brasmlia,Di,Unknown,,0:36:22,2:43:58,2:00:56,,,5:30:10,2182,9838,7256,300,234,19810,345,325,78,398,372,85,344,326,76,345,325,78,Finisher,2043
+Rafael,Rodrigues,Rafael Rodrigues,532,M30-34,Female,Rio de Janeiro,Intl State,Unknown,,0:38:48,2:41:08,1:58:57,,,5:30:17,2328,9668,7137,397,287,19817,346,326,91,522,481,130,362,343,102,346,326,91,Finisher,1984
+Carlos Alberto,Viecili Goulart,Carlos Alberto Viecili Goulart,588,M25-29,Male,Porto Alegre,Rio Grande do Sul,Unknown,,0:32:11,2:45:31,2:03:25,,,5:31:05,1931,9931,7405,369,229,19865,347,327,41,188,173,26,330,312,38,347,327,41,Finisher,2330
+Fabricio,Strelow,Fabricio Strelow,415,M25-29,Male,Santos,São Paulo,Unknown,,0:36:40,2:40:30,2:06:54,,,5:31:06,2200,9630,7614,251,171,19866,348,328,42,409,383,52,301,288,35,348,328,42,Finisher,2330
+Josi,Evandro Monteiro,Josi Evandro Monteiro,794,M35-39,Male,,,Unknown,,0:36:30,2:40:17,2:05:42,,,5:31:14,2190,9617,7542,294,231,19874,349,329,79,402,376,87,305,290,69,349,329,79,Finisher,2024
+Diogo,Souto,Diogo Souto,712,M30-34,Male,BRASILIA,Federal District,Unknown,,0:39:04,2:43:12,2:02:15,,,5:31:20,2344,9792,7335,230,179,19880,350,330,92,537,494,133,353,334,98,350,330,92,Finisher,1965
+Carlus,Pereira,Carlus Pereira,821,M30-34,Male,SANTOS,,Unknown,,0:38:43,2:53:49,1:52:03,,,5:31:26,2323,10429,6723,239,172,19886,351,331,93,517,476,128,479,452,128,351,331,93,Finisher,1963
+Camila,Negri,Camila Negri,902,F30-34,Female,GREENWICH,CT,Unknown,,0:36:51,2:40:45,2:07:53,,,5:31:30,2211,9645,7673,237,124,19890,352,21,4,419,27,4,303,14,2,352,21,4,Finisher,3059
+Rodrigo,Neves Mafra,Rodrigo Neves Mafra,271,M30-34,Male,goiania,Goiás,Unknown,,0:31:35,2:42:41,2:10:43,,,5:31:40,1895,9761,7843,236,165,19900,353,332,94,176,161,45,265,254,75,353,332,94,Finisher,1959
+Mariela,Catania,Mariela Catania,647,F25-29,Female,Villa Urquiza,CABA,Unknown,,0:33:58,2:54:04,1:58:59,,,5:31:46,2038,10444,7139,177,108,19906,354,22,3,272,19,3,423,24,4,354,22,3,Finisher,2773
+Clayder,Tobias Louzada,Clayder Tobias Louzada,550,M25-29,Male,Sao Paulo,Intl State,Unknown,,0:38:46,2:45:36,2:00:56,,,5:32:02,2326,9936,7256,229,175,19922,355,333,43,519,478,67,386,366,49,355,333,43,Finisher,2313
+Rommel,Akio Arake,Rommel Akio Arake,393,M35-39,Male,Brasmlia,Di,Unknown,,0:34:23,2:39:09,2:11:53,,,5:32:14,2063,9549,7913,222,187,19934,356,334,80,297,275,60,247,236,55,356,334,80,Finisher,2006
+Lucas,Foresti,Lucas Foresti,827,M18-24,Male,Sao Paulo,,Unknown,,0:36:38,2:38:46,2:11:59,,,5:32:25,2198,9526,7919,197,105,19945,357,335,14,407,381,20,267,256,12,357,335,14,Finisher,2721
+Mauricio,Marquez De Rezende,Mauricio Marquez De Rezende,445,M45-49,Male,Brasmlia,Di,Unknown,,0:37:40,2:41:33,2:01:07,,,5:32:40,2260,9693,7267,447,293,19960,358,336,28,462,428,33,365,346,28,358,336,28,Finisher,2657
+Victor,Santos Araujo,Victor Santos Araujo,248,M18-24,Male,Brasmlia,Di,Unknown,,0:33:29,2:51:51,2:00:42,,,5:32:51,2009,10311,7242,261,148,19971,359,337,15,256,238,13,405,383,17,359,337,15,Finisher,2713
+DANIEL,PASSANEZI PEGORARO,DANIEL PASSANEZI PEGORARO,476,M40-44,Male,BAURU,SP,Unknown,,0:35:04,2:48:50,2:00:32,,,5:32:53,2104,10130,7232,240,267,19973,360,338,55,329,307,51,380,360,56,360,338,55,Finisher,2204
+Fabio,Pompeo,Fabio Pompeo,942,M35-39,Male,Sao Joao da Boa Vista,SP,Unknown,,0:34:49,2:47:02,2:02:20,,,5:32:56,2089,10022,7340,303,222,19976,361,339,81,320,298,69,367,348,79,361,339,81,Finisher,1993
+Anderson,Rocha Montoro,Anderson Rocha Montoro,169,M35-39,Male,Brasmlia,Di,Unknown,,0:37:24,2:57:28,1:51:27,,,5:32:59,2244,10648,6687,221,179,19979,362,340,82,450,418,98,499,469,109,362,340,82,Finisher,1992
+Barry,Dequanne,Barry Dequanne,818,M45-49,Male,Brasilia,DF,Unknown,,0:45:56,2:45:43,1:50:19,,,5:33:11,2756,9943,6619,431,242,19991,363,341,29,701,631,64,502,472,45,363,341,29,Finisher,2648
+Katia,Garcia,Katia Garcia,790,F35-39,Female,São Bernardo do Campo,São Paulo,Unknown,,0:37:02,2:56:32,1:52:52,,,5:33:14,2222,10592,6772,254,154,19994,364,23,6,431,29,7,491,28,7,364,23,6,Finisher,3015
+Luis,Martins,Luis Martins,84,M25-29,Male,Sco Paulo,Sc,Unknown,,0:35:25,2:46:18,2:03:21,,,5:33:38,2125,9978,7401,290,224,20018,365,342,44,348,324,44,363,344,45,365,342,44,Finisher,2284
+Claudia,Bernardo Da Rocha,Claudia Bernardo Da Rocha,441,F45-49,Female,Curitiba,Pa,Unknown,,0:40:13,2:51:53,1:54:36,,,5:33:40,2413,10313,6876,237,181,20020,366,24,1,575,47,2,476,27,1,366,24,1,Finisher,3500
+Natalia,Coelho,Natalia Coelho,260,F25-29,Female,Brasilia,Distrito Federal,Unknown,,0:29:42,2:49:09,2:08:42,,,5:33:51,1782,10149,7722,184,194,20031,367,25,4,92,9,1,309,16,2,367,25,4,Finisher,2736
+Thiago,A. De Camargo Penteado Mendes,Thiago A. De Camargo Penteado Mendes,999,M35-39,Male,,,Unknown,,0:34:42,2:45:48,2:03:16,,,5:33:53,2082,9948,7396,360,247,20033,368,343,83,314,292,68,361,342,77,368,343,83,Finisher,1976
+Marcos,Arruda,Marcos Arruda,503,M35-39,Male,Brasilia,Federal District,Unknown,,0:30:14,2:45:58,2:09:05,,,5:34:00,1814,9958,7745,286,237,20040,369,344,84,124,112,26,295,282,66,369,344,84,Finisher,1974
+Jose,Mauro,Jose Mauro,465,M45-49,Male,PETROPOLIS,RIO DE JANEIRO,Unknown,,0:38:35,2:47:30,2:00:13,,,5:34:11,2315,10050,7213,285,188,20051,370,345,30,511,470,36,419,397,36,370,345,30,Finisher,2630
+Bruno,Tupinamba,Bruno Tupinamba,548,M30-34,Male,Manaus,Amazonas,Unknown,,0:42:45,2:38:32,2:02:17,,,5:34:12,2565,9512,7337,337,301,20052,371,346,95,634,579,152,369,349,103,371,346,95,Finisher,1913
+Marcelo,Vicente De Paula,Marcelo Vicente De Paula,259,M45-49,Male,Brasilia,Federal District,Unknown,,0:41:29,2:39:40,1:57:58,,,5:34:18,2489,9580,7078,557,354,20058,372,347,31,612,562,52,415,393,35,372,347,31,Finisher,2628
+Vicente,Prieto Duarte,Vicente Prieto Duarte,971,M50-54,Male,Asuncion,Distrito Capital,Unknown,,0:37:36,2:43:35,2:07:32,,,5:34:24,2256,9815,7652,248,93,20064,373,348,9,460,426,14,342,324,10,373,348,9,Finisher,2729
+Fernando,Castelo Branco,Fernando Castelo Branco,853,M45-49,Male,,,Unknown,,0:38:47,2:48:29,1:51:59,,,5:34:29,2327,10109,6719,542,372,20069,374,349,32,521,480,38,477,450,44,374,349,32,Finisher,2624
+Andre,Fixel,Andre Fixel,784,M25-29,Male,Rio de Janeiro,RJ,Unknown,,0:36:20,2:43:09,2:07:53,,,5:34:46,2180,9789,7673,263,181,20086,375,350,45,396,370,51,331,313,39,375,350,45,Finisher,2264
+Rodrigo,Previatti Contheux,Rodrigo Previatti Contheux,496,M30-34,Male,,,Unknown,,0:35:50,2:46:11,2:04:16,,,5:34:57,2150,9971,7456,354,166,20097,376,351,96,365,341,92,381,361,106,376,351,96,Finisher,1900
+Gustavo,Seiffert,Gustavo Seiffert,538,M45-49,Male,,,Unknown,,0:40:24,2:35:38,2:09:49,,,5:35:01,2424,9338,7789,294,256,20101,377,352,33,584,537,47,294,281,21,377,352,33,Finisher,2615
+Leonardo,Diniz,Leonardo Diniz,808,M45-49,Male,São Paulo,São paulo,Unknown,,0:30:25,2:49:15,2:04:31,,,5:35:11,1825,10155,7471,292,368,20111,378,353,34,134,121,7,336,318,24,378,353,34,Finisher,2612
+Fabio,Sa,Fabio Sa,380,M40-44,Male,joao pessoa,Paraíba,Unknown,,0:33:59,2:37:45,2:17:43,,,5:35:29,2039,9465,8263,206,156,20129,379,354,56,274,254,41,216,206,31,379,354,56,Finisher,2158
+Djalma,Lopes Dos Santos E Silva,Djalma Lopes Dos Santos E Silva,211,M30-34,Male,Taguatinga,TO,Unknown,,0:28:12,2:51:23,2:09:21,,,5:35:35,1692,10283,7761,269,130,20135,380,355,97,58,52,14,332,314,92,380,355,97,Finisher,1888
+Nelson,Junior,Nelson Junior,440,M45-49,Male,São Paulo,,Unknown,,0:40:08,2:56:15,1:52:17,,,5:35:47,2408,10575,6737,273,154,20147,381,356,35,571,525,43,515,485,48,381,356,35,Finisher,2601
+Adriano,Cesar V. De Carvalho,Adriano Cesar V. De Carvalho,141,M30-34,Male,Sco Sebastico,Paraná,Unknown,,0:35:58,2:49:25,2:02:58,,,5:35:48,2158,10165,7378,271,176,20148,382,357,98,374,350,96,406,384,112,382,357,98,Finisher,1884
+Marcos,Antonio Mollica,Marcos Antonio Mollica,315,M40-44,Male,São Paulo,SP,Unknown,,0:41:50,2:36:27,2:03:51,,,5:35:51,2510,9387,7431,490,333,20151,383,358,57,616,566,95,360,341,53,383,358,57,Finisher,2151
+Felipe,Kirsten Pastore,Felipe Kirsten Pastore,725,M25-29,Male,Sao Paulo,,Unknown,,0:32:13,2:45:19,2:10:38,,,5:36:00,1933,9919,7838,281,189,20160,384,359,46,190,175,27,313,297,36,384,359,46,Finisher,2241
+Dennis,Matheson,Dennis Matheson,323,M30-34,Male,Cascais,,Unknown,,0:40:34,2:48:13,2:01:35,,,5:36:24,2434,10093,7295,227,135,20184,385,360,99,591,544,143,438,413,119,385,360,99,Finisher,1874
+Arthur,Nogueira,Arthur Nogueira,556,M25-29,Male,Fortaleza,Ce,Unknown,,0:37:51,2:43:37,2:02:01,,,5:36:25,2271,9817,7321,467,309,20185,386,361,47,477,442,62,400,379,51,386,361,47,Finisher,2234
+Gabriel,Silva,Gabriel Silva,752,M30-34,Male,New York,NY,Unknown,,0:35:51,2:44:48,2:08:13,,,5:36:32,2151,9888,7693,281,179,20192,387,362,100,366,342,93,343,325,95,387,362,100,Finisher,1871
+DALTON,CABRAL,DALTON CABRAL,831,M35-39,Male,MANAUS,Amazonas,Unknown,,0:30:27,3:00:58,1:57:47,,,5:36:42,1827,10858,7067,210,240,20202,388,363,85,136,123,28,461,435,103,388,363,85,Finisher,1925
+Filipe,Saldanha,Filipe Saldanha,373,M30-34,Male,Porto Alegre,Ri,Unknown,,0:39:21,2:45:20,2:00:58,,,5:36:44,2361,9920,7258,344,321,20204,389,364,101,549,505,136,413,391,115,389,364,101,Finisher,1868
+Daniel,Guedes,Daniel Guedes,857,M30-34,Male,CAMPINAS,Intl State,Unknown,,0:31:19,2:44:26,2:12:42,,,5:36:45,1879,9866,7962,296,202,20205,390,365,102,169,154,43,291,278,82,390,365,102,Finisher,1867
+Adriano,Avila,Adriano Avila,819,M18-24,Male,Marília,São Paulo,Unknown,,0:36:42,2:56:37,1:56:35,,,5:36:48,2202,10597,6995,251,163,20208,391,366,16,412,386,21,489,462,20,391,366,16,Finisher,2642
+Yuri,Keiserman,Yuri Keiserman,678,M35-39,Male,SP,SP,Unknown,,0:37:43,3:03:06,1:47:38,,,5:36:51,2263,10986,6458,267,237,20211,392,367,86,466,432,102,551,519,116,392,367,86,Finisher,1923
+Aroldo,Carneiro De Lima Filho,Aroldo Carneiro De Lima Filho,715,M40-44,Male,Brasilia,Federal District,Unknown,,0:33:29,2:39:25,2:15:34,,,5:36:56,2009,9565,8134,247,261,20216,393,368,58,255,237,37,243,232,37,393,368,58,Finisher,2132
+Paulo,Eustaquio Franca Junior,Paulo Eustaquio Franca Junior,101,M40-44,Male,Brasilia,Distrito Federal,Unknown,,0:38:09,2:48:54,2:01:53,,,5:36:56,2289,10134,7313,299,181,20216,394,369,59,496,459,78,434,409,63,394,369,59,Finisher,2132
+Fernando,Flumian,Fernando Flumian,806,M30-34,Male,São Paulo,SP,Unknown,,0:36:19,2:36:41,2:15:38,,,5:37:06,2179,9401,8138,301,207,20226,395,370,103,394,369,99,263,252,74,395,370,103,Finisher,1861
+Ciro,Abreu,Ciro Abreu,736,M45-49,Male,brasilia,DF,Unknown,,0:42:35,2:50:50,1:54:25,,,5:37:15,2555,10250,6865,364,201,20235,396,371,36,628,574,57,506,476,46,396,371,36,Finisher,2575
+Fabricio,Marcondes Silva,Fabricio Marcondes Silva,423,M30-34,Male,Porto Alegre,RS,Unknown,,0:38:30,2:42:52,2:08:37,,,5:37:29,2310,9772,7717,286,164,20249,397,372,104,508,467,127,354,335,99,397,372,104,Finisher,1854
+Massao,Uechi,Massao Uechi,458,M50-54,Male,braganca paulista,SP,Unknown,,0:37:19,2:42:38,2:10:04,,,5:37:54,2239,9758,7804,267,206,20274,398,373,10,444,413,13,335,317,9,398,373,10,Finisher,2666
+Alexandre,Sawada Viegas,Alexandre Sawada Viegas,933,M35-39,Male,Balneario Camboriu,,Unknown,,0:31:12,2:43:48,2:13:45,,,5:38:01,1872,9828,8025,270,286,20281,399,374,87,162,147,34,275,264,62,399,374,87,Finisher,1902
+Paulo,Olivet Maranhco,Paulo Olivet Maranhco,426,M18-24,Male,Curitiba,Pa,Unknown,,0:29:37,2:42:43,2:19:18,,,5:38:04,1777,9763,8358,193,193,20284,400,375,17,88,80,2,224,214,7,400,375,17,Finisher,2619
+Daniel,Pinsky Daniel Pinsky,Daniel Pinsky Daniel Pinsky,425,M40-44,Male,São Paulo,SP,Unknown,,0:35:18,2:58:11,1:55:41,,,5:38:05,2118,10691,6941,372,163,20285,401,376,60,341,317,54,509,479,81,401,376,60,Finisher,2111
+Fidelis,Manes Neto,Fidelis Manes Neto,817,M35-39,Male,Teresina,Intl State,Unknown,,0:40:23,2:40:10,2:05:32,,,5:38:09,2423,9610,7532,475,249,20289,402,377,88,583,536,126,388,368,83,402,377,88,Finisher,1899
+Priscilla,Dutra,Priscilla Dutra,711,F25-29,Female,,,Unknown,,0:30:23,2:57:36,2:02:34,,,5:38:44,1823,10656,7354,340,151,20324,403,26,5,129,13,2,449,26,5,403,26,5,Finisher,2648
+Ernesto,Lino Junior,Ernesto Lino Junior,222,M35-39,Male,São Paulo,São Paulo,Unknown,,0:40:20,2:55:54,1:49:39,,,5:38:45,2420,10554,6579,449,323,20325,404,378,89,580,533,124,537,505,114,404,378,89,Finisher,1889
+Rodrigo,Pontual,Rodrigo Pontual,165,M30-34,Male,brasilia,df,Unknown,,0:35:57,2:35:43,2:20:14,,,5:38:47,2157,9343,8414,250,163,20327,405,379,105,372,348,95,229,219,65,405,379,105,Finisher,1831
+Lindolfo,Neto,Lindolfo Neto,521,M45-49,Male,SALVADOR,,Unknown,,0:35:47,2:55:41,2:00:15,,,5:38:50,2147,10541,7215,255,172,20330,406,380,37,363,339,26,470,444,42,406,380,37,Finisher,2546
+Rodrigo,Meirelles,Rodrigo Meirelles,368,M40-44,Male,Sao Paulo,,Unknown,,0:32:55,2:49:23,2:04:30,,,5:38:51,1975,10163,7470,381,342,20331,407,381,61,219,202,29,391,371,59,407,381,61,Finisher,2097
+Josi,Eduardo Storopoli,Josi Eduardo Storopoli,239,M25-29,Male,Sco Paulo,Sc,Unknown,,0:43:33,2:41:41,2:04:16,,,5:39:07,2613,9701,7456,345,232,20347,408,382,48,654,596,75,424,400,53,408,382,48,Finisher,2185
+Fabio,Vieira,Fabio Vieira,530,M30-34,Male,São Paulo,São Paulo,Unknown,,0:35:06,2:37:12,2:20:13,,,5:39:19,2106,9432,8413,231,177,20359,409,383,106,333,311,84,231,221,67,409,383,106,Finisher,1821
+Francisco,Leonardo Leal Freire Dos Santos,Francisco Leonardo Leal Freire Dos Santos,546,M35-39,Male,Fortaleza,Ce,Unknown,,0:36:31,2:55:47,2:00:02,,,5:39:26,2191,10547,7202,282,144,20366,410,384,90,404,378,89,486,459,107,410,384,90,Finisher,1876
+Bruno,Giannotti,Bruno Giannotti,230,M30-34,Male,Carapicuiba ,São Paulo ,Unknown,,0:27:51,2:40:31,2:18:51,,,5:39:27,1671,9631,8331,418,316,20367,411,385,107,51,45,11,219,209,63,411,385,107,Finisher,1819
+Marma,Alejandra Vazquez Zamarbide,Marma Alejandra Vazquez Zamarbide,671,F40-44,Female,San Juan,San Juan,Unknown,,0:37:13,2:47:18,2:07:57,,,5:39:29,2233,10038,7677,264,157,20369,412,27,4,439,31,7,394,21,4,412,27,4,Finisher,2961
+Marcelo,Mendes,Marcelo Mendes,723,M35-39,Male,Brasilia,DF,Unknown,,0:37:45,3:03:18,1:52:12,,,5:39:50,2265,10998,6732,202,193,20390,413,386,91,469,435,103,546,514,115,413,386,91,Finisher,1869
+Camilo,Jimenez,Camilo Jimenez,959,M35-39,Male,Lo Barnechea,Santiago Metropolitan Region,Unknown,,0:38:57,2:51:41,1:58:48,,,5:39:56,2337,10301,7128,309,321,20396,414,387,92,527,486,114,472,446,105,414,387,92,Finisher,1867
+Jayme,Campos Vianna,Jayme Campos Vianna,865,M50-54,Male,São Paulo,SP,Unknown,,0:59:19,3:19:18,0:59:02,,,5:40:13,3559,11958,3542,874,480,20413,415,388,11,766,687,24,726,653,23,415,388,11,Finisher,2624
+Marcus,Martins,Marcus Martins,396,M45-49,Male,Rio de Janeiro,RJ,Unknown,,0:35:57,2:45:16,2:08:42,,,5:40:19,2157,9916,7722,362,262,20419,416,389,38,373,349,29,373,353,29,416,389,38,Finisher,2519
+Carlos,Augusto Dos Santos,Carlos Augusto Dos Santos,613,M50-54,Male,salvador,,Unknown,,0:34:16,2:50:14,2:04:10,,,5:40:27,2056,10214,7450,382,325,20427,417,390,12,290,269,10,421,399,13,417,390,12,Finisher,2620
+Marcus Vinicius,Carvalho,Marcus Vinicius Carvalho,593,M35-39,Male,Campo Grande,Ma,Unknown,,0:34:28,2:50:39,2:06:27,,,5:40:30,2068,10239,7587,319,217,20430,418,391,93,302,280,63,414,392,87,418,391,93,Finisher,1857
+Fernando,Haetinger Toigo,Fernando Haetinger Toigo,102,M55-59,Male,Brasília,Distrito Federal,Unknown,,0:43:19,2:41:59,2:06:18,,,5:40:44,2599,9719,7578,414,134,20444,419,392,3,647,591,8,435,410,2,419,392,3,Finisher,2726
+Henrique,Augusto Araujo,Henrique Augusto Araujo,339,M45-49,Male,fortaleza,Intl State,Unknown,,0:44:48,2:43:20,2:03:03,,,5:41:28,2688,9800,7383,359,258,20488,420,393,39,680,617,61,453,427,40,420,393,39,Finisher,2499
+Leonardo,Carvalho,Leonardo Carvalho,249,M35-39,Male,Brasilia,Federal District,Unknown,,0:44:02,2:42:11,2:04:43,,,5:41:32,2642,9731,7483,342,294,20492,421,394,94,665,606,137,433,408,94,421,394,94,Finisher,1838
+Igor,Araujo Da Silva,Igor Araujo Da Silva,949,M25-29,Male,Salvador,,Unknown,,0:33:45,2:57:10,2:04:01,,,5:41:33,2025,10630,7441,265,132,20493,422,395,49,264,246,36,464,438,55,422,395,49,Finisher,2141
+Luiz Fernando,Costa,Luiz Fernando Costa,467,M40-44,Male,Sao Paulo,SP,Unknown,,0:37:32,2:51:43,2:04:31,,,5:41:39,2252,10303,7471,335,138,20499,423,396,62,458,424,72,460,434,68,423,396,62,Finisher,2047
+Jullian,Salgueiro,Jullian Salgueiro,998,M40-44,Male,São Paulo,BR-SP,Unknown,,0:35:12,2:57:42,2:01:50,,,5:41:40,2112,10662,7310,243,173,20500,424,397,63,337,314,53,485,458,75,424,397,63,Finisher,2046
+Jorge,Moran,Jorge Moran,266,M40-44,Male,Curitiba,PR,Unknown,,0:33:34,2:59:22,2:00:39,,,5:41:56,2014,10762,7239,308,193,20516,425,398,64,257,239,38,493,464,77,425,398,64,Finisher,2042
+Wellington,Jesuino,Wellington Jesuino,200,M45-49,Male,Brasilia/DF,DF,Unknown,,0:46:07,2:42:03,2:05:39,,,5:42:01,2767,9723,7539,292,200,20521,426,399,40,702,632,65,443,418,39,426,399,40,Finisher,2489
+Messias,Fernandes Correia Filho,Messias Fernandes Correia Filho,231,M30-34,Male,Curitibanos,Sa,Unknown,,0:52:19,2:49:44,1:52:05,,,5:42:07,3139,10184,6725,292,187,20527,427,400,108,751,673,176,567,531,147,427,400,108,Finisher,1771
+Felicio,Carlos,Felicio Carlos,505,M25-29,Male,CURITIBA,PARANÁ,Unknown,,0:34:45,2:46:32,2:10:29,,,5:42:26,2085,9992,7829,228,412,20546,428,401,50,317,295,41,341,323,41,428,401,50,Finisher,2126
+Rodrigo,Fudoli,Rodrigo Fudoli,329,M35-39,Male,Brasília,,Unknown,,0:34:24,2:50:26,2:08:06,,,5:42:35,2064,10226,7686,350,229,20555,429,402,95,298,276,61,417,395,89,429,402,95,Finisher,1820
+Marco,Santos,Marco Santos,122,M35-39,Male,Rio de Janeiro,RJ,Unknown,,0:28:07,2:47:31,2:19:53,,,5:42:51,1687,10051,8393,255,185,20571,430,403,96,56,50,11,281,269,65,430,403,96,Finisher,1815
+Heitor,Povoas,Heitor Povoas,447,M45-49,Male,Salvador,,Unknown,,0:40:17,2:44:15,2:10:26,,,5:43:10,2417,9855,7826,324,168,20590,431,404,41,577,530,46,407,385,33,431,404,41,Finisher,2468
+Fernando,Schincariol,Fernando Schincariol,930,M30-34,Male,Recife,Pernambuco - PE,Unknown,,0:37:46,2:38:43,2:16:28,,,5:43:13,2266,9523,8188,344,272,20593,432,405,109,472,438,116,314,298,87,432,405,109,Finisher,1751
+Eduardo,Cezar Pereira Pedra,Eduardo Cezar Pereira Pedra,136,M30-34,Male,Brasmlia,Di,Unknown,,0:33:21,2:46:41,2:09:47,,,5:43:25,2001,10001,7787,515,301,20605,433,406,110,247,229,62,390,370,107,433,406,110,Finisher,1747
+Inaki,Mazarredo Barandica,Inaki Mazarredo Barandica,964,M50-54,Male,Gresham,OR,Unknown,,0:42:39,2:53:27,2:02:15,,,5:43:54,2559,10407,7335,207,126,20634,434,407,13,630,576,20,508,478,15,434,407,13,Finisher,2558
+Wilke,Luis,Wilke Luis,915,M35-39,Male,Curitiba,Paraná,Unknown,,0:31:46,2:43:47,2:17:03,,,5:43:59,1906,9827,8223,327,356,20639,435,408,97,180,165,40,296,283,67,435,408,97,Finisher,1794
+Pedro,Pelosini,Pedro Pelosini,929,M18-24,Male,São Paulo,São Paulo,Unknown,,0:44:04,2:55:30,1:53:59,,,5:44:00,2644,10530,6839,398,229,20640,436,409,18,666,607,27,559,526,22,436,409,18,Finisher,2512
+Domingos,Pandelo Jr,Domingos Pandelo Jr,587,M45-49,Male,Santos,,Unknown,,0:00:00,0:00:00,2:54:45,,,5:44:04,0,0,10485,0,220,20644,437,410,42,99999,99999,99999,25,24,1,437,410,42,Finisher,2452
+Vinicius,Camillo,Vinicius Camillo,875,M25-29,Male,Campinas,,Unknown,,0:39:08,0:00:00,5:44:07,,,5:44:07,2348,0,20647,360,0,20647,438,411,51,541,497,68,99999,99999,99999,438,411,51,Finisher,2095
+MARILZA,CANDIDA SALDANHA,MARILZA CANDIDA SALDANHA,628,F45-49,Female,SAO JOSE DO RIO PRETO,SP,Unknown,,0:42:24,2:50:37,2:03:11,,,5:44:25,2544,10237,7391,294,199,20665,439,28,2,626,53,3,492,29,2,439,28,2,Finisher,3306
+Robinson,Da silva junior,Robinson Da silva junior,781,M18-24,Male,Sao Paulo,,Unknown,,0:33:19,2:36:16,2:26:22,,,5:44:49,1999,9376,8782,235,297,20689,440,412,19,244,226,12,189,181,4,440,412,19,Finisher,2498
+Andre,Faustino,Andre Faustino,422,M30-34,Male,São Paulo,São Paulo,Unknown,,0:39:16,2:51:47,2:03:19,,,5:45:01,2356,10307,7399,458,181,20701,441,413,111,546,502,135,500,470,131,441,413,111,Finisher,1718
+Rafael,Barbosa Roda,Rafael Barbosa Roda,705,M30-34,Male,Bras¡lia,Federal District,Unknown,,0:32:37,2:42:37,2:23:25,,,5:45:06,1957,9757,8605,251,136,20706,442,414,112,207,191,52,273,262,79,442,414,112,Finisher,1717
+Andre,Porto,Andre Porto,863,M25-29,Male,BRASÍLIA,DF,Unknown,,0:35:38,2:38:42,2:20:42,,,5:45:08,2138,9522,8442,363,243,20708,443,415,52,355,331,46,284,272,33,443,415,52,Finisher,2077
+Alexandre,Tavares,Alexandre Tavares,525,M40-44,Male,Santos,Sc,Unknown,,0:39:14,2:53:14,2:06:33,,,5:45:09,2354,10394,7593,213,155,20709,444,416,65,544,500,83,475,449,71,444,416,65,Finisher,1984
+David,Denrich,David Denrich,829,M30-34,Male,sao paulo,,Unknown,,0:26:22,3:09:47,2:01:01,,,5:45:12,1582,11387,7261,273,209,20712,445,417,113,33,27,8,514,484,135,445,417,113,Finisher,1715
+Nicolas,Garschagen,Nicolas Garschagen,867,M25-29,Male,Boston,MA,Unknown,,0:32:58,2:47:46,2:15:42,,,5:45:16,1978,10066,8142,394,136,20716,446,418,53,224,207,33,374,354,46,446,418,53,Finisher,2075
+Andre,Gerheim,Andre Gerheim,1000,M25-29,Male,,,Unknown,,0:37:52,2:59:15,1:58:10,,,5:45:20,2272,10755,7090,412,191,20720,447,419,54,479,444,63,540,508,63,447,419,54,Finisher,2073
+Giovanni Montinni,Sandoval,Giovanni Montinni Sandoval,296,M50-54,Male,PALMAS,,Unknown,,0:39:34,3:00:11,1:57:26,,,5:45:21,2374,10811,7046,283,207,20721,448,420,14,557,512,17,547,515,18,448,420,14,Finisher,2532
+Henrique,Cardoso,Henrique Cardoso,348,M40-44,Male,Brasmlia,Di,Unknown,,0:32:02,2:52:34,2:13:30,,,5:45:36,1922,10354,8010,266,184,20736,449,421,66,184,169,24,396,375,61,449,421,66,Finisher,1976
+Leonardo,Oliveira,Leonardo Oliveira,775,M30-34,Male,Luziânia,Goiás,Unknown,,0:00:00,0:00:00,2:50:24,,,5:45:39,0,0,10224,0,233,20739,450,422,114,99999,99999,99999,29,27,8,450,422,114,Finisher,1707
+Tiago,De Melo Tiveron Borges,Tiago De Melo Tiveron Borges,844,M18-24,Male,Brasilia,Federal District,Unknown,,0:33:07,2:46:19,2:16:18,,,5:45:52,1987,9979,8178,327,281,20752,451,423,20,234,216,11,338,320,14,451,423,20,Finisher,2479
+Cassius,Coelho,Cassius Coelho,384,M40-44,Male,Fortaleza,Ce,Unknown,,0:34:05,2:58:35,1:58:14,,,5:45:55,2045,10715,7094,571,330,20755,452,424,67,281,260,44,527,496,84,452,424,67,Finisher,1970
+José,Anchieta Rabelo Fernandes,José Anchieta Rabelo Fernandes,615,M50-54,Male,FORTALEZA,CE,Unknown,,0:53:04,2:51:42,1:54:35,,,5:46:03,3184,10302,6875,270,132,20763,453,425,15,758,679,23,583,545,20,453,425,15,Finisher,2519
+Flavio,Souza,Flavio Souza,270,M40-44,Male,Brasmlia,Di,Unknown,,0:42:41,2:51:40,1:58:42,,,5:46:08,2561,10300,7122,454,331,20768,454,426,68,631,577,100,525,494,83,454,426,68,Finisher,1966
+Felipe,Amorim,Felipe Amorim,79,M30-34,Male,Brasilia,DF,Unknown,,0:35:01,2:50:52,2:09:30,,,5:46:27,2101,10252,7770,307,357,20787,455,427,115,327,305,82,425,401,116,455,427,115,Finisher,1693
+Eduardo,Souza Lobo Moreira Salles,Eduardo Souza Lobo Moreira Salles,100,M35-39,Male,,,Unknown,,0:35:46,2:49:41,2:11:38,,,5:46:31,2146,10181,7898,352,214,20791,456,428,98,361,337,76,429,405,92,456,428,98,Finisher,1749
+Marcelo,Mazarin Bicudo,Marcelo Mazarin Bicudo,171,M35-39,Male,PEDREIRA,Sao Paulo,Unknown,,0:38:41,3:01:24,1:56:07,,,5:46:38,2321,10884,6967,414,212,20798,457,429,99,514,473,111,569,533,119,457,429,99,Finisher,1747
+Roberto,Ruschel,Roberto Ruschel,629,M50-54,Male,piracicaba,,Unknown,,0:28:14,2:44:29,2:25:55,,,5:46:47,1694,9869,8755,299,190,20807,458,430,16,60,54,2,256,245,6,458,430,16,Finisher,2506
+Ricardo,Ribeiro Sampaio,Ricardo Ribeiro Sampaio,557,M35-39,Male,Cuiaba,Ma,Unknown,,0:37:17,2:43:06,2:15:39,,,5:46:58,2237,9786,8139,456,200,20818,459,431,100,442,411,96,382,362,81,459,431,100,Finisher,1741
+Bruno,Autran,Bruno Autran,907,M25-29,Male,RIO DE JANEIRO,RIO DE JANEIRO,Unknown,,0:33:19,2:46:52,2:09:49,,,5:47:08,1999,10012,7789,371,657,20828,460,432,55,245,227,34,358,339,44,460,432,55,Finisher,2041
+Andreas,Burr,Andreas Burr,919,M45-49,Male,Carapicuiba,São Paulo,Unknown,,0:39:24,2:37:00,2:21:19,,,5:47:33,2364,9420,8479,380,210,20853,461,433,43,552,508,41,318,301,23,461,433,43,Finisher,2389
+Luis Rogério,Aoki Noguchi,Luis Rogério Aoki Noguchi,643,M35-39,Male,São Paulo,São Paulo,Unknown,,0:40:57,2:46:22,2:09:27,,,5:47:41,2457,9982,7767,435,220,20861,462,434,101,600,552,130,456,430,101,462,434,101,Finisher,1728
+Joao,Roberto Siqueira,Joao Roberto Siqueira,876,M30-34,Male,Campinas,,Unknown,,0:47:10,2:46:43,1:59:48,,,5:47:51,2830,10003,7188,445,405,20871,463,435,116,724,648,171,519,489,138,463,435,116,Finisher,1667
+Rodrigo,Quadri,Rodrigo Quadri,475,M30-34,Male,Curitiba,Pa,Unknown,,0:45:55,2:44:02,2:05:30,,,5:47:57,2755,9842,7530,500,250,20877,464,436,117,700,630,165,496,466,130,464,436,117,Finisher,1666
+Alexandre,Ciscato,Alexandre Ciscato,834,M40-44,Male,são josé dos campos,São Paulo,Unknown,,0:44:13,2:57:03,1:57:51,,,5:48:09,2653,10623,7071,392,150,20889,465,437,69,671,611,107,575,538,92,465,437,69,Finisher,1930
+RAFAEL,SALVIANO,RAFAEL SALVIANO,308,M25-29,Male,Brasmlia,Di,Unknown,,0:43:20,2:51:03,2:06:41,,,5:48:29,2600,10263,7601,280,165,20909,466,438,56,648,592,74,503,473,58,466,438,56,Finisher,2017
+Fabiane,Ferreira Caldeira Garbi,Fabiane Ferreira Caldeira Garbi,217,F35-39,Female,Brasmlia,Di,Unknown,,0:29:47,2:56:54,2:12:02,,,5:48:36,1787,10614,7922,309,284,20916,467,29,7,96,10,1,431,25,6,467,29,7,Finisher,2738
+Rafael,Andre Gesini,Rafael Andre Gesini,905,M35-39,Male,Sao paulo,sao paulo,Unknown,,0:41:03,2:46:38,2:11:16,,,5:48:42,2463,9998,7876,323,262,20922,468,439,102,602,553,131,444,419,98,468,439,102,Finisher,1709
+Jeconias,Rosendo Da Silva Junior,Jeconias Rosendo Da Silva Junior,124,M40-44,Male,BRAS&Iacute;LIA,DF,Unknown,,0:32:45,2:57:07,2:10:13,,,5:48:47,1965,10627,7813,354,168,20927,469,440,70,214,198,27,471,445,70,469,440,70,Finisher,1918
+Gustavo,Santos,Gustavo Santos,869,M30-34,Male,Goiƒnia,Goiás,Unknown,,0:43:36,2:51:03,2:04:14,,,5:48:49,2616,10263,7454,390,206,20929,470,441,118,655,597,160,517,487,137,470,441,118,Finisher,1650
+Caio,Yano,Caio Yano,162,M25-29,Male,Sao paulo,SP,Unknown,,0:37:48,2:55:54,2:04:56,,,5:48:51,2268,10554,7496,362,251,20931,471,442,57,473,439,61,510,480,59,471,442,57,Finisher,2010
+Thor,Quinder‚,Thor Quinder‚,382,M35-39,Male,Fortaleza,,Unknown,,0:31:35,2:53:01,2:10:25,,,5:48:54,1895,10381,7825,408,425,20934,472,443,103,177,162,38,430,406,93,472,443,103,Finisher,1706
+Vinicius,Carvalho,Vinicius Carvalho,438,M18-24,Male,SAO PAULO,Intl State,Unknown,,0:36:21,3:01:53,2:01:19,,,5:49:02,2181,10913,7279,341,228,20942,473,444,21,397,371,19,539,507,21,473,444,21,Finisher,2422
+Diego,Menezes Silva,Diego Menezes Silva,97,M30-34,Male,Brasilia,DF ,Unknown,,0:00:00,0:00:00,3:03:06,,,5:49:30,0,0,10986,0,179,20970,474,445,119,99999,99999,99999,19,18,4,474,445,119,Finisher,1638
+Heglisson,Alves Gomes,Heglisson Alves Gomes,90,M40-44,Male,Brasilia,DF,Unknown,,0:42:46,2:52:13,2:00:23,,,5:49:40,2566,10333,7223,526,332,20980,475,446,71,635,580,101,538,506,86,475,446,71,Finisher,1902
+Cibelle,Gomes De Oliveira Fernandes,Cibelle Gomes De Oliveira Fernandes,592,F35-39,Female,Joco Pessoa,Pa,Unknown,,0:36:57,3:01:02,2:03:39,,,5:49:52,2217,10862,7419,340,154,20992,476,30,8,425,28,6,535,32,9,476,30,8,Finisher,2716
+Rodrigo,Ramos Celete,Rodrigo Ramos Celete,301,M30-34,Male,SÃO PAULO,Brasil,Unknown,,0:34:59,2:47:36,2:15:15,,,5:50:04,2099,10056,8115,410,324,21004,477,447,120,325,303,81,402,380,110,477,447,120,Finisher,1628
+Fernando,Henrique Machado Blau,Fernando Henrique Machado Blau,734,M30-34,Male,Lajeado,Army Asia,Unknown,,0:44:56,2:54:08,2:01:43,,,5:50:16,2696,10448,7303,310,259,21016,478,448,121,684,619,163,542,510,141,478,448,121,Finisher,1624
+Samir Gabriel,Da Silva,Samir Gabriel Da Silva,900,M30-34,Male,RIBEIRAO PRETO,São Paulo,Unknown,,0:30:30,2:39:29,2:30:45,,,5:50:26,1830,9569,9045,270,312,21026,479,449,122,137,124,34,206,196,58,479,449,122,Finisher,1621
+Renato L,Simioni,Renato L Simioni,316,M25-29,Male, Sertãozinho,Sao Paulo,Unknown,,0:39:23,2:53:12,2:02:38,,,5:50:36,2363,10392,7358,632,291,21036,480,450,58,550,506,69,532,501,61,480,450,58,Finisher,1979
+Andre,Ribeiro,Andre Ribeiro,578,M35-39,Male,Fortaleza,Ceará,Unknown,,0:39:57,2:41:46,2:17:44,,,5:50:39,2397,9706,8264,438,234,21039,481,451,104,567,521,122,395,374,84,481,451,104,Finisher,1674
+Jonatas,Kothe,Jonatas Kothe,324,M35-39,Male,Tubarco,Sa,Unknown,,0:36:03,2:54:53,2:04:47,,,5:50:42,2163,10493,7487,508,391,21042,482,452,105,376,352,78,504,474,111,482,452,105,Finisher,1673
+Jose,Wellington Coelho Arag O,Jose Wellington Coelho Arag O,492,M55-59,Male,Sao Paulo,Sao Paulo,Unknown,,0:45:20,2:46:42,2:09:17,,,5:50:43,2720,10002,7757,332,232,21043,483,453,4,691,623,10,490,463,3,483,453,4,Finisher,2546
+Nilma,Machado,Nilma Machado,928,F40-44,Female,Botucatu,São Paulo - Brazil,Unknown,,0:35:18,2:57:42,2:10:06,,,5:51:18,2118,10662,7806,306,186,21078,484,31,5,340,24,5,494,30,5,484,31,5,Finisher,2749
+Jorge,Foppel,Jorge Foppel,621,M35-39,Male,Salvador,BA,Unknown,,0:32:43,2:55:12,2:12:03,,,5:51:29,1963,10512,7923,281,410,21089,485,454,106,212,196,45,440,415,96,485,454,106,Finisher,1659
+Arthur,Moscatto,Arthur Moscatto,197,M30-34,Male,MARILÂNDIA DO SUL,PR,Unknown,,0:39:23,2:52:23,2:12:49,,,5:51:30,2363,10343,7969,292,123,21090,486,455,123,551,507,137,480,453,129,486,455,123,Finisher,1602
+Wellington,Rodrigues Leite,Wellington Rodrigues Leite,111,M40-44,Male,Brasmlia,Di,Unknown,,0:44:56,2:44:54,2:12:26,,,5:51:46,2696,9894,7946,323,247,21106,487,456,72,683,618,109,463,437,69,487,456,72,Finisher,1865
+Vilmar,Valente Ornelas,Vilmar Valente Ornelas,116,M50-54,Male,Brasilia,Utah,Unknown,,0:41:15,2:55:39,2:08:04,,,5:51:55,2475,10539,7684,291,126,21115,488,457,17,605,556,19,523,492,16,488,457,17,Finisher,2414
+Luiz,Quartin,Luiz Quartin,703,M30-34,Male,brasilia,Federal District,Unknown,,0:37:56,2:50:16,2:13:52,,,5:52:11,2276,10216,8032,417,190,21131,489,458,124,484,449,121,462,436,125,489,458,124,Finisher,1589
+Marcelo,De Oliveira Machado,Marcelo De Oliveira Machado,437,M30-34,Male,PALMAS,FL,Unknown,,0:30:03,3:11:18,2:01:24,,,5:52:13,1803,11478,7284,380,188,21133,490,459,125,115,104,28,574,537,148,490,459,125,Finisher,1589
+Diogenes,Ballasch,Diogenes Ballasch,977,M18-24,Male,Asuncion,capital,Unknown,,0:38:32,2:53:44,2:12:36,,,5:52:28,2312,10424,7956,276,180,21148,491,460,22,510,469,23,483,456,19,491,460,22,Finisher,2360
+Aldo,Rodriguez Trivero,Aldo Rodriguez Trivero,973,M45-49,Male,asuncion,asuncion,Unknown,,0:43:08,3:05:00,1:57:50,,,5:53:13,2588,11100,7070,280,155,21193,492,461,44,643,588,58,605,560,56,492,461,44,Finisher,2287
+Joao,Oliveira,Joao Oliveira,455,M50-54,Male,Sco Paulo,Sc,Unknown,,0:39:26,2:57:10,2:08:20,,,5:53:35,2366,10630,7700,317,202,21215,493,462,18,553,509,16,524,493,17,493,462,18,Finisher,2384
+Diego Campos e,Silva,Diego Campos e Silva,204,M30-34,Male,Goiânia,Goiás,Unknown,,0:39:51,3:03:59,1:51:49,,,5:53:49,2391,11039,6709,607,483,21229,494,463,126,563,518,139,610,564,157,494,463,126,Finisher,1560
+Elber,Rocha,Elber Rocha,265,M30-34,Male,Brasilia,DF,Unknown,,0:35:44,2:41:25,2:24:15,,,5:53:51,2144,9685,8655,420,327,21231,495,464,127,360,336,91,333,315,93,495,464,127,Finisher,1559
+Joao,Gustavo Alcantara Guimaraes,Joao Gustavo Alcantara Guimaraes,372,M40-44,Male,Brasmlia,Di,Unknown,,0:35:53,2:50:36,2:11:27,,,5:53:53,2153,10236,7887,610,347,21233,496,465,73,368,344,58,481,454,72,496,465,73,Finisher,1826
+Luiz,Augusto Fabregat,Luiz Augusto Fabregat,772,M30-34,Male,Sao paulo,São Paulo,Unknown,,0:35:44,3:01:18,2:06:27,,,5:53:57,2144,10878,7587,360,268,21237,497,466,128,359,335,90,531,500,139,497,466,128,Finisher,1558
+Luiz,Carlos Cassemiro,Luiz Carlos Cassemiro,545,M55-59,Male,Brasilia,DISTRITO FEDERAL,Unknown,,0:38:08,2:54:59,2:08:49,,,5:54:11,2288,10499,7729,503,232,21251,498,467,5,495,458,3,521,490,4,498,467,5,Finisher,2484
+Marcio,Marcelino,Marcio Marcelino,677,M35-39,Male,Ribeirao Preto,Sao Paulo,Unknown,,0:35:07,2:53:01,2:13:23,,,5:54:17,2107,10381,8003,383,383,21257,499,468,107,334,312,71,455,429,100,499,468,107,Finisher,1609
+Felipe,Jordan De Almeida,Felipe Jordan De Almeida,727,M25-29,Male,Brasília,Distrito Federal,Unknown,,0:37:09,2:47:19,2:20:54,,,5:54:29,2229,10039,8454,352,195,21269,500,469,59,436,407,56,412,390,52,500,469,59,Finisher,1909
+Diego,Martin Pons,Diego Martin Pons,655,M25-29,Male,caleta olivia,,Unknown,,0:49:53,2:59:12,1:57:18,,,5:54:36,2993,10752,7038,300,193,21276,501,470,60,747,669,82,611,565,68,501,470,60,Finisher,1907
+Ediney,Freitas Rios,Ediney Freitas Rios,600,M35-39,Male,Salvador,BAHIA,Unknown,,0:38:23,2:48:55,2:16:24,,,5:54:42,2303,10135,8184,373,287,21282,502,471,108,503,464,109,446,421,99,502,471,108,Finisher,1601
+Peter,Thomas Wetzlar,Peter Thomas Wetzlar,934,M40-44,Male,RIO DE JANEIRO,RJ,Unknown,,0:35:49,2:50:05,2:18:42,,,5:54:46,2149,10205,8322,388,222,21286,503,472,74,364,340,57,436,411,64,503,472,74,Finisher,1811
+Henrique,Fontenelle,Henrique Fontenelle,706,M35-39,Male,Milano,,Unknown,,0:45:04,2:51:00,2:06:28,,,5:55:03,2704,10260,7588,431,320,21303,504,473,109,686,620,141,533,502,113,504,473,109,Finisher,1595
+Rafael,Soares Cristofari,Rafael Soares Cristofari,365,M30-34,Male,Brasmlia De Minas,Di,Unknown,,0:37:27,2:47:34,2:20:23,,,5:55:08,2247,10054,8423,312,272,21308,505,474,129,452,419,113,411,389,114,505,474,129,Finisher,1536
+Jose,Henrique Da Costa Machado,Jose Henrique Da Costa Machado,98,M35-39,Male,Brasmlia,Di,Unknown,,0:34:30,2:51:58,2:17:27,,,5:55:12,2070,10318,8247,367,310,21312,506,475,110,305,283,65,439,414,95,506,475,110,Finisher,1592
+Rodrigo,Lamego T Soares,Rodrigo Lamego T Soares,891,M45-49,Male,Brasilia,Distrito Federal,Unknown,,0:34:42,2:44:53,2:28:17,,,5:55:16,2082,9893,8897,303,141,21316,507,476,45,313,291,21,337,319,25,507,476,45,Finisher,2250
+Francesco,Tripodi,Francesco Tripodi,277,M30-34,Male,Sao Paulo,Sao Paulo,Unknown,,0:30:19,2:59:51,2:15:30,,,5:55:18,1819,10791,8130,326,252,21318,508,477,130,127,115,32,468,442,127,508,477,130,Finisher,1533
+FABIO,C LEONE,FABIO C LEONE,334,M35-39,Male,SAO PAULO,SP,Unknown,,0:39:01,2:50:26,2:17:17,,,5:55:21,2341,10226,8237,309,208,21321,509,478,111,530,488,116,457,431,102,509,478,111,Finisher,1590
+Daniel,Gettings,Daniel Gettings,822,M35-39,Male,New York,NY,Unknown,,0:29:05,3:14:19,2:00:55,,,5:55:26,1745,11659,7255,398,269,21326,510,479,112,75,67,19,589,550,124,510,479,112,Finisher,1588
+Renato,Monteiro,Renato Monteiro,358,M30-34,Male,Rio de Janeiro,,Unknown,,0:40:05,2:39:21,2:26:42,,,5:55:43,2405,9561,8802,339,236,21343,511,480,131,568,522,141,340,322,94,511,480,131,Finisher,1526
+Daniela,Tavares De Melo,Daniela Tavares De Melo,598,F30-34,Female,Joco Pessoa,Pa,Unknown,,0:43:25,2:58:24,2:06:06,,,5:55:54,2605,10704,7566,327,152,21354,512,32,5,651,58,13,572,37,7,512,32,5,Finisher,2620
+Reginaldo,Maia Jznior,Reginaldo Maia Jznior,357,M45-49,Male,Palmas,TOCANTINS,Unknown,,0:38:43,3:01:01,2:07:23,,,5:55:55,2323,10861,7643,372,156,21355,513,481,46,516,475,37,555,522,52,513,481,46,Finisher,2239
+Hernani,Barletta,Hernani Barletta,652,F45-49,Female,Buenos Aires,AR-B,Unknown,,0:38:10,3:03:45,2:07:39,,,5:56:00,2290,11025,7659,229,157,21360,514,33,3,498,38,1,553,33,3,514,33,3,Finisher,3098
+Marcelo,Arboleda,Marcelo Arboleda,454,M40-44,Male,São Paulo,,Unknown,,0:34:27,3:03:46,2:08:13,,,5:56:04,2067,11026,7693,360,218,21364,515,482,75,299,277,48,541,509,87,515,482,75,Finisher,1787
+Frederico,Tavares Silva,Frederico Tavares Silva,379,M35-39,Male,,,Unknown,,0:36:54,2:56:16,2:14:10,,,5:56:34,2214,10576,8050,314,240,21394,516,483,113,421,394,92,498,468,108,516,483,113,Finisher,1568
+marcelo,lopes,marcelo lopes,360,M35-39,Male,Lago Norte,DF,Unknown,,0:32:19,2:44:56,2:30:02,,,5:56:41,1939,9896,9002,372,192,21401,517,484,114,194,179,42,323,306,72,517,484,114,Finisher,1566
+Lucas,Gomes,Lucas Gomes,190,M30-34,Male,Belo Horizonte,NOVA LIMA,Unknown,,0:36:18,2:38:46,2:31:49,,,5:56:51,2178,9526,9109,308,290,21411,518,485,132,393,368,98,283,271,80,518,485,132,Finisher,1505
+Albor,Vives Renones,Albor Vives Renones,766,M45-49,Male,campinas,Intl State,Unknown,,0:41:59,2:58:11,2:08:33,,,5:57:01,2519,10691,7713,324,174,21421,519,486,47,617,567,56,552,520,51,519,486,47,Finisher,2219
+Virna,Costa E Silva,Virna Costa E Silva,605,F35-39,Female,,,Unknown,,0:46:54,2:59:30,2:02:24,,,5:57:01,2814,10770,7344,365,128,21421,520,34,9,718,75,17,603,45,11,520,34,9,Finisher,2587
+Antonio,Jose  Gomes Junior,Antonio Jose  Gomes Junior,442,M45-49,Male,São Paulo,Espírito Santo,Unknown,,0:34:59,2:49:49,2:20:58,,,5:57:04,2099,10189,8458,390,288,21424,521,487,48,326,304,23,428,404,37,521,487,48,Finisher,2218
+André,Portugal,André Portugal,850,M40-44,Male,,,Unknown,,0:40:25,2:52:20,2:14:37,,,5:57:06,2425,10340,8077,335,249,21426,522,488,76,585,538,92,497,467,79,522,488,76,Finisher,1769
+Deborah,Klabin,Deborah Klabin,410,F25-29,Female,Sco Paulo,Sc,Unknown,,0:38:12,3:06:52,2:02:33,,,5:57:13,2292,11212,7353,358,218,21433,523,35,6,499,39,7,595,42,7,523,35,6,Finisher,2315
+Renan,Alves,Renan Alves,394,M18-24,Male,Rio de Janeiro,Intl State,Unknown,,0:42:49,3:03:00,2:02:24,,,5:57:19,2569,10980,7344,280,266,21439,524,489,23,636,581,25,592,551,24,524,489,23,Finisher,2273
+Denise,Mathias,Denise Mathias,391,F35-39,Female,Parede,Lisboa,Unknown,,0:42:22,3:09:14,1:57:09,,,5:57:23,2542,11354,7029,274,244,21443,525,36,10,625,52,11,623,50,14,525,36,10,Finisher,2580
+Clodomir,Assis Araújo Junior,Clodomir Assis Araújo Junior,513,M30-34,Male,Bel&eacute;m,Par&aacute;,Unknown,,0:40:05,2:52:03,2:11:47,,,5:57:28,2405,10323,7907,496,317,21448,526,490,133,569,523,142,513,483,134,526,490,133,Finisher,1494
+Fabio,Ito,Fabio Ito,381,M45-49,Male,Taubaté,São Paulo,Unknown,,0:43:45,3:00:12,2:05:09,,,5:57:34,2625,10812,7509,326,182,21454,527,491,49,659,601,60,585,547,55,527,491,49,Finisher,2209
+Ricardo,Correa Amaral,Ricardo Correa Amaral,729,M25-29,Male,Brasília ,DISTRITO FEDERAL,Unknown,,0:36:56,2:34:59,2:35:50,,,5:57:41,2216,9299,9350,367,229,21461,528,492,61,424,397,53,264,253,31,528,492,61,Finisher,1851
+Paulo,Roberto Costa Santos,Paulo Roberto Costa Santos,439,M50-54,Male,SALVADOR,Bahia,Unknown,,0:44:35,3:20:01,1:44:07,,,5:57:52,2675,12001,6247,321,228,21472,529,493,19,677,615,21,685,625,22,529,493,19,Finisher,2306
+Marcelo P,Sambudio,Marcelo P Sambudio,456,M35-39,Male,BRAGANÇA PAULISTA,SP,Unknown,,0:43:40,2:49:45,2:12:19,,,5:57:55,2620,10185,7939,325,406,21475,530,494,115,657,599,134,501,471,110,530,494,115,Finisher,1544
+Gustavo,Costa,Gustavo Costa,180,M30-34,Male,OCOEE,FL,Unknown,,0:34:47,2:41:54,2:32:08,,,5:58:04,2087,9714,9128,279,276,21484,531,495,134,319,297,78,300,287,85,531,495,134,Finisher,1484
+Jefferson,De Decco Teixeira,Jefferson De Decco Teixeira,926,M40-44,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:34:20,2:52:35,2:20:44,,,5:58:06,2060,10355,8444,298,329,21486,532,496,77,295,273,46,432,407,62,532,496,77,Finisher,1751
+Renata,Martins Pascoal,Renata Martins Pascoal,563,F35-39,Female,Fortaleza,Ce,Unknown,,0:43:23,2:52:48,2:13:19,,,5:58:33,2603,10368,7999,318,225,21513,533,37,11,650,57,12,520,31,8,533,37,11,Finisher,2559
+Danilo,Laborda,Danilo Laborda,864,M45-49,Male,Salvador,Bahia,Unknown,,0:47:03,2:49:16,2:13:18,,,5:58:57,2823,10156,7998,345,215,21537,534,497,50,722,647,68,526,495,49,534,497,50,Finisher,2184
+Aristoteles,Teixeira,Aristoteles Teixeira,490,M30-34,Male,Fortaleza,Ceara,Unknown,,0:34:43,3:04:45,2:08:05,,,5:59:08,2083,11085,7685,391,304,21548,535,498,135,315,293,77,556,523,144,535,498,135,Finisher,1464
+Ricardo,Malachias Ciconelo,Ricardo Malachias Ciconelo,341,M40-44,Male,SAO PAULO,SAO PAULO,Unknown,,0:42:57,2:49:02,2:19:35,,,5:59:29,2577,10142,8375,295,180,21569,536,499,78,638,583,102,484,457,74,536,499,78,Finisher,1726
+Bruno,Pereira Benini,Bruno Pereira Benini,212,M25-29,Male,Bento Goncalves,RS,Unknown,,0:32:32,3:06:41,2:11:41,,,5:59:59,1952,11201,7901,268,277,21599,537,500,62,203,187,31,536,504,62,537,500,62,Finisher,1810
+Ronaldo,Aguilar,Ronaldo Aguilar,837,M40-44,Male,Porto Seguro,Bahia,Unknown,,0:47:45,2:45:48,2:12:59,,,6:00:11,2865,9948,7979,545,274,21611,538,501,79,730,654,114,530,499,85,538,501,79,Finisher,1713
+Pedro,Dias Boa Sorte,Pedro Dias Boa Sorte,746,M25-29,Male,Brasilia,Federal District,Unknown,,0:37:46,2:58:48,2:14:32,,,6:00:47,2266,10728,8072,342,239,21647,539,502,63,470,436,60,528,497,60,539,502,63,Finisher,1795
+Rodrigo,Ferrer,Rodrigo Ferrer,704,M18-24,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:45:30,2:57:34,2:11:44,,,6:00:51,2730,10654,7904,233,130,21651,540,503,24,693,625,28,568,532,23,540,503,24,Finisher,2209
+Manuela,L Machado,Manuela L Machado,927,F25-29,Female,CAMAÇARI,BAHIA,Unknown,,0:39:33,3:01:26,2:11:04,,,6:00:52,2373,10886,7864,343,186,21652,541,38,7,556,45,10,565,36,6,541,38,7,Finisher,2249
+Adriana,Colombi,Adriana Colombi,986,F35-39,Female,montevideo,montevideo,Unknown,,0:45:14,3:01:30,2:03:00,,,6:02:00,2714,10890,7380,470,266,21720,542,39,12,689,67,14,613,47,13,542,39,12,Finisher,2497
+Roger,Haybittle,Roger Haybittle,409,M50-54,Male,barueri,São Paulo,Unknown,,0:33:40,2:47:54,2:26:21,,,6:02:02,2020,10074,8781,367,480,21722,543,504,20,261,243,8,378,358,12,543,504,20,Finisher,2231
+Bruno,Ribeiro Do Espirito Santo,Bruno Ribeiro Do Espirito Santo,488,M25-29,Male,Anapolis,Goias,Unknown,,0:32:17,2:58:46,2:21:54,,,6:02:45,1937,10726,8514,278,310,21765,544,505,64,193,178,29,469,443,56,544,505,64,Finisher,1760
+Ernesto,Pitanga,Ernesto Pitanga,856,M45-49,Male,Salvador,Intl State,Unknown,,0:38:18,2:45:16,2:26:54,,,6:03:11,2298,9916,8814,397,366,21791,545,506,51,501,462,34,410,388,34,545,506,51,Finisher,2108
+Marcela,Farina Mograbi,Marcela Farina Mograbi,466,F35-39,Female,Sco Paulo,Sc,Unknown,,0:38:26,3:10:41,2:07:07,,,6:03:33,2306,11441,7627,289,150,21813,546,40,13,504,40,10,609,46,12,546,40,13,Finisher,2469
+Fabio,Lemos Maia,Fabio Lemos Maia,386,M35-39,Male,Brasmlia,Di,Unknown,,0:36:48,3:10:09,2:01:32,,,6:03:36,2208,11409,7292,460,447,21816,547,507,116,416,390,91,614,567,127,547,507,116,Finisher,1441
+Fernando,Gualberto,Fernando Gualberto,732,M45-49,Male,Sao Paulo,São Paulo,Unknown,,0:37:23,2:50:20,2:25:33,,,6:04:05,2243,10220,8733,414,235,21845,548,508,52,449,417,32,458,432,41,548,508,52,Finisher,2092
+Luciano,Fontenelle,Luciano Fontenelle,225,M35-39,Male,Brasilia,DF,Unknown,,0:58:48,2:52:40,2:05:07,,,6:04:08,3528,10360,7507,249,204,21848,549,509,117,763,684,151,618,570,129,549,509,117,Finisher,1432
+Paulo,Arneiro,Paulo Arneiro,771,M30-34,Male,Sao Paulo,,Unknown,,0:31:16,2:54:21,2:31:15,,,6:04:39,1876,10461,9075,229,238,21879,550,510,136,167,152,42,403,381,111,550,510,136,Finisher,1365
+Claudio,Gonzalez,Claudio Gonzalez,383,M50-54,Male,,Sao Paulo,Unknown,,0:39:02,2:54:17,2:12:22,,,6:04:42,2342,10457,7942,827,314,21882,551,511,21,532,490,15,571,535,19,551,511,21,Finisher,2183
+Renato,Brito,Renato Brito,181,M30-34,Male,Rio de Janeiro,RJ,Unknown,,0:39:28,3:02:19,2:10:51,,,6:04:43,2368,10939,7851,444,281,21883,552,512,137,555,511,138,582,544,150,552,512,137,Finisher,1364
+Rachel Aline,Frota De Accioly Sousa,Rachel Aline Frota De Accioly Sousa,579,F25-29,Female,Fortaleza,Ceará,Unknown,,0:48:34,3:02:51,2:03:50,,,6:04:50,2914,10971,7430,333,242,21890,553,41,8,736,77,12,625,51,9,553,41,8,Finisher,2178
+Airton,Silva,Airton Silva,935,M30-34,Male,São Paulo,,Unknown,,0:43:43,2:54:21,2:16:50,,,6:04:53,2623,10461,8210,390,209,21893,554,513,138,658,600,161,548,516,143,554,513,138,Finisher,1361
+Elionai,Dias Soares,Elionai Dias Soares,543,M40-44,Male,MACEIÓ,Alagoas,Unknown,,0:38:29,2:37:32,2:42:08,,,6:05:00,2309,9452,9728,245,166,21900,555,514,80,507,466,79,282,270,42,555,514,80,Finisher,1626
+Renato,Pellizzari,Renato Pellizzari,852,M30-34,Male,Rio de Janeiro,Intl State,Unknown,,0:46:36,3:06:34,1:57:53,,,6:05:35,2796,11194,7073,493,379,21935,556,515,139,713,642,169,647,592,164,556,515,139,Finisher,1348
+Felipe,Melnick,Felipe Melnick,312,M35-39,Male,Porto Alegre,,Unknown,,0:40:35,3:12:34,1:59:03,,,6:05:39,2435,11554,7143,450,357,21939,557,516,118,592,545,127,645,590,136,557,516,118,Finisher,1404
+Alvaro,Castelo Branco,Alvaro Castelo Branco,682,M35-39,Male,University City,MO,Unknown,,0:44:35,2:56:50,2:14:28,,,6:06:19,2675,10610,8068,415,211,21979,558,517,119,676,614,140,579,542,121,558,517,119,Finisher,1392
+Nadja,Cavalcante Rodrigues De Oliveira,Nadja Cavalcante Rodrigues De Oliveira,121,F30-34,Female,PALMAS,tocantins,Unknown,,0:41:02,3:03:21,2:14:01,,,6:06:32,2462,11001,8041,349,139,21992,559,42,6,601,49,9,591,41,9,559,42,6,Finisher,2428
+Kleber,Anttnio Caiado De Freitas,Kleber Anttnio Caiado De Freitas,207,M30-34,Male,Brasmlia,Di,Unknown,,0:37:55,2:43:04,2:36:58,,,6:06:37,2275,9784,9418,271,249,21997,560,518,140,483,448,120,347,328,96,560,518,140,Finisher,1330
+Fernando,De Andrade,Fernando De Andrade,95,M35-39,Male,Brasilia,Distrito Federal,Unknown,,0:39:38,3:04:31,2:10:42,,,6:06:43,2378,11071,7842,405,307,22003,561,519,120,559,514,120,593,552,125,561,519,120,Finisher,1385
+Maria,Valle,Maria Valle,813,F30-34,Female,The Woodlands,TX,Unknown,,0:41:22,3:08:46,2:08:01,,,6:06:59,2482,11326,7681,316,214,22019,562,43,7,607,50,10,617,48,10,562,43,7,Finisher,2420
+Carlos,Leandro De Oliveira,Carlos Leandro De Oliveira,377,M30-34,Male,MONGAGUA,,Unknown,,0:46:12,3:12:41,1:52:23,,,6:07:08,2772,11561,6743,257,695,22028,563,520,141,704,634,166,659,603,167,563,520,141,Finisher,1320
+LEANDRO,MILANEZ,LEANDRO MILANEZ,93,M30-34,Male,Sao Paulo,SP,Unknown,,0:42:55,3:03:44,2:09:57,,,6:07:26,2575,11024,7797,406,244,22046,564,521,142,637,582,153,606,561,156,564,521,142,Finisher,1315
+Ricardo,Araujo De Andrade,Ricardo Araujo De Andrade,338,M55-59,Male,Rio De Janeiro,Ri,Unknown,,0:42:44,3:10:03,2:04:30,,,6:08:00,2564,11403,7470,399,244,22080,565,522,6,633,578,7,641,588,7,565,522,6,Finisher,2235
+Jorge,Salazar Andrade,Jorge Salazar Andrade,957,M35-39,Male,santiago,Santiago Metropolitan Region,Unknown,,0:43:59,2:58:00,2:18:12,,,6:08:30,2639,10680,8292,247,252,22110,566,523,121,663,605,136,558,525,118,566,523,121,Finisher,1353
+Jose,Leonidas Da Silva Gondim,Jose Leonidas Da Silva Gondim,584,M25-29,Male,Fortaleza-Ceara,Ceará,Unknown,,0:35:46,2:47:56,2:35:22,,,6:08:40,2146,10076,9322,326,250,22120,567,524,65,362,338,48,397,376,50,567,524,65,Finisher,1653
+Kleiton,Nonato,Kleiton Nonato,510,M40-44,Male,BRASILIA,DISTRITO FEDERAL,Unknown,,0:40:19,2:55:22,2:24:40,,,6:08:59,2419,10522,8680,330,188,22139,568,525,81,579,532,91,518,488,82,568,525,81,Finisher,1555
+Diego,Castro,Diego Castro,656,M35-39,Male,caleta olivia,,Unknown,,0:48:04,3:12:21,2:00:19,,,6:09:14,2884,11541,7219,331,179,22154,569,526,122,733,657,148,675,615,141,569,526,122,Finisher,1340
+Luiz,Tudisco,Luiz Tudisco,991,M30-34,Male,Sao Paulo,,Unknown,,0:37:59,3:05:59,2:13:18,,,6:09:37,2279,11159,7998,439,302,22177,570,527,143,486,451,123,596,554,152,570,527,143,Finisher,1276
+Daniel,Ribeiro,Daniel Ribeiro,626,M30-34,Male,Rio De Janeiro,RI,Unknown,,0:41:28,3:04:15,2:12:26,,,6:09:48,2488,11055,7946,339,360,22188,571,528,144,611,561,150,598,556,154,571,528,144,Finisher,1272
+Paulo,Fontes Rodamilans,Paulo Fontes Rodamilans,607,M45-49,Male,Salvador,Ba,Unknown,,0:41:07,3:08:23,2:06:53,,,6:10:05,2467,11303,7613,484,338,22205,572,529,53,603,554,50,630,579,57,572,529,53,Finisher,1984
+Cabella,Julia,Cabella Julia,983,F45-49,Female,mdeo,mdeo,Unknown,,0:44:58,2:59:56,2:17:52,,,6:10:28,2698,10796,8272,288,174,22228,573,44,4,685,66,4,587,39,4,573,44,4,Finisher,2837
+Arthur,Vieira,Arthur Vieira,785,M30-34,Male,Macei¢,Intl State,Unknown,,0:36:48,2:50:46,2:32:57,,,6:10:45,2208,10246,9177,363,251,22245,574,530,145,418,392,107,447,422,122,574,530,145,Finisher,1255
+Marcio,Grieco Fagundes,Marcio Grieco Fagundes,599,M30-34,Male,Osasco,,Unknown,,0:35:52,2:54:46,2:30:43,,,6:10:58,2152,10486,9043,297,280,22258,575,531,146,367,343,94,467,441,126,575,531,146,Finisher,1251
+Luis,Antonio De Ridder Bauer,Luis Antonio De Ridder Bauer,768,M35-39,Male,Curitiba,Paraná,Unknown,,0:39:41,3:02:04,2:20:08,,,6:11:02,2381,10924,8408,318,231,22262,576,532,123,560,515,121,570,534,120,576,532,123,Finisher,1307
+Rodrigo,Telles De Souza,Rodrigo Telles De Souza,811,M30-34,Male,Cambridge,MA,Unknown,,0:41:23,3:03:08,2:03:34,,,6:11:11,2483,10988,7414,867,519,22271,577,533,147,608,558,148,638,585,161,577,533,147,Finisher,1247
+Andri,Ferreira De Oliveira,Andri Ferreira De Oliveira,912,M30-34,Male,Belo Horizonte,Minas Gerais,Unknown,,0:35:05,3:15:10,2:08:17,,,6:11:34,2105,11710,7697,345,437,22294,578,534,148,330,308,83,620,571,158,578,534,148,Finisher,1241
+Priscila,Lima,Priscila Lima,730,F30-34,Female,Brasília,Distrito Federal,Unknown,,0:42:03,0:00:00,6:11:41,,,6:11:41,2523,0,22301,433,0,22301,579,45,8,620,51,11,99999,99999,99999,579,45,8,Finisher,2336
+Eduardo,Monteiro,Eduardo Monteiro,512,M25-29,Male,WINTER GARDEN,FL,Unknown,,0:40:26,2:57:25,2:23:47,,,6:11:52,2426,10645,8627,388,226,22312,580,535,66,586,539,72,544,512,64,580,535,66,Finisher,1596
+Carlos,Augusto Ferreira Dos Reis,Carlos Augusto Ferreira Dos Reis,774,M40-44,Male,,,Unknown,,0:40:46,2:48:04,2:31:31,,,6:12:10,2446,10084,9091,471,238,22330,581,536,82,598,550,94,482,455,73,581,536,82,Finisher,1497
+Wagner,Do Amaral Santos,Wagner Do Amaral Santos,820,M40-44,Male,Taubate,SAO PAULO,Unknown,,0:42:09,2:58:03,2:23:49,,,6:12:15,2529,10683,8629,297,197,22335,582,537,83,621,570,97,550,518,89,582,537,83,Finisher,1496
+Marco,Antonio Campos,Marco Antonio Campos,362,M30-34,Male,Moji-Mirim,São Paulo,Unknown,,0:00:00,0:00:00,2:59:26,,,6:12:20,0,0,10766,0,181,22340,583,538,149,99999,99999,99999,145,139,36,583,538,149,Finisher,1227
+Marcio,Padilha,Marcio Padilha,273,M40-44,Male,Brasilia,Federal District,Unknown,,0:36:40,2:51:24,2:29:14,,,6:12:30,2200,10284,8954,548,364,22350,584,539,84,411,385,64,487,460,76,584,539,84,Finisher,1491
+Gus,Teixeira,Gus Teixeira,202,M35-39,Male,WESTON,FL,Unknown,,0:37:43,2:50:52,2:37:46,,,6:12:36,2263,10252,9466,243,132,22356,585,540,124,465,431,101,442,417,97,585,540,124,Finisher,1279
+Luiz,Fernando Costa Pereira Da Silva,Luiz Fernando Costa Pereira Da Silva,170,M30-34,Male,Brasmlia,Di,Unknown,,0:37:54,2:49:25,2:37:17,,,6:13:00,2274,10165,9437,318,186,22380,586,541,150,481,446,118,441,416,120,586,541,150,Finisher,1215
+Alexandre,Mariotto Castello Branco,Alexandre Mariotto Castello Branco,804,M30-34,Male,Rio de Janeiro-RJ,Rio de Janeiro,Unknown,,0:36:10,3:12:04,2:11:15,,,6:13:31,2170,11524,7875,543,299,22411,587,542,151,386,361,97,629,578,160,587,542,151,Finisher,1205
+Rebeca,Holanda,Rebeca Holanda,420,F25-29,Female,Fortaleza,CEARA,Unknown,,0:40:37,3:06:28,2:18:15,,,6:13:44,2437,11188,8295,320,184,22424,588,46,9,593,48,11,600,43,8,588,46,9,Finisher,2018
+Stephano,Audi,Stephano Audi,216,M25-29,Male,Sco Paulo,Sc,Unknown,,0:35:43,3:09:14,2:17:57,,,6:14:09,2143,11354,8277,359,316,22449,589,543,67,358,334,47,594,553,66,589,543,67,Finisher,1555
+Jobe,Petter,Jobe Petter,138,M40-44,Male,Brasília,df,Unknown,,0:39:48,2:49:13,2:35:40,,,6:14:13,2388,10153,9340,285,287,22453,590,544,85,562,517,88,450,424,65,590,544,85,Finisher,1460
+Diego,Rivero,Diego Rivero,984,M35-39,Male,Montevideo,,Unknown,,0:37:14,3:09:09,2:12:58,,,6:14:36,2234,11349,7978,525,390,22476,591,545,125,440,409,95,616,569,128,591,545,125,Finisher,1243
+Francelisa,Antunes,Francelisa Antunes,944,F30-34,Female,curitiba,parana,Unknown,,0:46:17,2:57:21,2:23:00,,,6:14:40,2777,10641,8580,293,189,22480,592,47,9,705,71,15,580,38,8,592,47,9,Finisher,2282
+Fernando,Sato,Fernando Sato,788,M45-49,Male,Valinhos,SP,Unknown,,0:48:46,3:12:00,2:03:55,,,6:15:15,2926,11520,7435,347,287,22515,593,546,54,741,663,72,677,617,61,593,546,54,Finisher,1891
+Silvio,Amadeu Nassar Pardo,Silvio Amadeu Nassar Pardo,457,M50-54,Male,Sco Josi Do Rio Preto,Sc,Unknown,,0:49:21,3:00:26,2:10:26,,,6:15:25,2961,10826,7826,538,374,22525,594,547,22,745,667,22,636,583,21,594,547,22,Finisher,1991
+Sheyla,Sampaio,Sheyla Sampaio,583,F40-44,Female,Brasília,Distrito Federal,Unknown,,0:44:14,3:05:33,2:15:20,,,6:15:27,2654,11133,8120,367,253,22527,595,48,6,673,61,10,619,49,7,595,48,6,Finisher,2314
+Bruna,Arenque,Bruna Arenque,731,F30-34,Female,Sao Paulo,,Unknown,,0:32:47,2:52:40,2:43:03,,,6:15:56,1967,10360,9783,233,213,22556,596,49,10,215,17,3,401,22,5,596,49,10,Finisher,2259
+Andres,Arce,Andres Arce,979,M25-29,Male,Asuncion,Distrito Capital,Unknown,,0:30:20,2:32:34,3:07:36,,,6:16:08,1820,9154,11256,211,127,22568,597,548,68,128,116,18,121,115,19,597,548,68,Finisher,1519
+Renato,De Arruda Filho,Renato De Arruda Filho,893,M18-24,Male,sao paulo,Intl State,Unknown,,0:32:10,2:59:20,2:37:30,,,6:16:32,1930,10760,9450,260,192,22592,598,549,25,186,171,6,473,447,18,598,549,25,Finisher,1927
+Miguel,Cunha Schettini,Miguel Cunha Schettini,185,M30-34,Male,Brasmlia,Di,Unknown,,0:37:21,3:00:31,2:28:39,,,6:16:46,2241,10831,8919,342,273,22606,599,550,152,447,416,112,534,503,140,599,550,152,Finisher,1147
+Luciano,Bagnato,Luciano Bagnato,127,M25-29,Male,São Carlos,SP,Unknown,,0:44:08,2:55:53,2:23:50,,,6:16:50,2648,10553,8630,410,369,22610,600,551,69,670,610,76,566,530,65,600,551,69,Finisher,1506
+Guilherme,Maia Gomide,Guilherme Maia Gomide,434,M40-44,Male,,,Unknown,,0:35:02,2:57:47,2:31:49,,,6:17:01,2102,10667,9109,401,342,22621,601,552,86,328,306,50,507,477,80,601,552,86,Finisher,1410
+Debora,Goncalves,Debora Goncalves,88,F35-39,Female,Brasília,Federal District,Unknown,,0:38:07,3:05:30,2:22:52,,,6:17:11,2287,11130,8572,393,249,22631,602,50,14,493,37,9,590,40,10,602,50,14,Finisher,2224
+Rafael,De Oliveira Machado,Rafael De Oliveira Machado,433,M30-34,Male,Palmas,Tocantins,Unknown,,0:33:18,3:22:58,2:11:11,,,6:17:14,1998,12178,7871,397,190,22634,603,553,153,242,224,59,658,602,166,603,553,153,Finisher,1139
+George,Carlos Da Silva Vasconcelos,George Carlos Da Silva Vasconcelos,330,M30-34,Male,Salvador,Ba,Unknown,,0:37:41,3:04:03,2:14:11,,,6:17:20,2261,11043,8051,633,652,22640,604,554,154,463,429,115,599,557,155,604,554,154,Finisher,1137
+Vanessa,Lacerda De A. Bulcao,Vanessa Lacerda De A. Bulcao,633,F18-24,Female,salvador,Bahia,Unknown,,0:39:56,3:11:16,2:12:48,,,6:18:09,2396,11476,7968,406,443,22689,605,51,1,565,46,1,632,53,1,605,51,1,Finisher,3500
+Bruno,Christen,Bruno Christen,954,M65-69,Male,Pfaeffikon,,Unknown,,0:45:29,2:57:44,2:22:45,,,6:18:09,2729,10664,8565,392,339,22689,606,555,1,692,624,1,588,549,1,606,555,1,Finisher,3500
+Marcelo,Tonding Ferreira,Marcelo Tonding Ferreira,870,M30-34,Male,Porto Alegre,,Unknown,,0:41:25,3:02:12,2:26:31,,,6:18:46,2485,10932,8791,346,172,22726,607,556,155,609,559,149,584,546,151,607,556,155,Finisher,1111
+Rosimar,Rochael De Souza,Rosimar Rochael De Souza,250,F45-49,Female,Brasmlia,Di,Unknown,,0:45:19,2:58:50,2:19:40,,,6:18:50,2719,10730,8380,497,404,22730,608,52,5,690,68,5,602,44,5,608,52,5,Finisher,2687
+Leandro,Ponce Leal,Leandro Ponce Leal,741,M35-39,Male,Teresina,Teresina,Unknown,,0:36:12,3:17:19,2:10:27,,,6:18:55,2172,11839,7827,517,380,22735,609,557,126,388,363,82,652,597,137,609,557,126,Finisher,1166
+Fernanda,Coelho,Fernanda Coelho,989,F35-39,Female,La Jolla,CA,Unknown,,0:46:40,3:08:25,2:16:08,,,6:19:20,2800,11305,8168,271,216,22760,610,53,15,716,73,16,643,55,16,610,53,15,Finisher,2185
+Hearle,Vieira Calvco,Hearle Vieira Calvco,303,M35-39,Male,Brasmlia,Di,Unknown,,0:46:26,2:58:47,2:28:06,,,6:20:01,2786,10727,8886,201,201,22801,611,558,127,709,638,145,581,543,122,611,558,127,Finisher,1146
+Heric,Drummond,Heric Drummond,195,M40-44,Male,BRASÍLIA,DISTRITO FEDERAL,Unknown,,0:37:39,3:02:26,2:29:28,,,6:21:08,2259,10946,8968,394,301,22868,612,559,87,461,427,73,563,528,90,612,559,87,Finisher,1336
+Vanderson,Sipoli,Vanderson Sipoli,275,M35-39,Male,Curitiba,,Unknown,,0:40:23,2:49:29,2:41:04,,,6:21:49,2423,10169,9664,342,311,22909,613,560,128,582,535,125,466,440,104,613,560,128,Finisher,1113
+Norbert,Paller,Norbert Paller,570,M50-54,Male,São Paulo,Sao Paulo,Unknown,,0:31:16,2:58:14,2:41:04,,,6:21:55,1876,10694,9664,351,330,22915,614,561,23,168,153,3,465,439,14,614,561,23,Finisher,1874
+Jessica,Kelly Page,Jessica Kelly Page,799,F30-34,Female,Sao Paulo,,Unknown,,0:47:06,3:16:49,2:08:21,,,6:22:20,2826,11809,7701,426,178,22940,615,54,11,723,76,16,690,62,15,615,54,11,Finisher,2144
+Eduardo,Moriconi Genton,Eduardo Moriconi Genton,740,M35-39,Male,Rio de Janeiro,,Unknown,,0:30:26,2:54:28,2:49:31,,,6:22:47,1826,10468,10171,285,217,22967,616,562,129,135,122,27,404,382,85,616,562,129,Finisher,1096
+Francisco,Ferreira,Francisco Ferreira,446,M45-49,Male,Sao Paulo,SP,Unknown,,0:41:44,3:12:06,2:18:57,,,6:23:08,2504,11526,8337,260,361,22988,617,563,55,614,564,54,633,580,58,617,563,55,Finisher,1749
+Renata,Lopes Franco,Renata Lopes Franco,142,F35-39,Female,Brasmlia,Di,Unknown,,0:44:06,3:05:46,2:19:17,,,6:23:15,2646,11146,8357,471,375,22995,618,55,16,668,60,13,631,52,15,618,55,16,Finisher,2115
+Anderson,Adamo Sembongui,Anderson Adamo Sembongui,591,M35-39,Male,Sao Paulo,Sao Paulo,Unknown,,0:46:34,3:04:47,2:18:11,,,6:24:04,2794,11087,8291,467,405,23044,619,564,130,712,641,146,639,586,134,619,564,130,Finisher,1073
+Andre,Sturm,Andre Sturm,1001,M35-39,Male,Brasília,DF,Unknown,,0:37:52,3:05:53,2:32:13,,,6:24:14,2272,11153,9133,339,157,23054,620,565,131,480,445,105,586,548,123,620,565,131,Finisher,1070
+Anderson,De Freitas,Anderson De Freitas,291,M30-34,Male,Curitiba,Pa,Unknown,,0:46:32,2:56:29,2:33:21,,,6:24:17,2792,10589,9201,305,170,23057,621,566,156,711,640,168,578,541,149,621,566,156,Finisher,1012
+ROMULO,COUTINHO VIEIRA,ROMULO COUTINHO VIEIRA,81,M30-34,Male,BRASILIA,DF,Unknown,,0:38:47,2:40:41,2:49:58,,,6:25:11,2327,9641,10198,450,495,23111,622,567,157,520,479,129,370,350,104,622,567,157,Finisher,995
+Andre,Bettanin,Andre Bettanin,168,M45-49,Male,PORTO ALEGRE,RS - BRASIL,Unknown,,0:35:56,2:57:16,2:40:34,,,6:25:18,2156,10636,9634,397,295,23118,623,568,56,371,347,28,511,481,47,623,568,56,Finisher,1710
+Rafael,Gomes,Rafael Gomes,679,M30-34,Male,brasilia,Intl State,Unknown,,0:45:05,2:47:59,2:42:35,,,6:25:31,2705,10079,9755,381,211,23131,624,569,158,687,621,164,505,475,132,624,569,158,Finisher,989
+Ivan,Raul Herrera Sosa,Ivan Raul Herrera Sosa,206,M35-39,Male,Sco Paulo,Sc,Unknown,,0:39:08,3:10:50,2:20:32,,,6:25:33,2348,11450,8432,556,347,23133,625,570,132,540,496,119,640,587,135,625,570,132,Finisher,1046
+Tiago,Fernando Battazza Iasbech,Tiago Fernando Battazza Iasbech,787,M25-29,Male,Campinas,,Unknown,,0:38:09,3:10:00,2:27:20,,,6:26:00,2289,11400,8840,413,218,23160,626,571,70,497,460,65,615,568,70,626,571,70,Finisher,1341
+Rafael,Lima,Rafael Lima,750,M30-34,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,0:41:09,2:58:28,2:34:59,,,6:26:20,2469,10708,9299,410,294,23180,627,572,159,604,555,146,561,527,146,627,572,159,Finisher,975
+Marcos,Tonelli Munhoz,Marcos Tonelli Munhoz,482,M45-49,Male,Brasmlia,Di,Unknown,,0:35:36,3:02:14,2:34:55,,,6:27:51,2136,10934,9295,604,302,23271,628,573,57,354,330,25,576,539,54,628,573,57,Finisher,1664
+Bruno,Ramos Ferreira Santos,Bruno Ramos Ferreira Santos,754,M30-34,Male,FEIRA DE SANTANA,,Unknown,,0:39:04,3:02:16,2:39:38,,,6:27:57,2344,10936,9578,286,133,23277,629,574,160,535,492,132,557,524,145,629,574,160,Finisher,946
+Luiz,Abdo,Luiz Abdo,268,M40-44,Male,Betim,,Unknown,,0:47:00,3:02:20,2:25:29,,,6:28:53,2820,10940,8729,460,384,23333,630,575,88,720,645,112,627,576,96,630,575,88,Finisher,1196
+Fernando,Musa,Fernando Musa,244,M40-44,Male,Brasileira,São Paulo/SP,Unknown,,0:39:14,3:02:50,2:36:33,,,6:28:56,2354,10970,9393,360,259,23336,631,576,89,545,501,84,577,540,93,631,576,89,Finisher,1196
+Eduardo ,Silva,Eduardo Silva,419,M40-44,Male,Taubaté,SAO PAULO,Unknown,,0:40:06,3:03:47,2:30:50,,,6:29:18,2406,11027,9050,579,296,23358,632,577,90,570,524,89,607,562,95,632,577,90,Finisher,1189
+RODRIGO,ALBUQUERQUE,RODRIGO ALBUQUERQUE,307,M30-34,Male,Brasília,Intl State,Unknown,,0:34:27,3:02:10,2:44:05,,,6:29:25,2067,10930,9845,269,254,23365,633,578,161,301,279,72,516,486,136,633,578,161,Finisher,919
+Nelson,Porto,Nelson Porto,921,M40-44,Male,Fortaleza,Ceara,Unknown,,0:52:33,3:05:56,2:19:43,,,6:29:28,3153,11156,8383,353,323,23368,634,579,91,754,675,118,662,606,101,634,579,91,Finisher,1186
+Fabio,Garcia Souza,Fabio Garcia Souza,87,M35-39,Male,Bras¡lia,Federal District,Unknown,,0:40:18,3:08:29,2:23:13,,,6:29:32,2418,11309,8593,602,450,23372,635,580,133,578,531,123,637,584,133,635,580,133,Finisher,974
+Horacio,Padilla,Horacio Padilla,670,M55-59,Male,Córdoba,,Unknown,,0:39:01,2:57:23,2:44:22,,,6:30:29,2341,10643,9862,354,229,23429,636,581,7,531,489,5,529,498,5,636,581,7,Finisher,1830
+Carlos Alberto,Godoy Silva,Carlos Alberto Godoy Silva,398,M30-34,Male,Arapiraca,Alagoas,Unknown,,0:46:36,3:06:05,2:24:22,,,6:30:49,2796,11165,8662,512,314,23449,637,582,162,714,643,170,646,591,163,637,582,162,Finisher,894
+Jaime,Torres,Jaime Torres,981,M30-34,Male,Asunción,Central,Unknown,,0:43:30,2:54:55,2:42:12,,,6:30:53,2610,10495,9732,349,267,23453,638,583,163,653,595,159,543,511,142,638,583,163,Finisher,893
+Eduardo,Jacomo Seraphim Nogueira,Eduardo Jacomo Seraphim Nogueira,389,M30-34,Male,Brasmlia,Di,Unknown,,0:44:06,3:13:56,2:16:23,,,6:31:03,2646,11636,8183,545,453,23463,639,584,164,667,608,162,680,620,171,639,584,164,Finisher,890
+Antonio,Mellero Barros Filho,Antonio Mellero Barros Filho,489,M55-59,Male,SÃO PAULO,SÃO PAULO,Unknown,,0:47:44,3:03:25,2:24:39,,,6:31:30,2864,11005,8679,437,505,23490,640,585,8,729,653,11,635,582,6,640,585,8,Finisher,1812
+Guilherme,Zugliani De Sa,Guilherme Zugliani De Sa,500,M40-44,Male,Rio De Janeiro,Ri,Unknown,,0:39:12,3:19:59,2:22:09,,,6:31:58,2352,11999,8529,368,270,23518,641,586,92,542,498,82,669,612,104,641,586,92,Finisher,1141
+Fernando Berlendis,Carvalho,Fernando Berlendis Carvalho,783,M40-44,Male,São paulo,São Paulo,Unknown,,0:36:06,3:02:46,2:39:22,,,6:32:11,2166,10966,9562,469,368,23531,642,587,93,381,356,61,564,529,91,642,587,93,Finisher,1137
+Damiao,Leonardo Caetano,Damiao Leonardo Caetano,636,M35-39,Male,VOLTA REDONDA,RJ,Unknown,,0:46:56,3:02:24,2:27:06,,,6:32:19,2816,10944,8826,475,478,23539,643,588,134,719,644,147,628,577,132,643,588,134,Finisher,924
+Rodrigo,Epi Freitas Guimarces,Rodrigo Epi Freitas Guimarces,413,M25-29,Male,Sco Paulo,Sc,Unknown,,0:40:28,3:18:44,2:17:25,,,6:32:26,2428,11924,8245,731,218,23546,644,589,71,587,540,73,691,629,74,644,589,71,Finisher,1226
+Jefferson,Andreazza,Jefferson Andreazza,241,M35-39,Male,Salto,Sc,Unknown,,0:42:01,3:06:24,2:33:05,,,6:32:56,2521,11184,9185,458,228,23576,645,590,135,619,569,132,622,573,131,645,590,135,Finisher,913
+Ferdinand,Erfe,Ferdinand Erfe,625,M40-44,Male,SÃO PAULO,SÃO PAULO,Unknown,,0:45:08,3:14:15,2:22:48,,,6:33:01,2708,11655,8568,342,308,23581,646,591,94,688,622,110,668,611,103,646,591,94,Finisher,1122
+Marcio,Barbosa,Marcio Barbosa,692,M45-49,Male,BRASILIA,BR-DF,Unknown,,0:38:50,3:01:05,2:39:32,,,6:33:15,2330,10865,9572,462,366,23595,647,592,58,523,482,39,573,536,53,647,592,58,Finisher,1567
+Arytana,Stefenoni Tartuce,Arytana Stefenoni Tartuce,353,F30-34,Female,Goi Nia,Tocantins,Unknown,,0:44:39,3:07:23,2:29:57,,,6:33:18,2679,11243,8997,448,231,23598,648,56,12,679,63,14,642,54,11,648,56,12,Finisher,1946
+Ricardo,Augusto Silveira,Ricardo Augusto Silveira,150,M35-39,Male,Brasmlia,Di,Unknown,,0:35:23,2:59:12,2:35:48,,,6:33:23,2123,10752,9348,421,959,23603,649,593,136,344,320,72,522,491,112,649,593,136,Finisher,905
+Auristela,Marina Genaro,Auristela Marina Genaro,258,F50-54,Female,Brasilia,DF,Unknown,,0:42:42,3:10:59,2:22:13,,,6:34:12,2562,11459,8533,646,452,23652,650,57,1,632,55,1,664,57,1,650,57,1,Finisher,3500
+Carlos,Alves,Carlos Alves,786,M30-34,Male,Brasília,DF,Unknown,,0:41:16,3:18:05,2:24:27,,,6:34:51,2476,11885,8667,376,287,23691,651,594,165,606,557,147,674,614,170,651,594,165,Finisher,821
+Andrés,Molfino,Andrés Molfino,987,M35-39,Male,montevideo,,Unknown,,0:38:44,3:19:52,2:21:36,,,6:35:17,2324,11992,8496,509,396,23717,652,595,137,518,477,112,679,619,142,652,595,137,Finisher,871
+Thiago,De Paula Ribeiro,Thiago De Paula Ribeiro,963,M30-34,Male,Quito,Intl State,Unknown,,0:36:45,3:08:02,2:39:58,,,6:36:49,2205,11282,9598,391,333,23809,653,596,166,414,388,105,597,555,153,653,596,166,Finisher,786
+Carlos,Massayuki Assato,Carlos Massayuki Assato,877,M45-49,Male,santo andre,São Paulo,Unknown,,0:48:44,3:10:52,2:21:52,,,6:36:50,2924,11452,8512,641,281,23810,654,597,59,739,661,71,686,626,65,654,597,59,Finisher,1502
+Frank Ned,Oliveira,Frank Ned Oliveira,161,M40-44,Male,Brasília,DF,Unknown,,0:37:17,3:18:47,2:28:59,,,6:37:09,2237,11927,8939,323,403,23829,655,598,95,441,410,69,648,593,97,655,598,95,Finisher,1048
+Renan,Barros,Renan Barros,739,M25-29,Male,São Paulo,SP,Unknown,,0:34:13,3:07:25,2:35:13,,,6:37:24,2053,11245,9313,648,585,23844,656,599,72,288,267,38,601,558,67,656,599,72,Finisher,1136
+Walter,Alves,Walter Alves,80,M30-34,Male,Brasmlia,Di,Unknown,,0:47:36,3:04:26,2:31:24,,,6:37:30,2856,11066,9084,460,384,23850,657,600,167,728,652,173,644,589,162,657,600,167,Finisher,774
+Paulo,Vinicius De Moraes Monti,Paulo Vinicius De Moraes Monti,375,M40-44,Male,Pedreira,Sc,Unknown,,0:35:05,3:03:19,2:50:14,,,6:37:58,2105,10999,10214,361,199,23878,658,601,96,331,309,52,545,513,88,658,601,96,Finisher,1033
+Ronaldo,Palleze Sanchez,Ronaldo Palleze Sanchez,889,M40-44,Male,Sao Paulo,,Unknown,,0:39:36,3:09:19,2:19:24,,,6:38:05,2376,11359,8364,954,832,23885,659,602,97,558,513,87,667,610,102,659,602,97,Finisher,1031
+Marcelo,Scutti,Marcelo Scutti,326,M40-44,Male,Curitiba,Pa,Unknown,,0:42:13,3:01:29,2:38:06,,,6:38:42,2533,10889,9486,533,481,23922,660,603,98,622,571,98,604,559,94,660,603,98,Finisher,1020
+Julia,Heide Ribeiro,Julia Heide Ribeiro,797,F25-29,Female,BRASILIA,,Unknown,,0:37:24,3:18:25,2:28:31,,,6:39:29,2244,11905,8911,575,334,23969,661,58,10,451,33,6,671,59,10,661,58,10,Finisher,1554
+Fernando,Hormain,Fernando Hormain,494,M40-44,Male,Sco Paulo,Sc,Unknown,,0:37:01,2:53:23,3:01:09,,,6:39:52,2221,10403,10869,257,242,23992,662,604,99,428,400,67,459,433,67,662,604,99,Finisher,999
+Fabiana,Dos Santos Braga,Fabiana Dos Santos Braga,78,F30-34,Female,Brasilia,DF,Unknown,,0:38:58,3:15:23,2:30:35,,,6:39:56,2338,11723,9035,489,411,23996,663,59,13,528,42,8,656,56,12,663,59,13,Finisher,1827
+Eglisson,Amaral,Eglisson Amaral,695,M35-39,Male,Brasilia,Federal District,Unknown,,0:40:37,3:05:55,2:37:19,,,6:39:56,2437,11155,9439,430,535,23996,664,605,138,595,547,128,608,563,126,664,605,138,Finisher,787
+Felipe,Leite,Felipe Leite,845,M35-39,Male,Rio de Janeiro,Intl State,Unknown,,0:49:10,3:24:15,2:09:03,,,6:40:12,2950,12255,7743,574,490,24012,665,606,139,744,666,149,714,644,146,665,606,139,Finisher,782
+Vagner,Andrade,Vagner Andrade,832,M40-44,Male,SAMMAMISH,WA,Unknown,,0:42:14,3:17:04,2:30:09,,,6:40:13,2534,11824,9009,409,237,24013,666,607,100,623,572,99,676,616,105,666,607,100,Finisher,992
+Bruno,Goulart,Bruno Goulart,756,M30-34,Male,Dublin,Dublin,Unknown,,0:33:34,3:23:49,2:31:50,,,6:40:20,2014,12229,9110,373,294,24020,667,608,168,258,240,64,660,604,168,667,608,168,Finisher,723
+Bruno,Domingos,Bruno Domingos,575,M35-39,Male,Rio De Janeiro,Ri,Unknown,,0:42:35,3:08:53,2:36:56,,,6:40:34,2555,11333,9416,273,457,24034,668,609,140,629,575,133,621,572,130,668,609,140,Finisher,776
+Favio,Coscia,Favio Coscia,980,M18-24,Male,asuncion,Central,Unknown,,0:43:55,3:08:58,2:39:02,,,6:40:59,2635,11338,9542,325,219,24059,669,610,26,662,604,26,634,581,25,669,610,26,Finisher,1487
+Alexandre,Cunha,Alexandre Cunha,313,M35-39,Male,Brasmlia,Di,Unknown,,0:40:43,3:29:42,2:18:34,,,6:41:14,2443,12582,8314,380,355,24074,670,611,141,597,549,129,704,639,145,670,611,141,Finisher,764
+Manuela,Correia Da Silveira,Manuela Correia Da Silveira,499,F35-39,Female,Lauro de Freitas,Bahia,Unknown,,1:01:49,3:09:36,2:20:05,,,6:41:20,3709,11376,8405,338,252,24080,671,60,17,767,80,18,706,66,17,671,60,17,Finisher,1789
+Camilla,Lopes,Camilla Lopes,484,F25-29,Female,Nova friburgo,Rj,Unknown,,0:39:03,3:25:30,2:27:41,,,6:41:40,2343,12330,8861,358,208,24100,672,61,11,534,43,8,688,61,11,672,61,11,Finisher,1515
+Guilherme,Lopes,Guilherme Lopes,778,M45-49,Male,Macei&oacute;,Alagoas,Unknown,,0:41:25,3:26:09,2:21:14,,,6:42:44,2485,12369,8474,482,354,24164,673,612,60,610,560,51,700,636,68,673,612,60,Finisher,1396
+Paulo,Farina Jr,Paulo Farina Jr,728,M55-59,Male,Lins,São Paulo,Unknown,,0:40:21,3:44:45,2:04:34,,,6:43:33,2421,13485,7474,499,334,24213,674,613,9,581,534,6,727,654,9,674,613,9,Finisher,1595
+Maria,Pizzolo,Maria Pizzolo,675,F40-44,Female,BUENOS AIRES,AR-B,Unknown,,0:38:29,3:26:27,2:28:00,,,6:43:51,2309,12387,8880,422,233,24231,675,62,7,506,41,8,692,63,8,675,62,7,Finisher,1803
+Jonatas,Nery Costa,Jonatas Nery Costa,618,M30-34,Male,,,Unknown,,0:47:21,3:03:34,2:43:04,,,6:44:15,2841,11014,9784,330,286,24255,676,614,169,725,649,172,624,574,159,676,614,169,Finisher,700
+Guilherme,Couto Fernandes,Guilherme Couto Fernandes,558,M45-49,Male,Santana De Parnamba,Sc,Unknown,,0:45:34,3:18:11,2:29:18,,,6:44:38,2734,11891,8958,357,338,24278,677,615,61,694,626,62,684,624,64,677,615,61,Finisher,1362
+Daniel,Aragao Abreu,Daniel Aragao Abreu,502,M35-39,Male,Fortaleza,Ceará,Unknown,,0:46:20,3:19:44,2:20:07,,,6:45:04,2780,11984,8407,621,512,24304,678,616,142,707,636,144,702,638,144,678,616,142,Finisher,700
+Gabriel,Morfin,Gabriel Morfin,406,M40-44,Male,sao paulo,São paulo,Unknown,,0:47:50,3:07:35,2:36:27,,,6:45:54,2870,11255,9387,384,458,24354,679,617,101,731,655,115,650,595,99,679,617,101,Finisher,890
+Bianca,Pitanga,Bianca Pitanga,555,F30-34,Female,Salvador,Ba,Unknown,,0:29:53,3:27:14,2:33:04,,,6:46:14,1793,12434,9184,496,467,24374,680,63,14,104,11,1,670,58,13,680,63,14,Finisher,1714
+Ericka,Moura,Ericka Moura,395,F45-49,Female,Sco Paulo,Sc,Unknown,,0:52:27,3:17:04,2:26:51,,,6:46:21,3147,11824,8811,364,235,24381,681,64,6,752,79,7,699,64,6,681,64,6,Finisher,2191
+Silvio,Ribeiro De Moraes,Silvio Ribeiro De Moraes,144,M30-34,Male,Brasilia,Intl State,Unknown,,0:33:05,3:01:16,3:01:18,,,6:46:27,1985,10876,10878,338,310,24387,682,618,170,232,214,55,512,482,133,682,618,170,Finisher,700
+Frank,Aponte,Frank Aponte,990,M30-34,Male,barquisimeto,lara,Unknown,,0:37:05,2:40:52,3:19:13,,,6:46:38,2225,9652,11953,323,245,24398,683,619,171,435,406,110,321,304,89,683,619,171,Finisher,700
+Roberto,Vinagre,Roberto Vinagre,237,M55-59,Male,Cuiabá,Other,Unknown,,0:38:42,3:32:36,2:21:42,,,6:47:00,2322,12756,8502,415,425,24420,684,620,10,515,474,4,707,641,8,684,620,10,Finisher,1533
+Paty,Horts,Paty Horts,511,F40-44,Female,Lauro de freitas,,Unknown,,0:34:05,3:08:01,2:58:43,,,6:48:32,2045,11281,10723,253,210,24512,685,65,8,280,21,3,560,34,6,685,65,8,Finisher,1718
+Joao,Fuentes,Joao Fuentes,872,M40-44,Male,BRAGANCA PAULISTA,BR-SP,Unknown,,0:48:43,3:08:39,2:33:23,,,6:48:36,2923,11319,9203,625,446,24516,686,621,102,738,660,117,681,621,106,686,621,102,Finisher,842
+Francisco,Grino,Francisco Grino,974,M25-29,Male,asuncion,Distrito Capital,Unknown,,0:38:20,3:13:45,2:48:01,,,6:48:50,2300,11625,10081,294,230,24530,687,622,73,502,463,66,626,575,71,687,622,73,Finisher,930
+Diogo,Henrique De Araújo,Diogo Henrique De Araújo,526,M35-39,Male,Fortaleza,Ceara,Unknown,,0:46:17,3:08:51,2:37:06,,,6:49:23,2777,11331,9426,621,408,24563,688,623,143,706,635,143,672,613,140,688,623,143,Finisher,700
+Gustavo,Santos De Faria,Gustavo Santos De Faria,515,M30-34,Male,brasilia,distrito federal,Unknown,,0:40:37,3:15:54,2:37:36,,,6:49:32,2437,11754,9456,480,445,24572,689,624,172,594,546,144,665,608,169,689,624,172,Finisher,700
+Anast cio,Nascimento,Anast cio Nascimento,885,M35-39,Male,Fortaleza,,Unknown,,0:37:32,3:14:46,2:44:45,,,6:51:09,2252,11686,9885,599,247,24669,690,625,144,457,423,99,654,599,138,690,625,144,Finisher,700
+Leonardo,Accorsi Leonardo Accorsi,Leonardo Accorsi Leonardo Accorsi,839,M30-34,Male,serra negra,sp,Unknown,,0:43:00,3:21:50,2:27:33,,,6:52:02,2580,12110,8853,533,646,24722,691,626,173,640,585,155,695,632,173,691,626,173,Finisher,700
+Renato,Jimenez Marianno,Renato Jimenez Marianno,346,M40-44,Male,Sco Paulo,Sc,Unknown,,0:39:19,3:18:48,2:33:07,,,6:52:42,2359,11928,9187,740,548,24762,692,627,103,547,503,85,687,627,108,692,627,103,Finisher,768
+Emir,Manhaes,Emir Manhaes,700,M40-44,Male,Brasília,DF,Unknown,,0:43:02,3:08:01,2:41:41,,,6:53:51,2582,11281,9701,636,631,24831,693,628,104,641,586,103,649,594,98,693,628,104,Finisher,747
+Ozimar,Souza,Ozimar Souza,487,M35-39,Male,Brasília,,Unknown,,0:44:14,3:22:12,2:30:36,,,6:54:43,2654,12132,9036,568,493,24883,694,629,145,672,612,138,701,637,143,694,629,145,Finisher,700
+Fabrizzio,Zupelli,Fabrizzio Zupelli,255,M45-49,Male,Goiania,Goiás,Unknown,,0:40:12,3:26:01,2:35:22,,,6:55:40,2412,12361,9322,377,468,24940,695,630,62,574,528,45,693,630,66,695,630,62,Finisher,1163
+Victor,Hugo De Sousa Machado,Victor Hugo De Sousa Machado,429,M25-29,Male,Brasmlia,Di,Unknown,,0:52:54,3:16:39,2:38:50,,,6:55:47,3174,11799,9530,292,152,24947,696,631,74,757,678,84,696,633,75,696,631,74,Finisher,805
+Stelio,Colares Gomes,Stelio Colares Gomes,577,M35-39,Male,Fortaleza,Ce,Unknown,,0:38:59,3:16:10,2:50:13,,,6:57:33,2339,11770,10213,460,271,25053,697,632,146,529,487,115,657,601,139,697,632,146,Finisher,700
+Leiber,De Jesus Pereira Filho,Leiber De Jesus Pereira Filho,443,M45-49,Male,Brasmlia,Di,Unknown,,0:45:42,3:13:17,2:41:44,,,6:57:37,2742,11597,9704,543,471,25057,698,633,63,698,628,63,682,622,63,698,633,63,Finisher,1128
+Gustavo,Brandco De Barros Correia,Gustavo Brandco De Barros Correia,779,M25-29,Male,rio de janeiro,,Unknown,,0:38:04,3:18:50,2:52:36,,,6:59:01,2284,11930,10356,321,250,25141,699,634,75,491,455,64,653,598,72,699,634,75,Finisher,747
+Adriano,Cardozo Neto,Adriano Cardozo Neto,99,M40-44,Male,,,Unknown,,1:03:18,3:24:09,2:20:22,,,6:59:23,3798,12249,8422,359,335,25163,700,635,105,768,688,121,728,655,111,700,635,105,Finisher,700
+Thiago,Da Silva Pereira,Thiago Da Silva Pereira,103,M30-34,Male,Brasmlia,Di,Unknown,,0:43:15,3:14:49,2:53:04,,,6:59:41,2595,11689,10384,261,252,25181,701,636,174,644,589,157,655,600,165,701,636,174,Finisher,700
+Aline,Molina,Aline Molina,485,F25-29,Female,Americana,Brasil,Unknown,,0:48:40,3:24:44,2:35:29,,,7:00:25,2920,12284,9329,451,241,25225,702,66,12,737,78,13,711,69,12,702,66,12,Finisher,1178
+Bruno,Melo,Bruno Melo,82,M25-29,Male,Brasilia,Intl State,Unknown,,0:52:45,3:04:09,2:49:45,,,7:01:44,3165,11049,10185,451,454,25304,703,637,76,756,677,83,663,607,73,703,637,76,Finisher,700
+Clovis,Mendes Oliveira,Clovis Mendes Oliveira,782,M45-49,Male,BRASILIA,Federal District,Unknown,,0:46:30,3:08:17,2:47:51,,,7:02:01,2790,11297,10071,590,573,25321,704,638,64,710,639,66,666,609,60,704,638,64,Finisher,1049
+Marina,Jugue Chinem,Marina Jugue Chinem,118,F50-54,Female,COTIA,SÃO PAULO,Unknown,,0:44:01,3:31:14,2:39:23,,,7:02:29,2641,12674,9563,288,183,25349,705,67,2,664,59,2,710,68,2,705,67,2,Finisher,2990
+Ivana,Maria Rodrigues Lima De S Pessoa,Ivana Maria Rodrigues Lima De S Pessoa,451,F40-44,Female,Salvador,Ba,Unknown,,0:37:12,3:42:47,2:34:26,,,7:03:28,2232,13367,9266,368,175,25408,706,68,9,438,30,6,721,73,11,706,68,9,Finisher,1450
+Adriana,Mangabeira Wanderley,Adriana Mangabeira Wanderley,527,F40-44,Female,Maceio,Alagoas,Unknown,,0:44:34,3:33:00,2:35:07,,,7:03:29,2674,12780,9307,339,309,25409,707,69,10,675,62,11,716,71,10,707,69,10,Finisher,1449
+Claudia,Airoza,Claudia Airoza,840,F45-49,Female,rio de janeiro,Intl State,Unknown,,0:46:50,3:20:54,2:43:07,,,7:06:01,2810,12054,9787,537,373,25561,708,70,7,717,74,6,703,65,7,708,70,7,Finisher,1837
+Matheus ,Kineipp,Matheus Kineipp,269,M18-24,Male,Brasilia,DF,Unknown,,0:34:30,3:29:59,2:50:23,,,7:06:22,2070,12599,10223,364,326,25582,709,639,27,304,282,15,689,628,26,709,639,27,Finisher,1030
+Jose Maria,Kugler,Jose Maria Kugler,663,M45-49,Male,Buenos Aires,,Unknown,,0:53:23,3:31:57,2:24:43,,,7:07:18,3203,12717,8683,641,394,25638,710,640,65,759,680,73,729,656,71,710,640,65,Finisher,954
+Jeson,Santos,Jeson Santos,229,M40-44,Male,São Paulo,SP,Unknown,,0:47:27,3:23:16,2:34:52,,,7:07:36,2847,12196,9292,757,564,25656,711,641,106,726,650,113,717,646,109,711,641,106,Finisher,700
+Cláudio,Emilio Oliveira Garbi,Cláudio Emilio Oliveira Garbi,264,M40-44,Male,Brasilia,Df,Unknown,,0:48:02,3:11:36,2:53:41,,,7:08:25,2882,11496,10421,531,375,25705,712,642,107,732,656,116,683,623,107,712,642,107,Finisher,700
+Jeanne,D Arc Corrja,Jeanne D Arc Corrja,881,F40-44,Female,Sao Paulo,,Unknown,,0:44:49,3:28:18,2:46:19,,,7:09:17,2689,12498,9979,404,187,25757,713,71,11,681,64,12,709,67,9,713,71,11,Finisher,1345
+Bruno,Victor Veiga,Bruno Victor Veiga,152,M45-49,Male,Curitiba,Pa,Unknown,,0:40:29,3:14:00,3:00:07,,,7:09:45,2429,11640,10807,449,460,25785,714,643,66,588,541,48,651,596,59,714,643,66,Finisher,910
+Emanoel,Lessa Garcia,Emanoel Lessa Garcia,580,M30-34,Male,Fortaleza,,Unknown,,0:46:22,3:23:17,2:50:36,,,7:12:03,2782,12197,10236,340,368,25923,715,644,175,708,637,167,697,634,174,715,644,175,Finisher,700
+Diego,Serra Azul Albuquerque,Diego Serra Azul Albuquerque,824,M25-29,Male,Sao Jos‚ dos Campos,São Paulo,Unknown,,0:46:10,3:23:51,2:50:15,,,7:12:09,2770,12231,10215,418,295,25929,716,645,77,703,633,77,705,640,76,716,645,77,Finisher,700
+Marinaldo,Brito,Marinaldo Brito,924,M65-69,Male,Salvador,BAHIA,Unknown,,0:58:53,3:17:07,2:41:20,,,7:12:33,3533,11827,9680,541,372,25953,717,646,2,765,686,2,718,647,2,717,646,2,Finisher,2520
+Marcio,Algarve Duarte,Marcio Algarve Duarte,319,M25-29,Male,Santana de Parnaíba,São Paulo,Unknown,,0:55:29,3:33:10,2:24:07,,,7:14:30,3329,12790,8647,767,537,26070,718,647,78,761,682,85,733,659,78,718,647,78,Finisher,700
+Carlos Antonio,Passos Da Silva,Carlos Antonio Passos Da Silva,888,M55-59,Male,Salvador,Bahia,Unknown,,0:43:52,3:44:44,2:33:14,,,7:17:50,2632,13484,9194,699,261,26270,719,648,11,661,603,9,731,658,10,719,648,11,Finisher,978
+Jorge,Raimundo De Almeida Castro Neto,Jorge Raimundo De Almeida Castro Neto,332,M35-39,Male,Lauro De Freitas,Ba,Unknown,,0:52:16,3:25:22,2:45:58,,,7:18:47,3136,12322,9958,572,339,26327,720,649,147,750,672,150,724,651,147,720,649,147,Finisher,700
+Ricardo,Pedra De Oliveira,Ricardo Pedra De Oliveira,816,M25-29,Male,brasilia,Army Asia,Unknown,,0:49:09,3:49:48,2:27:44,,,7:22:33,2949,13788,8864,489,463,26553,721,650,79,743,665,80,738,663,81,721,650,79,Finisher,700
+Monique,Giannini Afoumado Venturin,Monique Giannini Afoumado Venturin,498,F25-29,Female,Vitsria,Es,Unknown,,0:39:05,3:35:14,2:55:07,,,7:22:41,2345,12914,10507,400,395,26561,722,72,13,539,44,9,712,70,13,722,72,13,Finisher,777
+Ricardo,Celio Chagas Bezerra Filho,Ricardo Celio Chagas Bezerra Filho,833,M25-29,Male,Manaus,,Unknown,,0:36:05,3:59:13,2:33:27,,,7:23:50,2165,14353,9207,569,336,26630,723,651,80,380,355,49,736,661,79,723,651,80,Finisher,700
+Jadiel,Mello,Jadiel Mello,453,M45-49,Male,Sco Paulo,Sc,Unknown,,0:41:37,3:26:54,3:07:43,,,7:26:37,2497,12414,11263,413,210,26797,724,652,67,613,563,53,698,635,67,724,652,67,Finisher,700
+Carolina,De Aguiar Moreira,Carolina De Aguiar Moreira,619,F30-34,Female,Rio de Janeiro,rio de janeiro,Unknown,,0:42:27,3:17:58,3:16:49,,,7:26:40,2547,11878,11809,308,258,26800,725,73,15,627,54,12,673,60,14,725,73,15,Finisher,986
+Lia,Da Costa Affonso,Lia Da Costa Affonso,606,F50-54,Female,belém,PARA,Unknown,,0:46:38,3:32:22,2:59:02,,,7:26:56,2798,12742,10742,364,170,26816,726,74,3,715,72,3,719,72,3,726,74,3,Finisher,2550
+Ronaldo,Fonseca Fontenele,Ronaldo Fonseca Fontenele,345,M45-49,Male,Fortaleza,,Unknown,,1:06:14,3:28:49,2:45:13,,,7:33:45,3974,12529,9913,470,339,27225,727,653,68,769,689,74,734,660,72,727,653,68,Finisher,700
+Bruno,Ferreira,Bruno Ferreira,777,M18-24,Male,Macei&oacute;,Alagoas,Unknown,,0:48:07,3:27:05,3:04:50,,,7:34:06,2887,12425,11090,476,368,27246,728,654,28,734,658,29,715,645,27,728,654,28,Finisher,700
+Mauricio,Ramos,Mauricio Ramos,923,M25-29,Male,Sao Paulo,São Paulo,Unknown,,0:37:44,3:09:48,3:32:13,,,7:34:28,2264,11388,12733,406,477,27268,729,655,81,467,433,59,612,566,69,729,655,81,Finisher,700
+Alexandre,Lins,Alexandre Lins,994,M25-29,Male,Vicente López,Buenos Aires Province,Unknown,,0:49:28,3:32:11,3:02:08,,,7:35:05,2968,12731,10928,307,371,27305,730,656,82,746,668,81,722,649,77,730,656,82,Finisher,700
+Juruebi,De Oliveira Junior,Juruebi De Oliveira Junior,742,M40-44,Male,Brasilia,Intl State,Unknown,,0:43:26,3:10:43,3:30:14,,,7:40:12,2606,11443,12614,591,358,27612,731,657,108,652,594,104,661,605,100,731,657,108,Finisher,700
+Andri,Lums Borges Lima,Andri Lums Borges Lima,347,M30-34,Male,Brasmlia,Di,Unknown,,0:51:36,3:12:53,3:19:06,,,7:40:16,3096,11573,11946,481,520,27616,732,658,176,749,671,175,694,631,172,732,658,176,Finisher,700
+Eduardo,Soley,Eduardo Soley,335,M25-29,Male,São Paulo ,BR-SP,Unknown,,0:48:45,3:47:38,2:45:23,,,7:41:02,2925,13658,9923,552,604,27662,733,659,83,740,662,78,737,662,80,733,659,83,Finisher,700
+Simone,Gouveia Del Nero,Simone Gouveia Del Nero,387,F35-39,Female,Santana de Parnaíba,SP,Unknown,,0:45:38,3:46:57,2:54:31,,,7:41:13,2738,13617,10471,461,386,27673,734,75,18,696,70,15,732,74,18,734,75,18,Finisher,711
+Fernando,Cardoso,Fernando Cardoso,147,M40-44,Male,Rio De Janeiro,Ri,Unknown,,0:52:37,3:49:27,2:41:26,,,7:41:58,3157,13767,9686,677,431,27718,735,660,109,755,676,119,741,665,112,735,660,109,Finisher,700
+Gustavo,Carfagna,Gustavo Carfagna,661,M45-49,Male,Ituzaingo,Buenos Aires,Unknown,,0:47:35,3:21:49,3:15:46,,,7:42:50,2855,12109,11746,573,487,27770,736,661,69,727,651,69,708,642,69,736,661,69,Finisher,700
+Thiago,Biazetto,Thiago Biazetto,860,M30-34,Male,Curitiba,,Unknown,,0:43:07,3:39:48,3:09:38,,,7:45:27,2587,13188,11378,475,299,27927,737,662,177,642,587,156,725,652,176,737,662,177,Finisher,700
+Deycy Lidiana,Nunez  Feris,Deycy Lidiana Nunez  Feris,978,F35-39,Female,HORQUETA,Concepción,Unknown,,1:06:31,3:29:57,2:58:41,,,7:47:11,3991,12597,10721,401,321,28031,738,76,19,770,81,19,735,75,19,738,76,19,Finisher,700
+Luiz,Augusto Loyola,Luiz Augusto Loyola,798,M30-34,Male,BRASILIA,Federal District,Unknown,,0:52:30,3:21:02,3:20:34,,,7:49:48,3150,12062,12034,484,458,28188,739,663,178,753,674,177,713,643,175,739,663,178,Finisher,700
+Joco,Gabriel Nobrega Pereira De Almeida,Joco Gabriel Nobrega Pereira De Almeida,274,M30-34,Male,Brasmlia,Di,Unknown,,0:54:32,3:45:11,3:00:37,,,7:50:11,3272,13511,10837,591,0,28211,740,664,179,760,681,178,739,664,178,740,664,179,Finisher,700
+Laudenor,Pereira Lemos Junior,Laudenor Pereira Lemos Junior,247,M30-34,Male,Jacobina,Ba,Unknown,,0:50:41,3:30:47,3:03:31,,,7:50:19,3041,12647,11011,912,608,28219,741,665,180,748,670,174,730,657,177,741,665,180,Finisher,700
+Ronie,Souza,Ronie Souza,638,M45-49,Male,CURITIBA,PARANÁ,Unknown,,0:47:02,3:30:39,3:18:51,,,7:51:39,2822,12639,11931,547,360,28299,742,666,70,721,646,67,723,650,70,742,666,70,Finisher,700
+Fabio,Regis Santos,Fabio Regis Santos,767,M40-44,Male,Lauro de Freitas,,Unknown,,0:42:00,3:33:00,3:21:37,,,7:55:57,2520,12780,12097,657,503,28557,743,667,110,618,568,96,720,648,110,743,667,110,Finisher,700
+Miguel,Cardenas,Miguel Cardenas,676,M45-49,Male,Buenos Aires,C.A.B.A,Unknown,,0:34:15,3:25:10,3:44:14,,,7:57:00,2055,12310,13454,444,357,28620,744,668,71,289,268,18,678,618,62,744,668,71,Finisher,700
+THEMIS,VILELA,THEMIS VILELA,561,F55-59,Female,MACEIO,BR-AL,Unknown,,0:45:35,4:03:33,2:54:36,,,7:58:24,2735,14613,10476,594,286,28704,745,77,1,695,69,1,742,77,1,745,77,1,Finisher,3500
+Alexandra,De Vasconcelos Vieira,Alexandra De Vasconcelos Vieira,460,F40-44,Female,Belo Horizonte,Minas Gerais,Unknown,,0:44:51,3:59:37,3:04:57,,,7:59:58,2691,14377,11097,527,106,28798,746,78,12,682,65,13,740,76,12,746,78,12,Finisher,700
+Anthony,Pinheiro,Anthony Pinheiro,243,M40-44,Male,Teresópolis,Rio de Janeiro,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+marco,favero,marco favero,943,M35-39,Male,Americana,São Paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eduardo,Marques,Eduardo Marques,450,M30-34,Male,São Paulo,Sao Paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Ulisses,Fontoura,Ulisses Fontoura,582,M45-49,Male,Goibnia,Go,Unknown,,,,,,,,0,10725,0,2750,352,0,99999,99999,99999,99999,99999,99999,549,517,50,99999,99999,99999,DNF,
+Jackson,Gondaski,Jackson Gondaski,707,M25-29,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Caf Birman,Alexandre Caf Birman,802,M35-39,Male,S&atilde;o Paulo,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Rodrigo,Jonko Douglas,Rodrigo Jonko Douglas,842,M35-39,Male,uberlandia,mg,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Diogenes,Gama,Diogenes Gama,518,M45-49,Male,Salvador,Ba,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eduardo,Florence,Eduardo Florence,516,M25-29,Male,São Paulo,São Paulo,Unknown,,,,,,,,1610,0,0,0,0,0,99999,99999,99999,37,31,5,99999,99999,99999,99999,99999,99999,DNF,
+Valentina,Carvallo,Valentina Carvallo,40,F25-29,Female,santiago,Santiago Metropolitan Region,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Nadia,Ferreira,Nadia Ferreira,925,F40-44,Female,LAURO DE FREITAS,Intl State,Unknown,,,,,,,,2595,0,0,509,0,0,99999,99999,99999,645,56,9,99999,99999,99999,99999,99999,99999,DNF,
+Marcelo,Balzer Correia,Marcelo Balzer Correia,311,M45-49,Male,Curitiba,Pr,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Rinaldo,Wellerson Pereira,Rinaldo Wellerson Pereira,318,M40-44,Male,Brasmlia,Di,Unknown,,,,,,,,2342,0,0,0,0,0,99999,99999,99999,533,491,81,99999,99999,99999,99999,99999,99999,DNF,
+Alex,Magalhaes,Alex Magalhaes,356,M30-34,Male,brasilia,Distrito Federal,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Maria Laura,Herrero Ferrario,Maria Laura Herrero Ferrario,975,F30-34,Female,Asuncion,Distrito Capital,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Rogigio,Amaro Gongalves Silva,Rogigio Amaro Gongalves Silva,589,M18-24,Male,Queimados,Ri,Unknown,,,,,,,,1957,0,0,0,0,0,99999,99999,99999,208,192,9,99999,99999,99999,99999,99999,99999,DNF,
+Andre,Da Hora,Andre Da Hora,412,M35-39,Male,Miami,FL,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Tiago,Sousa,Tiago Sousa,574,M40-44,Male,Uberlandia,FL,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Euclides,Pessoa,Euclides Pessoa,749,M45-49,Male,Brasilia,DF,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Edson,Fernando Ferreira,Edson Fernando Ferreira,6,M25-29,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Plínio,Ribeiro Maciel,Plínio Ribeiro Maciel,226,M45-49,Male,Brasilia,Distrito Federal,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Neomar,Camelo Dos Santos,Neomar Camelo Dos Santos,363,M35-39,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Georges,Oliva De Oliveira,Georges Oliva De Oliveira,378,M30-34,Male,Palmas,Tocantins,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Leandro,Souto,Leandro Souto,411,M25-29,Male,BRASILIA,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eduardo,De Angelis,Eduardo De Angelis,866,M35-39,Male,Brooklyn,NY,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Dennis,Triplett,Dennis Triplett,995,M40-44,Male,San Diego,CA,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Vitor,Meira,Vitor Meira,193,M35-39,Male,brasilia,DF,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Lucas,Cachapuz,Lucas Cachapuz,224,M18-24,Male,RIO DE JANEIRO,intl,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alejandro,Campos Aliaga,Alejandro Campos Aliaga,659,M55-59,Male,011,Other,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Roberto,Azevedo Jr,Roberto Azevedo Jr,939,M60-64,Male,SÃO PAULO,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Denilson,Postai,Denilson Postai,83,M40-44,Male,Brasilia,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Themistocles,Meneses,Themistocles Meneses,468,M40-44,Male,Rio De Janeiro,Intl State,Unknown,,,,,,,,2740,0,0,0,0,0,99999,99999,99999,697,627,111,99999,99999,99999,99999,99999,99999,DNF,
+Sergio,Gilberti,Sergio Gilberti,761,M45-49,Male,Goiania,Brasil,Unknown,,,,,,,,1870,0,0,0,0,0,99999,99999,99999,160,145,11,99999,99999,99999,99999,99999,99999,DNF,
+Pedro Henrique,Oliveira,Pedro Henrique Oliveira,814,M50-54,Male,Brasilia,DF,Unknown,,,,,,,,2156,0,0,0,0,0,99999,99999,99999,370,346,12,99999,99999,99999,99999,99999,99999,DNF,
+Adolfo,Arias,Adolfo Arias,969,M40-44,Male,Panama,Panama,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Lucas,Pereira Moraes Garcia,Lucas Pereira Moraes Garcia,828,M35-39,Male,Bragança Paulista,BR-SP,Unknown,,,,,,,,2046,0,0,0,0,0,99999,99999,99999,282,261,57,99999,99999,99999,99999,99999,99999,DNF,
+Gustavo,De Moraes Maciel,Gustavo De Moraes Maciel,189,M45-49,Male,BRASILIA,Distrito Federal,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Igor,Piumbim,Igor Piumbim,815,M30-34,Male,Brasilia,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Miguel,Rothmann Jarros,Miguel Rothmann Jarros,758,M35-39,Male,porto alegre,rs,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexander,Piquer,Alexander Piquer,914,M40-44,Male,Jacksonville,FL,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Arthur,Andrade,Arthur Andrade,791,M55-59,Male,sao paulo,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Alves Machado,Alexandre Alves Machado,140,M45-49,Male,Brasilia,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcio,Silva Pinheiro,Marcio Silva Pinheiro,304,M40-44,Male,Outra,Ceará,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Da Costa Silva,Alexandre Da Costa Silva,159,M35-39,Male,Lago Norte,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Levy,Rogerio  Scarpim,Levy Rogerio  Scarpim,267,M40-44,Male,curitiba,parana,Unknown,,,,,,,,2173,0,0,0,0,0,99999,99999,99999,389,364,62,99999,99999,99999,99999,99999,99999,DNF,
+Fernando,Chanampa,Fernando Chanampa,658,M40-44,Male,caleta olivia,,Unknown,,,,,,,,3485,0,0,0,0,0,99999,99999,99999,762,683,120,99999,99999,99999,99999,99999,99999,DNF,
+Claudio,Roberto Vasconcellos,Claudio Roberto Vasconcellos,635,M45-49,Male,RIO DE JANEIRO,RIO DE JANEIRO,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Clisio,Mello De Castro,Clisio Mello De Castro,343,M35-39,Male,Campinas,Sc,Unknown,,,,,,,,2671,0,0,0,0,0,99999,99999,99999,674,613,139,99999,99999,99999,99999,99999,99999,DNF,
+Vinicius,Stucchi,Vinicius Stucchi,552,M35-39,Male,SAO PAULO,HI,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Pierobon,Tulio,Pierobon Tulio,553,M40-44,Male,Goibnia,Go,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Antonio,Rabello,Antonio Rabello,906,M45-49,Male,S?O Paulo,JD. EUROPA,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Paulo,Santos,Paulo Santos,769,M40-44,Male,Uberlandia,Minas Gerais,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Ana Lidia,Borba,Ana Lidia Borba,36,F25-29,Female,São Paulo,Intl State,Unknown,,,,,,,,1537,0,0,0,0,0,99999,99999,99999,23,4,4,99999,99999,99999,99999,99999,99999,DNF,
+Luciano,Moura,Luciano Moura,139,M35-39,Male,BRASILIA,DISTRITO FEDERAL,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Andrei,Giometti Sandoval Santos,Andrei Giometti Sandoval Santos,809,M35-39,Male,Cuiabá,Mato Grosso,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+EDMAR,ALVES MARTINS,EDMAR ALVES MARTINS,282,M50-54,Male,MOGI DAS CRUZES,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Jos‚,Reis Neto,Jos‚ Reis Neto,884,M55-59,Male,Curitiba,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Carlos,Martinez,Carlos Martinez,958,M35-39,Male,Seattle,WA,Unknown,,,,,,,,2271,0,0,0,0,0,99999,99999,99999,478,443,104,99999,99999,99999,99999,99999,99999,DNF,
+Rafael De Asevedo,Silva,Rafael De Asevedo Silva,400,M30-34,Male,Iturama,AC,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Gustavo,Machado Boldrin,Gustavo Machado Boldrin,325,M35-39,Male,Rio De Janeiro,RJ,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Alves Torrentes,Alexandre Alves Torrentes,718,M40-44,Male,rio de janeiro,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Rodrigo,Almeida Missao,Rodrigo Almeida Missao,951,M30-34,Male,Osasco,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Fabiano,Duarte Dutra,Fabiano Duarte Dutra,698,M40-44,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Luiz,Paulo Garcia Parente Filho,Luiz Paulo Garcia Parente Filho,210,M35-39,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Carlos,Eduardo C. Noleto,Carlos Eduardo C. Noleto,370,M30-34,Male,Brasmlia,Di,Unknown,,,,,,,,1896,0,0,0,0,0,99999,99999,99999,178,163,46,99999,99999,99999,99999,99999,99999,DNF,
+Sandro,Giometti,Sandro Giometti,331,M40-44,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+João,Fiuza,João Fiuza,793,M55-59,Male,Fortaleza,ceara,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Fabiano,Giometti Sandoval Santos,Fabiano Giometti Sandoval Santos,753,M35-39,Male,Brasilia,DF,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Walter,Guerra Rezende,Walter Guerra Rezende,612,M40-44,Male,Rio de Janeiro,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Stelio,Belchior,Stelio Belchior,748,M35-39,Male,Rio de Janeiro,Rio de Janeiro,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Nilo,Chaves Maia,Nilo Chaves Maia,542,M35-39,Male,85/Fortaleza,Outside SA,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Sergio,Portilho Simao,Sergio Portilho Simao,297,M30-34,Male,Brasília,DF,Unknown,,,,,,,,1932,0,0,0,0,0,99999,99999,99999,189,174,48,99999,99999,99999,99999,99999,99999,DNF,
+Alexandre,Florio,Alexandre Florio,431,M30-34,Male,Vienna,AT,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Amador Andrade,Alexandre Amador Andrade,932,M40-44,Male,Rio de Janeiro,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Antônio,Loureiro,Antônio Loureiro,916,M40-44,Male,São Paulo,São Paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Raymundo,Peixoto Junior,Raymundo Peixoto Junior,903,M45-49,Male,São Paulo,São Paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcelo,Moreira,Marcelo Moreira,602,M25-29,Male,sao paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Sandro,Tomasi,Sandro Tomasi,208,M40-44,Male,Bento Gongalves,Ri,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Mario,Moraes Martins De Barros,Mario Moraes Martins De Barros,428,M18-24,Male,Sco Paulo,Sc,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Andre,R Borges,Andre R Borges,918,M40-44,Male,Sao Paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Fernando,Anferr,Fernando Anferr,388,M40-44,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Sergio,Ramin,Sergio Ramin,848,M50-54,Male,São Jose Do Rio Pret,SÃO PAULO,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Joao Paulo,Damasceno De Araujo,Joao Paulo Damasceno De Araujo,288,M30-34,Male,NOVA LIMA,MINAS GERAIS,Unknown,,,,,,,,2456,0,0,0,0,0,99999,99999,99999,599,551,145,99999,99999,99999,99999,99999,99999,DNF,
+Renato,Gandini,Renato Gandini,624,M35-39,Male,Santos,SP,Unknown,,,,,,,,2037,0,0,0,0,0,99999,99999,99999,270,252,54,99999,99999,99999,99999,99999,99999,DNF,
+Wilson,Eloy Pimenta Junior,Wilson Eloy Pimenta Junior,883,M45-49,Male,Goiânia,Goias,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcos,Fernandes De Barros Jznior,Marcos Fernandes De Barros Jznior,290,M25-29,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Raphael,Maia,Raphael Maia,328,M25-29,Male,Campo Largo,Paraná,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Leonardo,Mello,Leonardo Mello,904,M40-44,Male,Sao Paulo,,Unknown,,,,,,,,1554,8610,0,195,93,0,99999,99999,99999,27,21,2,31,29,2,99999,99999,99999,DNF,
+Marcos,Fernandes,Marcos Fernandes,862,M35-39,Male,sao paulo,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Tomas,Perez,Tomas Perez,263,M40-44,Male,sao paulo,sao paulo,Unknown,,,,,,,,2060,10380,0,421,325,0,99999,99999,99999,296,274,47,454,428,66,99999,99999,99999,DNF,
+Rodrigo,Souza,Rodrigo Souza,133,M35-39,Male,Brasilia - Jardim Botanico,BRASILIA DF,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcos,Simonsen,Marcos Simonsen,913,M35-39,Male,sao paulo,sao paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Celia,Finck Brandt,Celia Finck Brandt,405,F60-64,Female,Curitiba,Pa,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcos,Mangi,Marcos Mangi,281,M45-49,Male,RIO DE JANEIRO,RJ,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Carlos,Felipe Fernandes Correa,Carlos Felipe Fernandes Correa,573,M30-34,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Raul,Furtado,Raul Furtado,2,M30-34,Male,Petropolis,rio de janeiro,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Isabella,Chame,Isabella Chame,751,F30-34,Female,Rio de Janeiro,Rio de Janeiro,Unknown,,,,,,,,2268,10966,0,359,289,0,99999,99999,99999,474,35,6,562,35,6,99999,99999,99999,DNF,
+Mario,Issa Oliveira,Mario Issa Oliveira,261,M45-49,Male,Sao Paulo,SP,Unknown,,,,,,,,2332,0,0,0,0,0,99999,99999,99999,524,483,40,99999,99999,99999,99999,99999,99999,DNF,
+Josi,Carlos Gonzales,Josi Carlos Gonzales,349,M35-39,Male,Sco Paulo,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcela,Buschmann,Marcela Buschmann,955,F45-49,Female,Santiago,Santiago Metropolitan Region,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Leonardo,Avelar,Leonardo Avelar,408,M30-34,Male,São Paulo,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marilia,Rabello,Marilia Rabello,895,F45-49,Female,S?O Paulo,JD. EUROPA,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Adriano,Farias,Adriano Farias,469,M45-49,Male,Fortaleza,Ce,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Carlos,Augusto Mota,Carlos Augusto Mota,317,M40-44,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Susana,Festner,Susana Festner,39,F30-34,Female,Brasília,Distrito Federal,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Tadeu,Dantas,Tadeu Dantas,517,M45-49,Male,Salvador,Bahia,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Francisco,Homem De Mello,Francisco Homem De Mello,922,M25-29,Male,sao paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Felipe,Chacon,Felipe Chacon,221,M25-29,Male,Sco Paulo,Sc,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Bruno,Roma,Bruno Roma,640,M25-29,Male,Nova Iguaçu,rio de janeiro,Unknown,,,,,,,,2940,0,0,0,0,0,99999,99999,99999,742,664,79,99999,99999,99999,99999,99999,99999,DNF,
+Sergio,Borejo,Sergio Borejo,614,M40-44,Male,São Paulo,SAO PAULO,Unknown,,,,,,,,1992,0,0,0,0,0,99999,99999,99999,239,221,33,99999,99999,99999,99999,99999,99999,DNF,
+OSMUNDO,ARAUJO DE OLIVEIRA,OSMUNDO ARAUJO DE OLIVEIRA,283,M35-39,Male,SAO PAULO,SP,Unknown,,,,,,,,2626,0,0,0,0,0,99999,99999,99999,660,602,135,99999,99999,99999,99999,99999,99999,DNF,
+Elias,Senna,Elias Senna,135,M35-39,Male,GAMA - DF,Distrito Federal,Unknown,,,,,,,,2749,0,0,299,0,0,99999,99999,99999,699,629,142,99999,99999,99999,99999,99999,99999,DNF,
+Giancarlo,De Bianchi,Giancarlo De Bianchi,956,M45-49,Male,Santiago,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Igor,Alves Do Prado,Igor Alves Do Prado,175,M35-39,Male,Goi Nia,GO,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eduardo,Spagnuolo,Eduardo Spagnuolo,795,M50-54,Male,Geneve,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Luciana,Cachem,Luciana Cachem,838,F40-44,Female,Santana De Parnaiba,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Almeida,Victor,Almeida Victor,201,M40-44,Male,Curitiba,Paraná,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Leandro,Knewitz,Leandro Knewitz,846,M40-44,Male,GOIANIA,Intl State,Unknown,,,,,,,,2006,0,0,0,0,0,99999,99999,99999,252,234,36,99999,99999,99999,99999,99999,99999,DNF,
+Gustavo,Zanatta,Gustavo Zanatta,861,M35-39,Male,Piracicaba,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Erick,Vasconcelos,Erick Vasconcelos,608,M40-44,Male,Fortaleza,Ceara,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Evando,Resende Limongi,Evando Resende Limongi,1002,M35-39,Male,Taguatinga,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Pedro,Luiz Cerize,Pedro Luiz Cerize,920,M40-44,Male,São paulo,BR-SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Wilson,Kherlakian,Wilson Kherlakian,936,M40-44,Male,São Paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Diego,Bergara,Diego Bergara,985,M40-44,Male,Montevideo,Montevideo,Unknown,,,,,,,,2164,0,0,0,0,0,99999,99999,99999,378,353,59,99999,99999,99999,99999,99999,99999,DNF,
+Mauro,Meinberg,Mauro Meinberg,792,M40-44,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Murilo,Morais,Murilo Morais,737,M30-34,Male,BRASILIA,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Max,Do Vale Costa,Max Do Vale Costa,235,M30-34,Male,São Luís,Maranhão,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Jeferson,Ortiz,Jeferson Ortiz,251,M40-44,Male,São paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Daniel,Jordan De Almeida,Daniel Jordan De Almeida,686,M30-34,Male,New York,NY,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+João,Ximenes Fiuza,João Ximenes Fiuza,279,M25-29,Male,Fortaleza,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eugenio,Adaglio,Eugenio Adaglio,645,M45-49,Male,Cosquin,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Gustavo,Blattner,Gustavo Blattner,776,M35-39,Male,Sao paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Gustavo,Carneiro De Albuquerque,Gustavo Carneiro De Albuquerque,166,M30-34,Male,BRASILIA,DF,Unknown,,,,,,,,2580,9940,0,266,245,0,99999,99999,99999,639,584,154,445,420,121,99999,99999,99999,DNF,
+Jose Dilson,Araujo Filho,Jose Dilson Araujo Filho,541,M35-39,Male,fortaleza,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Israel,Braga,Israel Braga,418,M35-39,Male,,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Jose,Elias Oliveira,Jose Elias Oliveira,506,M40-44,Male,brasilia,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Andre,Torelly,Andre Torelly,436,M30-34,Male,Porto Alegre,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Alexandre,Silveira Biem,Alexandre Silveira Biem,910,M45-49,Male,SANTANA DE PARNAIBA,São Paulo,Unknown,,,,,,,,2907,0,0,0,0,0,99999,99999,99999,735,659,70,99999,99999,99999,99999,99999,99999,DNF,
+Maurilio,Santana,Maurilio Santana,369,M30-34,Male,Curitiba,Parana,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Fabio,Martins Da Silveira,Fabio Martins Da Silveira,295,M40-44,Male,Goibnia,GO,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Pedro,Antonio Pedrosa,Pedro Antonio Pedrosa,755,M30-34,Male,Brasilia,Federal District,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Bruno,Miranda,Bruno Miranda,641,M35-39,Male,Miami,FL,Unknown,,,,,,,,1904,0,0,0,0,0,99999,99999,99999,179,164,39,99999,99999,99999,99999,99999,99999,DNF,
+Felipe,Meira,Felipe Meira,196,M35-39,Male,Brasmlia,Di,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Felipe,Manente,Felipe Manente,15,M25-29,Male,Florianópolis,SC,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Marcus ,Vinícius Oliveira Santos,Marcus Vinícius Oliveira Santos,289,M30-34,Male,Teresina,Piauí,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Julian,Eguren,Julian Eguren,945,M50-54,Male,San Nicolás de los Garza,Nuevo Leon,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Roberto,Moreira Santos Filho,Roberto Moreira Santos Filho,688,M45-49,Male,BRASILIA,DF,Unknown,,,,,,,,1835,0,0,0,0,0,99999,99999,99999,142,129,9,99999,99999,99999,99999,99999,99999,DNF,
+Eduardo,De Moraes Jurcevic,Eduardo De Moraes Jurcevic,764,M35-39,Male,Santos,São Paulo,Unknown,,,,,,,,1664,0,0,0,0,0,99999,99999,99999,48,42,7,99999,99999,99999,99999,99999,99999,DNF,
+Eduardo,Martins,Eduardo Martins,109,M25-29,Male,BRASILIA,DF,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Vinicius,Canhedo,Vinicius Canhedo,198,M25-29,Male,miami,FL,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Diogo,Cia De Faria,Diogo Cia De Faria,528,M30-34,Male,Americana,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Carloshumberto,Andrade Filho,Carloshumberto Andrade Filho,585,M40-44,Male,Fortaleza,Ce,Unknown,,,,,,,,2415,0,0,0,0,0,99999,99999,99999,576,529,90,99999,99999,99999,99999,99999,99999,DNF,
+David,Procaccia,David Procaccia,637,M55-59,Male,São Paulo,São Paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Charles,De Moura Ferreira,Charles De Moura Ferreira,572,M40-44,Male,Brasília,Intl State,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Celso,Yuji Yonehara,Celso Yuji Yonehara,404,M50-54,Male,SAO PAULO,SP,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Andres ,Martinez,Andres Martinez,648,M45-49,Male,Bahia Blanca,AR-B,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Ricardo,Pasetto Leser,Ricardo Pasetto Leser,414,M45-49,Male,São Paulo,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Eduardo,Scarabino,Eduardo Scarabino,982,M40-44,Male,montevideo,montevideo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Elivar,Coelho De Oliveira,Elivar Coelho De Oliveira,491,M40-44,Male,Goibnia,Go,Unknown,,,,,,,,2647,0,0,0,0,0,99999,99999,99999,669,609,106,99999,99999,99999,99999,99999,99999,DNF,
+Luiz,Augusto B. Campinhos,Luiz Augusto B. Campinhos,520,M40-44,Male,Vitsria,Es,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Lucas,Danelli,Lucas Danelli,366,M25-29,Male,Taubaté,sao paulo,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,
+Tamsin,Lewis,Tamsin Lewis,32,F30-34,Female,London,,Unknown,,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,

@@ -1,0 +1,932 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Mikal,Iden,Mikal Iden,250,M25-29,Male,Haugesund,,Norway,NO,0:58:33,4:19:38,2:58:01,,,8:19:54,3513,15578,10681,127,95,29994,1,1,1,29,24,3,1,1,1,1,1,1,Finisher,5000
+Rauno,Pikkor,Rauno Pikkor,218,M40-44,Male,Tallinn,Harju maakond,Estonia,EE,1:00:33,4:39:51,3:04:25,,,8:49:53,3633,16791,11065,183,120,31793,2,2,1,50,43,5,8,6,3,2,2,1,Finisher,5000
+Mihai,Vigariu,Mihai Vigariu,57,M35-39,Male,Bucuresti,Bucuresti,Romania,RO,0:57:47,4:38:19,3:12:49,,,8:54:02,3467,16699,11569,161,145,32042,3,3,1,24,19,6,4,4,1,3,3,1,Finisher,5000
+Corinne,Abraham,Corinne Abraham,1,FPRO,Female,"Taplow, Maidenhead",Intl State,United Kingdom,GB,0:59:03,4:39:57,3:12:01,,,8:55:22,3543,16797,11521,160,102,32122,4,1,1,31,6,4,6,2,2,4,1,1,Finisher,5000
+Nikolai,Pyzhov,Nikolai Pyzhov,185,M25-29,Male,Dolgoprydnii,Moscow,Russia,RU,0:57:25,4:44:14,3:08:57,,,8:55:26,3445,17054,11337,161,128,32126,5,4,2,22,18,1,11,9,2,5,4,2,Finisher,4573
+Christos,Geitonas,Christos Geitonas,78,M35-39,Male,PALLINI,Attica,Greece,GR,1:01:42,4:47:12,3:01:27,,,8:56:58,3702,17232,10887,255,142,32218,6,5,2,63,52,13,24,20,6,6,5,2,Finisher,4964
+Stephen,Donnelly,Stephen Donnelly,295,M30-34,Male,Mayo,Connacht,Ireland,IE,0:57:19,4:47:58,3:05:43,,,8:57:17,3439,17278,11143,189,187,32237,7,6,1,20,16,4,17,13,5,7,6,1,Finisher,5000
+James,Elgar,James Elgar,299,M30-34,Male,Newport,,United Kingdom,GB,1:01:28,4:49:46,3:03:41,,,8:59:18,3688,17386,11021,170,92,32358,8,7,2,58,48,14,25,21,7,8,7,2,Finisher,4975
+Andrii,Kuzminskyi,Andrii Kuzminskyi,43,M30-34,Male,Enschede,OVERIJSSEL,Ukraine,UA,0:58:20,4:44:53,3:13:24,,,9:01:04,3500,17093,11604,177,90,32464,9,8,3,27,22,6,12,10,2,9,8,3,Finisher,4954
+Freddy,Pommier,Freddy Pommier,183,M30-34,Male,Ifs,,France,FR,1:01:55,4:41:40,3:13:35,,,9:01:32,3715,16900,11615,167,95,32492,10,9,4,65,54,15,13,11,3,10,9,4,Finisher,4949
+Kristin,Liepold,Kristin Liepold,4,FPRO,Female,Koesching,BAYERN,Germany,DE,1:05:05,5:00:25,2:53:50,,,9:04:08,3905,18025,10430,147,142,32648,11,2,2,111,17,6,61,5,5,11,2,2,Finisher,4894
+Kimberley,Morrison,Kimberley Morrison,2,FPRO,Female,Burnham Thorpe,Norfolk,United Kingdom,GB,0:56:14,4:42:47,3:21:34,,,9:04:23,3374,16967,12094,126,103,32663,12,3,3,12,2,1,5,1,1,12,3,3,Finisher,4891
+Jappas,Dupreez,Jappas Dupreez,148,M35-39,Male,Southampton,,United Kingdom,GB,1:03:40,4:36:00,3:17:56,,,9:04:24,3820,16560,11876,252,155,32664,13,10,3,91,76,21,10,8,3,13,10,3,Finisher,4875
+Gertjan,Winten,Gertjan Winten,380,M30-34,Male,Moerbeke,,Belgium,BE,0:52:57,4:58:31,3:08:59,,,9:05:46,3177,17911,11339,195,124,32746,14,11,5,4,4,2,28,24,8,14,11,5,Finisher,4898
+Harri,Sokk,Harri Sokk,54,M30-34,Male,Tabasalu,Harjumaa,Estonia,EE,0:59:55,4:29:30,3:32:45,,,9:06:32,3595,16170,12765,145,117,32792,15,12,6,39,32,10,3,3,1,15,12,6,Finisher,4889
+Ewa,Komander,Ewa Komander,12,FPRO,Female,Kędzierzyn-Kozle,opolskie,Poland,PL,0:56:49,4:48:40,3:15:51,,,9:06:35,3409,17320,11751,167,147,32795,16,4,4,17,4,3,15,4,4,16,4,4,Finisher,4865
+Emeri,Lepp,Emeri Lepp,879,M40-44,Male,Peetri alevik,Rae vald,Estonia,EE,0:57:48,4:23:46,3:38:38,,,9:08:09,3468,15826,13118,255,223,32889,17,13,2,25,20,3,2,2,1,17,13,2,Finisher,4780
+Simon,Clam,Simon Clam,401,M35-39,Male,Flobecq,,Belgium,BE,0:59:05,4:52:44,3:12:32,,,9:08:59,3545,17564,11552,176,101,32939,18,14,4,32,26,7,29,25,8,18,14,4,Finisher,4820
+Michael,Hautle,Michael Hautle,913,M40-44,Male,Diepoldsau,,Switzerland,CH,,4:40:54,3:25:00,,,9:09:51,0,16854,12300,0,129,32991,19,15,3,99999,99999,99999,7,5,2,19,15,3,Finisher,4760
+Jens,Gosebrink,Jens Gosebrink,152,M30-34,Male,Wesel,,Germany,DE,0:54:50,4:54:50,3:15:44,,,9:09:57,3290,17690,11744,180,94,32997,20,16,7,7,7,3,23,19,6,20,16,7,Finisher,4848
+Renee,Kiley,Renee Kiley,11,FPRO,Female,Narrandera,NSW,Australia,AU,0:56:17,4:47:53,3:22:43,,,9:11:47,3377,17273,12163,153,140,33107,21,5,5,13,3,2,14,3,3,21,5,5,Finisher,4803
+Alex,Fortune,Alex Fortune,548,M40-44,Male,Salisbury,WIL,United Kingdom,GB,1:08:57,4:37:18,3:21:09,,,9:12:08,4137,16638,12069,167,117,33128,22,17,4,188,164,26,18,14,4,22,17,4,Finisher,4733
+Pawel,Jedrasiewicz,Pawel Jedrasiewicz,315,M30-34,Male,Poznan,,Poland,PL,1:11:52,4:42:31,3:14:22,,,9:12:39,4312,16951,11662,143,90,33159,23,18,8,253,220,42,35,31,10,23,18,8,Finisher,4815
+Matt,Rammo,Matt Rammo,906,M30-34,Male,Tallinn,Harju maakond,Estonia,EE,1:09:14,4:57:05,3:04:34,,,9:14:46,4154,17825,11074,127,106,33286,24,19,9,199,173,36,65,60,17,24,19,9,Finisher,4790
+Mikael,Kjellander,Mikael Kjellander,42,M35-39,Male,Katrineholm,,Sweden,SE,1:09:01,4:43:20,3:21:41,,,9:18:22,4141,17000,12101,140,120,33502,25,20,5,190,166,33,27,23,7,25,20,5,Finisher,4708
+Rob,O'Loughlin,Rob O'Loughlin,924,M25-29,Male,London,,United Kingdom,GB,0:59:59,4:51:32,3:24:19,,,9:21:01,3599,17492,12259,162,149,33661,26,21,3,41,34,5,26,22,3,26,21,3,Finisher,4266
+Евгений,Хабаров,Евгений Хабаров,320,M30-34,Male,Rybinsk,,Russia,RU,0:51:57,5:07:59,3:11:38,,,9:21:11,3117,18479,11498,119,457,33671,27,22,10,1,1,1,46,42,13,27,22,10,Finisher,4713
+Yuriy,Dorofeev,Yuriy Dorofeev,296,M30-34,Male,Moscow,APO,Russia,RU,1:07:45,4:59:16,3:10:52,,,9:23:00,4065,17956,11452,196,110,33780,28,23,11,160,137,27,70,65,19,28,23,11,Finisher,4691
+Jan,Rozek,Jan Rozek,352,M30-34,Male,Praha,Prague,Czech Republic,CZ,1:03:34,4:48:40,3:25:51,,,9:23:44,3814,17320,12351,214,126,33824,29,24,12,88,73,19,32,28,9,29,24,12,Finisher,4682
+David,Francis,David Francis,161,M45-49,Male,Pembroke,Pembrokeshire,United Kingdom,GB,1:05:21,4:47:40,3:26:51,,,9:26:07,3921,17260,12411,203,172,33967,30,25,1,117,100,18,33,29,3,30,25,1,Finisher,5000
+Marek,Antoniak,Marek Antoniak,31,M50-54,Male,Harku vald,Harjumaa,Estonia,EE,1:08:53,4:42:25,3:29:26,,,9:27:22,4133,16945,12566,224,173,34042,31,26,1,185,161,17,30,26,2,31,26,1,Finisher,5000
+Maria,Jänese,Maria Jänese,88,F30-34,Female,"Luunja vald, Veibri küla,",Tartu maakond,Estonia,EE,1:05:28,5:06:58,3:11:26,,,9:28:46,3928,18418,11486,191,103,34126,32,6,1,120,18,2,94,8,1,32,6,1,Finisher,5000
+Konstantin,Akhidov,Konstantin Akhidov,59,M25-29,Male,Astana,Karaganda,Russia,RU,1:03:59,4:57:05,3:24:03,,,9:29:35,3839,17825,12243,148,119,34175,33,27,4,96,80,10,50,46,4,33,27,4,Finisher,4163
+olivier,lange,olivier lange,44,M40-44,Male,jemeppe sur sambre,,Belgium,BE,1:07:16,4:49:30,3:28:22,,,9:29:59,4036,17370,12502,171,121,34199,34,28,5,153,131,20,41,37,7,34,28,5,Finisher,4518
+Milan,Svoboda,Milan Svoboda,494,M35-39,Male,Brandýs nad Labem,czech republic,Czech Republic,CZ,1:15:19,5:07:05,3:01:45,,,9:30:40,4519,18425,10905,243,148,34240,35,29,6,339,288,63,148,136,29,35,29,6,Finisher,4560
+Mika,Luoto,Mika Luoto,715,M45-49,Male,Raisio,Intl State,Finland,FI,0:59:19,4:56:26,3:07:28,,,9:31:48,3559,17786,11248,145,1570,34308,36,30,2,34,28,4,37,33,4,36,30,2,Finisher,4931
+Simo,Juvaste,Simo Juvaste,164,M50-54,Male,Joensuu,Joensuu,Finland,FI,1:06:06,4:55:52,3:23:47,,,9:32:40,3966,17752,12227,232,183,34360,37,31,2,129,111,9,54,50,4,37,31,2,Finisher,4936
+Aleksandr,Sepp,Aleksandr Sepp,125,M35-39,Male,Tallinn,Harju,Estonia,EE,1:09:40,4:45:10,3:29:15,,,9:32:51,4180,17110,12555,325,200,34371,38,32,7,209,183,35,43,39,10,38,32,7,Finisher,4534
+Renaud,Cormier,Renaud Cormier,211,M45-49,Male,Paris,PARIS,France,FR,1:03:51,4:48:17,3:35:15,,,9:33:02,3831,17297,12915,198,139,34382,39,33,3,95,79,13,31,27,2,39,33,3,Finisher,4917
+Tuomas,Tikkanen,Tuomas Tikkanen,199,M35-39,Male,Vantaa,Uusimaa,Finland,FI,1:13:09,4:50:16,3:22:40,,,9:33:46,4389,17416,12160,329,131,34426,40,34,8,284,246,51,66,61,14,40,34,8,Finisher,4523
+Radek,Pawlowski,Radek Pawlowski,50,M40-44,Male,Bertrange,,Poland,PL,0:59:17,4:56:48,3:32:35,,,9:34:22,3557,17808,12755,178,164,34462,41,35,6,33,27,4,39,35,6,41,35,6,Finisher,4466
+Matteo,Sclosa,Matteo Sclosa,217,M40-44,Male,portogruaro,ve,Italy,IT,1:05:20,5:08:27,3:14:15,,,9:34:41,3920,18507,11655,258,141,34481,42,36,7,116,99,12,105,97,17,42,36,7,Finisher,4462
+Liis,Rametta,Liis Rametta,472,F35-39,Female,Park City,UT,Estonia,EE,1:09:10,5:09:44,3:11:18,,,9:34:50,4150,18584,11478,177,101,34490,43,7,1,197,26,8,126,10,2,43,7,1,Finisher,5000
+Adrian,Hoffmann,Adrian Hoffmann,84,M30-34,Male,"
+Hundested",,Denmark,DK,1:00:16,4:54:45,3:34:49,,,9:35:13,3616,17685,12889,177,146,34513,44,37,13,49,42,13,36,32,11,44,37,13,Finisher,4544
+Emanuele,Ciotti,Emanuele Ciotti,143,M35-39,Male,bologna,italia,Italy,IT,0:55:18,4:53:37,3:40:07,,,9:35:31,3318,17617,13207,204,186,34531,45,38,9,10,9,2,21,17,5,45,38,9,Finisher,4502
+Teemu,Suominen,Teemu Suominen,130,M35-39,Male,espoo,espoo,Finland,FI,1:07:38,5:01:37,3:20:38,,,9:35:37,4058,18097,12038,203,140,34537,46,39,10,158,136,26,84,78,18,46,39,10,Finisher,4501
+Veli-Matti,Junnikkala,Veli-Matti Junnikkala,87,M40-44,Male,Kalajoki,APO,Finland,FI,1:06:26,4:57:00,3:25:54,,,9:36:13,3986,17820,12354,217,197,34573,47,40,8,136,116,17,59,55,10,47,40,8,Finisher,4444
+Pawel,Skuza,Pawel Skuza,358,M30-34,Male,Warszawa,,Poland,PL,0:57:20,4:47:30,3:45:29,,,9:36:22,3440,17250,13529,213,149,34582,48,41,14,21,17,5,16,12,4,48,41,14,Finisher,4531
+Craig,Patterson,Craig Patterson,49,M40-44,Male,ST. ANDREWS,,United Kingdom,GB,1:01:24,4:56:59,3:33:27,,,9:36:24,3684,17819,12807,177,98,34584,49,42,9,57,47,6,45,41,8,49,42,9,Finisher,4441
+Nicky,Detry,Nicky Detry,37,M45-49,Male,Moustier-sur-Sambre,,Belgium,BE,1:04:05,5:08:10,3:15:20,,,9:36:27,3845,18490,11720,286,247,34587,50,43,4,99,83,15,102,94,14,50,43,4,Finisher,4876
+Andreas,Haeggström,Andreas Haeggström,249,M25-29,Male,Härnösand,,Sweden,SE,1:06:53,5:04:10,3:20:21,,,9:37:41,4013,18250,12021,204,173,34661,51,44,5,142,122,16,91,84,7,51,44,5,Finisher,4066
+Artem,Sitnikov,Artem Sitnikov,53,M35-39,Male,Limassol,Lemesos,Russia,RU,1:12:10,5:08:08,3:13:03,,,9:37:59,4330,18488,11583,193,85,34679,52,45,11,263,228,47,137,126,27,52,45,11,Finisher,4472
+Jorma,Härmsalu,Jorma Härmsalu,159,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,1:01:58,4:56:33,3:33:59,,,9:38:22,3718,17793,12839,217,135,34702,53,46,12,67,56,15,48,44,11,53,46,12,Finisher,4468
+Evgeni,Nikolaevski,Evgeni Nikolaevski,109,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:19:24,4:46:40,3:25:28,,,9:38:33,4764,17200,12328,215,205,34713,54,47,15,438,372,63,68,63,18,54,47,15,Finisher,4504
+Javier,Valle,Javier Valle,55,M30-34,Male,London,,Spain,ES,1:13:32,5:05:12,3:12:50,,,9:38:45,4412,18312,11570,299,132,34725,55,48,16,293,253,50,139,128,29,55,48,16,Finisher,4502
+Hendrik,Abeln,Hendrik Abeln,137,M45-49,Male,Damme,Lower Saxony,Germany,DE,0:56:55,4:52:51,3:45:06,,,9:39:53,3415,17571,13506,164,137,34793,56,49,5,18,14,2,22,18,1,56,49,5,Finisher,4834
+Sergey,Mikhalev,Sergey Mikhalev,339,M30-34,Male,Saint-Petersburg,Russia,Russia,RU,1:04:14,4:59:45,3:26:38,,,9:40:29,3854,17985,12398,261,331,34829,57,50,17,102,86,21,64,59,16,57,50,17,Finisher,4481
+Leonard,Rohde,Leonard Rohde,350,M30-34,Male,Ruhland,,Germany,DE,1:07:17,5:10:33,3:16:00,,,9:40:42,4037,18633,11760,264,148,34842,58,51,18,154,132,26,128,118,28,58,51,18,Finisher,4479
+Vladimir,Savatenkov,Vladimir Savatenkov,268,M25-29,Male,Новороссийск,,Russia,RU,1:21:23,5:08:20,3:05:43,,,9:41:01,4883,18500,11143,225,110,34861,59,52,6,482,411,33,186,172,12,59,52,6,Finisher,4026
+Zülfü,Karabulut,Zülfü Karabulut,41,M35-39,Male,Antalya,Muratpaşa,Turkey,TR,1:02:11,5:11:23,3:21:10,,,9:41:09,3731,18683,12070,182,204,34869,60,53,13,71,59,16,100,92,21,60,53,13,Finisher,4434
+Chih-Yuan,Wang,Chih-Yuan Wang,56,M35-39,Male,New Taipei,TW-NWT,Taiwan,TW,1:09:28,4:58:42,3:27:02,,,9:41:47,4168,17922,12422,227,168,34907,61,54,14,203,177,34,79,74,16,61,54,14,Finisher,4427
+Skulj,Miha,Skulj Miha,627,M40-44,Male,Ribnica,Ribnica,Slovenia,SI,1:13:25,5:07:58,3:11:51,,,9:42:06,4405,18478,11511,336,195,34926,62,55,10,290,250,47,151,139,29,62,55,10,Finisher,4373
+Gyula,Kis,Gyula Kis,576,M40-44,Male,Almásfüzitő,,Hungary,HU,0:55:16,4:57:43,3:44:21,,,9:42:34,3316,17863,13461,209,105,34954,63,56,11,9,8,1,34,30,5,63,56,11,Finisher,4367
+Artur,Praun,Artur Praun,114,M45-49,Male,Haabneeme,HARJUMAA,Estonia,EE,1:03:40,5:09:06,3:21:57,,,9:42:41,3820,18546,12117,201,276,34961,64,57,6,90,75,12,97,89,13,64,57,6,Finisher,4801
+Patrick,Elwood,Patrick Elwood,244,M25-29,Male,London,,United Kingdom,GB,1:06:06,4:55:14,3:36:59,,,9:43:20,3966,17714,13019,176,125,35000,65,58,7,130,112,15,51,47,5,65,58,7,Finisher,3998
+Tarmo,Lillsoo,Tarmo Lillsoo,227,M45-49,Male,Tallinn,Harjumaa,Estonia,EE,1:12:20,4:50:58,3:34:27,,,9:43:38,4340,17458,12867,212,140,35018,66,59,7,265,230,43,58,54,7,66,59,7,Finisher,4789
+Jaak,Kimmel,Jaak Kimmel,323,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:58:58,5:08:43,3:29:10,,,9:43:43,3538,18523,12550,199,212,35023,67,60,19,30,25,7,75,70,22,67,60,19,Finisher,4442
+Arto,Wallin,Arto Wallin,641,M40-44,Male,Oulu,,Finland,FI,1:05:35,5:02:23,3:29:42,,,9:43:47,3935,18143,12582,195,172,35027,68,61,12,123,105,14,77,72,14,68,61,12,Finisher,4353
+Mikko,Sillanpää,Mikko Sillanpää,126,M50-54,Male,Espoo,Espoo,Finland,FI,1:06:55,4:55:24,3:32:54,,,9:44:07,4015,17724,12774,241,293,35047,69,62,3,143,123,11,56,52,5,69,62,3,Finisher,4799
+Erkki,Lepp,Erkki Lepp,330,M30-34,Male,Tartu,Tartu maakond,Estonia,EE,1:18:02,4:54:17,3:25:57,,,9:44:27,4682,17657,12357,207,164,35067,70,63,20,401,339,59,95,87,24,70,63,20,Finisher,4434
+Andreas,Lunden,Andreas Lunden,508,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,1:00:01,4:57:06,3:43:22,,,9:44:50,3601,17826,13402,162,100,35090,71,64,15,43,36,9,42,38,9,71,64,15,Finisher,4390
+Sabrina,Harpaintner,Sabrina Harpaintner,10,FPRO,Female,Reutte,,Germany,DE,1:01:39,5:14:59,3:24:01,,,9:44:55,3699,18899,12241,160,96,35095,72,8,6,61,11,5,109,9,6,72,8,6,Finisher,4405
+Dandan,Li,Dandan Li,98,M35-39,Male,Beijing,CN-BJ,China,CN,0:59:27,5:02:42,3:34:03,,,9:45:23,3567,18162,12843,250,301,35123,73,65,16,37,30,8,55,51,13,73,65,16,Finisher,4383
+Paul,Bolla,Paul Bolla,398,M35-39,Male,Luzern,,Australia,AU,0:52:43,4:55:19,3:50:46,,,9:45:46,3163,17719,13846,232,186,35146,74,66,17,2,2,1,20,16,4,74,66,17,Finisher,4379
+Pasi,Heiskanen,Pasi Heiskanen,312,M30-34,Male,Kangasala,PIRKANMAA,Finland,FI,1:08:59,4:55:00,3:33:06,,,9:45:48,4139,17700,12786,239,285,35148,75,67,21,189,165,33,62,57,15,75,67,21,Finisher,4417
+Dietmar,Melmer,Dietmar Melmer,105,M55-59,Male,Oberhaag,,Austria,AT,1:06:38,4:48:24,3:43:31,,,9:45:54,3998,17304,13411,210,231,35154,76,68,1,138,118,3,38,34,1,76,68,1,Finisher,5000
+Richard,Elgar,Richard Elgar,74,M30-34,Male,Newport,,United Kingdom,GB,1:02:05,5:25:08,3:12:09,,,9:46:14,3725,19508,11529,200,213,35174,77,69,22,69,58,16,171,159,36,77,69,22,Finisher,4412
+Anatolijs,Macuks,Anatolijs Macuks,594,M40-44,Male,Jekabpils,Jekabpils novads,Latvia,LV,1:14:00,5:17:49,3:06:23,,,9:46:52,4440,19069,11183,251,269,35212,78,70,13,309,263,53,201,186,41,78,70,13,Finisher,4316
+Evgeniy,Zhuyko,Evgeniy Zhuyko,272,M25-29,Male,SAINT-PETERBURG,Northwestern Federal District,Russia,RU,0:59:56,5:14:34,3:26:51,,,9:47:27,3596,18874,12411,172,194,35247,79,71,8,40,33,4,103,95,9,79,71,8,Finisher,3949
+Thibaut,Franceschi,Thibaut Franceschi,303,M30-34,Male,London,,France,FR,1:04:42,5:10:03,3:26:13,,,9:47:43,3882,18603,12373,259,145,35263,80,72,23,106,90,22,108,100,25,80,72,23,Finisher,4394
+Priit,Lehismets,Priit Lehismets,917,M40-44,Male,Tallinn,Harju maakond,Estonia,EE,1:04:16,5:15:50,3:20:41,,,9:48:04,3856,18950,12041,255,183,35284,81,73,14,103,87,9,140,129,24,81,73,14,Finisher,4301
+Ivan,Cappelli,Ivan Cappelli,231,M18-24,Male,Loano,foreigner,Italy,IT,0:52:54,5:15:47,3:33:16,,,9:48:13,3174,18947,12796,217,160,35293,82,74,1,3,3,1,81,76,1,82,74,1,Finisher,5000
+Rosie,Wild,Rosie Wild,277,F25-29,Female,Wiltshire,foreigner,United Kingdom,GB,1:10:06,5:09:40,3:22:05,,,9:48:14,4206,18580,12125,211,171,35294,83,9,1,220,28,4,134,11,1,83,9,1,Finisher,5000
+Javier,Terán Contreras,Javier Terán Contreras,755,M45-49,Male,Tres Cantos.,,Spain,ES,1:02:57,5:06:09,3:29:35,,,9:48:33,3777,18369,12575,367,225,35313,84,75,8,82,68,10,92,85,12,84,75,8,Finisher,4730
+Sergey,Golovin,Sergey Golovin,676,M45-49,Male,Novosibirsk,,Russia,RU,1:04:04,5:00:38,3:38:46,,,9:49:14,3844,18038,13126,201,144,35354,85,76,9,97,81,14,63,58,8,85,76,9,Finisher,4722
+Erik,Fossen Nilsen,Erik Fossen Nilsen,302,M30-34,Male,Harstad,,Norway,NO,1:02:31,5:04:26,3:35:02,,,9:49:39,3751,18266,12902,239,222,35379,86,77,24,79,65,18,74,69,21,86,77,24,Finisher,4371
+Stefano,Alberoni,Stefano Alberoni,385,M35-39,Male,Castenaso,italia,Italy,IT,1:01:47,5:07:28,3:29:17,,,9:50:08,3707,18448,12557,379,317,35408,87,78,18,64,53,14,93,86,20,87,78,18,Finisher,4326
+Igor,Kovtun,Igor Kovtun,95,M35-39,Male,Kyiv,Kyiv,Ukraine,UA,1:13:19,5:03:10,3:28:43,,,9:51:18,4399,18190,12523,229,138,35478,88,79,19,287,249,53,115,106,25,88,79,19,Finisher,4312
+Michele,Tibaldi,Michele Tibaldi,275,M25-29,Male,specchio (solignano),parma,Italy,IT,1:02:14,5:11:20,3:29:14,,,9:51:25,3734,18680,12554,317,200,35485,89,80,9,73,61,7,107,99,10,89,80,9,Finisher,3901
+Marcin,Miotk,Marcin Miotk,108,M45-49,Male,Warszawa,Mazovia,Poland,PL,1:29:48,5:02:10,3:13:28,,,9:51:49,5388,18130,11608,273,111,35509,90,81,10,622,534,93,205,190,29,90,81,10,Finisher,4691
+Leonardo,Brea,Leonardo Brea,533,M40-44,Male,Miami,FL,Venezuela,VE,0:55:49,5:08:27,3:36:02,,,9:52:10,3349,18507,12962,341,370,35530,91,82,15,11,10,2,69,64,12,91,82,15,Finisher,4252
+Simo,Kurko,Simo Kurko,329,M30-34,Male,Klaukkala,01800,Finland,FI,1:07:05,4:55:10,3:44:45,,,9:52:14,4025,17710,13485,193,121,35534,92,83,25,145,125,24,53,49,14,92,83,25,Finisher,4340
+Oleksandr,Mordasov,Oleksandr Mordasov,456,M35-39,Male,Baku,Baku,Ukraine,UA,1:00:13,5:08:23,3:39:52,,,9:52:26,3613,18503,13192,154,84,35546,93,84,20,48,41,11,76,71,15,93,84,20,Finisher,4299
+Martin,Student,Martin Student,751,M45-49,Male,Most,Czech Republic,Czech Republic,CZ,1:06:37,5:12:48,3:27:45,,,9:52:41,3997,18768,12465,216,115,35561,94,85,11,137,117,24,132,122,20,94,85,11,Finisher,4681
+Priit,Raudsepp,Priit Raudsepp,474,M35-39,Male,Tallinn,APO,Estonia,EE,1:03:00,4:58:23,3:46:45,,,9:53:55,3780,17903,13605,192,156,35635,95,86,21,83,69,17,52,48,12,95,86,21,Finisher,4281
+Erko,Selde,Erko Selde,124,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,1:05:10,5:03:28,3:37:46,,,9:54:09,3910,18208,13066,231,233,35649,96,87,10,113,96,12,83,77,6,96,87,10,Finisher,3869
+Ossi,Leinonen,Ossi Leinonen,440,M35-39,Male,Tampere,Pirkanmaa,Finland,FI,1:11:56,5:11:59,3:22:24,,,9:54:13,4316,18719,12144,192,282,35653,97,88,22,254,221,45,153,141,30,97,88,22,Finisher,4277
+John,Mead,John Mead,176,M45-49,Male,Swindon,Wiltshire,United Kingdom,GB,1:02:20,5:05:01,3:42:05,,,9:54:16,3740,18301,13325,181,108,35656,98,89,12,76,63,7,71,66,10,98,89,12,Finisher,4662
+Jeanne,Dupreez,Jeanne Dupreez,408,M35-39,Male,Southampton,Hants,United Kingdom,GB,1:03:20,5:05:58,3:38:32,,,9:54:22,3800,18358,13112,251,141,35662,99,90,23,87,72,20,88,82,19,99,90,23,Finisher,4276
+Samuel,Martos Maturana,Samuel Martos Maturana,102,M40-44,Male,Armilla,,Spain,ES,1:02:18,5:03:20,3:39:44,,,9:54:53,3738,18200,13184,314,257,35693,100,91,16,75,62,7,73,68,13,100,91,16,Finisher,4220
+Abdelaziz,Yatribi,Abdelaziz Yatribi,382,M30-34,Male,Rabat,Rabat,Morocco,MA,1:08:57,4:58:04,3:37:29,,,9:55:18,4137,17884,13049,338,310,35718,101,92,26,187,163,32,85,79,23,101,92,26,Finisher,4303
+Jaroslav,Hyzl,Jaroslav Hyzl,785,M50-54,Male,Prerov,Czech republik,Czech Republic,CZ,1:01:35,5:08:05,3:38:22,,,9:55:54,3695,18485,13102,243,230,35754,102,93,4,60,50,4,89,83,7,102,93,4,Finisher,4657
+Mathieu,Luyens,Mathieu Luyens,447,M35-39,Male,Sint-Martens-Latem,,Belgium,BE,0:56:49,5:15:38,3:36:24,,,9:56:25,3409,18938,12984,270,184,35785,103,94,24,16,13,4,101,93,22,103,94,24,Finisher,4251
+Anton,Lavrov,Anton Lavrov,97,M35-39,Male,Finestrat,,Russia,RU,0:57:17,5:18:25,3:33:56,,,9:56:43,3437,19105,12836,272,154,35803,104,95,25,19,15,5,114,105,24,104,95,25,Finisher,4247
+jari,Mäkelä,jari Mäkelä,341,M30-34,Male,Koskenkorva,POHJANMAA,Finland,FI,0:59:28,4:56:38,3:55:22,,,9:57:04,3568,17798,14122,210,126,35824,105,96,27,38,31,9,40,36,12,105,96,27,Finisher,4282
+Erik,Doesburg,Erik Doesburg,542,M40-44,Male,Netherland,,Netherlands,NL,,4:57:31,3:49:57,,,9:57:13,0,17851,13797,0,233,35833,106,97,17,99999,99999,99999,49,45,9,106,97,17,Finisher,4192
+arlindo,Tavares,arlindo Tavares,223,M50-54,Male,St cezaire /siagne,,Portugal,PT,1:00:11,5:16:16,3:35:44,,,9:57:57,3611,18976,12944,179,166,35877,107,98,5,47,40,2,112,103,9,107,98,5,Finisher,4633
+Klaus,Halloe,Klaus Halloe,782,M50-54,Male,Frederikssund,HOVEDSTADEN,Denmark,DK,1:03:45,4:55:03,3:53:21,,,9:58:54,3825,17703,14001,200,204,35934,108,99,6,92,77,7,47,43,3,108,99,6,Finisher,4621
+Özgür,Aksaman,Özgür Aksaman,220,M40-44,Male,Istanbul,TURKIYE,Turkey,TR,1:05:09,5:16:48,3:29:13,,,9:58:58,3909,19008,12553,309,158,35938,109,100,18,112,95,11,152,140,30,109,100,18,Finisher,4171
+Toomas,Ellmann,Toomas Ellmann,75,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,0:59:20,5:18:38,3:34:37,,,9:59:04,3560,19118,12877,186,202,35944,110,101,28,36,29,8,121,112,27,110,101,28,Finisher,4258
+Luis,De Arriba,Luis De Arriba,63,M50-54,Male,TRES CANTOS,,Spain,ES,1:05:55,5:12:14,3:35:23,,,10:00:16,3955,18734,12923,253,151,36016,111,102,7,124,106,8,130,120,11,111,102,7,Finisher,4605
+Juha,Hööpakka,Juha Hööpakka,557,M40-44,Male,Seinäjoki,Etelä-Pohjanmaa,Finland,FI,1:13:48,4:59:52,3:40:45,,,10:00:21,4428,17992,13245,222,133,36021,112,103,19,301,258,49,104,96,16,112,103,19,Finisher,4154
+Pavel,Golikov,Pavel Golikov,306,M30-34,Male,Dhahran,Eastern Province,Russia,RU,1:11:57,5:09:38,3:31:56,,,10:00:25,4317,18578,12716,230,185,36025,113,104,29,255,222,43,146,134,30,113,104,29,Finisher,4242
+David,Fauque,David Fauque,411,M35-39,Male,GONTAUD DE NOGARET,,France,FR,1:24:22,4:52:06,3:37:11,,,10:00:44,5062,17526,13031,282,142,36044,114,105,26,550,472,107,122,113,26,114,105,26,Finisher,4199
+Andrey,Ivanchikhin,Andrey Ivanchikhin,229,M40-44,Male,Paphos,Paphos,Estonia,EE,1:23:19,4:59:47,3:29:40,,,10:01:06,4999,17987,12580,290,211,36066,115,106,20,528,453,90,157,145,32,115,106,20,Finisher,4145
+Xiangcheng,Ding,Xiangcheng Ding,294,M30-34,Male,苏州市,CN-JS,China,CN,1:00:08,5:17:16,3:38:52,,,10:02:03,3608,19036,13132,217,130,36123,116,107,30,45,38,11,120,111,26,116,107,30,Finisher,4222
+Ivan,Andreev,Ivan Andreev,283,M30-34,Male,Sankt-Peterburg,,Russia,RU,1:19:33,5:19:09,3:17:37,,,10:03:10,4773,19149,11857,236,176,36190,117,108,31,442,376,65,238,218,46,117,108,31,Finisher,4209
+Stefan,Weber,Stefan Weber,514,M35-39,Male,Groningen,,Netherlands,NL,1:13:14,4:59:48,3:43:06,,,10:04:28,4394,17988,13386,343,157,36268,118,109,27,285,247,52,106,98,23,118,109,27,Finisher,4154
+Anna,Padlewska,Anna Padlewska,111,F35-39,Female,Warszawa,mazowieckie,Poland,PL,1:02:16,5:27:10,3:29:05,,,10:04:44,3736,19630,12545,238,134,36284,119,10,2,74,13,3,185,14,4,119,10,2,Finisher,4641
+Raido,Kiipsaar,Raido Kiipsaar,91,M50-54,Male,Tallinn,Harju maakond,Estonia,EE,1:15:44,5:01:44,3:38:10,,,10:04:45,4544,18104,13090,370,177,36285,120,110,8,349,295,30,138,127,13,120,110,8,Finisher,4551
+Fabrizio,Terrinoni,Fabrizio Terrinoni,828,M50-54,Male,ROMA,,Italy,IT,1:06:45,5:11:59,3:39:30,,,10:05:20,4005,18719,13170,218,208,36320,121,111,9,139,119,10,129,119,10,121,111,9,Finisher,4544
+Nataliia,Matsupko,Nataliia Matsupko,902,F35-39,Female,Kiev,Kyiv,Ukraine,UA,0:57:35,5:11:45,3:50:40,,,10:05:21,3455,18705,13840,186,135,36321,122,11,3,23,5,2,82,6,1,122,11,3,Finisher,4633
+Johanna,Lahikainen,Johanna Lahikainen,222,F30-34,Female,Vaajakoski,,Finland,FI,1:11:00,5:10:14,3:38:26,,,10:05:47,4260,18614,13106,216,151,36347,123,12,2,234,30,4,141,12,2,123,12,2,Finisher,4555
+Mikko,Harju,Mikko Harju,552,M40-44,Male,Helsinki,Finland,Finland,FI,1:09:39,5:06:50,3:43:25,,,10:06:42,4179,18410,13405,270,139,36402,124,112,21,208,182,33,119,110,20,124,112,21,Finisher,4078
+Andre,Pukk,Andre Pukk,613,M40-44,Male,Tallinn,Harju maakond,Estonia,EE,1:04:46,5:12:03,3:40:55,,,10:06:59,3886,18723,13255,317,237,36419,125,113,22,108,92,10,127,117,23,125,113,22,Finisher,4074
+Marcus,Haeggström,Marcus Haeggström,248,M25-29,Male,Sundsvall,,Sweden,SE,1:08:45,5:29:10,3:22:28,,,10:08:00,4125,19750,12148,267,190,36480,126,114,11,182,158,17,237,217,16,126,114,11,Finisher,3702
+Helmuts,Gusts,Helmuts Gusts,82,M30-34,Male,JELGAVA,Latvija,Latvia,LV,1:09:12,5:19:31,3:33:02,,,10:09:25,4152,19171,12782,264,196,36565,127,115,32,198,172,35,183,170,37,127,115,32,Finisher,4134
+Carsten,Holst Nørgaard,Carsten Holst Nørgaard,85,M50-54,Male,Risskov,MIDTJYLLAND,Denmark,DK,1:01:30,5:13:08,3:45:35,,,10:09:28,3690,18788,13535,282,272,36568,128,116,10,59,49,3,110,101,8,128,116,10,Finisher,4494
+Sergei,Kulikov,Sergei Kulikov,585,M40-44,Male,Tallinn,Harju maakond,Estonia,EE,1:09:06,5:07:30,3:45:23,,,10:10:37,4146,18450,13523,284,233,36637,129,117,23,194,169,28,123,114,21,129,117,23,Finisher,4031
+Thomas,Buchmueller,Thomas Buchmueller,34,M50-54,Male,Burggen,foreigner,Germany,DE,1:12:59,5:08:15,3:41:45,,,10:10:46,4379,18495,13305,282,185,36646,130,118,11,281,243,23,147,135,14,130,118,11,Finisher,4479
+Martins,Marnauza,Martins Marnauza,451,M35-39,Male,Ozolnieki,JELGAVAS NOVADS,Latvia,LV,1:04:19,5:19:55,3:40:05,,,10:11:07,3859,19195,13205,264,144,36667,131,119,28,104,88,22,159,147,32,131,119,28,Finisher,4075
+Claire,Shea-Simonds,Claire Shea-Simonds,195,F40-44,Female,Markfield,LEI,United Kingdom,GB,1:01:23,5:29:21,3:34:07,,,10:11:40,3683,19761,12847,215,193,36700,132,13,1,56,10,2,190,15,1,132,13,1,Finisher,5000
+Jukka,Koskiniemi,Jukka Koskiniemi,580,M40-44,Male,Mustasaari,Mustasaari,Finland,FI,1:13:56,5:05:51,3:42:23,,,10:11:43,4436,18351,13343,336,238,36703,133,120,24,306,261,52,145,133,27,133,120,24,Finisher,4018
+Vicente Luis,Catalan Bernia,Vicente Luis Catalan Bernia,35,M45-49,Male,Valencia,,Spain,ES,1:11:00,5:18:43,3:35:58,,,10:12:48,4260,19123,12958,257,169,36768,134,121,13,236,206,39,188,174,28,134,121,13,Finisher,4439
+Peter,Openshaw,Peter Openshaw,853,M55-59,Male,Knutsford,,United Kingdom,GB,1:00:59,5:10:33,3:53:07,,,10:13:12,3659,18633,13987,286,227,36792,135,122,2,53,45,1,99,91,2,135,122,2,Finisher,4672
+Simona,Dolinar Majdic,Simona Dolinar Majdic,145,F35-39,Female,Ljubljana,Slovenia,Slovenia,SI,0:54:59,5:37:52,3:32:49,,,10:13:31,3299,20272,12769,292,178,36811,136,14,4,8,1,1,210,16,5,136,14,4,Finisher,4535
+Vincent,Spits,Vincent Spits,129,M50-54,Male,Franc-Waret,,Belgium,BE,1:15:09,4:54:05,3:58:37,,,10:13:54,4509,17645,14317,237,126,36834,137,123,12,336,286,28,87,81,6,137,123,12,Finisher,4441
+Kaarel,Sisask,Kaarel Sisask,357,M30-34,Male,Pärnu,Pärnumaa,Estonia,EE,1:08:20,5:17:38,3:42:18,,,10:15:27,4100,19058,13338,247,184,36927,138,124,33,171,148,29,166,154,34,138,124,33,Finisher,4062
+Will,Jones,Will Jones,251,M25-29,Male,Yelverton,DEV,United Kingdom,GB,1:02:51,5:24:51,3:37:30,,,10:15:42,3771,19491,13050,265,364,36942,139,125,12,81,67,8,180,167,11,139,125,12,Finisher,3610
+Denis,Sivovol,Denis Sivovol,127,M40-44,Male,Viimsi vald,Harju,Estonia,EE,1:16:40,5:13:54,3:39:42,,,10:15:52,4600,18834,13182,225,112,36952,140,126,25,372,314,66,189,175,36,140,126,25,Finisher,3968
+Oliver,Thorne,Oliver Thorne,364,M30-34,Male,Bishops stortford,,United Kingdom,GB,1:07:14,5:23:27,3:35:40,,,10:16:14,4034,19407,12940,363,229,36974,141,127,34,151,130,25,207,192,40,141,127,34,Finisher,4052
+Sergey,Morozov,Sergey Morozov,340,M30-34,Male,Saint-Petersburg,,Russia,RU,1:02:13,5:23:28,3:45:14,,,10:16:27,3733,19408,13514,201,130,36987,142,128,35,72,60,17,162,150,33,142,128,35,Finisher,4050
+Tarvo,Tamme,Tarvo Tamme,502,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:19:06,5:08:57,3:36:11,,,10:17:13,4746,18537,12971,518,260,37033,143,129,29,429,365,84,206,191,43,143,129,29,Finisher,4001
+Nerys,Jones,Nerys Jones,422,F35-39,Female,Cardigan,CEREDIGION [SIR CEREDIGION],United Kingdom,GB,1:16:49,5:18:22,3:34:07,,,10:17:26,4609,19102,12847,307,181,37046,144,15,5,376,59,18,219,17,6,144,15,5,Finisher,4488
+Albert,Guiluz,Albert Guiluz,414,M35-39,Male,Vilanova i la geltru,,Spain,ES,1:12:53,5:08:34,3:46:40,,,10:17:41,4373,18514,13600,389,185,37061,145,130,30,279,241,50,158,146,31,145,130,30,Finisher,3996
+Mirko,Laudadio,Mirko Laudadio,96,M35-39,Male,Lama dei Peligni,ABRUZZO,Italy,IT,1:22:34,5:05:29,3:42:33,,,10:17:46,4954,18329,13353,240,189,37066,146,131,31,509,435,100,179,166,38,146,131,31,Finisher,3995
+Tom,Perttala,Tom Perttala,611,M40-44,Male,Halikko,,Finland,FI,1:18:25,5:11:10,3:43:43,,,10:18:28,4705,18670,13423,171,139,37108,147,132,26,412,350,72,181,168,34,147,132,26,Finisher,3937
+Chris,Wild,Chris Wild,58,M45-49,Male,Leyland,LANCASHIRE,United Kingdom,GB,1:08:16,5:19:22,3:44:51,,,10:18:32,4096,19162,13491,151,210,37112,148,133,14,169,146,28,167,155,24,148,133,14,Finisher,4371
+Evgenii,Piliugin,Evgenii Piliugin,344,M30-34,Male,Domodedovo,Moskou oblast,Russia,RU,1:08:35,5:18:04,3:46:00,,,10:18:36,4115,19084,13560,225,131,37116,149,134,36,178,154,30,169,157,35,149,134,36,Finisher,4024
+Jaak,Roosimägi,Jaak Roosimägi,117,M40-44,Male,Kihniö,Finland,Estonia,EE,1:08:47,5:15:16,3:44:58,,,10:18:54,4127,18916,13498,286,307,37134,150,135,27,183,159,25,161,149,33,150,135,27,Finisher,3931
+Nicola,Boyd,Nicola Boyd,33,F35-39,Female,Wimbledon,"LONDON, CITY OF",United Kingdom,GB,1:11:44,5:17:29,3:46:37,,,10:20:19,4304,19049,13597,170,99,37219,151,16,6,250,33,9,178,13,3,151,16,6,Finisher,4454
+Daniel,Machek,Daniel Machek,174,M60-64,Male,Praha 3,Czech,Czech Republic,CZ,0:53:43,5:13:17,4:05:47,,,10:21:06,3223,18797,14747,256,242,37266,152,136,1,5,5,1,78,73,1,152,136,1,Finisher,5000
+Katja,Kallioinen,Katja Kallioinen,166,F45-49,Female,Lahti,,Finland,FI,1:11:57,5:25:10,3:37:42,,,10:21:28,4317,19510,13062,247,152,37288,153,17,1,257,34,6,223,18,1,153,17,1,Finisher,5000
+Lars,Viehweg,Lars Viehweg,643,M40-44,Male,Heidelberg,,Germany,DE,1:12:47,5:09:58,3:51:44,,,10:21:43,4367,18598,13904,281,152,37303,154,137,28,277,239,43,155,143,31,154,137,28,Finisher,3898
+Harri,Riutta,Harri Riutta,818,M50-54,Male,Tampere,Tampere,Finland,FI,1:12:22,5:14:52,3:44:13,,,10:21:58,4342,18892,13453,442,190,37318,155,138,13,267,232,21,192,177,16,155,138,13,Finisher,4344
+Christopher,Mole,Christopher Mole,601,M40-44,Male,haywards heath,,United Kingdom,GB,1:17:06,5:14:37,3:44:48,,,10:22:03,4626,18877,13488,199,132,37323,156,139,29,382,323,70,194,179,38,156,139,29,Finisher,3894
+Toni,Eriksson,Toni Eriksson,670,M45-49,Male,Helsinki,Helsinki,Finland,FI,1:08:26,5:08:44,3:58:13,,,10:22:25,4106,18524,14293,262,159,37345,157,140,15,176,152,31,124,115,18,157,140,15,Finisher,4324
+Alex,Siim,Alex Siim,356,M30-34,Male,Rakvere,Lääne-Virumaa,Estonia,EE,1:11:18,5:10:50,3:54:12,,,10:22:55,4278,18650,14052,260,135,37375,158,141,37,242,211,38,150,138,31,158,141,37,Finisher,3972
+Ramazan,Kaiaev,Ramazan Kaiaev,89,M40-44,Male,Bishkek,Chui region,Kyrgyzstan,KG,1:14:49,5:02:19,3:59:46,,,10:23:06,4489,18139,14386,200,172,37386,159,142,30,328,280,57,116,107,19,159,142,30,Finisher,3881
+Jeroen,Bauters,Jeroen Bauters,240,M25-29,Male,Gent,,Belgium,BE,1:00:34,5:34:35,3:38:48,,,10:23:15,3634,20075,13128,305,252,37395,160,143,13,51,44,6,218,202,13,160,143,13,Finisher,3519
+Tiina,Toivonen,Tiina Toivonen,756,F45-49,Female,Järvenpää,Uusimaa,Finland,FI,1:11:06,5:30:20,3:34:22,,,10:23:18,4266,19820,12862,273,177,37398,161,18,2,239,31,5,259,24,2,161,18,2,Finisher,4978
+Domagoj ,Paukovic ,Domagoj Paukovic,112,M30-34,Male,Rijeka,,Croatia,HR,1:00:08,5:06:45,4:09:11,,,10:23:33,3608,18405,14951,210,238,37413,162,144,38,45,38,11,72,67,20,162,144,38,Finisher,3964
+Petri,Litmanen,Petri Litmanen,46,M55-59,Male,Tampere,,Finland,FI,1:18:46,5:07:45,3:49:53,,,10:24:17,4726,18465,13793,250,223,37457,163,145,3,421,358,12,174,162,5,163,145,3,Finisher,4539
+Timur,Fazõlov,Timur Fazõlov,300,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:22:33,5:25:02,3:30:10,,,10:24:33,4953,19502,12610,240,167,37473,164,146,39,508,434,77,297,270,55,164,146,39,Finisher,3952
+Roman,Kuchma,Roman Kuchma,258,M25-29,Male,Espoo,Espoo,Ukraine,UA,1:17:01,5:20:26,3:39:31,,,10:24:45,4621,19226,13171,273,195,37485,165,147,14,380,321,24,230,211,14,165,147,14,Finisher,3501
+Liugang,Xu,Liugang Xu,520,M35-39,Male,苏州,江苏,China,CN,1:03:05,5:30:15,3:43:36,,,10:25:37,3785,19815,13416,344,178,37537,166,148,32,85,71,19,213,197,44,166,148,32,Finisher,3901
+Selcuk,Bertan,Selcuk Bertan,531,M40-44,Male,atasehir,ISTANBUL,Turkey,TR,1:13:06,5:09:14,3:56:42,,,10:25:41,4386,18554,14202,248,152,37541,167,149,31,283,245,45,149,137,28,167,149,31,Finisher,3850
+Raul,Tomberg,Raul Tomberg,132,M45-49,Male,Rannamõisa,Harjumaa,Estonia,EE,1:19:43,5:14:10,3:45:39,,,10:25:54,4783,18850,13539,258,125,37554,168,150,16,447,381,66,211,195,32,168,150,16,Finisher,4282
+Rafal,Grzanecki,Rafal Grzanecki,550,M40-44,Male,Warszawa,,Poland,PL,1:24:58,5:05:12,3:47:13,,,10:26:19,5098,18312,13633,318,218,37579,169,151,32,563,484,99,197,182,39,169,151,32,Finisher,3842
+Raul,Andresson,Raul Andresson,60,M50-54,Male,Tallinn,HARJUMAA,Estonia,EE,1:09:47,5:08:09,4:00:53,,,10:26:29,4187,18489,14453,328,132,37589,170,152,14,211,185,18,135,124,12,170,152,14,Finisher,4290
+Sven,Raeymaekers,Sven Raeymaekers,115,M40-44,Male,Veikkola,,Belgium,BE,1:11:36,5:31:54,3:36:50,,,10:26:34,4296,19914,13010,229,145,37594,171,153,33,248,216,40,268,244,52,171,153,33,Finisher,3839
+Ivan,Jones,Ivan Jones,162,M50-54,Male,TAUNTON,SOM,United Kingdom,GB,1:17:39,5:07:32,3:55:46,,,10:26:41,4659,18452,14146,214,130,37601,172,154,15,392,331,31,160,148,15,172,154,15,Finisher,4288
+Dmitry,Fedorov,Dmitry Fedorov,76,M45-49,Male,Moscow,Moscow region,Russia,RU,1:16:25,5:19:20,3:44:50,,,10:26:50,4585,19160,13490,212,164,37610,173,155,17,363,309,55,215,199,34,173,155,17,Finisher,4271
+Alexander,Zhukov,Alexander Zhukov,214,M40-44,Male,Menton,Provence-Alpes-Côte d'Azur,Russia,RU,1:10:00,5:29:31,3:41:54,,,10:27:01,4200,19771,13314,169,167,37621,174,156,34,214,188,35,234,214,48,174,156,34,Finisher,3834
+Stephan,Schug,Stephan Schug,855,M55-59,Male,Köln,NW,Germany,DE,1:09:02,5:08:24,4:00:56,,,10:27:04,4142,18504,14456,342,179,37624,175,157,4,191,167,5,133,123,3,175,157,4,Finisher,4506
+Timothée,Jung,Timothée Jung,40,M30-34,Male,Oslo,,France,FR,1:10:04,5:26:32,3:45:45,,,10:27:08,4204,19592,13545,150,137,37628,176,158,40,217,190,37,214,198,41,176,158,40,Finisher,3921
+Mait,Miller,Mait Miller,107,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,1:05:30,4:57:34,4:18:38,,,10:27:17,3930,17854,15518,208,128,37637,177,159,18,121,103,20,57,53,6,177,159,18,Finisher,4266
+Preedik,Kulli,Preedik Kulli,170,M35-39,Male,padise,harjumaa,Estonia,EE,1:17:42,5:06:44,3:50:08,,,10:27:26,4662,18404,13808,404,368,37646,178,160,33,394,333,73,175,163,36,178,160,33,Finisher,3879
+Henrik,Törnqvist,Henrik Törnqvist,636,M40-44,Male,Åkersberga,,Sweden,SE,1:17:23,5:12:47,3:47:51,,,10:28:00,4643,18767,13671,377,222,37680,179,161,35,389,329,71,204,189,43,179,161,35,Finisher,3822
+Toomas,Loho,Toomas Loho,713,M45-49,Male,Kiili vald,Harju mk,Estonia,EE,1:00:00,4:57:06,4:25:27,,,10:28:30,3600,17826,15927,212,145,37710,180,162,19,42,35,5,44,40,5,180,162,19,Finisher,4251
+Veli-Matti,Rissa,Veli-Matti Rissa,477,M35-39,Male,Kangasala,Pirkanmaa,Finland,FI,1:10:21,5:14:45,3:54:55,,,10:28:31,4221,18885,14095,325,185,37711,181,163,34,224,195,38,170,158,34,181,163,34,Finisher,3866
+Rahel,Bellinga,Rahel Bellinga,881,F50-54,Female,soest,,Netherlands,NL,1:03:46,5:06:20,4:10:55,,,10:28:55,3826,18380,15055,230,244,37735,182,19,1,93,16,1,90,7,1,182,19,1,Finisher,5000
+Maurizio,Nulchis,Maurizio Nulchis,725,M45-49,Male,ORISTANO,,Italy,IT,1:08:20,5:20:56,3:51:46,,,10:29:41,4100,19256,13906,285,234,37781,183,164,20,170,147,29,187,173,27,183,164,20,Finisher,4237
+Adam,Cohen,Adam Cohen,291,M30-34,Male,natania,natania,Israel,IL,1:18:09,5:20:55,3:42:34,,,10:29:56,4689,19255,13354,227,271,37796,184,165,41,404,342,60,240,220,47,184,165,41,Finisher,3888
+Johann,Koch,Johann Koch,94,M45-49,Male,Rothenbrug,,Switzerland,CH,1:02:20,5:16:55,4:03:21,,,10:30:09,3740,19015,14601,254,199,37809,185,166,21,76,63,7,136,125,21,185,166,21,Finisher,4231
+Mark,Reynolds,Mark Reynolds,475,M35-39,Male,Crossmolina,MO,Ireland,IE,1:03:04,5:05:58,4:15:15,,,10:30:19,3784,18358,15315,186,176,37819,186,167,35,84,70,18,80,75,17,186,167,35,Finisher,3844
+Marek,Zaba,Marek Zaba,221,M35-39,Male,Sosnowiec,,Poland,PL,1:18:39,5:36:38,3:27:59,,,10:30:39,4719,20198,12479,285,157,37839,187,168,36,417,354,82,345,314,75,187,168,36,Finisher,3840
+Tõnu,Mändma,Tõnu Mändma,603,M40-44,Male,TOOTSI,PÄRNUMAA,Estonia,EE,1:14:31,5:06:46,4:02:08,,,10:30:54,4471,18406,14528,231,218,37854,188,169,36,318,271,54,143,131,26,188,169,36,Finisher,3787
+Iain,Dawson,Iain Dawson,540,M40-44,Male,Norwich,NFK,United Kingdom,GB,1:08:20,4:53:32,4:19:50,,,10:31:03,4100,17612,15590,317,244,37863,189,170,37,172,149,23,60,56,11,189,170,37,Finisher,3786
+Annie,Frederick,Annie Frederick,215,F25-29,Female,Ringwood,England,United Kingdom,GB,1:10:04,5:28:34,3:47:15,,,10:31:05,4204,19714,13635,205,106,37865,190,20,2,216,27,3,231,20,2,190,20,2,Finisher,4485
+Sebastian,Bodilly,Sebastian Bodilly,241,M25-29,Male,Farnham,Surrey,United Kingdom,GB,1:03:51,5:09:19,4:13:23,,,10:31:24,3831,18559,15203,186,105,37884,191,171,15,94,78,9,98,90,8,191,171,15,Finisher,3422
+Sara Iselin,Johnsen,Sara Iselin Johnsen,39,F30-34,Female,Harstad,,Norway,NO,1:17:49,5:23:29,3:45:46,,,10:31:44,4669,19409,13546,175,105,37904,192,21,3,395,62,12,246,21,3,192,21,3,Finisher,4244
+Ian,Cox,Ian Cox,773,M50-54,Male,blackburn,,United Kingdom,GB,1:01:55,4:43:32,4:38:43,,,10:31:44,3715,17012,16723,224,231,37904,193,172,16,66,55,6,19,15,1,193,172,16,Finisher,4227
+Rolands,Putnins,Rolands Putnins,184,M30-34,Male,Riga,RIGA,Latvia,LV,1:19:10,5:17:31,3:47:52,,,10:32:26,4750,19051,13672,279,194,37946,194,173,42,433,368,62,224,206,43,194,173,42,Finisher,3858
+Valtteri,Mattila,Valtteri Mattila,452,M35-39,Male,Lahti,Lahti,Finland,FI,1:11:57,5:19:26,3:56:15,,,10:33:09,4317,19166,14175,196,136,37989,195,174,37,256,223,46,193,178,40,195,174,37,Finisher,3810
+Alexander,Karavanov,Alexander Karavanov,691,M45-49,Male,Moscow,,Russia,RU,1:15:28,5:23:58,3:46:45,,,10:33:10,4528,19438,13605,248,170,37990,196,175,22,342,290,52,244,224,36,196,175,22,Finisher,4195
+David,Jones,David Jones,423,M35-39,Male,Comber,,United Kingdom,GB,1:18:19,5:35:21,3:29:43,,,10:33:38,4699,20121,12583,334,282,38018,197,176,38,408,346,79,338,308,71,197,176,38,Finisher,3804
+Tarek,Alioua,Tarek Alioua,387,M35-39,Male,Témara,Rabat-Sale,Morocco,MA,1:08:49,5:16:54,4:00:13,,,10:34:03,4129,19014,14413,294,194,38043,198,177,39,184,160,32,172,160,35,198,177,39,Finisher,3799
+Robert,Svendsen,Robert Svendsen,131,M45-49,Male,Bergen,HORDALAND,Norway,NO,1:17:06,5:16:58,3:53:58,,,10:34:29,4626,19018,14038,256,130,38069,199,178,23,383,324,56,212,196,33,199,178,23,Finisher,4179
+Alexey,Kuzovlev,Alexey Kuzovlev,587,M40-44,Male,Tula,,Russia,RU,1:06:52,5:33:59,3:41:43,,,10:34:31,4012,20039,13303,382,334,38071,200,179,38,141,121,19,265,241,51,200,179,38,Finisher,3744
+Nir,Perez,Nir Perez,468,M35-39,Male,Natanya,Hasharon,Israel,IL,1:10:58,5:17:39,3:56:12,,,10:34:44,4258,19059,14172,403,192,38084,201,180,40,233,204,42,195,180,41,201,180,40,Finisher,3791
+Cesar,Borges Alvarez,Cesar Borges Alvarez,67,M40-44,Male,los realejos,SANTA CRUZ DE TENERIFE,Spain,ES,1:05:23,5:34:25,3:47:20,,,10:35:03,3923,20065,13640,183,292,38103,202,181,39,118,101,13,239,219,50,202,181,39,Finisher,3738
+Aurimas,Sabulis,Aurimas Sabulis,480,M35-39,Male,New York,NY,United States,US,1:10:29,5:13:35,4:02:02,,,10:35:03,4229,18815,14522,315,221,38103,203,182,41,225,196,39,163,151,33,203,182,41,Finisher,3787
+Fabian,Kral,Fabian Kral,431,M35-39,Male,Feldkirchen,,Germany,DE,1:14:43,5:06:16,4:07:46,,,10:35:06,4483,18376,14866,252,128,38106,204,183,42,324,276,60,144,132,28,204,183,42,Finisher,3787
+Philip,Westoby,Philip Westoby,761,M45-49,Male,Church crookham,,United Kingdom,GB,1:02:42,5:16:25,4:10:05,,,10:35:10,3762,18985,15005,201,158,38110,205,184,24,80,66,9,131,121,19,205,184,24,Finisher,4171
+Steven,Linkov,Steven Linkov,225,M35-39,Male,Kärdla,Hiiumaa,Estonia,EE,1:15:01,5:34:28,3:39:13,,,10:35:17,4501,20068,13153,251,143,38117,206,185,43,333,284,61,306,278,62,206,185,43,Finisher,3785
+Taavi,Tali,Taavi Tali,361,M30-34,Male,Pärnu linn,Pärnumaa,Estonia,EE,1:12:24,5:29:34,3:42:23,,,10:35:26,4344,19774,13343,347,318,38126,207,186,43,268,233,46,270,246,51,207,186,43,Finisher,3822
+Gabriella,Gioia,Gabriella Gioia,79,F25-29,Female,Pretoria,Gauteng,South Africa,ZA,1:07:44,5:38:24,3:43:48,,,10:35:51,4064,20304,13428,188,167,38151,208,22,3,159,23,2,281,26,3,208,22,3,Finisher,4428
+Sami,Loikkanen,Sami Loikkanen,592,M40-44,Male,Lohja,Koisjärvi,Finland,FI,1:11:00,5:25:41,3:50:41,,,10:35:52,4260,19541,13841,340,169,38152,209,187,40,234,205,39,236,216,49,209,187,40,Finisher,3728
+Tomasz,Otto,Tomasz Otto,263,M25-29,Male,Warsaw,,Poland,PL,1:09:27,5:29:28,3:50:41,,,10:36:09,4167,19768,13841,206,188,38169,210,188,16,202,176,18,235,215,15,210,188,16,Finisher,3365
+Kristel,Tukk,Kristel Tukk,510,F35-39,Female,Tartu,Tartumaa,Estonia,EE,1:15:37,5:22:52,3:52:40,,,10:36:12,4537,19372,13960,210,92,38172,211,23,7,346,54,15,229,19,7,211,23,7,Finisher,4263
+Maksim,Berjoza,Maksim Berjoza,894,M35-39,Male,Riga,LV,Latvia,LV,1:24:00,5:16:41,3:47:16,,,10:36:17,5040,19001,13636,302,197,38177,212,189,44,542,465,106,257,234,50,212,189,44,Finisher,3773
+Mait,Laidvee,Mait Laidvee,435,M35-39,Male,Tartu,Tartu,Estonia,EE,1:18:27,5:33:29,3:39:05,,,10:36:19,4707,20009,13145,231,86,38179,213,190,45,413,351,80,317,287,63,213,190,45,Finisher,3772
+Hans,Rosendahl,Hans Rosendahl,743,M45-49,Male,Espoo,NYLAND,Finland,FI,1:24:24,5:21:01,3:42:52,,,10:36:29,5064,19261,13372,308,183,38189,214,191,25,554,476,82,288,262,46,214,191,25,Finisher,4155
+Anton,Suravegin,Anton Suravegin,752,M45-49,Male,Ekaterinburg,"
+Sverdlovskaya",Russia,RU,1:08:43,5:48:20,3:33:45,,,10:37:21,4123,20900,12825,213,180,38241,215,192,26,180,156,32,351,319,55,215,192,26,Finisher,4145
+Roland,Stepulov,Roland Stepulov,359,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:18:00,5:19:36,3:53:11,,,10:37:30,4680,19176,13991,236,166,38250,216,193,44,400,338,58,226,208,45,216,193,44,Finisher,3797
+Christian,Wechsler,Christian Wechsler,135,M50-54,Male,Nürnberg,,Germany,DE,1:26:37,5:12:41,3:51:25,,,10:37:37,5197,18761,13885,217,197,38257,217,194,17,588,508,46,241,221,19,217,194,17,Finisher,4157
+Pekka,Ruuska,Pekka Ruuska,478,M35-39,Male,Helsinki,Uusimaa,Finland,FI,1:24:24,5:24:20,3:43:26,,,10:37:42,5064,19460,13406,212,121,38262,218,195,46,553,475,108,301,274,59,218,195,46,Finisher,3756
+Aku,Limnell,Aku Limnell,444,M35-39,Male,Espoo,Uusimaa,Finland,FI,1:16:14,5:37:51,3:36:12,,,10:38:00,4574,20271,12972,244,218,38280,219,196,47,362,308,66,331,301,69,219,196,47,Finisher,3752
+Raido,Martinson,Raido Martinson,336,M30-34,Male,Harjumaa,foreigner,Estonia,EE,1:21:36,5:24:08,3:45:13,,,10:39:16,4896,19448,13513,331,167,38356,220,197,45,487,416,74,294,268,53,220,197,45,Finisher,3776
+Paul,Dunne,Paul Dunne,147,M45-49,Male,ballina,"Mayo, Sligo",Ireland,IE,1:06:18,5:00:26,4:26:57,,,10:39:17,3978,18026,16017,169,167,38357,221,198,27,133,113,22,67,62,9,221,198,27,Finisher,4122
+Simone,Sciortino,Simone Sciortino,123,M30-34,Male,roma,,Italy,IT,1:11:47,5:19:20,3:58:47,,,10:39:20,4307,19160,14327,272,293,38360,222,199,46,251,218,40,199,184,38,222,199,46,Finisher,3775
+Taru,Schroderus,Taru Schroderus,224,F40-44,Female,Lahti,Päijät-Häme,Finland,FI,1:15:11,5:25:02,3:52:36,,,10:39:42,4511,19502,13956,260,153,38382,223,24,2,337,51,4,249,22,2,223,24,2,Finisher,4663
+Jouni,Kaila,Jouni Kaila,562,M40-44,Male,Turku,Turku,Finland,FI,1:21:26,5:41:03,3:29:57,,,10:39:44,4886,20463,12597,286,153,38384,224,200,41,484,413,84,378,343,77,224,200,41,Finisher,3681
+Toni,Kilpinen,Toni Kilpinen,573,M40-44,Male,Espoo,Uusimaa,Finland,FI,1:12:53,4:57:59,4:19:53,,,10:39:52,4373,17879,15593,299,249,38392,225,201,42,278,240,44,96,88,15,225,201,42,Finisher,3680
+Danel,Hein,Danel Hein,157,M40-44,Male,Harku vald,Harju,Estonia,EE,1:06:04,5:10:58,4:15:23,,,10:39:56,3964,18658,15323,272,179,38396,226,202,43,128,110,15,125,116,22,226,202,43,Finisher,3679
+Sakari,Hollmen,Sakari Hollmen,555,M40-44,Male,Espoo,Finland,Finland,FI,1:09:22,5:11:07,4:12:17,,,10:39:57,4162,18667,15137,277,153,38397,227,203,44,200,174,29,142,130,25,227,203,44,Finisher,3679
+Olivier,Fromentin,Olivier Fromentin,77,M50-54,Male,Froideville,,Switzerland,CH,1:07:31,5:34:48,3:47:14,,,10:40:05,4051,20088,13634,404,227,38405,228,204,18,157,135,14,279,254,24,228,204,18,Finisher,4127
+Slepchenko,Alexander,Slepchenko Alexander,749,M45-49,Male,Yahroma,Moscow region,Russia,RU,1:21:44,5:46:04,3:23:11,,,10:40:24,4904,20764,12191,311,254,38424,229,205,28,491,419,70,411,371,64,229,205,28,Finisher,4108
+Wei,Ge,Wei Ge,150,M40-44,Male,北京,CN-BJ,China,CN,1:09:28,5:31:17,3:45:21,,,10:40:31,4168,19877,13521,530,335,38431,230,206,45,204,178,31,284,258,55,230,206,45,Finisher,3672
+Reijo,Roininen,Reijo Roininen,189,M45-49,Male,Järvenpää,Uusimaa,Finland,FI,1:09:07,5:17:51,4:06:39,,,10:40:53,4147,19071,14799,273,162,38453,231,207,29,195,170,33,177,165,26,231,207,29,Finisher,4102
+Paul,Mcnally,Paul Mcnally,719,M45-49,Male,Liverpool,,United Kingdom,GB,1:07:21,5:24:27,4:00:06,,,10:41:20,4041,19467,14406,339,228,38480,232,208,30,156,134,26,208,193,30,232,208,30,Finisher,4097
+Brendan,Flaherty,Brendan Flaherty,412,M35-39,Male,Cork,Co. Cork,Ireland,IE,1:17:55,5:16:38,3:50:03,,,10:41:46,4675,18998,13803,649,380,38506,233,209,48,396,334,74,253,230,47,233,209,48,Finisher,3707
+Melvin,Sinirand,Melvin Sinirand,898,M45-49,Male,Tallinn,Harju,Estonia,EE,1:09:39,5:13:57,4:08:46,,,10:41:58,4179,18837,14926,368,208,38518,234,210,31,207,181,34,164,152,23,234,210,31,Finisher,4089
+Andrew,Syrett,Andrew Syrett,197,M35-39,Male,Colchester,Essex,United Kingdom,GB,0:56:43,4:43:46,4:54:00,,,10:42:04,3403,17026,17640,191,264,38524,235,211,49,15,12,3,9,7,2,235,211,49,Finisher,3703
+Matt,Redford,Matt Redford,740,M45-49,Male,MASALA,,United Kingdom,GB,1:12:57,5:37:34,3:44:24,,,10:42:36,4377,20254,13464,220,242,38556,236,212,32,280,242,44,307,279,49,236,212,32,Finisher,4082
+Valerijs,Kulickis,Valerijs Kulickis,911,M35-39,Male,Marupe,Mārupes novads,Latvia,LV,1:06:55,5:38:30,3:48:07,,,10:42:40,4015,20310,13687,264,284,38560,237,213,50,143,123,25,285,259,57,237,213,50,Finisher,3696
+Andrey,Bushchik,Andrey Bushchik,536,M40-44,Male,Moscow,"APO
+",Russia,RU,1:16:04,5:34:43,3:42:04,,,10:43:03,4564,20083,13324,440,172,38583,238,214,46,358,304,64,330,300,67,238,214,46,Finisher,3642
+Alfredo,Bercedo Pardo,Alfredo Bercedo Pardo,530,M40-44,Male,Miranda de Ebro,,Spain,ES,1:09:48,5:37:42,3:44:57,,,10:43:17,4188,20262,13497,423,226,38597,239,215,47,212,186,34,310,281,60,239,215,47,Finisher,3639
+Szymon,Lyzwinski,Szymon Lyzwinski,234,M18-24,Male,Słubice,,Poland,PL,1:08:42,5:30:40,3:56:58,,,10:43:21,4122,19840,14218,304,116,38601,240,216,2,179,155,3,248,227,2,240,216,2,Finisher,4338
+Anttu,Harlin,Anttu Harlin,417,M35-39,Male,HELSIKI,UUSIMAA,Finland,FI,1:08:10,5:56:10,3:26:56,,,10:43:32,4090,21370,12416,379,357,38612,241,217,51,168,145,30,400,364,82,241,217,51,Finisher,3686
+Guillaume,Van Wonterghem,Guillaume Van Wonterghem,373,M30-34,Male,Bordeaux,,France,FR,1:14:15,5:23:42,3:57:16,,,10:43:42,4455,19422,14236,337,172,38622,242,218,47,311,264,51,243,223,48,242,218,47,Finisher,3723
+Jonatan,Thoresson,Jonatan Thoresson,910,M30-34,Male,Östersund,,Sweden,SE,1:16:07,5:29:52,3:47:18,,,10:43:58,4567,19792,13638,334,306,38638,243,219,48,359,305,52,296,269,54,243,219,48,Finisher,3719
+Torsten,Deuter,Torsten Deuter,71,M45-49,Male,Singapore,02,Germany,DE,1:08:09,5:07:09,4:18:42,,,10:44:01,4089,18429,15522,278,323,38641,244,220,33,167,144,27,113,104,15,244,220,33,Finisher,4065
+STANISLAV,BADYSHEV,STANISLAV BADYSHEV,239,M25-29,Male,Dolgoprudny,,Russia,RU,1:20:03,5:26:15,3:53:20,,,10:44:25,4803,19575,14000,193,95,38665,245,221,17,455,388,29,283,257,17,245,221,17,Finisher,3265
+Aleksey,Panchenko,Aleksey Panchenko,386,M35-39,Male,Tomsk,,Russia,RU,1:14:27,5:41:09,3:38:26,,,10:44:30,4467,20469,13106,306,323,38670,246,222,52,316,269,56,352,320,76,246,222,52,Finisher,3674
+Erkka,Vahtera,Erkka Vahtera,512,M35-39,Male,Kauniainen,Etelä-Suomi,Finland,FI,1:30:43,5:37:35,3:26:07,,,10:45:20,5443,20255,12367,489,166,38720,247,223,53,635,547,122,429,387,85,247,223,53,Finisher,3664
+Robert,Bacon,Robert Bacon,32,M40-44,Male,Aberdeen,Aberdeenshire,United Kingdom,GB,1:18:45,5:40:48,3:37:16,,,10:45:33,4725,20448,13036,310,215,38733,248,224,48,420,357,73,370,336,73,248,224,48,Finisher,3612
+Laurynas,Serelis,Laurynas Serelis,269,M25-29,Male,Molėtai,Molėtų,Lithuania,LT,1:16:03,5:38:55,3:41:27,,,10:45:52,4563,20335,13287,349,219,38752,249,225,18,357,303,22,353,321,20,249,225,18,Finisher,3248
+Kristjan,Rätsep,Kristjan Rätsep,353,M30-34,Male,Rakvere,Lääne-Viru maakond,Estonia,EE,1:11:25,5:42:18,3:44:34,,,10:45:57,4285,20538,13474,292,168,38757,250,226,49,244,213,39,332,302,58,250,226,49,Finisher,3696
+Sebastien,Paillet,Sebastien Paillet,180,M40-44,Male,Nyon,,Switzerland,CH,1:07:55,5:28:05,3:59:55,,,10:47:06,4075,19685,14395,366,304,38826,251,227,49,162,139,22,232,212,47,251,227,49,Finisher,3593
+Anton,Dzmitryieu,Anton Dzmitryieu,72,M35-39,Male,,"
+MINSK",Belarus,BY,1:13:43,5:30:44,3:55:33,,,10:47:10,4423,19844,14133,246,183,38830,252,228,54,298,257,54,275,250,56,252,228,54,Finisher,3642
+Brets,Pirtnieks,Brets Pirtnieks,182,M45-49,Male,Rīga,Rīga,Latvia,LV,1:22:12,5:23:59,3:51:46,,,10:47:42,4932,19439,13906,369,216,38862,253,229,34,499,426,71,302,275,48,253,229,34,Finisher,4021
+Sergey,Murzilin,Sergey Murzilin,178,M30-34,Male,Moscow,Moscow,Russia,RU,1:11:49,5:19:20,4:07:37,,,10:47:51,4309,19160,14857,317,229,38871,254,230,50,252,219,41,203,188,39,254,230,50,Finisher,3673
+Laurent,Dion,Laurent Dion,668,M45-49,Male,Chalon sur saone,,France,FR,1:06:01,5:02:11,4:30:18,,,10:48:12,3961,18131,16218,291,292,38892,255,231,35,127,109,21,86,80,11,255,231,35,Finisher,4015
+Dmytro,Meleshchenko,Dmytro Meleshchenko,454,M35-39,Male,Kiev,Kiev,Ukraine,UA,1:19:21,5:44:56,3:34:27,,,10:48:18,4761,20696,12867,373,201,38898,256,232,55,437,371,86,396,361,81,256,232,55,Finisher,3628
+Maksim,Pavljukov,Maksim Pavljukov,465,M35-39,Male,MAARDU,Harju,Estonia,EE,1:10:00,5:14:36,4:09:51,,,10:48:59,4200,18876,14991,518,355,38939,257,233,56,213,187,36,184,171,39,257,233,56,Finisher,3620
+Steve,Knights,Steve Knights,696,M45-49,Male,Chelmsford,,United Kingdom,GB,1:18:51,5:38:41,3:42:43,,,10:49:44,4731,20321,13363,320,248,38984,258,234,36,423,360,63,361,327,58,258,234,36,Finisher,3996
+Emilio,Lomi,Emilio Lomi,213,M55-59,Male,italy,foreigner,Italy,IT,1:22:23,5:41:20,3:39:08,,,10:49:49,4943,20480,13148,247,170,38989,259,235,5,505,431,16,380,345,9,259,235,5,Finisher,4233
+Kristian,Meriläinen,Kristian Meriläinen,177,M25-29,Male,Olofstorp,,Sweden,SE,1:19:01,5:27:23,3:55:44,,,10:50:23,4741,19643,14144,265,229,39023,260,236,19,427,364,27,292,266,18,260,236,19,Finisher,3194
+Monique Frederikke,Lundh,Monique Frederikke Lundh,260,F25-29,Female,Maastricht,,Denmark,DK,1:13:47,5:37:42,3:53:12,,,10:50:24,4427,20262,13992,225,118,39024,261,25,4,299,42,5,315,30,4,261,25,4,Finisher,4254
+Dmitriy,Guzeev,Dmitriy Guzeev,83,M45-49,Male,Saint Petersburg,none,Russia,RU,1:10:44,5:28:05,4:02:59,,,10:50:29,4244,19685,14579,352,169,39029,262,237,37,229,200,38,250,228,37,262,237,37,Finisher,3987
+Petri,Lintula,Petri Lintula,590,M40-44,Male,Helsinki,na,Finland,FI,1:16:10,5:29:50,3:58:00,,,10:50:42,4570,19790,14280,284,118,39042,263,238,50,360,306,65,290,264,56,263,238,50,Finisher,3550
+Vadim,Palamarchuk,Vadim Palamarchuk,343,M30-34,Male,Tallinn,Harju,Estonia,EE,1:30:21,5:31:24,3:38:48,,,10:51:01,5421,19884,13128,420,208,39061,264,239,51,631,543,91,387,352,62,264,239,51,Finisher,3635
+Jani,Saarinen,Jani Saarinen,191,M45-49,Male,Veikkola,Uusimaa,Finland,FI,1:14:54,5:27:25,4:02:02,,,10:51:05,4494,19645,14522,241,163,39065,265,240,38,330,282,50,261,237,40,265,240,38,Finisher,3980
+Marek,Hubko,Marek Hubko,685,M45-49,Male,Słubice,,Poland,PL,1:07:09,5:08:22,4:27:09,,,10:51:19,4029,18502,16029,311,209,39079,266,241,39,149,128,25,117,108,16,266,241,39,Finisher,3977
+Kaupo,Jansen,Kaupo Jansen,86,M40-44,Male,TARTU,Tartu maakond,Estonia,EE,1:21:10,5:14:26,4:02:54,,,10:51:25,4870,18866,14574,378,397,39085,267,242,51,476,407,83,228,210,46,267,242,51,Finisher,3541
+Simo,Kapiainen,Simo Kapiainen,425,M35-39,Male,Helsinki,Uusimaa,Finland,FI,1:14:30,5:34:08,3:55:28,,,10:51:34,4470,20048,14128,262,186,39094,268,243,57,317,270,57,304,276,60,268,243,57,Finisher,3589
+Simone,Boehm,Simone Boehm,138,F45-49,Female,Frankfurt am Main,,Germany,DE,1:12:09,5:35:06,3:57:35,,,10:52:15,4329,20106,14255,309,137,39135,269,26,3,260,35,7,303,28,4,269,26,3,Finisher,4630
+Pablo,Kreis,Pablo Kreis,699,M45-49,Male,Zurich,,Switzerland,CH,1:22:47,5:22:49,3:55:52,,,10:52:18,4967,19369,14152,391,259,39138,270,244,40,515,441,74,300,273,47,270,244,40,Finisher,3965
+Seppo,Aaltonen,Seppo Aaltonen,861,M60-64,Male,Kerava,Finland,Finland,FI,1:11:00,5:12:32,4:17:45,,,10:52:28,4260,18752,15465,407,265,39148,271,245,2,237,207,3,168,156,2,271,245,2,Finisher,4623
+Aleksei,Trunin,Aleksei Trunin,202,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:18:55,5:24:06,4:02:46,,,10:52:38,4735,19446,14566,239,171,39158,272,246,58,425,362,83,264,240,51,272,246,58,Finisher,3576
+Pablo,Sánchez De Las Matas,Pablo Sánchez De Las Matas,121,M55-59,Male,Alcobendas,,Spain,ES,1:15:29,5:15:55,4:11:38,,,10:53:06,4529,18955,15098,239,364,39186,273,247,6,344,292,10,196,181,6,273,247,6,Finisher,4193
+Yawei,Chen,Yawei Chen,242,M25-29,Male,苏州,江苏省,China,CN,1:24:01,5:39:49,3:39:40,,,10:53:44,5041,20389,13180,344,269,39224,274,248,20,543,466,37,391,356,23,274,248,20,Finisher,3154
+Carl,Bergdahl,Carl Bergdahl,287,M30-34,Male,Stockholm,,Sweden,SE,1:09:09,5:28:21,4:05:20,,,10:54:16,4149,19701,14720,402,284,39256,275,249,52,196,171,34,245,225,49,275,249,52,Finisher,3596
+Slava,Zorin,Slava Zorin,501,M35-39,Male,Пермь,,Russia,RU,1:20:20,5:54:26,3:31:18,,,10:54:26,4820,21266,12678,305,197,39266,276,250,59,462,394,89,450,400,88,276,250,59,Finisher,3555
+Vladimir,Razuvaev,Vladimir Razuvaev,52,M35-39,Male,Dubai,Dubai,Russia,RU,1:21:00,5:22:32,4:03:50,,,10:54:39,4860,19352,14630,274,163,39279,277,251,60,471,402,91,272,247,55,277,251,60,Finisher,3552
+Tarja,Masalin,Tarja Masalin,175,F35-39,Female,Jyväskylä,MELLERSTA FINLAND,Finland,FI,1:15:24,5:58:24,3:36:00,,,10:55:31,4524,21504,12960,221,123,39331,278,27,8,340,52,14,439,46,12,278,27,8,Finisher,4031
+Eeva,Avik,Eeva Avik,64,F30-34,Female,Tallinn,APO,Estonia,EE,1:01:15,5:40:01,4:08:33,,,10:55:39,3675,20401,14913,230,121,39339,279,28,4,55,9,1,252,23,4,279,28,4,Finisher,3957
+Karila,Ilmo,Karila Ilmo,160,M50-54,Male,Espoo,Finland ,Finland,FI,1:14:56,5:20:53,4:11:47,,,10:56:37,4496,19253,15107,387,154,39397,280,252,19,332,283,27,233,213,18,280,252,19,Finisher,3929
+Harles,Tammeleht,Harles Tammeleht,362,M30-34,Male,Tabasalu,foreigner,Estonia,EE,1:16:41,5:20:37,4:11:27,,,10:56:38,4601,19237,15087,250,222,39398,281,253,53,374,316,56,225,207,44,281,253,53,Finisher,3567
+Didier,Gueguen,Didier Gueguen,80,M45-49,Male,lormont,,France,FR,1:10:32,5:44:36,3:50:17,,,10:56:56,4232,20676,13817,523,169,39416,282,254,41,227,198,37,364,330,60,282,254,41,Finisher,3910
+Alexander,Evsikov,Alexander Evsikov,873,M65-69,Male,Moscow,,Russia,RU,1:24:24,5:28:39,3:54:32,,,10:57:02,5064,19719,14072,404,163,39422,283,255,1,552,474,2,344,313,1,283,255,1,Finisher,5000
+Juha,Auvinen,Juha Auvinen,882,M35-39,Male,Oulu,Pohjois-pohjanmaa,Finland,FI,1:12:44,5:24:03,4:13:40,,,10:57:03,4364,19443,15220,260,137,39423,284,256,61,274,237,49,222,205,45,284,256,61,Finisher,3523
+Simen,Renden,Simen Renden,226,M30-34,Male,Oslo,,Norway,NO,1:08:56,5:14:06,4:26:20,,,10:57:47,4136,18846,15980,282,224,39467,285,257,54,186,162,31,156,144,32,285,257,54,Finisher,3554
+Michael,Zannis,Michael Zannis,198,M35-39,Male,Kifisia,ATTIKI,Greece,GR,1:07:59,5:46:27,3:55:34,,,10:58:17,4079,20787,14134,289,208,39497,286,258,62,163,140,27,339,309,72,286,258,62,Finisher,3509
+Jose Angel,Fernandez Montilla,Jose Angel Fernandez Montilla,547,M40-44,Male,crevillent,,Spain,ES,1:04:05,5:22:56,4:21:53,,,10:58:23,3845,19376,15713,351,220,39503,287,259,52,98,82,8,182,169,35,287,259,52,Finisher,3458
+Ardo,Pajur,Ardo Pajur,918,M45-49,Male,Viimsi,Harjumaa,Estonia,EE,1:10:05,5:13:39,4:22:54,,,10:58:31,4205,18819,15774,412,299,39511,288,260,42,219,192,35,173,161,25,288,260,42,Finisher,3891
+Erko,Kurvits,Erko Kurvits,433,M35-39,Male,Elva,Tartu,Estonia,EE,1:22:14,5:17:22,4:08:28,,,10:58:33,4934,19042,14908,351,278,39513,289,261,63,501,427,95,254,231,48,289,261,63,Finisher,3505
+Vladimir,Morshin,Vladimir Morshin,458,M35-39,Male,"Gijon, Asturias",,Russia,RU,1:08:02,5:46:12,3:57:09,,,10:58:47,4082,20772,14229,307,137,39527,290,262,64,165,142,29,341,311,74,290,262,64,Finisher,3503
+Igor,Blagodarniy,Igor Blagodarniy,397,M35-39,Male,Moscow,-,Russia,RU,1:15:44,5:29:54,4:02:44,,,10:58:54,4544,19794,14564,373,259,39534,291,263,65,348,294,64,299,272,58,291,263,65,Finisher,3501
+Jukka,Erkkilä,Jukka Erkkilä,671,M45-49,Male,Järvenpää,Uusimaa,Finland,FI,1:15:56,5:44:05,3:48:22,,,10:59:28,4556,20645,13702,343,322,39568,292,264,43,354,300,54,373,339,61,292,264,43,Finisher,3879
+Marko,Kiiskinen,Marko Kiiskinen,693,M45-49,Male,JYVÄSKYLÄ,VAAJAKOSKI,Finland,FI,1:14:16,5:37:28,3:54:19,,,10:59:47,4456,20248,14059,462,362,39587,293,265,44,313,266,45,342,312,54,293,265,44,Finisher,3876
+JEAN-MICHEL,GARDEUX,JEAN-MICHEL GARDEUX,777,M50-54,Male,BOISSY SAINT LEGER,,France,FR,1:07:11,5:30:28,4:09:58,,,10:59:50,4031,19828,14998,404,329,39590,294,266,20,150,129,13,247,226,20,294,266,20,Finisher,3890
+Jonas,Reinhammar,Jonas Reinhammar,616,M40-44,Male,Ekerö,,Sweden,SE,1:31:28,5:38:44,3:37:21,,,11:00:07,5488,20324,13041,386,368,39607,295,267,53,644,554,107,431,389,89,295,267,53,Finisher,3437
+Viachaslau,Kobets,Viachaslau Kobets,577,M40-44,Male,,"Minsk
+Minsk",Belarus,BY,1:31:43,5:21:46,3:58:34,,,11:00:25,5503,19306,14314,317,185,39625,296,268,54,647,556,108,335,305,68,296,268,54,Finisher,3433
+Sara,Brunati,Sara Brunati,535,F40-44,Female,Luzern,,Switzerland,CH,0:59:20,5:43:55,4:11:14,,,11:01:07,3560,20635,15074,273,125,39667,297,29,3,35,7,1,271,25,3,297,29,3,Finisher,4406
+Indrek,Reinbach,Indrek Reinbach,615,M40-44,Male,Rannamõisa,Harjumaa,Estonia,EE,1:15:16,5:12:27,4:21:58,,,11:01:14,4516,18747,15718,505,188,39674,298,269,55,338,287,58,202,187,42,298,269,55,Finisher,3423
+Siim,Salum,Siim Salum,193,M30-34,Male,Estonian,foreigner,Estonia,EE,1:25:51,5:07:38,4:21:30,,,11:04:12,5151,18458,15690,414,139,39852,299,270,55,573,493,84,220,203,42,299,270,55,Finisher,3477
+Ilmar,Raap,Ilmar Raap,188,M50-54,Male,Kadrina,Kadrina,Estonia,EE,1:18:43,5:24:52,4:08:56,,,11:04:20,4723,19492,14936,324,385,39860,300,271,21,419,356,34,278,253,23,300,271,21,Finisher,3836
+Toomas,Türn,Toomas Türn,638,M40-44,Male,Kurepalu,TARTUMAA,Estonia,EE,1:09:02,5:19:10,4:26:16,,,11:04:29,4142,19150,15976,370,230,39869,301,272,56,192,168,27,191,176,37,301,272,56,Finisher,3384
+Gilbey,Crilley,Gilbey Crilley,403,M35-39,Male,Stockport,Greater Manchester,United Kingdom,GB,1:26:18,5:55:17,3:30:26,,,11:04:33,5178,21317,12626,434,317,39873,302,273,66,581,501,113,486,426,100,302,273,66,Finisher,3433
+Johanna,Hautamäki,Johanna Hautamäki,155,F35-39,Female,Vähäkyrö,Vaasa,Finland,FI,1:07:15,5:47:52,4:01:10,,,11:04:37,4035,20872,14470,261,238,39877,303,30,9,152,22,7,343,31,9,303,30,9,Finisher,3922
+Andreas,Streif,Andreas Streif,491,M35-39,Male,Graz,,Austria,AT,1:17:58,5:31:26,4:05:03,,,11:05:20,4678,19886,14703,402,251,39920,304,274,67,397,335,75,320,290,65,304,274,67,Finisher,3424
+Riin,Buddell,Riin Buddell,139,F30-34,Female,Tallinn,Nõmme,Estonia,EE,1:14:32,5:52:36,3:49:39,,,11:05:35,4472,21156,13779,267,260,39935,305,31,5,320,48,9,405,38,7,305,31,5,Finisher,3838
+Christian,Ayerst,Christian Ayerst,284,M30-34,Male,Rotterdam,,United Kingdom,GB,1:16:38,5:50:36,3:49:43,,,11:06:27,4598,21036,13783,351,220,39987,306,275,56,371,313,55,412,372,64,306,275,56,Finisher,3450
+Topi,Mattila,Topi Mattila,453,M35-39,Male,Tampere,,Finland,FI,1:15:56,5:34:42,4:07:12,,,11:06:29,4556,20082,14832,352,167,39989,307,276,68,355,301,65,322,292,66,307,276,68,Finisher,3410
+Ants,Einsalu,Ants Einsalu,928,M60-64,Male,Väike-Maarja,Laane-Virumaa,Estonia,EE,1:36:09,5:11:27,4:09:04,,,11:06:44,5769,18687,14944,450,152,40004,308,277,3,697,594,8,314,285,3,308,277,3,Finisher,4452
+Jacek,Rybarczyk,Jacek Rybarczyk,744,M45-49,Male,Warszawa,mazowieckie,Poland,PL,1:18:39,5:21:21,4:20:17,,,11:07:50,4719,19281,15617,286,167,40070,309,278,45,418,355,61,251,229,38,309,278,45,Finisher,3779
+Pekka,Mäkelä,Pekka Mäkelä,809,M50-54,Male,Helsinki,,Finland,FI,1:21:02,5:21:08,4:19:18,,,11:07:56,4862,19268,15558,242,144,40076,310,279,22,472,403,38,260,236,21,310,279,22,Finisher,3793
+Tomasz,Niedziólka,Tomasz Niedziólka,605,M40-44,Male,Siedlce,mazowieckie,Poland,PL,1:34:28,5:15:30,3:31:16,,,11:08:11,5668,18930,12676,384,2434,40091,311,280,57,679,582,114,321,291,63,311,280,57,Finisher,3340
+Keith,Hegarty,Keith Hegarty,553,M40-44,Male,Stepaside,Dublin,Ireland,IE,1:16:55,5:26:42,4:17:10,,,11:08:35,4615,19602,15430,283,185,40115,312,281,58,378,319,68,274,249,53,312,281,58,Finisher,3335
+Tuukka,Lahtela,Tuukka Lahtela,588,M40-44,Male,Tampere,Pirkanmaa,Finland,FI,1:15:54,5:17:12,4:24:57,,,11:09:36,4554,19032,15897,393,300,40176,313,282,59,353,299,62,216,200,44,313,282,59,Finisher,3323
+Paul,Slack,Paul Slack,823,M50-54,Male,Tenby,,United Kingdom,GB,0:54:25,5:48:23,4:22:09,,,11:11:59,3265,20903,15729,251,171,40319,314,283,23,6,6,1,262,238,22,314,283,23,Finisher,3744
+Igor,Batrakov,Igor Batrakov,392,M35-39,Male,Kaliningrad,KALININGRADSKAYA OBLAST',Russia,RU,1:17:26,5:28:03,4:12:27,,,11:12:29,4646,19683,15147,491,383,40349,315,284,69,391,330,71,305,277,61,315,284,69,Finisher,3338
+Siim,Lauri,Siim Lauri,923,M35-39,Male,Tartu,Tartumaa,Estonia,EE,1:04:42,5:37:35,4:22:19,,,11:12:45,3882,20255,15739,299,189,40365,316,285,70,107,91,23,267,243,53,316,285,70,Finisher,3335
+Karolis,Skanas,Karolis Skanas,486,M35-39,Male,Verksionys,Vilnius region,Lithuania,LT,1:17:42,5:31:26,4:10:09,,,11:12:49,4662,19886,15009,479,333,40369,317,286,71,393,332,72,326,296,68,317,286,71,Finisher,3334
+Max,Lauren,Max Lauren,705,M45-49,Male,Lieto,,Finland,FI,1:29:21,5:36:20,3:59:52,,,11:14:41,5361,20180,14392,293,255,40481,318,287,46,616,530,91,398,362,63,318,287,46,Finisher,3697
+Nina,Mäkelä,Nina Mäkelä,723,F45-49,Female,Helsinki,,Finland,FI,1:19:08,5:59:36,3:51:04,,,11:14:48,4748,21576,13864,161,139,40488,319,32,4,431,65,13,456,51,8,319,32,4,Finisher,4360
+mark,king,mark king,92,M55-59,Male,CAMORNE,,United Kingdom,GB,1:19:38,5:48:47,3:57:51,,,11:15:24,4778,20927,14271,330,219,40524,320,288,7,445,379,15,416,375,13,320,288,7,Finisher,3926
+Elvis,Brauer,Elvis Brauer,927,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,1:24:12,5:44:56,3:54:39,,,11:15:34,5052,20696,14079,360,346,40534,321,289,21,548,470,38,424,382,25,321,289,21,Finisher,2892
+Ciaran,Burns,Ciaran Burns,835,M55-59,Male,Dublin,Dublin,Ireland,IE,1:18:33,5:47:54,3:57:13,,,11:15:36,4713,20874,14233,500,217,40536,322,290,8,416,353,11,422,380,14,322,290,8,Finisher,3923
+Michael,Cardon,Michael Cardon,538,M40-44,Male,Detain,,France,FR,1:06:18,5:24:50,4:35:08,,,11:15:37,3978,19490,16508,286,274,40537,323,291,60,134,114,16,200,185,40,323,291,60,Finisher,3251
+Reemo,Raag,Reemo Raag,187,M35-39,Male,Kiili vald,Harju maakond,Estonia,EE,1:17:01,5:35:06,4:15:32,,,11:15:48,4621,20106,15332,282,207,40548,324,292,72,381,322,69,323,293,67,324,292,72,Finisher,3298
+Marco,Di Marcello,Marco Di Marcello,666,M45-49,Male,Brione (BS),Brescia,Italy,IT,1:05:24,5:12:38,4:42:42,,,11:15:49,3924,18758,16962,553,351,40549,325,293,47,119,102,19,154,142,22,325,293,47,Finisher,3683
+Keri,Delport,Keri Delport,406,F35-39,Female,,,South Africa,ZA,1:06:13,5:40:57,4:17:13,,,11:15:56,3973,20457,15433,436,257,40556,326,33,10,132,20,5,309,29,8,326,33,10,Finisher,3786
+Urmas,Volens,Urmas Volens,136,M40-44,Male,Tallinn,Harju,Estonia,EE,1:24:31,5:42:44,4:00:30,,,11:16:02,5071,20564,14430,295,202,40562,327,294,61,557,479,95,410,370,86,327,294,61,Finisher,3246
+Jens,Franzke,Jens Franzke,932,M50-54,Male,Stendal,,Germany,DE,1:13:33,5:16:23,4:27:50,,,11:16:24,4413,18983,16070,602,516,40584,328,295,24,294,254,24,217,201,17,328,295,24,Finisher,3691
+Mikko,Kärkkäinen,Mikko Kärkkäinen,565,M40-44,Male,Espoo,,Finland,FI,1:35:44,5:14:29,4:08:23,,,11:16:33,5744,18869,14903,650,427,40593,329,296,62,694,591,116,355,322,71,329,296,62,Finisher,3240
+Zhandos,Kairgeldi ,Zhandos Kairgeldi,253,M25-29,Male,Astana,Almaty,Kazakhstan,KZ,1:22:36,5:39:18,3:59:45,,,11:16:44,4956,20358,14385,455,449,40604,330,297,22,510,436,34,390,355,22,330,297,22,Finisher,2878
+Paul,Davies,Paul Davies,665,M45-49,Male,Llandysul,CEREDIGION [SIR CEREDIGION],United Kingdom,GB,1:11:31,5:44:45,4:11:27,,,11:16:45,4291,20685,15087,324,218,40605,331,298,48,246,215,42,356,323,56,331,298,48,Finisher,3672
+Carl,Sjöstrand ,Carl Sjöstrand,880,M35-39,Male,sollefteå,,Sweden,SE,1:22:29,5:14:43,4:28:37,,,11:16:51,4949,18883,16117,355,306,40611,332,299,73,507,433,99,242,222,46,332,299,73,Finisher,3286
+German,Khilcehnko,German Khilcehnko,256,M25-29,Male,Saint-Petersburg,"
+Saint-Petersburg",Russia,RU,1:05:55,5:55:33,4:01:07,,,11:16:59,3955,21333,14467,503,361,40619,333,300,23,125,107,13,393,358,24,333,300,23,Finisher,2875
+Tor Christopher,Fink,Tor Christopher Fink,149,M45-49,Male,Norway,foreigner,Norway,NO,1:11:16,5:29:16,4:24:24,,,11:17:42,4276,19756,15864,464,302,40662,334,301,49,241,210,40,273,248,41,334,301,49,Finisher,3661
+Harro,Rannamets,Harro Rannamets,346,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:26:19,5:55:44,3:39:59,,,11:17:49,5179,21344,13199,619,327,40669,335,302,57,582,502,86,501,439,71,335,302,57,Finisher,3313
+Miia,Kahila,Miia Kahila,561,F40-44,Female,Vaasa,Vaasa,Finland,FI,1:23:43,5:54:34,3:53:18,,,11:18:00,5023,21274,13998,283,102,40680,336,34,4,533,76,8,461,53,6,336,34,4,Finisher,4204
+Märt,Lääts,Märt Lääts,101,M55-59,Male,Tammiste küla,Pärnu maakond,Estonia,EE,1:07:07,5:18:21,4:42:09,,,11:18:08,4027,19101,16929,269,362,40688,337,303,9,147,127,4,165,153,4,337,303,9,Finisher,3893
+Riitta,Kilpeläinen,Riitta Kilpeläinen,694,F45-49,Female,Järvenpää,Finland,Finland,FI,1:08:25,5:38:29,4:24:19,,,11:18:23,4105,20309,15859,279,152,40703,338,35,5,175,24,2,295,27,3,338,35,5,Finisher,4317
+Jaanika,Kaiv,Jaanika Kaiv,228,F35-39,Female,London,UK,Estonia,EE,1:13:22,5:42:58,4:14:52,,,11:18:47,4402,20578,15292,281,174,40727,339,36,11,289,40,10,354,33,10,339,36,11,Finisher,3752
+Viljar,Vooremäe,Viljar Vooremäe,278,M25-29,Male,Tallinn,Harjumaa,Estonia,EE,1:05:58,5:47:29,4:16:44,,,11:19:14,3958,20849,15404,274,270,40754,340,304,24,126,108,14,329,299,19,340,304,24,Finisher,2848
+Paul,Gaydon,Paul Gaydon,675,M45-49,Male,Kent,England,United Kingdom,GB,0:58:29,5:45:58,4:26:08,,,11:19:16,3509,20758,15968,278,243,40756,341,305,50,28,23,3,280,255,43,341,305,50,Finisher,3642
+Georg,Pleva,Georg Pleva,733,M45-49,Male,Wien,,Austria,AT,1:17:59,5:25:45,4:27:05,,,11:19:28,4679,19545,16025,342,177,40768,342,306,51,398,336,59,282,256,44,342,306,51,Finisher,3639
+Katri,Vuori,Katri Vuori,832,F50-54,Female,Finland,foreigner,Finland,FI,1:11:32,5:45:56,4:11:20,,,11:19:32,4292,20756,15080,308,336,40772,343,37,2,247,32,2,359,34,2,343,37,2,Finisher,4392
+Arturs,Loze,Arturs Loze,259,M25-29,Male,Jurmala,Latvia,Latvia,LV,1:22:55,5:56:28,3:46:14,,,11:19:33,4975,21388,13574,446,389,40773,344,307,25,519,444,36,477,420,28,344,307,25,Finisher,2844
+Leivo,Sepp,Leivo Sepp,194,M45-49,Male,Otepää,Valga maakond,Estonia,EE,1:42:12,5:47:21,3:37:12,,,11:19:52,6132,20841,13032,528,259,40792,345,308,52,730,619,110,532,466,84,345,308,52,Finisher,3635
+TIINA,MÄTÄSJÄRVI,TIINA MÄTÄSJÄRVI,604,F40-44,Female,Tampere,Pirkanmaa,Finland,FI,1:19:11,6:00:02,3:53:25,,,11:19:52,4751,21602,14005,284,150,40792,346,38,5,434,66,6,466,55,7,346,38,5,Finisher,4181
+Andrew,Martin,Andrew Martin,718,M45-49,Male,Silsden,,United Kingdom,GB,1:04:10,5:12:30,4:53:15,,,11:19:53,3850,18750,17595,257,341,40793,347,309,53,100,84,16,118,109,17,347,309,53,Finisher,3634
+Eduard,Kimask,Eduard Kimask,695,M45-49,Male,"Tallinn, Estonia",Harju,Estonia,EE,1:30:21,5:45:58,3:46:00,,,11:20:56,5421,20758,13560,772,344,40856,348,310,54,631,543,97,488,428,74,348,310,54,Finisher,3622
+Norbert,Tesch,Norbert Tesch,870,M60-64,Male,Siegburg,,Germany,DE,1:27:37,5:48:05,3:54:30,,,11:21:35,5257,20885,14070,436,247,40895,349,311,4,601,518,7,460,408,5,349,311,4,Finisher,4274
+Jenna,Hansmeyer,Jenna Hansmeyer,310,F30-34,Female,Andover,Wiltshire,United Kingdom,GB,1:20:06,5:48:58,4:05:19,,,11:22:07,4806,20938,14719,281,183,40927,350,39,6,456,68,14,413,41,9,350,39,6,Finisher,3639
+Luis,Matheu Castañeda,Luis Matheu Castañeda,47,M55-59,Male,Puerto de la Cruz,,Spain,ES,1:05:31,5:35:06,4:33:51,,,11:22:27,3931,20106,16431,293,186,40947,351,312,10,122,104,2,255,232,7,351,312,10,Finisher,3841
+Martti,Järv,Martti Järv,165,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:12:21,5:37:53,4:22:42,,,11:22:32,4341,20273,15762,321,256,40952,352,313,58,266,231,45,316,286,57,352,313,58,Finisher,3257
+Chris,Nieuwoudt,Chris Nieuwoudt,606,M40-44,Male,Tunbridge Wells,Kent,United Kingdom,GB,1:15:41,5:26:13,4:28:08,,,11:22:34,4541,19573,16088,406,346,40954,353,314,63,347,293,59,276,251,54,353,314,63,Finisher,3167
+David,Reddy,David Reddy,349,M30-34,Male,Dublin,Dublin,Ireland,IE,1:13:28,5:42:36,4:15:55,,,11:22:46,4408,20556,15355,344,303,40966,354,315,59,291,251,48,357,324,59,354,315,59,Finisher,3254
+Vladimir,Tsaplin,Vladimir Tsaplin,203,M55-59,Male,Thechov-2,,Russia,RU,1:12:44,5:33:51,4:30:06,,,11:23:08,4364,20031,16206,205,182,40988,355,316,11,273,236,9,286,260,8,355,316,11,Finisher,3833
+Frantisek,Crkva,Frantisek Crkva,68,M45-49,Male,Psary,PRAHA-ZAPAD,Czech Republic,CZ,1:19:08,5:28:56,4:24:44,,,11:23:32,4748,19736,15884,468,176,41012,356,317,55,432,367,64,319,289,50,356,317,55,Finisher,3591
+Denis,Piskunov,Denis Piskunov,471,M35-39,Male,Tallinn,Harju,Estonia,EE,1:18:29,5:51:08,4:03:31,,,11:23:32,4709,21068,14611,291,333,41012,357,318,74,414,352,81,421,379,83,357,318,74,Finisher,3206
+Anneli,Ratassepp,Anneli Ratassepp,347,F30-34,Female,Tallinn,Harjumaa,Estonia,EE,1:14:00,5:51:58,4:10:59,,,11:23:35,4440,21118,15059,274,123,41015,358,40,7,310,47,8,397,36,6,358,40,7,Finisher,3622
+Tõnis,Türn,Tõnis Türn,637,M40-44,Male,Tartu,Tartu maakond,Estonia,EE,1:25:58,5:32:03,4:09:52,,,11:23:43,5158,19923,14992,611,339,41023,359,319,64,575,495,100,384,349,79,359,319,64,Finisher,3154
+Sandis,Kanbergs,Sandis Kanbergs,564,M40-44,Male,Tukums,Tukuma novads,Latvia,LV,1:23:25,5:26:15,4:21:33,,,11:23:55,5005,19575,15693,440,321,41035,360,320,65,529,454,91,325,295,64,360,320,65,Finisher,3151
+Laszlo,Lieber,Laszlo Lieber,443,M35-39,Male,Wien,,Austria,AT,1:10:43,5:31:57,4:34:33,,,11:24:42,4243,19917,16473,275,174,41082,361,321,75,228,199,40,266,242,52,361,321,75,Finisher,3192
+Gerhard,Rastinger,Gerhard Rastinger,116,M45-49,Male,Gmunden,,Austria,AT,1:23:58,5:46:19,4:03:41,,,11:24:42,5038,20779,14621,384,261,41082,362,322,56,541,464,81,432,390,70,362,322,56,Finisher,3577
+Andreas,Karlstedt,Andreas Karlstedt,692,M45-49,Male,Östersund,,Sweden,SE,1:08:23,5:34:55,4:33:12,,,11:25:03,4103,20095,16392,337,176,41103,363,323,57,174,151,30,277,252,42,363,323,57,Finisher,3572
+Hanspeter,Abegg,Hanspeter Abegg,524,M40-44,Male,Cham,,Switzerland,CH,1:24:46,5:49:02,3:56:22,,,11:26:06,5086,20942,14182,534,422,41166,364,324,66,560,482,97,459,407,92,364,324,66,Finisher,3125
+Marcello,Salis,Marcello Salis,120,M45-49,Male,Nurachi,,Italy,IT,1:14:45,5:39:13,4:27:12,,,11:26:14,4485,20353,16032,176,127,41174,365,325,58,326,278,48,324,294,51,365,325,58,Finisher,3558
+Marek,Aasna,Marek Aasna,523,M40-44,Male,Harku vald,Harju,Estonia,EE,1:23:56,5:31:14,4:19:56,,,11:26:23,5036,19874,15596,317,360,41183,366,326,67,540,463,92,349,317,70,366,326,67,Finisher,3122
+romet,uudeküll,romet uudeküll,371,M30-34,Male,Aravete,Järva vald,Estonia,EE,1:16:34,5:41:21,4:19:36,,,11:26:25,4594,20481,15576,343,191,41185,367,327,60,368,311,54,363,329,60,367,327,60,Finisher,3210
+Oleksandr,Horobets,Oleksandr Horobets,418,M35-39,Male,,,Ukraine,UA,1:23:05,5:58:06,3:50:47,,,11:26:54,4985,21486,13847,486,410,41214,368,328,76,522,447,102,489,429,101,368,328,76,Finisher,3165
+ed,clark,ed clark,402,M35-39,Male,Hampton Hill,Middlesex,United Kingdom,GB,1:14:33,6:03:11,4:01:23,,,11:27:08,4473,21791,14483,327,154,41228,369,329,77,321,273,59,462,409,91,369,329,77,Finisher,3162
+Alberto,Cano Narro,Alberto Cano Narro,657,M45-49,Male,Alcobendas,,Spain,ES,1:14:35,5:25:57,4:39:51,,,11:28:42,4475,19557,16791,313,186,41322,370,330,59,323,275,47,258,235,39,370,330,59,Finisher,3529
+Paavo,Rebane,Paavo Rebane,738,M45-49,Male,Haabneeme,Harju,Falkland Islands,FK,1:06:24,5:29:36,4:44:55,,,11:29:17,3984,19776,17095,284,217,41357,371,331,60,135,115,23,221,204,35,371,331,60,Finisher,3522
+Kristian,Tholstrup,Kristian Tholstrup,505,M35-39,Male,"
+Lystrup",,Denmark,DK,1:33:43,5:45:14,3:56:42,,,11:29:26,5623,20714,14202,399,427,41366,372,332,78,674,578,132,474,417,95,372,332,78,Finisher,3135
+Seamus,Harding,Seamus Harding,551,M40-44,Male,enniscorthy,CO. WEXFORD,Ireland,IE,1:26:26,5:34:44,4:17:34,,,11:29:59,5186,20084,15454,419,256,41399,373,333,68,583,503,101,383,348,78,373,333,68,Finisher,3078
+Carlos,Cadiñanos Cereceda,Carlos Cadiñanos Cereceda,537,M40-44,Male,Miranda de Ebro,,Spain,ES,1:09:32,5:48:23,4:20:01,,,11:30:05,4172,20903,15601,445,285,41405,374,334,69,205,179,32,372,338,74,374,334,69,Finisher,3077
+Luca,Bellani,Luca Bellani,650,M45-49,Male,Signa,Firenze,Italy,IT,1:14:51,5:55:27,4:07:18,,,11:30:13,4491,21327,14838,461,295,41413,375,335,61,329,281,49,443,396,72,375,335,61,Finisher,3510
+Igor,Smirnov,Igor Smirnov,489,M35-39,Male,Moscow,,Russia,RU,1:27:07,6:01:38,3:48:26,,,11:30:36,5227,21698,13706,517,289,41436,376,336,79,595,513,115,526,460,105,376,336,79,Finisher,3121
+Khalid,Sqalli,Khalid Sqalli,856,M55-59,Male,rabat,Maroc,Morocco,MA,1:12:09,5:50:14,4:14:11,,,11:30:37,4329,21014,15251,435,408,41437,377,337,12,261,226,8,392,357,10,377,337,12,Finisher,3743
+A-P,Roiko,A-P Roiko,619,M40-44,Male,Helsinki,.,Finland,FI,1:18:57,5:45:14,4:15:44,,,11:31:12,4737,20714,15344,453,224,41472,378,338,70,426,363,74,407,368,85,378,338,70,Finisher,3064
+Shuo,Zhang,Shuo Zhang,497,M35-39,Male,北京,北京,China,CN,1:17:21,5:40:24,4:22:44,,,11:31:59,4641,20424,15764,413,276,41519,379,339,80,387,328,70,369,335,78,379,339,80,Finisher,3104
+Timo,Turpeinen,Timo Turpeinen,205,M55-59,Male,sotkuma,sotkuma,Finland,FI,1:25:47,5:51:02,4:06:47,,,11:32:00,5147,21062,14807,224,280,41520,380,340,13,571,491,19,452,402,15,380,340,13,Finisher,3726
+Marcus,Taylor,Marcus Taylor,503,M35-39,Male,Wirral,Merseyside,United Kingdom,GB,1:01:00,5:30:51,4:53:23,,,11:32:11,3660,19851,17603,225,192,41531,381,341,81,54,46,12,198,183,42,381,341,81,Finisher,3102
+Freddie,Wright,Freddie Wright,279,M25-29,Male,Kings Stanley,Gloucestershire,United Kingdom,GB,1:16:55,6:04:46,3:53:16,,,11:32:22,4615,21886,13996,546,500,41542,382,342,26,377,318,23,493,433,30,382,342,26,Finisher,2690
+Esko,Piirainen,Esko Piirainen,469,M35-39,Male,Helsinki,Uusimaa,Finland,FI,1:14:18,5:55:50,4:11:40,,,11:32:40,4458,21350,15100,373,279,41560,383,343,82,314,267,55,427,385,84,383,343,82,Finisher,3096
+Johan,Westerlund,Johan Westerlund,642,M40-44,Male,Parainen,Finland,Finland,FI,1:26:34,5:39:37,4:19:04,,,11:33:27,5194,20377,15544,318,173,41607,384,344,71,586,506,102,403,367,84,384,344,71,Finisher,3037
+Timo,Alalääkkölä,Timo Alalääkkölä,384,M35-39,Male,Oulu,Pohjois-Pohjanmaa,Finland,FI,1:22:15,5:41:21,4:22:08,,,11:33:43,4935,20481,15728,343,136,41623,385,345,83,502,428,96,389,354,80,385,345,83,Finisher,3083
+Ryan,Lummes,Ryan Lummes,593,M40-44,Male,ANDOVER,HAMPSHIRE,United Kingdom,GB,1:09:22,5:37:02,4:40:24,,,11:34:01,4162,20222,16824,264,169,41641,386,346,72,201,175,30,291,265,57,386,346,72,Finisher,3030
+Marcin,Kopec,Marcin Kopec,579,M40-44,Male,LODZ,,Poland,PL,1:17:00,5:47:24,4:18:36,,,11:34:06,4620,20844,15516,425,241,41646,387,347,73,379,320,69,402,366,83,387,347,73,Finisher,3029
+Tunc,gur,Tunc gur,780,M50-54,,,,Turkey,TR,1:12:31,5:44:19,4:23:50,,,11:34:31,4351,20659,15830,429,402,41671,388,348,25,270,234,22,367,333,29,388,348,25,Finisher,3474
+Raul,Pentek,Raul Pentek,929,M40-44,Male,Bad Pyrmont,,Germany,DE,1:13:53,5:49:39,4:22:02,,,11:34:38,4433,20979,15722,291,253,41678,389,349,74,305,260,51,385,350,80,389,349,74,Finisher,3023
+Dylan,Llewelyn,Dylan Llewelyn,334,M30-34,Male,Cardiff,Cardiff,United Kingdom,GB,1:04:51,5:54:50,4:18:30,,,11:34:50,3891,21290,15510,501,497,41690,390,350,61,109,93,23,381,346,61,390,350,61,Finisher,3109
+Vesa,Puttonen,Vesa Puttonen,51,M50-54,Male,Helsinki,Uusimaa,Finland,FI,1:14:34,5:40:34,4:31:16,,,11:35:15,4474,20434,16276,301,229,41715,391,351,26,322,274,26,347,316,27,391,351,26,Finisher,3465
+Viktoriia,Gudyma,Viktoriia Gudyma,247,F25-29,Female,Bristol,England,Ukraine,UA,1:34:10,5:53:02,3:50:19,,,11:35:17,5650,21182,13819,729,336,41717,392,41,5,676,97,7,536,67,7,392,41,5,Finisher,3715
+Vladimir,Kolotogin,Vladimir Kolotogin,325,M30-34,Male,Kohtla-Järve,Ida-Virumaa,Estonia,EE,1:35:45,5:48:48,3:54:36,,,11:35:48,5745,20928,14076,644,356,41748,393,352,62,695,592,94,515,452,72,393,352,62,Finisher,3097
+Peggy,Kleidon,Peggy Kleidon,93,F40-44,Female,Nyköping,,Germany,DE,1:02:07,6:21:28,4:03:58,,,11:35:51,3727,22888,14638,201,297,41751,394,42,6,70,12,3,479,58,8,394,42,6,Finisher,3989
+Ilya,Oryashin,Ilya Oryashin,462,M35-39,Male,Novorossiysk,,Russia,RU,1:25:30,5:35:12,4:25:46,,,11:36:00,5130,20112,15946,396,175,41760,395,353,84,568,488,110,379,344,79,395,353,84,Finisher,3056
+Ville,Koivumäki,Ville Koivumäki,578,M40-44,Male,Helsinki,Helsinki,Finland,FI,1:22:02,5:55:43,4:07:28,,,11:36:13,4922,21343,14848,400,261,41773,396,354,75,494,422,85,468,413,93,396,354,75,Finisher,3004
+Krisjanis,Vesmins,Krisjanis Vesmins,377,M30-34,Male,Liepaja,Liepaja,Latvia,LV,1:25:49,5:21:12,4:36:55,,,11:36:15,5149,19272,16615,472,266,41775,397,355,63,572,492,83,313,284,56,397,355,63,Finisher,3092
+Kari,Rauhanen,Kari Rauhanen,854,M55-59,Male,Saarijärvi,,Finland,FI,1:29:19,6:00:32,3:56:39,,,11:36:43,5359,21632,14199,423,191,41803,398,356,14,614,528,23,521,457,19,398,356,14,Finisher,3670
+Michal,Myslinski,Michal Myslinski,179,M35-39,Male,Warszawa,mazowieckie,Poland,PL,1:11:04,5:42:04,4:34:16,,,11:37:14,4264,20524,16456,334,256,41834,399,357,85,238,208,43,334,304,70,399,357,85,Finisher,3041
+Kazuo,Hiraki,Kazuo Hiraki,784,M50-54,Male,kofu,yamanashi,Japan,JP,1:21:08,5:48:34,4:17:08,,,11:38:00,4868,20914,15428,465,205,41880,400,358,27,475,406,39,438,393,36,400,358,27,Finisher,3432
+Jaanus,Kaur,Jaanus Kaur,167,M55-59,Male,Tallinn,Harju,Estonia,EE,1:24:28,5:40:32,4:20:50,,,11:38:05,5068,20432,15650,314,420,41885,401,359,15,555,477,18,395,360,11,401,359,15,Finisher,3653
+Vladislav,Kazakov,Vladislav Kazakov,568,M40-44,Male,SANKT-PETERBURG,Northwestern Federal District,Russia,RU,1:29:19,5:43:13,4:04:22,,,11:38:15,5359,20593,14662,734,547,41895,402,360,76,615,529,106,469,414,94,402,360,76,Finisher,2979
+Evgeny,Tumanin,Evgeny Tumanin,369,M30-34,Male,SAINT-PETERSBURG,"SAINT-PETERSBURG
+",Russia,RU,1:16:12,6:19:20,3:55:44,,,11:39:16,4572,22760,14144,269,211,41956,403,361,64,361,307,53,540,473,75,403,361,64,Finisher,3056
+Sean,Kalkwarf,Sean Kalkwarf,690,M45-49,Male,Reading,BRK,United Kingdom,GB,1:18:21,5:38:56,4:25:00,,,11:39:54,4701,20336,15900,675,382,41994,404,362,62,410,348,60,386,351,62,404,362,62,Finisher,3394
+Siim,Susi,Siim Susi,934,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:44:12,6:03:03,3:36:39,,,11:40:06,6252,21783,12999,550,422,42006,405,363,86,742,629,140,588,517,118,405,363,86,Finisher,3007
+Hanna,Pätiälä,Hanna Pätiälä,614,F40-44,Female,Tampere,Tampere,Finland,FI,1:22:14,5:51:20,4:18:19,,,11:40:17,4934,21080,15499,289,215,42017,406,43,7,500,74,7,446,48,5,406,43,7,Finisher,3936
+Pekka,Vehko,Pekka Vehko,515,M35-39,Male,Helsinki,Uusimaa,Finland,FI,1:19:18,5:50:56,4:19:16,,,11:40:17,4758,21056,15556,421,226,42017,407,364,87,435,369,85,436,392,86,407,364,87,Finisher,3005
+Clara,Gosebrink,Clara Gosebrink,307,F30-34,Female,Wesel,NORDRHEIN-WESTFALEN,Germany,DE,1:12:31,5:53:06,4:24:54,,,11:40:39,4351,21186,15894,378,229,42039,408,44,8,269,36,5,409,40,8,408,44,8,Finisher,3417
+Harvey,Goodwin,Harvey Goodwin,778,M50-54,Male,Kvaløya,,Norway,NO,1:07:07,5:46:05,4:37:54,,,11:40:59,4027,20765,16674,361,232,42059,409,365,28,146,126,12,337,307,26,409,365,28,Finisher,3396
+Christophe,Marino,Christophe Marino,717,M45-49,Male,VITROLLES,,France,FR,1:05:17,5:26:33,5:01:10,,,11:41:51,3917,19593,18070,352,178,42111,410,366,63,115,98,17,209,194,31,410,366,63,Finisher,3371
+Victor,Doronin,Victor Doronin,544,M40-44,Male,Marbella ,Malaga,Russia,RU,1:12:05,5:02:35,5:18:25,,,11:41:54,4325,18155,19105,283,246,42114,411,367,77,259,225,42,111,102,18,411,367,77,Finisher,2935
+Robin,Johnston,Robin Johnston,878,M35-39,Male,Church Langton,LEI,South Africa,ZA,1:16:28,5:43:07,4:34:59,,,11:42:01,4588,20587,16499,256,191,42121,412,368,88,365,310,67,365,331,77,412,368,88,Finisher,2984
+Andrew,Dax,Andrew Dax,404,M35-39,Male,,,United Kingdom,GB,1:00:04,5:49:33,4:38:26,,,11:42:03,3604,20973,16706,374,467,42123,413,369,89,44,37,10,318,288,64,413,369,89,Finisher,2983
+Sergei,Butakrev,Sergei Butakrev,355,M30-34,Male,Tver,,Russia,RU,1:24:12,5:50:08,4:17:30,,,11:42:05,5052,21008,15450,375,240,42125,414,370,65,546,468,81,453,403,65,414,370,65,Finisher,3022
+Андрей,Турушев,Андрей Турушев,370,M30-34,Male,Saint-Petersburg,,Russia,RU,1:12:16,6:18:27,3:54:28,,,11:42:11,4336,22707,14068,545,475,42131,415,371,66,264,229,44,538,471,74,415,371,66,Finisher,3021
+Phil,Murphy,Phil Murphy,722,M45-49,Male,Rosslare,foreigner,Ireland,IE,1:15:26,5:52:59,4:25:36,,,11:43:18,4526,21179,15936,321,236,42198,416,372,64,341,289,51,414,373,65,416,372,64,Finisher,3353
+Frank,Magee,Frank Magee,595,M40-44,Male,Dublin 16,Dublin,Ireland,IE,1:08:29,5:48:26,4:33:23,,,11:43:20,4109,20906,16403,357,424,42200,417,373,78,177,153,24,360,326,72,417,373,78,Finisher,2918
+Aarne,Vasarik,Aarne Vasarik,207,M40-44,Male,Saue,Harjumaa,Estonia,EE,1:13:18,5:35:24,4:44:38,,,11:44:12,4398,20124,17078,365,288,42252,418,374,79,286,248,46,312,283,62,418,374,79,Finisher,2908
+Joonas,Kursu,Joonas Kursu,586,M40-44,Male,Piikkiö,Varsinais-suomi,Finland,FI,1:10:55,5:50:04,4:36:32,,,11:45:59,4255,21004,16592,348,160,42359,419,375,80,231,202,38,377,342,76,419,375,80,Finisher,2886
+Gabyshev,Oleg,Gabyshev Oleg,342,M30-34,Male,St.Petersburg,,Russia,RU,1:04:10,6:19:56,4:08:31,,,11:46:38,3850,22796,14911,435,406,42398,420,376,67,101,85,20,497,436,69,420,376,67,Finisher,2967
+Mikko,Arminen,Mikko Arminen,527,M40-44,Male,siilinjärvi,vuorela,Finland,FI,1:19:20,5:34:25,4:44:22,,,11:47:02,4760,20065,17062,382,153,42422,421,377,81,436,370,76,346,315,69,421,377,81,Finisher,2874
+Yildirim,Bayazit,Yildirim Bayazit,394,M35-39,Male,Ankara,Cankaya,Turkey,TR,1:23:38,5:50:23,4:19:57,,,11:47:18,5018,21023,15597,501,299,42438,422,378,90,532,457,103,458,406,90,422,378,90,Finisher,2920
+Taavet,Reimers,Taavet Reimers,895,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,1:10:02,5:30:49,4:59:54,,,11:48:34,4202,19849,17994,280,189,42514,423,379,91,215,189,37,256,233,49,423,379,91,Finisher,2905
+Nele,Sumberg,Nele Sumberg,196,F35-39,Female,Tallinn,Harjumaa,Estonia,EE,1:03:15,6:04:37,4:28:54,,,11:48:35,3795,21877,16134,227,481,42515,424,45,12,86,15,4,406,39,11,424,45,12,Finisher,3395
+Bethan,Rhodes,Bethan Rhodes,264,F25-29,Female,Somerford Keynes,Gloucestershire,United Kingdom,GB,1:00:38,6:12:40,4:28:11,,,11:48:40,3638,22360,16091,230,201,42520,425,46,6,52,8,1,435,44,5,425,46,6,Finisher,3554
+Toni,Järvinen,Toni Järvinen,317,M30-34,Male,Sauvo,Sauvo,Finland,FI,1:47:40,6:09:21,3:42:41,,,11:49:00,6460,22161,13361,283,274,42540,426,380,68,755,641,100,609,530,84,426,380,68,Finisher,2939
+Sergei,Sotsugov,Sergei Sotsugov,750,M45-49,Male,Tallinn,HARJUMAA,Estonia,EE,1:37:22,6:01:18,3:53:10,,,11:49:02,5842,21678,13990,636,395,42542,427,381,65,705,600,106,571,503,93,427,381,65,Finisher,3285
+Kovalev,Maksim,Kovalev Maksim,582,M40-44,Male,Kiev,Kyiv,Ukraine,UA,1:11:38,6:17:46,4:11:12,,,11:49:35,4298,22666,15072,352,187,42575,428,382,82,249,217,41,514,451,99,428,382,82,Finisher,2843
+Victor,Argunov,Victor Argunov,61,M40-44,Male,Moscow,Central Federal District,Russia,RU,1:26:55,5:58:22,4:14:32,,,11:49:36,5215,21502,15272,362,226,42576,429,383,83,592,511,103,496,435,96,429,383,83,Finisher,2843
+Deirdre,Macnally,Deirdre Macnally,449,F35-39,Female,Rathfarnham,Dublin,Ireland,IE,1:13:58,6:02:28,4:24:13,,,11:49:41,4438,21748,15853,313,228,42581,430,47,13,308,46,12,457,52,13,430,47,13,Finisher,3381
+Olegs,Gulua,Olegs Gulua,415,M35-39,Male,Tbilisi,,Georgia,GE,1:20:12,6:13:32,3:59:38,,,11:49:45,4812,22412,14378,468,515,42585,431,384,92,460,392,88,548,480,110,431,384,92,Finisher,2891
+Bastian,Cambresy,Bastian Cambresy,141,M40-44,Male,Bassins,,Switzerland,CH,1:10:05,5:25:04,5:01:09,,,11:49:55,4205,19504,18069,403,413,42595,432,385,84,218,191,36,227,209,45,432,385,84,Finisher,2839
+Are,Tints,Are Tints,367,M30-34,Male,Viljandi,Viljandimaa,Estonia,EE,1:21:31,6:14:10,4:05:37,,,11:50:05,4891,22450,14737,341,186,42605,433,386,69,485,414,73,546,478,76,433,386,69,Finisher,2926
+Burak,Celet,Burak Celet,539,M40-44,Male,Istanbul,Istanbul,Turkey,TR,1:15:45,5:32:38,4:51:04,,,11:50:12,4545,19958,17464,378,266,42612,434,387,85,350,296,60,311,282,61,434,387,85,Finisher,2836
+Sergi,Titov,Sergi Titov,506,M35-39,Male,Libertsy,"
+Moscow",Russia,RU,1:23:52,6:10:16,4:06:57,,,11:50:24,5032,22216,14817,360,199,42624,435,388,93,539,462,105,542,474,109,435,388,93,Finisher,2883
+Richard,James,Richard James,789,M50-54,Male,Wokingham,,United Kingdom,GB,1:34:44,5:49:05,4:10:10,,,11:51:23,5684,20945,15010,572,472,42683,436,389,29,683,585,54,504,442,38,436,389,29,Finisher,3271
+Evgenii,Kozyrev,Evgenii Kozyrev,893,M40-44,Male,Novouralsk,,Russia,RU,1:38:46,6:01:58,3:59:36,,,11:51:23,5926,21718,14376,403,259,42683,437,390,86,711,605,117,564,496,103,437,390,86,Finisher,2822
+Ott,Alver,Ott Alver,282,M30-34,Male,Viimsi vald,Eesti,Estonia,EE,1:23:01,6:12:56,4:03:41,,,11:51:31,4981,22376,14621,462,252,42691,438,391,70,521,446,79,553,485,77,438,391,70,Finisher,2909
+Taivo,Pallotedder,Taivo Pallotedder,905,M40-44,Male,Tartu vald,Tartuma,Estonia,EE,1:22:46,5:41:28,4:31:46,,,11:51:45,4966,20488,16306,585,360,42705,439,392,87,514,440,88,418,377,88,439,392,87,Finisher,2817
+Fred,Sooläte,Fred Sooläte,128,M40-44,Male,Tallinn,Harjumaa (Tallinn),Estonia,EE,1:28:43,5:55:27,4:15:10,,,11:51:57,5323,21327,15310,426,332,42717,440,393,88,610,525,105,494,434,95,440,393,88,Finisher,2815
+Ellison,Griffiths,Ellison Griffiths,308,M30-34,Male,newport,,United Kingdom,GB,1:12:59,5:32:45,4:57:03,,,11:52:14,4379,19965,17823,299,268,42734,441,394,71,282,244,47,289,263,52,441,394,71,Finisher,2900
+Enrico,Cuozzo,Enrico Cuozzo,664,M45-49,Male,Sardegna,,Italy,IT,1:10:08,5:59:07,4:34:28,,,11:52:19,4208,21547,16468,333,184,42739,442,395,66,221,193,36,423,381,68,442,395,66,Finisher,3245
+Katja,Merenluoto,Katja Merenluoto,598,F40-44,Female,Ilmarinen,Lieto,Finland,FI,1:29:26,5:59:35,4:10:58,,,11:52:20,5366,21575,15058,473,268,42740,443,48,8,618,88,10,522,65,9,443,48,8,Finisher,3792
+York,Judge,York Judge,689,M45-49,Male,york,north yorkshire,United Kingdom,GB,1:22:39,5:42:57,4:32:03,,,11:52:48,4959,20577,16323,492,416,42768,444,396,67,511,437,73,415,374,66,444,396,67,Finisher,3239
+Mack,Grenfell,Mack Grenfell,232,M18-24,Male,London,,United Kingdom,GB,1:20:43,6:09:38,4:10:15,,,11:53:12,4843,22178,15015,499,256,42792,445,397,3,466,398,6,533,467,5,445,397,3,Finisher,3500
+Johnny,Evans,Johnny Evans,245,M25-29,Male,MIDLAND,TX,United States,US,0:58:15,6:03:01,4:40:14,,,11:53:23,3495,21781,16814,413,302,42803,446,398,27,26,21,2,382,347,21,446,398,27,Finisher,2438
+Ryan,Mclaughlin,Ryan Mclaughlin,212,M35-39,Male,Scotland,Other,South Africa,ZA,1:10:54,5:17:04,5:17:24,,,11:53:37,4254,19024,19044,192,302,42817,447,399,94,230,201,41,176,164,37,447,399,94,Finisher,2845
+Sanna,Huotari,Sanna Huotari,686,F45-49,Female,Kajaani,Kainuu,Finland,FI,1:13:52,5:55:18,4:31:44,,,11:53:45,4432,21318,16304,560,210,42825,448,49,6,303,44,10,447,49,6,448,49,6,Finisher,3892
+Pierfrancesco,Palù,Pierfrancesco Palù,730,M45-49,Male,Pieve Fissiraga,LO,Italy,IT,1:19:33,5:48:04,4:31:37,,,11:53:51,4773,20884,16297,520,357,42831,449,400,68,443,377,65,426,384,69,449,400,68,Finisher,3227
+Laurynas,Dovydaitis,Laurynas Dovydaitis,146,M30-34,Male,Vilnius,Vilniaus m.,Lithuania,LT,1:08:03,5:34:30,5:03:20,,,11:54:10,4083,20070,18200,265,231,42850,450,401,72,166,143,28,263,239,50,450,401,72,Finisher,2877
+Andres,Arro,Andres Arro,389,M35-39,Male,Otepää,Valga,Estonia,EE,1:29:47,5:47:41,4:24:57,,,11:54:11,5387,20861,15897,449,257,42851,451,402,95,621,533,118,472,416,94,451,402,95,Finisher,2838
+Esa,Gustafsson,Esa Gustafsson,81,M50-54,Male,Kirkkonummi,Sundsberg,Finland,FI,1:12:10,5:53:35,4:40:23,,,11:54:14,4330,21215,16823,252,235,42854,452,403,30,262,227,20,394,359,33,452,403,30,Finisher,3237
+Taivo,Velling,Taivo Velling,920,M50-54,Male,Peetri,Estonia,Estonia,EE,1:14:15,5:54:46,4:33:56,,,11:54:26,4455,21286,16436,453,236,42866,453,404,31,312,265,25,430,388,35,453,404,31,Finisher,3235
+Rimantas,Simaitis,Rimantas Simaitis,624,M40-44,Male,Vilnius,,Lithuania,LT,1:14:43,5:45:07,4:35:48,,,11:54:49,4483,20707,16548,663,489,42889,454,405,89,325,277,55,401,365,82,454,405,89,Finisher,2780
+Mihkel,Lääne,Mihkel Lääne,172,M35-39,Male,Tartu,Tartu maakond,Estonia,EE,1:08:02,5:32:42,5:03:26,,,11:54:55,4082,19962,18206,401,245,42895,455,406,96,164,141,28,269,245,54,455,406,96,Finisher,2829
+Pekka,Viita,Pekka Viita,208,M50-54,Male,espoo,,Finland,FI,1:10:55,5:58:40,4:36:27,,,11:55:07,4255,21520,16587,354,191,42907,456,407,32,232,203,19,425,383,34,456,407,32,Finisher,3227
+Karl,Pae,Karl Pae,464,M35-39,Male,Tallinn,Harju,Estonia,EE,1:27:56,5:51:12,4:28:27,,,11:55:30,5276,21072,16107,311,164,42930,457,408,97,602,519,116,467,412,93,457,408,97,Finisher,2822
+Alger,Vedler,Alger Vedler,829,M50-54,Male,Tartu,Tartu maakond,Estonia,EE,1:18:11,6:17:00,4:06:38,,,11:55:52,4691,22620,14798,430,412,42952,458,409,33,405,343,32,549,481,41,458,409,33,Finisher,3218
+Oldrich,Vastl,Oldrich Vastl,134,M40-44,Male,Ostrov,Karlovy Vary Region,Czech Republic,CZ,1:10:12,5:38:36,4:56:05,,,11:55:56,4212,20316,17765,332,330,42956,459,410,90,222,194,37,308,280,59,459,410,90,Finisher,2767
+Daiki,Sato,Daiki Sato,622,M40-44,Male,Tokyo,Tokyo Prefecture,Japan,JP,1:42:58,6:04:55,3:48:23,,,11:56:02,6178,21895,13703,881,305,42962,460,411,91,734,623,122,613,534,112,460,411,91,Finisher,2766
+Olivier,Bernard,Olivier Bernard,834,M55-59,Male,Paris,Île-de-France,France,FR,1:31:00,5:42:22,4:28:01,,,11:57:34,5460,20542,16081,695,276,43054,461,412,16,641,552,25,471,415,17,461,412,16,Finisher,3420
+Harri,Holma,Harri Holma,903,M45-49,Male,Helsinki,Province,Finland,FI,1:29:33,5:57:25,4:18:14,,,11:58:00,5373,21445,15494,439,329,43080,462,413,69,620,532,92,508,446,75,462,413,69,Finisher,3177
+Piotr,Puchalski,Piotr Puchalski,736,M45-49,Male,Wrocław,,Poland,PL,1:28:24,6:18:17,3:58:29,,,11:58:06,5304,22697,14309,481,295,43086,463,414,70,606,522,89,585,514,95,463,414,70,Finisher,3176
+Armin,Kask,Armin Kask,567,M40-44,Male,Tallinn,Harju,Estonia,EE,1:19:52,5:42:06,4:45:09,,,11:58:40,4792,20526,17109,283,409,43120,464,415,92,451,385,79,376,341,75,464,415,92,Finisher,2734
+Nobuyuki,Tanaka,Nobuyuki Tanaka,110,M65-69,Male,Kyoto,JP-26,Japan,JP,1:12:47,5:44:01,4:54:56,,,11:59:07,4367,20641,17696,223,221,43147,465,416,2,276,238,1,350,318,2,465,416,2,Finisher,4255
+Adel,Koter,Adel Koter,525,F40-44,Female,Miercurea Ciuc,Rumänien,Romania,RO,1:27:07,6:23:23,3:56:31,,,11:59:21,5227,23003,14191,518,221,43161,466,50,9,596,83,9,599,75,10,466,50,9,Finisher,3707
+Nikita,Surzhin,Nikita Surzhin,271,M25-29,Male,Saint-Peterburg,,Russia,RU,1:21:17,6:35:05,3:51:54,,,11:59:28,4877,23705,13914,395,277,43168,467,417,28,479,409,32,614,535,35,467,417,28,Finisher,2365
+El Mehdi,El Alaoui,El Mehdi El Alaoui,298,M30-34,Male,Rabat,Rabat,Morocco,MA,1:26:56,6:10:00,4:04:17,,,11:59:44,5216,22200,14657,652,459,43184,468,418,73,593,512,87,565,497,80,468,418,73,Finisher,2810
+Inka,Puumalainen,Inka Puumalainen,737,F45-49,Female,Helsinki,Finland,Finland,FI,1:24:54,6:25:50,3:56:03,,,11:59:46,5094,23150,14163,614,164,43186,469,51,7,562,79,15,604,78,14,469,51,7,Finisher,3820
+Jaano,Verbu,Jaano Verbu,376,M30-34,Male,Tartu,Tartu maakond,Estonia,EE,1:19:41,5:46:13,4:45:07,,,12:00:00,4781,20773,17107,280,258,43200,470,419,74,446,380,66,399,363,63,470,419,74,Finisher,2807
+Kärt,Praks,Kärt Praks,113,F25-29,Female,Märjamaa vald,Paisumaa küla,Estonia,EE,1:22:09,6:09:38,4:23:37,,,12:01:14,4929,22178,15817,224,127,43274,471,52,7,498,73,6,517,64,6,471,52,7,Finisher,3404
+Marc,Riera Vigue,Marc Riera Vigue,617,M40-44,Male,torelló,,Spain,ES,1:13:51,5:57:44,4:38:47,,,12:01:27,4431,21464,16727,398,268,43287,472,420,93,302,259,50,445,398,91,472,420,93,Finisher,2701
+Fernando,Cardenas Rodriguez,Fernando Cardenas Rodriguez,658,M45-49,Male,Binningen,,Mexico,MX,0:56:24,5:55:47,4:57:40,,,12:02:06,3384,21347,17860,387,350,43326,473,421,71,14,11,1,333,303,52,473,421,71,Finisher,3128
+Eric,Liebischer,Eric Liebischer,708,M45-49,Male,Pickering,ON,Canada,CA,1:11:19,5:42:15,4:57:03,,,12:03:39,4279,20535,17823,530,252,43419,474,422,72,243,212,41,358,325,57,474,422,72,Finisher,3109
+han,che,han che,400,M35-39,Male,北京市,北京,China,CN,1:12:34,6:16:00,4:18:37,,,12:03:43,4354,22560,15517,560,431,43423,475,423,98,271,235,48,529,463,106,475,423,98,Finisher,2723
+Tarmo,Torim,Tarmo Torim,930,M45-49,Male,Haabneeme,Viimsi,Estonia,EE,1:23:46,5:41:58,4:44:35,,,12:04:10,5026,20518,17075,513,317,43450,476,424,73,535,459,79,419,378,67,476,424,73,Finisher,3103
+Oleg,Bazaliiskyi,Oleg Bazaliiskyi,649,M45-49,Male,Kiev,Kiev,Ukraine,UA,1:26:14,6:14:23,4:16:34,,,12:04:47,5174,22463,15394,267,189,43487,477,425,74,579,499,85,560,492,90,477,425,74,Finisher,3096
+Kaspar,Kuuse,Kaspar Kuuse,434,M35-39,Male,Kiili vald Lähtse küla,Harjumaa,Estonia,EE,1:26:35,5:54:44,4:35:45,,,12:05:07,5195,21284,16545,342,140,43507,478,426,99,587,507,114,480,422,97,478,426,99,Finisher,2707
+Johanna,Haverinen,Johanna Haverinen,682,F45-49,Female,Lahti,Päijät-Häme,Finland,FI,1:18:32,5:53:14,4:36:04,,,12:05:23,4712,21194,16564,435,618,43523,479,53,8,415,63,12,449,50,7,479,53,8,Finisher,3753
+Markku,Okka,Markku Okka,812,M50-54,Male,Nokia,,Finland,FI,1:07:52,5:52:49,4:51:36,,,12:05:32,4072,21169,17496,344,452,43532,480,427,34,161,138,15,375,340,32,480,427,34,Finisher,3102
+Maria,Blauth,Maria Blauth,288,F30-34,Female,Berlin,,Germany,DE,1:13:48,6:11:17,4:31:10,,,12:06:27,4428,22277,16270,418,194,43587,481,54,9,300,43,6,499,62,12,481,54,9,Finisher,3107
+Sigrid,Preusch,Sigrid Preusch,868,F60-64,Female,Pfullingen,,Germany,DE,1:13:22,5:53:01,4:52:38,,,12:07:07,4402,21181,17558,311,174,43627,482,55,1,288,39,1,404,37,1,482,55,1,Finisher,5000
+Jill,Sterbakov,Jill Sterbakov,824,F50-54,Female,DREXEL HILL,PA,United States,US,1:44:53,5:48:57,4:21:14,,,12:07:32,6293,20937,15674,377,371,43652,483,56,3,745,114,13,541,68,6,483,56,3,Finisher,3816
+Antra,Roga,Antra Roga,742,F45-49,Female,Baltezers,ADAZU NOVADS,Latvia,LV,1:10:14,6:08:39,4:38:50,,,12:07:42,4214,22119,16730,265,333,43662,484,57,9,223,29,4,463,54,9,484,57,9,Finisher,3725
+Maxim,Marin,Maxim Marin,450,M35-39,Male,Moscow,,Russia,RU,1:08:20,6:14:06,4:36:14,,,12:08:11,4100,22446,16574,251,320,43691,485,428,100,173,150,31,476,419,96,485,428,100,Finisher,2670
+Denis,Dedkov,Denis Dedkov,405,M35-39,Male,STONEHAM,MA,Russia,RU,1:22:01,6:21:43,4:10:36,,,12:08:33,4921,22903,15036,502,352,43713,486,429,101,493,421,94,576,508,114,486,429,101,Finisher,2665
+Satu,Pippola,Satu Pippola,815,F50-54,Female,Kaarina,,Finland,FI,1:23:49,6:04:17,4:30:26,,,12:10:32,5029,21857,16226,416,305,43832,487,58,4,537,77,9,512,63,5,487,58,4,Finisher,3780
+Kuido,Karula,Kuido Karula,566,M40-44,Male,Tallinn,Harju County,Estonia,EE,1:19:54,5:27:13,5:14:44,,,12:10:45,4794,19633,18884,280,253,43845,488,430,94,452,386,80,298,271,58,488,430,94,Finisher,2589
+Anita,Martinell,Anita Martinell,800,F50-54,Female,Luleå,,Sweden,SE,1:21:16,5:50:08,4:49:48,,,12:11:02,4876,21008,17388,359,231,43862,489,59,5,477,70,6,437,45,3,489,59,5,Finisher,3774
+Vladislav,Merkulov,Vladislav Merkulov,599,M40-44,Male,Moscow,Moscow,Russia,RU,1:07:17,6:31:01,4:16:27,,,12:12:20,4037,23461,15387,612,442,43940,490,431,95,154,132,21,569,501,105,490,431,95,Finisher,2570
+wei,wu,wei wu,644,M40-44,Male,Suzhou,CN-JS,China,CN,1:22:56,6:03:24,4:34:32,,,12:12:57,4976,21804,16472,451,275,43977,491,432,96,520,445,89,506,444,98,491,432,96,Finisher,2563
+Reija,Kurki,Reija Kurki,432,F35-39,Female,Tampere,Finland,Finland,FI,1:13:38,6:11:49,4:33:38,,,12:13:00,4418,22309,16418,352,483,43980,492,60,14,295,41,11,495,61,15,492,60,14,Finisher,3102
+Bob,Dejongh,Bob Dejongh,70,M40-44,Male,Wilrijk,,Belgium,BE,1:15:53,5:36:21,5:10:10,,,12:13:43,4553,20181,18610,345,334,44023,493,433,97,352,298,61,328,298,66,493,433,97,Finisher,2554
+Ilmar,Kukk,Ilmar Kukk,169,M45-49,Male,Emmaste Vald,Hiiu maakond,Estonia,EE,1:21:38,6:08:27,4:36:14,,,12:14:00,4898,22107,16574,282,179,44040,494,434,75,489,418,69,511,449,78,494,434,75,Finisher,2985
+Tommi,Rantanen,Tommi Rantanen,473,M35-39,Male,Tampere,Pirkanmaa,Finland,FI,1:32:48,5:40:10,4:50:57,,,12:14:16,5568,20410,17457,414,206,44056,495,435,102,661,566,126,451,401,89,495,435,102,Finisher,2597
+Tõnis,Rätsep,Tõnis Rätsep,819,M50-54,Male,Tallinn,Estonia,Estonia,EE,1:33:57,6:01:28,4:25:22,,,12:14:53,5637,21688,15922,525,320,44093,496,436,35,675,579,53,555,487,43,496,436,35,Finisher,2989
+Damian,Kawecki,Damian Kawecki,569,M40-44,Male,Marianow,,Poland,PL,1:19:48,5:47:29,4:57:09,,,12:15:05,4788,20849,17829,401,238,44105,497,437,98,449,383,78,417,376,87,497,437,98,Finisher,2537
+Brendan,Vaughan,Brendan Vaughan,758,M45-49,Male,Ennis,Clare,Ireland,IE,1:22:17,6:06:29,4:36:29,,,12:15:10,4937,21989,16589,354,242,44110,498,438,76,504,430,72,510,448,77,498,438,76,Finisher,2971
+Juhana,Virkkunen,Juhana Virkkunen,763,M45-49,Male,Helsinki,Helsinki,Finland,FI,1:17:15,6:07:38,4:32:38,,,12:15:27,4635,22058,16358,628,449,44127,499,439,77,386,327,58,516,453,80,499,439,77,Finisher,2968
+Maris,Priedens,Maris Priedens,735,M45-49,Male,Ventspils,Latvia,Latvia,LV,1:17:11,5:38:12,5:07:01,,,12:15:41,4631,20292,18421,471,327,44141,500,440,78,384,325,57,362,328,59,500,440,78,Finisher,2965
+Jill,Reddy,Jill Reddy,348,F30-34,Female,Monkstown,Dublin,Ireland,IE,1:06:07,6:06:41,4:56:17,,,12:15:44,3967,22001,17777,250,150,44144,501,61,10,131,19,3,434,43,10,501,61,10,Finisher,2996
+Anton,Skomorokhin,Anton Skomorokhin,487,M35-39,Male,Moscow,,Russia,RU,1:36:59,6:30:42,3:56:30,,,12:16:06,5819,23442,14190,371,343,44166,502,441,103,701,597,137,642,559,124,502,441,103,Finisher,2575
+Yury,Shabanov,Yury Shabanov,623,M40-44,Male,Saint-Petersburg,,Russia,RU,1:16:45,6:53:27,3:50:04,,,12:16:11,4605,24807,13804,596,358,44171,503,442,99,375,317,67,669,579,116,503,442,99,Finisher,2524
+Sven,Veedla,Sven Veedla,760,M45-49,Male,Pärnu,Pärnu maakond,Estonia,EE,1:32:19,6:04:38,4:27:45,,,12:16:28,5539,21878,16065,464,241,44188,504,443,79,655,562,101,558,490,88,504,443,79,Finisher,2955
+David,Cole,David Cole,292,M30-34,Male,Harlow,,United Kingdom,GB,1:27:11,5:46:07,4:33:25,,,12:16:51,5231,20767,16405,1007,802,44211,505,444,75,598,515,88,492,432,68,505,444,75,Finisher,2605
+Adil,Nuralin,Adil Nuralin,460,M35-39,Male,Astana,Astana,Kazakhstan,KZ,1:18:09,6:13:34,4:31:55,,,12:17:11,4689,22414,16315,460,352,44231,506,445,104,403,341,77,537,470,108,506,445,104,Finisher,2562
+Pavel,Kozõrev,Pavel Kozõrev,326,M30-34,Male,Tallinn,Harjumaa,Estonia,EE,1:21:22,6:03:07,4:45:00,,,12:17:16,4882,21787,17100,296,171,44236,507,446,76,480,410,72,490,430,67,507,446,76,Finisher,2600
+Susanne,Boström,Susanne Boström,289,F30-34,Female,Espoo,Uusimaa,Aland Islands,AX,1:17:23,5:43:29,5:03:46,,,12:17:18,4643,20609,18226,329,432,44238,508,62,11,390,61,11,374,35,5,508,62,11,Finisher,2977
+David,Creedon,David Creedon,663,M45-49,Male,midleton,co cork,Ireland,IE,1:30:02,5:42:35,4:57:30,,,12:18:17,5402,20555,17850,256,234,44297,509,447,80,625,537,94,433,391,71,509,447,80,Finisher,2934
+Michael,Gräfe,Michael Gräfe,896,M45-49,Male,Haugesund,,Germany,DE,1:15:47,5:39:19,5:17:52,,,12:19:02,4547,20359,19072,234,130,44342,510,448,81,351,297,53,336,306,53,510,448,81,Finisher,2925
+Manfung,Mak,Manfung Mak,904,M45-49,Male,Guangzhou,Guangdong,Hong Kong,HK,1:35:21,5:56:42,4:25:38,,,12:19:16,5721,21402,15938,765,530,44356,511,449,82,690,588,104,559,491,89,511,449,82,Finisher,2922
+Aleksander,Batoryna,Aleksander Batoryna,922,M35-39,Male,będzin,śląskie,Poland,PL,1:14:32,6:24:07,4:32:06,,,12:19:32,4472,23047,16326,276,252,44372,512,450,105,319,272,58,551,483,111,512,450,105,Finisher,2534
+Ivo,Stolfot,Ivo Stolfot,626,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,1:22:45,6:01:27,4:35:45,,,12:19:33,4965,21687,16545,753,425,44373,513,451,100,513,439,87,520,456,100,513,451,100,Finisher,2484
+Oleg,Aristov,Oleg Aristov,62,M40-44,Male,Kaliningrad,Kaliningrad,Russia,RU,1:19:32,6:14:32,4:35:45,,,12:20:28,4772,22472,16545,351,289,44428,514,452,101,441,375,77,539,472,102,514,452,101,Finisher,2473
+Polina,Cachovskaja,Polina Cachovskaja,290,F30-34,Female,Vilnius,Vilnius,Lithuania,LT,1:37:07,6:18:26,4:16:51,,,12:21:08,5827,22706,15411,348,175,44468,515,63,12,702,105,16,607,79,13,515,63,12,Finisher,2931
+Andrew,Taylor,Andrew Taylor,897,M35-39,Male,Blaxton,South Yorkshire,United Kingdom,GB,1:04:56,5:49:35,5:16:54,,,12:21:12,3896,20975,19014,290,297,44472,516,453,106,110,94,24,340,310,73,516,453,106,Finisher,2514
+Serhii,Vichev,Serhii Vichev,378,M30-34,Male,Kyiv,Kyiv,Ukraine,UA,1:19:25,6:19:54,4:29:27,,,12:21:15,4765,22794,16167,361,388,44475,517,454,77,439,373,64,561,493,79,517,454,77,Finisher,2552
+Karen,Lynch,Karen Lynch,173,F40-44,Female,Doncaster,SYK,United Kingdom,GB,1:16:33,5:52:55,5:02:01,,,12:21:18,4593,21175,18121,299,290,44478,518,64,10,367,57,5,420,42,4,518,64,10,Finisher,3444
+Radmir,Gazizov,Radmir Gazizov,304,M30-34,Male,Moscow,Central Federal District,Russia,RU,1:25:57,6:28:54,4:15:37,,,12:22:11,5157,23334,15337,426,277,44531,519,455,78,574,494,85,611,532,85,519,455,78,Finisher,2541
+Simon,Jormelin,Simon Jormelin,559,M40-44,Male,ÅBY,,Sweden,SE,1:46:13,6:00:27,4:15:58,,,12:22:34,6373,21627,15358,632,564,44554,520,456,102,751,637,123,592,520,109,520,456,102,Finisher,2447
+Are,Tallmeister,Are Tallmeister,273,M25-29,Male,Peetrimõisa küla,foreigner,Estonia,EE,1:21:05,6:13:25,4:28:41,,,12:22:51,4865,22405,16121,650,529,44571,521,457,29,474,405,31,562,494,34,521,457,29,Finisher,2084
+Keith,Holmes,Keith Holmes,844,M55-59,Male,dublin,Dublin,Ireland,IE,1:09:35,5:57:28,5:07:02,,,12:22:57,4175,21448,18422,284,249,44577,522,458,17,206,180,6,408,369,12,522,458,17,Finisher,3115
+Emma,Edworthy,Emma Edworthy,73,F45-49,Female,Barry,Vale of Glamorgan,United Kingdom,GB,1:12:46,5:41:15,5:18:25,,,12:23:09,4366,20475,19105,371,271,44589,523,65,10,275,38,9,348,32,5,523,65,10,Finisher,3539
+Ville,Kostiainen,Ville Kostiainen,429,M35-39,Male,Pyhtää,KYMMENEDALEN,Finland,FI,1:46:41,6:10:26,4:16:33,,,12:23:29,6401,22226,15393,409,180,44609,524,459,107,752,638,142,619,538,122,524,459,107,Finisher,2486
+Karl Kristofer,Kurruk,Karl Kristofer Kurruk,171,M25-29,Male,Tartu,Tartu,Estonia,EE,1:13:38,6:14:30,4:43:38,,,12:23:41,4418,22470,17018,322,394,44621,525,460,30,296,255,20,505,443,32,525,460,30,Finisher,2074
+Katja,Remes,Katja Remes,704,F45-49,Female,Vantaa,Vantaa,Finland,FI,1:15:34,6:31:21,4:24:00,,,12:23:49,4534,23481,15840,410,364,44629,526,66,11,345,53,11,583,70,12,526,66,11,Finisher,3531
+Alar,Siemann,Alar Siemann,748,M45-49,Male,Türi,Järva,Estonia,EE,1:23:08,6:07:37,4:43:17,,,12:24:13,4988,22057,16997,378,232,44653,527,461,83,524,449,75,524,459,82,527,461,83,Finisher,2862
+Joel,Larsson,Joel Larsson,908,M25-29,Male,Stockholm,,Sweden,SE,1:18:20,6:05:48,4:42:44,,,12:24:42,4700,21948,16964,515,554,44682,528,462,31,409,347,26,502,440,31,528,462,31,Finisher,2062
+Mikko,Keränen,Mikko Keränen,570,M40-44,Male,Lempäälä,Finland,Finland,FI,1:14:48,5:56:22,5:03:34,,,12:25:03,4488,21382,18214,392,226,44703,529,463,103,327,279,56,440,394,90,529,463,103,Finisher,2418
+Juha,Viita,Juha Viita,831,M50-54,Male,Seinäjoki,Etelä-Pohjanmaa,Finland,FI,1:24:22,6:10:51,4:41:05,,,12:25:33,5062,22251,16865,370,185,44733,530,464,36,551,473,42,547,479,40,530,464,36,Finisher,2861
+Oleksandr,Kutin,Oleksandr Kutin,701,M45-49,Male,Kharkiv,Kharkiv Oblast,Ukraine,UA,1:32:46,5:54:06,4:44:18,,,12:25:53,5566,21246,17058,503,381,44753,531,465,84,659,565,102,513,450,79,531,465,84,Finisher,2842
+Kairi,Ustav,Kairi Ustav,206,F40-44,Female,Luunja vald,TARTUMAA,Estonia,EE,1:30:47,6:27:42,4:19:58,,,12:26:22,5447,23262,15598,296,179,44782,532,67,11,637,89,11,615,80,11,532,67,11,Finisher,3383
+Oleksandr,Skolozhabskyy,Oleksandr Skolozhabskyy,625,M40-44,Male,Johvi,Ida Virumaa,Estonia,EE,1:40:51,5:47:54,4:42:39,,,12:26:47,6051,20874,16959,576,347,44807,533,466,104,724,615,120,531,465,101,533,466,104,Finisher,2397
+Aleksei,Pirogov,Aleksei Pirogov,345,M30-34,Male,Bishkek,Bishkek,Kyrgyzstan,KG,1:18:24,6:28:25,4:25:59,,,12:27:02,4704,23305,15959,555,297,44822,534,467,79,411,349,61,586,515,82,534,467,79,Finisher,2483
+Carina,Moeller - San Pedro,Carina Moeller - San Pedro,850,F55-59,Female,"Hillerød
+Hilleroed",,Denmark,DK,1:19:03,5:52:49,5:04:44,,,12:27:30,4743,21169,18284,355,300,44850,535,68,1,428,64,1,441,47,1,535,68,1,Finisher,5000
+Vitaliy,Trenkenshu,Vitaliy Trenkenshu,201,M30-34,Male,Astana,Astana,Kazakhstan,KZ,1:20:00,6:13:02,4:43:11,,,12:28:04,4800,22382,16991,297,415,44884,536,468,80,454,387,68,530,464,73,536,468,80,Finisher,2470
+Lee,Jenkins,Lee Jenkins,687,M45-49,Male,grays,essex,United Kingdom,GB,1:26:34,6:23:39,4:26:59,,,12:28:55,5194,23019,16019,488,215,44935,537,469,85,585,505,87,596,523,97,537,469,85,Finisher,2806
+Priit,Robas,Priit Robas,236,M18-24,Male,Viimsi,Harjumaa,Estonia,EE,1:05:15,6:15:35,4:55:09,,,12:29:03,3915,22535,17709,473,311,44943,538,470,4,114,97,2,485,425,3,538,470,4,Finisher,3070
+Priit,Vendik,Priit Vendik,375,M30-34,Male,Tallinn   ,Harju,Estonia,EE,1:17:12,5:58:41,5:06:36,,,12:29:48,4632,21521,18396,298,141,44988,539,471,81,385,326,57,454,404,66,539,471,81,Finisher,2449
+Sergei,Pavlovskii,Sergei Pavlovskii,609,M40-44,Male,KALININGRAD,,Russia,RU,1:24:10,6:14:20,4:33:01,,,12:29:50,5050,22460,16381,559,540,44990,540,472,105,544,467,93,566,498,104,540,472,105,Finisher,2360
+Jeffery,Deslich,Jeffery Deslich,863,M60-64,Male,Campbell,CA,United States,US,1:23:08,5:57:09,4:54:04,,,12:30:23,4988,21429,17644,551,410,45023,541,473,5,523,448,5,491,431,6,541,473,5,Finisher,3448
+Vitali,Svab,Vitali Svab,493,M35-39,Male,Chisinau,Chisinau,Moldova,MD,1:22:53,6:47:04,4:06:19,,,12:30:56,4973,24424,14779,609,271,45056,542,474,108,518,443,101,668,578,129,542,474,108,Finisher,2397
+Torbjörn,Funke,Torbjörn Funke,673,M45-49,,Upplands Väsby,Stockholm,Sweden,SE,1:03:37,5:41:05,5:36:19,,,12:31:28,3817,20465,20179,330,297,45088,543,475,86,89,74,11,287,261,45,543,475,86,Finisher,2775
+Anto,Ohara,Anto Ohara,726,F45-49,Female,Tenby,PEMBROKESHIRE [SIR BENFRO GB-BNF],Ireland,IE,1:32:08,6:15:58,4:34:16,,,12:32:13,5528,22558,16456,378,212,45133,544,69,12,652,92,19,584,71,13,544,69,12,Finisher,3431
+William,Slynn,William Slynn,238,M18-24,Male,London,,United Kingdom,GB,1:26:48,6:30:39,4:23:38,,,12:33:03,5208,23439,15818,464,254,45183,545,476,5,590,510,7,623,541,6,545,476,5,Finisher,3022
+Anu,Roininen,Anu Roininen,190,F50-54,Female,Järvenpää,Finland,Finland,FI,1:35:01,6:16:51,4:28:01,,,12:33:18,5701,22611,16081,442,364,45198,546,70,6,687,100,11,600,76,9,546,70,6,Finisher,3507
+Marjo,Kekki,Marjo Kekki,791,F50-54,Female,Helsinki,helsinki,Finland,FI,1:26:57,6:23:23,4:29:39,,,12:33:35,5217,23003,16179,519,297,45215,547,71,7,594,82,10,598,74,8,547,71,7,Finisher,3504
+Pawel,Lisowski,Pawel Lisowski,712,M45-49,Male,Warsaw,,Poland,PL,1:23:49,6:09:36,4:50:17,,,12:34:03,5029,22176,17417,463,159,45243,548,477,87,536,460,80,545,477,86,548,477,87,Finisher,2744
+Irek,Mirowski,Irek Mirowski,720,M45-49,Male,Bobrowiec,mazowieckie,Poland,PL,1:18:48,6:07:46,4:51:29,,,12:34:15,4728,22066,17489,553,419,45255,549,478,88,422,359,62,518,454,81,549,478,88,Finisher,2742
+Marsha,Jenkins,Marsha Jenkins,688,F45-49,Female,Hertford Heath,UK,United Kingdom,GB,1:09:03,6:21:03,4:51:48,,,12:34:24,4143,22863,17508,428,322,45264,550,72,13,193,25,3,525,66,11,550,72,13,Finisher,3404
+Riikka,Harjula,Riikka Harjula,154,F55-59,Female,Helsinki,Helsinki,Finland,FI,1:25:11,6:20:27,4:35:31,,,12:34:59,5111,22827,16531,390,442,45299,551,73,2,565,80,2,577,69,2,551,73,2,Finisher,4910
+Viktor,Shevchuk,Viktor Shevchuk,483,M35-39,Male,,,Ukraine,UA,1:31:04,6:40:50,4:10:52,,,12:35:00,5464,24050,15052,506,227,45300,552,479,109,642,553,123,671,581,130,552,479,109,Finisher,2348
+Raido,Roben,Raido Roben,265,M25-29,Male,Tallinn,Harju,Estonia,EE,1:18:00,5:48:07,5:08:53,,,12:35:03,4680,20887,18533,616,587,45303,553,480,32,399,337,25,428,386,26,553,480,32,Finisher,1938
+David,Chandler,David Chandler,837,M55-59,Male,Dundrum,Dublin,Ireland,IE,1:23:51,5:51:29,5:08:15,,,12:35:38,5031,21089,18495,346,376,45338,554,481,18,538,461,17,455,405,16,554,481,18,Finisher,2963
+Aivar,Tugedam,Aivar Tugedam,509,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:25:59,6:05:54,4:50:16,,,12:35:45,5159,21954,17416,308,507,45345,555,482,110,576,496,112,523,458,104,555,482,110,Finisher,2339
+Kalevi,Saarela,Kalevi Saarela,620,M40-44,Male,Helsinki,Finland,Finland,FI,1:16:00,6:28:31,4:31:14,,,12:36:24,4560,23311,16274,714,525,45384,556,483,106,356,302,63,589,518,108,556,483,106,Finisher,2281
+Tanel,Kangur,Tanel Kangur,254,M25-29,Male,Tallinn,Estonia,Estonia,EE,1:30:15,6:32:29,4:23:20,,,12:37:05,5415,23549,15800,406,255,45425,557,484,33,628,540,41,632,549,38,557,484,33,Finisher,1913
+Андрій,Пелех,Андрій Пелех,467,M35-39,Male,Ternopil,Ternopil Oblast,Ukraine,UA,1:22:17,7:11:45,3:42:49,,,12:37:53,4937,25905,13369,818,444,45473,558,485,111,503,429,97,734,628,143,558,485,111,Finisher,2313
+Erik,Bauman,Erik Bauman,393,M35-39,Male,Tallinn,Mustamäe,Estonia,EE,1:19:46,6:02:54,5:04:01,,,12:38:57,4786,21774,18241,331,404,45537,559,486,112,448,382,87,483,423,98,559,486,112,Finisher,2301
+Leonid,Bondarchuk,Leonid Bondarchuk,654,M45-49,Male,Harku,Harju maakond,Russia,RU,1:23:16,6:02:29,4:53:50,,,12:39:00,4996,21749,17630,526,638,45540,560,487,89,527,452,77,509,447,76,560,487,89,Finisher,2685
+Johannes,Kupiainen,Johannes Kupiainen,328,M30-34,Male,Helsinki,Finland,Finland,FI,1:13:31,6:39:32,4:33:25,,,12:39:45,4411,23972,16405,557,241,45585,561,488,82,292,252,49,612,533,86,561,488,82,Finisher,2330
+Ioan,Dunca,Ioan Dunca,407,M35-39,Male,Flyinge,finland,Finland,FI,1:33:39,6:19:05,4:28:58,,,12:40:22,5619,22745,16138,641,479,45622,562,489,113,673,577,131,616,536,121,562,489,113,Finisher,2284
+Katie,Dumford,Katie Dumford,669,F45-49,Female,Hardeeville,SC,United States,US,1:02:21,6:18:56,5:10:41,,,12:40:28,3741,22736,18641,253,257,45628,563,74,14,78,14,1,473,57,10,563,74,14,Finisher,3332
+Carlos,Pereira,Carlos Pereira,813,M50-54,Male,Porto,Porto,Portugal,PT,1:18:12,6:36:23,4:30:40,,,12:41:05,4692,23783,16240,667,283,45665,564,490,37,406,344,33,625,543,49,564,490,37,Finisher,2675
+Urmas,Rebane,Urmas Rebane,739,M45-49,Male,Tallinn,Eesti,Estonia,EE,1:30:45,6:02:05,4:52:52,,,12:41:14,5445,21725,17572,614,319,45674,565,491,90,636,548,99,550,482,87,565,491,90,Finisher,2658
+Cosmin,Lancea,Cosmin Lancea,436,M35-39,Male,Dumbravita,Timis,Romania,RO,1:18:05,6:22:33,4:47:11,,,12:41:59,4685,22953,17231,527,323,45719,566,492,114,402,340,76,572,504,113,566,492,114,Finisher,2264
+Feike,Dik,Feike Dik,667,M45-49,Male,Berg,,Netherlands,NL,1:30:09,6:01:24,4:57:09,,,12:42:23,5409,21684,17829,560,261,45743,567,493,91,626,538,95,544,476,85,567,493,91,Finisher,2644
+Hugo,Pinto,Hugo Pinto,470,M35-39,Male,Helsinki,State,Portugal,PT,1:47:25,6:24:26,4:13:32,,,12:42:35,6445,23066,15212,610,422,45755,568,494,115,754,640,143,674,583,131,568,494,115,Finisher,2257
+Tanel,Lettermo,Tanel Lettermo,441,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:20:50,6:24:04,4:47:02,,,12:42:55,4850,23044,17222,452,206,45775,569,495,116,469,400,90,578,509,115,569,495,116,Finisher,2253
+Janne,Kuokkanen,Janne Kuokkanen,700,M45-49,Male,Lahti,EGENTLIGA TAVASTLAND,Finland,FI,1:30:41,6:09:38,4:49:31,,,12:42:57,5441,22178,17371,483,304,45777,570,496,92,633,545,98,568,500,92,570,496,92,Finisher,2638
+Andrea,Rubio,Andrea Rubio,118,M40-44,Male,Erlenbach,,Italy,IT,1:19:07,5:32:40,5:43:23,,,12:43:00,4747,19960,20603,328,142,45780,571,497,107,430,366,75,327,297,65,571,497,107,Finisher,2202
+Stina,Metsis,Stina Metsis,455,F35-39,Female,Lagedi,Rae vald,Estonia,EE,1:35:13,6:21:54,4:34:09,,,12:43:51,5713,22914,16449,517,238,45831,572,75,15,689,102,22,626,83,17,572,75,15,Finisher,2731
+Karen,Wright,Karen Wright,381,F30-34,Female,Knowl Hill,Berks,United Kingdom,GB,1:13:52,6:04:22,5:14:51,,,12:45:12,4432,21862,18891,397,330,45912,573,76,13,304,45,7,470,56,11,573,76,13,Finisher,2642
+ZHENSHAN,ZHANG,ZHENSHAN ZHANG,753,M45-49,Male,西城区,北京市,China,CN,1:23:15,6:25:10,4:31:07,,,12:45:14,4995,23110,16267,1083,459,45914,574,498,93,526,451,76,627,544,100,574,498,93,Finisher,2610
+Valentin,Osipov,Valentin Osipov,463,M35-39,Male,smolensk,,Russia,RU,1:21:58,6:34:37,4:39:44,,,12:45:17,4918,23677,16784,278,260,45917,575,499,117,492,420,93,605,527,120,575,499,117,Finisher,2225
+Cristian,Gruia,Cristian Gruia,679,M45-49,Male,Voluntari,Ilfov,Romania,RO,1:27:08,6:01:02,4:59:57,,,12:46:19,5228,21662,17997,575,517,45979,576,500,94,597,514,88,528,462,83,576,500,94,Finisher,2597
+Kristopher,Smalley,Kristopher Smalley,488,M35-39,Male,Ripon,North Yorkshire,United Kingdom,GB,1:25:25,6:03:08,5:04:52,,,12:47:31,5125,21788,18292,462,384,46051,577,501,118,566,486,109,519,455,103,577,501,118,Finisher,2198
+Linda,Eden,Linda Eden,817,F50-54,Female,,,South Africa,ZA,1:14:55,6:08:18,5:17:03,,,12:48:01,4495,22098,19023,266,200,46081,578,77,8,331,49,3,482,60,4,578,77,8,Finisher,3330
+Renny,Ling,Renny Ling,711,M45-49,Male,New Taipei City,TAIWAN,Taiwan,TW,1:20:46,6:31:55,4:40:52,,,12:48:54,4846,23515,16852,554,367,46134,579,502,95,467,399,67,610,531,99,579,502,95,Finisher,2566
+Juhani,Junnilainen,Juhani Junnilainen,560,M40-44,Male,Joensuu,.,Finland,FI,1:24:49,5:39:19,5:37:36,,,12:49:13,5089,20359,20256,283,166,46153,580,503,108,561,483,98,388,353,81,580,503,108,Finisher,2128
+Ryan,Ross,Ryan Ross,351,M30-34,Male,Mendham,NJ,United States,US,1:22:04,6:03:35,5:10:01,,,12:49:38,4924,21815,18601,381,458,46178,581,504,83,495,423,75,498,437,70,581,504,83,Finisher,2211
+Juho,Annala,Juho Annala,388,M35-39,Male,Lapua,Etelä-pohjanmaa,Finland,FI,1:15:08,5:56:33,5:26:41,,,12:49:44,4508,21393,19601,370,311,46184,582,505,119,335,285,62,442,395,87,582,505,119,Finisher,2171
+Tomasz,Chodkiewicz,Tomasz Chodkiewicz,662,M45-49,Male,Warszawa,,Poland,PL,1:38:42,6:37:32,4:26:12,,,12:49:58,5922,23852,15972,233,219,46198,583,506,96,710,604,107,667,577,105,583,506,96,Finisher,2553
+Dora,De Niet-Kemecsei,Dora De Niet-Kemecsei,427,F35-39,Female,Rijswijk,,Hungary,HU,1:07:09,6:15:35,5:19:58,,,12:50:05,4029,22535,19198,282,162,46205,584,78,16,148,21,6,481,59,14,584,78,16,Finisher,2657
+Taavi,Ilp,Taavi Ilp,419,M35-39,Male,Otepää,Valga maakond,Estonia,EE,1:33:29,7:00:49,3:59:35,,,12:50:15,5609,25249,14375,741,242,46215,585,507,120,671,575,129,733,627,142,585,507,120,Finisher,2165
+Jean-Yves,Foltzer,Jean-Yves Foltzer,840,M55-59,Male,VILLERS-les-Nancy,,France,FR,1:26:14,5:50:10,5:12:43,,,12:51:33,5174,21010,18763,608,737,46293,586,508,19,580,500,21,475,418,18,586,508,19,Finisher,2772
+Kaarel,Viik,Kaarel Viik,899,M25-29,Male,Viimsi vald,Harjumaa,Estonia,EE,1:19:34,6:17:31,5:02:49,,,12:51:45,4774,22651,18169,427,284,46305,587,509,34,444,378,28,556,488,33,587,509,34,Finisher,1737
+John,Hoffman,John Hoffman,843,M55-59,Male,MINNETONKA,MN,United States,US,1:18:52,6:49:22,4:31:51,,,12:51:53,4732,24562,16311,286,422,46313,588,510,20,424,361,13,639,556,26,588,510,20,Finisher,2768
+Luisa,Garau,Luisa Garau,674,F45-49,Female,Brione,Brescia,Italy,IT,1:24:12,6:30:25,4:43:12,,,12:51:55,5052,23425,16992,565,280,46315,589,79,15,545,78,14,620,82,16,589,79,15,Finisher,3194
+Stephen,Cottis,Stephen Cottis,772,M50-54,Male,Maldon,Essex,United Kingdom,GB,1:24:31,5:30:32,5:38:06,,,12:52:37,5071,19832,20286,603,565,46357,590,511,38,556,478,43,371,337,31,590,511,38,Finisher,2537
+Artemijs,Rudens,Artemijs Rudens,884,M30-34,Male,Rezekne,Rezekne,Latvia,LV,1:28:13,6:46:10,4:24:18,,,12:52:46,5293,24370,15858,452,393,46366,591,512,84,604,520,90,673,582,92,591,512,84,Finisher,2174
+Evgeniy,Kotov,Evgeniy Kotov,430,M35-39,Male,Moscow,"
+Russia",Russia,RU,1:34:10,6:38:41,4:30:09,,,12:53:15,5650,23921,16209,337,278,46395,592,513,121,677,580,133,658,571,127,592,513,121,Finisher,2129
+Livian,Laaneots,Livian Laaneots,703,F45-49,Female,Tartu maakond,Kambja vald,Estonia,EE,1:26:54,6:31:38,4:44:42,,,12:53:43,5214,23498,17082,299,331,46423,593,80,16,591,81,16,617,81,15,593,80,16,Finisher,3173
+Almas,Sakenov,Almas Sakenov,354,M30-34,Male,Astana,Astana,Kazakhstan,KZ,1:39:10,6:43:42,4:12:21,,,12:54:01,5950,24222,15141,473,655,46441,594,514,85,713,606,97,696,598,95,594,514,85,Finisher,2159
+Garith,Brown,Garith Brown,925,M50-54,Male,Tring,,United Kingdom,GB,1:08:44,5:48:01,5:44:00,,,12:54:37,4124,20881,20640,450,382,46477,595,515,39,181,157,16,368,334,30,595,515,39,Finisher,2513
+Tzong-Sheng,Chiou,Tzong-Sheng Chiou,142,M55-59,Male,New Taipei City,New Taipei City,Taiwan,TW,1:31:55,6:25:06,4:31:57,,,12:55:11,5515,23106,16317,960,612,46511,596,516,21,650,559,26,640,557,27,596,516,21,Finisher,2728
+Alexandra,Volkova,Alexandra Volkova,518,F35-39,Female,València,,Russia,RU,1:16:34,7:08:24,4:16:15,,,12:55:29,4594,25704,15375,458,397,46529,597,81,17,369,58,17,697,99,24,597,81,17,Finisher,2592
+Yurii,Zhuravel,Yurii Zhuravel,500,M35-39,Male,Kyiv,foreigner,Ukraine,UA,1:29:56,6:49:22,4:19:01,,,12:56:01,5396,24562,15541,594,466,46561,598,517,122,624,536,120,693,596,134,598,517,122,Finisher,2096
+Eiko,Hibino,Eiko Hibino,313,F30-34,Female,Shinagawa,Tokyo,Japan,JP,1:17:22,7:10:22,4:18:23,,,12:56:25,4642,25822,15503,469,149,46585,599,82,14,388,60,10,704,101,15,599,82,14,Finisher,2508
+Bartas,Mikaila,Bartas Mikaila,600,M40-44,Male,Vilnius,Vilnius,Lithuania,LT,1:20:08,6:29:09,4:49:25,,,12:56:46,4808,23349,17365,719,365,46606,600,518,109,458,390,81,606,528,111,600,518,109,Finisher,2037
+Tony,Monto,Tony Monto,721,M45-49,Male,Vantaa,Uusimaa,Finland,FI,1:21:37,6:27:13,4:51:49,,,12:57:47,4897,23233,17509,601,427,46667,601,519,97,488,417,68,597,524,98,601,519,97,Finisher,2460
+Mikko M.M,Mäkela,Mikko M.M Mäkela,810,M50-54,Male,Espoo,Uusimaa,Finland,FI,1:28:27,6:12:22,4:59:14,,,12:58:10,5307,22342,17954,465,621,46690,602,520,40,607,523,47,570,502,44,602,520,40,Finisher,2470
+Kim,Quarnström,Kim Quarnström,186,M35-39,Male,Lomma,,Sweden,SE,1:21:36,6:31:37,4:51:56,,,12:58:22,4896,23497,17516,433,359,46702,603,521,123,486,415,92,602,526,119,603,521,123,Finisher,2068
+Hannes,Hermaküla,Hannes Hermaküla,901,M50-54,Male,Tallinn,Estonia,Estonia,EE,1:26:14,6:03:37,4:58:36,,,12:58:24,5174,21817,17916,857,940,46704,604,522,41,578,498,45,554,486,42,604,522,41,Finisher,2467
+Joe,Timms,Joe Timms,366,M30-34,Male,Bristol,Bristol,United Kingdom,GB,1:43:57,6:45:21,4:13:41,,,12:58:26,6237,24321,15221,535,393,46706,605,523,86,741,628,98,713,610,96,605,523,86,Finisher,2106
+Andrian,Erema,Andrian Erema,838,M55-59,Male,Tyumen,,Russia,RU,1:26:05,6:53:49,4:23:04,,,12:59:03,5165,24829,15784,492,472,46743,606,524,22,577,497,20,690,593,29,606,524,22,Finisher,2682
+Yi,Wu,Yi Wu,280,M25-29,Male,北京,Beijing,China,CN,1:04:26,6:10:35,5:29:09,,,12:59:17,3866,22235,19749,511,397,46757,607,525,35,105,89,11,464,410,27,607,525,35,Finisher,1647
+Roman,Zavgorodniy,Roman Zavgorodniy,628,M40-44,Male,Ноябрьск,"Ямало-Ненецкий автономный округ
+russia",Russia,RU,1:20:24,6:46:43,4:37:03,,,12:59:28,4824,24403,16623,441,477,46768,608,526,110,464,396,82,646,563,114,608,526,110,Finisher,2005
+Torng-I,Pan,Torng-I Pan,181,M50-54,Male,台北市,台北市,Taiwan,TW,1:30:41,6:22:56,4:45:41,,,13:00:24,5441,22976,17141,709,557,46824,609,527,42,634,546,50,624,542,48,609,527,42,Finisher,2443
+Ben,Thorne,Ben Thorne,365,M30-34,Male,Helmdon,Northants,United Kingdom,GB,1:23:31,6:36:17,4:48:01,,,13:01:51,5011,23777,17281,629,213,46911,610,528,87,531,456,80,633,550,88,610,528,87,Finisher,2065
+Edgars,Peics,Edgars Peics,610,M40-44,Male,Riga,Riga,Latvia,LV,2:07:59,6:11:30,4:26:50,,,13:02:25,7679,22290,16010,534,432,46945,611,529,111,788,665,127,691,594,118,611,529,111,Finisher,1969
+Eamonn,Foley,Eamonn Foley,672,M45-49,Male,abbeyfeale,limerick,Ireland,IE,1:58:03,5:47:35,4:59:31,,,13:02:39,7083,20855,17971,692,358,46959,612,530,98,781,659,117,591,519,96,612,530,98,Finisher,2401
+Jani,Salonen,Jani Salonen,482,M35-39,Male,Lapua,Etelä-Pohjanmaa,Finland,FI,1:22:29,5:59:44,5:28:19,,,13:03:02,4949,21584,19699,371,379,46982,613,531,124,506,432,98,484,424,99,613,531,124,Finisher,2012
+Mohammed Youssef,Amor,Mohammed Youssef Amor,767,M50-54,Male,RABAT,MAROC,Morocco,MA,1:28:54,6:18:02,5:01:14,,,13:03:07,5334,22682,18074,633,264,46987,614,532,43,612,526,48,593,521,46,614,532,43,Finisher,2411
+Samu,Helin,Samu Helin,554,M40-44,Male,Espoo,Finland,Finland,FI,1:32:30,6:09:50,5:01:42,,,13:04:07,5550,22190,18102,502,703,47047,615,533,112,656,563,110,575,507,106,615,533,112,Finisher,1949
+Gabriella,Guidotti,Gabriella Guidotti,779,F50-54,Female,Pantigliate,Pantigliate,Italy,IT,1:39:07,6:30:22,4:40:33,,,13:04:38,5947,23422,16833,534,342,47078,616,83,9,712,107,12,657,87,12,616,83,9,Finisher,3131
+Michael,Oppland,Michael Oppland,461,M35-39,Male,Lahti,Päijät-Häme,United States,US,1:31:44,6:34:49,4:46:50,,,13:05:30,5504,23689,17210,457,271,47130,617,534,125,648,557,125,644,561,125,617,534,125,Finisher,1982
+Thomas,Marschall,Thomas Marschall,799,M50-54,Male,Mainaschaff,,Germany,DE,1:15:28,5:52:52,5:42:55,,,13:06:40,4528,21172,20575,584,342,47200,618,535,44,343,291,29,444,397,37,618,535,44,Finisher,2368
+Avo,Kirsipuu,Avo Kirsipuu,792,M50-54,Male,"Viti küla, Harku vald",Harjumaa,Estonia,EE,1:31:59,5:57:48,5:20:42,,,13:07:20,5519,21468,19242,534,477,47240,619,536,45,651,560,51,534,468,39,619,536,45,Finisher,2360
+Andrew,Whiles,Andrew Whiles,830,M50-54,Male,Rotherfield,East Sussex,United Kingdom,GB,1:25:04,6:13:43,5:05:47,,,13:07:25,5104,22423,18347,821,549,47245,620,537,46,564,485,44,579,510,45,620,537,46,Finisher,2359
+Teemu,Kovanen,Teemu Kovanen,327,M30-34,Male,Vantaa,Uusimaa,Finland,FI,1:22:05,6:43:34,4:44:56,,,13:08:04,4925,24214,17096,636,413,47284,621,538,88,496,424,76,651,566,89,621,538,88,Finisher,1990
+Harri,Luhtanen,Harri Luhtanen,798,M50-54,Male,HELSINKI,Helsinki,Finland,FI,1:20:24,5:36:35,5:58:35,,,13:08:30,4824,20195,21515,413,362,47310,622,539,47,465,397,36,366,332,28,622,539,47,Finisher,2346
+Sergei,Rif,Sergei Rif,476,M35-39,Male,Samara,"Samarskaya obl
+",Russia,RU,1:30:16,6:35:47,4:43:40,,,13:08:49,5416,23747,17020,654,492,47329,623,540,126,629,541,121,654,568,126,623,540,126,Finisher,1942
+Saimon,Moondu,Saimon Moondu,915,M18-24,Male,Tallinn,Harjumaa,Estonia,EE,1:10:30,6:16:28,5:27:36,,,13:08:50,4230,22588,19656,416,440,47330,624,541,6,226,197,4,507,445,4,624,541,6,Finisher,2592
+Takashi,Matsuyama,Takashi Matsuyama,338,M30-34,Male,Shibuya,Wisconsin,Japan,JP,1:38:27,6:50:01,3:48:01,,,13:09:45,5907,24601,13681,1920,1275,47385,625,542,89,709,603,96,752,640,99,625,542,89,Finisher,1970
+Margus,Lepik,Margus Lepik,795,M50-54,Male,Valga,VALGAMAA,Estonia,EE,1:23:14,6:44:26,4:48:57,,,13:10:52,4994,24266,17337,568,287,47452,626,543,48,525,450,41,656,570,50,626,543,48,Finisher,2318
+Uku,Vernik,Uku Vernik,276,M25-29,Male,Tartu,Tartumaa,Estonia,EE,1:26:39,5:54:34,5:36:59,,,13:11:37,5199,21274,20219,339,465,47497,627,544,36,589,509,39,478,421,29,627,544,36,Finisher,1499
+Samuel,Parsley,Samuel Parsley,608,M40-44,Male,Reading,Berkshire,United Kingdom,GB,1:31:47,6:29:21,4:54:29,,,13:11:52,5507,23361,17669,554,421,47512,628,545,113,649,558,109,634,551,113,628,545,113,Finisher,1856
+Rhys,Thomas,Rhys Thomas,363,M30-34,Male,,,United Kingdom,GB,1:21:04,6:34:05,5:04:24,,,13:12:35,4864,23645,18264,374,409,47555,629,546,90,473,404,70,608,529,83,629,546,90,Finisher,1936
+Antti,Jokiniitty,Antti Jokiniitty,421,M35-39,Male,Tampere,,Finland,FI,1:35:36,5:58:37,5:30:29,,,13:13:31,5736,21517,19829,307,223,47611,630,547,127,693,590,134,535,469,107,630,547,127,Finisher,1886
+Jouni,Sotejeff,Jouni Sotejeff,270,M25-29,Male,Tampere,Pirkanmaa,Finland,FI,1:20:22,6:28:14,5:02:27,,,13:13:59,4822,23294,18147,960,415,47639,631,548,37,463,395,30,621,539,36,631,548,37,Finisher,1471
+Michael,Morgan,Michael Morgan,457,M35-39,Male,Connah’s Quay,Flintshire,United Kingdom,GB,1:48:17,6:37:15,4:36:30,,,13:14:56,6497,23835,16590,442,331,47696,632,549,128,761,643,144,698,599,136,632,549,128,Finisher,1869
+Jake,Benson,Jake Benson,286,M30-34,Male,Cheadle,,United Kingdom,GB,1:22:51,6:15:42,5:28:12,,,13:15:18,4971,22542,19692,347,165,47718,633,550,91,516,442,78,557,489,78,633,550,91,Finisher,1903
+Nicholas,Kelly,Nicholas Kelly,255,M25-29,Male,Wincanton,,United Kingdom,GB,1:13:58,7:02:59,4:45:32,,,13:15:27,4438,25379,17132,400,378,47727,634,551,38,307,262,21,681,586,43,634,551,38,Finisher,1453
+Oleksii,Sinitsyn,Oleksii Sinitsyn,485,M35-39,Male,Poltava,Poltava Oblast,Ukraine,UA,1:33:36,6:35:31,4:50:15,,,13:15:31,5616,23731,17415,617,352,47731,635,552,129,672,576,130,666,576,128,635,552,129,Finisher,1862
+Vera,Grünn-Oppland,Vera Grünn-Oppland,309,F30-34,Female,lahti,päijät-häme,Finland,FI,1:19:55,7:01:38,4:37:27,,,13:16:19,4795,25298,16647,468,572,47779,636,84,15,453,67,13,694,98,14,636,84,15,Finisher,2269
+Tamer,Çetin,Tamer Çetin,659,M45-49,Male,İzmir,Turkey,Turkey,TR,1:23:25,7:09:36,4:25:50,,,13:17:11,5005,25776,15950,514,586,47831,637,553,99,530,455,78,723,620,111,637,553,99,Finisher,2227
+Heather,Gould,Heather Gould,413,F35-39,Female,Belfast,,United Kingdom,GB,1:35:04,6:44:56,4:44:07,,,13:17:46,5704,24296,17047,479,340,47866,638,85,18,688,101,21,688,97,23,638,85,18,Finisher,2324
+Marcin,Kobieracki,Marcin Kobieracki,257,M25-29,Male,Warsaw,Mazovia,Poland,PL,1:39:56,6:31:04,4:43:56,,,13:18:02,5996,23464,17036,697,689,47882,639,554,39,716,608,43,677,584,42,639,554,39,Finisher,1422
+Timofei,Ershov,Timofei Ershov,410,M35-39,Male,St.Petersburg,,Russia,RU,1:11:29,6:06:36,5:49:35,,,13:18:41,4289,21996,20975,332,329,47921,640,555,130,245,214,44,465,411,92,640,555,130,Finisher,1824
+Gunnar,Franzon,Gunnar Franzon,865,M60-64,Male,Djura,,Sweden,SE,1:25:27,6:19:44,5:20:55,,,13:19:03,5127,22784,19255,464,313,47943,641,556,6,567,487,6,581,512,8,641,556,6,Finisher,2864
+Evgeny,Masko,Evgeny Masko,337,M30-34,Male,Severodvinsk,"
+Archangelsk area",Russia,RU,2:02:01,6:10:14,4:55:17,,,13:20:14,7321,22214,17717,402,360,48014,642,557,92,784,661,103,664,575,91,642,557,92,Finisher,1844
+Jari,Jukarainen,Jari Jukarainen,163,M50-54,Male,Kotka,Kotka,Finland,FI,1:20:07,6:28:51,5:16:30,,,13:20:38,4807,23331,18990,555,355,48038,643,558,49,457,389,35,594,522,47,643,558,49,Finisher,2200
+Artem,Zhuk,Artem Zhuk,885,M35-39,Male,Tumen,,Kazakhstan,KZ,2:10:52,6:17:09,4:35:20,,,13:20:44,7852,22629,16520,497,546,48044,644,559,131,789,666,149,707,605,137,644,559,131,Finisher,1799
+Andrey,Vinogradov,Andrey Vinogradov,860,M55-59,Male,MOSCOW,Central Federal District,Russia,RU,1:27:27,6:25:27,5:09:34,,,13:20:54,5247,23127,18574,706,400,48054,645,560,23,600,517,22,622,540,23,645,560,23,Finisher,2420
+Sue,Turley,Sue Turley,204,F55-59,Female,Haverhill,,United Kingdom,GB,1:32:17,6:43:19,4:52:37,,,13:22:13,5537,24199,17557,411,430,48133,646,86,3,653,93,4,675,92,5,646,86,3,Finisher,4343
+Eoin,Cremen,Eoin Cremen,293,M30-34,Male,Bath,,Ireland,IE,1:19:49,6:20:07,5:22:12,,,13:22:53,4789,22807,19332,592,654,48173,647,561,93,450,384,67,573,505,81,647,561,93,Finisher,1812
+Yuki,Tanoue,Yuki Tanoue,631,M40-44,Male,中央区佃,東京都,Japan,JP,1:06:51,6:16:18,5:44:04,,,13:22:57,4011,22578,20644,594,351,48177,648,562,114,140,120,18,503,441,97,648,562,114,Finisher,1723
+Hendrik,Canis,Hendrik Canis,770,M50-54,Male,Berlin,,Germany,DE,1:49:23,6:35:45,4:46:56,,,13:23:27,6563,23745,17216,503,180,48207,649,563,50,766,647,63,703,603,53,649,563,50,Finisher,2167
+Mairo,Kaseväli,Mairo Kaseväli,426,M35-39,Male,Tallinn,Harju maakond,Estonia,EE,1:56:03,6:33:40,4:31:21,,,13:24:02,6963,23620,16281,802,575,48242,650,564,132,778,657,147,726,621,139,650,564,132,Finisher,1760
+Sarah,Roden,Sarah Roden,741,F45-49,Female,Amesbury,Wiltshire,United Kingdom,GB,1:47:49,6:26:37,4:56:47,,,13:24:14,6469,23197,17807,519,262,48254,651,87,17,757,116,21,678,94,18,651,87,17,Finisher,2806
+Anniina,Hakkarainen,Anniina Hakkarainen,416,F35-39,Female,Espoo,Espoo,Finland,FI,1:15:08,6:54:59,5:05:18,,,13:24:25,4508,24899,18318,301,238,48265,652,88,19,334,50,13,648,84,18,652,88,19,Finisher,2245
+Julia,Hösch,Julia Hösch,907,F35-39,Female,Wien,,Austria,AT,1:33:27,6:41:47,4:55:36,,,13:26:36,5607,24107,17736,624,321,48396,653,89,20,669,96,20,685,96,22,653,89,20,Finisher,2218
+Pille,Muni,Pille Muni,919,F35-39,Female,Elva,Tartumaa,Estonia,EE,1:37:42,6:39:38,4:59:40,,,13:26:54,5862,23978,17980,355,240,48414,654,90,21,707,106,25,680,95,21,654,90,21,Finisher,2215
+Niko,Kangas,Niko Kangas,424,M35-39,Male,Helsinki,Uusimaa,Finland,FI,1:31:34,6:10:53,5:27:00,,,13:27:19,5494,22253,19620,621,451,48439,655,565,133,645,555,124,580,511,116,655,565,133,Finisher,1720
+Taina,Teileri,Taina Teileri,827,F50-54,Female,Helsinki,Helsinki,Finland,FI,1:21:41,6:26:57,5:25:34,,,13:27:33,4901,23217,19534,488,312,48453,656,91,10,490,72,7,590,72,7,656,91,10,Finisher,2856
+Aleksei,Nikulnikov,Aleksei Nikulnikov,724,M45-49,Male,Moscow,,Russia,RU,1:37:19,6:30:23,4:59:58,,,13:28:22,5839,23423,17998,751,492,48502,657,566,100,704,599,105,670,580,106,657,566,100,Finisher,2093
+Gary,Webb,Gary Webb,759,M45-49,Male,SWANSEA,WEST GLAM,United Kingdom,GB,1:26:27,5:55:12,5:53:02,,,13:28:54,5187,21312,21182,447,406,48534,658,567,101,584,504,86,487,427,73,658,567,101,Finisher,2086
+Marc,James,Marc James,420,M35-39,Male,Swansea,,United Kingdom,GB,1:25:44,6:19:04,5:28:52,,,13:31:18,5144,22744,19732,504,554,48678,659,568,134,570,490,111,582,513,117,659,568,134,Finisher,1672
+Teemu,Peltola,Teemu Peltola,731,M45-49,Male,Sauvo,Southwest Finland,Finland,FI,1:30:20,6:56:18,4:45:49,,,13:31:29,5420,24978,17149,671,471,48689,660,569,102,630,542,96,712,609,108,660,569,102,Finisher,2055
+Toshimitsu,Watanabe,Toshimitsu Watanabe,374,M30-34,Male,川崎市2-62-1,神奈川県,Japan,JP,1:24:12,6:41:41,5:08:14,,,13:32:02,5052,24101,18494,667,407,48722,661,570,94,547,469,82,655,569,90,661,570,94,Finisher,1703
+Ville,Tulkki,Ville Tulkki,511,M35-39,Male,Lappeenranta,etela-karjala,Finland,FI,1:36:23,5:44:38,5:54:29,,,13:32:54,5783,20678,21269,665,381,48774,662,571,135,698,595,135,500,438,102,662,571,135,Finisher,1653
+Ernesto,Casali,Ernesto Casali,836,M55-59,Male,Pantigliate,Pantigliate,Italy,IT,1:34:32,6:21:03,5:23:36,,,13:36:45,5672,22863,19416,656,398,49005,663,572,24,680,583,27,629,546,24,663,572,24,Finisher,2229
+Luis,Alvarez,Luis Alvarez,219,M55-59,Male,MIGUEL HIDALGO,MX-CMX,Mexico,MX,1:11:07,6:16:05,5:44:41,,,13:37:03,4267,22565,20681,819,692,49023,664,573,25,240,209,7,543,475,20,664,573,25,Finisher,2226
+Evgeniia,Lavrikova,Evgeniia Lavrikova,438,F35-39,Female,Saint-Petersburg,,Russia,RU,1:36:27,6:15:34,5:32:18,,,13:37:08,5787,22534,19938,374,395,49028,665,92,22,699,104,24,595,73,16,665,92,22,Finisher,2092
+Daniel,Lindberg,Daniel Lindberg,710,M45-49,Male,Sollentuna,,Sweden,SE,1:25:39,6:38:46,5:21:12,,,13:37:26,5139,23926,19272,408,301,49046,666,574,103,569,489,84,637,554,101,666,574,103,Finisher,1984
+Liam,Marsh,Liam Marsh,261,M25-29,Male,Sheffield,Yorkshire,United Kingdom,GB,1:35:27,6:24:11,5:26:16,,,13:37:57,5727,23051,19576,413,310,49077,667,575,40,691,589,42,628,545,37,667,575,40,Finisher,1183
+Freddy,Tints,Freddy Tints,900,M25-29,Male,Viljandi,Vilajndimaa,Estonia,EE,1:29:32,6:35:34,5:18:47,,,13:38:01,5372,23734,19127,570,279,49081,668,576,41,619,531,40,647,564,40,668,576,41,Finisher,1182
+Adnan,Ek,Adnan Ek,774,M50-54,Male,istanbul,Turkey,Turkey,TR,1:42:07,6:26:20,5:13:18,,,13:38:57,6127,23180,18798,605,426,49137,669,577,51,728,617,58,659,572,51,669,577,51,Finisher,1981
+Roberto,Lutzu,Roberto Lutzu,100,M60-64,Male,San vero Milis,Italia,Italy,IT,1:09:47,6:03:35,6:14:30,,,13:39:21,4187,21815,22470,324,365,49161,670,578,7,210,184,2,448,399,4,670,578,7,Finisher,2621
+Meelis,Kalda,Meelis Kalda,563,M40-44,Male,Tallinn,APO,Estonia,EE,1:22:08,6:30:12,5:32:54,,,13:39:35,4928,23412,19974,420,440,49175,671,579,115,497,425,86,601,525,110,671,579,115,Finisher,1523
+Villem,Kulper,Villem Kulper,916,M30-34,Male,Jüri,Harjumaa,United States,US,1:20:10,6:54:47,5:03:42,,,13:40:10,4810,24887,18222,723,568,49210,672,580,95,459,391,69,686,590,94,672,580,95,Finisher,1605
+Toomas,Kaares,Toomas Kaares,926,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,1:24:32,7:06:18,4:52:01,,,13:40:52,5072,25578,17521,602,479,49252,673,581,116,558,480,96,722,619,124,673,581,116,Finisher,1508
+Petri,Forma,Petri Forma,841,M55-59,Male,Pori,,Finland,FI,1:19:32,6:37:55,5:23:09,,,13:40:58,4772,23875,19389,712,510,49258,674,582,26,440,374,14,631,548,25,674,582,26,Finisher,2179
+Julia,Bourn,Julia Bourn,769,F50-54,Female,Maldon,essex,United Kingdom,GB,1:16:32,6:55:52,5:15:47,,,13:41:11,4592,24952,18947,380,400,49271,675,93,11,366,56,4,663,89,13,675,93,11,Finisher,2692
+Barbara,Baker,Barbara Baker,833,F55-59,Female,Hemel Hempstead,Herts,Germany,DE,1:28:48,6:40:11,5:09:39,,,13:41:21,5328,24011,18579,612,751,49281,676,94,4,611,86,3,665,90,4,676,94,4,Finisher,4113
+Jem,Blok,Jem Blok,652,M45-49,Male,Wrotham,Kent,United Kingdom,GB,1:29:13,6:56:54,4:54:20,,,13:43:05,5353,25014,17660,637,721,49385,677,583,104,613,527,90,708,606,107,677,583,104,Finisher,1916
+Minna,Ikonen,Minna Ikonen,786,F50-54,Female,Järvenpää,Uusimaa,Finland,FI,1:22:52,6:28:14,5:35:30,,,13:43:41,4972,23294,20130,592,432,49421,678,95,12,517,75,8,603,77,10,678,95,12,Finisher,2662
+Jakub,Fik,Jakub Fik,301,M30-34,Male,Krakow,,Poland,PL,1:32:17,6:45:14,5:16:51,,,13:45:20,5537,24314,19011,396,262,49520,679,584,96,654,561,92,683,588,93,679,584,96,Finisher,1543
+Heather,Brien,Heather Brien,534,F40-44,Female,San Mateo,CA,United States,US,1:32:47,6:59:58,4:56:46,,,13:45:21,5567,25198,17806,601,348,49521,680,96,12,660,95,12,724,104,12,680,96,12,Finisher,2435
+Qian,Zhang,Qian Zhang,499,F35-39,Female,保定市,河北省,China,CN,1:43:09,6:35:46,4:59:48,,,13:46:19,6189,23746,17988,1029,628,49579,681,97,23,737,112,26,705,102,26,681,97,23,Finisher,1982
+Kuno,Peek,Kuno Peek,466,M35-39,Male,Tallinn,Harjumaa,Estonia,EE,1:33:22,6:44:41,5:03:37,,,13:46:31,5602,24281,18217,708,783,49591,682,585,136,666,571,128,695,597,135,682,585,136,Finisher,1490
+Eugen,Õis,Eugen Õis,875,M65-69,Male,"Vainupea küla, Lääne - Virumaa",Lääne-Viru maakond,Estonia,EE,1:34:24,6:24:38,5:28:51,,,13:46:55,5664,23078,19731,728,414,49615,683,586,3,678,581,5,636,553,3,683,586,3,Finisher,2961
+Matthew,Mousley,Matthew Mousley,459,M35-39,Male,Derby,Derbyshire,United Kingdom,GB,1:28:28,6:34:29,5:29:49,,,13:47:21,5308,23669,19789,478,397,49641,684,587,137,608,524,117,635,552,123,684,587,137,Finisher,1480
+Marja-Liisa,Kanigan,Marja-Liisa Kanigan,845,F55-59,Female,Helsinki,,Finland,FI,1:34:36,6:31:19,5:27:03,,,13:48:37,5676,23479,19623,609,330,49717,685,98,5,682,98,6,650,85,3,685,98,5,Finisher,4026
+Fred,Kaasik,Fred Kaasik,887,M35-39,Male,Tallinn,Estonia,Estonia,EE,1:16:37,6:25:19,5:55:25,,,13:49:11,4597,23119,21325,363,347,49751,686,588,138,370,312,68,567,499,112,686,588,138,Finisher,1458
+Henri,Rästas,Henri Rästas,266,M25-29,Male,Tallinn,harjumaa,Estonia,EE,1:22:43,6:41:15,5:30:17,,,13:49:42,4963,24075,19817,608,319,49782,687,589,42,512,438,35,643,560,39,687,589,42,Finisher,1042
+Juri,Haverinen,Juri Haverinen,681,M45-49,Male,Lahti,Lahti,Finland,FI,1:40:24,5:56:29,5:57:34,,,13:49:51,6024,21389,21454,629,295,49791,688,590,105,719,610,108,563,495,91,688,590,105,Finisher,1835
+Alexander,Fedorov Li,Alexander Fedorov Li,839,M55-59,Male,UAE,Dubai,Russia,RU,1:30:49,6:02:45,5:59:25,,,13:50:09,5449,21765,21565,604,425,49809,689,591,27,638,549,24,552,484,21,689,591,27,Finisher,2069
+Guy,Liverton,Guy Liverton,99,M65-69,Male,Saint-Brice,CHARENTE,France,FR,1:32:53,6:33:32,5:33:34,,,13:52:39,5573,23612,20014,466,293,49959,690,592,4,662,567,3,645,562,4,690,592,4,Finisher,2892
+Will,Lewis,Will Lewis,589,M40-44,Male,Tenby,,United Kingdom,GB,1:13:41,7:15:22,5:12:17,,,13:53:18,4421,26122,18737,436,283,49998,691,593,117,297,256,48,706,604,122,691,593,117,Finisher,1359
+Оleg,Dulebenets,Оleg Dulebenets,864,M60-64,Male,г.С-Петербург,,Russia,RU,1:16:40,6:11:55,6:03:17,,,13:54:03,4600,22315,21797,546,785,50043,692,594,8,373,315,4,527,461,7,692,594,8,Finisher,2444
+Danian,Zhu,Danian Zhu,630,M40-44,Male,Beijing,CN-BJ,China,CN,1:24:18,6:55:49,5:19:28,,,13:56:06,5058,24949,19168,503,488,50166,693,595,118,549,471,94,692,595,119,693,595,118,Finisher,1325
+Lauri,Kikerpill,Lauri Kikerpill,572,M40-44,Male,Tartu,Tartumaa,Estonia,EE,1:51:42,7:25:02,4:17:24,,,13:56:29,6702,26702,15444,889,453,50189,694,596,119,771,651,124,777,659,130,694,596,119,Finisher,1320
+Vadim,Bondar,Vadim Bondar,532,M40-44,Male,Lubertzy,"
+Moscow Region",Russia,RU,1:34:33,6:49:28,5:15:54,,,13:56:52,5673,24568,18954,561,456,50212,695,597,120,681,584,115,702,602,121,695,597,120,Finisher,1316
+Eiichi,Ueno,Eiichi Ueno,640,M40-44,Male,"Fujieminami, Kanazawa",Ishikawa,Japan,JP,1:40:50,6:29:13,5:36:11,,,13:58:03,6050,23353,20171,512,197,50283,696,598,121,723,614,119,661,574,115,696,598,121,Finisher,1302
+Xin,Yao,Xin Yao,521,F35-39,Female,北京,beijing,China,CN,1:31:23,6:50:46,5:14:31,,,14:01:35,5483,24646,18871,656,840,50495,697,99,24,643,90,19,700,100,25,697,99,24,Finisher,1799
+Francesco,Ottonello,Francesco Ottonello,729,M45-49,Male,San Donato Milanese,Milano,Italy,IT,1:14:26,6:24:49,6:05:49,,,14:02:05,4466,23089,21949,655,366,50525,698,599,106,315,268,46,574,506,94,698,599,106,Finisher,1688
+Luther L,Hill,Luther L Hill,783,M50-54,Male,Marietta,GA,United States,US,1:45:38,6:43:00,5:16:21,,,14:03:09,6338,24180,18981,579,510,50589,699,600,52,750,636,61,714,611,54,699,600,52,Finisher,1690
+Tia,Lähde,Tia Lähde,448,F35-39,Female,Vaasa,vaasa,Finland,FI,1:35:33,6:39:51,5:33:53,,,14:05:00,5733,23991,20033,426,517,50700,700,100,25,692,103,23,676,93,20,700,100,25,Finisher,1758
+Kalev,Kruus,Kalev Kruus,583,M40-44,Male,Laagri,Harjumaa,Estonia,EE,1:42:11,6:04:44,6:00:16,,,14:05:18,6131,21884,21616,559,528,50718,701,601,122,729,618,121,587,516,107,701,601,122,Finisher,1215
+Linda,Kolmonen,Linda Kolmonen,428,F35-39,Female,Vaasa,Pohjanmaa,Finland,FI,1:16:27,6:53:25,5:33:23,,,14:05:21,4587,24805,20003,666,660,50721,702,101,26,364,55,16,672,91,19,702,101,26,Finisher,1753
+Ben,Faulkes,Ben Faulkes,546,M40-44,Male,York,,United Kingdom,GB,1:32:58,7:13:05,5:00:57,,,14:06:05,5578,25985,18057,687,457,50765,703,602,123,663,568,111,745,636,125,703,602,123,Finisher,1205
+Sander,Kahu,Sander Kahu,252,M25-29,Male,Viljandi,Eesti,Estonia,EE,1:40:41,6:46:35,5:20:20,,,14:06:14,6041,24395,19220,569,550,50774,704,603,43,720,611,44,709,607,44,704,603,43,Finisher,1000
+Ash,Tuck,Ash Tuck,368,M30-34,Male,Bristol,South Glos,United Kingdom,GB,2:06:46,6:36:24,5:10:10,,,14:06:15,7606,23784,18610,533,243,50775,705,604,97,787,664,104,739,632,97,705,604,97,Finisher,1292
+Shuyou,Dong,Shuyou Dong,543,M40-44,Male,北京,北京,China,CN,1:28:22,6:59:56,5:18:08,,,14:06:33,5302,25196,19088,747,460,50793,706,605,124,605,521,104,721,618,123,706,605,124,Finisher,1200
+Damaso,Enna,Damaso Enna,775,M50-54,Male,Baratili San Pietro,Oristano,Italy,IT,1:49:29,7:26:51,4:36:49,,,14:06:47,6569,26811,16609,506,313,50807,707,606,53,768,648,64,769,653,66,707,606,53,Finisher,1647
+Andrei,Naumov,Andrei Naumov,851,M55-59,Male,DOMODEDOVO,,Russia,RU,1:35:57,6:19:13,5:53:16,,,14:06:48,5757,22753,21196,514,588,50808,708,607,28,696,593,28,618,537,22,708,607,28,Finisher,1869
+Cristian,Palmiere,Cristian Palmiere,933,M45-49,Male,Tartegnin,,Italy,IT,1:40:45,6:57:17,5:20:20,,,14:08:59,6045,25037,19220,388,249,50939,709,608,107,721,612,109,730,625,113,709,608,107,Finisher,1605
+Kunyang,Yuan,Kunyang Yuan,383,F30-34,Female,北京,CN-BJ,China,CN,1:43:41,7:02:04,5:02:41,,,14:09:41,6221,25324,18161,801,473,50981,710,102,16,739,113,18,749,111,16,710,102,16,Finisher,1629
+Marika,Vanhatalo,Marika Vanhatalo,757,F45-49,Female,Tampere,Tampere,Finland,FI,1:28:36,7:06:00,5:23:54,,,14:10:34,5316,25560,19434,499,225,51034,711,103,18,609,85,18,725,105,19,711,103,18,Finisher,2250
+Mart,Mikkelsaar,Mart Mikkelsaar,849,M55-59,Male,Kanepi,Põlva maakond,Estonia,EE,1:42:32,6:35:27,5:38:06,,,14:11:30,6152,23727,20286,428,497,51090,712,609,29,733,622,30,684,589,28,712,609,29,Finisher,1812
+Andrey,Romanov,Andrey Romanov,909,M35-39,Male,Moscow,,Russia,RU,1:45:15,6:52:15,5:15:39,,,14:13:00,6315,24735,18939,653,537,51180,713,610,139,749,635,141,737,630,144,713,610,139,Finisher,1172
+Naomi,Hansell,Naomi Hansell,680,F45-49,Female,Wood Dalling,Norfolk,United Kingdom,GB,1:40:18,7:01:16,5:04:19,,,14:13:10,6018,25276,18259,1145,493,51190,714,104,19,718,109,20,753,113,21,714,104,19,Finisher,2219
+Peter,Buhr,Peter Buhr,140,M50-54,Male,København s,,Denmark,DK,1:52:41,6:41:25,5:26:20,,,14:13:36,6761,24085,19580,347,442,51216,715,611,54,772,652,65,717,614,56,715,611,54,Finisher,1565
+Marko,Ilvonen,Marko Ilvonen,787,M50-54,Male,Helsinki,Helsinki,Finland,FI,1:34:51,6:57:26,5:23:01,,,14:14:16,5691,25046,19381,697,442,51256,716,612,55,684,586,55,729,624,58,716,612,55,Finisher,1557
+Andrey,Lopatin,Andrey Lopatin,714,M45-49,Male,Kaliningrad,,Russia,RU,1:34:53,6:32:18,5:47:21,,,14:14:26,5693,23538,20841,512,682,51266,717,613,108,685,587,103,649,565,103,717,613,108,Finisher,1540
+Magaly Kay,Mailland,Magaly Kay Mailland,716,F45-49,Female,NICE,,France,FR,1:27:58,6:44:06,5:51:23,,,14:15:22,5278,24246,21083,394,321,51322,718,105,20,603,84,17,662,88,17,718,105,20,Finisher,2193
+Ilia,Beliaev,Ilia Beliaev,395,M35-39,Male,Saint-Petersburg,Northwestern Federal District,Russia,RU,1:38:03,7:28:29,4:48:23,,,14:15:58,5883,26909,17303,820,443,51358,719,614,140,708,602,139,763,648,146,719,614,140,Finisher,1136
+Lee ,Wardle,Lee Wardle,513,M35-39,Male,CHESHIRE,Other,United Kingdom,GB,1:23:44,7:14:15,5:26:19,,,14:16:32,5024,26055,19579,318,416,51392,720,615,141,534,458,104,727,622,140,720,615,141,Finisher,1130
+Toms,Ozols,Toms Ozols,931,M25-29,Male,,,Latvia,LV,1:12:03,6:56:11,5:54:27,,,14:17:57,4323,24971,21267,488,428,51477,721,616,44,258,224,19,652,567,41,721,616,44,Finisher,1000
+Chun I,Chen,Chun I Chen,661,M45-49,Male,Taipei,TW-TPE,Taiwan,TW,1:44:54,6:17:29,5:55:48,,,14:18:03,6294,22649,21348,671,521,51483,722,617,109,746,632,113,641,558,102,722,617,109,Finisher,1496
+Marko,Virtanen,Marko Virtanen,764,M45-49,Male,Kotka,,Finland,FI,1:30:59,6:57:14,5:26:46,,,14:19:37,5459,25034,19606,935,543,51577,723,618,110,640,551,100,728,623,112,723,618,110,Finisher,1478
+Mika,Väkiparta,Mika Väkiparta,519,M35-39,Male,Lahti,,Finland,FI,1:33:09,7:08:53,5:09:27,,,14:23:41,5589,25733,18567,1053,879,51821,724,619,142,665,570,127,751,639,145,724,619,142,Finisher,1044
+Miriam Mimi,Laks,Miriam Mimi Laks,890,F55-59,Female,Kiryat Ata,Israel,Israel,IL,1:47:47,7:01:13,5:21:18,,,14:25:31,6467,25273,19278,560,352,51931,725,106,6,756,115,8,746,110,7,725,106,6,Finisher,3583
+Yoshinori,Nodera,Yoshinori Nodera,811,M50-54,Male,"アジア, 関東中央区",JP-13,Japan,JP,1:42:14,6:58:56,5:22:45,,,14:29:45,6134,25136,19365,925,625,52185,726,620,56,731,620,59,744,635,60,726,620,56,Finisher,1371
+Alastair,Prickett,Alastair Prickett,816,M50-54,Male,Richmond,Surrey,United Kingdom,GB,1:21:24,7:24:40,5:16:50,,,14:31:18,4884,26680,19010,1014,689,52278,727,621,57,483,412,40,755,642,63,727,621,57,Finisher,1352
+Armi,Sutinen,Armi Sutinen,858,F55-59,Female,Espoo,---,Finland,FI,1:41:59,7:08:23,5:25:23,,,14:31:18,6119,25703,19523,552,381,52278,728,107,7,727,111,7,750,112,8,728,107,7,Finisher,3514
+Arvi,Tavast,Arvi Tavast,826,M50-54,Male,Tallinn,Tallinn,Estonia,EE,1:41:51,6:32:17,5:51:11,,,14:31:19,6111,23537,21071,836,725,52279,729,622,58,726,616,57,689,592,52,729,622,58,Finisher,1352
+Ivar,Jacobsen,Ivar Jacobsen,788,M50-54,Male,Haugesund,,Norway,NO,1:01:41,5:44:15,7:31:48,,,14:31:57,3701,20655,27108,294,559,52317,730,623,59,62,51,5,293,267,25,730,623,59,Finisher,1345
+Kaupo,Eerme,Kaupo Eerme,409,M35-39,Male,TALLINN,Harju maakond,Estonia,EE,1:18:15,6:59:50,5:57:56,,,14:34:56,4695,25190,21476,344,792,52496,731,624,143,407,345,78,682,587,133,731,624,143,Finisher,1000
+yuchen,zhao,yuchen zhao,360,M30-34,Male,北京市,北京市,China,CN,1:21:16,7:26:40,5:31:28,,,14:36:58,4876,26800,19888,628,426,52618,732,625,98,478,408,71,747,637,98,732,625,98,Finisher,1000
+Gavin,Barrett,Gavin Barrett,391,M35-39,Male,Salisbury,Wiltshire,United Kingdom,GB,1:37:10,6:55:26,5:50:28,,,14:37:02,5830,24926,21028,467,371,52622,733,626,144,703,598,138,720,617,138,733,626,144,Finisher,1000
+Martina,Pflocksch,Martina Pflocksch,814,F50-54,Female,Hamburg,,Germany,DE,1:20:49,6:47:00,6:14:01,,,14:38:06,4849,24420,22441,538,438,52686,734,108,13,468,69,5,653,86,11,734,108,13,Finisher,2009
+Antti,Salmisaari,Antti Salmisaari,621,M40-44,Male,Kotka,Kotka,Finland,FI,1:33:22,6:43:16,6:05:02,,,14:39:17,5602,24196,21902,637,421,52757,735,627,125,667,572,112,687,591,117,735,627,125,Finisher,1000
+Dmitry,Borisenko,Dmitry Borisenko,399,M35-39,Male,Moscow,,Russia,RU,1:29:50,6:43:04,6:08:31,,,14:40:18,5390,24184,22111,621,513,52818,736,628,145,623,535,119,679,585,132,736,628,145,Finisher,1000
+Konstantin,Sidorov,Konstantin Sidorov,484,M35-39,Male,Moscow,,Russia,RU,1:50:53,7:34:40,4:52:47,,,14:41:30,6653,27280,17567,941,449,52890,737,629,146,769,649,146,785,665,149,737,629,146,Finisher,1000
+Chu Lin,Hsiao,Chu Lin Hsiao,684,M45-49,Male,桃園市,Taoyuan City,Taiwan,TW,2:04:04,7:16:26,4:55:26,,,14:45:01,7444,26186,17726,971,773,53101,738,630,111,786,663,118,780,661,118,738,630,111,Finisher,1173
+Kuo-Chih,Chen,Kuo-Chih Chen,660,M45-49,Male,台北市,Taipei City,Taiwan,TW,1:48:11,6:44:02,6:01:20,,,14:47:33,6491,24242,21680,478,361,53253,739,631,112,760,642,115,719,616,110,739,631,112,Finisher,1142
+Margus,Antson,Margus Antson,647,M45-49,Male,Tallinn,Harju,Estonia,EE,1:43:08,6:43:31,5:58:33,,,14:49:07,6188,24211,21513,768,667,53347,740,632,113,736,625,112,716,613,109,740,632,113,Finisher,1124
+宇,刘,宇 刘,446,M35-39,Male,北京市,CN-BJ,China,CN,1:36:37,6:57:38,5:44:13,,,14:49:36,5797,25058,20653,658,1209,53376,741,633,147,700,596,136,731,626,141,741,633,147,Finisher,1000
+Chia-Ching,Lin,Chia-Ching Lin,709,M45-49,Male,Luzhu Dist.,TW-TAO,Taiwan,TW,1:53:08,7:21:18,5:12:10,,,14:50:28,6788,26478,18730,947,484,53428,742,634,114,775,655,116,775,657,117,742,634,114,Finisher,1107
+Miguel,Garcia,Miguel Garcia,776,M50-54,Male,TorreonLos Portales,MX-COA,Mexico,MX,1:30:10,7:03:08,5:56:29,,,14:50:57,5410,25388,21389,410,859,53457,743,635,60,627,539,49,718,615,57,743,635,60,Finisher,1117
+Krzysztof,Gaworzewski,Krzysztof Gaworzewski,305,M30-34,Male,London,,United Kingdom,GB,1:27:11,7:33:53,5:36:20,,,14:52:16,5231,27233,20180,517,376,53536,744,636,99,599,516,89,758,644,100,744,636,99,Finisher,1000
+Sergey,Shlyakhtenko,Sergey Shlyakhtenko,874,M65-69,Male,Saint-Petersburg,,Russia,RU,1:33:04,7:31:55,5:29:43,,,14:52:20,5584,27115,19783,700,358,53540,745,637,5,664,569,4,760,646,6,745,637,5,Finisher,2176
+Giovanni Battista,Torelli,Giovanni Battista Torelli,200,M60-64,Male,roma,italia,Italy,IT,1:52:55,7:42:14,4:55:36,,,14:52:22,6775,27734,17736,800,497,53542,746,638,9,774,654,10,788,667,10,746,638,9,Finisher,1744
+Viktor,Hedström,Viktor Hedström,311,M30-34,Male,Ramnäs,,Sweden,SE,1:37:35,6:21:32,6:30:31,,,14:52:51,5855,22892,23431,574,819,53571,747,639,100,706,601,95,630,547,87,747,639,100,Finisher,1000
+希渔,胡,希渔 胡,158,M55-59,Male,武汉市,CN-HE,China,CN,1:52:54,7:38:55,5:08:00,,,14:54:52,6774,27535,18480,424,480,53692,748,640,30,773,653,32,784,664,32,748,640,30,Finisher,1292
+Ola,Sundh,Ola Sundh,857,M55-59,Male,Knivsta,,Sweden,SE,1:43:02,6:36:29,6:14:49,,,15:02:08,6182,23789,22489,816,851,54128,749,641,31,735,624,31,701,601,30,749,641,31,Finisher,1205
+Chia,Palkonen,Chia Palkonen,235,F18-24,Female,Helsinki,Helsinki,Finland,FI,1:31:38,7:08:25,6:10:34,,,15:02:37,5498,25705,22234,458,262,54157,750,109,1,646,91,1,735,107,1,750,109,1,Finisher,5000
+주은,서,주은 서,745,M45-49,Male,대구,경상도,South Korea,KR,1:24:40,6:43:49,6:39:56,,,15:05:16,5080,24229,23996,605,406,54316,751,642,115,559,481,83,660,573,104,751,642,115,Finisher,1000
+Ergo,Kukk,Ergo Kukk,233,M18-24,Male,Tartu,50303,Estonia,EE,1:20:15,6:43:39,6:51:31,,,15:08:05,4815,24219,24691,461,300,54485,752,643,7,461,393,5,638,555,7,752,643,7,Finisher,1161
+Zhi,Zhang,Zhi Zhang,825,M50-54,Male,北京市,北京市,China,CN,1:32:43,6:54:22,6:23:51,,,15:12:05,5563,24862,23031,740,530,54725,753,644,61,657,564,52,715,612,55,753,644,61,Finisher,1000
+Ke,Jiang,Ke Jiang,316,M30-34,Male,北京,北京,China,CN,1:46:53,7:34:49,5:28:28,,,15:12:38,6413,27289,19708,999,350,54758,754,645,101,753,639,99,782,662,101,754,645,101,Finisher,1000
+Jianping,Ma,Jianping Ma,846,F55-59,Female,保定,河北省保定市莲池区,China,CN,1:55:06,7:39:45,5:24:20,,,15:17:11,6906,27585,19460,723,357,55031,755,110,8,777,121,9,787,121,9,755,110,8,Finisher,2963
+Artur,Bikbulatov,Artur Bikbulatov,396,M35-39,Male,Moscow,,Russia,RU,1:49:02,7:20:24,5:39:47,,,15:21:32,6542,26424,20387,1038,901,55292,756,646,148,765,646,145,771,655,147,756,646,148,Finisher,1000
+Sharon,Shraga,Sharon Shraga,889,F40-44,Female,Afek,ISRAEL,Israel,IL,1:48:54,7:17:31,5:58:14,,,15:21:59,6534,26251,21494,676,364,55319,757,111,13,764,119,13,762,115,13,757,111,13,Finisher,1276
+Ceire,Merrison,Ceire Merrison,921,F45-49,Female,Tenby,Pembrokeshire,United Kingdom,GB,1:12:38,7:26:37,6:32:44,,,15:24:08,4358,26797,23564,374,356,55448,758,112,21,272,37,8,732,106,20,758,112,21,Finisher,1368
+Oleg,Novosad,Oleg Novosad,883,M50-54,Male,Moscow,Central Federal District,Russia,RU,1:20:55,7:12:12,6:29:59,,,15:32:10,4855,25932,23399,875,869,55930,759,647,62,470,401,37,736,629,59,759,647,62,Finisher,1000
+esti,biton,esti biton,891,F50-54,Female,Haifa,Haifa District,Israel,IL,1:57:08,7:03:51,6:15:04,,,15:32:35,7028,25431,22504,409,583,55955,760,113,14,780,122,14,756,114,14,760,113,14,Finisher,1356
+Karen,Cowles,Karen Cowles,872,F65-69,Female,Louisville,CO,United States,US,1:21:22,7:05:58,6:49:01,,,15:32:45,4882,25558,24541,575,407,55965,761,114,1,481,71,1,710,103,1,761,114,1,Finisher,5000
+Michael,Leshnower,Michael Leshnower,706,M45-49,Male,Encinitas,CA,United States,US,1:02:01,7:36:04,6:37:16,,,15:35:37,3721,27364,23836,675,542,56137,762,648,116,68,57,6,738,631,114,762,648,116,Finisher,1000
+Ijbele,Van Olst,Ijbele Van Olst,876,M70-74,Male,Drachten,,Netherlands,NL,1:30:56,6:53:34,6:51:22,,,15:37:22,5456,24814,24682,775,516,56242,763,649,1,639,550,1,711,608,1,763,649,1,Finisher,5000
+Riitta,Niemelä,Riitta Niemelä,852,F55-59,Female,Vaasa,Pohjanmaa,Finland,FI,1:32:43,7:14:07,6:41:14,,,15:38:35,5563,26047,24074,395,236,56315,764,115,9,658,94,5,740,108,6,764,115,9,Finisher,2707
+kou,xiaolong,kou xiaolong,581,M40-44,Male,北京,BJ,China,CN,2:16:42,6:53:47,6:10:11,,,15:39:58,8202,24827,22211,691,466,56398,765,650,126,792,668,129,765,650,127,765,650,126,Finisher,1000
+Laurent,Tran,Laurent Tran,635,M40-44,Male,HOUSTON,TX,United States,US,1:33:24,7:36:56,6:10:14,,,15:41:43,5604,27416,22214,662,607,56503,766,651,127,668,573,113,764,649,126,766,651,127,Finisher,1000
+Андрей,Баранов,Андрей Баранов,768,M50-54,Male,Petrozavodsk,,Russia,RU,1:44:30,7:16:00,6:18:50,,,15:43:52,6270,26160,22730,659,811,56632,767,652,63,744,631,60,759,645,64,767,652,63,Finisher,1000
+Joshua,Santer,Joshua Santer,267,M25-29,Male,Bromsgrove,WORCESTERSHIRE,United Kingdom,GB,1:44:14,7:36:53,6:12:05,,,15:44:24,6254,27413,22325,410,261,56664,768,653,45,743,630,46,772,656,45,768,653,45,Finisher,1000
+Qinlin,Zhao,Qinlin Zhao,859,M55-59,Male,朝阳,辽宁,China,CN,1:40:49,7:16:10,6:24:02,,,15:44:56,6049,26170,23042,683,751,56696,769,654,32,722,613,29,757,643,31,769,654,32,Finisher,1000
+Sasi,Dori,Sasi Dori,888,M40-44,Male,Kiryat ata,Haifa District,Israel,IL,1:56:44,7:14:46,6:17:11,,,15:46:37,7004,26086,22631,631,445,56797,770,655,128,779,658,125,766,651,128,770,655,128,Finisher,1000
+Michal,Moreno,Michal Moreno,892,F45-49,Female,Kiryat Ata,Israel,Israel,IL,1:47:52,7:25:16,6:17:11,,,15:46:46,6472,26716,22631,556,432,56806,771,116,22,758,117,22,767,116,22,771,116,22,Finisher,1096
+Eddy,Koos,Eddy Koos,866,M60-64,Male,Venice,Florida,United States,US,1:43:16,7:31:43,6:04:10,,,15:48:57,6196,27103,21850,989,799,56937,772,656,10,738,626,9,776,658,9,772,656,10,Finisher,1065
+Andrejs,Zenkevics,Andrejs Zenkevics,496,M35-39,Male,Riga,Riga,Latvia,LV,2:04:03,7:22:39,6:04:37,,,15:50:28,7443,26559,21877,712,437,57028,773,657,149,785,662,148,783,663,148,773,657,149,Finisher,1000
+Bessie,O'Dell,Bessie O'Dell,262,F25-29,Female,Deganwy,,United Kingdom,GB,1:41:14,7:42:52,6:08:12,,,15:51:19,6074,27772,22092,451,690,57079,774,117,8,725,110,8,778,119,8,774,117,8,Finisher,1000
+Eli,Bill,Eli Bill,651,M45-49,Male,Givatayim,ISRAEL,Israel,IL,1:42:18,7:32:40,6:22:27,,,15:51:43,6138,27160,22947,466,391,57103,775,658,117,732,621,111,768,652,116,775,658,117,Finisher,1000
+Jose,Kharosta,Jose Kharosta,571,M40-44,Male,Kota Bandung,West Java,Indonesia,ID,2:16:16,6:58:59,6:13:05,,,15:52:31,8176,25139,22385,604,847,57151,776,659,129,791,667,128,770,654,129,776,659,129,Finisher,1000
+Sang,Wook Ha,Sang Wook Ha,781,M50-54,Male,"Yongin, Korea",suji gu,South Korea,KR,1:40:01,7:09:36,6:45:14,,,15:52:46,6001,25776,24314,677,399,57166,777,660,64,717,609,56,754,641,62,777,660,64,Finisher,1000
+Sanna,Koponen,Sanna Koponen,697,F45-49,Female,Heinola,,Finland,FI,2:11:28,7:11:44,6:12:18,,,15:54:45,7888,25904,22338,379,776,57285,778,118,23,790,124,24,774,118,23,778,118,23,Finisher,1000
+Stefan,Aldén,Stefan Aldén,871,M65-69,Male,,,Sweden,SE,1:44:55,6:51:01,6:51:35,,,15:55:18,6295,24661,24695,1076,591,57318,779,661,6,747,633,6,741,633,5,779,661,6,Finisher,1420
+Seonggun,Kim,Seonggun Kim,575,M40-44,Male,대구,KR-27,South Korea,KR,1:39:43,6:45:50,7:13:42,,,15:56:15,5983,24350,26022,447,574,57375,780,662,130,715,607,118,699,600,120,780,662,130,Finisher,1000
+Reiko,Matsui,Reiko Matsui,802,F50-54,Female,狛江市東和泉,東京都,Japan,JP,1:59:47,7:35:43,5:51:44,,,15:57:14,7187,27343,21104,1046,755,57434,781,119,15,782,123,15,790,122,15,781,119,15,Finisher,1060
+Jan,Andersen,Jan Andersen,862,F60-64,Female,Arvada,CO,United States,US,1:34:58,7:10:00,6:55:18,,,15:58:04,5698,25800,24918,561,506,57484,782,120,2,686,99,2,742,109,2,782,120,2,Finisher,2228
+Masayuki,Tanaka,Masayuki Tanaka,274,M25-29,Male,Bunkyo,Tokyo Prefecture,Japan,JP,1:43:44,7:52:16,5:56:05,,,16:00:22,6224,28336,21365,772,925,57622,783,663,46,740,627,45,789,668,46,783,663,46,Finisher,1000
+Cai,Xiang,Cai Xiang,656,F45-49,Female,北京,北京,China,CN,1:47:54,7:38:16,6:19:51,,,16:02:21,6474,27496,22791,643,337,57741,784,121,24,759,118,23,781,120,24,784,121,24,Finisher,1000
+Thomas,Britton,Thomas Britton,655,M45-49,Male,Kilkenny,Kilkenny,Ireland,IE,1:45:02,6:59:57,6:58:52,,,16:03:56,6302,25197,25132,649,556,57836,785,664,118,748,634,114,743,634,115,785,664,118,Finisher,1000
+xihuan,Li,xihuan Li,332,F30-34,Female,北京,北京,China,CN,1:29:22,8:20:06,5:56:38,,,16:06:51,5362,30006,21398,825,421,58011,786,122,17,617,87,15,793,124,18,786,122,17,Finisher,1000
+Koki,Kikukawa,Koki Kikukawa,322,M30-34,Male,"Yoga, Setagaya-ku",Tokyo,Japan,JP,1:33:29,7:56:31,6:22:09,,,16:13:41,5609,28591,22929,737,556,58421,787,665,102,670,574,93,786,666,102,787,665,102,Finisher,1000
+Кристина,Вязовская,Кристина Вязовская,516,F35-39,Female,,"Minsk
+Minsk",Belarus,BY,1:49:24,7:32:46,6:44:30,,,16:20:57,6564,27166,24270,402,455,58857,788,123,27,767,120,27,773,117,27,788,123,27,Finisher,1000
+Hsiang-Yu,Hung,Hsiang-Yu Hung,314,M30-34,Male,新北市新莊區,New Taipei City,Taiwan,TW,1:51:12,7:44:33,6:28:31,,,16:34:48,6672,27873,23311,1201,632,59688,789,666,103,770,650,102,791,669,103,789,666,103,Finisher,1000
+Zen Zu,Liu,Zen Zu Liu,333,F30-34,Female,台北市,TW-TPE,Taiwan,TW,1:39:38,7:44:38,6:28:31,,,16:34:51,5978,27878,23311,1897,628,59691,790,124,18,714,108,17,792,123,17,790,124,18,Finisher,1000
+Kilnyung,Cha,Kilnyung Cha,771,M50-54,Male,대구광역시,달서구,South Korea,KR,1:55:01,7:07:15,7:13:59,,,16:37:42,6901,25635,26039,879,408,59862,791,667,65,776,656,66,761,647,65,791,667,65,Finisher,1000
+Hae Myoung,Jeon,Hae Myoung Jeon,790,M50-54,Male,Daegu,Korea,South Korea,KR,1:48:23,6:58:44,7:27:11,,,16:38:15,6503,25124,26831,689,748,59895,792,668,66,763,645,62,748,638,61,792,668,66,Finisher,1000
+Andres,Kiis,Andres Kiis,321,M30-34,Male,Rakvere,APO,Estonia,EE,1:48:21,8:18:39,6:19:41,,,16:47:16,6501,29919,22781,649,587,60436,793,669,104,762,644,101,794,670,104,793,669,104,Finisher,1000
+Lei,Zhang,Lei Zhang,629,M40-44,Male,北京,北京,China,CN,2:01:07,7:09:13,7:00:17,,,16:47:27,7267,25753,25217,1440,770,60447,794,670,131,783,660,126,779,660,131,794,670,131,Finisher,1000
+Milan,Sallaba,Milan Sallaba,820,M50-54,Male,Hamburg,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rainer,Kuhi,Rainer Kuhi,584,M40-44,Male,Tallinn,Harju,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Xiaobing,He,Xiaobing He,156,M65-69,Male,北京,北京,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yerzhan,Temirkhanov,Yerzhan Temirkhanov,504,M35-39,Male,Karaganda,Karaganda Oblast,Kazakhstan,KZ,1:12:59,,,,,,4379,0,0,223,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Shuai,Li,Shuai Li,331,M30-34,Male,Beijing,China,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mikk,Mutso,Mikk Mutso,602,M40-44,Male,Tallinn,Estonia,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roman,Lobachev,Roman Lobachev,591,M40-44,Male,Zarechie,"Odintsovskii district
+Moscow region",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergei,Shirokov,Sergei Shirokov,747,M45-49,Male,TALLINN,HARJUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dawid,Pralat,Dawid Pralat,612,M40-44,Male,Zelów,łódzkie,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steen,Lerche-Jensen,Steen Lerche-Jensen,796,M50-54,Male,oslo,,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Markus,Schlosser,Markus Schlosser,122,M55-59,Male,Bad Nauheim,Hesse,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Baskakov,Alexander Baskakov,648,M45-49,Male,SAINT-PETERSBURG,Northwestern Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Makoto,Matsui,Makoto Matsui,803,M50-54,Male,狛江市東和泉,,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sergey,Kim,Sergey Kim,574,M40-44,Male,ST. PETERSBURG,Northwestern Federal District,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Louise,Bichler,Louise Bichler,66,F25-29,Female,Olofstorp,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Irek,Dautov,Irek Dautov,36,M35-39,Male,Sant Cugat del Valles,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jani,Mast,Jani Mast,597,M40-44,Male,Mäntsälä,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Reio,Härm,Reio Härm,912,M18-24,Male,Räpina,Põlvmaa,Estonia,EE,1:42:59,,,,,,6179,0,0,1620,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Palmira,Alvarez,Palmira Alvarez,6,FPRO,Female,BOULDER,CO,Mexico,MX,1:05:07,,,,,,3907,0,0,217,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Liang,xiaobo,Liang xiaobo,442,M35-39,Male,Beijing,Beijing,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Viacheslav,Gonchar,Viacheslav Gonchar,151,M40-44,Male,Chayki,Kyiv ragion,Ukraine,UA,1:00:05,,,,,,3605,0,0,152,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ami,Laamo,Ami Laamo,702,M45-49,Male,Naantali,Suomi,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mark,Matthews,Mark Matthews,103,M30-34,Male,Cambridge,Cambs,United Kingdom,GB,0:52:59,4:26:45,,,,,3179,16005,0,151,122,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jenna,Kiukkonen,Jenna Kiukkonen,324,F30-34,Female,Helsinki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Antonio,Massimo Musetti,Antonio Massimo Musetti,848,M55-59,Male,carrara,italia,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Susanna,Ylinen,Susanna Ylinen,522,F35-39,Female,Jyväskylä,Jyväskylä,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yuriy,Valikov,Yuriy Valikov,372,M30-34,Male,Moscow,Московская обл.,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vassilis,Zafiropoulos,Vassilis Zafiropoulos,495,M35-39,Male,Maroussi,Athens,Greece,GR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sami,Ylikangas,Sami Ylikangas,645,M40-44,Male,Helsinki,FInland,Finland,FI,1:15:06,,,,,,4506,0,0,343,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Victor,Osokin,Victor Osokin,48,M40-44,Male,Seeheim-Jugenheim,HE,Russia,RU,1:06:53,,,,,,4013,0,0,238,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Peter,Mero,Peter Mero,806,M50-54,Male,Vantaa,Uusimaa,Finland,FI,1:10:11,6:18:22,,,,,4211,22702,0,338,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+John,Cristoferson,John Cristoferson,243,M25-29,Male,Gävle,,Sweden,SE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nikolay,Tychinin,Nikolay Tychinin,639,M40-44,Male,Moscow,Moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Antti,Lauslahti,Antti Lauslahti,794,M50-54,Male,Espoo,Intl State,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jane,Millar,Jane Millar,867,F60-64,Female,Brighton,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joao,Bocas,Joao Bocas,653,M45-49,Male,Brighton,East Sussex,Portugal,PT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juha,Väre,Juha Väre,765,M45-49,Male,Kerava,FINLAND,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Konrad,Sibilak,Konrad Sibilak,237,M18-24,Male,Wrocław,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Peep,Maiste,Peep Maiste,847,M55-59,Male,Tallinn,10619,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrea,Semino,Andrea Semino,822,M50-54,Male,Genova,GENOVA,Italy,IT,1:07:51,5:47:06,,,,,4071,20826,0,439,272,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Susanne,Olling,Susanne Olling,727,F45-49,Female,Brønshøj,,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Willem,Langmans,Willem Langmans,437,M35-39,Male,Noorderwijk,,Belgium,BE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Olli,Salo,Olli Salo,192,M35-39,Male,Tuusula,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mikael,Gevorkyan,Mikael Gevorkyan,549,M40-44,Male,Moscow,Moscow,Russia,RU,1:05:10,,,,,,3910,0,0,243,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Miska,Tarma,Miska Tarma,754,M45-49,Male,Stockholm,,Sweden,SE,1:55:42,8:53:48,,,,,6942,32028,0,480,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Alberto,Fazi,Alberto Fazi,38,M50-54,Male,PESARO,,Italy,IT,1:05:23,5:03:13,,,,,3923,18193,0,425,123,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Yelena,Basova,Yelena Basova,65,F50-54,Female,BROOKLYN,NY,Ukraine,UA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Barlas,Kazanci,Barlas Kazanci,886,M35-39,Male,istanbul,kadikoy,Turkey,TR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eldar,Sufiyanov,Eldar Sufiyanov,492,M35-39,Male,Sochi,"Krasnodarsky kray
+",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Indrek,Teppo,Indrek Teppo,633,M40-44,Male,Tallinn,Intl State,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dimitris,Koutsopoulos,Dimitris Koutsopoulos,698,M45-49,Male,Marousi,Greece,Greece,GR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Karri,Safo,Karri Safo,481,M35-39,Male,Helsinki,,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Zhang,Fan,Zhang Fan,498,F35-39,Female,北京,北京,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Timo,Mattila,Timo Mattila,804,M50-54,Male,TAMPERE,TAMPERE,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richard,Loat,Richard Loat,335,M30-34,Male,London,,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Patrick,Ostermark,Patrick Ostermark,728,M45-49,Male,Helsinki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rajnish,Goswami,Rajnish Goswami,677,M45-49,Male,GUWAHATI,ASSAM,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aleksander,Sachanbinski,Aleksander Sachanbinski,119,M50-54,Male,Ozimek,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Caius,Grann,Caius Grann,678,M45-49,Male,Espoo,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+弼仁,薛,弼仁 薛,556,M40-44,Male,台北市,Taipei City,Taiwan,TW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Roman,Dzhkha,Roman Dzhkha,297,M30-34,Male,Moscow,Moscow,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fumiaki,Sato,Fumiaki Sato,877,M75-79,Male,chibashi mihamaku utase 3-9,chiba,Japan,JP,2:06:42,4:28:04,,,,,7602,16084,0,1199,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Bin,Li,Bin Li,707,M45-49,Male,广州,广东,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitrii,Malyshev,Dmitrii Malyshev,596,M40-44,Male,Verkhnyaya Pyshma,"
+Sverdlovskaya oblast",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Riho,Sarv,Riho Sarv,821,M50-54,Male,Tallinn,APO,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+ALEXANDER,VORONIN,ALEXANDER VORONIN,216,M35-39,Male,Alguerao-Mem-Martins,Continental Portugal,Ukraine,UA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Jooncheal,Park,Jooncheal Park,607,M40-44,Male,Daegu,Suseong-gu,South Korea,KR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mika,Ala-Koukkari,Mika Ala-Koukkari,766,M50-54,Male,Helsinki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+John,Astrup,John Astrup,528,M40-44,Male,UAE,DXB,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dmitry,Ponomarev,Dmitry Ponomarev,734,M45-49,Male,Moscow,MO,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ding,Zhenhuan,Ding Zhenhuan,541,M40-44,Male,北京,北京,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Jani,Viljakainen,Jani Viljakainen,517,M35-39,Male,Vantaa,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vicki,Vinci,Vicki Vinci,762,M45-49,Male,Venezia,Italia,Italy,IT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Kadri,Bauman,Kadri Bauman,529,F40-44,Female,Keila,Harjumaa,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Petri,Haakana,Petri Haakana,153,M40-44,Male,Helsinki,Finland,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Darren ,Hodges ,Darren Hodges,683,M45-49,Male,Hertford,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Raimo,Ülavere,Raimo Ülavere,210,M45-49,Male,Tallinn,Harju,Estonia,EE,1:14:50,5:25:28,,,,,4490,19528,0,262,265,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sten,Kreisberg,Sten Kreisberg,168,M40-44,Male,Tallinn,HARJUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stanislav,Gladkov,Stanislav Gladkov,246,M25-29,Male,Pushkin,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rebekah,Lincoln,Rebekah Lincoln,445,F35-39,Female,,NSW,United Kingdom,GB,1:41:42,,,,,,6102,0,0,320,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Silver,Mikk,Silver Mikk,106,M25-29,Male,Tartu,APO,Estonia,EE,1:06:32,5:34:51,,,,,3992,20091,0,305,364,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Reto,Wick,Reto Wick,379,M30-34,Male,Zug,,Switzerland,CH,1:01:17,4:40:58,,,,,3677,16858,0,264,349,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Wojciech,Masalski,Wojciech Masalski,801,M50-54,Male,Plaska,,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kristjan,Melikov,Kristjan Melikov,104,M40-44,Male,Tallinn,HARJUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Juan, Craveri,Juan Craveri,144,M50-54,Male,Buenos Aires,AR-B,Argentina,AR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fan,Bai,Fan Bai,390,F35-39,Female,London,uk,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Caroline,Livesey,Caroline Livesey,14,FPRO,Female,Harrogate,Intl State,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Craig,Ennis,Craig Ennis,545,M40-44,Male,Mt. Pearl,NL,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Angela,Naeth,Angela Naeth,15,FPRO,Female,Chatham,MA,Canada,CA,1:05:08,,,,,,3908,0,0,251,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Erik,Aibast,Erik Aibast,914,M45-49,Male,Viimsi,HARJU,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kazimierz,Szulist,Kazimierz Szulist,490,M35-39,Male,OSIELSKO,KUJAWSKO-POMORSKIE,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pasi,Andersson,Pasi Andersson,646,M45-49,Male,Turku,Lansi-Suomen Laani,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Олег,Мельников,Олег Мельников,805,M50-54,Male,Sosnovy Bor,"
+Leningrad",Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hannu,Rytkönen,Hannu Rytkönen,479,M35-39,Male,Helsinki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jussi,Tokola,Jussi Tokola,634,M40-44,Male,Helsinki,Helsinki,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kim,Visby,Kim Visby,209,M45-49,Male,"
+Hundested",,Denmark,DK,0:57:43,4:40:15,,,,,3463,16815,0,256,175,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Janne,Kallio,Janne Kallio,90,M40-44,Male,Vantaa,VARSINAIS-SUOMI,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Robins,Kevin Robins,618,M40-44,Male,Tunbridge Wells,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jan,Lepier,Jan Lepier,45,M40-44,Male,Popůvky u Brna,South Moravia,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tõnu,Kallast,Tõnu Kallast,318,M30-34,Male,Pärnu,PARNUMAA,Estonia,EE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tuomas,Aitolehti,Tuomas Aitolehti,526,M40-44,Male,Kerava,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tiina,Perälä,Tiina Perälä,732,F45-49,Female,Merimasku,Varsinais-Suomi,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rod,De Kanel,Rod De Kanel,69,M35-39,Male,PIGNANS,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gerard,Kirwan,Gerard Kirwan,793,M50-54,Male,Limerick,Colimerick,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Daniela Lavinia,Torok,Daniela Lavinia Torok,133,F40-44,Female,timisoara,Timiş,Romania,RO,1:20:45,,,,,,4845,0,0,341,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Richard,Sanders,Richard Sanders,869,M60-64,Male,Newton Abbot,Devon,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Matleena,Livson,Matleena Livson,797,F50-54,Female,Helsinki,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Petteri,Helanne,Petteri Helanne,842,M55-59,Male,Espoo,Uusimaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Toomas,Teesaar,Toomas Teesaar,632,M40-44,Male,Tallinn,Harjumaa,Estonia,EE,1:20:35,,,,,,4835,0,0,551,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ilya,Barmin,Ilya Barmin,285,M30-34,Male,Perm,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hong,Lei,Hong Lei,439,F35-39,Female,上海,CN-SH,China,CN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jerome,Mortal,Jerome Mortal,807,M50-54,Male,Leamington SPA,United Kingdom,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rob,Abraham,Rob Abraham,281,M30-34,Male,,,United Kingdom,GB,1:03:27,,,,,,3807,0,0,178,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Tatu,Kasurinen,Tatu Kasurinen,319,M30-34,Male,Turku,Varsinais-Suomi,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Heikki,Mustonen,Heikki Mustonen,808,M50-54,Male,Vaasa,Pohjanmaa,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Trofimov,Alexander Trofimov,507,M35-39,Male,Saint-Petersburg,Saint-Petersburg,Russia,RU,1:13:31,5:57:34,,,,,4411,21454,0,610,299,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0

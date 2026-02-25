@@ -1,0 +1,626 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Craig,Alexander,Craig Alexander,3,MPRO,Male,,,Australia,AU,0:23:41,2:05:35,1:17:04,,,3:48:56,1421,7535,4624,107,49,13736,1,1,1,4,4,4,4,4,4,1,1,1,Finisher,3500
+Patrick,Lange,Patrick Lange,8,MPRO,Male,Salzburg,,Germany,DE,0:22:44,2:03:39,1:21:34,,,3:50:45,1364,7419,4894,109,59,13845,2,2,2,2,2,2,1,1,1,2,2,2,Finisher,3467
+Timothy,Reed,Timothy Reed,1,MPRO,Male,Lennox Head,NSW,Australia,AU,0:23:45,2:05:35,1:20:29,,,3:52:28,1425,7535,4829,101,58,13948,3,3,3,8,8,8,2,2,2,3,3,3,Finisher,3436
+Tim,Van Berkel,Tim Van Berkel,2,MPRO,Male,Cumbalum,AU-NSW,Australia,AU,0:23:44,2:05:38,1:21:22,,,3:53:19,1424,7538,4882,100,55,13999,4,4,4,6,6,6,3,3,3,4,4,4,Finisher,3421
+Jonathan,Ciavattella,Jonathan Ciavattella,11,MPRO,Male,Pescara,Intl State,Italy,IT,0:22:44,2:06:29,1:24:36,,,3:56:59,1364,7589,5076,116,74,14219,5,5,5,3,3,3,6,6,6,5,5,5,Finisher,3355
+Sam,Betten,Sam Betten,10,MPRO,Male,CAPALABA,QLD,Australia,AU,0:22:43,2:06:23,1:28:39,,,4:00:28,1363,7583,5319,118,45,14428,6,6,6,1,1,1,5,5,5,6,6,6,Finisher,3292
+Caroline,Steffen-Murray,Caroline Steffen-Murray,16,FPRO,Female,Port Macquarie,NSW,Switzerland,CH,0:24:19,2:18:46,1:23:53,,,4:09:40,1459,8326,5033,111,51,14980,7,1,1,12,2,2,7,1,1,7,1,1,Finisher,3500
+Radka,Kahlefeldt,Radka Kahlefeldt,21,FPRO,Female,,NSW,Czech Republic,CZ,0:24:16,2:18:54,1:28:59,,,4:14:51,1456,8334,5339,116,46,15291,8,2,2,11,1,1,8,2,2,8,2,2,Finisher,3406
+Jaray,Jearnai,Jaray Jearnai,745,M35-39,Male,Phuket,,Thailand,TH,0:27:47,2:16:46,1:32:00,,,4:19:59,1667,8206,5520,132,74,15599,9,7,1,25,18,3,12,10,2,9,7,1,Finisher,3500
+Raynard,Picard,Raynard Picard,738,M35-39,Male,MEXICO CITY,MX-CMX,Mexico,MX,0:30:28,2:18:04,1:27:52,,,4:20:14,1828,8284,5272,153,77,15614,10,8,2,57,45,8,17,14,3,10,8,2,Finisher,3495
+August,Benedicto,August Benedicto,32,MPRO,Male,Paniqui,PH-TAR,Philippines,PH,0:30:53,2:16:57,1:29:47,,,4:20:15,1853,8217,5387,109,49,15615,11,9,7,61,49,15,15,12,8,11,9,7,Finisher,2936
+Andy,Wibowo,Andy Wibowo,743,M35-39,Male,"Badung, Bali",Bali,Indonesia,ID,0:24:14,2:20:22,1:33:37,,,4:21:24,1454,8422,5617,123,68,15684,13,11,3,10,10,1,10,8,1,13,11,3,Finisher,3474
+Dimity-Lee,Duke,Dimity-Lee Duke,18,FPRO,Female,Roelands,AU-WA,Australia,AU,0:27:26,2:18:56,1:34:09,,,4:23:52,1646,8336,5649,146,55,15832,14,3,3,17,5,5,13,3,3,14,3,3,Finisher,3244
+Jurgen,Zack,Jurgen Zack,1075,M50-54,Male,Vallendar,,Germany,DE,0:27:41,2:16:28,1:40:10,,,4:28:23,1661,8188,6010,149,95,16103,15,12,1,21,15,2,9,7,1,15,12,1,Finisher,3500
+Riccardo,Kuhar,Riccardo Kuhar,852,M40-44,Male,brusje,hvar,Croatia,HR,0:27:58,2:20:13,1:37:13,,,4:29:16,1678,8413,5833,146,86,16156,16,13,1,28,21,1,16,13,1,16,13,1,Finisher,3500
+Benjamin,Rana,Benjamin Rana,35,MPRO,Male,Canlubang,Laguna,Philippines,PH,0:30:46,2:19:44,1:39:29,,,4:33:23,1846,8384,5969,136,68,16403,17,14,8,60,48,14,20,16,9,17,14,8,Finisher,2699
+Martin,Lieberz,Martin Lieberz,821,M35-39,Male,,,Germany,DE,0:29:03,2:22:09,1:38:44,,,4:34:11,1743,8529,5924,148,107,16451,18,15,4,41,33,6,21,17,4,18,15,4,Finisher,3244
+Kathryn,Haesner,Kathryn Haesner,17,FPRO,Female,Highett,VIC,New Zealand,NZ,0:26:06,2:29:47,1:36:11,,,4:35:38,1566,8987,5771,137,77,16538,19,4,4,14,4,4,30,5,5,19,4,4,Finisher,3032
+Jorry,Ycong,Jorry Ycong,37,MPRO,Male,Cebu city,Cebu city,Philippines,PH,0:28:38,2:27:36,1:36:19,,,4:35:48,1718,8856,5779,120,75,16548,20,16,9,34,27,12,31,26,13,20,16,9,Finisher,2656
+Oskar,Booth,Oskar Booth,690,M30-34,Male,Noosaville,QLD,Australia,AU,0:28:29,2:15:15,1:47:51,,,4:36:02,1709,8115,6471,175,92,16562,21,17,1,33,26,2,11,9,1,21,17,1,Finisher,3500
+Bree,Brown,Bree Brown,22,FPRO,Female,kailua-kona,HI,United States,US,0:25:50,2:24:34,1:42:54,,,4:36:36,1550,8674,6174,131,67,16596,22,5,5,13,3,3,19,4,4,22,5,5,Finisher,3015
+Brian,Borling,Brian Borling,1117,M25-29,Male,Kauswagan,misamis Oriental,Philippines,PH,0:31:06,2:18:11,1:44:10,,,4:37:10,1866,8291,6250,150,73,16630,23,18,1,65,52,2,18,15,1,23,18,1,Finisher,3500
+Lyndsey,Fraser,Lyndsey Fraser,1319,F30-34,Female,Bangkok,Bangkok,United Kingdom,GB,0:31:36,2:27:07,1:35:35,,,4:37:42,1896,8827,5735,145,59,16662,24,6,1,75,15,1,38,7,1,24,6,1,Finisher,3500
+Monica,Torres,Monica Torres,42,FPRO,Female,Singapore,,Philippines,PH,0:32:24,2:29:02,1:35:06,,,4:39:45,1944,8942,5706,128,65,16785,25,7,6,81,17,7,46,9,7,25,7,6,Finisher,2958
+Adrian,Whittaker,Adrian Whittaker,765,M35-39,Male,Port Douglas,QLD,Australia,AU,0:35:39,2:22:49,1:37:56,,,4:39:50,2139,8569,5876,152,54,16790,26,19,5,132,108,25,35,30,6,26,19,5,Finisher,3142
+Katy,Duffield,Katy Duffield,19,FPRO,Female,Noosaville,QLD,Australia,AU,0:29:22,2:30:55,1:37:03,,,4:40:25,1762,9055,5823,119,66,16825,27,8,7,48,11,6,42,8,6,27,8,7,Finisher,2946
+Alexandre,Sybillain,Alexandre Sybillain,1023,M45-49,Male,shanghai,CN-SH,China,CN,0:33:12,2:30:28,1:33:33,,,4:41:06,1992,9028,5613,140,93,16866,28,20,1,96,76,9,52,43,3,28,20,1,Finisher,3500
+Felipe,Sajulga,Felipe Sajulga,715,M35-39,Male,Malaybalay,Bukidnon,Philippines,PH,0:31:33,2:33:14,1:33:06,,,4:41:51,1893,9194,5586,157,81,16911,29,21,6,74,60,13,59,50,12,29,21,6,Finisher,3106
+Banjo,Norte,Banjo Norte,31,MPRO,Male,Cagayan  De Oro,Missamis Oriental,Philippines,PH,0:28:20,2:25:41,1:45:51,,,4:42:50,1700,8741,6351,118,60,16970,30,22,10,32,25,11,25,21,10,30,22,10,Finisher,2529
+Sven,Wetzel,Sven Wetzel,859,M40-44,Male,Tappenbeck,NI,Germany,DE,0:31:59,2:24:53,1:42:25,,,4:43:06,1919,8693,6145,125,104,16986,31,23,2,78,63,10,32,27,4,31,23,2,Finisher,3251
+Joseph,Miller,Joseph Miller,38,MPRO,Male,,,Philippines,PH,0:31:19,2:22:32,1:46:39,,,4:44:19,1879,8552,6399,131,98,17059,32,24,11,69,55,16,26,22,11,32,24,11,Finisher,2503
+Ferdinand,Catabian,Ferdinand Catabian,790,M35-39,Male,Brgy Canlubang,"Calamba, Laguna",Philippines,PH,0:28:20,2:30:40,1:41:22,,,4:44:20,1700,9040,6082,142,96,17060,33,25,7,31,24,5,40,33,7,33,25,7,Finisher,3061
+Jarand,Fjeld,Jarand Fjeld,880,M40-44,Male,Singapore,,Norway,NO,0:33:08,2:20:51,1:46:18,,,4:44:27,1988,8451,6378,160,90,17067,34,26,3,93,74,12,27,23,3,34,26,3,Finisher,3226
+Imogen,Simmonds,Imogen Simmonds,1303,F18-24,Female,Vessy,,United Kingdom,GB,0:27:47,2:30:54,1:42:04,,,4:44:37,1667,9054,6124,145,87,17077,35,9,1,24,7,1,37,6,1,35,9,1,Finisher,3500
+Liam,Winston,Liam Winston,1001,M45-49,Male,Shanghai,CN-SH,Ireland,IE,0:31:14,2:32:36,1:39:16,,,4:46:34,1874,9156,5956,146,62,17194,36,27,2,67,53,4,53,44,4,36,27,2,Finisher,3401
+Rod,De Kanel,Rod De Kanel,6,MPRO,Male,PIGNANS,,France,FR,0:23:48,2:39:09,1:39:37,,,4:46:40,1428,9549,5977,113,133,17200,37,28,12,9,9,9,48,39,14,37,28,12,Finisher,2460
+John Philip,Duenas,John Philip Duenas,649,M30-34,Male,Busay,Cebu City,Philippines,PH,0:32:44,2:32:03,1:39:10,,,4:47:12,1964,9123,5950,127,68,17232,38,29,2,85,67,5,56,47,4,38,29,2,Finisher,3299
+Ronald,Molit,Ronald Molit,695,M30-34,Male,Cainta,PH-RIZ,Philippines,PH,0:27:45,2:29:06,1:45:50,,,4:47:38,1665,8946,6350,221,76,17258,39,30,3,23,17,1,34,29,2,39,30,3,Finisher,3291
+Bond,Martin,Bond Martin,964,M40-44,Male,Dubai,Dubai,United Kingdom,GB,0:28:08,2:25:07,1:50:10,,,4:47:40,1688,8707,6610,160,95,17260,40,31,4,30,23,2,24,20,2,40,31,4,Finisher,3168
+Shem,Leong,Shem Leong,854,M40-44,Male,SG,SG,Singapore,SG,0:28:54,2:30:47,1:44:30,,,4:48:52,1734,9047,6270,174,107,17332,41,32,5,37,29,3,43,35,7,41,32,5,Finisher,3147
+Jethro Karl,Ramos,Jethro Karl Ramos,703,M35-39,Male,camp 7,PH-BEN,Philippines,PH,0:32:41,2:31:26,1:42:02,,,4:49:59,1961,9086,6122,142,88,17399,42,33,8,84,66,14,54,45,10,42,33,8,Finisher,2960
+Angus John,Wippell,Angus John Wippell,1068,M50-54,Male,Vancouver,BC,Australia,AU,0:27:51,2:32:43,1:46:42,,,4:50:59,1671,9163,6402,151,72,17459,44,35,2,26,19,3,44,36,4,44,35,2,Finisher,3093
+David,Zimmermann,David Zimmermann,926,M40-44,Male,Fregiecourt,,Switzerland,CH,0:38:52,2:17:48,1:49:16,,,4:51:18,2332,8268,6556,217,105,17478,45,36,6,211,174,30,33,28,5,45,36,6,Finisher,3103
+Glenn,Gonzalez,Glenn Gonzalez,1047,M45-49,Male,,,Philippines,PH,0:31:37,2:26:25,1:50:09,,,4:52:24,1897,8785,6609,184,69,17544,47,38,3,76,61,7,36,31,1,47,38,3,Finisher,3296
+Gavin,Mortlock,Gavin Mortlock,1088,M50-54,Male,Cammeray,NSW,Australia,AU,0:28:49,2:35:30,1:45:10,,,4:53:03,1729,9330,6310,159,55,17583,48,39,3,36,28,4,57,48,5,48,39,3,Finisher,3056
+Bruno,Fiore,Bruno Fiore,1054,M45-49,Male,MENTON,ALPES-MARITIMES,France,FR,0:27:58,2:32:54,1:48:38,,,4:53:13,1678,9174,6518,157,66,17593,49,40,4,29,22,2,45,37,2,49,40,4,Finisher,3281
+Elmo,Clarabal,Elmo Clarabal,732,M35-39,Male,Muntinlupa,Manila,Philippines,PH,0:39:46,2:31:28,1:38:45,,,4:53:27,2386,9088,5925,142,66,17607,50,41,9,237,196,40,79,67,16,50,41,9,Finisher,2897
+Eugene,Tschudy,Eugene Tschudy,1082,M50-54,Male,Honolulu,HI,United States,US,0:36:04,2:29:54,1:44:25,,,4:55:27,2164,8994,6265,198,106,17727,51,42,4,138,113,13,64,55,6,51,42,4,Finisher,3012
+Paul,Jumamil,Paul Jumamil,34,MPRO,Male,Maramag,Bukidnon,Philippines,PH,0:26:46,2:20:50,2:05:49,,,4:56:11,1606,8450,7549,117,49,17771,52,43,13,15,11,10,14,11,7,52,43,13,Finisher,2289
+Martin,Reynolds,Martin Reynolds,1056,M45-49,Male,STOCKPORT,England,United Kingdom,GB,0:33:14,2:33:30,1:44:51,,,4:56:11,1994,9210,6291,179,97,17771,53,44,5,97,77,10,66,56,5,53,44,5,Finisher,3228
+Kristiane Glendale,Lim,Kristiane Glendale Lim,33,MPRO,Male,Minglanilla,Minglanilla,Philippines,PH,0:29:00,2:25:51,1:58:12,,,4:56:11,1740,8751,7092,133,55,17771,54,45,14,40,32,13,28,24,12,54,45,14,Finisher,2289
+David,Mair,David Mair,910,M40-44,Male,Mount Cotton,QLD,Australia,AU,0:29:09,2:30:27,1:52:57,,,4:56:20,1749,9027,6777,154,73,17780,55,46,7,43,35,5,41,34,6,55,46,7,Finisher,3012
+Ashleigh,Hunter,Ashleigh Hunter,1307,F25-29,Female,Beerwah,QLD,Australia,AU,0:30:10,2:39:13,1:45:46,,,4:59:15,1810,9553,6346,176,70,17955,56,10,1,50,12,2,72,11,1,56,10,1,Finisher,3500
+Patdhravut,Wongtanaponsil,Patdhravut Wongtanaponsil,647,M30-34,Male,Bophut,Suratthani,Thailand,TH,0:35:06,2:28:36,1:49:27,,,4:59:16,2106,8916,6567,249,118,17956,57,47,4,119,96,7,61,52,5,57,47,4,Finisher,3081
+Artur,Piasecki,Artur Piasecki,805,M35-39,Male,Singapore,,Poland,PL,0:27:54,2:22:49,2:04:01,,,4:59:21,1674,8569,7441,191,86,17961,58,48,10,27,20,4,22,18,5,58,48,10,Finisher,2791
+Antonio Iii,Almirante,Antonio Iii Almirante,635,M25-29,Male,Lapasan,Misamis Oriental,Philippines,PH,0:37:40,2:36:17,1:41:26,,,4:59:22,2260,9377,6086,166,73,17962,59,49,2,174,142,10,96,83,3,59,49,2,Finisher,3100
+Alexander,Duncan,Alexander Duncan,670,M30-34,Male,Shanghai,Shanghai,United Kingdom,GB,0:39:36,2:29:31,1:42:06,,,4:59:29,2376,8971,6126,255,241,17969,60,50,5,234,193,17,78,66,7,60,50,5,Finisher,3077
+Franklin,Peñalosa,Franklin Peñalosa,1122,M35-39,Male,Makati,NCR,Philippines,PH,0:35:10,2:30:42,1:49:45,,,4:59:34,2110,9042,6585,172,65,17974,61,51,11,121,98,23,62,53,13,61,51,11,Finisher,2787
+Ashley Blair,Mcintyre,Ashley Blair Mcintyre,909,M40-44,Male,Singapore,,Australia,AU,0:30:15,2:30:44,1:53:59,,,4:59:40,1815,9044,6839,189,93,17980,62,52,8,52,40,9,47,38,8,62,52,8,Finisher,2952
+Christian,Sanderson,Christian Sanderson,1067,M50-54,Male,"Jl. Tukad Balian, Renon
+Denpasar","Bali
+Bali",United Kingdom,GB,0:30:23,2:23:57,2:01:00,,,4:59:40,1823,8637,7260,168,92,17980,63,53,5,55,43,6,29,25,2,63,53,5,Finisher,2936
+Siegfried,Pittet,Siegfried Pittet,1065,M50-54,Male,IRVING,TX,France,FR,0:33:32,2:35:41,1:46:52,,,5:00:08,2012,9341,6412,159,84,18008,64,54,6,99,79,8,71,61,7,64,54,6,Finisher,2928
+Christophe,Leger,Christophe Leger,1050,M45-49,Male,,,France,FR,0:34:56,2:35:02,1:47:02,,,5:01:08,2096,9302,6422,167,81,18068,65,55,6,118,95,13,74,62,7,65,55,6,Finisher,3139
+Marco,De Leo,Marco De Leo,764,M35-39,Male,Milan,,Italy,IT,0:31:29,2:32:37,1:52:10,,,5:01:35,1889,9157,6730,190,129,18095,66,56,12,72,58,12,58,49,11,66,56,12,Finisher,2751
+Ben,Crookenden,Ben Crookenden,823,M35-39,Male,Singapore,,United Kingdom,GB,0:30:36,2:36:27,1:49:41,,,5:01:53,1836,9387,6581,232,77,18113,67,57,13,58,46,9,69,59,15,67,57,13,Finisher,2745
+Tom,Mcinnes,Tom Mcinnes,1100,M55-59,Male,Tillicoultry,,United Kingdom,GB,0:35:56,2:34:33,1:46:45,,,5:01:58,2156,9273,6405,198,86,18118,68,58,1,137,112,3,80,68,1,68,58,1,Finisher,3500
+Wayne,Crossley,Wayne Crossley,818,M35-39,Male,,,United Kingdom,GB,0:33:11,2:28:29,1:54:23,,,5:02:03,1991,8909,6863,216,144,18123,69,59,14,94,75,16,51,42,9,69,59,14,Finisher,2742
+Ralph Jerome,Salvador,Ralph Jerome Salvador,665,M30-34,Male,Fairview,Quezon City,Philippines,PH,0:44:06,2:29:20,1:45:13,,,5:02:15,2646,8960,6313,150,66,18135,70,60,6,342,282,35,92,79,9,70,60,6,Finisher,3028
+Phil,Saussus,Phil Saussus,1098,M55-59,Male,villers sur lesse,,Belgium,BE,0:33:57,2:37:09,1:47:31,,,5:02:51,2037,9429,6451,199,55,18171,72,61,2,102,82,1,84,72,2,72,61,2,Finisher,3484
+Andres,Torres,Andres Torres,1127,M50-54,Male,Miami,FL,Colombia,CO,0:27:41,2:30:31,2:01:43,,,5:04:26,1661,9031,7303,184,87,18266,74,62,7,20,14,1,39,32,3,74,62,7,Finisher,2851
+Edward,Luna,Edward Luna,982,M45-49,Male,Tandang Sora,Quezon City,Philippines,PH,0:38:09,2:33:51,1:49:37,,,5:06:23,2289,9231,6577,219,67,18383,75,63,7,187,153,19,91,78,9,75,63,7,Finisher,3044
+Josh,Patrick,Josh Patrick,613,M25-29,Male,Sippy Downs,QLD,Australia,AU,0:37:36,2:38:39,1:46:38,,,5:06:48,2256,9519,6398,139,96,18408,76,64,3,172,140,9,103,90,4,76,64,3,Finisher,2966
+Shane,D'Alcorn,Shane D'Alcorn,656,M30-34,Male,Trinity Beach,QLD,Australia,AU,0:32:56,2:37:45,1:50:34,,,5:07:29,1976,9465,6634,266,108,18449,77,65,7,87,69,6,86,74,8,77,65,7,Finisher,2933
+Ivan,Buzanov,Ivan Buzanov,847,M40-44,Male,Moscow,"RUS
+Moscow",Russia,RU,0:34:20,2:29:34,1:59:53,,,5:08:07,2060,8974,7193,176,84,18487,78,66,9,108,88,14,55,46,9,78,66,9,Finisher,2800
+Yu,Takahashi,Yu Takahashi,638,M25-29,Male,,,Japan,JP,0:31:26,2:51:22,1:41:10,,,5:08:08,1886,10282,6070,125,125,18488,79,67,4,71,57,3,135,118,7,79,67,4,Finisher,2942
+Jim,Eadie,Jim Eadie,1073,M50-54,Male,Darwin,NT,Australia,AU,0:31:40,2:43:25,1:48:42,,,5:08:41,1900,9805,6522,197,97,18521,80,68,8,77,62,7,101,88,9,80,68,8,Finisher,2774
+Kai,Engelhardt,Kai Engelhardt,946,M40-44,Male,Bielefeld,,Germany,DE,0:36:48,2:30:25,1:55:32,,,5:08:51,2208,9025,6932,215,151,18531,81,69,10,155,129,21,68,58,11,81,69,10,Finisher,2787
+Julie,Collignon,Julie Collignon,1313,F25-29,Female,Shanghai,Shanghai,France,FR,0:34:29,2:41:00,1:49:39,,,5:09:34,2069,9660,6579,194,72,18574,82,13,2,110,21,3,105,15,3,82,13,2,Finisher,3314
+Sean,Farquhar,Sean Farquhar,1022,M45-49,Male,Singapore,03,Canada,CA,0:35:54,2:31:41,1:57:13,,,5:10:04,2154,9101,7033,213,103,18604,83,70,8,136,111,17,70,60,6,83,70,8,Finisher,2978
+Jeric,Saclauso,Jeric Saclauso,684,M30-34,Male,,,Philippines,PH,0:35:31,2:26:48,2:03:39,,,5:10:19,2131,8808,7419,172,89,18619,84,71,8,129,105,8,50,41,3,84,71,8,Finisher,2882
+Karinna Ann,Velasco,Karinna Ann Velasco,947,M40-44,,,,Philippines,PH,0:36:20,2:41:02,1:49:43,,,5:11:34,2180,9662,6583,176,93,18694,86,73,11,142,117,19,116,101,21,86,73,11,Finisher,2738
+Juny Rex,Carreon,Juny Rex Carreon,766,M35-39,Male,"Silangan, San Mateo",Rizal,Philippines,PH,0:38:15,2:34:57,1:55:27,,,5:13:01,2295,9297,6927,185,77,18781,87,74,15,192,157,37,93,80,19,87,74,15,Finisher,2545
+Nuno,Romao,Nuno Romao,929,M40-44,Male,New Port Richey,Florida,Portugal,PT,0:30:12,2:34:44,2:05:16,,,5:13:35,1812,9284,7516,148,55,18815,88,75,12,51,39,8,60,51,10,88,75,12,Finisher,2702
+Hiroshi,Takei,Hiroshi Takei,963,M40-44,Male,laspinas,,Japan,JP,0:28:54,2:40:51,1:59:48,,,5:13:41,1734,9651,7188,180,68,18821,89,76,13,38,30,4,75,63,12,89,76,13,Finisher,2700
+Jules Patrick,Devlin,Jules Patrick Devlin,712,M35-39,Male,Byron bay,NSW,Australia,AU,0:31:14,2:45:46,1:51:38,,,5:13:43,1874,9946,6698,216,89,18823,90,77,16,68,54,11,118,103,21,90,77,16,Finisher,2532
+Jason,Bradicich,Jason Bradicich,1121,M40-44,Male,NORTH PARRAMATTA,AU-NSW,Australia,AU,0:32:15,2:42:27,1:54:33,,,5:14:09,1935,9747,6873,227,67,18849,91,78,14,79,64,11,102,89,16,91,78,14,Finisher,2692
+Guy,Dru Drury,Guy Dru Drury,1052,M45-49,Male,Corfe Castle,DORSET,United Kingdom,GB,0:35:13,2:41:30,1:51:50,,,5:14:39,2113,9690,6710,207,159,18879,92,79,9,124,101,15,114,99,13,92,79,9,Finisher,2896
+Karl Greyson,Le,Karl Greyson Le,1123,M18-24,Male,Cebu,Cebu,Philippines,PH,0:35:11,2:40:09,1:54:04,,,5:14:42,2111,9609,6844,217,101,18882,93,80,1,122,99,1,106,91,1,93,80,1,Finisher,3500
+Andreas,Goros,Andreas Goros,1038,M45-49,Male,Singapore,,Greece,GR,0:30:59,2:43:52,1:55:49,,,5:14:57,1859,9832,6949,171,86,18897,94,81,10,63,50,3,98,85,12,94,81,10,Finisher,2890
+Ivan,Carapiet,Ivan Carapiet,634,M25-29,Male,Alabang,Muntinlupa,Philippines,PH,0:36:12,2:39:51,1:53:04,,,5:15:12,2172,9591,6784,240,125,18912,95,82,5,141,116,4,113,98,6,95,82,5,Finisher,2815
+Noy,Jopson,Noy Jopson,1125,M40-44,Male,Mandaue City,Intl State,Philippines,PH,0:29:14,2:43:33,1:58:25,,,5:15:26,1754,9813,7105,154,100,18926,96,83,15,46,37,6,89,77,14,96,83,15,Finisher,2669
+Maria,Hodges,Maria Hodges,43,FPRO,Female,Auburn,CA,Philippines,PH,0:32:57,2:45:19,1:54:25,,,5:16:20,1977,9919,6865,165,54,18980,97,14,8,89,19,9,119,16,8,97,14,8,Finisher,2300
+John Carl,Roldan,John Carl Roldan,744,M35-39,Male,,,Philippines,PH,0:37:42,2:34:53,1:59:38,,,5:16:32,2262,9293,7178,162,97,18992,98,84,17,175,143,31,88,76,18,98,84,17,Finisher,2482
+Stephane,Duranton,Stephane Duranton,896,M40-44,Male,Muntinlupa,Metro Manila,France,FR,0:34:43,2:44:39,1:53:15,,,5:17:45,2083,9879,6795,211,97,19065,99,85,16,112,91,15,127,110,22,99,85,16,Finisher,2627
+Frank Willem,De Wit,Frank Willem De Wit,989,M45-49,Male,Trintange,,Netherlands,NL,0:33:37,2:37:35,1:58:42,,,5:18:04,2017,9455,7122,306,184,19084,100,86,11,101,81,11,94,81,10,100,86,11,Finisher,2834
+Angelo,Micallef,Angelo Micallef,948,M40-44,Male,perth,WA,Australia,AU,0:37:30,2:37:59,1:57:21,,,5:18:06,2250,9479,7041,232,84,19086,101,87,17,170,138,23,110,95,19,101,87,17,Finisher,2621
+Roman,Menz,Roman Menz,907,M40-44,Male,,,Switzerland,CH,0:36:08,2:33:56,2:03:48,,,5:18:28,2168,9236,7428,182,94,19108,102,88,18,139,114,17,76,64,13,102,88,18,Finisher,2614
+Raymond,Ordoveza,Raymond Ordoveza,682,M30-34,Male,Cebu City,CEB,Philippines,PH,0:30:38,2:35:49,2:07:25,,,5:18:40,1838,9349,7645,223,65,19120,103,89,9,59,47,3,67,57,6,103,89,9,Finisher,2732
+Heejun,Kim,Heejun Kim,1027,M45-49,Male,Daejeon,"parangsae103-902,seugu dunsandong",South Korea,KR,0:31:31,2:41:43,2:00:52,,,5:20:22,1891,9703,7252,256,120,19222,104,90,12,73,59,6,97,84,11,104,90,12,Finisher,2793
+Christopher,Mark,Christopher Mark,856,M40-44,Male,Espanola,ON,Canada,CA,0:46:51,2:36:00,1:52:05,,,5:20:31,2811,9360,6725,262,73,19231,105,91,19,405,341,76,140,123,25,105,91,19,Finisher,2577
+Rolly,Gabuyo,Rolly Gabuyo,640,M30-34,Male,,,Philippines,PH,0:40:57,2:34:27,2:00:52,,,5:20:43,2457,9267,7252,162,105,19243,106,92,10,271,221,23,100,87,10,106,92,10,Finisher,2695
+Jean-Guy,Cornu,Jean-Guy Cornu,959,M40-44,Male,Reims,,France,FR,0:40:34,2:35:28,2:00:24,,,5:20:59,2434,9328,7224,180,93,19259,107,93,20,256,209,39,108,93,18,107,93,20,Finisher,2569
+Abedum Delima,Ernesto,Abedum Delima Ernesto,1099,M55-59,Male,Tokyo,JP-30,Philippines,PH,0:39:20,2:38:03,1:58:55,,,5:21:44,2360,9483,7135,240,86,19304,108,94,3,225,186,5,121,105,3,108,94,3,Finisher,3144
+Federico,Masin,Federico Masin,987,M45-49,Male,Hong Kong ,Hong Kong,Italy,IT,0:31:25,2:41:03,2:04:45,,,5:21:54,1885,9663,7485,160,121,19314,110,96,13,70,56,5,87,75,8,110,96,13,Finisher,2765
+Lloyd,Dy,Lloyd Dy,795,M35-39,Male,Paranaque City,Metro Manila,Philippines,PH,0:37:04,2:39:21,2:04:10,,,5:26:01,2224,9561,7450,248,78,19561,113,99,18,160,131,27,117,102,20,113,99,18,Finisher,2311
+Amanda,Carpo,Amanda Carpo,1343,F40-44,Female,Redwood City,CA,Philippines,PH,0:37:10,2:52:57,1:52:16,,,5:27:21,2230,10377,6736,224,74,19641,115,16,1,163,30,4,172,24,2,115,16,1,Finisher,3500
+Christopher,Weeks,Christopher Weeks,627,M25-29,Male,Bangkok,,United Kingdom,GB,0:30:20,2:39:53,2:13:48,,,5:27:52,1820,9593,8028,178,53,19672,116,100,6,53,41,1,77,65,2,116,100,6,Finisher,2587
+Alex,Hall,Alex Hall,1316,F25-29,Female,Trinity Beach,QLD,Australia,AU,0:28:46,2:43:07,2:11:09,,,5:28:16,1726,9787,7869,218,96,19696,117,17,3,35,8,1,90,13,2,117,17,3,Finisher,2977
+Yasumitsu,Hirao,Yasumitsu Hirao,915,M40-44,Male,,,Philippines,PH,0:36:46,2:56:07,1:52:00,,,5:30:44,2206,10567,6720,239,112,19844,118,101,21,154,128,20,184,157,30,118,101,21,Finisher,2393
+Florentino Jr.,Magundayao,Florentino Jr. Magundayao,908,M40-44,Male,Sabang Lipa city,batangas,Philippines,PH,0:39:51,2:35:46,2:10:23,,,5:31:54,2391,9346,7823,266,88,19914,119,102,22,240,198,36,112,97,20,119,102,22,Finisher,2372
+Masayuki,Yamakawa,Masayuki Yamakawa,1083,M50-54,Male,shibuyaku,JP-13,Japan,JP,0:35:25,2:39:36,2:11:44,,,5:32:34,2125,9576,7904,269,80,19954,120,103,9,126,102,11,111,96,10,120,103,9,Finisher,2344
+Filippo,Nicosia,Filippo Nicosia,851,M40-44,Male,Chongqing,CHONGQING,Italy,IT,0:29:36,2:46:24,2:11:54,,,5:32:44,1776,9984,7914,180,110,19964,121,104,23,49,38,7,107,92,17,121,104,23,Finisher,2357
+Jayjay,Cantor,Jayjay Cantor,752,M35-39,Male,Tanauan City ,PH-BTG,Philippines,PH,0:41:49,2:39:56,2:06:12,,,5:33:52,2509,9596,7572,205,150,20032,122,105,19,300,244,51,137,120,28,122,105,19,Finisher,2170
+Chadwick,Tsai,Chadwick Tsai,606,M18-24,Male,Brgy Manresa,PH-00,Philippines,PH,0:36:45,2:43:32,2:09:04,,,5:34:11,2205,9812,7744,171,119,20051,123,106,2,152,126,3,128,111,2,123,106,2,Finisher,3149
+Nathalie,Leger,Nathalie Leger,1360,F45-49,Female,Dallas,Texas,France,FR,0:37:25,2:50:05,2:02:46,,,5:35:17,2245,10205,7366,187,114,20117,124,18,1,169,32,3,154,22,1,124,18,1,Finisher,3500
+Paolo,Leano,Paolo Leano,814,M35-39,Male,Quezon City,Metro,Philippines,PH,0:31:05,2:40:01,2:19:54,,,5:35:40,1865,9601,8394,179,101,20140,125,107,20,64,51,10,82,70,17,125,107,20,Finisher,2137
+Gian,Gey,Gian Gey,794,M35-39,Male,Houston,TX,France,FR,0:34:16,2:43:20,2:10:41,,,5:35:40,2056,9800,7841,254,189,20140,126,108,21,107,87,20,122,106,23,126,108,21,Finisher,2137
+Gregie,Pamakid,Gregie Pamakid,865,M40-44,Male,Valencia city,Bukidnon,Philippines,PH,0:38:31,2:35:49,2:16:45,,,5:36:05,2311,9349,8205,207,93,20165,127,109,24,197,162,26,99,86,15,127,109,24,Finisher,2297
+Rex Marvin,Superiano,Rex Marvin Superiano,620,M25-29,Male,Brgy. San Roque Antipolo City,Rizal,Philippines,PH,0:41:20,2:53:55,1:55:20,,,5:36:31,2480,10435,6920,267,89,20191,128,110,7,283,229,14,205,178,12,128,110,7,Finisher,2431
+Florito Jr,Roque,Florito Jr Roque,917,M40-44,Male,Sto Domingo,"Sta Rosa, Laguna",Philippines,PH,0:40:22,2:42:50,2:08:42,,,5:36:55,2422,9770,7722,197,104,20215,130,112,25,253,206,37,138,121,24,130,112,25,Finisher,2282
+James,Prigg,James Prigg,746,M35-39,Male,Wellington,WGN,United Kingdom,GB,0:33:24,2:47:21,2:11:11,,,5:38:22,2004,10041,7871,241,145,20302,131,113,22,98,78,17,134,117,27,131,113,22,Finisher,2089
+Haythem,El-Ansary,Haythem El-Ansary,781,M35-39,Male,Singapore,04,Australia,AU,0:37:39,2:29:06,2:27:35,,,5:38:28,2259,8946,8855,146,102,20308,132,114,23,173,141,30,63,54,14,132,114,23,Finisher,2087
+Alvin,Panganiban,Alvin Panganiban,776,M35-39,Male,Malolos,Central Luzon,Philippines,PH,0:39:57,2:45:41,2:09:25,,,5:40:35,2397,9941,7765,215,117,20435,133,115,24,243,200,41,148,130,30,133,115,24,Finisher,2049
+Oliver,Cerbo,Oliver Cerbo,1002,M45-49,Male,Tamuning,GU,Philippines,PH,0:38:43,2:55:53,2:01:26,,,5:40:37,2323,10553,7286,208,67,20437,134,116,14,204,169,24,194,167,21,134,116,14,Finisher,2428
+Grant,Preddy,Grant Preddy,643,M30-34,Male,Quakers hill,NSW,Australia,AU,0:32:29,2:48:37,2:15:37,,,5:40:39,1949,10117,8137,183,53,20439,135,117,11,83,65,4,131,114,11,135,117,11,Finisher,2336
+Ivo,Nijhuis,Ivo Nijhuis,820,M35-39,Male,Utrecht,,Netherlands,NL,0:27:06,2:52:01,2:17:44,,,5:41:57,1626,10321,8264,195,111,20517,137,118,25,16,12,2,123,107,24,137,118,25,Finisher,2024
+Boris,Angerer,Boris Angerer,789,M35-39,Male,Dietmannsried,BY,Germany,DE,0:41:03,2:52:03,2:02:51,,,5:42:02,2463,10323,7371,263,102,20522,138,119,26,274,223,45,190,163,40,138,119,26,Finisher,2023
+Angelo,Leano,Angelo Leano,706,M35-39,Male,"Valle Verde 1 Pasig, Brgy Ugong",,Philippines,PH,0:34:07,2:46:09,2:16:28,,,5:42:46,2047,9969,8188,241,121,20566,139,120,27,104,84,18,132,115,26,139,120,27,Finisher,2009
+Wai Kin,Yeung,Wai Kin Yeung,827,M40-44,Male,,,Hong Kong,HK,0:42:11,2:53:25,2:01:57,,,5:43:45,2531,10405,7317,245,127,20625,140,121,26,308,251,49,204,177,35,140,121,26,Finisher,2159
+Kin Cheung,Wong,Kin Cheung Wong,930,M40-44,Male,NT,Massachusetts,Hong Kong,HK,0:41:35,2:53:48,2:03:03,,,5:43:52,2495,10428,7383,249,77,20632,141,122,27,292,236,45,202,175,33,141,122,27,Finisher,2157
+Kristian,Cabahug,Kristian Cabahug,694,M30-34,Male,Mandaue,Cebu,Philippines,PH,0:39:57,2:46:49,2:10:28,,,5:43:52,2397,10009,7828,258,140,20632,142,123,12,242,199,18,156,134,12,142,123,12,Finisher,2279
+Joel,Caniza,Joel Caniza,992,M45-49,Male,Muntinlupa,Intl State,Philippines,PH,0:34:05,2:41:43,2:22:05,,,5:44:29,2045,9703,8525,269,127,20669,143,124,15,103,83,12,115,100,14,143,124,15,Finisher,2359
+Suradech,Pattanakiatichai,Suradech Pattanakiatichai,774,M35-39,Male,Bangkok,Bangkok,Thailand,TH,0:39:00,2:37:53,2:19:50,,,5:44:32,2340,9473,8390,336,133,20672,144,125,28,216,177,38,124,108,25,144,125,28,Finisher,1978
+Megan,Gray,Megan Gray,1353,F40-44,Female,Currumbin Valley,QLD,Australia,AU,0:33:11,2:53:22,2:13:22,,,5:44:52,1991,10402,8002,209,88,20692,145,20,2,95,20,1,152,20,1,145,20,2,Finisher,3184
+Angelito,Bolina,Angelito Bolina,1085,M50-54,Male,Malhacan,Meycauayan,Philippines,PH,0:48:04,2:41:11,2:10:29,,,5:45:03,2884,9671,7829,239,80,20703,146,126,10,432,365,23,168,145,13,146,126,10,Finisher,2120
+Matt,Christie,Matt Christie,986,M45-49,Male,Frenchs Forest ,NSW,Australia,AU,0:27:35,3:13:38,1:59:16,,,5:46:13,1655,11618,7156,203,141,20773,148,128,16,19,13,1,240,208,30,148,128,16,Finisher,2327
+Paolo,Patelli,Paolo Patelli,1090,M50-54,Male,Bigorio,,Switzerland,CH,0:30:21,2:42:50,2:27:55,,,5:46:22,1821,9770,8875,194,122,20782,149,129,11,54,42,5,95,82,8,149,129,11,Finisher,2096
+Angelo,Panopio,Angelo Panopio,1048,M45-49,Male,Brgy. Pinyahan,Quezon City,Philippines,PH,0:48:49,2:45:06,2:06:33,,,5:46:29,2929,9906,7593,212,149,20789,150,130,17,448,379,54,188,161,19,150,130,17,Finisher,2323
+Resty,Capulong Iii,Resty Capulong Iii,894,M40-44,Male,"san vicente, apalit",pampanga,Philippines,PH,0:49:34,2:47:24,2:04:08,,,5:46:30,2974,10044,7448,216,108,20790,151,131,28,458,388,86,210,183,37,151,131,28,Finisher,2109
+Michael Angelo,Belarmino,Michael Angelo Belarmino,862,M40-44,Male,Batal,Santiago Isabela,Philippines,PH,0:46:39,2:49:36,2:04:35,,,5:46:45,2799,10176,7475,199,156,20805,152,132,29,395,331,72,203,176,34,152,132,29,Finisher,2105
+Mark Adrian,Hernandez,Mark Adrian Hernandez,777,M35-39,Male,Taguig,Metro Manila,Philippines,PH,0:37:09,2:50:40,2:15:07,,,5:46:45,2229,10240,8107,170,59,20805,153,133,29,162,133,28,155,133,31,153,133,29,Finisher,1938
+John,Baguyo,John Baguyo,615,M25-29,Male,TAMUNING,GU,Philippines,PH,0:36:46,2:49:18,2:17:05,,,5:46:52,2206,10158,8225,165,58,20812,154,134,8,153,127,7,146,128,9,154,134,8,Finisher,2245
+Beili,Bian,Beili Bian,1331,F35-39,Female,tyuikl,ertyuio,China,CN,0:29:10,2:55:37,2:16:59,,,5:47:01,1750,10537,8219,212,103,20821,155,21,1,44,9,1,144,18,1,155,21,1,Finisher,3500
+Regie,Boljoran,Regie Boljoran,632,M25-29,Male,pasay,,Philippines,PH,0:36:34,2:39:49,2:25:47,,,5:47:26,2194,9589,8747,168,148,20846,156,135,9,147,121,6,109,94,5,156,135,9,Finisher,2235
+Emma,Dickie,Emma Dickie,1329,F35-39,Female,Dubai,DXB,Australia,AU,0:40:18,2:48:29,2:14:25,,,5:47:59,2418,10109,8065,193,94,20879,157,22,2,250,46,6,163,23,2,157,22,2,Finisher,3482
+William,Vicera,William Vicera,701,M35-39,Male,,,Philippines,PH,0:46:00,2:51:38,2:06:13,,,5:48:25,2760,10298,7573,190,84,20905,158,136,30,386,324,70,212,185,46,158,136,30,Finisher,1908
+Tomoyuki,Matsuda,Tomoyuki Matsuda,1074,M50-54,Male,sakyokyoto,kyoto,Japan,JP,0:43:41,2:43:34,2:13:39,,,5:48:36,2621,9814,8019,309,153,20916,159,137,12,333,275,17,164,141,12,159,137,12,Finisher,2056
+Pei Lin,Yuen,Pei Lin Yuen,1321,F30-34,Female,Singapore,04,Singapore,SG,0:38:54,2:50:08,2:13:18,,,5:48:54,2334,10208,7998,299,95,20934,160,23,2,213,39,5,173,25,2,160,23,2,Finisher,2218
+Ryan,Lee,Ryan Lee,750,M35-39,Male,"SFDM, Quezon City",METRO MANILA,Philippines,PH,0:41:54,2:45:45,2:15:55,,,5:49:21,2514,9945,8155,249,98,20961,161,138,31,302,245,52,161,139,34,161,138,31,Finisher,1891
+Carlo,Malana,Carlo Malana,1007,M45-49,Male,Plano,TX,Philippines,PH,0:43:35,2:50:51,2:09:36,,,5:50:36,2615,10251,7776,236,158,21036,163,140,18,332,274,35,196,169,22,163,140,18,Finisher,2249
+Simon,Waterhouse,Simon Waterhouse,881,M40-44,Male,Zurich,,United Kingdom,GB,0:33:34,3:04:12,2:08:06,,,5:50:51,2014,11052,7686,199,100,21051,164,141,30,100,80,13,215,188,38,164,141,30,Finisher,2031
+Xerxes,Garcia,Xerxes Garcia,771,M35-39,Male,"Brgy. San Antonio Valley I, Sucat, Paranaque City",NCR,Philippines,PH,0:44:49,2:42:47,2:17:53,,,5:51:10,2689,9767,8273,230,111,21070,165,142,32,356,296,64,158,136,33,165,142,32,Finisher,1858
+Jephtie,Dela Cruz,Jephtie Dela Cruz,803,M35-39,Male,Meycauayan City,Bulacan,Philippines,PH,0:49:18,2:47:57,2:06:25,,,5:51:16,2958,10077,7585,298,158,21076,166,143,33,454,384,80,225,197,49,166,143,33,Finisher,1856
+Leanne,Southwell,Leanne Southwell,1362,F45-49,Female,,QLD,Australia,AU,0:29:18,3:03:14,2:14:49,,,5:52:01,1758,10994,8089,173,107,21121,167,24,2,47,10,1,179,27,2,167,24,2,Finisher,3198
+Chloe Jane,Ong,Chloe Jane Ong,1320,F30-34,Female,Manila,Metro manila,Philippines,PH,0:37:42,3:03:22,2:06:02,,,5:52:26,2262,11002,7562,211,109,21146,168,25,3,176,33,3,239,32,4,168,25,3,Finisher,2154
+Glen,Pendry,Glen Pendry,1070,M50-54,Male,,,United Kingdom,GB,0:34:39,2:43:04,2:24:20,,,5:52:37,2079,9784,8660,303,331,21157,169,144,13,111,90,9,126,109,11,169,144,13,Finisher,1983
+Emmanuel,Mondero,Emmanuel Mondero,1020,M45-49,Male,Matandang Balara,PH-00,Philippines,PH,0:38:56,2:57:42,2:11:50,,,5:53:53,2336,10662,7910,238,87,21233,171,146,19,214,175,26,211,184,25,171,146,19,Finisher,2189
+Maria Katrina,Amistoso,Maria Katrina Amistoso,1322,F30-34,Female,"Sucat, Muntinlupa",NCR,Philippines,PH,0:36:57,3:02:13,2:10:23,,,5:53:58,2217,10933,7823,173,92,21238,172,26,4,158,28,2,223,28,3,172,26,4,Finisher,2127
+Joel,Caburnay,Joel Caburnay,934,M40-44,Male,,,Philippines,PH,0:39:31,2:43:55,2:23:05,,,5:54:17,2371,9835,8585,362,104,21257,173,147,31,227,188,34,150,132,28,173,147,31,Finisher,1969
+Karl Mark,Martinez,Karl Mark Martinez,763,M35-39,Male,Mandaluyong,Metro Manila,Philippines,PH,0:41:07,2:54:01,2:14:22,,,5:54:20,2467,10441,8062,180,110,21260,174,148,34,276,224,46,195,168,42,174,148,34,Finisher,1801
+Thomas,Weisshappl,Thomas Weisshappl,933,M40-44,Male,Markersdorf,,Austria,AT,0:43:49,2:50:36,2:13:28,,,5:54:29,2629,10236,8008,246,150,21269,175,149,32,336,277,57,197,170,32,175,149,32,Finisher,1966
+Jose Merdino,Lim,Jose Merdino Lim,729,M35-39,Male,Cebu,cebu,Philippines,PH,0:35:32,2:42:27,2:30:48,,,5:55:05,2132,9747,9048,199,179,21305,176,150,35,130,106,24,120,104,22,176,150,35,Finisher,1788
+Francis Jemuel,Contreras,Francis Jemuel Contreras,612,M25-29,Male,,,Philippines,PH,0:38:46,2:50:53,2:20:39,,,5:55:47,2326,10253,8439,238,91,21347,177,151,10,208,172,12,171,148,10,177,151,10,Finisher,2084
+Sherwin,Montevirgen,Sherwin Montevirgen,872,M40-44,Male,San Rafael,Manila,Philippines,PH,0:41:27,2:40:15,2:28:58,,,5:56:17,2487,9615,8938,205,132,21377,178,152,33,287,233,44,136,119,23,178,152,33,Finisher,1933
+Heinrich,Gasacao,Heinrich Gasacao,604,M18-24,Male,,,Philippines,PH,0:36:30,2:49:54,2:25:10,,,5:56:35,2190,10194,8710,174,127,21395,179,153,3,145,119,2,149,131,4,179,153,3,Finisher,2746
+Marjun,Balaite,Marjun Balaite,657,M30-34,Male,Obrero,Davao Del Sur,Philippines,PH,0:41:45,2:56:02,2:13:41,,,5:56:51,2505,10562,8021,205,118,21411,180,154,13,298,242,28,217,190,18,180,154,13,Finisher,2045
+Jeroen,De Haas,Jeroen De Haas,760,M35-39,Male,davao city,Davao del Sur,Netherlands,NL,0:42:22,2:54:53,2:13:41,,,5:56:54,2542,10493,8021,241,117,21414,181,155,36,315,258,54,218,191,47,181,155,36,Finisher,1755
+Celma,Hitalia,Celma Hitalia,1364,F50-54,Female,Muntinlupa City,PH-00,Philippines,PH,0:41:28,3:03:38,2:07:12,,,5:57:39,2488,11018,7632,198,123,21459,182,27,1,288,55,1,264,34,1,182,27,1,Finisher,3500
+Lloyd,Jenkins,Lloyd Jenkins,806,M35-39,Male,Caerleon ,BLAENAU GWENT,United Kingdom,GB,0:36:33,2:58:47,2:15:15,,,5:57:49,2193,10727,8115,313,121,21469,183,156,37,146,120,26,208,181,44,183,156,37,Finisher,1739
+Matthias,Sutter,Matthias Sutter,906,M40-44,Male,,,Switzerland,CH,0:36:10,2:48:09,2:27:09,,,5:57:55,2170,10089,8829,214,173,21475,184,157,34,140,115,18,142,125,26,184,157,34,Finisher,1904
+Allen Ivan,Sta Maria,Allen Ivan Sta Maria,602,M18-24,Male,,,Philippines,PH,0:50:34,2:48:49,2:12:42,,,5:58:24,3034,10129,7962,219,160,21504,185,158,4,482,410,6,229,201,5,185,158,4,Finisher,2713
+Kenichi,Inamoto,Kenichi Inamoto,1057,M45-49,Male,港区芝,東京都,Japan,JP,0:40:35,2:51:56,2:19:01,,,5:58:37,2435,10316,8341,297,128,21517,186,159,20,258,211,30,189,162,20,186,159,20,Finisher,2104
+Jonathan,Lonske,Jonathan Lonske,981,M45-49,Male,Dorado,PR,United States,US,0:39:00,2:50:34,2:21:29,,,5:59:10,2340,10234,8489,315,172,21550,187,160,21,215,176,27,176,150,17,187,160,21,Finisher,2094
+Allan,Brizuela,Allan Brizuela,899,M40-44,Male,Las Pinas,PH-00,Philippines,PH,0:41:26,2:52:29,2:19:19,,,5:59:49,2486,10349,8359,248,147,21589,188,161,35,286,232,43,193,166,31,188,161,35,Finisher,1870
+Melissa,Tellez,Melissa Tellez,1314,F25-29,Female,CHANDLER,AZ,United States,US,0:38:53,3:07:42,2:07:33,,,6:00:10,2333,11262,7653,230,132,21610,189,28,4,212,38,6,276,39,5,189,28,4,Finisher,2403
+Neil,Ong,Neil Ong,1011,M45-49,Male,"Barangay Isabang, Lucena City",Quezon,Philippines,PH,0:35:30,3:01:34,2:17:10,,,6:00:33,2130,10894,8230,232,147,21633,190,162,22,128,104,16,214,187,26,190,162,22,Finisher,2069
+Pui Ling Connie,Lau,Pui Ling Connie Lau,1317,F30-34,Female,,,Hong Kong,HK,0:37:53,3:10:45,2:05:52,,,6:00:39,2273,11445,7552,262,107,21639,191,29,5,180,34,4,293,45,6,191,29,5,Finisher,2006
+Andrew,Competente,Andrew Competente,644,M30-34,Male,,,Philippines,PH,0:44:03,2:49:41,2:22:48,,,6:00:46,2643,10181,8568,154,100,21646,192,163,14,341,281,34,182,155,14,192,163,14,Finisher,1974
+Jaime,Dolera Jr,Jaime Dolera Jr,785,M35-39,Male,Marikina City,Metro Manila,Philippines,PH,0:43:10,2:51:12,2:22:25,,,6:00:51,2590,10272,8545,174,70,21651,193,164,38,326,268,57,186,159,39,193,164,38,Finisher,1684
+Nicholas,Wodtke,Nicholas Wodtke,1069,M50-54,Male,London,Westminster,United States,US,0:35:40,3:10:28,2:07:36,,,6:01:25,2140,11428,7656,290,171,21685,194,165,14,134,110,12,278,239,16,194,165,14,Finisher,1825
+Jeffrey,Mendoza,Jeffrey Mendoza,726,M35-39,Male,,,Philippines,PH,0:48:03,2:52:19,2:15:54,,,6:03:49,2883,10339,8154,293,160,21829,196,167,39,429,362,77,244,212,52,196,167,39,Finisher,1631
+Jerico,Tungcab,Jerico Tungcab,845,M40-44,Male,Villamor Air Base,Pasay City,Philippines,PH,0:42:15,2:56:50,2:16:51,,,6:03:49,2535,10610,8211,355,118,21829,197,168,36,313,256,51,243,211,44,197,168,36,Finisher,1798
+Thomas,Dreher,Thomas Dreher,1096,M55-59,Male,Vogtsburg,BW,Germany,DE,0:36:45,2:43:56,2:37:46,,,6:04:00,2205,9836,9466,203,130,21840,198,169,4,151,125,4,130,113,4,198,169,4,Finisher,2383
+Deo,Pascual,Deo Pascual,626,M25-29,Male,Pampanga,Pampanga,Philippines,PH,0:38:03,2:46:00,2:35:12,,,6:04:11,2283,9960,9312,197,99,21851,200,171,11,186,152,11,141,124,8,200,171,11,Finisher,1933
+Richard,Cabreros,Richard Cabreros,796,M35-39,Male,Bacoor,Cavite,Philippines,PH,0:37:46,2:52:10,2:28:04,,,6:04:15,2266,10330,8884,257,118,21855,201,172,40,179,146,33,175,149,37,201,172,40,Finisher,1623
+Younjoo,Lee,Younjoo Lee,707,M35-39,Male,,,South Korea,KR,0:41:37,3:00:13,2:12:46,,,6:04:24,2497,10813,7966,357,231,21864,202,173,41,293,237,49,260,227,56,202,173,41,Finisher,1620
+Paul jake ,Castillo,Paul jake Castillo,674,M30-34,Male,Talamban,PH-CEB,Philippines,PH,0:36:36,2:55:21,2:27:52,,,6:04:34,2196,10521,8872,215,70,21874,203,174,15,148,122,9,180,153,13,203,174,15,Finisher,1906
+Redolfo,Plopinio,Redolfo Plopinio,1124,M35-39,Male,Quezon City,Metro Manila,Philippines,PH,0:34:50,2:52:58,2:32:20,,,6:04:46,2090,10378,9140,212,66,21886,204,175,42,115,94,22,157,135,32,204,175,42,Finisher,1613
+Ricky,Omadle,Ricky Omadle,1018,M45-49,Male,,,Philippines,PH,0:45:02,2:53:10,2:21:08,,,6:05:33,2702,10390,8468,293,80,21933,206,177,23,362,302,40,230,202,29,206,177,23,Finisher,1979
+Andi Iswandi,Johari,Andi Iswandi Johari,731,M35-39,Male,Singapore,02,Singapore,SG,0:50:30,2:56:53,2:09:22,,,6:05:38,3030,10613,7762,320,213,21938,207,178,43,479,408,86,290,246,60,207,178,43,Finisher,1598
+Ivan,Fojas,Ivan Fojas,921,M40-44,Male,Taguig,PH-00,Philippines,PH,0:37:33,2:48:23,2:34:19,,,6:05:46,2253,10103,9259,194,137,21946,208,179,37,171,139,24,147,129,27,208,179,37,Finisher,1763
+Dino,Segundo,Dino Segundo,977,M45-49,Male,Paranaque,,Philippines,PH,0:38:36,2:53:16,2:27:36,,,6:06:06,2316,10396,8856,330,68,21966,209,180,24,198,163,22,187,160,18,209,180,24,Finisher,1970
+Voltaire,Montebon,Voltaire Montebon,824,M35-39,Male,samba 1,cebu,Philippines,PH,0:42:43,2:51:58,2:27:05,,,6:06:31,2563,10318,8825,188,97,21991,210,181,44,320,263,56,191,164,41,210,181,44,Finisher,1582
+Robert,Nadonga,Robert Nadonga,641,M30-34,Male,Rosario ,LA UNION,Philippines,PH,0:40:05,3:02:07,2:19:08,,,6:06:56,2405,10927,8348,227,109,22016,211,182,16,244,201,19,250,217,21,211,182,16,Finisher,1863
+Jewell,Narzoles,Jewell Narzoles,1337,F35-39,Female,Dubai,DXB,Philippines,PH,0:38:10,3:09:25,2:13:05,,,6:07:31,2290,11365,7985,250,161,22051,212,30,3,188,35,3,282,41,4,212,30,3,Finisher,3131
+Adrian Joseph,Farrales,Adrian Joseph Farrales,813,M35-39,Male,DON JOSE,CITY OF STA. ROSA,Philippines,PH,0:47:12,2:50:03,2:24:40,,,6:07:34,2832,10203,8680,199,140,22054,213,183,45,409,344,75,209,182,45,213,183,45,Finisher,1563
+Jendel,Mapile,Jendel Mapile,668,M30-34,Male,Sta. Rita,PH-ZMB,Philippines,PH,0:41:45,2:55:06,2:24:12,,,6:07:40,2505,10506,8652,244,153,22060,214,184,17,297,241,27,213,186,17,214,184,17,Finisher,1850
+Don,Marasigan,Don Marasigan,939,M40-44,Male,CANDELARIA,QUEZON,Philippines,PH,0:38:38,2:58:14,2:23:39,,,6:08:27,2318,10694,8619,316,160,22107,216,186,38,200,165,27,224,196,40,216,186,38,Finisher,1714
+Emma,Mair,Emma Mair,1310,F25-29,Female,Mount Cotton ,QLD,Australia,AU,0:39:35,3:12:37,2:10:23,,,6:08:43,2375,11557,7823,204,164,22123,217,31,5,233,41,7,314,47,6,217,31,5,Finisher,2249
+Carly,Relf,Carly Relf,1350,F40-44,Female,makati,manila,United Kingdom,GB,0:34:50,3:13:07,2:16:50,,,6:09:15,2090,11587,8210,186,82,22155,218,32,3,116,22,2,279,40,6,218,32,3,Finisher,2745
+Nino,Mundo,Nino Mundo,730,M35-39,Male,Caloocan,00,Philippines,PH,0:40:09,2:54:39,2:29:04,,,6:09:26,2409,10479,8944,229,105,22166,219,187,46,246,203,43,198,171,43,219,187,46,Finisher,1529
+William,Labitoria,William Labitoria,658,M30-34,Male,,,Philippines,PH,0:41:17,2:51:59,2:30:49,,,6:09:37,2477,10319,9049,226,106,22177,220,188,18,281,228,25,185,158,16,220,188,18,Finisher,1815
+Hikari,Azuma,Hikari Azuma,1302,F18-24,Female,つくば市研究学園,茨城県,Japan,JP,0:35:44,3:04:57,2:23:20,,,6:09:43,2144,11097,8600,198,144,22183,221,33,2,135,25,3,232,29,3,221,33,2,Finisher,1968
+Jesse Philip,Eijansantos,Jesse Philip Eijansantos,1028,M45-49,Male,"Batasan Hills, Quezon City",Metro Manila,Philippines,PH,0:50:07,3:06:46,2:02:43,,,6:09:46,3007,11206,7363,359,251,22186,222,189,25,473,402,59,355,305,48,222,189,25,Finisher,1904
+Mika,Shito,Mika Shito,1304,F18-24,Female,練馬区大泉町,東京都,Japan,JP,0:31:13,2:56:28,2:38:46,,,6:10:16,1873,10588,9526,151,78,22216,223,34,3,66,14,2,153,21,2,223,34,3,Finisher,1958
+Ma,Evangeline Endaya,Ma Evangeline Endaya,1352,F40-44,Female,Paranaque,Metro Manila,Philippines,PH,0:47:40,2:56:58,2:19:59,,,6:10:27,2860,10618,8399,263,87,22227,224,35,4,418,66,8,269,35,4,224,35,4,Finisher,2724
+Hitoshi,Watanabe,Hitoshi Watanabe,984,M45-49,Male,"fukasawa, setagaya-kutokyo",東京都,Japan,JP,0:38:13,3:04:53,2:18:19,,,6:10:31,2293,11093,8299,322,224,22231,225,190,26,189,154,20,266,232,34,225,190,26,Finisher,1890
+Mark,Del Rosario,Mark Del Rosario,836,M40-44,Male,LK FOREST PK,WA,United States,US,0:45:44,2:41:27,2:36:13,,,6:11:05,2744,9687,9373,275,186,22265,226,191,39,378,317,66,160,138,29,226,191,39,Finisher,1667
+Luis Antonio,Carballo,Luis Antonio Carballo,751,M35-39,Male,Pasig City,00,Philippines,PH,0:37:21,2:49:41,2:36:02,,,6:11:16,2241,10181,9362,288,204,22276,227,192,47,168,137,29,162,140,35,227,192,47,Finisher,1496
+Paulene,Williams,Paulene Williams,1338,F40-44,Female,San Bernardino,CA,Philippines,PH,0:40:22,3:02:09,2:25:19,,,6:11:47,2422,10929,8719,173,64,22307,228,36,5,252,47,5,245,33,3,228,36,5,Finisher,2700
+Jonathan Strauss,Gopaco,Jonathan Strauss Gopaco,913,M40-44,Male,QUEZON CITY,METRO MANILA,Philippines,PH,0:41:56,3:07:54,2:15:39,,,6:13:20,2516,11274,8139,299,172,22400,230,193,40,304,247,48,306,260,57,230,193,40,Finisher,1626
+Michael,Cortes,Michael Cortes,735,M35-39,Male,Gerona,Gerona Tarlac,Philippines,PH,0:44:24,2:58:02,2:20:52,,,6:13:31,2664,10682,8452,376,237,22411,231,194,48,348,288,60,268,234,57,231,194,48,Finisher,1456
+James,Leather,James Leather,1063,M50-54,Male,Makati City,INTL STATE,United States,US,0:39:13,2:59:11,2:27:04,,,6:13:32,2353,10751,8824,274,210,22412,232,195,15,221,182,15,228,200,14,232,195,15,Finisher,1607
+Jason Brian,Marquez,Jason Brian Marquez,923,M40-44,Male,La Trinidad,CORDILLERA ADMINISTRATIVE REGION,Philippines,PH,0:43:31,2:54:21,2:29:24,,,6:13:54,2611,10461,8964,210,188,22434,233,196,41,331,273,56,219,192,39,233,196,41,Finisher,1616
+Marco,Manzoni,Marco Manzoni,904,M40-44,Male,,,Italy,IT,0:39:11,2:56:49,2:30:33,,,6:14:07,2351,10609,9033,250,204,22447,234,197,42,219,180,32,206,179,36,234,197,42,Finisher,1612
+Harley,David,Harley David,611,M25-29,Male,angeles city,pampanga,Philippines,PH,0:47:59,2:47:01,2:32:55,,,6:14:14,2879,10021,9175,259,120,22454,235,198,12,426,359,19,199,172,11,235,198,12,Finisher,1752
+Darwin,Cosca,Darwin Cosca,800,M35-39,Male,"san pablo, dinalupihan",bataan,Philippines,PH,0:44:50,2:56:43,2:22:20,,,6:14:54,2690,10603,8540,475,186,22494,236,199,49,357,297,65,271,235,58,236,199,49,Finisher,1431
+Jonathan,Tansengco,Jonathan Tansengco,1066,M50-54,Male,Paranaque City,Metro Manila,Philippines,PH,0:47:37,3:08:44,2:11:52,,,6:15:52,2857,11324,7912,290,169,22552,238,201,16,416,351,22,348,299,20,238,201,16,Finisher,1565
+Gerwin Bryan,Ong,Gerwin Bryan Ong,605,M18-24,Male,Bacood,Manila,Philippines,PH,0:40:35,2:40:43,2:49:24,,,6:16:33,2435,9643,10164,198,153,22593,239,202,5,257,210,4,133,116,3,239,202,5,Finisher,2386
+Maria Victoria,Tan,Maria Victoria Tan,1355,F40-44,Female,Banilad,Cebu city,Philippines,PH,0:46:22,2:58:49,2:23:21,,,6:16:38,2782,10729,8601,303,183,22598,240,38,6,390,63,7,275,38,5,240,38,6,Finisher,2612
+Nhoy,Lacson,Nhoy Lacson,979,M45-49,Male,Sto Tomas,Batangas,Philippines,PH,0:42:03,2:51:11,2:32:14,,,6:16:44,2523,10271,9134,372,304,22604,241,203,27,306,249,32,200,173,23,241,203,27,Finisher,1778
+Benjamin,Balais,Benjamin Balais,710,M35-39,Male,calamba,laguna,Philippines,PH,0:50:05,3:02:36,2:17:07,,,6:17:20,3005,10956,8227,318,134,22640,242,204,50,470,399,84,328,279,64,242,204,50,Finisher,1387
+HUA,FANG,HUA FANG,689,M30-34,Male,杭州,浙江,China,CN,0:40:41,2:52:11,2:38:10,,,6:17:38,2441,10331,9490,216,180,22658,243,205,19,264,215,21,183,156,15,243,205,19,Finisher,1671
+Jay,Pagcu,Jay Pagcu,798,M35-39,Male,San Roque,"Tarlac City, Tarlac",Philippines,PH,0:51:52,3:06:01,2:11:16,,,6:18:09,3112,11161,7876,321,219,22689,245,207,51,505,431,92,361,311,69,245,207,51,Finisher,1373
+Romeo,Nasara,Romeo Nasara,950,M40-44,Male,,,Philippines,PH,0:50:17,2:57:33,2:24:23,,,6:18:16,3017,10653,8663,247,116,22696,246,208,43,474,403,94,284,243,50,246,208,43,Finisher,1538
+Raymond,Flores,Raymond Flores,728,M35-39,Male,cabanatuan city,Nueva ecija,Philippines,PH,0:46:42,2:42:38,2:40:15,,,6:18:38,2802,9758,9615,408,135,22718,247,209,52,399,335,73,181,154,38,247,209,52,Finisher,1364
+Wing Yan,Li,Wing Yan Li,1323,F30-34,Female,,,Hong Kong,HK,0:39:31,3:05:44,2:26:12,,,6:18:41,2371,11144,8772,268,166,22721,248,39,6,229,40,6,272,37,5,248,39,6,Finisher,1682
+David,Hughes,David Hughes,741,M35-39,Male,"Arroyomolinos, madrid",,United Kingdom,GB,0:34:09,2:51:18,2:49:14,,,6:19:41,2049,10278,10154,177,123,22781,249,210,53,105,85,19,145,127,29,249,210,53,Finisher,1345
+Mohd Syafei,Bin Ahmad,Mohd Syafei Bin Ahmad,860,M40-44,Male,Kuala Lumpur,Wilayah Persekutuan,Malaysia,MY,0:42:25,3:02:30,2:30:24,,,6:20:40,2545,10950,9024,208,113,22840,250,211,44,316,259,53,263,230,46,250,211,44,Finisher,1494
+David,Bucad,David Bucad,919,M40-44,Male,Project 8,Quezon city,Philippines,PH,0:42:14,3:12:24,2:19:35,,,6:20:45,2534,11544,8375,245,147,22845,251,212,45,312,255,50,332,283,61,251,212,45,Finisher,1493
+Mary Grace,Olfindo,Mary Grace Olfindo,1332,F35-39,Female,Apolonio Samson,METRO MANILA,Philippines,PH,0:39:49,3:09:27,2:25:48,,,6:20:50,2389,11367,8748,257,89,22850,252,40,4,238,42,4,296,46,6,252,40,4,Finisher,2891
+Nicholas,Price,Nicholas Price,935,M40-44,Male,Singapore,,United Kingdom,GB,0:40:40,3:11:41,2:23:34,,,6:21:10,2440,11501,8614,188,127,22870,253,213,46,261,212,40,313,267,59,253,213,46,Finisher,1485
+Jennifer D,Soto,Jennifer D Soto,1348,F40-44,Female,Dolores,"San Fernando, Pampanga",United States,US,0:42:54,3:05:43,2:27:38,,,6:21:24,2574,11143,8858,229,80,22884,254,41,7,322,58,6,289,44,7,254,41,7,Finisher,2527
+Tanakorn,Cheeptumrong,Tanakorn Cheeptumrong,736,M35-39,Male,Wangtonglang,Bangkok,Thailand,TH,0:38:15,3:02:32,2:34:23,,,6:21:53,2295,10952,9263,318,85,22913,255,214,54,191,156,36,252,219,54,255,214,54,Finisher,1305
+Dennis,Munoz,Dennis Munoz,876,M40-44,Male,Sta rita,Bulacan,Philippines,PH,0:51:22,2:47:29,2:37:00,,,6:22:02,3082,10049,9420,247,124,22922,256,215,47,496,424,99,227,199,41,256,215,47,Finisher,1470
+Daisuke,Iwai,Daisuke Iwai,713,M35-39,Male,Meguro,JP-13,Japan,JP,0:50:33,2:56:09,2:27:59,,,6:22:49,3033,10569,8879,316,172,22969,258,217,55,480,409,87,285,244,59,258,217,55,Finisher,1289
+Noel Frederick,Peneyra,Noel Frederick Peneyra,758,M35-39,Male,Katipunan,Quezon city,Philippines,PH,0:42:33,3:06:22,2:27:22,,,6:23:03,2553,11182,8842,255,151,22983,259,218,56,318,261,55,294,249,61,259,218,56,Finisher,1284
+Maning,Sy,Maning Sy,995,M45-49,Male,balintawak ,caloocan city,Philippines,PH,0:48:22,2:52:32,2:36:24,,,6:23:15,2902,10352,9384,228,129,22995,260,219,28,435,368,49,241,209,31,260,219,28,Finisher,1661
+Columbo Allan,Aberia,Columbo Allan Aberia,927,M40-44,Male,"Brgy. San Jose, Antipolo City",Rizal,Philippines,PH,0:44:42,2:57:28,2:35:54,,,6:23:22,2682,10648,9354,202,116,23002,261,220,48,354,294,59,247,214,45,261,220,48,Finisher,1446
+Kenneth,Tan,Kenneth Tan,628,M25-29,Male,Brgy. North General Santos City,South Cotabato,Philippines,PH,0:39:33,2:57:22,2:39:57,,,6:23:41,2373,10642,9597,255,154,23021,263,222,13,231,191,13,216,189,13,263,222,13,Finisher,1582
+Isabelle,Marafko,Isabelle Marafko,1361,F45-49,Female,Gembloux,,Hungary,HU,0:43:53,3:21:20,2:09:17,,,6:24:06,2633,12080,7757,298,278,23046,264,42,3,337,60,6,406,59,6,264,42,3,Finisher,2621
+Mattias,Sweden,Mattias Sweden,932,M40-44,Male,Shanghai,Shanghai,Sweden,SE,0:39:18,3:10:39,2:25:59,,,6:24:15,2358,11439,8759,280,219,23055,265,223,49,224,185,33,303,257,55,265,223,49,Finisher,1430
+Oliver,Yao,Oliver Yao,942,M40-44,Male,Makati City,metro manila,Philippines,PH,0:44:19,2:56:33,2:37:56,,,6:24:22,2659,10593,9476,214,120,23062,266,224,50,345,285,58,237,206,43,266,224,50,Finisher,1428
+Miguel,Feuermann,Miguel Feuermann,1026,M45-49,Male,Mandaluyong,WACK WACK,Canada,CA,0:38:43,3:03:35,2:33:44,,,6:24:32,2323,11015,9224,306,204,23072,267,225,29,203,168,23,256,223,32,267,225,29,Finisher,1638
+Juan Paolo,Gonzales,Juan Paolo Gonzales,722,M35-39,Male,"Brgy San Miguel, Pasig",Metro Manila,Philippines,PH,0:49:44,3:10:41,2:17:24,,,6:24:38,2984,11441,8244,247,162,23078,268,226,57,462,391,82,369,317,70,268,226,57,Finisher,1256
+Jesus Gerardo A,Magsaysay,Jesus Gerardo A Magsaysay,767,M35-39,Male,Quezon City,Metro Manila,Philippines,PH,0:37:44,3:04:25,2:37:22,,,6:24:48,2264,11065,9442,199,118,23088,270,228,58,178,145,32,246,213,53,270,228,58,Finisher,1253
+Lesan,Malana,Lesan Malana,1330,F35-39,Female,"BGC, Taguig",Metro Manila,Philippines,PH,0:40:40,3:04:59,2:29:30,,,6:24:53,2440,11099,8970,382,202,23093,271,43,5,260,49,7,286,42,5,271,43,5,Finisher,2818
+Oillie,Suparaporn,Oillie Suparaporn,1349,F40-44,Female,Bangkok yai,Bangkok,Thailand,TH,0:35:18,3:20:22,2:16:05,,,6:25:15,2118,12022,8165,463,347,23115,273,44,8,125,24,3,362,51,8,273,44,8,Finisher,2457
+Aldrin,Valix,Aldrin Valix,905,M40-44,Male,Tarlac,Tarlac,Philippines,PH,0:47:59,3:00:57,2:27:24,,,6:25:57,2879,10857,8844,309,268,23157,275,231,51,427,360,82,297,251,53,275,231,51,Finisher,1399
+Clive Manuel,Wee Sit,Clive Manuel Wee Sit,711,M35-39,Male,"Barangay Biñan, Biñan",Laguna,Philippines,PH,0:44:10,3:06:49,2:29:33,,,6:26:28,2650,11209,8973,208,148,23188,276,232,59,343,283,58,301,255,62,276,232,59,Finisher,1223
+Katrin,Buchta,Katrin Buchta,1359,F45-49,Female,Shanghai,Shanghai,Germany,DE,0:34:53,3:18:27,2:26:22,,,6:26:33,2093,11907,8782,268,143,23193,277,45,4,117,23,2,326,49,4,277,45,4,Finisher,2577
+Muhammad,Alphian,Muhammad Alphian,740,M35-39,Male,,,Singapore,SG,0:48:58,3:01:38,2:28:21,,,6:27:06,2938,10898,8901,285,204,23226,278,233,60,449,380,78,312,266,63,278,233,60,Finisher,1211
+Michael Angelo,De La Cruz,Michael Angelo De La Cruz,998,M45-49,Male,Taguig,,Philippines,PH,0:43:26,3:14:04,2:23:41,,,6:27:46,2606,11644,8621,281,114,23266,279,234,30,330,272,34,350,301,47,279,234,30,Finisher,1580
+Marlon,Tobias,Marlon Tobias,812,M35-39,Male,Brgy Don Bosco,Paranaque City,Philippines,PH,0:44:24,2:53:32,2:44:35,,,6:28:01,2664,10412,9875,240,90,23281,280,235,61,349,289,61,222,195,48,280,235,61,Finisher,1195
+Antonio,Alinea,Antonio Alinea,999,M45-49,Male,Javalera/Gen. Trias,Cavite,Philippines,PH,0:47:34,3:16:10,2:15:46,,,6:28:14,2854,11770,8146,363,161,23294,281,236,31,415,350,45,405,347,54,281,236,31,Finisher,1571
+Janet,Ching,Janet Ching,1358,F45-49,Female,San Rafael,Manila,Philippines,PH,0:40:48,3:09:22,2:28:41,,,6:28:18,2448,11362,8921,359,208,23298,282,46,5,267,50,5,315,48,3,282,46,5,Finisher,2545
+Yannapon,Thumapun,Yannapon Thumapun,686,M30-34,Male,Ratchathevi,Bangkok,Thailand,TH,0:38:00,2:59:43,2:45:03,,,6:28:40,2280,10783,9903,222,132,23320,283,237,20,184,150,11,220,193,19,283,237,20,Finisher,1472
+Elson,Ballena,Elson Ballena,944,M40-44,Male,,,Philippines,PH,0:43:20,2:55:29,2:41:44,,,6:28:49,2600,10529,9704,278,218,23329,284,238,52,328,270,55,231,203,42,284,238,52,Finisher,1348
+Jan Joshua Ray,Salazar,Jan Joshua Ray Salazar,625,M25-29,Male,Lagao general santos city,South cotobato,Philippines,PH,0:42:14,3:01:17,2:37:08,,,6:29:03,2534,10877,9428,259,245,23343,285,239,14,311,254,15,262,229,15,285,239,14,Finisher,1486
+Tuesday,Samson,Tuesday Samson,936,M40-44,Male,Mayamot,Rizal,Philippines,PH,0:40:53,3:06:58,2:35:03,,,6:30:32,2453,11218,9303,329,129,23432,286,240,53,269,219,41,295,250,52,286,240,53,Finisher,1317
+Eduardo,Roquero,Eduardo Roquero,822,M35-39,Male,West Fairview,Quezon City,Philippines,PH,0:40:07,3:16:17,2:26:15,,,6:30:45,2407,11777,8775,361,125,23445,287,241,62,245,202,42,352,303,67,287,241,62,Finisher,1146
+Chunkwan,Park,Chunkwan Park,1058,M45-49,Male,Daejeon,KR-30,South Korea,KR,0:33:00,3:02:02,2:44:59,,,6:30:51,1980,10922,9899,396,254,23451,288,242,32,90,71,8,221,194,27,288,242,32,Finisher,1524
+Kriska,Sto Domingo,Kriska Sto Domingo,1311,F25-29,Female,Merville Parañaque,Metro Manila,Philippines,PH,0:36:22,3:03:28,2:45:51,,,6:31:05,2182,11008,9951,251,73,23465,289,47,6,143,26,4,233,30,4,289,47,6,Finisher,1847
+Jaree,Doungnapar,Jaree Doungnapar,1357,F45-49,Female,Kannayao,Bangkok,Thailand,TH,0:38:48,3:21:34,2:24:47,,,6:32:10,2328,12094,8687,295,126,23530,290,48,6,209,37,4,375,54,5,290,48,6,Finisher,2476
+Romy,Naciongayo,Romy Naciongayo,724,M35-39,Male,Pagadian,zamboanga del sur,Philippines,PH,0:44:22,2:58:13,2:42:50,,,6:32:45,2662,10693,9770,289,151,23565,292,244,63,347,287,59,257,224,55,292,244,63,Finisher,1110
+Robert,Crespo,Robert Crespo,976,M45-49,Male,Taguig,Manila,Philippines,PH,0:38:30,2:50:01,2:57:39,,,6:33:14,2310,10201,10659,270,154,23594,293,245,33,196,161,21,166,143,16,293,245,33,Finisher,1481
+Carl,Berrisford,Carl Berrisford,1091,M50-54,Male,,,Hong Kong,HK,0:38:43,3:01:11,2:46:21,,,6:33:20,2323,10871,9981,275,150,23600,294,246,17,205,170,14,238,207,15,294,246,17,Finisher,1250
+Marcel,Ewals,Marcel Ewals,1024,M45-49,Male,Sg,CENTRAL SINGAPORE,Netherlands,NL,0:39:31,2:59:40,2:47:32,,,6:33:26,2371,10780,10052,218,185,23606,295,247,34,228,189,28,226,198,28,295,247,34,Finisher,1478
+Elroy Jon,Ilagan,Elroy Jon Ilagan,614,M25-29,Male,Manila,,Philippines,PH,0:48:12,3:27:55,2:12:47,,,6:33:37,2892,12475,7967,176,107,23617,296,248,15,433,366,20,445,381,20,296,248,15,Finisher,1403
+Carlo Magno,Olmos,Carlo Magno Olmos,973,M45-49,Male,San Carlos Lipa City,Batangas,Philippines,PH,0:48:23,3:04:10,2:34:48,,,6:33:39,2903,11050,9288,258,120,23619,297,249,35,437,370,50,321,273,40,297,249,35,Finisher,1474
+Albert,Bartilad,Albert Bartilad,1095,M55-59,Male,Santa Elena,Marikina City,Philippines,PH,0:44:03,3:10:45,2:30:20,,,6:34:10,2643,11445,9020,362,180,23650,298,250,5,340,280,6,344,295,6,298,250,5,Finisher,1840
+Peter Simon,Jarin,Peter Simon Jarin,1045,M45-49,Male,Ugong,Pasig,Philippines,PH,0:39:35,3:12:57,2:36:04,,,6:34:15,2375,11577,9364,259,80,23655,299,251,36,232,192,29,320,272,39,299,251,36,Finisher,1463
+Sayaka,Komine,Sayaka Komine,1305,F18-24,Female,Barnaby,BC,Japan,JP,0:36:52,3:27:54,2:25:45,,,6:34:19,2212,12474,8745,148,80,23659,300,49,4,156,27,4,393,57,5,300,49,4,Finisher,1525
+Marinella,Bacsal,Marinella Bacsal,1341,F40-44,Female,Inchican,"Silang, Cavite",Philippines,PH,0:48:49,3:09:43,2:27:21,,,6:34:46,2929,11383,8841,331,202,23686,301,50,9,447,69,9,364,52,9,301,50,9,Finisher,2286
+Reynaldo,Ordonez,Reynaldo Ordonez,970,M45-49,Male,,,Philippines,PH,0:43:07,3:09:22,2:34:54,,,6:35:17,2587,11362,9294,284,190,23717,302,252,37,324,266,33,323,275,42,302,252,37,Finisher,1444
+Alvin,Edrosalam,Alvin Edrosalam,874,M40-44,Male,"Brgy. Merville,Paranaque City",Metro Manila,Philippines,PH,0:38:51,3:36:05,2:14:52,,,6:36:13,2331,12965,8092,155,230,23773,304,254,54,210,173,29,438,375,93,304,254,54,Finisher,1214
+Byeongkweon,Kim,Byeongkweon Kim,1004,M45-49,Male,Daejeon,Daejeon,South Korea,KR,0:45:52,3:08:53,2:34:31,,,6:36:15,2752,11333,9271,279,140,23775,305,255,38,382,320,43,335,286,44,305,255,38,Finisher,1427
+Lazaro,Camua,Lazaro Camua,1031,M45-49,Male,Malolos City,Bulacan,Philippines,PH,0:50:40,2:56:53,2:42:16,,,6:36:17,3040,10613,9736,240,148,23777,306,256,39,484,412,61,280,240,37,306,256,39,Finisher,1426
+Noel,Dy,Noel Dy,945,M40-44,Male,"Barangay Sangandaan, Project 8,","Quezon City, Metro Manila",Philippines,PH,0:50:42,3:09:26,2:29:13,,,6:36:27,3042,11366,8953,274,152,23787,307,257,55,485,413,97,373,321,73,307,257,55,Finisher,1210
+Brian,Vera,Brian Vera,783,M35-39,Male,Balibago Angeles City,Pampanga,Philippines,PH,0:52:28,3:11:09,2:26:46,,,6:36:43,3148,11469,8806,204,176,23803,308,258,64,516,440,94,390,335,72,308,258,64,Finisher,1038
+Stephen,Hull,Stephen Hull,884,M40-44,Male,Discovery Bay,Hong Kong,Philippines,PH,0:38:42,3:07:06,2:42:09,,,6:36:52,2322,11226,9729,364,171,23812,309,259,56,202,167,28,283,242,49,309,259,56,Finisher,1203
+Walter,Coronel,Walter Coronel,943,M40-44,Male,Paranaque,Manila,Philippines,PH,0:44:52,3:04:53,2:39:20,,,6:37:16,2692,11093,9560,302,189,23836,310,260,57,358,298,61,305,259,56,310,260,57,Finisher,1196
+Mikael Bienn,Tan,Mikael Bienn Tan,648,M30-34,Male,,,Philippines,PH,0:52:06,2:50:06,2:47:44,,,6:37:40,3126,10206,10064,274,190,23860,312,262,21,507,433,48,254,221,22,312,262,21,Finisher,1310
+Roehl,Cruz,Roehl Cruz,1010,M45-49,Male,,,Philippines,PH,0:44:59,2:59:27,2:47:11,,,6:37:52,2699,10767,10031,241,134,23872,313,263,40,360,300,38,265,231,33,313,263,40,Finisher,1398
+Pagan,Mauro,Pagan Mauro,1005,M45-49,Male,Boracay Island,"Malay, Aklan",Italy,IT,0:45:42,3:06:39,2:38:01,,,6:38:30,2742,11199,9481,285,203,23910,315,264,41,377,316,42,322,274,41,315,264,41,Finisher,1386
+Rommel,Malleta,Rommel Malleta,867,M40-44,Male,Quezon City,Metro Manila,Philippines,PH,0:47:34,3:03:59,2:40:09,,,6:39:20,2854,11039,9609,286,172,23960,317,266,58,414,349,78,316,268,60,317,266,58,Finisher,1158
+Don Armand,Gutierrez,Don Armand Gutierrez,698,M30-34,Male,,,Philippines,PH,0:42:41,3:33:21,2:14:58,,,6:39:34,2561,12801,8098,237,277,23974,318,267,22,319,262,32,450,385,43,318,267,22,Finisher,1276
+Barbara,Angelastri,Barbara Angelastri,1366,F55-59,Female,Langnau am Albis,CH,Switzerland,CH,0:46:32,3:23:08,2:22:32,,,6:39:37,2792,12188,8552,308,137,23977,319,52,1,392,64,1,425,62,1,319,52,1,Finisher,3500
+Marlon,Quidasol,Marlon Quidasol,792,M35-39,Male,Valenzuela City,NCR,Philippines,PH,0:47:38,3:08:30,2:38:11,,,6:39:48,2858,11310,9491,215,114,23988,320,268,65,417,352,76,338,289,65,320,268,65,Finisher,983
+Christopher,Olazo,Christopher Olazo,846,M40-44,Male,"Brgy Francisco, Tagaytay City",Cavite,Philippines,PH,0:45:59,2:58:12,2:47:45,,,6:40:05,2759,10692,10065,333,156,24005,321,269,59,385,323,69,273,236,47,321,269,59,Finisher,1145
+Ismael Roi,Lumanta,Ismael Roi Lumanta,799,M35-39,Male,Binian,Laguna,Philippines,PH,0:37:59,3:01:10,2:52:54,,,6:40:19,2279,10870,10374,313,183,24019,322,270,66,182,148,35,236,205,50,322,270,66,Finisher,974
+Jessie,Tam-od,Jessie Tam-od,978,M45-49,Male,Puerto princess city,Palawan,Philippines,PH,0:48:26,3:12:59,2:31:37,,,6:40:21,2906,11579,9097,319,120,24021,323,271,42,439,371,51,384,329,51,323,271,42,Finisher,1353
+Adrian Alaric,Caro,Adrian Alaric Caro,642,M30-34,Male,,,Philippines,PH,0:41:21,3:06:43,2:46:09,,,6:40:34,2481,11203,9969,282,99,24034,324,272,23,284,230,26,291,247,26,324,272,23,Finisher,1258
+Dominick,Famorcan,Dominick Famorcan,843,M40-44,Male,Malay,Aklan,Philippines,PH,0:41:46,3:16:38,2:36:21,,,6:40:51,2506,11798,9381,268,98,24051,325,273,60,299,243,46,356,306,67,325,273,60,Finisher,1131
+Lorenz,Mapalo,Lorenz Mapalo,676,M30-34,Male,,,Philippines,PH,0:46:35,3:08:37,2:38:54,,,6:41:01,2795,11317,9534,260,155,24061,326,274,24,393,329,42,336,287,32,326,274,24,Finisher,1250
+Jefferson,Lo,Jefferson Lo,829,M40-44,Male,Sampaloc,Manila,Philippines,PH,0:38:00,3:14:20,2:39:15,,,6:41:28,2280,11660,9555,396,197,24088,327,275,61,185,151,25,333,284,62,327,275,61,Finisher,1120
+Jay,Bacsal,Jay Bacsal,835,M40-44,Male,Quezon City,Intl State,Philippines,PH,0:48:47,3:05:08,2:38:52,,,6:41:36,2927,11108,9532,340,189,24096,328,276,62,445,377,85,337,288,64,328,276,62,Finisher,1118
+Joseph,Legasto,Joseph Legasto,797,M35-39,Male,Bagumbayan,Quezon City,Philippines,PH,0:37:53,2:52:09,3:06:31,,,6:41:52,2273,10329,11191,200,119,24112,330,277,67,181,147,34,169,146,36,330,277,67,Finisher,946
+Arnel,Bondoc,Arnel Bondoc,975,M45-49,Male,City of San Fernando,Pampanga,Philippines,PH,0:49:25,3:05:32,2:36:11,,,6:41:55,2965,11132,9371,347,300,24115,331,278,43,456,386,57,342,293,46,331,278,43,Finisher,1325
+Francis,Victoria,Francis Victoria,828,M40-44,Male,Mandaluyong City,,Philippines,PH,0:45:30,3:02:28,2:46:16,,,6:42:01,2730,10948,9976,293,174,24121,332,279,63,372,311,65,292,248,51,332,279,63,Finisher,1110
+Stephen ,Choy,Stephen Choy,1071,M50-54,Male,Singapore ,Singapore,Singapore,SG,0:50:40,3:06:11,2:39:38,,,6:42:01,3040,11171,9578,249,83,24121,333,280,18,483,411,25,345,296,19,333,280,18,Finisher,1094
+Frederick,Mendiola,Frederick Mendiola,1006,M45-49,Male,St. Ignatius,Quezon city,Philippines,PH,0:46:43,3:09:39,2:39:34,,,6:42:22,2803,11379,9574,225,161,24142,334,281,44,400,336,44,340,291,45,334,281,44,Finisher,1317
+Peter,Estanislao,Peter Estanislao,994,M45-49,Male,Marikina city,Metro Manila,Philippines,PH,0:48:03,3:04:46,2:41:48,,,6:42:48,2883,11086,9708,331,160,24168,335,282,45,431,364,48,331,282,43,335,282,45,Finisher,1309
+Sherwyn,Yao,Sherwyn Yao,901,M40-44,Male,Greenhills barangay hall,Soccsksargen,Philippines,PH,0:50:29,3:03:42,2:41:10,,,6:42:52,3029,11022,9670,289,162,24172,336,283,64,478,407,96,334,285,63,336,283,64,Finisher,1095
+Fabrice,Peyrin,Fabrice Peyrin,912,M40-44,Male,Doha,Pearl of Qatar,France,FR,0:40:22,3:15:51,2:39:51,,,6:42:54,2422,11751,9591,222,188,24174,337,284,65,254,207,38,339,290,65,337,284,65,Finisher,1094
+Jose Roberto,Mejia,Jose Roberto Mejia,721,M35-39,Male,Kawit,Cavite,Philippines,PH,0:44:35,3:14:07,2:37:23,,,6:43:15,2675,11647,9443,263,167,24195,339,286,68,352,292,62,360,310,68,339,286,68,Finisher,921
+Jigger,Mendiola,Jigger Mendiola,966,M40-44,Male,,,Philippines,PH,0:45:06,3:20:03,2:29:01,,,6:43:31,2706,12003,8941,371,190,24211,341,287,66,363,303,62,412,352,84,341,287,66,Finisher,1083
+Tony,Macias,Tony Macias,692,M30-34,Male,ORANGE,CA,Philippines,PH,0:37:09,3:09:27,2:47:57,,,6:43:56,2229,11367,10077,241,322,24236,342,288,25,161,132,10,277,238,24,342,288,25,Finisher,1197
+Ceasar Joseph,Muere,Ceasar Joseph Muere,629,M25-29,Male,san miguel,manila,Philippines,PH,0:43:06,3:16:54,2:37:40,,,6:44:08,2586,11814,9460,246,142,24248,343,289,16,323,265,17,365,313,16,343,289,16,Finisher,1214
+Paul,Millar,Paul Millar,1003,M45-49,Male,Laburgade,,United Kingdom,GB,0:49:05,3:17:52,2:24:01,,,6:44:12,2945,11872,8641,448,346,24252,344,290,46,450,381,55,424,363,57,344,290,46,Finisher,1284
+Nestor,Ramirez,Nestor Ramirez,924,M40-44,Male,los banos laguna,laguna,Philippines,PH,0:49:40,3:13:21,2:35:37,,,6:44:23,2980,11601,9337,234,111,24263,345,291,67,460,389,87,388,333,79,345,291,67,Finisher,1067
+Lee,Harkleroad,Lee Harkleroad,1110,M60-64,Male,LAKE BLUFF,IL,United States,US,0:38:20,3:03:18,2:52:48,,,6:45:01,2300,10998,10368,370,265,24301,347,293,1,194,159,2,261,228,1,347,293,1,Finisher,3500
+Aaron Arkins,Borbe,Aaron Arkins Borbe,624,M25-29,Male,Manila,Binondo,Philippines,PH,0:37:15,3:03:35,2:53:12,,,6:45:52,2235,11015,10392,416,294,24352,348,294,17,165,134,8,259,226,14,348,294,17,Finisher,1183
+Ani,Brown,Ani Brown,44,FPRO,Female,Canlubang,PH-LAG,Philippines,PH,0:32:26,3:17:14,2:51:31,,,6:46:03,1946,11834,10291,153,139,24363,349,55,9,82,18,8,288,43,9,349,55,9,Finisher,700
+Ramil,Ranario,Ramil Ranario,804,M35-39,Male,Lipa City,,Philippines,PH,0:45:40,3:14:35,2:35:54,,,6:46:22,2740,11675,9354,406,207,24382,350,295,69,375,314,68,389,334,71,350,295,69,Finisher,865
+Marco,Venneri,Marco Venneri,882,M40-44,Male,,,Italy,IT,0:41:21,3:18:47,2:38:01,,,6:47:37,2481,11927,9481,362,206,24457,351,296,68,285,231,42,380,326,75,351,296,68,Finisher,1009
+Phidet,Chawaldit,Phidet Chawaldit,864,M40-44,Male,ต.บ้านใหม่ อ.ปากเกร็ด,จ.นนทบุรี,Thailand,TH,0:35:27,3:23:17,2:35:39,,,6:47:42,2127,12197,9339,469,330,24462,352,297,69,127,103,16,382,328,77,352,297,69,Finisher,1008
+Gianluca,Guidicelli,Gianluca Guidicelli,1093,M50-54,Male,Muntinlupa,Laguna,Italy,IT,0:44:00,3:06:14,2:49:58,,,6:47:59,2640,11174,10198,277,190,24479,353,298,19,339,279,18,307,261,17,353,298,19,Finisher,987
+Charles,Bronson,Charles Bronson,1109,M60-64,Male,Kilauea,HI,United States,US,0:32:50,3:20:54,2:40:34,,,6:48:18,1970,12054,9634,511,329,24498,354,299,2,86,68,1,351,302,2,354,299,2,Finisher,3440
+Jason,Del Rosario,Jason Del Rosario,719,M35-39,Male,Calibutbut,PAM,Philippines,PH,0:45:08,2:55:13,3:00:07,,,6:49:00,2708,10513,10807,263,249,24540,355,300,70,364,304,66,242,210,51,355,300,70,Finisher,817
+Raffy,Tima,Raffy Tima,879,M40-44,Male,Quezon City,Metro Manila,Philippines,PH,0:39:09,3:15:20,2:45:23,,,6:49:16,2349,11720,9923,457,107,24556,357,302,70,218,179,31,349,300,66,357,302,70,Finisher,980
+Shanker,Diraviam,Shanker Diraviam,991,M45-49,Male,Singapore ,Singapore,Singapore,SG,0:55:00,3:18:37,2:27:57,,,6:49:19,3300,11917,8877,303,162,24559,358,303,47,537,457,69,443,379,60,358,303,47,Finisher,1192
+Ken Martin,Clemente,Ken Martin Clemente,654,M30-34,Male,Legazpi City,Albay,Philippines,PH,0:39:12,3:03:27,2:59:01,,,6:49:48,2352,11007,10741,305,183,24588,359,304,26,220,181,14,258,225,23,359,304,26,Finisher,1092
+Tressie,Word,Tressie Word,1336,F35-39,Female,Hagatna,GU,United States,US,0:41:50,3:23:46,2:38:17,,,6:50:06,2510,12226,9497,247,126,24606,360,56,6,301,57,8,404,58,7,360,56,6,Finisher,2364
+Allan,Ledesma,Allan Ledesma,696,M30-34,Male,Parañaque,Manila,Philippines,PH,0:43:18,3:04:57,2:58:01,,,6:52:23,2598,11097,10681,235,132,24743,361,305,27,327,269,33,287,245,25,361,305,27,Finisher,1045
+David Eng Kee,Chua,David Eng Kee Chua,1060,M50-54,Male,Singapore,,Singapore,SG,0:47:30,3:03:43,2:54:15,,,6:52:25,2850,11023,10455,314,103,24745,362,306,20,413,348,21,317,269,18,362,306,20,Finisher,907
+Joy,Calagui,Joy Calagui,1032,M45-49,Male,"Rancho 4 West, Concepcion 2",Marikina City,Philippines,PH,0:53:59,3:15:24,2:34:24,,,6:52:51,3239,11724,9264,333,211,24771,363,307,48,526,450,68,427,365,58,363,307,48,Finisher,1128
+Richard,Panzo,Richard Panzo,988,M45-49,Male,,,Philippines,PH,0:41:12,3:19:26,2:43:06,,,6:52:55,2472,11966,9786,369,182,24775,364,308,49,277,225,31,385,330,52,364,308,49,Finisher,1127
+Ittiphol,Bhurisith,Ittiphol Bhurisith,888,M40-44,Male,"Thungmahamek, Sathorn",Bangkok,Thailand,TH,0:46:39,3:24:20,2:28:43,,,6:52:59,2799,12260,8923,540,257,24779,365,309,71,394,330,71,451,386,96,365,309,71,Finisher,913
+Liu,Cheng,Liu Cheng,673,M30-34,Male,San Francisco,CA,United States,US,0:38:38,3:12:51,2:50:17,,,6:53:02,2318,11571,10217,348,328,24782,366,310,28,199,164,13,325,277,31,366,310,28,Finisher,1034
+Justin,Ambata,Justin Ambata,608,M25-29,Male,,,Philippines,PH,0:51:09,3:13:49,2:38:51,,,6:53:17,3069,11629,9531,389,179,24797,367,311,18,494,422,23,413,353,18,367,311,18,Finisher,1049
+Steven,Smith,Steven Smith,928,M40-44,Male,,,United States,US,0:36:55,3:12:03,2:51:15,,,6:53:18,2215,11523,10275,358,427,24798,368,312,72,157,130,22,308,262,58,368,312,72,Finisher,907
+Jeronemo,Turla,Jeronemo Turla,889,M40-44,Male,"Matatalaib, Tarlac city",Ph,Philippines,PH,0:50:58,3:16:23,2:36:13,,,6:53:39,3058,11783,9373,368,237,24819,369,313,73,490,418,98,421,360,88,369,313,73,Finisher,901
+Danilo,Zapanta,Danilo Zapanta,1034,M45-49,Male,Taguig,NATIONAL CAPITAL REGION,Philippines,PH,0:49:10,2:55:02,3:01:00,,,6:53:59,2950,10502,10860,262,265,24839,370,314,50,452,383,56,267,233,35,370,314,50,Finisher,1108
+Jemerson,Vierneza,Jemerson Vierneza,857,M40-44,Male,Itabashi-ku,Tokyo,Philippines,PH,0:45:45,3:01:50,2:59:31,,,6:54:20,2745,10910,10771,242,192,24860,371,315,74,380,319,67,281,241,48,371,315,74,Finisher,888
+Karl,Gould,Karl Gould,883,M40-44,Male,Quezon City,metro Manila,Philippines,PH,0:44:46,3:06:14,2:58:10,,,6:55:05,2686,11174,10690,215,140,24905,372,316,75,355,295,60,302,256,54,372,316,75,Finisher,875
+Thelma,Leather,Thelma Leather,1356,F45-49,Female,Makati,MANILA,Philippines,PH,0:47:48,3:20:13,2:41:29,,,6:55:27,2868,12013,9689,238,119,24927,373,57,7,423,67,7,415,61,7,373,57,7,Finisher,2057
+Johnatan,Sunga,Johnatan Sunga,953,M40-44,Male,"SAN MATIAS, GUAGUA",PAMPANGA,Philippines,PH,0:49:54,3:07:26,2:48:09,,,6:55:51,2994,11246,10089,428,194,24951,374,317,76,463,392,89,368,316,70,374,317,76,Finisher,861
+Cyril,Bermudo,Cyril Bermudo,863,M40-44,Male,"San Jose, Angeles City",Pampanga,Philippines,PH,0:45:58,3:13:17,2:46:58,,,6:56:00,2758,11597,10018,322,265,24960,375,318,77,384,322,68,371,319,71,375,318,77,Finisher,858
+Kilhak,Kunimoto,Kilhak Kunimoto,1114,M65-69,Male,TAMUNING,GU,United States,US,0:43:22,3:15:46,2:50:55,,,6:56:11,2602,11746,10255,233,135,24971,376,319,1,329,271,2,358,308,1,376,319,1,Finisher,3500
+Gerardo Jose,Cinco,Gerardo Jose Cinco,675,M30-34,Male,IVC,Marikina,Philippines,PH,0:47:43,3:15:30,2:45:41,,,6:56:12,2863,11730,9941,274,164,24972,377,320,29,420,354,44,395,338,37,377,320,29,Finisher,977
+Mark,Carandang,Mark Carandang,650,M30-34,Male,Las Pinas City,NCR,Philippines,PH,0:39:14,3:15:16,2:52:43,,,6:56:49,2354,11716,10363,351,225,25009,378,321,30,222,183,15,341,292,33,378,321,30,Finisher,965
+Kory,Hatch,Kory Hatch,1097,M55-59,Male,Vancouver,WA,United States,US,1:02:10,3:14:08,2:30:33,,,6:56:58,3730,11648,9033,306,301,25018,379,322,6,560,477,9,453,388,8,379,322,6,Finisher,1430
+Manuel,Mendoza,Manuel Mendoza,916,M40-44,Male,barangay 177,caloocan city,Philippines,PH,0:47:50,3:15:15,2:43:14,,,6:57:03,2870,11715,9794,364,280,25023,380,323,78,424,357,80,397,340,81,380,323,78,Finisher,839
+Frederic,Garing,Frederic Garing,630,M25-29,Male,,,Philippines,PH,0:52:17,3:10:48,2:46:56,,,6:57:12,3137,11448,10016,266,165,25032,382,325,19,512,436,26,394,337,17,382,325,19,Finisher,979
+Nomer,Talibong,Nomer Talibong,954,M40-44,Male,New Kalalake,Olongapo City,Philippines,PH,0:57:31,3:04:28,2:43:33,,,6:57:17,3451,11068,9813,433,272,25037,383,326,79,547,466,112,398,341,82,383,326,79,Finisher,835
+Jose Raphael,Zapata,Jose Raphael Zapata,815,M35-39,Male,Angeles City,PH-PAM,Philippines,PH,0:40:55,3:31:38,2:30:59,,,6:57:45,2455,12698,9059,560,293,25065,385,328,71,270,220,44,459,393,80,385,328,71,Finisher,700
+Virgilio Jr.,Belen,Virgilio Jr. Belen,996,M45-49,Male,"Bagumbayan, Libis, QC",Rizal,Philippines,PH,0:50:05,3:05:46,2:48:48,,,6:58:00,3005,11146,10128,511,290,25080,386,329,51,468,397,58,367,315,49,386,329,51,Finisher,1035
+Irwin,Padrique,Irwin Padrique,1012,M45-49,Male,Las PInas,METRO MANILA,Philippines,PH,0:36:42,2:50:37,3:25:25,,,6:58:16,2202,10237,12325,248,84,25096,387,330,52,150,124,18,159,137,15,387,330,52,Finisher,1031
+Petchaporn,Cherngwiwatkij,Petchaporn Cherngwiwatkij,1308,F25-29,Female,Hanoi,Hanoi,Thailand,TH,0:43:47,3:36:21,2:30:31,,,6:58:20,2627,12981,9031,321,140,25100,388,58,7,335,59,9,471,69,9,388,58,7,Finisher,1356
+Bert,Perete,Bert Perete,652,M30-34,Male,Holyspirit,Quezon City,Philippines,PH,0:45:39,3:00:15,2:58:40,,,6:58:51,2739,10815,10720,508,349,25131,389,331,31,374,313,39,300,254,28,389,331,31,Finisher,929
+Giorgia,Guidicelli,Giorgia Guidicelli,1306,F25-29,Female,Muntinlupa,Laguna,Philippines,PH,0:37:15,3:22:13,2:54:57,,,6:58:58,2235,12133,10497,201,72,25138,390,59,8,164,31,5,354,50,7,390,59,8,Finisher,1345
+Michael,Enriquez,Michael Enriquez,1042,M45-49,Male,San isidro,General Santos City,Philippines,PH,0:38:46,3:06:43,3:06:30,,,7:00:30,2326,11203,11190,277,234,25230,392,332,53,207,171,25,274,237,36,392,332,53,Finisher,990
+Dennis,Lomanta,Dennis Lomanta,1126,M40-44,Male,Matina,Davao City,Philippines,PH,0:52:32,3:19:56,2:41:14,,,7:00:59,3152,11996,9674,248,189,25259,394,333,80,517,441,102,435,373,92,394,333,80,Finisher,769
+Dennis Michael,Cruz,Dennis Michael Cruz,937,M40-44,Male,San Mateo,Rizal,Philippines,PH,0:45:27,3:12:58,2:53:01,,,7:01:22,2727,11578,10381,376,220,25282,396,335,81,370,309,64,372,320,72,396,335,81,Finisher,762
+Ivinn Jeremea Batacan,Kintanar,Ivinn Jeremea Batacan Kintanar,749,M35-39,Male,Barangay Don Bosco,"Paranaque City, Metro Manila",Philippines,PH,0:49:09,3:27:40,2:36:19,,,7:01:39,2949,12460,9379,299,212,25299,397,336,72,451,382,79,457,391,78,397,336,72,Finisher,700
+Jennifer,Valenzuela,Jennifer Valenzuela,1326,F35-39,,marulas,valenzuela,Philippines,PH,0:48:26,3:28:27,2:35:54,,,7:02:07,2906,12507,9354,435,125,25327,398,62,7,438,68,10,467,68,9,398,62,7,Finisher,2148
+Edward,Raj,Edward Raj,956,M40-44,Male,,,Singapore,SG,0:46:26,3:09:35,2:54:58,,,7:02:23,2786,11375,10498,460,224,25343,399,337,82,391,328,70,363,312,69,399,337,82,Finisher,743
+Francisco Luis Jr,Elicano,Francisco Luis Jr Elicano,646,M30-34,Male,,,Philippines,PH,0:46:15,3:20:15,2:41:34,,,7:02:30,2775,12015,9694,454,412,25350,400,338,32,388,326,40,423,362,41,400,338,32,Finisher,863
+Thomas,Mouliac,Thomas Mouliac,688,M30-34,Male,Merville,NCR,France,FR,0:38:23,3:20:19,2:53:18,,,7:02:43,2303,12019,10398,486,157,25363,401,339,33,195,160,12,386,331,36,401,339,33,Finisher,859
+Reil Vinard,Espino,Reil Vinard Espino,655,M30-34,Male,,,Philippines,PH,0:49:30,3:16:33,2:51:36,,,7:02:47,2970,11793,10296,199,109,25367,403,341,34,457,387,46,400,343,38,403,341,34,Finisher,858
+Jerwin,Tan,Jerwin Tan,681,M30-34,Male,Brgy. Mariana,Quezon City,Philippines,PH,0:45:21,3:02:08,3:04:27,,,7:03:12,2721,10928,11067,449,227,25392,404,342,35,366,305,37,309,263,29,404,342,35,Finisher,851
+Jose,"Isip, Jr","Jose Isip, Jr",877,M40-44,Male,Taytay,Rizal,Philippines,PH,0:41:55,3:41:32,2:34:35,,,7:03:31,2515,13292,9275,210,119,25411,405,343,83,303,246,47,478,408,100,405,343,83,Finisher,723
+Norman,Dondoyano,Norman Dondoyano,965,M40-44,Male,General Santos City,South Cotabato,Philippines,PH,0:45:25,3:22:11,2:48:00,,,7:03:35,2725,12131,10080,327,152,25415,406,344,84,369,308,63,419,358,87,406,344,84,Finisher,722
+Josef,Gueta,Josef Gueta,1107,M60-64,Male,Makati City,Intl State,Philippines,PH,0:45:42,3:23:54,2:44:30,,,7:03:48,2742,12234,9870,338,244,25428,407,345,3,376,315,5,430,368,3,407,345,3,Finisher,3161
+Charlie,Chua,Charlie Chua,911,M40-44,Male,salitran 4,cavite,Philippines,PH,0:53:54,3:12:01,2:50:21,,,7:05:47,3234,11521,10221,339,232,25547,408,346,85,523,447,104,414,354,85,408,346,85,Finisher,700
+Neil,Valenzuela,Neil Valenzuela,1040,M45-49,Male,,,Philippines,PH,0:45:23,3:12:20,2:54:34,,,7:06:01,2723,11540,10474,484,340,25561,409,347,54,367,306,41,378,324,50,409,347,54,Finisher,891
+Praveen,Kumar,Praveen Kumar,969,M45-49,Male,Singapore,,Singapore,SG,0:47:46,3:24:49,2:45:39,,,7:06:11,2866,12289,9939,299,178,25571,410,348,55,422,356,47,439,376,59,410,348,55,Finisher,888
+John Michael,San Juan,John Michael San Juan,639,M30-34,Male,Santa Maria,BULACAN,Philippines,PH,0:42:12,3:23:24,2:53:40,,,7:06:22,2532,12204,10420,315,111,25582,411,349,36,309,252,30,409,350,40,411,349,36,Finisher,794
+Christopher,Cuevas,Christopher Cuevas,680,M30-34,Male,Don Bosco,Parañaque City,Philippines,PH,0:50:05,3:01:20,3:08:51,,,7:07:06,3005,10880,11331,221,189,25626,413,351,37,469,398,47,311,265,30,413,351,37,Finisher,780
+Michael,Lantin,Michael Lantin,850,M40-44,Male,Sabang Lipa city,Batangas,Philippines,PH,0:47:52,3:08:53,3:02:07,,,7:08:24,2872,11333,10927,369,203,25704,416,354,86,425,358,81,357,307,68,416,354,86,Finisher,700
+Jevon,Ong,Jevon Ong,704,M35-39,Male,Ugong norte,Quezon City,Philippines,PH,0:41:17,3:29:17,2:50:48,,,7:08:54,2477,12557,10248,306,146,25734,417,355,73,279,226,47,432,370,75,417,355,73,Finisher,700
+Richard,Rocha,Richard Rocha,666,M30-34,Male,Tinago,Camarines Sur,Philippines,PH,0:41:17,3:00:06,3:21:38,,,7:09:32,2477,10806,12098,249,142,25772,418,356,38,280,227,24,248,215,20,418,356,38,Finisher,737
+Claude Dennis Idris,Go,Claude Dennis Idris Go,768,M35-39,Male,,,Philippines,PH,0:49:21,3:27:47,2:44:54,,,7:10:48,2961,12467,9894,282,244,25848,420,358,74,455,385,81,458,392,79,420,358,74,Finisher,700
+Robert Benedict,Gan,Robert Benedict Gan,1000,M45-49,Male,San Juan,Metro Manila,Philippines,PH,0:43:46,3:21:28,2:55:59,,,7:10:58,2626,12088,10559,444,141,25858,421,359,56,334,276,36,417,356,55,421,359,56,Finisher,802
+Tj,Jimenez,Tj Jimenez,1059,M45-49,Male,Pasig,PH-00,Philippines,PH,0:50:50,3:22:56,2:50:22,,,7:12:03,3050,12176,10222,296,179,25923,422,360,57,488,416,63,444,380,61,422,360,57,Finisher,782
+Arnold,Evangelista,Arnold Evangelista,938,M40-44,Male,Project 6,Quezon City,Philippines,PH,0:47:10,3:21:00,2:56:21,,,7:12:03,2830,12060,10581,250,202,25923,423,361,87,408,343,77,416,355,86,423,361,87,Finisher,700
+Kimberly Myka Andrea,Li,Kimberly Myka Andrea Li,1301,F18-24,Female,Binondo,Manila,Philippines,PH,0:40:39,3:21:15,3:02:30,,,7:12:31,2439,12075,10950,289,198,25951,424,63,5,259,48,5,383,55,4,424,63,5,Finisher,837
+Cherry,Ramos,Cherry Ramos,1340,F40-44,Female,"Pacita 2, San Pedro City",Laguna,Philippines,PH,0:54:38,3:21:29,2:48:10,,,7:13:18,3278,12089,10090,353,188,25998,426,64,10,534,79,13,460,67,10,426,64,10,Finisher,1592
+Timothy Ruth,Evangelista,Timothy Ruth Evangelista,958,M40-44,Male,las vegas,NV,Philippines,PH,0:52:19,3:08:44,3:03:20,,,7:13:21,3139,11324,11000,293,245,26001,427,363,88,513,437,101,379,325,74,427,363,88,Finisher,700
+Naira,Miranda,Naira Miranda,1325,F30-34,Female,BGC,Manila,Philippines,PH,0:49:13,3:26:15,2:49:21,,,7:13:45,2953,12375,10161,366,170,26025,428,65,7,453,70,8,455,66,8,428,65,7,Finisher,700
+Reagan,Diaz,Reagan Diaz,685,M30-34,Male,Mandaluyong,PH-00,Philippines,PH,0:40:44,3:37:01,2:48:17,,,7:14:02,2444,13021,10097,221,259,26042,430,364,39,266,217,22,454,389,44,430,364,39,Finisher,700
+Almond Ray,Baldovino,Almond Ray Baldovino,816,M35-39,Male,Batangas City,PH-BTG,Philippines,PH,0:51:15,3:30:37,2:44:57,,,7:14:11,3075,12637,9897,217,225,26051,431,365,75,495,423,88,472,403,83,431,365,75,Finisher,700
+Mary Jane,Baluyot,Mary Jane Baluyot,1318,F30-34,Female,Taguig City,PH-00,Philippines,PH,0:41:04,3:24:31,3:02:01,,,7:14:12,2464,12271,10921,319,77,26052,432,67,8,275,52,7,410,60,7,432,67,8,Finisher,700
+Tora Mira,Francisco Javier,Tora Mira Francisco Javier,983,M45-49,Male,ALICANTE,,Spain,ES,0:48:49,3:15:24,3:00:25,,,7:14:22,2929,11724,10825,322,262,26062,433,366,58,446,378,53,402,345,53,433,366,58,Finisher,741
+Dryan,Tria,Dryan Tria,753,M35-39,Male,,,Philippines,PH,0:45:37,3:23:04,2:59:52,,,7:15:30,2737,12184,10792,248,169,26130,434,367,76,373,312,67,418,357,73,434,367,76,Finisher,700
+Roland,Santos,Roland Santos,826,M40-44,Male,Tunasan,Muntinlupa City,Philippines,PH,0:39:50,3:24:33,3:05:10,,,7:16:29,2390,12273,11110,231,185,26189,436,368,89,239,197,35,396,339,80,436,368,89,Finisher,700
+Aloysius,Llaguno,Aloysius Llaguno,1113,M65-69,Male,Barangay Pansol,Quezon City,Philippines,PH,0:50:42,3:27:50,2:47:59,,,7:16:32,3042,12470,10079,444,157,26192,437,369,2,486,414,3,475,405,2,437,369,2,Finisher,3133
+Jose,Bernales,Jose Bernales,677,M30-34,Male,,,Philippines,PH,0:48:16,3:25:08,2:55:02,,,7:18:50,2896,12308,10502,342,282,26330,439,371,40,434,367,45,446,382,42,439,371,40,Finisher,700
+Mohamed,Masri,Mohamed Masri,839,M40-44,Male,Singapore,Singapore,Singapore,SG,0:42:30,3:16:44,3:09:15,,,7:19:05,2550,11804,11355,418,218,26345,440,372,90,317,260,54,381,327,76,440,372,90,Finisher,700
+Alvin,Serrano,Alvin Serrano,949,M40-44,Male,,,Philippines,PH,0:50:06,3:31:13,2:50:40,,,7:23:11,3006,12673,10240,413,259,26591,441,373,91,471,400,93,479,409,101,441,373,91,Finisher,700
+Ella Cecilia,Arienda,Ella Cecilia Arienda,1351,F40-44,Female,Chrysanthemum Village,San pedro laguna,Philippines,PH,0:57:13,3:31:24,2:43:48,,,7:23:39,3433,12684,9828,321,353,26619,442,69,11,544,81,14,495,73,12,442,69,11,Finisher,1406
+Raphael Antonio,Mendoza,Raphael Antonio Mendoza,601,M18-24,Male,Culiat,NCR,Philippines,PH,0:48:03,3:19:14,3:11:42,,,7:23:56,2883,11954,11502,205,92,26636,443,374,6,430,363,5,408,349,6,443,374,6,Finisher,1173
+Michael,Vitug,Michael Vitug,717,M35-39,Male,San Diego,CA,Philippines,PH,0:44:37,3:11:00,3:19:38,,,7:25:31,2677,11460,11978,310,306,26731,444,375,77,353,293,63,343,294,66,444,375,77,Finisher,700
+Benedict,Muriel,Benedict Muriel,993,M45-49,Male,"Malanday, San Mateo",Rizal,Philippines,PH,0:44:18,3:05:52,3:31:01,,,7:27:04,2658,11152,12661,235,118,26824,446,376,59,344,284,37,298,252,38,446,376,59,Finisher,700
+Archie,Cancio,Archie Cancio,705,M35-39,Male,,,Philippines,PH,0:53:53,3:17:57,3:07:00,,,7:27:13,3233,11877,11220,312,191,26833,447,377,78,522,446,96,437,374,76,447,377,78,Finisher,700
+Sina,Dabbagh,Sina Dabbagh,623,M25-29,Male,,,Philippines,PH,0:44:54,3:31:50,3:01:38,,,7:27:44,2694,12710,10898,398,164,26864,448,378,20,359,299,18,462,395,21,448,378,20,Finisher,700
+Earl,Guzman,Earl Guzman,718,M35-39,Male,"Project 6, Quezon City",NCR,Philippines,PH,0:45:54,3:34:59,2:58:41,,,7:28:34,2754,12899,10721,359,181,26914,449,379,79,383,321,69,477,407,85,449,379,79,Finisher,700
+Kelvin,Phua,Kelvin Phua,1009,M45-49,Male,Singapore,SOUTH EAST,Singapore,SG,0:48:42,3:21:01,3:11:12,,,7:29:22,2922,12061,11472,223,284,26962,450,380,60,444,376,52,420,359,56,450,380,60,Finisher,700
+Joseph Eng Hian,Chua,Joseph Eng Hian Chua,1102,M55-59,Male,Singapore,,Singapore,SG,0:55:31,3:01:41,3:20:12,,,7:30:37,3331,10901,12012,421,372,27037,451,381,7,538,458,7,366,314,7,451,381,7,Finisher,824
+Tom,Moreno,Tom Moreno,825,M40-44,Male,Pasig,Ncr,Philippines,PH,0:54:07,3:42:51,2:48:09,,,7:31:54,3247,13371,10089,277,130,27114,452,382,92,528,452,106,508,434,106,452,382,92,Finisher,700
+Richard,Chua,Richard Chua,962,M40-44,Male,dasmarines,cavite,Philippines,PH,0:46:47,3:15:12,3:22:50,,,7:31:57,2807,11712,12170,292,136,27117,453,383,93,403,339,74,387,332,78,453,383,93,Finisher,700
+Rosaldo,Garcia,Rosaldo Garcia,841,M40-44,Male,East fairview,Quezon city,Philippines,PH,0:46:48,3:27:50,3:11:37,,,7:32:26,2808,12470,11497,205,166,27146,455,385,94,404,340,75,440,377,94,455,385,94,Finisher,700
+Dennis,Cortez,Dennis Cortez,833,M40-44,Male,Biñan,Laguna,Philippines,PH,0:58:04,3:17:18,3:09:14,,,7:32:56,3484,11838,11354,239,261,27176,456,386,95,550,468,113,447,383,95,456,386,95,Finisher,700
+Alfredo,Hizon,Alfredo Hizon,1128,M30-34,Male,Pasay City,Metro Manila,Philippines,PH,0:45:23,3:15:13,3:25:33,,,7:33:21,2723,11713,12333,309,123,27201,457,387,41,368,307,38,377,323,35,457,387,41,Finisher,700
+Marco,Medina,Marco Medina,1089,M50-54,Male,Antipolo City,Rizal,Philippines,PH,0:48:34,3:42:48,2:53:32,,,7:34:07,2914,13368,10412,394,159,27247,458,388,21,442,374,24,501,428,27,458,388,21,Finisher,700
+Ronaldo,Malig,Ronaldo Malig,848,M40-44,Female,San Vicente,San Pedro Laguna,Philippines,PH,0:50:05,3:16:30,3:19:49,,,7:34:25,3005,11790,11989,282,199,27265,459,389,96,467,396,92,411,351,83,459,389,96,Finisher,700
+Leslie,Szeto,Leslie Szeto,1315,F25-29,Female,San Jose,CA,Philippines,PH,0:41:34,3:31:37,3:12:36,,,7:35:12,2494,12697,11556,308,257,27312,460,71,9,290,56,8,441,64,8,460,71,9,Finisher,700
+Frederick,Rugayan,Frederick Rugayan,660,M30-34,Male,Teachers vill,Quezon city,Philippines,PH,0:39:20,3:10:16,3:38:48,,,7:35:47,2360,11416,13128,277,166,27347,461,390,42,226,187,16,299,253,27,461,390,42,Finisher,700
+Leo,Villarico,Leo Villarico,1016,M45-49,Male,719,Manila,Philippines,PH,0:52:15,3:37:32,2:58:41,,,7:36:25,3135,13052,10721,349,128,27385,462,391,61,510,435,66,497,424,67,462,391,61,Finisher,700
+Daphne,Tocino,Daphne Tocino,691,M30-34,Female,Mandaluyong City,Metro Manila,Philippines,PH,0:42:03,3:21:53,3:22:36,,,7:36:26,2523,12113,12156,343,251,27386,463,392,43,307,250,29,403,346,39,463,392,43,Finisher,700
+Jamillah,Watamama,Jamillah Watamama,974,M45-49,Female,Nazareth,Cagayan de Oro City,Philippines,PH,0:50:46,3:33:31,3:01:13,,,7:36:31,3046,12811,10873,472,189,27391,464,393,62,487,415,62,492,420,66,464,393,62,Finisher,700
+Rhodel,O Sermonia,Rhodel O Sermonia,1120,M45-49,Male,,,Philippines,PH,0:52:04,3:27:46,3:01:03,,,7:36:36,3124,12466,10863,336,607,27396,465,394,63,506,432,65,470,402,63,465,394,63,Finisher,700
+Juan Paolo,Reyes,Juan Paolo Reyes,855,M40-44,Male,,,Philippines,PH,0:49:54,3:19:41,3:16:58,,,7:36:46,2994,11981,11818,378,235,27406,466,395,97,464,393,90,433,371,91,466,395,97,Finisher,700
+Rudy,Winarto,Rudy Winarto,757,M35-39,Male,"Sampora, Banten
+15820","Banten
+Tangerang",Indonesia,ID,0:51:24,3:16:15,3:19:12,,,7:37:03,3084,11775,11952,440,172,27423,467,396,80,498,426,90,428,366,74,467,396,80,Finisher,700
+Jamil,Ramirez,Jamil Ramirez,679,M30-34,Male,,,Philippines,PH,0:47:19,3:31:36,3:10:01,,,7:37:34,2839,12696,11401,367,151,27454,468,397,44,411,346,43,469,401,45,468,397,44,Finisher,700
+Feliciano,Quilala,Feliciano Quilala,890,M40-44,Male,"Brgy. Valdez, batac city",Ilocos norte,Philippines,PH,0:46:44,3:22:59,3:20:43,,,7:37:57,2804,12179,12043,306,145,27477,469,398,98,401,337,73,426,364,89,469,398,98,Finisher,700
+Marco,Gregorio,Marco Gregorio,727,M35-39,Male,binan,Laguna,Philippines,PH,0:59:54,3:51:29,2:37:03,,,7:38:22,3594,13889,9423,355,241,27502,470,399,81,553,471,99,528,451,92,470,399,81,Finisher,700
+Raymond Vincent,Adriano,Raymond Vincent Adriano,968,M45-49,Male,"San Vicente, Tarlac City",Tarlac,Philippines,PH,0:56:04,3:20:28,3:11:16,,,7:38:53,3364,12028,11476,410,255,27533,471,400,64,540,460,70,463,396,62,471,400,64,Finisher,700
+Robert,Cruz,Robert Cruz,1092,M50-54,Male,,,Philippines,PH,0:46:42,3:21:38,3:22:25,,,7:39:36,2802,12098,12145,322,209,27576,472,401,22,398,334,20,422,361,21,472,401,22,Finisher,700
+Elaine Grace,Quinto,Elaine Grace Quinto,1342,F40-44,Female,Naga City,Camarines Sur,Philippines,PH,0:54:11,3:25:18,3:11:51,,,7:39:44,3251,12318,11511,365,139,27584,473,72,12,529,77,11,473,70,11,473,72,12,Finisher,1117
+Rex,LAU,Rex LAU,903,M40-44,Male,,,China,CN,0:50:19,4:07:50,2:30:12,,,7:39:49,3019,14870,9012,372,316,27589,474,402,99,475,404,95,535,458,113,474,402,99,Finisher,700
+Li Brandon,Lim,Li Brandon Lim,830,M40-44,Male,,,Philippines,PH,0:49:41,3:23:26,3:14:34,,,7:40:03,2981,12206,11674,545,197,27603,475,403,100,461,390,88,461,394,98,475,403,100,Finisher,700
+Carlo Jose,Garcia,Carlo Jose Garcia,619,M25-29,Male,,,Philippines,PH,0:52:10,3:36:47,3:04:31,,,7:40:38,3130,13007,11071,262,168,27638,476,404,21,508,434,25,493,421,23,476,404,21,Finisher,700
+Julio Eduardo,Abella,Julio Eduardo Abella,622,M25-29,Male,,,Philippines,PH,0:36:22,3:35:44,3:20:01,,,7:40:53,2182,12944,12001,385,141,27653,477,405,22,144,118,5,442,378,19,477,405,22,Finisher,700
+Lester Ericson,Estrella,Lester Ericson Estrella,1077,M50-54,Male,Pedro Cruz,San Juan City,Philippines,PH,0:53:54,3:29:23,3:08:13,,,7:41:04,3234,12563,11293,363,211,27664,478,406,23,524,448,27,480,410,24,478,406,23,Finisher,700
+John Bryan,Vital,John Bryan Vital,693,M30-34,Male,,,Philippines,PH,0:42:13,3:16:14,3:31:33,,,7:41:08,2533,11774,12693,368,300,27668,479,407,45,310,253,31,370,318,34,479,407,45,Finisher,700
+Jay Valham,Pingul,Jay Valham Pingul,1062,M50-54,Male,Gen.t.de leon,Valenzuela City,Philippines,PH,0:53:16,3:45:02,2:59:48,,,7:46:22,3196,13502,10788,338,158,27982,483,411,24,520,444,26,514,439,28,483,411,24,Finisher,700
+Naulie,Cabanting,Naulie Cabanting,1076,M50-54,Male,,,Philippines,PH,1:00:45,3:23:29,3:11:07,,,7:46:45,3645,12209,11467,325,359,28005,484,412,25,555,473,29,481,411,25,484,412,25,Finisher,700
+Edward Daniel,Elises,Edward Daniel Elises,683,M30-34,Male,,,Philippines,PH,0:54:12,3:30:32,3:12:31,,,7:47:11,3252,12632,11551,381,215,28031,485,413,46,530,453,49,485,415,47,485,413,46,Finisher,700
+Joel,Manuel,Joel Manuel,918,M40-44,Male,Bonifacio Global City,Taguig City,Philippines,PH,0:54:35,3:24:01,3:21:13,,,7:47:38,3275,12241,12073,296,173,28058,486,414,101,533,455,107,465,398,99,486,414,101,Finisher,700
+Glenda,Evangelista,Glenda Evangelista,1335,F35-39,Female,las vegas,NV,Philippines,PH,0:52:16,3:43:30,3:02:28,,,7:48:48,3136,13410,10948,359,275,28128,487,73,8,511,76,11,510,75,11,487,73,8,Finisher,1307
+Michael,Romero,Michael Romero,775,M35-39,Male,,,Philippines,PH,0:53:44,3:35:38,3:12:08,,,7:49:06,3224,12938,11528,265,191,28146,488,415,82,521,445,95,494,422,86,488,415,82,Finisher,700
+Ronn Bryan,Bundoc,Ronn Bryan Bundoc,631,M25-29,Male,Brgy. 228,Metro Manila,Philippines,PH,0:51:06,3:28:33,3:20:29,,,7:50:02,3066,12513,12029,369,225,28202,489,416,23,492,420,22,474,404,22,489,416,23,Finisher,700
+Antonio,Malasig,Antonio Malasig,747,M35-39,Male,Pasay,,Philippines,PH,0:46:40,3:48:13,3:07:46,,,7:50:06,2800,13693,11266,293,154,28206,490,417,83,396,332,72,504,431,88,490,417,83,Finisher,700
+Lhorjy,Lasan,Lhorjy Lasan,1328,F35-39,Female,Brgy. Paligsahan Quezon City,Quezon City,Philippines,PH,0:45:50,3:46:47,3:05:18,,,7:50:47,2750,13607,11118,496,276,28247,491,74,9,381,62,9,507,74,10,491,74,9,Finisher,1272
+Crisanto Jr,Gabriel,Crisanto Jr Gabriel,861,M40-44,Male,Quezon City,PH-00,Philippines,PH,0:42:22,3:46:10,3:05:41,,,7:51:07,2542,13570,11141,729,285,28267,492,418,102,314,257,52,505,432,105,492,418,102,Finisher,700
+Marcus Antonius,Andaya,Marcus Antonius Andaya,1072,M50-54,Male,,,Philippines,PH,0:46:41,3:31:16,3:24:15,,,7:52:12,2801,12676,12255,375,225,28332,493,419,26,397,333,19,468,400,23,493,419,26,Finisher,700
+Glenn,Infante,Glenn Infante,773,M35-39,Male,San bartolome,Quezon city,Philippines,PH,0:46:45,3:29:14,3:25:50,,,7:53:08,2805,12554,12350,306,373,28388,495,421,84,402,338,74,452,387,77,495,421,84,Finisher,700
+Gerard Martin,Mendoza,Gerard Martin Mendoza,895,M40-44,Male,alido hts. subd,malolos city. bulacan,Philippines,PH,0:57:30,3:24:44,3:19:31,,,7:53:33,3450,12284,11971,566,142,28413,496,422,103,546,465,111,488,417,102,496,422,103,Finisher,700
+Aris,Briones,Aris Briones,756,M35-39,Male,,,Philippines,PH,1:01:35,3:20:15,3:25:01,,,7:53:51,3695,12015,12301,299,121,28431,497,423,85,559,476,100,476,406,84,497,423,85,Finisher,700
+Severino,Ramos,Severino Ramos,1015,M45-49,Male,Brgy 41,Caloocan,Philippines,PH,0:51:00,3:30:49,3:19:47,,,7:55:11,3060,12649,11987,525,290,28511,499,425,65,491,419,64,482,412,64,499,425,65,Finisher,700
+Harold Angelo,Go,Harold Angelo Go,702,M35-39,Male,San Antonio,Quezon City,Philippines,PH,0:50:04,3:25:27,3:29:05,,,7:55:13,3004,12327,12545,485,152,28513,500,426,86,466,395,83,466,399,82,500,426,86,Finisher,700
+Vahid,Alirezaee,Vahid Alirezaee,699,M35-39,Male,,,Philippines,PH,0:34:48,3:41:55,3:30:42,,,7:57:00,2088,13315,12642,404,171,28620,501,427,87,113,92,21,464,397,81,501,427,87,Finisher,700
+Dustin,Broughton,Dustin Broughton,667,M30-34,Male,Charlestown,MA,United States,US,0:46:15,3:38:39,3:16:45,,,7:57:06,2775,13119,11805,352,575,28626,502,428,47,389,327,41,484,414,46,502,428,47,Finisher,700
+Janssen,Co,Janssen Co,837,M40-44,Male,586,Metro Manila,Philippines,PH,0:48:39,3:50:08,3:09:19,,,7:59:51,2919,13808,11359,446,259,28791,503,429,104,443,375,84,518,442,109,503,429,104,Finisher,700
+Joel,Pabelico,Joel Pabelico,1044,M45-49,Male,San Pedro,Laguna,Philippines,PH,0:50:24,3:52:44,3:07:27,,,7:59:57,3024,13964,11247,452,110,28797,504,430,66,477,406,60,523,446,70,504,430,66,Finisher,700
+Andrew,Coronel,Andrew Coronel,849,M40-44,Male,Sta Rita,Pampanga,Philippines,PH,1:06:20,3:24:37,3:18:03,,,8:00:15,3980,12277,11883,420,255,28815,505,431,105,562,479,115,502,429,104,505,431,105,Finisher,700
+Melody,Dy Prieto,Melody Dy Prieto,1354,F40-44,Female,Naga,Camarines Sur,Philippines,PH,0:54:16,3:48:52,3:07:11,,,8:00:42,3256,13732,11231,360,263,28842,506,75,13,531,78,12,520,77,13,506,75,13,Finisher,739
+Jose Celestino P,Torres,Jose Celestino P Torres,1084,M50-54,Male,,,Philippines,PH,0:43:09,3:46:20,3:21:37,,,8:01:41,2589,13580,12097,371,264,28901,507,432,27,325,267,16,498,425,26,507,432,27,Finisher,700
+Romeo Jr.,Agacita,Romeo Jr. Agacita,871,M40-44,Male,Barangay Bagbag Novaliches Quezon City,National Capital Region,Philippines,PH,0:53:02,3:44:40,3:17:29,,,8:01:47,3182,13480,11849,254,142,28907,508,433,106,519,443,103,512,437,108,508,433,106,Finisher,700
+Dennis,Panganiban,Dennis Panganiban,892,M40-44,Male,,,Philippines,PH,0:56:00,3:30:03,3:28:14,,,8:03:18,3360,12603,12494,360,181,28998,509,434,107,539,459,109,491,419,103,509,434,107,Finisher,700
+Jerome Angelo,Alfonso,Jerome Angelo Alfonso,603,M18-24,Male,,,Philippines,PH,0:54:18,3:36:27,3:24:02,,,8:03:31,3258,12987,12242,367,157,29011,510,435,7,532,454,7,499,426,7,510,435,7,Finisher,700
+Frank Chung-Yen,Tsai,Frank Chung-Yen Tsai,1021,M45-49,Male,bry sacred heart,metro manila,Philippines,PH,0:45:00,3:38:20,3:30:04,,,8:03:57,2700,13100,12604,472,161,29037,512,437,67,361,301,39,486,416,65,512,437,67,Finisher,700
+Rolan,Camitan,Rolan Camitan,700,M35-39,Male,,,Philippines,PH,0:42:01,3:45:45,3:26:11,,,8:04:12,2521,13545,12371,426,189,29052,513,438,88,305,248,53,496,423,87,513,438,88,Finisher,700
+Rogelio,Dela Cruz,Rogelio Dela Cruz,1094,M50-54,Male,Industrial Valley Complex,Marikina City,Philippines,PH,0:35:09,3:37:23,3:43:04,,,8:04:51,2109,13043,13384,422,133,29091,514,439,28,120,97,10,448,384,22,514,439,28,Finisher,700
+Regidor,De Luna,Regidor De Luna,920,M40-44,Male,South Triangle,Quezon City,Philippines,PH,0:47:42,3:27:39,3:40:59,,,8:05:41,2862,12459,13259,375,186,29141,515,440,108,419,353,79,456,390,97,515,440,108,Finisher,700
+Joshua Elijah,Ong,Joshua Elijah Ong,663,M30-34,Male,Baliwag City,PH-BUL,Philippines,PH,0:44:19,4:16:37,2:55:38,,,8:07:07,2659,15397,10538,430,203,29227,516,441,48,346,286,36,537,460,49,516,441,48,Finisher,700
+Rossbenor,Antay,Rossbenor Antay,869,M40-44,Male,,,Philippines,PH,0:50:02,3:50:43,3:15:24,,,8:08:54,3002,13843,11724,517,248,29334,517,442,109,465,394,91,521,444,110,517,442,109,Finisher,700
+Hans,Bock,Hans Bock,1111,M60-64,Male,Singapore,,Germany,DE,0:43:57,3:52:04,3:20:55,,,8:08:56,2637,13924,12055,404,316,29336,518,443,4,338,278,3,513,438,4,518,443,4,Finisher,1989
+Carlo,Fernandez,Carlo Fernandez,834,M40-44,Male,Quezon city,Manila,Philippines,PH,0:48:27,3:47:59,3:23:20,,,8:08:57,2907,13679,12200,311,240,29337,519,444,110,440,372,83,509,435,107,519,444,110,Finisher,700
+Skylove,Cave,Skylove Cave,748,M35-39,Male,"Pantal East, Dagupan City",Pangasinan,Philippines,PH,0:58:41,3:57:33,3:05:14,,,8:12:51,3521,14253,11114,376,307,29571,521,445,89,552,470,98,531,454,93,521,445,89,Finisher,700
+Noboru,Tsukahara,Noboru Tsukahara,1115,M65-69,Male,Chiba,Chiba,Japan,JP,0:40:11,3:44:59,3:34:19,,,8:14:14,2411,13499,12859,409,476,29654,522,446,3,248,204,1,490,418,3,522,446,3,Finisher,2095
+Ricky,Tan,Ricky Tan,1079,M50-54,Male,,,Philippines,PH,1:09:56,3:28:49,3:24:45,,,8:16:12,4196,12529,12285,352,410,29772,523,447,29,563,480,30,517,441,29,523,447,29,Finisher,700
+Arojo,Santos,Arojo Santos,742,M35-39,Male,Brgy. Plainview,Mandaluyong City,Philippines,PH,0:52:24,3:49:20,3:24:39,,,8:16:49,3144,13760,12279,462,164,29809,524,448,90,514,438,93,522,445,90,524,448,90,Finisher,700
+Michael,Oledan,Michael Oledan,886,M40-44,Male,PARANAQUE,METRO MANILA,Philippines,PH,0:51:37,3:16:22,3:56:38,,,8:16:59,3097,11782,14198,429,313,29819,525,449,111,501,428,100,429,367,90,525,449,111,Finisher,700
+Rodrey,Filipinas,Rodrey Filipinas,723,M35-39,Male,,,Philippines,PH,0:51:42,3:49:14,3:24:05,,,8:16:59,3102,13754,12245,436,282,29819,526,450,91,502,429,91,519,443,89,526,450,91,Finisher,700
+Joselito,Vergara,Joselito Vergara,853,M40-44,Male,Mabalacat,Pampanga,Philippines,PH,0:54:51,3:56:14,3:16:13,,,8:17:46,3291,14174,11773,232,396,29866,527,451,112,536,456,108,527,450,111,527,451,112,Finisher,700
+Arlene,Adrados,Arlene Adrados,1334,F35-39,Female,,,Philippines,PH,0:54:44,4:08:15,3:06:50,,,8:19:27,3284,14895,11210,393,185,29967,529,77,10,535,80,12,538,78,12,529,77,10,Finisher,756
+Jerome,Araullo,Jerome Araullo,914,M40-44,Male,taytay,rizal,Philippines,PH,0:54:03,4:16:09,3:04:07,,,8:22:01,3243,15369,11047,288,174,30121,530,453,113,527,451,105,544,465,114,530,453,113,Finisher,700
+Jose Renato,Badelles,Jose Renato Badelles,1053,M45-49,Male,"Talon II, Las Piñas",Metro Manila,Philippines,PH,0:53:56,3:34:49,3:42:46,,,8:25:49,3236,12889,13366,495,363,30349,531,454,68,525,449,67,500,427,68,531,454,68,Finisher,700
+Randolf,Kanapi,Randolf Kanapi,887,M40-44,Male,Bacoor,Cavite,Philippines,PH,1:01:29,3:54:23,3:23:14,,,8:27:34,3689,14063,12194,314,194,30454,532,455,114,558,475,114,529,452,112,532,455,114,Finisher,700
+Carlo,Martin,Carlo Martin,770,M35-39,Male,,,Philippines,PH,0:46:12,3:59:31,3:31:41,,,8:28:04,2772,14371,12701,414,226,30484,533,456,92,387,325,71,526,449,91,533,456,92,Finisher,700
+Stefan,Leijdekkers,Stefan Leijdekkers,952,M40-44,Male,Harrison,NY,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Victor,Magno,Victor Magno,967,M45-49,Male,San Martin de Porres,PH-00,Philippines,PH,,,,,,,2111,10789,0,269,0,0,99999,99999,99999,123,100,14,201,174,24,99999,99999,99999,DNF,0
+Jennie,Short,Jennie Short,1346,F40-44,Female,Madrid,ES,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Frederick,Calica,Frederick Calica,811,M35-39,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Philippe,Kretz,Philippe Kretz,817,M35-39,Male,Hong kong,Hong Kong,Switzerland,CH,,,,,,,1977,0,0,186,0,0,99999,99999,99999,88,70,15,99999,99999,99999,99999,99999,99999,DNF,0
+Mariela ,Martinez- Powell,Mariela Martinez- Powell,1363,F45-49,Female,Serendra 2,BGC,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Robert Jr,Visbal,Robert Jr Visbal,1043,M45-49,Male,Brgy Inchican,PH-CAV,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Antonie,De Wilde,Antonie De Wilde,1116,M70-74,Male,Donmuang air force base,Florida,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tristan,Torres Velat,Tristan Torres Velat,725,M35-39,Male,,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ferdinand,Manebo,Ferdinand Manebo,793,M35-39,Male,toronto,ON,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Callebert,Simon,Callebert Simon,782,M35-39,Male,Kathu,Phuket,Belgium,BE,,,,,,,1751,9107,0,243,74,0,99999,99999,99999,45,36,7,49,40,8,99999,99999,99999,DNF,0
+Nelson,Pasia,Nelson Pasia,810,M35-39,Male,Don Bosco,Paranaque,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Earl Frances,Perez,Earl Frances Perez,801,M35-39,Male,bacayan cebu city,cebu,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeremy,Snoad,Jeremy Snoad,1101,M55-59,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Joe,Dulay,Joe Dulay,716,M35-39,Male,Silang,Cavite,Philippines,PH,,,,,,,2503,0,0,319,0,0,99999,99999,99999,296,240,50,99999,99999,99999,99999,99999,99999,DNF,0
+Jarmo,Mäkeläinen,Jarmo Mäkeläinen,769,M35-39,Male,ESPOO,,Finland,FI,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,De Guzman,Michael De Guzman,885,M40-44,Male,"Maybunga, Pasig City",Metro Manila,Philippines,PH,0:56:24,4:14:34,3:17:37,,,8:39:56,3384,15274,11857,499,182,31196,99999,99999,99999,542,462,110,547,468,115,99999,99999,99999,DNF,0
+Dindo,Guerrero,Dindo Guerrero,1049,M45-49,Male,Quezon City,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alfredo,Gonzales,Alfredo Gonzales,778,M35-39,Male,West Modern Site,BENGUET,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nicolas,Maraver,Nicolas Maraver,759,M35-39,Male,JOHOR,JOHOR,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Edward,Ibera,Edward Ibera,941,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Natthapong,Prayadsub,Natthapong Prayadsub,788,M35-39,Male,Lardprao,Bangkok,Thailand,TH,,,,,,,2491,0,0,280,0,0,99999,99999,99999,289,234,48,99999,99999,99999,99999,99999,99999,DNF,0
+Marverick,Tan,Marverick Tan,1061,M50-54,Male,quezon city,manila,Philippines,PH,0:56:47,4:07:25,3:36:23,,,8:50:01,3407,14845,12983,384,182,31801,99999,99999,99999,543,463,28,541,463,30,99999,99999,99999,DNF,0
+Bienvenido Josef Iv,Gonzalez,Bienvenido Josef Iv Gonzalez,831,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Janet,HigaMiller,Janet HigaMiller,1365,F55-59,Female,Kailua Kona,HI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Bond,Michael Bond,1030,M45-49,Male,Evanston,IL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alfred,Racho,Alfred Racho,972,M45-49,Male,Pasig,PH-00,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sanjeev,Sharma,Sanjeev Sharma,791,M35-39,Male,Malate,Manila,India,IN,,,,,,,3083,14932,0,606,397,0,99999,99999,99999,497,425,89,540,462,95,99999,99999,99999,DNF,0
+Alexander,Leuterio,Alexander Leuterio,772,M35-39,Male,Paranaque,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Raymond,Posadas,Raymond Posadas,891,M40-44,Male,Mandaluyong City,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Diane,Castillo,Diane Castillo,1367,F25-29,Female,East Canumay,Valenzuela City,Philippines,PH,,,,,,,3454,16554,0,277,0,0,99999,99999,99999,549,82,10,552,81,10,99999,99999,99999,DNF,0
+Welmar,Saavedra,Welmar Saavedra,36,MPRO,Male,LApu LApu,Lapu Lapu,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Narindhon,Punyaratabandhu,Narindhon Punyaratabandhu,1324,F30-34,Female,"Tharang, Bangkhen",Bangkok,Thailand,TH,0:50:34,4:23:46,3:25:14,,,8:49:31,3034,15826,12314,434,163,31771,99999,99999,99999,481,72,9,550,80,9,99999,99999,99999,DNF,0
+Oliver,Gozun,Oliver Gozun,955,M40-44,Male,"Sto. Domingo, Angeles City",Pampanga,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Guilherme,Schaefer Francisco Correia,Guilherme Schaefer Francisco Correia,708,M35-39,Male,,,Brazil,BR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Cyril,Vergara,Cyril Vergara,617,M25-29,Male,Subic Bay Freeport Zone,Olongapo City,Philippines,PH,,,,,,,3104,15366,0,570,253,0,99999,99999,99999,503,430,24,546,467,25,99999,99999,99999,DNF,0
+Alvin,Bugtas,Alvin Bugtas,878,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dilbert,Monicit,Dilbert Monicit,840,M40-44,Male,Apas,Cebu city,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sam,Hiley,Sam Hiley,779,M35-39,Male,Singapore,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Joseph,Interior,Joseph Interior,633,M25-29,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rhoby,Orata,Rhoby Orata,931,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rommel,Vitug,Rommel Vitug,607,M25-29,Male,Lubao,Pampanga,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alberto,Sales,Alberto Sales,734,M35-39,Male,Ladson,SC,Philippines,PH,,,,,,,3384,0,0,427,0,0,99999,99999,99999,541,461,97,99999,99999,99999,99999,99999,99999,DNF,0
+Harold,Dela Cruz,Harold Dela Cruz,697,M30-34,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Enrique Lorenzo,San Agustin,Enrique Lorenzo San Agustin,780,M35-39,Male,Makati City,Metro Manila,Philippines,PH,,,,,,,2358,0,0,260,0,0,99999,99999,99999,223,184,39,99999,99999,99999,99999,99999,99999,DNF,0
+Mark,Stanley,Mark Stanley,1055,M45-49,Male,HK,Hong Kong,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Denniel,Ison,Denniel Ison,868,M40-44,Male,Buting,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Albert Joe,Genato,Albert Joe Genato,636,M25-29,Male,Fontana,CA,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Corbin,Kevin Corbin,980,M45-49,Male,Makati,Metro Manila,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jeremiah,Isip,Jeremiah Isip,659,M30-34,Male,Taguig,Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chuck,Montecillo,Chuck Montecillo,808,M35-39,Male,Banilad,Cebu,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kyle,Buckingham,Kyle Buckingham,5,MPRO,Male,Port Elizabeth,,South Africa,ZA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roger,Abarico,Roger Abarico,621,M25-29,Male,Pembo,NCR,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mandy,Tik,Mandy Tik,1333,F35-39,Female,Bondi Beach,NSW,Hong Kong,HK,,,,,,,1854,11424,0,178,69,0,99999,99999,99999,62,13,2,234,31,3,99999,99999,99999,DNF,0
+Constancio Jr,Bernardes,Constancio Jr Bernardes,733,M35-39,Male,taguig city,Intl State,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Koichiro,Inoue,Koichiro Inoue,1019,M45-49,Male,港区六本木,東京都,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Leslie,Bird,Leslie Bird,1112,M65-69,Male,,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marlon,Daza,Marlon Daza,1014,M45-49,Male,"Sto Domingo, Sta Rosa City",Laguna,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fumio,Takashima,Fumio Takashima,1108,M60-64,Male,SHIROKANE MINATOKU,TOKYO,Japan,JP,,,,,,,2672,15265,0,262,120,0,99999,99999,99999,351,291,4,534,457,5,99999,99999,99999,DNF,0
+Tatsuya,Kanai,Tatsuya Kanai,1103,M55-59,Male,Mandaluyong City,Metro Manila,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Romain,Barbier,Romain Barbier,739,M35-39,Male,,,Andorra,AD,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephen,Groff,Stephen Groff,1080,M50-54,Male,Sarasota,FL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Edgie,Go,Edgie Go,858,M40-44,Male,Malanday,"Marikina, Metro Manila",Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Grant,Miller,Grant Miller,1087,M50-54,Male,KAILUA KONA,HI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juan Miguel,De La Cruz,Juan Miguel De La Cruz,618,M25-29,Male,,,Philippines,PH,0:48:22,4:21:18,3:08:19,,,8:30:19,2902,15678,11299,452,288,30619,99999,99999,99999,436,369,21,545,466,24,99999,99999,99999,DNF,0
+Aristotle,Cajucom,Aristotle Cajucom,761,M35-39,Male,Mandaluyong,Laguna,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tassawan,Sirivongs,Tassawan Sirivongs,1345,F40-44,Female,Kannayao,Bangkok,Thailand,TH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dom,Penton,Dom Penton,1017,M45-49,Male,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Uli,Suratos,Uli Suratos,870,M40-44,Male,Las Vegas,NV,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Masayuki,Kanayama,Masayuki Kanayama,709,M35-39,Male,,,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Voltaire,Uy,Voltaire Uy,900,M40-44,Male,sikatuna,butuan/agusan del norte,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rachel,Mclean,Rachel Mclean,1309,F25-29,Female,Wanguri,NT,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Schneider,Eric Schneider,1081,M50-54,Male,DESTIN,FL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Shuichi,Kato,Shuichi Kato,1029,M45-49,Male,kawit,PH-CAV,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Maris,Balatibat,Maris Balatibat,1327,F35-39,Female,Los Banos,Los banos,Philippines,PH,,,,,,,2414,12666,0,316,133,0,99999,99999,99999,249,45,5,436,63,8,99999,99999,99999,DNF,0
+Michael Rey,Salomon,Michael Rey Salomon,661,M30-34,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alexander,Bogdanov,Alexander Bogdanov,671,M30-34,Male,Benitachell,,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ernesto,Caraveo,Ernesto Caraveo,961,M40-44,Male,Surf City,NC,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steffen,Wolf,Steffen Wolf,1051,M45-49,Male,Singapore,Singapore,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Eberle,Daniel Eberle,762,M35-39,Male,Tettnang,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abraham,Alcantara,Abraham Alcantara,678,M30-34,Male,Fort Bonifacio,Taguig,Philippines,PH,0:40:41,4:14:41,3:37:59,,,8:43:17,2441,15281,13079,379,217,31397,99999,99999,99999,263,214,20,530,453,48,99999,99999,99999,DNF,0
+Christ-Ian,Vergara,Christ-Ian Vergara,637,M25-29,Male,Olongapo,,Philippines,PH,,,,,,,3643,15111,0,419,268,0,99999,99999,99999,554,472,27,548,469,26,99999,99999,99999,DNF,0
+Leah,Lassche,Leah Lassche,20,FPRO,Female,Cambridge,WKO,New Zealand,NZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jose Antonio,Caniza,Jose Antonio Caniza,1039,M45-49,Male,Cupang,Muntinglupa,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Torsten,Dietze,Torsten Dietze,957,M40-44,Male,Seiffen,CN-BJ,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Austin,Rayos Del Sol,Austin Rayos Del Sol,1013,M45-49,Male,"San Isidro, Taytay",Rizal,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gregory Francis,Banzon,Gregory Francis Banzon,1078,M50-54,Male,"Muntinglupa,",Intl State,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Emiko,Nishimura,Emiko Nishimura,1347,F40-44,Female,,,Japan,JP,,,,,,,3085,0,0,430,0,0,99999,99999,99999,499,73,10,99999,99999,99999,99999,99999,99999,DNF,0
+Jason,Ang,Jason Ang,609,M25-29,Male,,,Philippines,PH,0:42:51,4:29:21,3:20:15,,,8:50:12,2571,16161,12015,832,233,31812,99999,99999,99999,321,264,16,551,471,27,99999,99999,99999,DNF,0
+Alexander,Vranken,Alexander Vranken,714,M35-39,Male,Beijing,APO,Netherlands,NL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arnault,Brac,Arnault Brac,672,M30-34,Male,,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steve,Cortes,Steve Cortes,832,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Douglas,Guiyab,Douglas Guiyab,873,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jerome,Reyes,Jerome Reyes,645,M30-34,Male,Carmona,Cavite,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jesus,Simon,Jesus Simon,1105,M55-59,Male,,,Philippines,PH,,,,,,,3488,15369,0,434,219,0,99999,99999,99999,551,469,8,549,470,9,99999,99999,99999,DNF,0
+Marcus,Marcet,Marcus Marcet,940,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adem Joseph,Paras,Adem Joseph Paras,669,M30-34,Male,Barangay Putatan Muntinlupa City,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+John,Mcconnell,John Mcconnell,787,M35-39,Male,,,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Louie,De Guzman,Louie De Guzman,844,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dr Cicel,Reyna,Dr Cicel Reyna,1339,F40-44,Female,BGC,Taguig,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gibson,Yu,Gibson Yu,754,M35-39,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Cian,O'Neil,Cian O'Neil,786,M35-39,Male,,,Ireland,IE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alan Dale,Preston,Alan Dale Preston,1104,M55-59,Male,elwood,VIC,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jessica,Soliz,Jessica Soliz,1312,F25-29,Female,,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Blancher,Frederic Francois,Blancher Frederic Francois,985,M45-49,Male,Shanghai,Shanghai,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Marvin Bryan,Verar,Marvin Bryan Verar,651,M30-34,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gilbert,Pilapil,Gilbert Pilapil,1036,M45-49,Male,San Martin de Porres,Quezon City,Philippines,PH,0:47:44,3:46:18,3:44:33,,,8:30:45,2864,13578,13473,468,262,30645,99999,99999,99999,421,355,46,511,436,69,99999,99999,99999,DNF,0
+Arturo,Fernandez Catalina,Arturo Fernandez Catalina,842,M40-44,Male,,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Phusit,Chaicham,Phusit Chaicham,1008,M45-49,Male,Muang,Rayong,Thailand,TH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Fleckten,Eric Fleckten,960,M40-44,Male,,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jose Amado,Mamuric,Jose Amado Mamuric,1041,M45-49,Male,Malate Manila,Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Valente,De Leon,Valente De Leon,737,M35-39,Male,,,Philippines,PH,,,,,,,3776,15928,0,588,0,0,99999,99999,99999,561,478,101,553,472,96,99999,99999,99999,DNF,0
+Louie,Fernandez,Louie Fernandez,866,M40-44,Male,Bellflower,CA,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anna,Rodriguez-Dela Cruz,Anna Rodriguez-Dela Cruz,1344,F40-44,Female,Bacoor,Cavite,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nigel,Chen,Nigel Chen,1033,M45-49,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Nick,Baldwin,Nick Baldwin,4,MPRO,Male,Grande Anse,Praslin,Seychelles,SC,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rodel,Jueco,Rodel Jueco,875,M40-44,Male,Waikiki,WA,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jigger,Mendiola,Jigger Mendiola,1118,M40-44,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Colin,Wilby,Colin Wilby,1106,M55-59,Male,"Desa Buduk
+Mengwi 80351","Bali
+Bali",Indonesia,ID,,,,,,,2066,10090,0,254,152,0,99999,99999,99999,109,89,2,139,122,5,99999,99999,99999,DNF,0
+Jessica Anne,Hizon,Jessica Anne Hizon,925,M40-44,Female,Fort Bonifacio,Taguig city,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lord Allan Jay,Velasco,Lord Allan Jay Velasco,809,M35-39,Male,Pasig City,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juan Miguel,Bondoc,Juan Miguel Bondoc,802,M35-39,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+William,Caluza,William Caluza,1035,M45-49,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juan Carlos,Mendoza,Juan Carlos Mendoza,653,M30-34,Male,Maybunga,Pasig City,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Manuel,Dela Serna,Manuel Dela Serna,1064,M50-54,Male,Makati City,Intl State,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Wang,Eric Wang,1025,M45-49,Male,,,Taiwan,TW,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lloyd,Saban,Lloyd Saban,807,M35-39,Male,Don Jose,Laguna,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Janine,Willis,Janine Willis,1368,F40-44,Female,Calgary,AB,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Takashi,Kousaka,Takashi Kousaka,784,M35-39,Male,,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stefan,Spies,Stefan Spies,1119,M45-49,Male,,,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Doerr,Juergen,Doerr Juergen,1037,M45-49,Male,Muscat,Oman,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Gourmel,Anthony,Gourmel Anthony,819,M35-39,Male,,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alvin,Biton,Alvin Biton,898,M40-44,Male,Carmen,Misamis oriental,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+David,Almendral,David Almendral,990,M45-49,Male,Muntinlupa City,Intl State,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Søren,Rantzau Petersen,Søren Rantzau Petersen,971,M45-49,Male,Henning Smithsvej 11C 1 sal lejlighed 4,Other,Denmark,DK,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roy Wyndell,Hervias,Roy Wyndell Hervias,838,M40-44,Male,Taguig,Metro Manila,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael James De Leon,Navarro,Michael James De Leon Navarro,720,M35-39,,Brgy Laging Handa,Quezon City,Philippines,PH,0:50:21,4:07:06,3:35:34,,,8:43:13,3021,14826,12934,328,284,31393,99999,99999,99999,476,405,85,532,455,94,99999,99999,99999,DNF,0
+Mitchell,Robins,Mitchell Robins,9,MPRO,Male,Port Macquarie,NSW,Australia,AU,,,,,,,1425,0,0,99,0,0,99999,99999,99999,7,7,7,99999,99999,99999,99999,99999,99999,DNF,0
+Xander,Angeles,Xander Angeles,897,M40-44,Male,Laging Handa,Quezon City,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Patrick,Lim,Patrick Lim,664,M30-34,Male,Brgy. South Triangle,"Quezon City, Metro Manila",Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Roberto Ii,Balili,Roberto Ii Balili,610,M25-29,Male,,,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michael,Klose,Michael Klose,1086,M50-54,Male,"Cherng Talay, Thalang",,Germany,DE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alberto,Carbo Jr,Alberto Carbo Jr,902,M40-44,Male,"Navarro, Gen Trias",Cavite,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mhel,Biscarra,Mhel Biscarra,662,M30-34,,Zone 7 Bangued,Abra,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mervin,Santiago,Mervin Santiago,951,M40-44,Male,Malanday,Valenzuela,Philippines,PH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lachlan,Kerin,Lachlan Kerin,7,MPRO,Male,Nambour,QLD,Australia,AU,,,,,,,1422,0,0,106,0,0,99999,99999,99999,5,5,5,99999,99999,99999,99999,99999,99999,DNF,0

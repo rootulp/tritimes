@@ -1,0 +1,829 @@
+FirstName,LastName,FullName,Bib,AgeGroup,Gender,City,State,Country,CountryISO,SwimTime,BikeTime,RunTime,T1Time,T2Time,FinishTime,SwimSeconds,BikeSeconds,RunSeconds,T1Seconds,T2Seconds,FinishSeconds,OverallRank,GenderRank,AgeGroupRank,SwimRankOverall,SwimRankGender,SwimRankGroup,BikeRankOverall,BikeRankGender,BikeRankGroup,RunRankOverall,RunRankGender,RunRankGroup,Status,Points
+Lionel,Sanders,Lionel Sanders,13,MPRO,Male,Oro Valley,AZ,Canada,CA,0:25:16,2:02:34,1:13:09,,,3:44:06,1516,7354,4389,109,78,13446,1,1,1,10,10,9,1,1,1,1,1,1,Finisher,3500
+Paco,Serrano,Paco Serrano,2,MPRO,Male,San Pedro Garza GarciaSan Pedro Garza Garcia,Intl State,Mexico,MX,0:25:14,2:09:09,1:17:02,,,3:54:01,1514,7749,4622,72,83,14041,2,2,2,7,7,6,3,3,3,2,2,2,Finisher,3321
+Robbie,Deckard,Robbie Deckard,21,MPRO,Male,Boulder,CO,United States,US,0:25:15,2:09:06,1:17:31,,,3:54:36,1515,7746,4651,80,84,14076,3,3,3,9,9,8,7,7,7,3,3,3,Finisher,3311
+Tomasz,Szala,Tomasz Szala,12,MPRO,Male,Nowa Iwiczna,mazowieckie,Poland,PL,0:25:12,2:08:57,1:22:03,,,3:58:52,1512,7737,4923,90,70,14332,4,4,4,6,6,5,5,5,5,4,4,4,Finisher,3234
+Nicholas,Chase,Nicholas Chase,22,MPRO,Male,washington,UT,United States,US,0:25:10,2:09:06,1:24:22,,,4:01:28,1510,7746,5062,81,89,14488,5,5,5,5,5,4,4,4,4,5,5,5,Finisher,3187
+Eric,Lagerstrom,Eric Lagerstrom,4,MPRO,Male,Bend,OR,United States,US,0:23:20,2:10:43,1:28:10,,,4:04:58,1400,7843,5290,91,74,14698,6,6,6,2,2,2,2,2,2,6,6,6,Finisher,3124
+Joaquin,Pereda,Joaquin Pereda,8,MPRO,Male,Cozumel,MX-ROO,Mexico,MX,0:23:16,2:19:47,1:25:15,,,4:11:11,1396,8387,5115,81,92,15071,7,7,7,1,1,1,8,8,8,7,7,7,Finisher,3012
+Matt,Franklin,Matt Franklin,18,MPRO,Male,Auckland,AUK,New Zealand,NZ,0:23:22,2:10:40,1:40:21,,,4:17:29,1402,7840,6021,97,88,15449,8,8,8,3,3,3,6,6,6,8,8,8,Finisher,2899
+Arturo,Garza,Arturo Garza,23,MPRO,Male,Naucalpan,Estado de Mexico,Mexico,MX,0:25:14,2:24:41,1:25:13,,,4:18:00,1514,8681,5113,79,92,15480,9,9,9,8,8,7,9,9,9,9,9,9,Finisher,2889
+Armen,Vartanian,Armen Vartanian,843,M40-44,Male,Hillsborough,CA,Armenia,AM,0:29:21,2:19:59,1:23:41,,,4:18:47,1761,8399,5021,182,164,15527,10,10,1,35,28,1,11,11,1,10,10,1,Finisher,3500
+Carlos,Santiago,Carlos Santiago,719,M25-29,Male,Chula Vista,CA,Mexico,MX,0:26:01,2:23:44,1:25:20,,,4:19:24,1561,8624,5120,116,143,15564,11,11,1,11,11,1,10,10,1,11,11,1,Finisher,3500
+Rodrigo,Romero García De La Cadena,Rodrigo Romero García De La Cadena,17,MPRO,Male,TEHUACAN,MX-PUE,Mexico,MX,0:28:22,2:23:50,1:27:22,,,4:22:45,1702,8630,5242,93,98,15765,12,12,10,27,21,10,12,12,10,12,12,10,Finisher,2804
+Ricardo Antonio,Guzman Mejia,Ricardo Antonio Guzman Mejia,682,M30-34,Male,Mazatlan,"Mazatlan Sinaloa , Mexico.",Mexico,MX,0:27:25,2:31:44,1:24:03,,,4:26:51,1645,9104,5043,99,119,16011,13,13,1,15,15,2,18,18,3,13,13,1,Finisher,3500
+Eduardo,Perez Sandi,Eduardo Perez Sandi,293,M18-24,Male,Léon,Guanajuato,Mexico,MX,0:30:09,2:28:44,1:24:30,,,4:27:00,1809,8924,5070,104,112,16020,14,14,1,40,33,1,17,17,1,14,14,1,Finisher,3500
+Carlos,Arcadia,Carlos Arcadia,188,M30-34,Male,Zapopan,,Mexico,MX,0:26:09,2:27:00,1:32:19,,,4:28:51,1569,8820,5539,84,118,16131,15,15,2,12,12,1,13,13,1,15,15,2,Finisher,3464
+Leonardo,Sanchez Ramirez,Leonardo Sanchez Ramirez,790,M25-29,Male,QUERETARO,MX-QUE,Mexico,MX,0:26:11,2:30:27,1:30:37,,,4:31:07,1571,9027,5437,131,101,16267,16,16,2,13,13,2,15,15,2,16,16,2,Finisher,3289
+Lucho,De La Vega,Lucho De La Vega,674,M30-34,Male,Monterrey,Nuevo Leon,Mexico,MX,0:31:33,2:28:48,1:26:37,,,4:31:29,1893,8928,5197,141,129,16289,17,17,3,56,43,12,23,21,5,17,17,3,Finisher,3416
+Mirinda,Carfrae,Mirinda Carfrae,25,FPRO,Female,BOULDER,CO,Australia,AU,0:28:19,2:30:36,1:28:42,,,4:31:36,1699,9036,5322,133,105,16296,18,1,1,23,3,2,21,1,1,18,1,1,Finisher,3500
+Dj,Snyder,Dj Snyder,629,M30-34,Male,Edmond,OK,United States,US,0:31:08,2:28:17,1:32:27,,,4:35:21,1868,8897,5547,103,106,16521,19,18,4,50,41,10,20,20,4,19,18,4,Finisher,3347
+Ewa,Komander,Ewa Komander,29,FPRO,Female,Kędzierzyn-Kozle,opolskie,Poland,PL,0:28:22,2:31:54,1:32:45,,,4:36:13,1702,9114,5565,97,94,16573,20,2,2,26,6,4,22,2,2,20,2,2,Finisher,3416
+Robbie,Larocque,Robbie Larocque,795,M25-29,Male,Chicago,IL,United States,US,0:32:39,2:28:00,1:33:58,,,4:38:41,1959,8880,5638,135,109,16721,21,19,3,80,61,8,24,22,4,21,19,3,Finisher,3152
+Inigo,Fernandez Guerra Abdala,Inigo Fernandez Guerra Abdala,768,M18-24,Male,CIUDAD DE MEXICO,CDMX,Mexico,MX,0:36:14,,,,,4:38:48,2174,0,0,143,0,16728,22,20,2,209,166,5,99999,99999,99999,22,20,2,Finisher,3287
+Gerardo,Mejia Arteaga,Gerardo Mejia Arteaga,291,M35-39,Male,Cuernavaca,MX-MOR,Mexico,MX,0:30:57,2:30:18,1:33:23,,,4:39:02,1857,9018,5603,142,123,16742,23,21,1,45,37,3,27,25,2,23,21,1,Finisher,3500
+Brett,King,Brett King,45,M30-34,Male,Salt Lake City,UT,United States,US,0:27:35,2:25:52,1:43:54,,,4:41:32,1655,8752,6234,155,95,16892,24,22,5,17,16,3,14,14,2,24,22,5,Finisher,3235
+Adriana Isaura,Carreño,Adriana Isaura Carreño,24,FPRO,Female,Zapopán,MX-JAL,Mexico,MX,0:27:29,2:40:24,1:31:12,,,4:42:18,1649,9624,5472,93,101,16938,25,3,3,16,1,1,37,4,4,25,3,3,Finisher,3307
+Carlos Daniel,Chavez Morales,Carlos Daniel Chavez Morales,695,M25-29,Male,Victoria,Tamaulipas,Mexico,MX,0:28:07,2:30:33,1:40:26,,,4:42:46,1687,9033,6026,95,124,16966,26,23,4,20,19,3,16,16,3,26,23,4,Finisher,3079
+Ferdinand,Hingerl,Ferdinand Hingerl,565,M35-39,Male,CALGARY,AB,Canada,CA,0:36:30,2:22:20,1:40:07,,,4:43:21,2190,8540,6007,130,133,17001,27,24,2,227,181,31,19,19,1,27,24,2,Finisher,3422
+Olympia,Von Berg,Olympia Von Berg,30,FPRO,Female,BOULDER,CO,United States,US,0:28:22,2:36:33,1:36:55,,,4:44:45,1702,9393,5815,93,83,17085,28,4,4,25,5,3,33,3,3,28,4,4,Finisher,3263
+Bernardo,Harvey,Bernardo Harvey,686,M25-29,Male,Monterrey,Nuevo Leon,Mexico,MX,0:31:57,2:30:40,1:39:13,,,4:45:28,1917,9040,5953,103,115,17128,29,25,5,64,48,6,29,27,6,29,25,5,Finisher,3030
+Federico,Duarte,Federico Duarte,569,M35-39,Male,maldonado,Intl State,Uruguay,UY,0:32:44,2:35:37,1:34:01,,,4:46:04,1964,9337,5641,125,96,17164,30,26,3,82,62,7,39,35,3,30,26,3,Finisher,3373
+Cristian,Fernandez,Cristian Fernandez,179,M40-44,Male,Los Cabos,,Mexico,MX,0:37:13,2:33:11,1:30:51,,,4:46:42,2233,9191,5451,189,139,17202,31,27,2,249,199,32,53,47,4,31,27,2,Finisher,2997
+Andrea,Sanchez,Andrea Sanchez,852,F25-29,Female,México,México City,Mexico,MX,0:28:10,2:43:00,1:32:36,,,4:47:15,1690,9780,5556,116,92,17235,32,5,1,21,2,1,52,6,1,32,5,1,Finisher,3500
+Seth,Barnes,Seth Barnes,58,M25-29,Male,SEATTLE,WA,United States,US,0:33:02,2:27:56,1:42:49,,,4:48:05,1982,8876,6169,151,106,17285,33,28,6,90,69,11,26,24,5,33,28,6,Finisher,2983
+Simon,Olivier,Simon Olivier,55,M40-44,Male,Québec,QC,Canada,CA,0:33:43,2:32:31,1:37:42,,,4:48:08,2023,9151,5862,135,117,17288,34,29,3,115,93,10,35,32,2,34,29,3,Finisher,2971
+Corey,Robinson,Corey Robinson,71,M30-34,Male,Crested Butte,CO,United States,US,0:33:36,2:31:54,1:39:48,,,4:48:54,2016,9114,5988,128,88,17334,35,30,6,107,85,18,34,31,8,35,30,6,Finisher,3103
+Xavier,Gallardo,Xavier Gallardo,148,M30-34,Male,Ciudad de México,CMX,Mexico,MX,0:31:07,2:31:21,1:43:39,,,4:50:06,1867,9081,6219,92,148,17406,36,31,7,47,38,9,28,26,6,36,31,7,Finisher,3081
+Shawn,Bonsell,Shawn Bonsell,85,M50-54,Male,dallas,TX,United States,US,0:25:01,2:35:39,1:45:50,,,4:51:07,1501,9339,6350,145,132,17467,37,32,1,4,4,1,25,23,1,37,32,1,Finisher,3500
+Lee,Cotterell,Lee Cotterell,255,M30-34,Male,Katy,TX,United Kingdom,GB,0:36:57,2:32:38,1:36:58,,,4:51:10,2217,9158,5818,142,135,17470,38,33,8,239,190,40,43,39,10,38,33,8,Finisher,3062
+Scott,Hippe,Scott Hippe,670,M30-34,Male,Boise,ID,United States,US,0:35:20,2:31:37,1:40:02,,,4:51:22,2120,9097,6002,165,98,17482,39,34,9,170,136,30,38,34,9,39,34,9,Finisher,3058
+Jean-Paul,Espinosa,Jean-Paul Espinosa,113,M25-29,Male,Sausalito,CA,United Kingdom,GB,0:31:07,2:38:32,1:38:13,,,4:52:50,1867,9512,5893,167,130,17570,40,35,7,48,39,5,45,40,7,40,35,7,Finisher,2898
+Carlos,Zazueta,Carlos Zazueta,98,M35-39,Male,zapopan,JAL,Mexico,MX,0:33:32,2:37:11,1:38:50,,,4:53:36,2012,9431,5930,106,136,17616,41,36,4,104,82,11,46,41,4,41,36,4,Finisher,3237
+Marc,Laroche,Marc Laroche,48,M50-54,Male,Verdun,QC,Canada,CA,0:32:33,2:31:23,1:47:25,,,4:55:00,1953,9083,6445,103,115,17700,42,37,2,78,59,7,32,30,2,42,37,2,Finisher,3430
+Carolyn,Olsen,Carolyn Olsen,838,F30-34,Female,Eagle,ID,United States,US,0:33:46,2:39:08,1:37:41,,,4:55:23,2026,9548,5861,157,130,17723,43,6,1,118,25,5,57,7,1,43,6,1,Finisher,3500
+Oscar,Matus Santiago,Oscar Matus Santiago,653,M30-34,Male,Juchitan,Oaxaca,Mexico,MX,0:28:37,2:34:54,1:47:37,,,4:55:52,1717,9294,6457,111,174,17752,44,38,10,31,25,4,30,28,7,44,38,10,Finisher,2977
+andrew,hughes,andrew hughes,204,M50-54,Male,SAN FRANCISCO,CA,Australia,AU,0:28:18,2:38:41,1:44:36,,,4:56:28,1698,9521,6276,121,172,17788,45,39,3,22,20,2,36,33,3,45,39,3,Finisher,3403
+Jean-Claude,Constandse,Jean-Claude Constandse,39,M45-49,Male,Vista,CA,Mexico,MX,0:31:55,2:31:27,1:50:46,,,4:58:21,1915,9087,6646,133,120,17901,46,40,1,60,46,5,31,29,1,46,40,1,Finisher,3500
+Quezada,Rodolfo,Quezada Rodolfo,140,M35-39,Male,"San José del Cabo, Club de golf",Baja California Sur,Mexico,MX,0:36:29,2:36:40,1:39:31,,,4:58:22,2189,9400,5971,179,163,17902,47,41,5,223,178,30,58,51,7,47,41,5,Finisher,3152
+Elizabeth,Nyitray,Elizabeth Nyitray,31,FPRO,Female,ALPHARETTA,GA,United States,US,0:31:22,2:38:55,1:44:32,,,4:58:29,1882,9535,6272,110,110,17909,48,7,5,51,10,5,44,5,5,48,7,5,Finisher,3016
+David,Ocampo Guzman,David Ocampo Guzman,373,M35-39,Male,guadalajara,guadalajara,Mexico,MX,0:32:49,2:38:33,1:42:25,,,4:59:15,1969,9513,6145,134,195,17955,49,42,6,86,66,9,54,48,6,49,42,6,Finisher,3136
+Cibelle,Hernandez,Cibelle Hernandez,294,F45-49,Female,Mexico,BCS,Mexico,MX,0:32:41,2:46:14,1:36:44,,,4:59:37,1961,9974,5804,108,131,17977,50,8,1,81,20,1,84,10,1,50,8,1,Finisher,3500
+Martín Alejandro,Rivera Rochin,Martín Alejandro Rivera Rochin,778,M35-39,Male,La Paz; Baja California Sur,"La Paz, Baja California Sur",Mexico,MX,0:40:10,2:39:39,1:35:06,,,5:00:21,2410,9579,5706,173,153,18021,51,43,7,359,286,43,102,91,15,51,43,7,Finisher,3116
+Jose Luis,Aguilar Osnaya,Jose Luis Aguilar Osnaya,711,M25-29,Male,CDMX,CMX,Mexico,MX,0:33:20,2:39:11,1:43:50,,,5:01:14,2000,9551,6230,103,191,18074,52,44,8,96,74,13,55,49,8,52,44,8,Finisher,2747
+James,Wahl,James Wahl,95,M35-39,Male,Chattanooga,TN,United States,US,0:35:38,2:38:40,1:39:59,,,5:01:26,2138,9520,5999,233,195,18086,53,45,8,182,143,20,65,57,9,53,45,8,Finisher,3096
+Jorge,Torrentera,Jorge Torrentera,96,M35-39,Male,Heber City,UT,Mexico,MX,0:35:42,2:41:04,1:39:53,,,5:01:44,2142,9664,5993,146,159,18104,54,46,9,186,146,21,73,64,10,54,46,9,Finisher,3091
+Enrique,Morfin,Enrique Morfin,199,M30-34,Male,Ciudad de Mexico,MX-CMX,Mexico,MX,0:30:01,2:40:33,1:45:30,,,5:02:10,1801,9633,6330,133,232,18130,55,47,11,38,31,7,48,43,12,55,47,11,Finisher,2864
+Fatima,Alanis,Fatima Alanis,35,FPRO,Female,Torreon,Coahuila,Mexico,MX,0:31:23,2:49:57,1:38:11,,,5:02:30,1883,10197,5891,90,88,18150,56,9,6,52,11,6,104,12,6,56,9,6,Finisher,2943
+Alex,Troy,Alex Troy,428,M45-49,Male,Penticton,BC,Canada,CA,0:36:27,2:32:51,1:48:11,,,5:02:32,2187,9171,6491,145,159,18152,57,48,2,220,176,21,42,38,2,57,48,2,Finisher,3424
+Hector,Robles,Hector Robles,93,M40-44,Male,Guadalajara,Jalisco,Mexico,MX,0:35:14,2:41:37,1:40:32,,,5:02:35,2114,9697,6032,124,189,18155,58,49,4,165,131,20,70,61,7,58,49,4,Finisher,2711
+Hugo,Arredondo,Hugo Arredondo,42,M35-39,Male,mexico,MX-CMX,Mexico,MX,0:35:44,2:41:16,1:41:40,,,5:03:46,2144,9676,6100,189,117,18226,59,50,10,189,149,23,80,71,12,59,50,10,Finisher,3054
+Axel,Miguez,Axel Miguez,108,M40-44,Male,Quito,Pichincha,Argentina,AR,0:34:22,2:34:03,1:49:46,,,5:04:55,2062,9243,6586,177,227,18295,60,51,5,137,110,16,40,36,3,60,51,5,Finisher,2669
+Marco Antonio,Contreras Rosales,Marco Antonio Contreras Rosales,391,M40-44,Male,TORREON,TORREON,Mexico,MX,0:32:02,2:43:11,1:45:47,,,5:05:13,1922,9791,6347,107,145,18313,61,52,6,67,51,3,61,54,5,61,52,6,Finisher,2664
+Ramon,Cerna,Ramon Cerna,392,M30-34,Male,Mazatlan,SIN,Mexico,MX,0:30:34,2:40:49,1:49:08,,,5:05:23,1834,9649,6548,100,193,18323,62,53,12,44,36,8,50,45,13,62,53,12,Finisher,2806
+Juan Manuel,Lopez Chinchilla,Juan Manuel Lopez Chinchilla,78,M25-29,Male,San José,SAN JOSE,Costa Rica,CR,0:33:12,2:48:10,1:39:02,,,5:05:39,1992,10090,5942,182,133,18339,63,54,9,93,71,12,111,99,13,63,54,9,Finisher,2667
+Douglas,Woods,Douglas Woods,243,M50-54,Male,Burlingame,CA,United States,US,0:34:32,2:36:35,1:50:25,,,5:05:56,2072,9395,6625,118,146,18356,64,55,4,143,113,13,51,46,4,64,55,4,Finisher,3233
+Marco,Alvarado,Marco Alvarado,177,M30-34,Male,Cuauhtémoc,CDMX,Mexico,MX,0:35:26,2:39:43,1:45:38,,,5:06:08,2126,9583,6338,187,135,18368,65,56,13,175,140,33,66,58,15,65,56,13,Finisher,2792
+Raul,Parra,Raul Parra,449,M45-49,Male,Juarez,Chihuahua,Mexico,MX,0:28:23,2:50:48,1:43:20,,,5:07:25,1703,10248,6200,172,122,18445,66,57,3,28,22,2,97,86,7,66,57,3,Finisher,3336
+Mariana,Martinez Suarez,Mariana Martinez Suarez,115,F30-34,Female,Mexico,MX-CMX,Mexico,MX,0:31:57,2:50:35,1:39:12,,,5:07:29,1917,10235,5952,188,156,18449,67,10,2,63,16,1,121,14,3,67,10,2,Finisher,3282
+Cory,Robinson,Cory Robinson,83,M55-59,Male,Denver,CO,United States,US,0:26:46,2:41:25,1:53:06,,,5:07:38,1606,9685,6786,193,188,18458,68,58,1,14,14,1,41,37,1,68,58,1,Finisher,3500
+Tony,Macias,Tony Macias,76,M35-39,Male,ORANGE,CA,United States,US,0:37:00,2:43:17,1:41:14,,,5:07:58,2220,9797,6074,218,170,18478,69,59,11,242,193,35,109,97,17,69,59,11,Finisher,2979
+Dennis,Vargas,Dennis Vargas,269,M45-49,Male,Santa Ana,San José,Costa Rica,CR,0:33:14,2:46:50,1:43:30,,,5:08:15,1994,10010,6210,145,136,18495,70,60,4,94,72,9,99,88,8,70,60,4,Finisher,3321
+Julien,Belliot,Julien Belliot,103,M30-34,Male,Pont l'Abbe d'Arnoult,,France,FR,0:31:30,2:44:31,1:46:46,,,5:08:16,1890,9871,6406,144,183,18496,71,61,14,54,42,11,67,59,16,71,61,14,Finisher,2754
+Antonio,Boullosa,Antonio Boullosa,259,M25-29,Male,Mexico City,Intl State,Mexico,MX,0:32:56,2:39:04,1:51:28,,,5:08:16,1976,9544,6688,174,113,18496,72,62,10,89,68,10,56,50,9,72,62,10,Finisher,2620
+Jean-Sebastien,Tougas,Jean-Sebastien Tougas,187,M40-44,Male,Repentigny,QC,Canada,CA,0:39:06,2:39:30,1:43:48,,,5:08:24,2346,9570,6228,143,217,18504,73,63,7,317,256,44,87,77,12,73,63,7,Finisher,2606
+Lars,Hanschke,Lars Hanschke,37,M40-44,Male,Puebla,MX-PUE,Mexico,MX,0:36:59,2:40:36,1:46:06,,,5:08:43,2219,9636,6366,190,111,18523,74,64,8,240,191,29,85,75,11,74,64,8,Finisher,2601
+Juan Carlos,Martinez,Juan Carlos Martinez,787,M40-44,Male,MCALLEN,TX,Mexico,MX,0:34:52,2:43:53,1:45:09,,,5:09:11,2092,9833,6309,197,119,18551,75,65,9,147,116,18,96,85,15,75,65,9,Finisher,2592
+Oscar,Duvigneau,Oscar Duvigneau,567,M35-39,Male,Cancun,MX-ROO,Mexico,MX,0:33:42,2:49:04,1:41:34,,,5:09:12,2022,10144,6094,167,123,18552,76,66,12,114,92,12,119,106,18,76,66,12,Finisher,2957
+Steve,Plante,Steve Plante,86,M50-54,Male,Becancour,QC,Canada,CA,0:36:22,2:41:39,1:46:59,,,5:09:24,2182,9699,6419,136,128,18564,77,67,5,216,172,15,83,74,6,77,67,5,Finisher,3170
+Juan Manuel,Yanez Delgado,Juan Manuel Yanez Delgado,596,M35-39,Male,distrito federal,distrito federal,Mexico,MX,0:36:09,2:43:29,1:45:03,,,5:10:31,2169,9809,6303,186,165,18631,78,68,13,206,163,28,103,92,16,78,68,13,Finisher,2933
+María José,López Mendiolea,María José López Mendiolea,292,F30-34,Female,puebla,puebla,Mexico,MX,0:32:29,2:42:56,1:51:53,,,5:10:49,1949,9776,6713,100,109,18649,79,11,3,76,19,3,62,8,2,79,11,3,Finisher,3222
+Jerome,Bareth,Jerome Bareth,68,M40-44,Male,SANFORD,FL,United States,US,0:38:41,2:40:39,1:46:15,,,5:10:53,2321,9639,6375,182,135,18653,80,69,10,306,248,43,98,87,16,80,69,10,Finisher,2562
+Rodrigo,De La Peña,Rodrigo De La Peña,136,M40-44,Male,Cabo San Lucas,,Mexico,MX,0:33:58,2:46:14,1:46:08,,,5:11:24,2038,9974,6368,145,159,18684,81,70,11,123,97,12,101,90,17,81,70,11,Finisher,2552
+Almudena,Arrechea,Almudena Arrechea,286,F35-39,Female,mexico,INTL STATE,Mexico,MX,0:32:49,2:42:48,1:51:37,,,5:12:53,1969,9768,6697,170,169,18773,82,12,1,87,21,3,69,9,1,82,12,1,Finisher,3500
+ROJAS,VICTOR,ROJAS VICTOR,659,M30-34,Male,Queretaro,,Mexico,MX,0:33:39,2:49:03,1:44:22,,,5:12:53,2019,10143,6262,164,185,18773,83,71,15,111,89,19,117,104,22,83,71,15,Finisher,2671
+Diego,Soto,Diego Soto,44,M45-49,Male,CYPRESS,TX,United States,US,0:35:53,2:41:39,1:50:27,,,5:13:26,2153,9699,6627,163,166,18806,84,72,5,194,153,17,82,73,4,84,72,5,Finisher,3228
+Miguel Ángel,Sepúlveda Cadena,Miguel Ángel Sepúlveda Cadena,274,M40-44,Male,La Paz,Baja California Sur,Mexico,MX,0:33:29,2:46:05,1:50:33,,,5:14:21,2009,9965,6633,121,133,18861,85,73,12,101,79,8,93,82,14,85,73,12,Finisher,2499
+Juliana,Villasante Dueñas,Juliana Villasante Dueñas,64,F25-29,Female,Colima,Colima,Mexico,MX,0:28:51,2:50:33,1:51:45,,,5:14:26,1731,10233,6705,101,97,18866,86,13,2,33,7,3,88,11,2,86,13,2,Finisher,3010
+Daniel,Alonso,Daniel Alonso,733,M25-29,,Puebla,Puebla,Mexico,MX,0:29:51,2:55:21,1:45:01,,,5:14:39,1791,10521,6301,161,106,18879,87,74,11,37,30,4,128,113,14,87,74,11,Finisher,2505
+Abel,Moreno Dominguez,Abel Moreno Dominguez,531,M40-44,Male,Cabo San Lucas,Baja California Sur,Spain,ES,0:34:00,2:41:23,1:56:04,,,5:15:36,2040,9683,6964,133,114,18936,88,75,13,126,100,13,64,56,6,88,75,13,Finisher,2477
+Chrisstian,Bernal,Chrisstian Bernal,99,M35-39,Male,Essex,foreigner,Colombia,CO,0:27:59,2:43:20,1:59:42,,,5:15:36,1679,9800,7182,103,172,18936,89,76,14,19,18,1,49,44,5,89,76,14,Finisher,2841
+Rodolfo,Osorio,Rodolfo Osorio,183,M45-49,Male,Mexico City,Intl State,Mexico,MX,0:34:11,2:48:15,1:49:50,,,5:16:18,2051,10095,6590,132,110,18978,90,77,6,130,104,11,112,100,10,90,77,6,Finisher,3176
+Spencer,Proctor,Spencer Proctor,53,M45-49,Male,Edmonton,AB,Canada,CA,0:33:12,2:45:12,1:53:19,,,5:16:23,1992,9912,6799,155,126,18983,91,78,7,92,70,8,86,76,5,91,78,7,Finisher,3175
+Everet,Minett,Everet Minett,245,M30-34,Male,BASALT,CO,United States,US,0:34:53,2:47:31,1:48:08,,,5:16:30,2093,10051,6488,180,178,18990,92,79,16,148,117,25,116,103,21,92,79,16,Finisher,2606
+Cantú,Adalia,Cantú Adalia,61,F35-39,Female,Saltillo,Intl State,Mexico,MX,0:36:07,2:57:45,1:37:59,,,5:16:42,2167,10665,5879,153,138,19002,93,14,2,205,43,9,193,26,4,93,14,2,Finisher,3431
+Jason,Kasprzak,Jason Kasprzak,74,M40-44,Male,Simsbury,CT,United States,US,0:38:13,2:46:18,1:47:28,,,5:17:04,2293,9978,6448,160,145,19024,94,80,14,289,235,40,127,112,22,94,80,14,Finisher,2450
+Merriam,Massey,Merriam Massey,137,F40-44,Female,Kansas CityKansas City,MO,United States,US,0:31:33,2:50:48,1:49:40,,,5:17:12,1893,10248,6580,155,156,19032,95,15,1,55,13,1,114,13,1,95,15,1,Finisher,3500
+Isela,Garcia,Isela Garcia,375,F35-39,Female,Ciudad de Mexico,Ciudad de México,Mexico,MX,0:31:00,2:51:46,1:49:02,,,5:17:21,1860,10306,6542,198,135,19041,96,16,3,46,9,1,124,15,2,96,16,3,Finisher,3419
+Fejervary,Alexander,Fejervary Alexander,671,M30-34,Male,jalisco,guadalajara,Mexico,MX,0:33:26,2:43:02,1:54:58,,,5:17:30,2006,9782,6898,148,216,19050,97,81,17,98,76,15,71,62,17,97,81,17,Finisher,2588
+Kevin,Phillips,Kevin Phillips,41,M45-49,Male,Aurora,ON,Canada,CA,0:36:25,2:51:14,1:46:48,,,5:18:12,2185,10274,6408,133,91,19092,98,82,8,218,174,19,138,121,15,98,82,8,Finisher,3142
+Fernanda,Lepe,Fernanda Lepe,201,F18-24,Female,puebla,puebla,Mexico,MX,0:35:40,2:53:12,1:45:23,,,5:18:27,2140,10392,6323,121,131,19107,99,17,1,184,40,4,146,20,1,99,17,1,Finisher,3500
+Juan Pablo,Gonzalez,Juan Pablo Gonzalez,751,M18-24,Male,CDMX,CDmx,Mexico,MX,0:35:19,2:43:23,1:54:09,,,5:18:29,2119,9803,6849,169,168,19109,100,83,3,168,134,4,91,80,2,100,83,3,Finisher,2573
+Trevor,Sanders,Trevor Sanders,88,M45-49,Male,granite bay,CA,United States,US,0:27:37,2:47:57,1:56:09,,,5:18:34,1657,10077,6969,256,153,19114,101,84,9,18,17,1,76,67,3,101,84,9,Finisher,3136
+Todd,Manion,Todd Manion,72,M40-44,Male,Seattle,WA,United States,US,0:32:10,2:45:24,1:56:48,,,5:18:39,1930,9924,7008,141,116,19119,102,85,15,68,52,4,77,68,10,102,85,15,Finisher,2422
+Adrian,Zarazua,Adrian Zarazua,839,M30-34,Male,Ciudad de México,MX-CMX,Mexico,MX,0:39:54,2:49:09,1:42:49,,,5:18:39,2394,10149,6169,190,217,19119,103,86,18,345,276,60,153,132,25,103,86,18,Finisher,2567
+Jose Miguel,Cortes Gonzalez,Jose Miguel Cortes Gonzalez,105,M35-39,Male,Olney,,Spain,ES,0:32:31,2:47:22,1:53:07,,,5:18:50,1951,10042,6787,157,193,19130,104,87,15,77,58,6,100,89,14,104,87,15,Finisher,2783
+Kevin,Sauer,Kevin Sauer,94,M35-39,Male,Lone Tree,CO,United States,US,0:33:16,2:58:37,1:40:58,,,5:19:00,1996,10717,6058,166,204,19140,105,88,16,95,73,10,178,155,29,105,88,16,Finisher,2780
+Juan Pablo,Rojas Castro,Juan Pablo Rojas Castro,606,M30-34,Male,"Huixquilucan, Estado de México",México,Mexico,MX,0:36:13,2:45:25,1:53:33,,,5:19:18,2173,9925,6813,131,116,19158,106,89,19,208,165,37,107,95,20,106,89,19,Finisher,2555
+Carlos Alberto,Alvarado Verduzco,Carlos Alberto Alvarado Verduzco,311,M30-34,Male,ZAPOPAN,JALISCO,Mexico,MX,0:29:17,2:41:15,2:03:46,,,5:19:24,1757,9675,7426,127,179,19164,107,90,20,34,27,5,47,42,11,107,90,20,Finisher,2554
+José,Sosa Correro,José Sosa Correro,691,M25-29,Male,Atizapán de Zaragoza,Estado de México,Mexico,MX,0:33:38,2:39:33,1:58:47,,,5:19:27,2018,9573,7127,259,189,19167,108,91,12,109,87,14,63,55,10,108,91,12,Finisher,2419
+Adrian,Moreno  Valtierra,Adrian Moreno  Valtierra,492,M40-44,Male,Mexico Df,DF,Mexico,MX,0:34:04,2:43:10,1:57:26,,,5:19:31,2044,9790,7046,128,164,19171,109,92,16,128,102,14,74,65,9,109,92,16,Finisher,2406
+Tom,Aaker,Tom Aaker,47,M55-59,Male,Redondo Beach,CA,United States,US,0:36:16,2:49:34,1:46:37,,,5:19:46,2176,10174,6397,251,188,19186,110,93,2,210,167,6,139,122,3,110,93,2,Finisher,3281
+Daniel,Houser,Daniel Houser,231,M45-49,Male,DENVER,CO,Ecuador,EC,0:33:32,2:47:50,1:53:49,,,5:20:21,2012,10070,6829,147,162,19221,111,94,10,105,83,10,108,96,9,111,94,10,Finisher,3104
+Bruce,Geise,Bruce Geise,310,M60-64,Male,PARKER,CO,United States,US,0:35:14,2:51:12,1:49:43,,,5:20:47,2114,10272,6583,157,121,19247,112,95,1,166,132,1,130,114,1,112,95,1,Finisher,3500
+Omar Alejandro,Solis Bahena,Omar Alejandro Solis Bahena,312,M45-49,Male,Leon,Guanajuato,Mexico,MX,0:38:48,2:46:34,1:48:43,,,5:21:03,2328,9994,6523,247,171,19263,113,96,11,310,252,32,133,117,13,113,96,11,Finisher,3091
+Ricardo,Venegas Hernandez,Ricardo Venegas Hernandez,746,M25-29,Male,ENSENADA,BAJA CALIFORNIA,Mexico,MX,0:36:03,2:52:53,1:49:19,,,5:22:48,2163,10373,6559,123,149,19368,114,97,13,203,161,22,148,128,15,114,97,13,Finisher,2358
+Troy,Cundari,Troy Cundari,46,M55-59,Male,Escondido,CA,United States,US,0:33:26,2:49:53,1:54:31,,,5:23:06,2006,10193,6871,142,173,19386,115,98,3,99,77,3,122,108,2,115,98,3,Finisher,3221
+Meg,Miller-Herring,Meg Miller-Herring,120,F30-34,Female,Delaware,OH,United States,US,0:34:28,2:54:05,1:48:26,,,5:23:14,2068,10445,6506,210,165,19394,116,18,4,140,29,6,152,21,6,116,18,4,Finisher,2998
+Alejandra,Morales,Alejandra Morales,36,F40-44,Female,San Pedro Cholula,MX-PUE,Mexico,MX,0:40:04,2:57:52,1:40:35,,,5:23:46,2404,10672,6035,181,135,19426,117,19,2,355,73,7,225,32,5,117,19,2,Finisher,3381
+Abelardo,De La Torre Velez,Abelardo De La Torre Velez,783,M45-49,Male,"torreon, centro",torreon,Mexico,MX,0:41:35,2:55:47,1:42:16,,,5:24:11,2495,10547,6136,130,142,19451,118,99,12,407,324,38,214,186,29,118,99,12,Finisher,3035
+Peter,Eberle,Peter Eberle,389,M50-54,Male,ORINDA,CA,United States,US,0:31:08,2:50:59,1:55:40,,,5:24:34,1868,10259,6940,223,184,19474,119,100,6,49,40,4,123,109,9,119,100,6,Finisher,2897
+Amasa,Turner,Amasa Turner,772,M18-24,Male,Colorado Springs,CO,United States,US,0:44:24,2:49:57,1:44:39,,,5:24:37,2664,10197,6279,207,131,19477,120,101,4,486,379,13,203,176,4,120,101,4,Finisher,2462
+Eduardo,Martinez Mercado,Eduardo Martinez Mercado,603,M35-39,Male,Calimaya,MX-MEX,Mexico,MX,0:36:19,2:54:41,1:48:01,,,5:24:42,2179,10481,6481,158,184,19482,121,102,17,215,171,29,166,143,25,121,102,17,Finisher,2678
+Jose Alfonso,Puga Valderrama,Jose Alfonso Puga Valderrama,109,M40-44,Male,San Andres Cholula,MX-PUE,Mexico,MX,0:36:03,2:49:39,1:51:45,,,5:24:50,2163,10179,6705,232,211,19490,122,103,17,202,160,24,135,119,24,122,103,17,Finisher,2311
+Fernando,Torres,Fernando Torres,482,M40-44,Male,Highlands Ranch,CO,Mexico,MX,0:35:21,2:54:33,1:50:43,,,5:25:22,2121,10473,6643,160,126,19522,123,104,18,171,137,21,158,137,29,123,104,18,Finisher,2301
+Jorge,Romo,Jorge Romo,315,M40-44,Male,México City,CDMX,Mexico,MX,0:37:04,2:47:37,1:56:14,,,5:25:39,2224,10057,6974,140,145,19539,124,105,19,245,196,30,126,111,21,124,105,19,Finisher,2296
+Efren,Mendoza Lizarraga,Efren Mendoza Lizarraga,372,M25-29,Male,"Los Cabos, BCS",San José del Cabo,Mexico,MX,0:36:10,3:04:10,1:40:12,,,5:25:44,2170,11050,6012,164,148,19544,125,106,14,207,164,23,237,204,22,125,106,14,Finisher,2306
+Isaac,Montoya,Isaac Montoya,332,M35-39,Male,Torreon,Coahuila,Mexico,MX,0:42:37,2:47:53,1:48:54,,,5:25:59,2557,10073,6534,186,208,19559,126,107,18,439,345,58,167,144,26,126,107,18,Finisher,2654
+Julie,Saenz,Julie Saenz,758,M18-24,Male,San Antonio,TX,United States,US,0:36:54,2:59:28,1:43:40,,,5:26:27,2214,10768,6220,214,170,19587,127,108,5,238,189,7,217,189,5,127,108,5,Finisher,2429
+Kc,Northup,Kc Northup,785,F30-34,Female,SANFORD,FL,United States,US,0:36:17,2:51:10,1:53:42,,,5:26:44,2177,10270,6822,180,156,19604,128,20,5,212,44,9,141,18,5,128,20,5,Finisher,2935
+Juan Manuel,Hinojosa Correa,Juan Manuel Hinojosa Correa,367,M50-54,Male,Guadalajara,Jalisco,Mexico,MX,0:32:12,2:44:04,2:05:22,,,5:26:59,1932,9844,7522,130,190,19619,129,109,7,69,53,6,68,60,5,129,109,7,Finisher,2854
+Stéphane,Tinturier,Stéphane Tinturier,593,M35-39,Male,LE QUESNOY,,France,FR,0:42:46,2:49:06,1:49:25,,,5:27:02,2566,10146,6565,208,137,19622,130,110,19,443,349,59,185,162,30,130,110,19,Finisher,2636
+Hector Ramses,Cerecer Cervantes,Hector Ramses Cerecer Cervantes,542,M35-39,Male,Culiacan,Sinaloa,Mexico,MX,0:37:58,2:44:46,1:57:53,,,5:27:20,2278,9886,7073,176,227,19640,131,111,20,279,228,37,120,107,19,131,111,20,Finisher,2630
+Carmen,Ruiz,Carmen Ruiz,258,F45-49,Female,"Boca del Rio,",MX-VER,Mexico,MX,0:38:06,2:49:04,1:53:03,,,5:27:45,2286,10144,6783,209,243,19665,132,21,2,286,52,7,144,19,2,132,21,2,Finisher,2993
+Juan,Highland,Juan Highland,92,M45-49,Male,Long Island City,NY,Kazakhstan,KZ,0:44:43,2:49:19,1:48:28,,,5:27:55,2683,10159,6508,175,150,19675,133,112,13,499,387,48,198,172,24,133,112,13,Finisher,2967
+Kelsey,Combes,Kelsey Combes,101,F30-34,Female,Grand Rapids,MI,United States,US,0:35:34,2:54:46,1:51:57,,,5:28:43,2134,10486,6717,196,190,19723,134,22,6,179,38,7,165,23,7,134,22,6,Finisher,2900
+Cruz,Francisco,Cruz Francisco,251,M40-44,Male,LAGUNA NIGUEL,CA,Mexico,MX,0:32:54,2:46:42,2:04:56,,,5:28:44,1974,10002,7496,116,135,19724,135,113,20,88,67,7,92,81,13,135,113,20,Finisher,2240
+Victor Javier,Felix Hernadez,Victor Javier Felix Hernadez,33,M40-44,Male,,,Unknown,,0:33:37,2:42:09,2:06:54,,,5:28:47,2017,9729,7614,205,162,19727,136,114,21,108,86,9,72,63,8,136,114,21,Finisher,2240
+Meyer,Pablo,Meyer Pablo,119,M55-59,Male,Mexico DF,Mexico DF,Mexico,MX,0:39:08,2:49:13,1:54:54,,,5:28:55,2348,10153,6894,152,188,19735,137,115,4,319,258,11,145,126,4,137,115,4,Finisher,3116
+Francisco,Estopier,Francisco Estopier,222,M30-34,Male,MEXICO,CDMX,Mexico,MX,0:37:51,2:50:16,1:54:08,,,5:28:56,2271,10216,6848,174,227,19736,138,116,21,273,222,47,150,130,24,138,116,21,Finisher,2382
+Juan Carlos,Alvarez Aguilar,Juan Carlos Alvarez Aguilar,511,M40-44,Male,Puebla,Puebla,Mexico,MX,0:36:06,3:00:04,1:45:11,,,5:29:21,2166,10804,6311,227,254,19761,139,117,22,204,162,25,216,188,34,139,117,22,Finisher,2229
+Stuart,Craggs,Stuart Craggs,128,M50-54,Male,Evergreen,CO,United Kingdom,GB,0:36:29,2:53:39,1:51:36,,,5:29:27,2189,10419,6696,222,241,19767,140,118,8,224,179,17,168,145,11,140,118,8,Finisher,2810
+Enrique,Medina,Enrique Medina,353,M50-54,Male,Lima,PE-LIM,Mexico,MX,0:28:47,2:52:35,2:04:02,,,5:29:35,1727,10355,7442,123,128,19775,141,119,9,32,26,3,105,93,8,141,119,9,Finisher,2807
+Salvador,Tello,Salvador Tello,549,M35-39,Male,MEXICO,Mexico City,Mexico,MX,0:37:59,2:39:40,2:07:13,,,5:29:42,2279,9580,7633,152,138,19782,142,120,21,282,231,38,81,72,13,142,120,21,Finisher,2588
+Kalee,Tyson,Kalee Tyson,265,F30-34,Female,Seattle,WA,United States,US,0:33:43,2:51:45,1:58:16,,,5:29:59,2023,10305,7096,186,189,19799,143,23,7,116,23,4,129,16,4,143,23,7,Finisher,2877
+Juan Pablo,Orendain,Juan Pablo Orendain,230,M35-39,Male,Guadalajara,JAL,Mexico,MX,0:35:50,2:52:36,1:55:20,,,5:30:11,2150,10356,6920,232,153,19811,144,121,22,192,151,24,155,134,22,144,121,22,Finisher,2579
+Andrew,Rothfeder,Andrew Rothfeder,50,M50-54,Male,PENSACOLA BCH,FL,United States,US,0:33:28,2:45:46,2:06:40,,,5:30:16,2008,9946,7600,139,124,19816,145,122,10,100,78,9,90,79,7,145,122,10,Finisher,2795
+Hector,Cervantes Arteaga,Hector Cervantes Arteaga,374,M30-34,Male,Ciudad de Mèxico,Jardines del Pedregal,Mexico,MX,0:37:01,2:55:36,1:51:11,,,5:30:27,2221,10536,6671,132,267,19827,146,123,22,243,194,41,181,158,29,146,123,22,Finisher,2355
+Miguel,Gomez Cuentas,Miguel Gomez Cuentas,616,M30-34,Male,SAN FRANCISCO,CA,Mexico,MX,0:31:59,2:47:57,2:06:55,,,5:30:42,1919,10077,7615,105,126,19842,147,124,23,66,50,14,94,83,19,147,124,23,Finisher,2350
+Harvey,Wills,Harvey Wills,59,M40-44,Male,Santa Ana,Castille & Leon,Honduras,HN,0:30:14,2:49:42,2:05:01,,,5:31:11,1814,10182,7501,211,162,19871,148,125,23,42,34,2,106,94,18,148,125,23,Finisher,2196
+Jorge Ulises,Avila Romo,Jorge Ulises Avila Romo,393,M45-49,Male,Jalisco,Zapopan,Mexico,MX,0:36:30,2:45:47,2:03:30,,,5:31:40,2190,9947,7410,147,205,19900,149,126,14,226,180,22,113,101,11,149,126,14,Finisher,2900
+Alejandro,Torres Luna,Alejandro Torres Luna,351,M45-49,Male,PUEBLA,Puebla,Mexico,MX,0:35:38,2:51:58,1:59:06,,,5:31:52,2138,10318,7146,159,151,19912,150,127,15,181,142,15,140,123,16,150,127,15,Finisher,2896
+Joaquin,Talavera,Joaquin Talavera,745,M25-29,Male,ALVARO OBREGON,CIUDAD DE MEXICO,Mexico,MX,0:38:50,2:55:13,1:53:03,,,5:32:07,2330,10513,6783,151,150,19927,151,128,15,311,253,29,195,169,19,151,128,15,Finisher,2191
+Monica,Ruiz,Monica Ruiz,713,F25-29,Female,Mexico,Edo. de México,Mexico,MX,0:31:26,3:06:51,1:48:08,,,5:32:18,1886,11211,6488,146,208,19938,152,24,3,53,12,4,223,31,4,152,24,3,Finisher,2689
+Amy,Ellett,Amy Ellett,335,F35-39,Female,Kelowna,BC,Canada,CA,0:35:32,2:50:30,2:00:29,,,5:32:25,2132,10230,7229,213,141,19945,153,25,4,177,36,7,136,17,3,153,25,4,Finisher,3148
+Pablo,Bringas Avila,Pablo Bringas Avila,233,M25-29,Male,Ciudad de México,,Mexico,MX,0:31:58,2:44:29,2:10:34,,,5:33:01,1918,9869,7834,200,160,19981,154,129,16,65,49,7,75,66,11,154,129,16,Finisher,2174
+Gordon,Jarratt,Gordon Jarratt,52,M45-49,Male,SAN DIEGO,CA,United States,US,0:32:29,2:46:22,2:08:48,,,5:33:08,1949,9982,7728,180,149,19988,155,130,16,75,57,7,95,84,6,155,130,16,Finisher,2873
+Adam,Pomfret,Adam Pomfret,89,M45-49,Male,Redondo beach,CA,United Kingdom,GB,0:35:44,2:49:30,2:00:01,,,5:33:27,2144,10170,7201,256,237,20007,156,131,17,188,148,16,134,118,14,156,131,17,Finisher,2868
+Bernardo,Gomez,Bernardo Gomez,848,M40-44,Male,Queretaro,Queretaro,Mexico,MX,0:37:12,2:44:45,2:05:33,,,5:33:49,2232,9885,7533,146,233,20029,157,132,24,248,198,31,110,98,19,157,132,24,Finisher,2149
+Jesús,Soto Muller,Jesús Soto Muller,111,M35-39,Male,Torreón,,Mexico,MX,0:28:27,2:45:25,2:15:13,,,5:33:58,1707,9925,8113,145,148,20038,158,133,23,29,23,2,59,52,8,158,133,23,Finisher,2511
+Araceli,Solis,Araceli Solis,556,F35-39,Female,El paso,TX,Mexico,MX,0:34:24,3:03:22,1:48:20,,,5:34:16,2064,11002,6500,320,171,20056,159,26,5,138,28,4,238,34,5,159,26,5,Finisher,3115
+Rodrigo,González Franco,Rodrigo González Franco,114,M25-29,Male,Alvaro Obregon,Ciudad de Mèxico,Mexico,MX,0:33:41,2:58:28,1:56:28,,,5:34:23,2021,10708,6988,155,191,20063,160,134,17,113,91,15,179,156,17,160,134,17,Finisher,2150
+Omar,Warraiat,Omar Warraiat,443,M45-49,Male,WELLINGTON,FL,United States,US,0:37:25,2:55:27,1:57:52,,,5:35:22,2245,10527,7072,142,135,20122,161,135,18,258,208,24,184,161,22,161,135,18,Finisher,2833
+Heidi,Schmitt,Heidi Schmitt,51,F45-49,Female,WAIALUA,HI,United States,US,0:34:55,2:55:04,2:00:04,,,5:35:27,2095,10504,7204,156,168,20127,162,27,3,151,33,3,159,22,3,162,27,3,Finisher,2855
+Aldemar,Martinez Amaral,Aldemar Martinez Amaral,661,M30-34,Male,Cabo San Lucas,Baja California Sur,Mexico,MX,0:40:53,2:59:21,1:50:45,,,5:35:34,2453,10761,6645,142,132,20134,163,136,24,376,299,64,233,200,39,163,136,24,Finisher,2263
+Isra,Armas / Cannibal,Isra Armas / Cannibal,792,M35-39,Male,Parque Residencial Santillana,Zapopan,Mexico,MX,0:32:49,2:51:36,2:05:26,,,5:35:44,1969,10296,7526,149,204,20144,164,137,24,85,65,8,125,110,20,164,137,24,Finisher,2479
+Juan Manuel,Sandoval Espinosa,Juan Manuel Sandoval Espinosa,739,M25-29,Male,mexico,MX-MEX,Mexico,MX,0:36:35,2:56:57,1:55:59,,,5:35:48,2195,10617,6959,175,202,20148,165,138,18,229,183,24,194,168,18,165,138,18,Finisher,2124
+Diego,Castillo Sandoval,Diego Castillo Sandoval,651,M30-34,Male,La Unión,Cartago,Costa Rica,CR,0:34:18,2:57:11,1:57:42,,,5:35:59,2058,10631,7062,201,207,20159,166,139,25,133,106,22,182,159,30,166,139,25,Finisher,2255
+Mario,Collazo Vázquez,Mario Collazo Vázquez,134,M40-44,Male,Marida,APO,Mexico,MX,0:41:00,2:53:04,1:56:52,,,5:36:12,2460,10384,7012,171,144,20172,167,140,25,381,303,54,197,171,32,167,140,25,Finisher,2106
+Gabriela,Villa,Gabriela Villa,680,F30-34,Female,Rivervale,WA,Mexico,MX,0:32:16,3:01:41,1:58:00,,,5:36:14,1936,10901,7080,136,122,20174,168,28,8,70,17,2,191,25,8,168,28,8,Finisher,2764
+Héctor,Coss,Héctor Coss,285,M40-44,Male,México City,México City,Mexico,MX,0:36:16,2:50:18,2:01:43,,,5:36:18,2176,10218,7303,266,214,20178,169,141,26,211,168,26,149,129,26,169,141,26,Finisher,2104
+Ana Gabriela,Riva Palacio Obregon,Ana Gabriela Riva Palacio Obregon,180,F40-44,Female,mexico City,CIUDAD DE MEXICO,Mexico,MX,0:37:05,2:57:29,1:56:42,,,5:36:47,2225,10649,7002,179,152,20207,170,29,3,246,50,4,202,27,3,170,29,3,Finisher,3147
+Raul,Guillen Rojas,Raul Guillen Rojas,181,M35-39,Male,TLALPAN,Ciudad de México,Mexico,MX,0:34:33,3:06:49,1:49:32,,,5:37:00,2073,11209,6572,216,150,20220,171,142,25,145,114,15,256,218,39,171,142,25,Finisher,2456
+Isaac,Tyson,Isaac Tyson,264,M30-34,Male,Seattle,WA,United States,US,0:33:32,2:39:48,2:18:28,,,5:37:32,2012,9588,8308,198,146,20252,172,143,26,106,84,17,60,53,14,172,143,26,Finisher,2227
+Hilda,Gallegos,Hilda Gallegos,110,F40-44,Female,Torreon,Coahuila,Mexico,MX,0:39:10,2:58:40,1:55:35,,,5:37:33,2350,10720,6935,133,114,20253,173,30,4,320,62,5,218,29,4,173,30,4,Finisher,3133
+Pascal,Guerin,Pascal Guerin,91,M45-49,Male,Levis,QC,Canada,CA,0:32:16,2:54:41,2:05:32,,,5:38:21,1936,10481,7532,215,138,20301,174,144,19,71,54,6,142,124,17,174,144,19,Finisher,2780
+Octavio,Morales Terrazas,Octavio Morales Terrazas,566,M35-39,Male,Chihuahua,MX-CHH,Mexico,MX,0:36:02,2:55:18,2:02:02,,,5:38:35,2162,10518,7322,164,149,20315,175,145,26,201,159,27,172,149,27,175,145,26,Finisher,2428
+Jon,Krog,Jon Krog,563,M35-39,Male,SAINT PAUL,MN,United States,US,0:36:38,3:01:28,1:52:10,,,5:38:44,2198,10888,6730,291,217,20324,176,146,27,230,184,32,236,203,36,176,146,27,Finisher,2425
+Maria Aurora,Calderon Hernandez,Maria Aurora Calderon Hernandez,216,F25-29,Female,Cdmx,Coyoacan,Mexico,MX,0:28:22,3:08:10,1:57:14,,,5:38:56,1702,11290,7034,143,168,20336,177,31,4,24,4,2,209,28,3,177,31,4,Finisher,2569
+Fernando,Luis Martínez,Fernando Luis Martínez,849,M40-44,Male,Los cabos,Los cabos,Mexico,MX,0:40:41,3:00:23,1:52:24,,,5:38:57,2441,10823,6744,142,187,20337,178,147,27,371,294,51,242,207,35,178,147,27,Finisher,2057
+Fernando,Arguedas,Fernando Arguedas,138,M40-44,Male,Alajuela,San Miguel,Costa Rica,CR,0:37:39,2:49:59,2:03:19,,,5:39:01,2259,10199,7399,198,285,20341,179,148,28,267,216,35,147,127,25,179,148,28,Finisher,2055
+Valeria,Rivera,Valeria Rivera,371,F45-49,Female,"Huixquilucan Edo de Mexico, Valle de las Palmas",Edo de Mexico,Mexico,MX,0:39:18,3:08:13,1:45:57,,,5:39:14,2358,11293,6357,172,174,20354,180,32,4,325,64,10,285,46,6,180,32,4,Finisher,2786
+Enrique,Murillo Gastelum,Enrique Murillo Gastelum,62,M30-34,Male,Guadalajara,JAL,Mexico,MX,0:40:04,2:51:22,2:00:56,,,5:39:42,2404,10282,7256,173,267,20382,181,149,27,356,283,61,175,152,28,181,149,27,Finisher,2188
+Matt,Herring,Matt Herring,239,M35-39,Male,Delaware,OH,United States,US,0:42:25,2:42:55,2:08:03,,,5:39:52,2545,9775,7683,266,122,20392,182,150,28,432,339,56,137,120,21,182,150,28,Finisher,2405
+Cesar David,Garcia Acosta,Cesar David Garcia Acosta,664,M30-34,Male,CDMX,CDMX,Mexico,MX,0:29:46,2:48:39,2:18:24,,,5:40:46,1786,10119,8304,99,138,20446,183,151,28,36,29,6,78,69,18,183,151,28,Finisher,2169
+Ricardo,Iturbide Cazares,Ricardo Iturbide Cazares,837,M45-49,Male,Zapopan,Jalisco,Mexico,MX,0:40:36,2:50:17,2:02:01,,,5:40:49,2436,10217,7321,288,185,20449,184,152,20,369,293,36,189,166,23,184,152,20,Finisher,2735
+Gustavo,Zarate,Gustavo Zarate,568,M35-39,Male,San Andrés Cholula,Puebla,Mexico,MX,0:43:42,2:53:41,1:53:54,,,5:40:51,2622,10421,6834,332,242,20451,185,153,29,463,364,62,235,202,35,185,153,29,Finisher,2387
+Frederick,Scott,Frederick Scott,80,M65-69,Male,Tucson,AZ,United States,US,0:37:52,2:51:46,2:05:00,,,5:41:15,2272,10306,7500,257,140,20475,186,154,1,274,223,2,171,148,1,186,154,1,Finisher,3500
+Jeffrey,Skinker,Jeffrey Skinker,241,M35-39,Male,ARLINGTON,VA,United States,US,0:35:53,2:39:38,2:15:19,,,5:41:20,2153,9578,8119,277,353,20480,187,155,30,195,154,25,79,70,11,187,155,30,Finisher,2378
+Javier-Tadeo,Sanchez-Betancourt,Javier-Tadeo Sanchez-Betancourt,621,M30-34,Male,Ensenada,Baja California,Mexico,MX,0:42:16,3:05:13,1:46:33,,,5:41:33,2536,11113,6393,244,207,20493,188,156,29,425,333,70,292,243,45,188,156,29,Finisher,2155
+Ross,Saito,Ross Saito,126,M55-59,Male,Belcarra,BC,Canada,CA,0:30:01,3:00:00,2:06:27,,,5:42:15,1801,10800,7587,175,171,20535,189,157,5,39,32,2,160,138,5,189,157,5,Finisher,2876
+Carlos Eduardo,Macias Perez,Carlos Eduardo Macias Perez,850,M45-49,Male,Guadalajara,Jalisco,Mexico,MX,0:44:19,2:47:27,2:02:40,,,5:42:16,2659,10047,7360,183,288,20536,190,158,21,482,376,46,180,157,21,190,158,21,Finisher,2709
+Matthew,Reines,Matthew Reines,112,M45-49,Male,FOUNTAIN HLS,AZ,United States,US,0:46:18,2:42:58,2:05:40,,,5:43:18,2778,9778,7540,277,225,20598,191,159,22,527,409,53,170,147,20,191,159,22,Finisher,2690
+Yamile,Abouzaid,Yamile Abouzaid,455,F45-49,Female,"Metepec, CLUB DE GOLF SAN CARLOS","METEPEC, ESTADO DE MEXICO",Mexico,MX,0:39:20,3:01:04,1:57:41,,,5:43:42,2360,10864,7061,198,140,20622,192,33,5,329,65,11,245,37,4,192,33,5,Finisher,2706
+Daniel,Ramirez Marquez,Daniel Ramirez Marquez,714,M25-29,Male,QUERETARO,QUERETARO,Mexico,MX,0:42:44,3:00:05,1:56:08,,,5:43:48,2564,10805,6968,122,169,20628,193,160,19,441,347,36,253,215,23,193,160,19,Finisher,1980
+Rudi Ah,Van Boven,Rudi Ah Van Boven,229,M45-49,Male,Redondo Beach,CA,Netherlands,NL,0:40:11,2:53:33,2:01:54,,,5:43:51,2411,10413,7314,263,230,20631,194,161,23,360,287,33,205,178,25,194,161,23,Finisher,2681
+Juan Carlos,De La Mora Lopez,Juan Carlos De La Mora Lopez,607,M30-34,Male,Guadalajara,Jalisco,Mexico,MX,0:35:09,3:00:44,2:01:25,,,5:44:02,2109,10844,7285,202,202,20642,195,162,30,161,127,28,211,183,35,195,162,30,Finisher,2110
+Mike,Delgado,Mike Delgado,638,M30-34,Male,Guadalajara,Tlajomulco de Zúñiga,Mexico,MX,0:34:19,3:03:57,1:58:47,,,5:44:03,2059,11037,7127,183,238,20643,196,163,31,134,107,23,228,196,38,196,163,31,Finisher,2110
+Keita,Kajiki,Keita Kajiki,117,M35-39,Male,San Jose,CA,Japan,JP,0:36:40,2:53:58,2:07:33,,,5:44:26,2200,10438,7653,178,197,20666,197,164,31,232,186,34,164,142,24,197,164,31,Finisher,2322
+REY,PEREZ,REY PEREZ,688,M25-29,Male,tijuana,Baja California,Mexico,MX,0:40:59,2:56:35,2:00:05,,,5:44:29,2459,10595,7205,226,185,20669,198,165,20,379,301,33,229,197,21,198,165,20,Finisher,1968
+Sergio,Sepulveda De La Torre,Sergio Sepulveda De La Torre,707,M25-29,Male,Monterrey,NUEVO LEON,Mexico,MX,0:35:42,2:58:04,2:05:46,,,5:44:53,2142,10684,7546,175,145,20693,199,166,21,185,145,21,196,170,20,199,166,21,Finisher,1961
+Oscar,Sanchez,Oscar Sanchez,798,M55-59,Male,San Jose Del Cabo Centro,BCS,Mexico,MX,0:39:13,2:54:22,2:05:04,,,5:45:03,2353,10462,7504,235,148,20703,200,167,6,323,261,12,200,174,6,200,167,6,Finisher,2826
+Michael,Olsen,Michael Olsen,147,M30-34,Male,GARDEN CITY,ID,United States,US,0:39:11,2:47:02,2:12:50,,,5:45:40,2351,10022,7970,191,205,20740,201,168,32,321,259,56,131,115,23,201,168,32,Finisher,2081
+Pierre,Nolet,Pierre Nolet,329,M55-59,Male,levis,QC,Canada,CA,0:34:01,3:04:47,2:00:40,,,5:45:46,2041,11087,7240,228,149,20746,202,169,7,127,101,4,232,199,8,202,169,7,Finisher,2813
+Ana Karina,Rodriguez Rivera,Ana Karina Rodriguez Rivera,151,F40-44,Female,San Andrés Cholula,Puebla,Mexico,MX,0:41:49,2:56:51,1:58:53,,,5:46:01,2509,10611,7133,285,223,20761,203,34,5,411,86,10,241,35,7,203,34,5,Finisher,2981
+Brandon Arturo,Calderon Guardiola,Brandon Arturo Calderon Guardiola,737,M25-29,Male,Tijuana,Baja California,Mexico,MX,0:55:59,2:59:09,1:45:17,,,5:46:07,3359,10749,6317,163,180,20767,204,170,22,617,477,51,347,288,32,204,170,22,Finisher,1939
+Gonzalez Martinez,Jose Luis,Gonzalez Martinez Jose Luis,833,M50-54,Male,MEXICO,CDMX,Mexico,MX,0:37:33,2:57:52,2:06:19,,,5:46:36,2253,10672,7579,126,167,20796,205,171,11,264,213,18,201,175,15,205,171,11,Finisher,2501
+Luis Arturo,Alcalde Rivas,Luis Arturo Alcalde Rivas,173,M40-44,Male,Monterrey,Monterrey,Mexico,MX,0:35:05,2:56:49,2:10:15,,,5:46:50,2105,10609,7815,155,127,20810,206,172,29,157,124,19,177,154,30,206,172,29,Finisher,1915
+German,Zaragoza,German Zaragoza,788,M40-44,Male,Hermosillo,Sonora,Mexico,MX,0:39:20,3:04:54,1:54:34,,,5:47:04,2360,11094,6874,291,206,20824,207,173,30,326,262,46,280,236,40,207,173,30,Finisher,1910
+Erica,Orozco,Erica Orozco,237,F40-44,Female,EL PASO,TX,United States,US,0:36:51,3:01:31,2:02:47,,,5:47:24,2211,10891,7367,223,151,20844,208,35,6,236,48,3,231,33,6,208,35,6,Finisher,2956
+Francisco,Talavera,Francisco Talavera,734,M25-29,Male,"COLONIA JARDINES DEL PEDREGAL, ALCALD...",Distrito Federal,Mexico,MX,0:33:52,2:43:41,2:24:33,,,5:47:41,2032,9821,8673,230,105,20861,209,174,23,120,95,16,89,78,12,209,174,23,Finisher,1910
+Elton Emmanuel,Olache Arce,Elton Emmanuel Olache Arce,854,M30-34,Male,,,Mexico,MX,0:35:23,3:06:35,2:00:30,,,5:48:11,2123,11195,7230,169,174,20891,210,175,33,173,139,32,252,214,41,210,175,33,Finisher,2036
+Garcia,Partida,Garcia Partida,394,M40-44,Male,zapopan,Jalisco,Mexico,MX,0:38:28,2:54:31,2:07:31,,,5:48:41,2308,10471,7651,129,362,20921,211,176,31,302,246,42,183,160,31,211,176,31,Finisher,1881
+Cristal,Hernandez Jimenez,Cristal Hernandez Jimenez,66,F35-39,Female,SAN JOSE DEL CABO,BCS,Mexico,MX,0:35:09,3:21:28,1:47:01,,,5:48:48,2109,12088,6421,169,141,20928,212,36,6,160,34,6,358,61,10,212,36,6,Finisher,2853
+Jose Emiliano,Machorro Loyo,Jose Emiliano Machorro Loyo,757,M18-24,Male,0001,EDO DE MEXICO,Mexico,MX,0:36:17,3:10:20,1:54:54,,,5:48:53,2177,11420,6894,257,185,20933,213,177,6,213,169,6,289,241,7,213,177,6,Finisher,2026
+Gerardo J,Morales Marin,Gerardo J Morales Marin,515,M40-44,Male,Miguel hidalgo,Cdmx,Mexico,MX,0:32:28,2:49:47,2:21:24,,,5:48:59,1948,10187,8484,162,159,20939,214,178,32,74,56,5,115,102,20,214,178,32,Finisher,1876
+Cyril,Rocoffort,Cyril Rocoffort,701,M25-29,Male,Sausalito,CA,Switzerland,CH,0:34:08,2:55:33,2:11:39,,,5:49:08,2048,10533,7899,219,250,20948,215,179,24,129,103,18,163,141,16,215,179,24,Finisher,1884
+Alexandro,Ramirez,Alexandro Ramirez,313,M40-44,Male,LOMAS QUEBRADAS,MAGDALENA CONTRERAS,Mexico,MX,0:37:16,2:59:43,2:05:58,,,5:49:19,2236,10783,7558,163,218,20959,216,180,33,253,203,33,215,187,33,216,180,33,Finisher,1870
+Aaron,Latal,Aaron Latal,750,M18-24,Male,SAINT LOUIS,MO,United States,US,0:39:36,3:01:46,2:00:46,,,5:49:52,2376,10906,7246,210,254,20992,217,181,7,335,268,11,254,216,6,217,181,7,Finisher,2008
+Jorge,Tadeo De La Torre,Jorge Tadeo De La Torre,475,M40-44,Male,Guadalajara,Jalisco,Mexico,MX,0:39:52,3:08:26,1:56:09,,,5:50:45,2392,11306,6969,198,181,21045,218,182,34,342,273,49,293,244,42,218,182,34,Finisher,1844
+Denis,Cannon,Denis Cannon,476,M40-44,Male,Hang Dong,Chiang Mai,United Kingdom,GB,0:37:50,2:47:42,2:18:23,,,5:50:50,2270,10062,8303,235,180,21050,219,183,35,271,220,37,132,116,23,219,183,35,Finisher,1843
+Lionel,Piombino,Lionel Piombino,400,M50-54,Male,San José del Cabo,Los Cabos,France,FR,0:41:07,2:54:33,2:06:54,,,5:51:05,2467,10473,7614,296,215,21065,220,184,12,389,310,29,220,191,17,220,184,12,Finisher,2420
+Regina,Gutierrez,Regina Gutierrez,69,F30-34,Female,La Conversion,,Mexico,MX,0:35:48,3:02:01,2:07:16,,,5:51:10,2148,10921,7636,169,196,21070,221,37,9,191,41,8,221,30,9,221,37,9,Finisher,2495
+Marcos,Perez Ruiz,Marcos Perez Ruiz,168,M35-39,Male,Guadalajara,MX-JAL,Mexico,MX,0:35:20,2:55:50,2:12:00,,,5:51:20,2120,10550,7920,194,297,21080,222,185,32,169,135,19,176,153,28,222,185,32,Finisher,2198
+Isaac Isai,Avila Rivera,Isaac Isai Avila Rivera,647,M30-34,Male,Tijuana BC,Baja California,Mexico,MX,0:34:51,3:02:28,2:08:12,,,5:51:50,2091,10948,7692,201,178,21110,223,186,34,146,115,24,222,192,37,223,186,34,Finisher,1970
+Phil,Furniss,Phil Furniss,123,M65-69,Male,Aptos,CA,United States,US,0:45:47,2:51:43,2:07:49,,,5:51:56,2747,10303,7669,195,203,21116,224,187,2,519,402,5,224,193,2,224,187,2,Finisher,3307
+Julia,Rodriguez,Julia Rodriguez,777,F18-24,Female,Chihuahua,CHH,Mexico,MX,0:33:05,3:08:35,2:06:33,,,5:52:02,1985,11315,7593,134,96,21122,225,38,2,91,22,2,247,38,3,225,38,2,Finisher,2895
+Claudio,Marques,Claudio Marques,470,M40-44,Male,"Cuernavaca, Morelos",Cuernavaca,Mexico,MX,0:36:02,3:15:12,1:55:51,,,5:52:04,2162,11712,6951,169,129,21124,226,188,36,200,158,23,317,264,45,226,188,36,Finisher,1820
+Adriana,Contreras,Adriana Contreras,835,F35-39,Female,Key Biscayne,FL,Venezuela,VE,0:43:02,3:01:29,1:59:27,,,5:52:37,2582,10889,7167,255,264,21157,227,39,7,447,95,16,277,44,7,227,39,7,Finisher,2784
+Agustin,Sanudo P,Agustin Sanudo P,605,M30-34,Male,Queretaro,Queretaro,Mexico,MX,0:45:39,2:45:49,2:16:31,,,5:52:47,2739,9949,8191,166,122,21167,228,189,35,515,398,76,174,151,27,228,189,35,Finisher,1953
+Azain,Avalos Marban,Azain Avalos Marban,663,M30-34,Male,BELEN,TLAXCALA,Mexico,MX,0:37:54,3:07:47,2:00:17,,,5:52:55,2274,11267,7217,176,241,21175,229,190,36,276,225,49,275,232,43,229,190,36,Finisher,1950
+Uzziel,Osuna Zatarain,Uzziel Osuna Zatarain,354,M40-44,Male,mazatlan,SINALOA,Mexico,MX,0:32:35,2:56:55,2:17:21,,,5:52:55,1955,10615,8241,167,198,21175,230,191,37,79,60,6,154,133,28,230,191,37,Finisher,1805
+Victor,Alzate,Victor Alzate,504,M40-44,Male,bogota,bogota,Colombia,CO,0:55:13,2:45:10,2:05:54,,,5:53:02,3313,9910,7554,193,212,21182,231,192,38,614,475,70,244,208,36,231,192,38,Finisher,1803
+Sebastian Agustin,Temoltzin Yescas,Sebastian Agustin Temoltzin Yescas,767,M18-24,Male,Puebla,Puebla,Mexico,MX,0:32:47,2:56:05,2:17:27,,,5:53:10,1967,10565,8247,210,201,21190,232,193,8,83,63,2,156,135,3,232,193,8,Finisher,1949
+Paulene,Williams,Paulene Williams,75,F40-44,Female,San Bernardino,CA,United States,US,0:43:29,3:00:07,2:03:20,,,5:53:18,2609,10807,7400,142,240,21198,233,40,7,460,99,11,260,40,8,233,40,7,Finisher,2850
+Jose Luis,Mendez,Jose Luis Mendez,386,M50-54,Male,MURRAY,UT,Mexico,MX,0:41:24,2:48:58,2:16:29,,,5:53:45,2484,10138,8189,223,191,21225,234,194,13,400,319,31,173,150,12,234,194,13,Finisher,2372
+Paul,Bragg,Paul Bragg,208,M50-54,Male,SAN JOSE,CA,United States,US,0:36:28,2:50:06,2:20:42,,,5:54:52,2188,10206,8442,244,212,21292,235,195,14,222,177,16,143,125,10,235,195,14,Finisher,2352
+Hugo Roberto,Ramírez García,Hugo Roberto Ramírez García,361,M50-54,Male,RETALHULEU,RETALHULEU,Guatemala,GT,0:37:59,3:01:50,2:03:24,,,5:55:52,2279,10910,7404,437,322,21352,236,196,15,280,229,20,268,226,22,236,196,15,Finisher,2334
+Alfredo,Marron,Alfredo Marron,215,M45-49,Male,Naucalpan,MX-MEX,Mexico,MX,0:37:59,2:57:08,2:13:50,,,5:55:54,2279,10628,8030,192,224,21354,237,197,24,283,232,30,206,179,26,237,197,24,Finisher,2464
+Lucía,Soberón Cedillo,Lucía Soberón Cedillo,755,F18-24,Female,Ciudad de México,Ciudad de México,Mexico,MX,0:31:54,3:09:31,2:10:02,,,5:55:54,1914,11371,7802,127,141,21354,238,41,3,59,14,1,243,36,2,238,41,3,Finisher,2825
+Alberto,Del Couz Fernández,Alberto Del Couz Fernández,164,M40-44,Male,Gijón,"ASTURIAS, PRINCIPADO DE",Mexico,MX,0:44:16,3:11:32,1:55:35,,,5:56:01,2656,11492,6935,114,163,21361,239,198,39,481,375,61,343,284,47,239,198,39,Finisher,1749
+Roberto,Salinas Rodriguez,Roberto Salinas Rodriguez,840,M45-49,Male,Mazatlan,Sinaloa,Mexico,MX,0:35:02,2:54:16,2:18:10,,,5:56:27,2102,10456,8290,227,313,21387,240,199,25,154,121,12,161,139,18,240,199,25,Finisher,2454
+Luis E.,Valdes,Luis E. Valdes,396,M50-54,Male,DAMASCUS,OR,Cuba,CU,0:39:57,3:01:46,2:09:15,,,5:56:31,2397,10906,7755,157,177,21391,241,200,16,346,277,24,248,210,19,241,200,16,Finisher,2322
+Alejandro,Romo,Alejandro Romo,617,M30-34,Male,MONTERREY,NUEVO LEÓN,Mexico,MX,0:38:45,3:18:34,1:53:01,,,5:56:59,2325,11914,6781,170,228,21419,242,201,37,308,250,53,362,301,58,242,201,37,Finisher,1877
+Eduardo,Flores Pineda,Eduardo Flores Pineda,435,M45-49,Male,Ciudad de México,MX,Mexico,MX,0:30:28,3:05:02,2:16:26,,,5:57:26,1828,11102,8186,207,123,21446,243,202,26,43,35,4,210,182,27,243,202,26,Finisher,2436
+Christine,Wilkas,Christine Wilkas,444,F45-49,Female,Redondo Beach,CA,United States,US,0:33:52,3:09:38,2:07:47,,,5:57:32,2032,11378,7667,180,194,21452,244,42,6,121,26,2,263,41,5,244,42,6,Finisher,2457
+Zack,Wolfenzon,Zack Wolfenzon,706,M25-29,Male,SAN DIEGO,CA,United States,US,0:37:15,3:14:56,1:57:52,,,5:58:19,2235,11696,7072,238,258,21499,245,203,25,252,202,27,330,273,28,245,203,25,Finisher,1719
+Sandra,Carrasco,Sandra Carrasco,442,F45-49,Female,Houston,TX,United States,US,0:39:06,3:07:36,2:03:13,,,5:58:22,2346,11256,7393,251,256,21502,246,43,7,315,60,9,288,48,7,246,43,7,Finisher,2442
+Duron Coss,Jaime Ivan,Duron Coss Jaime Ivan,722,M25-29,Male,Ciudad de mexico,Ciudad,Mexico,MX,0:44:24,3:13:47,1:52:32,,,5:58:47,2664,11627,6752,255,230,21527,247,204,26,484,378,42,380,317,34,247,204,26,Finisher,1711
+Andres,Rivera Gonzalez,Andres Rivera Gonzalez,60,M30-34,Male,SAN ANTONIO,TX,Mexico,MX,0:37:03,3:09:48,2:08:09,,,5:58:50,2223,11388,7689,109,121,21530,248,205,38,244,195,42,276,233,44,248,205,38,Finisher,1844
+Leslie,Lulka Suarez,Leslie Lulka Suarez,466,M45-49,Male,Huixquilucan,Estado de Mexico,Mexico,MX,0:36:25,2:57:36,2:17:04,,,5:58:57,2185,10656,8224,315,157,21537,249,206,27,219,175,20,212,184,28,249,206,27,Finisher,2409
+Marcos,Malfavon Cira,Marcos Malfavon Cira,130,M45-49,Male,Zapopan,Jalisco,Mexico,MX,0:42:35,3:09:11,1:59:19,,,5:58:59,2555,11351,7159,188,286,21539,250,207,28,437,343,42,323,268,36,250,207,28,Finisher,2408
+Pedrito,Pedrito,Pedrito Pedrito,170,M25-29,Male,Zapopan,Jalisco,France,FR,0:35:10,3:14:04,1:59:43,,,5:58:59,2110,11644,7183,103,500,21539,251,208,27,163,129,19,290,242,25,251,208,27,Finisher,1707
+Jaime,Reyes,Jaime Reyes,84,M50-54,Male,Puebla,,Mexico,MX,0:40:27,3:04:28,2:08:35,,,5:59:16,2427,11068,7715,166,179,21556,252,209,17,368,292,27,271,229,23,252,209,17,Finisher,2273
+Tyr,Zepeda,Tyr Zepeda,223,M45-49,Male,León gto,Intl State,Mexico,MX,0:28:36,2:54:36,2:30:02,,,5:59:18,1716,10476,9002,140,224,21558,253,210,29,30,24,3,118,105,12,253,210,29,Finisher,2402
+Juan Carlos,Cortes Garcia,Juan Carlos Cortes Garcia,355,M50-54,Male,Cabo San Lucas,Baja Califonia Sur,Mexico,MX,0:40:12,3:16:31,1:54:04,,,5:59:21,2412,11791,6844,199,315,21561,254,211,18,363,289,26,361,300,33,254,211,18,Finisher,2271
+Juan Carlos,Gonzalez Vargas,Juan Carlos Gonzalez Vargas,791,M50-54,Male,,,Colombia,CO,1:00:58,2:55:32,1:54:02,,,5:59:25,3658,10532,6842,315,219,21565,255,212,19,625,485,52,374,311,34,255,212,19,Finisher,2270
+Jose,Diaz Botero,Jose Diaz Botero,207,M40-44,Male,bogota,Intl State,Colombia,CO,0:36:31,2:53:20,2:25:03,,,5:59:44,2191,10400,8703,125,166,21584,256,213,40,228,182,27,151,131,27,256,213,40,Finisher,1682
+Ingrid,Wade,Ingrid Wade,144,F30-34,Female,Puebla,PUE,Mexico,MX,0:46:46,3:02:52,2:03:02,,,6:00:16,2806,10972,7382,216,240,21616,257,44,10,536,122,23,308,51,11,257,44,10,Finisher,2332
+Duane,Rorie,Duane Rorie,192,M50-54,Male,,,United States,US,0:46:30,3:06:03,2:00:58,,,6:01:25,2790,11163,7258,291,182,21685,258,214,20,531,412,41,340,283,31,258,214,20,Finisher,2234
+Adrian,Arroyo Cano,Adrian Arroyo Cano,413,M50-54,Male,tlalpan,CDMX,Mexico,MX,0:38:36,3:11:41,2:03:10,,,6:01:30,2316,11501,7390,214,269,21690,259,215,21,303,247,22,314,261,28,259,215,21,Finisher,2233
+Mauricio Javier,Gonzalez Gonzalez,Mauricio Javier Gonzalez Gonzalez,171,M50-54,Male,San Pedro,,Mexico,MX,0:44:26,2:50:15,2:18:56,,,6:02:01,2666,10215,8336,247,258,21721,260,216,22,490,381,38,208,181,16,260,216,22,Finisher,2223
+Alfonso Ramon,Pedraza Benítez,Alfonso Ramon Pedraza Benítez,352,M30-34,Male,Tijuana,BC,Mexico,MX,0:44:39,3:11:58,1:56:58,,,6:02:35,2679,11518,7018,261,279,21755,261,217,39,497,385,73,364,303,59,261,217,39,Finisher,1776
+Jose,Wellington Coelho Aragao,Jose Wellington Coelho Aragao,118,M60-64,Male,SAO PAULO,SP,Brazil,BR,0:54:43,3:05:27,1:55:23,,,6:03:07,3283,11127,6923,189,266,21787,262,218,2,611,472,10,385,321,5,262,218,2,Finisher,2738
+Jorge Luis,Fuentes,Jorge Luis Fuentes,213,M45-49,Male,guayaquil,Guayas,Ecuador,EC,0:48:42,3:19:28,1:48:17,,,6:03:17,2922,11968,6497,221,189,21797,263,219,30,568,437,61,439,363,47,263,219,30,Finisher,2331
+Axel,Villalva,Axel Villalva,763,M18-24,Male,Mexico City,MX-CMX,Mexico,MX,0:40:02,3:12:37,2:05:27,,,6:03:54,2402,11557,7527,168,179,21834,264,220,9,352,281,12,327,271,9,264,220,9,Finisher,1755
+Alvarez,Alma Delia,Alvarez Alma Delia,441,F45-49,Female,Celaya,Guanajuato,Mexico,MX,0:45:36,3:08:20,2:01:35,,,6:04:00,2736,11300,7295,225,284,21840,265,45,8,514,117,22,342,59,10,265,45,8,Finisher,2341
+Andrea,Lazaro,Andrea Lazaro,765,F18-24,Female,San Luis Potosi,San Luis Potosi,Mexico,MX,0:34:16,3:15:03,2:07:57,,,6:04:00,2056,11703,7677,208,196,21840,266,46,4,132,27,3,306,50,4,266,46,4,Finisher,2680
+Oscar,Russek,Oscar Russek,554,M35-39,Male,Torreon,Coahuila,Mexico,MX,0:42:19,2:55:01,2:18:20,,,6:04:25,2539,10501,8300,230,294,21865,267,221,33,428,335,54,227,195,33,267,221,33,Finisher,1963
+Robert,Combier,Robert Combier,574,M35-39,Male,PROVIDENCE,RI,United States,US,0:42:54,3:00:41,2:13:36,,,6:04:27,2574,10841,8016,275,160,21867,268,222,34,444,350,60,274,231,41,268,222,34,Finisher,1962
+Francisco Alejandro,Martínez Kuri,Francisco Alejandro Martínez Kuri,725,M25-29,Female,Mexico City,CIUDAD DE MEXICO,Mexico,MX,0:39:43,3:13:40,2:03:26,,,6:04:50,2383,11620,7406,227,254,21890,269,223,28,339,272,32,338,281,30,269,223,28,Finisher,1602
+Oscar Alejandro,Sanchez Carrillo,Oscar Alejandro Sanchez Carrillo,641,M30-34,Male,Mazatlan,Sinaloa,Mexico,MX,0:34:00,3:09:24,2:13:41,,,6:04:55,2040,11364,8021,250,220,21895,270,224,40,124,98,20,270,228,42,270,224,40,Finisher,1734
+Maximino,Hernandez Morales,Maximino Hernandez Morales,333,M45-49,Male,ALVARO OBREGON,CIUDAD DE MEXICO,Mexico,MX,0:37:17,3:13:05,2:08:59,,,6:05:27,2237,11585,7739,148,218,21927,271,225,31,255,205,23,307,257,34,271,225,31,Finisher,2292
+Thomas,Martel,Thomas Martel,667,M30-34,Male,San Fancisco,CA,United States,US,0:35:08,2:57:37,2:25:48,,,6:06:05,2108,10657,8748,263,189,21965,272,226,41,159,126,27,199,173,33,272,226,41,Finisher,1713
+Ximena,Ortega,Ximena Ortega,717,F25-29,Female,Mexico,Mexico,Mexico,MX,0:37:32,3:05:44,2:16:38,,,6:06:53,2252,11144,8198,211,209,22013,273,47,5,262,51,9,264,42,5,273,47,5,Finisher,2066
+Nadim,Zoghbi,Nadim Zoghbi,710,M25-29,Male,LAGUNA BEACH,CA,United States,US,0:42:57,3:17:34,2:00:39,,,6:07:02,2577,11854,7239,202,150,22022,274,227,29,445,351,38,389,324,35,274,227,29,Finisher,1562
+Agustin,Acuña,Agustin Acuña,220,M50-54,Male,Distrito Federal,Distrito federal,Mexico,MX,0:50:21,2:53:49,2:12:35,,,6:07:18,3021,10429,7955,375,258,22038,275,228,23,583,449,48,286,240,26,275,228,23,Finisher,2128
+Geoff,Robinson,Geoff Robinson,349,M50-54,Male,Loveland,CO,United States,US,0:39:52,2:51:19,2:28:17,,,6:07:26,2392,10279,8897,252,226,22046,276,229,24,343,274,23,187,164,13,276,229,24,Finisher,2126
+Armando,Martinez,Armando Martinez,723,M25-29,Male,Culiacán,Sinaloa,Mexico,MX,0:49:37,3:21:54,1:45:18,,,6:08:02,2977,12114,6318,413,259,22082,277,230,30,576,444,46,481,392,40,277,230,30,Finisher,1544
+Wim,Verstraeten,Wim Verstraeten,63,M45-49,Male,arenas,MALAGA,Belgium,BE,0:41:55,3:02:04,2:17:27,,,6:08:17,2515,10924,8247,182,228,22097,278,231,32,414,328,39,267,225,31,278,231,32,Finisher,2241
+Andres,Crosby,Andres Crosby,643,M30-34,Male,Dallas,TX,United States,US,0:46:41,3:03:45,2:10:55,,,6:08:35,2801,11025,7855,214,220,22115,279,232,42,534,414,80,316,263,49,279,232,42,Finisher,1668
+Arturo,Ornelas Balderrama,Arturo Ornelas Balderrama,43,M35-39,Male,mexico,MX-CMX,Mexico,MX,0:32:24,3:17:06,2:08:35,,,6:08:48,1944,11826,7715,187,457,22128,280,233,35,73,55,5,305,256,43,280,233,35,Finisher,1884
+Eduardo,Talamantes,Eduardo Talamantes,863,M60-64,Male,La Paz,,Mexico,MX,0:41:25,3:04:55,2:15:35,,,6:08:53,2485,11095,8135,164,255,22133,281,234,3,403,320,6,279,235,2,281,234,3,Finisher,2634
+Rafael Andres,Gurrola,Rafael Andres Gurrola,153,M45-49,Male,Merida,Merida,Mexico,MX,0:42:37,3:09:19,2:07:56,,,6:09:12,2557,11359,7676,253,307,22152,282,235,33,438,344,43,331,274,38,282,235,33,Finisher,2224
+Christopher,Lademan,Christopher Lademan,380,M50-54,Male,Carmel-by-the-Sea,CA,United States,US,0:33:25,3:12:16,2:16:37,,,6:09:17,2005,11536,8197,220,198,22157,283,236,25,97,75,8,282,237,24,283,236,25,Finisher,2093
+Lizbeth,Tovar,Lizbeth Tovar,176,F45-49,Female,Puebla de zaragoza,Puebla,Mexico,MX,0:44:54,3:12:13,2:02:26,,,6:09:28,2694,11533,7346,255,339,22168,284,48,9,504,113,19,367,62,11,284,48,9,Finisher,2242
+Antonio,Bouffier,Antonio Bouffier,747,M25-29,Male,Cuajimalpa,Mexico City,Mexico,MX,0:38:26,3:18:43,2:03:21,,,6:09:32,2306,11923,7401,305,237,22172,285,237,31,300,244,28,377,314,33,285,237,31,Finisher,1517
+Jose Bernardo,Casas Trejo,Jose Bernardo Casas Trejo,756,M18-24,Male,Cuajimalpa,Mexico City,Mexico,MX,0:37:26,3:15:50,2:05:01,,,6:09:52,2246,11750,7501,294,401,22192,286,238,10,259,209,9,350,291,10,286,238,10,Finisher,1648
+Brian,Kask,Brian Kask,417,M45-49,Male,belcarra,BC,Canada,CA,0:43:07,3:05:21,2:11:12,,,6:09:58,2587,11121,7872,364,255,22198,287,239,34,448,353,44,322,267,35,287,239,34,Finisher,2210
+Amy,Sherman,Amy Sherman,82,F55-59,Female,New York,NY,United States,US,0:34:55,3:09:46,2:19:03,,,6:10:21,2095,11386,8343,185,213,22221,288,49,1,150,32,1,272,43,1,288,49,1,Finisher,3500
+Erin,Harvego,Erin Harvego,70,F50-54,Female,Chicago,IL,United States,US,0:39:35,3:10:19,2:13:32,,,6:10:52,2375,11419,8012,234,213,22252,289,50,1,334,67,3,313,53,2,289,50,1,Finisher,3500
+Jose Antonio,Green Palacios,Jose Antonio Green Palacios,398,M50-54,Male,San José del cabo,Bcs,Mexico,MX,0:43:11,2:57:47,2:21:52,,,6:10:52,2591,10667,8512,221,262,22252,290,240,26,454,357,34,251,213,20,290,240,26,Finisher,2064
+Edson,Nevarez,Edson Nevarez,489,M40-44,Male,LOS CABOS,BAJA CALIFORNIA SUR,Mexico,MX,0:37:59,3:17:10,2:06:28,,,6:11:04,2279,11830,7588,205,362,22264,291,241,41,281,230,38,352,293,48,291,241,41,Finisher,1478
+Sonia Raquel,Padilla Hernandez,Sonia Raquel Padilla Hernandez,162,F45-49,Female,TLAQUEPAQUE,JALISCO,Mexico,MX,0:44:35,3:10:13,2:10:30,,,6:11:04,2675,11413,7830,166,181,22264,292,51,10,494,111,18,341,58,9,292,51,10,Finisher,2213
+Rodrigo,Arguelles Cattori,Rodrigo Arguelles Cattori,679,M30-34,Male,Cdmx,Cdmx,Mexico,MX,0:31:43,2:57:48,2:36:17,,,6:11:06,1903,10668,9377,176,142,22266,293,242,43,57,44,13,157,136,26,293,242,43,Finisher,1623
+Katia,Palencia Garcia,Katia Palencia Garcia,261,F40-44,Female,Guadalajara,Guadalajara,Mexico,MX,0:44:38,3:13:42,2:06:18,,,6:11:13,2678,11622,7578,202,193,22273,294,52,8,496,112,14,371,63,10,294,52,8,Finisher,2527
+Simon,Cohen Cats,Simon Cohen Cats,602,M35-39,Male,Miguel Hidalgo,Ciudad de México,Mexico,MX,0:35:55,3:03:59,2:22:27,,,6:11:17,2155,11039,8547,274,262,22277,295,243,36,196,155,26,250,212,38,295,243,36,Finisher,1839
+Samuel,Flegg,Samuel Flegg,658,M30-34,Male,London,,United Kingdom,GB,0:40:43,3:07:03,2:17:04,,,6:11:49,2443,11223,8224,233,186,22309,296,244,44,372,295,62,295,246,46,296,244,44,Finisher,1610
+Andres,Garza Treviño,Andres Garza Treviño,198,M30-34,Male,Santiago,NUEVO LEON,Mexico,MX,0:39:07,3:16:15,2:07:47,,,6:11:49,2347,11775,7667,257,263,22309,297,245,45,318,257,55,359,298,57,297,245,45,Finisher,1610
+Hector,Elizondo Lopez,Hector Elizondo Lopez,158,M35-39,Male,ZAPOPANEL COLLI URBANO,ZAPOPAN,Mexico,MX,0:41:06,3:07:32,2:16:40,,,6:12:06,2466,11252,8200,217,191,22326,298,246,37,388,309,48,302,253,42,298,246,37,Finisher,1824
+Israel,Antonio Infante,Israel Antonio Infante,376,M50-54,Male,ZAPOPAN,MX-JAL,Mexico,MX,0:33:38,3:08:03,2:21:51,,,6:12:22,2018,11283,8511,242,287,22342,299,247,27,110,88,11,258,219,21,299,247,27,Finisher,2037
+Vanessa,Soulavy,Vanessa Soulavy,156,F40-44,Female,key biscayne,FL,Venezuela,VE,0:34:30,2:58:21,2:34:21,,,6:12:38,2070,10701,9261,187,139,22358,300,53,9,141,30,2,190,24,2,300,53,9,Finisher,2502
+Antonio,Leon,Antonio Leon,280,M35-39,Male,Mexico,,Mexico,MX,0:33:52,3:07:35,2:25:06,,,6:12:42,2032,11255,8706,140,229,22362,301,248,38,122,96,13,246,209,37,301,248,38,Finisher,1814
+David,Hopkins,David Hopkins,129,M50-54,Male,Toronto,ON,Canada,CA,0:40:07,3:10:43,2:15:01,,,6:13:02,2407,11443,8101,183,247,22382,302,249,28,358,285,25,315,262,29,302,249,28,Finisher,2025
+Andrew,Saldana,Andrew Saldana,526,M40-44,Male,Burien,WA,Mexico,MX,0:43:55,3:12:03,2:09:10,,,6:13:34,2635,11523,7750,277,228,22414,303,250,42,467,366,60,363,302,51,303,250,42,Finisher,1433
+James,Grafton,James Grafton,612,M30-34,Male,San Francisco,CA,United States,US,0:47:32,3:13:33,2:04:01,,,6:13:43,2852,11613,7441,268,250,22423,304,251,46,547,422,82,402,336,64,304,251,46,Finisher,1576
+Tony,Castigliego,Tony Castigliego,328,M55-59,Male,Mesa,AZ,United States,US,0:48:45,3:12:47,2:00:06,,,6:14:24,2925,11567,7206,407,359,22464,305,252,8,569,438,26,426,352,18,305,252,8,Finisher,2298
+Daniel,Esquivel Navarrete,Daniel Esquivel Navarrete,673,M30-34,Male,Monterrey,Nuevo Leon,Mexico,MX,0:37:29,3:11:40,2:16:14,,,6:14:28,2249,11500,8174,322,223,22468,306,253,47,260,210,44,321,266,51,306,253,47,Finisher,1562
+Jesus Ramón,Verdugo Peniche,Jesus Ramón Verdugo Peniche,141,M35-39,Male,Cancún,Quintana Roo,Mexico,MX,0:34:20,3:04:55,2:30:59,,,6:15:21,2060,11095,9059,154,153,22521,307,254,39,135,108,14,230,198,34,307,254,39,Finisher,1766
+Hansel,Lieras Murillo,Hansel Lieras Murillo,225,M35-39,Male,CABO SAN LUCAS,LOS CABOS,Mexico,MX,0:38:56,2:55:25,2:33:39,,,6:15:33,2336,10525,9219,240,214,22533,308,255,40,313,255,40,207,180,31,308,255,40,Finisher,1762
+Gonzalo,Alanis Figueroa,Gonzalo Alanis Figueroa,155,M55-59,Male,Miguel Hidalgo,D.F.,Mexico,MX,0:41:34,3:01:56,2:19:52,,,6:15:40,2494,10916,8392,202,536,22540,309,256,9,406,323,16,265,223,11,309,256,9,Finisher,2275
+Tonathiu,Alcaraz,Tonathiu Alcaraz,445,M45-49,Male,mexico,NM,Mexico,MX,0:46:54,3:03:06,2:13:16,,,6:16:08,2814,10986,7996,441,331,22568,310,257,35,537,415,55,339,282,40,310,257,35,Finisher,2099
+Rene,Suarez Rueda,Rene Suarez Rueda,145,M30-34,Male,México,,Mexico,MX,0:46:26,3:03:50,2:17:45,,,6:16:13,2786,11030,8265,135,357,22573,311,258,48,530,411,79,303,254,48,311,258,48,Finisher,1531
+Beltran,Luis,Beltran Luis,209,M40-44,Male,La Paz,Baja California Sur,Mexico,MX,0:52:56,3:12:12,2:03:23,,,6:16:29,3176,11532,7403,269,209,22589,312,259,43,603,466,69,435,359,59,312,259,43,Finisher,1381
+Christian,Lugo Salinas,Christian Lugo Salinas,592,M35-39,Male,CIUDAD DE MEXICO,MEXICO,Mexico,MX,0:44:57,3:08:14,2:14:07,,,6:17:02,2697,11294,8047,274,310,22622,313,260,41,506,392,64,344,285,44,313,260,41,Finisher,1736
+Victoria,Rivera Merchan,Victoria Rivera Merchan,697,F25-29,Female,Ensenada,BAJA CALIFORNIA,Mexico,MX,0:40:56,3:09:10,2:16:01,,,6:17:11,2456,11350,8161,243,422,22631,314,54,6,378,78,12,318,54,6,314,54,6,Finisher,1881
+Manuel,Escamilla,Manuel Escamilla,646,M30-34,Male,Juarez,CHIH,Mexico,MX,0:51:53,3:07:28,2:13:23,,,6:17:26,3113,11248,8003,124,158,22646,315,261,49,595,459,85,369,307,60,315,261,49,Finisher,1509
+Avila,Humberto,Avila Humberto,38,M40-44,Male,LA PAZ,BAJA CALIFORNIA SUR,Mexico,MX,0:38:13,3:04:11,2:27:35,,,6:18:07,2293,11051,8855,274,214,22687,316,262,44,290,236,41,266,224,39,316,262,44,Finisher,1352
+Omar,Velazquez,Omar Velazquez,459,M45-49,Male,BOCA DEL RIO,,Mexico,MX,0:35:07,2:55:21,2:41:16,,,6:18:13,2107,10521,9676,204,185,22693,317,263,36,158,125,13,169,146,19,317,263,36,Finisher,2062
+Alicia,Dominguez,Alicia Dominguez,639,F30-34,Female,Texcoco,Estado de Mexico,Mexico,MX,0:41:12,3:24:11,2:06:56,,,6:18:16,2472,12251,7616,157,200,22696,318,55,11,392,80,15,423,74,13,318,55,11,Finisher,2008
+Diego,Gomez,Diego Gomez,270,M45-49,Male,San Jose,San Jose,Costa Rica,CR,0:40:20,2:57:57,2:31:43,,,6:18:51,2420,10677,9103,304,227,22731,319,264,37,367,291,35,240,206,30,319,264,37,Finisher,2051
+Sarah,Hux,Sarah Hux,236,F35-39,Female,CHESTERFIELD,MO,United States,US,0:38:39,3:11:31,2:20:03,,,6:18:53,2319,11491,8403,308,212,22733,320,56,8,305,58,10,325,56,8,320,56,8,Finisher,2312
+Michael,Janke,Michael Janke,744,M25-29,Male,SAINT LOUIS,MO,United States,US,0:44:24,3:10:04,2:17:02,,,6:19:03,2664,11404,8222,200,252,22743,321,265,32,487,380,43,345,286,31,321,265,32,Finisher,1346
+Herman,Rosso Rizo,Herman Rosso Rizo,434,M45-49,Male,"México, DF",Ciudad de México,Mexico,MX,0:48:03,3:30:12,1:51:53,,,6:20:15,2883,12612,6713,291,316,22815,322,266,38,558,429,58,501,404,54,322,266,38,Finisher,2025
+Mariana,Novoa,Mariana Novoa,218,F30-34,Female,COSTA DE ORO 2A SECC-BOCA DEL RIO,Veracruz,Mexico,MX,0:38:38,3:08:41,2:25:22,,,6:20:45,2318,11321,8722,228,256,22845,323,57,12,304,57,11,291,49,10,323,57,12,Finisher,1963
+Patricio,Garibay,Patricio Garibay,742,M25-29,Male,San Pedro Garza García,Nuevo Leon,Mexico,MX,0:42:44,3:05:25,2:25:15,,,6:20:53,2564,11125,8715,208,241,22853,324,267,33,442,348,37,294,245,26,324,267,33,Finisher,1313
+Gonzalo,Cilloniz,Gonzalo Cilloniz,135,M40-44,Male,Lima,Lima,Peru,PE,0:36:41,3:13:17,2:24:51,,,6:21:11,2201,11597,8691,205,176,22871,325,268,45,233,187,28,311,259,44,325,268,45,Finisher,1296
+Mauricio,Rubio Pérez Ulloa,Mauricio Rubio Pérez Ulloa,769,M18-24,Male,Monterrey,MX-NLE,Mexico,MX,0:37:25,3:29:23,2:08:40,,,6:21:12,2245,12563,7720,120,224,22872,326,269,11,257,207,8,431,357,12,326,269,11,Finisher,1444
+Oscar,Garnica,Oscar Garnica,331,M30-34,Male,Cdmx,DISTRITO FEDERAL,Mexico,MX,0:45:40,3:25:36,2:02:09,,,6:21:15,2740,12336,7329,207,264,22875,327,270,50,516,399,77,461,379,71,327,270,50,Finisher,1440
+Roger,Hardy,Roger Hardy,410,M50-54,Male,Vancouver,BC,Canada,CA,0:33:29,3:04:19,2:34:13,,,6:21:17,2009,11059,9253,293,262,22877,328,271,29,102,80,10,234,201,18,328,271,29,Finisher,1877
+Brenda,Sandoval,Brenda Sandoval,415,F45-49,Female,Guatemala,Guatemala city,Guatemala,GT,0:36:27,3:13:24,2:22:37,,,6:21:22,2187,11604,8557,210,324,22882,329,58,11,221,45,5,309,52,8,329,58,11,Finisher,2028
+Pedro,Moreno,Pedro Moreno,834,M60-64,Male,Mexico,mexico,Mexico,MX,0:49:12,3:11:37,2:07:41,,,6:21:23,2952,11497,7661,437,337,22883,330,272,4,571,440,9,424,350,7,330,272,4,Finisher,2409
+Alfonso,Infante Morales,Alfonso Infante Morales,480,M40-44,Male,MEXICO CITY,Ciudad de México,Mexico,MX,0:44:31,3:12:48,2:17:03,,,6:21:28,2671,11568,8223,234,191,22888,331,273,46,492,383,62,366,305,52,331,273,46,Finisher,1291
+Vickie,Bellemare,Vickie Bellemare,142,F35-39,Female,Repentigny,QC,Canada,CA,0:44:13,3:17:00,2:12:19,,,6:21:31,2653,11820,7939,141,338,22891,332,59,9,479,105,19,387,65,12,332,59,9,Finisher,2264
+Mariana,Jasso,Mariana Jasso,732,F25-29,Female,Ciudad de Mexico,MEXICO,Mexico,MX,0:32:18,3:19:35,2:24:10,,,6:22:23,1938,11975,8650,152,228,22943,333,60,7,72,18,5,320,55,7,333,60,7,Finisher,1787
+Javier,Cortes Ravell,Javier Cortes Ravell,490,M40-44,Male,Polanco Miguel Hidalgo,CDMX,Mexico,MX,0:41:51,3:24:41,2:02:45,,,6:22:26,2511,12281,7365,367,422,22946,334,274,47,413,327,57,447,369,61,334,274,47,Finisher,1274
+Alberto,Enciso Lizarraga,Alberto Enciso Lizarraga,564,M35-39,Male,Tlaquepaque,Jalisco,Mexico,MX,0:48:03,3:11:07,2:13:28,,,6:22:32,2883,11467,8008,301,293,22952,335,275,42,559,430,73,392,327,52,335,275,42,Finisher,1637
+Kevin,Strydom,Kevin Strydom,242,M55-59,Male,Oceanside,CA,United States,US,0:34:59,3:04:36,2:34:03,,,6:22:43,2099,11076,9243,291,255,22963,336,276,10,153,120,5,249,211,9,336,276,10,Finisher,2148
+Dawn,Torroba,Dawn Torroba,486,F40-44,Female,North Vancouver,BC,Canada,CA,0:40:19,3:13:07,2:19:24,,,6:22:47,2419,11587,8364,308,289,22967,337,61,10,366,76,8,353,60,9,337,61,10,Finisher,2319
+Olivia,Berg,Olivia Berg,246,F30-34,Female,SAINT PAUL,MN,United States,US,0:36:29,3:34:22,2:05:31,,,6:22:52,2189,12862,7531,183,207,22972,338,62,13,225,46,10,457,82,15,338,62,13,Finisher,1925
+Jorge,Castillo,Jorge Castillo,452,M45-49,Male,CANCUN,QUINTANA ROO,Mexico,MX,0:40:16,3:05:39,2:25:01,,,6:22:52,2416,11139,8701,366,349,22972,339,277,39,364,290,34,300,251,33,339,277,39,Finisher,1978
+Miguel Angel,Garcia Garcia,Miguel Angel Garcia Garcia,770,M18-24,Male,Atizapan de Zaragoza,Estado de México,Mexico,MX,0:34:32,3:15:39,2:24:44,,,6:22:57,2072,11739,8684,208,275,22977,340,278,12,142,112,3,312,260,8,340,278,12,Finisher,1412
+Roger,Freeman,Roger Freeman,79,M70-74,Male,San Diego,CA,United States,US,0:39:24,3:07:28,2:26:07,,,6:23:15,2364,11248,8767,302,313,22995,341,279,1,331,266,1,298,249,1,341,279,1,Finisher,3500
+Alex,Wilson,Alex Wilson,627,F30-34,Female,Sebastopol,CA,United States,US,0:40:19,3:39:59,1:56:11,,,6:23:33,2419,13199,6971,223,202,23013,342,63,14,365,75,14,507,98,18,342,63,14,Finisher,1913
+Orlando,Lopez,Orlando Lopez,799,M30-34,Male,Bogota DC,Cundinamarca,Colombia,CO,0:42:07,2:50:11,2:44:03,,,6:23:53,2527,10211,9843,181,271,23033,343,280,51,418,331,69,186,163,31,343,280,51,Finisher,1393
+Miriam Briseyda,Hernandez Evangelista,Miriam Briseyda Hernandez Evangelista,169,F30-34,Female,Zapopan,Jalisco,Mexico,MX,0:39:06,3:24:38,2:11:48,,,6:24:12,2346,12278,7908,245,275,23052,344,64,15,316,61,12,420,72,12,344,64,15,Finisher,1901
+Victor,Parada,Victor Parada,471,M40-44,Male,Aguascalientes,AGUASCALIENTES,Mexico,MX,0:34:26,3:07:57,2:36:18,,,6:24:27,2066,11277,9378,153,192,23067,345,281,48,139,111,17,255,217,37,345,281,48,Finisher,1238
+Jacquelyn,Mardesich,Jacquelyn Mardesich,345,F55-59,Female,GILROY,CA,United States,US,0:35:57,3:10:21,2:31:51,,,6:24:43,2157,11421,9111,180,214,23083,346,65,2,197,42,2,281,45,2,346,65,2,Finisher,3241
+David,Pringle,David Pringle,613,M30-34,Male,New York,NY,United States,US,0:34:12,2:56:10,2:41:14,,,6:24:57,2052,10570,9674,356,447,23097,347,282,52,131,105,21,192,167,32,347,282,52,Finisher,1374
+John,Rolfe,John Rolfe,336,M55-59,Male,Waterford,ON,Canada,CA,0:38:51,3:13:33,2:20:55,,,6:24:58,2331,11613,8455,345,354,23098,348,283,11,312,254,10,349,290,15,348,283,11,Finisher,2108
+Juan,Morales,Juan Morales,387,M50-54,Male,guadalajara,guadalajara,Mexico,MX,0:37:45,2:53:33,2:45:05,,,6:25:21,2265,10413,9905,257,281,23121,349,284,30,270,219,19,188,165,14,349,284,30,Finisher,1803
+Juan Cesar,Garcia,Juan Cesar Garcia,645,M30-34,Male,MONTERREY,,Mexico,MX,0:48:39,3:03:38,2:24:39,,,6:25:30,2919,11018,8679,232,282,23130,350,285,53,567,436,83,332,275,53,350,285,53,Finisher,1364
+Alonso,Hurtado,Alonso Hurtado,399,M50-54,Male,LOS CABOS,BAJA CALIFORNIA SUR,Mexico,MX,0:50:04,3:00:18,2:23:47,,,6:25:41,3004,10818,8627,374,319,23141,351,286,31,579,446,46,334,277,30,351,286,31,Finisher,1797
+Miguel Angel,Pineda Cordova,Miguel Angel Pineda Cordova,174,M35-39,Male,Monterrey,nuevo leon,Mexico,MX,0:36:39,3:04:54,2:35:35,,,6:25:42,2199,11094,9335,251,263,23142,352,287,43,231,185,33,259,220,40,352,287,43,Finisher,1580
+Pablo Jose,Cervantes B,Pablo Jose Cervantes B,485,M40-44,Male,mexico,df,Mexico,MX,0:37:41,3:07:06,2:33:13,,,6:25:45,2261,11226,9193,279,186,23145,353,288,49,269,218,36,284,239,41,353,288,49,Finisher,1214
+Michael,Ort,Michael Ort,338,M55-59,Male,Medina,TN,United States,US,0:48:45,3:11:10,2:13:54,,,6:26:15,2925,11470,8034,407,339,23175,354,289,12,570,439,27,411,344,17,354,289,12,Finisher,2084
+Juan,Aguirre Gutierrez,Juan Aguirre Gutierrez,623,M30-34,Male,San Francisco,CA,Mexico,MX,0:41:20,3:10:56,2:26:19,,,6:26:25,2480,11456,8779,228,243,23185,355,290,54,395,315,67,328,272,52,355,290,54,Finisher,1347
+Cristóbal,Guevara Guillén,Cristóbal Guevara Guillén,577,M35-39,Male,Guadalajara,Jalisco,Mexico,MX,0:37:24,3:39:01,1:59:56,,,6:26:27,2244,13141,7196,252,354,23187,356,291,44,256,206,36,489,397,66,356,291,44,Finisher,1566
+Andy,Kittler,Andy Kittler,845,M30-34,Male,OAKLAND,CA,United States,US,0:35:59,2:59:42,2:39:55,,,6:26:28,2159,10782,9595,289,364,23188,357,292,55,198,156,35,219,190,36,357,292,55,Finisher,1346
+Alyssa,Roy,Alyssa Roy,628,F30-34,Female,SAN FRANCISCO,CA,United States,US,0:42:27,3:29:32,2:08:47,,,6:27:28,2547,12572,7727,221,182,23248,358,66,16,433,94,19,465,84,16,358,66,16,Finisher,1842
+Jessica,Costain,Jessica Costain,121,F25-29,Female,Calgary,AB,Canada,CA,0:35:37,3:32:29,2:11:38,,,6:27:53,2137,12749,7898,281,207,23273,359,67,8,180,39,7,448,79,10,359,67,8,Finisher,1688
+Jaime,Salazar,Jaime Salazar,440,M45-49,Male,Culiacan,Sinaloa,Mexico,MX,0:37:54,3:14:04,2:26:15,,,6:28:01,2274,11644,8775,286,301,23281,360,293,40,277,226,28,336,279,39,360,293,40,Finisher,1886
+Ana Gisela,Uribe,Ana Gisela Uribe,463,F45-49,Female,GUADALAJARA,Jalisco,Mexico,MX,0:42:12,3:21:42,2:16:44,,,6:28:01,2532,12102,8204,214,229,23281,361,68,12,421,89,15,417,70,12,361,68,12,Finisher,1908
+Octavio,Gonzalez Cruz,Octavio Gonzalez Cruz,800,M55-59,Male,JALISCO,ZAPOPAN,Mexico,MX,0:41:22,3:06:56,2:32:13,,,6:28:26,2482,11216,9133,254,221,23306,362,294,13,399,318,15,304,255,14,362,294,13,Finisher,2045
+Marcos,Gottfried Hesketh,Marcos Gottfried Hesketh,90,M45-49,Male,Ciudad de México,,Mexico,MX,0:36:18,3:12:37,2:31:25,,,6:28:33,2178,11557,9085,181,313,23313,363,295,41,214,170,18,299,250,32,363,295,41,Finisher,1876
+Pamela,Rubio,Pamela Rubio,175,F25-29,Female,San Pedro,Garza Garcia,Mexico,MX,0:38:16,3:25:09,2:16:11,,,6:28:35,2296,12309,8171,268,272,23315,364,69,9,294,55,10,422,73,8,364,69,9,Finisher,1676
+Rodrigo,Pineda Valencia,Rodrigo Pineda Valencia,741,M25-29,Male,Tlalnepantla de Baz,Mexico,Mexico,MX,0:35:15,3:32:44,2:15:48,,,6:29:54,2115,12764,8148,166,201,23394,365,296,34,167,133,20,436,360,38,365,296,34,Finisher,1151
+Leishia,Woolwine,Leishia Woolwine,846,F50-54,Female,San Francisco,CA,United States,US,0:30:13,3:16:35,2:32:29,,,6:30:20,1813,11795,9149,233,430,23420,366,70,2,41,8,1,287,47,1,366,70,2,Finisher,3149
+Eduardo,Hernandez Orozco,Eduardo Hernandez Orozco,618,M30-34,Male,El Marques,Queretaro,Mexico,MX,0:45:30,3:06:48,2:27:34,,,6:31:07,2730,11208,8854,331,343,23467,367,297,56,513,397,75,346,287,55,367,297,56,Finisher,1263
+Jorge Arturo,Ramos Gonzalez,Jorge Arturo Ramos Gonzalez,421,M45-49,Male,TLALNEPANTLA,ESTADO DE MEXICO,Mexico,MX,0:52:44,3:28:40,2:02:03,,,6:31:20,3164,12520,7323,247,226,23480,368,298,42,601,464,64,513,414,57,368,298,42,Finisher,1826
+Alejandro,Varés,Alejandro Varés,491,M40-44,Male,San Pedro Garza Garcia,Nuevo Leon,Mexico,MX,0:37:38,3:08:26,2:35:07,,,6:31:48,2258,11306,9307,366,270,23508,369,299,50,266,215,34,301,252,43,369,299,50,Finisher,1105
+Stephan,Lafontaine,Stephan Lafontaine,253,M50-54,Male,Grand-Mere,QC,Canada,CA,0:44:30,3:03:45,2:33:35,,,6:32:11,2670,11025,9215,308,314,23531,370,300,32,491,382,39,310,258,27,370,300,32,Finisher,1680
+Ryan,Germann,Ryan Germann,630,M30-34,Male,Oregon,WI,United States,US,0:38:14,3:14:19,2:32:14,,,6:32:41,2294,11659,9134,265,208,23561,371,301,57,291,237,51,337,280,54,371,301,57,Finisher,1235
+Marco Antonio,Cruz Chavez,Marco Antonio Cruz Chavez,836,M35-39,Male,Zapopan,Jalisco,Mexico,MX,0:40:00,3:13:52,2:31:04,,,6:33:02,2400,11632,9064,279,207,23582,372,302,45,351,280,42,351,292,46,372,302,45,Finisher,1448
+Catalina,Andrade Valarezo,Catalina Andrade Valarezo,100,F30-34,Female,Guayaquil,GUAYAS,Ecuador,EC,0:39:16,3:30:05,2:17:22,,,6:33:04,2356,12605,8242,194,187,23584,373,71,17,324,63,13,446,78,14,373,71,17,Finisher,1741
+Antonio,Alvarez,Antonio Alvarez,161,M55-59,Male,MEXICO,CDMX,Mexico,MX,0:37:14,3:06:39,2:41:06,,,6:33:23,2234,11199,9666,207,298,23603,374,303,14,251,201,7,269,227,12,374,303,14,Finisher,1956
+Gabriel,Montoya Bravo Arenas,Gabriel Montoya Bravo Arenas,841,M30-34,Male,Libertyville,ILLINOIS,Peru,PE,0:37:14,3:10:31,2:37:33,,,6:33:48,2234,11431,9453,244,266,23628,375,304,58,250,200,43,296,247,47,375,304,58,Finisher,1214
+Oscar,Guerra,Oscar Guerra,304,M60-64,Male,Guatemala,,Guatemala,GT,0:40:07,3:24:20,2:19:45,,,6:33:51,2407,12260,8385,206,374,23631,376,305,5,357,284,4,421,349,6,376,305,5,Finisher,2184
+Salvador,Castillo,Salvador Castillo,597,M35-39,Male,LOS CABOS,BAJA CALIFORNIA SUR,Mexico,MX,0:40:59,3:19:34,2:27:28,,,6:34:14,2459,11974,8848,199,174,23654,377,306,46,380,302,45,391,326,51,377,306,46,Finisher,1426
+Ernesto Enrique,De La Vega Carranza,Ernesto Enrique De La Vega Carranza,317,M55-59,Male,mexico,mexico,Mexico,MX,0:41:56,3:15:00,2:28:06,,,6:34:24,2516,11700,8886,320,241,23664,378,307,15,415,329,17,378,315,16,378,307,15,Finisher,1938
+Jorge,Cespedes,Jorge Cespedes,582,M35-39,Male,San Rafael,Sonora,Costa Rica,CR,0:47:09,3:15:47,2:22:22,,,6:34:36,2829,11747,8542,197,362,23676,379,308,47,544,419,69,408,342,55,379,308,47,Finisher,1419
+Jacob,Field,Jacob Field,545,M35-39,Male,Houston,TX,United States,US,0:50:31,3:23:15,2:11:51,,,6:34:47,3031,12195,7911,215,335,23687,380,309,48,586,452,74,473,386,61,380,309,48,Finisher,1416
+Raul Ramiro,Rojas Romero,Raul Ramiro Rojas Romero,727,M25-29,Male,Cabo San Lucas,Baja California Sur,Mexico,MX,0:37:07,3:16:13,2:32:57,,,6:34:48,2227,11773,9177,201,310,23688,381,310,35,247,197,26,335,278,29,381,310,35,Finisher,1062
+Juanma,Moreno,Juanma Moreno,497,M40-44,Male,Tlajomulco,Jalisco,Mexico,MX,0:39:20,3:18:16,2:29:05,,,6:34:58,2360,11896,8945,296,202,23698,382,311,51,327,263,47,381,318,55,382,311,51,Finisher,1048
+Sergio,Hernandez Avendaño,Sergio Hernandez Avendaño,508,M40-44,Male,Querétaro,Querétaro,Mexico,MX,0:42:59,3:09:46,2:31:32,,,6:35:42,2579,11386,9092,375,310,23742,383,312,52,446,352,58,355,295,49,383,312,52,Finisher,1035
+Duane,Latimer,Duane Latimer,590,M35-39,Male,Boissevain,MB,Canada,CA,0:41:00,2:56:27,2:51:00,,,6:36:23,2460,10587,10260,222,254,23783,384,313,49,382,304,46,226,194,32,384,313,49,Finisher,1387
+Miguel,Ortiz Aguado,Miguel Ortiz Aguado,608,M30-34,Male,Leon,MX-GUA,Mexico,MX,0:37:53,3:17:48,2:33:00,,,6:36:32,2273,11868,9180,194,277,23792,385,314,59,275,224,48,354,294,56,385,314,59,Finisher,1165
+Austin,Fitzgerald,Austin Fitzgerald,678,M30-34,Male,RALEIGH,NC,United States,US,0:37:36,3:21:19,2:26:49,,,6:37:11,2256,12079,8809,355,332,23831,386,315,60,265,214,45,395,329,63,386,315,60,Finisher,1154
+Cyrillus,Michel,Cyrillus Michel,323,M55-59,Male,Cabo San Lucas,Baja California Sur,Switzerland,CH,0:44:00,3:22:33,2:21:39,,,6:37:50,2640,12153,8499,280,298,23870,387,316,16,473,371,22,438,362,19,387,316,16,Finisher,1876
+Juri,Von Bonsdorff,Juri Von Bonsdorff,406,M50-54,Male,Silver Spring,MD,Finland,FI,0:35:04,3:10:06,2:44:41,,,6:37:55,2104,11406,9881,255,228,23875,388,317,33,156,123,14,283,238,25,388,317,33,Finisher,1577
+Adriana,Segura Reyes,Adriana Segura Reyes,420,F45-49,Female,MEXICO,CDMX,Mexico,MX,0:38:09,3:38:44,2:13:55,,,6:38:05,2289,13124,8035,240,196,23885,389,72,13,287,53,8,490,93,18,389,72,13,Finisher,1727
+Jose,Soto Perez,Jose Soto Perez,172,M45-49,Male,San Pedro,Nl,Mexico,MX,0:44:23,3:05:11,2:39:38,,,6:38:08,2663,11111,9578,343,193,23888,390,318,43,483,377,47,324,269,37,390,318,43,Finisher,1703
+Ronaldo,Moya,Ronaldo Moya,448,M45-49,Male,Cuajimalpa,Ciudad de México,Mexico,MX,0:37:32,3:20:50,2:30:25,,,6:38:21,2252,12050,9025,278,296,23901,391,319,44,263,212,26,384,320,42,391,319,44,Finisher,1700
+Fernando,De Caso Aguirre,Fernando De Caso Aguirre,631,M30-34,Male,Celaya,Guanajuato,Mexico,MX,0:39:37,2:53:43,2:55:54,,,6:38:22,2377,10423,10554,284,264,23902,392,320,61,338,271,58,204,177,34,392,320,61,Finisher,1132
+Sergio Karlo,Barrera Manjarrez,Sergio Karlo Barrera Manjarrez,620,M30-34,Male,PUEBLA,,Mexico,MX,0:37:51,3:20:39,2:30:03,,,6:38:30,2271,12039,9003,322,275,23910,393,321,62,272,221,46,390,325,62,393,321,62,Finisher,1130
+Fernanda,Acuna,Fernanda Acuna,553,F35-39,Female,Xalapa,Xalapa veracruz,Mexico,MX,0:39:04,3:49:20,2:01:27,,,6:38:53,2344,13760,7287,243,299,23933,394,73,10,314,59,11,538,107,18,394,73,10,Finisher,1952
+Lisa,Inouye,Lisa Inouye,211,F45-49,Female,Calabasas,CA,Canada,CA,0:42:07,3:28:44,2:21:08,,,6:38:58,2527,12524,8468,165,254,23938,395,74,14,419,88,14,453,80,14,395,74,14,Finisher,1711
+Tarsicio,Hernandez,Tarsicio Hernandez,193,M35-39,Male,Queretaro,Queretaro,Mexico,MX,0:31:55,2:59:20,3:02:03,,,6:39:21,1915,10760,10923,116,248,23961,396,322,50,61,47,4,162,140,23,396,322,50,Finisher,1334
+Andrea,Vargas Mora,Andrea Vargas Mora,579,F35-39,Female,Cartago,Cartago,Costa Rica,CR,0:47:01,3:40:44,2:02:25,,,6:39:27,2821,13244,7345,346,211,23967,397,75,11,541,125,21,543,109,19,397,75,11,Finisher,1941
+Isac,Uba Coto,Isac Uba Coto,609,M30-34,Male,CARTAGO,CARTAGO,Costa Rica,CR,0:47:01,3:40:54,2:02:25,,,6:39:28,2821,13254,7345,342,205,23968,398,323,63,542,417,81,544,435,79,398,323,63,Finisher,1112
+Ricardo,González Rincón,Ricardo González Rincón,537,M35-39,Male,Edo de México,México,Mexico,MX,0:35:44,3:23:38,2:34:37,,,6:39:42,2144,12218,9277,166,178,23982,399,324,51,187,147,22,376,313,48,399,324,51,Finisher,1328
+Victor,Morales,Victor Morales,562,M35-39,Male,Bonita Springs,FL,Mexico,MX,0:51:54,3:12:54,2:28:27,,,6:39:54,3114,11574,8907,152,247,23994,400,325,52,596,460,77,416,347,56,400,325,52,Finisher,1324
+Alex,Coba,Alex Coba,558,M35-39,Male,Quito,Pichincha,Ecuador,EC,0:52:22,3:19:05,2:20:56,,,6:39:55,3142,11945,8456,278,174,23995,401,326,53,598,462,78,469,383,60,401,326,53,Finisher,1324
+Cesar,Mourey Garcia,Cesar Mourey Garcia,423,M45-49,Male,Torreon Coahuila,TORREON,Mexico,MX,0:40:52,3:21:30,2:30:12,,,6:40:02,2452,12090,9012,220,228,24002,402,327,45,375,298,37,406,340,45,402,327,45,Finisher,1669
+Michel,Reyes,Michel Reyes,282,F35-39,Female,,,United States,US,0:47:33,3:27:47,2:14:36,,,6:40:03,2853,12467,8076,300,307,24003,403,76,12,549,126,22,485,91,16,403,76,12,Finisher,1931
+Gerardo,Anceno,Gerardo Anceno,157,M55-59,Male,Guadalajara,Jalisco,Mexico,MX,0:42:29,2:53:06,2:57:16,,,6:40:43,2549,10386,10636,233,239,24043,404,328,17,435,341,18,213,185,7,404,328,17,Finisher,1824
+Jorge Armando,Hernández Ynurreta Mancera,Jorge Armando Hernández Ynurreta Mancera,163,M45-49,Male,Cd del Carmen,Campeche,Mexico,MX,0:37:31,3:21:21,2:31:36,,,6:40:49,2251,12081,9096,377,243,24049,405,329,46,261,211,25,400,334,43,405,329,46,Finisher,1655
+Carlos Alejandro,Gonzalez Martinez Olivares,Carlos Alejandro Gonzalez Martinez Olivares,559,M35-39,Male,Naucalpan de Juárez,México,Mexico,MX,0:41:31,3:31:09,2:18:05,,,6:40:51,2491,12669,8285,327,279,24051,406,330,54,405,322,52,476,389,63,406,330,54,Finisher,1307
+Elena,Escalante,Elena Escalante,191,F35-39,Female,Zapopan,MX-JAL,Mexico,MX,0:42:01,3:16:38,2:34:15,,,6:41:05,2521,11798,9255,235,255,24065,407,77,13,417,87,15,382,64,11,407,77,13,Finisher,1912
+Alfredo,Berlanga,Alfredo Berlanga,322,M55-59,Male,TOLUCA,MEXICO,Mexico,MX,0:38:16,3:42:54,2:06:42,,,6:41:09,2296,13374,7602,354,444,24069,408,331,18,293,239,9,520,417,23,408,331,18,Finisher,1816
+Pablo,Coss,Pablo Coss,513,M40-44,Male,Coyoacan,CDMX,Mexico,MX,0:39:12,3:20:55,2:31:53,,,6:41:10,2352,12055,9113,311,238,24070,409,332,53,322,260,45,401,335,58,409,332,53,Finisher,937
+Jose,Leal Hirales,Jose Leal Hirales,152,M50-54,Male,LA PAZ,BAJA CALIFORNIA SUR,Mexico,MX,0:41:20,3:19:43,2:32:43,,,6:41:24,2480,11983,9163,191,267,24084,410,333,34,397,317,30,394,328,35,410,333,34,Finisher,1514
+Carlos Enrique,Sanchez Benitez Tamayo,Carlos Enrique Sanchez Benitez Tamayo,309,M60-64,Male,MEXICO,Distrito Federal,Mexico,MX,0:38:19,3:18:27,2:35:05,,,6:41:42,2299,11907,9305,304,288,24102,411,334,6,296,241,2,375,312,4,411,334,6,Finisher,2043
+Sergio,Siso,Sergio Siso,185,M35-39,Male,Leon,MX-GUA,Mexico,MX,0:35:10,3:19:02,2:40:36,,,6:41:44,2110,11942,9636,220,196,24104,412,335,55,162,128,18,348,289,45,412,335,55,Finisher,1291
+Luis,Sandoval,Luis Sandoval,473,M40-44,Male,Retalhuleu,Intl State,Guatemala,GT,0:33:51,3:08:05,,,,6:41:48,2031,11285,0,255,0,24108,413,336,54,119,94,11,261,221,38,413,336,54,Finisher,925
+Perry,Larson,Perry Larson,324,M55-59,Male,Highlands Ranch,CO,United States,US,0:39:59,3:00:43,2:44:29,,,6:41:54,2399,10843,9869,448,556,24114,414,337,19,350,279,13,273,230,13,414,337,19,Finisher,1803
+Chandra,Kalke,Chandra Kalke,97,F35-39,Female,Ladysmith,BC,Canada,CA,0:39:51,3:11:47,2:42:09,,,6:41:54,2391,11507,9729,269,217,24114,415,78,14,341,69,13,329,57,9,415,78,14,Finisher,1897
+Hugo,Dominguez Ibarra,Hugo Dominguez Ibarra,780,M40-44,Male,La Paz,Baja California Sur,Mexico,MX,0:39:29,3:21:20,2:32:22,,,6:42:10,2369,12080,9142,259,279,24130,416,338,55,333,267,48,398,332,57,416,338,55,Finisher,919
+Estuardo,Zelada Mencos,Estuardo Zelada Mencos,704,M25-29,Male,Guatemala,Guatemala,Guatemala,GT,0:52:09,3:12:39,2:27:42,,,6:42:12,3129,11559,8862,227,356,24132,417,339,36,597,461,48,429,355,37,417,339,36,Finisher,929
+Honorio,Figueroa Fuentes,Honorio Figueroa Fuentes,528,M40-44,Male,Guadalajara,Jalisco,Mexico,MX,0:41:01,3:16:01,2:36:39,,,6:42:15,2461,11761,9399,171,343,24135,418,340,56,384,305,55,360,299,50,418,340,56,Finisher,917
+Colleen,Ouwendyk,Colleen Ouwendyk,472,F40-44,Female,Owen Sound,ON,Canada,CA,0:41:49,3:20:08,2:30:54,,,6:42:15,2509,12008,9054,274,290,24135,419,79,11,410,85,9,410,67,11,419,79,11,Finisher,1969
+Katie,Macdonald,Katie Macdonald,692,F25-29,Female,Calgary,AB,Canada,CA,0:41:24,3:23:07,2:27:06,,,6:42:16,2484,12187,8826,303,336,24136,420,80,10,401,82,14,434,76,9,420,80,10,Finisher,1429
+Jose Carlos,Sánchez Salgado,Jose Carlos Sánchez Salgado,786,M30-34,Male,Huxquilican ,Estado de México,Mexico,MX,0:41:04,3:21:15,2:25:23,,,6:42:31,2464,12075,8723,430,459,24151,421,341,64,386,307,65,433,358,68,421,341,64,Finisher,1058
+Alejandro Raul,Arena Jacome,Alejandro Raul Arena Jacome,789,M45-49,Male,NAUCALPAN,ESTADO DE MEXICO,Mexico,MX,0:45:57,3:25:33,2:19:05,,,6:42:46,2757,12333,8345,334,397,24166,422,342,47,522,405,52,472,385,51,422,342,47,Finisher,1620
+Will,Pringle,Will Pringle,637,M30-34,Male,San Francisco,CA,United States,US,0:33:31,3:14:39,2:39:46,,,6:43:05,2011,11679,9586,368,542,24185,423,343,65,103,81,16,319,265,50,423,343,65,Finisher,1047
+Kate,Bongiovanni,Kate Bongiovanni,275,F35-39,Female,COLORADO SPGS,CO,United States,US,0:31:55,3:09:34,2:52:28,,,6:43:14,1915,11374,10348,224,332,24194,424,81,15,62,15,2,257,39,6,424,81,15,Finisher,1873
+Andrew,Van Der Kley,Andrew Van Der Kley,469,M40-44,Male,Fort Sask,AB,Canada,CA,0:43:11,3:06:31,2:39:20,,,6:43:25,2591,11191,9560,403,461,24205,425,344,57,452,356,59,333,276,46,425,344,57,Finisher,896
+Araceli,Fernández,Araceli Fernández,551,F35-39,Female,Los Cabos,Baja California Sur,Mexico,MX,0:34:33,3:41:14,2:23:05,,,6:44:22,2073,13274,8585,144,186,24262,426,82,16,144,31,5,477,88,14,426,82,16,Finisher,1853
+Mauro,Mireles  Gutierrez,Mauro Mireles  Gutierrez,295,M60-64,Male,IXTAPALUCA,ESTADO DE MEXICO,Mexico,MX,0:44:09,3:14:13,2:38:42,,,6:44:26,2649,11653,9522,201,241,24266,427,345,7,476,373,7,372,309,3,427,345,7,Finisher,1994
+David,Sanders,David Sanders,348,M50-54,Male,GASTON,OR,United States,US,0:33:41,3:31:19,2:24:29,,,6:45:02,2021,12679,8669,446,488,24302,428,346,35,112,90,12,445,368,40,428,346,35,Finisher,1449
+Lorena Eloisa,Alonso Gutierrez,Lorena Eloisa Alonso Gutierrez,595,F35-39,Female,Ciudad de Mexico,ciudad de mexico,Mexico,MX,0:49:58,3:17:14,2:26:55,,,6:45:02,2998,11834,8815,282,374,24302,429,83,17,578,133,26,440,77,13,429,83,17,Finisher,1841
+Rodolfo,Olachea,Rodolfo Olachea,853,M60-64,Male,,,Mexico,MX,0:38:22,3:30:58,2:28:26,,,6:45:04,2302,12658,8906,210,228,24304,430,347,8,298,243,3,449,370,8,430,347,8,Finisher,1982
+Dana,Platin,Dana Platin,232,F45-49,Female,Denver,CO,United States,US,0:41:25,3:38:25,2:19:55,,,6:46:01,2485,13105,8395,180,196,24361,431,84,15,402,83,12,499,96,19,431,84,15,Finisher,1584
+Raymond,Lévesque,Raymond Lévesque,793,M65-69,Male,St-Hippolyte,QC,Canada,CA,0:43:17,3:05:00,2:50:28,,,6:46:06,2597,11100,10228,215,225,24366,432,348,3,456,359,3,297,248,3,432,348,3,Finisher,2332
+Ericka,Mulder,Ericka Mulder,124,F60-64,Female,Anchorage,AK,United States,US,0:39:27,3:24:46,2:34:41,,,6:46:08,2367,12286,9281,196,238,24368,433,85,1,332,66,2,418,71,2,433,85,1,Finisher,3500
+Francisco,Zepeda,Francisco Zepeda,186,M30-34,Male,leon,leon,Mexico,MX,0:35:59,3:26:21,2:34:41,,,6:46:16,2159,12381,9281,240,316,24376,434,349,66,199,157,36,409,343,66,434,349,66,Finisher,990
+Elizabeth,Reyes,Elizabeth Reyes,196,F40-44,Female,Alvaro Obregón,cdmx,Mexico,MX,0:44:25,3:32:58,2:21:00,,,6:46:21,2665,12778,8460,244,234,24381,435,86,12,489,109,13,494,94,13,435,86,12,Finisher,1895
+Mark,Jones,Mark Jones,276,M25-29,Male,AUSTIN,TX,United States,US,0:32:48,3:11:49,2:53:18,,,6:46:40,1968,11509,10398,258,267,24400,436,350,37,84,64,9,278,234,24,436,350,37,Finisher,849
+Godoy,Alfredo,Godoy Alfredo,516,M40-44,Male,Mexico,CIUDAD DE MEXICO,Mexico,MX,0:41:46,3:14:20,2:40:25,,,6:46:41,2506,11660,9625,319,291,24401,437,351,58,409,325,56,368,306,53,437,351,58,Finisher,837
+Bertha,Vargas,Bertha Vargas,381,F50-54,Female,Mexico,CDMX,Mexico,MX,0:38:10,3:22:53,2:38:19,,,6:46:46,2290,12173,9499,191,253,24406,438,87,3,288,54,2,393,66,3,438,87,3,Finisher,2853
+Stephanie,Brua,Stephanie Brua,652,F30-34,Female,ger,,Ireland,IE,0:42:15,3:29:34,2:25:02,,,6:47:14,2535,12574,8702,300,322,24434,439,88,18,423,91,16,471,87,17,439,88,18,Finisher,1486
+Raul Eduardo,Sequelis Taboada,Raul Eduardo Sequelis Taboada,405,M50-54,Male,"Metepec
+Metepec",Estado de Mexico,Mexico,MX,0:41:50,3:26:23,2:29:59,,,6:47:15,2510,12383,8999,245,298,24435,440,352,36,412,326,32,443,366,39,440,352,36,Finisher,1409
+Daniela,Acuña,Daniela Acuña,524,F40-44,Female,XAlAPA,Xalapa,Mexico,MX,0:48:26,3:53:46,1:56:19,,,6:47:19,2906,14026,6979,234,294,24439,441,89,13,563,131,18,598,129,18,441,89,13,Finisher,1877
+Hector,Cisneros,Hector Cisneros,731,M25-29,Male,Queretaro,Queretaro,Mexico,MX,0:36:59,3:35:44,2:28:33,,,6:47:27,2219,12944,8913,223,148,24447,442,353,38,241,192,25,470,384,39,442,353,38,Finisher,835
+Holly,Ryan,Holly Ryan,439,F45-49,Female,Sugar Land,TX,Australia,AU,0:43:11,3:37:02,2:16:50,,,6:47:39,2591,13022,8210,331,306,24459,443,90,16,452,97,16,514,100,20,443,90,16,Finisher,1555
+Jolanda,Van Schaijk,Jolanda Van Schaijk,431,F45-49,Female,s'Hertogenbosch,North Brabant,Netherlands,NL,0:41:39,3:28:57,2:25:50,,,6:48:02,2499,12537,8750,315,380,24482,444,91,17,408,84,13,468,86,16,444,91,17,Finisher,1548
+Luis Rafael,Vazquez Díaz,Luis Rafael Vazquez Díaz,178,M50-54,Male,cancun,Intl State,Mexico,MX,0:43:24,3:19:51,2:34:04,,,6:48:16,2604,11991,9244,333,325,24496,445,354,37,458,361,36,430,356,37,445,354,37,Finisher,1391
+William,Wiley,William Wiley,122,M55-59,Male,HENDERSON,NV,United States,US,0:37:17,3:05:46,2:57:41,,,6:48:48,2237,11146,10661,202,282,24528,446,355,20,254,204,8,262,222,10,446,355,20,Finisher,1679
+Gerardo,Horta Videgaray,Gerardo Horta Videgaray,552,M35-39,Male,León,Guanajuato,Mexico,MX,0:43:09,3:30:43,2:24:59,,,6:48:58,2589,12643,8699,280,327,24538,447,356,56,450,355,61,482,393,64,447,356,56,Finisher,1161
+Federico,Fong Betancourt,Federico Fong Betancourt,844,M35-39,Male,"Los Mochis, Ahome",Sinaloa,Mexico,MX,1:00:28,3:29:51,2:12:00,,,6:49:08,3628,12591,7920,187,221,24548,448,357,57,624,484,80,542,434,73,448,357,57,Finisher,1158
+Gerardo,Perez Mendoza,Gerardo Perez Mendoza,197,M35-39,Male,Ciudad de México,MX-CMX,Mexico,MX,0:45:45,3:16:29,2:38:57,,,6:49:16,2745,11789,9537,162,323,24556,449,358,58,517,400,66,397,331,53,449,358,58,Finisher,1155
+Alberto,Arrieta,Alberto Arrieta,206,M40-44,Male,Chihuahua,MX-CHH,Mexico,MX,0:40:50,3:16:45,2:39:04,,,6:49:49,2450,11805,9544,286,504,24589,450,359,59,374,297,52,379,316,54,450,359,59,Finisher,781
+Jill,Mcleod,Jill Mcleod,106,F50-54,Female,Anchorage,AK,United States,US,0:43:25,3:28:34,2:28:47,,,6:49:54,2605,12514,8927,231,316,24594,451,92,4,459,98,5,467,85,4,451,92,4,Finisher,2797
+Julieta,Gonzalez Tuchmann,Julieta Gonzalez Tuchmann,797,F55-59,Female,Cabo san Lucas,Los cabos,Mexico,MX,0:40:11,3:41:29,2:20:16,,,6:49:57,2411,13289,8416,193,289,24597,452,93,3,361,74,4,510,99,6,452,93,3,Finisher,2787
+Miguel,Gomez,Miguel Gomez,862,M40-44,Male,san juan del rio,queretaro,Mexico,MX,0:39:58,3:29:07,2:33:45,,,6:50:43,2398,12547,9225,267,206,24643,453,360,60,349,278,50,451,372,63,453,360,60,Finisher,765
+Daniel,Arciniega,Daniel Arciniega,776,M18-24,Male,Dublin,Dublin,Mexico,MX,0:46:13,3:15:20,2:41:50,,,6:50:49,2773,11720,9710,245,201,24649,454,361,13,525,407,14,403,337,11,454,361,13,Finisher,911
+Alejandra,Gonzales,Alejandra Gonzales,456,F45-49,Female,MIAMI,FL,Bolivia,BO,0:36:50,3:37:56,2:27:02,,,6:50:58,2210,13076,8822,261,288,24658,455,94,18,235,47,6,484,90,17,455,94,18,Finisher,1495
+Emanuel,Mireles Lopez,Emanuel Mireles Lopez,782,M30-34,Male,Guadalupe,Nuevo Leon,Mexico,MX,0:34:56,3:59:59,2:10:15,,,6:51:02,2096,14399,7815,190,161,24662,456,362,67,152,119,26,561,444,81,456,362,67,Finisher,904
+Elia,Guzman Manzano,Elia Guzman Manzano,519,F40-44,Female,LOS CABOS,BAJA CALIFORNIA SUR,Mexico,MX,0:51:32,3:55:43,1:56:36,,,6:51:48,3092,14143,6996,256,221,24708,457,95,14,593,136,19,611,134,20,457,95,14,Finisher,1797
+Fernando,Guzman Aguilar,Fernando Guzman Aguilar,462,M45-49,Male,Cancun,Benito Juarez,Mexico,MX,0:42:20,3:43:14,2:14:11,,,6:51:53,2540,13394,8051,352,376,24713,458,363,48,430,337,41,534,429,60,458,363,48,Finisher,1456
+Maria Fernanda,RODRIGUEZ MAZZOCO,Maria Fernanda RODRIGUEZ MAZZOCO,464,M45-49,Female,Puebla,MX-PUE,Mexico,MX,0:47:17,3:37:17,2:18:24,,,6:52:14,2837,13037,8304,325,232,24734,459,364,49,545,420,56,530,426,58,459,364,49,Finisher,1450
+JORGE,RICO,JORGE RICO,404,M50-54,Male,ALVARO OBREGON,MEXICO CITY,Mexico,MX,0:42:28,3:19:40,2:42:36,,,6:52:17,2548,11980,9756,182,272,24737,460,365,38,434,340,33,399,333,36,460,365,38,Finisher,1319
+Edith Thalia,Pollano Fregoso,Edith Thalia Pollano Fregoso,228,F40-44,Female,MAZATLAN,SINALOA,Mexico,MX,0:46:32,3:36:29,2:22:53,,,6:52:46,2792,12989,8573,191,222,24766,461,96,15,532,120,15,516,101,15,461,96,15,Finisher,1779
+Jacob,Dobisesky,Jacob Dobisesky,635,M30-34,Male,Los Angeles,CA,United States,US,0:44:54,3:22:06,2:30:15,,,6:52:47,2694,12126,9015,403,530,24767,462,366,68,503,391,74,454,374,69,462,366,68,Finisher,873
+Edgardo,Mayoral,Edgardo Mayoral,610,M30-34,Male,LOS CABOS,BAJA CALIFORNIA SUR,Mexico,MX,0:54:56,3:16:10,2:33:52,,,6:52:48,3296,11770,9232,235,236,24768,463,367,69,612,473,86,462,380,72,463,367,69,Finisher,872
+Hugo,Sakaguchi Castellanos,Hugo Sakaguchi Castellanos,433,M45-49,Male,Playa del Carmen,Quintana Roo,Mexico,MX,0:55:02,3:19:41,2:29:37,,,6:53:03,3302,11981,8977,250,273,24783,464,368,50,613,474,67,483,394,53,464,368,50,Finisher,1435
+Erik,Garcia Tapia,Erik Garcia Tapia,842,M45-49,Male,Ciudad de Mexico,Ciudad de Mexico,Mexico,MX,0:35:27,3:23:25,2:45:22,,,6:53:08,2127,12205,9922,168,365,24788,465,369,51,176,141,14,370,308,41,465,369,51,Finisher,1433
+Felipe,Echavarria Vera,Felipe Echavarria Vera,633,M30-34,Male,Bogota,cundinamarca,Colombia,CO,1:08:06,3:27:13,2:09:58,,,6:53:40,4086,12433,7798,189,314,24820,466,370,70,631,491,88,564,447,82,466,370,70,Finisher,857
+Ivan,Cano Martinez,Ivan Cano Martinez,614,M30-34,Male,Getxo,BIZKAIA,Spain,ES,0:36:44,3:03:40,3:08:08,,,6:53:41,2204,11020,11288,170,140,24821,467,371,71,234,188,39,239,205,40,467,371,71,Finisher,857
+Owen,Hayden,Owen Hayden,696,M25-29,Male,RALEIGH,NC,United States,US,0:39:37,3:40:12,2:25:27,,,6:53:51,2377,13212,8727,264,251,24831,468,372,39,337,270,31,508,410,42,468,372,39,Finisher,719
+Manuel Angel,Echeverria Alejo,Manuel Angel Echeverria Alejo,149,M25-29,Male,Monterrey,Nuevo Leon,Mexico,MX,0:43:44,3:07:19,2:53:58,,,6:54:15,2624,11239,10438,263,291,24855,469,373,40,464,365,40,326,270,27,469,373,40,Finisher,712
+Jonathan,Colgan,Jonathan Colgan,754,M18-24,Male,Minneapolis,MN,United States,US,0:49:19,3:37:05,2:18:37,,,6:54:37,2959,13025,8317,320,256,24877,470,374,14,573,442,15,537,431,14,470,374,14,Finisher,842
+Hideaki,Inoue,Hideaki Inoue,330,M55-59,Male,Minato-ku,JP-13,Japan,JP,0:40:03,3:27:59,2:36:32,,,6:55:05,2403,12479,9392,382,249,24905,471,375,21,353,282,14,459,377,20,471,375,21,Finisher,1565
+Mckenzy,Brown,Mckenzy Brown,600,F35-39,Female,Telluride,CO,United States,US,0:48:17,3:25:01,2:32:55,,,6:55:24,2897,12301,9175,301,251,24924,472,97,18,562,130,24,479,89,15,472,97,18,Finisher,1654
+John,Allen,John Allen,299,M70-74,Male,LEAWOOD,KS,United States,US,0:49:17,3:26:52,2:27:19,,,6:55:28,2957,12412,8839,431,289,24928,473,376,2,572,441,2,503,406,2,473,376,2,Finisher,2920
+Mary,Schmitz,Mary Schmitz,247,F55-59,Female,SOLANA BEACH,CA,United States,US,0:44:25,3:37:20,2:24:30,,,6:55:37,2665,13040,8670,378,184,24937,474,98,4,488,108,6,523,104,7,474,98,4,Finisher,2685
+Mark,Song,Mark Song,65,M65-69,Male,San Clemente,CA,United States,US,0:35:46,3:20:45,2:48:43,,,6:55:43,2146,12045,10123,282,348,24943,475,377,4,190,150,1,365,304,4,475,377,4,Finisher,2159
+Chris,Ryan,Chris Ryan,418,M45-49,Male,Sugar Land,TX,United States,US,0:56:41,3:25:44,2:19:11,,,6:55:56,3401,12344,8351,476,384,24956,476,378,52,620,480,70,532,427,59,476,378,52,Finisher,1383
+Jose Luis,Meza Cervantes,Jose Luis Meza Cervantes,572,M35-39,Male,Guadalajara,Jalisco,Mexico,MX,0:40:12,3:23:09,2:43:28,,,6:56:17,2412,12189,9808,304,263,24977,477,379,59,362,288,44,427,353,58,477,379,59,Finisher,1029
+Juan Pedro,Leal De La Torre,Juan Pedro Leal De La Torre,668,M30-34,Male,Zapopan,Jalisco,Mexico,MX,0:41:14,3:33:48,2:27:37,,,6:57:02,2474,12828,8857,367,496,25022,478,380,72,393,313,66,492,399,75,478,380,72,Finisher,796
+Lorraine,Christian,Lorraine Christian,125,F55-59,Female,Utah,foreigner,United States,US,0:45:59,3:30:40,2:31:13,,,6:57:07,2759,12640,9073,384,172,25027,479,99,5,523,118,7,500,97,5,479,99,5,Finisher,2658
+Carlos,Valero Alcantara,Carlos Valero Alcantara,450,M45-49,Male,,,Spain,ES,0:37:39,3:27:25,2:37:03,,,6:57:19,2259,12445,9423,431,480,25039,480,381,53,268,217,27,442,365,49,480,381,53,Finisher,1358
+Carlos,Badillo,Carlos Badillo,436,M45-49,Male,Puebla,PUE,Mexico,MX,0:51:25,3:34:45,2:19:56,,,6:57:49,3085,12885,8396,333,371,25069,481,382,54,592,457,63,536,430,61,481,382,54,Finisher,1349
+Esteban,Juarez,Esteban Juarez,601,M35-39,Male,Ciudad de Mexico,Ciudad de Mexico,Mexico,MX,0:51:35,3:07:15,2:50:53,,,6:58:13,3095,11235,10253,228,282,25093,482,383,60,594,458,76,383,319,49,482,383,60,Finisher,994
+Adriana,Martínez,Adriana Martínez,102,F30-34,Female,Mexico,CMX,Mexico,MX,0:44:55,3:48:06,2:16:13,,,6:58:14,2695,13686,8173,264,276,25094,483,100,19,505,114,22,560,117,22,483,100,19,Finisher,1288
+Ricardo,Jimenez,Ricardo Jimenez,284,M35-39,Male,Mexico,Mexico,Mexico,MX,0:41:03,3:14:47,2:52:51,,,6:58:38,2463,11687,10371,195,401,25118,484,384,61,385,306,47,357,297,47,484,384,61,Finisher,987
+Derek,Porter ,Derek Porter,189,M45-49,Male,North Vancouver,BC,Canada,CA,0:43:20,3:33:39,2:28:25,,,6:58:54,2600,12819,8905,489,321,25134,485,385,55,457,360,45,512,413,56,485,385,55,Finisher,1330
+Ian,Quist,Ian Quist,262,M45-49,Male,Lion's Head,ON,Canada,CA,0:45:04,3:18:24,2:47:29,,,6:59:12,2704,11904,10049,228,266,25152,486,386,56,509,395,51,415,346,46,486,386,56,Finisher,1324
+Luz,Gonzalez,Luz Gonzalez,496,F40-44,Female,Benito Juarez,MX-CMX,Micronesia,FM,0:47:44,3:51:05,2:08:58,,,6:59:30,2864,13865,7738,439,264,25170,487,101,16,552,129,17,599,130,19,487,101,16,Finisher,1658
+Martha Fernanda,Gonzalez  Solache,Martha Fernanda Gonzalez  Solache,426,F45-49,Female,Alvaro Obregon,Mexico City,Mexico,MX,0:35:24,3:28:56,2:38:52,,,6:59:51,2124,12536,9532,292,707,25191,488,102,19,174,35,4,432,75,13,488,102,19,Finisher,1335
+Lenin Ernesto,Verdugo Olvera,Lenin Ernesto Verdugo Olvera,779,M35-39,Male,La pazLa paz,BCS,Mexico,MX,0:44:58,3:13:10,2:50:10,,,7:00:05,2698,11590,10210,313,395,25205,489,387,62,507,393,65,386,322,50,489,387,62,Finisher,961
+Mario,Violante,Mario Violante,527,M40-44,Male,DF,,Mexico,MX,0:35:39,3:27:05,2:51:03,,,7:00:20,2139,12425,10263,132,263,25220,490,388,61,183,144,22,396,330,56,490,388,61,Finisher,700
+Leonardo Rogelio,Lopez Álvarez,Leonardo Rogelio Lopez Álvarez,773,M18-24,Male,Ciudad de México,Ciudad de México,Mexico,MX,0:38:21,3:43:47,2:29:07,,,7:00:42,2301,13427,8947,263,304,25242,491,389,15,297,242,10,518,416,13,491,389,15,Finisher,733
+Mario,Ordoñez Rodriguez,Mario Ordoñez Rodriguez,408,M50-54,Male,Álvaro Obregón,CD.MX.,Mexico,MX,0:38:27,3:52:16,2:22:42,,,7:00:44,2307,13936,8562,212,226,25244,492,390,39,301,245,21,549,438,45,492,390,39,Finisher,1166
+Timothy,Colson,Timothy Colson,402,M50-54,Male,Long Beach,CA,United States,US,0:43:32,3:21:06,2:45:22,,,7:01:12,2612,12066,9922,384,287,25272,493,391,40,461,362,37,437,361,38,493,391,40,Finisher,1158
+Enrique,Vera,Enrique Vera,634,M30-34,Male,Waterloo,ON,Ecuador,EC,0:49:22,3:33:45,2:28:27,,,7:02:25,2962,12825,8907,269,382,25345,494,392,73,574,443,84,521,418,77,494,392,73,Finisher,700
+Carlos,Sandoval,Carlos Sandoval,379,M50-54,Male,Guatemala.,Guatemala city,Guatemala,GT,0:52:52,3:31:19,2:27:16,,,7:02:31,3172,12679,8836,273,391,25351,495,393,41,602,465,51,527,423,43,495,393,41,Finisher,1134
+Iris,Lyon,Iris Lyon,346,F55-59,Female,Redondo Beach,CA,United States,US,0:40:04,3:23:42,2:51:45,,,7:02:33,2404,12222,10305,206,216,25353,496,103,6,354,72,3,414,69,3,496,103,6,Finisher,2560
+Diana Erendira,Cesena Aripez,Diana Erendira Cesena Aripez,861,F40-44,Female,CABO SAN LUCAS,LOS CABOS,Mexico,MX,0:47:34,3:33:51,2:33:27,,,7:03:50,2854,12831,9207,299,239,25430,497,104,17,550,127,16,517,102,16,497,104,17,Finisher,1580
+Roberto,Arellano,Roberto Arellano,761,M18-24,Male,Elk Grove,CA,United States,US,1:00:03,3:30:46,2:19:59,,,7:04:35,3603,12646,8399,449,377,25475,498,394,16,623,483,16,562,445,15,498,394,16,Finisher,700
+Charlie,Hazlehurst,Charlie Hazlehurst,395,M30-34,Male,SAN FRANCISCO,CA,United States,US,0:46:12,3:13:11,2:49:36,,,7:05:03,2772,11591,10176,466,497,25503,499,395,74,524,406,78,413,345,67,499,395,74,Finisher,700
+Francisco,Penafort,Francisco Penafort,523,M40-44,Male,df,df,Mexico,MX,0:46:24,3:46:31,2:22:08,,,7:05:04,2784,13591,8528,415,186,25504,500,396,62,529,410,65,568,451,69,500,396,62,Finisher,700
+Mauricio,Ayala,Mauricio Ayala,287,M40-44,Male,monterrey,NLE,Mexico,MX,0:48:13,3:32:56,2:33:21,,,7:05:15,2893,12776,9201,229,416,25515,501,397,63,561,432,66,511,412,68,501,397,63,Finisher,700
+José Luis ,Castro Vera ,José Luis Castro Vera,544,M35-39,Male,Apodaca,,Mexico,MX,0:38:16,3:45:54,2:31:46,,,7:05:15,2296,13554,9106,273,286,25515,502,398,63,295,240,39,526,422,71,502,398,63,Finisher,868
+Lorena,Romo,Lorena Romo,867,F35-39,Female,cancun,quintana roo,Mexico,MX,0:49:37,3:35:53,2:28:37,,,7:05:25,2977,12953,8917,364,315,25525,503,105,19,575,132,25,535,106,17,503,105,19,Finisher,1474
+Christine,Doucet,Christine Doucet,254,F45-49,Female,Shawinigan,QC,Canada,CA,0:43:45,3:25:43,2:45:19,,,7:06:10,2625,12343,9919,342,341,25570,504,106,20,465,100,17,463,83,15,504,106,20,Finisher,1222
+Brenda,Bettencourt,Brenda Bettencourt,847,F60-64,Female,Kailua-Kona,HI,United States,US,0:38:25,3:23:36,2:55:10,,,7:07:30,2305,12216,10510,304,315,25650,505,107,2,299,56,1,412,68,1,505,107,2,Finisher,3115
+Antonio Amajud,Hernandez Montoya,Antonio Amajud Hernandez Montoya,611,M30-34,Male,Estado de MéxicoLa Concordia,Naucalpan,Mexico,MX,0:36:24,3:23:52,3:01:21,,,7:07:39,2184,12232,10881,212,150,25659,506,399,75,217,173,38,388,323,61,506,399,75,Finisher,700
+Rodrigo,Becerril,Rodrigo Becerril,132,M45-49,Male,La Magdalena Contreras,CMX,Mexico,MX,0:44:47,3:59:38,2:14:53,,,7:08:35,2687,14378,8093,293,264,25715,507,400,57,501,389,50,606,473,68,507,400,57,Finisher,1155
+Coby,Rudolph,Coby Rudolph,530,M40-44,Male,Seattle,WA,United States,US,0:34:22,3:33:13,2:48:17,,,7:08:50,2062,12793,10097,400,378,25730,508,401,64,136,109,15,458,376,64,508,401,64,Finisher,700
+Miguel Angel,Lopez Castro,Miguel Angel Lopez Castro,715,M25-29,Male,Ciudad del Carmen,4,Mexico,MX,0:44:36,3:18:03,2:54:23,,,7:09:17,2676,11883,10463,348,388,25757,509,402,41,495,384,44,428,354,36,509,402,41,Finisher,700
+Jared,Galbut,Jared Galbut,576,M35-39,Male,MIAMI BEACH,FL,United States,US,0:44:06,3:15:30,2:56:45,,,7:09:58,2646,11730,10605,390,427,25798,510,403,64,474,372,63,407,341,54,510,403,64,Finisher,783
+Javier,Macias,Javier Macias,190,M35-39,Male,Guadalajara,Jalisco,Mexico,MX,0:41:09,3:36:33,2:44:14,,,7:11:08,2469,12993,9854,230,321,25868,511,404,65,391,312,50,495,401,69,511,404,65,Finisher,762
+Minerva,Aguilar Marquez,Minerva Aguilar Marquez,676,F30-34,Female,la paz,baja california sur,Mexico,MX,0:53:31,3:37:15,2:31:38,,,7:11:26,3211,13035,9098,255,287,25886,512,108,20,607,138,25,551,112,20,512,108,20,Finisher,1051
+Maribel,Barajas Trigo,Maribel Barajas Trigo,796,F35-39,Female,TORREON,COAHUILA,Mexico,MX,0:46:43,3:46:55,2:25:56,,,7:11:30,2803,13615,8756,217,499,25890,513,109,20,535,121,20,559,116,20,513,109,20,Finisher,1364
+Robert,Straavaldson,Robert Straavaldson,127,M50-54,Male,Bonney Lake,WA,United States,US,0:31:49,3:23:09,3:07:13,,,7:11:32,1909,12189,11233,245,316,25892,514,405,42,58,45,5,356,296,32,514,405,42,Finisher,972
+Jose,Barela,Jose Barela,533,M40-44,Male,ST AUGUSTINE,FL,United States,US,0:44:42,3:24:48,2:50:28,,,7:12:08,2682,12288,10228,349,381,25928,515,406,65,498,386,63,464,381,65,515,406,65,Finisher,700
+Gustavo,Virgen Villagómez,Gustavo Virgen Villagómez,665,M30-34,Male,Monterrey,NUEVO LEON,Mexico,MX,0:38:48,3:51:51,2:36:27,,,7:12:59,2328,13911,9387,197,157,25979,516,407,76,309,251,54,546,437,80,516,407,76,Finisher,700
+Gabriel,Pinedo,Gabriel Pinedo,642,M30-34,Male,NEW YORK,NY,Mexico,MX,0:40:44,4:06:25,2:14:13,,,7:13:17,2444,14785,8053,374,342,25997,517,408,77,373,296,63,615,481,86,517,408,77,Finisher,700
+Eduardo,Ocampo,Eduardo Ocampo,430,M45-49,Male,mexico,Mexico,Mexico,MX,0:48:35,3:30:03,2:47:22,,,7:13:39,2915,12603,10042,277,183,26019,518,409,58,565,434,59,502,405,55,518,409,58,Finisher,1064
+Charles,Cormier,Charles Cormier,736,M25-29,Male,Bromont,QC,Canada,CA,0:53:14,3:43:12,2:25:55,,,7:14:14,3194,13392,8755,391,320,26054,519,410,42,605,468,50,583,461,46,519,410,42,Finisher,700
+Lety,Gaxiola,Lety Gaxiola,260,F45-49,Female,ZAPOPAN,JALISCO,Mexico,MX,0:45:05,3:38:38,2:35:30,,,7:14:17,2705,13118,9330,381,522,26057,520,110,21,511,116,21,531,105,21,520,110,21,Finisher,1076
+Francisco,Morales,Francisco Morales,538,M35-39,Male,Mexico,CMX,Mexico,MX,0:42:31,3:32:19,2:48:15,,,7:14:52,2551,12739,10095,378,330,26092,521,411,66,436,342,57,491,398,67,521,411,66,Finisher,700
+Ben,Brain,Ben Brain,256,M30-34,Male,HOUSTON,TX,United Kingdom,GB,0:35:22,3:25:39,3:05:42,,,7:15:03,2122,12339,11142,280,220,26103,522,412,78,172,138,31,404,338,65,522,412,78,Finisher,700
+Savannah,Young,Savannah Young,784,F25-29,Female,Atlanta,GA,United States,US,0:33:46,3:55:14,2:35:11,,,7:15:25,2026,14114,9311,215,458,26125,523,111,11,117,24,6,540,108,11,523,111,11,Finisher,833
+Vanessa,Velázquez Ramírez,Vanessa Velázquez Ramírez,195,F45-49,Female,"Colonia Insurgentes Cuicuilco, Mexico DF",Mexico DF,Mexico,MX,0:45:05,3:45:12,2:37:31,,,7:15:55,2705,13512,9451,226,260,26155,524,112,22,510,115,20,548,111,22,524,112,22,Finisher,1046
+Vicente,Miranda,Vicente Miranda,414,M50-54,Male,Tyrone,GA,United States,US,0:47:19,3:31:58,2:48:12,,,7:16:20,2839,12718,10092,256,274,26180,525,413,43,546,421,43,505,408,42,525,413,43,Finisher,886
+Israel,Reyes,Israel Reyes,474,M40-44,Male,Tijuana,MX-BCN,Mexico,MX,0:57:23,3:36:52,2:29:13,,,7:17:00,3443,13012,8953,482,331,26220,526,414,66,621,481,71,579,459,70,526,414,66,Finisher,700
+Juan Carlos,Dominguez Garcia,Juan Carlos Dominguez Garcia,594,M35-39,Male,Azcapotzalco,CIUDAD DE MEXICO,Mexico,MX,0:56:02,3:41:57,2:30:11,,,7:17:51,3362,13317,9011,267,315,26271,527,415,67,618,478,79,581,460,76,527,415,67,Finisher,700
+Pierre,Gingras,Pierre Gingras,252,M65-69,Male,Saint Jean des Piles,QC,Canada,CA,0:44:10,3:18:38,3:05:41,,,7:18:53,2650,11918,11141,300,324,26333,528,416,5,477,374,4,419,348,6,528,416,5,Finisher,1742
+Rosio,Barrera Amador,Rosio Barrera Amador,856,F40-44,Female,BAJA CALIFORNIA SUR,MEXICO,Mexico,MX,0:43:52,3:33:02,2:53:05,,,7:19:19,2632,12782,10385,215,345,26359,529,113,18,466,101,12,487,92,12,529,113,18,Finisher,1301
+Miguel,Barba González,Miguel Barba González,334,M45-49,Male,Zapopan,Jalisco,Mexico,MX,0:46:37,3:25:32,2:55:02,,,7:19:47,2797,12332,10502,372,384,26387,530,417,59,533,413,54,480,391,52,530,417,59,Finisher,954
+Dan,Amaro,Dan Amaro,535,M40-44,Male,Mexicali,Baja California,Mexico,MX,1:02:29,3:45:48,2:24:40,,,7:19:49,3749,13548,8680,234,178,26389,531,418,67,627,487,73,612,478,73,531,418,67,Finisher,700
+Joseph,Pisciotta,Joseph Pisciotta,660,M30-34,Male,PITTSBURGH,PA,United States,US,0:38:14,3:30:29,3:01:06,,,7:20:03,2294,12629,10866,348,266,26403,532,419,79,292,238,52,460,378,70,532,419,79,Finisher,700
+Luis Horacio,Aguilera Camacho,Luis Horacio Aguilera Camacho,451,M45-49,Male,Ensenada,Baja California,Mexico,MX,0:44:44,3:43:03,2:43:40,,,7:20:50,2684,13383,9820,283,279,26450,533,420,60,500,388,49,539,432,62,533,420,60,Finisher,935
+James,Barrett,James Barrett,194,M55-59,Male,las vegas,NV,United States,US,0:43:58,3:42:13,2:42:14,,,7:21:08,2638,13333,9734,392,371,26468,534,421,22,470,369,20,541,433,27,534,421,22,Finisher,1097
+Manuel,Cáder,Manuel Cáder,217,M25-29,Male,SMYRNA,TN,El Salvador,SV,0:34:00,4:04:41,2:32:40,,,7:21:34,2040,14681,9160,343,270,26494,535,422,43,125,99,17,591,466,47,535,422,43,Finisher,700
+Javier,Tellez Garzo,Javier Tellez Garzo,453,M45-49,Male,HUIXQUILUCAN,MEX,Spain,ES,0:37:57,3:27:20,3:00:52,,,7:21:42,2277,12440,10852,415,518,26502,536,423,61,278,227,29,441,364,48,536,423,61,Finisher,919
+Fernando,Tamez,Fernando Tamez,458,M45-49,Male,El Paso,TX,United States,US,0:38:43,3:30:44,2:59:01,,,7:22:08,2323,12644,10741,255,564,26528,537,424,62,307,249,31,455,375,50,537,424,62,Finisher,911
+Francisco,Torres,Francisco Torres,454,M45-49,Male,CDMX,Cuauhtémoc,Mexico,MX,0:56:31,3:37:45,2:35:40,,,7:22:21,3391,13065,9340,360,385,26541,538,425,63,619,479,69,572,454,64,538,425,63,Finisher,908
+Curtis,Lemieux,Curtis Lemieux,320,M55-59,Male,Trail,BC,Canada,CA,0:58:44,3:20:09,2:47:09,,,7:22:31,3524,12009,10029,523,465,26551,539,426,23,622,482,30,522,419,24,539,426,23,Finisher,1072
+Darrell,Thomas,Darrell Thomas,378,M50-54,Male,Colmesneil,TX,United States,US,0:47:55,3:27:21,2:57:14,,,7:22:58,2875,12441,10634,308,319,26578,540,427,44,557,428,44,486,395,41,540,427,44,Finisher,766
+William,Cassity,William Cassity,301,M65-69,Male,TEHACHAPI,CA,United States,US,0:49:43,3:07:52,3:16:11,,,7:23:23,2983,11272,11771,248,329,26603,541,428,6,577,445,6,373,310,5,541,428,6,Finisher,1661
+Manuel,Novoa Solano,Manuel Novoa Solano,583,M35-39,Male,BOCA DEL RIO,VERACRUZ,Mexico,MX,0:34:54,3:50:53,2:49:18,,,7:25:24,2094,13853,10158,236,383,26724,542,429,68,149,118,16,528,424,72,542,429,68,Finisher,700
+Andrea,Avila,Andrea Avila,626,F30-34,Female,Guatemala,Guatemala,Guatemala,GT,0:42:18,3:47:53,2:45:32,,,7:25:34,2538,13673,9932,302,288,26734,543,114,21,427,93,18,553,114,21,543,114,21,Finisher,796
+Ruben,Colmenares,Ruben Colmenares,705,M25-29,Male,Ciudad de Mexico,Distrito Federal,Venezuela,VE,0:42:39,3:54:52,2:36:21,,,7:25:53,2559,14092,9381,429,291,26753,544,430,44,440,346,35,592,467,48,544,430,44,Finisher,700
+Clinton,Suber,Clinton Suber,575,M35-39,Male,Van nuys,CA,United States,US,0:42:11,3:30:19,3:03:34,,,7:26:02,2531,12619,11014,309,288,26762,545,431,69,420,332,53,475,388,62,545,431,69,Finisher,700
+Ileana,Ortiz,Ileana Ortiz,226,F35-39,Female,San Jose del Cabo,Baja California Sur,Mexico,MX,0:35:33,4:04:14,2:37:37,,,7:26:42,2133,14654,9457,267,290,26802,546,115,21,178,37,8,590,125,22,546,115,21,Finisher,1091
+Murray,Sinclair,Murray Sinclair,321,M55-59,Male,Vancouver,BC,Canada,CA,0:47:47,3:32:05,2:53:36,,,7:27:45,2867,12725,10416,525,333,26865,547,432,24,553,424,25,524,420,25,547,432,24,Finisher,977
+Mitsuyuki ,Egawa,Mitsuyuki Egawa,484,M40-44,Male,IRAPUATO,,Japan,JP,0:50:43,3:21:56,3:04:13,,,7:27:50,3043,12116,11053,291,367,26870,548,433,68,587,453,68,474,387,66,548,433,68,Finisher,700
+Ivan,Carrasco Chavez,Ivan Carrasco Chavez,219,M35-39,Male,Tlalpan,CMX,Mexico,MX,0:41:27,3:28:01,3:07:52,,,7:27:51,2487,12481,11272,247,383,26871,549,434,70,404,321,51,452,373,59,549,434,70,Finisher,700
+Carlos,Garza Snydelaar,Carlos Garza Snydelaar,409,M50-54,Male,Cd. del Carmen,Campeche,Mexico,MX,0:50:05,3:43:22,2:44:10,,,7:28:28,3005,13402,9850,186,466,26908,550,435,45,580,447,47,557,442,47,550,435,45,Finisher,700
+Stanley,Wright,Stanley Wright,369,M50-54,Male,Houston,TX,United States,US,0:47:01,3:40:12,2:42:34,,,7:29:13,2821,13212,9754,675,493,26953,551,436,46,540,416,42,563,446,48,551,436,46,Finisher,700
+Ramon,Ruiz Campos,Ramon Ruiz Campos,488,M40-44,Male,VERACRUZ,VERACRUZ,Mexico,MX,0:40:55,3:26:40,3:10:35,,,7:30:06,2455,12400,11435,330,387,27006,552,437,69,377,300,53,450,371,62,552,437,69,Finisher,700
+Kevin,Pannier,Kevin Pannier,656,M30-34,Male,Le Perray,,France,FR,0:39:53,3:33:30,3:06:36,,,7:30:22,2393,12810,11196,295,328,27022,553,438,80,344,275,59,478,390,74,553,438,80,Finisher,700
+Carlos,Herrera,Carlos Herrera,416,M45-49,Male,Los Cabos,BAJA CALIFORNIA SUR,Mexico,MX,0:50:11,3:50:22,2:38:35,,,7:31:22,3011,13822,9515,417,318,27082,554,439,64,581,448,62,603,472,67,554,439,64,Finisher,745
+Victor Alejandro,Chiapa Castro,Victor Alejandro Chiapa Castro,227,M30-34,Male,La Paz,BCS,Mexico,MX,0:35:50,3:33:26,3:10:39,,,7:31:24,2150,12806,11439,385,302,27084,555,440,81,193,152,34,466,382,73,555,440,81,Finisher,700
+Hugo,Mendoza Suarez,Hugo Mendoza Suarez,326,M55-59,Male,San juan del rio,QUERETARO,Mexico,MX,0:44:53,3:47:57,2:46:12,,,7:31:40,2693,13677,9972,402,356,27100,556,441,25,502,390,23,566,449,30,556,441,25,Finisher,907
+John,Hofs,John Hofs,316,M55-59,Male,Fort Saskatchewan,AB,Canada,CA,0:43:59,3:36:19,2:59:01,,,7:31:41,2639,12979,10741,353,389,27101,557,442,26,471,370,21,515,415,22,557,442,26,Finisher,907
+Luis Rafael,Montanaro Sánchez,Luis Rafael Montanaro Sánchez,407,M50-54,Male,Huixquilucan,Estado de Mexico,Mexico,MX,0:52:29,3:34:21,2:48:20,,,7:31:51,3149,12861,10100,421,579,27111,558,443,47,599,463,50,545,436,44,558,443,47,Finisher,700
+Braden,L'Amoreaux,Braden L'Amoreaux,632,M30-34,Male,Indian Land,SC,United States,US,0:41:59,3:35:53,3:04:21,,,7:31:54,2519,12953,11061,344,237,27114,559,444,82,416,330,68,506,409,76,559,444,82,Finisher,700
+Jamie,Arce,Jamie Arce,240,M45-49,,Elkhart,Indiana,United States,US,0:42:16,3:18:41,3:20:18,,,7:32:02,2536,11921,12018,285,362,27122,560,445,65,426,334,40,405,339,44,560,445,65,Finisher,733
+Moises,Soto Reyes,Moises Soto Reyes,685,M25-29,Male,Tijuana,BC,Mexico,MX,0:53:11,3:48:01,2:39:35,,,7:32:07,3191,13681,9575,320,360,27127,561,446,45,604,467,49,601,471,49,561,446,45,Finisher,700
+Escobedo Hernandez,Juan Pablo,Escobedo Hernandez Juan Pablo,794,M40-44,Male,Toluca,Estado de México,Mexico,MX,0:45:57,3:57:15,2:33:31,,,7:32:31,2757,14235,9211,424,523,27151,562,447,70,521,404,64,608,475,72,562,447,70,Finisher,700
+Oscar Armando,Vazquez Vargas,Oscar Armando Vazquez Vargas,591,M35-39,Male,Mexico DF,Benito Juarez,Mexico,MX,0:45:50,3:52:06,2:49:10,,,7:34:27,2750,13926,10150,231,210,27267,563,448,71,520,403,67,575,456,75,563,448,71,Finisher,700
+Jose Alberto,Herrera Quiroga,Jose Alberto Herrera Quiroga,735,M25-29,Male,Monterrey,Nuevo León,Mexico,MX,0:39:36,3:54:46,2:46:08,,,7:35:01,2376,14086,9968,462,409,27301,564,449,46,336,269,30,578,458,45,564,449,46,Finisher,700
+Jonathan,Pierce,Jonathan Pierce,586,M35-39,Male,AUSTIN,TX,United States,US,0:42:19,3:44:28,2:50:25,,,7:35:01,2539,13468,10225,563,505,27301,565,450,72,429,336,55,556,441,74,565,450,72,Finisher,700
+Irene,López Gutiérrez,Irene López Gutiérrez,728,F25-29,Female,Santiago,Nuevo León,Mexico,MX,0:41:01,3:56:53,2:45:38,,,7:35:05,2461,14213,9938,332,360,27305,566,116,12,383,79,13,587,124,14,566,116,12,Finisher,700
+Marco,Alvarez,Marco Alvarez,859,M55-59,Male,Bahía de Banderas,Nayarit,Mexico,MX,0:50:52,3:32:51,2:57:11,,,7:35:05,3052,12771,10631,432,419,27305,567,451,27,589,455,29,533,428,26,567,451,27,Finisher,845
+Carson,Drake,Carson Drake,694,M25-29,Male,Los Angeles,CA,United States,US,0:41:18,3:39:30,2:57:43,,,7:35:26,2478,13170,10663,541,474,27326,568,452,47,394,314,34,529,425,43,568,452,47,Finisher,700
+Lupe,Fernandez,Lupe Fernandez,271,F30-34,Female,oceanside,CA,United States,US,0:46:56,3:49:15,2:50:24,,,7:35:36,2816,13755,10224,239,302,27336,569,117,22,538,123,24,570,118,23,569,117,22,Finisher,700
+Juan Carlos,Alvarez Vela,Juan Carlos Alvarez Vela,693,M25-29,Male,durango,durango,Mexico,MX,0:50:30,3:50:41,2:36:34,,,7:36:20,3030,13841,9394,572,543,27380,570,453,48,585,451,47,609,476,50,570,453,48,Finisher,700
+Siria Guizhet,Torres Guerrero,Siria Guizhet Torres Guerrero,510,F40-44,Female,manzanillo,colima,Mexico,MX,0:39:58,3:37:36,3:10:26,,,7:37:41,2398,13056,11426,288,294,27461,571,118,19,348,71,6,497,95,14,571,118,19,Finisher,971
+Scott,Price,Scott Price,205,M30-34,Male,SHELBY TWP,MI,United States,US,1:05:22,3:29:17,2:53:33,,,7:37:44,3922,12557,10413,326,247,27464,572,454,83,629,489,87,569,452,84,572,454,83,Finisher,700
+Laura,Miller,Laura Miller,238,F50-54,Female,BIDWELL,OH,United States,US,0:46:19,3:54:19,2:46:36,,,7:37:58,2779,14059,9996,303,340,27478,573,119,5,528,119,7,596,127,7,573,119,5,Finisher,1932
+Talal,Khan,Talal Khan,422,M45-49,Male,OVERLAND PARK,KS,United States,US,0:47:53,3:46:00,2:52:01,,,7:38:15,2873,13560,10321,383,359,27495,574,455,66,556,427,57,571,453,63,574,455,66,Finisher,700
+J.Uriel,Torres,J.Uriel Torres,543,M35-39,Male,Lomas taurinas,APO,Mexico,MX,0:46:17,3:32:00,3:10:35,,,7:38:23,2777,12720,11435,179,393,27503,575,456,73,526,408,68,493,400,68,575,456,73,Finisher,700
+Ander,Iruretagoyena,Ander Iruretagoyena,740,M25-29,Male,CHICAGO,IL,Mexico,MX,0:43:58,3:31:11,3:07:53,,,7:39:51,2638,12671,11273,449,559,27591,576,457,49,469,368,41,498,403,41,576,457,49,Finisher,700
+Carolina,Orellana-Rosell,Carolina Orellana-Rosell,539,F35-39,Female,LITTLETON,CO,Spain,ES,0:43:11,3:59:27,2:42:50,,,7:40:09,2591,14367,9770,376,505,27609,577,120,22,451,96,17,605,133,25,577,120,22,Finisher,849
+Rachel,Scheller,Rachel Scheller,589,F35-39,Female,Durham,NC,United States,US,0:40:41,3:59:42,2:49:18,,,7:40:30,2441,14382,10158,313,336,27630,578,121,23,370,77,14,595,126,23,578,121,23,Finisher,842
+Indra,Chazaro Koi,Indra Chazaro Koi,548,F35-39,Female,VERACRUZ,VERACRUZ,Mexico,MX,0:52:37,4:05:20,2:33:46,,,7:40:39,3157,14720,9226,232,305,27639,579,122,24,600,137,27,623,137,28,579,122,24,Finisher,840
+Susan,Kirk,Susan Kirk,234,F50-54,Female,Cupertino,CA,United States,US,0:44:14,3:34:38,3:08:54,,,7:40:40,2654,12878,11334,462,312,27640,580,123,6,480,106,6,519,103,5,580,123,6,Finisher,1883
+Edgar,Valenzuela Ponce,Edgar Valenzuela Ponce,636,M30-34,Male,Miguel Hidalgo,Ciudad de México,Mexico,MX,0:38:00,3:45:01,3:01:38,,,7:40:40,2280,13501,10898,341,620,27640,581,458,84,284,233,50,525,421,78,581,458,84,Finisher,700
+Marcos,Cardiel Palasios,Marcos Cardiel Palasios,154,M35-39,Male,Los Cabos,Baja California Sur,Mexico,MX,1:08:17,3:40:22,2:42:20,,,7:40:43,4097,13222,9740,283,301,27643,582,459,74,633,492,81,614,480,80,582,459,74,Finisher,700
+Laura Elena,Acosta Ramírez,Laura Elena Acosta Ramírez,481,F40-44,Female,México,Ciudad de México,Mexico,MX,0:55:14,3:34:41,2:59:32,,,7:40:45,3314,12881,10772,310,368,27645,583,124,20,615,140,20,552,113,17,583,124,20,Finisher,916
+Grimaldi,Pérez Ahuatzi,Grimaldi Pérez Ahuatzi,546,M35-39,Male,San Pablo Apetatitlán,Tlaxcala,Mexico,MX,0:39:22,3:35:42,3:16:01,,,7:40:49,2362,12942,11761,330,254,27649,584,460,75,330,265,41,488,396,65,584,460,75,Finisher,700
+Channa,Snyder,Channa Snyder,662,F30-34,Female,Santa Fe,NM,United States,US,0:42:16,3:48:00,3:00:41,,,7:40:50,2536,13680,10841,220,373,27650,585,125,23,424,92,17,547,110,19,585,125,23,Finisher,700
+Sofia,Barrera Méndez,Sofia Barrera Méndez,730,F25-29,Female,Magdalenas Contreras,CDMX,Mexico,MX,0:39:57,3:58:45,2:51:44,,,7:41:18,2397,14325,10304,222,430,27678,586,126,13,347,70,11,580,121,13,586,126,13,Finisher,700
+Mariana,Suarez Lopez,Mariana Suarez Lopez,716,F25-29,Female,Boca del Rio,Veracruz,Mexico,MX,0:36:53,3:55:56,2:57:03,,,7:43:11,2213,14156,10623,183,615,27791,587,127,14,237,49,8,555,115,12,587,127,14,Finisher,700
+Rafael,Ballesteros Calderon,Rafael Ballesteros Calderon,288,M35-39,Male,DF,CIUDAD DE MEXICO,Mexico,MX,0:47:33,3:57:24,2:45:28,,,7:43:42,2853,14244,9928,289,508,27822,588,461,76,548,423,70,607,474,78,588,461,76,Finisher,700
+Claudia Teresa,Sanchez Chavez,Claudia Teresa Sanchez Chavez,289,F30-34,Female,CIUDAD DE MEXICO,DF,Mexico,MX,0:44:33,3:56:28,2:45:27,,,7:43:43,2673,14188,9927,388,648,27823,589,128,24,493,110,21,602,131,24,589,128,24,Finisher,700
+Jesus Roberto,De Hoyos,Jesus Roberto De Hoyos,581,M35-39,Male,TOLUCA,MX,Mexico,MX,0:47:52,3:32:30,3:13:31,,,7:44:19,2872,12750,11611,259,367,27859,590,462,77,555,426,72,509,411,70,590,462,77,Finisher,700
+Ruben,Guzman,Ruben Guzman,437,M45-49,Male,Kirkwood,MO,Mexico,MX,0:55:39,3:43:19,2:56:09,,,7:46:58,3339,13399,10569,298,414,28018,591,463,67,616,476,68,589,465,65,591,463,67,Finisher,700
+Laura,Ceballos,Laura Ceballos,578,F35-39,Female,CANCUN,ROO,Mexico,MX,0:44:07,3:53:34,2:58:35,,,7:47:15,2647,14014,10715,257,402,28035,592,129,25,475,103,18,577,120,21,592,129,25,Finisher,721
+Mitchell,Grijalva Zepeda,Mitchell Grijalva Zepeda,584,M35-39,Male,Managua,Managua,Nicaragua,NI,0:35:02,3:29:10,3:30:41,,,7:47:27,2102,12550,12641,235,519,28047,593,464,78,155,122,17,425,351,57,593,464,78,Finisher,700
+Antonio,Rodriguez,Antonio Rodriguez,640,M30-34,Male,San Juan Del Rio,MX-QUE,Mexico,MX,0:35:13,4:23:27,2:38:46,,,7:48:02,2113,15807,9526,339,297,28082,594,465,85,164,130,29,626,488,87,594,465,85,Finisher,700
+Jill,Griffin,Jill Griffin,327,F55-59,Female,Anchorage,AK,United States,US,1:08:13,3:48:48,2:38:57,,,7:48:49,4093,13728,9537,435,336,28129,595,130,7,632,141,8,625,138,8,595,130,7,Finisher,1727
+Sandra Irazema,Soltero Zamora,Sandra Irazema Soltero Zamora,555,F35-39,Female,ZAPOPAN,Jalisco,Mexico,MX,0:54:13,4:02:37,2:44:01,,,7:49:46,3253,14557,9841,246,290,28186,596,131,26,610,139,28,622,136,27,596,131,26,Finisher,700
+Desiree,Valdovinos,Desiree Valdovinos,709,F25-29,Female,Frisco,WA,United States,US,0:44:10,3:54:01,2:56:28,,,7:49:58,2650,14041,10588,458,461,28198,597,132,15,478,104,15,597,128,15,597,132,15,Finisher,700
+Mark,Edwords,Mark Edwords,357,M50-54,Male,Sparks,NV,United States,US,0:43:11,3:50:03,3:02:34,,,7:50:12,2591,13803,10954,519,345,28212,598,466,48,455,358,35,576,457,49,598,466,48,Finisher,700
+Diego,Pedrazas,Diego Pedrazas,748,M25-29,Male,Santa Cruz,Santa Cruz,Bolivia,BO,0:45:21,3:49:34,3:00:23,,,7:50:35,2721,13774,10823,278,640,28235,599,467,50,512,396,45,567,450,44,599,467,50,Finisher,700
+Jonathan,Cervantes,Jonathan Cervantes,624,M30-34,Male,San Jose Del Cabo,Baja California Sur,Mexico,MX,0:43:57,3:51:39,3:03:57,,,7:51:20,2637,13899,11037,287,421,28280,600,468,86,468,367,72,573,455,85,600,468,86,Finisher,700
+José Antonio,Burgos García,José Antonio Burgos García,571,M35-39,Male,Ciudad de México,Azcapotzalco,Mexico,MX,0:41:08,3:57:57,3:00:41,,,7:51:55,2468,14277,10841,427,301,28315,601,469,79,390,311,49,600,470,77,601,469,79,Finisher,700
+Jorge Armando,Sanchez Leon,Jorge Armando Sanchez Leon,297,M75-79,Male,San Jose del Cabo,BCS,Mexico,MX,1:07:47,3:31:36,3:02:48,,,7:52:05,4067,12696,10968,251,342,28325,602,470,1,630,490,1,588,464,1,602,470,1,Finisher,3500
+Martha,Suttonmulla,Martha Suttonmulla,339,F55-59,Female,Tempe,AZ,United States,US,0:41:21,3:26:11,3:31:32,,,7:52:13,2481,12371,12692,379,410,28333,603,133,8,398,81,5,456,81,4,603,133,8,Finisher,1666
+Tamira,Barrett,Tamira Barrett,461,F45-49,Female,Coeur D Alene,ID,United States,US,0:46:57,3:48:03,3:00:28,,,7:52:48,2817,13683,10828,481,559,28368,604,134,23,539,124,23,584,123,23,604,134,23,Finisher,700
+Stephen,Wolfe,Stephen Wolfe,521,M40-44,Male,LAS VEGAS,NV,United States,US,1:01:54,4:01:00,2:34:09,,,7:53:11,3714,14460,9249,569,400,28391,605,471,71,626,486,72,629,489,74,605,471,71,Finisher,700
+Rodolfo,Gayol,Rodolfo Gayol,672,M30-34,Male,Los Cabos,BCS,Mexico,MX,0:39:20,3:47:12,3:05:49,,,7:53:23,2360,13632,11149,731,531,28403,606,472,87,328,264,57,565,448,83,606,472,87,Finisher,700
+Mauricio,Alonso Valente,Mauricio Alonso Valente,532,M40-44,Male,Playa del Carmen,Quintana Roo,Mexico,MX,0:38:06,3:41:30,3:23:37,,,7:53:32,2286,13290,12217,233,386,28412,607,473,72,285,234,39,504,407,67,607,473,72,Finisher,700
+Esteban,Aguilera Zuloaga,Esteban Aguilera Zuloaga,401,M50-54,Male,Irapuato,GUA,Mexico,MX,0:41:04,4:07:29,2:54:11,,,7:54:02,2464,14849,10451,296,381,28442,608,474,49,387,308,28,616,482,51,608,474,49,Finisher,700
+Thays,Novikoff,Thays Novikoff,368,F50-54,Female,CARLSBAD,CA,United States,US,0:42:15,3:54:44,3:05:24,,,7:54:41,2535,14084,11124,352,387,28481,609,135,7,422,90,4,582,122,6,609,135,7,Finisher,1631
+Keith,Kennetz,Keith Kennetz,419,M45-49,Male,carol stream,IL,United States,US,0:54:02,3:42:03,3:03:07,,,7:55:03,3242,13323,10987,536,415,28503,610,475,68,608,470,65,594,469,66,610,475,68,Finisher,700
+Lucia,Pérez,Lucia Pérez,708,F25-29,Female,Guatemala,Guatemala,Guatemala,GT,0:51:07,4:06:35,2:46:55,,,7:56:10,3067,14795,10015,451,243,28570,611,136,16,591,135,17,627,139,16,611,136,16,Finisher,700
+Adrián,Carmona López,Adrián Carmona López,615,M30-34,Male,Morelia,MICHOACAN,Mexico,MX,0:42:24,4:39:09,2:23:08,,,7:58:37,2544,16749,8588,413,422,28717,612,476,88,431,338,71,632,491,88,612,476,88,Finisher,700
+Daniel,Boulé,Daniel Boulé,212,M50-54,Male,Lac-Supérieur,QC,Canada,CA,0:48:08,3:49:59,3:11:02,,,8:00:25,2888,13799,11462,297,379,28825,613,477,50,560,431,45,585,462,50,613,477,50,Finisher,700
+Naobumi,karita,Naobumi karita,325,M55-59,Male,Akasaka Minato-ku,,Japan,JP,0:43:08,3:43:28,3:15:39,,,8:01:15,2588,13408,11739,470,669,28875,614,478,28,449,354,19,550,439,28,614,478,28,Finisher,700
+Erick Fernando,Peña Lopez,Erick Fernando Peña Lopez,390,M50-54,Male,Guatemala,Guetamala,Guatemala,GT,0:50:25,3:59:21,3:03:19,,,8:01:23,3025,14361,10999,292,206,28883,615,479,51,584,450,49,617,483,52,615,479,51,Finisher,700
+María Amelia,Guevara Guillen,María Amelia Guevara Guillen,283,F35-39,Female,Zapopan,JAL,Mexico,MX,0:47:35,3:53:25,2:58:32,,,8:01:44,2855,14005,10712,443,888,28904,616,137,27,551,128,23,604,132,24,616,137,27,Finisher,700
+Lawton,Delisser,Lawton Delisser,319,M55-59,Male,LANSDALE,PA,Jamaica,JM,0:50:50,3:37:44,3:17:41,,,8:03:33,3050,13064,11861,514,524,29013,617,480,29,588,454,28,558,443,29,617,480,29,Finisher,700
+David,Cramond,David Cramond,507,M40-44,Male,London,,United Kingdom,GB,0:48:30,3:19:14,3:41:56,,,8:04:03,2910,11954,13316,280,582,29043,618,481,73,564,433,67,444,367,60,618,481,73,Finisher,700
+Karen,Satriano,Karen Satriano,303,F60-64,Female,Houston,TX,United States,US,0:50:17,3:46:44,3:19:09,,,8:04:17,3017,13604,11949,278,209,29057,619,138,3,582,134,3,574,119,3,619,138,3,Finisher,2093
+Jenna,Murray,Jenna Murray,699,F25-29,Female,RALEIGH,NC,United States,US,0:44:24,4:27:56,2:39:26,,,8:04:23,2664,16076,9566,363,395,29063,620,139,17,485,107,16,631,141,17,620,139,17,Finisher,700
+Lopez Rionda,Selene,Lopez Rionda Selene,619,F30-34,Female,Iztapalapa,Ciudad de México,Mexico,MX,0:43:59,4:16:29,2:56:25,,,8:07:44,2639,15389,10585,319,333,29264,621,140,25,472,102,20,628,140,25,621,140,25,Finisher,700
+Paul,Dunn,Paul Dunn,424,M45-49,Male,Guisborough ,North Yorkshire ,United Kingdom,GB,0:48:36,4:01:50,3:04:55,,,8:08:14,2916,14510,11095,483,291,29294,622,482,69,566,435,60,619,484,69,622,482,69,Finisher,700
+Francois,DUPUIS,Francois DUPUIS,363,M50-54,Male,Notre-Dame-Des-Prairies,QC,Canada,CA,0:45:45,3:38:17,3:22:22,,,8:10:10,2745,13097,12142,705,720,29410,623,483,52,518,401,40,554,440,46,623,483,52,Finisher,700
+Kuoling,Huang,Kuoling Huang,281,M40-44,Male,Chicago,IL,Taiwan,TW,1:04:01,3:35:16,3:20:02,,,8:12:58,3841,12916,12002,329,489,29578,624,484,74,628,488,74,593,468,71,624,484,74,Finisher,700
+Dieter,Müller,Dieter Müller,347,M55-59,Male,Ostfildern,,Germany,DE,0:47:06,3:30:05,3:47:34,,,8:14:14,2826,12605,13654,265,304,29654,625,485,30,543,418,24,496,402,21,625,485,30,Finisher,700
+Jorge Luis,Suárez Burgueño,Jorge Luis Suárez Burgueño,781,M25-29,Male,La paz,La paz,Mexico,MX,0:43:37,4:10:52,3:11:46,,,8:15:18,2617,15052,11506,263,279,29718,626,486,51,462,363,39,620,485,51,626,486,51,Finisher,700
+Margarita,Rodriguez,Margarita Rodriguez,221,F35-39,Female,Mexico,Intl State,Mexico,MX,0:39:51,4:11:52,3:10:23,,,8:17:39,2391,15112,11423,281,653,29859,627,141,28,340,68,12,618,135,26,627,141,28,Finisher,700
+Omar,Mulla,Omar Mulla,306,M60-64,Male,Tempe,AZ,United States,US,0:45:01,3:49:37,3:28:38,,,8:17:57,2701,13777,12518,508,373,29877,628,487,9,508,394,8,586,463,9,628,487,9,Finisher,700
+Javier,Cervantes Ponce,Javier Cervantes Ponce,598,M35-39,Male,Toronto,ON,Mexico,MX,0:47:50,4:05:15,3:13:19,,,8:18:29,2870,14715,11599,421,303,29909,629,488,80,554,425,71,621,486,81,629,488,80,Finisher,700
+Esteban,Davila,Esteban Davila,560,M35-39,Male,Quito  Pichincha,Pichincha,Ecuador,EC,0:50:57,3:55:17,3:21:15,,,8:20:57,3057,14117,12075,376,432,30057,630,489,81,590,456,75,613,479,79,630,489,81,Finisher,700
+William,Meadows,William Meadows,224,M60-64,Male,Tampa,FL,United States,US,0:41:20,4:03:13,3:17:27,,,8:21:15,2480,14593,11847,415,740,30075,631,490,10,396,316,5,610,477,10,631,490,10,Finisher,700
+Carlos,Gutierrez,Carlos Gutierrez,467,M45-49,Male,Irvine,CA,United States,US,0:54:05,4:12:15,2:56:47,,,8:21:26,3245,15135,10607,503,595,30086,632,491,70,609,471,66,630,490,70,632,491,70,Finisher,700
+David,Walker,David Walker,300,M70-74,Male,Coquitlam,BC,Canada,CA,0:53:27,4:02:06,3:17:26,,,8:26:03,3207,14526,11846,431,352,30363,633,492,3,606,469,3,624,487,3,633,492,3,Finisher,1289
+Fabby,Ruiz,Fabby Ruiz,166,F35-39,Female,guadalajara,jalisco,Mexico,MX,0:53:34,4:18:49,,,,,3214,15529,0,216,285,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+John,Bahling,John Bahling,501,M40-44,Male,ROYAL OAK,MI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andres,Montemayor,Andres Montemayor,743,M25-29,Male,Boulder,CO,Mexico,MX,1:10:36,3:36:15,2:35:53,,,7:30:23,4236,12975,9353,204,254,27023,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Steven,Shugart,Steven Shugart,133,M40-44,Male,trophy club,TX,United States,US,0:49:40,,,,,,2980,0,0,365,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jonathan,Williams,Jonathan Williams,341,M55-59,Male,Laguna Beach,CA,United States,US,0:31:14,2:54:35,,,,,1874,10475,0,185,203,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jorge,Leon De La Barra Vega,Jorge Leon De La Barra Vega,587,M35-39,Male,Cuauhtemoc,CDMX,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Raul,Ulloa,Raul Ulloa,307,M60-64,Male,delegacion tlalpanlomas del pedregal,mexico d.f.,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Diego,Alanis,Diego Alanis,759,M18-24,Male,Monterrey,NLE,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steven,Zawaski,Steven Zawaski,10,MPRO,Male,Boulder,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Timothy,O'Donnell,Timothy O'Donnell,1,MPRO,Male,boulder,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eric,Johnson,Eric Johnson,67,M65-69,Male,Seattle,WA,United States,US,0:33:52,2:58:11,,,,,2032,10691,0,210,213,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Fuantos,Jose,Fuantos Jose,541,M35-39,Male,Parras,Coahuila,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maria Fernanda,Rodriguez Lopez,Maria Fernanda Rodriguez Lopez,698,F25-29,Female,ALVARO OBREGON,CIUDAD DE MEXICO,Mexico,MX,1:01:00,4:30:50,,,,,3660,16250,0,219,221,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Peeush,Singhal,Peeush Singhal,383,M50-54,Male,Nashotah,WI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Christopher,Murray,Christopher Murray,503,M40-44,Male,New York,NY,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Iracema,Castellon Garcia,Iracema Castellon Garcia,851,F40-44,Female,,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rossy,Bonilla,Rossy Bonilla,362,F50-54,Female,Guayaquil,Guayas,Ecuador,EC,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Flavio,Aguilar,Flavio Aguilar,499,M40-44,Male,MONTERREY,Nuevo Leon,Mexico,MX,0:54:12,4:19:54,,,,,3252,15594,0,346,538,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Genri,Goto,Genri Goto,366,M50-54,Male,Akasaka Minatoku,,Japan,JP,0:42:44,3:33:12,,,,,2564,12792,0,306,239,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+David,Tejada,David Tejada,570,M35-39,Male,Quito,Pichincha,Ecuador,EC,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Igor,Penalver,Igor Penalver,479,M40-44,Male,"Houston,Texas",TX,Venezuela,VE,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mariana,Alonso Encinas,Mariana Alonso Encinas,712,F25-29,Female,Puebla,Puebla,Mexico,MX,0:33:55,3:30:36,,,,,2035,12636,0,436,550,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Santiago,Navarrete,Santiago Navarrete,666,M30-34,Male,Tijuana,Baja California,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Randi Jill,Thomas,Randi Jill Thomas,425,F45-49,Female,NEWARK,DE,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Moises,Garcia,Moises Garcia,649,M30-34,Male,Huixquilucan,Mexico,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Spencer,Newell,Spencer Newell,529,M40-44,Male,BEND,OR,United States,US,0:31:47,2:36:04,,,,,1907,9364,0,198,365,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Brian,Lloyd,Brian Lloyd,412,M50-54,Male,PARK CITY,UT,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Benjamin,Estrada,Benjamin Estrada,726,M25-29,Male,Tijuana,Baja California,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ivan,Dominguez,Ivan Dominguez,19,MPRO,Male,EL DORADO HLS,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mac,King,Mac King,724,M25-29,Male,CARBONDALE,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jake,Gagain,Jake Gagain,753,M18-24,Male,Diablo,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eduardo,Cruz Salazar,Eduardo Cruz Salazar,429,M45-49,Male,Cancun,Quintana Roo,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fernando,Cardenas,Fernando Cardenas,457,M45-49,Male,Zapopan,,Mexico,MX,0:35:09,,,,,,2109,0,0,123,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Bruno,Fiore,Bruno Fiore,49,M50-54,Male,MENTON,ALPES-MARITIMES,Monaco,MC,0:30:44,2:50:38,,,,,1844,10238,0,138,166,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jose Luis,Meraz,Jose Luis Meraz,775,M18-24,Male,Ontario,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Santiago,Landaverde Tello,Santiago Landaverde Tello,278,M30-34,Male,Mexico city,Mexico city,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juliocesar,Francaferreira,Juliocesar Francaferreira,483,M40-44,Male,richmond hill,ON,Brazil,BR,0:37:13,3:31:43,,,,,2233,12703,0,176,197,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sisi,Gallardo,Sisi Gallardo,518,F40-44,Female,Guatemala,Guatemala,Guatemala,GT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Manuel,Kueng,Manuel Kueng,5,MPRO,Male,Bütschwil,,Switzerland,CH,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mauricio,Ruiz De La Garza,Mauricio Ruiz De La Garza,762,M18-24,Male,San Pedro Garza Garcia,Nuevo Leon,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Germain,Belanger,Germain Belanger,139,M40-44,Male,St-Basile-le-Grand,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francisco,Sanchez,Francisco Sanchez,860,M45-49,Male,Montgomery,TX,Mexico,MX,0:32:13,2:45:14,,,,,1933,9914,0,106,114,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Richard,Gough,Richard Gough,81,M55-59,Male,ENCINITAS,CA,United States,US,0:33:08,3:16:08,,,,,1988,11768,0,251,240,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Barbara Ann,Cramond,Barbara Ann Cramond,540,F35-39,Female,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Liliana,Rodriguez Gonzalez,Liliana Rodriguez Gonzalez,314,F40-44,Female,TORREON,COAHUILA,Mexico,MX,1:17:01,,,,,,4621,0,0,377,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Yoshifumi,Nakaya,Yoshifumi Nakaya,342,M55-59,Male,Minato-ku,JP-13,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ethan,Kap,Ethan Kap,498,M40-44,Male,SALT LAKE CTY,UT,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Dale,Axford,Dale Axford,73,M35-39,Male,Northmead,NSW,Australia,AU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adrian,Ferrara,Adrian Ferrara,760,M18-24,Male,San Pedro Garza GarciaSan Pedro Garza Garcia,noselection,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Lauryn,Allman,Lauryn Allman,654,F30-34,Female,London,,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abrahan,Hernandez Santillan,Abrahan Hernandez Santillan,116,M30-34,Male,Hengelo,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Daniel,Rio Valle,Daniel Rio Valle,502,M40-44,Male,estado de Mexico,Mexico,Mexico,MX,0:42:59,2:51:28,,,,,2579,10288,0,170,209,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Oscar,Gonzalez,Oscar Gonzalez,517,M40-44,Male,Brooklyn,NY,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alejandro,Colmenero,Alejandro Colmenero,182,M55-59,Male,CUERNAVACA,MX-MOR,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jennifer,O'Keefe,Jennifer O'Keefe,32,FPRO,Female,Cary,NC,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alejandro,Arrieta,Alejandro Arrieta,506,M40-44,Male,Humble,TX,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ricky,Swaim,Ricky Swaim,350,M50-54,Male,EDMOND,OK,United States,US,0:49:34,3:45:36,2:48:57,,,8:09:21,2974,13536,10137,270,2445,29361,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Roberto,Lopez,Roberto Lopez,165,M40-44,Male,Zapopan,Jalisco,Mexico,MX,0:52:34,4:01:37,3:21:39,,,8:30:41,3154,14497,12099,313,578,30641,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jean-Francois,Leclair,Jean-Francois Leclair,446,M45-49,Male,Montreal,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Miguel Angel,Madrigal Gonzalez,Miguel Angel Madrigal Gonzalez,599,M35-39,Male,San Pedro Tlaquepaque,Jalisco,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mauricio,Chavez,Mauricio Chavez,520,M40-44,Male,metepec,MX-MEX,Mexico,MX,0:46:06,3:53:44,,,,,2766,14024,0,142,268,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Sergio,González,Sergio González,214,M35-39,Male,,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Richelle,Randazzo,Richelle Randazzo,266,F40-44,Female,Chicago,IL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Van,Fletcher,Van Fletcher,56,M40-44,Male,RALEIGH,NC,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fermin,Pascual,Fermin Pascual,365,M50-54,Male,Mexico,Intl State,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Samantha,Glanz,Samantha Glanz,687,F25-29,Female,FLOWER MOUND,TX,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juan,Cortez,Juan Cortez,604,M30-34,Male,UNION CITY,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bruno David,Dominguez Alfaro,Bruno David Dominguez Alfaro,650,M30-34,Male,Ecatepec de Morelos,Estado de Mexico,Mexico,MX,1:03:46,4:24:18,,,,,3826,15858,0,357,291,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Ana Paula,Larrea Mijares,Ana Paula Larrea Mijares,749,F18-24,Female,Jardines del Pedregal,Ciudad de Mexico,Mexico,MX,0:53:09,4:21:18,,,,,3189,15678,0,402,259,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Elena,Alvarado,Elena Alvarado,625,F30-34,Female,Pavas,San José,Costa Rica,CR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vojta,Borovian,Vojta Borovian,40,M40-44,Male,Bend,OR,Czech Republic,CZ,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Curtis,Feltner,Curtis Feltner,6,MPRO,Male,Bend,OR,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Efren,Espinoza,Efren Espinoza,340,M55-59,Male,SAN DIEGO,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Victor,Garcia Perales,Victor Garcia Perales,438,M45-49,Male,monterrey,nuevo leon,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ricardo,Lopez Barrera,Ricardo Lopez Barrera,432,M45-49,Male,,,Mexico,MX,0:41:20,4:01:05,,,,,2480,14465,0,231,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jorge,Marquez,Jorge Marquez,403,M50-54,Male,LA PAZ,BAJA CALIFORNIA SUR,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Monserrat,Irure,Monserrat Irure,477,F40-44,Female,Cuautitlan Izcalli,Estate of Mexico,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Abhilash,Patel,Abhilash Patel,534,M40-44,Male,Pacific Palisades,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adam,Goulet,Adam Goulet,263,M35-39,Male,BEND,OR,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rodolfo Salvador,Millan Valdes,Rodolfo Salvador Millan Valdes,447,M45-49,Male,Cuernavaca,Morelos,Mexico,MX,1:11:28,,,,,,4288,0,0,242,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rodrigo,Gomez Cuentas,Rodrigo Gomez Cuentas,573,M35-39,Male,Naucalpan de Ju�rez,MX-MEX,Mexico,MX,0:41:42,,,,,,2502,0,0,189,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Xochitl,Mayorga,Xochitl Mayorga,244,F45-49,Female,chicago,IL,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Ricardo,Sandoval Gastelum,Ricardo Sandoval Gastelum,764,M18-24,Male,La paz,Baja California Sur,Mexico,MX,0:37:17,3:02:08,,,,,2237,10928,0,198,304,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Prospero,Fernandez,Prospero Fernandez,356,M50-54,Male,Mexico,Intl State,Mexico,MX,0:46:00,,,,,,2760,0,0,462,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Wendy,Claproth,Wendy Claproth,279,F45-49,Female,chula vista,CA,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sanchita,Singhal,Sanchita Singhal,384,F50-54,Female,nashotah,WI,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Fabian,Arciniega,Fabian Arciniega,494,M40-44,Male,mexicali,baja california,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tyler,Ems,Tyler Ems,9,MPRO,Male,Boulder,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Angelica,Trauth,Angelica Trauth,385,F50-54,Female,Rüschlikon,,Suriname,SR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Boris,Klimenko,Boris Klimenko,250,M30-34,Male,Moscow,129345,Russia,RU,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Belinda,Little,Belinda Little,377,F50-54,Female,San Diego,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Rochelle,Harford,Rochelle Harford,249,F45-49,Female,TEMECULA,CA,United States,US,0:47:38,,,,,,2858,0,0,378,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rusty,Smith,Rusty Smith,359,M50-54,Male,DECATUR,GA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michita,Inoue,Michita Inoue,752,M18-24,Male,Kawasaki-city Nakahara-Ku Imaikamicho,Kanagawa-ken,Japan,JP,0:45:58,4:11:51,3:26:55,,,8:41:22,2758,15111,12415,552,448,31282,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Andres,Gutierrez,Andres Gutierrez,397,M50-54,Male,Chia,Intl State,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Francis,Combier,Francis Combier,588,M35-39,Male,RIVERSIDE,CA,United States,US,0:45:39,4:21:51,,,,,2739,15711,0,291,265,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Patrick,Scace,Patrick Scace,360,M50-54,Male,Toronto,ON,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Katie,Murray,Katie Murray,675,F30-34,Female,London,,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Natalia,Alvarado,Natalia Alvarado,107,F30-34,Female,Santa Cruz,Guanacaste,Costa Rica,CR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carla Adriana,Herrera Peraza,Carla Adriana Herrera Peraza,290,F25-29,Female,Merida,Yucatan,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steve,Giahos,Steve Giahos,683,M30-34,Male,Ripon,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephen,Kilshaw,Stephen Kilshaw,15,MPRO,Male,SALT LAKE CTY,UT,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Stephany,Papahiu,Stephany Papahiu,702,F25-29,Female,guatemala,guatemala,Guatemala,GT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Maria Jose,Sanchez,Maria Jose Sanchez,655,F30-34,Female,QUITO,PICHINCHA,Ecuador,EC,1:10:57,4:05:09,2:47:06,,,8:13:47,4257,14709,10026,412,222,29627,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Alejandra,Arellano,Alejandra Arellano,465,F45-49,Female,solidaridad,quintana roo,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Raúl David,Rodríguez Sansores,Raúl David Rodríguez Sansores,143,M35-39,Male,Merida,Merida,Mexico,MX,0:37:51,,,,,,2271,0,0,111,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Arnaud,Zanotti,Arnaud Zanotti,622,M30-34,Male,versailles,,France,FR,0:50:53,3:36:17,,,,,3053,12977,0,277,279,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Lauren,Wylonis,Lauren Wylonis,388,F50-54,Female,BERWYN,PA,United States,US,0:50:43,4:26:27,,,,,3043,15987,0,492,635,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Gamez,Francisco,Gamez Francisco,202,M40-44,Male,Mexico City,Mexico city,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ricardo,Okamoto,Ricardo Okamoto,580,M35-39,Male,Zapopan,MX-JAL,Brazil,BR,0:41:13,4:47:08,,,,,2473,17228,0,469,420,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Luis,Marquez,Luis Marquez,509,M40-44,Male,Distrito Federal,Tlalpan,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jaime Rodrigo,Garcia Valdez,Jaime Rodrigo Garcia Valdez,657,M30-34,Male,SAN MATEO ATENCO,MX-MEX,Mexico,MX,0:47:53,,,,,,2873,0,0,307,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Leonardo,Urich,Leonardo Urich,512,M40-44,Male,Ciudad de Mexico,Ciudad de Mexico,Venezuela,VE,0:33:52,3:53:33,,,,,2032,14013,0,301,277,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Juan,Gonzalez Tuchan,Juan Gonzalez Tuchan,495,M40-44,Male,GUATEMALA,GUATEMALA,Guatemala,GT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tate,Metcalf,Tate Metcalf,382,M50-54,Male,Sisters,OR,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chris,Roberts,Chris Roberts,364,M50-54,Male,Eastbourne,East Sussex,United Kingdom,GB,0:42:18,3:15:28,,,,,2538,11728,0,201,234,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Luke,Kornack,Luke Kornack,703,M25-29,Male,SAN FRANCISCO,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Martha,Anguiano,Martha Anguiano,167,F35-39,Female,Zapopan,JAL,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Víctor,Batta Gil,Víctor Batta Gil,411,M50-54,Male,IRAPUATO,MX-GUA,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Steven,Mulder,Steven Mulder,305,M60-64,Male,ANCHORAGE,AK,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Adam,Rich,Adam Rich,146,M30-34,Male,SAN FRANCISCO,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Chad,Rudolph,Chad Rudolph,298,M70-74,Male,ISSAQUAH,WA,United States,US,0:36:41,3:56:05,,,,,2201,14165,0,392,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Mason,Powell,Mason Powell,690,M25-29,Male,SAN FRANCISCO,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alejandra,Pinelo Ramirez,Alejandra Pinelo Ramirez,200,F25-29,Female,Mérida,Yucatán,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Julissa,Flores,Julissa Flores,585,F35-39,Female,Guatemala,GUATEMALA,Guatemala,GT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Kevin,Portmann,Kevin Portmann,7,MPRO,Male,Carlsbad,CA,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sam,Long,Sam Long,3,MPRO,Male,Tucson,AZ,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Diego Alejandro,Perez Duran,Diego Alejandro Perez Duran,159,M18-24,Male,Zapopan,,Mexico,MX,0:33:29,,,,,,2009,0,0,128,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Rachel,Larue,Rachel Larue,774,F18-24,Female,FORT WAYNE,IN,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Frances,Fortini,Frances Fortini,493,F40-44,Female,Oakland,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Eduardo,Masso Rivera,Eduardo Masso Rivera,720,M25-29,Male,Mexixo City,Mexico City,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Michel,Kuri Guerrero,Michel Kuri Guerrero,277,M25-29,Male,Naucalpan,Estado de Mexico,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andres,Villaquiran,Andres Villaquiran,468,M40-44,Male,REDWOOD CITY,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Randy,Engel,Randy Engel,358,M50-54,Male,GREENWOOD VILLAGE,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+José Miguel,Vega Escobar,José Miguel Vega Escobar,669,M30-34,Male,Mazatlan,Sinaloa,Mexico,MX,0:47:18,3:52:57,,,,,2838,13977,0,210,399,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Dixit,Patel,Dixit Patel,210,M50-54,Male,Redondo Beach,CA,India,IN,0:48:37,4:10:16,3:22:46,,,8:32:04,2917,15016,12166,317,307,30724,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Adriana,De La Parra,Adriana De La Parra,478,F40-44,Female,Durango,Durango,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Pablo,Aguarón,Pablo Aguarón,721,M25-29,Male,Madrid,,Spain,ES,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jorge Eduardo,Motta Venegas,Jorge Eduardo Motta Venegas,302,M65-69,Male,Bogota,D.C.,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+William,Giahos,William Giahos,718,M25-29,Male,Los Angeles,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luis Fer,Sa Viz,Luis Fer Sa Viz,268,M25-29,Male,MEXICALI,BCN,Mexico,MX,0:51:16,,,,,,3076,0,0,318,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Luis,Rodas Rojas,Luis Rodas Rojas,104,M30-34,Male,GUATEMALA,MIXCO,Guatemala,GT,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Teresita,Majalca,Teresita Majalca,547,F35-39,Female,MAZATLAN,SIN,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Miguel,Alarcon,Miguel Alarcon,184,M40-44,Male,CDMX,MX-CMX,Mexico,MX,0:39:03,3:38:59,,,,,2343,13139,0,202,778,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Gerardo,Pesquera,Gerardo Pesquera,203,M40-44,Male,Corregidora,QUERETARO,Mexico,MX,0:45:10,,,,,,2710,0,0,301,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Lisa,Becharas,Lisa Becharas,34,FPRO,Female,Fort Collins,CO,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Bryan,Benshoof,Bryan Benshoof,77,M45-49,Male,Mount Moriac,VIC,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marie-Charlotte,Gary,Marie-Charlotte Gary,684,F25-29,Female,Bordeaux,,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Aurora,Leon,Aurora Leon,160,F50-54,Female,,,Mexico,MX,0:33:27,3:12:58,,,,,2007,11578,0,165,220,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Gustavo,Cilia,Gustavo Cilia,771,M18-24,Male,Cuauthemoc,CDMX,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Oswaldo,Chavez,Oswaldo Chavez,500,M40-44,Male,El Paso,TX,United States,US,0:56:19,,,,,,3379,0,0,508,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Garcia Rivero,Ricardo,Garcia Rivero Ricardo,16,MPRO,Male,merida,merida,Mexico,MX,0:25:11,2:33:17,,,,,1511,9197,0,85,96,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Todd,Cawley,Todd Cawley,337,M55-59,Male,ATLANTA,GA,United States,US,0:32:03,2:47:34,,,,,1923,10054,0,154,238,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Angela,Naeth,Angela Naeth,27,FPRO,Female,Chatham,MA,Canada,CA,0:31:24,,,,,,1884,0,0,120,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Filip,Lewandowski,Filip Lewandowski,257,M30-34,Male,SAN FRANCISCO,CA,Poland,PL,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Yesenia,Guerrero Reyes,Yesenia Guerrero Reyes,427,F45-49,Female,Puebla,PUEBLA,Mexico,MX,0:52:10,,,,,,3130,0,0,421,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Paula,Findlay,Paula Findlay,26,FPRO,Female,Bend,OR,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Arturo,Katz,Arturo Katz,648,M30-34,Male,Mexico,Mexico,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Vineet,Verma,Vineet Verma,550,M35-39,Male,Allen,TX,India,IN,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Ivan,Iglesias,Ivan Iglesias,681,M30-34,Male,Mexico City,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+James,Busch,James Busch,308,M60-64,Male,,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Terry,Moslander,Terry Moslander,370,M50-54,Male,Newcastle,OK,United States,US,0:45:03,4:16:19,3:09:31,,,8:30:02,2703,15379,11371,540,609,30602,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Colin,Ford,Colin Ford,700,M25-29,Male,San Francisco,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Carolina,Enockson,Carolina Enockson,87,F45-49,Female,Houston,TX,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Amber,Berg,Amber Berg,487,F40-44,Female,,,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Terry,Babb,Terry Babb,131,M45-49,Male,Hawthorn Woods,IL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Armando,Alanis Rosales,Armando Alanis Rosales,766,M18-24,Male,monterrey,MX-NLE,Mexico,MX,0:55:30,4:13:38,,,,,3330,15218,0,425,346,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Kazuo,Ishii,Kazuo Ishii,248,M40-44,Male,honolulu,HI,Japan,JP,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Tyler,Kimball,Tyler Kimball,677,M30-34,Male,HARRISON,NY,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Miguel Angel,Silva Villa,Miguel Angel Silva Villa,505,M40-44,Male,Juarez,Chihuahua,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Van Wormer,Andrew Van Wormer,689,M25-29,Male,San Francisco,CA,Switzerland,CH,0:41:20,3:34:39,,,,,2480,12879,0,494,591,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Trevor,Shelden,Trevor Shelden,514,M40-44,Male,CORINTH,TX,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sebastien ,Brogan ,Sebastien Brogan,738,M25-29,Male,Sorel-Tracy,QC,Canada,CA,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Brad,Griffith,Brad Griffith,343,M55-59,Male,ROCKLIN,CA,United States,US,0:45:04,3:08:45,,,,,2704,11325,0,275,1503,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Clint,Griffin,Clint Griffin,561,M35-39,Male,Troy,MT,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Andrew,Talansky,Andrew Talansky,11,MPRO,Male,TRUCKEE,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Trevor,Delsaut,Trevor Delsaut,20,MPRO,Male,RALEIGH,NC,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Anne,Basso,Anne Basso,28,FPRO,Female,RALEIGH,NC,France,FR,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Juan Carlos,Echavarria Vera,Juan Carlos Echavarria Vera,522,M40-44,Male,Bogota,cundinamarca,Colombia,CO,0:25:28,,,,,,1528,0,0,2748,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Michael,Mameli,Michael Mameli,344,M55-59,Male,Anmore,BC,Canada,CA,0:41:44,,,,,,2504,0,0,326,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Carlos,Carrasco,Carlos Carrasco,460,M45-49,Male,Houston,TX,United States,US,0:36:07,3:02:55,,,,,2167,10975,0,274,252,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Jo,Ralston,Jo Ralston,536,F35-39,Female,Brooklyn,NY,United Kingdom,GB,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Sdraz,Quintanar,Sdraz Quintanar,150,M25-29,Male,aguascalientes,aguascalientes,Mexico,MX,0:32:32,3:27:56,,,,,1952,12476,0,181,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Fernando,San Roman,Fernando San Roman,235,M45-49,Male,IZTAPALAPA,DF,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Javier,Díaz,Javier Díaz,318,M55-59,Male,Guadalupe,N.L. México,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Luis Armando,Cervantes Betancourt,Luis Armando Cervantes Betancourt,729,M25-29,Male,Guadalajara,Zapopan,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Jim,Lubinski,Jim Lubinski,14,MPRO,Male,CALABASAS,CA,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Marcos Benjamín,Velázquez Álvarez,Marcos Benjamín Velázquez Álvarez,54,PC,Male,Playa del Carmen,Quintana Roo,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DQ,0
+Camilo,Fajardo,Camilo Fajardo,644,M30-34,Male,IBAGUE,Tolima,Colombia,CO,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Mario,Fuentes,Mario Fuentes,525,M40-44,Male,El Paso,,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Hans,Dieben,Hans Dieben,296,M80-84,Male,chula vista,CA,Netherlands,NL,0:46:58,,,,,,2818,0,0,613,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Katrina,Rose,Katrina Rose,267,F35-39,Female,Chicago,IL,United States,US,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
+Alvaro,Reis,Alvaro Reis,557,M35-39,Male,Rio de Janeiro,RJ,Brazil,BR,0:45:15,3:48:19,,,,,2715,13699,0,340,463,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNF,0
+Isaac,Henares,Isaac Henares,57,M35-39,Male,Puerto Aventuras,MX-ROO,Mexico,MX,,,,,,,0,0,0,0,0,0,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,99999,DNS,0
