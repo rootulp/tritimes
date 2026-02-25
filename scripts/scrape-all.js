@@ -13,6 +13,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 const { discover } = require("./discover");
 const { fetchResults, buildRow, toCSV } = require("./scrape");
 
@@ -201,6 +202,12 @@ async function main() {
 
   if (opts.dryRun) {
     console.log("\n(Dry run — no results were fetched)");
+  } else if (allResults.length > 0) {
+    // Rebuild search indexes so they stay in sync with scraped data
+    console.log("\nRebuilding search indexes...");
+    execFileSync(process.execPath, [path.join(__dirname, "build-search-index.js")], {
+      stdio: "inherit",
+    });
   }
 }
 
