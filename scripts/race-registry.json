@@ -230,7 +230,15 @@
   {
     "slug": "im-world-championship",
     "name": "IRONMAN World Championship",
-    "location": "Various",
+    "location": "Kailua-Kona, HI, USA",
+    "locationOverrides": {
+      "men-2023": "Nice, France",
+      "women-2023": "Kailua-Kona, HI, USA",
+      "men-2024": "Kailua-Kona, HI, USA",
+      "women-2024": "Nice, France",
+      "men-2025": "Nice, France",
+      "women-2025": "Kailua-Kona, HI, USA"
+    },
     "groupUrl": "https://labs-v2.competitor.com/results/event/e798aa20-f278-e111-b16a-005056956277"
   },
   {
@@ -950,7 +958,31 @@
   {
     "slug": "im703-world-championship",
     "name": "IRONMAN 70.3 World Championship",
-    "location": "Various",
+    "locationOverrides": {
+      "2006": "Clearwater, FL, USA",
+      "2007": "Clearwater, FL, USA",
+      "2008": "Clearwater, FL, USA",
+      "2009": "Clearwater, FL, USA",
+      "2010": "Clearwater, FL, USA",
+      "2011": "Henderson, NV, USA",
+      "2012": "Henderson, NV, USA",
+      "2013": "Henderson, NV, USA",
+      "2014": "Mont-Tremblant, QC, Canada",
+      "2015": "Zell am See, Austria",
+      "2016": "Mooloolaba, Australia",
+      "2017": "Chattanooga, TN, USA",
+      "2018": "Nelson Mandela Bay, South Africa",
+      "2019": "Nice, France",
+      "2021": "St. George, UT, USA",
+      "men-2022": "St. George, UT, USA",
+      "women-2022": "St. George, UT, USA",
+      "men-2023": "Lahti, Finland",
+      "women-2023": "Lahti, Finland",
+      "men-2024": "Taupo, New Zealand",
+      "women-2024": "Taupo, New Zealand",
+      "men-2025": "Marbella, Spain",
+      "women-2025": "Marbella, Spain"
+    },
     "groupUrl": "https://labs-v2.competitor.com/results/event/9798aa20-f278-e111-b16a-005056956277"
   },
   {
