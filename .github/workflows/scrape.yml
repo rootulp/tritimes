@@ -19,18 +19,21 @@ jobs:
         with:
           node-version: 20
 
+      - name: Discover new races
+        run: node scripts/discover-new-races.js
+
       - name: Scrape new races
         run: node scripts/scrape-all.js --skip-existing
 
       - name: Check for changes
         id: check
         run: |
-          if [ -z "$(git status --porcelain data/)" ]; then
+          if [ -z "$(git status --porcelain data/ scripts/race-registry.json)" ]; then
             echo "No new races found"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "New races found:"
-            git status --short data/
+            git status --short data/ scripts/race-registry.json
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -53,7 +56,7 @@ jobs:
             echo "Branch $BRANCH exists but has no PR, creating one"
           else
             git checkout -b "$BRANCH"
-            git add data/
+            git add data/ scripts/race-registry.json
             git commit -m "feat: add new race results"
             git push -u origin "$BRANCH"
           fi

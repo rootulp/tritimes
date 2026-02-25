@@ -12,16 +12,52 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/a598aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im-austria",
+    "name": "IRONMAN Kaernten-Klagenfurt, Austria",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e6b03b63-dbb0-e111-80ae-005056956277"
+  },
+  {
     "slug": "im-barcelona",
     "name": "IRONMAN Barcelona",
     "location": "Barcelona, Spain",
     "groupUrl": "https://labs-v2.competitor.com/results/event/c413f2e7-2dca-e311-b5f4-005056956277"
   },
   {
+    "slug": "im-brazil",
+    "name": "IRONMAN Brazil",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a798aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-cairns",
+    "name": "IRONMAN Cairns",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6a6e11d2-86fe-e111-aa75-005056956277"
+  },
+  {
     "slug": "im-california",
     "name": "IRONMAN California",
     "location": "Sacramento, CA, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/d74670f6-7fb2-4813-96e1-fae4ab1b948c"
+  },
+  {
+    "slug": "im-canada-ottawa",
+    "name": "IRONMAN Canada-Ottawa",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/b8e35e3d-f89a-4545-86e8-327e1a93ff93"
+  },
+  {
+    "slug": "im-cascais",
+    "name": "IRONMAN Portugal-Cascais",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4a7d66f0-94f5-e911-a812-000d3a5a1cf8"
+  },
+  {
+    "slug": "im-chattanooga",
+    "name": "IRONMAN Chattanooga",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/0a742931-cf10-e311-9ec7-005056956277"
   },
   {
     "slug": "im-copenhagen",
@@ -34,6 +70,12 @@
     "name": "IRONMAN Cozumel",
     "location": "Cozumel, Mexico",
     "groupUrl": "https://labs-v2.competitor.com/results/event/b398aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-emilia-romagna",
+    "name": "IRONMAN Italy Emilia Romagna",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/aa3f9693-bd9a-e611-9410-005056951bf1"
   },
   {
     "slug": "im-florida",
@@ -54,10 +96,22 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/b798aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im-gurye",
+    "name": "IRONMAN Gurye Korea",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6e0f4c83-40d8-e611-9412-005056951bf1"
+  },
+  {
     "slug": "im-hamburg",
     "name": "IRONMAN Hamburg",
     "location": "Hamburg, Germany",
     "groupUrl": "https://labs-v2.competitor.com/results/event/0ed71b3d-6974-e611-9410-005056951bf1"
+  },
+  {
+    "slug": "im-kalmar",
+    "name": "IRONMAN Kalmar-Sweden",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/bd98aa20-f278-e111-b16a-005056956277"
   },
   {
     "slug": "im-lake-placid",
@@ -72,10 +126,46 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/c598aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im-leeds",
+    "name": "IRONMAN Leeds",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/ab1297a2-42d5-4b6f-b408-23ae319f5a31"
+  },
+  {
+    "slug": "im-les-sables-dolonne",
+    "name": "IRONMAN Les Sables d'Olonne-Vendee",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f377736f-9933-4b8b-8734-a920dbe4b699"
+  },
+  {
+    "slug": "im-malaysia",
+    "name": "IRONMAN Malaysia",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/c998aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-maryland",
+    "name": "IRONMAN Maryland",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/52f9c915-31ca-e311-b5f4-005056956277"
+  },
+  {
     "slug": "im-new-zealand",
     "name": "IRONMAN New Zealand",
     "location": "Taupo, New Zealand",
     "groupUrl": "https://labs-v2.competitor.com/results/event/cd98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-penghu",
+    "name": "IRONMAN Penghu",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/8b4e50b2-04b2-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im-philippines",
+    "name": "IRONMAN Subic Bay Philippines",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/d4969272-cc61-e711-9418-005056951bf1"
   },
   {
     "slug": "im-south-africa",
@@ -84,16 +174,46 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/60accc34-83fe-e111-aa75-005056956277"
   },
   {
+    "slug": "im-south-hokkaido",
+    "name": "IRONMAN Japan South Hokkaido",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4cdb1049-4f27-4e32-b49d-4fc9ca73c2fb"
+  },
+  {
     "slug": "im-switzerland",
     "name": "IRONMAN Switzerland",
     "location": "Thun, Switzerland",
     "groupUrl": "https://labs-v2.competitor.com/results/event/d90fba34-21ae-e911-a986-000d3a364086"
   },
   {
+    "slug": "im-tallinn",
+    "name": "IRONMAN Tallinn",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/37760ed4-c881-e711-9418-005056951bf1"
+  },
+  {
     "slug": "im-texas",
     "name": "IRONMAN Texas",
     "location": "The Woodlands, TX, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/d998aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im-vichy",
+    "name": "IRONMAN Vichy",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/17972a3a-75a5-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im-vitoria",
+    "name": "IRONMAN Vitoria-Gasteiz",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/47f47b8c-71ba-e811-a967-000d3a37468c"
+  },
+  {
+    "slug": "im-wales",
+    "name": "IRONMAN Wales",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/df98aa20-f278-e111-b16a-005056956277"
   },
   {
     "slug": "im-western-australia",
@@ -114,6 +234,30 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/e798aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-acapulco",
+    "name": "IRONMAN 70.3 Acapulco",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/fa93e2dc-d106-487c-b78e-08eecf010ca5"
+  },
+  {
+    "slug": "im703-agadir",
+    "name": "IRONMAN 70.3 Agadir",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f3169d46-d6c3-4a26-a212-bfd6a2eb87ed"
+  },
+  {
+    "slug": "im703-aix-en-provence",
+    "name": "IRONMAN 70.3 Aix-en-Provence",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6d98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-aracaju-sergipe",
+    "name": "IRONMAN 70.3 Aracaju-Sergipe",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6954cd72-7775-45f5-8b85-3cf75b475837"
+  },
+  {
     "slug": "im703-augusta",
     "name": "IRONMAN 70.3 Augusta",
     "location": "Augusta, GA, USA",
@@ -126,10 +270,40 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/3f4b6a7b-ba16-e511-9402-005056951bf1"
   },
   {
+    "slug": "im703-belgrade",
+    "name": "IRONMAN 70.3 Belgrade",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/41e1ec53-e777-473b-a015-2c64c1f56442"
+  },
+  {
+    "slug": "im703-boise",
+    "name": "IRONMAN 70.3 Boise",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/3998aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-bolton",
+    "name": "IRONMAN 70.3 Bolton",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/3a228722-c851-4db8-b5af-31254f16d701"
+  },
+  {
     "slug": "im703-boulder",
     "name": "IRONMAN 70.3 Boulder",
     "location": "Boulder, CO, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/3b98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-brasilia",
+    "name": "IRONMAN 70.3 Brasilia",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/3f98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-buenos-aires",
+    "name": "IRONMAN 70.3 Buenos Aires Palermo",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e7996dac-cd28-45e0-8ba2-73b711571958"
   },
   {
     "slug": "im703-cairns",
@@ -138,10 +312,76 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/eec737b8-84fe-e111-aa75-005056956277"
   },
   {
+    "slug": "im703-calgary",
+    "name": "IRONMAN 70.3 Calgary",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4598aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-campeche",
+    "name": "IRONMAN 70.3 Campeche",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/839b1d67-802e-e611-940e-005056951bf1"
+  },
+  {
+    "slug": "im703-cap-cana",
+    "name": "IRONMAN 70.3 Cap Cana",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e56852ab-06cc-4094-bc96-38d696ee15a6"
+  },
+  {
+    "slug": "im703-cartagena",
+    "name": "IRONMAN 70.3 Cartagena",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/dd309e2b-8a97-e511-9409-005056951bf1"
+  },
+  {
+    "slug": "im703-cascais",
+    "name": "IRONMAN 70.3 Cascais Portugal",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/86f0cd79-3580-e611-9410-005056951bf1"
+  },
+  {
+    "slug": "im703-cebu-philippines",
+    "name": "IRONMAN 70.3 Philippines",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6f98aa20-f278-e111-b16a-005056956277"
+  },
+  {
     "slug": "im703-chattanooga",
     "name": "IRONMAN 70.3 Chattanooga",
     "location": "Chattanooga, TN, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/e2352999-586b-e411-93fa-005056951bf1"
+  },
+  {
+    "slug": "im703-coeur-dalene",
+    "name": "IRONMAN 70.3 Coeur d'Alene",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/eca2b3cf-881e-e511-9403-005056951bf1"
+  },
+  {
+    "slug": "im703-colombo",
+    "name": "IRONMAN 70.3 Colombo",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/ca7a8458-3a3a-e711-9417-005056951bf1"
+  },
+  {
+    "slug": "im703-cozumel",
+    "name": "IRONMAN 70.3 Cozumel",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4f98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-croatia",
+    "name": "IRONMAN 70.3 Poreč",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/dec32902-8a8c-4707-ad87-fa27be294d7a"
+  },
+  {
+    "slug": "im703-danang",
+    "name": "IRONMAN 70.3 Da Nang",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/7d32fb34-06b2-e411-9400-005056951bf1"
   },
   {
     "slug": "im703-des-moines",
@@ -150,10 +390,70 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/ed940c67-c299-e911-a97a-000d3a37468c"
   },
   {
+    "slug": "im703-desaru-coast",
+    "name": "IRONMAN 70.3 Desaru Coast",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f8b9aa5e-b5b7-e911-a986-000d3a364086"
+  },
+  {
+    "slug": "im703-dhofar",
+    "name": "IRONMAN 70.3 Dhofar",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/d7e1a857-a41b-4be8-a2e5-9c5b096640a4"
+  },
+  {
+    "slug": "im703-duisburg",
+    "name": "IRONMAN 70.3 Duisburg",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9ee9bf47-e2f0-e911-a812-000d3a5a1cf8"
+  },
+  {
+    "slug": "im703-durban",
+    "name": "IRONMAN 70.3 Durban",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/05a02daa-99b0-e411-9400-005056951bf1"
+  },
+  {
     "slug": "im703-eagleman",
     "name": "IRONMAN 70.3 Eagleman",
     "location": "Cambridge, MD, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/d26b290a-86fe-e111-aa75-005056956277"
+  },
+  {
+    "slug": "im703-ecuador",
+    "name": "IRONMAN 70.3 Ecuador",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f53b55a5-16b2-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im703-elsinore",
+    "name": "IRONMAN 70.3 Elsinore",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/fec9c75b-55a5-e311-b5f4-005056956277"
+  },
+  {
+    "slug": "im703-emilia-romagna",
+    "name": "IRONMAN 70.3 Emilia Romagna",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/b3a04d8c-172a-e911-a972-000d3a36478d"
+  },
+  {
+    "slug": "im703-encarnacion",
+    "name": "IRONMAN 70.3 Encarnacion",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/28ec6dea-d2d5-425a-b5a1-5f589222c64e"
+  },
+  {
+    "slug": "im703-erkner",
+    "name": "IRONMAN 70.3 Erkner",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/25bc1a07-6985-434a-86ab-f7c867230491"
+  },
+  {
+    "slug": "im703-florianopolis",
+    "name": "IRONMAN 70.3 Florianopolis",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/0a2f9c3c-e1c3-e711-941b-005056951bf1"
   },
   {
     "slug": "im703-florida",
@@ -162,10 +462,22 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/5198aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-fortaleza",
+    "name": "IRONMAN 70.3 Fortaleza",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/68424bd6-3ed8-e611-9412-005056951bf1"
+  },
+  {
     "slug": "im703-gdynia",
     "name": "IRONMAN 70.3 Gdynia",
     "location": "Gdynia, Poland",
     "groupUrl": "https://labs-v2.competitor.com/results/event/e1339090-3e7a-e411-93fc-005056951bf1"
+  },
+  {
+    "slug": "im703-geelong",
+    "name": "IRONMAN 70.3 Geelong",
+    "location": "Geelong, Australia",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/3bff5ad1-f53b-e311-9ec7-005056956277"
   },
   {
     "slug": "im703-goa",
@@ -174,10 +486,16 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/a8a0c439-4cfd-e811-a968-000d3a3749bc"
   },
   {
-    "slug": "im703-geelong",
-    "name": "IRONMAN 70.3 Geelong",
-    "location": "Geelong, Australia",
-    "groupUrl": "https://labs-v2.competitor.com/results/event/3bff5ad1-f53b-e311-9ec7-005056956277"
+    "slug": "im703-goseong",
+    "name": "IRONMAN 70.3 Goseong",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/80711e6b-fdca-e811-a96a-000d3a35f53a"
+  },
+  {
+    "slug": "im703-greece",
+    "name": "IRONMAN 70.3 Costa Navarino, Peloponnese, Greece",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/372808eb-839a-4a2d-bf7c-d090eca0714f"
   },
   {
     "slug": "im703-gulf-coast",
@@ -192,6 +510,84 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/5398aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-hradec-kralove",
+    "name": "IRONMAN 70.3 Hradec Králové",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/87f1af8b-ceaf-4f25-a975-16e17e4f6de4"
+  },
+  {
+    "slug": "im703-japan",
+    "name": "IRONMAN 70.3 Higashimikawa Japan",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/966a0110-9961-4dcf-bea0-4d9b97a3f7b3"
+  },
+  {
+    "slug": "im703-jonkoping",
+    "name": "IRONMAN 70.3 Jonkoping",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/7f88d2cc-ea65-e511-9409-005056951bf1"
+  },
+  {
+    "slug": "im703-kenting",
+    "name": "IRONMAN 70.3 Kenting",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/89d75720-a6a0-4985-a20d-5bcf468c99f6"
+  },
+  {
+    "slug": "im703-knokke-heist",
+    "name": "IRONMAN 70.3 Knokke-Heist",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9a8052e4-602f-4269-943f-5a40a28a9969"
+  },
+  {
+    "slug": "im703-kraichgau",
+    "name": "IRONMAN 70.3 Kraichgau",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/7b9d72b1-f044-e411-93f8-005056951bf1"
+  },
+  {
+    "slug": "im703-krakow",
+    "name": "IRONMAN 70.3 Krakow",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/2c2982fc-2c97-459d-b2ef-e77b92eecd4f"
+  },
+  {
+    "slug": "im703-la-quinta",
+    "name": "IRONMAN 70.3 La Quinta",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a581b0d5-23f2-e711-941c-005056951bf1"
+  },
+  {
+    "slug": "im703-langkawi",
+    "name": "IRONMAN 70.3 Langkawi",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f8e5a828-360b-e711-9414-005056951bf1"
+  },
+  {
+    "slug": "im703-les-sables-dolonne",
+    "name": "IRONMAN 70.3 Les Sables d'Olonne",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/aa97b7b2-e4b1-e811-a96c-000d3a364086"
+  },
+  {
+    "slug": "im703-los-cabos",
+    "name": "IRONMAN 70.3 Los Cabos",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a125f36e-a1be-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im703-louisville",
+    "name": "IRONMAN 70.3 Louisville",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/17d618ca-6a56-4aae-bda6-7c221acdbb7c"
+  },
+  {
+    "slug": "im703-luxembourg",
+    "name": "IRONMAN 70.3 Luxembourg",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/39ac281d-1ed9-e211-af98-005056956277"
+  },
+  {
     "slug": "im703-maine",
     "name": "IRONMAN 70.3 Maine",
     "location": "Old Orchard Beach, ME, USA",
@@ -202,6 +598,12 @@
     "name": "IRONMAN 70.3 Mallorca",
     "location": "Mallorca, Spain",
     "groupUrl": "https://labs-v2.competitor.com/results/event/5d98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-melbourne",
+    "name": "IRONMAN 70.3 Melbourne",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/ca57aaf3-5a31-ea11-a810-000d3a5a1477"
   },
   {
     "slug": "im703-michigan",
@@ -216,6 +618,30 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/5397aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-monterrey",
+    "name": "IRONMAN 70.3 Monterrey",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/8ca744f9-e161-e311-8ba1-005056956277"
+  },
+  {
+    "slug": "im703-mossel-bay",
+    "name": "IRONMAN 70.3 Mossel Bay",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/c19dce8a-2f4b-460f-8816-f83f41f282b3"
+  },
+  {
+    "slug": "im703-muncie",
+    "name": "IRONMAN 70.3 Muncie",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6398aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-muskoka",
+    "name": "IRONMAN 70.3 Muskoka",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6598aa20-f278-e111-b16a-005056956277"
+  },
+  {
     "slug": "im703-musselman",
     "name": "IRONMAN 70.3 Musselman",
     "location": "Geneva, NY, USA",
@@ -226,6 +652,12 @@
     "name": "IRONMAN 70.3 New York",
     "location": "New York, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/c7c8f92c-9cb1-4d76-9700-20c57ae28f17"
+  },
+  {
+    "slug": "im703-new-zealand",
+    "name": "IRONMAN 70.3 New Zealand",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f11b4433-9452-e711-9418-005056951bf1"
   },
   {
     "slug": "im703-nice",
@@ -252,16 +684,106 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/0c4e3cef-3477-e511-9409-005056951bf1"
   },
   {
+    "slug": "im703-oman",
+    "name": "IRONMAN 70.3 Oman",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/d56de758-0895-e811-9421-005056951bf1"
+  },
+  {
     "slug": "im703-oregon",
     "name": "IRONMAN 70.3 Oregon",
     "location": "Salem, OR, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/a2bd7104-f82f-42f2-8943-1265d315a160"
   },
   {
+    "slug": "im703-panama",
+    "name": "IRONMAN 70.3 Panama",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/6b98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-pennsylvania",
+    "name": "IRONMAN 70.3 Pennsylvania Happy Valley",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/e916842d-32b7-4bce-884f-a8c5876dab16"
+  },
+  {
+    "slug": "im703-peru",
+    "name": "IRONMAN 70.3 Peru",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/12f25db3-5f74-e611-9410-005056951bf1"
+  },
+  {
+    "slug": "im703-phu-quoc",
+    "name": "IRONMAN 70.3 Phu Quoc",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/854fec6c-e9e0-47a0-a9f9-855f9313cbc1"
+  },
+  {
+    "slug": "im703-port-macquarie",
+    "name": "IRONMAN 70.3 Port Macquarie",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/7398aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-poznan",
+    "name": "IRONMAN 70.3 Poznan",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/5a9a5b9c-f4ff-4dd5-9b1d-11b3379c427f"
+  },
+  {
     "slug": "im703-pucon",
     "name": "IRONMAN 70.3 Pucón",
     "location": "Pucón, Chile",
     "groupUrl": "https://labs-v2.competitor.com/results/event/8397aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-puerto-princesa",
+    "name": "IRONMAN 70.3 Puerto Princesa",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/befc8af5-8303-436a-a7d1-2531e3218268"
+  },
+  {
+    "slug": "im703-puerto-rico",
+    "name": "IRONMAN 70.3 Puerto Rico",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/7b98aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-punta-del-este",
+    "name": "IRONMAN 70.3 Punta del Este",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/1ed3ce8d-47bc-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im703-rio-de-janeiro",
+    "name": "IRONMAN 70.3 Rio de Janeiro",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a683daa8-c30e-e511-9401-005056951bf1"
+  },
+  {
+    "slug": "im703-riviera-nayarit",
+    "name": "IRONMAN 70.3 Riviera Nayarit",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/71a0ce42-2658-461a-9e27-7b275f1759a4"
+  },
+  {
+    "slug": "im703-rockford-illinois",
+    "name": "IRONMAN 70.3 Rockford - Illinois",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/94699a00-6f45-4a4c-ad00-fdd7d274c95b"
+  },
+  {
+    "slug": "im703-rwanda",
+    "name": "IRONMAN 70.3 Rwanda",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/5f9e8cd3-1e05-4d4b-953a-f2596a6d8f44"
+  },
+  {
+    "slug": "im703-san-juan",
+    "name": "IRONMAN 70.3 San Juan",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/a926121d-f2bf-428b-98d9-8574b4a7befd"
   },
   {
     "slug": "im703-santa-cruz",
@@ -276,6 +798,24 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/9598aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-sao-paulo",
+    "name": "IRONMAN 70.3 São Paulo",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/2736dce6-7e49-e911-a979-000d3a35f53a"
+  },
+  {
+    "slug": "im703-shanghai-chongming",
+    "name": "IRONMAN 70.3 Shanghai Chongming",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/94dd54fc-db4f-e811-941e-005056951bf1"
+  },
+  {
+    "slug": "im703-subic-bay-philippines",
+    "name": "IRONMAN 70.3 Subic Bay Philippines",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/30c4b1f7-08b2-e411-9400-005056951bf1"
+  },
+  {
     "slug": "im703-sunshine-coast",
     "name": "IRONMAN 70.3 Sunshine Coast",
     "location": "Sunshine Coast, Australia",
@@ -288,10 +828,16 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/7f9774c3-b171-4a38-a2ee-afb15573054a"
   },
   {
-    "slug": "im703-timberman",
-    "name": "IRONMAN 70.3 Timberman",
-    "location": "Laconia, NH, USA",
-    "groupUrl": "https://labs-v2.competitor.com/results/event/9198aa20-f278-e111-b16a-005056956277"
+    "slug": "im703-switzerland",
+    "name": "IRONMAN 70.3 Switzerland",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/8998aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-tallinn",
+    "name": "IRONMAN 70.3 Tallinn",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/f3f8d4fc-0e48-420a-a50e-6e749b5ce83b"
   },
   {
     "slug": "im703-texas",
@@ -300,10 +846,70 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/8f98aa20-f278-e111-b16a-005056956277"
   },
   {
+    "slug": "im703-timberman",
+    "name": "IRONMAN 70.3 Timberman",
+    "location": "Laconia, NH, USA",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9198aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-tours",
+    "name": "IRONMAN 70.3 Tours Metropole - Loire Valley",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/c795d5c4-a4ef-40cb-846e-9889cdb6ef12"
+  },
+  {
+    "slug": "im703-turkey",
+    "name": "IRONMAN 70.3 Türkiye",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/3a513a94-c15e-e411-93fa-005056951bf1"
+  },
+  {
+    "slug": "im703-valdivia",
+    "name": "IRONMAN 70.3 Valdivia",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/69e17fbc-46a5-40c4-a982-727831a0aa3a"
+  },
+  {
+    "slug": "im703-valencia",
+    "name": "IRONMAN 70.3 Valencia",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/51314bcd-4b2f-450e-b1f6-fb0dc6c5f609"
+  },
+  {
+    "slug": "im703-venice-jesolo",
+    "name": "IRONMAN 70.3 Venice-Jesolo",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9f68d6b4-c2fc-4082-ac82-b096b6890cb3"
+  },
+  {
+    "slug": "im703-vichy",
+    "name": "IRONMAN 70.3 Vichy",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4db33a98-76a5-e411-9400-005056951bf1"
+  },
+  {
+    "slug": "im703-victoria",
+    "name": "IRONMAN 70.3 Victoria",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/4d5414be-32d2-e311-b4c2-005056956277"
+  },
+  {
     "slug": "im703-waco",
     "name": "IRONMAN 70.3 Waco",
     "location": "Waco, TX, USA",
     "groupUrl": "https://labs-v2.competitor.com/results/event/ed0ed7f4-3fca-e711-941b-005056951bf1"
+  },
+  {
+    "slug": "im703-warsaw",
+    "name": "IRONMAN 70.3 Warsaw",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/b323092a-adef-4ffc-a093-ce89b8aed598"
+  },
+  {
+    "slug": "im703-washington-tri-cities",
+    "name": "IRONMAN 70.3 Washington Tri-Cities",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/cd32ce29-af1d-ea11-a811-000d3a5a1f86"
   },
   {
     "slug": "im703-western-australia",
@@ -312,15 +918,45 @@
     "groupUrl": "https://labs-v2.competitor.com/results/event/2c376cf3-2149-e611-940f-005056951bf1"
   },
   {
+    "slug": "im703-western-massachusetts",
+    "name": "IRONMAN 70.3 Western Massachusetts",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/bf860cb8-4efc-49f5-90f3-7e8d8ac13f18"
+  },
+  {
+    "slug": "im703-western-sydney",
+    "name": "IRONMAN 70.3 Western Sydney",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/39894f5e-25a6-e311-b5f4-005056956277"
+  },
+  {
+    "slug": "im703-westfriesland",
+    "name": "IRONMAN 70.3 Westfriesland",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/67d2b761-0eae-e911-a981-000d3a36478d"
+  },
+  {
     "slug": "im703-weymouth",
     "name": "IRONMAN 70.3 Weymouth",
     "location": "Weymouth, UK",
     "groupUrl": "https://labs-v2.competitor.com/results/event/9da9ce3f-1c7f-e511-9409-005056951bf1"
   },
   {
+    "slug": "im703-wisconsin",
+    "name": "IRONMAN 70.3 Wisconsin",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/adaedbb8-6095-e611-9410-005056951bf1"
+  },
+  {
     "slug": "im703-world-championship",
     "name": "IRONMAN 70.3 World Championship",
     "location": "Various",
     "groupUrl": "https://labs-v2.competitor.com/results/event/9798aa20-f278-e111-b16a-005056956277"
+  },
+  {
+    "slug": "im703-zell-am-see",
+    "name": "IRONMAN 70.3 Zell am See-Kaprun",
+    "location": "",
+    "groupUrl": "https://labs-v2.competitor.com/results/event/9d98aa20-f278-e111-b16a-005056956277"
   }
 ]
