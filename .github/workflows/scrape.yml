@@ -41,19 +41,22 @@ jobs:
         run: |
           BRANCH="auto/scrape-$(date +%Y-%m-%d)"
 
-          # Skip if a branch for today already exists (e.g. from an earlier run)
-          if git ls-remote --heads origin "$BRANCH" | grep -q .; then
-            echo "Branch $BRANCH already exists, skipping"
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git checkout -b "$BRANCH"
-          git add data/
-          git commit -m "feat: add new race results"
-          git push -u origin "$BRANCH"
+          # If the branch already exists, check whether a PR exists too
+          if git ls-remote --heads origin "$BRANCH" | grep -q .; then
+            if gh pr view "$BRANCH" > /dev/null 2>&1; then
+              echo "Branch $BRANCH already exists with a PR, skipping"
+              exit 0
+            fi
+            echo "Branch $BRANCH exists but has no PR, creating one"
+          else
+            git checkout -b "$BRANCH"
+            git add data/
+            git commit -m "feat: add new race results"
+            git push -u origin "$BRANCH"
+          fi
 
           # Build PR body
           {
@@ -62,11 +65,12 @@ jobs:
             echo "Automated daily scrape discovered new race results."
             echo ""
             echo "### New files"
-            git diff --name-only HEAD~1 -- 'data/*.csv' | while read -r f; do
+            git diff --name-only origin/main..."origin/$BRANCH" -- 'data/*.csv' | while read -r f; do
               echo "- \`$f\`"
             done
           } > /tmp/pr-body.md
 
           gh pr create \
+            --head "$BRANCH" \
             --title "feat: add new race results" \
             --body-file /tmp/pr-body.md
