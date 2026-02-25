@@ -63,6 +63,24 @@ function formatDate(dateStr) {
   }
 }
 
+function resolveLocation(entry, eventName, eventDate) {
+  const overrides = entry.locationOverrides;
+  if (!overrides) return entry.location;
+  const year = eventDate ? new Date(eventDate).getFullYear().toString() : null;
+  const name = (eventName || "").toLowerCase();
+  let genderPrefix = "";
+  if (name.includes("- women")) genderPrefix = "women-";
+  else if (name.includes("- men")) genderPrefix = "men-";
+  // Try gender-year key first (e.g. "men-2024"), then year-only (e.g. "2024")
+  if (year && genderPrefix && overrides[`${genderPrefix}${year}`]) {
+    return overrides[`${genderPrefix}${year}`];
+  }
+  if (year && overrides[year]) {
+    return overrides[year];
+  }
+  return entry.location || "Various";
+}
+
 function isMainEvent(event) {
   const name = (event.name || "").toLowerCase();
   // Skip Aquabike and other non-triathlon subevents
@@ -93,7 +111,7 @@ async function scrapeRace(entry, events, opts) {
     }
 
     if (opts.dryRun) {
-      results.push({ slug, name: event.name, date, location: entry.location, eventId: event.eventId, finishers: 0 });
+      results.push({ slug, name: event.name, date, location: resolveLocation(entry, event.name, event.date), eventId: event.eventId, finishers: 0 });
       continue;
     }
 
@@ -116,7 +134,7 @@ async function scrapeRace(entry, events, opts) {
         fs.writeFileSync(csvPath, csv);
         const finishers = rows.filter((r) => r.Status === "Finisher").length;
         console.log(`    CSV saved: ${csvPath} (${rows.length} rows, ${finishers} finishers)`);
-        results.push({ slug, name: event.name, date, location: entry.location, eventId: event.eventId, finishers });
+        results.push({ slug, name: event.name, date, location: resolveLocation(entry, event.name, event.date), eventId: event.eventId, finishers });
       } else {
         console.log(`    No results to save`);
       }
