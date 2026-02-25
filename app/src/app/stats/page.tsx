@@ -40,17 +40,6 @@ function RaceLink({ slug, name }: { slug: string; name: string }) {
   );
 }
 
-function ResultLink({ raceSlug, resultId, label }: { raceSlug: string; resultId: number; label: string }) {
-  return (
-    <Link
-      href={`/race/${raceSlug}/result/${resultId}`}
-      className="text-white hover:text-blue-400 transition-colors"
-    >
-      {label}
-    </Link>
-  );
-}
-
 export default function StatsPage() {
   const stats = getStatsPageData();
   const agg = stats.aggregate;
@@ -155,67 +144,20 @@ export default function StatsPage() {
         </StatCard>
       </div>
 
-      {/* Records */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Records</h2>
+      {/* Finish Times */}
+      <h2 className="text-xl font-semibold text-gray-300 mb-4">Average Finish Times</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-        <StatCard label="Fastest Finish">
-          <p className="text-2xl font-bold text-white mt-1">{agg.fastestFinish.time}</p>
-          <p className="text-sm text-gray-500 mt-0.5">
-            <ResultLink
-              raceSlug={agg.fastestFinish.raceSlug}
-              resultId={agg.fastestFinish.resultId}
-              label={agg.fastestFinish.fullName}
-            />
-          </p>
+        <StatCard label="Avg Finish — IRONMAN 70.3">
+          <BigNumber value={formatSeconds(agg.averageHalfFinishSeconds)} />
         </StatCard>
-        <StatCard label="Slowest Finish">
-          <p className="text-2xl font-bold text-white mt-1">{agg.slowestFinish.time}</p>
-          <p className="text-sm text-gray-500 mt-0.5">
-            <ResultLink
-              raceSlug={agg.slowestFinish.raceSlug}
-              resultId={agg.slowestFinish.resultId}
-              label={agg.slowestFinish.fullName}
-            />
-          </p>
-        </StatCard>
-        <StatCard label="Average Finish Time">
-          <BigNumber value={formatSeconds(agg.averageFinishSeconds)} />
-        </StatCard>
-        <StatCard label="Fastest Swim Split">
-          <p className="text-2xl font-bold text-white mt-1">{agg.fastestSwim.time}</p>
-          <p className="text-sm text-gray-500 mt-0.5">
-            <ResultLink
-              raceSlug={agg.fastestSwim.raceSlug}
-              resultId={agg.fastestSwim.resultId}
-              label={agg.fastestSwim.fullName}
-            />
-          </p>
-        </StatCard>
-        <StatCard label="Fastest Bike Split">
-          <p className="text-2xl font-bold text-white mt-1">{agg.fastestBike.time}</p>
-          <p className="text-sm text-gray-500 mt-0.5">
-            <ResultLink
-              raceSlug={agg.fastestBike.raceSlug}
-              resultId={agg.fastestBike.resultId}
-              label={agg.fastestBike.fullName}
-            />
-          </p>
-        </StatCard>
-        <StatCard label="Fastest Run Split">
-          <p className="text-2xl font-bold text-white mt-1">{agg.fastestRun.time}</p>
-          <p className="text-sm text-gray-500 mt-0.5">
-            <ResultLink
-              raceSlug={agg.fastestRun.raceSlug}
-              resultId={agg.fastestRun.resultId}
-              label={agg.fastestRun.fullName}
-            />
-          </p>
+        <StatCard label="Avg Finish — IRONMAN 140.6">
+          <BigNumber value={formatSeconds(agg.averageFullFinishSeconds)} />
         </StatCard>
       </div>
 
       {/* Demographics */}
       <h2 className="text-xl font-semibold text-gray-300 mb-4">Demographics</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {agg.mostCommonAgeGroup && (
           <StatCard label="Most Common Age Group">
             <BigNumber value={agg.mostCommonAgeGroup.ageGroup} />
@@ -247,43 +189,6 @@ export default function StatsPage() {
             {stats.athleteWithMostRaces.raceCount} races
           </p>
         </StatCard>
-      </div>
-
-      {/* Race Analysis */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Race Analysis</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {agg.mostCompetitiveRace && (
-          <StatCard label="Most Competitive Race">
-            <RaceLink slug={agg.mostCompetitiveRace.slug} name={agg.mostCompetitiveRace.name} />
-            <p className="text-sm text-gray-500 mt-0.5">
-              {formatSeconds(agg.mostCompetitiveRace.seconds)} gap between 1st–10th
-            </p>
-          </StatCard>
-        )}
-        {agg.tightestFinishSpread && (
-          <StatCard label="Tightest Finish Spread">
-            <RaceLink slug={agg.tightestFinishSpread.slug} name={agg.tightestFinishSpread.name} />
-            <p className="text-sm text-gray-500 mt-0.5">
-              {formatSeconds(agg.tightestFinishSpread.seconds)} spread
-            </p>
-          </StatCard>
-        )}
-        {agg.widestFinishSpread && (
-          <StatCard label="Widest Finish Spread">
-            <RaceLink slug={agg.widestFinishSpread.slug} name={agg.widestFinishSpread.name} />
-            <p className="text-sm text-gray-500 mt-0.5">
-              {formatSeconds(agg.widestFinishSpread.seconds)} spread
-            </p>
-          </StatCard>
-        )}
-        {agg.longestAvgTransition && (
-          <StatCard label="Longest Avg Transition Time">
-            <RaceLink slug={agg.longestAvgTransition.slug} name={agg.longestAvgTransition.name} />
-            <p className="text-sm text-gray-500 mt-0.5">
-              {formatSeconds(agg.longestAvgTransition.seconds)} avg T1+T2
-            </p>
-          </StatCard>
-        )}
       </div>
     </main>
   );
