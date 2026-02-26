@@ -51,7 +51,7 @@ export function useAthleteSearch() {
       } finally {
         setIsSearching(false);
       }
-    }, 150);
+    }, 50);
   }, []);
 
   const trackSelect = useCallback(

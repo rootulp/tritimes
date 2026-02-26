@@ -189,6 +189,7 @@ for (const race of races) {
       searchMap.set(slug, {
         slug,
         fullName: r.FullName,
+        fullNameLower: r.FullName.toLowerCase(),
         country: r.Country,
         countryISO: r.CountryISO,
         raceCount: 1,
