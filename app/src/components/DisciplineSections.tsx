@@ -48,28 +48,32 @@ export default function DisciplineSections({ disciplines, transitions, ageGroup 
         </div>
       </div>
 
-      {disciplines.map((d) => (
-        <DisciplineSection
-          key={d.key}
-          discipline={d.label}
-          time={d.time}
-          overallData={d.overall}
-          ageGroupData={d.ageGroup}
-          ageGroup={ageGroup}
-          scope={showOverall ? "overall" : "ageGroup"}
-        />
-      ))}
-      {transitions.map((d) => (
-        <DisciplineSection
-          key={d.key}
-          discipline={d.label}
-          time={d.time}
-          overallData={d.overall}
-          ageGroupData={d.ageGroup}
-          ageGroup={ageGroup}
-          scope={showOverall ? "overall" : "ageGroup"}
-        />
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {disciplines.map((d) => (
+          <DisciplineSection
+            key={d.key}
+            discipline={d.label}
+            time={d.time}
+            overallData={d.overall}
+            ageGroupData={d.ageGroup}
+            ageGroup={ageGroup}
+            scope={showOverall ? "overall" : "ageGroup"}
+          />
+        ))}
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {transitions.map((d) => (
+          <DisciplineSection
+            key={d.key}
+            discipline={d.label}
+            time={d.time}
+            overallData={d.overall}
+            ageGroupData={d.ageGroup}
+            ageGroup={ageGroup}
+            scope={showOverall ? "overall" : "ageGroup"}
+          />
+        ))}
+      </div>
     </div>
   );
 }

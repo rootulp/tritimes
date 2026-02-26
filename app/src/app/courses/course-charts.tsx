@@ -1,9 +1,19 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import type { CourseStats } from "@/lib/types";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
-import CourseBarChart from "@/components/CourseBarChart";
+
+const CourseBarChart = dynamic(() => import("@/components/CourseBarChart"), {
+  ssr: false,
+  loading: () => (
+    <div className="bg-gray-900 rounded-xl border border-gray-700 p-6 animate-pulse">
+      <div className="h-5 w-24 bg-gray-800 rounded mb-4" />
+      <div className="h-64 bg-gray-800 rounded" />
+    </div>
+  ),
+});
 
 const DISCIPLINES = [
   {

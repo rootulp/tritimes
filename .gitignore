@@ -1,5 +1,6 @@
 data/raw/
 data/*.csv.gz
+data/histograms/
 .DS_Store
 .claude/worktrees
 .claude/*.local.json

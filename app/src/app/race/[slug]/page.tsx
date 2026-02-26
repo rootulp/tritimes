@@ -3,14 +3,21 @@ import Link from "next/link";
 import { getRaceBySlug, getRaceStats } from "@/lib/data";
 import { formatTime } from "@/lib/format";
 import { getCountryFlagISO } from "@/lib/flags";
+import dynamic from "next/dynamic";
 import ResultCard from "@/components/ResultCard";
-import RaceHistogram from "@/components/RaceHistogram";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
+
+const RaceHistogram = dynamic(() => import("@/components/RaceHistogram"), {
+  loading: () => <div className="h-52 bg-gray-800 rounded animate-pulse" />,
+});
 
 // Generate on demand — too many races to pre-render at build time.
 export async function generateStaticParams() {
   return [];
 }
+
+// Race data is static once scraped — cache rendered pages for 1 hour.
+export const revalidate = 3600;
 
 interface PageProps {
   params: Promise<{ slug: string }>;
