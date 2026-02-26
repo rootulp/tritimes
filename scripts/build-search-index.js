@@ -19,7 +19,7 @@ const { gzipSync } = require("zlib");
 
 const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
-const searchIndexPath = path.join(dataDir, "athlete-index.json.gz");
+const searchIndexPath = path.join(dataDir, "athlete-index.tsv.gz");
 const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
 const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
 const aggregateStatsPath = path.join(dataDir, "aggregate-stats.json.gz");
@@ -189,6 +189,7 @@ for (const race of races) {
       searchMap.set(slug, {
         slug,
         fullName: r.FullName,
+        fullNameLower: r.FullName.toLowerCase(),
         country: r.Country,
         countryISO: r.CountryISO,
         raceCount: 1,
@@ -238,9 +239,15 @@ for (const race of races) {
   }
 }
 
-// Write search index (gzipped)
+// Write search index as pre-sorted TSV (gzipped)
+// Format: one line per athlete, tab-separated: slug\tfullName\tcountry\tcountryISO\traceCount
+// Pre-sorted by lowercase fullName for binary search at runtime
 const searchIndex = Array.from(searchMap.values());
-fs.writeFileSync(searchIndexPath, gzipSync(JSON.stringify(searchIndex)));
+searchIndex.sort((a, b) => a.fullNameLower.localeCompare(b.fullNameLower));
+const tsvLines = searchIndex.map(
+  (e) => `${e.slug}\t${e.fullName}\t${e.country}\t${e.countryISO}\t${e.raceCount}`
+);
+fs.writeFileSync(searchIndexPath, gzipSync(tsvLines.join("\n")));
 
 // Write profiles index as { slug: [[raceSlug, resultId], ...] } (gzipped)
 const profiles = Object.fromEntries(profilesMap);
