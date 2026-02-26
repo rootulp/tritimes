@@ -70,7 +70,7 @@ export default function Histogram({ data, color, label }: Props) {
         <svg
           ref={svgRef}
           viewBox={`0 0 ${SVG_WIDTH} ${CHART_HEIGHT}`}
-          preserveAspectRatio="none"
+          preserveAspectRatio="xMidYMid meet"
           className="w-full"
           style={{ height: CHART_HEIGHT }}
           onMouseMove={handleMouseMove}
