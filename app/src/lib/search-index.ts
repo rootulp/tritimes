@@ -15,14 +15,30 @@ export function getSearchIndex(): IndexEntry[] {
       process.cwd(),
       "..",
       "data",
-      "athlete-index.json.gz",
+      "athlete-index.tsv.gz",
     );
-    const entries: IndexEntry[] = JSON.parse(
-      gunzipSync(fs.readFileSync(indexPath)).toString(),
-    );
-    // Sort by fullNameLower for prefix-priority binary search
-    entries.sort((a, b) => a.fullNameLower.localeCompare(b.fullNameLower));
-    cachedIndex = entries;
+    const tsv = gunzipSync(fs.readFileSync(indexPath)).toString();
+    const lines = tsv.split("\n");
+    const entries: IndexEntry[] = new Array(lines.length);
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (!line) continue;
+      const t1 = line.indexOf("\t");
+      const t2 = line.indexOf("\t", t1 + 1);
+      const t3 = line.indexOf("\t", t2 + 1);
+      const t4 = line.indexOf("\t", t3 + 1);
+      const fullName = line.substring(t1 + 1, t2);
+      entries[i] = {
+        slug: line.substring(0, t1),
+        fullName,
+        fullNameLower: fullName.toLowerCase(),
+        country: line.substring(t2 + 1, t3),
+        countryISO: line.substring(t3 + 1, t4),
+        raceCount: +line.substring(t4 + 1),
+      };
+    }
+    // Index is pre-sorted by fullNameLower at build time
+    cachedIndex = entries.filter(Boolean);
   }
   return cachedIndex;
 }
