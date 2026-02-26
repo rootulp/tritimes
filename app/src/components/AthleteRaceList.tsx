@@ -1,9 +1,22 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import type { AthleteRaceEntry } from "@/lib/types";
-import AthletePerformanceCharts from "./AthletePerformanceCharts";
+
+const AthletePerformanceCharts = dynamic(
+  () => import("./AthletePerformanceCharts"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="mt-8 animate-pulse">
+        <div className="h-6 w-48 bg-gray-800 rounded mb-6" />
+        <div className="h-64 bg-gray-900 border border-gray-800 rounded-lg" />
+      </div>
+    ),
+  }
+);
 
 interface Props {
   slug: string;

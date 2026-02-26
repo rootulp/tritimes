@@ -8,6 +8,9 @@ export async function generateStaticParams() {
   return [];
 }
 
+// Athlete data is static once scraped — cache rendered pages for 1 hour.
+export const revalidate = 3600;
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

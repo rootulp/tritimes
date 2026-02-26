@@ -463,20 +463,77 @@ function getSeconds(r: AthleteResult, discipline: Discipline): number {
   }
 }
 
+// Precomputed histogram cache: slug → discipline data
+const histogramCache = new Map<string, Record<string, { overall: PrecomputedBins; perAgeGroup: Record<string, PrecomputedBins> }>>();
+
+interface PrecomputedBin {
+  label: string;
+  rangeStart: number;
+  rangeEnd: number;
+  count: number;
+}
+
+interface PrecomputedBins {
+  bins: PrecomputedBin[];
+  medianSeconds: number;
+  totalAthletes: number;
+}
+
+function loadPrecomputedHistograms(raceSlug: string) {
+  const cached = histogramCache.get(raceSlug);
+  if (cached) return cached;
+
+  const histPath = path.join(process.cwd(), "..", "data", "histograms", `${raceSlug}.json.gz`);
+  if (!fs.existsSync(histPath)) return null;
+
+  const data = JSON.parse(gunzipSync(fs.readFileSync(histPath)).toString());
+  histogramCache.set(raceSlug, data);
+  return data;
+}
+
 export function getDisciplineHistogram(
   raceSlug: string,
   athlete: AthleteResult,
   discipline: Discipline,
   scope: "overall" | "ageGroup"
 ): HistogramData {
+  const athleteSeconds = getSeconds(athlete, discipline);
+
+  // Try precomputed data first
+  const precomputed = loadPrecomputedHistograms(raceSlug);
+  if (precomputed && precomputed[discipline]) {
+    const source = scope === "ageGroup"
+      ? precomputed[discipline].perAgeGroup[athlete.ageGroup]
+      : precomputed[discipline].overall;
+
+    if (source && source.bins.length > 0) {
+      const bins: HistogramBin[] = source.bins.map((b: PrecomputedBin) => ({
+        label: b.label,
+        rangeStart: b.rangeStart,
+        rangeEnd: b.rangeEnd,
+        count: b.count,
+        isAthlete: athleteSeconds >= b.rangeStart && athleteSeconds < b.rangeEnd,
+      }));
+
+      const slowerCount = source.bins.reduce(
+        (sum: number, b: PrecomputedBin) => sum + (b.rangeStart > athleteSeconds ? b.count : 0),
+        0
+      );
+      const athletePercentile = source.totalAthletes > 0
+        ? Math.round((slowerCount / source.totalAthletes) * 100)
+        : 0;
+
+      return { bins, athleteSeconds, athletePercentile, medianSeconds: source.medianSeconds };
+    }
+  }
+
+  // Fallback to on-demand computation
   let pool = getAllResults(raceSlug);
   if (scope === "ageGroup") {
     pool = pool.filter((r) => r.ageGroup === athlete.ageGroup);
   }
 
   const allSeconds = pool.map((r) => getSeconds(r, discipline));
-  const athleteSeconds = getSeconds(athlete, discipline);
-
   return computeHistogram(allSeconds, athleteSeconds, BIN_SIZES[discipline]);
 }
 
@@ -599,13 +656,41 @@ export function getRaceStats(raceSlug: string): RaceStats {
   const maleLeaderboard = buildLeaderboard("Male");
   const femaleLeaderboard = buildLeaderboard("Female");
 
-  // Histograms
-  const histograms = {
-    swim: computeRaceHistogram(results.map((r) => r.swimSeconds), BIN_SIZES.swim),
-    bike: computeRaceHistogram(results.map((r) => r.bikeSeconds), BIN_SIZES.bike),
-    run: computeRaceHistogram(results.map((r) => r.runSeconds), BIN_SIZES.run),
-    finish: computeRaceHistogram(results.map((r) => r.finishSeconds), BIN_SIZES.finish),
-  };
+  // Histograms — use precomputed data if available
+  const precomputed = loadPrecomputedHistograms(raceSlug);
+  const histograms = (() => {
+    if (precomputed) {
+      const toRaceHistogram = (key: Discipline): RaceHistogramData => {
+        const src = precomputed[key]?.overall;
+        if (!src || src.bins.length === 0) {
+          return computeRaceHistogram(results.map((r) => getSeconds(r, key)), BIN_SIZES[key]);
+        }
+        return {
+          bins: src.bins.map((b: PrecomputedBin) => ({
+            label: b.label,
+            rangeStart: b.rangeStart,
+            rangeEnd: b.rangeEnd,
+            count: b.count,
+            isAthlete: false,
+          })),
+          medianSeconds: src.medianSeconds,
+          totalAthletes: src.totalAthletes,
+        };
+      };
+      return {
+        swim: toRaceHistogram("swim"),
+        bike: toRaceHistogram("bike"),
+        run: toRaceHistogram("run"),
+        finish: toRaceHistogram("finish"),
+      };
+    }
+    return {
+      swim: computeRaceHistogram(results.map((r) => r.swimSeconds), BIN_SIZES.swim),
+      bike: computeRaceHistogram(results.map((r) => r.bikeSeconds), BIN_SIZES.bike),
+      run: computeRaceHistogram(results.map((r) => r.runSeconds), BIN_SIZES.run),
+      finish: computeRaceHistogram(results.map((r) => r.finishSeconds), BIN_SIZES.finish),
+    };
+  })();
 
   return {
     totalFinishers: results.length,

@@ -1,9 +1,26 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getRaceBySlug, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, getAllResults, type Discipline } from "@/lib/data";
+import dynamic from "next/dynamic";
 import ResultCard from "@/components/ResultCard";
-import DisciplineSections from "@/components/DisciplineSections";
 import { getCountryFlagISO } from "@/lib/flags";
+
+const DisciplineSections = dynamic(
+  () => import("@/components/DisciplineSections"),
+  {
+    loading: () => (
+      <div className="space-y-6 animate-pulse">
+        <div className="flex justify-center"><div className="h-10 w-56 bg-gray-800 rounded-lg" /></div>
+        {[1, 2, 3, 4].map((i) => (
+          <div key={i} className="bg-gray-900 rounded-xl border border-gray-700 p-6">
+            <div className="h-5 w-24 bg-gray-800 rounded mb-4" />
+            <div className="h-48 bg-gray-800 rounded" />
+          </div>
+        ))}
+      </div>
+    ),
+  }
+);
 import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
@@ -11,6 +28,9 @@ import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
 export async function generateStaticParams() {
   return [];
 }
+
+// Race data is static once scraped — cache rendered pages for 1 hour.
+export const revalidate = 3600;
 
 interface PageProps {
   params: Promise<{ slug: string; id: string }>;
