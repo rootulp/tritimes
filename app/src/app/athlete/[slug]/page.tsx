@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { getAthleteProfile } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
 import AthleteRaceList from "@/components/AthleteRaceList";

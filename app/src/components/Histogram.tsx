@@ -14,8 +14,6 @@ const CHART_HEIGHT = 200;
 const MARGIN = { top: 10, right: 10, bottom: 30, left: 45 };
 
 export default function Histogram({ data, color, label }: Props) {
-  if (data.bins.length === 0) return null;
-
   const [tooltip, setTooltip] = useState<{
     x: number;
     y: number;
@@ -23,12 +21,11 @@ export default function Histogram({ data, color, label }: Props) {
   } | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
+  if (data.bins.length === 0) return null;
+
   const bins = data.bins;
   const maxCount = Math.max(...bins.map((b) => b.count));
-  const innerWidth = 100; // percentage-based
   const innerHeight = CHART_HEIGHT - MARGIN.top - MARGIN.bottom;
-
-  const barWidth = innerWidth / bins.length;
 
   // Y-axis ticks
   const yTicks = getYTicks(maxCount);

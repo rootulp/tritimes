@@ -36,15 +36,15 @@ export default function CourseBarChart({
   color,
   label,
 }: Props) {
+  const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
+
   const sorted = [...courses]
     .filter((c) => c[disciplineKey] > 0)
     .sort((a, b) => a[disciplineKey] - b[disciplineKey])
     .slice(0, MAX_COURSES);
 
   if (sorted.length === 0) return null;
-
-  const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
-  const svgRef = useRef<SVGSVGElement>(null);
 
   const data = sorted.map((c) => ({
     name: c.displayName,

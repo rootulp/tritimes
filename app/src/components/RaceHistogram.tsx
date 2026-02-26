@@ -15,14 +15,14 @@ const MARGIN = { top: 10, right: 10, bottom: 30, left: 45 };
 const SVG_WIDTH = 500;
 
 export default function RaceHistogram({ data, color, label }: Props) {
-  if (data.bins.length === 0) return null;
-
   const [tooltip, setTooltip] = useState<{
     x: number;
     y: number;
     bin: (typeof data.bins)[0];
   } | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
+
+  if (data.bins.length === 0) return null;
 
   const bins = data.bins;
   const maxCount = Math.max(...bins.map((b) => b.count));
