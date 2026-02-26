@@ -186,9 +186,25 @@ let athleteIndexCache: AthleteSearchEntry[] | null = null;
 export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
   if (athleteIndexCache) return athleteIndexCache;
 
-  const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.json.gz");
-  athleteIndexCache = JSON.parse(gunzipSync(fs.readFileSync(indexPath)).toString());
-  return athleteIndexCache!;
+  const indexPath = path.join(process.cwd(), "..", "data", "athlete-index.tsv.gz");
+  const tsv = gunzipSync(fs.readFileSync(indexPath)).toString();
+  const entries: AthleteSearchEntry[] = [];
+  for (const line of tsv.split("\n")) {
+    if (!line) continue;
+    const t1 = line.indexOf("\t");
+    const t2 = line.indexOf("\t", t1 + 1);
+    const t3 = line.indexOf("\t", t2 + 1);
+    const t4 = line.indexOf("\t", t3 + 1);
+    entries.push({
+      slug: line.substring(0, t1),
+      fullName: line.substring(t1 + 1, t2),
+      country: line.substring(t2 + 1, t3),
+      countryISO: line.substring(t3 + 1, t4),
+      raceCount: +line.substring(t4 + 1),
+    });
+  }
+  athleteIndexCache = entries;
+  return athleteIndexCache;
 }
 
 // Compact mapping: slug → [[raceSlug, resultId], ...]
