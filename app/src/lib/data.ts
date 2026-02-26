@@ -351,7 +351,8 @@ export function getStatsPageData(): StatsPageData {
   // Group A: largest/smallest race
   const sortedByFinishers = [...races].sort((a, b) => b.finishers - a.finishers);
   const largest = sortedByFinishers[0];
-  const smallest = sortedByFinishers[sortedByFinishers.length - 1];
+  const racesWithFinishers = sortedByFinishers.filter(r => r.finishers > 0);
+  const smallest = racesWithFinishers[racesWithFinishers.length - 1];
 
   const avgParticipants = races.length > 0
     ? Math.round(races.reduce((sum, r) => sum + r.finishers, 0) / races.length)
@@ -363,10 +364,12 @@ export function getStatsPageData(): StatsPageData {
   const yearCounts = new Map<string, number>();
   for (const r of races) {
     const loc = r.location;
-    if (r.slug.startsWith("im703-")) {
-      im703LocationCounts.set(loc, (im703LocationCounts.get(loc) || 0) + 1);
-    } else {
-      imLocationCounts.set(loc, (imLocationCounts.get(loc) || 0) + 1);
+    if (loc) {
+      if (r.slug.startsWith("im703-")) {
+        im703LocationCounts.set(loc, (im703LocationCounts.get(loc) || 0) + 1);
+      } else {
+        imLocationCounts.set(loc, (imLocationCounts.get(loc) || 0) + 1);
+      }
     }
     const year = r.date.substring(0, 4);
     yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
