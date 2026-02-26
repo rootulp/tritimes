@@ -10,8 +10,8 @@ interface Props {
   label: string;
 }
 
-const CHART_HEIGHT = 200;
-const MARGIN = { top: 10, right: 10, bottom: 30, left: 45 };
+const CHART_HEIGHT = 220;
+const MARGIN = { top: 10, right: 10, bottom: 44, left: 45 };
 const SVG_WIDTH = 500;
 
 export default function RaceHistogram({ data, color, label }: Props) {
@@ -69,12 +69,13 @@ export default function RaceHistogram({ data, color, label }: Props) {
         <svg
           ref={svgRef}
           viewBox={`0 0 ${SVG_WIDTH} ${CHART_HEIGHT}`}
+          preserveAspectRatio="none"
           className="w-full"
           style={{ height: CHART_HEIGHT }}
           onMouseMove={handleMouseMove}
           onMouseLeave={() => setTooltip(null)}
         >
-          {/* Y-axis grid */}
+          {/* Y-axis grid + labels */}
           {yTicks.map((tick) => {
             const y = MARGIN.top + innerHeight - (tick / maxCount) * innerHeight;
             return (
@@ -120,7 +121,7 @@ export default function RaceHistogram({ data, color, label }: Props) {
             </g>
           )}
 
-          {/* X-axis labels */}
+          {/* X-axis tick labels */}
           {bins.map((bin, i) => {
             if (i % step !== 0) return null;
             const x = MARGIN.left + ((i + 0.42) / bins.length) * plotWidth;
@@ -130,6 +131,29 @@ export default function RaceHistogram({ data, color, label }: Props) {
               </text>
             );
           })}
+
+          {/* X-axis label */}
+          <text
+            x={MARGIN.left + plotWidth / 2}
+            y={CHART_HEIGHT - 4}
+            textAnchor="middle"
+            fill="#6b7280"
+            fontSize="11"
+          >
+            Time
+          </text>
+
+          {/* Y-axis label */}
+          <text
+            x={12}
+            y={MARGIN.top + innerHeight / 2}
+            textAnchor="middle"
+            fill="#6b7280"
+            fontSize="11"
+            transform={`rotate(-90, 12, ${MARGIN.top + innerHeight / 2})`}
+          >
+            Athletes
+          </text>
         </svg>
 
         {/* Tooltip */}
