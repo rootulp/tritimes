@@ -33,6 +33,7 @@ export function useAthleteSearch() {
     }
 
     if (debounceRef.current) clearTimeout(debounceRef.current);
+    setIsSearching(true);
     debounceRef.current = setTimeout(async () => {
       const key = value.toLowerCase();
       const cached = cacheRef.current.get(key);
@@ -45,7 +46,6 @@ export function useAthleteSearch() {
       abortRef.current?.abort();
       const controller = new AbortController();
       abortRef.current = controller;
-      setIsSearching(true);
 
       try {
         const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
