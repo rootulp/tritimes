@@ -4,6 +4,14 @@ import { useState, useRef, useCallback } from "react";
 import { track } from "@vercel/analytics";
 import { AthleteSearchEntry } from "@/lib/types";
 
+// Warm the search serverless function on first module load.
+// Uses a short query to trigger index decompression without transferring much data.
+let prefetchStarted = false;
+if (typeof window !== "undefined" && !prefetchStarted) {
+  prefetchStarted = true;
+  fetch("/api/search?q=a", { priority: "low" }).catch(() => {});
+}
+
 export function useAthleteSearch() {
   const [query, setQuery] = useState("");
   const [matches, setMatches] = useState<AthleteSearchEntry[]>([]);
