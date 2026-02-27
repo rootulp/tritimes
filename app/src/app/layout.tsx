@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/Header";
-import CommandPalette from "@/components/CommandPalette";
+import LazyCommandPalette from "@/components/LazyCommandPalette";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[var(--background)] min-h-dvh flex flex-col`}
       >
         <Header />
-        <CommandPalette />
+        <LazyCommandPalette />
         {children}
         <Footer />
         <Analytics />
