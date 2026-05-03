@@ -1,11 +1,179 @@
 [
   {
+    "slug": "im703-brasilia-2026",
+    "name": "2026 IRONMAN 70.3 Brasilia",
+    "date": "2026-04-26",
+    "location": "",
+    "eventId": "0746a169-cbda-4721-9a75-283293923545",
+    "finishers": 1331
+  },
+  {
+    "slug": "im703-los-cabos-2026",
+    "name": "2026 IRONMAN 70.3 Los Cabos",
+    "date": "2026-04-26",
+    "location": "",
+    "eventId": "9bdf062b-d63b-48ae-9ebf-8aeb59ddd9f8",
+    "finishers": 552
+  },
+  {
+    "slug": "im703-peru-2026",
+    "name": "2026 IRONMAN 70.3 Peru",
+    "date": "2026-04-26",
+    "location": "",
+    "eventId": "b3b9e006-5f94-45e6-b456-e6b1888b3d4b",
+    "finishers": 982
+  },
+  {
+    "slug": "im-south-africa-2026",
+    "name": "2026 IRONMAN South Africa",
+    "date": "2026-04-19",
+    "location": "Port Elizabeth, South Africa",
+    "eventId": "89d3cdad-317c-471e-9325-32cf4bce3fde",
+    "finishers": 782
+  },
+  {
+    "slug": "im703-valencia-2026",
+    "name": "2026 IRONMAN 70.3 Valencia",
+    "date": "2026-04-19",
+    "location": "",
+    "eventId": "98b75fdb-0a8f-4829-a6d4-8d16d186b879",
+    "finishers": 2263
+  },
+  {
+    "slug": "im-texas-2026",
+    "name": "2026 IRONMAN Texas",
+    "date": "2026-04-18",
+    "location": "The Woodlands, TX, USA",
+    "eventId": "31e73a5b-a79d-4847-9083-8dd15cc242b3",
+    "finishers": 2176
+  },
+  {
+    "slug": "im-penghu-2026",
+    "name": "2026 IRONMAN Penghu",
+    "date": "2026-04-12",
+    "location": "",
+    "eventId": "864fb423-8283-471e-bb2d-b032050f853a",
+    "finishers": 550
+  },
+  {
+    "slug": "im703-san-juan-2026",
+    "name": "2026 IRONMAN 70.3 San Juan",
+    "date": "2026-03-29",
+    "location": "",
+    "eventId": "08f2c1d0-4806-4e49-b892-f08d706e3b53",
+    "finishers": 825
+  },
+  {
+    "slug": "im703-texas-2026",
+    "name": "2026 IRONMAN 70.3 Texas",
+    "date": "2026-03-29",
+    "location": "Galveston, TX, USA",
+    "eventId": "17034178-f196-4714-ab3e-d0d2af84b7e7",
+    "finishers": 1329
+  },
+  {
+    "slug": "im703-oceanside-2026",
+    "name": "2026 IRONMAN 70.3 Oceanside",
+    "date": "2026-03-28",
+    "location": "Oceanside, CA, USA",
+    "eventId": "560ee5e8-3008-471f-a94c-174288861326",
+    "finishers": 2621
+  },
+  {
+    "slug": "im703-davao-philippines-2026",
+    "name": "2026 IRONMAN 70.3 Davao",
+    "date": "2026-03-22",
+    "location": "",
+    "eventId": "0792eefa-12c5-4f79-bc7f-3dc64a617efc",
+    "finishers": 409
+  },
+  {
+    "slug": "im703-geelong-2026",
+    "name": "2026 IRONMAN 70.3 Geelong",
+    "date": "2026-03-22",
+    "location": "Geelong, Australia",
+    "eventId": "bcf8d451-6b50-4d9f-946e-69d890ed6588",
+    "finishers": 1273
+  },
+  {
+    "slug": "im703-panama-2026",
+    "name": "2026 IRONMAN 70.3 Panama",
+    "date": "2026-03-22",
+    "location": "",
+    "eventId": "dfbf0830-2184-48a9-a472-a75973104aa1",
+    "finishers": 1100
+  },
+  {
+    "slug": "im703-dallas-little-elm-2026",
+    "name": "2026 IRONMAN 70.3 Dallas-Little Elm - Pros",
+    "date": "2026-03-15",
+    "location": "",
+    "eventId": "9058b69e-e09f-4449-b81d-63eb3ad424d9",
+    "finishers": 71
+  },
+  {
+    "slug": "im703-hengqin-2026",
+    "name": "2026 IRONMAN 70.3 Hengqin",
+    "date": "2026-03-15",
+    "location": "",
+    "eventId": "5f0ee442-bd40-4742-90bd-8ff1b8495dbb",
+    "finishers": 1013
+  },
+  {
+    "slug": "im703-puerto-rico-2026",
+    "name": "2026 IRONMAN 70.3 Puerto Rico",
+    "date": "2026-03-15",
+    "location": "",
+    "eventId": "3045d54d-7e9b-4a75-9037-37dbbd5a1e5b",
+    "finishers": 784
+  },
+  {
+    "slug": "im703-punta-del-este-2026",
+    "name": "2026 IRONMAN 70.3 Punta del Este",
+    "date": "2026-03-08",
+    "location": "",
+    "eventId": "07f6813e-c8ca-4250-8dd2-f72a45e9d588",
+    "finishers": 1145
+  },
+  {
+    "slug": "im-new-zealand-2026",
+    "name": "2026 IRONMAN New Zealand",
+    "date": "2026-03-07",
+    "location": "Taupo, New Zealand",
+    "eventId": "d7a58ffe-52bb-47a3-bc71-8c243ea143ec",
+    "finishers": 993
+  },
+  {
+    "slug": "im703-new-zealand-2026",
+    "name": "2026 IRONMAN 70.3 New Zealand",
+    "date": "2026-03-07",
+    "location": "",
+    "eventId": "424232b3-487f-40f1-954c-790a49791343",
+    "finishers": 1021
+  },
+  {
+    "slug": "im703-monterrey-2026",
+    "name": "2026 IRONMAN 70.3 Monterrey",
+    "date": "2026-03-01",
+    "location": "",
+    "eventId": "8458ba56-5dfa-404a-86b2-7e1f19751a22",
+    "finishers": 1632
+  },
+  {
     "slug": "im703-colombo-2026",
     "name": "2026 IRONMAN 70.3 Colombo",
     "date": "2026-02-22",
     "location": "",
     "eventId": "9b11429d-f159-474b-bb2a-7b67ec46cd89",
     "finishers": 359
+  },
+  {
+    "slug": "im703-san-salvador-2026",
+    "name": "2026 IRONMAN 70.3 San Salvador",
+    "date": "2026-02-22",
+    "location": "",
+    "eventId": "fef7c2f6-6938-4a94-8909-135d45b3743b",
+    "finishers": 591
   },
   {
     "slug": "im703-oman-2026",
@@ -1776,6 +1944,14 @@
     "finishers": 1821
   },
   {
+    "slug": "im703-davao-philippines-2024",
+    "name": "2024 IRONMAN 70.3 Davao",
+    "date": "2024-08-11",
+    "location": "",
+    "eventId": "060931ac-c795-4789-8430-667ef3c9be40",
+    "finishers": 481
+  },
+  {
     "slug": "im703-gdynia-2024",
     "name": "2024 IRONMAN 70.3 Gdynia",
     "date": "2024-08-04",
@@ -3366,6 +3542,14 @@
     "location": "",
     "eventId": "e0b839c7-26b3-4a3f-ad00-92ed82ce33da",
     "finishers": 873
+  },
+  {
+    "slug": "im703-davao-philippines-2023",
+    "name": "2023 IRONMAN 70.3 Davao - Pros",
+    "date": "2023-03-26",
+    "location": "",
+    "eventId": "d02dcc8c-064c-491d-8dd1-035c388283cb",
+    "finishers": 15
   },
   {
     "slug": "im703-puerto-rico-2023",
@@ -5992,6 +6176,14 @@
     "finishers": 2360
   },
   {
+    "slug": "im703-davao-philippines-2019",
+    "name": "2019 IRONMAN 70.3 Davao Philippines",
+    "date": "2019-03-24",
+    "location": "",
+    "eventId": "4f6aa25e-f4c0-e811-a96d-000d3a364086",
+    "finishers": 1186
+  },
+  {
     "slug": "im703-campeche-2019",
     "name": "2019 IRONMAN 70.3 Campeche",
     "date": "2019-03-17",
@@ -6766,6 +6958,14 @@
     "location": "Oceanside, CA, USA",
     "eventId": "489a1f00-cd61-e711-9418-005056951bf1",
     "finishers": 2402
+  },
+  {
+    "slug": "im703-davao-philippines-2018",
+    "name": "2018 IRONMAN 70.3 Davao Philippines",
+    "date": "2018-03-25",
+    "location": "",
+    "eventId": "21280a3d-5ba4-e711-9419-005056951bf1",
+    "finishers": 1067
   },
   {
     "slug": "im703-campeche-2018",
@@ -10846,6 +11046,14 @@
     "location": "Madison, WI, USA",
     "eventId": "5f14d0b1-4eae-e111-80ae-005056956277",
     "finishers": 2172
+  },
+  {
+    "slug": "im703-brasilia-2006",
+    "name": "2006 IRONMAN 70.3 Brazil",
+    "date": "2006-08-20",
+    "location": "",
+    "eventId": "1f14d0b1-4eae-e111-80ae-005056956277",
+    "finishers": 0
   },
   {
     "slug": "im-lake-placid-2006",
