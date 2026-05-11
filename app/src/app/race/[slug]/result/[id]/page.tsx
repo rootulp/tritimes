@@ -23,6 +23,7 @@ const DisciplineSections = dynamic(
 );
 import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
 import PercentilePill from "@/components/PercentilePill";
+import ShareDialog from "@/components/ShareDialog";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
 // Next.js will render on first request and cache for subsequent visits.
@@ -80,17 +81,23 @@ export default async function ResultPage({ params }: PageProps) {
   const flag = getCountryFlagISO(athlete.countryISO);
   const location = [athlete.city, athlete.state, athlete.country].filter(Boolean).join(", ");
 
+  const shareUrl = `https://tritimes.org/race/${slug}/result/${id}`;
+  const imageHref = `/race/${slug}/result/${id}/opengraph-image`;
+  const downloadFilename = `${athlete.fullName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${slug}`;
 
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-white">
-          {flag && <span className="mr-2">{flag}</span>}
-          {athlete.fullName}
-        </h1>
-        <p className="text-gray-400 mt-1">
-          <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
-        </p>
+      <header className="mb-8 flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-3xl font-bold text-white">
+            {flag && <span className="mr-2">{flag}</span>}
+            {athlete.fullName}
+          </h1>
+          <p className="text-gray-400 mt-1">
+            <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
+          </p>
+        </div>
+        <ShareDialog url={shareUrl} imageHref={imageHref} filename={downloadFilename} />
       </header>
 
       <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8">
