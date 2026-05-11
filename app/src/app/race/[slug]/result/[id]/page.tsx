@@ -22,6 +22,7 @@ const DisciplineSections = dynamic(
   }
 );
 import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
+import PercentilePill from "@/components/PercentilePill";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
 // Next.js will render on first request and cache for subsequent visits.
@@ -111,11 +112,14 @@ export default async function ResultPage({ params }: PageProps) {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {disciplines.map((d) => (
+        {histograms.map((d) => (
           <div
             key={d.key}
-            className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
+            className="relative bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
           >
+            <div className="absolute top-2 right-2">
+              <PercentilePill percentile={d.ageGroup.athletePercentile} />
+            </div>
             <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || DEFAULT_DISCIPLINE_COLOR }}>
               {d.label}
             </div>
