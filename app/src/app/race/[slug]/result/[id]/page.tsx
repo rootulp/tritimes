@@ -29,8 +29,9 @@ export async function generateStaticParams() {
   return [];
 }
 
-// Race data is static once scraped — cache rendered pages for 1 hour.
-export const revalidate = 3600;
+// Race results are immutable once scraped — cache indefinitely. Cache is
+// reset on each deploy, which is when new CSVs land.
+export const revalidate = false;
 
 interface PageProps {
   params: Promise<{ slug: string; id: string }>;
