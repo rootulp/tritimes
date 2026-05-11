@@ -13,8 +13,10 @@ describe("formatPercentile", () => {
     expect(formatPercentile(0)).toBe("—");
   });
 
-  it("renders an em-dash for negative or NaN", () => {
+  it("renders an em-dash for negative, NaN, or Infinity", () => {
     expect(formatPercentile(-5)).toBe("—");
     expect(formatPercentile(Number.NaN)).toBe("—");
+    expect(formatPercentile(Number.POSITIVE_INFINITY)).toBe("—");
+    expect(formatPercentile(Number.NEGATIVE_INFINITY)).toBe("—");
   });
 });
