@@ -15,6 +15,7 @@ export default function ShareDialog({ url, imageHref, filename }: ShareDialogPro
   const [open, setOpen] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   // Close on outside click + Escape
   useEffect(() => {
@@ -25,7 +26,10 @@ export default function ShareDialog({ url, imageHref, filename }: ShareDialogPro
       }
     }
     function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        setOpen(false);
+        buttonRef.current?.focus();
+      }
     }
     document.addEventListener("pointerdown", onPointerDown);
     document.addEventListener("keydown", onKey);
@@ -55,6 +59,7 @@ export default function ShareDialog({ url, imageHref, filename }: ShareDialogPro
   return (
     <div ref={wrapRef} className="relative inline-block">
       <button
+        ref={buttonRef}
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="dialog"
