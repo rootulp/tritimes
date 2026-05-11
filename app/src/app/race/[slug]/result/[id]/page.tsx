@@ -88,7 +88,7 @@ export default async function ResultPage({ params }: PageProps) {
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <header className="mb-8 flex items-start justify-between gap-4">
-        <div>
+        <div className="min-w-0">
           <h1 className="text-3xl font-bold text-white">
             {flag && <span className="mr-2">{flag}</span>}
             {athlete.fullName}
