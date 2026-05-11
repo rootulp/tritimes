@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { getRaceBySlug, getAthleteById, getAllResults, getAgeGroupCount } from "@/lib/data";
+import { getRaceBySlug, getAthleteById, getAgeGroupCount } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
 
 // Use Node runtime: getRaceBySlug / getAthleteById read from the filesystem.
@@ -44,7 +44,7 @@ export default async function Image({ params }: Params) {
     );
   }
 
-  const totalFinishers = getAllResults(slug).length;
+  const totalFinishers = race.finishers;
   const ageGroupTotal = getAgeGroupCount(slug, athlete.ageGroup);
   const overallPct = Math.max(1, Math.round((athlete.overallRank / totalFinishers) * 100));
   const agPct = Math.max(1, Math.round((athlete.ageGroupRank / ageGroupTotal) * 100));
