@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getRaceBySlug, getAthleteById, getAgeGroupCount } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
+import { DISCIPLINE_COLORS } from "@/lib/colors";
 
 // Use Node runtime: getRaceBySlug / getAthleteById read from the filesystem.
 export const runtime = "nodejs";
@@ -98,9 +99,9 @@ export default async function Image({ params }: Params) {
 
         {/* Splits row */}
         <div style={{ display: "flex", marginTop: 40, gap: 24 }}>
-          <Split label="Swim" time={athlete.swimTime} color="#3b82f6" />
-          <Split label="Bike" time={athlete.bikeTime} color="#ef4444" />
-          <Split label="Run" time={athlete.runTime} color="#f59e0b" />
+          <Split label="Swim" time={athlete.swimTime} color={DISCIPLINE_COLORS.Swim} />
+          <Split label="Bike" time={athlete.bikeTime} color={DISCIPLINE_COLORS.Bike} />
+          <Split label="Run" time={athlete.runTime} color={DISCIPLINE_COLORS.Run} />
         </div>
 
         {/* Wordmark */}
