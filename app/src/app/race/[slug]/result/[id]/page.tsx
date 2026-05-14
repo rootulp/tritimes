@@ -22,6 +22,8 @@ const DisciplineSections = dynamic(
   }
 );
 import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
+import PercentilePill from "@/components/PercentilePill";
+import ShareDialog from "@/components/ShareDialog";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
 // Next.js will render on first request and cache for subsequent visits.
@@ -29,8 +31,9 @@ export async function generateStaticParams() {
   return [];
 }
 
-// Race data is static once scraped — cache rendered pages for 1 hour.
-export const revalidate = 3600;
+// Race results are immutable once scraped — cache indefinitely. Cache is
+// reset on each deploy, which is when new CSVs land.
+export const revalidate = false;
 
 interface PageProps {
   params: Promise<{ slug: string; id: string }>;
@@ -79,17 +82,23 @@ export default async function ResultPage({ params }: PageProps) {
   const flag = getCountryFlagISO(athlete.countryISO);
   const location = [athlete.city, athlete.state, athlete.country].filter(Boolean).join(", ");
 
+  const shareUrl = `https://tritimes.org/race/${slug}/result/${id}`;
+  const imageHref = `/race/${slug}/result/${id}/opengraph-image`;
+  const downloadFilename = `${athlete.fullName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${slug}`;
 
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-white">
-          {flag && <span className="mr-2">{flag}</span>}
-          {athlete.fullName}
-        </h1>
-        <p className="text-gray-400 mt-1">
-          <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
-        </p>
+      <header className="mb-8 flex items-start justify-between gap-4">
+        <div className="min-w-0">
+          <h1 className="text-3xl font-bold text-white">
+            {flag && <span className="mr-2">{flag}</span>}
+            {athlete.fullName}
+          </h1>
+          <p className="text-gray-400 mt-1">
+            <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
+          </p>
+        </div>
+        <ShareDialog url={shareUrl} imageHref={imageHref} filename={downloadFilename} />
       </header>
 
       <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8">
@@ -111,11 +120,14 @@ export default async function ResultPage({ params }: PageProps) {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {disciplines.map((d) => (
+        {histograms.map((d) => (
           <div
             key={d.key}
-            className="bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
+            className="relative bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
           >
+            <div className="absolute top-2 right-2">
+              <PercentilePill percentile={d.ageGroup.athletePercentile} />
+            </div>
             <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || DEFAULT_DISCIPLINE_COLOR }}>
               {d.label}
             </div>

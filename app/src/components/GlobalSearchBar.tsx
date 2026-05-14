@@ -4,6 +4,20 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAthleteSearch, prefetchSearch } from "@/hooks/useAthleteSearch";
+import { AthleteSearchEntry } from "@/lib/types";
+
+export type GlobalSearchViewState = "closed" | "loading" | "empty" | "results";
+
+export function getGlobalSearchViewState(
+  query: string,
+  matches: AthleteSearchEntry[],
+  isSearching: boolean,
+): GlobalSearchViewState {
+  if (query.trim().length < 2) return "closed";
+  if (matches.length > 0) return "results";
+  if (isSearching) return "loading";
+  return "empty";
+}
 
 export default function GlobalSearchBar() {
   const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, trackSelect } =
@@ -11,6 +25,7 @@ export default function GlobalSearchBar() {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const viewState = getGlobalSearchViewState(query, matches, isSearching);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -22,10 +37,10 @@ export default function GlobalSearchBar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Sync isOpen with matches
+  // Sync isOpen with the active search state.
   useEffect(() => {
-    setIsOpen(matches.length > 0);
-  }, [matches]);
+    setIsOpen(viewState !== "closed");
+  }, [viewState]);
 
   function handleSelect() {
     setIsOpen(false);
@@ -59,7 +74,7 @@ export default function GlobalSearchBar() {
           onKeyDown={handleKeyDown}
           onFocus={() => {
             prefetchSearch();
-            if (matches.length > 0) setIsOpen(true);
+            if (viewState !== "closed") setIsOpen(true);
           }}
           placeholder="Search athlete name..."
           className="w-full px-4 py-3 text-lg border border-gray-700 rounded-lg bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -70,30 +85,40 @@ export default function GlobalSearchBar() {
           </div>
         )}
       </div>
-      {isOpen && (
+      {isOpen && viewState !== "closed" && (
         <ul className="absolute z-50 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-lg max-h-80 overflow-y-auto">
-          {matches.map((entry, i) => (
-            <li
-              key={entry.slug}
-              className={`border-b border-gray-800 last:border-b-0 ${
-                i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"
-              }`}
-            >
-              <Link
-                href={`/athlete/${entry.slug}`}
-                onClick={() => {
-                  trackSelect(entry);
-                  handleSelect();
-                }}
-                className="block px-4 py-3"
-              >
-                <div className="font-medium text-white">{entry.fullName}</div>
-                <div className="text-sm text-gray-400">
-                  {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
-                </div>
-              </Link>
+          {viewState === "loading" ? (
+            <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">
+              Searching athletes...
             </li>
-          ))}
+          ) : viewState === "empty" ? (
+            <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">
+              No athletes found
+            </li>
+          ) : (
+            matches.map((entry, i) => (
+              <li
+                key={entry.slug}
+                className={`border-b border-gray-800 last:border-b-0 ${
+                  i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"
+                }`}
+              >
+                <Link
+                  href={`/athlete/${entry.slug}`}
+                  onClick={() => {
+                    trackSelect(entry);
+                    handleSelect();
+                  }}
+                  className="block px-4 py-3"
+                >
+                  <div className="font-medium text-white">{entry.fullName}</div>
+                  <div className="text-sm text-gray-400">
+                    {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
+                  </div>
+                </Link>
+              </li>
+            ))
+          )}
         </ul>
       )}
     </div>

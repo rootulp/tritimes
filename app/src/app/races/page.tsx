@@ -1,7 +1,7 @@
 import { getRaces } from "@/lib/data";
 import RaceList from "./race-list";
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export default function RacesPage() {
   const races = getRaces();

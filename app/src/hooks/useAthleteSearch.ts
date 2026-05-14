@@ -22,11 +22,13 @@ export function useAthleteSearch() {
   const abortRef = useRef<AbortController | null>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cacheRef = useRef(new Map<string, AthleteSearchEntry[]>());
+  const requestIdRef = useRef(0);
 
   const handleChange = useCallback((value: string) => {
     setQuery(value);
     setSelectedIndex(-1);
     if (value.length < 2) {
+      requestIdRef.current += 1;
       setMatches([]);
       setIsSearching(false);
       abortRef.current?.abort();
@@ -35,19 +37,26 @@ export function useAthleteSearch() {
     }
 
     if (debounceRef.current) clearTimeout(debounceRef.current);
+    const requestId = requestIdRef.current + 1;
+    requestIdRef.current = requestId;
+    setIsSearching(true);
     debounceRef.current = setTimeout(async () => {
+      if (requestIdRef.current !== requestId) return;
+
       const key = value.toLowerCase();
       const cached = cacheRef.current.get(key);
       if (cached) {
         setMatches(cached);
-        setIsSearching(false);
+        if (requestIdRef.current === requestId) {
+          setIsSearching(false);
+        }
         return;
       }
 
+      setMatches([]);
       abortRef.current?.abort();
       const controller = new AbortController();
       abortRef.current = controller;
-      setIsSearching(true);
 
       try {
         const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`, {
@@ -55,11 +64,15 @@ export function useAthleteSearch() {
         });
         const data: AthleteSearchEntry[] = await res.json();
         cacheRef.current.set(key, data);
-        setMatches(data);
+        if (requestIdRef.current === requestId) {
+          setMatches(data);
+        }
       } catch {
         // Aborted or network error — ignore
       } finally {
-        setIsSearching(false);
+        if (requestIdRef.current === requestId) {
+          setIsSearching(false);
+        }
       }
     }, 50);
   }, []);
@@ -76,6 +89,7 @@ export function useAthleteSearch() {
     setMatches([]);
     setSelectedIndex(-1);
     setIsSearching(false);
+    requestIdRef.current += 1;
     abortRef.current?.abort();
     if (debounceRef.current) clearTimeout(debounceRef.current);
   }, []);
