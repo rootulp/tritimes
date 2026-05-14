@@ -77,3 +77,7 @@ jobs:
             --head "$BRANCH" \
             --title "feat: add new race results" \
             --body-file /tmp/pr-body.md
+
+          # Request auto-merge so the PR squash-merges once CI passes,
+          # instead of piling up as a stale daily backlog.
+          gh pr merge "$BRANCH" --auto --squash --delete-branch
