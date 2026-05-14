@@ -510,6 +510,22 @@ function loadPrecomputedHistograms(raceSlug: string) {
   return data;
 }
 
+// Async variant for streaming server components: the awaited disk I/O gives
+// React's renderer a yield point so the parent shell can flush before the
+// downstream sync histogram work runs.
+export async function preloadHistograms(raceSlug: string): Promise<void> {
+  if (histogramCache.has(raceSlug)) return;
+
+  const histPath = path.join(process.cwd(), "..", "data", "histograms", `${raceSlug}.json.gz`);
+  try {
+    const buf = await fs.promises.readFile(histPath);
+    const data = JSON.parse(gunzipSync(buf).toString());
+    histogramCache.set(raceSlug, data);
+  } catch {
+    // File missing — getDisciplineHistogram will fall back to on-demand compute
+  }
+}
+
 export function getDisciplineHistogram(
   raceSlug: string,
   athlete: AthleteResult,

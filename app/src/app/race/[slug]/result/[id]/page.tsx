@@ -1,28 +1,10 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getRaceBySlug, getAthleteById, getDisciplineHistogram, getGenderCount, getAgeGroupCount, getAllResults, type Discipline } from "@/lib/data";
-import dynamic from "next/dynamic";
+import { getRaceBySlug, getAthleteById, getGenderCount, getAgeGroupCount, getAllResults } from "@/lib/data";
 import ResultCard from "@/components/ResultCard";
 import { getCountryFlagISO } from "@/lib/flags";
-
-const DisciplineSections = dynamic(
-  () => import("@/components/DisciplineSections"),
-  {
-    loading: () => (
-      <div className="space-y-6 animate-pulse">
-        <div className="flex justify-center"><div className="h-10 w-56 bg-gray-800 rounded-lg" /></div>
-        {[1, 2, 3, 4].map((i) => (
-          <div key={i} className="bg-gray-900 rounded-xl border border-gray-700 p-6">
-            <div className="h-5 w-24 bg-gray-800 rounded mb-4" />
-            <div className="h-48 bg-gray-800 rounded" />
-          </div>
-        ))}
-      </div>
-    ),
-  }
-);
-import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
-import PercentilePill from "@/components/PercentilePill";
+import HistogramSection, { HistogramSectionFallback } from "@/components/HistogramSection";
 import ShareDialog from "@/components/ShareDialog";
 
 // Don't pre-render all 75K+ athlete pages at build time — generate on demand.
@@ -46,30 +28,6 @@ export default async function ResultPage({ params }: PageProps) {
 
   const athlete = getAthleteById(slug, Number(id));
   if (!athlete) notFound();
-
-  const disciplines: { key: Discipline; label: string; time: string }[] = [
-    { key: "swim", label: "Swim", time: athlete.swimTime },
-    { key: "bike", label: "Bike", time: athlete.bikeTime },
-    { key: "run", label: "Run", time: athlete.runTime },
-    { key: "finish", label: "Total", time: athlete.finishTime },
-  ];
-
-  const transitions: { key: Discipline; label: string; time: string }[] = [
-    { key: "t1", label: "T1", time: athlete.t1Time },
-    { key: "t2", label: "T2", time: athlete.t2Time },
-  ];
-
-  const histograms = disciplines.map((d) => ({
-    ...d,
-    overall: getDisciplineHistogram(slug, athlete, d.key, "overall"),
-    ageGroup: getDisciplineHistogram(slug, athlete, d.key, "ageGroup"),
-  }));
-
-  const transitionHistograms = transitions.map((d) => ({
-    ...d,
-    overall: getDisciplineHistogram(slug, athlete, d.key, "overall"),
-    ageGroup: getDisciplineHistogram(slug, athlete, d.key, "ageGroup"),
-  }));
 
   const totalFinishers = getAllResults(slug).length;
   const genderTotal = getGenderCount(slug, athlete.gender);
@@ -119,28 +77,9 @@ export default async function ResultPage({ params }: PageProps) {
         />
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {histograms.map((d) => (
-          <div
-            key={d.key}
-            className="relative bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
-          >
-            <div className="absolute top-2 right-2">
-              <PercentilePill percentile={d.ageGroup.athletePercentile} />
-            </div>
-            <div className="text-sm font-medium mb-1" style={{ color: DISCIPLINE_COLORS[d.label] || DEFAULT_DISCIPLINE_COLOR }}>
-              {d.label}
-            </div>
-            <div className="text-lg font-mono font-bold text-white">{d.time}</div>
-          </div>
-        ))}
-      </div>
-
-      <DisciplineSections
-        disciplines={histograms}
-        transitions={transitionHistograms}
-        ageGroup={athlete.ageGroup}
-      />
+      <Suspense fallback={<HistogramSectionFallback />}>
+        <HistogramSection slug={slug} athlete={athlete} />
+      </Suspense>
     </main>
   );
 }
