@@ -4,11 +4,13 @@ import { useState, useRef, useCallback } from "react";
 import { track } from "@vercel/analytics";
 import { AthleteSearchEntry } from "@/lib/types";
 
-// Warm the search serverless function on first module load.
-// Uses a short query to trigger index decompression without transferring much data.
-let prefetchStarted = false;
-if (typeof window !== "undefined" && !prefetchStarted) {
-  prefetchStarted = true;
+// Warm the search serverless function on first user intent (focus/open),
+// not on module import — importing this hook on every route otherwise costs
+// a network round-trip during hydration.
+let prefetched = false;
+export function prefetchSearch() {
+  if (prefetched || typeof window === "undefined") return;
+  prefetched = true;
   fetch("/api/search?q=a", { priority: "low" }).catch(() => {});
 }
 

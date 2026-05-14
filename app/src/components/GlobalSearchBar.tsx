@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { useAthleteSearch } from "@/hooks/useAthleteSearch";
+import { useAthleteSearch, prefetchSearch } from "@/hooks/useAthleteSearch";
 
 export default function GlobalSearchBar() {
   const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, trackSelect } =
@@ -57,7 +57,10 @@ export default function GlobalSearchBar() {
           value={query}
           onChange={(e) => handleChange(e.target.value)}
           onKeyDown={handleKeyDown}
-          onFocus={() => matches.length > 0 && setIsOpen(true)}
+          onFocus={() => {
+            prefetchSearch();
+            if (matches.length > 0) setIsOpen(true);
+          }}
           placeholder="Search athlete name..."
           className="w-full px-4 py-3 text-lg border border-gray-700 rounded-lg bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />

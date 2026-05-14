@@ -3,11 +3,11 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { useAthleteSearch } from "@/hooks/useAthleteSearch";
+import { useAthleteSearch, prefetchSearch } from "@/hooks/useAthleteSearch";
 import { getCountryFlagISO } from "@/lib/flags";
 
-export default function CommandPalette() {
-  const [isOpen, setIsOpen] = useState(false);
+export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: boolean }) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
   const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, trackSelect, reset } =
     useAthleteSearch();
   const router = useRouter();
@@ -49,9 +49,10 @@ export default function CommandPalette() {
     };
   }, [reset, isOpen, close]);
 
-  // Focus input when opened
+  // Focus input + warm the search function when opened
   useEffect(() => {
     if (isOpen) {
+      prefetchSearch();
       requestAnimationFrame(() => inputRef.current?.focus());
     }
   }, [isOpen]);
