@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { useAthleteSearch, prefetchSearch } from "@/hooks/useAthleteSearch";
+import { useAthleteSearch, prefetchSearchIndex } from "@/hooks/useAthleteSearch";
 import { getCountryFlagISO } from "@/lib/flags";
 
 export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: boolean }) {
@@ -52,7 +52,7 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
   // Focus input + warm the search function when opened
   useEffect(() => {
     if (isOpen) {
-      prefetchSearch();
+      prefetchSearchIndex();
       requestAnimationFrame(() => inputRef.current?.focus());
     }
   }, [isOpen]);

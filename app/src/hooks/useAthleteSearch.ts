@@ -3,15 +3,32 @@
 import { useState, useRef, useCallback } from "react";
 import { track } from "@vercel/analytics";
 import { AthleteSearchEntry } from "@/lib/types";
+import {
+  loadSearchIndex,
+  searchAthletesInClientIndex,
+  type ClientSearchIndex,
+} from "@/lib/client-search-index";
 
-// Warm the search serverless function on first user intent (focus/open),
-// not on module import — importing this hook on every route otherwise costs
-// a network round-trip during hydration.
 let prefetched = false;
-export function prefetchSearch() {
+let cachedIndex: ClientSearchIndex | null = null;
+
+export function prefetchSearchIndex() {
   if (prefetched || typeof window === "undefined") return;
   prefetched = true;
-  fetch("/api/search?q=a", { priority: "low" }).catch(() => {});
+  loadSearchIndex().then(
+    (index) => {
+      cachedIndex = index;
+      track("search_index_load", {
+        download_ms: Math.round(index.loadStats.downloadMs),
+        parse_ms: Math.round(index.loadStats.parseMs),
+        bytes: index.loadStats.bytes,
+      });
+    },
+    (err: unknown) => {
+      const message = err instanceof Error ? err.message : String(err);
+      track("search_index_load_error", { message });
+    },
+  );
 }
 
 export function useAthleteSearch() {
@@ -21,7 +38,9 @@ export function useAthleteSearch() {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const abortRef = useRef<AbortController | null>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const cacheRef = useRef(new Map<string, AthleteSearchEntry[]>());
+  const cacheRef = useRef(
+    new Map<string, { results: AthleteSearchEntry[]; source: "client" | "api" }>()
+  );
   const requestIdRef = useRef(0);
 
   const handleChange = useCallback((value: string) => {
@@ -40,16 +59,38 @@ export function useAthleteSearch() {
     const requestId = requestIdRef.current + 1;
     requestIdRef.current = requestId;
     setIsSearching(true);
+    const startedAt = performance.now();
     debounceRef.current = setTimeout(async () => {
       if (requestIdRef.current !== requestId) return;
 
       const key = value.toLowerCase();
-      const cached = cacheRef.current.get(key);
-      if (cached) {
-        setMatches(cached);
+      const cacheEntry = cacheRef.current.get(key);
+      if (cacheEntry) {
+        setMatches(cacheEntry.results);
+        if (requestIdRef.current === requestId) setIsSearching(false);
+        track("search_latency", {
+          latency_ms: Math.round(performance.now() - startedAt),
+          query_length: value.length,
+          source: cacheEntry.source,
+          cached: true,
+        });
+        return;
+      }
+
+      if (cachedIndex) {
+        const results = searchAthletesInClientIndex(value, cachedIndex, 10);
+        cacheRef.current.set(key, { results, source: "client" });
         if (requestIdRef.current === requestId) {
+          setMatches(results);
           setIsSearching(false);
+          abortRef.current?.abort();
         }
+        track("search_latency", {
+          latency_ms: Math.round(performance.now() - startedAt),
+          query_length: value.length,
+          source: "client",
+          cached: false,
+        });
         return;
       }
 
@@ -63,10 +104,16 @@ export function useAthleteSearch() {
           signal: controller.signal,
         });
         const data: AthleteSearchEntry[] = await res.json();
-        cacheRef.current.set(key, data);
+        cacheRef.current.set(key, { results: data, source: "api" });
         if (requestIdRef.current === requestId) {
           setMatches(data);
         }
+        track("search_latency", {
+          latency_ms: Math.round(performance.now() - startedAt),
+          query_length: value.length,
+          source: "api",
+          cached: false,
+        });
       } catch {
         // Aborted or network error — ignore
       } finally {
