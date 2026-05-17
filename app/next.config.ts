@@ -23,6 +23,19 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        source: "/athlete-index.tsv.gz",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=300, stale-while-revalidate=604800",
+          },
+          {
+            key: "Content-Type",
+            value: "application/gzip",
+          },
+        ],
+      },
     ];
   },
 };
