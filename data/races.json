@@ -1,5 +1,13 @@
 [
   {
+    "slug": "im-lanzarote-2026",
+    "name": "2026 IRONMAN Lanzarote",
+    "date": "2026-05-23",
+    "location": "Lanzarote, Spain",
+    "eventId": "9bbac2c1-3eeb-4086-956e-c58892513a89",
+    "finishers": 1098
+  },
+  {
     "slug": "im703-aix-en-provence-2026",
     "name": "2026 IRONMAN 70.3 Aix-en-Provence",
     "date": "2026-05-17",
@@ -22,6 +30,22 @@
     "location": "Chattanooga, TN, USA",
     "eventId": "82cf961d-85e6-40bb-8e86-209517a2602d",
     "finishers": 2418
+  },
+  {
+    "slug": "im703-shanghai-chongming-2026",
+    "name": "2026 IRONMAN 70.3 Shanghai Chongming",
+    "date": "2026-05-17",
+    "location": "",
+    "eventId": "677bd0b1-90c6-42c6-8393-f5ca21e92001",
+    "finishers": 779
+  },
+  {
+    "slug": "im-jacksonville-2026",
+    "name": "2026 IRONMAN Jacksonville",
+    "date": "2026-05-16",
+    "location": "",
+    "eventId": "5ff2cb61-c76e-45d4-963f-25ee7280977f",
+    "finishers": 1261
   },
   {
     "slug": "im703-danang-2026",
@@ -128,6 +152,14 @@
     "finishers": 550
   },
   {
+    "slug": "im703-puerto-varas-2026",
+    "name": "2026 IRONMAN 70.3 Puerto Varas",
+    "date": "2026-04-12",
+    "location": "",
+    "eventId": "0f8a78ef-88e8-42c9-a25a-965b1846109b",
+    "finishers": 953
+  },
+  {
     "slug": "im703-san-juan-2026",
     "name": "2026 IRONMAN 70.3 San Juan",
     "date": "2026-03-29",
@@ -206,6 +238,14 @@
     "location": "",
     "eventId": "07f6813e-c8ca-4250-8dd2-f72a45e9d588",
     "finishers": 1145
+  },
+  {
+    "slug": "im703-curitiba-2026",
+    "name": "2026 IRONMAN 70.3 Curitiba",
+    "date": "2026-03-08",
+    "location": "",
+    "eventId": "6280e340-8809-43ff-a572-4c3ca38fd39b",
+    "finishers": 1241
   },
   {
     "slug": "im-new-zealand-2026",
