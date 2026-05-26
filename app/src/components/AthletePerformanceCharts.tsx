@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import type { AthleteRaceEntry } from "@/lib/types";
 import { formatTime } from "@/lib/format";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
+import { cursorXToDataIndex, computeLabelStep } from "./chart-utils";
 
 const DISTANCE_COLORS: Record<string, string> = {
   "70.3": "#3b82f6",
@@ -38,6 +39,8 @@ interface Props {
 const SVG_WIDTH = 500;
 const CHART_HEIGHT = 250;
 const MARGIN = { top: 15, right: 10, bottom: 30, left: 55 };
+// Approximate width in viewBox units of an x-axis label like "Sep 2024".
+const MIN_LABEL_SPACING = 50;
 
 function StackedBarChart({ data }: { data: BarDataPoint[] }) {
   const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
@@ -48,21 +51,24 @@ function StackedBarChart({ data }: { data: BarDataPoint[] }) {
   const plotWidth = SVG_WIDTH - MARGIN.left - MARGIN.right;
 
   const yTicks = getTimeTicks(maxTotal);
-  const step = Math.max(1, Math.floor(data.length / 8));
+  const step = computeLabelStep({
+    dataLength: data.length,
+    plotWidthPx: plotWidth,
+    minLabelSpacingPx: MIN_LABEL_SPACING,
+  });
 
   function handleMouseMove(e: React.MouseEvent<SVGSVGElement>) {
     if (!svgRef.current) return;
     const rect = svgRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const plotLeft = (MARGIN.left / SVG_WIDTH) * rect.width;
-    const plotRight = rect.width - (MARGIN.right / SVG_WIDTH) * rect.width;
-    const plotW = plotRight - plotLeft;
-    const relX = x - plotLeft;
-    if (relX < 0 || relX > plotW) {
-      setTooltipIdx(null);
-      return;
-    }
-    setTooltipIdx(Math.min(data.length - 1, Math.floor((relX / plotW) * data.length)));
+    setTooltipIdx(
+      cursorXToDataIndex({
+        clientX: e.clientX,
+        rect,
+        viewBox: { width: SVG_WIDTH, height: CHART_HEIGHT },
+        margin: MARGIN,
+        dataLength: data.length,
+      }),
+    );
   }
 
   const point = tooltipIdx !== null ? data[tooltipIdx] : null;
@@ -167,7 +173,11 @@ function PercentileLineChart({ data, color }: { data: PercentileDataPoint[]; col
 
   const innerHeight = CHART_HEIGHT - MARGIN.top - MARGIN.bottom;
   const plotWidth = SVG_WIDTH - MARGIN.left - MARGIN.right;
-  const step = Math.max(1, Math.floor(data.length / 8));
+  const step = computeLabelStep({
+    dataLength: data.length,
+    plotWidthPx: plotWidth,
+    minLabelSpacingPx: MIN_LABEL_SPACING,
+  });
 
   // Y-axis is 0-100, reversed (0 at top = best)
   const yTicks = [0, 25, 50, 75, 100];
@@ -184,16 +194,15 @@ function PercentileLineChart({ data, color }: { data: PercentileDataPoint[]; col
   function handleMouseMove(e: React.MouseEvent<SVGSVGElement>) {
     if (!svgRef.current) return;
     const rect = svgRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const plotLeft = (MARGIN.left / SVG_WIDTH) * rect.width;
-    const plotRight = rect.width - (MARGIN.right / SVG_WIDTH) * rect.width;
-    const plotW = plotRight - plotLeft;
-    const relX = x - plotLeft;
-    if (relX < 0 || relX > plotW) {
-      setTooltipIdx(null);
-      return;
-    }
-    setTooltipIdx(Math.min(data.length - 1, Math.floor((relX / plotW) * data.length)));
+    setTooltipIdx(
+      cursorXToDataIndex({
+        clientX: e.clientX,
+        rect,
+        viewBox: { width: SVG_WIDTH, height: CHART_HEIGHT },
+        margin: MARGIN,
+        dataLength: data.length,
+      }),
+    );
   }
 
   const point = tooltipIdx !== null ? data[tooltipIdx] : null;
