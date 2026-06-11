@@ -76,7 +76,8 @@ jobs:
           gh pr create \
             --head "$BRANCH" \
             --title "feat: add new race results" \
-            --body-file /tmp/pr-body.md
+            --body-file /tmp/pr-body.md \
+            --reviewer rootulp
 
           # Request auto-merge so the PR squash-merges once CI passes,
           # instead of piling up as a stale daily backlog.
