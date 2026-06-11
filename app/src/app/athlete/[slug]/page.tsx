@@ -17,7 +17,7 @@ interface PageProps {
 
 export default async function AthletePage({ params }: PageProps) {
   const { slug } = await params;
-  const profile = getAthleteProfile(slug);
+  const profile = await getAthleteProfile(slug);
   if (!profile) notFound();
 
   const flag = getCountryFlagISO(profile.countryISO);

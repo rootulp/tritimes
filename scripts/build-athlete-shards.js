@@ -2,10 +2,15 @@
 
 /**
  * Builds sharded, self-contained athlete profiles for /athlete/[slug]:
- *   data/athlete-shards/<id>.json.gz   — { [slug]: AthleteProfile }
+ *   app/public/athlete-shards/<id>.json.gz   — { [slug]: AthleteProfile }
  *
  * Each profile precomputes overallPercentile and every field the page renders,
- * so a request reads ONE small shard (no 80MB profiles parse, no CSV parsing).
+ * so a request fetches ONE small shard (no 80MB profiles parse, no CSV parsing).
+ *
+ * Output lands in app/public/ so Next serves the shards as static CDN assets at
+ * /athlete-shards/<id>.json.gz. They are NOT bundled into the serverless
+ * function (1024 × ~145KB would exceed the 250MB function size limit) — the
+ * athlete page fetches the one shard it needs over HTTP at render time.
  *
  * Run: node scripts/build-athlete-shards.js  (part of the npm build chain)
  * Gitignored output, mirroring data/histograms/.
@@ -18,7 +23,7 @@ const { gzipSync } = require("zlib");
 const SHARD_COUNT = 1024;
 const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
-const shardsDir = path.join(dataDir, "athlete-shards");
+const shardsDir = path.join(__dirname, "..", "app", "public", "athlete-shards");
 
 // MUST stay identical to shardId() in app/src/lib/data.ts.
 function shardId(slug) {

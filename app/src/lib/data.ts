@@ -223,27 +223,43 @@ export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
 }
 
 // Sharded, self-contained athlete profiles built at build time by
-// scripts/build-athlete-shards.js. One shard read per request — no 80MB
-// profiles parse, no per-race CSV parsing.
+// scripts/build-athlete-shards.js and served as static assets under
+// /athlete-shards/. A request fetches only the one shard it needs (~145KB)
+// from the CDN — no 80MB profiles parse, no per-race CSV parsing. Shards are
+// NOT bundled into the function (1024 × ~145KB would blow the 250MB function
+// size limit); they ship as static files and are fetched over HTTP.
 const shardCache = new Map<number, Record<string, AthleteProfile>>();
 
-function loadAthleteShard(id: number): Record<string, AthleteProfile> {
+// Origin to fetch our own static shard assets from. On Vercel, VERCEL_URL is
+// the current deployment's host; locally it's the dev/start server.
+function shardOrigin(): string {
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return `http://localhost:${process.env.PORT ?? 3000}`;
+}
+
+async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfile>> {
   const cached = shardCache.get(id);
   if (cached) return cached;
-  const shardPath = path.join(process.cwd(), "..", "data", "athlete-shards", `${id}.json.gz`);
-  if (!fs.existsSync(shardPath)) {
-    shardCache.set(id, {});
-    return {};
+  let shard: Record<string, AthleteProfile> = {};
+  try {
+    // force-cache keeps this fetch (and thus the page) statically cacheable;
+    // no-store would opt the route into dynamic rendering on every request.
+    const res = await fetch(`${shardOrigin()}/athlete-shards/${id}.json.gz`, {
+      cache: "force-cache",
+    });
+    if (res.ok) {
+      const buf = Buffer.from(await res.arrayBuffer());
+      shard = JSON.parse(gunzipSync(buf).toString()) as Record<string, AthleteProfile>;
+    }
+  } catch {
+    // Network/parse failure → empty shard; the athlete is treated as not found.
   }
-  const shard = JSON.parse(
-    gunzipSync(fs.readFileSync(shardPath)).toString(),
-  ) as Record<string, AthleteProfile>;
   shardCache.set(id, shard);
   return shard;
 }
 
-export function getAthleteProfile(slug: string): AthleteProfile | null {
-  const shard = loadAthleteShard(shardId(slug));
+export async function getAthleteProfile(slug: string): Promise<AthleteProfile | null> {
+  const shard = await loadAthleteShard(shardId(slug));
   return shard[slug] ?? null;
 }
 
