@@ -99,3 +99,4 @@ Canonical colors for triathlon disciplines. Defined in `app/src/lib/colors.ts` â
 ## Conventions
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages and PR titles (e.g. `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`)
+- Do not commit planning artifacts (brainstorming specs, implementation plans â€” e.g. files under `docs/superpowers/specs/` or `docs/superpowers/plans/`). They are local working aids; keep them untracked and out of PRs.
