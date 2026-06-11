@@ -242,10 +242,17 @@ async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfi
   if (cached) return cached;
   let shard: Record<string, AthleteProfile> = {};
   try {
+    // On protected (preview) deployments the self-fetch is unauthenticated and
+    // would 401; send the automation-bypass secret when Vercel provides it.
+    // No-op in production, where deployments aren't protected.
+    const headers: Record<string, string> = {};
+    const bypass = process.env.VERCEL_AUTOMATION_BYPASS_SECRET;
+    if (bypass) headers["x-vercel-protection-bypass"] = bypass;
     // force-cache keeps this fetch (and thus the page) statically cacheable;
     // no-store would opt the route into dynamic rendering on every request.
     const res = await fetch(`${shardOrigin()}/athlete-shards/${id}.json.gz`, {
       cache: "force-cache",
+      headers,
     });
     if (res.ok) {
       const buf = Buffer.from(await res.arrayBuffer());
