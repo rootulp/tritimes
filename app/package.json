@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node ../scripts/copy-search-index.js && node ../scripts/build-athlete-shards.js --skip-if-exists",
+    "predev": "node ../scripts/copy-search-index.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js --skip-if-exists",
     "dev": "next dev",
-    "build": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node ../scripts/build-athlete-shards.js && node ../scripts/copy-search-index.js && next build",
+    "build": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js && node ../scripts/copy-search-index.js && next build",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",

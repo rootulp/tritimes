@@ -240,7 +240,6 @@ function shardOrigin(): string {
 async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfile>> {
   const cached = shardCache.get(id);
   if (cached) return cached;
-  let shard: Record<string, AthleteProfile> = {};
   try {
     // On protected (preview) deployments the self-fetch is unauthenticated and
     // would 401; send the automation-bypass secret when Vercel provides it.
@@ -256,13 +255,18 @@ async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfi
     });
     if (res.ok) {
       const buf = Buffer.from(await res.arrayBuffer());
-      shard = JSON.parse(gunzipSync(buf).toString()) as Record<string, AthleteProfile>;
+      const shard = JSON.parse(gunzipSync(buf).toString()) as Record<string, AthleteProfile>;
+      // Cache only on success — every shard exists, so a failure is transient
+      // (network blip, cold CDN, 401 before bypass). Caching {} here would turn
+      // a transient error into persistent "not found" for the whole shard until
+      // the instance recycles.
+      shardCache.set(id, shard);
+      return shard;
     }
   } catch {
-    // Network/parse failure → empty shard; the athlete is treated as not found.
+    // Network/parse failure → fall through; don't cache, so the next request retries.
   }
-  shardCache.set(id, shard);
-  return shard;
+  return {};
 }
 
 export async function getAthleteProfile(slug: string): Promise<AthleteProfile | null> {

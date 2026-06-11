@@ -6,6 +6,8 @@
 
 **Architecture:** A new build step writes `data/athlete-shards/<id>.json.gz` (1,024 gitignored files, mirroring `data/histograms/`), each a `{ slug: AthleteProfile }` map with `overallPercentile` and all fields precomputed. `getAthleteProfile(slug)` hashes the slug to a shard, reads only that shard (cached), and returns the record — no 80MB parse, no per-request CSV parsing.
 
+> **As-built note:** this plan is the original record. The implementation shipped shards to `app/public/athlete-shards/` as static CDN assets fetched over HTTP (not bundled + read from `data/` via `fs`), because bundling exceeded Vercel's 250MB function limit. The shipped paths/commands below differ accordingly; the spec's "Post-implementation update" and the code are the source of truth.
+
 **Tech Stack:** Next.js 16 (Node serverless), TypeScript, Node build scripts (zero deps), Vitest (unit), Playwright (e2e).
 
 **Spec:** `docs/superpowers/specs/2026-06-10-athlete-profile-sharding-design.md`

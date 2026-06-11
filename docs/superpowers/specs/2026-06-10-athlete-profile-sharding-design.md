@@ -39,6 +39,13 @@ the 2.5s gate, without changing the page's SSR/SEO behavior.
 
 ## Design
 
+> **As-built note:** the section below is the *original* plan. During
+> implementation, shards moved from `data/athlete-shards/` (read via `fs`) to
+> `app/public/athlete-shards/` served as static CDN assets and **fetched over
+> HTTP** at render time, because bundling all shards into the function exceeded
+> Vercel's 250MB limit. See [Post-implementation update](#post-implementation-update-2026-06-11)
+> for the as-built design; the code in `app/src/lib/data.ts` is the source of truth.
+
 ### New data artifact: sharded, self-contained profiles
 
 `data/athlete-shards/<shardId>.json.gz` — **1,024 files**, **built at build

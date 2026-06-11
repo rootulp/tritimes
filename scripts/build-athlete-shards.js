@@ -83,7 +83,7 @@ function slugifyAthlete(fullName, countryISO, gender) {
   const base = fullName
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
   return `${base}--${countryISO.toLowerCase()}-${gender.toLowerCase().charAt(0)}`;
@@ -187,7 +187,13 @@ function main() {
   const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
   const records = buildAthleteRecords(races, (slug) => {
     const p = path.join(dataDir, `${slug}.csv`);
-    return fs.existsSync(p) ? fs.readFileSync(p, "utf-8") : null;
+    if (!fs.existsSync(p)) {
+      // Skip (matching build-search-index.js / build-histograms.js) rather than
+      // fail the build, but warn so a missing CSV isn't silently dropped.
+      console.warn(`  warning: no CSV for race "${slug}" (${path.relative(process.cwd(), p)}) — skipping`);
+      return null;
+    }
+    return fs.readFileSync(p, "utf-8");
   });
 
   const shards = Array.from({ length: SHARD_COUNT }, () => ({}));
