@@ -163,7 +163,26 @@ function buildAthleteRecords(races, readCsv) {
   return bySlug;
 }
 
+// True when the shards dir already holds a full set of files.
+function shardsAlreadyBuilt() {
+  try {
+    return fs.readdirSync(shardsDir).filter((f) => f.endsWith(".json.gz")).length === SHARD_COUNT;
+  } catch {
+    return false;
+  }
+}
+
 function main() {
+  // --skip-if-exists: used by `predev` so a one-time local build isn't redone on
+  // every `next dev`. The production build chain runs without it and always
+  // regenerates so shards reflect the latest data.
+  if (process.argv.includes("--skip-if-exists") && shardsAlreadyBuilt()) {
+    console.log(
+      `Athlete shards already present (${SHARD_COUNT} files) → skipping. Delete ${path.relative(process.cwd(), shardsDir)} to rebuild.`,
+    );
+    return;
+  }
+
   const start = Date.now();
   const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
   const records = buildAthleteRecords(races, (slug) => {
