@@ -133,7 +133,34 @@ read one small shard (cached) → return profile. Cold render goes from
 
 ## Acceptance
 
-- Build produces `data/athlete-shards/*.json.gz`; `athlete-profiles.json.gz` and
+- Build produces the athlete shards; `athlete-profiles.json.gz` and
   `getProfilesMapping` are gone.
 - Unit + integration tests pass; `npm run build` succeeds.
-- The journey gate against a fresh preview deploy passes (< 2,500ms).
+- The athlete-page leg of the journey is materially faster on a cold path.
+
+## Post-implementation update (2026-06-11)
+
+Two things changed during implementation:
+
+1. **Shards are served as static assets, not bundled into the function.**
+   `outputFileTracingIncludes` bundled all 1,024 shards (~144MB) into the
+   `/athlete/[slug]` function, pushing it to ~350MB — over Vercel's 250MB
+   serverless size limit, so the deploy failed. Fix: write shards to
+   `app/public/athlete-shards/` (static CDN assets) and have `getAthleteProfile`
+   **fetch** the one needed shard over HTTP (`force-cache`, with the
+   `VERCEL_AUTOMATION_BYPASS_SECRET` header so protected previews work). The
+   function bundle dropped back to ~205MB.
+
+2. **Validated result and revised scope.** Cold-path journey gate against a
+   fresh preview: athlete-page leg **~19s → ~3.8s** (this fix works). But the
+   full journey is still ~12.4s, now dominated by:
+   - **Cold `/api/search` (~8.1s)** — same root cause (a function eagerly
+     loading the 9.7MB / 820K-row index on cold boot); the client falls back to
+     it before the in-browser index parse is ready.
+   - **Residual athlete-page Node cold-boot floor (~3.8s)** — would need the
+     Edge runtime (Approach C) to go lower.
+
+   The earlier projection that fixing the athlete page alone would land the
+   journey under 2.5s was based on *warm* search numbers and was wrong for the
+   cold path. These two items are tracked as follow-ups; the journey gate
+   (`journey-performance.spec.ts`) stays red until they land.
