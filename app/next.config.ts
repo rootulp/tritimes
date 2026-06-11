@@ -3,6 +3,9 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(import.meta.dirname, ".."),
+  outputFileTracingIncludes: {
+    "/athlete/[slug]": ["../data/athlete-shards/**"],
+  },
   async headers() {
     return [
       {

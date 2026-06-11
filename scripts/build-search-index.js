@@ -3,7 +3,6 @@
 /**
  * Pre-builds athlete data indexes from CSV files:
  * - data/athlete-index.json.gz    — deduplicated search index for /api/search
- * - data/athlete-profiles.json.gz — slug-keyed profiles for /athlete/[slug]
  * - data/course-stats.json.gz     — per-course median stats for /races
  * - data/aggregate-stats.json.gz  — global aggregate stats for /stats
  *
@@ -20,7 +19,6 @@ const { gzipSync } = require("zlib");
 const dataDir = path.join(__dirname, "..", "data");
 const manifestPath = path.join(dataDir, "races.json");
 const searchIndexPath = path.join(dataDir, "athlete-index.tsv.gz");
-const profilesPath = path.join(dataDir, "athlete-profiles.json.gz");
 const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
 const aggregateStatsPath = path.join(dataDir, "aggregate-stats.json.gz");
 
@@ -139,8 +137,6 @@ const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
 
 // searchMap: slug → { fullName, country, countryISO, raceCount }
 const searchMap = new Map();
-// profilesMap: slug → [[raceSlug, resultId], ...]
-const profilesMap = new Map();
 // courseMap: base slug → { course, displayName, distance, editions, *Seconds[] }
 const courseMap = new Map();
 
@@ -196,14 +192,6 @@ for (const race of races) {
       });
     }
 
-    // Profiles index
-    const refs = profilesMap.get(slug);
-    if (refs) {
-      refs.push([race.slug, r._id]);
-    } else {
-      profilesMap.set(slug, [[race.slug, r._id]]);
-    }
-
     // Course stats
     const swim = Number(r.SwimSeconds) || 0;
     const bike = Number(r.BikeSeconds) || 0;
@@ -249,10 +237,6 @@ const tsvLines = searchIndex.map(
 );
 fs.writeFileSync(searchIndexPath, gzipSync(tsvLines.join("\n")));
 
-// Write profiles index as { slug: [[raceSlug, resultId], ...] } (gzipped)
-const profiles = Object.fromEntries(profilesMap);
-fs.writeFileSync(profilesPath, gzipSync(JSON.stringify(profiles)));
-
 // Write course stats (gzipped)
 const courseStats = Array.from(courseMap.values()).map((c) => ({
   course: c.course,
@@ -285,9 +269,6 @@ fs.writeFileSync(aggregateStatsPath, gzipSync(JSON.stringify(aggregateStats)));
 const elapsed = Date.now() - start;
 console.log(
   `Built search index: ${searchIndex.length} athletes in ${elapsed}ms → ${path.relative(process.cwd(), searchIndexPath)}`
-);
-console.log(
-  `Built profiles index: ${profilesMap.size} athletes → ${path.relative(process.cwd(), profilesPath)}`
 );
 console.log(
   `Built course stats: ${courseStats.length} courses → ${path.relative(process.cwd(), courseStatsPath)}`
