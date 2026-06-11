@@ -54,8 +54,8 @@ Behavior:
    `localhost`/`127.0.0.1`. Cold start is meaningless locally; skipping
    prevents a false green.
 2. **Force an uncached destination:** pick a random surname from a small pool,
-   type it into the home search box, wait for the results dropdown, click the
-   first result. A different athlete per run ⇒ the destination page is not
+   type it into the home search box, wait for the results dropdown, click a
+   random result. A different athlete per run ⇒ the destination page is not
    edge-cached ⇒ a real server render happens every run.
 3. **Wall-clock timing** of three legs (mirrors `athlete-search.spec.ts`):
    - homepage load
