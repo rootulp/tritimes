@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteProfile, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
 
 export const SHARD_COUNT = 1024;
 
@@ -222,70 +222,29 @@ export function getDeduplicatedAthleteIndex(): AthleteSearchEntry[] {
   return athleteIndexCache;
 }
 
-// Compact mapping: slug → [[raceSlug, resultId], ...]
-type ProfilesMapping = Record<string, [string, number][]>;
+// Sharded, self-contained athlete profiles built at build time by
+// scripts/build-athlete-shards.js. One shard read per request — no 80MB
+// profiles parse, no per-race CSV parsing.
+const shardCache = new Map<number, Record<string, AthleteProfile>>();
 
-let profilesMappingCache: ProfilesMapping | null = null;
-
-function getProfilesMapping(): ProfilesMapping {
-  if (!profilesMappingCache) {
-    const profilesPath = path.join(process.cwd(), "..", "data", "athlete-profiles.json.gz");
-    profilesMappingCache = JSON.parse(gunzipSync(fs.readFileSync(profilesPath)).toString());
+function loadAthleteShard(id: number): Record<string, AthleteProfile> {
+  const cached = shardCache.get(id);
+  if (cached) return cached;
+  const shardPath = path.join(process.cwd(), "..", "data", "athlete-shards", `${id}.json.gz`);
+  if (!fs.existsSync(shardPath)) {
+    shardCache.set(id, {});
+    return {};
   }
-  return profilesMappingCache!;
+  const shard = JSON.parse(
+    gunzipSync(fs.readFileSync(shardPath)).toString(),
+  ) as Record<string, AthleteProfile>;
+  shardCache.set(id, shard);
+  return shard;
 }
 
 export function getAthleteProfile(slug: string): AthleteProfile | null {
-  const mapping = getProfilesMapping();
-  const refs = mapping[slug];
-  if (!refs || refs.length === 0) return null;
-
-  const raceMap = new Map(getRacesInternal().map((r) => [r.slug, r]));
-  const races: AthleteRaceEntry[] = [];
-  let fullName = "";
-  let country = "";
-  let countryISO = "";
-
-  for (const [raceSlug, resultId] of refs) {
-    const race = raceMap.get(raceSlug);
-    const result = getAthleteById(raceSlug, resultId);
-    if (!race || !result) continue;
-
-    fullName = result.fullName;
-    country = result.country;
-    countryISO = result.countryISO;
-
-    const allFinishTimes = getAllResults(raceSlug).map((r) => r.finishSeconds).filter((s) => s > 0);
-    const slowerCount = allFinishTimes.filter((s) => s > result.finishSeconds).length;
-    const overallPercentile = allFinishTimes.length > 0
-      ? Math.round((slowerCount / allFinishTimes.length) * 100)
-      : 0;
-    const distance: "70.3" | "140.6" = raceSlug.startsWith("im703-") ? "70.3" : "140.6";
-
-    races.push({
-      raceSlug: race.slug,
-      raceName: race.name,
-      raceDate: race.date,
-      resultId: result.id,
-      finishTime: result.finishTime,
-      finishSeconds: result.finishSeconds,
-      overallPercentile,
-      distance,
-      ageGroup: result.ageGroup,
-      swimTime: result.swimTime,
-      bikeTime: result.bikeTime,
-      runTime: result.runTime,
-      swimSeconds: result.swimSeconds,
-      bikeSeconds: result.bikeSeconds,
-      runSeconds: result.runSeconds,
-    });
-  }
-
-  if (races.length === 0) return null;
-
-  races.sort((a, b) => b.raceDate.localeCompare(a.raceDate));
-
-  return { slug, fullName, country, countryISO, races };
+  const shard = loadAthleteShard(shardId(slug));
+  return shard[slug] ?? null;
 }
 
 let courseStatsCache: CourseStats[] | null = null;
