@@ -3,6 +3,21 @@ import path from "path";
 import { gunzipSync } from "zlib";
 import { AggregateStats, AthleteResult, AthleteProfile, AthleteRaceEntry, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
 
+export const SHARD_COUNT = 1024;
+
+/**
+ * Deterministic djb2 hash of an athlete slug → shard bucket.
+ * MUST stay identical to scripts/build-athlete-shards.js (same algorithm,
+ * same SHARD_COUNT) — see athlete-shards.test.ts for the parity anchor.
+ */
+export function shardId(slug: string): number {
+  let h = 5381;
+  for (let i = 0; i < slug.length; i++) {
+    h = ((h << 5) + h + slug.charCodeAt(i)) >>> 0;
+  }
+  return h % SHARD_COUNT;
+}
+
 interface RaceManifestEntry {
   slug: string;
   name: string;
