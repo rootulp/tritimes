@@ -20,16 +20,9 @@ describe("shardId", () => {
 
   it("matches pinned values (build/runtime parity anchor)", () => {
     expect(SHARD_COUNT).toBe(1024);
-    expect(shardId("smith-anderson--us-m")).toBe(djb2Ref("smith-anderson--us-m"));
-    expect(shardId("miller-argent--au-m")).toBe(djb2Ref("miller-argent--au-m"));
+    // Hardcoded so any drift in the djb2 algorithm (here or in the build
+    // script copy) is caught — do NOT recompute these from the function.
+    expect(shardId("smith-anderson--us-m")).toBe(621);
+    expect(shardId("miller-argent--au-m")).toBe(546);
   });
 });
-
-// Reference implementation duplicated in the test to lock the algorithm.
-function djb2Ref(slug: string): number {
-  let h = 5381;
-  for (let i = 0; i < slug.length; i++) {
-    h = ((h << 5) + h + slug.charCodeAt(i)) >>> 0;
-  }
-  return h % 1024;
-}
