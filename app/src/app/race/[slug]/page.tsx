@@ -6,6 +6,7 @@ import { getCountryFlagISO } from "@/lib/flags";
 import dynamic from "next/dynamic";
 import ResultCard from "@/components/ResultCard";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
+import { getRaceLocation } from "@/lib/raceLocation";
 
 const RaceHistogram = dynamic(() => import("@/components/RaceHistogram"), {
   loading: () => <div className="h-52 bg-gray-800 rounded animate-pulse" />,
@@ -43,12 +44,15 @@ export default async function RacePage({ params }: PageProps) {
 
   const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
 
+  const location = getRaceLocation(race);
+
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">{race.name}</h1>
         <p className="text-gray-400 mt-1">
-          {race.date} &middot; {race.location}
+          {race.date}
+          {location && <> &middot; {location}</>}
         </p>
       </header>
 
