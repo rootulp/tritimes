@@ -1,5 +1,11 @@
-import { describe, expect, it } from "vitest";
-import { searchAthletesInIndex, type IndexEntry } from "../search-index";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { gzipSync } from "node:zlib";
+import {
+  searchAthletes,
+  searchAthletesInIndex,
+  __resetForTests,
+  type IndexEntry,
+} from "../search-index";
 
 const athletes: IndexEntry[] = [
   {
@@ -65,5 +71,110 @@ describe("searchAthletesInIndex", () => {
     expect(searchAthletesInIndex("oldsmith", athletes)).toMatchObject([
       { slug: "alicia-goldsmith" },
     ]);
+  });
+});
+
+const SMITH_TSV = [
+  "john-smith\tJohn Smith\tUnited States\tUS\t4",
+  "sarah-smith\tSarah Smith\tCanada\tCA\t2",
+].join("\n");
+
+function gzippedResponse(tsv: string): Response {
+  return new Response(new Uint8Array(gzipSync(tsv)), { status: 200 });
+}
+
+describe("searchAthletes (shard-backed)", () => {
+  beforeEach(() => {
+    __resetForTests();
+  });
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    vi.restoreAllMocks();
+  });
+
+  it("fetches only the query's shard from the deployment's static assets", async () => {
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(gzippedResponse(SMITH_TSV));
+
+    const results = await searchAthletes("smith", 10);
+
+    // "sm" → 0x73 0x6d; no VERCEL_URL → local origin.
+    expect(fetchMock).toHaveBeenCalledWith(
+      "http://localhost:3000/search-shards/736d.tsv.gz",
+      expect.objectContaining({ cache: "force-cache" }),
+    );
+    expect(results).toMatchObject([{ slug: "john-smith" }, { slug: "sarah-smith" }]);
+  });
+
+  it("serves rotated-token queries from the shard", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(gzippedResponse(SMITH_TSV));
+    expect(await searchAthletes("smith sa", 10)).toMatchObject([
+      { slug: "sarah-smith" },
+    ]);
+  });
+
+  it("uses VERCEL_URL and the protection-bypass header when set", async () => {
+    vi.stubEnv("VERCEL_URL", "example.vercel.app");
+    vi.stubEnv("VERCEL_AUTOMATION_BYPASS_SECRET", "s3cret");
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(gzippedResponse(SMITH_TSV));
+
+    await searchAthletes("smith", 10);
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      "https://example.vercel.app/search-shards/736d.tsv.gz",
+      expect.objectContaining({
+        headers: { "x-vercel-protection-bypass": "s3cret" },
+      }),
+    );
+  });
+
+  it("caches a loaded shard per bucket", async () => {
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(gzippedResponse(SMITH_TSV));
+
+    await searchAthletes("smith", 10);
+    await searchAthletes("smyth", 10);
+
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("treats a 404 as an empty shard and caches it", async () => {
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(new Response(null, { status: 404 }));
+
+    expect(await searchAthletes("zq", 10)).toEqual([]);
+    expect(await searchAthletes("zq", 10)).toEqual([]);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("returns empty on transient failure without caching, so the next request retries", async () => {
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockRejectedValueOnce(new Error("network"))
+      .mockResolvedValueOnce(gzippedResponse(SMITH_TSV));
+
+    expect(await searchAthletes("smith", 10)).toEqual([]);
+    expect(await searchAthletes("smith", 10)).toMatchObject([
+      { slug: "john-smith" },
+      { slug: "sarah-smith" },
+    ]);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
+  it("returns empty for queries shorter than two chars without fetching", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch");
+    expect(await searchAthletes("a", 10)).toEqual([]);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it("respects the limit", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(gzippedResponse(SMITH_TSV));
+    expect(await searchAthletes("smith", 1)).toHaveLength(1);
   });
 });

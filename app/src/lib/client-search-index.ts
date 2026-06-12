@@ -2,17 +2,17 @@ import { AthleteSearchEntry } from "@/lib/types";
 import {
   buildSearchKeys,
   searchAthletesInIndex,
+  searchBucket,
+  shardFileName,
   type IndexEntry,
   type SearchKey,
 } from "@/lib/search-core";
 
-export interface ClientSearchIndex {
+export interface ClientSearchShard {
   entries: IndexEntry[];
   keys: SearchKey[];
   loadStats: { downloadMs: number; parseMs: number; bytes: number };
 }
-
-const SEARCH_INDEX_URL = "/athlete-index.tsv.gz";
 
 export function parseIndexTsv(tsv: string): IndexEntry[] {
   const lines = tsv.split("\n");
@@ -37,27 +37,40 @@ export function parseIndexTsv(tsv: string): IndexEntry[] {
   return entries;
 }
 
-let loadPromise: Promise<ClientSearchIndex> | null = null;
+// One cached load per 2-char bucket. Rejections stay cached so a broken
+// bucket doesn't refetch on every keystroke — the hook falls back to
+// /api/search (itself shard-backed and fast) for those queries.
+const shardPromises = new Map<string, Promise<ClientSearchShard>>();
 
-export function loadSearchIndex(): Promise<ClientSearchIndex> {
-  if (loadPromise) return loadPromise;
-  loadPromise = doLoadSearchIndex().catch((err) => {
-    // Keep the rejection cached so callers see the same error and we don't
-    // retry on every keystroke. The hook treats this as "stay on API path".
-    return Promise.reject(err);
-  });
-  return loadPromise;
+/**
+ * Load the search shard covering `query` (the static asset for its first two
+ * normalized chars). Returns null when the query is too short to search.
+ * A 404 means no athlete has that prefix and resolves to an empty shard.
+ */
+export function loadShardForQuery(query: string): Promise<ClientSearchShard> | null {
+  const bucket = searchBucket(query);
+  if (bucket === null) return null;
+  let promise = shardPromises.get(bucket);
+  if (!promise) {
+    promise = doLoadShard(bucket);
+    shardPromises.set(bucket, promise);
+  }
+  return promise;
 }
 
-async function doLoadSearchIndex(): Promise<ClientSearchIndex> {
+async function doLoadShard(bucket: string): Promise<ClientSearchShard> {
   if (typeof DecompressionStream === "undefined") {
     throw new Error("DecompressionStream not supported");
   }
 
   const downloadStart = performance.now();
-  const response = await fetch(SEARCH_INDEX_URL);
+  const response = await fetch(`/search-shards/${shardFileName(bucket)}`);
+  if (response.status === 404) {
+    // No athlete name (or token rotation) starts with this prefix.
+    return { entries: [], keys: [], loadStats: { downloadMs: 0, parseMs: 0, bytes: 0 } };
+  }
   if (!response.ok || !response.body) {
-    throw new Error(`Failed to fetch search index: ${response.status}`);
+    throw new Error(`Failed to fetch search shard: ${response.status}`);
   }
 
   const decompressed = response.body.pipeThrough(
@@ -75,15 +88,15 @@ async function doLoadSearchIndex(): Promise<ClientSearchIndex> {
   return { entries, keys, loadStats: { downloadMs, parseMs, bytes } };
 }
 
-export function searchAthletesInClientIndex(
+export function searchAthletesInShard(
   query: string,
-  index: ClientSearchIndex,
+  shard: ClientSearchShard,
   limit: number = 10,
 ): AthleteSearchEntry[] {
-  return searchAthletesInIndex(query, index.entries, index.keys, limit);
+  return searchAthletesInIndex(query, shard.entries, shard.keys, limit);
 }
 
 // Test seam: reset memoization. Not exported through the package barrel.
 export function __resetForTests() {
-  loadPromise = null;
+  shardPromises.clear();
 }

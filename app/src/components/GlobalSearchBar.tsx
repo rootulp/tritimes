@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { useAthleteSearch, prefetchSearchIndex } from "@/hooks/useAthleteSearch";
+import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 import { AthleteSearchEntry } from "@/lib/types";
 
 export type GlobalSearchViewState = "closed" | "loading" | "empty" | "results";
@@ -35,10 +35,6 @@ export default function GlobalSearchBar() {
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  useEffect(() => {
-    prefetchSearchIndex();
   }, []);
 
   // Sync isOpen with the active search state.
@@ -77,7 +73,6 @@ export default function GlobalSearchBar() {
           onChange={(e) => handleChange(e.target.value)}
           onKeyDown={handleKeyDown}
           onFocus={() => {
-            prefetchSearchIndex();
             if (viewState !== "closed") setIsOpen(true);
           }}
           placeholder="Search athlete name..."

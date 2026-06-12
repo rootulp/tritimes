@@ -24,7 +24,10 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: "/athlete-index.tsv.gz",
+        // Prefix-sharded search indexes, fetched by the browser (and by
+        // /api/search as a self-fetch). Served as raw gzip bytes (no
+        // Content-Encoding) — clients decompress them explicitly.
+        source: "/search-shards/:path*",
         headers: [
           {
             key: "Cache-Control",

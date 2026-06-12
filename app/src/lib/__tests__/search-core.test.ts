@@ -81,3 +81,32 @@ describe("searchAthletesInIndex (core)", () => {
     expect(searchAthletesInIndex("s", athletes, keys, 1).length).toBe(1);
   });
 });
+
+describe("buildSearchKeys ordering", () => {
+  it("sorts keys by code units to match the binary search's < comparison", () => {
+    // localeCompare sorts "ézra" before "zoe" (é collates with e), but the
+    // binary search compares code units ("é" > "z"). The sort must agree
+    // with the search or accented keys land outside the searched range.
+    const entries: IndexEntry[] = [
+      {
+        slug: "ezra",
+        fullName: "Ézra",
+        fullNameLower: "ézra",
+        country: "",
+        countryISO: "",
+        raceCount: 1,
+      },
+      {
+        slug: "zoe",
+        fullName: "Zoe",
+        fullNameLower: "zoe",
+        country: "",
+        countryISO: "",
+        raceCount: 1,
+      },
+    ];
+    const sortedKeys = buildSearchKeys(entries).map((k) => k.key);
+    const codeUnitSorted = [...sortedKeys].sort();
+    expect(sortedKeys).toEqual(codeUnitSorted);
+  });
+});

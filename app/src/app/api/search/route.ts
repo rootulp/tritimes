@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json([]);
   }
 
-  const results = searchAthletes(q, 10);
+  const results = await searchAthletes(q, 10);
   return NextResponse.json(results, {
     headers: {
       "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=86400",

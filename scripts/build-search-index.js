@@ -2,7 +2,7 @@
 
 /**
  * Pre-builds athlete data indexes from CSV files:
- * - data/athlete-index.tsv.gz     — deduplicated search index for /api/search
+ * - data/athlete-index.tsv.gz     — deduplicated athlete index (input to build-search-shards.js)
  * - data/course-stats.json.gz     — per-course median stats for /races
  * - data/aggregate-stats.json.gz  — global aggregate stats for /stats
  *

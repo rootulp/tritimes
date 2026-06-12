@@ -4,31 +4,22 @@ import { useState, useRef, useCallback } from "react";
 import { track } from "@vercel/analytics";
 import { AthleteSearchEntry } from "@/lib/types";
 import {
-  loadSearchIndex,
-  searchAthletesInClientIndex,
-  type ClientSearchIndex,
+  loadShardForQuery,
+  searchAthletesInShard,
+  type ClientSearchShard,
 } from "@/lib/client-search-index";
 
-let prefetched = false;
-let cachedIndex: ClientSearchIndex | null = null;
+// Report each shard load once, no matter how many queries hit it.
+const trackedShards = new WeakSet<ClientSearchShard>();
 
-export function prefetchSearchIndex() {
-  if (prefetched || typeof window === "undefined") return;
-  prefetched = true;
-  loadSearchIndex().then(
-    (index) => {
-      cachedIndex = index;
-      track("search_index_load", {
-        download_ms: Math.round(index.loadStats.downloadMs),
-        parse_ms: Math.round(index.loadStats.parseMs),
-        bytes: index.loadStats.bytes,
-      });
-    },
-    (err: unknown) => {
-      const message = err instanceof Error ? err.message : String(err);
-      track("search_index_load_error", { message });
-    },
-  );
+function trackShardLoad(shard: ClientSearchShard) {
+  if (shard.loadStats.bytes === 0 || trackedShards.has(shard)) return;
+  trackedShards.add(shard);
+  track("search_shard_load", {
+    download_ms: Math.round(shard.loadStats.downloadMs),
+    parse_ms: Math.round(shard.loadStats.parseMs),
+    bytes: shard.loadStats.bytes,
+  });
 }
 
 export function useAthleteSearch() {
@@ -77,22 +68,32 @@ export function useAthleteSearch() {
         return;
       }
 
-      if (cachedIndex) {
-        const results = searchAthletesInClientIndex(value, cachedIndex, 10);
-        cacheRef.current.set(key, { results, source: "client" });
-        if (requestIdRef.current === requestId) {
-          setMatches(results);
-          setIsSearching(false);
-          abortRef.current?.abort();
+      // Client-side search over the query's prefix shard (one small static
+      // asset per 2-char prefix, cached after first load).
+      try {
+        const shardPromise = loadShardForQuery(value);
+        if (shardPromise) {
+          const shard = await shardPromise;
+          trackShardLoad(shard);
+          const results = searchAthletesInShard(value, shard, 10);
+          cacheRef.current.set(key, { results, source: "client" });
+          if (requestIdRef.current === requestId) {
+            setMatches(results);
+            setIsSearching(false);
+          }
+          track("search_latency", {
+            latency_ms: Math.round(performance.now() - startedAt),
+            query_length: value.length,
+            source: "client",
+            cached: false,
+          });
+          return;
         }
-        track("search_latency", {
-          latency_ms: Math.round(performance.now() - startedAt),
-          query_length: value.length,
-          source: "client",
-          cached: false,
-        });
-        return;
+      } catch {
+        // Shard unavailable (e.g. no DecompressionStream or fetch failure) —
+        // fall back to the API below.
       }
+      if (requestIdRef.current !== requestId) return;
 
       setMatches([]);
       abortRef.current?.abort();

@@ -23,6 +23,31 @@ function normalizeQuery(query: string): string {
   return query.toLowerCase().trim().replace(/\s+/g, " ");
 }
 
+/**
+ * The 2-char shard bucket a query is served from, or null when the
+ * normalized query is too short to search (minimum 2 chars).
+ * MUST stay consistent with bucketsForName() in
+ * scripts/build-search-shards.js — see search-shards.test.ts.
+ */
+export function searchBucket(query: string): string | null {
+  const q = normalizeQuery(query);
+  if (q.length < 2) return null;
+  return q.slice(0, 2);
+}
+
+/**
+ * Static-asset file name for a shard bucket: UTF-8 hex of the bucket chars,
+ * sidestepping URL/filesystem encoding of spaces and non-ASCII.
+ * MUST stay identical to shardFileName() in scripts/build-search-shards.js.
+ */
+export function shardFileName(bucket: string): string {
+  let hex = "";
+  for (const byte of new TextEncoder().encode(bucket)) {
+    hex += byte.toString(16).padStart(2, "0");
+  }
+  return `${hex}.tsv.gz`;
+}
+
 function getNameTokens(name: string): string[] {
   return name.split(/[\s-]+/).filter(Boolean);
 }
@@ -45,9 +70,12 @@ export function buildSearchKeys(index: IndexEntry[]): SearchKey[] {
     }
   }
 
+  // Code-unit sort (not localeCompare) so the order agrees with the
+  // `<` comparisons in findFirstKeyAtLeast's binary search.
   return keys.sort((a, b) => {
-    const keyCompare = a.key.localeCompare(b.key);
-    return keyCompare || a.index - b.index;
+    if (a.key < b.key) return -1;
+    if (a.key > b.key) return 1;
+    return a.index - b.index;
   });
 }
 
