@@ -27,7 +27,9 @@ export function shardId(slug: string): number {
 // /athlete-shards/. A request fetches only the one shard it needs (~145KB)
 // from the CDN — no 80MB profiles parse, no per-race CSV parsing. Shards are
 // NOT bundled into the function; they ship as static files fetched over HTTP.
-const shardCache = new Map<number, Record<string, AthleteProfile>>();
+// Caches the in-flight promise (not the resolved value) so concurrent
+// requests for the same cold shard share one fetch.
+const shardCache = new Map<number, Promise<Record<string, AthleteProfile> | null>>();
 
 // Origin to fetch our own static shard assets from. On Vercel, VERCEL_URL is
 // the current deployment's host; locally it's the dev/start server.
@@ -36,9 +38,22 @@ function shardOrigin(): string {
   return `http://localhost:${process.env.PORT ?? 3000}`;
 }
 
-async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfile>> {
+function loadAthleteShard(id: number): Promise<Record<string, AthleteProfile> | null> {
   const cached = shardCache.get(id);
   if (cached) return cached;
+  const pending = fetchShard(id);
+  shardCache.set(id, pending);
+  // Keep only successful loads — every shard exists, so a failure is transient
+  // (network blip, cold CDN, 401 before bypass). Keeping a null result would
+  // turn a transient error into persistent "not found" for the whole shard
+  // until the isolate recycles.
+  void pending.then((shard) => {
+    if (shard === null) shardCache.delete(id);
+  });
+  return pending;
+}
+
+async function fetchShard(id: number): Promise<Record<string, AthleteProfile> | null> {
   try {
     // On protected (preview) deployments the self-fetch is unauthenticated and
     // would 401; send the automation-bypass secret when Vercel provides it.
@@ -52,21 +67,15 @@ async function loadAthleteShard(id: number): Promise<Record<string, AthleteProfi
       headers,
     });
     if (res.ok) {
-      const shard = (await res.json()) as Record<string, AthleteProfile>;
-      // Cache only on success — every shard exists, so a failure is transient
-      // (network blip, cold CDN, 401 before bypass). Caching {} here would turn
-      // a transient error into persistent "not found" for the whole shard until
-      // the isolate recycles.
-      shardCache.set(id, shard);
-      return shard;
+      return (await res.json()) as Record<string, AthleteProfile>;
     }
   } catch {
-    // Network/parse failure → fall through; don't cache, so the next request retries.
+    // Network/parse failure → fall through to the null (uncached) result.
   }
-  return {};
+  return null;
 }
 
 export async function getAthleteProfile(slug: string): Promise<AthleteProfile | null> {
   const shard = await loadAthleteShard(shardId(slug));
-  return shard[slug] ?? null;
+  return shard?.[slug] ?? null;
 }

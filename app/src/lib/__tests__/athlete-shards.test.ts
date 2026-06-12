@@ -145,6 +145,28 @@ describe("getAthleteProfile (edge-compatible fetch)", () => {
     expect(fetchMock).toHaveBeenCalledTimes(1);
   });
 
+  it("deduplicates concurrent lookups of the same cold shard into one fetch", async () => {
+    const shard = { [SLUG]: makeProfile(SLUG) };
+    let release!: () => void;
+    const gate = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+    const fetchMock = vi.fn(async () => {
+      await gate;
+      return shardResponse(shard);
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    const first = mod.getAthleteProfile(SLUG);
+    const second = mod.getAthleteProfile(SLUG);
+    release();
+
+    expect(await first).toEqual(makeProfile(SLUG));
+    expect(await second).toEqual(makeProfile(SLUG));
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
   it("does not cache a failed load — the next lookup retries", async () => {
     const shard = { [SLUG]: makeProfile(SLUG) };
     const fetchMock = vi
