@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import type { RaceInfo } from "@/lib/types";
 import { getCountryFlag } from "@/lib/flags";
+import { filterRaces } from "@/lib/race-filter";
 
 function formatDate(iso: string): string {
   const date = new Date(iso + "T00:00:00");
@@ -29,15 +30,11 @@ function getYear(date: string): string {
 export default function RaceList({ races }: { races: RaceInfo[] }) {
   const [distance, setDistance] = useState<string>("All");
   const [year, setYear] = useState<string>("All");
+  const [query, setQuery] = useState<string>("");
 
   const years = [...new Set(races.map((r) => getYear(r.date)))].sort().reverse();
 
-  const filtered = races.filter((race) => {
-    if (distance === "70.3" && !race.slug.startsWith("im703-")) return false;
-    if (distance === "140.6" && race.slug.startsWith("im703-")) return false;
-    if (year !== "All" && getYear(race.date) !== year) return false;
-    return true;
-  });
+  const filtered = filterRaces(races, { distance, year, query });
 
   const btnClass = (active: boolean) =>
     active
@@ -71,11 +68,45 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
             ))}
           </select>
         </div>
+
+        <div className="flex items-center gap-2">
+          <label
+            htmlFor="race-search"
+            className="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1"
+          >
+            Search
+          </label>
+          <input
+            id="race-search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Name or location"
+            autoComplete="off"
+            className="px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none placeholder:text-gray-500 focus:outline-none focus:ring-white/40 w-56"
+          />
+        </div>
       </div>
 
       <p className="text-sm text-gray-500 mb-4">
         Showing {filtered.length} of {races.length} races
       </p>
+
+      {filtered.length === 0 && (
+        <div className="py-12 text-center">
+          <p className="text-gray-400">No races match your filters.</p>
+          <button
+            onClick={() => {
+              setDistance("All");
+              setYear("All");
+              setQuery("");
+            }}
+            className="mt-3 px-4 py-2 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 ring-1 ring-white/20 transition-colors"
+          >
+            Clear filters
+          </button>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {filtered.map((race) => {
@@ -85,7 +116,7 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
             <Link
               key={race.slug}
               href={`/race/${race.slug}`}
-              className="group block p-5 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80"
+              className="group block p-5 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80 [content-visibility:auto] [contain-intrinsic-size:auto_150px]"
             >
               <div className="flex items-start justify-between gap-3">
                 <h2 className="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors leading-tight">
