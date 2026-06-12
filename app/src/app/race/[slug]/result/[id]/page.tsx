@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getRaceBySlug, getAthleteById, getGenderCount, getAgeGroupCount, getAllResults } from "@/lib/data";
 import ResultCard from "@/components/ResultCard";
 import { getCountryFlagISO } from "@/lib/flags";
+import { slugifyAthlete } from "@/lib/athlete-slug";
 import HistogramSection, { HistogramSectionFallback } from "@/components/HistogramSection";
 import ShareDialog from "@/components/ShareDialog";
 
@@ -38,6 +39,8 @@ export default async function ResultPage({ params }: PageProps) {
   const ageGroupPct = Math.max(1, Math.round((athlete.ageGroupRank / ageGroupTotal) * 100));
 
   const flag = getCountryFlagISO(athlete.countryISO);
+  // Falls back to a plain heading when country/gender is missing.
+  const athleteSlug = slugifyAthlete(athlete.fullName, athlete.countryISO, athlete.gender);
   const location = [athlete.city, athlete.state, athlete.country].filter(Boolean).join(", ");
 
   const shareUrl = `https://tritimes.org/race/${slug}/result/${id}`;
@@ -50,7 +53,13 @@ export default async function ResultPage({ params }: PageProps) {
         <div className="min-w-0">
           <h1 className="text-3xl font-bold text-white">
             {flag && <span className="mr-2">{flag}</span>}
-            {athlete.fullName}
+            {athleteSlug ? (
+              <Link href={`/athlete/${athleteSlug}`} className="hover:text-blue-400 transition-colors">
+                {athlete.fullName}
+              </Link>
+            ) : (
+              athlete.fullName
+            )}
           </h1>
           <p className="text-gray-400 mt-1">
             <Link href={`/race/${slug}`} className="text-blue-400 hover:underline">{race.name}</Link> &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
