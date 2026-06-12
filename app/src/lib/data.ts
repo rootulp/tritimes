@@ -385,9 +385,11 @@ export function computeHistogram(
     });
   }
 
-  // Percentile: percentage of finishers the athlete beat (higher = better)
+  // Percentile: percentage of finishers the athlete beat (higher = better).
+  // Left unrounded so the display layer (formatPercentile) can distinguish
+  // e.g. 99.95% (winner, shown as ">99%") from a true 100%.
   const slowerCount = valid.filter((s) => s > athleteSeconds).length;
-  const athletePercentile = Math.round((slowerCount / valid.length) * 100);
+  const athletePercentile = (slowerCount / valid.length) * 100;
 
   const medianSeconds = computeMedian(valid);
 
@@ -488,8 +490,9 @@ export function getDisciplineHistogram(
         (sum: number, b: PrecomputedBin) => sum + (b.rangeStart > athleteSeconds ? b.count : 0),
         0
       );
+      // Unrounded — display rounding/capping happens in formatPercentile.
       const athletePercentile = source.totalAthletes > 0
-        ? Math.round((slowerCount / source.totalAthletes) * 100)
+        ? (slowerCount / source.totalAthletes) * 100
         : 0;
 
       return { bins, athleteSeconds, athletePercentile, medianSeconds: source.medianSeconds };
