@@ -37,8 +37,11 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Sharded athlete profiles, fetched server-side at render time. Served
-        // as raw gzip bytes (no Content-Encoding) — the server gunzips them.
+        // Sharded athlete profiles, fetched at render time by the edge-runtime
+        // athlete page. The files are pre-gzipped on disk; declaring
+        // Content-Encoding makes fetch decompress them at the HTTP layer, so
+        // the edge code needs no zlib/DecompressionStream (the latter doesn't
+        // exist in Next's edge sandbox).
         source: "/athlete-shards/:path*",
         headers: [
           {
@@ -47,7 +50,11 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Content-Type",
-            value: "application/gzip",
+            value: "application/json",
+          },
+          {
+            key: "Content-Encoding",
+            value: "gzip",
           },
         ],
       },

@@ -1,5 +1,6 @@
-import { describe, it, expect } from "vitest";
-import { shardId, SHARD_COUNT } from "@/lib/data";
+import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
+import { shardId, SHARD_COUNT } from "@/lib/athlete-shards";
+import type { AthleteProfile } from "@/lib/types";
 import { createRequire } from "module";
 const nodeRequire = createRequire(import.meta.url);
 const buildShards = nodeRequire("../../../../scripts/build-athlete-shards.js");
@@ -31,7 +32,7 @@ describe("shardId", () => {
 });
 
 describe("build script parity + records", () => {
-  it("script shardId matches data.ts shardId", () => {
+  it("script shardId matches athlete-shards.ts shardId", () => {
     for (const slug of ["smith-anderson--us-m", "miller-argent--au-m", "a--gb-f"]) {
       expect(buildShards.shardId(slug)).toBe(shardId(slug));
     }
@@ -73,5 +74,127 @@ describe("build script parity + records", () => {
     // 2024 race: Ann is the only finisher → beat 0 others → 0%.
     expect(ann.races[1].overallPercentile).toBe(0);
     expect(ann.races[1].distance).toBe("140.6");
+  });
+});
+
+describe("getAthleteProfile (edge-compatible fetch)", () => {
+  const SLUG = "ann-lee--us-f";
+
+  function makeProfile(slug: string): AthleteProfile {
+    return { slug, fullName: "Ann Lee", country: "United States", countryISO: "US", races: [] };
+  }
+
+  // Shards are stored gzipped but served with Content-Encoding: gzip (see
+  // next.config.ts), so fetch hands the module already-decompressed JSON —
+  // which is what this mock returns.
+  function shardResponse(shard: Record<string, AthleteProfile>): Response {
+    return new Response(JSON.stringify(shard), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  // The module memoizes shards in a module-level Map, so each test re-imports
+  // a fresh copy to start with an empty cache.
+  async function freshModule() {
+    vi.resetModules();
+    return await import("@/lib/athlete-shards");
+  }
+
+  beforeEach(() => {
+    vi.unstubAllEnvs();
+    vi.unstubAllGlobals();
+  });
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    vi.unstubAllGlobals();
+  });
+
+  it("fetches the slug's shard and returns the profile", async () => {
+    const shard = { [SLUG]: makeProfile(SLUG) };
+    const fetchMock = vi.fn(async () => shardResponse(shard));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    const profile = await mod.getAthleteProfile(SLUG);
+
+    expect(profile).toEqual(makeProfile(SLUG));
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    const [url] = fetchMock.mock.calls[0] as unknown as [string];
+    expect(url).toContain(`/athlete-shards/${mod.shardId(SLUG)}.json.gz`);
+  });
+
+  it("returns null when the slug is not in its shard", async () => {
+    const fetchMock = vi.fn(async () => shardResponse({}));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    expect(await mod.getAthleteProfile(SLUG)).toBeNull();
+  });
+
+  it("memoizes the shard: a second lookup does not refetch", async () => {
+    const shard = { [SLUG]: makeProfile(SLUG) };
+    const fetchMock = vi.fn(async () => shardResponse(shard));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    await mod.getAthleteProfile(SLUG);
+    await mod.getAthleteProfile(SLUG);
+
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("does not cache a failed load — the next lookup retries", async () => {
+    const shard = { [SLUG]: makeProfile(SLUG) };
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(new Response("nope", { status: 401 }))
+      .mockResolvedValueOnce(shardResponse(shard));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    expect(await mod.getAthleteProfile(SLUG)).toBeNull();
+    expect(await mod.getAthleteProfile(SLUG)).toEqual(makeProfile(SLUG));
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
+  it("returns null (and does not throw) on network failure", async () => {
+    const fetchMock = vi.fn(async () => {
+      throw new Error("network down");
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    expect(await mod.getAthleteProfile(SLUG)).toBeNull();
+  });
+
+  it("fetches from VERCEL_URL and sends the protection-bypass header when set", async () => {
+    vi.stubEnv("VERCEL_URL", "my-preview.vercel.app");
+    vi.stubEnv("VERCEL_AUTOMATION_BYPASS_SECRET", "sekret");
+    const fetchMock = vi.fn(async () => shardResponse({}));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    await mod.getAthleteProfile(SLUG);
+
+    const [url, init] = fetchMock.mock.calls[0] as unknown as [string, RequestInit];
+    expect(url).toBe(
+      `https://my-preview.vercel.app/athlete-shards/${mod.shardId(SLUG)}.json.gz`,
+    );
+    expect((init.headers as Record<string, string>)["x-vercel-protection-bypass"]).toBe("sekret");
+    expect(init.cache).toBe("force-cache");
+  });
+
+  it("falls back to localhost with PORT when VERCEL_URL is unset", async () => {
+    vi.stubEnv("PORT", "4321");
+    const fetchMock = vi.fn(async () => shardResponse({}));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    await mod.getAthleteProfile(SLUG);
+
+    const [url] = fetchMock.mock.calls[0] as unknown as [string];
+    expect(url).toBe(`http://localhost:4321/athlete-shards/${mod.shardId(SLUG)}.json.gz`);
   });
 });

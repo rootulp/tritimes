@@ -1,15 +1,15 @@
 import { notFound } from "next/navigation";
-import { getAthleteProfile } from "@/lib/data";
+import { getAthleteProfile } from "@/lib/athlete-shards";
 import { getCountryFlagISO } from "@/lib/flags";
 import AthleteRaceList from "@/components/AthleteRaceList";
 
-export async function generateStaticParams() {
-  return [];
-}
-
-// Athlete data is immutable once scraped — cache indefinitely. Cache is
-// reset on each deploy, which is when new CSVs land.
-export const revalidate = false;
+// Edge runtime: near-zero cold start, eliminating the ~3.8s Node lambda
+// cold-boot floor. The Edge runtime supports no static generation/ISR, so the
+// page renders dynamically on every request — cheaper than a Node cold boot,
+// since the per-request work is one CDN-cached shard fetch plus a small
+// render. Everything in this route's import graph must stay edge-compatible —
+// Web APIs only, no fs/zlib (see @/lib/athlete-shards).
+export const runtime = "edge";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
