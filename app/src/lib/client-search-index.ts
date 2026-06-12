@@ -1,6 +1,7 @@
 import { AthleteSearchEntry } from "@/lib/types";
 import {
   buildSearchKeys,
+  foldName,
   searchAthletesInIndex,
   searchBucket,
   shardFileName,
@@ -28,7 +29,7 @@ export function parseIndexTsv(tsv: string): IndexEntry[] {
     entries.push({
       slug: line.substring(0, t1),
       fullName,
-      fullNameLower: fullName.toLowerCase(),
+      fullNameLower: foldName(fullName),
       country: line.substring(t2 + 1, t3),
       countryISO: line.substring(t3 + 1, t4),
       raceCount: +line.substring(t4 + 1),

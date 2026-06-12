@@ -4,8 +4,9 @@
  * Builds prefix-sharded athlete search indexes for typeahead search:
  *   app/public/search-shards/<hex>.tsv.gz
  *
- * Each shard holds every athlete whose search keys (lowercased full name plus
- * token rotations, mirroring buildSearchKeys in app/src/lib/search-core.ts)
+ * Each shard holds every athlete whose search keys (diacritic-folded
+ * lowercase full name plus token rotations, mirroring buildSearchKeys in
+ * app/src/lib/search-core.ts)
  * start with one 2-char prefix, so a query only ever needs the one shard for
  * its first two normalized chars (~0.2KB–1MB gz) instead of the full 9.7MB
  * index. Used by both the browser and /api/search.
@@ -32,7 +33,31 @@ function shardFileName(bucket) {
   return `${Buffer.from(bucket, "utf8").toString("hex")}.tsv.gz`;
 }
 
-// Mirrors buildSearchKeys() in app/src/lib/search-core.ts: the lowercased
+// Lowercase letters with no NFD decomposition that still need ASCII folding.
+const FOLD_SPECIALS = {
+  "æ": "ae",
+  "œ": "oe",
+  "ø": "o",
+  "ß": "ss",
+  "đ": "d",
+  "ð": "d",
+  "þ": "th",
+  "ł": "l",
+};
+
+// Lowercase + fold diacritics so shard keys and sort order are
+// diacritic-insensitive ("Müller" lands in the "mu" shard, sorted with
+// "Muller"). MUST stay identical to foldName() in app/src/lib/search-core.ts
+// — see search-shards.test.ts. Display names in the shard lines stay accented.
+function foldName(name) {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[æœøßđðþł]/g, (ch) => FOLD_SPECIALS[ch]);
+}
+
+// Mirrors buildSearchKeys() in app/src/lib/search-core.ts: the folded
 // full name plus every rotation of its tokens (so "smith" finds "John Smith").
 function searchKeysForName(nameLower) {
   const tokens = nameLower.split(/[\s-]+/).filter(Boolean);
@@ -63,7 +88,7 @@ function buildShardMap(lines) {
     if (!line) continue;
     const t1 = line.indexOf("\t");
     const t2 = line.indexOf("\t", t1 + 1);
-    const nameLower = line.substring(t1 + 1, t2).toLowerCase();
+    const nameLower = foldName(line.substring(t1 + 1, t2));
     for (const bucket of bucketsForName(nameLower)) {
       let shard = shards.get(bucket);
       if (!shard) {
@@ -135,4 +160,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { shardFileName, searchKeysForName, bucketsForName, buildShardMap };
+module.exports = { shardFileName, foldName, searchKeysForName, bucketsForName, buildShardMap };

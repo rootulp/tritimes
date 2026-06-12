@@ -1,6 +1,7 @@
 import { AthleteSearchEntry } from "@/lib/types";
 
 export interface IndexEntry extends AthleteSearchEntry {
+  /** Match field: lowercased AND diacritic-folded — see foldName(). */
   fullNameLower: string;
 }
 
@@ -19,8 +20,37 @@ function toSearchResult(entry: IndexEntry): AthleteSearchEntry {
   };
 }
 
+// Lowercase letters with no NFD decomposition that still need ASCII folding.
+const FOLD_SPECIALS: Record<string, string> = {
+  "æ": "ae",
+  "œ": "oe",
+  "ø": "o",
+  "ß": "ss",
+  "đ": "d",
+  "ð": "d",
+  "þ": "th",
+  "ł": "l",
+};
+
+/**
+ * Lowercase a name and fold diacritics for search matching: NFD-strip
+ * combining marks (ü→u, é→e, å→a) plus the special cases above (æ→ae, ø→o,
+ * ß→ss, …). Applied to indexed names, shard keys, and queries alike so
+ * "muller" matches "Müller" and vice versa. Display names stay accented —
+ * only match fields are folded.
+ * MUST stay identical to foldName() in scripts/build-search-shards.js — see
+ * search-shards.test.ts.
+ */
+export function foldName(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[æœøßđðþł]/g, (ch) => FOLD_SPECIALS[ch]);
+}
+
 function normalizeQuery(query: string): string {
-  return query.toLowerCase().trim().replace(/\s+/g, " ");
+  return foldName(query).trim().replace(/\s+/g, " ");
 }
 
 /**

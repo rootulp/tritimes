@@ -177,4 +177,30 @@ describe("searchAthletes (shard-backed)", () => {
     vi.spyOn(globalThis, "fetch").mockResolvedValue(gzippedResponse(SMITH_TSV));
     expect(await searchAthletes("smith", 1)).toHaveLength(1);
   });
+
+  it("matches accented names from an unaccented query (and vice versa)", async () => {
+    const MULLER_TSV = [
+      "alain-muller--fr-m\tMuller Alain\tFrance\tFR\t1",
+      "beni-muller--ch-m\tMüller Beni\tSwitzerland\tCH\t2",
+    ].join("\n");
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(gzippedResponse(MULLER_TSV));
+
+    expect(await searchAthletes("muller", 10)).toMatchObject([
+      { slug: "alain-muller--fr-m" },
+      { slug: "beni-muller--ch-m", fullName: "Müller Beni" },
+    ]);
+
+    // The accented query folds to the same "mu" bucket and shard.
+    expect(await searchAthletes("müller", 10)).toMatchObject([
+      { slug: "alain-muller--fr-m" },
+      { slug: "beni-muller--ch-m" },
+    ]);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetchMock).toHaveBeenCalledWith(
+      "http://localhost:3000/search-shards/6d75.tsv.gz",
+      expect.anything(),
+    );
+  });
 });
