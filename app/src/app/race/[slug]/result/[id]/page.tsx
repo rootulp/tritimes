@@ -5,6 +5,7 @@ import { getRaceBySlug, getAthleteById, getGenderCount, getAgeGroupCount, getAll
 import ResultCard from "@/components/ResultCard";
 import { getCountryFlagISO } from "@/lib/flags";
 import { slugifyAthlete } from "@/lib/athlete-slug";
+import { formatAthleteName } from "@/lib/format";
 import HistogramSection, { HistogramSectionFallback } from "@/components/HistogramSection";
 import ShareDialog from "@/components/ShareDialog";
 
@@ -55,10 +56,10 @@ export default async function ResultPage({ params }: PageProps) {
             {flag && <span className="mr-2">{flag}</span>}
             {athleteSlug ? (
               <Link href={`/athlete/${athleteSlug}`} className="hover:text-blue-400 transition-colors">
-                {athlete.fullName}
+                {formatAthleteName(athlete.fullName)}
               </Link>
             ) : (
-              athlete.fullName
+              formatAthleteName(athlete.fullName)
             )}
           </h1>
           <p className="text-gray-400 mt-1">

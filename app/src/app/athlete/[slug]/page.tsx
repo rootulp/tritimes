@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAthleteProfile } from "@/lib/athlete-shards";
 import { getCountryFlagISO } from "@/lib/flags";
+import { formatAthleteName } from "@/lib/format";
 import AthleteRaceList from "@/components/AthleteRaceList";
 
 // Edge runtime: near-zero cold start, eliminating the ~3.8s Node lambda
@@ -27,7 +28,7 @@ export default async function AthletePage({ params }: PageProps) {
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">
           {flag && <span className="mr-2">{flag}</span>}
-          {profile.fullName}
+          {formatAthleteName(profile.fullName)}
         </h1>
         <p className="text-gray-400 mt-1">
           {profile.country} &middot; {profile.races.length} {profile.races.length === 1 ? "race" : "races"}

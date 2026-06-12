@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getRaceBySlug, getAthleteById, getAgeGroupCount } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
+import { formatAthleteName } from "@/lib/format";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
 
 // Use Node runtime: getRaceBySlug / getAthleteById read from the filesystem.
@@ -72,7 +73,7 @@ export default async function Image({ params }: Params) {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ display: "flex", alignItems: "center", fontSize: 44, fontWeight: 700 }}>
             {flag ? <span style={{ marginRight: 16 }}>{flag}</span> : null}
-            {athlete.fullName}
+            {formatAthleteName(athlete.fullName)}
           </div>
           <div style={{ display: "flex", fontSize: 22, color: "#94a3b8", marginTop: 6 }}>
             {race.name} · {dateStr} · {athlete.ageGroup}

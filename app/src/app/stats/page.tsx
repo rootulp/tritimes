@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getStatsPageData } from "@/lib/data";
 import { getCountryFlagISO } from "@/lib/flags";
+import { formatAthleteName } from "@/lib/format";
 
 export const metadata = {
   title: "Stats | TriTimes",
@@ -183,7 +184,7 @@ export default function StatsPage() {
             href={`/athlete/${stats.athleteWithMostRaces.slug}`}
             className="text-lg font-semibold text-white hover:text-blue-400 transition-colors mt-1 block"
           >
-            {stats.athleteWithMostRaces.fullName}
+            {formatAthleteName(stats.athleteWithMostRaces.fullName)}
           </Link>
           <p className="text-sm text-gray-500 mt-0.5">
             {stats.athleteWithMostRaces.raceCount} races

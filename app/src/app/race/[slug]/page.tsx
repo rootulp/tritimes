@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getRaceBySlug, getRaceStats } from "@/lib/data";
-import { formatTime } from "@/lib/format";
+import { formatAthleteName, formatTime } from "@/lib/format";
 import { getCountryFlagISO } from "@/lib/flags";
 import dynamic from "next/dynamic";
 import ResultCard from "@/components/ResultCard";
@@ -204,7 +204,7 @@ export default async function RacePage({ params }: PageProps) {
                             href={`/race/${slug}/result/${entry.id}`}
                             className="text-white hover:text-blue-400 transition-colors"
                           >
-                            {flag} {entry.fullName}
+                            {flag} {formatAthleteName(entry.fullName)}
                           </Link>
                         </td>
                         <td className="px-4 py-2 text-gray-400 hidden lg:table-cell">{entry.ageGroup}</td>

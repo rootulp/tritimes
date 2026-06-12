@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 import { getCountryFlagISO } from "@/lib/flags";
+import { formatAthleteName } from "@/lib/format";
 
 export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: boolean }) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
@@ -183,7 +184,7 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
                     {getCountryFlagISO(entry.countryISO) || "\u{1F3CA}"}
                   </span>
                   <div className="min-w-0">
-                    <div className="font-medium text-white truncate">{entry.fullName}</div>
+                    <div className="font-medium text-white truncate">{formatAthleteName(entry.fullName)}</div>
                     <div className="text-sm text-gray-400">
                       {entry.country} &middot; {entry.raceCount}{" "}
                       {entry.raceCount === 1 ? "race" : "races"}

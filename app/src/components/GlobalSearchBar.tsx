@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAthleteSearch } from "@/hooks/useAthleteSearch";
 import { AthleteSearchEntry } from "@/lib/types";
+import { formatAthleteName } from "@/lib/format";
 
 export type GlobalSearchViewState = "closed" | "loading" | "empty" | "results";
 
@@ -110,7 +111,7 @@ export default function GlobalSearchBar() {
                   }}
                   className="block px-4 py-3"
                 >
-                  <div className="font-medium text-white">{entry.fullName}</div>
+                  <div className="font-medium text-white">{formatAthleteName(entry.fullName)}</div>
                   <div className="text-sm text-gray-400">
                     {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
                   </div>
