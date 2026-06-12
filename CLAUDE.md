@@ -42,7 +42,8 @@ Data is collected from https://www.ironman.com/races/im703-new-york/results. Ins
 
 ## Key File Paths
 
-- `app/src/lib/data.ts` — Server-side data access (reads CSVs, computes histograms, athlete deduplication & profiles)
+- `app/src/lib/data.ts` — Corpus-reading data access (CSVs, histograms, athlete index). Any route importing it gets ~190MB traced into its function bundle — routes that only need the race manifest must import `races.ts` instead (enforced by `import-graph.test.ts`)
+- `app/src/lib/races.ts` — Race-manifest access (`data/races.json` only); safe for instrumentation and thin routes
 - `app/src/lib/types.ts` — TypeScript interfaces (`AthleteSearchEntry`, `AthleteProfile`, `AthleteRaceEntry`, etc.)
 - `app/src/lib/colors.ts` — Canonical discipline color constants (swim, bike, run, overall, T1, T2)
 - `app/src/lib/flags.ts` — Country ISO to flag emoji mapping

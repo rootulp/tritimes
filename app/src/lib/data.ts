@@ -1,35 +1,18 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceInfo, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceStats } from "./types";
+import { getRaces } from "./races";
 
-interface RaceManifestEntry {
-  slug: string;
-  name: string;
-  date: string;
-  location: string;
-  eventId: string;
-  finishers: number;
-}
+// Corpus-reading data access: everything here may reference data/*.csv.gz,
+// data/histograms/* and data/athlete-index.tsv.gz, so any function whose
+// import graph reaches this module gets the whole ~190MB corpus copied into
+// its traced bundle. Routes that only need the race manifest must import
+// @/lib/races instead (enforced by import-graph.test.ts; see #216).
 
-function loadRaces(): RaceInfo[] {
-  const manifestPath = path.join(process.cwd(), "..", "data", "races.json");
-  const raw = fs.readFileSync(manifestPath, "utf-8");
-  const entries: RaceManifestEntry[] = JSON.parse(raw);
-  return entries.map((e) => ({
-    slug: e.slug,
-    name: e.name,
-    date: e.date,
-    location: e.location,
-    finishers: e.finishers || 0,
-  }));
-}
-
-let racesCache: RaceInfo[] | null = null;
-function getRacesInternal(): RaceInfo[] {
-  if (!racesCache) racesCache = loadRaces();
-  return racesCache;
-}
+// Manifest accessors are re-exported so corpus-reading routes (race/result
+// pages) can keep importing everything from @/lib/data.
+export { getRaces, getRaceBySlug, getGlobalStats } from "./races";
 
 const cache = new Map<string, AthleteResult[]>();
 
@@ -153,14 +136,6 @@ function parseCSV(raceSlug: string): AthleteResult[] {
   return results;
 }
 
-export function getRaces(): RaceInfo[] {
-  return getRacesInternal();
-}
-
-export function getRaceBySlug(slug: string): RaceInfo | undefined {
-  return getRacesInternal().find((r) => r.slug === slug);
-}
-
 export function getAllResults(raceSlug: string): AthleteResult[] {
   return parseCSV(raceSlug);
 }
@@ -217,16 +192,6 @@ export function getCourseStats(): CourseStats[] {
   return courseStatsCache!;
 }
 
-export function getGlobalStats(): { raceCount: number; totalResults: number } {
-  const manifestPath = path.join(process.cwd(), "..", "data", "races.json");
-  const raw = fs.readFileSync(manifestPath, "utf-8");
-  const entries: RaceManifestEntry[] = JSON.parse(raw);
-  return {
-    raceCount: entries.length,
-    totalResults: entries.reduce((sum, e) => sum + (e.finishers || 0), 0),
-  };
-}
-
 let aggregateStatsCache: AggregateStats | null = null;
 
 function loadAggregateStats(): AggregateStats {
@@ -262,7 +227,7 @@ export interface StatsPageData {
 }
 
 export function getStatsPageData(): StatsPageData {
-  const races = getRacesInternal();
+  const races = getRaces();
   const sorted = [...races].sort((a, b) => a.date.localeCompare(b.date));
   const earliest = sorted[0];
   const mostRecent = sorted[sorted.length - 1];
