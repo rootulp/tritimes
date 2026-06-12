@@ -48,7 +48,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-gray-900/95 border-b border-gray-800">
+    <header className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="text-lg font-bold text-white hover:text-gray-300 transition-colors">
           TriTimes
