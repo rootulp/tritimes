@@ -1,4 +1,4 @@
-import { getRaces } from "@/lib/data";
+import { getRaces } from "@/lib/races";
 import RaceList from "./race-list";
 
 export const revalidate = false;

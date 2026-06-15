@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -41,14 +41,53 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const isMac = useIsMac();
   const pathname = usePathname();
+  const headerRef = useRef<HTMLElement>(null);
 
   const links = [
     { href: "/races", label: "Races" },
     { href: "/courses", label: "Courses" },
+    { href: "/stats", label: "Stats" },
   ];
 
+  // Close the mobile menu on route change (state adjustment during render).
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (prevPathname !== pathname) {
+    setPrevPathname(pathname);
+    setMenuOpen(false);
+  }
+
+  // While the mobile menu is open: close on Escape or outside tap, and lock body scroll.
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") setMenuOpen(false);
+    }
+
+    function onPointerDown(event: PointerEvent) {
+      if (
+        headerRef.current &&
+        event.target instanceof Node &&
+        !headerRef.current.contains(event.target)
+      ) {
+        setMenuOpen(false);
+      }
+    }
+
+    document.addEventListener("keydown", onKeyDown);
+    document.addEventListener("pointerdown", onPointerDown);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [menuOpen]);
+
   return (
-    <header className="sticky top-0 z-50 bg-gray-900/95 border-b border-gray-800">
+    <header ref={headerRef} className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="text-lg font-bold text-white hover:text-gray-300 transition-colors">
           TriTimes

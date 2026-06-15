@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
+  foldName,
   searchBucket,
   shardFileName,
   buildSearchKeys,
@@ -37,6 +38,12 @@ describe("searchBucket (query → 2-char bucket)", () => {
   it("keeps an inner space in single-letter-token queries", () => {
     expect(searchBucket("a b")).toBe("a ");
   });
+
+  it("folds diacritics so accented queries map to the ASCII bucket", () => {
+    expect(searchBucket("Müller")).toBe("mu");
+    expect(searchBucket("Þór")).toBe("th");
+    expect(searchBucket("ß")).toBe("ss");
+  });
 });
 
 describe("shardFileName", () => {
@@ -70,6 +77,29 @@ describe("build script parity", () => {
     const keys = buildSearchKeys(entries);
     const expected = new Set(keys.map((k) => k.key.slice(0, 2)));
     expect(new Set(buildShards.bucketsForName("john smith"))).toEqual(expected);
+  });
+
+  it("script foldName matches search-core foldName", () => {
+    for (const name of [
+      "Müller Beni",
+      "Németh Zsolt",
+      "Thronæs",
+      "Søren",
+      "Großmann",
+      "Đorđe",
+      "Þór",
+      "Łukasz",
+      "John Smith",
+    ]) {
+      expect(buildShards.foldName(name)).toBe(foldName(name));
+    }
+  });
+
+  it("matches pinned folded values (build/runtime parity anchor)", () => {
+    // Hardcoded so any drift between the script and search-core is caught.
+    expect(buildShards.foldName("Müller")).toBe("muller");
+    expect(buildShards.foldName("Thronæs")).toBe("thronaes");
+    expect(buildShards.foldName("Großmann")).toBe("grossmann");
   });
 });
 
@@ -115,9 +145,9 @@ describe("buildShardMap", () => {
     expect(jo).toEqual(["john-smith", "zoe-jones"]);
   });
 
-  it("sorts shard lines by code-unit fullNameLower (binary-search precondition)", () => {
+  it("sorts shard lines by code-unit folded name (binary-search precondition)", () => {
     for (const lines of shards.values()) {
-      const names = lines.map((l: string) => l.split("\t")[1].toLowerCase());
+      const names = lines.map((l: string) => foldName(l.split("\t")[1]));
       const sorted = [...names].sort();
       expect(names).toEqual(sorted);
     }
@@ -147,5 +177,50 @@ describe("buildShardMap", () => {
       const fromFull = searchAthletesInIndex(query, entries, buildSearchKeys(entries), 10);
       expect(fromShard).toEqual(fromFull);
     }
+  });
+});
+
+describe("buildShardMap diacritic folding", () => {
+  const lines = [
+    "beni-muller--ch-m\tMüller Beni\tSwitzerland\tCH\t2",
+    "alain-muller--fr-m\tMuller Alain\tFrance\tFR\t1",
+    "trygve-thronaes--no-m\tThronæs Trygve\tNorway\tNO\t1",
+  ];
+  const shards = buildShards.buildShardMap(lines);
+
+  it("buckets accented names under their folded ASCII prefix", () => {
+    const mu = shards.get("mu").map((l: string) => l.split("\t")[0]);
+    expect(mu).toEqual(["alain-muller--fr-m", "beni-muller--ch-m"]);
+    expect(shards.has("mü")).toBe(false);
+  });
+
+  it("buckets æ-names so a folded 'ae' query can reach them", () => {
+    expect(shards.get("th").map((l: string) => l.split("\t")[0])).toEqual([
+      "trygve-thronaes--no-m",
+    ]);
+  });
+
+  it("serves both accented and ASCII names for an unaccented query", () => {
+    const bucket = searchBucket("muller")!;
+    const shardEntries: IndexEntry[] = shards
+      .get(bucket)
+      .map((l: string) => {
+        const [slug, fullName, country, countryISO, raceCount] = l.split("\t");
+        return {
+          slug,
+          fullName,
+          fullNameLower: foldName(fullName),
+          country,
+          countryISO,
+          raceCount: +raceCount,
+        };
+      });
+    const results = searchAthletesInIndex(
+      "muller",
+      shardEntries,
+      buildSearchKeys(shardEntries),
+      10,
+    );
+    expect(results.map((r) => r.fullName)).toEqual(["Muller Alain", "Müller Beni"]);
   });
 });

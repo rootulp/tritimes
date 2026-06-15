@@ -38,6 +38,13 @@ describe("parseIndexTsv", () => {
     expect(parseIndexTsv(tsv)[0].fullNameLower).toBe("foo bar");
   });
 
+  it("folds diacritics into fullNameLower but keeps fullName accented", () => {
+    const tsv = "beni-muller--ch-m\tMüller Beni\tSwitzerland\tCH\t2";
+    const [entry] = parseIndexTsv(tsv);
+    expect(entry.fullNameLower).toBe("muller beni");
+    expect(entry.fullName).toBe("Müller Beni");
+  });
+
   it("parses raceCount as a number", () => {
     const tsv = "x\tx\tx\tXX\t42";
     expect(parseIndexTsv(tsv)[0].raceCount).toBe(42);

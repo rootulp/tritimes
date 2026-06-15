@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getRaces } from "@/lib/data";
+import { getRaces } from "@/lib/races";
 
 const SITE_URL = "https://tritimes.org";
 
