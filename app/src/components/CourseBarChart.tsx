@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import type { CourseStats } from "@/lib/types";
+import { truncateLabel } from "./chart-utils";
 
 function formatTime(seconds: number): string {
   const h = Math.floor(seconds / 3600);
@@ -28,7 +29,14 @@ interface Props {
 const SVG_WIDTH = 500;
 const BAR_HEIGHT = 24;
 const BAR_SPACING = 36;
-const MARGIN = { top: 5, right: 10, bottom: 25, left: 100 };
+const MARGIN = { top: 5, right: 10, bottom: 25, left: 124 };
+const LABEL_FONT_SIZE = 11;
+// Gutter available for the race-name labels, in viewBox units.
+const LABEL_GUTTER = MARGIN.left - 5;
+// Approximate width of a character at LABEL_FONT_SIZE; used to cap label length
+// so names never hard-clip past the left edge of the SVG.
+const APPROX_CHAR_WIDTH = 6;
+const MAX_LABEL_CHARS = Math.floor(LABEL_GUTTER / APPROX_CHAR_WIDTH);
 
 export default function CourseBarChart({
   courses,
@@ -117,9 +125,9 @@ export default function CourseBarChart({
                   y={y + BAR_HEIGHT / 2 + 4}
                   textAnchor="end"
                   fill="#d1d5db"
-                  fontSize="11"
+                  fontSize={LABEL_FONT_SIZE}
                 >
-                  {d.name}
+                  {truncateLabel(d.name, MAX_LABEL_CHARS)}
                 </text>
                 <rect
                   x={MARGIN.left}

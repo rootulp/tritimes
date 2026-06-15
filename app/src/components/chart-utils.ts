@@ -29,6 +29,20 @@ export function cursorXToDataIndex(opts: {
   return Math.max(0, Math.min(dataLength - 1, idx));
 }
 
+// Pro-only courses are scraped as separate races whose name ends in " - Pros".
+// They don't belong in age-grouper course comparisons because pros are faster.
+export function isProCourse(displayName: string): boolean {
+  return displayName.endsWith(" - Pros");
+}
+
+// Truncate a label to fit the chart's label gutter, appending an ellipsis when
+// it overflows. The full name is still shown in the tooltip.
+export function truncateLabel(name: string, maxChars: number): string {
+  if (name.length <= maxChars) return name;
+  if (maxChars <= 1) return "…";
+  return name.slice(0, maxChars - 1).trimEnd() + "…";
+}
+
 // Choose how many data labels to draw between visible ticks so adjacent labels
 // don't collide. Returns the step (1 = every label).
 export function computeLabelStep(opts: {

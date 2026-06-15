@@ -4,6 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import type { CourseStats } from "@/lib/types";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
+import { isProCourse } from "@/components/chart-utils";
 
 const CourseBarChart = dynamic(() => import("@/components/CourseBarChart"), {
   ssr: false,
@@ -48,7 +49,8 @@ export default function CourseCharts({
   const filtered = courses.filter(
     (c) =>
       c.distance === distance &&
-      !c.course.includes("world-championship")
+      !c.course.includes("world-championship") &&
+      !isProCourse(c.displayName)
   );
 
   const btnClass = (active: boolean) =>

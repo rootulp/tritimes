@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { cursorXToDataIndex, computeLabelStep } from "../chart-utils";
+import {
+  cursorXToDataIndex,
+  computeLabelStep,
+  isProCourse,
+  truncateLabel,
+} from "../chart-utils";
 
 const MARGIN = { left: 55, right: 10 };
 const VIEW_BOX = { width: 500, height: 250 };
@@ -107,5 +112,43 @@ describe("computeLabelStep", () => {
     const step40 = computeLabelStep({ dataLength: 40, plotWidthPx: 435, minLabelSpacingPx: MIN_SPACING });
     expect(step20).toBeGreaterThanOrEqual(3);
     expect(step40).toBeGreaterThanOrEqual(step20);
+  });
+});
+
+describe("isProCourse", () => {
+  it("flags courses whose display name ends with the Pros suffix", () => {
+    expect(isProCourse("Dallas-Little Elm - Pros")).toBe(true);
+    expect(isProCourse("Davao - Pros")).toBe(true);
+  });
+
+  it("does not flag age-group courses", () => {
+    expect(isProCourse("Melbourne")).toBe(false);
+    expect(isProCourse("Berlin-Brandenburg")).toBe(false);
+    expect(isProCourse("Punta del Este")).toBe(false);
+  });
+
+  it("only matches the trailing ' - Pros' suffix, not the word elsewhere", () => {
+    expect(isProCourse("Pros Valley")).toBe(false);
+    expect(isProCourse("Prosser")).toBe(false);
+  });
+});
+
+describe("truncateLabel", () => {
+  it("leaves labels at or under the limit unchanged", () => {
+    expect(truncateLabel("Melbourne", 18)).toBe("Melbourne");
+    expect(truncateLabel("Berlin-Brandenburg", 18)).toBe("Berlin-Brandenburg");
+  });
+
+  it("truncates longer labels to the limit with an ellipsis", () => {
+    const out = truncateLabel("Berlin-Brandenburg Extra Long", 18);
+    expect(out.length).toBeLessThanOrEqual(18);
+    expect(out.endsWith("…")).toBe(true);
+  });
+
+  it("does not leave a trailing space before the ellipsis", () => {
+    // "Sunshine Coast XY" cut at 15 chars would land mid-space; trim it.
+    const out = truncateLabel("Sunshine Coast XYZ", 15);
+    expect(out).not.toMatch(/ …$/);
+    expect(out.endsWith("…")).toBe(true);
   });
 });
