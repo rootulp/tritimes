@@ -5,8 +5,6 @@ import {
   type Discipline,
 } from "@/lib/data";
 import type { AthleteResult } from "@/lib/types";
-import { DISCIPLINE_COLORS, DEFAULT_DISCIPLINE_COLOR } from "@/lib/colors";
-import PercentilePill from "./PercentilePill";
 
 const DisciplineSections = dynamic(() => import("./DisciplineSections"));
 
@@ -45,33 +43,11 @@ export default async function HistogramSection({ slug, athlete }: Props) {
   }));
 
   return (
-    <>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {histograms.map((d) => (
-          <div
-            key={d.key}
-            className="relative bg-gray-900 rounded-lg border border-gray-700 p-4 text-center"
-          >
-            <div className="absolute top-2 right-2">
-              <PercentilePill percentile={d.ageGroup.athletePercentile} />
-            </div>
-            <div
-              className="text-sm font-medium mb-1"
-              style={{ color: DISCIPLINE_COLORS[d.label] || DEFAULT_DISCIPLINE_COLOR }}
-            >
-              {d.label}
-            </div>
-            <div className="text-lg font-mono font-bold text-white">{d.time}</div>
-          </div>
-        ))}
-      </div>
-
-      <DisciplineSections
-        disciplines={histograms}
-        transitions={transitionHistograms}
-        ageGroup={athlete.ageGroup}
-      />
-    </>
+    <DisciplineSections
+      disciplines={histograms}
+      transitions={transitionHistograms}
+      ageGroup={athlete.ageGroup}
+    />
   );
 }
 

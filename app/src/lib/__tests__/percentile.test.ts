@@ -1,45 +1,40 @@
 import { describe, it, expect } from "vitest";
-import { formatPercentile } from "../percentile";
+import { formatTopPercent } from "../percentile";
 
-describe("formatPercentile", () => {
-  it("formats a normal percentile with a percent sign", () => {
-    expect(formatPercentile(22)).toBe("22%");
-    expect(formatPercentile(1)).toBe("1%");
-    expect(formatPercentile(99)).toBe("99%");
-    expect(formatPercentile(88)).toBe("88%");
+describe("formatTopPercent", () => {
+  it("converts share-beaten into the rank-from-top convention", () => {
+    // Beat 37% of the field => 63% finished ahead => Top 63%.
+    expect(formatTopPercent(37)).toBe("Top 63%");
+    expect(formatTopPercent(50)).toBe("Top 50%");
+    expect(formatTopPercent(71)).toBe("Top 29%");
   });
 
-  it("rounds fractional percentiles", () => {
-    expect(formatPercentile(87.6)).toBe("88%");
-    expect(formatPercentile(88.4)).toBe("88%");
+  it("rounds fractional values", () => {
+    expect(formatTopPercent(37.4)).toBe("Top 63%");
+    expect(formatTopPercent(37.6)).toBe("Top 62%");
   });
 
-  it("caps the winner at >99% instead of an impossible 100%", () => {
-    // e.g. Hamburg winner: beat 2177 of 2178 = 99.954% — must not round to 100%
-    expect(formatPercentile((2177 / 2178) * 100)).toBe(">99%");
-    expect(formatPercentile(99.6)).toBe(">99%");
-    expect(formatPercentile(100)).toBe(">99%");
+  it("clamps the winner to Top 1% instead of Top 0%", () => {
+    // Hamburg winner: beat 2177 of 2178 = 99.954% => Top 0.05% => clamp to Top 1%.
+    expect(formatTopPercent((2177 / 2178) * 100)).toBe("Top 1%");
+    expect(formatTopPercent(99.6)).toBe("Top 1%");
+    expect(formatTopPercent(100)).toBe("Top 1%");
   });
 
-  it("shows <1% at the bottom end instead of 0%", () => {
-    // e.g. second-to-last: beat 1 of 300 = 0.33% — must not round to 0%
-    expect(formatPercentile((1 / 300) * 100)).toBe("<1%");
-    expect(formatPercentile(0.4)).toBe("<1%");
-  });
-
-  it("does not cap values that round inside 1-99", () => {
-    expect(formatPercentile(99.4)).toBe("99%");
-    expect(formatPercentile(0.5)).toBe("1%");
+  it("clamps a near-last finisher to Top 99% instead of Top 100%", () => {
+    // Second-to-last: beat 1 of 300 = 0.33% => Top 99.67% => clamp to Top 99%.
+    expect(formatTopPercent((1 / 300) * 100)).toBe("Top 99%");
+    expect(formatTopPercent(0.4)).toBe("Top 99%");
   });
 
   it("renders an em-dash for 0 (treated as no data)", () => {
-    expect(formatPercentile(0)).toBe("—");
+    expect(formatTopPercent(0)).toBe("—");
   });
 
   it("renders an em-dash for negative, NaN, or Infinity", () => {
-    expect(formatPercentile(-5)).toBe("—");
-    expect(formatPercentile(Number.NaN)).toBe("—");
-    expect(formatPercentile(Number.POSITIVE_INFINITY)).toBe("—");
-    expect(formatPercentile(Number.NEGATIVE_INFINITY)).toBe("—");
+    expect(formatTopPercent(-5)).toBe("—");
+    expect(formatTopPercent(Number.NaN)).toBe("—");
+    expect(formatTopPercent(Number.POSITIVE_INFINITY)).toBe("—");
+    expect(formatTopPercent(Number.NEGATIVE_INFINITY)).toBe("—");
   });
 });
