@@ -7,8 +7,12 @@ import { DISCIPLINE_COLORS } from "@/lib/colors";
 // Use Node runtime: getRaceBySlug / getAthleteById read from the filesystem.
 export const runtime = "nodejs";
 
-// Race results are static once scraped — cache the image for 1 day.
-export const revalidate = 86400;
+// Render on demand with no ISR caching. The daily revalidate billed an ISR
+// write every time a stale image was re-fetched, and with 75K+ result URLs
+// the long tail of share-preview crawlers meant writes vastly outnumbered
+// cache hits. A share burst only fetches the image a handful of times, so
+// regenerating it per request is cheaper than caching it.
+export const dynamic = "force-dynamic";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";

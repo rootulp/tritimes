@@ -9,15 +9,13 @@ import { formatAthleteName } from "@/lib/format";
 import HistogramSection, { HistogramSectionFallback } from "@/components/HistogramSection";
 import ShareDialog from "@/components/ShareDialog";
 
-// Don't pre-render all 75K+ athlete pages at build time — generate on demand.
-// Next.js will render on first request and cache for subsequent visits.
-export async function generateStaticParams() {
-  return [];
-}
-
-// Race results are immutable once scraped — cache indefinitely. Cache is
-// reset on each deploy, which is when new CSVs land.
-export const revalidate = false;
+// Render dynamically instead of ISR. There are 75K+ result URLs and traffic
+// is a bot-driven long tail of unique paths: ISR wrote each first render to
+// the cache but the entries were almost never read back (observed ~2%
+// hit rate), so every crawl paid for a billed ISR write on top of the same
+// function invocation a dynamic render costs. Skipping the cache entirely
+// keeps per-request cost identical on misses and drops the write spend.
+export const dynamic = "force-dynamic";
 
 interface PageProps {
   params: Promise<{ slug: string; id: string }>;
