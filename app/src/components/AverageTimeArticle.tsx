@@ -77,7 +77,7 @@ export default function AverageTimeArticle({
       answer: `The median ${fullLabel} swim is ${formatTime(stats.medianSwimSeconds)}, the median bike is ${formatTime(stats.medianBikeSeconds)}, and the median run is ${formatTime(stats.medianRunSeconds)}.`,
     },
     {
-      question: `How long do you have to finish a ${fullLabel}?`,
+      question: `How long do you have to finish an ${fullLabel}?`,
       answer: `The official ${fullLabel} course time limit is typically ${cutoffText}, with intermediate cutoffs for the swim and bike. Exact cutoffs vary slightly by race.`,
     },
   ];

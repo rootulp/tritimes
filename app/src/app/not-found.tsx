@@ -2,7 +2,7 @@ import Link from "next/link";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 
 export const metadata = {
-  title: "Page not found | TriTimes",
+  title: "Page not found",
 };
 
 export default function NotFound() {
