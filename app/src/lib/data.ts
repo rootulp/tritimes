@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceStats } from "./types";
 import { getRaces } from "./races";
 
 // Corpus-reading data access: everything here may reference data/*.csv.gz,
@@ -190,6 +190,16 @@ export function getCourseStats(): CourseStats[] {
     courseStatsCache = JSON.parse(gunzipSync(fs.readFileSync(statsPath)).toString());
   }
   return courseStatsCache!;
+}
+
+let distanceStatsCache: Record<"70.3" | "140.6", DistanceStats> | null = null;
+
+export function getDistanceStats(distance: "70.3" | "140.6"): DistanceStats {
+  if (!distanceStatsCache) {
+    const statsPath = path.join(process.cwd(), "..", "data", "distance-stats.json.gz");
+    distanceStatsCache = JSON.parse(gunzipSync(fs.readFileSync(statsPath)).toString());
+  }
+  return distanceStatsCache![distance];
 }
 
 let aggregateStatsCache: AggregateStats | null = null;

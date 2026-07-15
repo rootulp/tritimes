@@ -172,3 +172,39 @@ export interface CourseStats {
   medianRunSeconds: number;
   medianFinishSeconds: number;
 }
+
+// Per-distance aggregates precomputed by scripts/build-search-index.js into
+// data/distance-stats.json.gz; consumed by /stats/average-*-time pages.
+export interface DistanceAgeGroupCell {
+  count: number;
+  medianSeconds: number;
+}
+
+export interface DistanceAgeGroupRow {
+  bracket: string; // "18-24", ..., "PRO"
+  male?: DistanceAgeGroupCell;
+  female?: DistanceAgeGroupCell;
+}
+
+export interface DistanceStats {
+  raceCount: number;
+  courseCount: number;
+  firstYear: number | null;
+  lastYear: number | null;
+  finisherCount: number;
+  finish: {
+    averageSeconds: number;
+    medianSeconds: number;
+    p10Seconds: number;
+    p25Seconds: number;
+    p75Seconds: number;
+    p90Seconds: number;
+  };
+  medianSwimSeconds: number;
+  medianBikeSeconds: number;
+  medianRunSeconds: number;
+  byGender: { gender: string; count: number; medianSeconds: number; averageSeconds: number }[];
+  byAgeGroup: DistanceAgeGroupRow[];
+  byYear: { year: number; count: number; medianSeconds: number }[];
+  histogram: RaceHistogramData;
+}

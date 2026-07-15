@@ -53,6 +53,22 @@ export default function StatsPage() {
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-white mb-8">Stats</h1>
 
+      {/* Deep dives */}
+      <div className="flex flex-wrap gap-3 mb-8">
+        <Link
+          href="/stats/average-ironman-time"
+          className="rounded-md border border-gray-700 bg-gray-900 px-4 py-2 text-sm text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
+        >
+          Average IRONMAN time →
+        </Link>
+        <Link
+          href="/stats/average-half-ironman-time"
+          className="rounded-md border border-gray-700 bg-gray-900 px-4 py-2 text-sm text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
+        >
+          Average IRONMAN 70.3 time →
+        </Link>
+      </div>
+
       {/* Overview */}
       <h2 className="text-xl font-semibold text-gray-300 mb-4">Overview</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">

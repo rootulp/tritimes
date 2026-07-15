@@ -5,6 +5,7 @@
  * - data/athlete-index.tsv.gz     — deduplicated athlete index (input to build-search-shards.js)
  * - data/course-stats.json.gz     — per-course median stats for /races
  * - data/aggregate-stats.json.gz  — global aggregate stats for /stats
+ * - data/distance-stats.json.gz   — per-distance aggregates for /stats/average-*-time
  *
  * Run: node scripts/build-search-index.js
  *
@@ -21,6 +22,7 @@ const manifestPath = path.join(dataDir, "races.json");
 const searchIndexPath = path.join(dataDir, "athlete-index.tsv.gz");
 const courseStatsPath = path.join(dataDir, "course-stats.json.gz");
 const aggregateStatsPath = path.join(dataDir, "aggregate-stats.json.gz");
+const distanceStatsPath = path.join(dataDir, "distance-stats.json.gz");
 
 /**
  * Parse RFC 4180 CSV text into rows of string arrays.
@@ -132,6 +134,70 @@ function stripPrefix(name) {
     .replace(/^IRONMAN\s+/i, "");
 }
 
+/** Value at quantile q (0..1) of an ALREADY-SORTED ascending array. */
+function quantileSorted(sorted, q) {
+  if (sorted.length === 0) return 0;
+  const idx = Math.min(sorted.length - 1, Math.max(0, Math.round(q * (sorted.length - 1))));
+  return sorted[idx];
+}
+
+function formatSecondsShort(seconds) {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  if (h > 0) return `${h}:${String(m).padStart(2, "0")}`;
+  return `${m}m`;
+}
+
+/**
+ * Single-pass histogram over an ALREADY-SORTED ascending array of positive
+ * seconds. Same output shape as the race histograms ({bins, medianSeconds,
+ * totalAthletes}) so the app can reuse RaceHistogram. Bins are clipped to
+ * the 0.1st–99.9th percentile so a handful of outliers (data glitches,
+ * 20h+ finishes) can't stretch the axis into dozens of empty bins.
+ */
+function computeBinsSorted(sorted, binSize) {
+  if (sorted.length === 0) return { bins: [], medianSeconds: 0, totalAthletes: 0 };
+
+  const lo = Math.floor(quantileSorted(sorted, 0.001) / binSize) * binSize;
+  const hi = Math.ceil((quantileSorted(sorted, 0.999) + 1) / binSize) * binSize;
+  const binCount = (hi - lo) / binSize;
+  const counts = new Array(binCount).fill(0);
+  for (const s of sorted) {
+    const idx = Math.floor((s - lo) / binSize);
+    if (idx >= 0 && idx < binCount) counts[idx]++;
+  }
+
+  const bins = counts.map((count, i) => ({
+    label: formatSecondsShort(lo + i * binSize),
+    rangeStart: lo + i * binSize,
+    rangeEnd: lo + (i + 1) * binSize,
+    count,
+  }));
+
+  return {
+    bins,
+    medianSeconds: quantileSorted(sorted, 0.5),
+    totalAthletes: sorted.length,
+  };
+}
+
+/** Per-distance collector for /stats/average-*-time pages. */
+function newDistanceCollector() {
+  return {
+    raceCount: 0,
+    courses: new Set(),
+    firstYear: null,
+    lastYear: null,
+    swimSeconds: [],
+    bikeSeconds: [],
+    runSeconds: [],
+    finishSeconds: [],
+    byAgeGroup: new Map(), // ageGroup → finish seconds[]
+    byYear: new Map(), // year → finish seconds[]
+    byGender: new Map(), // gender → finish seconds[]
+  };
+}
+
 const start = Date.now();
 const races = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
 
@@ -149,6 +215,12 @@ let halfFinishSeconds = 0;
 let halfFinishCount = 0;
 let fullFinishSeconds = 0;
 let fullFinishCount = 0;
+
+// distanceMap: "70.3" | "140.6" → per-distance collector
+const distanceMap = new Map([
+  ["70.3", newDistanceCollector()],
+  ["140.6", newDistanceCollector()],
+]);
 
 // Single pass: build all indexes from one CSV read per race
 for (const race of races) {
@@ -174,6 +246,15 @@ for (const race of races) {
 
   const isHalf = race.slug.startsWith("im703-");
   const results = parseCSV(csvPath);
+
+  const distEntry = distanceMap.get(isHalf ? "70.3" : "140.6");
+  distEntry.raceCount++;
+  distEntry.courses.add(base);
+  const raceYear = Number(race.date ? race.date.substring(0, 4) : race.slug.slice(-4)) || null;
+  if (raceYear) {
+    if (distEntry.firstYear === null || raceYear < distEntry.firstYear) distEntry.firstYear = raceYear;
+    if (distEntry.lastYear === null || raceYear > distEntry.lastYear) distEntry.lastYear = raceYear;
+  }
 
   for (const r of results) {
     // Search index
@@ -224,6 +305,29 @@ for (const race of races) {
         fullFinishCount++;
       }
     }
+
+    // Distance stats
+    if (swim > 0) distEntry.swimSeconds.push(swim);
+    if (bike > 0) distEntry.bikeSeconds.push(bike);
+    if (run > 0) distEntry.runSeconds.push(run);
+    if (finish > 0) {
+      distEntry.finishSeconds.push(finish);
+      if (ag) {
+        let agFinishes = distEntry.byAgeGroup.get(ag);
+        if (!agFinishes) distEntry.byAgeGroup.set(ag, (agFinishes = []));
+        agFinishes.push(finish);
+      }
+      if (raceYear) {
+        let yearFinishes = distEntry.byYear.get(raceYear);
+        if (!yearFinishes) distEntry.byYear.set(raceYear, (yearFinishes = []));
+        yearFinishes.push(finish);
+      }
+      if (r.Gender === "Male" || r.Gender === "Female") {
+        let genderFinishes = distEntry.byGender.get(r.Gender);
+        if (!genderFinishes) distEntry.byGender.set(r.Gender, (genderFinishes = []));
+        genderFinishes.push(finish);
+      }
+    }
   }
 }
 
@@ -265,6 +369,91 @@ const aggregateStats = {
   femaleCount,
 };
 fs.writeFileSync(aggregateStatsPath, gzipSync(JSON.stringify(aggregateStats)));
+
+// Build distance stats (for /stats/average-*-time pages)
+const FINISH_BIN_SIZE = 600; // 10-minute bins, matching race-page finish histograms
+
+function buildDistanceStats(entry) {
+  entry.finishSeconds.sort((a, b) => a - b);
+  entry.swimSeconds.sort((a, b) => a - b);
+  entry.bikeSeconds.sort((a, b) => a - b);
+  entry.runSeconds.sort((a, b) => a - b);
+  const sorted = entry.finishSeconds;
+  const count = sorted.length;
+
+  // Age-group table rows: one row per bracket ("18-24", ... "PRO"), with
+  // male/female median + count side by side. Numeric brackets sort
+  // ascending; non-numeric (PRO) sink to the bottom.
+  const brackets = new Map(); // bracket → { male?, female? }
+  for (const [ag, finishes] of entry.byAgeGroup) {
+    const m = ag.match(/^([MF])(.+)$/);
+    if (!m) continue;
+    const bracket = m[2];
+    finishes.sort((a, b) => a - b);
+    let row = brackets.get(bracket);
+    if (!row) brackets.set(bracket, (row = { bracket }));
+    row[m[1] === "M" ? "male" : "female"] = {
+      count: finishes.length,
+      medianSeconds: quantileSorted(finishes, 0.5),
+    };
+  }
+  const byAgeGroup = Array.from(brackets.values()).sort((a, b) => {
+    const an = parseInt(a.bracket, 10);
+    const bn = parseInt(b.bracket, 10);
+    if (Number.isNaN(an) && Number.isNaN(bn)) return a.bracket.localeCompare(b.bracket);
+    if (Number.isNaN(an)) return 1;
+    if (Number.isNaN(bn)) return -1;
+    return an - bn;
+  });
+
+  const byYear = Array.from(entry.byYear.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([year, finishes]) => {
+      finishes.sort((a, b) => a - b);
+      return { year, count: finishes.length, medianSeconds: quantileSorted(finishes, 0.5) };
+    });
+
+  const byGender = ["Male", "Female"].map((gender) => {
+    const finishes = (entry.byGender.get(gender) || []).sort((a, b) => a - b);
+    return {
+      gender,
+      count: finishes.length,
+      medianSeconds: quantileSorted(finishes, 0.5),
+      averageSeconds: finishes.length
+        ? Math.round(finishes.reduce((sum, s) => sum + s, 0) / finishes.length)
+        : 0,
+    };
+  });
+
+  return {
+    raceCount: entry.raceCount,
+    courseCount: entry.courses.size,
+    firstYear: entry.firstYear,
+    lastYear: entry.lastYear,
+    finisherCount: count,
+    finish: {
+      averageSeconds: count ? Math.round(sorted.reduce((sum, s) => sum + s, 0) / count) : 0,
+      medianSeconds: quantileSorted(sorted, 0.5),
+      p10Seconds: quantileSorted(sorted, 0.1),
+      p25Seconds: quantileSorted(sorted, 0.25),
+      p75Seconds: quantileSorted(sorted, 0.75),
+      p90Seconds: quantileSorted(sorted, 0.9),
+    },
+    medianSwimSeconds: quantileSorted(entry.swimSeconds, 0.5),
+    medianBikeSeconds: quantileSorted(entry.bikeSeconds, 0.5),
+    medianRunSeconds: quantileSorted(entry.runSeconds, 0.5),
+    byGender,
+    byAgeGroup,
+    byYear,
+    histogram: computeBinsSorted(sorted, FINISH_BIN_SIZE),
+  };
+}
+
+const distanceStats = {
+  "70.3": buildDistanceStats(distanceMap.get("70.3")),
+  "140.6": buildDistanceStats(distanceMap.get("140.6")),
+};
+fs.writeFileSync(distanceStatsPath, gzipSync(JSON.stringify(distanceStats)));
 
 const elapsed = Date.now() - start;
 console.log(
