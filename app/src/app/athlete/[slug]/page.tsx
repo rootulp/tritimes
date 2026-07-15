@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAthleteProfile } from "@/lib/athlete-shards";
 import { getCountryFlagISO } from "@/lib/flags";
@@ -14,6 +15,26 @@ export const runtime = "edge";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+// The duplicate getAthleteProfile call (metadata + page) is served from the
+// in-memory shard cache, so it costs one shard fetch, not two.
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const profile = await getAthleteProfile(slug);
+  if (!profile) return {};
+
+  const name = formatAthleteName(profile.fullName);
+  const raceCount = profile.races.length;
+  const title = `${name} — Triathlon Race History`;
+  const description = `${name}${profile.country ? ` (${profile.country})` : ""} has ${raceCount} IRONMAN and IRONMAN 70.3 ${raceCount === 1 ? "result" : "results"} on TriTimes. View finish times, splits, and percentiles for every race.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/athlete/${slug}` },
+    openGraph: { title, description, url: `/athlete/${slug}` },
+  };
 }
 
 export default async function AthletePage({ params }: PageProps) {

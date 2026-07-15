@@ -18,9 +18,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TriTimes — Triathlon Times",
+  metadataBase: new URL("https://tritimes.org"),
+  title: {
+    default: "TriTimes — IRONMAN & 70.3 Triathlon Results",
+    template: "%s | TriTimes",
+  },
   description:
-    "View your IronMan 70.3 triathlon results with statistical distributions for swim, bike, run, and total time.",
+    "Look up IRONMAN and IRONMAN 70.3 race results with full-field time distributions. See your percentile for swim, bike, run, and overall across 1,400+ races since 2002.",
+  openGraph: {
+    siteName: "TriTimes",
+    type: "website",
+    url: "https://tritimes.org",
+  },
+  // Set GOOGLE_SITE_VERIFICATION in Vercel to verify the site in Google
+  // Search Console without committing the token.
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export default function RootLayout({

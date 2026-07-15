@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getRaceBySlug, getRaceStats } from "@/lib/data";
@@ -25,6 +26,23 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const race = getRaceBySlug(slug);
+  if (!race) return {};
+
+  const location = getRaceLocation(race);
+  const title = `${race.name} — Results & Time Distributions`;
+  const description = `Full results for ${race.name}${location ? ` in ${location}` : ""}: ${race.finishers.toLocaleString()} finishers, fastest and median splits, and time distributions for swim, bike, and run.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/race/${slug}` },
+    openGraph: { title, description, url: `/race/${slug}` },
+  };
+}
+
 function genderColor(gender: string): string {
   if (gender === "Male") return "#3b82f6";
   if (gender === "Female") return "#ec4899";
@@ -46,8 +64,24 @@ export default async function RacePage({ params }: PageProps) {
 
   const location = getRaceLocation(race);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    name: race.name,
+    sport: "Triathlon",
+    eventStatus: "https://schema.org/EventScheduled",
+    ...(race.date ? { startDate: race.date } : {}),
+    ...(location ? { location: { "@type": "Place", name: location } } : {}),
+    url: `https://tritimes.org/race/${slug}`,
+  };
+
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        // Escape "<" so race names can never close the script tag early.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-white">{race.name}</h1>
         <p className="text-gray-400 mt-1">

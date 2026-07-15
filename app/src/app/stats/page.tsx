@@ -4,9 +4,10 @@ import { getCountryFlagISO } from "@/lib/flags";
 import { formatAthleteName } from "@/lib/format";
 
 export const metadata = {
-  title: "Stats | TriTimes",
+  title: "IRONMAN & 70.3 Stats",
   description:
-    "Aggregate statistics across all IRONMAN and IRONMAN 70.3 races tracked by TriTimes.",
+    "Aggregate statistics across all IRONMAN and IRONMAN 70.3 races tracked by TriTimes: participation trends, finish times, and standout performances.",
+  alternates: { canonical: "/stats" },
 };
 
 function formatSeconds(seconds: number): string {

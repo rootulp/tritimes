@@ -1,8 +1,21 @@
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 
+const WEBSITE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "TriTimes",
+  url: "https://tritimes.org",
+  description:
+    "IRONMAN and IRONMAN 70.3 race results with full-field time distributions and percentiles for swim, bike, and run.",
+};
+
 export default function Home() {
   return (
     <main className="flex-1">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBSITE_JSON_LD) }}
+      />
       {/* Hero section */}
       <section className="relative">
         {/* Background gradient */}

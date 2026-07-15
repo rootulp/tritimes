@@ -1,7 +1,20 @@
-import { getRaces } from "@/lib/races";
+import type { Metadata } from "next";
+import { getRaces, getGlobalStats } from "@/lib/races";
 import RaceList from "./race-list";
 
 export const revalidate = false;
+
+export function generateMetadata(): Metadata {
+  const { raceCount, totalResults } = getGlobalStats();
+  const description = `Browse ${raceCount.toLocaleString()} IRONMAN and IRONMAN 70.3 races with ${totalResults.toLocaleString()} finisher results. Filter by distance and year, then dive into time distributions for any race.`;
+
+  return {
+    title: "All IRONMAN & 70.3 Races",
+    description,
+    alternates: { canonical: "/races" },
+    openGraph: { title: "All IRONMAN & 70.3 Races", description, url: "/races" },
+  };
+}
 
 export default function RacesPage() {
   const races = getRaces();

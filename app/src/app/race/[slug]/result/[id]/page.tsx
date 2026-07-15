@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -19,6 +20,26 @@ export const dynamic = "force-dynamic";
 
 interface PageProps {
   params: Promise<{ slug: string; id: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug, id } = await params;
+  const race = getRaceBySlug(slug);
+  const athlete = race ? getAthleteById(slug, Number(id)) : null;
+  if (!race || !athlete) return {};
+
+  const name = formatAthleteName(athlete.fullName);
+  const title = `${name} — ${race.name} Result`;
+  const description = athlete.finishTime
+    ? `${name} finished ${race.name} in ${athlete.finishTime}${athlete.ageGroup ? ` (${athlete.ageGroup})` : ""}. Swim ${athlete.swimTime}, bike ${athlete.bikeTime}, run ${athlete.runTime}. See percentiles and full-field time distributions.`
+    : `${name}'s result at ${race.name}. See splits, percentiles, and full-field time distributions.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/race/${slug}/result/${id}` },
+    openGraph: { title, description, url: `/race/${slug}/result/${id}` },
+  };
 }
 
 export default async function ResultPage({ params }: PageProps) {

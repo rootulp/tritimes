@@ -2,9 +2,10 @@ import { getCourseStats } from "@/lib/data";
 import CourseCharts from "./course-charts";
 
 export const metadata = {
-  title: "Course Difficulty | TriTimes",
+  title: "IRONMAN & 70.3 Course Difficulty",
   description:
-    "Compare IRONMAN and IRONMAN 70.3 course difficulty based on median finish times across all race editions.",
+    "Which IRONMAN courses are fastest? Compare IRONMAN and IRONMAN 70.3 course difficulty based on median finish times across all race editions.",
+  alternates: { canonical: "/courses" },
 };
 
 export default function CoursesPage() {
