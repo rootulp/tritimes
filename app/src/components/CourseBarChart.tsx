@@ -1,7 +1,9 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { useRouter } from "next/navigation";
 import type { CourseStats } from "@/lib/types";
+import { courseHref } from "@/lib/races-url";
 import { truncateLabel } from "./chart-utils";
 
 function formatTime(seconds: number): string {
@@ -24,6 +26,7 @@ interface Props {
   disciplineKey: DisciplineKey;
   color: string;
   label: string;
+  distance: "70.3" | "140.6";
 }
 
 const SVG_WIDTH = 500;
@@ -43,7 +46,9 @@ export default function CourseBarChart({
   disciplineKey,
   color,
   label,
+  distance,
 }: Props) {
+  const router = useRouter();
   const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -119,7 +124,19 @@ export default function CourseBarChart({
             const y = MARGIN.top + i * BAR_SPACING + (BAR_SPACING - BAR_HEIGHT) / 2;
             const w = maxSeconds > 0 ? (d.seconds / maxSeconds) * plotWidth : 0;
             return (
-              <g key={i}>
+              <g
+                key={i}
+                style={{ cursor: "pointer" }}
+                onClick={() => router.push(courseHref(distance, d.name))}
+              >
+                {/* Full-row hit area so the label and empty track are clickable too. */}
+                <rect
+                  x={0}
+                  y={y - (BAR_SPACING - BAR_HEIGHT) / 2}
+                  width={SVG_WIDTH}
+                  height={BAR_SPACING}
+                  fill="transparent"
+                />
                 <text
                   x={MARGIN.left - 5}
                   y={y + BAR_HEIGHT / 2 + 4}
@@ -136,6 +153,7 @@ export default function CourseBarChart({
                   height={BAR_HEIGHT}
                   rx="4"
                   fill={color}
+                  opacity={tooltipIdx === i ? 0.8 : 1}
                 />
               </g>
             );

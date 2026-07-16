@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getRaces, getGlobalStats } from "@/lib/races";
 import RaceList from "./race-list";
 
@@ -22,7 +23,9 @@ export default function RacesPage() {
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-white mb-8">All Races</h1>
-      <RaceList races={races} />
+      <Suspense fallback={null}>
+        <RaceList races={races} />
+      </Suspense>
     </main>
   );
 }

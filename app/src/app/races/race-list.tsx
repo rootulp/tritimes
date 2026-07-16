@@ -1,11 +1,13 @@
 "use client";
 
-import { memo, useDeferredValue, useMemo, useState } from "react";
+import { memo, useDeferredValue, useEffect, useMemo, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { RaceInfo } from "@/lib/types";
 import { getCountryFlag } from "@/lib/flags";
 import { getRaceLocation } from "@/lib/raceLocation";
 import { filterRaces } from "@/lib/race-filter";
+import { filtersToQueryString, parseFiltersFromParams } from "@/lib/races-url";
 
 function formatDate(iso: string): string {
   const date = new Date(iso + "T00:00:00");
@@ -73,9 +75,27 @@ const RaceGrid = memo(function RaceGrid({ races }: { races: RaceInfo[] }) {
 });
 
 export default function RaceList({ races }: { races: RaceInfo[] }) {
-  const [distance, setDistance] = useState<string>("All");
-  const [year, setYear] = useState<string>("All");
-  const [query, setQuery] = useState<string>("");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Seed the filters from the URL so shared links open pre-filtered and Back
+  // from a race detail restores the view — RaceList remounts on Back and
+  // re-reads the URL here. Local state stays the urgent source of truth, which
+  // keeps the search input snappy while the deferred grid re-renders (see below).
+  const initial = parseFiltersFromParams(new URLSearchParams(searchParams.toString()));
+  const [distance, setDistance] = useState<string>(initial.distance);
+  const [year, setYear] = useState<string>(initial.year);
+  const [query, setQuery] = useState<string>(initial.query);
+
+  // Mirror the active filters into the URL so a filtered view is shareable.
+  // replace (not push) keeps per-keystroke states out of browser history, so
+  // there is no intra-page history to restore — hence no URL→state sync needed.
+  useEffect(() => {
+    const qs = filtersToQueryString({ distance, year, query });
+    if (qs === searchParams.toString()) return;
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  }, [distance, year, query, pathname, router, searchParams]);
 
   // Filter selections stay urgent so buttons/inputs update the instant they're
   // clicked. The expensive list is derived from *deferred* copies, so React
@@ -115,7 +135,11 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
         <div className="flex items-center gap-2">
           <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">Distance</span>
           {["All", "70.3", "140.6"].map((d) => (
-            <button key={d} onClick={() => setDistance(d)} className={btnClass(distance === d)}>
+            <button
+              key={d}
+              onClick={() => setDistance(d)}
+              className={btnClass(distance === d)}
+            >
               {d}
             </button>
           ))}

@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import type { CourseStats } from "@/lib/types";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
 import { isProCourse } from "@/components/chart-utils";
+import CourseList from "./course-list";
 
 const CourseBarChart = dynamic(() => import("@/components/CourseBarChart"), {
   ssr: false,
@@ -46,12 +47,13 @@ export default function CourseCharts({
 }) {
   const [distance, setDistance] = useState<"70.3" | "140.6">("70.3");
 
-  const filtered = courses.filter(
-    (c) =>
-      c.distance === distance &&
-      !c.course.includes("world-championship") &&
-      !isProCourse(c.displayName)
+  // Pro-only scrape artifacts never belong in either view.
+  const forDistance = courses.filter(
+    (c) => c.distance === distance && !isProCourse(c.displayName)
   );
+  // Charts exclude world championships so the difficulty comparison stays fair;
+  // the full list below still includes them.
+  const chartCourses = forDistance.filter((c) => !c.course.includes("world-championship"));
 
   const btnClass = (active: boolean) =>
     active
@@ -79,13 +81,16 @@ export default function CourseCharts({
         {DISCIPLINES.map((disc) => (
           <CourseBarChart
             key={disc.key}
-            courses={filtered}
+            courses={chartCourses}
             disciplineKey={disc.key}
             color={disc.color}
             label={disc.label}
+            distance={distance}
           />
         ))}
       </div>
+
+      <CourseList courses={forDistance} distance={distance} />
     </>
   );
 }
