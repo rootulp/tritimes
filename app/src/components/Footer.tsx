@@ -10,6 +10,12 @@ export default function Footer() {
         >
           Stats
         </Link>
+        <Link
+          href="/faq"
+          className="text-sm text-gray-400 hover:text-white transition-colors"
+        >
+          FAQ
+        </Link>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScavYEE5U8S1Cx2OyLxFpDMPgNh5gcZh_VsbLawOBNkdYtNOQ/viewform"
           target="_blank"
