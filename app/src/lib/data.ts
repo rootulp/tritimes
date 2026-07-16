@@ -624,9 +624,14 @@ export function getRaceSegmentData(raceSlug: string): RaceSegmentData {
   const results = getAllResults(raceSlug);
 
   // Build ordered label tables first.
+  const GENDER_ORDER: Record<string, number> = { Male: 0, Female: 1 };
   const genders = Array.from(new Set(results.map((r) => r.gender)))
     .filter((g) => g)
-    .sort();
+    .sort((a, b) => {
+      const ra = GENDER_ORDER[a] ?? 2;
+      const rb = GENDER_ORDER[b] ?? 2;
+      return ra !== rb ? ra - rb : a.localeCompare(b);
+    });
   const ageBands = Array.from(
     new Set(results.map((r) => deriveAgeBand(r.ageGroup)))
   )

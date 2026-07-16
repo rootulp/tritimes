@@ -59,7 +59,6 @@ export default function RaceDistributions({ data }: { data: RaceSegmentData }) {
             className={selectClass}
             value={genderIdx}
             onChange={(e) => setGenderIdx(Number(e.target.value))}
-            aria-label="Filter by gender"
           >
             <option value={ANY}>All</option>
             {data.genders.map((g, i) => (
@@ -76,7 +75,6 @@ export default function RaceDistributions({ data }: { data: RaceSegmentData }) {
             className={selectClass}
             value={bandIdx}
             onChange={(e) => setBandIdx(Number(e.target.value))}
-            aria-label="Filter by age group"
           >
             <option value={ANY}>All</option>
             {data.ageBands.map((b, i) => (
