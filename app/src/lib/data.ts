@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceSegmentData, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseResult, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceSegmentData, RaceStats } from "./types";
 import { getRaces } from "./races";
 import {
   BIN_SIZES,
@@ -662,4 +662,46 @@ export function buildRaceSegmentData(results: AthleteResult[]): RaceSegmentData 
   }
 
   return { swim, bike, run, finish, genderIdx, ageBandIdx, genders, ageBands };
+}
+
+// Pool finisher rows across a course's editions, tagging each with its source
+// edition slug + year so combined leaderboards can link to the right result.
+export function getCourseResults(slugs: string[]): CourseResult[] {
+  const pool: CourseResult[] = [];
+  for (const slug of slugs) {
+    const year = slug.match(/-(\d{4})$/)?.[1] ?? "";
+    for (const r of getAllResults(slug)) {
+      pool.push({ ...r, raceSlug: slug, year });
+    }
+  }
+  return pool;
+}
+
+// Combined top-N leaderboard by fastest finish time across editions. Unlike
+// the per-race leaderboard (ordered by genderRank), rank is recomputed 1..N
+// because genderRank repeats across editions.
+export function buildTopFinishers(
+  results: CourseResult[],
+  gender: string,
+  limit = 10,
+): LeaderboardEntry[] {
+  return results
+    .filter((r) => r.gender === gender && r.finishSeconds > 0)
+    .sort((a, b) => a.finishSeconds - b.finishSeconds)
+    .slice(0, limit)
+    .map((r, i) => ({
+      id: r.id,
+      rank: i + 1,
+      fullName: r.fullName,
+      country: r.country,
+      countryISO: r.countryISO,
+      ageGroup: r.ageGroup,
+      gender: r.gender,
+      finishTime: r.finishTime,
+      swimTime: r.swimTime,
+      bikeTime: r.bikeTime,
+      runTime: r.runTime,
+      raceSlug: r.raceSlug,
+      year: r.year,
+    }));
 }

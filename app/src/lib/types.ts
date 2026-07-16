@@ -28,6 +28,11 @@ export interface AthleteResult {
   status: string;
 }
 
+export interface CourseResult extends AthleteResult {
+  raceSlug: string;
+  year: string;
+}
+
 export interface HistogramBin {
   label: string;
   rangeStart: number;
@@ -143,6 +148,8 @@ export interface LeaderboardEntry {
   swimTime: string;
   bikeTime: string;
   runTime: string;
+  raceSlug?: string; // set only on combined (multi-edition) leaderboards
+  year?: string; // set only on combined leaderboards
 }
 
 export interface RaceHistogramData {
