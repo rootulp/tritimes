@@ -33,6 +33,13 @@ export interface CourseResult extends AthleteResult {
   year: string;
 }
 
+export interface CourseYearSummaryRow {
+  slug: string;
+  year: string;
+  finishers: number;
+  medianFinish: number;
+}
+
 export interface HistogramBin {
   label: string;
   rangeStart: number;

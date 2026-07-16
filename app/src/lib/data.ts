@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseResult, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceSegmentData, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseResult, CourseStats, CourseYearSummaryRow, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceSegmentData, RaceStats } from "./types";
 import { getRaces } from "./races";
 import {
   BIN_SIZES,
@@ -704,4 +704,22 @@ export function buildTopFinishers(
       raceSlug: r.raceSlug,
       year: r.year,
     }));
+}
+
+// Per-edition roll-up for the course page's "All editions" table.
+export function getCourseYearSummary(results: CourseResult[]): CourseYearSummaryRow[] {
+  const byEdition = new Map<string, CourseResult[]>();
+  for (const r of results) {
+    const list = byEdition.get(r.raceSlug) || [];
+    list.push(r);
+    byEdition.set(r.raceSlug, list);
+  }
+  return Array.from(byEdition.entries())
+    .map(([slug, group]) => ({
+      slug,
+      year: group[0].year,
+      finishers: group.length,
+      medianFinish: computeMedian(group.map((r) => r.finishSeconds).filter((s) => s > 0)),
+    }))
+    .sort((a, b) => b.year.localeCompare(a.year));
 }
