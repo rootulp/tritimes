@@ -470,9 +470,10 @@ export function getDisciplineHistogram(
   return computeHistogram(allSeconds, athleteSeconds, BIN_SIZES[discipline]);
 }
 
-export function getRaceStats(raceSlug: string): RaceStats {
-  const results = getAllResults(raceSlug);
-
+// Pure race statistics over an already-loaded result set. Split from
+// getRaceStats so the course detail page can compute over a pooled,
+// multi-edition result set, and so it is unit-testable without the corpus.
+export function computeRaceStats(results: AthleteResult[]): RaceStats {
   const disciplineKeys: { key: Discipline; label: string }[] = [
     { key: "swim", label: "Swim" },
     { key: "bike", label: "Bike" },
@@ -495,7 +496,6 @@ export function getRaceStats(raceSlug: string): RaceStats {
     };
   });
 
-  // Gender breakdown
   const genderMap = new Map<string, AthleteResult[]>();
   for (const r of results) {
     const list = genderMap.get(r.gender) || [];
@@ -516,7 +516,6 @@ export function getRaceStats(raceSlug: string): RaceStats {
     })
     .sort((a, b) => b.count - a.count);
 
-  // Age group breakdown
   const ageGroupMap = new Map<string, AthleteResult[]>();
   for (const r of results) {
     const list = ageGroupMap.get(r.ageGroup) || [];
@@ -537,7 +536,6 @@ export function getRaceStats(raceSlug: string): RaceStats {
     })
     .sort((a, b) => b.count - a.count);
 
-  // Top 10 leaderboards by gender
   function buildLeaderboard(gender: string): LeaderboardEntry[] {
     return results
       .filter((r) => r.gender === gender)
@@ -557,54 +555,54 @@ export function getRaceStats(raceSlug: string): RaceStats {
         runTime: r.runTime,
       }));
   }
-  const maleLeaderboard = buildLeaderboard("Male");
-  const femaleLeaderboard = buildLeaderboard("Female");
-
-  // Histograms — use precomputed data if available
-  const precomputed = loadPrecomputedHistograms(raceSlug);
-  const histograms = (() => {
-    if (precomputed) {
-      const toRaceHistogram = (key: Discipline): RaceHistogramData => {
-        const src = precomputed[key]?.overall;
-        if (!src || src.bins.length === 0) {
-          return computeRaceHistogram(results.map((r) => getSeconds(r, key)), BIN_SIZES[key]);
-        }
-        return {
-          bins: src.bins.map((b: PrecomputedBin) => ({
-            label: b.label,
-            rangeStart: b.rangeStart,
-            rangeEnd: b.rangeEnd,
-            count: b.count,
-            isAthlete: false,
-          })),
-          medianSeconds: src.medianSeconds,
-          totalAthletes: src.totalAthletes,
-        };
-      };
-      return {
-        swim: toRaceHistogram("swim"),
-        bike: toRaceHistogram("bike"),
-        run: toRaceHistogram("run"),
-        finish: toRaceHistogram("finish"),
-      };
-    }
-    return {
-      swim: computeRaceHistogram(results.map((r) => r.swimSeconds), BIN_SIZES.swim),
-      bike: computeRaceHistogram(results.map((r) => r.bikeSeconds), BIN_SIZES.bike),
-      run: computeRaceHistogram(results.map((r) => r.runSeconds), BIN_SIZES.run),
-      finish: computeRaceHistogram(results.map((r) => r.finishSeconds), BIN_SIZES.finish),
-    };
-  })();
 
   return {
     totalFinishers: results.length,
     disciplines,
     genderBreakdown,
     ageGroupBreakdown,
-    maleLeaderboard,
-    femaleLeaderboard,
-    histograms,
+    maleLeaderboard: buildLeaderboard("Male"),
+    femaleLeaderboard: buildLeaderboard("Female"),
+    histograms: {
+      swim: computeRaceHistogram(results.map((r) => r.swimSeconds), BIN_SIZES.swim),
+      bike: computeRaceHistogram(results.map((r) => r.bikeSeconds), BIN_SIZES.bike),
+      run: computeRaceHistogram(results.map((r) => r.runSeconds), BIN_SIZES.run),
+      finish: computeRaceHistogram(results.map((r) => r.finishSeconds), BIN_SIZES.finish),
+    },
   };
+}
+
+export function getRaceStats(raceSlug: string): RaceStats {
+  const results = getAllResults(raceSlug);
+  const stats = computeRaceStats(results);
+
+  // Overlay precomputed per-slug histograms when present (race-page perf path).
+  const precomputed = loadPrecomputedHistograms(raceSlug);
+  if (precomputed) {
+    const overlay = (key: keyof RaceStats["histograms"]): RaceHistogramData => {
+      const src = precomputed[key]?.overall;
+      if (!src || src.bins.length === 0) return stats.histograms[key];
+      return {
+        bins: src.bins.map((b: PrecomputedBin) => ({
+          label: b.label,
+          rangeStart: b.rangeStart,
+          rangeEnd: b.rangeEnd,
+          count: b.count,
+          isAthlete: false,
+        })),
+        medianSeconds: src.medianSeconds,
+        totalAthletes: src.totalAthletes,
+      };
+    };
+    stats.histograms = {
+      swim: overlay("swim"),
+      bike: overlay("bike"),
+      run: overlay("run"),
+      finish: overlay("finish"),
+    };
+  }
+
+  return stats;
 }
 
 // Numeric-first ordering: bands with a leading age (e.g. "18-24") sort by that
