@@ -18,12 +18,11 @@ import ResultCard from "@/components/ResultCard";
 import RaceDistributions from "@/components/RaceDistributions";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
 
-// Generate on demand — 178 courses, but keep parity with /race/[slug].
-export async function generateStaticParams() {
-  return [];
-}
-
-export const revalidate = false;
+// This page reads searchParams (?year=), which requires request-time rendering.
+// A statically-generated route (generateStaticParams + revalidate=false, as
+// /race/[slug] uses) throws DYNAMIC_SERVER_USAGE when it touches searchParams,
+// so this route opts into dynamic rendering instead.
+export const dynamic = "force-dynamic";
 
 interface PageProps {
   params: Promise<{ course: string }>;
