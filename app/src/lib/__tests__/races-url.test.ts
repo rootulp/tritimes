@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   filtersToQueryString,
   parseFiltersFromParams,
-  courseHref,
+  courseDetailHref,
 } from "../races-url";
 
 describe("filtersToQueryString", () => {
@@ -75,12 +75,8 @@ describe("parseFiltersFromParams", () => {
   });
 });
 
-describe("courseHref", () => {
-  it("builds a /races link with distance and the course name as the query", () => {
-    expect(courseHref("140.6", "Wisconsin")).toBe("/races?distance=140.6&q=Wisconsin");
-  });
-
-  it("URL-encodes the course name", () => {
-    expect(courseHref("70.3", "St. George")).toBe("/races?distance=70.3&q=St.+George");
+describe("courseDetailHref", () => {
+  it("links to the course detail page by base slug", () => {
+    expect(courseDetailHref("im-wisconsin")).toBe("/courses/im-wisconsin");
   });
 });

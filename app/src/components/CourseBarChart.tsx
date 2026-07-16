@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import type { CourseStats } from "@/lib/types";
-import { courseHref } from "@/lib/races-url";
+import { courseDetailHref } from "@/lib/races-url";
 import { truncateLabel } from "./chart-utils";
 
 function formatTime(seconds: number): string {
@@ -26,7 +26,6 @@ interface Props {
   disciplineKey: DisciplineKey;
   color: string;
   label: string;
-  distance: "70.3" | "140.6";
 }
 
 const SVG_WIDTH = 500;
@@ -46,7 +45,6 @@ export default function CourseBarChart({
   disciplineKey,
   color,
   label,
-  distance,
 }: Props) {
   const router = useRouter();
   const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
@@ -61,6 +59,7 @@ export default function CourseBarChart({
 
   const data = sorted.map((c) => ({
     name: c.displayName,
+    course: c.course,
     seconds: c[disciplineKey],
     finishers: c.totalFinishers,
     editions: c.editions,
@@ -127,7 +126,7 @@ export default function CourseBarChart({
               <g
                 key={i}
                 style={{ cursor: "pointer" }}
-                onClick={() => router.push(courseHref(distance, d.name))}
+                onClick={() => router.push(courseDetailHref(d.course))}
               >
                 {/* Full-row hit area so the label and empty track are clickable too. */}
                 <rect

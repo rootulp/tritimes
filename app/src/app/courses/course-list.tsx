@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { CourseStats } from "@/lib/types";
-import { courseHref } from "@/lib/races-url";
+import { courseDetailHref } from "@/lib/races-url";
 
 function formatTime(seconds: number): string {
   if (seconds <= 0) return "—";
@@ -35,7 +35,7 @@ export default function CourseList({
         {sorted.map((course) => (
           <li key={course.course}>
             <Link
-              href={courseHref(distance, course.displayName)}
+              href={courseDetailHref(course.course)}
               className="group flex items-baseline justify-between gap-3 px-4 py-3 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80"
             >
               <span className="font-medium text-white group-hover:text-blue-300 transition-colors leading-tight">

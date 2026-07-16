@@ -43,10 +43,9 @@ export function parseFiltersFromParams(params: URLSearchParams): RaceUrlFilters 
 }
 
 /**
- * Build a /races link pre-filtered to a course: the course's distance plus its
- * display name as the free-text query. Reuses filtersToQueryString so course
- * links stay consistent with the Races URL format.
+ * Link to a course's detail page (all editions aggregated), keyed by the
+ * course's base slug (e.g. "im-wisconsin").
  */
-export function courseHref(distance: string, displayName: string): string {
-  return `/races?${filtersToQueryString({ distance, year: "All", query: displayName })}`;
+export function courseDetailHref(courseSlug: string): string {
+  return `/courses/${courseSlug}`;
 }

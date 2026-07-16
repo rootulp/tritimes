@@ -85,7 +85,6 @@ export default function CourseCharts({
             disciplineKey={disc.key}
             color={disc.color}
             label={disc.label}
-            distance={distance}
           />
         ))}
       </div>
