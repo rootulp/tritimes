@@ -53,9 +53,10 @@ export default function RaceDistributions({ data }: { data: RaceSegmentData }) {
     <div>
       {/* Filter controls */}
       <div className="flex flex-wrap items-center gap-3 mb-6">
-        <label className="flex flex-col gap-1 text-xs text-gray-400">
-          Gender
+        <div className="flex flex-col gap-1 text-xs text-gray-400">
+          <label htmlFor="race-dist-gender">Gender</label>
           <select
+            id="race-dist-gender"
             className={selectClass}
             value={genderIdx}
             onChange={(e) => setGenderIdx(Number(e.target.value))}
@@ -67,11 +68,12 @@ export default function RaceDistributions({ data }: { data: RaceSegmentData }) {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
-        <label className="flex flex-col gap-1 text-xs text-gray-400">
-          Age group
+        <div className="flex flex-col gap-1 text-xs text-gray-400">
+          <label htmlFor="race-dist-age-group">Age group</label>
           <select
+            id="race-dist-age-group"
             className={selectClass}
             value={bandIdx}
             onChange={(e) => setBandIdx(Number(e.target.value))}
@@ -83,7 +85,7 @@ export default function RaceDistributions({ data }: { data: RaceSegmentData }) {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
         {isFiltered && (
           <div className="flex items-center gap-3 self-end pb-2">
