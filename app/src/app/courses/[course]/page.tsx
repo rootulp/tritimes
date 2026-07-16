@@ -48,10 +48,14 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
 
   const years = info.editions.map((e) => e.year);
   const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
-  const canonical = year ? `/courses/${course}?year=${year}` : `/courses/${course}`;
+  const selected =
+    typeof year === "string" && year && info.editions.some((e) => e.year === year)
+      ? year
+      : undefined;
+  const canonical = selected ? `/courses/${course}?year=${selected}` : `/courses/${course}`;
 
-  if (year) {
-    const title = `${info.name} ${year} — Results & Time Distributions`;
+  if (selected) {
+    const title = `${info.name} ${selected} — Results & Time Distributions`;
     return { title, alternates: { canonical } };
   }
   const title = `${info.name} — All Editions`;
