@@ -3,6 +3,17 @@ import path from "path";
 import { gunzipSync } from "zlib";
 import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceStats } from "./types";
 import { getRaces } from "./races";
+import {
+  BIN_SIZES,
+  computeMedian,
+  computeRaceHistogram,
+  deriveAgeBand,
+  formatSecondsShort,
+  type Discipline,
+} from "./histogram";
+
+export type { Discipline } from "./histogram";
+export { BIN_SIZES, computeRaceHistogram } from "./histogram";
 
 // Corpus-reading data access: everything here may reference data/*.csv.gz,
 // data/histograms/* and data/athlete-index.tsv.gz, so any function whose
@@ -319,20 +330,6 @@ export function getStatsPageData(): StatsPageData {
   };
 }
 
-function formatSecondsShort(seconds: number): string {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  if (h > 0) return `${h}:${String(m).padStart(2, "0")}`;
-  return `${m}m`;
-}
-
-function computeMedian(values: number[]): number {
-  if (values.length === 0) return 0;
-  const sorted = [...values].sort((a, b) => a - b);
-  const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-}
-
 export function computeHistogram(
   allSeconds: number[],
   athleteSeconds: number,
@@ -370,17 +367,6 @@ export function computeHistogram(
 
   return { bins, athleteSeconds, athletePercentile, medianSeconds };
 }
-
-export type Discipline = "swim" | "bike" | "run" | "finish" | "t1" | "t2";
-
-const BIN_SIZES: Record<Discipline, number> = {
-  swim: 300,    // 5-minute bins
-  bike: 600,    // 10-minute bins
-  run: 600,     // 10-minute bins
-  finish: 600,  // 10-minute bins
-  t1: 60,       // 1-minute bins
-  t2: 60,       // 1-minute bins
-};
 
 function getSeconds(r: AthleteResult, discipline: Discipline): number {
   switch (discipline) {
@@ -482,35 +468,6 @@ export function getDisciplineHistogram(
 
   const allSeconds = pool.map((r) => getSeconds(r, discipline));
   return computeHistogram(allSeconds, athleteSeconds, BIN_SIZES[discipline]);
-}
-
-export function computeRaceHistogram(
-  allSeconds: number[],
-  binSize: number
-): RaceHistogramData {
-  const valid = allSeconds.filter((s) => s > 0);
-  if (valid.length === 0) {
-    return { bins: [], medianSeconds: 0, totalAthletes: 0 };
-  }
-
-  const min = Math.floor(Math.min(...valid) / binSize) * binSize;
-  const max = Math.ceil(Math.max(...valid) / binSize) * binSize;
-
-  const bins: HistogramBin[] = [];
-  for (let start = min; start < max; start += binSize) {
-    const end = start + binSize;
-    const count = valid.filter((s) => s >= start && s < end).length;
-    bins.push({
-      label: formatSecondsShort(start),
-      rangeStart: start,
-      rangeEnd: end,
-      count,
-      isAthlete: false,
-    });
-  }
-
-  const medianSeconds = computeMedian(valid);
-  return { bins, medianSeconds, totalAthletes: valid.length };
 }
 
 export function getRaceStats(raceSlug: string): RaceStats {
