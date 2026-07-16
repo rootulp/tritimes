@@ -136,6 +136,19 @@ export interface RaceHistogramData {
   totalAthletes: number;
 }
 
+export interface RaceSegmentData {
+  // Parallel per-finisher arrays (same length, same order).
+  swim: number[];
+  bike: number[];
+  run: number[];
+  finish: number[];
+  genderIdx: number[]; // index into `genders`
+  ageBandIdx: number[]; // index into `ageBands`
+  // Label tables, display-ordered.
+  genders: string[]; // e.g. ["Male", "Female"]
+  ageBands: string[]; // e.g. ["18-24", ..., "PRO"]
+}
+
 export interface RaceStats {
   totalFinishers: number;
   disciplines: DisciplineStats[];

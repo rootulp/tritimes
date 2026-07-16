@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { gunzipSync } from "zlib";
-import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceStats } from "./types";
+import { AggregateStats, AthleteResult, AthleteSearchEntry, AgeGroupBreakdown, CourseStats, DisciplineStats, DistanceStats, GenderBreakdown, HistogramBin, HistogramData, LeaderboardEntry, RaceHistogramData, RaceSegmentData, RaceStats } from "./types";
 import { getRaces } from "./races";
 import {
   BIN_SIZES,
@@ -605,4 +605,52 @@ export function getRaceStats(raceSlug: string): RaceStats {
     femaleLeaderboard,
     histograms,
   };
+}
+
+// Numeric-first ordering: bands with a leading age (e.g. "18-24") sort by that
+// age ascending; non-numeric bands (e.g. "PRO") come after, alphabetically.
+function compareAgeBands(a: string, b: string): number {
+  const na = parseInt(a, 10);
+  const nb = parseInt(b, 10);
+  const aNum = !Number.isNaN(na);
+  const bNum = !Number.isNaN(nb);
+  if (aNum && bNum) return na - nb;
+  if (aNum) return -1;
+  if (bNum) return 1;
+  return a.localeCompare(b);
+}
+
+export function getRaceSegmentData(raceSlug: string): RaceSegmentData {
+  const results = getAllResults(raceSlug);
+
+  // Build ordered label tables first.
+  const genders = Array.from(new Set(results.map((r) => r.gender)))
+    .filter((g) => g)
+    .sort();
+  const ageBands = Array.from(
+    new Set(results.map((r) => deriveAgeBand(r.ageGroup)))
+  )
+    .filter((b) => b)
+    .sort(compareAgeBands);
+
+  const genderPos = new Map(genders.map((g, i) => [g, i]));
+  const bandPos = new Map(ageBands.map((b, i) => [b, i]));
+
+  const swim: number[] = [];
+  const bike: number[] = [];
+  const run: number[] = [];
+  const finish: number[] = [];
+  const genderIdx: number[] = [];
+  const ageBandIdx: number[] = [];
+
+  for (const r of results) {
+    swim.push(r.swimSeconds);
+    bike.push(r.bikeSeconds);
+    run.push(r.runSeconds);
+    finish.push(r.finishSeconds);
+    genderIdx.push(genderPos.get(r.gender) ?? -1);
+    ageBandIdx.push(bandPos.get(deriveAgeBand(r.ageGroup)) ?? -1);
+  }
+
+  return { swim, bike, run, finish, genderIdx, ageBandIdx, genders, ageBands };
 }
