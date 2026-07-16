@@ -1,43 +1,33 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getRaceBySlug, getRaceStats, getRaceSegmentData } from "@/lib/data";
+import { getCourseInfo } from "@/lib/races";
+import {
+  getRaceStats,
+  getRaceSegmentData,
+  getCourseResults,
+  computeRaceStats,
+  buildTopFinishers,
+  getCourseYearSummary,
+  buildRaceSegmentData,
+} from "@/lib/data";
+import type { LeaderboardEntry, CourseYearSummaryRow, RaceStats, RaceSegmentData } from "@/lib/types";
 import { formatAthleteName, formatTime } from "@/lib/format";
 import { getCountryFlagISO } from "@/lib/flags";
 import ResultCard from "@/components/ResultCard";
 import RaceDistributions from "@/components/RaceDistributions";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
-import { getRaceLocation } from "@/lib/raceLocation";
-import { getCourseInfo, courseSlugOf } from "@/lib/races";
 
-// Generate on demand — too many races to pre-render at build time.
+// Generate on demand — 178 courses, but keep parity with /race/[slug].
 export async function generateStaticParams() {
   return [];
 }
 
-// Race data is immutable once scraped — cache indefinitely. Cache is
-// reset on each deploy, which is when new CSVs land.
 export const revalidate = false;
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
-}
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const race = getRaceBySlug(slug);
-  if (!race) return {};
-
-  const location = getRaceLocation(race);
-  const title = `${race.name} — Results & Time Distributions`;
-  const description = `Full results for ${race.name}${location ? ` in ${location}` : ""}: ${race.finishers.toLocaleString()} finishers, fastest and median splits, and time distributions for swim, bike, and run.`;
-
-  return {
-    title,
-    description,
-    alternates: { canonical: `/race/${slug}` },
-    openGraph: { title, description, url: `/race/${slug}` },
-  };
+  params: Promise<{ course: string }>;
+  searchParams: Promise<{ year?: string }>;
 }
 
 function genderColor(gender: string): string {
@@ -50,54 +40,99 @@ function genderLabel(gender: string): string {
   return gender || "Unlisted";
 }
 
-export default async function RacePage({ params }: PageProps) {
-  const { slug } = await params;
-  const race = getRaceBySlug(slug);
-  if (!race) notFound();
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
+  const { course } = await params;
+  const { year } = await searchParams;
+  const info = getCourseInfo(course);
+  if (!info) return {};
 
-  const stats = getRaceStats(slug);
-  const segmentData = getRaceSegmentData(slug);
+  const years = info.editions.map((e) => e.year);
+  const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
+  const canonical = year ? `/courses/${course}?year=${year}` : `/courses/${course}`;
+
+  if (year) {
+    const title = `${info.name} ${year} — Results & Time Distributions`;
+    return { title, alternates: { canonical } };
+  }
+  const title = `${info.name} — All Editions`;
+  const description = `Combined results across ${info.editions.length} editions (${span}) of ${info.name}: time distributions, discipline splits, and fastest finishers.`;
+  return { title, description, alternates: { canonical } };
+}
+
+export default async function CoursePage({ params, searchParams }: PageProps) {
+  const { course } = await params;
+  const { year } = await searchParams;
+  const info = getCourseInfo(course);
+  if (!info) notFound();
+
+  const selectedYear = typeof year === "string" && year ? year : undefined;
+  const selectedEdition = selectedYear
+    ? info.editions.find((e) => e.year === selectedYear)
+    : undefined;
+  if (selectedYear && !selectedEdition) notFound();
+
+  let stats: RaceStats;
+  let segmentData: RaceSegmentData;
+  let yearSummary: CourseYearSummaryRow[] | null = null;
+  const combined = !selectedEdition;
+
+  if (selectedEdition) {
+    stats = getRaceStats(selectedEdition.slug);
+    segmentData = getRaceSegmentData(selectedEdition.slug);
+  } else {
+    const pool = getCourseResults(info.editions.map((e) => e.slug));
+    stats = computeRaceStats(pool);
+    stats.maleLeaderboard = buildTopFinishers(pool, "Male");
+    stats.femaleLeaderboard = buildTopFinishers(pool, "Female");
+    segmentData = buildRaceSegmentData(pool);
+    yearSummary = getCourseYearSummary(pool);
+  }
 
   const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
+  const years = info.editions.map((e) => e.year);
+  const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
+  const singleSlug = selectedEdition?.slug;
 
-  const location = getRaceLocation(race);
-  const courseSlug = courseSlugOf(slug);
-  const course = getCourseInfo(courseSlug);
-  const editionCount = course?.editions.length ?? 0;
+  function resultHref(entry: LeaderboardEntry): string {
+    const slug = entry.raceSlug ?? singleSlug ?? "";
+    return `/race/${slug}/result/${entry.id}`;
+  }
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    name: race.name,
-    sport: "Triathlon",
-    eventStatus: "https://schema.org/EventScheduled",
-    ...(race.date ? { startDate: race.date } : {}),
-    ...(location ? { location: { "@type": "Place", name: location } } : {}),
-    url: `https://tritimes.org/race/${slug}`,
-  };
+  const tagBase =
+    "px-3 py-1.5 rounded-full text-sm font-medium transition-colors";
+  const tagActive = "bg-white/10 text-white ring-1 ring-white/20";
+  const tagIdle = "text-gray-400 hover:text-white hover:bg-white/5";
 
   return (
     <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <script
-        type="application/ld+json"
-        // Escape "<" so race names can never close the script tag early.
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
-      />
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-white">{race.name}</h1>
+      <header className="mb-6">
+        <h1 className="text-3xl font-bold text-white">
+          {info.name}
+          {selectedEdition ? ` ${selectedEdition.year}` : ""}
+        </h1>
         <p className="text-gray-400 mt-1">
-          {race.date}
-          {location && <> &middot; {location}</>}
+          {info.location && <>{info.location} &middot; </>}
+          {combined
+            ? `${info.editions.length} edition${info.editions.length !== 1 ? "s" : ""}${info.editions.length > 1 ? ` · ${span}` : ""}`
+            : selectedEdition!.date}
         </p>
-        {editionCount > 1 && (
-          <Link
-            href={`/courses/${courseSlug}`}
-            className="inline-block mt-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
-          >
-            View all {editionCount} editions &rarr;
-          </Link>
-        )}
       </header>
+
+      {/* Year tags */}
+      <div className="flex flex-wrap items-center gap-2 mb-8">
+        <Link href={`/courses/${course}`} className={`${tagBase} ${combined ? tagActive : tagIdle}`}>
+          All years
+        </Link>
+        {info.editions.map((e) => (
+          <Link
+            key={e.slug}
+            href={`/courses/${course}?year=${e.year}`}
+            className={`${tagBase} ${selectedYear === e.year ? tagActive : tagIdle}`}
+          >
+            {e.year}
+          </Link>
+        ))}
+      </div>
 
       {/* Summary cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
@@ -107,7 +142,7 @@ export default async function RacePage({ params }: PageProps) {
         <ResultCard label="Slowest Finish" value={finishStats ? formatTime(finishStats.slowest) : "—"} />
       </div>
 
-      {/* Discipline breakdown table */}
+      {/* Discipline breakdown */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Discipline Breakdown</h2>
         <div className="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
@@ -138,7 +173,7 @@ export default async function RacePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Time distributions (filterable by gender + age group) */}
+      {/* Time distributions */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Time Distributions</h2>
         <RaceDistributions data={segmentData} />
@@ -148,19 +183,14 @@ export default async function RacePage({ params }: PageProps) {
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Demographics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Gender split */}
           <div className="bg-gray-900 rounded-lg border border-gray-700 p-6">
             <h3 className="text-sm font-medium text-gray-400 mb-4">Gender Split</h3>
-            {/* Horizontal bar */}
             <div className="flex rounded-full overflow-hidden h-3 mb-4">
               {stats.genderBreakdown.map((g) => (
                 <div
                   key={g.gender || "_unlisted"}
                   className="h-full"
-                  style={{
-                    width: `${g.percentage}%`,
-                    backgroundColor: genderColor(g.gender),
-                  }}
+                  style={{ width: `${g.percentage}%`, backgroundColor: genderColor(g.gender) }}
                 />
               ))}
             </div>
@@ -168,10 +198,7 @@ export default async function RacePage({ params }: PageProps) {
               {stats.genderBreakdown.map((g) => (
                 <div key={g.gender || "_unlisted"} className="flex items-center justify-between text-sm">
                   <div className="flex items-center gap-2">
-                    <div
-                      className="w-2.5 h-2.5 rounded-full"
-                      style={{ backgroundColor: genderColor(g.gender) }}
-                    />
+                    <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: genderColor(g.gender) }} />
                     <span className="text-white">{genderLabel(g.gender)}</span>
                   </div>
                   <div className="flex items-center gap-4 text-gray-400">
@@ -183,7 +210,6 @@ export default async function RacePage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Age group breakdown */}
           <div className="bg-gray-900 rounded-lg border border-gray-700 p-6">
             <h3 className="text-sm font-medium text-gray-400 mb-4">Age Groups</h3>
             <div className="space-y-2">
@@ -194,10 +220,7 @@ export default async function RacePage({ params }: PageProps) {
                   <div key={ag.ageGroup} className="flex items-center gap-3 text-sm">
                     <span className="w-16 text-gray-400 shrink-0">{ag.ageGroup}</span>
                     <div className="flex-1 h-4 bg-gray-800 rounded-sm overflow-hidden">
-                      <div
-                        className="h-full rounded-sm bg-blue-500/40"
-                        style={{ width: `${barWidth}%` }}
-                      />
+                      <div className="h-full rounded-sm bg-blue-500/40" style={{ width: `${barWidth}%` }} />
                     </div>
                     <span className="text-gray-400 w-12 text-right shrink-0">{ag.count}</span>
                   </div>
@@ -208,9 +231,11 @@ export default async function RacePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Leaderboards by gender */}
+      {/* Top finishers */}
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-white mb-4">Top Finishers</h2>
+        <h2 className="text-xl font-bold text-white mb-4">
+          {combined ? "Fastest Finishers (All Editions)" : "Top Finishers"}
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
             { title: "Top 10 Males", entries: stats.maleLeaderboard },
@@ -223,6 +248,7 @@ export default async function RacePage({ params }: PageProps) {
                   <tr className="border-b border-gray-700 text-gray-400">
                     <th className="text-left px-4 py-2 font-medium w-8">#</th>
                     <th className="text-left px-4 py-2 font-medium">Name</th>
+                    {combined && <th className="text-left px-4 py-2 font-medium">Year</th>}
                     <th className="text-left px-4 py-2 font-medium hidden lg:table-cell">AG</th>
                     <th className="text-right px-4 py-2 font-medium">Finish</th>
                   </tr>
@@ -231,16 +257,14 @@ export default async function RacePage({ params }: PageProps) {
                   {entries.map((entry) => {
                     const flag = getCountryFlagISO(entry.countryISO);
                     return (
-                      <tr key={entry.id} className="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                      <tr key={`${entry.raceSlug ?? ""}-${entry.id}`} className="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
                         <td className="px-4 py-2 text-gray-400">{entry.rank}</td>
                         <td className="px-4 py-2">
-                          <Link
-                            href={`/race/${slug}/result/${entry.id}`}
-                            className="text-white hover:text-blue-400 transition-colors"
-                          >
+                          <Link href={resultHref(entry)} className="text-white hover:text-blue-400 transition-colors">
                             {flag} {formatAthleteName(entry.fullName)}
                           </Link>
                         </td>
+                        {combined && <td className="px-4 py-2 text-gray-400">{entry.year}</td>}
                         <td className="px-4 py-2 text-gray-400 hidden lg:table-cell">{entry.ageGroup}</td>
                         <td className="px-4 py-2 text-right font-mono font-bold text-white">{entry.finishTime}</td>
                       </tr>
@@ -252,6 +276,39 @@ export default async function RacePage({ params }: PageProps) {
           ))}
         </div>
       </section>
+
+      {/* All editions */}
+      {combined && yearSummary && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-white mb-4">All Editions</h2>
+          <div className="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+            <table className="w-full text-sm min-w-[360px]">
+              <thead>
+                <tr className="border-b border-gray-700 text-gray-400">
+                  <th className="text-left px-4 py-3 font-medium">Year</th>
+                  <th className="text-right px-4 py-3 font-medium">Finishers</th>
+                  <th className="text-right px-4 py-3 font-medium">Median Finish</th>
+                </tr>
+              </thead>
+              <tbody>
+                {yearSummary.map((row) => (
+                  <tr key={row.slug} className="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                    <td className="px-4 py-3">
+                      <Link href={`/race/${row.slug}`} className="text-white hover:text-blue-400 transition-colors">
+                        {row.year}
+                      </Link>
+                    </td>
+                    <td className="px-4 py-3 text-right text-gray-300">{row.finishers.toLocaleString()}</td>
+                    <td className="px-4 py-3 text-right font-mono text-white">
+                      {row.medianFinish > 0 ? formatTime(row.medianFinish) : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
     </main>
   );
 }
