@@ -13,6 +13,14 @@ import AthleteRaceList from "@/components/AthleteRaceList";
 // Web APIs only, no fs/zlib (see @/lib/athlete-shards).
 export const runtime = "edge";
 
+// NOTE: deliberately no loading.tsx for this segment. A loading.tsx creates an
+// implicit Suspense boundary that makes Next stream the shell with a 200 status
+// before this page runs, so notFound() for a nonexistent athlete could only
+// produce a soft 404 (HTTP 200 with the not-found UI) — bad for SEO. Without
+// it, Next resolves the page (and notFound()) before flushing the status, so
+// missing athletes return a real 404. See e2e/athlete-404.spec.ts. The shard
+// fetch is fast on the edge, so the lost skeleton costs little.
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
