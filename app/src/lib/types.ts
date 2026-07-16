@@ -92,6 +92,21 @@ export interface RaceInfo {
   finishers: number;
 }
 
+export interface CourseEdition {
+  slug: string;
+  year: string;
+  date: string;
+  finishers: number;
+}
+
+export interface CourseInfo {
+  course: string; // base slug, e.g. "im703-swansea"
+  name: string; // display name with leading year stripped
+  location: string;
+  distance: "70.3" | "140.6";
+  editions: CourseEdition[]; // newest first
+}
+
 export interface DisciplineStats {
   discipline: string;
   fastest: number;

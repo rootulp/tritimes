@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
-import { RaceInfo } from "./types";
+import { getRaceLocation } from "./raceLocation";
+import { RaceInfo, CourseInfo, CourseEdition } from "./types";
 
 // Race-manifest access (data/races.json only). This module is imported by
 // instrumentation.ts — which is bundled into EVERY Node function — and by
@@ -36,6 +37,18 @@ function loadRaces(): RaceInfo[] {
 
 let racesCache: RaceInfo[] | null = null;
 
+// Test-only: inject a synthetic manifest so pure grouping logic can be tested
+// without depending on the committed data/races.json.
+export function __setRacesForTest(races: RaceInfo[]): void {
+  racesCache = races.map((e) => ({
+    slug: e.slug,
+    name: e.name,
+    date: e.date,
+    location: e.location,
+    finishers: e.finishers || 0,
+  }));
+}
+
 export function getRaces(): RaceInfo[] {
   if (!racesCache) racesCache = loadRaces();
   return racesCache;
@@ -51,5 +64,37 @@ export function getGlobalStats(): { raceCount: number; totalResults: number } {
   return {
     raceCount: entries.length,
     totalResults: entries.reduce((sum, e) => sum + (e.finishers || 0), 0),
+  };
+}
+
+export function courseSlugOf(slug: string): string {
+  return slug.replace(/-\d{4}$/, "");
+}
+
+function editionYear(slug: string): string {
+  const m = slug.match(/-(\d{4})$/);
+  return m ? m[1] : "";
+}
+
+export function getCourseInfo(courseSlug: string): CourseInfo | undefined {
+  const editions: CourseEdition[] = getRaces()
+    .filter((r) => courseSlugOf(r.slug) === courseSlug)
+    .map((r) => ({
+      slug: r.slug,
+      year: editionYear(r.slug),
+      date: r.date,
+      finishers: r.finishers,
+    }))
+    .sort((a, b) => b.year.localeCompare(a.year)); // newest first
+
+  if (editions.length === 0) return undefined;
+
+  const recent = getRaces().find((r) => r.slug === editions[0].slug)!;
+  return {
+    course: courseSlug,
+    name: recent.name.replace(/^\d{4}\s+/, ""),
+    location: getRaceLocation(recent) ?? "",
+    distance: courseSlug.startsWith("im703-") ? "70.3" : "140.6",
+    editions,
   };
 }
