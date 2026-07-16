@@ -41,10 +41,12 @@ const nextConfig: NextConfig = {
       },
       {
         // Sharded athlete profiles, fetched at render time by the edge-runtime
-        // athlete page. The files are pre-gzipped on disk; declaring
-        // Content-Encoding makes fetch decompress them at the HTTP layer, so
-        // the edge code needs no zlib/DecompressionStream (the latter doesn't
-        // exist in Next's edge sandbox).
+        // athlete page. Served as raw gzip bytes (Content-Type: application/gzip,
+        // NO Content-Encoding) and decompressed explicitly by the edge code —
+        // same as the search shards above. A hand-set Content-Encoding: gzip is
+        // NOT honored by Vercel's CDN on public/ assets, so relying on HTTP-layer
+        // auto-decompression delivered raw gzip to res.json() and 404'd every
+        // athlete (see app/src/lib/athlete-shards.ts).
         source: "/athlete-shards/:path*",
         headers: [
           {
@@ -53,11 +55,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Content-Type",
-            value: "application/json",
-          },
-          {
-            key: "Content-Encoding",
-            value: "gzip",
+            value: "application/gzip",
           },
         ],
       },

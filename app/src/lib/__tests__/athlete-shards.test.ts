@@ -1,4 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
+import { gzipSync } from "node:zlib";
 import { shardId, SHARD_COUNT } from "@/lib/athlete-shards";
 import type { AthleteProfile } from "@/lib/types";
 import { createRequire } from "module";
@@ -84,13 +85,15 @@ describe("getAthleteProfile (edge-compatible fetch)", () => {
     return { slug, fullName: "Ann Lee", country: "United States", countryISO: "US", races: [] };
   }
 
-  // Shards are stored gzipped but served with Content-Encoding: gzip (see
-  // next.config.ts), so fetch hands the module already-decompressed JSON —
-  // which is what this mock returns.
+  // Shards are served as RAW gzip bytes (Content-Type: application/gzip, no
+  // Content-Encoding — see next.config.ts) and the module decompresses them
+  // explicitly. This mirrors how Vercel's CDN actually delivers the files:
+  // a manually-set Content-Encoding: gzip is not honored there, so relying on
+  // the HTTP layer to auto-decompress produced garbage and a false 404.
   function shardResponse(shard: Record<string, AthleteProfile>): Response {
-    return new Response(JSON.stringify(shard), {
+    return new Response(new Uint8Array(gzipSync(JSON.stringify(shard))), {
       status: 200,
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/gzip" },
     });
   }
 
@@ -111,7 +114,7 @@ describe("getAthleteProfile (edge-compatible fetch)", () => {
     vi.unstubAllGlobals();
   });
 
-  it("fetches the slug's shard and returns the profile", async () => {
+  it("fetches the slug's shard (raw gzip) and returns the profile", async () => {
     const shard = { [SLUG]: makeProfile(SLUG) };
     const fetchMock = vi.fn(async () => shardResponse(shard));
     vi.stubGlobal("fetch", fetchMock);
@@ -133,6 +136,24 @@ describe("getAthleteProfile (edge-compatible fetch)", () => {
     expect(await mod.getAthleteProfile(SLUG)).toBeNull();
   });
 
+  // Some servers (e.g. `next start`) transfer-decompress the response, so the
+  // body arrives as plain JSON rather than gzip. The module must handle both;
+  // it only inflates when the gzip magic bytes are present.
+  it("handles a shard body already decompressed to plain JSON", async () => {
+    const shard = { [SLUG]: makeProfile(SLUG) };
+    const fetchMock = vi.fn(
+      async () =>
+        new Response(JSON.stringify(shard), {
+          status: 200,
+          headers: { "Content-Type": "application/json" },
+        }),
+    );
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    expect(await mod.getAthleteProfile(SLUG)).toEqual(makeProfile(SLUG));
+  });
+
   it("memoizes the shard: a second lookup does not refetch", async () => {
     const shard = { [SLUG]: makeProfile(SLUG) };
     const fetchMock = vi.fn(async () => shardResponse(shard));
@@ -145,28 +166,55 @@ describe("getAthleteProfile (edge-compatible fetch)", () => {
     expect(fetchMock).toHaveBeenCalledTimes(1);
   });
 
+  // Regression test for the production 404 bug: Vercel's CDN does not honor a
+  // hand-set `Content-Encoding: gzip` on public/ assets, so the edge fetch
+  // received raw gzip bytes. The old code called res.json() on those bytes,
+  // which threw, was swallowed, and reported the (real) athlete as missing →
+  // 404. The module must decompress the gzip itself.
+  it("throws on a non-ok response instead of reporting the athlete missing", async () => {
+    const fetchMock = vi.fn(async () => new Response("unauthorized", { status: 401 }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    await expect(mod.getAthleteProfile(SLUG)).rejects.toThrow();
+  });
+
+  it("throws when the body is not valid gzip (never a silent null → false 404)", async () => {
+    const fetchMock = vi.fn(
+      async () =>
+        new Response(new Uint8Array([1, 2, 3, 4]), {
+          status: 200,
+          headers: { "Content-Type": "application/gzip" },
+        }),
+    );
+    vi.stubGlobal("fetch", fetchMock);
+
+    const mod = await freshModule();
+    await expect(mod.getAthleteProfile(SLUG)).rejects.toThrow();
+  });
+
   it("does not cache a failed load — the next lookup retries", async () => {
     const shard = { [SLUG]: makeProfile(SLUG) };
     const fetchMock = vi
       .fn()
-      .mockResolvedValueOnce(new Response("nope", { status: 401 }))
+      .mockRejectedValueOnce(new Error("network down"))
       .mockResolvedValueOnce(shardResponse(shard));
     vi.stubGlobal("fetch", fetchMock);
 
     const mod = await freshModule();
-    expect(await mod.getAthleteProfile(SLUG)).toBeNull();
+    await expect(mod.getAthleteProfile(SLUG)).rejects.toThrow();
     expect(await mod.getAthleteProfile(SLUG)).toEqual(makeProfile(SLUG));
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
-  it("returns null (and does not throw) on network failure", async () => {
+  it("throws (not returns null) on network failure so it is never a false 404", async () => {
     const fetchMock = vi.fn(async () => {
       throw new Error("network down");
     });
     vi.stubGlobal("fetch", fetchMock);
 
     const mod = await freshModule();
-    expect(await mod.getAthleteProfile(SLUG)).toBeNull();
+    await expect(mod.getAthleteProfile(SLUG)).rejects.toThrow();
   });
 
   it("fetches from VERCEL_URL and sends the protection-bypass header when set", async () => {
