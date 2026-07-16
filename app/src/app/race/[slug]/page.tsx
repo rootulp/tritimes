@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getRaceBySlug, getRaceStats } from "@/lib/data";
+import { getRaceBySlug, getRaceStats, getRaceSegmentData } from "@/lib/data";
 import { formatAthleteName, formatTime } from "@/lib/format";
 import { getCountryFlagISO } from "@/lib/flags";
-import dynamic from "next/dynamic";
 import ResultCard from "@/components/ResultCard";
+import RaceDistributions from "@/components/RaceDistributions";
 import { DISCIPLINE_COLORS } from "@/lib/colors";
 import { getRaceLocation } from "@/lib/raceLocation";
-
-const RaceHistogram = dynamic(() => import("@/components/RaceHistogram"), {
-  loading: () => <div className="h-52 bg-gray-800 rounded animate-pulse" />,
-});
 
 // Generate on demand — too many races to pre-render at build time.
 export async function generateStaticParams() {
@@ -59,6 +55,7 @@ export default async function RacePage({ params }: PageProps) {
   if (!race) notFound();
 
   const stats = getRaceStats(slug);
+  const segmentData = getRaceSegmentData(slug);
 
   const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
 
@@ -129,23 +126,10 @@ export default async function RacePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Time distributions */}
+      {/* Time distributions (filterable by gender + age group) */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-white mb-4">Time Distributions</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {(["swim", "bike", "run", "finish"] as const).map((key) => {
-            const label = key === "finish" ? "Total" : key.charAt(0).toUpperCase() + key.slice(1);
-            return (
-              <div key={key} className="bg-gray-900 rounded-xl border border-gray-700 p-6">
-                <RaceHistogram
-                  data={stats.histograms[key]}
-                  color={DISCIPLINE_COLORS[label]}
-                  label={`${label} Distribution`}
-                />
-              </div>
-            );
-          })}
-        </div>
+        <RaceDistributions data={segmentData} />
       </section>
 
       {/* Demographics */}
