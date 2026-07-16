@@ -621,8 +621,14 @@ function compareAgeBands(a: string, b: string): number {
 }
 
 export function getRaceSegmentData(raceSlug: string): RaceSegmentData {
-  const results = getAllResults(raceSlug);
+  return buildRaceSegmentData(getAllResults(raceSlug));
+}
 
+// Pure transform from finisher results to the compact client payload. Split
+// from getRaceSegmentData so it can be tested with synthetic data — the CSV
+// corpus (data/*.csv.gz) is generated at build time and absent in the `npm
+// test` CI job, so a test that reads a real race gets empty arrays.
+export function buildRaceSegmentData(results: AthleteResult[]): RaceSegmentData {
   // Build ordered label tables first.
   const GENDER_ORDER: Record<string, number> = { Male: 0, Female: 1 };
   const genders = Array.from(new Set(results.map((r) => r.gender)))
