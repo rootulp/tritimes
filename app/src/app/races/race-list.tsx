@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { memo, useDeferredValue, useMemo, useState } from "react";
 import Link from "next/link";
 import type { RaceInfo } from "@/lib/types";
 import { getCountryFlag } from "@/lib/flags";
@@ -28,14 +28,81 @@ function getYear(date: string): string {
   return date.slice(0, 4);
 }
 
+/**
+ * Renders the grid of race cards. Memoized so that urgent re-renders (e.g.
+ * toggling the "updating" indicator the instant a filter button is clicked)
+ * don't re-render all ~1,500 cards — only a change to the filtered list does.
+ */
+const RaceGrid = memo(function RaceGrid({ races }: { races: RaceInfo[] }) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {races.map((race) => {
+        const location = getRaceLocation(race);
+        const flag = location ? getCountryFlag(location) : "";
+
+        return (
+          <Link
+            key={race.slug}
+            href={`/race/${race.slug}`}
+            className="group block p-5 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80 [content-visibility:auto] [contain-intrinsic-size:auto_150px]"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <h2 className="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors leading-tight">
+                {cleanRaceName(race.name)}
+              </h2>
+              <span className="shrink-0 px-2 py-0.5 rounded-full text-xs font-medium bg-white/5 text-gray-400">
+                {getDistanceLabel(race.slug)}
+              </span>
+            </div>
+
+            <p className="text-sm text-gray-400 mt-2">
+              {flag && <span className="mr-1.5">{flag}</span>}
+              {location}
+            </p>
+
+            <div className="flex items-center gap-2 mt-3 text-xs text-gray-500">
+              <span>{formatDate(race.date)}</span>
+              <span className="text-gray-700">&middot;</span>
+              <span>{race.finishers.toLocaleString()} finishers</span>
+            </div>
+          </Link>
+        );
+      })}
+    </div>
+  );
+});
+
 export default function RaceList({ races }: { races: RaceInfo[] }) {
   const [distance, setDistance] = useState<string>("All");
   const [year, setYear] = useState<string>("All");
   const [query, setQuery] = useState<string>("");
 
+  // Filter selections stay urgent so buttons/inputs update the instant they're
+  // clicked. The expensive list is derived from *deferred* copies, so React
+  // paints the new button state first, then re-renders the ~1,500-card grid in
+  // a non-blocking background pass instead of freezing the click for seconds.
+  const deferredDistance = useDeferredValue(distance);
+  const deferredYear = useDeferredValue(year);
+  const deferredQuery = useDeferredValue(query);
+
   const years = [...new Set(races.map((r) => getYear(r.date)))].sort().reverse();
 
-  const filtered = filterRaces(races, { distance, year, query });
+  const filtered = useMemo(
+    () =>
+      filterRaces(races, {
+        distance: deferredDistance,
+        year: deferredYear,
+        query: deferredQuery,
+      }),
+    [races, deferredDistance, deferredYear, deferredQuery],
+  );
+
+  // True while the displayed list is stale — i.e. a filter changed but the
+  // deferred grid re-render hasn't caught up yet. Drives the loading indicator.
+  const isPending =
+    distance !== deferredDistance ||
+    year !== deferredYear ||
+    query !== deferredQuery;
 
   const btnClass = (active: boolean) =>
     active
@@ -89,8 +156,19 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
         </div>
       </div>
 
-      <p className="text-sm text-gray-500 mb-4">
-        Showing {filtered.length} of {races.length} races
+      <p className="text-sm text-gray-500 mb-4 flex items-center gap-2">
+        <span>
+          Showing {filtered.length} of {races.length} races
+        </span>
+        {isPending && (
+          <span className="inline-flex items-center gap-1.5 text-gray-400" role="status">
+            <span
+              aria-hidden="true"
+              className="h-3 w-3 rounded-full border-2 border-gray-600 border-t-gray-300 animate-spin"
+            />
+            Updating&hellip;
+          </span>
+        )}
       </p>
 
       {filtered.length === 0 && (
@@ -109,39 +187,14 @@ export default function RaceList({ races }: { races: RaceInfo[] }) {
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {filtered.map((race) => {
-          const location = getRaceLocation(race);
-          const flag = location ? getCountryFlag(location) : "";
-
-          return (
-            <Link
-              key={race.slug}
-              href={`/race/${race.slug}`}
-              className="group block p-5 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80 [content-visibility:auto] [contain-intrinsic-size:auto_150px]"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h2 className="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors leading-tight">
-                  {cleanRaceName(race.name)}
-                </h2>
-                <span className="shrink-0 px-2 py-0.5 rounded-full text-xs font-medium bg-white/5 text-gray-400">
-                  {getDistanceLabel(race.slug)}
-                </span>
-              </div>
-
-              <p className="text-sm text-gray-400 mt-2">
-                {flag && <span className="mr-1.5">{flag}</span>}
-                {location}
-              </p>
-
-              <div className="flex items-center gap-2 mt-3 text-xs text-gray-500">
-                <span>{formatDate(race.date)}</span>
-                <span className="text-gray-700">&middot;</span>
-                <span>{race.finishers.toLocaleString()} finishers</span>
-              </div>
-            </Link>
-          );
-        })}
+      <div
+        className={
+          isPending
+            ? "opacity-60 transition-opacity duration-150"
+            : "transition-opacity duration-150"
+        }
+      >
+        <RaceGrid races={filtered} />
       </div>
     </>
   );
