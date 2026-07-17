@@ -16,12 +16,12 @@ test("result page shows AG percentile pills on each discipline card", async ({ p
   await page.waitForURL(new RegExp(`/race/${RACE_SLUG}/result/\\d+`));
 
   // Each of the four discipline cards should have an amber percentile pill.
-  // Pills render either "<N>%" or "—".
+  // Pills render either "Top <N>%" (see formatTopPercent) or "—".
   const pills = page.locator(".bg-amber-400\\/15");
   await expect(pills).toHaveCount(4);
   for (let i = 0; i < 4; i++) {
     const text = (await pills.nth(i).innerText()).trim();
-    expect(text).toMatch(/^(—|\d{1,3}%)$/);
+    expect(text).toMatch(/^(—|Top \d{1,3}%)$/);
   }
 });
 

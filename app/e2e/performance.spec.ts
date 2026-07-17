@@ -8,7 +8,7 @@ const pages = [
 ];
 
 for (const { name, path } of pages) {
-  test(`${name} page (${path}) loads with acceptable Web Vitals`, async ({
+  test(`${name} page (${path}) loads with acceptable Web Vitals @perf`, async ({
     page,
   }) => {
     // Inject web-vitals collection before navigating

@@ -48,3 +48,29 @@ jobs:
         working-directory: app
       - run: npm run lint
         working-directory: app
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - run: npx playwright install --with-deps chromium
+        working-directory: app
+      # Build and serve a production bundle, not `next dev`: several past
+      # regressions (e.g. searchParams 500s) only reproduce in prod rendering.
+      - run: npm run build
+        working-directory: app
+      # `@perf`-tagged specs (Web Vitals thresholds, cold-start journey) are
+      # timing-sensitive / require a deployed URL, so they are not gated here.
+      - name: Run e2e against production build
+        working-directory: app
+        run: |
+          npm start &
+          npx --yes wait-on --timeout 60000 http://localhost:3000
+          BASE_URL=http://localhost:3000 npx playwright test --grep-invert @perf

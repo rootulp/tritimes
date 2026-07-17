@@ -39,7 +39,7 @@ const SURNAMES = [
 const baseURL = process.env.BASE_URL ?? "";
 const isRemote = /^https?:\/\//.test(baseURL) && !/localhost|127\.0\.0\.1/.test(baseURL);
 
-test.describe("home → search → athlete journey (cold path)", () => {
+test.describe("home → search → athlete journey (cold path) @perf", () => {
   // A retry would warm the function and hide a cold-path regression.
   test.describe.configure({ retries: 0 });
 
