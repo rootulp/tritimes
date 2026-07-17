@@ -121,15 +121,18 @@ export default async function CoursePage({ params, searchParams }: PageProps) {
         </p>
       </header>
 
-      {/* Year tags */}
+      {/* Year tags. `replace` keeps the URL shareable while switching years
+          without stacking a browser-history entry per click, so one Back
+          returns to the previous page instead of stepping through each year. */}
       <div className="flex flex-wrap items-center gap-2 mb-8">
-        <Link href={`/courses/${course}`} className={`${tagBase} ${combined ? tagActive : tagIdle}`}>
+        <Link href={`/courses/${course}`} replace className={`${tagBase} ${combined ? tagActive : tagIdle}`}>
           All years
         </Link>
         {info.editions.map((e) => (
           <Link
             key={e.slug}
             href={`/courses/${course}?year=${e.year}`}
+            replace
             className={`${tagBase} ${selectedYear === e.year ? tagActive : tagIdle}`}
           >
             {e.year}
