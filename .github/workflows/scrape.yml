@@ -13,7 +13,11 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
+      # Use a fine-grained PAT so the PR event is treated as user-generated.
+      # PRs created with GITHUB_TOKEN leave their CI runs awaiting approval.
       - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.SCRAPER_TOKEN }}
 
       - uses: actions/setup-node@v5
         with:
@@ -40,7 +44,7 @@ jobs:
       - name: Create pull request
         if: steps.check.outputs.has_changes == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
         run: |
           BRANCH="auto/scrape-$(date +%Y-%m-%d)"
 
@@ -76,8 +80,7 @@ jobs:
           gh pr create \
             --head "$BRANCH" \
             --title "feat: add new race results" \
-            --body-file /tmp/pr-body.md \
-            --reviewer rootulp
+            --body-file /tmp/pr-body.md
 
           # Request auto-merge so the PR squash-merges once CI passes,
           # instead of piling up as a stale daily backlog.
