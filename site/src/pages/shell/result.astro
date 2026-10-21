@@ -1,0 +1,13 @@
+---
+// Served (via public/_redirects) for every /race/<slug>/result/<id>; the
+// island reads the URL, loads that race's data file, and renders the result.
+import Base from "@/layouts/Base.astro";
+import ResultApp from "@/components/ResultApp";
+import ResultSkeleton from "@/components/ResultSkeleton";
+---
+
+<Base title="Race Result">
+  <ResultApp client:only="preact">
+    <ResultSkeleton slot="fallback" />
+  </ResultApp>
+</Base>

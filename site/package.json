@@ -1,0 +1,33 @@
+{
+  "name": "tritimes-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "node --max-old-space-size=4096 --import tsx scripts/build-data.ts",
+    "build": "npm run data && astro build",
+    "build:pages": "astro build",
+    "dev": "astro dev",
+    "preview": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^6.1.1",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.2",
+    "preact": "^11.0.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5",
+    "wrangler": "^4.151.3"
+  }
+}

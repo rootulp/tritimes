@@ -1,0 +1,128 @@
+---
+const pathname = Astro.url.pathname.replace(/\.html$/, "");
+const links = [
+  { href: "/races", label: "Races" },
+  { href: "/courses", label: "Courses" },
+  { href: "/stats", label: "Stats" },
+];
+---
+
+<header id="site-header" class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+  <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
+    <a href="/" class="text-lg font-bold text-white hover:text-gray-300 transition-colors">TriTimes</a>
+
+    <button
+      type="button"
+      data-open-search
+      class="hidden sm:flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors border border-gray-700 rounded-lg px-3 py-1.5 hover:border-gray-600"
+    >
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35" stroke-linecap="round"></path>
+      </svg>
+      <span>Search</span>
+      <kbd data-shortcut class="text-xs border border-gray-600 rounded px-1.5 py-0.5 text-gray-500 font-mono">Ctrl+K</kbd>
+    </button>
+    <button
+      type="button"
+      data-open-search
+      class="sm:hidden flex items-center justify-center w-10 h-10 text-gray-400 hover:text-white transition-colors"
+      aria-label="Search athletes"
+    >
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35" stroke-linecap="round"></path>
+      </svg>
+    </button>
+
+    <nav class="hidden sm:flex items-center gap-6">
+      {
+        links.map((link) => (
+          <a
+            href={link.href}
+            class={`text-sm transition-colors ${pathname === link.href ? "text-white font-medium" : "text-gray-400 hover:text-white"}`}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <button
+      type="button"
+      data-menu-toggle
+      aria-expanded="false"
+      class="sm:hidden flex items-center justify-center w-10 h-10 text-gray-400 hover:text-white transition-colors"
+      aria-label="Toggle menu"
+    >
+      <svg data-icon-open width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="5" x2="17" y2="5"></line>
+        <line x1="3" y1="10" x2="17" y2="10"></line>
+        <line x1="3" y1="15" x2="17" y2="15"></line>
+      </svg>
+      <svg data-icon-close class="hidden" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="4" y1="4" x2="16" y2="16"></line>
+        <line x1="16" y1="4" x2="4" y2="16"></line>
+      </svg>
+    </button>
+  </div>
+
+  <nav data-mobile-menu class="hidden sm:hidden border-t border-gray-800 bg-gray-900/95">
+    {
+      links.map((link) => (
+        <a
+          href={link.href}
+          class={`block px-4 py-3 text-base transition-colors ${pathname === link.href ? "text-white bg-gray-800/50" : "text-gray-400 hover:text-white hover:bg-gray-800/30"}`}
+        >
+          {link.label}
+        </a>
+      ))
+    }
+  </nav>
+</header>
+
+<script>
+  const header = document.getElementById("site-header")!;
+  const toggle = header.querySelector<HTMLButtonElement>("[data-menu-toggle]")!;
+  const menu = header.querySelector<HTMLElement>("[data-mobile-menu]")!;
+
+  if (navigator.platform.toUpperCase().includes("MAC")) {
+    header.querySelector("[data-shortcut]")!.textContent = "\u2318K";
+  }
+
+  function onKeyDown(e: KeyboardEvent) {
+    if (e.key === "Escape") setMenu(false);
+  }
+  function onPointerDown(e: PointerEvent) {
+    if (e.target instanceof Node && !header.contains(e.target)) setMenu(false);
+  }
+  function setMenu(open: boolean) {
+    menu.classList.toggle("hidden", !open);
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.querySelector("[data-icon-open]")!.classList.toggle("hidden", open);
+    toggle.querySelector("[data-icon-close]")!.classList.toggle("hidden", !open);
+    document.body.style.overflow = open ? "hidden" : "";
+    if (open) {
+      document.addEventListener("keydown", onKeyDown);
+      document.addEventListener("pointerdown", onPointerDown);
+    } else {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("pointerdown", onPointerDown);
+    }
+  }
+  toggle.addEventListener("click", () => setMenu(menu.classList.contains("hidden")));
+
+  // The search palette (and Preact) load only when first opened.
+  let palette: Promise<{ openPalette: () => void }> | null = null;
+  function openPalette() {
+    palette ??= import("./palette-mount");
+    palette.then((m) => m.openPalette());
+  }
+  header.querySelectorAll("[data-open-search]").forEach((b) => b.addEventListener("click", openPalette));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "k" && (e.metaKey || e.ctrlKey) && !palette) {
+      e.preventDefault();
+      openPalette();
+    }
+  });
+</script>

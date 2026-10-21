@@ -1,0 +1,12 @@
+---
+// Served (via public/_redirects) for every /athlete/<slug>; the island reads
+// the URL, loads the athlete's profile shard, and renders the profile.
+import Base from "@/layouts/Base.astro";
+import AthleteApp, { AthleteSkeleton } from "@/components/AthleteApp";
+---
+
+<Base title="Athlete">
+  <AthleteApp client:only="preact">
+    <AthleteSkeleton slot="fallback" />
+  </AthleteApp>
+</Base>

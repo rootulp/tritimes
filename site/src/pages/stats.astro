@@ -1,0 +1,13 @@
+---
+import Base from "@/layouts/Base.astro";
+import StatsBody from "@/components/StatsBody";
+import { getAggregateStats, getStatsPage } from "@/lib/build-cache";
+---
+
+<Base
+  title="IRONMAN & 70.3 Stats"
+  description="Aggregate statistics across all IRONMAN and IRONMAN 70.3 races tracked by TriTimes: participation trends, finish times, and standout performances."
+  canonical="/stats"
+>
+  <StatsBody stats={getStatsPage()} agg={getAggregateStats()} />
+</Base>

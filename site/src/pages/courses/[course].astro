@@ -1,0 +1,65 @@
+---
+import Base from "@/layouts/Base.astro";
+import RaceBody from "@/components/RaceBody.astro";
+import CourseHeader from "@/components/CourseHeader.astro";
+import { getCoursePage, getRaces } from "@/lib/build-cache";
+import { groupCourses } from "@/lib/races";
+import { formatTime } from "@/lib/format";
+
+export function getStaticPaths() {
+  return [...groupCourses(getRaces()).keys()].map((course) => ({ params: { course } }));
+}
+
+const { course } = Astro.params;
+const { info, stats, genders, ageBands, yearSummary } = getCoursePage(course);
+const years = info.editions.map((e) => e.year);
+const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
+---
+
+<Base
+  title={`${info.name} — All Editions`}
+  description={`Combined results across ${info.editions.length} editions (${span}) of ${info.name}: time distributions, discipline splits, and fastest finishers.`}
+  canonical={`/courses/${course}`}
+>
+  <script slot="head" is:inline>
+    // Old ?year= links now live at /courses/<course>/<year>.
+    (function () {
+      var y = new URLSearchParams(location.search).get("year");
+      if (y) location.replace(location.pathname + "/" + encodeURIComponent(y));
+    })();
+  </script>
+  <main class="max-w-6xl w-full mx-auto px-4 py-8">
+    <CourseHeader info={info} />
+    <RaceBody stats={stats} genders={genders} ageBands={ageBands} source={{ course }} combined>
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-white mb-4">All Editions</h2>
+        <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+          <table class="w-full text-sm min-w-[360px]">
+            <thead>
+              <tr class="border-b border-gray-700 text-gray-400">
+                <th class="text-left px-4 py-3 font-medium">Year</th>
+                <th class="text-right px-4 py-3 font-medium">Finishers</th>
+                <th class="text-right px-4 py-3 font-medium">Median Finish</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                yearSummary.map((row) => (
+                  <tr class="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                    <td class="px-4 py-3">
+                      <a href={`/race/${row.slug}`} class="text-white hover:text-blue-400 transition-colors">
+                        {row.year}
+                      </a>
+                    </td>
+                    <td class="px-4 py-3 text-right text-gray-300">{row.finishers.toLocaleString("en-US")}</td>
+                    <td class="px-4 py-3 text-right font-mono text-white">{row.medianFinish > 0 ? formatTime(row.medianFinish) : "—"}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </RaceBody>
+  </main>
+</Base>

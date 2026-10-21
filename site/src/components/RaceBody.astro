@@ -1,0 +1,172 @@
+---
+// Shared body of the race page and the course pages: summary cards,
+// discipline table, filterable distributions, demographics, leaderboards.
+import ResultCard from "./ResultCard";
+import RaceDistributions from "./RaceDistributions";
+import type { RaceStats } from "@/lib/types";
+import { formatAthleteName, formatTime } from "@/lib/format";
+import { getCountryFlagISO } from "@/lib/flags";
+import { DISCIPLINE_COLORS } from "@/lib/colors";
+
+interface Props {
+  stats: RaceStats;
+  genders: string[];
+  ageBands: string[];
+  source: { race: string } | { course: string };
+  /** Edition slug for leaderboard links when entries don't carry their own. */
+  resultSlug?: string;
+  /** Combined multi-edition view: adds a Year column to the leaderboards. */
+  combined?: boolean;
+}
+
+const { stats, genders, ageBands, source, resultSlug = "", combined = false } = Astro.props;
+const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
+const genderColor = (g: string) => (g === "Male" ? "#3b82f6" : g === "Female" ? "#ec4899" : "#6b7280");
+const maxAgeGroupCount = stats.ageGroupBreakdown[0]?.count || 1;
+const leaderboards = [
+  { title: "Top 10 Males", entries: stats.maleLeaderboard },
+  { title: "Top 10 Females", entries: stats.femaleLeaderboard },
+];
+---
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+  <ResultCard label="Finishers" value={stats.totalFinishers.toLocaleString("en-US")} />
+  <ResultCard label="Median Finish" value={finishStats ? formatTime(finishStats.median) : "—"} />
+  <ResultCard label="Fastest Finish" value={finishStats ? formatTime(finishStats.fastest) : "—"} />
+  <ResultCard label="Slowest Finish" value={finishStats ? formatTime(finishStats.slowest) : "—"} />
+</div>
+
+<section class="mb-10">
+  <h2 class="text-xl font-bold text-white mb-4">Discipline Breakdown</h2>
+  <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+    <table class="w-full text-sm min-w-[420px]">
+      <thead>
+        <tr class="border-b border-gray-700 text-gray-400">
+          <th class="text-left px-4 py-3 font-medium">Discipline</th>
+          <th class="text-right px-4 py-3 font-medium">Fastest</th>
+          <th class="text-right px-4 py-3 font-medium">Median</th>
+          <th class="text-right px-4 py-3 font-medium">Average</th>
+          <th class="text-right px-4 py-3 font-medium">Slowest</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          stats.disciplines.map((d) => (
+            <tr class="border-b border-gray-800 last:border-b-0">
+              <td class="px-4 py-3 font-medium" style={{ color: DISCIPLINE_COLORS[d.discipline] }}>
+                {d.discipline}
+              </td>
+              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.fastest)}</td>
+              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.median)}</td>
+              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.average)}</td>
+              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.slowest)}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="mb-10">
+  <h2 class="text-xl font-bold text-white mb-4">Time Distributions</h2>
+  <RaceDistributions
+    client:load
+    initial={stats.histograms}
+    genders={genders}
+    ageBands={ageBands}
+    total={stats.totalFinishers}
+    source={source}
+  />
+</section>
+
+<section class="mb-10">
+  <h2 class="text-xl font-bold text-white mb-4">Demographics</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-gray-900 rounded-lg border border-gray-700 p-6">
+      <h3 class="text-sm font-medium text-gray-400 mb-4">Gender Split</h3>
+      <div class="flex rounded-full overflow-hidden h-3 mb-4">
+        {stats.genderBreakdown.map((g) => <div class="h-full" style={{ width: `${g.percentage}%`, backgroundColor: genderColor(g.gender) }} />)}
+      </div>
+      <div class="space-y-3">
+        {
+          stats.genderBreakdown.map((g) => (
+            <div class="flex items-center justify-between text-sm">
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: genderColor(g.gender) }} />
+                <span class="text-white">{g.gender || "Unlisted"}</span>
+              </div>
+              <div class="flex items-center gap-4 text-gray-400">
+                <span>
+                  {g.count.toLocaleString("en-US")} ({g.percentage}%)
+                </span>
+                <span class="font-mono">{formatTime(g.medianFinish)}</span>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="bg-gray-900 rounded-lg border border-gray-700 p-6">
+      <h3 class="text-sm font-medium text-gray-400 mb-4">Age Groups</h3>
+      <div class="space-y-2">
+        {
+          stats.ageGroupBreakdown.map((ag) => (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-16 text-gray-400 shrink-0">{ag.ageGroup}</span>
+              <div class="flex-1 h-4 bg-gray-800 rounded-sm overflow-hidden">
+                <div class="h-full rounded-sm bg-blue-500/40" style={{ width: `${Math.max(4, (ag.count / maxAgeGroupCount) * 100)}%` }} />
+              </div>
+              <span class="text-gray-400 w-12 text-right shrink-0">{ag.count}</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-10">
+  <h2 class="text-xl font-bold text-white mb-4">{combined ? "Fastest Finishers (All Editions)" : "Top Finishers"}</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {
+      leaderboards.map(({ title, entries }) => (
+        <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
+          <h3 class="text-sm font-medium text-gray-400 px-4 pt-4 pb-2">{title}</h3>
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-700 text-gray-400">
+                <th class="text-left px-4 py-2 font-medium w-8">#</th>
+                <th class="text-left px-4 py-2 font-medium">Name</th>
+                {combined && <th class="text-left px-4 py-2 font-medium">Year</th>}
+                <th class="text-left px-4 py-2 font-medium hidden lg:table-cell">AG</th>
+                <th class="text-right px-4 py-2 font-medium">Finish</th>
+              </tr>
+            </thead>
+            <tbody>
+              {entries.map((entry) => (
+                <tr class="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                  <td class="px-4 py-2 text-gray-400">{entry.rank}</td>
+                  <td class="px-4 py-2">
+                    <a
+                      href={`/race/${entry.raceSlug ?? resultSlug}/result/${entry.id}`}
+                      class="text-white hover:text-blue-400 transition-colors"
+                    >
+                      {getCountryFlagISO(entry.countryISO)} {formatAthleteName(entry.fullName)}
+                    </a>
+                  </td>
+                  {combined && <td class="px-4 py-2 text-gray-400">{entry.year}</td>}
+                  <td class="px-4 py-2 text-gray-400 hidden lg:table-cell">{entry.ageGroup}</td>
+                  <td class="px-4 py-2 text-right font-mono font-bold text-white">{entry.finishTime}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<slot />

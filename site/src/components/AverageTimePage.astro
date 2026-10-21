@@ -1,0 +1,34 @@
+---
+import Base from "@/layouts/Base.astro";
+import AverageTimeArticle, { type AverageTimeArticleProps } from "./AverageTimeArticle";
+import RaceHistogram from "./RaceHistogram";
+import { getDistanceStats } from "@/lib/build-cache";
+import { formatTime } from "@/lib/format";
+import { DISCIPLINE_COLORS } from "@/lib/colors";
+
+type Props = Omit<AverageTimeArticleProps, "stats" | "histogram"> & {
+  distance: "70.3" | "140.6";
+  title: string;
+  canonical: string;
+  descriptionLead: string;
+};
+
+const { distance, title, canonical, descriptionLead, ...article } = Astro.props;
+const stats = getDistanceStats(distance);
+---
+
+<Base
+  title={title}
+  description={`${descriptionLead} ${formatTime(stats.finish.medianSeconds)}, based on ${stats.finisherCount.toLocaleString("en-US")} finishers. See averages by age group, gender, and year, plus swim, bike, and run splits.`}
+  canonical={canonical}
+>
+  <AverageTimeArticle stats={stats} {...article}>
+    <RaceHistogram
+      slot="histogram"
+      client:visible
+      data={stats.histogram}
+      color={DISCIPLINE_COLORS["Total"]}
+      label={`${article.fullLabel} Finish Distribution`}
+    />
+  </AverageTimeArticle>
+</Base>

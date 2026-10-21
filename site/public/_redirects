@@ -1,0 +1,3 @@
+# Result and athlete pages are rendered in the browser from one shell each.
+/race/:slug/result/:id /shell/result 200
+/athlete/:slug /shell/athlete 200

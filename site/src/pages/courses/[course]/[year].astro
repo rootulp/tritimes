@@ -1,0 +1,23 @@
+---
+import Base from "@/layouts/Base.astro";
+import RaceBody from "@/components/RaceBody.astro";
+import CourseHeader from "@/components/CourseHeader.astro";
+import { getRacePage, getRaces } from "@/lib/build-cache";
+import { groupCourses } from "@/lib/races";
+
+export function getStaticPaths() {
+  return [...groupCourses(getRaces()).values()].flatMap((info) =>
+    info.editions.map((edition) => ({ params: { course: info.course, year: edition.year }, props: { info, edition } })),
+  );
+}
+
+const { info, edition } = Astro.props;
+const { stats, genders, ageBands } = getRacePage(edition.slug);
+---
+
+<Base title={`${info.name} ${edition.year} — Results & Time Distributions`} canonical={`/courses/${info.course}/${edition.year}`}>
+  <main class="max-w-6xl w-full mx-auto px-4 py-8">
+    <CourseHeader info={info} edition={edition} />
+    <RaceBody stats={stats} genders={genders} ageBands={ageBands} source={{ race: edition.slug }} resultSlug={edition.slug} />
+  </main>
+</Base>
