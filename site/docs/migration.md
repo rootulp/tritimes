@@ -182,6 +182,16 @@ the GitHub runner. Keep that preview current and available while the line is
 present; remove the line when a temporary preview expires. Fork PRs never
 receive deployment credentials, and the live test job has no deployment secrets.
 
+The temporary workers.dev preview returned a Cloudflare bot challenge (403) to
+GitHub's Chromium runner, even while the separate workspace HTTP/data audit
+passed. Live interaction parity is therefore **not verified** on that host.
+Use an owned persistent preview such as `https://preview.tritimes.org` whose bot
+policy permits the authorized runner, then enable the `Preview URL:` line and
+rerun the suite before cutover. The validator accepts workers.dev and
+tritimes.org HTTPS origins. The probe fails visibly on a challenge; it doesn't
+bypass it or count it as a successful application test. See
+[the recorded blocker](evidence/live-browser.json).
+
 Optional repository variables `GOOGLE_SITE_VERIFICATION` and
 `PUBLIC_CF_BEACON_TOKEN` are passed to the build for Search Console and Cloudflare
 Web Analytics. Both are public site identifiers, not deployment credentials.

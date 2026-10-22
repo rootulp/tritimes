@@ -46,8 +46,8 @@ jobs:
         run: |
           node --input-type=module <<'JS'
           import fs from 'node:fs';
-          const match = /^Preview URL: (https:\/\/[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev)\/?$/m.exec(process.env.PR_BODY ?? '');
-          if (!match) throw new Error('Preview URL must be an HTTPS workers.dev origin on its own line');
+          const match = /^Preview URL: (https:\/\/(?:[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev|(?:[a-z0-9-]+\.)*tritimes\.org))\/?$/m.exec(process.env.PR_BODY ?? '');
+          if (!match) throw new Error('Preview URL must be an HTTPS workers.dev or tritimes.org origin on its own line');
           fs.appendFileSync(process.env.GITHUB_OUTPUT, `url=${match[1]}\n`);
           JS
       - run: npm ci

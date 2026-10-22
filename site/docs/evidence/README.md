@@ -11,6 +11,7 @@ sampled browser performance; it does not claim every user or URL is faster.
 | New site unit tests | 186 passed |
 | Original app unit tests | 210 passed |
 | Desktop/mobile browser checks on Cloudflare's local runtime | 40 passed |
+| Browser interaction checks on the public workers.dev preview | Blocked by Cloudflare's 403 bot challenge |
 | Races audited against the original data layer | 1,539 |
 | Complete displayed result records and stable IDs checked | 2,216,440 |
 | Complete athlete profiles compared | 876,538 |
@@ -120,6 +121,13 @@ Race/course/article pages remain pre-rendered. See the
 The temporary [Cloudflare preview](https://tritimes-migration-preview.lackadaisical-tracker.workers.dev)
 may expire. Its HTTP/data verification is distinct from local browser tests;
 the optional live browser CI job tests that public origin with normal HTTPS trust.
+That job received Cloudflare's **403 “Performing security verification” challenge**
+on GitHub's hosted runner and could not reach TriTimes. This is a recorded blocker,
+not a passing interaction test: [diagnostic evidence](live-browser.json) and
+[CI log](https://github.com/rootulp/tritimes/actions/runs/39734549244/job/119677215232).
+An owned persistent preview with a compatible bot policy is required for that
+pre-cutover check. The linked temporary URL is retained for manual review; the
+PR description does not enable a known-blocked optional CI check by default.
 Production DNS, the existing Next app and the Vercel subscription remain unchanged.
 
 These reports prove the recorded assertions and measurements for this corpus,
