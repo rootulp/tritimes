@@ -52,6 +52,24 @@ jobs:
           JS
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - name: Check live browser response before interaction tests
+        env:
+          BASE_URL: ${{ steps.preview.outputs.url }}
+        run: |
+          node --input-type=module <<'JS'
+          import { chromium } from '@playwright/test';
+          const browser = await chromium.launch();
+          try {
+            const page = await browser.newPage();
+            page.on('pageerror', error => console.log('Browser error:', error.message));
+            page.on('requestfailed', request => console.log('Failed request:', request.url(), request.failure()?.errorText));
+            const response = await page.goto(process.env.BASE_URL, { waitUntil: 'load', timeout: 30000 });
+            const title = await page.title();
+            const body = (await page.locator('body').innerText()).slice(0, 1500);
+            console.log(JSON.stringify({ status: response?.status(), title, body }, null, 2));
+            if (response?.status() !== 200 || !title.includes('TriTimes')) throw new Error('Preview did not return the TriTimes page');
+          } finally { await browser.close(); }
+          JS
       - name: Browser parity on the actual Cloudflare CDN
         env:
           BASE_URL: ${{ steps.preview.outputs.url }}
