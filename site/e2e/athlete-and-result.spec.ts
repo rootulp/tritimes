@@ -88,7 +88,14 @@ test("result page: share copies the canonical link and downloads a PNG card", as
 });
 
 test("unknown result and athlete URLs show the not-found page and are noindexed", async ({ page }) => {
-  for (const url of ["/race/im-arizona-2025/result/99999999", "/race/no-such-race/result/1", "/athlete/no-such-person--zz-x"]) {
+  for (const url of [
+    "/race/im-arizona-2025/result/99999999",
+    "/race/no-such-race/result/1",
+    "/athlete/no-such-person--zz-x",
+    "/athlete/__proto__",
+    "/athlete/constructor",
+    "/athlete/toString",
+  ]) {
     await page.goto(url);
     await expect(page.getByRole("heading", { name: "Page not found" })).toBeVisible();
     await expect(page.locator('meta[name="robots"][content="noindex"]')).toHaveCount(1);
