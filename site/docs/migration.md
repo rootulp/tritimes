@@ -185,9 +185,12 @@ receive deployment credentials, and the live test job has no deployment secrets.
 The temporary workers.dev preview returned a Cloudflare bot challenge (403) to
 GitHub's Chromium runner, even while the separate workspace HTTP/data audit
 passed. Live interaction parity is therefore **not verified** on that host.
-Use an owned persistent preview such as `https://preview.tritimes.org` whose bot
-policy permits the authorized runner, then enable the `Preview URL:` line and
-rerun the suite before cutover. The validator accepts workers.dev and
+The owned preview at `https://tritimes-preview.rootulp.workers.dev` was subsequently
+verified on 2026-10-22: all 40 desktop/mobile browser tests passed, all 3,276
+audited URLs returned 200, missing static routes returned 404, and representative
+race/search downloads matched the build byte for byte. See
+[owned-preview evidence](evidence/cloudflare-owned-preview.json). This resolves
+the hosted-interaction blocker for that deployment. The validator accepts workers.dev and
 tritimes.org HTTPS origins. The probe fails visibly on a challenge; it doesn't
 bypass it or count it as a successful application test. See
 [the recorded blocker](evidence/live-browser.json).
@@ -196,17 +199,18 @@ Optional repository variables `GOOGLE_SITE_VERIFICATION` and
 `PUBLIC_CF_BEACON_TOKEN` are passed to the build for Search Console and Cloudflare
 Web Analytics. Both are public site identifiers, not deployment credentials.
 
-By default, merging does **not** deploy production. A manual workflow dispatch on `main` with
-`deploy=production` deploys the configured `tritimes` Worker. For manual CLI use,
+Relevant pushes to `main` automatically deploy the configured `tritimes` Worker
+after the build, parity, browser and performance checks pass. This includes
+automatic scraper-data merges. A manual workflow dispatch on `main` with
+`deploy=production` also deploys that Worker. For manual CLI use,
 authenticate with your intended account, run the checks, then `npm run deploy`.
 No production custom domain is declared in the checked-in configuration.
 
-After the cutover is accepted, set repository variable
-`CLOUDFLARE_PRODUCTION_ENABLED=true` to opt into production deployments on main
-pushes. That preserves automatic updates when the existing daily scraper merges
-new race data. Until explicitly enabled, those pushes only update the preview.
-Remove/set the variable to `false` to return to manual production deployment.
-This PR does not change repository variables or enable production automation.
+The old `CLOUDFLARE_PRODUCTION_ENABLED` opt-in variable is no longer used.
+To pause automatic deployment, disable the Site workflow or change its production
+job condition in a reviewed commit. A manual `deploy=preview` run only deploys a
+preview. A manual `deploy=inspect-domains` run checks the Cloudflare token's zone
+and DNS read access without changing any records or rebuilding the site.
 
 Wrangler also supports `wrangler deploy --temporary --name <preview-name>` when
 no account is authenticated. Temporary accounts expire unless claimed; their

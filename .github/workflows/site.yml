@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
     inputs:
       deploy:
-        description: Deployment destination (production requires an explicit dispatch)
+        description: Deployment destination (main pushes also deploy production)
         type: choice
-        options: [preview, production]
+        options: [preview, production, inspect-domains]
         default: preview
 
 concurrency:
@@ -23,6 +23,45 @@ permissions:
   contents: read
 
 jobs:
+  inspect-domains:
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy == 'inspect-domains'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check DNS access without modifying the zone
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          token = os.environ['CLOUDFLARE_API_TOKEN']
+          account = os.environ['CLOUDFLARE_ACCOUNT_ID']
+          def get(path):
+              request = urllib.request.Request('https://api.cloudflare.com/client/v4' + path,
+                  headers={'Authorization': 'Bearer ' + token})
+              try:
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      body = json.load(response)
+              except urllib.error.HTTPError as error:
+                  body = json.load(error)
+                  raise RuntimeError(json.dumps({'status': error.code, 'errors': body.get('errors')})) from None
+              if not body.get('success'):
+                  raise RuntimeError(json.dumps(body.get('errors')))
+              return body['result']
+          zones = get('/zones?name=tritimes.org&account.id=' + account)
+          if len(zones) != 1:
+              raise RuntimeError('Expected exactly one tritimes.org zone in the deployment account')
+          zone = zones[0]
+          records = []
+          for name in ['tritimes.org', 'www.tritimes.org']:
+              records += get('/zones/' + zone['id'] + '/dns_records?name=' + name)
+          print(json.dumps({'zone': zone['name'], 'status': zone['status'], 'records': [
+              {key: record.get(key) for key in ['type', 'name', 'content', 'proxied', 'ttl']}
+              for record in records if record['type'] in ['A', 'AAAA', 'CNAME']
+          ]}, indent=2))
+          print('Inspection only: no DNS records or domains were changed.')
+          PY
   live-preview:
     if: >-
       github.event_name == 'pull_request' &&
@@ -85,6 +124,7 @@ jobs:
           retention-days: 7
 
   site:
+    if: github.event_name != 'workflow_dispatch' || inputs.deploy != 'inspect-domains'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     defaults:
@@ -142,6 +182,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           PREVIEW_NAME: tritimes-preview${{ github.event_name == 'pull_request' && format('-pr-{0}', github.event.number) || '' }}
         run: |
+          set -euo pipefail
           if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
             echo 'Preview skipped: configure CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.' >> "$GITHUB_STEP_SUMMARY"
             exit 0
@@ -149,13 +190,12 @@ jobs:
           npx wrangler deploy --name "$PREVIEW_NAME" | tee /tmp/tritimes-deploy.log
           sed -n '/https:.*workers.dev/p' /tmp/tritimes-deploy.log >> "$GITHUB_STEP_SUMMARY"
 
-      # Default: manual production deployments only. After cutover, the owner
-      # can explicitly enable main-push deploys to keep daily race data fresh.
-      - name: Deploy production (explicit opt-in only)
+      # Main pushes deploy production so daily scraper merges reach the live site.
+      - name: Deploy production
         if: >-
           github.ref == 'refs/heads/main' &&
           ((github.event_name == 'workflow_dispatch' && inputs.deploy == 'production') ||
-          (github.event_name == 'push' && vars.CLOUDFLARE_PRODUCTION_ENABLED == 'true'))
+          github.event_name == 'push')
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
