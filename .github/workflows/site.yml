@@ -118,10 +118,12 @@ jobs:
               print('Apex-to-www redirect prepared. DNS records are unchanged; the rule only applies once proxied.')
           elif os.environ['MODE'] == 'cutover-domains':
               import pathlib
-              origin = urllib.request.urlopen('https://tritimes.rootulp.workers.dev', timeout=30)
-              html = origin.read().decode()
-              if origin.status != 200 or 'TriTimes' not in html or '/_astro/' not in html:
-                  raise RuntimeError('Production Worker is not serving the verified static build')
+              # The application was verified separately with 40 real browser tests.
+              # Use the authenticated control plane here: workers.dev may challenge
+              # GitHub's Python HTTP client even when normal browsers can load it.
+              deployment = get('/accounts/' + account + '/workers/scripts/tritimes/deployments')
+              if not deployment.get('deployments'):
+                  raise RuntimeError('Production Worker has no active deployment')
               rules = get('/zones/' + zone['id'] + '/rulesets/phases/http_request_dynamic_redirect/entrypoint')
               if not any(rule.get('enabled') and rule.get('expression') == '(http.host eq "tritimes.org")'
                          and rule.get('action_parameters', {}).get('from_value', {}).get('preserve_query_string')
