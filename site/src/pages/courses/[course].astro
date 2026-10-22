@@ -28,15 +28,15 @@ const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : yea
       if (y) location.replace(location.pathname + "/" + encodeURIComponent(y));
     })();
   </script>
-  <main class="max-w-6xl w-full mx-auto px-4 py-8">
+  <main id="main-content" class="max-w-6xl w-full mx-auto px-4 py-8">
     <CourseHeader info={info} />
     <RaceBody stats={stats} genders={genders} ageBands={ageBands} source={{ course }} combined>
       <section class="mb-10">
-        <h2 class="text-xl font-bold text-white mb-4">All Editions</h2>
-        <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+        <h2 class="text-xl font-bold text-foreground mb-4">All Editions</h2>
+        <div class="bg-surface rounded-lg border border-line overflow-x-auto" tabindex="0" role="region" aria-label="Course editions table; scroll horizontally for all columns">
           <table class="w-full text-sm min-w-[360px]">
             <thead>
-              <tr class="border-b border-gray-700 text-gray-400">
+              <tr class="border-b border-line text-secondary">
                 <th class="text-left px-4 py-3 font-medium">Year</th>
                 <th class="text-right px-4 py-3 font-medium">Finishers</th>
                 <th class="text-right px-4 py-3 font-medium">Median Finish</th>
@@ -45,14 +45,14 @@ const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : yea
             <tbody>
               {
                 yearSummary.map((row) => (
-                  <tr class="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
+                  <tr class="border-b border-line last:border-b-0 hover:bg-subtle/50">
                     <td class="px-4 py-3">
-                      <a href={`/race/${row.slug}`} class="text-white hover:text-blue-400 transition-colors">
+                      <a href={`/race/${row.slug}`} class="text-foreground hover:text-accent transition-colors">
                         {row.year}
                       </a>
                     </td>
-                    <td class="px-4 py-3 text-right text-gray-300">{row.finishers.toLocaleString("en-US")}</td>
-                    <td class="px-4 py-3 text-right font-mono text-white">{row.medianFinish > 0 ? formatTime(row.medianFinish) : "—"}</td>
+                    <td class="px-4 py-3 text-right text-secondary">{row.finishers.toLocaleString("en-US")}</td>
+                    <td class="px-4 py-3 text-right font-mono text-foreground">{row.medianFinish > 0 ? formatTime(row.medianFinish) : "—"}</td>
                   </tr>
                 ))
               }

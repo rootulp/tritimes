@@ -90,12 +90,12 @@ export default function RaceDistributions({ initial, genders, ageBands, total, s
   }
 
   const selectClass =
-    "bg-gray-800 border border-gray-700 text-white text-sm rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500";
+    "bg-subtle border border-line text-foreground text-sm rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-accent";
 
   return (
     <div>
       <div className="flex flex-wrap items-center gap-3 mb-6" onPointerEnter={prefetch} onFocusIn={prefetch}>
-        <div className="flex flex-col gap-1 text-xs text-gray-400">
+        <div className="flex flex-col gap-1 text-xs text-secondary">
           <label htmlFor="race-dist-gender">Gender</label>
           <select
             id="race-dist-gender"
@@ -115,7 +115,7 @@ export default function RaceDistributions({ initial, genders, ageBands, total, s
           </select>
         </div>
 
-        <div className="flex flex-col gap-1 text-xs text-gray-400">
+        <div className="flex flex-col gap-1 text-xs text-secondary">
           <label htmlFor="race-dist-age-group">Age group</label>
           <select
             id="race-dist-age-group"
@@ -137,10 +137,10 @@ export default function RaceDistributions({ initial, genders, ageBands, total, s
 
         {isFiltered && (
           <div className="flex items-center gap-3 self-end pb-2">
-            <span className="text-sm text-gray-400">
+            <span className="text-sm text-secondary">
               {pending ? "Loading…" : error ? "Couldn't load finishers" : `${count.toLocaleString()} of ${total.toLocaleString()} finishers`}
             </span>
-            <button onClick={reset} className="text-sm text-blue-400 hover:text-blue-300 transition-colors">
+            <button onClick={reset} className="text-sm text-accent hover:text-accent transition-colors">
               Reset
             </button>
           </div>
@@ -148,13 +148,13 @@ export default function RaceDistributions({ initial, genders, ageBands, total, s
       </div>
 
       {count === 0 ? (
-        <div className="bg-gray-900 rounded-xl border border-gray-700 p-10 text-center text-gray-400">
+        <div className="bg-surface rounded-xl border border-line p-10 text-center text-secondary">
           No finishers match this filter.
         </div>
       ) : (
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 transition-opacity ${pending ? "opacity-60" : ""}`}>
           {DISCIPLINES.map((d) => (
-            <div key={d.key} className="bg-gray-900 rounded-xl border border-gray-700 p-6">
+            <div key={d.key} className="bg-surface rounded-xl border border-line p-6">
               <RaceHistogram data={histograms[d.key]} color={DISCIPLINE_COLORS[d.label]} label={`${d.label} Distribution`} />
             </div>
           ))}

@@ -51,8 +51,9 @@ export default function GlobalSearchBar() {
   }
 
   return (
-    <div ref={wrapperRef} className="relative w-full max-w-lg mx-auto">
+    <div ref={wrapperRef} className="relative w-full">
       <div className="relative">
+        <svg aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-muted pointer-events-none" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
         <input
           id="global-search"
           type="text"
@@ -64,45 +65,52 @@ export default function GlobalSearchBar() {
           }}
           placeholder="Search athlete name..."
           aria-label="Search athlete name"
-          className="w-full px-4 py-3 text-lg border border-gray-700 rounded-lg bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="search-field"
+          autoComplete="off"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded={isOpen && viewState === "results"}
+          aria-controls={isOpen && viewState === "results" ? "athlete-search-results" : undefined}
+          aria-activedescendant={isOpen && matches[selectedIndex] ? `athlete-match-${selectedIndex}` : undefined}
         />
         {isSearching && (
           <div className="absolute right-3 top-1/2 -translate-y-1/2">
-            <div className="h-5 w-5 border-2 border-gray-500 border-t-blue-400 rounded-full animate-spin" />
+            <div className="h-5 w-5 border-2 border-strong border-t-accent rounded-full animate-spin" />
           </div>
         )}
       </div>
       {isOpen && viewState !== "closed" && (
-        <ul className="absolute z-50 w-full mt-1 bg-gray-900 border border-gray-700 rounded-lg shadow-lg max-h-80 overflow-y-auto">
+        <div className="absolute z-50 w-full mt-2 bg-surface border border-line rounded-xl shadow-lg max-h-80 overflow-y-auto">
           {viewState === "loading" ? (
-            <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">
+            <div className="px-4 py-4 text-sm text-secondary" role="status">
               Searching athletes...
-            </li>
+            </div>
           ) : error ? (
-            <li className="px-4 py-4 text-sm text-gray-400" role="alert">
+            <div className="px-4 py-4 text-sm text-secondary" role="alert">
               Couldn&apos;t load search results.{" "}
-              <button type="button" className="text-blue-400 hover:underline" onClick={() => handleChange(query)}>Try again</button>
-            </li>
+              <button type="button" className="text-accent hover:underline" onClick={() => handleChange(query)}>Try again</button>
+            </div>
           ) : viewState === "empty" ? (
-            <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">
+            <div className="px-4 py-4 text-sm text-secondary" role="status">
               No athletes found
-            </li>
+            </div>
           ) : (
-            matches.map((entry, i) => (
+            <ul id="athlete-search-results" role="listbox" aria-label="Athlete matches">{matches.map((entry, i) => (
               <li
                 key={entry.slug}
-                className={`border-b border-gray-800 last:border-b-0 ${i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800"}`}
+                role="presentation"
+                className={`border-b border-line last:border-b-0 ${i === selectedIndex ? "bg-subtle" : "hover:bg-subtle"}`}
               >
-                <a href={`/athlete/${entry.slug}`} onClick={() => setIsOpen(false)} className="block px-4 py-3">
-                  <div className="font-medium text-white">{formatAthleteName(entry.fullName)}</div>
-                  <div className="text-sm text-gray-400">
+                <a id={`athlete-match-${i}`} role="option" aria-selected={i === selectedIndex} tabIndex={-1} href={`/athlete/${entry.slug}`} onClick={() => setIsOpen(false)} className="block px-4 py-3">
+                  <div className="font-medium text-foreground">{formatAthleteName(entry.fullName)}</div>
+                  <div className="text-sm text-secondary">
                     {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
                   </div>
                 </a>
               </li>
-            ))
+            ))}</ul>
           )}
-        </ul>
+        </div>
       )}
     </div>
   );

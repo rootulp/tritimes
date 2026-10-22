@@ -2,7 +2,9 @@
 // server-rendered /race/<slug>/result/<id>/opengraph-image endpoint, keeping
 // the same layout: name, race meta, hero finish time, percentiles, splits.
 
-import { DISCIPLINE_COLORS } from "./colors";
+// The downloadable card has its own fixed dark canvas, independent of the page
+// theme. Canvas fillStyle cannot resolve CSS custom properties.
+const SHARE_COLORS = { Swim: "#82b2ff", Bike: "#ff8b95", Run: "#edbf66" };
 
 export interface ShareCard {
   name: string;
@@ -88,7 +90,7 @@ export function drawShareCard(card: ShareCard): Promise<Blob | null> {
     ctx.fill();
     ctx.textAlign = "center";
     ctx.letterSpacing = "2px";
-    ctx.fillStyle = DISCIPLINE_COLORS[split.label];
+    ctx.fillStyle = SHARE_COLORS[split.label];
     ctx.font = `700 18px ${FONT}`;
     ctx.fillText(split.label.toUpperCase(), bx + boxW / 2, by + 42);
     ctx.letterSpacing = "0px";

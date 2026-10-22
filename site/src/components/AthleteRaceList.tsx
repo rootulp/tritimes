@@ -107,7 +107,7 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
         <button
           type="button"
           onClick={() => downloadCsv(fullName, visibleRaces)}
-          className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 text-sm text-secondary hover:text-foreground transition-colors cursor-pointer"
         >
           <DownloadIcon />
           Export CSV
@@ -121,16 +121,16 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
           return (
             <div
               key={key}
-              className={`flex items-start bg-gray-900 border rounded-lg transition-colors ${
+              className={`flex items-start bg-surface border rounded-lg transition-colors ${
                 isHidden
-                  ? "border-gray-800/50 opacity-50"
-                  : "border-gray-800 hover:border-gray-600"
+                  ? "border-line/50 opacity-50"
+                  : "border-line hover:border-strong"
               }`}
             >
               <button
                 type="button"
                 onClick={() => toggle(key)}
-                className="flex-shrink-0 p-3 pl-4 self-center text-gray-500 hover:text-gray-300 transition-colors"
+                className="flex-shrink-0 p-3 pl-4 self-center text-muted hover:text-secondary transition-colors"
                 title={isHidden ? "Show in charts" : "Hide from charts"}
                 aria-label={
                   isHidden
@@ -147,27 +147,27 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-2">
                   <div className="min-w-0">
                     <div className="flex items-center gap-2 flex-wrap">
-                      <span className="font-medium text-white">
+                      <span className="font-medium text-foreground">
                         {race.raceName}
                       </span>
-                      <span className="flex-shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-white/5 text-gray-400">
+                      <span className="flex-shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-subtle text-secondary">
                         {race.distance}
                       </span>
                     </div>
-                    <div className="text-sm text-gray-400 mt-1">
+                    <div className="text-sm text-secondary mt-1">
                       {race.raceDate} &middot; {race.ageGroup}
                     </div>
                   </div>
                   <div className="sm:text-right flex items-center sm:block gap-3 flex-shrink-0">
-                    <div className="text-lg font-mono text-white">
+                    <div className="text-lg font-mono text-foreground">
                       {race.finishTime}
                     </div>
-                    <div className="text-xs font-mono text-gray-500 sm:mt-1">
-                      <span className="text-blue-400">{race.swimTime}</span>
+                    <div className="text-xs font-mono text-muted sm:mt-1">
+                      <span className="text-accent">{race.swimTime}</span>
                       {" / "}
-                      <span className="text-red-400">{race.bikeTime}</span>
+                      <span className="text-bike">{race.bikeTime}</span>
                       {" / "}
-                      <span className="text-amber-400">{race.runTime}</span>
+                      <span className="text-run">{race.runTime}</span>
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function AthleteRaceList({ slug, fullName, races }: Props) {
       </div>
 
       {hasHidden && (
-        <p className="text-sm text-gray-500 mt-2">
+        <p className="text-sm text-muted mt-2">
           {hidden.size} {hidden.size === 1 ? "result" : "results"} hidden from
           charts
         </p>

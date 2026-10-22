@@ -58,9 +58,9 @@ export default function AthleteApp() {
   if (state.status === "missing") return <NotFoundContent />;
   if (state.status === "error") {
     return (
-      <main className="max-w-6xl w-full mx-auto px-4 py-16 text-center text-gray-400">
+      <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-16 text-center text-secondary">
         Couldn&apos;t load this athlete. Check your connection and{" "}
-        <button className="text-blue-400 hover:underline" onClick={() => window.location.reload()}>
+        <button className="text-accent hover:underline" onClick={() => window.location.reload()}>
           try again
         </button>
         .
@@ -71,13 +71,14 @@ export default function AthleteApp() {
   const { profile } = state;
   const flag = getCountryFlagISO(profile.countryISO);
   return (
-    <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-white">
+    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8">
+      <header className="page-intro">
+        <p className="eyebrow">Athlete race history</p>
+        <h1 className="text-3xl font-bold text-foreground">
           {flag && <span className="mr-2">{flag}</span>}
           {formatAthleteName(profile.fullName)}
         </h1>
-        <p className="text-gray-400 mt-1">
+        <p className="text-secondary mt-1">
           {profile.country} &middot; {profile.races.length} {profile.races.length === 1 ? "race" : "races"}
         </p>
       </header>
@@ -88,17 +89,17 @@ export default function AthleteApp() {
 
 export function AthleteSkeleton() {
   return (
-    <main className="max-w-6xl w-full mx-auto px-4 py-8 animate-pulse" aria-busy="true">
+    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8 animate-pulse" aria-busy="true">
       <header className="mb-8">
-        <div className="h-9 w-64 bg-gray-800 rounded mb-2" />
-        <div className="h-5 w-40 bg-gray-800 rounded" />
+        <div className="h-9 w-64 bg-subtle rounded mb-2" />
+        <div className="h-5 w-40 bg-subtle rounded" />
       </header>
       <div className="flex justify-end mb-4">
-        <div className="h-5 w-24 bg-gray-800 rounded" />
+        <div className="h-5 w-24 bg-subtle rounded" />
       </div>
       <div className="space-y-4">
         {[1, 2, 3].map((i) => (
-          <div key={i} className="h-[86px] bg-gray-900 border border-gray-800 rounded-lg" />
+          <div key={i} className="h-[86px] bg-surface border border-line rounded-lg" />
         ))}
       </div>
     </main>

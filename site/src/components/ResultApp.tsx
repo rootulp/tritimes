@@ -1,5 +1,4 @@
 import { useEffect, useState } from "preact/hooks";
-import ResultCard from "./ResultCard";
 import DisciplineSections from "./DisciplineSections";
 import ShareDialog from "./ShareDialog";
 import NotFoundContent, { markNotFound, setPageMeta } from "./NotFoundContent";
@@ -53,9 +52,9 @@ export default function ResultApp() {
   if (state.status === "missing") return <NotFoundContent />;
   if (state.status === "error") {
     return (
-      <main className="max-w-6xl w-full mx-auto px-4 py-16 text-center text-gray-400">
+      <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-16 text-center text-secondary">
         Couldn&apos;t load this result. Check your connection and{" "}
-        <button className="text-blue-400 hover:underline" onClick={() => window.location.reload()}>
+        <button className="text-accent hover:underline" onClick={() => window.location.reload()}>
           try again
         </button>
         .
@@ -89,21 +88,23 @@ function Result({ file: race, athlete }: { file: RaceFile; athlete: AthleteResul
   });
 
   return (
-    <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <header className="mb-8 flex items-start justify-between gap-4">
+    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8">
+      <a className="text-link text-sm inline-block mb-5" href={`/race/${slug}`}>← Race overview</a>
+      <header className="mb-6 flex items-start justify-between gap-4">
         <div className="min-w-0">
-          <h1 className="text-3xl font-bold text-white">
+          <p className="eyebrow mb-2">Race result</p>
+          <h1 className="text-3xl font-bold text-foreground">
             {flag && <span className="mr-2">{flag}</span>}
             {athleteSlug ? (
-              <a href={`/athlete/${athleteSlug}`} className="hover:text-blue-400 transition-colors">
+              <a href={`/athlete/${athleteSlug}`} className="hover:text-accent transition-colors">
                 {name}
               </a>
             ) : (
               name
             )}
           </h1>
-          <p className="text-gray-400 mt-1">
-            <a href={`/race/${slug}`} className="text-blue-400 hover:underline">
+          <p className="text-secondary mt-1">
+            <a href={`/race/${slug}`} className="text-accent hover:underline">
               {race.name}
             </a>{" "}
             &middot; Bib #{athlete.bib} &middot; {athlete.ageGroup} &middot; {location}
@@ -128,15 +129,20 @@ function Result({ file: race, athlete }: { file: RaceFile; athlete: AthleteResul
         />
       </header>
 
-      <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8">
-        <ResultCard label="Overall" value={`Top ${overallPct}%`} subtext={`${athlete.overallRank} of ${totalFinishers}`} />
-        <ResultCard label="Gender" value={`Top ${genderPct}%`} subtext={`${athlete.genderRank} of ${genderTotal}`} />
-        <ResultCard
-          label="Age Group"
-          value={`Top ${ageGroupPct}%`}
-          subtext={`${athlete.ageGroupRank} of ${ageGroupTotal} · ${athlete.ageGroup}`}
-        />
-      </div>
+      <section className="result-summary panel" aria-label="Finish and placement">
+        <div><p className="eyebrow">Finish time</p><p className="finish-time">{athlete.finishTime || "—"}</p><p className="text-sm text-secondary">{race.date} · {race.slug.startsWith("im703-") ? "70.3" : "140.6"} miles</p></div>
+        <dl className="placement-grid">
+          {[
+            { label: "Overall", pct: overallPct, rank: athlete.overallRank, total: totalFinishers },
+            { label: "Gender", pct: genderPct, rank: athlete.genderRank, total: genderTotal },
+            { label: "Age Group", pct: ageGroupPct, rank: athlete.ageGroupRank, total: ageGroupTotal },
+          ].map((item) => <div className="placement-card" key={item.label}>
+            <dt className="text-xs text-secondary mb-1">{item.label}</dt>
+            <dd className="placement-value">Top {item.pct}%</dd>
+            <dd className="text-xs text-muted mt-1">{item.rank.toLocaleString()} of {item.total.toLocaleString()}{item.label === "Age Group" && <span className="block">{athlete.ageGroup}</span>}</dd>
+          </div>)}
+        </dl>
+      </section>
 
       <DisciplineSections
         disciplines={[

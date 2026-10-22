@@ -7,8 +7,8 @@ import { DISCIPLINE_COLORS } from "@/lib/colors";
 import { cursorXToDataIndex, computeLabelStep } from "@/lib/chart-utils";
 
 const DISTANCE_COLORS: Record<string, string> = {
-  "70.3": "#3b82f6",
-  "140.6": "#f97316",
+  "70.3": "var(--swim)",
+  "140.6": "var(--run)",
 };
 
 function formatDateShort(iso: string): string {
@@ -36,11 +36,11 @@ interface Props {
   races: AthleteRaceEntry[];
 }
 
-const SVG_WIDTH = 500;
-const CHART_HEIGHT = 250;
+const SVG_WIDTH = 400;
+const CHART_HEIGHT = 230;
 const MARGIN = { top: 15, right: 10, bottom: 30, left: 55 };
 // Approximate width in viewBox units of an x-axis label like "Sep 2024".
-const MIN_LABEL_SPACING = 50;
+const MIN_LABEL_SPACING = 65;
 
 function StackedBarChart({ data }: { data: BarDataPoint[] }) {
   const [tooltipIdx, setTooltipIdx] = useState<number | null>(null);
@@ -78,18 +78,19 @@ function StackedBarChart({ data }: { data: BarDataPoint[] }) {
       <svg
         ref={svgRef}
         viewBox={`0 0 ${SVG_WIDTH} ${CHART_HEIGHT}`}
-        className="w-full"
-        style={{ height: CHART_HEIGHT }}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={() => setTooltipIdx(null)}
+        className="w-full h-auto"
+        role="img"
+        aria-label="Swim, bike, run and transition times across your races"
+        onPointerMove={handleMouseMove}
+        onPointerLeave={() => setTooltipIdx(null)}
       >
         {/* Y-axis grid + labels */}
         {yTicks.map((tick) => {
           const y = MARGIN.top + innerHeight - (tick / maxTotal) * innerHeight;
           return (
             <g key={tick}>
-              <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="#374151" stroke-width="0.5" />
-              <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="#9ca3af" font-size="11">{formatTime(tick)}</text>
+              <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="var(--chart-grid)" stroke-width="0.5" />
+              <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="var(--muted)" font-size="12">{formatTime(tick)}</text>
             </g>
           );
         })}
@@ -102,7 +103,7 @@ function StackedBarChart({ data }: { data: BarDataPoint[] }) {
             { value: d.swim, color: DISCIPLINE_COLORS.Swim },
             { value: d.bike, color: DISCIPLINE_COLORS.Bike },
             { value: d.run, color: DISCIPLINE_COLORS.Run },
-            { value: d.transition, color: "#4b5563" },
+            { value: d.transition, color: "var(--chart-bar)" },
           ];
           let yOffset = MARGIN.top + innerHeight;
           return (
@@ -131,7 +132,7 @@ function StackedBarChart({ data }: { data: BarDataPoint[] }) {
           if (i % step !== 0) return null;
           const x = MARGIN.left + ((i + 0.35) / data.length) * plotWidth;
           return (
-            <text key={i} x={x} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="#9ca3af" font-size="11">
+            <text key={i} x={x} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="var(--muted)" font-size="12">
               {d.dateLabel}
             </text>
           );
@@ -145,19 +146,19 @@ function StackedBarChart({ data }: { data: BarDataPoint[] }) {
             left: "50%",
             top: 0,
             transform: "translateX(-50%)",
-            backgroundColor: "#1f2937",
-            border: "1px solid #374151",
-            color: "#ededed",
+            backgroundColor: "var(--surface)",
+            border: "1px solid var(--chart-grid)",
+            color: "var(--foreground)",
           }}
         >
           <div className="font-semibold">{point.raceName}</div>
-          <div className="text-[11px] text-gray-400 mb-1">{point.dateLabel}</div>
+          <div className="text-[11px] text-secondary mb-1">{point.dateLabel}</div>
           <div className="space-y-0.5">
             <div style={{ color: DISCIPLINE_COLORS.Swim }}>Swim: {formatTime(point.swim)}</div>
             <div style={{ color: DISCIPLINE_COLORS.Bike }}>Bike: {formatTime(point.bike)}</div>
             <div style={{ color: DISCIPLINE_COLORS.Run }}>Run: {formatTime(point.run)}</div>
-            {point.transition > 0 && <div style={{ color: "#6b7280" }}>T1+T2: {formatTime(point.transition)}</div>}
-            <div className="border-t border-gray-600 pt-0.5 mt-0.5 font-semibold" style={{ color: DISCIPLINE_COLORS.Total }}>
+            {point.transition > 0 && <div style={{ color: "var(--muted)" }}>T1+T2: {formatTime(point.transition)}</div>}
+            <div className="border-t border-strong pt-0.5 mt-0.5 font-semibold" style={{ color: DISCIPLINE_COLORS.Total }}>
               Total: {formatTime(point.total)}
             </div>
           </div>
@@ -212,18 +213,19 @@ function PercentileLineChart({ data, color }: { data: PercentileDataPoint[]; col
       <svg
         ref={svgRef}
         viewBox={`0 0 ${SVG_WIDTH} ${CHART_HEIGHT}`}
-        className="w-full"
-        style={{ height: CHART_HEIGHT }}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={() => setTooltipIdx(null)}
+        className="w-full h-auto"
+        role="img"
+        aria-label="Overall field percentile across your races"
+        onPointerMove={handleMouseMove}
+        onPointerLeave={() => setTooltipIdx(null)}
       >
         {/* Y-axis grid */}
         {yTicks.map((tick) => {
           const y = getY(tick);
           return (
             <g key={tick}>
-              <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="#374151" stroke-width="0.5" />
-              <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="#9ca3af" font-size="11">{tick}%</text>
+              <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="var(--chart-grid)" stroke-width="0.5" />
+              <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="var(--muted)" font-size="12">{tick}%</text>
             </g>
           );
         })}
@@ -240,7 +242,7 @@ function PercentileLineChart({ data, color }: { data: PercentileDataPoint[]; col
         {data.map((d, i) => {
           if (i % step !== 0) return null;
           return (
-            <text key={i} x={getX(i)} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="#9ca3af" font-size="11">
+            <text key={i} x={getX(i)} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="var(--muted)" font-size="12">
               {d.dateLabel}
             </text>
           );
@@ -254,13 +256,13 @@ function PercentileLineChart({ data, color }: { data: PercentileDataPoint[]; col
             left: "50%",
             top: 0,
             transform: "translateX(-50%)",
-            backgroundColor: "#1f2937",
-            border: "1px solid #374151",
-            color: "#ededed",
+            backgroundColor: "var(--surface)",
+            border: "1px solid var(--chart-grid)",
+            color: "var(--foreground)",
           }}
         >
           <div className="font-semibold">{point.raceName}</div>
-          <div className="text-[11px] text-gray-400">{point.dateLabel}</div>
+          <div className="text-[11px] text-secondary">{point.dateLabel}</div>
           <div className="mt-1" style={{ color }}>Top {point.percentile}%</div>
         </div>
       )}
@@ -301,11 +303,11 @@ function DistanceSection({
 
   return (
     <div>
-      <h3 className="text-lg font-semibold text-white mb-4">{label}</h3>
+      <h3 className="text-lg font-semibold text-foreground mb-4">{label}</h3>
       <div className="space-y-6">
         <div>
           <div className="flex items-center justify-between mb-1">
-            <span className="text-sm font-medium text-gray-400">Finish Time</span>
+            <span className="text-sm font-medium text-secondary">Finish Time</span>
             <div className="flex items-center gap-3 text-[11px]">
               <span className="flex items-center gap-1">
                 <span className="inline-block w-2.5 h-2.5 rounded-sm" style={{ backgroundColor: DISCIPLINE_COLORS.Swim }} />
@@ -325,7 +327,7 @@ function DistanceSection({
         </div>
 
         <div>
-          <span className="text-sm font-medium text-gray-400">Finish Percentile</span>
+          <span className="text-sm font-medium text-secondary">Finish Percentile</span>
           <PercentileLineChart data={percentileData} color={color} />
         </div>
       </div>
@@ -347,7 +349,7 @@ export default function AthletePerformanceCharts({ races }: Props) {
 
   return (
     <section className="mt-8">
-      <h2 className="text-xl font-bold text-white mb-6">Performance Over Time</h2>
+      <h2 className="text-xl font-bold text-foreground mb-6">Performance Over Time</h2>
       <div className="space-y-8">
         {show703 && (
           <DistanceSection label="IRONMAN 70.3" races={races703} color={DISTANCE_COLORS["70.3"]} />

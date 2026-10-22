@@ -21,7 +21,7 @@ interface Props {
 
 const { stats, genders, ageBands, source, resultSlug = "", combined = false } = Astro.props;
 const finishStats = stats.disciplines.find((d) => d.discipline === "Total");
-const genderColor = (g: string) => (g === "Male" ? "#3b82f6" : g === "Female" ? "#ec4899" : "#6b7280");
+const genderColor = (g: string) => (g === "Male" ? "var(--swim)" : g === "Female" ? "var(--t2)" : "var(--muted)");
 const maxAgeGroupCount = stats.ageGroupBreakdown[0]?.count || 1;
 const leaderboards = [
   { title: "Top 10 Males", entries: stats.maleLeaderboard },
@@ -37,11 +37,11 @@ const leaderboards = [
 </div>
 
 <section class="mb-10">
-  <h2 class="text-xl font-bold text-white mb-4">Discipline Breakdown</h2>
-  <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-x-auto">
+  <h2 class="text-xl font-bold text-foreground mb-4">Discipline Breakdown</h2>
+  <div class="bg-surface rounded-lg border border-line overflow-x-auto" tabindex="0" role="region" aria-label="Discipline breakdown table; scroll horizontally for all columns">
     <table class="w-full text-sm min-w-[420px]">
       <thead>
-        <tr class="border-b border-gray-700 text-gray-400">
+        <tr class="border-b border-line text-secondary">
           <th class="text-left px-4 py-3 font-medium">Discipline</th>
           <th class="text-right px-4 py-3 font-medium">Fastest</th>
           <th class="text-right px-4 py-3 font-medium">Median</th>
@@ -52,14 +52,14 @@ const leaderboards = [
       <tbody>
         {
           stats.disciplines.map((d) => (
-            <tr class="border-b border-gray-800 last:border-b-0">
+            <tr class="border-b border-line last:border-b-0">
               <td class="px-4 py-3 font-medium" style={{ color: DISCIPLINE_COLORS[d.discipline] }}>
                 {d.discipline}
               </td>
-              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.fastest)}</td>
-              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.median)}</td>
-              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.average)}</td>
-              <td class="px-4 py-3 text-right font-mono text-white">{formatTime(d.slowest)}</td>
+              <td class="px-4 py-3 text-right font-mono text-foreground">{formatTime(d.fastest)}</td>
+              <td class="px-4 py-3 text-right font-mono text-foreground">{formatTime(d.median)}</td>
+              <td class="px-4 py-3 text-right font-mono text-foreground">{formatTime(d.average)}</td>
+              <td class="px-4 py-3 text-right font-mono text-foreground">{formatTime(d.slowest)}</td>
             </tr>
           ))
         }
@@ -69,7 +69,7 @@ const leaderboards = [
 </section>
 
 <section class="mb-10">
-  <h2 class="text-xl font-bold text-white mb-4">Time Distributions</h2>
+  <h2 class="text-xl font-bold text-foreground mb-4">Time Distributions</h2>
   <RaceDistributions
     client:load
     initial={stats.histograms}
@@ -81,10 +81,10 @@ const leaderboards = [
 </section>
 
 <section class="mb-10">
-  <h2 class="text-xl font-bold text-white mb-4">Demographics</h2>
+  <h2 class="text-xl font-bold text-foreground mb-4">Demographics</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-gray-900 rounded-lg border border-gray-700 p-6">
-      <h3 class="text-sm font-medium text-gray-400 mb-4">Gender Split</h3>
+    <div class="bg-surface rounded-lg border border-line p-6">
+      <h3 class="text-sm font-medium text-secondary mb-4">Gender Split</h3>
       <div class="flex rounded-full overflow-hidden h-3 mb-4">
         {stats.genderBreakdown.map((g) => <div class="h-full" style={{ width: `${g.percentage}%`, backgroundColor: genderColor(g.gender) }} />)}
       </div>
@@ -94,9 +94,9 @@ const leaderboards = [
             <div class="flex items-center justify-between text-sm">
               <div class="flex items-center gap-2">
                 <div class="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: genderColor(g.gender) }} />
-                <span class="text-white">{g.gender || "Unlisted"}</span>
+                <span class="text-foreground">{g.gender || "Unlisted"}</span>
               </div>
-              <div class="flex items-center gap-4 text-gray-400">
+              <div class="flex items-center gap-4 text-secondary">
                 <span>
                   {g.count.toLocaleString("en-US")} ({g.percentage}%)
                 </span>
@@ -108,17 +108,17 @@ const leaderboards = [
       </div>
     </div>
 
-    <div class="bg-gray-900 rounded-lg border border-gray-700 p-6">
-      <h3 class="text-sm font-medium text-gray-400 mb-4">Age Groups</h3>
+    <div class="bg-surface rounded-lg border border-line p-6">
+      <h3 class="text-sm font-medium text-secondary mb-4">Age Groups</h3>
       <div class="space-y-2">
         {
           stats.ageGroupBreakdown.map((ag) => (
             <div class="flex items-center gap-3 text-sm">
-              <span class="w-16 text-gray-400 shrink-0">{ag.ageGroup}</span>
-              <div class="flex-1 h-4 bg-gray-800 rounded-sm overflow-hidden">
-                <div class="h-full rounded-sm bg-blue-500/40" style={{ width: `${Math.max(4, (ag.count / maxAgeGroupCount) * 100)}%` }} />
+              <span class="w-16 text-secondary shrink-0">{ag.ageGroup}</span>
+              <div class="flex-1 h-4 bg-subtle rounded-sm overflow-hidden">
+                <div class="h-full rounded-sm bg-action/40" style={{ width: `${Math.max(4, (ag.count / maxAgeGroupCount) * 100)}%` }} />
               </div>
-              <span class="text-gray-400 w-12 text-right shrink-0">{ag.count}</span>
+              <span class="text-secondary w-12 text-right shrink-0">{ag.count}</span>
             </div>
           ))
         }
@@ -128,15 +128,15 @@ const leaderboards = [
 </section>
 
 <section class="mb-10">
-  <h2 class="text-xl font-bold text-white mb-4">{combined ? "Fastest Finishers (All Editions)" : "Top Finishers"}</h2>
+  <h2 class="text-xl font-bold text-foreground mb-4">{combined ? "Fastest Finishers (All Editions)" : "Top Finishers"}</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {
       leaderboards.map(({ title, entries }) => (
-        <div class="bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
-          <h3 class="text-sm font-medium text-gray-400 px-4 pt-4 pb-2">{title}</h3>
+        <div class="bg-surface rounded-lg border border-line overflow-hidden">
+          <h3 class="text-sm font-medium text-secondary px-4 pt-4 pb-2">{title}</h3>
           <table class="w-full text-sm">
             <thead>
-              <tr class="border-b border-gray-700 text-gray-400">
+              <tr class="border-b border-line text-secondary">
                 <th class="text-left px-4 py-2 font-medium w-8">#</th>
                 <th class="text-left px-4 py-2 font-medium">Name</th>
                 {combined && <th class="text-left px-4 py-2 font-medium">Year</th>}
@@ -146,19 +146,19 @@ const leaderboards = [
             </thead>
             <tbody>
               {entries.map((entry) => (
-                <tr class="border-b border-gray-800 last:border-b-0 hover:bg-gray-800/50">
-                  <td class="px-4 py-2 text-gray-400">{entry.rank}</td>
+                <tr class="border-b border-line last:border-b-0 hover:bg-subtle/50">
+                  <td class="px-4 py-2 text-secondary">{entry.rank}</td>
                   <td class="px-4 py-2">
                     <a
                       href={`/race/${entry.raceSlug ?? resultSlug}/result/${entry.id}`}
-                      class="text-white hover:text-blue-400 transition-colors"
+                      class="text-foreground hover:text-accent transition-colors"
                     >
                       {getCountryFlagISO(entry.countryISO)} {formatAthleteName(entry.fullName)}
                     </a>
                   </td>
-                  {combined && <td class="px-4 py-2 text-gray-400">{entry.year}</td>}
-                  <td class="px-4 py-2 text-gray-400 hidden lg:table-cell">{entry.ageGroup}</td>
-                  <td class="px-4 py-2 text-right font-mono font-bold text-white">{entry.finishTime}</td>
+                  {combined && <td class="px-4 py-2 text-secondary">{entry.year}</td>}
+                  <td class="px-4 py-2 text-secondary hidden lg:table-cell">{entry.ageGroup}</td>
+                  <td class="px-4 py-2 text-right font-mono font-bold text-foreground">{entry.finishTime}</td>
                 </tr>
               ))}
             </tbody>

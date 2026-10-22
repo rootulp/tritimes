@@ -17,7 +17,8 @@ const routes = [
   ["courses", "/courses", "h1"],
   ["course", "/courses/im703-swansea", "h1"],
   ["race", "/race/im703-oceanside-2025", "h1"],
-  ["result", "/race/im-arizona-2025/result/0", ".bg-amber-400\\/15"],
+  // The second selector is the unchanged Next.js baseline used by BASELINE_URL.
+  ["result", "/race/im-arizona-2025/result/0", ".percentile-pill, .bg-amber-400\\/15"],
   ["athlete", "/athlete/rootul-patel--us-m", 'button[aria-label^="Hide "]'],
   ["stats", "/stats", "h1"],
   ["faq", "/faq", "h1"],

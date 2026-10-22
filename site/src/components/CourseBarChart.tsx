@@ -27,16 +27,16 @@ interface Props {
   label: string;
 }
 
-const SVG_WIDTH = 500;
+const SVG_WIDTH = 380;
 const BAR_HEIGHT = 24;
-const BAR_SPACING = 36;
+const BAR_SPACING = 34;
 const MARGIN = { top: 5, right: 10, bottom: 25, left: 124 };
-const LABEL_FONT_SIZE = 11;
+const LABEL_FONT_SIZE = 12;
 // Gutter available for the race-name labels, in viewBox units.
 const LABEL_GUTTER = MARGIN.left - 5;
 // Approximate width of a character at LABEL_FONT_SIZE; used to cap label length
 // so names never hard-clip past the left edge of the SVG.
-const APPROX_CHAR_WIDTH = 6;
+const APPROX_CHAR_WIDTH = 7;
 const MAX_LABEL_CHARS = Math.floor(LABEL_GUTTER / APPROX_CHAR_WIDTH);
 
 export default function CourseBarChart({
@@ -90,7 +90,7 @@ export default function CourseBarChart({
   const item = tooltipIdx !== null ? data[tooltipIdx] : null;
 
   return (
-    <div className="bg-gray-900 rounded-xl border border-gray-700 p-4 sm:p-6">
+    <div className="bg-surface rounded-xl border border-line p-4 sm:p-6">
       <h3 className="text-lg font-semibold mb-4" style={{ color }}>
         {label}
       </h3>
@@ -98,18 +98,19 @@ export default function CourseBarChart({
         <svg
           ref={svgRef}
           viewBox={`0 0 ${SVG_WIDTH} ${chartHeight}`}
-          className="w-full"
-          style={{ height: chartHeight }}
-          onMouseMove={handleMouseMove}
-          onMouseLeave={() => setTooltipIdx(null)}
+          className="w-full h-auto"
+          role="group"
+          aria-label={`${label} course rankings; select a course to view its results`}
+          onPointerMove={handleMouseMove}
+          onPointerLeave={() => setTooltipIdx(null)}
         >
           {/* X-axis ticks at bottom */}
           {xTicks.map((tick) => {
             const x = MARGIN.left + (tick / maxSeconds) * plotWidth;
             return (
               <g key={tick}>
-                <line x1={x} y1={MARGIN.top} x2={x} y2={chartHeight - MARGIN.bottom} stroke="#374151" stroke-width="0.5" />
-                <text x={x} y={chartHeight - MARGIN.bottom + 14} text-anchor="middle" fill="#9ca3af" font-size="11">
+                <line x1={x} y1={MARGIN.top} x2={x} y2={chartHeight - MARGIN.bottom} stroke="var(--chart-grid)" stroke-width="0.5" />
+                <text x={x} y={chartHeight - MARGIN.bottom + 14} text-anchor="middle" fill="var(--muted)" font-size="12">
                   {formatTime(tick)}
                 </text>
               </g>
@@ -121,11 +122,14 @@ export default function CourseBarChart({
             const y = MARGIN.top + i * BAR_SPACING + (BAR_SPACING - BAR_HEIGHT) / 2;
             const w = maxSeconds > 0 ? (d.seconds / maxSeconds) * plotWidth : 0;
             return (
-              <g
+              <a
                 key={i}
-                style={{ cursor: "pointer" }}
-                onClick={() => window.location.assign(courseDetailHref(d.course))}
+                href={courseDetailHref(d.course)}
+                aria-label={`${d.name}, median ${formatTime(d.seconds)}`}
+                onFocus={() => setTooltipIdx(i)}
+                onBlur={() => setTooltipIdx(null)}
               >
+                <title>{d.name}: {formatTime(d.seconds)}</title>
                 {/* Full-row hit area so the label and empty track are clickable too. */}
                 <rect
                   x={0}
@@ -138,7 +142,7 @@ export default function CourseBarChart({
                   x={MARGIN.left - 5}
                   y={y + BAR_HEIGHT / 2 + 4}
                   text-anchor="end"
-                  fill="#d1d5db"
+                  fill="var(--foreground)"
                   font-size={LABEL_FONT_SIZE}
                 >
                   {truncateLabel(d.name, MAX_LABEL_CHARS)}
@@ -152,7 +156,7 @@ export default function CourseBarChart({
                   fill={color}
                   opacity={tooltipIdx === i ? 0.8 : 1}
                 />
-              </g>
+              </a>
             );
           })}
         </svg>
@@ -164,14 +168,14 @@ export default function CourseBarChart({
               left: "50%",
               top: 10,
               transform: "translateX(-50%)",
-              backgroundColor: "#1f2937",
-              border: "1px solid #374151",
-              color: "#ededed",
+              backgroundColor: "var(--surface)",
+              border: "1px solid var(--chart-grid)",
+              color: "var(--foreground)",
             }}
           >
             <div className="font-semibold">{item.name}</div>
             <div>Median: {formatTime(item.seconds)}</div>
-            <div className="text-[11px] text-gray-400">
+            <div className="text-[11px] text-secondary">
               {item.finishers.toLocaleString()} finishers across {item.editions} edition{item.editions !== 1 ? "s" : ""}
             </div>
           </div>

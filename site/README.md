@@ -14,6 +14,7 @@ npm test                 # pure data/search/chart tests
 npm run check            # Astro + TypeScript
 npx playwright install chromium
 npm run e2e              # desktop and mobile against the built site
+npm run test:design      # both themes, Chromium/Firefox/WebKit, desktop + phones
 npm run verify:assets    # enforce Cloudflare Free file count and size limits
 npm run audit:prepare    # build the original application's data artifacts
 npm run audit            # compare the entire corpus against the original app
@@ -25,6 +26,12 @@ npm run lighthouse       # three independent mobile audits per critical route
 `npm run dev` uses the previous data build. Rebuild after changing `data/`.
 `npm run build:pages` reuses generated data when changing only UI code.
 `BASE_URL=https://… npm run e2e` tests a deployment.
+The design suite uses `BASE_URL` too. Install its engines with
+`npx playwright install --with-deps chromium firefox webkit`. It captures ten page
+types in both themes, runs automated accessibility checks, and tests theme
+persistence, keyboard use, narrow layouts, search, filters, and sharing.
+See [the design review and evidence](docs/design-review.md) for captures,
+reproduction steps, and the limits of browser/device emulation.
 `BASELINE_URL=http://localhost:3000 npm run benchmark` adds a Next.js comparison.
 Set `CHROMIUM_PATH` to use a system Chromium; otherwise Playwright uses its
 installed browser. Lighthouse uses Chrome discovered by chrome-launcher, or
