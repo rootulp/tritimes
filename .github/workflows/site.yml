@@ -12,7 +12,7 @@ on:
       deploy:
         description: Deployment destination (main pushes also deploy production)
         type: choice
-        options: [preview, production, inspect-domains]
+        options: [preview, production, inspect-domains, prepare-redirect]
         default: preview
 
 concurrency:
@@ -24,12 +24,13 @@ permissions:
 
 jobs:
   inspect-domains:
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy == 'inspect-domains'
+    if: github.event_name == 'workflow_dispatch' && (inputs.deploy == 'inspect-domains' || inputs.deploy == 'prepare-redirect')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Check DNS access without modifying the zone
+      - name: Inspect the zone or prepare the authorized apex redirect
         env:
+          MODE: ${{ inputs.deploy }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
@@ -37,9 +38,10 @@ jobs:
           import json, os, urllib.request, urllib.error
           token = os.environ['CLOUDFLARE_API_TOKEN']
           account = os.environ['CLOUDFLARE_ACCOUNT_ID']
-          def get(path):
+          def get(path, method="GET", payload=None):
               request = urllib.request.Request('https://api.cloudflare.com/client/v4' + path,
-                  headers={'Authorization': 'Bearer ' + token})
+                  headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+                  method=method, data=json.dumps(payload).encode() if payload is not None else None)
               try:
                   with urllib.request.urlopen(request, timeout=30) as response:
                       body = json.load(response)
@@ -65,7 +67,31 @@ jobs:
               print(json.dumps({'redirectRulesAccess': True, 'rules': rules.get('rules', [])}, indent=2))
           except RuntimeError as error:
               print('Redirect rules inspection:', str(error))
-          print('Inspection only: no DNS records or domains were changed.')
+          if os.environ['MODE'] == 'prepare-redirect':
+              endpoint = '/zones/' + zone['id'] + '/rulesets/phases/http_request_dynamic_redirect/entrypoint'
+              try:
+                  existing = get(endpoint)
+              except RuntimeError as error:
+                  if '"status": 404' not in str(error):
+                      raise
+                  existing = None
+              if existing:
+                  raise RuntimeError('An existing redirect ruleset needs review; no changes made')
+              result = get(endpoint, 'PUT', {
+                  'name': 'TriTimes redirects', 'kind': 'zone', 'phase': 'http_request_dynamic_redirect',
+                  'rules': [{
+                      'description': 'TriTimes apex to www', 'enabled': True,
+                      'expression': '(http.host eq "tritimes.org")', 'action': 'redirect',
+                      'action_parameters': {'from_value': {
+                          'status_code': 307,
+                          'target_url': {'expression': 'concat("https://www.tritimes.org", http.request.uri.path)'},
+                          'preserve_query_string': True
+                      }}
+                  }]
+              })
+              print('Apex-to-www redirect prepared. DNS records are unchanged; the rule only applies once proxied.')
+          else:
+              print('Inspection only: no DNS records or domains were changed.')
           PY
   live-preview:
     if: >-
@@ -129,7 +155,7 @@ jobs:
           retention-days: 7
 
   site:
-    if: github.event_name != 'workflow_dispatch' || inputs.deploy != 'inspect-domains'
+    if: github.event_name != 'workflow_dispatch' || (inputs.deploy != 'inspect-domains' && inputs.deploy != 'prepare-redirect')
     runs-on: ubuntu-latest
     timeout-minutes: 35
     defaults:
