@@ -32,8 +32,10 @@ installed browser. Lighthouse uses Chrome discovered by chrome-launcher, or
 
 Deploy with `npm run deploy` after configuring Cloudflare credentials. CI tests
 PRs and can deploy isolated previews when repository secrets exist. Production
-deployment is manual by default. After cutover, the owner can explicitly enable
-automatic main-branch deploys; merging alone does not enable them.
+deployments run automatically on relevant pushes to `main`, including merged
+scraper updates. Manual workflow runs can deploy either preview or production.
+The `inspect-domains` option checks the deployment token's DNS access without
+modifying any records. Custom-domain routing is managed separately in Cloudflare.
 
 Read [the migration report](docs/migration.md) before cutover. It explains
 functional coverage, performance evidence, the free-plan fit, and the deliberate

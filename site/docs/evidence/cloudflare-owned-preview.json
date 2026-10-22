@@ -1,0 +1,51 @@
+{
+  "url": "https://tritimes-preview.rootulp.workers.dev",
+  "deployedCommit": "f92916520a1c2571350a36bec01f439eb97dcec1",
+  "deploymentRun": "https://github.com/rootulp/tritimes/actions/runs/39833173495",
+  "browser": {
+    "startTime": "2026-10-22T19:00:34.702Z",
+    "duration": 27723.174,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "desktopAndMobile": true,
+    "normalTLSVerification": true
+  },
+  "additionalRegressionChecks": {
+    "missingAthletes": [
+      "constructor",
+      "toString",
+      "__proto__"
+    ],
+    "passed": true,
+    "uncaughtJavaScriptErrors": []
+  },
+  "screenshots": [
+    "tritimes-preview-desktop.png",
+    "tritimes-preview-mobile.png",
+    "tritimes-preview-athlete.png"
+  ],
+  "productionCutoverPerformed": false,
+  "deployment": {
+    "startedAt": "2026-10-22T19:00:38.236Z",
+    "finishedAt": "2026-10-22T19:02:40.508Z",
+    "base": "https://tritimes-preview.rootulp.workers.dev",
+    "routesChecked": 3276,
+    "routesSha256": "e4aa7154fea894ae8041ec3333050342e8f266c073e5f326ecef88a4d3947f40",
+    "allStatuses200": true,
+    "missingStaticRoutesReturn404": true,
+    "dataChecks": [
+      "race/im-arizona-2025.json.gz",
+      "course/im703-swansea.json.gz",
+      "races.json.gz"
+    ],
+    "searchChecks": [
+      "search-shards/fine/726f6f.tsv.gz",
+      "search-shards/fine/6d61726b.tsv.gz",
+      "search-shards/fine/6d61726961.tsv.gz"
+    ],
+    "method": "HEAD every generated HTML route plus robots, sitemap and representative rewritten URLs; GET/decompress/byte-compare representative data. curl retains configured TLS verification and proxy trust. This is HTTP/data verification, not a live browser interaction test."
+  },
+  "completedAt": "2026-10-22T19:02:47.757Z"
+}
