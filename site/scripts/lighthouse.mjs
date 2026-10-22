@@ -2,6 +2,7 @@
 import lighthouse from "lighthouse";
 import { launch } from "chrome-launcher";
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 
 const base = process.env.STATIC_URL ?? "http://127.0.0.1:8787";
 const runs = Number(process.env.PERF_RUNS ?? 3);
@@ -13,6 +14,15 @@ const pages = [
   ["athlete", "/athlete/rootul-patel--us-m"],
   ["course", "/courses/im703-swansea"],
 ];
+// Include the largest generated HTML file, so the audits also cover a heavy
+// multi-edition page rather than only representative small examples.
+if (fs.existsSync("artifacts/assets.json")) {
+  const largest = JSON.parse(fs.readFileSync("artifacts/assets.json", "utf8")).largest.file;
+  if (largest.endsWith(".html")) {
+    const path = "/" + largest.replace(/^dist\//, "").replace(/\.html$/, "").replace(/^index$/, "");
+    if (!pages.some(([, existing]) => existing === path)) pages.push(["largest-html", path]);
+  }
+}
 fs.mkdirSync("artifacts/lighthouse", { recursive: true });
 const summary = [];
 for (const [name, path] of pages) {
@@ -50,6 +60,7 @@ for (const [name, path] of pages) {
 }
 fs.writeFileSync("artifacts/lighthouse/summary.json", JSON.stringify({
   generatedAt: new Date().toISOString(), base, runs,
+  revision: execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(),
   conditions: "Lighthouse 12.6.1 default mobile simulated Slow 4G and 4x CPU slowdown; fresh Chrome process per run",
   samples: summary,
 }, null, 2) + "\n");

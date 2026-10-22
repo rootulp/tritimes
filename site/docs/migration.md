@@ -199,7 +199,11 @@ A temporary preview is for review and testing, not a permanent hosting setup.
 2. Deploy the production Worker explicitly. Configure `GOOGLE_SITE_VERIFICATION`
    and optional analytics at build time as needed. Add `tritimes.org` and
    `www.tritimes.org` as custom domains in the intended Cloudflare zone; check
-   HTTPS, canonical URLs and the chosen www/apex redirect behavior. Preserve the
+   HTTPS, canonical URLs and the www/apex redirect behavior. Preserve the current
+   apex → www redirect initially: hidden-result preferences are stored in
+   origin-bound localStorage, so changing the primary hostname would give users
+   a different storage origin even though the key format is preserved. Preview
+   hosts naturally have separate preferences. Preserve the
    previous DNS records and Vercel project for rollback.
 3. Re-run functional/performance checks on the custom domain, compare data
    freshness, inspect 404s, search and share downloads, and verify Search Console.
