@@ -131,10 +131,13 @@ jobs:
           npx wrangler deploy --name "$PREVIEW_NAME" | tee /tmp/tritimes-deploy.log
           sed -n '/https:.*workers.dev/p' /tmp/tritimes-deploy.log >> "$GITHUB_STEP_SUMMARY"
 
-      # Merging this PR does not change the production site. Dispatch manually
-      # only after reviewing the preview and arranging the DNS cutover.
-      - name: Deploy production (explicit manual dispatch only)
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy == 'production' && github.ref == 'refs/heads/main'
+      # Default: manual production deployments only. After cutover, the owner
+      # can explicitly enable main-push deploys to keep daily race data fresh.
+      - name: Deploy production (explicit opt-in only)
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          ((github.event_name == 'workflow_dispatch' && inputs.deploy == 'production') ||
+          (github.event_name == 'push' && vars.CLOUDFLARE_PRODUCTION_ENABLED == 'true'))
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

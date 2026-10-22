@@ -186,10 +186,17 @@ Optional repository variables `GOOGLE_SITE_VERIFICATION` and
 `PUBLIC_CF_BEACON_TOKEN` are passed to the build for Search Console and Cloudflare
 Web Analytics. Both are public site identifiers, not deployment credentials.
 
-Merging does **not** deploy production. A manual workflow dispatch on `main` with
+By default, merging does **not** deploy production. A manual workflow dispatch on `main` with
 `deploy=production` deploys the configured `tritimes` Worker. For manual CLI use,
 authenticate with your intended account, run the checks, then `npm run deploy`.
 No production custom domain is declared in the checked-in configuration.
+
+After the cutover is accepted, set repository variable
+`CLOUDFLARE_PRODUCTION_ENABLED=true` to opt into production deployments on main
+pushes. That preserves automatic updates when the existing daily scraper merges
+new race data. Until explicitly enabled, those pushes only update the preview.
+Remove/set the variable to `false` to return to manual production deployment.
+This PR does not change repository variables or enable production automation.
 
 Wrangler also supports `wrangler deploy --temporary --name <preview-name>` when
 no account is authenticated. Temporary accounts expire unless claimed; their
