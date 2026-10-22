@@ -55,7 +55,7 @@ jobs:
       - name: Browser parity on the actual Cloudflare CDN
         env:
           BASE_URL: ${{ steps.preview.outputs.url }}
-        run: npm run e2e -- --reporter=list,html
+        run: npm run e2e -- --reporter=list,html --max-failures=1
       - name: Upload live browser evidence
         if: always()
         uses: actions/upload-artifact@v4
