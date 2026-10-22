@@ -60,6 +60,11 @@ jobs:
               {key: record.get(key) for key in ['type', 'name', 'content', 'proxied', 'ttl']}
               for record in records if record['type'] in ['A', 'AAAA', 'CNAME']
           ]}, indent=2))
+          try:
+              rules = get('/zones/' + zone['id'] + '/rulesets/phases/http_request_dynamic_redirect/entrypoint')
+              print(json.dumps({'redirectRulesAccess': True, 'rules': rules.get('rules', [])}, indent=2))
+          except RuntimeError as error:
+              print('Redirect rules inspection:', str(error))
           print('Inspection only: no DNS records or domains were changed.')
           PY
   live-preview:
