@@ -77,7 +77,7 @@ jobs:
                   existing = None
               if existing:
                   raise RuntimeError('An existing redirect ruleset needs review; no changes made')
-              result = get(endpoint, 'PUT', {
+              result = get('/zones/' + zone['id'] + '/rulesets', 'POST', {
                   'name': 'TriTimes redirects', 'kind': 'zone', 'phase': 'http_request_dynamic_redirect',
                   'rules': [{
                       'description': 'TriTimes apex to www', 'enabled': True,
