@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-10-22T06:03:59.255Z",
+  "revision": "2e2b5248f0505bcba442e35a39bafaf0c7c19aed",
+  "conditions": {
+    "viewport": "390x844",
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "cpuSlowdown": 4,
+    "browserCache": "disabled; fresh context per navigation",
+    "runs": 5
+  },
+  "rows": [
+    {
+      "target": "static",
+      "route": "/",
+      "samples": 5,
+      "lcpP75Ms": 444,
+      "fcpP75Ms": 444,
+      "clsP75": 0,
+      "readyP75Ms": 575.8000000002794,
+      "jsMedianBytes": 13208,
+      "transferMedianBytes": 28991
+    },
+    {
+      "target": "static",
+      "route": "/races",
+      "samples": 5,
+      "lcpP75Ms": 576,
+      "fcpP75Ms": 576,
+      "clsP75": 0,
+      "readyP75Ms": 1132.4000000001397,
+      "jsMedianBytes": 3641,
+      "transferMedianBytes": 80719
+    },
+    {
+      "target": "static",
+      "route": "/courses",
+      "samples": 5,
+      "lcpP75Ms": 436,
+      "fcpP75Ms": 436,
+      "clsP75": 0,
+      "readyP75Ms": 569.1999999997206,
+      "jsMedianBytes": 12542,
+      "transferMedianBytes": 41618
+    },
+    {
+      "target": "static",
+      "route": "/courses/im703-swansea",
+      "samples": 5,
+      "lcpP75Ms": 460,
+      "fcpP75Ms": 460,
+      "clsP75": 0,
+      "readyP75Ms": 596,
+      "jsMedianBytes": 14273,
+      "transferMedianBytes": 61592
+    },
+    {
+      "target": "static",
+      "route": "/race/im703-oceanside-2025",
+      "samples": 5,
+      "lcpP75Ms": 456,
+      "fcpP75Ms": 456,
+      "clsP75": 0,
+      "readyP75Ms": 572.7999999998137,
+      "jsMedianBytes": 14273,
+      "transferMedianBytes": 60507
+    },
+    {
+      "target": "static",
+      "route": "/race/im-arizona-2025/result/0",
+      "samples": 5,
+      "lcpP75Ms": 1516,
+      "fcpP75Ms": 452,
+      "clsP75": 0,
+      "readyP75Ms": 1866.3999999999069,
+      "jsMedianBytes": 21029,
+      "transferMedianBytes": 153827
+    },
+    {
+      "target": "static",
+      "route": "/athlete/rootul-patel--us-m",
+      "samples": 5,
+      "lcpP75Ms": 1472,
+      "fcpP75Ms": 488,
+      "clsP75": 0.08175355450236967,
+      "readyP75Ms": 1483.8000000002794,
+      "jsMedianBytes": 19637,
+      "transferMedianBytes": 102247
+    },
+    {
+      "target": "static",
+      "route": "/stats",
+      "samples": 5,
+      "lcpP75Ms": 460,
+      "fcpP75Ms": 460,
+      "clsP75": 0,
+      "readyP75Ms": 571.5,
+      "jsMedianBytes": 2729,
+      "transferMedianBytes": 15023
+    },
+    {
+      "target": "static",
+      "route": "/faq",
+      "samples": 5,
+      "lcpP75Ms": 436,
+      "fcpP75Ms": 436,
+      "clsP75": 0,
+      "readyP75Ms": 570,
+      "jsMedianBytes": 2729,
+      "transferMedianBytes": 14786
+    },
+    {
+      "target": "next",
+      "route": "/",
+      "samples": 5,
+      "lcpP75Ms": 700,
+      "fcpP75Ms": 700,
+      "clsP75": 0,
+      "readyP75Ms": 658.6000000000931,
+      "jsMedianBytes": 139850,
+      "transferMedianBytes": 223238
+    },
+    {
+      "target": "next",
+      "route": "/races",
+      "samples": 5,
+      "lcpP75Ms": 684,
+      "fcpP75Ms": 684,
+      "clsP75": 0,
+      "readyP75Ms": 640.2000000001863,
+      "jsMedianBytes": 142654,
+      "transferMedianBytes": 240846
+    },
+    {
+      "target": "next",
+      "route": "/courses",
+      "samples": 5,
+      "lcpP75Ms": 760,
+      "fcpP75Ms": 760,
+      "clsP75": 0,
+      "readyP75Ms": 748.8000000002794,
+      "jsMedianBytes": 143318,
+      "transferMedianBytes": 231543
+    },
+    {
+      "target": "next",
+      "route": "/courses/im703-swansea",
+      "samples": 5,
+      "lcpP75Ms": 784,
+      "fcpP75Ms": 784,
+      "clsP75": 0.004500973710404021,
+      "readyP75Ms": 1613,
+      "jsMedianBytes": 142586,
+      "transferMedianBytes": 319673
+    },
+    {
+      "target": "next",
+      "route": "/race/im703-oceanside-2025",
+      "samples": 5,
+      "lcpP75Ms": 756,
+      "fcpP75Ms": 756,
+      "clsP75": 0.004500973710404021,
+      "readyP75Ms": 760,
+      "jsMedianBytes": 142586,
+      "transferMedianBytes": 256255
+    },
+    {
+      "target": "next",
+      "route": "/race/im-arizona-2025/result/0",
+      "samples": 5,
+      "lcpP75Ms": 756,
+      "fcpP75Ms": 756,
+      "clsP75": 0.0004592375090637146,
+      "readyP75Ms": 752,
+      "jsMedianBytes": 143029,
+      "transferMedianBytes": 259594
+    },
+    {
+      "target": "next",
+      "route": "/athlete/rootul-patel--us-m",
+      "samples": 5,
+      "lcpP75Ms": 708,
+      "fcpP75Ms": 708,
+      "clsP75": 0.0037304074560895783,
+      "readyP75Ms": 697.5999999998603,
+      "jsMedianBytes": 144801,
+      "transferMedianBytes": 257003
+    },
+    {
+      "target": "next",
+      "route": "/stats",
+      "samples": 5,
+      "lcpP75Ms": 752,
+      "fcpP75Ms": 752,
+      "clsP75": 0,
+      "readyP75Ms": 749.4000000003725,
+      "jsMedianBytes": 139850,
+      "transferMedianBytes": 227489
+    },
+    {
+      "target": "next",
+      "route": "/faq",
+      "samples": 5,
+      "lcpP75Ms": 696,
+      "fcpP75Ms": 696,
+      "clsP75": 0,
+      "readyP75Ms": 667.6000000000931,
+      "jsMedianBytes": 139850,
+      "transferMedianBytes": 223505
+    }
+  ],
+  "journeys": [
+    {
+      "target": "static",
+      "query": "Rootul Patel",
+      "samples": 5,
+      "searchP75Ms": 862.4433999999892,
+      "totalP75Ms": 2860.807977999997
+    },
+    {
+      "target": "static",
+      "query": "Mark Smith",
+      "samples": 5,
+      "searchP75Ms": 1360.6328090000025,
+      "totalP75Ms": 3279.967284000013
+    },
+    {
+      "target": "static",
+      "query": "Maria Garcia",
+      "samples": 5,
+      "searchP75Ms": 901.8814300000085,
+      "totalP75Ms": 2831.315658999956
+    },
+    {
+      "target": "next",
+      "query": "Rootul Patel",
+      "samples": 5,
+      "searchP75Ms": 3766.2843100000173,
+      "totalP75Ms": 5816.494735999964
+    },
+    {
+      "target": "next",
+      "query": "Mark Smith",
+      "samples": 5,
+      "searchP75Ms": 8097.9130309999455,
+      "totalP75Ms": 10097.106810999976
+    },
+    {
+      "target": "next",
+      "query": "Maria Garcia",
+      "samples": 5,
+      "searchP75Ms": 8017.840373000014,
+      "totalP75Ms": 10004.005102000025
+    }
+  ],
+  "limitations": "Synthetic local lab measurements, not field Core Web Vitals. Fresh browser caches do not imply cold CDN caches or cold serverless functions. CPU slowdown is relative to this host. Ready times include browser automation overhead. LCP sampled before subsequent interaction. No real-user INP claim."
+}

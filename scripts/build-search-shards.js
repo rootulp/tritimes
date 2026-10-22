@@ -17,7 +17,7 @@
  * Input: data/athlete-index.tsv.gz (committed; built by build-search-index.js)
  * Output lands in app/public/ so Next serves shards as static CDN assets.
  *
- * Run: node scripts/build-search-shards.js [--skip-if-exists]
+ * Run: node scripts/build-search-shards.js [--skip-if-exists] [--out <dir>]
  * Gitignored output, mirroring app/public/athlete-shards/.
  */
 
@@ -26,7 +26,12 @@ const path = require("path");
 const { gzipSync, gunzipSync } = require("zlib");
 
 const indexPath = path.join(__dirname, "..", "data", "athlete-index.tsv.gz");
-const shardsDir = path.join(__dirname, "..", "app", "public", "search-shards");
+// --out <dir> overrides the output directory (used by the static site build).
+const outFlag = process.argv.indexOf("--out");
+const shardsDir =
+  outFlag >= 0
+    ? path.resolve(process.argv[outFlag + 1])
+    : path.join(__dirname, "..", "app", "public", "search-shards");
 
 // MUST stay identical to shardFileName() in app/src/lib/search-core.ts.
 function shardFileName(bucket) {

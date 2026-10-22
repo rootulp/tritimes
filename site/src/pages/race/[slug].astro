@@ -1,0 +1,55 @@
+---
+import Base from "@/layouts/Base.astro";
+import RaceBody from "@/components/RaceBody.astro";
+import { getRaces, getRacePage } from "@/lib/build-cache";
+import { courseSlugOf } from "@/lib/races";
+import { getRaceLocation } from "@/lib/raceLocation";
+
+export function getStaticPaths() {
+  const editions = new Map<string, number>();
+  for (const r of getRaces()) editions.set(courseSlugOf(r.slug), (editions.get(courseSlugOf(r.slug)) ?? 0) + 1);
+  return getRaces().map((race) => ({
+    params: { slug: race.slug },
+    props: { slug: race.slug, editionCount: editions.get(courseSlugOf(race.slug)) ?? 0 },
+  }));
+}
+
+const { slug, editionCount } = Astro.props;
+const { race, stats, genders, ageBands } = getRacePage(slug);
+const location = getRaceLocation(race);
+const courseSlug = courseSlugOf(slug);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  name: race.name,
+  sport: "Triathlon",
+  eventStatus: "https://schema.org/EventScheduled",
+  ...(race.date ? { startDate: race.date } : {}),
+  ...(location ? { location: { "@type": "Place", name: location } } : {}),
+  url: `https://tritimes.org/race/${slug}`,
+};
+---
+
+<Base
+  title={`${race.name} — Results & Time Distributions`}
+  description={`Full results for ${race.name}${location ? ` in ${location}` : ""}: ${race.finishers.toLocaleString("en-US")} finishers, fastest and median splits, and time distributions for swim, bike, and run.`}
+  canonical={`/race/${slug}`}
+  jsonLd={jsonLd}
+>
+  <main class="max-w-6xl w-full mx-auto px-4 py-8">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-white">{race.name}</h1>
+      <p class="text-gray-400 mt-1">
+        {race.date}{location && ` · ${location}`}
+      </p>
+      {
+        editionCount > 1 && (
+          <a href={`/courses/${courseSlug}`} class="inline-block mt-2 text-sm text-blue-400 hover:text-blue-300 transition-colors">
+            View all {editionCount} editions &rarr;
+          </a>
+        )
+      }
+    </header>
+    <RaceBody stats={stats} genders={genders} ageBands={ageBands} source={{ race: slug }} resultSlug={slug} />
+  </main>
+</Base>

@@ -1,0 +1,13 @@
+{
+  "status": "blocked",
+  "checkedAt": "2026-10-22T06:33:43Z",
+  "origin": "https://tritimes-migration-preview.lackadaisical-tracker.workers.dev",
+  "workflowRun": "https://github.com/rootulp/tritimes/actions/runs/39734549244",
+  "job": "https://github.com/rootulp/tritimes/actions/runs/39734549244/job/119677215232",
+  "runner": "GitHub-hosted Ubuntu, centralus; Chromium with normal HTTPS trust",
+  "httpStatus": 403,
+  "title": "Just a moment...",
+  "bodyExcerpt": "Performing security verification. This website uses a security service to protect against malicious bots.",
+  "conclusion": "Cloudflare's bot challenge prevented this runner from reaching TriTimes. Live browser interaction parity is not verified. The local 40-test suite and the live HTTPS/data audit are separate evidence and do not turn this result into a pass.",
+  "nextStep": "Run the browser suite on a persistent owned preview hostname whose bot policy allows the authorized test runner, before production cutover."
+}

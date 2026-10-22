@@ -1,0 +1,162 @@
+name: Site (Cloudflare)
+
+on:
+  pull_request:
+    branches: [main]
+    paths: ["site/**", "app/src/lib/**", "data/**", "scripts/**", ".github/workflows/site.yml"]
+  push:
+    branches: [main]
+    paths: ["site/**", "data/**", "scripts/**", ".github/workflows/site.yml"]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Deployment destination (production requires an explicit dispatch)
+        type: choice
+        options: [preview, production]
+        default: preview
+
+concurrency:
+  group: site-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  live-preview:
+    if: >-
+      github.event_name == 'pull_request' &&
+      contains(github.event.pull_request.body, 'Preview URL: https://')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Read the explicitly linked Cloudflare preview
+        id: preview
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const match = /^Preview URL: (https:\/\/(?:[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev|(?:[a-z0-9-]+\.)*tritimes\.org))\/?$/m.exec(process.env.PR_BODY ?? '');
+          if (!match) throw new Error('Preview URL must be an HTTPS workers.dev or tritimes.org origin on its own line');
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `url=${match[1]}\n`);
+          JS
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Check live browser response before interaction tests
+        env:
+          BASE_URL: ${{ steps.preview.outputs.url }}
+        run: |
+          node --input-type=module <<'JS'
+          import { chromium } from '@playwright/test';
+          const browser = await chromium.launch();
+          try {
+            const page = await browser.newPage();
+            page.on('pageerror', error => console.log('Browser error:', error.message));
+            page.on('requestfailed', request => console.log('Failed request:', request.url(), request.failure()?.errorText));
+            const response = await page.goto(process.env.BASE_URL, { waitUntil: 'load', timeout: 30000 });
+            const title = await page.title();
+            const body = (await page.locator('body').innerText()).slice(0, 1500);
+            console.log(JSON.stringify({ status: response?.status(), title, body }, null, 2));
+            if (response?.status() !== 200 || !title.includes('TriTimes')) throw new Error('Preview did not return the TriTimes page');
+          } finally { await browser.close(); }
+          JS
+      - name: Browser parity on the actual Cloudflare CDN
+        env:
+          BASE_URL: ${{ steps.preview.outputs.url }}
+        run: npm run e2e -- --reporter=list,html --max-failures=1
+      - name: Upload live browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-live-browser-${{ github.run_id }}
+          path: |
+            site/playwright-report/
+            site/test-results/
+          retention-days: 7
+
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: site
+    env:
+      ASTRO_TELEMETRY_DISABLED: 1
+      WRANGLER_SEND_METRICS: false
+      GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+      PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npm run check
+      - run: npm run verify:assets
+      - name: Build original data artifacts as the parity oracle
+        run: npm run audit:prepare
+      - name: Audit the full corpus against the original implementation
+        run: npm run audit
+      - run: npx playwright install --with-deps chromium
+      - name: Browser parity against Cloudflare's local runtime
+        run: npm run e2e -- --reporter=list,html
+      - name: Repeat mobile browser measurements
+        run: |
+          npm run preview > /tmp/tritimes-preview.log 2>&1 &
+          node --input-type=module -e 'for(let i=0;i<60;i++){try{if((await fetch("http://127.0.0.1:8787/robots.txt")).ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,1000))}process.exit(1)'
+          npm run benchmark
+          npm run performance:report
+      - name: Independent mobile Lighthouse audits
+        run: npm run lighthouse
+      - name: Upload reproducible evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-evidence-${{ github.run_id }}
+          path: |
+            site/artifacts/
+            site/playwright-report/
+            site/test-results/
+          retention-days: 7
+
+      # Only these deployment steps receive credentials. Fork PRs receive none.
+      # Each PR gets its own static-only Worker; main pushes update a preview.
+      - name: Deploy isolated preview
+        if: github.event_name != 'workflow_dispatch' || inputs.deploy == 'preview'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PREVIEW_NAME: tritimes-preview${{ github.event_name == 'pull_request' && format('-pr-{0}', github.event.number) || '' }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo 'Preview skipped: configure CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          npx wrangler deploy --name "$PREVIEW_NAME" | tee /tmp/tritimes-deploy.log
+          sed -n '/https:.*workers.dev/p' /tmp/tritimes-deploy.log >> "$GITHUB_STEP_SUMMARY"
+
+      # Default: manual production deployments only. After cutover, the owner
+      # can explicitly enable main-push deploys to keep daily race data fresh.
+      - name: Deploy production (explicit opt-in only)
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          ((github.event_name == 'workflow_dispatch' && inputs.deploy == 'production') ||
+          (github.event_name == 'push' && vars.CLOUDFLARE_PRODUCTION_ENABLED == 'true'))
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy

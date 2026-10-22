@@ -1,0 +1,25 @@
+---
+import Base from "@/layouts/Base.astro";
+import { FAQ_ITEMS, buildFaqJsonLd } from "@/lib/faq";
+---
+
+<Base
+  title="FAQ"
+  description="Frequently asked questions about TriTimes — where the race data comes from, whether it's affiliated with IRONMAN, and how to report issues."
+  canonical="/faq"
+  jsonLd={buildFaqJsonLd()}
+>
+  <main class="max-w-3xl w-full mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-white mb-8">Frequently Asked Questions</h1>
+    <dl class="space-y-8">
+      {
+        FAQ_ITEMS.map((item) => (
+          <div>
+            <dt class="text-lg font-semibold text-white mb-2">{item.question}</dt>
+            <dd class="text-gray-400 leading-relaxed">{item.answer}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </main>
+</Base>

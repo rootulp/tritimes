@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.cache/
+.wrangler/
+public/data/
+public/search-shards/
+test-results/
+playwright-report/
+artifacts/

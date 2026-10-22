@@ -1,0 +1,46 @@
+---
+// Course title and year tags, shared by /courses/<course> and /courses/<course>/<year>.
+import type { CourseEdition, CourseInfo } from "@/lib/types";
+
+interface Props {
+  info: CourseInfo;
+  edition?: CourseEdition;
+}
+const { info, edition } = Astro.props;
+const years = info.editions.map((e) => e.year);
+const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
+const n = info.editions.length;
+const tagBase = "px-3 py-1.5 rounded-full text-sm font-medium transition-colors";
+const tagActive = "bg-white/10 text-white ring-1 ring-white/20";
+const tagIdle = "text-gray-400 hover:text-white hover:bg-white/5";
+---
+
+<header class="mb-6">
+  <h1 class="text-3xl font-bold text-white">{info.name}{edition ? ` ${edition.year}` : ""}</h1>
+  <p class="text-gray-400 mt-1">
+    {info.location && `${info.location} · `}{edition ? edition.date : `${n} edition${n !== 1 ? "s" : ""}${n > 1 ? ` · ${span}` : ""}`}
+  </p>
+</header>
+
+<div class="flex flex-wrap items-center gap-2 mb-8" data-year-tags>
+  <a href={`/courses/${info.course}`} class={`${tagBase} ${edition ? tagIdle : tagActive}`}>All years</a>
+  {
+    info.editions.map((e) => (
+      <a href={`/courses/${info.course}/${e.year}`} class={`${tagBase} ${edition?.year === e.year ? tagActive : tagIdle}`}>
+        {e.year}
+      </a>
+    ))
+  }
+</div>
+
+<script>
+  // Switching years replaces the history entry, so one Back leaves the course
+  // instead of stepping through every year viewed.
+  document.querySelectorAll<HTMLAnchorElement>("[data-year-tags] a").forEach((a) =>
+    a.addEventListener("click", (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      location.replace(a.href);
+    }),
+  );
+</script>
