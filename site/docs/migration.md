@@ -5,6 +5,45 @@ Static Assets. Astro generates HTML at build time; Preact powers interactive
 islands. Committed race data remains the source of truth. This keeps the existing
 design, URLs and data pipeline while removing per-request application execution.
 
+## Production handover — 2026-10-22
+
+Cloudflare now serves `www.tritimes.org` through the production `tritimes` Worker.
+Both production hostnames are attached as Worker Custom Domains. Cloudflare
+Single Redirect rules preserve the apex-to-www redirect and upgrade www HTTP to
+HTTPS, including the original path and query string. Domain attachments and
+redirect rules are managed in Cloudflare separately from the preview config.
+
+[PR #301](https://github.com/rootulp/tritimes/pull/301) enables production
+deployments after relevant main pushes pass the existing CI checks. An actual
+[main push run](https://github.com/rootulp/tritimes/actions/runs/39840413955)
+confirmed that trigger. [PR #302](https://github.com/rootulp/tritimes/pull/302)
+disables automatic Vercel Git deployments while retaining the original app as
+the data-parity oracle.
+
+All 40 desktop/mobile browser tests passed against the public production origin.
+The HTTP audit passed 3,276 URLs, true static 404s and representative compressed
+race/search byte comparisons. See [production evidence](evidence/cloudflare-production.json).
+Tests requested fresh responses because the workspace proxy retained some
+pre-cutover Vercel HTML; normal TLS verification stayed enabled.
+
+Remaining owner actions: delete the `tritimes` project in Vercel after accepting
+the live site, and downgrade/cancel the Pro subscription separately. The Vercel
+connector could discover the project but lacked access to the `rootulp` team;
+no project deletion or billing change was performed.
+
+For rollback while the Vercel project still exists, remove the two Worker Custom
+Domain attachments, then restore both old DNS records in the Cloudflare zone:
+
+| Name | Type | Target | Proxy | TTL |
+|---|---|---|---|---|
+| `tritimes.org` | CNAME | `a2052866c44486e9.vercel-dns-017.com` | DNS only | 600 seconds |
+| `www.tritimes.org` | CNAME | `a2052866c44486e9.vercel-dns-017.com` | DNS only | 600 seconds |
+
+Do not change nameservers or unrelated MX/TXT records. The full original records
+were saved in the [cutover workflow artifact](https://github.com/rootulp/tritimes/actions/runs/39840662547)
+with 30-day retention. Deleting the Vercel project removes this immediate rollback
+target; the original Next source remains available in `app/` for reconstruction.
+
 ## Cost and platform fit
 
 Cloudflare documents [free, unlimited static asset requests and no additional
@@ -238,6 +277,7 @@ A temporary preview is for review and testing, not a permanent hosting setup.
    while this rollout is being evaluated; the exhaustive audit uses it as oracle.
 4. If rollback is needed, restore the saved Vercel DNS/domain routing and leave
    Cloudflare preview URLs available for diagnosis. No data conversion is needed.
-5. Cancel the Vercel Pro plan only after the custom domain is verified and the
-   migration is accepted. Nothing in this PR cancels a subscription, changes DNS,
-   deletes the existing app, or performs a production cutover.
+5. Delete the Vercel project and cancel/downgrade Pro only after the custom domain
+   is verified and the migration is accepted. Project deletion and subscription
+   cancellation are separate operations. Keep the original app source because
+   the data-parity audit still uses it.
