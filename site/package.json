@@ -17,7 +17,8 @@
     "audit": "node --max-old-space-size=6144 --import tsx scripts/audit-parity.ts",
     "benchmark": "node --import tsx scripts/benchmark.ts",
     "lighthouse": "node scripts/lighthouse.mjs",
-    "performance:report": "node scripts/summarize-performance.mjs"
+    "performance:report": "node scripts/summarize-performance.mjs",
+    "verify:deployment": "node scripts/verify-deployment.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^6.1.1",

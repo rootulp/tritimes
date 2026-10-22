@@ -59,13 +59,13 @@ export function loadShardForQuery(query: string): Promise<ClientSearchShard> | n
   return promise;
 }
 
-async function doLoadShard(bucket: string): Promise<ClientSearchShard> {
+async function doLoadShard(bucket: string, fine = false): Promise<ClientSearchShard> {
   if (typeof DecompressionStream === "undefined") {
     throw new Error("DecompressionStream not supported");
   }
 
   const downloadStart = performance.now();
-  const response = await fetch(`/search-shards/${shardFileName(bucket)}`);
+  const response = await fetch(`/search-shards/${fine ? "fine/" : ""}${shardFileName(bucket)}`);
   if (response.status === 404) {
     // No athlete name (or token rotation) starts with this prefix.
     return { entries: [], keys: [], loadStats: { downloadMs: 0, parseMs: 0, bytes: 0 } };
@@ -97,7 +97,42 @@ export function searchAthletesInShard(
   return searchAthletesInIndex(query, shard.entries, shard.keys, limit);
 }
 
+const finePromises = new Map<string, Promise<ClientSearchShard>>();
+
+/** Use a smaller partition for longer queries; retain the original substring fallback. */
+export async function searchAthletes(query: string, limit = 10): Promise<AthleteSearchEntry[]> {
+  const normalized = foldName(query).trim().replace(/\s+/g, " ");
+  const parent = searchBucket(query);
+  if (!parent) return [];
+  const fineBuckets = typeof __FINE_SEARCH_BUCKETS__ === "undefined" ? [] : __FINE_SEARCH_BUCKETS__;
+  if (normalized.length >= 3 && fineBuckets.includes(parent)) {
+    let prefix = parent;
+    while (prefix.length < normalized.length && fineBuckets.includes(prefix)) {
+      prefix = normalized.slice(0, prefix.length + 1);
+    }
+    let promise = finePromises.get(prefix);
+    if (!promise) {
+      promise = doLoadShard(prefix, true);
+      promise.catch(() => finePromises.delete(prefix));
+      finePromises.set(prefix, promise);
+    }
+    try {
+      const shard = await promise;
+      // A substring-only hit in this subset must not hide earlier hits from
+      // the base file. Only prefix matches can be answered by the partition.
+      if (shard.keys.some(({ key }) => key.startsWith(normalized))) {
+        return searchAthletesInShard(query, shard, limit);
+      }
+    } catch {
+      // A stale/missing fine file or download failure can still use the base shard.
+    }
+  }
+  const shard = await loadShardForQuery(query);
+  return shard ? searchAthletesInShard(query, shard, limit) : [];
+}
+
 // Test seam: reset memoization. Not exported through the package barrel.
 export function __resetForTests() {
   shardPromises.clear();
+  finePromises.clear();
 }

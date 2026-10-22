@@ -8,11 +8,19 @@ import path from "node:path";
 import { gunzipSync } from "node:zlib";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
+import { createRequire } from "node:module";
 import assert from "node:assert/strict";
 import * as legacy from "../../app/src/lib/data";
 import { getResult, disciplineHistogram, raceFileSegments, type RaceFile } from "../src/lib/race-file";
 import { athleteShardId, unpackProfile, type AthleteShard, type RaceIndex } from "../src/lib/athlete-file";
 import type { AthleteProfile, RaceInfo } from "../src/lib/types";
+import { shardFileName } from "../src/lib/search-core";
+
+const require = createRequire(import.meta.url);
+const originalSearch = require("../../scripts/build-search-shards.js") as {
+  foldName(name: string): string;
+  searchKeysForName(name: string): string[];
+};
 
 const read = <T>(file: string): T => JSON.parse(fs.readFileSync(file, "utf8"));
 const readGz = <T>(file: string): T => JSON.parse(gunzipSync(fs.readFileSync(file)).toString());
@@ -25,6 +33,7 @@ let histogramComparisons = 0;
 let profilesChecked = 0;
 let profileResultsChecked = 0;
 let searchShardsChecked = 0;
+let fineSearchShardsChecked = 0;
 const start = Date.now();
 
 for (const race of races) {
@@ -95,12 +104,34 @@ for (const file of fs.readdirSync("../app/public/search-shards").filter((f) => f
   searchShardsChecked++;
 }
 assert.equal(fs.readdirSync("public/search-shards").filter((f) => f.endsWith(".gz")).length, searchShardsChecked);
+// Check every fine partition against the original parent's full set of search
+// keys. This validates membership and ordering independently of the new builder.
+for (const parent of read<string[]>(".cache/search-partitions.json")) {
+  const lines = gunzipSync(fs.readFileSync(`../app/public/search-shards/${shardFileName(parent.slice(0, 2))}`)).toString().split("\n").filter(Boolean);
+  const expected = new Map<string, string[]>();
+  for (const line of lines) {
+    const keys = originalSearch.searchKeysForName(originalSearch.foldName(line.split("\t")[1]));
+    const length = parent.length + 1;
+    const prefixes = new Set(keys.filter((key) => key.startsWith(parent) && key.length >= length).map((key) => key.slice(0, length)));
+    for (const prefix of prefixes) {
+      const entries = expected.get(prefix) ?? [];
+      entries.push(line);
+      expected.set(prefix, entries);
+    }
+  }
+  for (const [prefix, entries] of expected) {
+    const actual = gunzipSync(fs.readFileSync(`public/search-shards/fine/${shardFileName(prefix)}`)).toString();
+    assert.equal(actual, entries.join("\n"), `fine search ${prefix}: complete original matches in original order`);
+    fineSearchShardsChecked++;
+  }
+}
+assert.equal(fs.readdirSync("public/search-shards/fine").length, fineSearchShardsChecked);
 const report = {
   checkedAt: new Date().toISOString(),
   revision: execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(),
   corpusSha256: hash.digest("hex"),
   races: races.length, resultsChecked, profilesChecked, profileResultsChecked,
-  courses: courses.length, histogramComparisons, searchShardsChecked,
+  courses: courses.length, histogramComparisons, searchShardsChecked, fineSearchShardsChecked,
   durationSeconds: (Date.now() - start) / 1000,
   assertions: "All displayed result fields and stable IDs; complete athlete profiles; race/course statistics, leaderboards and segment arrays; sampled result histograms; byte-identical search shards",
 };

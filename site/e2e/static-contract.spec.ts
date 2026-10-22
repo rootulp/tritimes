@@ -54,11 +54,23 @@ test("data failures offer recovery and malformed athlete URLs do not crash", asy
 });
 
 test("search distinguishes a failed download from no matches and can retry", async ({ page }) => {
-  await page.route("**/search-shards/*", (route) => route.fulfill({ status: 503, body: "Unavailable" }));
+  await page.route("**/search-shards/**", (route) => route.fulfill({ status: 503, body: "Unavailable" }));
   await page.goto("/");
   await page.getByPlaceholder("Search athlete name...").fill("Rootul Patel");
   await expect(page.getByRole("alert")).toContainText("Couldn't load search results");
   await page.unrouteAll();
   await page.getByRole("button", { name: "Try again" }).click();
   await expect(page.getByRole("link", { name: /Rootul Patel/ })).toBeVisible();
+});
+
+test("long searches download the small partition instead of the large two-letter file", async ({ page }) => {
+  const downloads: string[] = [];
+  page.on("request", (request) => {
+    if (request.url().includes("/search-shards/")) downloads.push(request.url());
+  });
+  await page.goto("/");
+  await page.getByPlaceholder("Search athlete name...").fill("Rootul Patel");
+  await expect(page.getByRole("link", { name: /Rootul Patel/ })).toBeVisible();
+  expect(downloads).toHaveLength(1);
+  expect(downloads[0]).toContain("/search-shards/fine/726f6f.tsv.gz");
 });

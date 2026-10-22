@@ -33,7 +33,7 @@ add migration risk without removing the need to load the same underlying data.
 | Capability | Implementation and evidence |
 |---|---|
 | Home page, header, footer, mobile navigation | Static HTML with a small navigation script; desktop/mobile browser tests |
-| Global athlete search and Ctrl/Cmd+K palette | Identical prefix-sharded index and ranking algorithm; all search shards compared byte for byte; keyboard navigation tested |
+| Global athlete search and Ctrl/Cmd+K palette | Original shards and ranking retained; adaptive longer-prefix files reduce large downloads; keyboard navigation and retries tested |
 | Athlete profiles and complete race histories | Stable slugs; compact static shards; every profile compared against the original generated profiles |
 | Performance charts, hidden results, CSV export | Preact port; same localStorage key format; hide/reload/export tested |
 | Race listing | Static cards; distance/year/text filters; shared query links; clear filters tested |
@@ -98,6 +98,17 @@ It samples beginning/middle/end athletes for six disciplines and two scopes in
 every race. Its report includes a SHA-256 of the manifest, athlete index and CSV
 corpus so a later run can identify a data change.
 
+Large search shards (128 KiB compressed and above) get additional longer-prefix
+partitions, recursively up to eight characters. The small partition manifest is
+embedded in the client bundle; there is no manifest-fetch waterfall. Longer
+queries request the most specific available file directly. Two-character
+queries still use the original file. If there are no prefix matches, the client
+loads the original parent to preserve substring matches and ranking. Missing or
+failed fine downloads can also use the parent. Every fine file is audited for
+complete match membership and original ordering, and the base files remain
+byte-identical to the original site. A slightly longer debounce for two-letter
+input avoids starting its large download during ordinary continued typing.
+
 For the original baseline:
 
 ```sh
@@ -132,7 +143,9 @@ disabled browser cache, 390×844 viewport, 150 ms added latency, 1.6 Mbps downlo
 0.75 Mbps upload and 4× CPU slowdown. It records FCP, LCP, session-window CLS,
 actual content readiness, transferred bytes and JavaScript bytes. The result page
 must show percentile pills and the athlete page must show race controls before
-being counted ready. It separately times home → search → athlete journeys.
+being counted ready. It separately times home → search → athlete journeys for
+Rootul Patel, Mark Smith and Maria Garcia, including the frameworks' normal
+navigation/prefetch behavior.
 The static build's p75 budgets are LCP <2.5 s, FCP <1.8 s, CLS ≤0.1 and actual
 content ready <3 s. Three independent Lighthouse mobile audits per critical route
 provide a second measurement method.
@@ -147,6 +160,13 @@ Use the same harness against real deployment URLs and collect field data after
 cutover before making global latency claims. No benchmark can honestly provide
 an irrefutable guarantee for all users.
 
+`DEPLOYMENT_URL=https://<preview> npm run verify:deployment` checks every generated
+HTML route on the real CDN, verifies representative shell rewrites and true 404s,
+and downloads/decompresses/byte-compares representative data. It retains curl's
+normal TLS verification and configured proxy trust. This provides live HTTP/data
+evidence separately from browser interaction tests; it doesn't substitute for
+running the browser suite on the intended persistent deployment.
+
 ## Deploy previews and production
 
 The workflow in `.github/workflows/site.yml` builds/tests PRs. Configure repository
@@ -155,6 +175,10 @@ account with Workers Scripts edit; no zone/DNS access is needed for workers.dev
 previews). A PR deploys an isolated `tritimes-preview-pr-<number>` Worker. Main
 pushes deploy `tritimes-preview`. Remove obsolete PR preview Workers when done.
 The site is public data and these previews are public URLs.
+
+Optional repository variables `GOOGLE_SITE_VERIFICATION` and
+`PUBLIC_CF_BEACON_TOKEN` are passed to the build for Search Console and Cloudflare
+Web Analytics. Both are public site identifiers, not deployment credentials.
 
 Merging does **not** deploy production. A manual workflow dispatch on `main` with
 `deploy=production` deploys the configured `tritimes` Worker. For manual CLI use,

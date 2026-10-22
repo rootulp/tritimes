@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "preact/hooks";
 import type { AthleteSearchEntry } from "@/lib/types";
-import { loadShardForQuery, searchAthletesInShard } from "@/lib/client-search-index";
+import { searchAthletes } from "@/lib/client-search-index";
 
 /**
  * Debounced athlete typeahead over the static prefix shards. Each query loads
@@ -39,8 +39,7 @@ export function useAthleteSearch(initialQuery = "") {
       let results = cacheRef.current.get(key);
       if (!results) {
         try {
-          const shard = await loadShardForQuery(value);
-          results = shard ? searchAthletesInShard(value, shard, 10) : [];
+          results = await searchAthletes(value, 10);
           cacheRef.current.set(key, results);
         } catch {
           results = [];
@@ -50,7 +49,9 @@ export function useAthleteSearch(initialQuery = "") {
       if (requestIdRef.current !== requestId) return;
       setMatches(results);
       setIsSearching(false);
-    }, 50);
+    // Give normal typing a chance to reach a smaller partition before starting
+    // a potentially large two-letter download. Longer queries stay responsive.
+    }, value.trim().length === 2 ? 200 : 50);
   }, []);
 
   const reset = useCallback(() => {

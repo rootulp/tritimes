@@ -15,10 +15,10 @@ for (const target of report.targets) {
     });
   }
 }
-const journeys = report.targets.map((target) => {
-  const samples = report.journeys.filter((s) => s.target === target.name);
-  return { target: target.name, samples: samples.length, totalP75Ms: percentile(samples.map((s) => s.totalMs), 0.75) };
-});
+const journeys = report.targets.flatMap((target) => [...new Set(report.journeys.map((s) => s.query))].map((query) => {
+  const samples = report.journeys.filter((s) => s.target === target.name && s.query === query);
+  return { target: target.name, query, samples: samples.length, searchP75Ms: percentile(samples.map((s) => s.searchMs), 0.75), totalP75Ms: percentile(samples.map((s) => s.totalMs), 0.75) };
+}));
 const result = { generatedAt: report.generatedAt, revision: report.revision, conditions: report.conditions, rows, journeys, limitations: report.limitations };
 fs.writeFileSync("artifacts/performance/summary.json", JSON.stringify(result, null, 2) + "\n");
 let text = "| Route | Build | p75 LCP (ms) | p75 content ready (ms) | p75 CLS | Median JS bytes |\n|---|---|---:|---:|---:|---:|\n";

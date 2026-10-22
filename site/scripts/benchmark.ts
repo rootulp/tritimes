@@ -97,6 +97,7 @@ try {
   // Separate cold-browser journey: readiness includes the actual athlete content.
   const journeys: Record<string, unknown>[] = [];
   for (const target of targets) {
+    for (const query of ["Rootul Patel", "Mark Smith", "Maria Garcia"]) {
     for (let run = 0; run < runs; run++) {
       const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: "block" });
       const page = await context.newPage();
@@ -109,17 +110,22 @@ try {
       await page.goto(target.url, { waitUntil: "load" });
       const homeMs = performance.now() - start;
       const searchStart = performance.now();
-      await page.getByPlaceholder("Search athlete name...").fill("Rootul Patel");
-      const result = page.getByRole("link", { name: /Rootul Patel/ }).first();
+      await page.getByPlaceholder("Search athlete name...").fill(query);
+      const result = page.locator('a[href^="/athlete/"]').first();
       await result.waitFor({ state: "visible", timeout: 30_000 });
+      const href = await result.getAttribute("href");
+      assert(href, "Search match has a destination");
       const searchMs = performance.now() - searchStart;
       const athleteStart = performance.now();
       await result.click();
-      await page.waitForURL("**/athlete/rootul-patel--us-m");
+      await page.waitForURL(new URL(href, target.url).href);
       await page.locator('button[aria-label^="Hide "]').first().waitFor({ state: "visible", timeout: 30_000 });
       const athleteMs = performance.now() - athleteStart;
-      journeys.push({ target: target.name, run: run + 1, homeMs, searchMs, athleteMs, totalMs: performance.now() - start });
+      const totalMs = performance.now() - start;
+      journeys.push({ target: target.name, query, destination: href, run: run + 1, homeMs, searchMs, athleteMs, totalMs });
+      console.log(`${target.name} journey ${query} #${run + 1}: ${Math.round(totalMs)}ms (search ${Math.round(searchMs)}ms)`);
       await context.close();
+    }
     }
   }
   const report = {

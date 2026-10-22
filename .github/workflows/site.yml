@@ -32,6 +32,8 @@ jobs:
     env:
       ASTRO_TELEMETRY_DISABLED: 1
       WRANGLER_SEND_METRICS: false
+      GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+      PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5

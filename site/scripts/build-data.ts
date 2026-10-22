@@ -14,6 +14,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { gunzipSync, gzipSync } from "node:zlib";
 import { fileURLToPath } from "node:url";
+import { buildFineSearchShards } from "./build-fine-search";
 import type { AthleteRaceEntry, CourseResult, RaceInfo } from "../src/lib/types";
 import {
   buildRaceSegmentData,
@@ -244,4 +245,6 @@ execFileSync(
   [path.join(repoDir, "scripts", "build-search-shards.js"), "--out", path.join(siteDir, "public", "search-shards")],
   { stdio: "inherit" },
 );
+const fineSearch = buildFineSearchShards(path.join(siteDir, "public", "search-shards"), path.join(siteDir, ".cache", "search-partitions.json"));
+log(`${fineSearch.shards} fine search shards for ${fineSearch.parents} large prefixes`);
 log("done");

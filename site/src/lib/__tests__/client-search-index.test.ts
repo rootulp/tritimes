@@ -3,6 +3,7 @@ import {
   parseIndexTsv,
   loadShardForQuery,
   searchAthletesInShard,
+  searchAthletes,
   __resetForTests,
 } from "../client-search-index";
 import { gzipSync } from "node:zlib";
@@ -48,6 +49,58 @@ describe("parseIndexTsv", () => {
   it("parses raceCount as a number", () => {
     const tsv = "x\tx\tx\tXX\t42";
     expect(parseIndexTsv(tsv)[0].raceCount).toBe(42);
+  });
+});
+
+describe("fine search partitions", () => {
+  beforeEach(() => __resetForTests());
+  afterEach(() => vi.restoreAllMocks());
+
+  it("answers long normalized prefix queries without downloading the large parent", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => makeGzippedResponse(SMITH_TSV));
+    expect((await searchAthletes("  SMÍTH  ")).map((r) => r.slug)).toEqual(["john-smith", "sarah-smith"]);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetchMock).toHaveBeenCalledWith("/search-shards/fine/736d69.tsv.gz");
+  });
+
+  it("retains two-letter searches on the original shard", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => makeGzippedResponse(SMITH_TSV));
+    await searchAthletes("sm");
+    expect(fetchMock).toHaveBeenCalledWith("/search-shards/736d.tsv.gz");
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("uses the parent when the fine file is missing or cannot load", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(new Response(null, { status: 404 }))
+      .mockImplementation(async () => makeGzippedResponse(SMITH_TSV));
+    expect(await searchAthletes("smith")).toHaveLength(2);
+    expect(fetchMock).toHaveBeenCalledWith("/search-shards/736d.tsv.gz");
+    __resetForTests();
+    fetchMock.mockRejectedValueOnce(new Error("network"));
+    expect(await searchAthletes("smith")).toHaveLength(2);
+  });
+
+  it("preserves the parent's substring ranking when no key prefixes match", async () => {
+    const first = "aaron\tAaron Goldsmithers Smurf\tUS\tUS\t1";
+    const second = "smiley\tSmiley Goldsmithers\tUS\tUS\t1";
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(makeGzippedResponse(second))
+      .mockResolvedValueOnce(makeGzippedResponse([first, second].join("\n")));
+    expect((await searchAthletes("smithers")).map((r) => r.slug)).toEqual(["aaron", "smiley"]);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
+  it("reuses fine downloads across queries in the same partition", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => makeGzippedResponse(SMITH_TSV));
+    await searchAthletes("smith");
+    await searchAthletes("smith s");
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("selects the deepest available partition for a long common-name query", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => makeGzippedResponse("x\tRobert Smith\tUS\tUS\t1"));
+    expect(await searchAthletes("Robert Smith")).toHaveLength(1);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetchMock).toHaveBeenCalledWith("/search-shards/fine/726f626572.tsv.gz");
   });
 });
 
