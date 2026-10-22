@@ -34,7 +34,7 @@ export default function AthleteApp() {
       fetchGzJson<RaceIndex>("/data/races.json.gz"),
     ]).then(
       ([shard, races]) => {
-        const packed = shard?.[slug];
+        const packed = shard && Object.hasOwn(shard, slug) ? shard[slug] : undefined;
         setState(packed && races ? { status: "ready", profile: unpackProfile(slug, packed, races) } : { status: "missing" });
       },
       () => setState({ status: "error" }),
