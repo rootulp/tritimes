@@ -19,7 +19,12 @@ export default function AthleteApp() {
 
   useEffect(() => {
     const m = window.location.pathname.match(/^\/athlete\/([^/]+)\/?$/);
-    const slug = m ? decodeURIComponent(m[1]) : null;
+    let slug: string | null = null;
+    try {
+      slug = m ? decodeURIComponent(m[1]) : null;
+    } catch {
+      // Malformed escaped URLs should reach the same missing-page UI.
+    }
     if (!slug) {
       setState({ status: "missing" });
       return;

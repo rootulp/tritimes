@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from "preact/hooks";
+import { useCallback, useEffect, useRef, useState } from "preact/hooks";
 import type { AthleteSearchEntry } from "@/lib/types";
 import { loadShardForQuery, searchAthletesInShard } from "@/lib/client-search-index";
 
@@ -10,17 +10,24 @@ export function useAthleteSearch(initialQuery = "") {
   const [query, setQuery] = useState(initialQuery);
   const [matches, setMatches] = useState<AthleteSearchEntry[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [error, setError] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cacheRef = useRef(new Map<string, AthleteSearchEntry[]>());
   const requestIdRef = useRef(0);
 
+  useEffect(() => () => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    requestIdRef.current++;
+  }, []);
+
   const handleChange = useCallback((value: string) => {
     setQuery(value);
     setSelectedIndex(-1);
+    setError(false);
     if (debounceRef.current) clearTimeout(debounceRef.current);
     const requestId = ++requestIdRef.current;
-    if (value.length < 2) {
+    if (value.trim().length < 2) {
       setMatches([]);
       setIsSearching(false);
       return;
@@ -37,6 +44,7 @@ export function useAthleteSearch(initialQuery = "") {
           cacheRef.current.set(key, results);
         } catch {
           results = [];
+          if (requestIdRef.current === requestId) setError(true);
         }
       }
       if (requestIdRef.current !== requestId) return;
@@ -50,9 +58,10 @@ export function useAthleteSearch(initialQuery = "") {
     setMatches([]);
     setSelectedIndex(-1);
     setIsSearching(false);
+    setError(false);
     requestIdRef.current += 1;
     if (debounceRef.current) clearTimeout(debounceRef.current);
   }, []);
 
-  return { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, reset };
+  return { query, matches, isSearching, error, selectedIndex, setSelectedIndex, handleChange, reset };
 }

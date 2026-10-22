@@ -9,7 +9,7 @@ function typedBeforeHydration(): string {
 }
 
 export default function GlobalSearchBar() {
-  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange } = useAthleteSearch(
+  const { query, matches, isSearching, error, selectedIndex, setSelectedIndex, handleChange } = useAthleteSearch(
     typedBeforeHydration(),
   );
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ export default function GlobalSearchBar() {
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setSelectedIndex((i) => Math.max(i - 1, 0));
-    } else if (e.key === "Enter" && selectedIndex >= 0) {
+    } else if (e.key === "Enter" && selectedIndex >= 0 && selectedIndex < matches.length) {
       e.preventDefault();
       setIsOpen(false);
       window.location.assign(`/athlete/${matches[selectedIndex].slug}`);
@@ -63,6 +63,7 @@ export default function GlobalSearchBar() {
             if (viewState !== "closed") setIsOpen(true);
           }}
           placeholder="Search athlete name..."
+          aria-label="Search athlete name"
           className="w-full px-4 py-3 text-lg border border-gray-700 rounded-lg bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
         {isSearching && (
@@ -76,6 +77,11 @@ export default function GlobalSearchBar() {
           {viewState === "loading" ? (
             <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">
               Searching athletes...
+            </li>
+          ) : error ? (
+            <li className="px-4 py-4 text-sm text-gray-400" role="alert">
+              Couldn&apos;t load search results.{" "}
+              <button type="button" className="text-blue-400 hover:underline" onClick={() => handleChange(query)}>Try again</button>
             </li>
           ) : viewState === "empty" ? (
             <li className="px-4 py-4 text-sm text-gray-400" aria-live="polite">

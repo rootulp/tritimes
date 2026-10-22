@@ -3,6 +3,8 @@
 
 /data/*
   Cache-Control: public, max-age=300, stale-while-revalidate=604800
+  Content-Type: application/gzip
 
 /search-shards/*
   Cache-Control: public, max-age=300, stale-while-revalidate=604800
+  Content-Type: application/gzip

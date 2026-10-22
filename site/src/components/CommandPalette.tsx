@@ -5,7 +5,7 @@ import { formatAthleteName } from "@/lib/format";
 
 export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: boolean }) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
-  const { query, matches, isSearching, selectedIndex, setSelectedIndex, handleChange, reset } = useAthleteSearch();
+  const { query, matches, isSearching, error, selectedIndex, setSelectedIndex, handleChange, reset } = useAthleteSearch();
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
@@ -63,7 +63,7 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setSelectedIndex((i) => Math.max(i - 1, 0));
-    } else if (e.key === "Enter" && selectedIndex >= 0) {
+    } else if (e.key === "Enter" && selectedIndex >= 0 && selectedIndex < matches.length) {
       e.preventDefault();
       window.location.assign(`/athlete/${matches[selectedIndex].slug}`);
       close();
@@ -97,6 +97,7 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
             onInput={(e) => handleChange(e.currentTarget.value)}
             onKeyDown={handleKeyDown}
             placeholder="Search athlete name..."
+            aria-label="Search athlete name"
             className="flex-1 bg-transparent text-lg text-white placeholder-gray-500 focus:outline-none"
             aria-autocomplete="list"
             aria-controls="command-palette-results"
@@ -135,6 +136,11 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
               </li>
             ))}
           </ul>
+        ) : error ? (
+          <div className="py-8 text-center text-gray-400" role="alert">
+            Couldn&apos;t load search results.{" "}
+            <button type="button" className="text-blue-400 hover:underline" onClick={() => handleChange(query)}>Try again</button>
+          </div>
         ) : query.length >= 2 && !isSearching ? (
           <div className="py-8 text-center text-gray-500">No athletes found</div>
         ) : (

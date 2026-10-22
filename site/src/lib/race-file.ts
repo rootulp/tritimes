@@ -147,7 +147,7 @@ export function disciplineHistogram(
   }
   const source = computeRaceHistogram(pool, BIN_SIZES[discipline]);
   if (source.bins.length === 0) {
-    return { bins: [], athleteSeconds, athletePercentile: 0, medianSeconds: 0 };
+    return { bins: [], athleteSeconds, athletePercentile: 0, medianSeconds: source.medianSeconds };
   }
   let slower = 0;
   const bins: HistogramBin[] = source.bins.map((b) => {

@@ -69,6 +69,7 @@ export default function ShareDialog({ url, card, filename }: ShareDialogProps) {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="dialog"
+        aria-label="Share this result"
         aria-expanded={open}
         className="inline-flex items-center gap-1.5 rounded-md border border-white/15 bg-white/[0.08] px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/[0.12] focus:outline-none focus:ring-2 focus:ring-amber-400"
       >

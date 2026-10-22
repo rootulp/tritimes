@@ -58,8 +58,7 @@ const races: RaceInfo[] = JSON.parse(fs.readFileSync(path.join(dataDir, "races.j
 function readResults(slug: string) {
   const file = path.join(dataDir, `${slug}.csv`);
   if (!fs.existsSync(file)) {
-    console.warn(`  warning: no CSV for race "${slug}" — rendering it with no results`);
-    return [];
+    throw new Error(`Missing CSV for race "${slug}"; refusing to publish incomplete results`);
   }
   return parseResultsCSV(fs.readFileSync(file, "utf-8"));
 }

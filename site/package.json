@@ -11,7 +11,13 @@
     "deploy": "wrangler deploy",
     "test": "vitest run",
     "e2e": "playwright test",
-    "check": "astro check"
+    "check": "astro check",
+    "verify:assets": "node --import tsx scripts/verify-assets.ts",
+    "audit:prepare": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js",
+    "audit": "node --max-old-space-size=6144 --import tsx scripts/audit-parity.ts",
+    "benchmark": "node --import tsx scripts/benchmark.ts",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "performance:report": "node scripts/summarize-performance.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^6.1.1",
@@ -25,6 +31,8 @@
     "@astrojs/check": "^0.9.12",
     "@playwright/test": "^1.64.1",
     "@types/node": "^24.19.2",
+    "chrome-launcher": "1.2.2",
+    "lighthouse": "12.6.1",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^5.0.5",

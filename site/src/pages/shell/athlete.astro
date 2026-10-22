@@ -3,9 +3,28 @@
 // the URL, loads the athlete's profile shard, and renders the profile.
 import Base from "@/layouts/Base.astro";
 import AthleteApp, { AthleteSkeleton } from "@/components/AthleteApp";
+import { ATHLETE_SHARD_COUNT } from "@/lib/athlete-file";
 ---
 
 <Base title="Athlete">
+  <script slot="head" is:inline define:vars={{ shardCount: ATHLETE_SHARD_COUNT }}>
+    // Start the data requests while the browser downloads the island code.
+    // A fetch preload is reused by fetchGzJson, avoiding a JS → data waterfall.
+    try {
+      const match = location.pathname.match(/^\/athlete\/([^/]+)\/?$/);
+      if (match) {
+        const slug = decodeURIComponent(match[1]);
+        let hash = 5381;
+        for (let i = 0; i < slug.length; i++) hash = ((hash << 5) + hash + slug.charCodeAt(i)) >>> 0;
+        for (const href of [`/data/athlete/${hash % shardCount}.json.gz`, "/data/races.json.gz"]) {
+          const link = document.createElement("link");
+          link.rel = "preload"; link.as = "fetch"; link.crossOrigin = "anonymous"; link.href = href;
+          document.head.appendChild(link);
+        }
+      }
+    } catch { /* The island displays the not-found UI for malformed URLs. */ }
+  </script>
+  <noscript><p class="px-4 py-8 text-center">Enable JavaScript to view this athlete’s race history.</p></noscript>
   <AthleteApp client:only="preact">
     <AthleteSkeleton slot="fallback" />
   </AthleteApp>

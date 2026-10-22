@@ -1,4 +1,4 @@
-import { defineConfig } from "@playwright/test";
+import { defineConfig, devices } from "@playwright/test";
 
 // Runs against the built site served by `wrangler dev` (the same static-asset
 // routing, _redirects, and 404 handling as Cloudflare), or against a deployed
@@ -10,6 +10,10 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL || "http://127.0.0.1:8787",
     headless: true,
+    proxy: process.env.BROWSER_PROXY ? { server: process.env.BROWSER_PROXY, bypass: "localhost,127.0.0.1" } : undefined,
+    launchOptions: process.env.CHROMIUM_PATH
+      ? { executablePath: process.env.CHROMIUM_PATH }
+      : undefined,
   },
   webServer: process.env.BASE_URL
     ? undefined
@@ -19,5 +23,8 @@ export default defineConfig({
         reuseExistingServer: true,
         timeout: 60_000,
       },
-  projects: [{ name: "chromium", use: { browserName: "chromium" } }],
+  projects: [
+    { name: "chromium", use: { browserName: "chromium" } },
+    { name: "mobile-chromium", use: { ...devices["Pixel 7"] } },
+  ],
 });

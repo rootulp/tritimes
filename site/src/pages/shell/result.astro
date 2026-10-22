@@ -7,6 +7,16 @@ import ResultSkeleton from "@/components/ResultSkeleton";
 ---
 
 <Base title="Race Result">
+  <script slot="head" is:inline>
+    const match = location.pathname.match(/^\/race\/([^/]+)\/result\/(\d+)\/?$/);
+    if (match) {
+      const link = document.createElement("link");
+      link.rel = "preload"; link.as = "fetch"; link.crossOrigin = "anonymous";
+      link.href = `/data/race/${match[1]}.json.gz`;
+      document.head.appendChild(link);
+    }
+  </script>
+  <noscript><p class="px-4 py-8 text-center">Enable JavaScript to view this result and its time distributions.</p></noscript>
   <ResultApp client:only="preact">
     <ResultSkeleton slot="fallback" />
   </ResultApp>

@@ -62,6 +62,16 @@ describe("disciplineHistogram", () => {
     const h = disciplineHistogram(file, getResult(file, 0)!, "bike", "overall");
     expect(h).toEqual({ bins: [], athleteSeconds: 0, athletePercentile: 0, medianSeconds: 0 });
   });
+
+  it("preserves the median for a sole age-group time on an exact bin boundary", () => {
+    // Real corpus regression: im703-ohio-2025 result 1074, T1 = 180s.
+    const single = encodeRaceFile(
+      { slug: "test", name: "Test", date: "2025-01-01", finishers: 1 },
+      parseResultsCSV([HEADER, row("Ann", "F30-34", "Female", 300)].join("\n")),
+    );
+    expect(disciplineHistogram(single, getResult(single, 0)!, "swim", "ageGroup"))
+      .toEqual({ bins: [], athleteSeconds: 300, athletePercentile: 0, medianSeconds: 300 });
+  });
 });
 
 describe("raceFileSegments", () => {
