@@ -28,7 +28,7 @@ Before/after screenshots are captured by the reproducible browser comparison:
 ## Performance
 
 Five fresh browser contexts per query/version, interleaved before/after; Chromium
-150, mobile viewport, 4× CPU slowdown, 150 ms network latency, 200,000 bytes/s
+154, mobile viewport, 4× CPU slowdown, 150 ms network latency, 200,000 bytes/s
 download, browser cache disabled. Timing starts at input fill after hydration and
 ends when the dropdown settles. This includes the existing debounce. Local lab
 measurements vary and are not production latency guarantees. Raw samples and
