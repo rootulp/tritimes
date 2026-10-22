@@ -1,4 +1,7 @@
 import { AthleteSearchEntry } from "@/lib/types";
+import givenNameAliases from "../../../scripts/given-name-aliases.json";
+
+const aliasesByGivenName = new Map<string, string[]>(Object.entries(givenNameAliases));
 
 export interface IndexEntry extends AthleteSearchEntry {
   /** Match field: lowercased AND diacritic-folded — see foldName(). */
@@ -93,6 +96,15 @@ export function buildSearchKeys(index: IndexEntry[]): SearchKey[] {
       entryKeys.add(
         [...tokens.slice(tokenIndex), ...tokens.slice(0, tokenIndex)].join(" "),
       );
+    }
+
+    // Keep this in sync with searchKeysForName in build-search-shards.js.
+    // Aliases add lookup keys; display names and canonical slugs stay intact.
+    for (const alias of aliasesByGivenName.get(tokens[0]) ?? []) {
+      const aliasTokens = [alias, ...tokens.slice(1)];
+      for (let t = 0; t < aliasTokens.length; t++) {
+        entryKeys.add([...aliasTokens.slice(t), ...aliasTokens.slice(0, t)].join(" "));
+      }
     }
 
     for (const key of entryKeys) {
