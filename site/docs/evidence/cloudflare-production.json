@@ -1,0 +1,64 @@
+{
+  "productionOrigin": "https://www.tritimes.org",
+  "productionWorker": "https://tritimes.rootulp.workers.dev",
+  "applicationCommit": "f92916520a1c2571350a36bec01f439eb97dcec1",
+  "automaticDeploymentPR": "https://github.com/rootulp/tritimes/pull/301",
+  "vercelDeploymentShutdownPR": "https://github.com/rootulp/tritimes/pull/302",
+  "deploymentRun": "https://github.com/rootulp/tritimes/actions/runs/39839249755",
+  "domainCutoverRun": "https://github.com/rootulp/tritimes/actions/runs/39840662547",
+  "automaticMainPushRun": "https://github.com/rootulp/tritimes/actions/runs/39840413955",
+  "publicBrowserChecks": {
+    "startTime": "2026-10-22T19:33:01.931Z",
+    "duration": 24968.176,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browserMethod": "Desktop Chromium and Pixel 7 emulation against the public HTTPS origin, with normal TLS verification and Cache-Control/Pragma no-cache headers to exclude cached pre-cutover proxy responses.",
+  "deploymentAudit": {
+    "startedAt": "2026-10-22T19:33:05.485Z",
+    "finishedAt": "2026-10-22T19:35:04.442Z",
+    "base": "https://www.tritimes.org",
+    "routesChecked": 3276,
+    "routesSha256": "e4aa7154fea894ae8041ec3333050342e8f266c073e5f326ecef88a4d3947f40",
+    "allStatuses200": true,
+    "missingStaticRoutesReturn404": true,
+    "dataChecks": [
+      "race/im-arizona-2025.json.gz",
+      "course/im703-swansea.json.gz",
+      "races.json.gz"
+    ],
+    "searchChecks": [
+      "search-shards/fine/726f6f.tsv.gz",
+      "search-shards/fine/6d61726b.tsv.gz",
+      "search-shards/fine/6d61726961.tsv.gz"
+    ],
+    "method": "HEAD every generated HTML route plus robots, sitemap and representative rewritten URLs; GET/decompress/byte-compare representative data. curl sends Cache-Control/Pragma no-cache and retains configured TLS verification and proxy trust. This is HTTP/data verification, not a live browser interaction test."
+  },
+  "redirectChecks": [
+    {
+      "url": "https://tritimes.org/races?year=2025",
+      "status": 307,
+      "location": "https://www.tritimes.org/races?year=2025"
+    },
+    {
+      "url": "http://www.tritimes.org/races?year=2025",
+      "status": 307,
+      "location": "https://www.tritimes.org/races?year=2025"
+    }
+  ],
+  "oldDns": {
+    "names": [
+      "tritimes.org",
+      "www.tritimes.org"
+    ],
+    "type": "CNAME",
+    "target": "a2052866c44486e9.vercel-dns-017.com",
+    "proxied": false,
+    "ttlSeconds": 600
+  },
+  "vercelProjectDeletion": "Requires the owner to confirm deletion in the Vercel dashboard; the connector cannot access the rootulp team.",
+  "vercelProCancellation": "Not performed. Project deletion does not cancel the Pro subscription.",
+  "limits": "These are recorded functional and HTTP/data checks for the deployed build, not field Core Web Vitals or a guarantee about every user and browser."
+}

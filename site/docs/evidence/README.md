@@ -4,6 +4,11 @@ The implementation fits Cloudflare Workers Free and preserves the audited data
 and tested user workflows. This report distinguishes exhaustive data checks from
 sampled browser performance; it does not claim every user or URL is faster.
 
+Production was cut over on 2026-10-22. All 40 desktop/mobile browser tests passed
+on `https://www.tritimes.org`, together with the 3,276-URL HTTP/data audit.
+The [production report](cloudflare-production.json) records the deployed source,
+workflow runs, redirects, audit results and remaining Vercel owner actions.
+
 ## Functional and deployment checks
 
 | Check | Result |
@@ -132,7 +137,9 @@ race/search downloads against the build. The constructor/toString/__proto__
 missing-athlete regression checks passed with no uncaught JavaScript errors in
 the additional smoke checks. See [the owned-preview report](cloudflare-owned-preview.json).
 The earlier temporary-host failure is retained as historical diagnostic evidence.
-Production DNS, the existing Next app and the Vercel subscription remain unchanged.
+That original report preceded the production cutover. Production DNS now uses
+Cloudflare and Vercel Git deployments are disabled. The Next source is retained;
+Vercel project deletion and Pro cancellation remain separate owner actions.
 
 These reports prove the recorded assertions and measurements for this corpus,
 source and host. They are not field Core Web Vitals, global CDN coverage, an
