@@ -24,7 +24,9 @@ permissions:
 
 jobs:
   live-preview:
-    if: github.event_name == 'pull_request' && contains(github.event.pull_request.body, 'Preview URL: https://')
+    if: >-
+      github.event_name == 'pull_request' &&
+      contains(github.event.pull_request.body, 'Preview URL: https://')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     defaults:
