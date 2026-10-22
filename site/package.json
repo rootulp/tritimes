@@ -14,7 +14,7 @@
     "e2e": "playwright test",
     "check": "astro check",
     "verify:assets": "node --import tsx scripts/verify-assets.ts",
-    "audit:prepare": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js",
+    "audit:prepare": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js && node ../scripts/build-search-shards.js",
     "audit": "node --max-old-space-size=6144 --import tsx scripts/audit-parity.ts",
     "benchmark": "node --import tsx scripts/benchmark.ts",
     "lighthouse": "node scripts/lighthouse.mjs",
