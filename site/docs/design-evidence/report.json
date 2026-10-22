@@ -1,0 +1,3201 @@
+{
+  "generatedAt": "2026-10-22T21:09:53.045Z",
+  "baseCommit": "361dd4742edaf3a889ddf2d26210c04e6fba4e74",
+  "applicationSourceSha256": "328bd376d7f945ef3e907929e8fe21b520c7c672fcb9732fbde4809853f930de",
+  "sourceFiles": [
+    {
+      "file": "astro.config.mjs",
+      "sha256": "63d15f0081a9de0084163141b88ff981f488a8ff37705f02038eb2eff9cc0e75"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "28bbea223d9ff0826ca2b5cb2076b5df95bdfc92d3dd1e2084889c5acacc4861"
+    },
+    {
+      "file": "src/components/AthleteApp.tsx",
+      "sha256": "7eb2c8f193fd2028202a97b337e82ef720ef95c309bd0d35d3b9ff949297b48e"
+    },
+    {
+      "file": "src/components/AthletePerformanceCharts.tsx",
+      "sha256": "6e8def3dc1ff1d41aa0a404a89d75ae7b5a53bdb9438250be3dea9a7b7b6ebed"
+    },
+    {
+      "file": "src/components/AthleteRaceList.tsx",
+      "sha256": "5e1c5271e5bcf13269532c1d30762337e600038a6eeb995c1f72c68d7cf66746"
+    },
+    {
+      "file": "src/components/AverageTimeArticle.tsx",
+      "sha256": "3d364ef35859d880dd1c3deba2a050b99157b335c767a79ed31ebb5772e2e5c1"
+    },
+    {
+      "file": "src/components/AverageTimePage.astro",
+      "sha256": "cefa7f360b7f147441e494fc2d27ff6fb1279f05b901234ed8354ff5dc8731e0"
+    },
+    {
+      "file": "src/components/CommandPalette.tsx",
+      "sha256": "9e8857df9dec2904eb11211bb8c76ab482cb3c6bf9b97fef05ee5e751f27c39a"
+    },
+    {
+      "file": "src/components/CourseBarChart.tsx",
+      "sha256": "19be2f44258a9888ae6c4e5b651c552880029a9bfec28d5a5d583259fcf8c4b0"
+    },
+    {
+      "file": "src/components/CourseCharts.tsx",
+      "sha256": "ba51ed2f8143c0a994310f5d8626c30df8a42ce7a568a2eee943e916adca3cb6"
+    },
+    {
+      "file": "src/components/CourseHeader.astro",
+      "sha256": "2b545c991913a622e8bafd24b594dd14b662107dc581b3c4cde7856bc4493af2"
+    },
+    {
+      "file": "src/components/CourseList.tsx",
+      "sha256": "dd035c28b1626b81cf754ab2705109f21c86a75fb08043ab362e1e434b27ca64"
+    },
+    {
+      "file": "src/components/DisciplineSection.tsx",
+      "sha256": "f4816fb7f50c38437dceefa1e2afd4134114be9e36478f849a5969437712efbf"
+    },
+    {
+      "file": "src/components/DisciplineSections.tsx",
+      "sha256": "a4e60564356b6a1f5dff8f53ea2d2bec766cc4d38a994ee2a866a29735e516c8"
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "sha256": "8bc0f205dd43ece81e3d8b8626bbbd38e805cc1b71c989003ec51bca25600d32"
+    },
+    {
+      "file": "src/components/GlobalSearchBar.tsx",
+      "sha256": "7b1b6901bb8f77fe022805757c75f6dd3f8a00ecdbad406581be45cf4b593c15"
+    },
+    {
+      "file": "src/components/Header.astro",
+      "sha256": "17286ccb57cb39e4bd4fd494856a4167002932563c6f9e146066352e76e262c2"
+    },
+    {
+      "file": "src/components/Histogram.tsx",
+      "sha256": "5ebe1c411df8e4a3d865b31b7d2d8bf7be3568339995945364ee9b41e2b10f26"
+    },
+    {
+      "file": "src/components/NotFoundContent.tsx",
+      "sha256": "015d79a9fe0e36ee338be0a8ce10c3fefa6c29eb010ee2485e89290eb7fb32d1"
+    },
+    {
+      "file": "src/components/PercentilePill.tsx",
+      "sha256": "8562d5b1a11333a71023810a4a657c0ebc538392b732c87ba63e5b2470510a92"
+    },
+    {
+      "file": "src/components/RaceBody.astro",
+      "sha256": "59522fa969cba63ea2b217a795464742531b4ce13ed97898fec216814ff50efc"
+    },
+    {
+      "file": "src/components/RaceDistributions.tsx",
+      "sha256": "bddc6384b769def881f0e27968dca63d6127194908fd647fe51d6abec9a92755"
+    },
+    {
+      "file": "src/components/RaceHistogram.tsx",
+      "sha256": "7e46dea8c74cd5dbcd4e109b7e8022a51f6b6ccdf896d23cfbc290f8ae7ac056"
+    },
+    {
+      "file": "src/components/ResultApp.tsx",
+      "sha256": "19c3e801c60686d0a2c644c2ddb94e9054c45d5ba14c27f18ad3bece8b62db15"
+    },
+    {
+      "file": "src/components/ResultCard.tsx",
+      "sha256": "d7c53a80adf857650d31599a5aff16ef01e8f7d3e8918390252486d4aea2ac43"
+    },
+    {
+      "file": "src/components/ResultSkeleton.tsx",
+      "sha256": "7c6ba401c378dd3c0563a5e81f0c254c9b4cc6ebb42399f8fd76f1d277ec7f25"
+    },
+    {
+      "file": "src/components/ShareDialog.tsx",
+      "sha256": "881f3bc604a70c9144217fee029707b965390d4a9eb6042d016824af2acca37e"
+    },
+    {
+      "file": "src/components/StatsBody.tsx",
+      "sha256": "b6221a98ec31b8e03342eac0d445ceca9dcfc31d0b279da8e862d585ccad9cac"
+    },
+    {
+      "file": "src/components/ThemeToggle.astro",
+      "sha256": "4267a782281e74443e7c874abb1910f7647b1e621721026c16f2f07a0673e6d6"
+    },
+    {
+      "file": "src/components/palette-mount.ts",
+      "sha256": "082a1e6ee532946b8c5af6926ea8e3ad29ff36504e29a267c470692c173c7f8b"
+    },
+    {
+      "file": "src/env.d.ts",
+      "sha256": "a1d9789d8d91603c2e9caf0ada5bad14c48a863bd9356a67c5581d7acbb2c4a8"
+    },
+    {
+      "file": "src/hooks/useAthleteSearch.ts",
+      "sha256": "ebafdc22315298958726d5d25865aab683c7bb13760daca0217df9812f1c4a9c"
+    },
+    {
+      "file": "src/layouts/Base.astro",
+      "sha256": "9a77beaa88e500ac44bb6275926eb21935228a0e61e6f60b2cf56e4abbc2e407"
+    },
+    {
+      "file": "src/lib/__tests__/athlete-file.test.ts",
+      "sha256": "e5ac284277bf719250e5527ab8f23ab5d89f04d53bce057a6cf9f43ad12ef216"
+    },
+    {
+      "file": "src/lib/__tests__/athlete-slug.test.ts",
+      "sha256": "7a0d1e30a38357b9c1e4c711867d2ddee8dcf8abc090525ce2d665fcc14f5cb6"
+    },
+    {
+      "file": "src/lib/__tests__/chart-utils.test.ts",
+      "sha256": "7081b1d01b438efb9081c5cd4af8317c20a5f5b135db9810f92a2700664baa31"
+    },
+    {
+      "file": "src/lib/__tests__/client-search-index.test.ts",
+      "sha256": "f1f57ced7c0f6ff1f9f4929a6120dec112132a6da3efc23743b10050ba451f9d"
+    },
+    {
+      "file": "src/lib/__tests__/course-results.test.ts",
+      "sha256": "b49c5da75ebc7228f5860a9f2c9916cd70cba0edda24ddd2f3ecf3d04e1a428b"
+    },
+    {
+      "file": "src/lib/__tests__/course-summary.test.ts",
+      "sha256": "25d94850d674425c45ff3c4a2ff4c4acbcb55b2a9ecf2da75511a6bfdac7e5fa"
+    },
+    {
+      "file": "src/lib/__tests__/csv.test.ts",
+      "sha256": "8370957e67910ba523fc34610d8a27d61573fad3c92666f8cfd1d35c2dc8c83f"
+    },
+    {
+      "file": "src/lib/__tests__/faq.test.ts",
+      "sha256": "386ed360f3b493f995c1572a4442b4c188b06530d25a25a3945e9d89d17025af"
+    },
+    {
+      "file": "src/lib/__tests__/fine-search.test.ts",
+      "sha256": "3b057463d1c2d8793c6c6ce2d19e6ff805b3a01d3fefaa7207f75ea12d5aa10b"
+    },
+    {
+      "file": "src/lib/__tests__/format.test.ts",
+      "sha256": "8fcf796c347c76541768c969481a3c0444230f69c4ce74c39db712acd40dbbb7"
+    },
+    {
+      "file": "src/lib/__tests__/histogram.test.ts",
+      "sha256": "c0d3e354faa5a50de984fe6bcff8ee62ad32ef26b6961953ce0d2f82edf934a9"
+    },
+    {
+      "file": "src/lib/__tests__/percentile.test.ts",
+      "sha256": "c37255b5657be32a2c0cdfc182fc8993f662bf87d400621e7a98f51ce83e588b"
+    },
+    {
+      "file": "src/lib/__tests__/race-file.test.ts",
+      "sha256": "df3f769f73c815527e55b3738052e1ebef9e5f33f43d6cb3cb6494fa9578657a"
+    },
+    {
+      "file": "src/lib/__tests__/race-filter.test.ts",
+      "sha256": "7e96bae82bdc342c397b04f900e6b29ded09c732de59cbf2a66bb894a89fba05"
+    },
+    {
+      "file": "src/lib/__tests__/race-location.test.ts",
+      "sha256": "746121aa094339d5e038547a62c56d8fe85ef2166fae4a6df9522ce6d46337b3"
+    },
+    {
+      "file": "src/lib/__tests__/race-segment.test.ts",
+      "sha256": "6c3e708dd96235291e82ff708ad0dd9c33975dddb04b2f02fc7014f67560fbb1"
+    },
+    {
+      "file": "src/lib/__tests__/race-stats.test.ts",
+      "sha256": "10eebe6e93e20b60c938d6a03e1838dc802a956773ae09c82963d82d55b973b1"
+    },
+    {
+      "file": "src/lib/__tests__/races-url.test.ts",
+      "sha256": "10fe339987b006fbe2a815b969634c0427eb1de636c8eac63fb977d78e0be3e6"
+    },
+    {
+      "file": "src/lib/__tests__/search-core.test.ts",
+      "sha256": "6d6c3f51cad83261f1283370c4c66c85b1bcf7550e6de0f9bc8f29c8b7241d1c"
+    },
+    {
+      "file": "src/lib/__tests__/search-shards.test.ts",
+      "sha256": "59bdd20c410f75c6e8598e4c2565ed403171751ffa1217659db9665a173a34a5"
+    },
+    {
+      "file": "src/lib/athlete-file.ts",
+      "sha256": "c09ff6927c59773dac3f7a1e9336ce26a5cc25ab2ca3112b274b154e555fd47c"
+    },
+    {
+      "file": "src/lib/athlete-slug.ts",
+      "sha256": "829d7a8fc7a5cd842e3fb960e60effed796cf9514fbfd5f12634a18c3ede7f07"
+    },
+    {
+      "file": "src/lib/build-cache.ts",
+      "sha256": "d7c397207d338620966690917501cd3be46264d9d5bab866a19bac70e142773b"
+    },
+    {
+      "file": "src/lib/chart-utils.ts",
+      "sha256": "20db2aea7c51b476917768de78e82e5ca9ac6feeccdbf30183b0a6d28b5955da"
+    },
+    {
+      "file": "src/lib/client-search-index.ts",
+      "sha256": "fd20dffc44fc8ec1284acedcd348db1aef82fa9819c084098b242ed9badca0f5"
+    },
+    {
+      "file": "src/lib/colors.ts",
+      "sha256": "bee52fea68850ad3207bff8687a9ec2e119f962191b61b7206ddf0eb6a54f52d"
+    },
+    {
+      "file": "src/lib/faq.ts",
+      "sha256": "63fa1de46f1860bffe44695d28603310b25dee96c7d81dca44c7ae4d507ffb02"
+    },
+    {
+      "file": "src/lib/fetch-gz.ts",
+      "sha256": "df0a55efc8a4649b4947ae19ccf7e35c254721b84c4d23c4d541b96e776e3a03"
+    },
+    {
+      "file": "src/lib/flags.ts",
+      "sha256": "a6485b4fb7a637c44f900ccb5da0c0954a05b08c4fec66b1002c6b908f5d36d5"
+    },
+    {
+      "file": "src/lib/format.ts",
+      "sha256": "fa8bac76a90ed785f92ae1cd7867b74afd075aa4ee9a49e903ef4df76f95b5e6"
+    },
+    {
+      "file": "src/lib/histogram.ts",
+      "sha256": "25e08fb1f568b30ecb28dda443368b541925762807c2301f88767766a940f9bc"
+    },
+    {
+      "file": "src/lib/page-data.ts",
+      "sha256": "a642d3db5fb2a555ec1ea28b47100d58468f13536d3283cba564b0b886c011d9"
+    },
+    {
+      "file": "src/lib/percentile.ts",
+      "sha256": "7d5d9a864a231ada26f8e044df5ec2a6d015d5e7728f4b6041dc1527d5a63759"
+    },
+    {
+      "file": "src/lib/race-file.ts",
+      "sha256": "78430e83434403bb5c11cc2cdb2f6a74a373e2785cfe43873fb3c5c9ed58e170"
+    },
+    {
+      "file": "src/lib/race-filter.ts",
+      "sha256": "ef6fdf53ba9753ed50bf55fabe51356bb88e9e68378a437f9be31466e0978579"
+    },
+    {
+      "file": "src/lib/raceLocation.ts",
+      "sha256": "8dee42b0e9c091531307ad8d1447c91ba6c4bddbee057847c52c195a9db9b482"
+    },
+    {
+      "file": "src/lib/races-url.ts",
+      "sha256": "e212cf3f2d5bd693b5998d23f51613ddfe2bdd80076d78f22a657a35b549d08f"
+    },
+    {
+      "file": "src/lib/races.ts",
+      "sha256": "b0207863ba9adaf867c467a521295fb1c8aaece1bfe0da2845e418243feb4588"
+    },
+    {
+      "file": "src/lib/search-core.ts",
+      "sha256": "0bb15d37912534da1bb4cc66575b54c03bab9c52493c7f573bd689858927a827"
+    },
+    {
+      "file": "src/lib/share-image.ts",
+      "sha256": "43f5c36aa5044884af222fda1b4d3a79815519d4ab9cd472d34e959c3e4aadd2"
+    },
+    {
+      "file": "src/lib/stats.ts",
+      "sha256": "1df02a3355368070d335bfa705943c9e84d6b9cc69d52ed096476807ec45546c"
+    },
+    {
+      "file": "src/lib/types.ts",
+      "sha256": "0dae6ddda3f589d1f137c6b75431a435b4101553f706f5291744ceb57f5750a8"
+    },
+    {
+      "file": "src/pages/404.astro",
+      "sha256": "57bf830155128efe063380720af1cd916ff2a9c990713563913567bca6ebd07d"
+    },
+    {
+      "file": "src/pages/courses.astro",
+      "sha256": "597647a4369e484412654714fb88f856d107736eac13b249b78f185894050936"
+    },
+    {
+      "file": "src/pages/courses/[course].astro",
+      "sha256": "e068ed13970bbcaa5a0b718bef3c6e279536504635dd75dfb0a2aad0f2763130"
+    },
+    {
+      "file": "src/pages/courses/[course]/[year].astro",
+      "sha256": "8c0dc781e65dab4e26802f8f9c8138ffbd21983388a558aa08e0e4324ffd0e9a"
+    },
+    {
+      "file": "src/pages/faq.astro",
+      "sha256": "e2f3f5e5de9f127a2df47ee106d8349ab0ed46e15a0cad25fc49fb2f2d18bf21"
+    },
+    {
+      "file": "src/pages/index.astro",
+      "sha256": "c97f328681966dccd70f133ad67d2cfbe0822bb988116584d0489435beb92bc6"
+    },
+    {
+      "file": "src/pages/race/[slug].astro",
+      "sha256": "2c41790486f67fefb1b28051f400adc8817a4b6aa491248ee3419b2636b44842"
+    },
+    {
+      "file": "src/pages/races.astro",
+      "sha256": "06a751c7a0454aa3142f034f922e519d38e1588b04c62b542f57323f98a79740"
+    },
+    {
+      "file": "src/pages/robots.txt.ts",
+      "sha256": "1a385b71bae9bf2cd7219b623cd2f222ac083817d01b1134c9e5659939c24e25"
+    },
+    {
+      "file": "src/pages/shell/athlete.astro",
+      "sha256": "5e7690e08e1f4e9d0f6e8beffb12b3480b222928787ecce6c6549e2a2e4de649"
+    },
+    {
+      "file": "src/pages/shell/result.astro",
+      "sha256": "f5a2fa11abba0dfb969cf8b4f6828ff418c1f4068e03ff04612f5c9869c86456"
+    },
+    {
+      "file": "src/pages/sitemap.xml.ts",
+      "sha256": "241d69b04a5fa7ac7ab69a7f532eaf07d998bc357d91caf57251e306cc441519"
+    },
+    {
+      "file": "src/pages/stats.astro",
+      "sha256": "e9c53963d1ac5348f179b4a1b0a7f145edc0cce2d47fae62669582cf52dd6045"
+    },
+    {
+      "file": "src/pages/stats/average-half-ironman-time.astro",
+      "sha256": "20846c187922c36047fbbd8243bcca97b964568042f39c983e8d84d5063e2036"
+    },
+    {
+      "file": "src/pages/stats/average-ironman-time.astro",
+      "sha256": "2f405444cf9bbf2d12718de33ebd3d1babf4c3d0bb5fd06bfbea14a9b4624d25"
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "e6ae2d62440c1107f5983510b6caab3b93b19b70c51a9af9f7b059b10466015e"
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "864c6020fa1b1631f49b20fb0f66d871926736b6d1582a645e66e573627d6e50"
+    }
+  ],
+  "testRuns": {
+    "matrix": {
+      "startTime": "2026-10-22T21:06:40.578Z",
+      "duration": 146043.696,
+      "expected": 135,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "parity": {
+      "startTime": "2026-10-22T21:09:19.188Z",
+      "duration": 19554.98,
+      "expected": 40,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "environments": [
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "desktop-chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "157.0",
+      "project": "desktop-firefox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "light",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "desktop-webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "light",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "156.0.8078.4",
+      "project": "mobile-chromium",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 412,
+        "document": 412,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "light",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(245, 247, 251)",
+        "foreground": "rgb(23, 42, 67)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025/result/0",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/athlete/rootul-patel--us-m",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/races?distance=140.6&year=2025&q=arizona",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/race/im-arizona-2025",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/courses",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/courses/im703-swansea",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/stats",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/stats/average-ironman-time",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    },
+    {
+      "browser": "27.2",
+      "project": "mobile-webkit",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "url": "http://127.0.0.1:8787/faq",
+      "theme": "dark",
+      "geometry": {
+        "viewport": 390,
+        "document": 390,
+        "background": "rgb(12, 20, 34)",
+        "foreground": "rgb(237, 243, 252)"
+      }
+    }
+  ],
+  "audits": [
+    {
+      "project": "desktop-chromium",
+      "title": "home / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "result / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "athlete / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "races / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "race / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "courses / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "course / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "stats / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "article / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "faq / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "home / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "result / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "athlete / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "races / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "race / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "courses / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "course / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "stats / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "article / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-chromium",
+      "title": "faq / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "home / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "result / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "athlete / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "races / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "race / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "courses / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "course / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "stats / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "article / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "faq / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "home / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "result / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "athlete / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "races / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "race / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "courses / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "course / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "stats / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "article / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-firefox",
+      "title": "faq / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "home / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "result / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "athlete / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "races / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "race / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "courses / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "course / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "stats / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "article / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "faq / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "home / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "result / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "athlete / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "races / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "race / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "courses / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "course / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "stats / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "article / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "desktop-webkit",
+      "title": "faq / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "home / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "result / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "athlete / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "races / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "race / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "courses / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "course / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "stats / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "article / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "faq / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "home / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "result / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "athlete / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "races / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "race / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "courses / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "course / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "stats / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "article / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "faq / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "home / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "result / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "athlete / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "races / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "race / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "courses / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "course / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "stats / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "article / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "faq / light: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "home / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "result / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "athlete / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "races / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "race / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "courses / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "course / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "stats / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "article / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 1,
+      "axeVersion": "4.14.0"
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "faq / dark: rendering, contrast and accessibility",
+      "violations": 0,
+      "incomplete": 0,
+      "axeVersion": "4.14.0"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "desktop-chromium--article--dark.png",
+      "sha256": "4718d126f5573d8cc074b6a3210f8eee229c871277096425efc0d01a73ecabfc",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--article--light.png",
+      "sha256": "530091669150f720483713da12a7d2d2a6a0a7b62b2e62c2988d8a2b1a18e95f",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--athlete--dark.png",
+      "sha256": "aac74de8b95bf6a36afc0c3b340394350084bbad5d43c6670fe373cbba43fe8a",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--athlete--light.png",
+      "sha256": "6491f9c7341174889f103409fb120ed5cfd2f48f6be46ea4b8edf7e8349a571b",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--course--dark.png",
+      "sha256": "71454af67d3d0757cc02436fd618da6cbddd81a7b7e78aec8cfc3a0a96abb57a",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--course--light.png",
+      "sha256": "236aeae7e6db4ea470effe85943518f681ee2e7fcddd9efb40f49bbb714b08ca",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--courses--dark.png",
+      "sha256": "dfc480828fbfb4f19ca360ec187f8c31bf8a96a2f86b120533b5a6789872f199",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--courses--light.png",
+      "sha256": "0686502b63e8cb9b4972dbc6735ef9a61b49b3f65bed6b529e431584fc59d52b",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--faq--dark.png",
+      "sha256": "f078f6e08135b2ebab809884691f982c1f881c79f89a845293978dfff1b96a89",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--faq--light.png",
+      "sha256": "9d3a2903b1bb00f4269b5e41ae7fd1af1fa9e2415a9263098077f237d0788c0e",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--home--dark.png",
+      "sha256": "c83a888a13ef34b3bbafe3e0220148c2f57a5837c020ec40a307dab18edda301",
+      "committed": true
+    },
+    {
+      "file": "desktop-chromium--home--light.png",
+      "sha256": "1a99e0f44c6d32205cca83d29464f84dcb28500df6aca87972faca13f718796d",
+      "committed": true
+    },
+    {
+      "file": "desktop-chromium--race--dark.png",
+      "sha256": "be49f7f6f06ce284f0486416339abaa207129db5f71a8a570474d3602ee9b67c",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--race--light.png",
+      "sha256": "feac27eeb3c7fd9ea563f1f77813027fda5030d6506d986f4b270666c69128f1",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--races--dark.png",
+      "sha256": "8c24a61c306c061376027652e48c41c12585e730b67d823db1f140c8a40f4f8a",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--races--light.png",
+      "sha256": "bbce84c7ef6fb9b8e0e8ad8d6be948cb5cd91648cdd95ffed27e47f19c409747",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--result--dark.png",
+      "sha256": "1ab07168289fc0251be9ba7dda9c01fdb4f85da2038f8251add25d8ce49d2a0a",
+      "committed": true
+    },
+    {
+      "file": "desktop-chromium--result--light.png",
+      "sha256": "6ec53f801830e68140062e6b1e3049d47b6bc163728f5febabf6b893ad1eae7f",
+      "committed": true
+    },
+    {
+      "file": "desktop-chromium--stats--dark.png",
+      "sha256": "f2490ef55d68ffa779119d817b17be760967ccf4357b0ee27235a50c959de382",
+      "committed": false
+    },
+    {
+      "file": "desktop-chromium--stats--light.png",
+      "sha256": "92a936dd02f2bc80d43d1ccd139a722cb4938e9246ef92692b0ac5c393080e5a",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--article--dark.png",
+      "sha256": "d12fb3106e91d8129cd1baa547d977d0225b09279cb2a38ec07e21230f2e9b48",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--article--light.png",
+      "sha256": "ffc943f7f68501fb03126244b54a5705895bdea341359ad54be001de12632a0a",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--athlete--dark.png",
+      "sha256": "e1bfca149f3c92e455f862fd807c5e0295587f33c878541d54897ce23f168d62",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--athlete--light.png",
+      "sha256": "7b69bb066d1a338dd5e9720ae2d12ee0580cc3bb282bbf7ced01b5fcc78a42ff",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--course--dark.png",
+      "sha256": "d0cad8d65b4018978b07b43a3ba0fa891df7df919bad0d6527b24f4377e5657e",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--course--light.png",
+      "sha256": "15a9d0307c8a4d7313d278f70b7ca9f55e33684aa581ba0b3f5c1f868021988a",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--courses--dark.png",
+      "sha256": "7fe5dd8e6c0916efc07008dce27b31473ac883a6eb3a26dbcc3c9e1dfd8de66e",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--courses--light.png",
+      "sha256": "e3f413c6c0e190fb312e1bc28eeea3ce8dbd514f620a28fc4694fd587b33cc7e",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--faq--dark.png",
+      "sha256": "fec8cc22ec2077750b56556fa6e0f283f03c64da42b32f3958cdca8fdc79b742",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--faq--light.png",
+      "sha256": "5d873229000737c26c1dc3983aec935c7181f32d8a6b810e5404ef67f1341ef6",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--home--dark.png",
+      "sha256": "b34ad53de8cb87f49a3c61c5af44ac65ecabcdcf62073c7f9f08c8cce015ca29",
+      "committed": true
+    },
+    {
+      "file": "desktop-firefox--home--light.png",
+      "sha256": "752395316669a6830152ad520521333369995b197b0abeb1a50ffc84342457f1",
+      "committed": true
+    },
+    {
+      "file": "desktop-firefox--race--dark.png",
+      "sha256": "43fa47774849cb629ae37bba9ac75f17aaee6fb1291f4dc6b42abd9bf2f8611a",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--race--light.png",
+      "sha256": "92b4b4964b82440db0d5f7375bd4e3f9b233b3144d8836003c0211a53eada028",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--races--dark.png",
+      "sha256": "c8a9e22809184e315db20b97ac405d40e5cc393ab5914370740cb46313e89c8c",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--races--light.png",
+      "sha256": "dadd4d7e856b7a029fb24f70059de8155f30c4e0f6ba9681c44ef82bb890b5e7",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--result--dark.png",
+      "sha256": "8794cfd346e4c5ca5f4f4c8ee663f7cad7f325dad51379ecac53a85f33457481",
+      "committed": true
+    },
+    {
+      "file": "desktop-firefox--result--light.png",
+      "sha256": "b815ce409237e02216deb7775c411aa892ee2a280458710f22484b579f38d59e",
+      "committed": true
+    },
+    {
+      "file": "desktop-firefox--stats--dark.png",
+      "sha256": "c8ff6a55444ed3b05589e53ef7587a734af355026cc0c2a8b94b222e80b516a7",
+      "committed": false
+    },
+    {
+      "file": "desktop-firefox--stats--light.png",
+      "sha256": "14902a74a1928edde431cb77d9b51bf67c807112c2c2ccc67a5983dc1ee7b50f",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--article--dark.png",
+      "sha256": "6f7063c88d60bdbbb9cf4f7d774dafa44239dff5b78d10e81f20fc159fac2430",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--article--light.png",
+      "sha256": "7ea3dc71543f6c0a1cd6d31bd21062889899a2d5295327b20104c02224a7f1db",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--athlete--dark.png",
+      "sha256": "0fb44b0cdcd5f66a3a622dcfb9d49cd658e374c2d2c07f555bb42b5fc9f969d9",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--athlete--light.png",
+      "sha256": "3d6b836ddef8f7f6af42f6e5bd6fc650b8ac9f3ead527c97eb9c9f945ea92538",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--course--dark.png",
+      "sha256": "f53952991c5644fc1eecece6ab70f6c84f9b7da60538dacecfaaf3d1733bb02c",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--course--light.png",
+      "sha256": "53b4eb52d2aa09b3687f14f31e15dc776c23912e1236aa471f219356e310be52",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--courses--dark.png",
+      "sha256": "650b2696731e4f9ca6787456fed73cac81763411f779aa6e3818e768d0882e2d",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--courses--light.png",
+      "sha256": "47602908e6f8fa273fe1e711f143c45dd9cf8feee0fc72613cef0e32cd42f715",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--faq--dark.png",
+      "sha256": "e6e1e65f4b08a749ab8c8aa77a068df513b21388363bda4552ecffd2472bf39d",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--faq--light.png",
+      "sha256": "3eca424578c0353dfdc7949ed47e2871cfb98f9150cac8d956c5f53ffbd90b83",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--home--dark.png",
+      "sha256": "e75d6f0594eb98279ea11d6afbfde6b1b53e7715ecfdc5714e6a4fa5faee9f88",
+      "committed": true
+    },
+    {
+      "file": "desktop-webkit--home--light.png",
+      "sha256": "586d0c5e23541df9cf7e33b4e48335c56731da19b36a539c74cdfd37aae0f85d",
+      "committed": true
+    },
+    {
+      "file": "desktop-webkit--race--dark.png",
+      "sha256": "6fdd9441ca9a68af29beda7f797f59a816513366893820e7551c21219a8baf05",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--race--light.png",
+      "sha256": "6756d592b28f3ff2184c2c9eb6e859d79ddcd94010e7a4a5e55c60ab9da61130",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--races--dark.png",
+      "sha256": "006edbc87562bd3c726e6232e9d5e28f90aa2a23502b6c8b7bd3edddfc2137c2",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--races--light.png",
+      "sha256": "0d4ab7c71dab827281b1c8b159287efd806d4e75004df4a4f9abf1d23c79beea",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--result--dark.png",
+      "sha256": "b45493724b5788ef90d4ef834f5d0cc6c0c36e2b53962701abbfb8cb893a062c",
+      "committed": true
+    },
+    {
+      "file": "desktop-webkit--result--light.png",
+      "sha256": "a51e30e5ca35a30e9893ac3cfad4c7415851a73a35fc3332b52e9055d537fa91",
+      "committed": true
+    },
+    {
+      "file": "desktop-webkit--stats--dark.png",
+      "sha256": "c84dcfe7293f66af8973b9785731315910bf00f2d8c400e3fa4322c60d20a064",
+      "committed": false
+    },
+    {
+      "file": "desktop-webkit--stats--light.png",
+      "sha256": "4a52036be598d6c8f8007f61c5eea45238a7a2c861a3de648abe9df25bf82661",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--article--dark.png",
+      "sha256": "34eab9c05b7d610656e895bfb326b38dc3500b3104e26e3ddd6df26005215393",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--article--light.png",
+      "sha256": "6b6902e5a5f5031f634e7390389143973c2a00af97b17b7fbd8398a9a59f6042",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--athlete--dark.png",
+      "sha256": "c1e50a5ea2b65035c3e8e63ba5390dd742b6df502c36b21e34faf5edcf033527",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--athlete--light.png",
+      "sha256": "2146684b89d0e9c9a527bfc14e9e99c2d3c481c87665f53b3cda1cd35ba0b623",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--course--dark.png",
+      "sha256": "e5ecf91b9c051efb25094bb9261e6219139c513ac5b1fb99aca188fa363f2444",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--course--light.png",
+      "sha256": "874735b6399c1de793295bf817134d42a0e0341f3c87c82863b70e5ece5afca8",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--courses--dark.png",
+      "sha256": "abe778f8aefa4e57fa09e4360b6a360fab3ab3fd1f6d99b081311b1da276da50",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--courses--light.png",
+      "sha256": "465590675929febc825599929a933f8cf733761809af63c919578a160006355f",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--faq--dark.png",
+      "sha256": "17372cf8fa21ef5d605d6d2aec4425eac5a2eb04d1f2f6971cb1230f9af2da8f",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--faq--light.png",
+      "sha256": "983be9bef779dc9494c775722c3adf38f0d8702da34dbb6eda3a302aa4dba28a",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--home--dark.png",
+      "sha256": "5f81ab8f59c5610cbbe513b448e0e4f842b1d5af8a2716db6413077bfec2a54b",
+      "committed": true
+    },
+    {
+      "file": "mobile-chromium--home--light.png",
+      "sha256": "b5156df176f8f5dad6fb4b1606b4264d18f89a2d5b0e2f63f8f9ba51867a93e7",
+      "committed": true
+    },
+    {
+      "file": "mobile-chromium--race--dark.png",
+      "sha256": "00f404b77c15695d511d6c078ba5c78c35bca219cc6bdd4107769bc7d24abedf",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--race--light.png",
+      "sha256": "e3ce85c014324f6de6bb412190f0392c8c1da411253a606c4b482ca15209ae68",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--races--dark.png",
+      "sha256": "67c5397f38d920647b5fdd5283e765959cea91d18a85dae30f5dd1a33a12e2a0",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--races--light.png",
+      "sha256": "647dcc44df9d3fabe02db61e9c053721c503ffd149bc202f2959e472af637af0",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--result--dark.png",
+      "sha256": "5238cb3bf43ec61a920ed4c5a16c43a1eac7b8002dd0e59a4eb9e6c62d61a8b4",
+      "committed": true
+    },
+    {
+      "file": "mobile-chromium--result--light.png",
+      "sha256": "aa6ef96b1e3499d9eef6183dd7f811fcd30e54722871a866f106e430841f2b9a",
+      "committed": true
+    },
+    {
+      "file": "mobile-chromium--stats--dark.png",
+      "sha256": "c8a687c84bfc0a895862b85729a09caf546ae9c067c9c690b1bb71632e09fad1",
+      "committed": false
+    },
+    {
+      "file": "mobile-chromium--stats--light.png",
+      "sha256": "7f1de2866d7f2d516a7f2b8da14074f36667ac348533ec0d8f6c1732231d82f2",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--article--dark.png",
+      "sha256": "a310c3fd5a92cefc9459e86f022dbf672e4065486077c96955181570d4b25068",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--article--light.png",
+      "sha256": "f7a12177f61b3a30a57cbc95eb99490dbfa22616b97bff49279836589e05851f",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--athlete--dark.png",
+      "sha256": "e135f57f76c02a11db0ae78de2aab197529611dd319074ec3cd4970cdc9c3049",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--athlete--light.png",
+      "sha256": "20da91d2960c1129d277879fcbaa045e704ed34a48fcdf5b1a2b2a53c9da696c",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--course--dark.png",
+      "sha256": "2ac16531bfd0d13156b609cf0e033242fab8f32878138f253018f7282e53d14d",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--course--light.png",
+      "sha256": "2b040b2210579907d326e8aaea5c009374aa98bdad26b6538280ead7ad448330",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--courses--dark.png",
+      "sha256": "091810addaea1580c87e08dc91eb70bd29e51c184fc45c38423a4d0850198b16",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--courses--light.png",
+      "sha256": "6d48fa211b5b254e3bdfb862f67f8eb46b0cb90a6599b4eb0476c4a0bed2362d",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--faq--dark.png",
+      "sha256": "458ac7553ce42768a94452d64b51b427d7ad141c5cb2050a54b00c918b76e044",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--faq--light.png",
+      "sha256": "b8e1e6f04ac019409199a14e7bce75713570dd728650da92fa48f545c1c78e7d",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--home--dark.png",
+      "sha256": "08b0c9733bceb2ea18b1fef18bb33003d9c9bab2e74a21f26bebba29d6bb438d",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--home--light.png",
+      "sha256": "7106644d2e9bab4dcde38b7a72441c7341b5a5053a1720181fac88783f10feb9",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--race--dark.png",
+      "sha256": "0ce3763cf90e8e9a85b49e598418f4ab5ccd72bc36f2b4a8d535f9f7a63fd691",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--race--light.png",
+      "sha256": "e1ec5d2d41c4621cd584bb23e70ba3c1990e37964b627b611aadc5677e9822fb",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--races--dark.png",
+      "sha256": "532c90f932c6bd233764e1dc7e411c5a413079526cf5d799dd2845480571ab3a",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--races--light.png",
+      "sha256": "5ca063acb4397af99cb024d618a557275add1496abdf82f727d48b85a047ece0",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--result--dark.png",
+      "sha256": "b57b6c6c0087be55c7c06fe202060667df8db9120a9551a5115b0addc3a7ae1c",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--result--light.png",
+      "sha256": "c2d39664ba68615781fa9caded4a546c634fbc10bfedd26dd61c6e681976be33",
+      "committed": true
+    },
+    {
+      "file": "mobile-webkit--stats--dark.png",
+      "sha256": "da8daeea2f15be6bc834510abf294e238f2af25ce05888e135ba21a75865c91d",
+      "committed": false
+    },
+    {
+      "file": "mobile-webkit--stats--light.png",
+      "sha256": "a7684dc24a577a6b6d4ac10fc6a221fb6318873ccb38f5110ce609d6727f138b",
+      "committed": false
+    }
+  ],
+  "method": "Production Astro output served by Wrangler's local Cloudflare runtime. Real Playwright browser screenshots, theme changes through the UI, real committed race data, axe WCAG 2 A/AA and 2.1 AA scans. No golden-image comparison or aesthetic scoring.",
+  "limitations": "WebKit is the browser engine used by Safari, not the branded Safari application. Mobile uses Playwright device emulation, not physical hardware. Axe reports incomplete checks separately and does not replace manual accessibility review. These captures establish rendering at the recorded source and viewport; visual appeal is a human judgment, not an irrefutable automated claim. This is local-runtime evidence, not verification of the public preview or production CDN."
+}
