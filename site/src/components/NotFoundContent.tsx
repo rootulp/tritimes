@@ -3,11 +3,11 @@ import GlobalSearchBar from "./GlobalSearchBar";
 /** Body of the 404 page; also shown by the result/athlete pages for unknown URLs. */
 export default function NotFoundContent() {
   return (
-    <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-8">
+    <main id="main-content" className="flex-1 max-w-6xl w-full mx-auto px-4 py-8">
       <div className="flex flex-col items-center text-center pt-16 pb-20">
-        <p className="text-sm font-semibold tracking-widest text-blue-400 uppercase mb-3">404</p>
-        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">Page not found</h1>
-        <p className="text-gray-400 max-w-md mb-10 leading-relaxed">
+        <p className="text-sm font-semibold tracking-widest text-accent uppercase mb-3">404</p>
+        <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Page not found</h1>
+        <p className="text-secondary max-w-md mb-10 leading-relaxed">
           This page doesn&apos;t exist — the link may be stale, or the race or result may have moved. Try searching for an
           athlete below.
         </p>
@@ -17,12 +17,12 @@ export default function NotFoundContent() {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a href="/" className="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-colors">
+          <a href="/" className="px-5 py-2.5 rounded-lg bg-action hover:bg-action text-on-action font-semibold transition-colors">
             Go home
           </a>
           <a
             href="/races"
-            className="px-5 py-2.5 rounded-lg border border-gray-700/80 bg-gray-900 hover:border-gray-500 text-white font-semibold transition-colors"
+            className="px-5 py-2.5 rounded-lg border border-line/80 bg-surface hover:border-strong text-foreground font-semibold transition-colors"
           >
             Browse races
           </a>

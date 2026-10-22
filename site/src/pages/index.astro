@@ -1,37 +1,92 @@
 ---
 import Base from "@/layouts/Base.astro";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
+import { getRaces, getRacePage } from "@/lib/build-cache";
+import { formatAthleteName } from "@/lib/format";
 
+const races = getRaces();
+const resultCount = races.reduce((n, race) => n + race.finishers, 0);
+const earliestYear = Math.min(...races.map((race) => Number(race.date.slice(0, 4))));
+// A real, linked example from the same generated data as the race page.
+const { race, stats } = getRacePage("im703-oceanside-2025");
+const athlete = stats.femaleLeaderboard[0];
+const bins = stats.histograms.finish.bins;
+const maxCount = Math.max(1, ...bins.map((bin) => bin.count));
+const seconds = athlete.finishTime.split(":").reduce((n, part) => n * 60 + Number(part), 0);
+const athleteBin = bins.findIndex((bin) => seconds >= bin.rangeStart && seconds < bin.rangeEnd);
+const resultUrl = `/race/${race.slug}/result/${athlete.id}`;
 const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "TriTimes",
-  url: "https://tritimes.org",
-  description:
-    "IRONMAN and IRONMAN 70.3 race results with full-field time distributions and percentiles for swim, bike, and run.",
+  "@context": "https://schema.org", "@type": "WebSite", name: "TriTimes", url: "https://tritimes.org",
+  description: "IRONMAN and IRONMAN 70.3 race results with full-field time distributions and percentiles for swim, bike, and run.",
 };
 ---
 
-<Base jsonLd={jsonLd}>
-  <main class="flex-1">
-    <section class="relative">
-      <div class="absolute inset-0 bg-gradient-to-br from-blue-950 via-[#0a0a0a] to-gray-900"></div>
-      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.15),transparent_60%)]"></div>
-      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(168,85,247,0.08),transparent_50%)]"></div>
-
-      <div class="relative z-10 flex flex-col items-center justify-center text-center px-4 pt-28 pb-20">
-        <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-4">
-          Race. Analyze.{" "}
-          <span class="bg-gradient-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent">Improve.</span>
-        </h1>
-        <p class="text-lg sm:text-xl text-gray-400 max-w-xl mb-10 leading-relaxed">
-          Explore your IronMan &amp; 70.3 results with full field distributions. See where you stand in swim, bike, run, and
-          overall.
-        </p>
-        <div class="w-full max-w-lg">
+<Base jsonLd={jsonLd} canonical="/">
+  <main id="main-content" class="max-w-6xl w-full mx-auto px-4">
+    <section class="home-hero" aria-labelledby="home-heading">
+      <div>
+        <p class="eyebrow">Swim. Bike. Run. Understand.</p>
+        <h1 id="home-heading" class="hero-title">Your race.<br /><span>In perspective.</span></h1>
+        <p class="hero-description">Look beyond the finish time. Explore your IRONMAN &amp; 70.3 results and see where you stand in every discipline.</p>
+        <div class="home-search">
+          <label for="global-search" class="block text-sm font-semibold mb-2">Find an athlete</label>
           <GlobalSearchBar client:load />
         </div>
+        <div class="flex flex-wrap gap-x-6 gap-y-3 mt-5 text-sm">
+          <a class="text-link" href="/races">Browse races <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="/courses">Compare courses <span aria-hidden="true">→</span></a>
+        </div>
       </div>
+
+      <article class="sample-result panel" aria-labelledby="sample-title">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+          <p class="eyebrow">A finish, in focus</p>
+          <span class="text-xs text-secondary bg-subtle rounded-full px-3 py-1">Real race data</span>
+        </div>
+        <h2 id="sample-title" class="text-lg font-semibold tracking-tight">{formatAthleteName(athlete.fullName)}</h2>
+        <p class="text-sm text-secondary">{race.name}</p>
+        <p class="sample-time font-mono mt-4">{athlete.finishTime}</p>
+        <p class="text-sm text-accent font-semibold">#{athlete.rank} female finisher <span class="text-secondary font-normal">· {athlete.ageGroup}</span></p>
+        <dl class="sample-splits">
+          <div><dt class="text-swim">Swim</dt><dd>{athlete.swimTime}</dd></div>
+          <div><dt class="text-bike">Bike</dt><dd>{athlete.bikeTime}</dd></div>
+          <div><dt class="text-run">Run</dt><dd>{athlete.runTime}</dd></div>
+        </dl>
+        <div class="flex flex-wrap justify-between gap-2 text-xs text-secondary mb-2">
+          <span>Finish-time distribution</span><span>{stats.totalFinishers.toLocaleString("en-US")} finishers</span>
+        </div>
+        <svg viewBox="0 0 400 100" class="w-full" role="img" aria-label={`Finish-time distribution for ${race.name}. Highlighted bar contains ${formatAthleteName(athlete.fullName)}’s finish.`}>
+          {bins.map((bin, i) => <rect x={i * 400 / bins.length} y={94 - bin.count / maxCount * 85} width={Math.max(1, 400 / bins.length - 2)} height={Math.max(1, bin.count / maxCount * 85)} rx="2" fill={i === athleteBin ? "var(--accent)" : "var(--chart-grid)"} />)}
+          {athleteBin >= 0 && <line x1={(athleteBin + .4) * 400 / bins.length} x2={(athleteBin + .4) * 400 / bins.length} y1="3" y2="96" stroke="var(--accent)" stroke-width="2" />}
+        </svg>
+        <div class="flex justify-between text-xs text-muted mb-5"><span>Faster finishes</span><span>Slower finishes</span></div>
+        <a href={resultUrl} class="text-link text-sm">Explore this result <span aria-hidden="true">→</span></a>
+      </article>
+    </section>
+
+    <div class="coverage-strip" role="group" aria-label="Dataset coverage">
+      <span><strong>{races.length.toLocaleString("en-US")}</strong> races</span>
+      <span><strong>{resultCount.toLocaleString("en-US")}</strong> finisher results</span>
+      <span>Race history since <strong>{earliestYear}</strong></span>
+      <span class="sm:ml-auto">Independent triathlon analysis</span>
+    </div>
+
+    <section class="explore-grid" aria-label="Explore TriTimes">
+      <a class="explore-card panel" href="/races">
+        <span class="explore-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 21V3m0 1h14l-3 4 3 4H5" /></svg></span>
+        <h2>Find your next benchmark <span class="text-accent" aria-hidden="true">→</span></h2>
+        <p>Browse race results by event, distance, and year. See the full picture behind every finish.</p>
+      </a>
+      <a class="explore-card panel" href="/courses">
+        <span class="explore-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m3 17 5-9 5 5 4-9 4 13M3 21h18" /></svg></span>
+        <h2>Put courses in context <span class="text-accent" aria-hidden="true">→</span></h2>
+        <p>Compare median swim, bike, and run times across courses and their race editions.</p>
+      </a>
+      <a class="explore-card panel" href="/stats">
+        <span class="explore-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10h4v10m2 0V4h4v16m2 0v-8h4v8M2 20h20" /></svg></span>
+        <h2>See the bigger picture <span class="text-accent" aria-hidden="true">→</span></h2>
+        <p>Explore finish-time benchmarks, participation, and the numbers behind the sport.</p>
+      </a>
     </section>
   </main>
 </Base>

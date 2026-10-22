@@ -12,8 +12,8 @@ const formatDate = (iso: string) =>
   new Date(iso + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 const cleanRaceName = (name: string) => name.replace(/^IRONMAN\s+70\.3\s+/i, "").replace(/^IRONMAN\s+/i, "");
 const btnBase = "px-4 py-2 rounded-full text-sm font-medium";
-const btnActive = `${btnBase} bg-white/10 text-white ring-1 ring-white/20`;
-const btnIdle = `${btnBase} text-gray-400 hover:text-white hover:bg-white/5 transition-colors`;
+const btnActive = `${btnBase} bg-selected text-foreground ring-1 ring-line`;
+const btnIdle = `${btnBase} text-secondary hover:text-foreground hover:bg-subtle transition-colors`;
 ---
 
 <Base
@@ -21,15 +21,15 @@ const btnIdle = `${btnBase} text-gray-400 hover:text-white hover:bg-white/5 tran
   description={`Browse ${races.length.toLocaleString("en-US")} IRONMAN and IRONMAN 70.3 races with ${totalResults.toLocaleString("en-US")} finisher results. Filter by distance and year, then dive into time distributions for any race.`}
   canonical="/races"
 >
-  <main class="max-w-6xl w-full mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold text-white mb-8">All Races</h1>
+  <main id="main-content" class="max-w-6xl w-full mx-auto px-4 py-8">
+    <header class="page-intro"><p class="eyebrow">The race archive</p><h1 class="text-3xl sm:text-4xl font-bold text-foreground">All Races</h1><p class="text-secondary">Find your finish line. Explore results by event, distance, and year.</p></header>
 
-    <div class="flex flex-wrap items-center gap-x-6 gap-y-3 mb-6" id="race-filters" data-active={btnActive} data-idle={btnIdle}>
+    <div class="filter-panel flex flex-wrap items-center gap-x-6 gap-y-3 mb-6" id="race-filters" data-active={btnActive} data-idle={btnIdle}>
       <div class="flex items-center gap-2">
-        <span class="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">Distance</span>
+        <span class="text-xs font-medium text-muted uppercase tracking-wider mr-1">Distance</span>
         {
           ["All", "70.3", "140.6"].map((d) => (
-            <button type="button" data-distance={d} class={d === "All" ? btnActive : btnIdle}>
+            <button type="button" data-distance={d} aria-pressed={d === "All"} class={d === "All" ? btnActive : btnIdle}>
               {d}
             </button>
           ))
@@ -37,39 +37,39 @@ const btnIdle = `${btnBase} text-gray-400 hover:text-white hover:bg-white/5 tran
       </div>
 
       <div class="flex items-center gap-2">
-        <span class="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">Year</span>
+        <span class="text-xs font-medium text-muted uppercase tracking-wider mr-1">Year</span>
         <select
           id="race-year"
           aria-label="Year"
-          class="px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none appearance-none cursor-pointer pr-7 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M3%205l3%203%203-3%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_8px_center] bg-no-repeat"
+          class="px-4 py-2 rounded-full text-sm font-medium bg-selected text-foreground ring-1 ring-line border-none appearance-none cursor-pointer pr-7 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M3%205l3%203%203-3%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_8px_center] bg-no-repeat"
         >
-          <option value="All" class="bg-gray-900 text-white">All</option>
-          {years.map((y) => <option value={y} class="bg-gray-900 text-white">{y}</option>)}
+          <option value="All" class="bg-surface text-foreground">All</option>
+          {years.map((y) => <option value={y} class="bg-surface text-foreground">{y}</option>)}
         </select>
       </div>
 
       <div class="flex items-center gap-2">
-        <label for="race-search" class="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">Search</label>
+        <label for="race-search" class="text-xs font-medium text-muted uppercase tracking-wider mr-1">Search</label>
         <input
           id="race-search"
           type="search"
           placeholder="Name or location"
           autocomplete="off"
-          class="px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20 border-none placeholder:text-gray-500 focus:outline-none focus:ring-white/40 w-56"
+          class="px-4 py-2 rounded-full text-sm font-medium bg-selected text-foreground ring-1 ring-line border-none placeholder:text-muted focus:outline-none focus:ring-accent w-56"
         />
       </div>
     </div>
 
-    <p class="text-sm text-gray-500 mb-4">
+    <p class="text-sm text-muted mb-4">
       Showing <span id="race-count">{races.length}</span> of {races.length} races
     </p>
 
     <div id="race-empty" class="py-12 text-center hidden">
-      <p class="text-gray-400">No races match your filters.</p>
+      <p class="text-secondary">No races match your filters.</p>
       <button
         type="button"
         id="race-clear"
-        class="mt-3 px-4 py-2 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 ring-1 ring-white/20 transition-colors"
+        class="mt-3 px-4 py-2 rounded-full text-sm font-medium text-secondary hover:text-foreground hover:bg-subtle ring-1 ring-line transition-colors"
       >
         Clear filters
       </button>
@@ -86,23 +86,23 @@ const btnIdle = `${btnBase} text-gray-400 hover:text-white hover:bg-white/5 tran
               data-distance={race.slug.startsWith("im703-") ? "70.3" : "140.6"}
               data-year={race.date.slice(0, 4)}
               data-q={`${normalize(race.name)}\n${normalize(race.location ?? "")}`}
-              class="group block p-5 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80 [content-visibility:auto] [contain-intrinsic-size:auto_150px]"
+              class="group block p-5 border border-line/80 rounded-lg bg-surface transition-colors duration-200 hover:border-strong hover:bg-subtle/80 [content-visibility:auto] [contain-intrinsic-size:auto_150px]"
             >
               <div class="flex items-start justify-between gap-3">
-                <h2 class="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors leading-tight">
+                <h2 class="text-lg font-semibold text-foreground group-hover:text-accent transition-colors leading-tight">
                   {cleanRaceName(race.name)}
                 </h2>
-                <span class="shrink-0 px-2 py-0.5 rounded-full text-xs font-medium bg-white/5 text-gray-400">
+                <span class="shrink-0 px-2 py-0.5 rounded-full text-xs font-medium bg-subtle text-secondary">
                   {race.slug.startsWith("im703-") ? "70.3" : "140.6"}
                 </span>
               </div>
-              <p class="text-sm text-gray-400 mt-2">
+              <p class="text-sm text-secondary mt-2">
                 {flag && <span class="mr-1.5">{flag}</span>}
                 {location}
               </p>
-              <div class="flex items-center gap-2 mt-3 text-xs text-gray-500">
+              <div class="flex items-center gap-2 mt-3 text-xs text-muted">
                 <span>{formatDate(race.date)}</span>
-                <span class="text-gray-700">&middot;</span>
+                <span class="text-muted">&middot;</span>
                 <span>{race.finishers.toLocaleString("en-US")} finishers</span>
               </div>
             </a>
@@ -142,6 +142,7 @@ const btnIdle = `${btnBase} text-gray-400 hover:text-white hover:bg-white/5 tran
     document.getElementById("race-empty")!.classList.toggle("hidden", shown > 0);
     for (const b of distanceButtons) {
       b.className = b.dataset.distance === state.distance ? filters.dataset.active! : filters.dataset.idle!;
+      b.setAttribute("aria-pressed", String(b.dataset.distance === state.distance));
     }
     yearSelect.value = state.year;
     if (search.value !== state.query) search.value = state.query;

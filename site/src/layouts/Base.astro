@@ -30,10 +30,17 @@ const jsonLdHtml = jsonLd ? JSON.stringify(jsonLd).replace(/</g, "\\u003c") : nu
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      // Deliberately default to light, even on a device that prefers dark mode.
+      // Restore only an explicit choice, before CSS/body paint to avoid flashing.
+      try {
+        document.documentElement.dataset.theme = localStorage.getItem("tritimes-theme") === "dark" ? "dark" : "light";
+      } catch { /* The light default also works without storage or JavaScript. */ }
+    </script>
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     {canonical && <link rel="canonical" href={`${SITE_URL}${canonical}`} />}
@@ -53,6 +60,7 @@ const jsonLdHtml = jsonLd ? JSON.stringify(jsonLd).replace(/</g, "\\u003c") : nu
     {jsonLdHtml && <script type="application/ld+json" set:html={jsonLdHtml} />}
   </head>
   <body class="antialiased bg-[var(--background)] min-h-dvh flex flex-col">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <Header />
     <slot />
     <Footer />

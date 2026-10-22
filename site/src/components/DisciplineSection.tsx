@@ -24,10 +24,10 @@ export default function DisciplineSection({
   const label = scope === "overall" ? "Overall Field" : `Age Group: ${ageGroup}`;
 
   return (
-    <section className="bg-gray-900 rounded-xl border border-gray-700 p-6">
-      <div className="flex items-center gap-3 mb-4">
-        <h2 className="text-xl font-bold text-white">{discipline}</h2>
-        <span className="text-lg text-gray-400">{time}</span>
+    <section className="chart-card panel" aria-label={`${discipline} distribution`}>
+      <div className="chart-heading">
+        <h2><span aria-hidden="true" style={{ color }}>●</span> {discipline}</h2>
+        <span>{time}</span>
       </div>
       <Histogram data={data} color={color} label={label} />
     </section>

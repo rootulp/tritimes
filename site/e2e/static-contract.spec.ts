@@ -60,7 +60,7 @@ test("search distinguishes a failed download from no matches and can retry", asy
   await expect(page.getByRole("alert")).toContainText("Couldn't load search results");
   await page.unrouteAll();
   await page.getByRole("button", { name: "Try again" }).click();
-  await expect(page.getByRole("link", { name: /Rootul Patel/ })).toBeVisible();
+  await expect(page.getByRole("option", { name: /Rootul Patel/ })).toBeVisible();
 });
 
 test("long searches download the small partition instead of the large two-letter file", async ({ page }) => {
@@ -70,7 +70,7 @@ test("long searches download the small partition instead of the large two-letter
   });
   await page.goto("/");
   await page.getByPlaceholder("Search athlete name...").fill("Rootul Patel");
-  await expect(page.getByRole("link", { name: /Rootul Patel/ })).toBeVisible();
+  await expect(page.getByRole("option", { name: /Rootul Patel/ })).toBeVisible();
   expect(downloads).toHaveLength(1);
   expect(downloads[0]).toContain("/search-shards/fine/726f6f.tsv.gz");
 });

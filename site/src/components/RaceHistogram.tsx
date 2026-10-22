@@ -10,9 +10,9 @@ interface Props {
   label: string;
 }
 
-const CHART_HEIGHT = 220;
-const MARGIN = { top: 10, right: 10, bottom: 44, left: 45 };
-const SVG_WIDTH = 500;
+const CHART_HEIGHT = 200;
+const MARGIN = { top: 18, right: 18, bottom: 42, left: 42 };
+const SVG_WIDTH = 360;
 
 export default function RaceHistogram({ data, color, label }: Props) {
   const [tooltip, setTooltip] = useState<{
@@ -30,7 +30,7 @@ export default function RaceHistogram({ data, color, label }: Props) {
   const plotWidth = SVG_WIDTH - MARGIN.left - MARGIN.right;
 
   const yTicks = getYTicks(maxCount);
-  const step = Math.max(1, Math.floor(bins.length / 8));
+  const step = Math.max(1, Math.ceil(bins.length / 5));
 
   const medianBinIdx =
     data.medianSeconds > 0
@@ -63,25 +63,26 @@ export default function RaceHistogram({ data, color, label }: Props) {
   return (
     <div>
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-medium text-gray-400">{label}</span>
+        <span className="text-sm font-medium text-secondary">{label}</span>
       </div>
       <div className="relative">
         <svg
           ref={svgRef}
           viewBox={`0 0 ${SVG_WIDTH} ${CHART_HEIGHT}`}
           preserveAspectRatio="xMidYMid meet"
-          className="w-full"
-          style={{ height: CHART_HEIGHT }}
-          onMouseMove={handleMouseMove}
-          onMouseLeave={() => setTooltip(null)}
+          className="histogram"
+          role="img"
+          aria-label={`${label} time distribution; ${data.totalAthletes.toLocaleString()} athletes; median ${formatTime(data.medianSeconds)}`}
+          onPointerMove={handleMouseMove}
+          onPointerLeave={() => setTooltip(null)}
         >
           {/* Y-axis grid + labels */}
           {yTicks.map((tick) => {
-            const y = MARGIN.top + innerHeight - (tick / maxCount) * innerHeight;
+            const y = MARGIN.top + innerHeight - (tick / Math.max(1, maxCount)) * innerHeight;
             return (
               <g key={tick}>
-                <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="#374151" stroke-width="0.5" />
-                <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="#9ca3af" font-size="11">{tick}</text>
+                <line x1={MARGIN.left} y1={y} x2={SVG_WIDTH - MARGIN.right} y2={y} stroke="var(--chart-grid)" stroke-width="0.5" />
+                <text x={MARGIN.left - 5} y={y + 3} text-anchor="end" fill="var(--muted)" font-size="12">{tick}</text>
               </g>
             );
           })}
@@ -105,7 +106,7 @@ export default function RaceHistogram({ data, color, label }: Props) {
                 y1={MARGIN.top}
                 x2={MARGIN.left + ((medianBinIdx + 0.42) / bins.length) * plotWidth}
                 y2={MARGIN.top + innerHeight}
-                stroke="#9ca3af"
+                stroke="var(--muted)"
                 stroke-width="1.5"
                 stroke-dasharray="6 3"
               />
@@ -113,8 +114,8 @@ export default function RaceHistogram({ data, color, label }: Props) {
                 x={MARGIN.left + ((medianBinIdx + 0.42) / bins.length) * plotWidth}
                 y={MARGIN.top - 2}
                 text-anchor="middle"
-                fill="#9ca3af"
-                font-size="11"
+                fill="var(--muted)"
+                font-size="12"
               >
                 Median
               </text>
@@ -126,7 +127,7 @@ export default function RaceHistogram({ data, color, label }: Props) {
             if (i % step !== 0) return null;
             const x = MARGIN.left + ((i + 0.42) / bins.length) * plotWidth;
             return (
-              <text key={i} x={x} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="#9ca3af" font-size="11">
+              <text key={i} x={x} y={MARGIN.top + innerHeight + 16} text-anchor="middle" fill="var(--muted)" font-size="12">
                 {bin.label}
               </text>
             );
@@ -137,8 +138,8 @@ export default function RaceHistogram({ data, color, label }: Props) {
             x={MARGIN.left + plotWidth / 2}
             y={CHART_HEIGHT - 4}
             text-anchor="middle"
-            fill="#6b7280"
-            font-size="11"
+            fill="var(--muted)"
+            font-size="12"
           >
             Time
           </text>
@@ -148,8 +149,8 @@ export default function RaceHistogram({ data, color, label }: Props) {
             x={12}
             y={MARGIN.top + innerHeight / 2}
             text-anchor="middle"
-            fill="#6b7280"
-            font-size="11"
+            fill="var(--muted)"
+            font-size="12"
             transform={`rotate(-90, 12, ${MARGIN.top + innerHeight / 2})`}
           >
             Athletes
@@ -159,13 +160,13 @@ export default function RaceHistogram({ data, color, label }: Props) {
         {/* Tooltip */}
         {tooltip && (
           <div
-            className="absolute pointer-events-none z-10 rounded-md px-3 py-2 text-[13px]"
+            className="absolute pointer-events-none z-10 rounded-md px-3 py-2 text-[13px] shadow-lg"
             style={{
-              left: Math.min(tooltip.x, 300),
+              left: Math.max(0, Math.min(tooltip.x, (svgRef.current?.clientWidth ?? 300) - 155)),
               top: tooltip.y - 60,
-              backgroundColor: "#1f2937",
-              border: "1px solid #374151",
-              color: "#ededed",
+              backgroundColor: "var(--surface)",
+              border: "1px solid var(--chart-grid)",
+              color: "var(--foreground)",
             }}
           >
             <div>Time: {tooltip.bin.label}</div>
@@ -173,7 +174,7 @@ export default function RaceHistogram({ data, color, label }: Props) {
           </div>
         )}
       </div>
-      <div className="text-xs text-gray-500 text-center mt-1">
+      <div className="text-xs text-muted text-center mt-1">
         {data.totalAthletes.toLocaleString()} athletes · Median: {formatTime(data.medianSeconds)}
       </div>
     </div>

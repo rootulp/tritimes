@@ -6,7 +6,7 @@ const ATHLETE = "rootul-patel--us-m";
 test("home search finds an athlete and opens their profile", async ({ page }) => {
   await page.goto("/");
   await page.getByPlaceholder("Search athlete name...").fill("Rootul Patel");
-  const result = page.getByRole("link", { name: /Rootul Patel/ });
+  const result = page.getByRole("option", { name: /Rootul Patel/ });
   await expect(result).toBeVisible({ timeout: 15_000 });
   await result.click();
   await page.waitForURL(`/athlete/${ATHLETE}`);
@@ -53,13 +53,13 @@ test("result page: cards, percentile pills, and the age group / overall toggle",
   await page.waitForURL(/\/race\/im-arizona-2025\/result\/\d+$/);
 
   await expect(page.getByText("Overall", { exact: true }).first()).toBeVisible();
-  const pills = page.locator(".bg-amber-400\\/15");
+  const pills = page.locator(".percentile-pill");
   await expect(pills).toHaveCount(4);
-  await expect(pills.first()).toHaveAttribute("aria-label", /of age group$/);
+  await expect(pills.first().locator(".sr-only")).toHaveText(/of age group$/);
   await expect(page.getByText(/^Age Group: /).first()).toBeVisible();
 
   await page.getByRole("button", { name: "Overall Field" }).click();
-  await expect(pills.first()).toHaveAttribute("aria-label", /of overall field$/);
+  await expect(pills.first().locator(".sr-only")).toHaveText(/of overall field$/);
   await expect(page.getByText("Overall Field", { exact: true }).nth(1)).toBeVisible();
   await expect(page).toHaveTitle(/ — 2025 IRONMAN Arizona Result \| TriTimes$/);
 });

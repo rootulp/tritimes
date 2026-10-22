@@ -14,22 +14,22 @@ function formatSeconds(seconds: number): string {
 
 function StatCard({ label, children }: { label: string; children: ComponentChildren }) {
   return (
-    <div className="p-5 border border-gray-700/80 rounded-lg bg-gray-900">
-      <p className="text-sm text-gray-400">{label}</p>
+    <div className="p-5 border border-line/80 rounded-lg bg-surface">
+      <p className="text-sm text-secondary">{label}</p>
       {children}
     </div>
   );
 }
 
 function BigNumber({ value }: { value: string }) {
-  return <p className="text-3xl font-bold text-white mt-1">{value}</p>;
+  return <p className="text-3xl font-bold text-foreground mt-1">{value}</p>;
 }
 
 function RaceLink({ slug, name }: { slug: string; name: string }) {
   return (
     <a
       href={`/race/${slug}`}
-      className="text-lg font-semibold text-white hover:text-blue-400 transition-colors mt-1 block"
+      className="text-lg font-semibold text-foreground hover:text-accent transition-colors mt-1 block"
     >
       {name}
     </a>
@@ -42,27 +42,27 @@ export default function StatsBody({ stats, agg }: { stats: StatsPageData; agg: A
   const femalePct = totalGender > 0 ? 100 - malePct : 0;
 
   return (
-    <main className="max-w-6xl w-full mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-white mb-8">Stats</h1>
+    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8">
+      <header className="page-intro"><p className="eyebrow">The bigger picture</p><h1 className="text-3xl sm:text-4xl font-bold text-foreground">Stats</h1><p className="text-secondary">The races, athletes, and finish times behind the sport.</p></header>
 
       {/* Deep dives */}
       <div className="flex flex-wrap gap-3 mb-8">
         <a
           href="/stats/average-ironman-time"
-          className="rounded-md border border-gray-700 bg-gray-900 px-4 py-2 text-sm text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
+          className="rounded-md border border-line bg-surface px-4 py-2 text-sm text-secondary hover:text-foreground hover:border-strong transition-colors"
         >
           Average IRONMAN time →
         </a>
         <a
           href="/stats/average-half-ironman-time"
-          className="rounded-md border border-gray-700 bg-gray-900 px-4 py-2 text-sm text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
+          className="rounded-md border border-line bg-surface px-4 py-2 text-sm text-secondary hover:text-foreground hover:border-strong transition-colors"
         >
           Average IRONMAN 70.3 time →
         </a>
       </div>
 
       {/* Overview */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Overview</h2>
+      <h2 className="text-xl font-semibold text-secondary mb-4">Overview</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         <StatCard label="Race Results">
           <BigNumber value={stats.totalResults.toLocaleString("en-US")} />
@@ -80,17 +80,17 @@ export default function StatsBody({ stats, agg }: { stats: StatsPageData; agg: A
           <BigNumber value={stats.halfIronmanCourseCount.toLocaleString("en-US")} />
         </StatCard>
         <StatCard label="Races by Distance">
-          <p className="text-lg font-semibold text-white mt-1">
+          <p className="text-lg font-semibold text-foreground mt-1">
             {stats.ironmanRaceCount} full / {stats.halfIronmanRaceCount} half
           </p>
         </StatCard>
         <StatCard label="Earliest Race">
           <RaceLink slug={stats.earliestRace.slug} name={stats.earliestRace.name} />
-          <p className="text-sm text-gray-500 mt-0.5">{stats.earliestRace.date}</p>
+          <p className="text-sm text-muted mt-0.5">{stats.earliestRace.date}</p>
         </StatCard>
         <StatCard label="Most Recent Race">
           <RaceLink slug={stats.mostRecentRace.slug} name={stats.mostRecentRace.name} />
-          <p className="text-sm text-gray-500 mt-0.5">{stats.mostRecentRace.date}</p>
+          <p className="text-sm text-muted mt-0.5">{stats.mostRecentRace.date}</p>
         </StatCard>
         <StatCard label="Average Participants per Race">
           <BigNumber value={stats.avgParticipants.toLocaleString("en-US")} />
@@ -98,64 +98,64 @@ export default function StatsBody({ stats, agg }: { stats: StatsPageData; agg: A
       </div>
 
       {/* Race Size */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Race Size</h2>
+      <h2 className="text-xl font-semibold text-secondary mb-4">Race Size</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         <StatCard label="Largest Race">
           <RaceLink slug={stats.largestRace.slug} name={stats.largestRace.name} />
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.largestRace.finishers.toLocaleString("en-US")} finishers
           </p>
         </StatCard>
         <StatCard label="Smallest Race">
           <RaceLink slug={stats.smallestRace.slug} name={stats.smallestRace.name} />
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.smallestRace.finishers.toLocaleString("en-US")} finishers
           </p>
         </StatCard>
         <StatCard label="Year with Most Races">
           <BigNumber value={stats.yearWithMostRaces.year} />
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.yearWithMostRaces.count} races
           </p>
         </StatCard>
       </div>
 
       {/* Geography */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Geography</h2>
+      <h2 className="text-xl font-semibold text-secondary mb-4">Geography</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         <StatCard label="Countries Represented">
           <BigNumber value={agg.uniqueCountries.toLocaleString("en-US")} />
         </StatCard>
         {agg.mostCommonCountry && (
           <StatCard label="Most Common Country">
-            <p className="text-3xl font-bold text-white mt-1">
+            <p className="text-3xl font-bold text-foreground mt-1">
               {getCountryFlagISO(agg.mostCommonCountry.countryISO)} {agg.mostCommonCountry.countryISO}
             </p>
-            <p className="text-sm text-gray-500 mt-0.5">
+            <p className="text-sm text-muted mt-0.5">
               {agg.mostCommonCountry.count.toLocaleString("en-US")} results
             </p>
           </StatCard>
         )}
         <StatCard label="Location with Most 70.3 Events">
-          <p className="text-lg font-semibold text-white mt-1">
+          <p className="text-lg font-semibold text-foreground mt-1">
             {stats.locationMost703.location}
           </p>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.locationMost703.count} events
           </p>
         </StatCard>
         <StatCard label="Location with Most IRONMAN Events">
-          <p className="text-lg font-semibold text-white mt-1">
+          <p className="text-lg font-semibold text-foreground mt-1">
             {stats.locationMostIM.location}
           </p>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.locationMostIM.count} events
           </p>
         </StatCard>
       </div>
 
       {/* Finish Times */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Average Finish Times</h2>
+      <h2 className="text-xl font-semibold text-secondary mb-4">Average Finish Times</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         <StatCard label="Avg Finish — IRONMAN 70.3">
           <BigNumber value={formatSeconds(agg.averageHalfFinishSeconds)} />
@@ -166,36 +166,36 @@ export default function StatsBody({ stats, agg }: { stats: StatsPageData; agg: A
       </div>
 
       {/* Demographics */}
-      <h2 className="text-xl font-semibold text-gray-300 mb-4">Demographics</h2>
+      <h2 className="text-xl font-semibold text-secondary mb-4">Demographics</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {agg.mostCommonAgeGroup && (
           <StatCard label="Most Common Age Group">
             <BigNumber value={agg.mostCommonAgeGroup.ageGroup} />
-            <p className="text-sm text-gray-500 mt-0.5">
+            <p className="text-sm text-muted mt-0.5">
               {agg.mostCommonAgeGroup.count.toLocaleString("en-US")} results
             </p>
           </StatCard>
         )}
         <StatCard label="Male / Female Participation">
-          <p className="text-lg font-semibold text-white mt-1">
+          <p className="text-lg font-semibold text-foreground mt-1">
             {agg.maleCount.toLocaleString("en-US")} / {agg.femaleCount.toLocaleString("en-US")}
           </p>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {malePct}% male / {femalePct}% female
           </p>
         </StatCard>
         <StatCard label="Repeat Athletes">
           <BigNumber value={stats.repeatAthletes.toLocaleString("en-US")} />
-          <p className="text-sm text-gray-500 mt-0.5">athletes with 2+ races</p>
+          <p className="text-sm text-muted mt-0.5">athletes with 2+ races</p>
         </StatCard>
         <StatCard label="Athlete with Most Races">
           <a
             href={`/athlete/${stats.athleteWithMostRaces.slug}`}
-            className="text-lg font-semibold text-white hover:text-blue-400 transition-colors mt-1 block"
+            className="text-lg font-semibold text-foreground hover:text-accent transition-colors mt-1 block"
           >
             {formatAthleteName(stats.athleteWithMostRaces.fullName)}
           </a>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <p className="text-sm text-muted mt-0.5">
             {stats.athleteWithMostRaces.raceCount} races
           </p>
         </StatCard>

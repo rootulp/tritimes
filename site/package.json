@@ -2,7 +2,9 @@
   "name": "tritimes-site",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=24.18.0 <25" },
+  "engines": {
+    "node": ">=24.18.0 <25"
+  },
   "scripts": {
     "data": "node --max-old-space-size=4096 --import tsx scripts/build-data.ts",
     "build": "npm run data && astro build",
@@ -12,6 +14,7 @@
     "deploy": "wrangler deploy",
     "test": "vitest run",
     "e2e": "playwright test",
+    "test:design": "playwright test --config playwright.design.config.ts",
     "check": "astro check",
     "verify:assets": "node --import tsx scripts/verify-assets.ts",
     "audit:prepare": "node ../scripts/gzip-csvs.js && node ../scripts/build-histograms.js && node --max-old-space-size=4096 ../scripts/build-athlete-shards.js && node ../scripts/build-search-shards.js",
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.64.1",
     "@types/node": "^24.19.2",
     "chrome-launcher": "1.2.2",

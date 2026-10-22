@@ -84,9 +84,9 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
     >
       <div className="fixed inset-0 bg-black/60 backdrop-blur-sm -z-10" />
 
-      <div ref={dialogRef} className="w-full max-w-lg mx-4 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden animate-in">
+      <div ref={dialogRef} className="w-full max-w-lg mx-4 bg-surface border border-line rounded-xl shadow-2xl overflow-hidden animate-in">
         <div className="flex items-center gap-3 px-4 py-3">
-          <svg className="w-5 h-5 text-gray-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 text-muted shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.35-4.35" stroke-linecap="round" />
           </svg>
@@ -98,21 +98,21 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
             onKeyDown={handleKeyDown}
             placeholder="Search athlete name..."
             aria-label="Search athlete name"
-            className="flex-1 bg-transparent text-lg text-white placeholder-gray-500 focus:outline-none"
+            className="flex-1 bg-transparent text-lg text-foreground placeholder-muted focus:outline-none"
             aria-autocomplete="list"
             aria-controls="command-palette-results"
             aria-activedescendant={selectedIndex >= 0 ? `command-palette-item-${selectedIndex}` : undefined}
           />
           {isSearching ? (
-            <div className="h-5 w-5 border-2 border-gray-500 border-t-blue-400 rounded-full animate-spin shrink-0" />
+            <div className="h-5 w-5 border-2 border-strong border-t-accent rounded-full animate-spin shrink-0" />
           ) : (
-            <kbd className="hidden sm:inline-block text-xs border border-gray-600 rounded px-1.5 py-0.5 text-gray-500 font-mono shrink-0">
+            <kbd className="hidden sm:inline-block text-xs border border-strong rounded px-1.5 py-0.5 text-muted font-mono shrink-0">
               ESC
             </kbd>
           )}
         </div>
 
-        <div className="border-t border-gray-800" />
+        <div className="border-t border-line" />
 
         {matches.length > 0 ? (
           <ul ref={listRef} id="command-palette-results" role="listbox" className="max-h-80 overflow-y-auto">
@@ -122,13 +122,13 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
                 id={`command-palette-item-${i}`}
                 role="option"
                 aria-selected={i === selectedIndex}
-                className={`border-b border-gray-800 last:border-b-0 ${i === selectedIndex ? "bg-gray-800" : "hover:bg-gray-800/50"}`}
+                className={`border-b border-line last:border-b-0 ${i === selectedIndex ? "bg-subtle" : "hover:bg-subtle/50"}`}
               >
                 <a href={`/athlete/${entry.slug}`} onClick={close} className="flex items-center gap-3 px-4 py-3" tabIndex={-1}>
                   <span className="text-lg shrink-0">{getCountryFlagISO(entry.countryISO) || "\u{1F3CA}"}</span>
                   <div className="min-w-0">
-                    <div className="font-medium text-white truncate">{formatAthleteName(entry.fullName)}</div>
-                    <div className="text-sm text-gray-400">
+                    <div className="font-medium text-foreground truncate">{formatAthleteName(entry.fullName)}</div>
+                    <div className="text-sm text-secondary">
                       {entry.country} &middot; {entry.raceCount} {entry.raceCount === 1 ? "race" : "races"}
                     </div>
                   </div>
@@ -137,27 +137,27 @@ export default function CommandPalette({ defaultOpen = false }: { defaultOpen?: 
             ))}
           </ul>
         ) : error ? (
-          <div className="py-8 text-center text-gray-400" role="alert">
+          <div className="py-8 text-center text-secondary" role="alert">
             Couldn&apos;t load search results.{" "}
-            <button type="button" className="text-blue-400 hover:underline" onClick={() => handleChange(query)}>Try again</button>
+            <button type="button" className="text-accent hover:underline" onClick={() => handleChange(query)}>Try again</button>
           </div>
         ) : query.length >= 2 && !isSearching ? (
-          <div className="py-8 text-center text-gray-500">No athletes found</div>
+          <div className="py-8 text-center text-muted">No athletes found</div>
         ) : (
-          <div className="py-8 text-center text-gray-500">Search for an athlete by name</div>
+          <div className="py-8 text-center text-muted">Search for an athlete by name</div>
         )}
 
-        <div className="border-t border-gray-800 px-4 py-2 flex items-center gap-4 text-xs text-gray-500">
+        <div className="border-t border-line px-4 py-2 flex items-center gap-4 text-xs text-muted">
           <span className="flex items-center gap-1">
-            <kbd className="border border-gray-600 rounded px-1 py-0.5 font-mono">&uarr;&darr;</kbd>
+            <kbd className="border border-strong rounded px-1 py-0.5 font-mono">&uarr;&darr;</kbd>
             navigate
           </span>
           <span className="flex items-center gap-1">
-            <kbd className="border border-gray-600 rounded px-1 py-0.5 font-mono">&crarr;</kbd>
+            <kbd className="border border-strong rounded px-1 py-0.5 font-mono">&crarr;</kbd>
             select
           </span>
           <span className="flex items-center gap-1">
-            <kbd className="border border-gray-600 rounded px-1 py-0.5 font-mono">esc</kbd>
+            <kbd className="border border-strong rounded px-1 py-0.5 font-mono">esc</kbd>
             close
           </span>
         </div>

@@ -11,13 +11,13 @@ const years = info.editions.map((e) => e.year);
 const span = years.length > 1 ? `${years[years.length - 1]}–${years[0]}` : years[0];
 const n = info.editions.length;
 const tagBase = "px-3 py-1.5 rounded-full text-sm font-medium transition-colors";
-const tagActive = "bg-white/10 text-white ring-1 ring-white/20";
-const tagIdle = "text-gray-400 hover:text-white hover:bg-white/5";
+const tagActive = "bg-selected text-foreground ring-1 ring-line";
+const tagIdle = "text-secondary hover:text-foreground hover:bg-subtle";
 ---
 
 <header class="mb-6">
-  <h1 class="text-3xl font-bold text-white">{info.name}{edition ? ` ${edition.year}` : ""}</h1>
-  <p class="text-gray-400 mt-1">
+  <h1 class="text-3xl font-bold text-foreground">{info.name}{edition ? ` ${edition.year}` : ""}</h1>
+  <p class="text-secondary mt-1">
     {info.location && `${info.location} · `}{edition ? edition.date : `${n} edition${n !== 1 ? "s" : ""}${n > 1 ? ` · ${span}` : ""}`}
   </p>
 </header>

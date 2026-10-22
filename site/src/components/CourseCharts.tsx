@@ -45,18 +45,19 @@ export default function CourseCharts({
 
   const btnClass = (active: boolean) =>
     active
-      ? "px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-white ring-1 ring-white/20"
-      : "px-4 py-2 rounded-full text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-colors";
+      ? "px-4 py-2 rounded-full text-sm font-medium bg-selected text-foreground ring-1 ring-line"
+      : "px-4 py-2 rounded-full text-sm font-medium text-secondary hover:text-foreground hover:bg-subtle transition-colors";
 
   return (
     <>
       <div className="flex items-center gap-2 mb-6">
-        <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mr-1">
+        <span className="text-xs font-medium text-muted uppercase tracking-wider mr-1">
           Distance
         </span>
         {(["70.3", "140.6"] as const).map((d) => (
           <button
             key={d}
+            aria-pressed={distance === d}
             onClick={() => setDistance(d)}
             className={btnClass(distance === d)}
           >

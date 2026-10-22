@@ -151,9 +151,11 @@ jobs:
         run: npm run audit:prepare
       - name: Audit the full corpus against the original implementation
         run: npm run audit
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps chromium firefox webkit
       - name: Browser parity against Cloudflare's local runtime
         run: npm run e2e -- --reporter=list,html
+      - name: Light and dark design, accessibility, and cross-browser evidence
+        run: npm run test:design
       - name: Repeat mobile browser measurements
         run: |
           npm run preview > /tmp/tritimes-preview.log 2>&1 &

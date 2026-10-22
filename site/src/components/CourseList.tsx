@@ -24,8 +24,8 @@ export default function CourseList({
 
   return (
     <section className="mt-12">
-      <h2 className="text-xl font-bold text-white mb-1">All Courses</h2>
-      <p className="text-sm text-gray-500 mb-4">
+      <h2 className="text-xl font-bold text-foreground mb-1">All Courses</h2>
+      <p className="text-sm text-muted mb-4">
         {sorted.length} {distance} courses. Select one to see all of its races.
       </p>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
@@ -33,13 +33,13 @@ export default function CourseList({
           <li key={course.course}>
             <a
               href={courseDetailHref(course.course)}
-              className="group flex items-baseline justify-between gap-3 px-4 py-3 border border-gray-700/80 rounded-lg bg-gray-900 transition-colors duration-200 hover:border-gray-600 hover:bg-gray-800/80"
+              className="group flex items-baseline justify-between gap-3 px-4 py-3 border border-line/80 rounded-lg bg-surface transition-colors duration-200 hover:border-strong hover:bg-subtle/80"
             >
-              <span className="font-medium text-white group-hover:text-blue-300 transition-colors leading-tight">
+              <span className="font-medium text-foreground group-hover:text-accent transition-colors leading-tight">
                 {course.displayName}
               </span>
-              <span className="shrink-0 text-right text-xs text-gray-500 leading-tight">
-                <span className="block text-gray-400">{formatTime(course.medianFinishSeconds)}</span>
+              <span className="shrink-0 text-right text-xs text-muted leading-tight">
+                <span className="block text-secondary">{formatTime(course.medianFinishSeconds)}</span>
                 {course.editions} edition{course.editions !== 1 ? "s" : ""}
               </span>
             </a>
