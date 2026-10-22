@@ -12,7 +12,7 @@ on:
       deploy:
         description: Deployment destination (main pushes also deploy production)
         type: choice
-        options: [preview, production, inspect-domains, prepare-redirect]
+        options: [preview, production, inspect-domains, prepare-redirect, cutover-domains, publish-verified-production]
         default: preview
 
 concurrency:
@@ -23,8 +23,34 @@ permissions:
   contents: read
 
 jobs:
+  publish-verified-production:
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy == 'publish-verified-production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Exact application commit already verified on the owned preview.
+          ref: f92916520a1c2571350a36bec01f439eb97dcec1
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npm run verify:assets
+      - name: Publish the verified application as production
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy --name tritimes
   inspect-domains:
-    if: github.event_name == 'workflow_dispatch' && (inputs.deploy == 'inspect-domains' || inputs.deploy == 'prepare-redirect')
+    if: github.event_name == 'workflow_dispatch' && (inputs.deploy == 'inspect-domains' || inputs.deploy == 'prepare-redirect' || inputs.deploy == 'cutover-domains')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -90,9 +116,73 @@ jobs:
                   }]
               })
               print('Apex-to-www redirect prepared. DNS records are unchanged; the rule only applies once proxied.')
+          elif os.environ['MODE'] == 'cutover-domains':
+              import pathlib
+              origin = urllib.request.urlopen('https://tritimes.rootulp.workers.dev', timeout=30)
+              html = origin.read().decode()
+              if origin.status != 200 or 'TriTimes' not in html or '/_astro/' not in html:
+                  raise RuntimeError('Production Worker is not serving the verified static build')
+              rules = get('/zones/' + zone['id'] + '/rulesets/phases/http_request_dynamic_redirect/entrypoint')
+              if not any(rule.get('enabled') and rule.get('expression') == '(http.host eq "tritimes.org")'
+                         and rule.get('action_parameters', {}).get('from_value', {}).get('preserve_query_string')
+                         and rule.get('action_parameters', {}).get('from_value', {}).get('target_url', {}).get('expression')
+                             == 'concat("https://www.tritimes.org", http.request.uri.path)'
+                         for rule in rules.get('rules', [])):
+                  raise RuntimeError('The apex-to-www redirect must be configured before DNS cutover')
+              domains_path = '/accounts/' + account + '/workers/domains'
+              domains = get(domains_path)
+              names = ['www.tritimes.org', 'tritimes.org']
+              backup = {name: [record for record in records if record['name'] == name
+                        and record['type'] in ['A', 'AAAA', 'CNAME']] for name in names}
+              for name in names:
+                  attached = next((item for item in domains if item['hostname'] == name), None)
+                  if attached:
+                      if attached['service'] != 'tritimes':
+                          raise RuntimeError(name + ' is attached to another Worker; refusing to change it')
+                      continue
+                  old = backup[name]
+                  if len(old) != 1 or old[0]['type'] != 'CNAME' or old[0]['content'].rstrip('.') != 'a2052866c44486e9.vercel-dns-017.com':
+                      raise RuntimeError(name + ': expected exactly the recorded Vercel CNAME; no DNS changed')
+              pathlib.Path('/tmp/tritimes-cutover.json').write_text(json.dumps({'previousRecords': backup}, indent=2))
+              print('Saved the original apex/www DNS records before changing anything.')
+              for name in names:
+                  if any(item['hostname'] == name and item['service'] == 'tritimes' for item in domains):
+                      print(name + ': already attached to tritimes')
+                      continue
+                  old = backup[name][0]
+                  dns_path = '/zones/' + zone['id'] + '/dns_records'
+                  get(dns_path + '/' + old['id'], 'DELETE')
+                  try:
+                      attached = get(domains_path, 'PUT', {
+                          'hostname': name, 'service': 'tritimes', 'enabled': True,
+                          'zone_name': 'tritimes.org'
+                      })
+                  except Exception:
+                      # Reconcile an ambiguous API failure before restoring DNS.
+                      current = get(domains_path)
+                      if not any(item['hostname'] == name and item['service'] == 'tritimes' for item in current):
+                          restore = {key: old[key] for key in ['type', 'name', 'content', 'proxied', 'ttl', 'comment', 'tags', 'settings']
+                                     if key in old and old[key] is not None}
+                          get(dns_path, 'POST', restore)
+                          print(name + ': restored the original Vercel DNS record after attachment failed')
+                          raise
+                  print(name + ': attached to the production tritimes Worker')
+              final = get(domains_path)
+              for name in names:
+                  if not any(item['hostname'] == name and item['service'] == 'tritimes' for item in final):
+                      raise RuntimeError('Unable to confirm custom domain: ' + name)
+              print('Both domains attached. Public DNS/HTTPS/browser checks are still required.')
           else:
               print('Inspection only: no DNS records or domains were changed.')
           PY
+      - name: Save DNS rollback records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tritimes-cutover-${{ github.run_id }}
+          path: /tmp/tritimes-cutover.json
+          if-no-files-found: ignore
+          retention-days: 30
   live-preview:
     if: >-
       github.event_name == 'pull_request' &&
@@ -155,7 +245,7 @@ jobs:
           retention-days: 7
 
   site:
-    if: github.event_name != 'workflow_dispatch' || (inputs.deploy != 'inspect-domains' && inputs.deploy != 'prepare-redirect')
+    if: github.event_name != 'workflow_dispatch' || (inputs.deploy != 'inspect-domains' && inputs.deploy != 'prepare-redirect' && inputs.deploy != 'cutover-domains' && inputs.deploy != 'publish-verified-production')
     runs-on: ubuntu-latest
     timeout-minutes: 35
     defaults:
