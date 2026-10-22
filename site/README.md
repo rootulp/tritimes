@@ -4,7 +4,7 @@ Astro pre-renders the public pages; Preact adds search, charts, athlete historie
 and individual results. Cloudflare serves the complete build as static assets.
 There is no server script, database, runtime secret, or paid hosting dependency.
 
-Use Node 22.12+ and npm. Run commands from this directory:
+Use Node 24 and npm (matching CI). Run commands from this directory:
 
 ```sh
 npm ci

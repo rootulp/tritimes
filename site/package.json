@@ -2,6 +2,7 @@
   "name": "tritimes-site",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=24.18.0 <25" },
   "scripts": {
     "data": "node --max-old-space-size=4096 --import tsx scripts/build-data.ts",
     "build": "npm run data && astro build",
