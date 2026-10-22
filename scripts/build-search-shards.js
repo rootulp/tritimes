@@ -24,6 +24,7 @@
 const fs = require("fs");
 const path = require("path");
 const { gzipSync, gunzipSync } = require("zlib");
+const givenNameAliases = new Map(Object.entries(require("./given-name-aliases.json")));
 
 const indexPath = path.join(__dirname, "..", "data", "athlete-index.tsv.gz");
 // --out <dir> overrides the output directory (used by the static site build).
@@ -69,6 +70,14 @@ function searchKeysForName(nameLower) {
   const keys = new Set([nameLower]);
   for (let t = 1; t < tokens.length; t++) {
     keys.add([...tokens.slice(t), ...tokens.slice(0, t)].join(" "));
+  }
+  // Expand only the first (given-name) token, never a surname. Alias keys
+  // also determine shard membership: Thomas must be reachable in "to".
+  for (const alias of givenNameAliases.get(tokens[0]) ?? []) {
+    const aliasTokens = [alias, ...tokens.slice(1)];
+    for (let t = 0; t < aliasTokens.length; t++) {
+      keys.add([...aliasTokens.slice(t), ...aliasTokens.slice(0, t)].join(" "));
+    }
   }
   return [...keys];
 }

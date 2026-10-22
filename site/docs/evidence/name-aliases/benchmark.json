@@ -1,0 +1,430 @@
+{
+  "baselineCommit": "cfca077b7860a62c2763283611ee026220a21d47",
+  "node": "v24.19.0",
+  "corpusEntries": 876538,
+  "lookupSamples": 1000,
+  "keyBuildSamples": 9,
+  "note": "Local CPU microbenchmark; fine-partition sizes exclude HTTP overhead. No-match queries may additionally load the parent in the browser. Not production latency or a substitute for browser tests.",
+  "measurements": [
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "partition": "alex",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 115854,
+      "entries": 9923,
+      "keys": 21625,
+      "keyBuildMedianMs": 31.502308000000085,
+      "lookupMedianMs": 0.4387010000000373,
+      "lookupP95Ms": 1.340939000000617,
+      "slugs": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "partition": "tom",
+      "parentGzipBytes": 203771,
+      "gzipBytes": 66374,
+      "entries": 5768,
+      "keys": 12234,
+      "keyBuildMedianMs": 12.131489999999758,
+      "lookupMedianMs": 0.0028640000000450527,
+      "lookupP95Ms": 0.003605999999308551,
+      "slugs": [
+        "tom-edwards--gb-m",
+        "tom-edwards--kh-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "alexander ogura",
+      "partition": "alex",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 115854,
+      "entries": 9923,
+      "keys": 21625,
+      "keyBuildMedianMs": 24.485380000000077,
+      "lookupMedianMs": 0.002383999999437947,
+      "lookupP95Ms": 0.002803999999741791,
+      "slugs": [
+        "alexander-ogura--us-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "partition": "tho",
+      "parentGzipBytes": 184965,
+      "gzipBytes": 103378,
+      "entries": 9783,
+      "keys": 20539,
+      "keyBuildMedianMs": 18.089488999999958,
+      "lookupMedianMs": 0.0024639999992359662,
+      "lookupP95Ms": 0.002943999999843072,
+      "slugs": [
+        "thomas-edwards--ec-m",
+        "thomas-edwards--us-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "al",
+      "partition": "al",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 475219,
+      "entries": 35424,
+      "keys": 85146,
+      "keyBuildMedianMs": 98.97775600000023,
+      "lookupMedianMs": 0.0012120000001232256,
+      "lookupP95Ms": 0.00258399999984249,
+      "slugs": [
+        "al-a-toledo--us-m",
+        "al-adrian-antipasado--ph-m",
+        "al-agena--us-m",
+        "al-aguado--us-m",
+        "al-amin-salim--bd-m",
+        "al-angulo--us-m",
+        "al-angyalfy--us-m",
+        "al-arbuckle--us-m",
+        "al-baker--us-m",
+        "al-beers--us-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "partition": "to",
+      "parentGzipBytes": 203771,
+      "gzipBytes": 203771,
+      "entries": 16241,
+      "keys": 36356,
+      "keyBuildMedianMs": 32.87462200000118,
+      "lookupMedianMs": 0.0011620000004768372,
+      "lookupP95Ms": 0.002173999999286025,
+      "slugs": [
+        "to-anh-huynh--vn-f",
+        "to-mayya-vu--ua-f",
+        "to-nhat-duy--vn-m",
+        "to-o-martin-marrero--es-m",
+        "to-phuong-pham--vn-f",
+        "to-uys--za-m",
+        "to-ze-morais--pt-m",
+        "toa-rex-wong--cn-m",
+        "toan-au-manh--vn-m",
+        "toan-ang--vn-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "partition": "tom",
+      "parentGzipBytes": 203771,
+      "gzipBytes": 66374,
+      "entries": 5768,
+      "keys": 12234,
+      "keyBuildMedianMs": 7.149903999999879,
+      "lookupMedianMs": 0.0011020000001735752,
+      "lookupP95Ms": 0.0012919999990117503,
+      "slugs": [
+        "tom-aaker--id-m",
+        "tom-aaker--us-m",
+        "tom-abelen--nl-m",
+        "tom-abernathy--us-m",
+        "tom-abramovici--il-m",
+        "tom-absalom--gb-m",
+        "tom-acker--de-m",
+        "tom-ackerman--us-m",
+        "tom-adair--at-m",
+        "tom-adams--gb-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "partition": "roo",
+      "parentGzipBytes": 497977,
+      "gzipBytes": 7290,
+      "entries": 544,
+      "keys": 1250,
+      "keyBuildMedianMs": 0.6385460000001331,
+      "lookupMedianMs": 0.0008809999999357387,
+      "lookupP95Ms": 0.0009310000004916219,
+      "slugs": [
+        "rootul-patel--us-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "smith j",
+      "partition": "sm",
+      "parentGzipBytes": 42072,
+      "gzipBytes": 42072,
+      "entries": 3728,
+      "keys": 8022,
+      "keyBuildMedianMs": 4.741802000000462,
+      "lookupMedianMs": 0.0019030000003112946,
+      "lookupP95Ms": 0.0022640000006504124,
+      "slugs": [
+        "smith-joe--us-m",
+        "j-bradley-smith--us-m",
+        "jac-smith--gb-m",
+        "jace-smith--us-m",
+        "jacey-smith--us-f",
+        "jack-smith--au-m",
+        "jack-smith--gb-m",
+        "jack-smith--us-m",
+        "jack-bradford-smith--gb-m",
+        "jack-l-smith--us-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "muller",
+      "partition": "mu",
+      "parentGzipBytes": 101566,
+      "gzipBytes": 101566,
+      "entries": 7362,
+      "keys": 17025,
+      "keyBuildMedianMs": 14.175532000001112,
+      "lookupMedianMs": 0.001132000001234701,
+      "lookupP95Ms": 0.0013119999985065078,
+      "slugs": [
+        "muller-alain--fr-m",
+        "muller-beni--ch-m",
+        "muller-burger--za-m",
+        "muller-ingemar--de-m",
+        "muller-markus--ch-m",
+        "muller-nadine--at-f",
+        "muller-nadine--ch-f",
+        "muller-nicolas--fr-m",
+        "muller-robin--fr-m",
+        "muller-urs--ch-m"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "zzzz-no-match",
+      "partition": "zz",
+      "parentGzipBytes": 63,
+      "gzipBytes": 63,
+      "entries": 1,
+      "keys": 2,
+      "keyBuildMedianMs": 0.0011520000007294584,
+      "lookupMedianMs": 0.0004910000006930204,
+      "lookupP95Ms": 0.0008809999999357387,
+      "slugs": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "partition": "alex o",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 1154,
+      "entries": 87,
+      "keys": 246,
+      "keyBuildMedianMs": 0.31007899999895017,
+      "lookupMedianMs": 0.0014220000011846423,
+      "lookupP95Ms": 0.0025229999992006924,
+      "slugs": [
+        "alexander-ogura--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "partition": "tom e",
+      "parentGzipBytes": 264825,
+      "gzipBytes": 2187,
+      "entries": 191,
+      "keys": 679,
+      "keyBuildMedianMs": 0.5383480000000418,
+      "lookupMedianMs": 0.0016919999998208368,
+      "lookupP95Ms": 0.003004000000146334,
+      "slugs": [
+        "tom-edwards--gb-m",
+        "tom-edwards--kh-m",
+        "thomas-edwards--ec-m",
+        "thomas-edwards--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "alexander ogura",
+      "partition": "alexa",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 70651,
+      "entries": 5916,
+      "keys": 18807,
+      "keyBuildMedianMs": 13.229247999999643,
+      "lookupMedianMs": 0.001322000000072876,
+      "lookupP95Ms": 0.0015720000010333024,
+      "slugs": [
+        "alexander-ogura--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "partition": "tho",
+      "parentGzipBytes": 184965,
+      "gzipBytes": 103378,
+      "entries": 9783,
+      "keys": 33323,
+      "keyBuildMedianMs": 30.295508000001064,
+      "lookupMedianMs": 0.0013620000008813804,
+      "lookupP95Ms": 0.0017429999988962663,
+      "slugs": [
+        "thomas-edwards--ec-m",
+        "thomas-edwards--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "al",
+      "partition": "al",
+      "parentGzipBytes": 475219,
+      "gzipBytes": 475219,
+      "entries": 35424,
+      "keys": 90988,
+      "keyBuildMedianMs": 137.04253299999982,
+      "lookupMedianMs": 0.0012320000005274778,
+      "lookupP95Ms": 0.00228400000014517,
+      "slugs": [
+        "al-a-toledo--us-m",
+        "al-adrian-antipasado--ph-m",
+        "al-agena--us-m",
+        "al-aguado--us-m",
+        "al-amin-salim--bd-m",
+        "al-angulo--us-m",
+        "al-angyalfy--us-m",
+        "al-arbuckle--us-m",
+        "al-baker--us-m",
+        "al-beers--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "partition": "to",
+      "parentGzipBytes": 264825,
+      "gzipBytes": 264825,
+      "entries": 22371,
+      "keys": 61889,
+      "keyBuildMedianMs": 61.94187500000044,
+      "lookupMedianMs": 0.0011120000017399434,
+      "lookupP95Ms": 0.002033000000665197,
+      "slugs": [
+        "to-anh-huynh--vn-f",
+        "to-mayya-vu--ua-f",
+        "to-nhat-duy--vn-m",
+        "to-o-martin-marrero--es-m",
+        "to-phuong-pham--vn-f",
+        "to-uys--za-m",
+        "to-ze-morais--pt-m",
+        "toa-rex-wong--cn-m",
+        "toan-au-manh--vn-m",
+        "toan-ang--vn-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "partition": "tom",
+      "parentGzipBytes": 264825,
+      "gzipBytes": 127430,
+      "entries": 11910,
+      "keys": 37761,
+      "keyBuildMedianMs": 33.31415399999969,
+      "lookupMedianMs": 0.0010620000011840602,
+      "lookupP95Ms": 0.0012420000002748566,
+      "slugs": [
+        "tom-aaker--id-m",
+        "tom-aaker--us-m",
+        "tom-abelen--nl-m",
+        "tom-abernathy--us-m",
+        "tom-abramovici--il-m",
+        "tom-absalom--gb-m",
+        "tom-acker--de-m",
+        "tom-ackerman--us-m",
+        "tom-adair--at-m",
+        "tom-adams--gb-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "partition": "roo",
+      "parentGzipBytes": 497977,
+      "gzipBytes": 7290,
+      "entries": 544,
+      "keys": 1259,
+      "keyBuildMedianMs": 0.752623999998832,
+      "lookupMedianMs": 0.0008109999998850981,
+      "lookupP95Ms": 0.0009420000005775364,
+      "slugs": [
+        "rootul-patel--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "smith j",
+      "partition": "sm",
+      "parentGzipBytes": 42072,
+      "gzipBytes": 42072,
+      "entries": 3728,
+      "keys": 8065,
+      "keyBuildMedianMs": 5.316090999998778,
+      "lookupMedianMs": 0.0013119999985065078,
+      "lookupP95Ms": 0.0015619999994669342,
+      "slugs": [
+        "smith-joe--us-m",
+        "j-bradley-smith--us-m",
+        "jac-smith--gb-m",
+        "jace-smith--us-m",
+        "jacey-smith--us-f",
+        "jack-smith--au-m",
+        "jack-smith--gb-m",
+        "jack-smith--us-m",
+        "jack-bradford-smith--gb-m",
+        "jack-l-smith--us-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "muller",
+      "partition": "mu",
+      "parentGzipBytes": 101566,
+      "gzipBytes": 101566,
+      "entries": 7362,
+      "keys": 17176,
+      "keyBuildMedianMs": 15.00782099999924,
+      "lookupMedianMs": 0.001111999999920954,
+      "lookupP95Ms": 0.0015930000008665957,
+      "slugs": [
+        "muller-alain--fr-m",
+        "muller-beni--ch-m",
+        "muller-burger--za-m",
+        "muller-ingemar--de-m",
+        "muller-markus--ch-m",
+        "muller-nadine--at-f",
+        "muller-nadine--ch-f",
+        "muller-nicolas--fr-m",
+        "muller-robin--fr-m",
+        "muller-urs--ch-m"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "zzzz-no-match",
+      "partition": "zz",
+      "parentGzipBytes": 63,
+      "gzipBytes": 63,
+      "entries": 1,
+      "keys": 2,
+      "keyBuildMedianMs": 0.0007110000005923212,
+      "lookupMedianMs": 0.0007609999993292149,
+      "lookupP95Ms": 0.0014620000001741573,
+      "slugs": []
+    }
+  ]
+}

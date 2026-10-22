@@ -10,7 +10,15 @@ const { foldName, searchKeysForName, shardFileName } = require("../../scripts/bu
   searchKeysForName: (name: string) => string[];
   shardFileName: (prefix: string) => string;
 };
+const givenNameAliases = require("../../scripts/given-name-aliases.json") as Record<string, string[]>;
+const aliasPrefixes = new Set(Object.values(givenNameAliases).flatMap((aliases) => aliases.flatMap((alias) => [alias, `${alias} `])));
 export const FINE_SEARCH_THRESHOLD = 128 * 1024;
+
+// A nickname can collect many formal-name matches. Split at the nickname and
+// following space so "tom edwards" downloads "tom e", not every Tom/Thomas.
+export function shouldPartitionSearch(prefix: string, gzipBytes: number): boolean {
+  return gzipBytes >= FINE_SEARCH_THRESHOLD || aliasPrefixes.has(prefix);
+}
 
 export function partitionSearchLines(lines: string[], parent: string): Map<string, string[]> {
   const result = new Map<string, string[]>();
@@ -41,7 +49,7 @@ export function buildFineSearchShards(directory: string, manifestPath: string) {
       const bytes = gzipSync(entries.join("\n"));
       fs.writeFileSync(path.join(fineDir, shardFileName(prefix)), bytes);
       count++;
-      if (bytes.length >= FINE_SEARCH_THRESHOLD && prefix.length < 8) split(entries, prefix);
+      if (shouldPartitionSearch(prefix, bytes.length) && prefix.length < 8) split(entries, prefix);
     }
   }
   for (const file of fs.readdirSync(directory).filter((file) => file.endsWith(".tsv.gz")).sort()) {

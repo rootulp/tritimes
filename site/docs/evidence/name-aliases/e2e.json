@@ -1,0 +1,58 @@
+[
+  {
+    "query": "alex ogura",
+    "name": "Alexander Ogura",
+    "expectedPath": "/athlete/alexander-ogura--us-m",
+    "finalURL": "http://127.0.0.1:8787/athlete/alexander-ogura--us-m",
+    "resultMs": 279,
+    "searchRequests": [
+      "/search-shards/fine/616c6578206f.tsv.gz"
+    ],
+    "errors": [],
+    "project": "chromium",
+    "outcome": "expected",
+    "startTime": "2026-10-22T20:27:21.591Z"
+  },
+  {
+    "query": "tom edwards",
+    "name": "Thomas Edwards",
+    "expectedPath": "/athlete/thomas-edwards--us-m",
+    "finalURL": "http://127.0.0.1:8787/athlete/thomas-edwards--us-m",
+    "resultMs": 237,
+    "searchRequests": [
+      "/search-shards/fine/746f6d2065.tsv.gz"
+    ],
+    "errors": [],
+    "project": "chromium",
+    "outcome": "expected",
+    "startTime": "2026-10-22T20:27:24.347Z"
+  },
+  {
+    "query": "alex ogura",
+    "name": "Alexander Ogura",
+    "expectedPath": "/athlete/alexander-ogura--us-m",
+    "finalURL": "http://127.0.0.1:8787/athlete/alexander-ogura--us-m",
+    "resultMs": 494,
+    "searchRequests": [
+      "/search-shards/fine/616c6578206f.tsv.gz"
+    ],
+    "errors": [],
+    "project": "mobile-chromium",
+    "outcome": "expected",
+    "startTime": "2026-10-22T20:27:21.608Z"
+  },
+  {
+    "query": "tom edwards",
+    "name": "Thomas Edwards",
+    "expectedPath": "/athlete/thomas-edwards--us-m",
+    "finalURL": "http://127.0.0.1:8787/athlete/thomas-edwards--us-m",
+    "resultMs": 233,
+    "searchRequests": [
+      "/search-shards/fine/746f6d2065.tsv.gz"
+    ],
+    "errors": [],
+    "project": "mobile-chromium",
+    "outcome": "expected",
+    "startTime": "2026-10-22T20:27:24.798Z"
+  }
+]

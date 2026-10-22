@@ -1,0 +1,1189 @@
+{
+  "runs": 5,
+  "browser": "154.0.8037.57",
+  "network": {
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000
+  },
+  "cpuSlowdown": 4,
+  "targets": [
+    {
+      "version": "before",
+      "url": "http://127.0.0.1:8788"
+    },
+    {
+      "version": "after",
+      "url": "http://127.0.0.1:8787"
+    }
+  ],
+  "summary": [
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "medianMs": 4346.5312300000005,
+      "maxMs": 5008.777237000002,
+      "gzipBytes": 591073,
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "medianMs": 1038.1396840000016,
+      "maxMs": 1491.1980650000041,
+      "gzipBytes": 66374,
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "medianMs": 389.4402370000025,
+      "maxMs": 737.2496709999978,
+      "gzipBytes": 7290,
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "medianMs": 1055.8170929999978,
+      "maxMs": 1724.1084499999997,
+      "gzipBytes": 103378,
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "medianMs": 1112.8136609999929,
+      "maxMs": 1470.1172199999855,
+      "gzipBytes": 66374,
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ]
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "medianMs": 1973.022518999991,
+      "maxMs": 2368.8551660000085,
+      "gzipBytes": 203771,
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "medianMs": 391.55652999999984,
+      "maxMs": 573.4642620000086,
+      "gzipBytes": 1154,
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "medianMs": 391.4760430000024,
+      "maxMs": 756.1766309999948,
+      "gzipBytes": 2187,
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "medianMs": 444.40049400000134,
+      "maxMs": 710.0211580000032,
+      "gzipBytes": 7290,
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "medianMs": 1103.161460000003,
+      "maxMs": 1608.3649060000025,
+      "gzipBytes": 103378,
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "medianMs": 1226.9562810000207,
+      "maxMs": 2088.156568999999,
+      "gzipBytes": 127430,
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ]
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "medianMs": 2286.437468999997,
+      "maxMs": 2953.2758750000066,
+      "gzipBytes": 264825,
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "resultMs": 4346.5312300000005,
+      "found": false,
+      "links": [],
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ],
+      "gzipBytes": 591073,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "resultMs": 391.55652999999984,
+      "found": true,
+      "links": [
+        "/athlete/alexander-ogura--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ],
+      "gzipBytes": 1154,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "resultMs": 1038.1396840000016,
+      "found": false,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "resultMs": 365.08303199999864,
+      "found": true,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m",
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ],
+      "gzipBytes": 2187,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "resultMs": 394.5339380000005,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "resultMs": 394.0454030000001,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "resultMs": 1040.5674419999978,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "resultMs": 1091.7894220000017,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "resultMs": 1005.5833389999971,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "resultMs": 1211.5371699999996,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 127430,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "resultMs": 1738.043074000001,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 203771,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "resultMs": 2239.518308999999,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 264825,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "resultMs": 344.204055000002,
+      "found": true,
+      "links": [
+        "/athlete/alexander-ogura--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ],
+      "gzipBytes": 1154,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "resultMs": 4263.348758,
+      "found": false,
+      "links": [],
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ],
+      "gzipBytes": 591073,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "resultMs": 431.5378039999996,
+      "found": true,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m",
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ],
+      "gzipBytes": 2187,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "resultMs": 1067.8551250000019,
+      "found": false,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "resultMs": 444.40049400000134,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "resultMs": 385.7794240000003,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "resultMs": 1044.678780000002,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "resultMs": 1055.8170929999978,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "resultMs": 1341.3132599999954,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 127430,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "resultMs": 1160.7909650000001,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "resultMs": 2391.851087999996,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 264825,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "resultMs": 2290.4441589999988,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 203771,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "resultMs": 5008.777237000002,
+      "found": false,
+      "links": [],
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ],
+      "gzipBytes": 591073,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "resultMs": 573.4642620000086,
+      "found": true,
+      "links": [
+        "/athlete/alexander-ogura--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ],
+      "gzipBytes": 1154,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "resultMs": 1491.1980650000041,
+      "found": false,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "resultMs": 756.1766309999948,
+      "found": true,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m",
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ],
+      "gzipBytes": 2187,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "resultMs": 737.2496709999978,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "resultMs": 710.0211580000032,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "resultMs": 1724.1084499999997,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "resultMs": 1608.3649060000025,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "resultMs": 1470.1172199999855,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "resultMs": 2088.156568999999,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 127430,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "resultMs": 2368.8551660000085,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 203771,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "resultMs": 2953.2758750000066,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 264825,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "resultMs": 550.4052519999968,
+      "found": true,
+      "links": [
+        "/athlete/alexander-ogura--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ],
+      "gzipBytes": 1154,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "resultMs": 4788.233045999994,
+      "found": false,
+      "links": [],
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ],
+      "gzipBytes": 591073,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "resultMs": 391.4760430000024,
+      "found": true,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m",
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ],
+      "gzipBytes": 2187,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "resultMs": 971.0305709999957,
+      "found": false,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "resultMs": 426.53655499999877,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "resultMs": 389.4402370000025,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "resultMs": 1103.161460000003,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "resultMs": 1037.9416819999897,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "resultMs": 1195.6156360000023,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 127430,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "resultMs": 1052.5193620000064,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "resultMs": 2276.944180999999,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 264825,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "resultMs": 1821.525913999998,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 203771,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "alex ogura",
+      "resultMs": 4181.159023000015,
+      "found": false,
+      "links": [],
+      "requests": [
+        "/search-shards/fine/616c6578.tsv.gz",
+        "/search-shards/616c.tsv.gz"
+      ],
+      "gzipBytes": 591073,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "alex ogura",
+      "resultMs": 358.99024799998733,
+      "found": true,
+      "links": [
+        "/athlete/alexander-ogura--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/616c6578206f.tsv.gz"
+      ],
+      "gzipBytes": 1154,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom edwards",
+      "resultMs": 970.4636440000031,
+      "found": false,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom edwards",
+      "resultMs": 391.4106839999731,
+      "found": true,
+      "links": [
+        "/athlete/tom-edwards--gb-m",
+        "/athlete/tom-edwards--kh-m",
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d2065.tsv.gz"
+      ],
+      "gzipBytes": 2187,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "rootul patel",
+      "resultMs": 388.1294679999992,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "rootul patel",
+      "resultMs": 469.3701529999962,
+      "found": true,
+      "links": [
+        "/athlete/rootul-patel--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/726f6f.tsv.gz"
+      ],
+      "gzipBytes": 7290,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "thomas edwards",
+      "resultMs": 1063.947583000001,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "thomas edwards",
+      "resultMs": 1164.7993750000023,
+      "found": true,
+      "links": [
+        "/athlete/thomas-edwards--ec-m",
+        "/athlete/thomas-edwards--us-m"
+      ],
+      "requests": [
+        "/search-shards/fine/74686f.tsv.gz"
+      ],
+      "gzipBytes": 103378,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "tom",
+      "resultMs": 1112.8136609999929,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 66374,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "tom",
+      "resultMs": 1226.9562810000207,
+      "found": null,
+      "links": [
+        "/athlete/tom-aaker--id-m",
+        "/athlete/tom-aaker--us-m",
+        "/athlete/tom-abelen--nl-m",
+        "/athlete/tom-abernathy--us-m",
+        "/athlete/tom-abramovici--il-m",
+        "/athlete/tom-absalom--gb-m",
+        "/athlete/tom-acker--de-m",
+        "/athlete/tom-ackerman--us-m",
+        "/athlete/tom-adair--at-m",
+        "/athlete/tom-adams--gb-m"
+      ],
+      "requests": [
+        "/search-shards/fine/746f6d.tsv.gz"
+      ],
+      "gzipBytes": 127430,
+      "errors": []
+    },
+    {
+      "version": "before",
+      "query": "to",
+      "resultMs": 1973.022518999991,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 203771,
+      "errors": []
+    },
+    {
+      "version": "after",
+      "query": "to",
+      "resultMs": 2286.437468999997,
+      "found": null,
+      "links": [
+        "/athlete/to-anh-huynh--vn-f",
+        "/athlete/to-mayya-vu--ua-f",
+        "/athlete/to-nhat-duy--vn-m",
+        "/athlete/to-o-martin-marrero--es-m",
+        "/athlete/to-phuong-pham--vn-f",
+        "/athlete/to-uys--za-m",
+        "/athlete/to-ze-morais--pt-m",
+        "/athlete/toa-rex-wong--cn-m",
+        "/athlete/toan-au-manh--vn-m",
+        "/athlete/toan-ang--vn-m"
+      ],
+      "requests": [
+        "/search-shards/746f.tsv.gz"
+      ],
+      "gzipBytes": 264825,
+      "errors": []
+    }
+  ]
+}
