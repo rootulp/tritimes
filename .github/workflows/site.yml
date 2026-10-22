@@ -131,7 +131,7 @@ jobs:
                              == 'concat("https://www.tritimes.org", http.request.uri.path)'
                          for rule in rules.get('rules', [])):
                   raise RuntimeError('The apex-to-www redirect must be configured before DNS cutover')
-              https_expression = '(http.host eq "www.tritimes.org" and http.request.scheme eq "http")'
+              https_expression = '(http.host eq "www.tritimes.org" and starts_with(http.request.full_uri, "http://"))'
               if not any(rule.get('enabled') and rule.get('expression') == https_expression for rule in rules.get('rules', [])):
                   get('/zones/' + zone['id'] + '/rulesets/' + rules['id'] + '/rules', 'POST', {
                       'description': 'TriTimes www HTTP to HTTPS', 'enabled': True,
