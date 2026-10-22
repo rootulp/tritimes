@@ -176,6 +176,12 @@ previews). A PR deploys an isolated `tritimes-preview-pr-<number>` Worker. Main
 pushes deploy `tritimes-preview`. Remove obsolete PR preview Workers when done.
 The site is public data and these previews are public URLs.
 
+An optional `Preview URL: https://<worker>.<account>.workers.dev` line in a PR's
+description enables a separate live browser CI job, using normal HTTPS trust on
+the GitHub runner. Keep that preview current and available while the line is
+present; remove the line when a temporary preview expires. Fork PRs never
+receive deployment credentials, and the live test job has no deployment secrets.
+
 Optional repository variables `GOOGLE_SITE_VERIFICATION` and
 `PUBLIC_CF_BEACON_TOKEN` are passed to the build for Search Console and Cloudflare
 Web Analytics. Both are public site identifiers, not deployment credentials.

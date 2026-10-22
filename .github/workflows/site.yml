@@ -23,6 +23,47 @@ permissions:
   contents: read
 
 jobs:
+  live-preview:
+    if: github.event_name == 'pull_request' && contains(github.event.pull_request.body, 'Preview URL: https://')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Read the explicitly linked Cloudflare preview
+        id: preview
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const match = /^Preview URL: (https:\/\/[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev)\/?$/m.exec(process.env.PR_BODY ?? '');
+          if (!match) throw new Error('Preview URL must be an HTTPS workers.dev origin on its own line');
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `url=${match[1]}\n`);
+          JS
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Browser parity on the actual Cloudflare CDN
+        env:
+          BASE_URL: ${{ steps.preview.outputs.url }}
+        run: npm run e2e -- --reporter=list,html
+      - name: Upload live browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-live-browser-${{ github.run_id }}
+          path: |
+            site/playwright-report/
+            site/test-results/
+          retention-days: 7
+
   site:
     runs-on: ubuntu-latest
     timeout-minutes: 35
