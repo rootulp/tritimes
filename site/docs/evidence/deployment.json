@@ -1,0 +1,20 @@
+{
+  "startedAt": "2026-10-22T05:55:15.767Z",
+  "finishedAt": "2026-10-22T05:56:50.912Z",
+  "base": "https://tritimes-migration-preview.lackadaisical-tracker.workers.dev",
+  "routesChecked": 3276,
+  "routesSha256": "e4aa7154fea894ae8041ec3333050342e8f266c073e5f326ecef88a4d3947f40",
+  "allStatuses200": true,
+  "missingStaticRoutesReturn404": true,
+  "dataChecks": [
+    "race/im-arizona-2025.json.gz",
+    "course/im703-swansea.json.gz",
+    "races.json.gz"
+  ],
+  "searchChecks": [
+    "search-shards/fine/726f6f.tsv.gz",
+    "search-shards/fine/6d61726b.tsv.gz",
+    "search-shards/fine/6d61726961.tsv.gz"
+  ],
+  "method": "HEAD every generated HTML route plus robots, sitemap and representative rewritten URLs; GET/decompress/byte-compare representative data. curl retains configured TLS verification and proxy trust. This is HTTP/data verification, not a live browser interaction test."
+}

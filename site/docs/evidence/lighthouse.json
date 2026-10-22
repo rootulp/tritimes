@@ -1,0 +1,345 @@
+{
+  "generatedAt": "2026-10-22T06:08:09.001Z",
+  "base": "http://127.0.0.1:8787",
+  "runs": 3,
+  "revision": "bf61ed21a67f9a8f998303bc4d9fc44f839df819",
+  "conditions": "Lighthouse 12.6.1 default mobile simulated Slow 4G and 4x CPU slowdown; fresh Chrome process per run",
+  "samples": [
+    {
+      "page": "/",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 912.9405999999999,
+      "fcpMs": 912.9405999999999,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 919.2517,
+      "fcpMs": 919.2517,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1216.2873,
+      "fcpMs": 1063.5727499999998,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/races",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1565.83365,
+      "fcpMs": 1412.861375,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/races",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1514.8176,
+      "fcpMs": 1362.348,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/races",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1257.3939,
+      "fcpMs": 1257.3939,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/race/im703-oceanside-2025",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 917.9271000000001,
+      "fcpMs": 917.9271000000001,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/race/im703-oceanside-2025",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1373.68875,
+      "fcpMs": 1298.68875,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/race/im703-oceanside-2025",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1216.9665,
+      "fcpMs": 1216.9665,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/race/im-arizona-2025/result/0",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 0.89,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "lcpMs": 2262.3439,
+      "fcpMs": 912.3439000000001,
+      "cls": 0,
+      "tbtMs": 8,
+      "warnings": []
+    },
+    {
+      "page": "/race/im-arizona-2025/result/0",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 0.89,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "lcpMs": 2264.8485,
+      "fcpMs": 914.8485000000001,
+      "cls": 0,
+      "tbtMs": 10,
+      "warnings": []
+    },
+    {
+      "page": "/race/im-arizona-2025/result/0",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 0.89,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "lcpMs": 2264.9284,
+      "fcpMs": 914.9284,
+      "cls": 0,
+      "tbtMs": 10,
+      "warnings": []
+    },
+    {
+      "page": "/athlete/rootul-patel--us-m",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1871.9007499999998,
+      "fcpMs": 928.7602999999999,
+      "cls": 0.08383961117861483,
+      "tbtMs": 4,
+      "warnings": []
+    },
+    {
+      "page": "/athlete/rootul-patel--us-m",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1839.7929999999997,
+      "fcpMs": 1069.8965,
+      "cls": 0.08383961117861483,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/athlete/rootul-patel--us-m",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1860.5783999999996,
+      "fcpMs": 915.1446000000001,
+      "cls": 0.08383961117861483,
+      "tbtMs": 3,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-swansea",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1516.48245,
+      "fcpMs": 1366.48245,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-swansea",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1369.8521999999998,
+      "fcpMs": 1294.8521999999998,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-swansea",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1517.1369,
+      "fcpMs": 1367.1369,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-mallorca",
+      "run": 1,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.96,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1968.5515499999997,
+      "fcpMs": 1968.5515499999997,
+      "cls": 0,
+      "tbtMs": 162,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-mallorca",
+      "run": 2,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.94,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 2040.435,
+      "fcpMs": 1886.8625,
+      "cls": 0,
+      "tbtMs": 212,
+      "warnings": []
+    },
+    {
+      "page": "/courses/im703-mallorca",
+      "run": 3,
+      "lighthouseVersion": "12.6.1",
+      "scores": {
+        "performance": 0.96,
+        "accessibility": 0.95,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1969.6589999999997,
+      "fcpMs": 1969.6589999999997,
+      "cls": 0,
+      "tbtMs": 157,
+      "warnings": []
+    }
+  ]
+}
