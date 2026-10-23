@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import GlobalSearchBar from "./GlobalSearchBar";
 
 /** Body of the 404 page; also shown by the result/athlete pages for unknown URLs. */
@@ -49,12 +50,12 @@ export function setPageMeta(title: string, description: string, canonical: strin
   set('meta[name="description"]', "content", description);
   set('meta[property="og:title"]', "content", title);
   set('meta[property="og:description"]', "content", description);
-  set('meta[property="og:url"]', "content", `https://tritimes.org${canonical}`);
+  set('meta[property="og:url"]', "content", `${SITE_URL}${canonical}`);
   let link = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
   if (!link) {
     link = document.createElement("link");
     link.rel = "canonical";
     document.head.appendChild(link);
   }
-  link.href = `https://tritimes.org${canonical}`;
+  link.href = `${SITE_URL}${canonical}`;
 }

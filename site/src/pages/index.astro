@@ -1,9 +1,9 @@
 ---
-import { organizationJsonLd } from "@/lib/organization";
 import Base from "@/layouts/Base.astro";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 import { getRaces, getRacePage } from "@/lib/build-cache";
 import { formatAthleteName } from "@/lib/format";
+import { SITE_URL, SITE_DESCRIPTION, ORGANIZATION } from "@/lib/site";
 
 const races = getRaces();
 const resultCount = races.reduce((n, race) => n + race.finishers, 0);
@@ -17,18 +17,19 @@ const seconds = athlete.finishTime.split(":").reduce((n, part) => n * 60 + Numbe
 const athleteBin = bins.findIndex((bin) => seconds >= bin.rangeStart && seconds < bin.rangeEnd);
 const resultUrl = `/race/${race.slug}/result/${athlete.id}`;
 const jsonLd = {
-  "@context": "https://schema.org", "@type": "WebSite", name: "TriTimes", url: "https://tritimes.org",
-  description: "IRONMAN and IRONMAN 70.3 race results with full-field time distributions and percentiles for swim, bike, and run.",
+  "@context": "https://schema.org", "@type": "WebSite", name: "TriTimes", url: SITE_URL,
+  publisher: { "@id": ORGANIZATION["@id"] },
+  description: SITE_DESCRIPTION,
 };
 ---
 
-<Base jsonLd={[jsonLd, organizationJsonLd(import.meta.env.PUBLIC_CONTACT_EMAIL)]} canonical="/">
+<Base jsonLd={jsonLd} canonical="/">
   <main id="main-content" class="max-w-6xl w-full mx-auto px-4">
     <section class="home-hero" aria-labelledby="home-heading">
       <div>
-        <p class="eyebrow">Swim. Bike. Run. Understand.</p>
-        <h1 id="home-heading" class="hero-title">Your race.<br /><span>In perspective.</span></h1>
-        <p class="hero-description">Look beyond the finish time. Explore your IRONMAN &amp; 70.3 results and see where you stand in every discipline.</p>
+        <h1 id="home-heading" class="eyebrow">TriTimes triathlon results</h1>
+        <p class="hero-title">Your race.<br /><span>In perspective.</span></p>
+        <p class="hero-description">Look beyond the finish time. Explore your IRONMAN &amp; 70.3 triathlon results with TriTimes and see where you stand in every discipline.</p>
         <div class="home-search">
           <label for="global-search" class="block text-sm font-semibold mb-2">Find an athlete</label>
           <GlobalSearchBar client:load />

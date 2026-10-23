@@ -1,5 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
+import { SITE_URL } from "@/lib/site";
 import RaceBody from "@/components/RaceBody.astro";
 import { getRaces, getRacePage } from "@/lib/build-cache";
 import { courseSlugOf } from "@/lib/races";
@@ -26,7 +27,7 @@ const jsonLd = {
   eventStatus: "https://schema.org/EventScheduled",
   ...(race.date ? { startDate: race.date } : {}),
   ...(location ? { location: { "@type": "Place", name: location } } : {}),
-  url: `https://tritimes.org/race/${slug}`,
+  url: `${SITE_URL}/race/${slug}`,
 };
 ---
 

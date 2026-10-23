@@ -89,7 +89,8 @@ test("light content and navigation remain available without JavaScript", async (
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL });
   const page = await context.newPage();
   await page.goto("/");
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("Your race.");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("TriTimes triathlon results");
+  await expect(page.locator(".hero-title")).toContainText("Your race.");
   await expect(page.locator("#theme-toggle")).toBeHidden();
   await page.getByRole("link", { name: "Browse races" }).click();
   await expect(page.getByRole("heading", { name: "All Races", exact: true })).toBeVisible();
