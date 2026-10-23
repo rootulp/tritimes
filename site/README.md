@@ -19,6 +19,7 @@ npx playwright install chromium
 npm run e2e              # desktop and mobile against the built site
 npm run test:design      # both themes, Chromium/Firefox/WebKit, desktop + phones
 npm run verify:assets    # enforce Cloudflare Free file count and size limits
+npm run verify:readiness # GET/byte-compare every built endpoint against local preview
 npm run audit:prepare    # build the original application's data artifacts
 npm run audit            # compare the entire corpus against the original app
 npm run benchmark        # repeated throttled browser measurements
@@ -74,6 +75,39 @@ Organization JSON-LD uses the existing feedback form. The owner's postal address
 is intentionally omitted; the audit's complete Organization check will therefore
 remain unmet. Set the build variable `PUBLIC_CONTACT_EMAIL` only after a dedicated
 address can receive mail. No placeholder email is published. To create
-`support@tritimes.org`, provision a mailbox or configure Cloudflare Email Routing
+`contact@tritimes.org`, provision a mailbox or configure Cloudflare Email Routing
 with a verified destination inbox and the required DNS records, then verify receipt.
 Email provisioning requires mail/DNS access and (for forwarding) a destination inbox.
+
+## Agent readiness
+
+The public origin is `https://www.tritimes.org`, matching production's existing
+apex redirect. Canonicals, Open Graph URLs, structured data, robots and sitemap
+use that origin. The homepage names the product, and `/about`, `/contact`, and
+`/privacy` are static pages linked from every footer and the sitemap.
+`src/lib/site.ts` holds the Organization description and verified feedback URL.
+The owner elected to omit a phone number and postal address, so the audit's
+PostalAddress recommendation is deliberately unresolved. Do not invent an
+address or publish an email before delivery is verified.
+
+For a new `contact@tritimes.org` forwarding address, an administrator needs
+Cloudflare Email Routing access and a verified destination inbox. Check existing
+mail DNS before enabling routing; preserve any active mail provider. After the
+route is active, verify delivery, then set `PUBLIC_CONTACT_EMAIL` at build time to publish it on the Contact
+page and in Organization `contactPoint.email`.
+No email address has been provisioned by this change.
+
+After `npm run build`, start `npm run preview`, then run `npm run verify:readiness`.
+It fetches every built public file, compares served bytes to the build, parses
+all JSON-LD and JSON, decompresses all gzip data/search files, and checks shell
+rewrites and true 404 responses. `READINESS_URL=https://… npm run verify:readiness`
+checks the same build against a deployment. The browser readiness tests also
+parse the sitemap as XML and verify the trust pages without JavaScript.
+
+Deployment uses the existing workflow and requires Cloudflare credentials.
+After deploying, repeat verification against the live origin and rescan
+[Is Agentic](https://is-agentic.com/scan/tritimes.org). Compare `scanned_at` because
+the service may return a stored report. Search indexing, brand-query rankings,
+and earned links require time and external work; metadata alone cannot guarantee
+a top-ten result. Search Console verification and sitemap submission require an
+owner's verified account.

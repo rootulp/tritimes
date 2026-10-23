@@ -1,4 +1,4 @@
-const SITE_URL = "https://tritimes.org";
+import { SITE_URL } from "@/lib/site";
 
 // AI training crawlers (see app/src/app/robots.ts for the rationale).
 const BLOCKED_AI_AGENTS = [

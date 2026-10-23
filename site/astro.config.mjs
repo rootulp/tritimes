@@ -7,7 +7,7 @@ const manifest = new URL("./.cache/search-partitions.json", import.meta.url);
 const fineSearchBuckets = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest, "utf8")) : [];
 
 export default defineConfig({
-  site: "https://tritimes.org",
+  site: "https://www.tritimes.org",
   // /race/foo → race/foo.html, which Cloudflare serves at /race/foo with no
   // trailing-slash redirect (matching the current URLs).
   build: { format: "file" },

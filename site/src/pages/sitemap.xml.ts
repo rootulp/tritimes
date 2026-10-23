@@ -1,12 +1,16 @@
 import { getRaces } from "@/lib/build-cache";
 
-const SITE_URL = "https://tritimes.org";
+import { SITE_URL } from "@/lib/site";
 
 // Result and athlete pages are intentionally excluded, as before.
 export function GET() {
   const now = new Date().toISOString();
   const entries: [string, string, string, number][] = [
     ["/", now, "weekly", 1],
+    ["/about", now, "monthly", 0.5],
+    ["/contact", now, "monthly", 0.5],
+    ["/privacy", now, "monthly", 0.5],
+    ["/faq", now, "monthly", 0.5],
     ["/races", now, "weekly", 0.8],
     ["/courses", now, "monthly", 0.6],
     ["/stats", now, "weekly", 0.6],

@@ -1,0 +1,12 @@
+---
+import TrustPage from "@/components/TrustPage.astro";
+import { FEEDBACK_URL } from "@/lib/site";
+import { organizationJsonLd } from "@/lib/organization";
+const email = organizationJsonLd(import.meta.env.PUBLIC_CONTACT_EMAIL).contactPoint.email;
+---
+<TrustPage title="Contact TriTimes" description="Contact TriTimes through its feedback form to report missing races, incorrect results, site issues, or privacy concerns." canonical="/contact">
+  {email && <p>Email <a class="text-link" href={`mailto:${email}`}>{email}</a> to contact TriTimes.</p>}
+  <p>Use the <a class="text-link" href={FEEDBACK_URL}>TriTimes feedback form</a> to contact the project about missing races, incorrect results, athlete search problems, accessibility issues, or suggestions. This is the same feedback channel linked from the footer. The form is hosted by Google and opens outside TriTimes; Google's privacy terms apply to information you submit there.</p>
+  <p>For a results issue, include the TriTimes page URL, the race name and year, the athlete name as published, and a short description of what appears wrong. A link to the corresponding official result helps distinguish a source-data issue from a display problem. For a technical issue, describe the steps you took and the browser or device you used. Do not send passwords, payment details, or other sensitive information.</p>
+  <p>For a privacy question or a request concerning an athlete listing, use the same feedback form and identify the relevant page and your concern. Review the <a class="text-link" href="/privacy">Privacy page</a> for an explanation of published race information and local browser preferences. TriTimes is an independent project and cannot change official race records; corrections to official timing or registration information should also be raised with the event organizer. There is no guaranteed response time.</p>
+</TrustPage>

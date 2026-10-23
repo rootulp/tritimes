@@ -2,6 +2,8 @@
 import "@/styles/global.css";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import { SITE_URL } from "@/lib/site";
+import { organizationJsonLd } from "@/lib/organization";
 
 interface Props {
   /** Page title; the site name is appended. Omit for the default title. */
@@ -14,7 +16,6 @@ interface Props {
   noindex?: boolean;
 }
 
-const SITE_URL = "https://tritimes.org";
 const DEFAULT_TITLE = "TriTimes — IRONMAN & 70.3 Triathlon Results";
 const DEFAULT_DESCRIPTION =
   "Look up IRONMAN and IRONMAN 70.3 race results with full-field time distributions. See your percentile for swim, bike, run, and overall across 1,400+ races since 2002.";
@@ -26,7 +27,7 @@ const ogUrl = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
 const googleVerification = import.meta.env.GOOGLE_SITE_VERIFICATION;
 const beaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
 // Escape "<" so data in JSON-LD can never close the script tag early.
-const jsonLdHtml = jsonLd ? JSON.stringify(jsonLd).replace(/</g, "\\u003c") : null;
+const jsonLdHtml = JSON.stringify([organizationJsonLd(import.meta.env.PUBLIC_CONTACT_EMAIL), ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [])]).replace(/</g, "\\u003c");
 ---
 
 <!doctype html>

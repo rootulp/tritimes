@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+interface Props { title: string; description: string; canonical: string }
+const { title, description, canonical } = Astro.props;
+---
+<Base title={title} description={description} canonical={canonical}>
+  <main id="main-content" class="max-w-3xl w-full mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-foreground mb-8">{title}</h1>
+    <div class="space-y-6 text-secondary leading-relaxed"><slot /></div>
+  </main>
+</Base>

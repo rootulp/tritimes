@@ -24,7 +24,8 @@
     "performance:report": "node scripts/summarize-performance.mjs",
     "verify:deployment": "node scripts/verify-deployment.mjs",
     "test:agents": "node --test --test-isolation=none tests/*.test.ts",
-    "verify:agents": "node scripts/verify-agents.mjs"
+    "verify:agents": "node scripts/verify-agents.mjs",
+    "verify:readiness": "node scripts/verify-readiness.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^6.1.1",
