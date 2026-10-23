@@ -12,7 +12,7 @@
     "dev": "astro dev",
     "preview": "wrangler dev --port 8787",
     "deploy": "wrangler deploy",
-    "test": "vitest run",
+    "test": "vitest run && npm run test:agents",
     "e2e": "playwright test",
     "test:design": "playwright test --config playwright.design.config.ts",
     "check": "astro check",
@@ -22,7 +22,9 @@
     "benchmark": "node --import tsx scripts/benchmark.ts",
     "lighthouse": "node scripts/lighthouse.mjs",
     "performance:report": "node scripts/summarize-performance.mjs",
-    "verify:deployment": "node scripts/verify-deployment.mjs"
+    "verify:deployment": "node scripts/verify-deployment.mjs",
+    "test:agents": "node --test --test-isolation=none tests/*.test.ts",
+    "verify:agents": "node scripts/verify-agents.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^6.1.1",

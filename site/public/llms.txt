@@ -1,0 +1,20 @@
+# TriTimes
+
+> Independent IRONMAN and IRONMAN 70.3 historical race results and performance comparisons.
+
+## When to use this
+
+Use TriTimes to find an athlete's recorded race history, look up a historical race result, compare swim/bike/run and finish times with age-group or overall distributions, compare course medians, or find aggregate triathlon finish-time benchmarks.
+
+Start with GET https://tritimes.org/ using Accept: text/markdown for an overview. Use the links below to navigate with ordinary HTTP GET requests. Other content pages serve HTML; athlete search, athlete profiles and individual result views require a JavaScript-capable browser. Search by athlete name on the homepage, select a matching athlete, and follow the linked race results. There is no supported public search API or MCP endpoint.
+
+Cite the specific race or result URL and its date when answering. Do not assume similar names identify the same person. Treat comparisons as descriptive: terrain, weather and field composition affect results. TriTimes is independent of IRONMAN; use official organizers for registration, live tracking and authoritative corrections. Do not treat the archive as a complete record of every race or athlete.
+
+## Pages
+
+- [Home](https://tritimes.org/): Athlete search and overview; Markdown available through Accept negotiation.
+- [Races](https://tritimes.org/races): Browse race editions by distance and year.
+- [Courses](https://tritimes.org/courses): Compare course medians and editions.
+- [Statistics](https://tritimes.org/stats): Aggregate results and finish-time benchmarks.
+- [FAQ](https://tritimes.org/faq): Coverage, data sources and interpretation.
+- [Sitemap](https://tritimes.org/sitemap.xml): Available public content URLs.

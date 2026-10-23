@@ -1,4 +1,5 @@
 ---
+import { organizationJsonLd } from "@/lib/organization";
 import Base from "@/layouts/Base.astro";
 import GlobalSearchBar from "@/components/GlobalSearchBar";
 import { getRaces, getRacePage } from "@/lib/build-cache";
@@ -21,7 +22,7 @@ const jsonLd = {
 };
 ---
 
-<Base jsonLd={jsonLd} canonical="/">
+<Base jsonLd={[jsonLd, organizationJsonLd(import.meta.env.PUBLIC_CONTACT_EMAIL)]} canonical="/">
   <main id="main-content" class="max-w-6xl w-full mx-auto px-4">
     <section class="home-hero" aria-labelledby="home-heading">
       <div>

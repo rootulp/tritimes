@@ -46,6 +46,12 @@ target; the original Next source remains available in `app/` for reconstruction.
 
 ## Cost and platform fit
 
+Agent content negotiation now adds a small Worker for the homepage and missing
+pages. The assets-only cost discussion below describes the original migration.
+Homepage requests and asset misses count against the Workers invocation quota;
+existing content pages, static bundles, compressed data and search shards bypass it. See the current
+[agent access notes](../README.md#agent-access-and-contact-metadata).
+
 Cloudflare documents [free, unlimited static asset requests and no additional
 asset storage charge](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/).
 The [Free plan permits 20,000 files per version and 25 MiB per file](https://developers.cloudflare.com/workers/platform/limits/#static-assets).

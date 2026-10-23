@@ -135,6 +135,7 @@ jobs:
       WRANGLER_SEND_METRICS: false
       GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
       PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN }}
+      PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -176,7 +177,7 @@ jobs:
           retention-days: 7
 
       # Only these deployment steps receive credentials. Fork PRs receive none.
-      # Each PR gets its own static-only Worker; main pushes update a preview.
+      # Each PR gets its own Worker; main pushes update a preview.
       - name: Deploy isolated preview
         if: github.event_name != 'workflow_dispatch' || inputs.deploy == 'preview'
         env:
