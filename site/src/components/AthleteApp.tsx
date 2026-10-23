@@ -88,8 +88,9 @@ export default function AthleteApp() {
 }
 
 export function AthleteSkeleton() {
+  // Keep the footer offscreen while an unknown-length race history loads.
   return (
-    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8 animate-pulse" aria-busy="true">
+    <main id="main-content" className="max-w-6xl w-full mx-auto px-4 py-8 min-h-screen animate-pulse" aria-busy="true">
       <header className="mb-8">
         <div className="h-9 w-64 bg-subtle rounded mb-2" />
         <div className="h-5 w-40 bg-subtle rounded" />
