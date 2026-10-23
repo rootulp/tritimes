@@ -71,13 +71,14 @@ can return Cloudflare Error 1027 until reset; existing static pages continue
 serving. There is no automatic upgrade or overage bill on Free. A paid plan is
 an optional decision if homepage/missing-route traffic exceeds the free quota.
 
-Organization JSON-LD uses the existing feedback form. The owner's postal address
-is intentionally omitted; the audit's complete Organization check will therefore
-remain unmet. Set the build variable `PUBLIC_CONTACT_EMAIL` only after a dedicated
-address can receive mail. No placeholder email is published. To create
-`contact@tritimes.org`, provision a mailbox or configure Cloudflare Email Routing
-with a verified destination inbox and the required DNS records, then verify receipt.
-Email provisioning requires mail/DNS access and (for forwarding) a destination inbox.
+Organization JSON-LD publishes `support@tritimes.org` alongside the existing
+feedback form. Cloudflare Email Routing is enabled for `tritimes.org`, with its
+MX, SPF, and DKIM records installed and an enabled exact-address forwarding rule
+to the owner's verified private inbox. The destination is managed in Cloudflare;
+do not publish it in this repository. Other addresses are not caught by this rule.
+This is an inbound forwarding alias, not a mailbox or an outbound email service.
+The owner's postal address is intentionally omitted; the audit's complete
+Organization check will therefore remain unmet.
 
 ## Agent readiness
 
@@ -90,12 +91,11 @@ The owner elected to omit a phone number and postal address, so the audit's
 PostalAddress recommendation is deliberately unresolved. Do not invent an
 address or publish an email before delivery is verified.
 
-For a new `contact@tritimes.org` forwarding address, an administrator needs
-Cloudflare Email Routing access and a verified destination inbox. Check existing
-mail DNS before enabling routing; preserve any active mail provider. After the
-route is active, verify delivery, then set `PUBLIC_CONTACT_EMAIL` at build time to publish it on the Contact
-page and in Organization `contactPoint.email`.
-No email address has been provisioned by this change.
+`support@tritimes.org` is the default in `src/lib/site.ts`, used by the Contact
+page and Organization `contactPoint.email`. `PUBLIC_CONTACT_EMAIL` can override
+it at build time, but only use an address with a working mailbox or verified
+forwarding destination. Confirm Cloudflare routing remains enabled when changing
+mail DNS, and test delivery from a different sender than the destination inbox.
 
 After `npm run build`, start `npm run preview`, then run `npm run verify:readiness`.
 It fetches every built public file, compares served bytes to the build, parses
