@@ -4,11 +4,11 @@
 
 ## Cloudflare migration
 
-The proposed replacement lives in [`site/`](site/README.md): Astro generates static
+The production Cloudflare site lives in [`site/`](site/README.md): Astro generates static
 HTML, with Preact islands for search, charts, result pages, and athlete histories.
-It deploys to Cloudflare Workers Static Assets without server code or a paid
-Workers subscription. The existing Next.js application in `app/` remains available
-for production and rollback until cutover is approved.
+It deploys to Cloudflare Workers Static Assets with a small Worker for Markdown
+content negotiation. The original Next.js application in `app/` remains available
+as a data-parity oracle and rollback source.
 
 See [`site/docs/migration.md`](site/docs/migration.md) for feature parity, costs,
 measurement methodology, known differences, and deployment/cutover instructions.

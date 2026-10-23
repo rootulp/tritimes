@@ -2,10 +2,13 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "tritimes",
   "compatibility_date": "2026-10-01",
-  // Static assets only: no Worker script runs, so requests are free and unmetered.
+  // Negotiate homepage and missing-page Markdown; preserve static asset routing.
+  "main": "worker/index.ts",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page",
+    "binding": "ASSETS",
+    "run_worker_first": ["/"],
+    "not_found_handling": "none",
     "html_handling": "auto-trailing-slash"
   },
   "workers_dev": true,

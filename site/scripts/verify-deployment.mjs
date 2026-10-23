@@ -16,7 +16,7 @@ const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap((entr
 });
 const routes = walk("dist").filter((f) => f.endsWith(".html") && f !== "dist/404.html")
   .map((f) => "/" + f.slice(5).replace(/\.html$/, "").replace(/^index$/, ""));
-routes.push("/robots.txt", "/sitemap.xml", "/athlete/rootul-patel--us-m", "/race/im-arizona-2025/result/0");
+routes.push("/llms.txt", "/robots.txt", "/sitemap.xml", "/athlete/rootul-patel--us-m", "/race/im-arizona-2025/result/0");
 const rows = [];
 let next = 0;
 const startedAt = new Date().toISOString();
@@ -68,3 +68,6 @@ fs.mkdirSync("artifacts/deployment", { recursive: true });
 fs.writeFileSync("artifacts/deployment/summary.json", JSON.stringify(report, null, 2) + "\n");
 fs.writeFileSync("artifacts/deployment/routes.json", JSON.stringify(rows, null, 2) + "\n");
 console.log(JSON.stringify(report, null, 2));
+
+// Also inspect final GET bodies and content negotiation, not just HEAD statuses.
+await import("./verify-agents.mjs");

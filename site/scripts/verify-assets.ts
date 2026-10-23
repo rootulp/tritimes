@@ -15,7 +15,7 @@ const sizes = files.map((file) => ({ file, bytes: fs.statSync(file).size }));
 const largest = sizes.sort((a, b) => b.bytes - a.bytes)[0];
 assert(files.length <= 20_000, `${files.length} assets exceed the Workers Free limit of 20,000`);
 assert(largest.bytes <= 25 * 1024 * 1024, `${largest.file} exceeds the 25 MiB per-file limit`);
-assert(!files.some((file) => file.endsWith("_worker.js")), "Expected an assets-only deployment");
+assert(!files.some((file) => file.endsWith("_worker.js")), "Worker code must stay outside the public static assets");
 const published = new Set(files.map((file) => file.replace(/^dist\//, "")));
 const links = new Set<string>();
 for (const file of files.filter((file) => file.endsWith(".html"))) {
