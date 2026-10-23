@@ -4,7 +4,7 @@ export const FEEDBACK_URL = "https://docs.google.com/forms/d/e/1FAIpQLScavYEE5U8
 export const SITE_DESCRIPTION = "TriTimes is an independent triathlon results viewer for IRONMAN and IRONMAN 70.3 races, with athlete histories, full-field time distributions, and swim, bike, run, and overall percentiles.";
 
 // The operator chose not to publish a phone number or postal address.
-// Add a direct email only once its mailbox or forwarding route is verified.
+// Cloudflare Email Routing forwards this address to a verified private inbox.
 export const ORGANIZATION = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -15,6 +15,7 @@ export const ORGANIZATION = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
+    email: "support@tritimes.org",
     url: FEEDBACK_URL,
   },
 };

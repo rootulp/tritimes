@@ -62,15 +62,15 @@ test("Vary is case insensitive, idempotent, and preserves wildcard", () => {
   }
 });
 
-test("Organization uses the existing feedback contact without publishing an address or invented email", () => {
+test("Organization publishes the verified support email and feedback form without a postal address", () => {
   const schema = organizationJsonLd();
   assert.equal(schema["@type"], "Organization");
   assert.equal(schema.contactPoint["@type"], "ContactPoint");
   assert.ok(schema.contactPoint.contactType);
   assert.ok(schema.contactPoint.url.startsWith("https://docs.google.com/forms/"));
   assert.ok(!("address" in schema));
-  assert.ok(!("email" in schema.contactPoint));
-  assert.equal(organizationJsonLd("support@tritimes.org").contactPoint.email, "support@tritimes.org");
+  assert.equal(schema.contactPoint.email, "support@tritimes.org");
+  assert.equal(organizationJsonLd("other@tritimes.org").contactPoint.email, "other@tritimes.org");
   assert.throws(() => organizationJsonLd("not an email"));
 });
 
